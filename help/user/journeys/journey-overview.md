@@ -3,9 +3,9 @@ title: アカウントジャーニー
 description: アカウントジャーニーと、その作成方法および管理方法について説明します。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 このテーブルには、名前と作成者で検索する機能が含まれています。 並べ替えは現在利用できません。
 
-右上隅の列アイコンをクリックし、チェックボックスをオンまたはオフにすることで、表示されるテーブルをカスタマイズできます。
+右上隅の _列_ アイコンをクリックし、チェックボックスをオンまたはオフにすることで、表示されるテーブルをカスタマイズできます。
 
 ![ アカウントジャーニーリストに表示する列を選択 ](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ _[!UICONTROL アカウントジャーニー]_ リストで（リンクとして�
 
 ![ アカウントジャーニーワークスペース ](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-各ジャーニーのエディターヘッダーには、以下が含まれます。
+各アカウントジャーニーのエディターヘッダーには、次のものが含まれます。
 
 * ジャーニー名
 * 名前を編集する機能（_編集_ アイコン

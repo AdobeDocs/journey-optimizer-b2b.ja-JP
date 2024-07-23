@@ -3,7 +3,7 @@ title: 購入グループの作成
 description: 購入グループを作成する方法を説明します。
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 購入グループの作成
 
-購入グループを作成すると、[ ソリューションの関心 ](./solution-interests.md) を通じてアカウントジャーニーで使用できます。
+購入グループを作成すると、[ ソリューションの興味 ](./solution-interests.md) を通じて、アカウントジャーニーで使用できるようになります。
 
 1. Adobe Experience Platformのホームページで、「Adobe Journey Optimizer B2B Edition」をクリックします。
 

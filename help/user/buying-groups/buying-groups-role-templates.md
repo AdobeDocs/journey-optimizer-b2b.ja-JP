@@ -3,9 +3,9 @@ title: 購買グループ ロール テンプレート
 description: 購入グループコンポーネントとして使用する役割テンプレートの定義について説明します。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,23 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
 1. テンプレート用に定義する各役割のルールを追加します。
 
-   現在のリリースには、`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`、`Other` の 6 つの役割があります。
+* リストから **[!UICONTROL 購入グループの役割]** を選択します。
 
-   ![ 購入グループの役割のリスト ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+  現在のリリースには、`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`、`Other` の 6 つの役割があります。
 
-   * リストから役割を選択します。
+![ 購入グループの役割のリスト ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-   * 「**[!UICONTROL 条件を追加]**」をクリックします。
+* エンゲージメントスコアの計算に使用される役割の **[!UICONTROL 重み付け]** を設定します。
+
+  各オプションの値は、スコア計算のパーセンテージ（[!UICONTROL  簡易 ] = 20、[!UICONTROL  軽度 ] = 40、[!UICONTROL  標準 ] = 60、[!UICONTROL  重要 ] = 80、[!UICONTROL  重要 ] = 100）に変換されます。
+
+  例えば、重要、重要、標準を使用する役割を含む役割テンプレートは、100/240、80/240、60/240 に変換されます。
+
+* **[!UICONTROL 自動割り当ての条件を追加]** – 条件に一致する購買グループにメンバーを自動割り当てするための条件を追加する場合は、このチェックボックスを選択します。 チェックボックスが選択されていない場合、条件の追加は不要です。
+
+* **[!UICONTROL 完全性スコアの場合は必須]** – 完全性スコアの計算要件とする役割の場合は、このチェックボックスを選択します。—>
+
+* 「**[!UICONTROL 条件を追加]**」をクリックします。
 
    * 条件ダイアログで、**[!UICONTROL Person 属性]** のリストを展開し、役割に一致させるために使用する属性を見つけます。 右にドラッグして、フィルタースペースにドロップします。
 
@@ -77,19 +87,15 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
    * 「**[!UICONTROL 完了]**」をクリックします。
 
-   テンプレートに含める追加の役割ごとに、「**[!UICONTROL 別の役割を追加]**」をクリックし、役割に一致する 1 つ以上の条件を定義します。
+テンプレートに含める追加の役割ごとに、「**[!UICONTROL 別の役割を追加]**」をクリックし、役割に一致する 1 つ以上の条件を定義します。
 
-   ![ 複数の役割が定義された役割テンプレート ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+![ 複数の役割が定義された役割テンプレート ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. テンプレートを使用する準備が整ったら、右上の **[!UICONTROL Publish]** をクリックします。
 
    テンプレートを公開すると、そのテンプレートは _ライブ_ ステータスに設定され、ソリューションの関心に関連付けることができます。 役割テンプレートを公開するには、定義済みの役割が少なくとも 1 つ必要です。
 
    変更内容は「_ドラフト_ ステータスで自動保存されます。 役割テンプレートを公開する準備が整っていない場合は、ページ上部の左向き（戻る）矢印をクリックして、役割テンプレート リストに戻ります。
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## 下書き役割テンプレートの編集
 

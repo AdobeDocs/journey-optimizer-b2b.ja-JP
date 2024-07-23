@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: Adobe Journey Optimizer B2B Edition の機能の使用方法を説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 2%
 
 ---
@@ -88,24 +88,25 @@ Beta プログラムに参加して、Adobe Journey Optimizer B2B Edition Beta �
       <strong> 購入グループ </strong><br/><a href="./buying-groups/buying-groups-overview.md"> 購入グループの概要 </a><br/><a href="./buying-groups/buying-groups-role-templates.md"> ロールテンプレート </a><br/><a href="./buying-groups/solution-interests.md"> ソリューションの関心 </a><br/><a href="./buying-groups/buying-groups-create.md"> 購入グループの作成 </a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>ジャーニーコンテンツ </strong><br/><a href="./content/email-authoring.md"> メールオーサリング </a><br/><a href="./content/ai-assistant-emails.md"> メール </a><br/><a href="./content/sms-authoring.md">SMS オーサリング用 AI アシスタント </a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <strong> アカウントジャーニー </strong><br/><a href="./journeys/journey-overview.md">ジャーニーの概要 </a><br/><a href="./journeys/journey-nodes.md">ジャーニーノード </a><br/><a href="./journeys/journey-overview.md#create-an-account-journey"> アカウントジャーニーの作成 </a>
     </td>
   </tr>
   <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong>ジャーニーコンテンツ </strong><br/><a href="./content/email-authoring.md"> メールオーサリング </a><br/><a href="./content/ai-assistant-emails.md"> メール </a><br/><a href="./content/sms-authoring.md">SMS オーサリング用 AI アシスタント </a>
+    </td>
         <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
-      <strong> アカウントジャーニー </strong><br/><a href="./journeys/journey-overview.md">ジャーニーの概要 </a><br/><a href="./journeys/journey-nodes.md">ジャーニーノード </a><br/><a href="./journeys/journey-overview.md#create-an-account-journey"> アカウントジャーニーの作成 </a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <strong>AssetsMarketo Engage </strong><br/><a href="./content/assets-overview.md"> 概要 </a><br/><a href="./content/marketo-engage-design-studio.md">Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
       <strong> インサイト </strong><br/><a href="./dashboards/buying-groups-dashboard.md"> 購入グループダッシュボード </a><br/><a href="./dashboards/journeys-dashboard.md">ジャーニーダッシュボード </a><br/><a href="./dashboards/engagement-dashboard.md"> エンゲージメントダッシュボード </a>
     </td>
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Integrations</strong><br/><a href="./integrations/experience-manager-assets-integration.md">Adobe Experience Manager Assets</a>
-    </td>
-  </tr>
+
+</tr>
 </table>
 
 <!-- 
