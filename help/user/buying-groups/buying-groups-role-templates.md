@@ -1,0 +1,126 @@
+---
+title: 購買グループ ロール テンプレート
+description: 購入グループコンポーネントとして使用する役割テンプレートの定義について説明します。
+feature: Buying Groups
+exl-id: 9206356e-e9cf-486c-8982-c7d893222413
+source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 0%
+
+---
+
+# 購買グループ ロール テンプレート
+
+B2B 市場では、購入の決定は通常、複数の個人によって行われます。 これらの個人は、組織内での役割に応じて意思決定プロセスに参加します。 各製品オファーのタイプまたはアカウントのユースケースに従って、これらの役割定義を含む購買グループ役割テンプレートを作成します。
+
+## 役割テンプレートへのアクセスと参照
+
+1. Adobe Experience Platformのホームページで、「Adobe Journey Optimizer B2B Edition」をクリックします。
+
+1. 左側のナビゲーションで「**[!UICONTROL 購入グループ]**」をクリックします。
+
+1. _[!UICONTROL 購入グループ]_ ページで、「**[!UICONTROL 役割テンプレート]**」タブを選択します。
+
+   ![ 「役割テンプレート」タブ ](assets/roles-templates-tab.png){width="700" zoomable="yes"}
+
+   このタブには、次の列を持つ既存のすべての役割テンプレートの在庫リストが表示されます。
+
+   * [!UICONTROL 名前]
+   * [!UICONTROL ステータス]
+   * [!UICONTROL  作成日 ]
+   * [!UICONTROL  作成者 ]
+   * [!UICONTROL  最終更新日 ]
+   * [!UICONTROL  最終更新者 ]
+   * [!UICONTROL  公開日 ]
+   * [!UICONTROL  公開者 ]
+
+   このリストは、デフォルトで _[!UICONTROL 最終更新]_ 列で並べ替えられます。
+
+   _ライブ_ （公開済み）ロールテンプレートの数は、ページの右上に表示されます。 すべての役割テンプレートのステータスは、`Draft` または `Live` です。
+
+1. リストを名前でフィルタリングするには、リストの上部にある検索フィールドを使用します。
+
+   名前の最初の数文字を入力して、表示されるリストを一致する項目に減らします。
+
+   ![ 検索文字列による役割テンプレートのフィルタリング ](assets/roles-templates-search.png){width="700" zoomable="yes"}
+
+## 役割テンプレートの作成
+
+1. 「_[!UICONTROL 役割テンプレート]_」タブで、右上隅にある **[!UICONTROL テンプレートを作成]** をクリックします。
+
+1. ダイアログで、テンプレートに一意の **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を入力します。
+
+   ![ 役割テンプレートを作成ダイアログ ](assets/roles-template-create-dialog.png){width="400"}
+
+1. テンプレート用に定義する各役割のルールを追加します。
+
+   現在のリリースには、`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`、`Other` の 6 つの役割があります。
+
+   ![ 購入グループの役割のリスト ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+
+   * リストから役割を選択します。
+
+   * 「**[!UICONTROL 条件を追加]**」をクリックします。
+
+   * 条件ダイアログで、**[!UICONTROL Person 属性]** のリストを展開し、役割に一致させるために使用する属性を見つけます。 右にドラッグして、フィルタースペースにドロップします。
+
+     ![ ロールテンプレートの追加条件のドラッグ属性 ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+
+   * 属性を使用して、1 つ以上の値を使用してマッチングフィルターを作成します。
+
+     次の例では、ジョブタイトル属性を使用して、意思決定者の一致を識別します。 `Director` または `Sr Director` で始まるタイトルの値が、条件で true と評価される場合。
+
+     ![ 役職を使用したロールテンプレートの条件の例 ](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+
+   * 必要に応じて、別の属性と条件を追加し、役割との一致の条件をさらに絞り込みます。
+
+   * 「**[!UICONTROL 完了]**」をクリックします。
+
+   テンプレートに含める追加の役割ごとに、「**[!UICONTROL 別の役割を追加]**」をクリックし、役割に一致する 1 つ以上の条件を定義します。
+
+   ![ 複数の役割が定義された役割テンプレート ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+1. テンプレートを使用する準備が整ったら、右上の **[!UICONTROL Publish]** をクリックします。
+
+   テンプレートを公開すると、そのテンプレートは _ライブ_ ステータスに設定され、ソリューションの関心に関連付けることができます。 役割テンプレートを公開するには、定義済みの役割が少なくとも 1 つ必要です。
+
+   変更内容は「_ドラフト_ ステータスで自動保存されます。 役割テンプレートを公開する準備が整っていない場合は、ページ上部の左向き（戻る）矢印をクリックして、役割テンプレート リストに戻ります。
+<!-- 
+< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
+
+Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
+
+## 下書き役割テンプレートの編集
+
+役割テンプレートが _ドラフト_ 状態の場合、定義済みの役割の編集を続行できます。 加えた変更は、自動的に保存されます。
+
+購入グループの役割、重み付け、自動割り当て、完了度スコアの要件など、役割カードのヘッダーの設定を変更します。
+
+![ 購買グループ ロール プロパティの変更 ](./assets/roles-template-role-properties.png){width="600"}
+
+### 役割のフィルターの変更
+
+役割のフィルタリングロジックを変更するには、役割カードの右上にある _編集_ （鉛筆）アイコンをクリックします。 このアクションにより、_[!UICONTROL 条件]_ ワークスペースが開き、既存のフィルターの変更、別のフィルターの追加、フィルターの削除、フィルターロジックの変更を行うことができます。
+
+### 役割カードの削除
+
+テンプレートから役割を削除する場合は、役割カードの _削除_ （ごみ箱）アイコンをクリックします。
+
+### 役割の優先度の設定
+
+テンプレート内のロールの順序を変更できます。これにより、リードをロールに割り当てる優先度が決まります。 各役割カードの右側に **[!UICONTROL 優先度]** コントローラが表示されます。 右側の _上_ または _下_ 矢印をクリックして、役割カードを優先して上下に移動します。
+
+![ 役割の優先度の変更 ](./assets/roles-template-role-priority.png){width="700"}
+
+## 役割テンプレートの削除
+
+役割テンプレートが _ドラフト_ ステータスの場合、削除できます。
+
+1. リストから役割テンプレートを選択して開きます。
+
+1. 右上の **[!UICONTROL 削除]** をクリックします。
+
+   ![ 役割の優先度の変更 ](./assets/roles-template-delete.png){width="700"}
+
+1. ダイアログで、「**[!UICONTROL 削除]**」をクリックして確定します。
