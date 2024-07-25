@@ -1,11 +1,12 @@
 ---
-title: Experience Manager Assetsの操作
+title: Experience Manager Assets の操作
 description: Adobe Journey Optimizer B2B Edition でコンテンツをオーサリングする際に、接続されたAEM Assets リポジトリの画像アセットを使用する方法について説明します。
 feature: Assets, Content
-source-git-commit: 0bdf0da4db0cbfc781d16f1c50716b1fc8ea4db9
+exl-id: c6864981-209c-4123-8d3f-24deb07026a0
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ Adobe Experience Manager Assetsのas a Cloud ServiceをAdobe Journey Optimizer B
 
 * 新しいコンテンツを作成する場合は、ダイアログで `AEM Assets` を **[!UICONTROL Image Source]** 項目として選択します。
 
-  ![ 作成ダイアログで画像のソースとしてAEM Assetsを選択する ](./assets/create-dialog-aem-assets.png){width="500"}
+  ![ 作成ダイアログで画像のソースとしてAEM Assetsを選択する ](./assets/create-dialog-aem-assets.png){width="400"}
 
 * 既存のコンテンツリソースを開く場合は、右側の _[!UICONTROL 本文]_ パネルで `AEM Assets` を選択します。
 

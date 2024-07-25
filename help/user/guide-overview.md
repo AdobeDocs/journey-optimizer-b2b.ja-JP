@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition ドキュメント
-description: Adobe Journey Optimizer B2B Edition の機能の使用方法を説明します。
+description: 組み込みのジェネレーティブ AI と業界最先端の自動化機能を使用して、アカウントジャーニーを調整し、グループジャーニーを購入するためのAdobe Journey Optimizer B2B Edition 機能の使用方法を説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
+source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 2%
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
@@ -19,23 +19,27 @@ Journey Optimizer B2B Edition の製品とドキュメントに含まれる最�
 
 >[!BEGINTABS]
 
->[!TAB Beta リリースが利用可能になりました ]
+>[!TAB AI アシスタント]
 
-Beta プログラムに参加して、Adobe Journey Optimizer B2B Edition Beta リリースに含まれる多くの機能をご覧ください。
+アカウントベースのマーケティングの概念をすぐに習得し、チームの戦略を最大限に活用するように設計されたJourney Optimizer B2B エディションの機能について学びます。
 
-[!BADGE 詳細情報]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta リリース"}
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="AI アシスタントについて学ぶ"}
 
->[!TAB  メールコンテンツ用 AI アシスタント ]
-
-ジェネレーティブ AI を活用したAdobe Journey Optimizer B2B Edition の AI アシスタントで、コンテンツを次のレベルに引き上げます。 AI アシスタントは、メール全体、ターゲットテキストコンテンツ、およびオーディエンスの共感を得るために特別にカスタマイズされた画像を生成することで、配信の影響を最適化するのに役立ちます。
+ジェネレーティブ AI を活用した、Adobe Journey Optimizer B2B Edition のメールコンテンツ用 AI アシスタントで、コンテンツを次のレベルに引き上げます。 AI アシスタントは、メール全体、ターゲットテキストコンテンツ、およびオーディエンスの共感を得るために特別にカスタマイズされた画像を生成することで、配信の影響を最適化するのに役立ちます。
 
 [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="メール用 AI アシスタントの詳細"}
 
+>[!TAB  ビジュアルフラグメント ]
+
+マーケティングチームメンバーが電子メールコンテンツのアセンブリに使用できるカスタムコンテンツブロックとして、再利用可能なコンポーネントを作成し、設計プロセスを改善します。
+
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="ビジュアルフラグメントについて"}
+
 >[!TAB  買い集め団体 ]
 
-企業全体の統合 B2B データから購入グループを作成し、それらを会社の製品に合わせます。また、カスタマージャーニーに最も正確なターゲティングを拡張するために、各役割に適切なメンバーを定義、特定、ターゲットにする方法を自動化します。
+企業全体の統合 B2B データから購入グループを作成します。 それらを会社の製品に合わせ、各役割に対して適切なメンバーを定義、特定、ターゲットにする方法を自動化して、カスタマージャーニーに対して最も正確なターゲティングを拡張します。
 
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="購入グループについて学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="購入グループについて説明します"}
 
 >[!TAB  アカウントジャーニー ]
 
@@ -45,7 +49,7 @@ Beta プログラムに参加して、Adobe Journey Optimizer B2B Edition Beta �
 
 >[!ENDTABS]
 
-## 基本から始める
+## 基本について学ぶ
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -70,13 +74,13 @@ Beta プログラムに参加して、Adobe Journey Optimizer B2B Edition Beta �
     </tr>
 </table>
 
-## ドキュメントを参照
+## ドキュメントの参照
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong> ログインとホームページ </strong><br/><a href="home-page.md#marketer---new-user"> マーケター – 新規ユーザー </a><br/><a href="home-page.md#marketer---advanced-user"> マーケター – 上級 </a><br/><a href="home-page.md#administrator---new-user"> 管理者 – 新規ユーザー </a><br/><a href="home-page.md#administrator---advanced-user"> 管理者 – 上級 </a>
+      <strong> 基本を学ぶ </strong><br/><a href="home-page.md"> ログインとホームページ </a><br/><a href="./start/get-started.md"> クイックスタートガイダンス </a><br/><a href="./start/ai-assistant.md">AI アシスタント </a>
     </td>
     <!--
     <td>
@@ -99,7 +103,7 @@ Beta プログラムに参加して、Adobe Journey Optimizer B2B Edition Beta �
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong>AssetsMarketo Engage </strong><br/><a href="./content/assets-overview.md"> 概要 </a><br/><a href="./content/marketo-engage-design-studio.md">Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
+      <strong> コンテンツ管理 </strong><br/><a href="./content/assets-overview.md">Assetsの概要 </a><br/><a href="./content/email-templates.md"> メールテンプレート </a><br/><a href="./content/fragments.md"> ビジュアルフラグメント </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>

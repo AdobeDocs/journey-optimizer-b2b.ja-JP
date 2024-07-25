@@ -2,9 +2,9 @@
 title: ログインとホームページ
 description: Journey Optimizer B2B Edition アプリにアクセスし、ホームページ情報を使用する方法を説明します。
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: d5712562beb6038601bea6b91c511a796bc6ddd7
+source-git-commit: 13c25bf654c4cbc35589866d817de224065ab861
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -17,52 +17,63 @@ Adobe Journey Optimizer B2B Edition を使用すると、組み込みのジェ�
 -->
 [!DNL Adobe Journey Optimizer B2B Edition] にアクセスするには、Adobe IDを使用してAdobe Experience Cloudに接続し、「[!DNL Journey Optimizer B2B Edition]」を選択します。
 
-![ 購入グループの参照ページ ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![Adobe Experience Platform アプリ ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 ホームページは、Adobe Experience Platformにログインし、Adobe Journey Optimizer B2B Edition アプリを選択すると表示されます。 Journey Optimizer B2B の取り組みの現状の概要を、詳細なインサイトの形で、また関連するモジュールにすばやくアクセスする方法で説明しています。 また、次に実行すべき理想的なアクションと、包括的なチュートリアルおよびドキュメントのセットをどこで見つけるかに関する情報も提供します。
 
-Journey Optimizer B2B Edition には、マーケターと管理者という 2 つの主要なユーザーペルソナがあります。 各ペルソナには、様々な成熟段階（新規または高度）に固有のホームページがあります。 ページのコンテンツは、各ペルソナが情報に関して必要とするものと、次に実行されるアクションに基づいています。 また、これらのページには、ユーザーが必要な特定の質問やトピックに関する情報をすばやく取得するのに役立つ **AI アシスタント** へのアクセスも含まれ <!-- and to obtain specific recommendations for their challenges or objectives--> す。
+Journey Optimizer B2B Edition には、マーケターと管理者という 2 つの主要なユーザーペルソナがあります。 各ペルソナには、様々な成熟段階（新規または高度）に固有のホームページがあります。 ページのコンテンツは、各ペルソナが情報に関して必要とするものと、次に実行されるアクションに基づいています。 また、これらのページには、ユーザーが必要な特定の質問やトピックに関する情報をすばやく取得するのに役立つ [AI アシスタント ](./start/ai-assistant.md) へのアクセスも含まれ <!-- and to obtain specific recommendations for their challenges or objectives--> す。
 
-## マーケター – 新規ユーザー
+![Journey Optimizer B2B Edition のホームページ ](./assets/home-page.png){width="800" zoomable="yes"}
 
-新規ユーザーのマーケターのホームページは、マーケターがJourney Optimizer B2B とその能力に慣れるのを支援する 3 行で構成されています。 また、新しいユーザーの出発点として機能できる、作成された最新のジャーニーのビューも提供します。
+* **マーケター – 新規ユーザー** – 新規ユーザーの _マーケター_ ホームページは、Journey Optimizer B2B とその機能に慣れるのに役立ちます。 これには、新しいマーケターがシステムのニュアンスを理解し、B2B マーケティング戦略や取り組みの開発を効率的に行えるように、オンボーディングチュートリアルを取得するためのガイド付きチュートリアルが含まれています。
+* **マーケター – 上級ユーザー** – 上級マーケターの _マーケター_ ホームページは、現在のイニシアチブの進行状況や特定のアクションの詳細情報、実行する次の最適なアクション、関連する節へのクイックアクセスに役立ちます。
+* **管理者 – 新規ユーザー** – 新規ユーザーの _管理者_ ホームページは、Journey Optimizer B2B Edition とその機能に慣れるうえで役に立ちます。 新しい管理者がステップバイステップのオンボーディングジャーニーを取得して、システムのニュアンスを理解し、B2B マーケティング戦略やイニシアチブの開発を効率的にするためのガイド付きチュートリアルが含まれています。
+* **管理者 – 詳細ユーザー** – 詳細管理者の _管理者_ ホームページは、インスタンスの現在のステータスに関する詳細情報の取得と、マーケターにとっての効率的かつ効果的な特定のアクションに関する情報の取得を支援します。
 
-最初の行は、新しいマーケターがシステムのニュアンスを理解し、B2B マーケティング戦略やイニシアチブの開発を効率的に行えるように、オンボーディングチュートリアルを取得するためのガイド付きチュートリアルで構成されています。
+<!-- 
 
-2 行目は、アカウントジャーニーを作成するためのベストプラクティスに対するインスピレーションをマーケターが得られるように、プラットフォーム全体で作成された最近のAJO B2B ジャーニーで構成されています。
+## Marketer - new user
 
-3 行目には、マーケターが特定のトピックに関する詳細情報を取得するのに役立つ学習リソースが表示されます。
+The Marketer home page for a new user consists of three rows that assist the marketer in getting accustomed to Journey Optimizer B2B and its capabilities. It also provides a view of the latest journeys that have been created, which can serve as a starting point for a new user.
 
-## マーケター – 上級ユーザー
+The first row consists of a guided walkthrough for the new marketer to obtain an onboarding walkthrough so that they can understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives.
 
-アドバンスマーケターのマーケターのホームページは 4 行で構成されており、現在のイニシアチブの進行状況や特定のアクション、実行する次の最適なアクションに関する詳細情報および関連する節へのクイックアクセスをマーケターが取得するのに役立ちます。
+The second row consists of the recent AJO B2B journeys that have been created across the platform so that the marketer can get inspiration for the best practices to create an account journey.
 
-最初の行は、実行された以前のアクションとイニシアチブの現在の状態に基づいて、B2B マーケターが実行できる次のアクションのセットで構成されます。これにより、イニシアチブの目的に合わせ、目標を迅速に達成するのに役立つ次の移動を行うためのプロンプトが表示されます。
+The third row consists of the learning resources that can help a marketer gain more information on a specific topic.
 
-2 行目には、マーケターがアクセスした最新のアセットが表示されます。これらのアセットを使用すれば、マーケターはアセットを簡単に見つけて更新できます。
+## Marketer - advanced user
 
-3 行目には、マーケターがマーケティングイニシアチブの全体的なパフォーマンスを測定するのに役立つ主要業績評価指標が表示されます。
+The Marketer home page for an advanced marketer consists of four rows that assists the marketer in obtaining more information on the current progress of the initiatives and on specific actions and on the next best action to be taken along with quick access to relevant sections.
 
-4 行目には、マーケターが特定のトピックに関する詳細情報を取得するのに役立つ学習リソースが表示されます。
+The first row consists of the next set of actions that a B2B marketer can take based on the previous actions taken and the current state of the initiative, which provides a prompt for the user to make the next move that would align to the objective of the initiatives and help them reach the goals quickly.
 
-## 管理者 – 新規ユーザー
+The second row consists of the most recent assets accessed by the marketer to make it easier for the marketer to locate them and make updates to the same.
 
-新しい管理者の _管理者_ ホームページは、管理者がJourney Optimizer B2B Edition とその機能に慣れるのを支援し、新しいユーザーの出発点として機能する作成済みの最新のジャーニーを表示する 3 行で構成されています。
+The third row consists of the Key Performance Indicators that can help the marketer gauge the overall performance of the marketing initiatives.
 
-最初の行は、新しいマーケターがシステムのニュアンスを理解し、AJO B2B を使用した B2B マーケティング戦略や取り組みの開発を効率的に行うために、オンボーディングジャーニーを段階的に取得するためのガイド付きチュートリアルで構成されています。
+The fourth row consists of the learning resources that can help a marketer gain more information on a specific topic.
 
-2 行目には、B2B マーケターが最近使用したアセットが 1 つのテーブルに表示されるので、管理者は、どのアセットが現在フォーカスされているかを簡単に把握できます。
+## Administrator - new user
 
-3 行目には、管理者が特定のトピックに関する詳細情報を取得するのに役立つ学習リソースが表示されます。
+The _Admin_ home page for a new administrator consists of three rows that assists the administrator in getting accustomed to Journey Optimizer B2B Edition and its capabilities, and provides a view of the latest journeys that have been created that can serve as a starting point for a new user.
 
-## 管理者 – 上級ユーザー
+The first row consists of a guided walkthrough for the new marketer to obtain a step-by-step onboarding journey to understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives with AJO B2B.
 
-上級管理者の _管理者_ ホームページは 4 行で構成され、インスタンスの現在のステータスに関する詳細情報の取得と、マーケターにとっての効率と効果を高めるために実行できる特定のアクションに関する管理者を支援します。
+The second row consists of the recent assets used by the B2B marketers in a single table to make it easier for the administrator to know which assets are currently under focus.
 
-最初の行は、実行された前のアクションとインスタンスの現在の状態に基づいて、管理者が実行できる次のアクションのセットで構成されます。 これは、管理者がインスタンスのパラメーター（ユーザー権限や特定のモジュール設定など）を必要に応じて更新するためのプロンプトとして機能します。
+The third row consists of the learning resources that would help an administrator gain more information on a specific topic.
 
-2 行目には、B2B マーケターが最近使用したアセットが 1 つのテーブルに表示されるので、管理者は、どのアセットが現在フォーカスされているかを簡単に把握できます。
+## Administrator - advanced user
 
-3 行目には、管理者がユーザーや使用状況などの運用パラメーターの観点からインスタンスの進行状況を測定するのに役立つ主要業績評価指標が表示されます。
+The _Admin_ home page for an advanced administrator consists of four rows that assists the administrator in obtaining more information about the current status of the instance and on specific actions that can be taken to make it more efficient and effective for the marketers.
 
-4 行目には、管理者が特定のトピックに関する詳細情報を取得するのに役立つ学習リソースが表示されます。
+The first row consists of the next set of actions that an administrator can take based on the previous actions taken and the current state of the instance. It serves as a prompt for the administrator to make the necessary updates to the parameters of the instances such as user permissions or any specific module configurations.
+
+The second row consists of the recent assets used by the B2B marketers in a single table to make it easier for the administrator to know which assets are currently under focus.
+
+The third row consists of the Key Performance Indicators that would help the administrators gauge the progress of the instance in terms of operational parameters such as users and usage.
+
+The fourth row consists of the learning resources that would help the administrator gain more information on a specific topic.
+
+-->

@@ -3,10 +3,10 @@ title: 購買グループ ロール テンプレート
 description: 購入グループコンポーネントとして使用する役割テンプレートの定義について説明します。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
+source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,10 +28,10 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
    * [!UICONTROL 名前]
    * [!UICONTROL ステータス]
-   * [!UICONTROL  作成日 ]
-   * [!UICONTROL  作成者 ]
+   * [!UICONTROL 作成日]
+   * [!UICONTROL 作成者]
    * [!UICONTROL  最終更新日 ]
-   * [!UICONTROL  最終更新者 ]
+   * [!UICONTROL 最終更新者]
    * [!UICONTROL  公開日 ]
    * [!UICONTROL  公開者 ]
 
@@ -55,41 +55,41 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
 1. テンプレート用に定義する各役割のルールを追加します。
 
-* リストから **[!UICONTROL 購入グループの役割]** を選択します。
+   * リストから **[!UICONTROL 購入グループの役割]** を選択します。
 
-  現在のリリースには、`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`、`Other` の 6 つの役割があります。
+     現在のリリースには、`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion`、`Other` の 6 つの役割があります。
 
-![ 購入グループの役割のリスト ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![ 購入グループの役割のリスト ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-* エンゲージメントスコアの計算に使用される役割の **[!UICONTROL 重み付け]** を設定します。
+   * エンゲージメントスコアの計算に使用される役割の **[!UICONTROL 重み付け]** を設定します。
 
-  各オプションの値は、スコア計算のパーセンテージ（[!UICONTROL  簡易 ] = 20、[!UICONTROL  軽度 ] = 40、[!UICONTROL  標準 ] = 60、[!UICONTROL  重要 ] = 80、[!UICONTROL  重要 ] = 100）に変換されます。
+     各オプションの値は、スコア計算のパーセンテージ（[!UICONTROL  簡易 ] = 20、[!UICONTROL  軽度 ] = 40、[!UICONTROL  標準 ] = 60、[!UICONTROL  重要 ] = 80、[!UICONTROL  重要 ] = 100）に変換されます。
 
-  例えば、重要、重要、標準を使用する役割を含む役割テンプレートは、100/240、80/240、60/240 に変換されます。
+     例えば、重要、重要、標準を使用する役割を含む役割テンプレートは、100/240、80/240、60/240 に変換されます。
 
-* **[!UICONTROL 自動割り当ての条件を追加]** – 条件に一致する購買グループにメンバーを自動割り当てするための条件を追加する場合は、このチェックボックスを選択します。 チェックボックスが選択されていない場合、条件の追加は不要です。
+   * **[!UICONTROL 自動割り当ての条件を追加]** – 条件に一致する購買グループにメンバーを自動割り当てするための条件を追加する場合は、このチェックボックスを選択します。 チェックボックスが選択されていない場合、条件の追加は不要です。
 
-* **[!UICONTROL 完全性スコアの場合は必須]** – 完全性スコアの計算要件とする役割の場合は、このチェックボックスを選択します。—>
+   * **[!UICONTROL 完全性スコアの場合は必須]** – 完全性スコアの計算要件とする役割の場合は、このチェックボックスを選択します。—>
 
-* 「**[!UICONTROL 条件を追加]**」をクリックします。
+   * 「**[!UICONTROL 条件を追加]**」をクリックします。
 
-   * 条件ダイアログで、**[!UICONTROL Person 属性]** のリストを展開し、役割に一致させるために使用する属性を見つけます。 右にドラッグして、フィルタースペースにドロップします。
+      * 条件ダイアログで、**[!UICONTROL Person 属性]** のリストを展開し、役割に一致させるために使用する属性を見つけます。 右にドラッグして、フィルタースペースにドロップします。
 
-     ![ ロールテンプレートの追加条件のドラッグ属性 ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+        ![ ロールテンプレートの追加条件のドラッグ属性 ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-   * 属性を使用して、1 つ以上の値を使用してマッチングフィルターを作成します。
+      * 属性を使用して、1 つ以上の値を使用してマッチングフィルターを作成します。
 
-     次の例では、ジョブタイトル属性を使用して、意思決定者の一致を識別します。 `Director` または `Sr Director` で始まるタイトルの値が、条件で true と評価される場合。
+        次の例では、ジョブタイトル属性を使用して、意思決定者の一致を識別します。 `Director` または `Sr Director` で始まるタイトルの値が、条件で true と評価される場合。
 
-     ![ 役職を使用したロールテンプレートの条件の例 ](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+        ![ 役職を使用したロールテンプレートの条件の例 ](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * 必要に応じて、別の属性と条件を追加し、役割との一致の条件をさらに絞り込みます。
+      * 必要に応じて、別の属性と条件を追加し、役割との一致の条件をさらに絞り込みます。
 
-   * 「**[!UICONTROL 完了]**」をクリックします。
+      * 「**[!UICONTROL 完了]**」をクリックします。
 
-テンプレートに含める追加の役割ごとに、「**[!UICONTROL 別の役割を追加]**」をクリックし、役割に一致する 1 つ以上の条件を定義します。
+   テンプレートに含める追加の役割ごとに、「**[!UICONTROL 別の役割を追加]**」をクリックし、役割に一致する 1 つ以上の条件を定義します。
 
-![ 複数の役割が定義された役割テンプレート ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![ 複数の役割が定義された役割テンプレート ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. テンプレートを使用する準備が整ったら、右上の **[!UICONTROL Publish]** をクリックします。
 

@@ -1,17 +1,17 @@
 ---
 title: アカウントオーディエンス
 description: アカウントオーディエンスと、そのアカウントベースのジャーニーを有効にする方法について説明します。
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-
 # アカウントオーディエンス
 
-オーディエンスとは、類似の行動や特徴を共有する人々の集まりです。 Journey Optimizer B2B Edition は、Adobe Real-time Customer Data Platform B2B および B2P エディションにあるアカウントのセグメント化機能を使用します。 アカウントのセグメント化を使用すると、システム内の任意の B2B エンティティのデータを活用して、アカウントオーディエンスを生成できます。 これらのアカウントオーディエンスは、Journey Optimizer B2B Edition アカウントジャーニーの入力として機能し、シームレスなアクティベーションとパーソナライゼーション機能を促進します。
+オーディエンスとは、類似した行動や特性を共有する一連のユーザーです。Journey Optimizer B2B Edition は、Adobe Real-time Customer Data Platform B2B および B2P エディションにあるアカウントのセグメント化機能を使用します。 アカウントのセグメント化を使用すると、システム内の任意の B2B エンティティのデータを活用して、アカウントオーディエンスを生成できます。 これらのアカウントオーディエンスは、Journey Optimizer B2B Edition アカウントジャーニーの入力として機能し、シームレスなアクティベーションとパーソナライゼーション機能を促進します。
 
 アカウントオーディエンスとその定義方法について詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences) を参照してください。
 
