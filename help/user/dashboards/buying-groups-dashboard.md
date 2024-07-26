@@ -3,9 +3,9 @@ title: 購買グループ概要ダッシュボード
 description: 購入グループの概要ダッシュボードと、マーケティングチームからの販売ハンドオフを有効にする方法について説明します。
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 データを操作するには、右上隅のアクションメニューを使用します。
 
-![ アイコンをクリックしてアクションメニューにアクセスする ](./assets/buying-group-more-menu.png){width="400"}
+![ アイコンをクリックしてアクションメニューにアクセスする ](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL  ドリルスルー ]
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 ![ グラフデータのドリルスルー ](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-ダッシュボードに適用されたグローバルフィルターは引き継がれ、このページから変更することはできません。
+ダッシュボードに適用されたグローバルフィルターは引き継がれます。
 
 右上のアクションメニューアイコンをクリックし、**[!UICONTROL さらに表示]** を選択して、[ 拡張データとインサイトを表示 ](#view-more) します。
 
@@ -86,4 +86,4 @@ ht-degree: 2%
 
 ![ 拡張データの表示 ](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-データをダウンロードするには、右上隅にある **[!UICONTROL CSV をダウンロード]** をクリックします。
+データをダウンロードするには、右上の **[!UICONTROL CSV をダウンロード]** をクリックします。

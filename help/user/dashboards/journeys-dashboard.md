@@ -1,12 +1,12 @@
 ---
 title: ジャーニーの概要ダッシュボード
-description: ジャーニーの概要ダッシュボードに表示される情報と、アカウントジャーニー戦略のモニタリングと管理に役立つ方法について説明します。
+description: ジャーニーの概要ダッシュボードに表示される情報と、アカウントジャーニー戦略の監視と管理にどう役立つかを説明します。
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
+source-git-commit: 18e22383c9f9294d209f4c8a6f9f04f074881186
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 1%
 
 ---
 
@@ -14,11 +14,15 @@ ht-degree: 0%
 
 このダッシュボードは、選択したアカウントジャーニーの包括的な概要を提供し、完了、進行中のアクティビティ、中止の推移を分類および定量化するドーナツグラフと折れ線グラフを使用して、アカウントの進行状況の詳細を説明します。 これは、マーケターが、主要な配信とエンゲージメント指標を通じてメールおよび SMS チャネルの有効性を評価するのに役立ちます。
 
+この概要は、公開済みアカウントジャーニーで使用でき、データがグラフとテーブルに入力され始めるまで約 4 時間かかります。
+
+![ジャーニーの概要 ](./assets/journey-overview.png){width="700" zoomable="yes"}
+
 ## ジャーニーステータス
 
 このドーナツグラフは、ジャーニーのステータスの分類を提供し、アカウントを `Completed`、`In Progress`、`Aborted` に分類します。 各セグメントには、グラフの外側の端に、対応する割合と口座番号がはっきりとラベル付けされます。
 
-## ジャーニーの完了の履歴
+## ジャーニー完了の推移
 
 この折れ線グラフは、ジャーニーを完了したアカウントの数を経時的に追跡します。 横軸はタイムラインをマッピングし、縦軸は勘定科目を定量化し、完了トレンドをわかりやすく表示します。
 
@@ -31,57 +35,41 @@ ht-degree: 0%
 
 ## メールおよび SMS パフォーマンステーブル
 
-この表には、メールと SMS チャネルの有効性に関する詳細が示されています。 各表では、配信率やクリックスルー率などの指標を示し、各通信タッチポイントの影響を評価します。
+パフォーマンステーブルは、メールと SMS チャネルの有効性を詳しく示します。 各表では、配信率やクリックスルー率などの指標を示し、各通信タッチポイントの影響を評価します。
 
 **[!UICONTROL メールのパフォーマンス]** テーブル列：
 
-* `Asset Name`
-* `Name of the Asset`
-* `Sent`
-* `# of emails sent`
-* `Delivery Rate`
-* `# delivered / # sent`
-* `Open Rate`
-* `# opened / # delivered`
-* `Click-Through Rate`
-* `# clicked / # delivered`
+* _[!UICONTROL アセット名]_ - アセットの名前
+* _[!UICONTROL 送信済み]_ – 送信されたメールの数
+* _[!UICONTROL 配信率]_ – 配信されたメール数を送信数で割った値
+* _[!UICONTROL 開封率]_ – 開封されたメールの数を、配信された数で割った値
+* _[!UICONTROL クリックスルー率]_ - クリックされたメールの数を、配信された数で割った値
 
 **[!UICONTROL SMS パフォーマンス]** テーブル列：
 
-* `Asset Name`
-* `Name of the Asset`
-* `Sent`
-* `# of messages sent`
-* `Delivery Rate`
-* `# delivered / # sent`
-* `Click-Through Rate`
-* `# clicked / # delivered`
+* _[!UICONTROL アセット名]_ - アセットの名前
+* _[!UICONTROL 送信済み]_ – 送信された SMS メッセージの数
+* _[!UICONTROL 配信率]_ – 配信された SMS メッセージの数を送信数で割った値
+* _[!UICONTROL クリックスルー率]_ - クリックされた SMS メッセージの数を、配信された数で割った値
+<!-- 
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
 
-現在のビューの共有可能なPDFを生成するには、ページの右上隅にある **[!UICONTROL 書き出し]** をクリックします。 データを操作するには、右上隅のアクションメニューを使用します。
+## インタラクションの強化
 
-インタラクションの強化：
+各グラフまたはテーブルの右上にあるアクションアイコン（**...**）を使用して、データをさらにエンゲージします。
 
-右上隅のアクションボタンを使用して、データをさらに活用します。 個々のグループのステータスを詳細に分析する場合は「ドリルスルー」、拡張されたデータとインサイトの場合は「さらに表示」を選択します。
+### ドリルスルー
 
-詳細を表示：
-各ウィジェットのグラフとデータテーブルを含んだポップアップが表示されます。
-テーブルの右上隅にある「CSV をダウンロード」ボタン。 
+_[!UICONTROL ジャーニーステータス]_ グラフで、個々のアカウントのステータスを詳しく分析するには、「**[!UICONTROL ドリルスルー]**」を選択します。
 
-ドリルスルー：
+![ グラフデータのドリルスルー ](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+<!--
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
 
-適用されたグローバルフィルターはダッシュボードに引き継がれ、このページで変更することはできません。
-適用されたフィルターが表示されます。
-有効になっているフィルターは _アカウント名_ のみです。
+### さらに表示
 
-**[!UICONTROL 詳細を表示]** をクリックして、ダウンロードダイアログを開きます。
+「**[!UICONTROL さらに表示]**」を選択すると、拡張されたデータとインサイトにアクセスできます。 表示されるポップアップには、データの分類が表示されます。
 
-右上隅のボタンをクリックして、使用可能な列の表示/非表示を切り替えます。
+データをダウンロードするには、右上の **[!UICONTROL CSV をダウンロード]** をクリックします。
 
-* [!UICONTROL  アカウント名 ]
-* [!UICONTROL  アカウント ID]
-* [!UICONTROL ステータス]
-* [!UICONTROL  地域 ]
-* [!UICONTROL 業界]
-* [!UICONTROL  立入 ]
-* [!UICONTROL  終了日 ]
-* [!UICONTROL ジャーニー日数 ]
+![ 拡張データの表示 ](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}

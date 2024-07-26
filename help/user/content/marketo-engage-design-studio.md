@@ -2,7 +2,8 @@
 title: Marketo Engageアセットの操作
 description: Journey Optimizer B2B Edition での Asset Design Studio Marketo Engage管理の統合の使用について説明します。
 feature: Assets, Content
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -95,7 +96,7 @@ Assetsのリストページから、Adobe Marketo Engage Design Studio に画像
 
 _[!UICONTROL アセットを置換]_ ダイアログで、置き換えるファイルをシステムからファイルボックスにドラッグ&amp;ドロップします。 また、「_[!UICONTROL コンピューターからファイルを選択]_」リンクをクリックして、ローカルファイルシステムを使用してファイルを選択することもできます。 （ローカルシステムで複数のファイルを選択した場合は、最初に選択したファイルが置換に使用されます）。
 
-![ アセットを置換ダイアログ ](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![ アセットを置換ダイアログ ](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 続行するには、「**[!UICONTROL 置換]**」をクリックします。 「**[!UICONTROL キャンセル]**」をクリックして、プロセスを中止できます。
 
