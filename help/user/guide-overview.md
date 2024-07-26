@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: 組み込みのジェネレーティブ AI と業界最先端の自動化機能を使用して、アカウントジャーニーを調整し、グループジャーニーを購入するためのAdobe Journey Optimizer B2B Edition 機能の使用方法を説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
+source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 
@@ -73,6 +73,12 @@ Journey Optimizer B2B Edition の製品とドキュメントに含まれる最�
     <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
     </tr>
 </table>
+
+## 概要デモ
+
+購入グループのコンポーネントを確認し、アカウントジャーニーの構築の基本を理解します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
 ## ドキュメントの参照
 

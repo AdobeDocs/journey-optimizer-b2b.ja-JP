@@ -1,7 +1,8 @@
 ---
 title: Adobe Journey Optimizer B2B Edition の概要
 description: Adobe Journey Optimizer B2B Edition の主な機能、ユースケース、アーキテクチャについて説明します。
-source-git-commit: b9fc31ed31cf05370f1370510d966b8151e14695
+exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Adobe Journey Optimizer B2B Edition とMarketo EngageおよびAdobe Journey Opti
 
 Adobe Journey Optimizer B2B Edition は、Adobe Experience Platformの _アカウントオーディエンス_ とアカウントの _People オーディエンス_ を使用して、Marketo Engage内で実行されるアカウントジャーニーを強化します。 Experience Platformは、常にこのデータの信頼できる情報源ですが、アカウントジャーニーのすべての実行と処理は、Marketo EngageB2B マーケティングインフラストラクチャ内で行われます。 オーケストレーションは、既存のMarketo EngageであるAdobe Real-Time CDP B2B Edition ソースコネクタによって、ほぼリアルタイムでデータをExperience Platformに戻します。このコネクタは、Marketo EngageからExperience Platformへとデータの変化をストリーミングします。
 
-![ データアーキテクチャの概要 ](./assets/high-level-data-architecture.png){width="600" zoomable="yes"}
+![ データアーキテクチャの概要 ](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 ### 購読モデル
 
@@ -41,4 +42,3 @@ Journey Optimizer B2B Edition サブスクリプションは、Marketo Engageの
 Journey Optimizer B2B Edition では、アカウントセグメントとジャーニーに必要な関連するアカウント人物セグメントを定義および実行する際に、Real-Time CDP アカウントのセグメント化を使用します。 公開されたジャーニーが実行されると、人物とアカウントに関するデータが変更される可能性があり、ジャーニーとやり取りする人物に関するデータが収集されます。 Journey Optimizer B2B Edition は、Real-Time CDP B2B Edition のMarketo Engageソースコネクタを使用して、データの変更を真のソースであるExperience Platformサンドボックスに返します。  このデータは、ほぼリアルタイムで AEP に配信されます。
 
 Marketo Engageソースコネクタでサポートされている既存のデータタイプ（アカウント、人物、オポチュニティ）のみがReal-Time CDPに戻されます。 つまり、購入グループデータは AEP に送られず、代わりにJourney Optimizer B2B Edition サブスクリプションで使用されるMarketo Engageインスタンスに存在します。
-

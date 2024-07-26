@@ -3,7 +3,7 @@ title: 購入グループの作成
 description: 購入グループを作成する方法を説明します。
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 確認ダイアログには、購買グループのプロセスの概要と完了までの推定時間が表示されます。 プロセスを確認して開始するには、「**[!UICONTROL 作成]**」をクリックします。
 
-![ 購入グループ作成の確認ダイアログ ](./assets/buying-groups-create-confirm.png){width="400" zoomable="no"}
+![ 購入グループ作成の確認ダイアログ ](./assets/buying-groups-create-confirm.png){width="425" zoomable="no"}
 
 ユーザーにソリューションの関心のタブに移動すると、ソリューションの関心に対して作成されたジョブの数を表示できます。
 
