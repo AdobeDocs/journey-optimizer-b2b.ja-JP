@@ -3,10 +3,10 @@ title: アセット
 description: Journey Optimizer B2B Edition でのアセット管理について説明します。
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
+source-wordcount: '990'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Journey Optimizer B2B Edition を使用すると、マーケターはAdobe
 
 ## アセット管理
 
-Marketo EngageアカウントとAdobe Experience Manager as aCloud Serviceがプロビジョニングされている場合、ユーザーアカウントに必要な権限があれば、Marketo Engage DAM とAdobe Experience Manager Assetsの両方のリポジトリにas a Cloud Service的にアクセスできます。 これらのリポジトリは個別であり、同期されていません。 どちらのソースの画像も使用できますが、コンテンツエディターで一度に有効にできる画像は 1 つだけです。 管理者は、Marketo EngageDAM からAdobe Experience Manager Assetsへの切り替えをas a Cloud Serviceにすることができます。 左側のナビゲーションの ]_0}Assets} 項目には、現在設定されているリポジトリーが表示されます。_[!UICONTROL 
+Marketo EngageアカウントとAdobe Experience Manager as aCloud Serviceがプロビジョニングされている場合、ユーザーアカウントに必要な権限があれば、Marketo Engage DAM とAdobe Experience Manager Assetsの両方のリポジトリにas a Cloud Service的にアクセスできます。 これらのリポジトリは個別に存在し、同期していません。どちらのソースの画像も使用できますが、コンテンツエディターで一度に有効にできる画像は 1 つだけです。 管理者は、Marketo EngageDAM からAdobe Experience Manager Assetsへの切り替えをas a Cloud Serviceにすることができます。 左側のナビゲーションの ]_0}Assets} 項目には、現在設定されているリポジトリーが表示されます。_[!UICONTROL 
 
 ### Adobe Marketo Engageデザインスタジオ
 
@@ -30,7 +30,7 @@ Adobe Marketo Engage Design Studio のアセットリポジトリは、Journey O
 
 Adobe Experience Manager Assetsを使用してマーケティングワークフローとクリエイティブワークフローを統合します。 Adobe Journey Optimizer B2B Edition とネイティブに統合されているので、Assetsのas a Cloud Serviceに簡単にアクセスして、デジタルアセットを検出して使用できます。 メッセージの入力に使用できるアセットのAssets リポジトリへのアクセスを提供します。
 
-Adobe Experience Manager AssetsはAdobe Experience Manager Assetsas a Cloud Serviceに接続して、クリエイティブシステムを拡張しエクスペリエンス配信のためにデジタルアセットを統合する、一元的なアセットワークスペースを実現できます。 Adobe Experience Manager Assetsas a Cloud Serviceは、デジタルアセット管理およびDynamic Mediaの効率的な運用を実現する、使いやすいクラウドソリューションを提供します。 人工知能や機械学習などの高度な機能をシームレスに組み込んでいます。
+Adobe Experience Manager AssetsはAdobe Experience Manager Assetsas a Cloud Serviceに接続して、クリエイティブシステムを拡張しエクスペリエンス配信のためにデジタルアセットを統合する、一元的なアセットワークスペースを実現できます。 Adobe Experience Manager Assetsas a Cloud Serviceは、デジタルアセット管理およびDynamic Mediaの効率的な運用を実現する、使いやすいクラウドソリューションを提供します。 人工知能や機械学習などの高度な機能がシームレスに組み込まれています。
 
 詳しくは、[Adobe Experience Manager as a Cloud Service ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/overview) を参照してください。
 
@@ -49,11 +49,11 @@ Adobe Experience Manager Assetsは、Adobe Journey Optimizer B2B Edition 内で�
 
 ### アセットソースを選択
 
-Experience Manager Assetsas a Cloud Serviceのサブスクリプションに、デフォルトのAdobe Marketo Engage Design Studio が含まれている場合は、どちらのソースからも画像アセットを選択できます。 それには、新しいメール、メールテンプレートまたはビジュアルフラグメントの作成時に画像ソースを選択する必要があります。 または、コンテンツの編集時に画像のソースを選択できます。 この選択は、編集エクスペリエンスにのみ適用され、必要に応じて、別のライブラリからアセットにアクセスするように画像ソースを変更できます。
+Experience Manager Assetsas a Cloud ServiceのサブスクリプションにデフォルトのAdobe Marketo Engage Design Studio が含まれている場合は、どちらのソースからも画像アセットを選択できます。 それには、新しいメール、メールテンプレートまたはビジュアルフラグメントの作成時に画像ソースを選択する必要があります。 または、コンテンツの編集時に画像のソースを選択できます。 この選択は、編集エクスペリエンスにのみ適用され、必要に応じて、別のライブラリからアセットにアクセスするように画像ソースを変更できます。
 
-メールの作成
+_**コンテンツリソースの作成**_ - メール、メールテンプレートまたはフラグメントの作成時に画像ソースを選択するには、ダイアログの作成時に **[!UICONTROL 画像ソース]** を設定します。
 
-メールの編集 – ビジュアルエディターで画像アセットソースを選択するには、キャンバス上部の **[!UICONTROL 画像ソースを選択]** セレクターを使用します。
+_**コンテンツリソースの編集**_ - ビジュアルエディターで画像アセットソースを選択するには、キャンバス上部の **[!UICONTROL 画像ソースを選択]** セレクターを使用します。
 
 ### コンテンツへのアセットの追加
 
