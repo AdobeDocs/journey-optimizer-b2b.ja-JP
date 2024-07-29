@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、そ�
 source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -12,7 +12,7 @@ ht-degree: 10%
 # Journey Optimizer B2B Edition ユーザーガイド {#user}
 
 + [Adobe Journey Optimizer B2B Edition ドキュメント](guide-overview.md)
-+ {#get-started} の基本を学ぶ
++ はじめに {#get-started}
    + [Journey Optimizer B2B Edition の概要](about-journey-optimizer-b2b-edition.md)
    + [ログインとホームページ](home-page.md)
    + [クイックスタートガイダンス](./start/get-started.md)
