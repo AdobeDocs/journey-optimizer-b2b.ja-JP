@@ -3,9 +3,9 @@ title: メールオーサリング
 description: アカウントジャーニーで使用されるパーソナライズされたメールコンテンツを作成する方法を説明します。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1294'
 ht-degree: 11%
 
 ---
@@ -88,8 +88,8 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
 1. パーソナライゼーションフィールドを挿入して、プロファイル属性、オーディエンスメンバーシップ、コンテキスト属性などからコンテンツをカスタマイズします。
 
-1. 「**[!UICONTROL 条件付きコンテンツを有効にする]**」をクリックし、動的コンテンツを追加して、条件付きルールに基づいてコンテンツをターゲットプロファイルに適応させます。
-
+<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
+-->
 1. 左側のペインから「**[!UICONTROL リンク]**」タブを選択し、追跡されるコンテンツのすべての URL を表示します。
 
    _トラッキングタイプ_ または _ラベル_ を変更し、必要に応じてタグを追加できます。
