@@ -2,7 +2,8 @@
 title: Experience Managerアセットリポジトリーの設定
 description: Journey Optimizer B2B Edition コンテンツオーサリングで使用するためにExperience Manager Assets リポジトリへの接続を設定する方法について説明します。
 feature: Assets, Integrations
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%

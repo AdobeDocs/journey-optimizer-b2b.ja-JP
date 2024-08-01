@@ -2,7 +2,7 @@
 title: XDM フィールドマッピング
 description: AEP XDM Marketo Engage、スキーマおよびJourney Optimizer B2B Edition 間のフィールドマッピングを確認します。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 838308621a27bcfc6425b8683f642a66f1fa6a7b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 27%

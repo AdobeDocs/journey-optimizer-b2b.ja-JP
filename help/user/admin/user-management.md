@@ -1,10 +1,10 @@
 ---
-title: ユーザー管理
+title: ユーザ管理
 description: チームメンバーをJourney Optimizer B2B Edition 製品プロファイルに割り当てる方法について説明します。
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: f8ae6e51e76ded14316273c8e746ed814e7eb68b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 4%

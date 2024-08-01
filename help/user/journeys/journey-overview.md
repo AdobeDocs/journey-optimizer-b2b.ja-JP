@@ -3,10 +3,10 @@ title: アカウントジャーニー
 description: アカウントジャーニーと、その作成方法および管理方法について説明します。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 1%
    * [!UICONTROL  名前 ] （名前をクリックすると、アカウントジャーニーが編集用に開きます）
    * [!UICONTROL ステータス]
    * [!UICONTROL 説明]
-   * [!UICONTROL  作成者 ]
+   * [!UICONTROL 作成者]
    * [!UICONTROL  最終更新日 ]
-   * [!UICONTROL  最終更新者 ]
+   * [!UICONTROL 最終更新者]
    * [!UICONTROL  公開日 ]
    * [!UICONTROL  公開者 ]
 

@@ -1,10 +1,11 @@
 ---
 title: ガバナンス機能
 description: Journey Optimizer B2B Edition で現在利用可能なガバナンス機能について説明します。
-source-git-commit: 1353defe804947617a4d7489592d380bf372c7df
+exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +21,7 @@ Journey Optimizer B2B Edition では、Privacy ServiceおよびMarketo Privacy B
 
 Journey Optimizer B2B Edition とAdobe Admin Consoleへのアクセス権を使用すると、管理者は、エンティティタイプ（view-segments、manage-segments、manage-journeys など）に対する権限をユーザーに付与できます。 この機能は、Unified Permissions Framework （UPF）の一部であり、すべてのAdobe Experience Platformのお客様が、組織のロールと権限を定義および管理できます。
 
-## データの暗号化
+## データ暗号化
 
 **_保存中のデータの暗号化_** - Adobe Experience PlatformからJourney Optimizer B2B Edition に転送されるすべてのアカウントおよびユーザープロファイルのデータは、Experience Platformに対する既存のコンプライアンスを維持するために暗号化されます。 ジャーニーや購買グループなど、Journey Optimizer B2B Edition から派生するすべてのエンティティも暗号化されます。
 

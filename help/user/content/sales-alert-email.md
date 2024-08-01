@@ -1,8 +1,9 @@
 ---
-title: 販売警告メール
+title: 販売通知メール
 description: アカウントジャーニーに自動販売警告メールを含める方法を説明します。
 feature: Email Authoring, Content
-source-git-commit: 5361bad204136e4b7e4267c43b2c1a605c14cdd9
+exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 3%

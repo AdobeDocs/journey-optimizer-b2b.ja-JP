@@ -1,9 +1,9 @@
 ---
-title: 電子メールオーサリング用 AI アシスタント
+title: メールオーサリング用 AI アシスタント
 description: AI アシスタントを使用して、アカウントジャーニーで使用されるメールコンテンツを最適化する方法を説明します。
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: f4f52919b9455277325a511a67c99daef42699f0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
@@ -215,7 +215,7 @@ E メールデザイナーで、AI アシスタントを使用すると、メー
 
 >[!BEGINTABS]
 
->[!TAB  完全なメール生成 ]
+>[!TAB 完全なメールの生成]
 
 次の手順では、AI アシスタントを使用して既存の電子メールテンプレートを調整するためのタスクシーケンスを説明します。
 

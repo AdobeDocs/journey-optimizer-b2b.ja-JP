@@ -3,7 +3,7 @@ title: メールテンプレート
 description: アカウントジャーニーメールの作成に使用できるメールテンプレートを簡単かつ効率的に作成および編集する方法を説明します。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '2622'
 ht-degree: 6%

@@ -1,9 +1,9 @@
 ---
-title: 購買グループ ロール テンプレート
+title: 購買グループの役割テンプレート
 description: 購入グループコンポーネントとして使用する役割テンプレートの定義について説明します。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 1%

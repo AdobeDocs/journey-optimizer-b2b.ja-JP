@@ -1,9 +1,9 @@
 ---
-title: 購入グループの作成
+title: 購買グループの作成
 description: 購入グループを作成する方法を説明します。
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%

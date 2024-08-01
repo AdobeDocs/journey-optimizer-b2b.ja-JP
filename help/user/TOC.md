@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition ドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、それを使用して、組み込みのジェネレーティブ AI と業界最先端の自動化機能を使用して、アカウントを調整し、グループジャーニーを購入する方法について説明します。
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 13%
+source-wordcount: '128'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
    + [Journey Optimizer B2B Edition の概要](about-journey-optimizer-b2b-edition.md)
    + [ログインとホームページ](home-page.md)
    + [クイックスタートガイダンス](./start/get-started.md)
-   + [AI アシスタントの使用](./start/ai-assistant.md)
+   + [AI アシスタントを使用](./start/ai-assistant.md)
 + アカウントオーディエンス {#account-audiences}
    + [概要](./audiences/account-audience-overview.md)
    + [XDM フィールドマッピング](./data/field-mapping.md)
@@ -26,12 +26,12 @@ ht-degree: 13%
    + [役割テンプレート](./buying-groups/buying-groups-role-templates.md)
    + [購入グループの作成](./buying-groups/buying-groups-create.md)
 + アカウントジャーニー {#account-journeys}
-   + [ジャーニーの概要](./journeys/journey-overview.md)
+   + [概要](./journeys/journey-overview.md)
    + [アカウントジャーニーノード](./journeys/journey-nodes.md)
 + ジャーニーコンテンツ {#journey-content}
    + [メールオーサリング](./content/email-authoring.md)
-   + [販売警告メール](./content/sales-alert-email.md)
    + [電子メールオーサリング用 AI アシスタント](./content/ai-assistant-emails.md)
+   + [販売警告メール](./content/sales-alert-email.md)
    + [SMS オーサリング](./content/sms-authoring.md)
 + コンテンツ管理 {#content-management}
    + Assets {#assets}
