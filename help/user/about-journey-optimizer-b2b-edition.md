@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition の概要
-description: Adobe Journey Optimizer B2B Edition の主な機能、ユースケース、アーキテクチャについて説明します。
+description: Adobe Journey Optimizer B2B エディションの主な機能、ユースケース、アーキテクチャについて説明します。
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
