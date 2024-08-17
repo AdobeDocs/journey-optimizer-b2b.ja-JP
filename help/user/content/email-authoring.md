@@ -3,9 +3,9 @@ title: メールオーサリング
 description: アカウントジャーニーで使用されるパーソナライズされたメールコンテンツを作成する方法を説明します。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1323'
 ht-degree: 11%
 
 ---
@@ -179,7 +179,12 @@ _サンプルまたは保存済みのテンプレートの 1 つを使用して�
 
    * `The email version of the message is empty`：このエラーは、メールコンテンツが設定されていない場合に表示されます。
 
-## メールの確認とテスト
+## メールの確認とテスト {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_preview_simulate"
+>title="コンテンツのレンダリング方法の確認"
+>abstract="コンテンツを定義したら、プレビューして、使用しているチャネルでレンダリングが正しいかどうかを確認できます。"
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してプレビュー、配達確認の送信、一般的なデスクトップ、モバイルおよび web ベースのクライアントでのレンダリングの制御を行うことができます。 パーソナライズされたコンテンツを挿入した場合は、テストプロファイルデータを使用して、そのコンテンツがメッセージにどのように表示されるかをプレビューできます。
 
