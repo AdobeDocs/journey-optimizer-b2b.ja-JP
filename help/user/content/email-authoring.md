@@ -3,10 +3,10 @@ title: メールオーサリング
 description: アカウントジャーニーで使用されるパーソナライズされたメールコンテンツを作成する方法を説明します。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
+source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 11%
+source-wordcount: '1468'
+ht-degree: 20%
 
 ---
 
@@ -62,7 +62,37 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 >
 >ジェネレーティブ AI を活用したAdobe Journey Optimizer B2B Edition の AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。 AI アシスタントは、メール全体の生成、ターゲット設定されたテキストコンテンツの生成、およびオーディエンスの共感を得られる画像に対する AI アシスタントのレコメンデーションの取得により、配信の影響を最適化するのに役立ちます。 [詳細情報](./ai-assistant-emails.md)
 
-### メールをゼロからデザイン
+### メールをゼロからデザイン {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="構造コンポーネントの追加"
+>abstract="構造コンポーネントはメールのレイアウトを定義します。 ドラッグ＆ドロップ&#x200B;**構造**&#x200B;コンポーネントをキャンバスに追加して、メールコンテンツのデザインを開始します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="構造コンポーネントの追加"
+>abstract="構造コンポーネントはランディングページのレイアウトを定義します。 **構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップして、ランディングページのコンテンツのデザインを開始します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="構造コンポーネントの追加"
+>abstract="構造コンポーネントはフラグメントのレイアウトを定義します。 **構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップして、フラグメントのコンテンツのデザインを開始します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは、メールのレイアウト作成に使用できる空のコンテンツプレースホルダーです。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは、ランディングページのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは、フラグメントのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
 1. デザイナーのホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
 
@@ -182,7 +212,7 @@ _サンプルまたは保存済みのテンプレートの 1 つを使用して�
 ## メールの確認とテスト {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="コンテンツのレンダリング方法の確認"
 >abstract="コンテンツを定義したら、プレビューして、使用しているチャネルでレンダリングが正しいかどうかを確認できます。"
 

@@ -3,10 +3,10 @@ title: メールテンプレート
 description: アカウントジャーニーメールの作成に使用できるメールテンプレートを簡単かつ効率的に作成および編集する方法を説明します。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2622'
-ht-degree: 6%
+source-wordcount: '2670'
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,17 @@ _[!UICONTROL テンプレートをデザイン]_ ページが開き、テンプ�
 
 ![ メールテンプレートデザインの開始方法を選択する ](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### ゼロからデザイン
+### ゼロからデザイン {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="構造コンポーネントの追加"
+>abstract="構造コンポーネントはテンプレートのレイアウトを定義します。 **構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップして、テンプレートのコンテンツのデザインを開始します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは、テンプレートのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
 E メールデザイナーを使用して、メールコンテンツの構造を定義します。 簡単なドラッグ&amp;ドロップ操作で構造コンポーネントを追加して移動することで、再利用可能なメールコンテンツの形状を数秒でデザインできます。
 

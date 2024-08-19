@@ -3,9 +3,9 @@ title: SMS オーサリング
 description: 顧客のモバイルデバイスにテキストメッセージ（SMS）を送信する方法、および SMS エディターでテキスト形式のメッセージをパーソナライズおよびプレビューする方法について説明します。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1908'
 ht-degree: 3%
 
 ---
@@ -200,7 +200,12 @@ _Adobe Journey Optimizer B2B Edition で Infobip を SMS プロバイダーと�
 
    受信者番号は、常にMarketo Engageの `Lead.mobilePhone` フィールドにマッピングされます。
 
-## テキストメッセージのコンテンツをシミュレート
+## テキストメッセージのコンテンツをシミュレート {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_sms_preview_simulate"
+>title="コンテンツのレンダリング方法の確認"
+>abstract="コンテンツを定義したら、プレビューして、使用しているチャネルでレンダリングが正しいかどうかを確認できます。"
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してそのコンテンツをシミュレート（プレビュー）できます。 パーソナライズされたコンテンツを挿入してある場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
