@@ -6,7 +6,7 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
 source-wordcount: '1908'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -205,7 +205,7 @@ _Adobe Journey Optimizer B2B Edition で Infobip を SMS プロバイダーと�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="コンテンツのレンダリング方法の確認"
->abstract="コンテンツを定義したら、プレビューして、使用しているチャネルでレンダリングが正しいかどうかを確認できます。"
+>abstract="コンテンツを定義したら、プレビューし、使用しているチャネルのレンダリングが正しいかどうかを確認できます。"
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してそのコンテンツをシミュレート（プレビュー）できます。 パーソナライズされたコンテンツを挿入してある場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 

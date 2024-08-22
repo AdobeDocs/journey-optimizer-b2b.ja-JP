@@ -6,7 +6,7 @@ hide: true
 source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -16,12 +16,12 @@ Journey Optimizer B2B Edition は、アカウントでマッチしたオーデ�
 
 Journey Optimizer B2B Edition からデータフローを開始する前に、Experience Platformアプリケーションで設定されたLinkedIn Campaign Manager アカウントを持つ、[ （Companies）LinkedInと一致するオーディエンスの宛先コネクタのインスタンスが少なくとも 1 つ必要で ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect)。
 
-## 新しいLinkedIn アカウント連携の設定 {#linkedin-destination-setup}
+## 新しい LinkedIn アカウント接続を設定 {#linkedin-destination-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
->title="LinkedInの宛先の設定が必要です"
->abstract="購入グループでフィルタリングしたアカウントを Linkedin の宛先に送信して、潜在的な購入グループメンバーとエンゲージメントを図ります。 フィルタリングされたアカウントの 10 の異なるグループに対して、最大 10 個のデータフローを作成できます。 この機能を使用するには、まず Linkedin の宛先を追加します。"
+>title="LinkedIn の宛先の設定は必須です"
+>abstract="購買グループ別にフィルタリングされたアカウントを LinkedIn の宛先に送信し、潜在的な購買グループのメンバーに関与します。フィルタリングされたアカウントの 10 個の異なるグループに対して、最大 10 個のデータフローを作成できます。この機能の使用を開始するには、まず Linkedin の宛先を追加します。"
 
 1. Experience Platformで、左側のナビゲーションで **[!UICONTROL 接続]**/**[!UICONTROL 宛先]** に移動し、「**[!UICONTROL カタログ]**」タブを選択します。
 
