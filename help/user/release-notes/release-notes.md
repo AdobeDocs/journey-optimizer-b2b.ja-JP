@@ -1,7 +1,9 @@
 ---
 title: リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新のリリースノート
-source-git-commit: 2736c11d579f9d780e360daa9b1214eb1e7a5218
+hidefromtoc: true
+hide: true
+source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 12%
