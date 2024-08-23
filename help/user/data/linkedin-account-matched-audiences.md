@@ -1,11 +1,9 @@
 ---
 title: LinkedIn アカウントでマッチしたオーディエンス
 description: linkedIn アカウントを連携し、購入グループ用のデータフローをアクティブ化する方法を説明します。
-hidefromtoc: true
-hide: true
-source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '682'
 ht-degree: 8%
 
 ---
@@ -25,15 +23,29 @@ Journey Optimizer B2B Edition からデータフローを開始する前に、Ex
 
 1. Experience Platformで、左側のナビゲーションで **[!UICONTROL 接続]**/**[!UICONTROL 宛先]** に移動し、「**[!UICONTROL カタログ]**」タブを選択します。
 
-1. カタログ内で、**[!UICONTROL （会社）LinkedInの一致したオーディエンス]** コネクタを見つけて、「**[!UICONTROL 設定]**」をクリックします。
+1. カタログ内で、**[!UICONTROL （会社）LinkedInの一致したオーディエンス]** コネクタを見つけます。
+
+   >[!TIP]
+   >
+   >検索ボックスに `LinkedIn` と入力すると、コネクタをすばやく見つけることができます。
+
+1. コネクタカードで「_詳細_ （**...**）」アイコンをクリックし、「**[!UICONTROL 新しい宛先を設定]**」を選択します。
 
    ![ （会社）LinkedInと一致したオーディエンスコネクタへのアクセス ](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. **[!UICONTROL 新規アカウント]**/**[!UICONTROL LinkedInに接続]** を選択します。
+1. **[!UICONTROL 新規アカウント]** を選択し、「**[!UICONTROL 宛先に接続]**」をクリックします。
+
+   ![ 新しいLinkedIn アカウントを接続する ](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. linkedInの資格情報を入力し、ログインします。
 
-   linkedIn アカウントが接続先として接続されている。
+   認証後、LinkedIn アカウントはExperience Platformの宛先として接続されます。
+
+   ![ アカウント接続の確認が表示されます ](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+
+   >[!IMPORTANT]
+   >
+   >この時点で、**宛先の詳細 _[!UICONTROL を入力**ないでください]_。 接続のみが必要です。
 
 ## アカウントの詳細の更新
 
