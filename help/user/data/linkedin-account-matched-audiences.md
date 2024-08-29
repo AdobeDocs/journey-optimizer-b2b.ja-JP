@@ -1,9 +1,8 @@
 ---
 title: LinkedIn アカウントでマッチしたオーディエンス
 description: linkedIn アカウントを連携し、購入グループ用のデータフローをアクティブ化する方法を説明します。
-hidefromtoc: true
-hide: true
-source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
+exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
+source-git-commit: 00315c9d245d8d19954643e4dd51920ae2baafbe
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 8%

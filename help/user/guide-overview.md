@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: 組み込みのジェネレーティブ AI と業界最先端の自動化機能を使用して、アカウントジャーニーを調整し、グループジャーニーを購入するためのAdobe Journey Optimizer B2B Edition 機能の使用方法を説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
+source-git-commit: b0622b8224f581c76c43966537d1f576316d4068
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '490'
 ht-degree: 4%
 
 ---
@@ -18,12 +18,13 @@ Journey Optimizer B2B Edition の製品とドキュメントに含まれる最�
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
-<!-- 
->[!TAB LinkedIn Account Matched Audiences]
 
-Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration.
+>[!TAB LinkedIn アカウントでオーディエンスをマッチング ]
 
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Learn about LinkedIn Account Matched Audiences"} -->
+アカウントでマッチしたオーディエンスを通じてLinkedIn広告オーディエンスを生成し、購入グループの空の役割を埋めるのに役立ちます。 購入グループフィルターのセットを定義することで、LinkedInでマッチしたオーディエンスを維持し、購入グループパラメーターに一致する見込み客をターゲットにすることができます。 この機能は、Experience Platformの宛先を活用して、統合の一部の側面を管理します。
+
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="linkedIn アカウントでマッチしたオーディエンスについて学ぶ"}
+
 >[!TAB AI アシスタント]
 
 アカウントベースのマーケティングの概念をすぐに習得し、チームの戦略を最大限に活用するように設計されたJourney Optimizer B2B エディションの機能について学びます。
