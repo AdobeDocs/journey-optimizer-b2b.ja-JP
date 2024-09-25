@@ -2,9 +2,9 @@
 title: ガバナンス機能
 description: Journey Optimizer B2B Edition で現在利用可能なガバナンス機能について説明します。
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8c191cd86a9aa9e7094b7d3464b3179cfdb4789e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '366'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Journey Optimizer B2B Edition を使用すると、メールおよび SMS 配信
 
 ## まだ利用できません
 
-次のガバナンス機能は、まだ使用できませんが、製品ロードマップに含まれています。
+次のガバナンス機能は、まだ使用できません。
 
 * データ使用ラベルの適用（DULE）/使用ポリシー
 * データハイジーン
