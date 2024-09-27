@@ -2,7 +2,7 @@
 title: リリースノート
 description: Adobe Journey Optimizer B2B エディションの最新のリリースノート
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
+source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Journey Optimizer B2B Edition は [!DNL Adobe Experience Platform] でネイテ�
 <tbody>
 <tr>
 <td>
-<p>ビジュアルフラグメントは、ステータスライフサイクルを使用して管理されます。このライフサイクルでは、フラグメントのステータスによって、メールまたはメールテンプレートで使用できる状態と、フラグメントに加えられる変更が決定されます。 これにより、プロモーションやコミュニケーションのカレンダーに応じて、再利用されたコンテンツを簡単に管理できます。 <a href="../content/fragments#fragment-status-and-lifecycle">詳細情報</a>
+<p>ビジュアルフラグメントは、ステータスライフサイクルを使用して管理されます。このライフサイクルでは、フラグメントのステータスによって、メールまたはメールテンプレートで使用できる状態と、フラグメントに加えられる変更が決定されます。 これにより、プロモーションやコミュニケーションのカレンダーに応じて、再利用されたコンテンツを簡単に管理できます。 <a href="../content/fragments.md#fragment-status-and-lifecycle">詳細情報</a>
 </td>
 </tr>
 </tbody>
