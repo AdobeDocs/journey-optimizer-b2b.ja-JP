@@ -2,10 +2,10 @@
 title: リリースノート
 description: Adobe Journey Optimizer B2B エディションの最新のリリースノート
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
+source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 15%
+source-wordcount: '402'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,43 @@ Adobe Journey Optimizer B2B Edition は、新機能、既存機能の強化、�
 
 Journey Optimizer B2B Edition は [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/latest){target="_blank"}を参照してください。
 
-使用権限、パフォーマンスガードレール、制限についての情報は、[ 製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} をご確認ください。
+使用権限、パフォーマンスガードレール、制限について詳しくは、[ 製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} を参照してください。
+
+## 2024年9月リリースノート {#Sept-2024}
+
+**リリース日**:2024 年 10 月 7 日（PT）
+
+このリリースには、次の新機能および機能強化が含まれています。
+
+<table>
+<thead>
+<tr>
+<th><strong>中央アセットライブラリの強化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>拡張された_central アセットライブラリ_を使用すると、Design Studio のワークスペース全体で、Marketo Engageインスタンス内のすべての画像アセットを使用できます。 Journey Optimizer B2B editionからのMarketo Engageアセットの編集や、削除操作および移動操作を防ぐ組み込みのガードレールがあります。 これらの保護機能により、ソースアセット（Marketo Engageデザインスタジオ）が維持されると同時に、Journey Optimizer B2B editionでシームレスな読み取りと再利用が可能になります。 <a href="../content/marketo-engage-design-studio.md">詳細情報</a>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>最近アクセスしたアセット</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer B2B edition アプリのホームページには、_[!UICONTROL Recently accessed]_ セクションが含まれるようになりました。このセクションには、マーケターまたは管理者向けの最近アクセスしたアセットのリストが表示されます。 このリストを使用すると、一連のアセットページを移動したり検索したりせずに、最近作業したアセットに直接移動できます。 これにより、変更に関する追加情報が提供されるので、最後のセッション以降にさらに変更が必要なアセットを決定できます。 メールアセットの場合は、メールアセットが使用されているアカウントジャーニーが表示されます。 <a href="../home-page.md">詳細情報</a>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2024年8月リリースノート {#Aug-2024}
 
@@ -47,7 +83,7 @@ Journey Optimizer B2B Edition は [!DNL Adobe Experience Platform] でネイテ�
 <tbody>
 <tr>
 <td>
-<p>ビジュアルフラグメントは、ステータスライフサイクルを使用して管理されます。このライフサイクルでは、フラグメントのステータスによって、メールまたはメールテンプレートで使用できる状態と、フラグメントに加えられる変更が決定されます。 これにより、プロモーションやコミュニケーションのカレンダーに応じて、再利用されたコンテンツを簡単に管理できます。 <a href="../content/fragments.md#fragment-status-and-lifecycle">詳細情報</a>
+<p>ビジュアルフラグメントは、ステータスのライフサイクルを使用して管理されるようになりました。 フラグメントステータスは、メールまたはメールテンプレートで使用できるフラグメントの有無と、フラグメントに加えられる変更を決定します。 このワークフローにより、プロモーションやコミュニケーションのカレンダーに従って、再利用されたコンテンツを簡単に管理できます。 <a href="../content/fragments.md#fragment-status-and-lifecycle">詳細情報</a>
 </td>
 </tr>
 </tbody>
