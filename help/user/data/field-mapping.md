@@ -1,19 +1,23 @@
 ---
 title: XDM フィールド
-description: Adobe Experience PlatformとJourney Optimizer B2B Edition の間で同期されるデフォルトの属性フィールドを確認します。
+description: Adobe Experience PlatformとJourney Optimizer B2B editionの間で同期されるデフォルトの属性フィールドを確認します。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: b38878ca063967e6c1ae56617674af52c10913df
+source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 25%
+source-wordcount: '965'
+ht-degree: 24%
 
 ---
 
 # XDM フィールド
 
-アカウントオーディエンスデータは、XDM ビジネスアカウントと XDM ビジネスユーザーの両方のクラスに属性として保存されます。 Adobe Experience PlatformとJourney Optimizer B2B Edition の間では、データは定期的に同期されます。 次のセクションでは、デフォルトの属性セットを示します。
+アカウントオーディエンスデータは、XDM ビジネスアカウントと XDM ビジネスユーザーの両方のクラスに属性として保存されます。 Adobe Experience PlatformとJourney Optimizer B2B editionの間では、データは定期的に同期されます。 次のセクションでは、デフォルトの属性セットを示します。
 
 ## XDM ビジネスユーザー属性
+
+>[!IMPORTANT]
+>
+>`workEmail.Address` 属性は必須です。 アカウントオーディエンスメンバーが空の場合、そのユーザーは取り込まれず、オーディエンスを参照するアカウントジャーニーおよび購入グループから除外されます。
 
 | [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -37,11 +41,15 @@ ht-degree: 25%
 | `workAddress.postalCode` | 郵便番号 | 郵便番号 | 文字列 | 場所の郵便番号。一部の国には郵便番号がありません。国によっては、郵便番号の一部のみが含まれます。 |
 | `workAddress.state` | 都道府県 | 都道府県 | 文字列 | 住所の都道府県の名前。 これは自由形式のフィールドです。 |
 | `workAddress.street1` | 住所 1 | 住所 | 文字列 | プライマリの番地レベルの情報、アパート番号、通り番号、通り名。 |
-| `workEmail.address` | 住所 | メールアドレス | 文字列 | 例えば、技術的アドレス `<name@domain.com>`、RFC2822 および後続の標準で一般的に定義されています。 |
+| `workEmail.address` | 住所 | メールアドレス | 文字列 | **必須フィールド**<br/> 技術的アドレス（例：RFC2822 および後続の標準で一般的に定義されている `<name@domain.com>`）。 |
 | `workEmail.status` | ステータス | メールの中断 | 文字列 | その電子メールアドレスを使用できるかどうかを示します。 |
 | `workPhone.number` | 数字 | 電話番号 | 文字列 | 勤務先の電話番号。 |
 
 ## XDM ビジネスアカウント属性
+
+>[!IMPORTANT]
+>
+>`accountName` 属性は必須です。 アカウントオーディエンスのアカウントで空の場合、そのアカウントは取り込まれず、オーディエンスを参照するアカウントジャーニーおよび購入グループから除外されます。
 
 | [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -51,10 +59,10 @@ ht-degree: 25%
 | `accountBillingAddress.region` | 地域 | 住所（地域） | 文字列 | 請求先住所の地域、郡または地区の部分。 |
 | `accountBillingAddress.state` | 都道府県 | 都道府県 | 文字列 | 請求先住所の都道府県の名前。 これは自由形式のフィールドです。 |
 | `accountBillingAddress.street1` | 住所 1 | 住所 1 | 文字列 | 請求先住所のプライマリの番地レベル情報。通常、アパート番号、ストリート番号、ストリート名が含まれます。 |
-| `accountName` | 名前 | 名前 | 文字列 | 会社の名前。 このフィールドには、最大 255 文字まで入力できます。 |
+| `accountName` | 名前 | 名前 | **必須フィールド** <br/>String | 会社の名前。 このフィールドには、最大 255 文字まで入力できます。 |
 | `accountOrganization.annualRevenue.amount` | 年間収益 | 年間売上高 | 数字 | 組織の年間売上高の推定金額。 |
 | `accountOrganization.industry` | 業界 | 業界 | 文字列 | 業界は組織に起因する。 これは自由形式のフィールドで、クエリには構造化された値を使用するか、`xdm:classifier` プロパティを使用することをお勧めします。 |
-| `accountOrganization.logoUrl` | ロゴ URL | ロゴ URL | 文字列 | アカウントに関連付けられたソーシャルネットワークプロファイル画像をリクエストする URL を生成するために、Salesforce インスタンスの URL （例：`https://yourInstance.salesforce.com/`）と組み合わせるパス。 生成された URL は、アカウントのソーシャルネットワークプロファイル画像への HTTP リダイレクト（コード 302）を返します。 |
+| `accountOrganization.logoUrl` | ロゴ URL | ロゴ URL | 文字列 | アカウントに関連付けられたソーシャルネットワークプロファイル画像をリクエストする URL を生成するために、Salesforce インスタンスの URL （`https://yourInstance.salesforce.com/` など）と組み合わせるパス。 生成された URL は、アカウントのソーシャルネットワークプロファイル画像への HTTP リダイレクト（コード 302）を返します。 |
 | `accountOrganization.numberOfEmployees` | 従業員数 | 従業員数 | 整数 | 組織の従業員数。 |
 | `accountOrganization.SICCode` | SIC コード | SIC コード | 文字列 | 標準産業分類（SIC） コード。事業活動に基づいて会社が属する業種を分類する 4 桁のコードです。 |
 | `accountOrganization.website` | Web サイトの URL | ドメイン名 | 文字列 | 組織の web サイトの URL。 |
