@@ -2,7 +2,7 @@
 title: XDM フィールド
 description: Adobe Experience PlatformとJourney Optimizer B2B editionの間で同期されるデフォルトの属性フィールドを確認します。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 24%
@@ -59,7 +59,7 @@ ht-degree: 24%
 | `accountBillingAddress.region` | 地域 | 住所（地域） | 文字列 | 請求先住所の地域、郡または地区の部分。 |
 | `accountBillingAddress.state` | 都道府県 | 都道府県 | 文字列 | 請求先住所の都道府県の名前。 これは自由形式のフィールドです。 |
 | `accountBillingAddress.street1` | 住所 1 | 住所 1 | 文字列 | 請求先住所のプライマリの番地レベル情報。通常、アパート番号、ストリート番号、ストリート名が含まれます。 |
-| `accountName` | 名前 | 名前 | **必須フィールド** <br/>String | 会社の名前。 このフィールドには、最大 255 文字まで入力できます。 |
+| `accountName` | 名前 | 名前 | 文字列 | **必須フィールド**<br/> 会社の名前。 このフィールドには、最大 255 文字まで入力できます。 |
 | `accountOrganization.annualRevenue.amount` | 年間収益 | 年間売上高 | 数字 | 組織の年間売上高の推定金額。 |
 | `accountOrganization.industry` | 業界 | 業界 | 文字列 | 業界は組織に起因する。 これは自由形式のフィールドで、クエリには構造化された値を使用するか、`xdm:classifier` プロパティを使用することをお勧めします。 |
 | `accountOrganization.logoUrl` | ロゴ URL | ロゴ URL | 文字列 | アカウントに関連付けられたソーシャルネットワークプロファイル画像をリクエストする URL を生成するために、Salesforce インスタンスの URL （`https://yourInstance.salesforce.com/` など）と組み合わせるパス。 生成された URL は、アカウントのソーシャルネットワークプロファイル画像への HTTP リダイレクト（コード 302）を返します。 |
