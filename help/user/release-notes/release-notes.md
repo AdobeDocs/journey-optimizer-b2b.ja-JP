@@ -2,9 +2,9 @@
 title: リリースノート
 description: Adobe Journey Optimizer B2B エディションの最新のリリースノート
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
+source-git-commit: 235f54e4db84554f83076070b0d549e29141ba6e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '420'
 ht-degree: 9%
 
 ---
@@ -32,7 +32,8 @@ Journey Optimizer B2B Edition は [!DNL Adobe Experience Platform] でネイテ�
 <tbody>
 <tr>
 <td>
-<p>拡張された_central アセットライブラリ_を使用すると、Design Studio のワークスペース全体で、Marketo Engageインスタンス内のすべての画像アセットを使用できます。 Journey Optimizer B2B editionからのMarketo Engageアセットの編集や、削除操作および移動操作を防ぐ組み込みのガードレールがあります。 これらの保護機能により、ソースアセット（Marketo Engageデザインスタジオ）が維持されると同時に、Journey Optimizer B2B editionでシームレスな読み取りと再利用が可能になります。 <a href="../content/marketo-engage-design-studio.md">詳細情報</a>
+<p>強化された <i> 中央アセットライブラリ </i> を使用すると、Design Studio のワークスペース全体で、Marketo Engageインスタンス内のすべての画像アセットを使用できます。 Journey Optimizer B2B editionからのMarketo Engageアセットの編集や、削除操作および移動操作を防ぐ組み込みのガードレールがあります。 これらの保護機能により、ソースアセット（Marketo Engageデザインスタジオ）が維持されると同時に、Journey Optimizer B2B editionでシームレスな読み取りと再利用が可能になります。 </p>
+<p>Journey Optimizer B2B editionでのみ使用するアセットの場合は、専用のワークスペースがアセット管理機能を完全に提供します。 <a href="../content/marketo-engage-design-studio.md">詳細情報</a></p>
 </td>
 </tr>
 </tbody>
@@ -47,7 +48,7 @@ Journey Optimizer B2B Edition は [!DNL Adobe Experience Platform] でネイテ�
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer B2B edition アプリのホームページには、_[!UICONTROL Recently accessed]_ セクションが含まれるようになりました。このセクションには、マーケターまたは管理者向けの最近アクセスしたアセットのリストが表示されます。 このリストを使用すると、一連のアセットページを移動したり検索したりせずに、最近作業したアセットに直接移動できます。 これにより、変更に関する追加情報が提供されるので、最後のセッション以降にさらに変更が必要なアセットを決定できます。 メールアセットの場合は、メールアセットが使用されているアカウントジャーニーが表示されます。 <a href="../home-page.md">詳細情報</a>
+<p>Journey Optimizer B2B edition アプリのホームページに、<i>[!UICONTROL Recently accessed]</i> セクションが含まれるようになりました。このセクションには、マーケターまたは管理者向けの最近アクセスしたアセットのリストが表示されます。 このリストを使用すると、一連のアセットページを移動したり検索したりせずに、最近作業したアセットに直接移動できます。 これにより、変更に関する追加情報が提供されるので、最後のセッション以降にさらに変更が必要なアセットを決定できます。 メールアセットの場合は、メールアセットが使用されているアカウントジャーニーが表示されます。 <a href="../home-page.md">詳細情報</a>
 </td>
 </tr>
 </tbody>

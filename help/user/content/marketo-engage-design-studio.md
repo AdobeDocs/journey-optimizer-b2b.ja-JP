@@ -1,32 +1,46 @@
 ---
 title: Marketo EngageAssetsの操作
-description: Journey Optimizer B2B Edition での Asset Design Studio Marketo Engage管理の統合の使用について説明します。
+description: Journey Optimizer B2B editionでの Asset Design Studio Asset ManagementMarketo Engageの使用について説明します。
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
 
 # Marketo Engageアセットの操作
 
-Asset Design Studio は、Journey Optimizer B2B Edition のデフォルトのMarketo Engageソースで、アカウントジャーニーのコンテンツで使用可能なアセットを簡単に管理および使用できます。
+Marketo Engageデザインスタジオは、Journey Optimizer B2B editionのデフォルトのアセットソースです。アカウントジャーニーのコンテンツで使用可能なアセットを簡単に管理および使用できます。
+
+Marketo Engage、マーケティング部門はワークスペースを使用してコンテンツアセットを整理し、チームが正しいアセットにアクセスできるようにします。 明確に定義されたワークスペースは、大規模な製品ポートフォリオを持つ大企業や、様々な地域へのマーケティングに関する様々な要件を持つグローバルに運用する大企業にとって特に役立ちます。
+
+## 一元的なアセット管理
+
+デフォルトでは、**_[!UICONTROL Journey Optimizer B2B edition]_** ワークスペースがあり、アカウントのジャーニーコンテンツに特別に使用できます。 このワークスペースに追加するアセットは、Marketo Engageでは表示も使用もできません。 このワークスペースにあるアセットの場合は、Journey Optimizer B2B editionの様々なアセット管理機能を使用できます。 次のような関数があります。
+
+* 置換
+* 削除
+* 移動
+
+Marketo Engageワークスペースに存在するAssetsは、メール、メールテンプレートおよびフラグメントで使用する読み取り専用アクセスに制限されています。 これらのワークスペースに新しいアセットを追加し、アセットのコピーをダウンロードできます。
 
 ## アセットの参照とアクセス
 
-Journey Optimizer B2B Edition 内からAdobe Marketo Engage Design Studio のアセットにアクセスするには、左側のナビゲーションに移動して、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL Assets]** をクリックします。 このアクションを実行すると、すべてのアセットが一覧表示されるリストページが開きます。
+Journey Optimizer B2B edition内からAdobe Marketo Engage アセットにアクセスするには、左側のナビゲーションに移動して、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL Assets]** をクリックします。 このアクションを実行すると、すべてのアセットが一覧表示されるリストページが開きます。
 
-![Marketo Engageアセットの参照 ](assets/assets-list-page.png){width="600" zoomable="yes"}
+![Marketo Engageアセットの参照 ](assets/assets-list-page.png){width="800" zoomable="yes"}
 
-* アセットをフォルダー別に表示するには、左上の _フォルダーを表示_ アイコンをクリックして、フォルダー構造を開きます。
+Journey Optimizer B2B edition Workspace はデフォルトで選択されています。 その他のワークスペースを以下に示します。
 
-* 任意の列でテーブルを並べ替えるには、列タイトルをクリックします。
+* アセットをワークスペースとフォルダー別に表示するには、左上の _フォルダーを表示_ アイコンをクリックして構造を開きます。
 
-* 選択したフォルダー内の画像アセットを検索するには、検索バーにテキスト文字列を入力します。
+* 任意の列でテーブルを並べ替えるには、列タイトルをクリックします。 タイトル行の矢印は、現在の並べ替え列と並べ替え順序を示します。
 
-* テーブルに表示される列をカスタマイズするには、右上の _テーブルをカスタマイズ_ アイコンをクリックします。
+* 選択したワークスペースまたはフォルダー内で画像アセットを検索するには、検索バーにテキスト文字列を入力します。
+
+* テーブルに表示される列をカスタマイズするには、右上の _テーブルをカスタマイズ_ アイコン（![ テーブルをカスタマイズ ](../assets/do-not-localize/icon-column-settings.svg)）をクリックします。
 
   リストに表示する列を選択し、「**[!UICONTROL 適用]**」をクリックします。
 
@@ -34,27 +48,31 @@ Journey Optimizer B2B Edition 内からAdobe Marketo Engage Design Studio のア
 
 任意のアセットの名前をクリックして、アセットの詳細ページを開きます。
 
+![ アセットの詳細へのアクセス ](assets/assets-details.png){width="700" zoomable="yes"}
+
 ## 参照別に使用されたアセットの表示
 
-アセットの詳細ページで「**[!UICONTROL 使用者]**」タブをクリックすると、メール、メールテンプレート、フラグメントをまたいでJourney Optimizer B2B Edition 内でアセットが現在使用されている場所の詳細が表示されます。
+アセットの詳細ページで「**[!UICONTROL 使用者]**」タブをクリックすると、Journey Optimizer B2B edition内、メール、メールテンプレート、フラグメント全体で、アセットが現在使用されている場所の詳細が表示されます。
 
 >[!IMPORTANT]
 >
 >メール、メールテンプレート、フラグメントのいずれかで現在 _使用中_ アセットは、削除できません **使用** です。
 
-参照は、カテゴリ（_メール_、_メールテンプレート_、_フラグメント_ 別に表示されます。 Journey Optimizer B2B Edition のメールはジャーニー内に埋め込まれて作成されるので、アセットを使用するメールの親ジャーニーは参照に表示されます。
+パネルには、カテゴリ別の参照（_メール_、_メールテンプレート_ または _フラグメント_）が表示されます。 Journey Optimizer B2B editionのメールはジャーニー内に埋め込まれて作成されるので、アセットを使用するメールの親ジャーニーは参照に表示されます。
 
 リンクをクリックすると、アセットが使用されている対応するメール、メールテンプレートまたはフラグメントに移動します。
 
+![ アセットを使用するコンテンツ項目の表示 ](assets/assets-used-by.png){width="700" zoomable="yes"}
+
 ## アセットの追加
 
-Assetsのリストページから、Adobe Marketo Engage Design Studio に画像アセットを追加できます。
+Assetsのリストページから、Journey Optimizer B2B editionのワークスペースまたはMarketo Engageのワークスペースに画像アセットを追加できます。
 
 1. 右上の **[!UICONTROL Assetsを追加]** をクリックします。
 
 1. _[!UICONTROL アセットを追加]_ ダイアログで、システムからファイルボックスに 1 つ以上のファイルをドラッグ&amp;ドロップします。
 
-   ![Marketo Engageデザインスタジオへのアセットの追加 ](./assets/assets-add-dialog.png){width="500" zoomable="yes"}
+   ![ ワークスペースへのアセットの追加 ](./assets/assets-add-dialog.png){width="500"}
 
    また、「_[!UICONTROL コンピューターからファイルを選択]_」リンクをクリックして、ローカルファイルシステムを使用してファイルを検索および選択することもできます。
 
@@ -62,7 +80,11 @@ Assetsのリストページから、Adobe Marketo Engage Design Studio に画像
 
    選択した画像のファイル名がダイアログに表示されます。 アセットファイル名は（フォルダー間で）一意である必要があり、という名前のファイルが既に存在する場合は、メッセージが表示されます。 名前は最大 100 文字まで指定でき、特殊文字（`;`、`:`、`\`、`|` など）を含めることはできません。
 
-1. フォルダーセレクターを使用して、アセットを保存する宛先フォルダーを選択します。
+1. アセットを保存する宛先ワークスペースまたはフォルダーを選択します。
+
+   >[!NOTE]
+   >
+   >_[!UICONTROL Journey Optimizer B2B edition]_ のワークスペースで場所を選択すると、アプリでアセットを管理できます。 アセットをMarketo Engageワークスペースに追加した場合、アセット管理機能はMarketo Engageの Design Studio からのみ使用できます。
 
 1. 既存のファイル名を持つ 1 つ以上のファイルをアップロードする際に、ファイルを上書き（置換）するには、「**[!UICONTROL 既存のファイルを上書き]**」チェックボックスを選択します。
 
@@ -72,15 +94,19 @@ Assetsのリストページから、Adobe Marketo Engage Design Studio に画像
 
 メール、メールテンプレート、フラグメントで現在使用しているアセットは、削除できません。 アセットの削除を開始する前に、使用する参照を確認してください。 また、削除操作は取り消すことができないので、削除操作を開始する前に確認します。
 
-アセットを削除するには、次のいずれかの方法を使用します。
+_[!UICONTROL Journey Optimizer B2B edition]_ ワークスペースにあるアセットを削除するには、次のいずれかの方法を使用します。
 
 * アセットの詳細に移動し、「**[!UICONTROL ..」をクリックします。その他]** 右上のオプションから「**[!UICONTROL 削除]**」を選択します。
 
-  ![ アセットのアクセスアクション ](./assets/assets-details-more-menu.png){width="500" zoomable="yes"}
+  ![ アセットのアクセスアクション ](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
-* _[!UICONTROL Assets]_ リストページで、アセット項目の横にある _省略記号_ （**[!UICONTROL ...]**）をクリックし、オプションから **[!UICONTROL 削除]** を選択します。
+* _[!UICONTROL Assets]_ リストページで、アセット項目の横にある _詳細_ アイコン（**[!UICONTROL ...]**）をクリックし、オプションから **[!UICONTROL 削除]** を選択します。
 
-  ![ アセットのアクセスアクション ](./assets/assets-list-file-more-menu.png){width="500" zoomable="yes"}
+  ![ アセットのアクセスアクション ](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
+
+  >[!NOTE]
+  >
+  >_[!UICONTROL Journey Optimizer B2B edition]_ ワークスペースに存在するアセットのみが、_詳細_ メニューで使用できるアセット管理機能を持っています。
 
 この操作を実行すると、確認ダイアログが開きます。 **[!UICONTROL キャンセル]** をクリックするか、「**[!UICONTROL 削除]**」をクリックして削除を確定すると、プロセスを中止できます。
 
@@ -88,19 +114,19 @@ Assetsのリストページから、Adobe Marketo Engage Design Studio に画像
 
 ## アセットの置換
 
-アセットを置き換えるには、次のいずれかの方法を使用します。
+_[!UICONTROL Journey Optimizer B2B edition]_ ワークスペースにあるアセットを置き換えるには、次のいずれかの方法を使用します。
 
 * アセットの詳細に移動し、「**[!UICONTROL ..」をクリックします。その他]** 右上のオプションから「**[!UICONTROL 置換]**」を選択します。
 
-* リスト ]_0}Assets} ページで、アセット項目の横にある_ 省略記号 _（**[!UICONTROL ...]**）をクリックし、オプションから&#x200B;**[!UICONTROL 置換]**を選択します。_[!UICONTROL 
+* _[!UICONTROL Assets]_ リストページで、アセット項目の横にある _詳細_ アイコン（**[!UICONTROL ...]**）をクリックし、オプションから **[!UICONTROL 置換]** を選択します。
 
 _[!UICONTROL アセットを置換]_ ダイアログで、置き換えるファイルをシステムからファイルボックスにドラッグ&amp;ドロップします。 また、「_[!UICONTROL コンピューターからファイルを選択]_」リンクをクリックして、ローカルファイルシステムを使用してファイルを選択することもできます。 （ローカルシステムで複数のファイルを選択した場合は、最初に選択したファイルが置換に使用されます）。
 
-![ アセットを置換ダイアログ ](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
+![ アセットを置換ダイアログ ](./assets/assets-replace-dialog.png){width="500"}
 
 続行するには、「**[!UICONTROL 置換]**」をクリックします。 「**[!UICONTROL キャンセル]**」をクリックして、プロセスを中止できます。
 
-置き換えるファイルが現在使用中の場合、使用されているすべての場所（メール、メールテンプレート、フラグメント）で新しい画像が置き換えられることを示す情報ダイアログが表示されます。
+置き換えるファイルが使用中の場合、使用されているすべての場所（メール、メールテンプレート、フラグメント）で新しい画像が置き換えられることを示す情報ダイアログが表示されます。
 
 ## アセットのダウンロード
 
@@ -118,11 +144,11 @@ _[!UICONTROL アセットを置換]_ ダイアログで、置き換えるファ�
 
 ![ 選択されたアセット ](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-次の一括アクションを実行できます。
+_[!UICONTROL Journey Optimizer B2B edition]_ ワークスペースにある選択したアセットに対して、次の一括アクションを実行できます。
 
 +++アセットの移動
 
-1. 選択バナーで、「**移動**」をクリックします。
+1. 選択バナーで、「**[!UICONTROL 移動]**」をクリックします。
 
    _[!UICONTROL Assetsを移動]_ ダイアログが開きます。このダイアログには、選択したアセットの名前が一覧表示され、これらのアセットを移動する _ターゲット_ フォルダーを選択できます。
 
@@ -162,9 +188,9 @@ _[!UICONTROL アセットを置換]_ ダイアログで、置き換えるファ�
 
 ## フォルダーレベルのアクションの適用
 
-アクションはフォルダーまたはフォルダー内のアセットに適用できます。 フォルダーの省略記号（**...**）アイコンをクリックして、そのフォルダーに対するアクションのオプションを表示します。
+_[!UICONTROL Journey Optimizer B2B edition]_ ワークスペースでは、フォルダーまたはフォルダー内のアセットにアクションを適用できます。 フォルダーの横にある _その他_ アイコン（**...**）をクリックして、フォルダーに適用できるアクションを表示します。
 
-![ アクションをフォルダーまたはフォルダー内のアセットに適用する ](./assets/assets-folder-menu-options.png){width="500"}
+![ アクションをフォルダーまたはフォルダー内のアセットに適用する ](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
 フォルダーレベルで次の操作を実行できます。
 
@@ -238,15 +264,17 @@ _[!UICONTROL アセットを置換]_ ダイアログで、置き換えるファ�
 
 +++
 
-## メールコンテンツでのアセットの使用
+## コンテンツでのアセットの使用
 
 Assetsは、チームのメール、メールテンプレートまたはビジュアルコンテンツエディターからのビジュアルフラグメントオーサリングで使用できます。
 
-ビジュアルエディターの UI で、左側のサイドバーにある _アセットセレクター_ アイコンを選択します。
+ビジュアルデザイナーの UI で、左側のサイドバーにある _アセットセレクター_ アイコン（![Assets選択 ](../assets/do-not-localize/icon-assets-design.svg)）を選択します。
 
-![ 選択されたアセット ](./assets/content-assets-selector-icon.png){width="700" zoomable="yes"}
+選択したワークスペースで使用可能なアセットの構造化リストを表示するツールパネルを変更します。 アセットを選択するために表示するワークスペースを選択します。
 
-使用可能なアセットのリストを表示するツールパネルを変更します。 画像アセットをビジュアルキャンバスに追加するには、複数の方法があります。
+![ 選択されたアセット ](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
+
+画像アセットをビジュアルキャンバスに追加するには、複数の方法があります。
 
 * 左側のナビゲーションから画像サムネールをドラッグ&amp;ドロップします。
 
@@ -262,4 +290,4 @@ Assetsは、チームのメール、メールテンプレートまたはビジ�
 
    * 「_検索_」フィールドにテキストを入力し、表示される項目をフィルタリングしてアセット名が一致するかどうかを確認します。
 
-  ![ フィルターと検索フィールドを使用して、必要なアセットを見つける ](./assets/assets-select-dialog-marketo-filtered.png){width="600" zoomable="yes"}
+  ![ フィルターと検索フィールドを使用して、必要なアセットを見つける ](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
