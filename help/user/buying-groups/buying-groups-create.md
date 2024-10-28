@@ -1,11 +1,11 @@
 ---
 title: 購買グループの作成
-description: 購入グループを作成する方法を説明します。
+description: 必要なコンポーネントを使用して購入グループを作成する方法を説明します。
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
