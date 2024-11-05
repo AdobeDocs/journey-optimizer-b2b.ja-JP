@@ -1,9 +1,9 @@
 ---
 title: コンテンツオーサリング – コンポーネント
 description: コンテンツのオーサリングにコンポーネントとコンテンツ要素を使用する方法に関する再利用可能な節
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,12 @@ ht-degree: 0%
 
    ![ コンテンツ要素をキャンバスにドラッグして、設定を調整します ](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
-   reference to the contents elements--->
+   reference to the contents elements when we have a completed reference for each.--->
 
 1. 必要に応じて、「設定」タブまたは _[!UICONTROL スタイル]_ タブで各コンポーネントに追加のカスタマイズを加えるこ _[!UICONTROL ができ]_ す。
 
    例えば、各コンポーネントのテキストスタイル、パディングまたは余白を変更できます。
 
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
+1. 条件付きコンテンツを追加し、条件付きルールに基づいてコンテンツをターゲットプロファイルに適応させるには、コンテンツコンポーネントを選択し、コンポーネントツールバーの **[!UICONTROL 条件付きコンテンツの有効化]** アイコンをクリックします。
+
+   詳しくは、[_条件付きコンテンツ_](../user/content/conditional-content.md) を参照してください。

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B エディションの概要と、組み込みの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 93b21240182843543dc439ba2844ab8c3c3b6013
+source-git-commit: 2fad420eb5d0511acff5509a424b9ed100cdb151
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 45%
+source-wordcount: '154'
+ht-degree: 42%
 
 ---
 
@@ -31,17 +31,23 @@ ht-degree: 45%
    + [概要](./journeys/journey-overview.md)
    + [アカウントジャーニーノード](./journeys/journey-nodes.md)
 + ジャーニーコンテンツ {#journey-content}
-   + [メールオーサリング](./content/email-authoring.md)
-   + [電子メールオーサリング用 AI アシスタント](./content/ai-assistant-emails.md)
-   + [販売警告メール](./content/sales-alert-email.md)
+   + メールチャネル {#email-channel}
+      + [メールオーサリング](./content/email-authoring.md)
+      + [電子メールオーサリング用 AI アシスタント](./content/ai-assistant-emails.md)
+      + [管理されたテンプレート](./content/email-authoring-governance.md)
+      + [販売警告メール](./content/sales-alert-email.md)
    + [SMS オーサリング](./content/sms-authoring.md)
 + コンテンツ管理 {#content-management}
    + Assets {#assets}
       + [概要](./content/assets-overview.md)
       + [Marketo Engageアセットの操作](./content/marketo-engage-design-studio.md)
       + [AEM Assets画像の操作](./content/aem-assets.md)
-   + [テンプレート](./content/email-templates.md)
+   + テンプレート {#templates}
+      + [メールテンプレートの管理](./content/email-templates.md)
+      + [メールテンプレートオーサリング](./content/email-template-authoring.md)
+      + [コンテンツガバナンス](./content/template-content-governance.md)
    + [フラグメント](./content/fragments.md)
+   + [条件付きコンテンツ](./content/conditional-content.md)
 + Insights ダッシュボード {#dashboards}
    + [インテリジェントダッシュボード](./dashboards/intelligent-dashboard.md)
    + [購買グループ](./dashboards/buying-groups-dashboard.md)
@@ -49,5 +55,8 @@ ht-degree: 45%
    + [ジャーニーの概要](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [ユーザー管理](./admin/user-management.md)
+   + チャネル {#channels}
+      + [メール設定](./admin/configure-channels-emails.md)
+      + [SMS 設定](./admin/configure-channels-sms.md)
    + [AEM Assets リポジトリの設定](./admin/configure-aem-repositories.md)
    + [ガバナンス](./admin/governance.md)

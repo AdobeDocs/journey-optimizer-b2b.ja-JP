@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B エディションのドキュメント
 description: Adobe Journey Optimizer B2B edition機能を使用して、組み込みのジェネレーティブ AI と業界最先端の自動化機能を使用して、アカウントジャーニーを調整し、グループジャーニーを購入する方法を説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: a1cbb0270f5174b8a16b783aaef7a890abb81a32
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 7%
 
 ---
 
@@ -17,11 +17,23 @@ Journey Optimizer B2B edition製品およびドキュメントの最新の機能
 
 >[!BEGINTABS]
 
+>[!TAB  条件付きコンテンツ ]
+
+条件付きコンテンツを使用すると、条件付きルールに基づいてメールコンテンツを調整できます。 プロファイル属性またはコンテキストイベントを使用してルールを定義します。 条件付きルールはルールビルダーで作成し、アカウントジャーニー間で再利用するために保存できます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/conditional-content.md" tooltip="条件付きコンテンツについて学ぶ"}
+
+>[!TAB  人物アクション – リストに追加/リストから削除 ]
+
+アカウントジャーニーでは、「_リストに追加_ アクションノードを使用して、ユーザーをMarketo Engageの静的リストに追加します。 これらのリストにより、特定のオーディエンスの再利用やターゲティングを柔軟に行うことができます。 リストを作成してその周りにキャンペーンを作成したり、既存のキャンペーンにユーザーを直接追加したりできます。 さらに、「_リストから削除_ 人物」アクションを使用して、アカウントジャーニーの進行状況に基づいて、Marketo Engageでターゲティングを絞り込み、変更します。
+
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="リストへの追加およびリストからの削除について説明します"}
+
 >[!TAB  中央アセットライブラリ ]
 
-Design Studio のワークスペース全体で、Marketo Engageインスタンスのすべての画像アセットを使用します。 組み込みガードレールは、Journey Optimizer B2B editionからMarketo Engageアセットに編集を加えるのを防ぎます。 これらの保護機能により、Marketo Engageソースアセットが維持されると同時に、Journey Optimizer B2B editionでのシームレスな読み取りと再利用が可能になります。 Journey Optimizer B2B editionでのみ使用するアセットの場合は、専用のワークスペースがアセット管理機能を完全に提供します。
+Design Studio のワークスペースをまたいで、Marketo Engageインスタンスで画像アセットを使用します。 組み込みガードレールは、Journey Optimizer B2B editionからMarketo Engageアセットに編集を加えるのを防ぎます。 これらの保護機能により、Marketo Engageソースアセットが維持されると同時に、Journey Optimizer B2B editionでのシームレスな読み取りと再利用が可能になります。 Journey Optimizer B2B editionでのみ使用するアセットの場合は、専用のワークスペースがアセット管理機能を完全に提供します。
 
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="仮想アセット管理について学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="一元的なアセット管理について学ぶ"}
 
 >[!TAB LinkedIn アカウントでオーディエンスをマッチング ]
 
@@ -38,12 +50,6 @@ Design Studio のワークスペース全体で、Marketo Engageインスタン�
 ジェネレーティブ AI を活用したAdobe Journey Optimizer B2B editionのメールコンテンツ用 AI アシスタントで、コンテンツを次のレベルに引き上げます。 AI アシスタントは、メール全体、ターゲットテキストコンテンツ、およびオーディエンスの共感を得るために特別にカスタマイズされた画像を生成することで、配信の影響を最適化するのに役立ちます。
 
 [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="メール用 AI アシスタントの詳細"}
-
->[!TAB  ビジュアルフラグメント ]
-
-マーケティングチームメンバーが電子メールコンテンツのアセンブリに使用できるカスタムコンテンツブロックとして、再利用可能なコンポーネントを作成し、設計プロセスを改善します。
-
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="ビジュアルフラグメントについて"}
 
 >[!ENDTABS]
 
@@ -104,12 +110,12 @@ Design Studio のワークスペース全体で、Marketo Engageインスタン�
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="コンテンツオーサリング"><br/>
-      <strong>ジャーニーコンテンツ </strong><br/><a href="./content/email-authoring.md"> メールオーサリング </a><br/><a href="./content/ai-assistant-emails.md"> メール </a><br/><a href="./content/sms-authoring.md">SMS オーサリング用 AI アシスタント </a>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="ジャーニーコンテンツ"><br/>
+      <strong>ジャーニーコンテンツ </strong><br/><a href="./content/email-authoring.md"> メールオーサリング </a><br/><a href="./content/ai-assistant-emails.md"> メール </a><br/><a href="./content/sales-alert-email.md"> セールスアラートメール </a><br/><a href="./content/sms-authoring.md">SMS オーサリング用 AI アシスタント </a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="コンテンツアセット"><br/>
-      <strong> コンテンツ管理 </strong><br/><a href="./content/assets-overview.md">Assetsの概要 </a><br/><a href="./content/email-templates.md"> メールテンプレート </a><br/><a href="./content/fragments.md"> ビジュアルフラグメント </a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="コンテンツ管理"><br/>
+      <strong> コンテンツ管理 </strong><br/><a href="./content/assets-overview.md">Assetsの概要 </a><br/><a href="./content/email-templates.md"> メールテンプレート </a><br/><a href="./content/fragments.md"> ビジュアルフラグメント </a><br/><a href="./content/conditional-content.md"> 条件付きコンテンツ </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="インサイトとダッシュボード"><br/>
@@ -126,7 +132,7 @@ Design Studio のワークスペース全体で、Marketo Engageインスタン�
 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> ビデオとチュートリアル </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> 製品説明 </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank"> ドキュメント </a> - <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank"> 開発者向けリソース </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> ドキュメント </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> 開発者向けリソース </a>
 </td></tr>
 <tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home" target="_blank"> ドキュメント </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> 開発者向けチュートリアル </a>
