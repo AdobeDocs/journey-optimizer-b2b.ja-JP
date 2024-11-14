@@ -2,16 +2,17 @@
 title: メール設定
 description: Marketo Engageで設定されたメール設定にアクセスして確認する方法を説明します。
 feature: Setup
-source-git-commit: f097f535237fe6b27322e2c325e59daa8a54ee2f
+exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+source-git-commit: 796cb86f81aa18d8e616af527c22b3160df4f1b5
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1188'
 ht-degree: 3%
 
 ---
 
 # メール設定
 
-Adobe Journey Optimizer B2B editionは、Market Engage のチャネル機能とイベントトラッキングを活用します。 管理者は、マーケターに対してチャネル配信を有効にするために、配信とトラッキングの設定が適切に行われていることを確認する必要があります。
+Adobe Journey Optimizer B2B editionは、Market Engage のチャネル機能とイベントトラッキングを活用します。 管理者は、マーケターに対してチャネル配信を有効にするために、配信とトラッキングの設定が適切に行われていることを確認する必要があります。 メール配信およびMarketo Engageによるトラッキングに必要なプロトコルについて詳しくは、[ トラッキングとメール配信のプロトコル ](../start/email-protocols.md) を参照してください。
 
 ## 配信設定
 
@@ -54,7 +55,6 @@ Adobe Journey Optimizer B2B editionは、Market Engage のチャネル機能と�
 >[!NOTE]
 >
 >Journey Optimizer B2B editionおよびコネクテッドMarketo Engageインスタンスから複数のブランドをマーケティングしており、それぞれに独自のブランドトラッキングリンクを設定する場合は、ブランディングドメインを追加できます。 詳しくは、[Marketo Engageドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"} を参照してください。
-
 
 ### [!UICONTROL  カスタムヘッダーオプション ] {#custom-header-options}
 
@@ -146,4 +146,3 @@ Marketo Engageでは、ボットアクティビティの確認に次の 2 つの
 >Adobe Marketo Engageのこれらの設定にアクセスして編集するには、製品管理者権限が必要です。
 
 ボットアクティビティオプションの設定について詳しくは、[Marketo Engageドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"} を参照してください。
-

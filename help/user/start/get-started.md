@@ -2,7 +2,7 @@
 title: Journey Optimizer B2B editionの基本を学ぶ
 description: Journey Optimizer B2B エディションの新規ユーザーとして、使用を開始する上での重要な領域について説明します。
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: ed736c7366ad3fa5c4023947b1c3c4cef7097e2e
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 10%
@@ -37,9 +37,9 @@ Adobe Journey Optimizer B2B edition機能の使用を開始する前に、環境
 
 1. Marketo Engageで **メール配信を設定** します。これにより、チームはアカウントジャーニーからメールコンテンツを送信できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
-1. **SMS サービスを設定** します。 テキストメッセージサービスを個別に提供する、サポート対象のサードパーティ SMS プロバイダーの 1 つを設定し、Adobe Journey Optimizer B2B editionでアカウント資格情報を設定します。 [詳細情報](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
+1. **SMS サービスを設定** します。 テキストメッセージサービスを個別に提供する、サポート対象のサードパーティ SMS プロバイダーの 1 つを設定し、Adobe Journey Optimizer B2B editionでアカウント資格情報を設定します。 [詳細情報](../admin/configure-channels-sms.md)
 
-1. Adobe Experience Manager Assets as c Cloud Serviceを使用してデジタルアセットの一元管理を行うチームの場合は、**Assetsの使用を設定して有効にします**。 [詳細情報](../admin/configure-aem-repositories.md)
+1. Adobe Experience Manager Assetsを使用してデジタルアセットの一元管理を行っているチームの場合は、**Assetsas a Cloud Serviceの使用を設定して有効にします**。 [詳細情報](../admin/configure-aem-repositories.md)
 
 >[!TAB  マーケター向けクイックスタート ]
 
