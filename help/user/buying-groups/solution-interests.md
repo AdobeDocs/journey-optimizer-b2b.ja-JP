@@ -3,9 +3,9 @@ title: ソリューションの関心
 description: ソリューションの関心と、購入グループ内で使用するためにソリューションを定義する方法について説明します。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## ソリューションの関心へのアクセスと参照
 
-1. Adobe Experience Platformのホームページで、「Adobe Journey Optimizer B2B Edition」をクリックします。
+1. Adobe Experience Platformのホームページで、「Adobe Journey Optimizer B2B edition」をクリックします。
 
 1. 左側のナビゲーションで「**[!UICONTROL 購入グループ]**」をクリックします。
 
@@ -48,13 +48,21 @@ _[!UICONTROL ソリューションの関心]_ タブの「**[!UICONTROL 購入�
 
 1. **[!UICONTROL 役割テンプレート]** を選択します（必須）。
 
-   セレクターをクリックし、表示されたリストからライブロールテンプレートを選択します。 ソリューションの関心に関連付けることができるライブの役割テンプレートは 1 つだけです。
+   **[!UICONTROL ロールテンプレートを選択]** をクリックし、ダイアログのリストからライブロールテンプレートを選択します。 ソリューションの関心に関連付けることができるライブの役割テンプレートは 1 つだけです。 「**[!UICONTROL 保存]**」をクリックして _[!UICONTROL ソリューションの関心を作成]_ ページに戻ると、選択したロールテンプレートが表示されます。
 
-   ![ ソリューションの「関心」タブ ](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![ ソリューションの関心に役割テンプレートを追加する ](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. **[!UICONTROL 購入グループステージモデル]** を選択して、購入グループステージの進行を使用します（オプション）。
+
+   アカウントの進行状況を追跡するための購入グループステージの使用について詳しくは、[ 購入グループステージ ](./buying-group-stages.md) を参照してください。
+
+1. 「**[!UICONTROL 既存の購買グループの更新]**」設定を有効にします（オプション）。
+
+   このオプションを有効にすると、ソリューションの関心とペアになっているすべての既存の購入グループが、24 時間同期サイクルを通じて更新されます。
 
 1. 右上隅にある「**[!UICONTROL 作成]**」をクリックします。
 
-   新しいソリューションの関心は、ソリューションの関心に表示されます
+   新しいソリューションの関心が _[!UICONTROL ソリューションの関心]_ リストに表示されます。
 
 ## ソリューションの関心の編集
 
@@ -68,6 +76,10 @@ _[!UICONTROL ソリューションの関心]_ タブの「**[!UICONTROL 購入�
    ![ ソリューションの関心の詳細メニュー ](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. 必要に応じて、名前（必須で一意）と説明（オプション）を更新します。
+
+1. 必要に応じて、購入グループステージの進行を追跡するための **[!UICONTROL 購入グループステージモデル]** を選択します。
+
+   購入グループステージを使用して販売に対するジャーニーの進行状況を追跡する方法について詳しくは、[ 購入グループステージ ](./buying-group-stages.md) を参照してください。
 
 1. 必要に応じて、「**[!UICONTROL 既存の購買グループの更新]** 設定を変更します。
 

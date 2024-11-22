@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B エディションの概要と、組み込みの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: dbc6fb9e41817def4e141518c1a5b2702441ae60
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 41%
+source-wordcount: '161'
+ht-degree: 42%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 41%
    + [概要](./buying-groups/buying-groups-overview.md)
    + [ソリューションの関心](./buying-groups/solution-interests.md)
    + [役割テンプレート](./buying-groups/buying-groups-role-templates.md)
+   + [購買グループステージ](./buying-groups/buying-group-stages.md)
    + [購入グループの作成](./buying-groups/buying-groups-create.md)
 + アカウントジャーニー {#account-journeys}
    + [概要](./journeys/journey-overview.md)
