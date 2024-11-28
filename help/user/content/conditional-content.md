@@ -2,10 +2,11 @@
 title: 条件付きコンテンツ
 description: アカウントジャーニー用のメールコンテンツをオーサリングする際に、コンテンツのバリエーションを作成し、条件付きルールを適用する方法を説明します。
 feature: Email Authoring, Content
-source-git-commit: 15a5144554f25634efa29efc42d41350b19c2bfb
+exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -15,12 +16,12 @@ ht-degree: 4%
 
 Adobe Journey Optimizerでは、条件付きコンテンツをメールメッセージに追加するために、_条件_ ライブラリに保存されている条件付きルールを適用できます。 [ アカウントジャーニー内でメールを作成 ](./email-authoring.md) するときに、電子メールデザイナー内で条件付きルールを適用します。
 
-## 条件付きコンテンツをメールに追加 {#email-content}
+## メールへの条件付きコンテンツの追加 {#email-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
 >title="条件付きコンテンツ"
->abstract="条件付きルールを使用すると、コンテンツコンポーネントのバリアントを複数作成できます。 メッセージの送信時にどの条件も満たさなかった場合、デフォルトバリアントのコンテンツが表示されます。"
+>abstract="条件付きルールを使用すると、コンテンツコンポーネントのバリアントを複数作成できます。 メッセージの送信時にどの条件も満たされない場合は、デフォルトバリアントのコンテンツが表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_rule_select"
