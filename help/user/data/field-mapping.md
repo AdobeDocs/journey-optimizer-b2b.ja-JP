@@ -2,16 +2,26 @@
 title: XDM フィールド
 description: Adobe Experience PlatformとJourney Optimizer B2B editionの間で同期されるデフォルトの属性フィールドを確認します。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
+source-git-commit: 332c25305377398c2338d4b1d4a61b7fcf814232
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 24%
+source-wordcount: '1033'
+ht-degree: 23%
 
 ---
 
 # XDM フィールド
 
 アカウントオーディエンスデータは、XDM ビジネスアカウントと XDM ビジネスユーザーの両方のクラスに属性として保存されます。 Adobe Experience PlatformとJourney Optimizer B2B editionの間では、データは定期的に同期されます。 次のセクションでは、デフォルトの属性セットを示します。
+
+>[!TIP]
+>
+>[Experience Platform XDM ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b) に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
+
+## XDM ビジネスアカウント人物関係属性
+
+| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
+|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+| `personRoles` | 人物の役割 | ロール | 文字列配列 | アカウント上の人物に関連付けられた役割の配列（`owner, accountant, designer` など）。 |
 
 ## XDM ビジネスユーザー属性
 
@@ -64,7 +74,31 @@ ht-degree: 24%
 | `accountOrganization.industry` | 業界 | 業界 | 文字列 | 業界は組織に起因する。 これは自由形式のフィールドで、クエリには構造化された値を使用するか、`xdm:classifier` プロパティを使用することをお勧めします。 |
 | `accountOrganization.logoUrl` | ロゴ URL | ロゴ URL | 文字列 | アカウントに関連付けられたソーシャルネットワークプロファイル画像をリクエストする URL を生成するために、Salesforce インスタンスの URL （`https://yourInstance.salesforce.com/` など）と組み合わせるパス。 生成された URL は、アカウントのソーシャルネットワークプロファイル画像への HTTP リダイレクト（コード 302）を返します。 |
 | `accountOrganization.numberOfEmployees` | 従業員数 | 従業員数 | 整数 | 組織の従業員数。 |
-| `accountOrganization.SICCode` | SIC コード | SIC コード | 文字列 | 標準産業分類（SIC） コード。事業活動に基づいて会社が属する業種を分類する 4 桁のコードです。 |
+| `accountOrganization.SICCode` | SIC コード | SIC コード | 文字列 | Standard Industrial Classification （SIC） コードは、事業活動に基づいて会社が属する業界を分類する 4 桁のコードです。 |
 | `accountOrganization.website` | Web サイトの URL | ドメイン名 | 文字列 | 組織の web サイトの URL。 |
 | `accountPhone.number` | なし | アカウントの電話番号 | 文字列 | アカウントに関連付けられている電話番号。 |
 | `accountSourceType` | なし | ソースのタイプ | 文字列 | アカウントのSourceタイプ。 |
+
+<!-- ## XDM Opportunity attributes
+
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+|`opportunityName` | Opportunity Name   | ? |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
+|`opportunityDescription` | Opportunity Description   | ?    |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
+|`opportunityType` | Opportunity Type   | ?   | String | ?   |
+|`opportunityStage` | Opportunity Stage   | ?   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
+|`fiscalQuarter` | Fiscal Quarter   | ?   | String | The fiscal quarter that the opportunity is targeted.   |
+|`fiscalYear` | Fiscal Year   | ?   | String | The fiscal year that the opportunity is targeted.   |
+|`fiscalCategory` | Fiscal Category   | ?   | String | ?   |
+|`fiscalCategoryName` | Fiscal Category Name  | ?   | String | Forecast category name that is displayed in reports for a particular forecast category.   |
+|`isClosed` | Closed Flag  | ?   | String | Flag that indicates if the opportunity is closed.   |
+|`isWon` | Won Flag  | ?   | String | Flag that indicates if the opportunity is won.  |
+|`probabilityPercentage` | Probability Percentage  | ?   | String | Likelihood of closing the opportunity, stated as a percentage.  |
+|`opportunityAmount.amount` | Opportunity Amount  | ?   | String | Estimated total sale amount for the opportunity.   |
+|`expectedRevenue.amount` | Expected Revenue  | ?   | String | Calculated revenue based on the Amount and Probability.   |
+|`opportunityQuantity` | Opportunity Quantity  | ?   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
+|`expectedCloseDate` | Expected Close Date  | ?   | String | Expected date of closure for the opportunity.   |
+|`lastActivityDate` | Last Activity Date  | ?   | String | Last activity date for the opportunity.  |
+|`leadSource` | Lead Source  | ?   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
+|`nextStep` | Next Step  | ?   | String | Description of the next task for closing the opportunity.   |
+-->

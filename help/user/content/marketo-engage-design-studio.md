@@ -3,16 +3,16 @@ title: Marketo EngageAssetsの操作
 description: Journey Optimizer B2B editionでの Asset Design Studio Asset ManagementMarketo Engageの使用について説明します。
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
+source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
 
 # Marketo Engageアセットの操作
 
-Marketo Engageデザインスタジオは、Journey Optimizer B2B editionのデフォルトのアセットソースです。アカウントジャーニーのコンテンツで使用可能なアセットを簡単に管理および使用できます。
+Marketo Engageデザインスタジオは、Journey Optimizer B2B editionのデフォルトのアセットソースです。使用可能なアセットを簡単に管理および使用して、アカウントジャーニーをサポートするコンテンツをデザインできます。
 
 Marketo Engage、マーケティング部門はワークスペースを使用してコンテンツアセットを整理し、チームが正しいアセットにアクセスできるようにします。 明確に定義されたワークスペースは、大規模な製品ポートフォリオを持つ大企業や、様々な地域へのマーケティングに関する様々な要件を持つグローバルに運用する大企業にとって特に役立ちます。
 
@@ -20,15 +20,16 @@ Marketo Engage、マーケティング部門はワークスペースを使用し
 
 デフォルトでは、**_[!UICONTROL Journey Optimizer B2B edition]_** ワークスペースがあり、アカウントのジャーニーコンテンツに特別に使用できます。 このワークスペースに追加するアセットは、Marketo Engageでは表示も使用もできません。 このワークスペースにあるアセットの場合は、Journey Optimizer B2B editionの様々なアセット管理機能を使用できます。 次のような関数があります。
 
-* 置換
-* 削除
-* 移動
+* [置換](#replace-assets)
+* [削除](#delete-assets)
+* [移動](#create-a-folder)
+* [Adobe Expressで編集](./image-edit-adobe-express.md)
 
 Marketo Engageワークスペースに存在するAssetsは、メール、メールテンプレートおよびフラグメントで使用する読み取り専用アクセスに制限されています。 これらのワークスペースに新しいアセットを追加し、アセットのコピーをダウンロードできます。
 
 ## アセットの参照とアクセス
 
-Journey Optimizer B2B edition内からAdobe Marketo Engage アセットにアクセスするには、左側のナビゲーションに移動して、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL Assets]** をクリックします。 このアクションを実行すると、すべてのアセットが一覧表示されるリストページが開きます。
+Journey Optimizer B2B editionからAdobe Marketo Engage アセットにアクセスするには、左側のナビゲーションに移動して、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL Assets]** をクリックします。 このアクションを実行すると、すべてのアセットが一覧表示されるリストページが開きます。
 
 ![Marketo Engageアセットの参照 ](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -66,7 +67,7 @@ Journey Optimizer B2B edition Workspace はデフォルトで選択されてい�
 
 ## アセットの追加
 
-Assetsのリストページから、Journey Optimizer B2B editionのワークスペースまたはMarketo Engageのワークスペースに画像アセットを追加できます。
+_Assets_ リストページから、Journey Optimizer B2B editionのワークスペースまたはMarketo Engageのワークスペースに画像アセットを追加できます。
 
 1. 右上の **[!UICONTROL Assetsを追加]** をクリックします。
 
@@ -126,7 +127,7 @@ _[!UICONTROL アセットを置換]_ ダイアログで、置き換えるファ�
 
 続行するには、「**[!UICONTROL 置換]**」をクリックします。 「**[!UICONTROL キャンセル]**」をクリックして、プロセスを中止できます。
 
-置き換えるファイルが使用中の場合、使用されているすべての場所（メール、メールテンプレート、フラグメント）で新しい画像が置き換えられることを示す情報ダイアログが表示されます。
+置き換えるファイルが使用中の場合、使用されているすべての場所（メール、メールテンプレート、フラグメント）で新しい画像ファイルが置き換えられることを示す情報ダイアログが表示されます。
 
 ## アセットのダウンロード
 
@@ -154,7 +155,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ ワークスペースにある選�
 
 1. フォルダーを選択します。
 
-   「_[!UICONTROL 選択したアセットが移動先：]_」の横のパスが更新されます。
+   _[!UICONTROL 選択したアセットの移動先：]_ の横のパスは、変更を反映しています。
 
 1. 「**[!UICONTROL 移動]**」をクリックします。
 
@@ -268,7 +269,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ ワークスペースでは、フ�
 
 Assetsは、チームのメール、メールテンプレートまたはビジュアルコンテンツエディターからのビジュアルフラグメントオーサリングで使用できます。
 
-ビジュアルデザイナーの UI で、左側のサイドバーにある _アセットセレクター_ アイコン（![Assets選択 ](../assets/do-not-localize/icon-assets-design.svg)）を選択します。
+ビジュアルデザイナーの UI で、左側のサイドバーにある「_Marketo EngageAssets_」アイコン（![Marketo EngageAssetsアイコン ](../../assets/do-not-localize/icon-assets-me.svg)）をクリックします。
 
 選択したワークスペースで使用可能なアセットの構造化リストを表示するツールパネルを変更します。 アセットを選択するために表示するワークスペースを選択します。
 

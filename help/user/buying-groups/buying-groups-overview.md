@@ -3,9 +3,9 @@ title: 購買グループ
 description: Journey Optimizer B2B editionの購買グループが、アカウントリストのメンバーを特定しターゲティングすることで、マーケティング効果を高める方法を説明します。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1259'
 ht-degree: 6%
 
 ---
@@ -77,7 +77,7 @@ _[!UICONTROL 購入グループ]_ ページはタブで構成されています�
 
 ## 購買グループの詳細
 
-購入グループの詳細にアクセスするには、「参照 _[!UICONTROL タブから購入グループ名をクリックし]_ す。
+購入グループの詳細にアクセスするには、「参照 _[!UICONTROL タブから購入グループ名をクリックし]_ す。 [詳細情報](./buying-group-details.md)
 
 ![ 購入グループの詳細 ](assets/buying-group-details.png){width="600" zoomable="yes"}
 

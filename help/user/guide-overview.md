@@ -2,7 +2,7 @@
 title: Adobe Journey Optimizer B2B エディションのドキュメント
 description: Adobe Journey Optimizer B2B edition機能を使用して、組み込みのジェネレーティブ AI と業界最先端の自動化機能を使用して、アカウントジャーニーを調整し、グループジャーニーを購入する方法を説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 7%
@@ -27,7 +27,7 @@ Journey Optimizer B2B edition製品およびドキュメントの最新の機能
 
 アカウントジャーニーでは、「_リストに追加_ アクションノードを使用して、ユーザーをMarketo Engageの静的リストに追加します。 これらのリストにより、特定のオーディエンスの再利用やターゲティングを柔軟に行うことができます。 リストを作成してその周りにキャンペーンを作成したり、既存のキャンペーンにユーザーを直接追加したりできます。 さらに、「_リストから削除_ 人物」アクションを使用して、アカウントジャーニーの進行状況に基づいて、Marketo Engageでターゲティングを絞り込み、変更します。
 
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="リストへの追加およびリストからの削除について説明します"}
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="リストへの追加およびリストからの削除について説明します"}
 
 >[!TAB  中央アセットライブラリ ]
 

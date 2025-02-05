@@ -1,16 +1,16 @@
 ---
 title: コンテンツオーサリング – パーソナライゼーション
 description: コンテンツオーサリングでのパーソナライゼーションの使用に関する再利用された節
-source-git-commit: 0a9c05ac2ddd95e1fa5321f44f5cbe8cfa595007
+source-git-commit: 3791beb98068a56882bb0a96fbc6b192e85130bb
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
 
 # コンテンツオーサリング – パーソナライゼーション
 
-Journey Optimizer B2B Edition では、インラインのシンプルな構文を使用します。この構文を使用すると、パーソナライズされたコンテンツを二重の中括弧 `{}` で囲んだ式を作成することができます。 同じコンテンツまたはフィールドに、制限なく複数の式を追加できます。
+Journey Optimizer B2B editionでは、インラインのシンプルな構文を使用します。この構文を使用すると、パーソナライズされたコンテンツを二重の中括弧で囲んだ式を作 `{}` できます。 同じコンテンツまたはフィールドに、制限なく複数の式を追加できます。
 
 例:
 
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition では、インラインのシンプルな構文�
 
 * `Hello {{profile.person.name.fullName}}`
 
-Journey Optimizer B2B Edition は、メッセージ（メールおよび SMS）を処理する際に、式をExperience Platformデータベースに含まれるデータに置き換えます。 最初の例は、_Hello John Doe_ となります。
+Journey Optimizer B2B editionは、コンテンツの処理時に、式をExperience Platformデータベースに含まれるデータで置き換えます。 最初の例は、_Hello John Doe_ となります。
 
 次の例では、リード/アカウント属性とシステムトークンを使用してコンテンツをパーソナライズする手順の概要を説明します。
 

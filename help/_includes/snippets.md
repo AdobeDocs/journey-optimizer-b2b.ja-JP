@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: 4facd14886cb21371ebbc3e0032cbf14cc322586
+source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -11,6 +11,19 @@ ht-degree: 0%
 # スニペット
 
 <!-- Content authoring steps for reuse -->
+
+## インテントデータの設定 {#intent-data-note}
+
+>[!NOTE]
+>インテントデータは、Journey Optimizer B2B edition インスタンスに対して設定されている場合に、ページに含めることもできます。 インテント検出モデルとキーワードの送信方法について詳しくは、[ インテント データ ](../user/admin/intent-data.md) を参照してください。
+>
+
+## AEM assets ライセンスノート {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>AEM Assetsas a Cloud ServiceのライセンスとDynamic Media ライセンスは、統合の前提条件です。 [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} が有効になっていることを確認する必要があります。<br/>
+>契約と設定に応じて、Adobe Experience Manager Assetsのas a Cloud Serviceは、ビジュアルコンテンツをデザインする際にAdobe Journey Optimizer B2B editionから直接アクセスできます。
 
 ## コンテンツオーサリング – コンポーネント – 構造ステップ {#structures-step}
 
@@ -46,11 +59,7 @@ ht-degree: 0%
 
    アセットを含むフォルダーをダブルクリックします。 項目を構造コンポーネントにドラッグ&amp;ドロップします。
 
-   >[!NOTE]
-   >
-   >Experience Manager Assetsas a Cloud Serviceのサブスクリプションに、デフォルトのAdobe Marketo Engage Design Studio が含まれている場合は、メール、メールテンプレートまたはビジュアルフラグメントの作成時に [ 画像ソース ](../user/content/assets-overview.md#choose-an-asset-source) を選択する必要があります。 ただし、コンテンツデザイナーを編集用に開く前に画像のソースを選択することもできます。
-
-   ソースタイプのアセットの使用について詳しくは、[ コンテンツへのアセットの追加 ](../user/content/assets-overview.md#add-assets-to-your-content) を参照してください。
+   ソースタイプのアセットの使用について詳しくは、[ コンテンツへのアセットの追加 ](../user/content/assets-overview.md#use-assets-for-content-authoring) を参照してください。
 
    ![Marketo Engageアセットをキャンバスにドラッグして、設定を調整します ](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
@@ -64,6 +73,6 @@ ht-degree: 0%
 
 ## コンテンツオーサリング – リンクトラッキング手順 {#links-tracking-step}
 
-1. 左側のペインから「**[!UICONTROL リンク]**」タブを選択し、追跡されるコンテンツのすべての URL を表示します。
+1. 左側のペインから「**[!UICONTROL リンク]**」タブを選択し、追跡するコンテンツのすべての URL を表示します。
 
    _トラッキングタイプ_ または _ラベル_ を変更し、必要に応じてタグを追加できます。

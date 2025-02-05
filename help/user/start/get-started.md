@@ -2,9 +2,9 @@
 title: Journey Optimizer B2B editionの基本を学ぶ
 description: Journey Optimizer B2B エディションの新規ユーザーとして、使用を開始する上での重要な領域について説明します。
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '664'
 ht-degree: 10%
 
 ---
@@ -41,6 +41,8 @@ Adobe Journey Optimizer B2B edition機能の使用を開始する前に、環境
 
 1. Adobe Experience Manager Assetsを使用してデジタルアセットの一元管理を行っているチームの場合は、**Assetsas a Cloud Serviceの使用を設定して有効にします**。 [詳細情報](../admin/configure-aem-repositories.md)
 
+1. **AEP エクスペリエンスイベントをリッスンするアカウントジャーニーの作成を担当するチームの場合** Adobe Experience Platform （AEP） エクスペリエンスイベントの定義を設定します。 [詳細情報](../admin/configure-aep-events.md)
+
 >[!TAB  マーケター向けクイックスタート ]
 
 マーケターつまり _アカウントジャーニー実務担当者_ は、ジャーニーのデザインとコンテンツの作成を担当します。 システム管理者とデータエンジニアが環境の準備をしてアクセス権を付与したら、Adobe Journey Optimizer B2B editionでの作業を開始できます。
@@ -49,7 +51,7 @@ Adobe Journey Optimizer B2B edition機能の使用を開始する前に、環境
 
 1. **アカウントオーディエンスを追加**. Journey Optimizer B2B editionでは、アプリケーションから直接セグメント定義を通じてアカウントオーディエンスを作成し、それらをアカウントジャーニーに活用できます。 [詳細情報](../audiences/account-audience-overview.md)
 
-1. **購入グループの作成**。 ビジネス目標とビジネス目標を達成するための主要コンポーネントを定義し、ターゲットアカウントリストのメンバーを識別する購入グループを作成します。 [詳細情報](../buying-groups/buying-groups-overview.md)
+1. **購入グループの作成**。 ビジネス目標とビジネス目標を達成するための主要コンポーネントを定義し、ターゲットアカウントリストのメンバーを特定する購入グループを作成します。 [詳細情報](../buying-groups/buying-groups-overview.md)
 
 1. **アセットを作成し管理**&#x200B;します。Adobe Experience Manager Assetsは、メッセージへの入力に使用できるアセットの一元的な集中リポジトリを提供します。 [詳細情報](../content/assets-overview.md)
 

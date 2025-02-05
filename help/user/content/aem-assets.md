@@ -1,64 +1,62 @@
 ---
 title: Experience Manager Assets の操作
-description: Adobe Journey Optimizer B2B Edition でコンテンツをオーサリングする際に、接続されたAEM Assets リポジトリの画像アセットを使用する方法について説明します。
+description: Adobe Journey Optimizer B2B editionでコンテンツをオーサリングする際に、接続されたAEM Assets リポジトリの画像アセットを使用する方法について説明します。
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
 
 # Experience Managerアセットの操作
 
-Adobe Experience Manager Assetsのas a Cloud ServiceをAdobe Journey Optimizer B2B Edition と統合すると、マーケティングコンテンツで使用するデジタルアセットを簡単に見つけてアクセスできます。 コンテンツを作成する際には、左側のナビゲーションの _[!UICONTROL Assets]_ 項目から、またアカウントジャーニーのメールコンテンツを作成する際に、アセットにアクセスできます。 また、Adobe Journey Optimizer B2B Edition から直接、Connected AEM Assetsのas a Cloud Serviceリポジトリにアセットをアップロードすることもできます。
+Adobe Experience Manager Assetsのas a Cloud ServiceをAdobe Journey Optimizer B2B editionと統合すると、マーケティングコンテンツで使用するデジタルアセットを簡単に見つけてアクセスできます。 コンテンツを作成する際には、左側のナビゲーションの _Experience Manager Assets_ 項目から、またアカウントジャーニーのメールコンテンツを作成する際に、アセットにアクセスできます。
 
->[!NOTE]
->
->現在、Adobe Journey Optimizer B2B Edition では、Adobe Experience Manager Assetsの画像アセットのみがサポートされています。 アセットに対する変更は、Adobe Experience Manager Assets中央リポジトリから行う必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+{{aem-assets-licensing-note}}
 
 これらのデジタルアセットを使用すると、Assetsのas a Cloud Serviceの最新の変更が、リンクされた参照を通じてライブメールキャンペーンに自動的に反映されます。 Adobe Experience Manager Assetsのas a Cloud Serviceで画像を削除すると、メール内の参照が壊れて画像が表示されます。 現在アカウントジャーニー内で使用されているアセットが変更または削除されると、画像の変更とその画像を使用しているジャーニーのリストがジャーニー作成者に通知されます。 アセットに対するすべての変更は、Adobe Experience Manager Assets中央リポジトリで行う必要があります。
 
-## AEM Assetsを画像ソースとして使用
-
-お使いの環境に 1 つ以上の [Assets リポジトリ接続 ](../admin/configure-aem-repositories.md) がある場合、メール、メールテンプレートまたはビジュアルフラグメントの詳細を作成または表示する際に、AEM Assetsをアセットのソースとして指定できます。
-
-* 新しいコンテンツを作成する場合は、ダイアログで `AEM Assets` を **[!UICONTROL Image Source]** 項目として選択します。
-
-  ![ 作成ダイアログで画像のソースとしてAEM Assetsを選択する ](./assets/create-dialog-aem-assets.png){width="400"}
-
-* 既存のコンテンツリソースを開く場合は、右側の _[!UICONTROL 本文]_ パネルで `AEM Assets` を選択します。
-
-  ![ プロパティで画像のソースとしてAEM Assetsを選択する ](./assets/content-source-aem-assets.png){width="700" zoomable="yes"}
-
-## オーサリング用アセットへのアクセス
+環境に 1 つ以上の [Assets リポジトリ接続 ](../admin/configure-aem-repositories.md) がある場合、コンテンツ作成者は、メール、メールテンプレートまたはビジュアルフラグメントを作成するときに、AEM Assetsをアセットのソースとして使用できます。
 
 >[!IMPORTANT]
 >
 >管理者は、Assetsへのアクセスを必要とするユーザーをAssets Consumer Users または/およびAssets Users 製品プロファイルに追加する必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
 
-ビジュアルコンテンツエディターで、左側のサイドバーにある _アセットセレクター_ アイコンをクリックします。 これにより、ツールパネルが、選択したリポジトリで使用可能なアセットのリストに変更されます。
+## AEM Assets画像へのアクセス
+
+ビジュアルコンテンツエディターで、左側のサイドバーにある _Experience Manager Assets_ （![Experience Manager Assets アイコン ](../../assets/do-not-localize/icon-assets-aem.svg)）アイコンをクリックします。 これにより、ツールパネルが、選択したリポジトリで使用可能なアセットのリストに変更されます。
 
 ![Assets セレクターアイコンをクリックして、画像アセットにアクセスする ](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
-複数のAEM リポジトリが接続されている場合は、「**[!UICONTROL リポジトリ]**」のメニュー矢印をクリックして、使用するリポジトリを選択します。
+>[!NOTE]
+>
+>現在、Adobe Journey Optimizer B2B editionでは、Adobe Experience Manager Assetsの画像アセットのみがサポートされています。 アセットに対する変更は、Adobe Experience Manager Assets中央リポジトリから行う必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+
+### 表示されるリポジトリの変更
+
+複数のAEM リポジトリが接続されている場合は、「**[!UICONTROL リポジトリ]**」のメニュー矢印をクリックして、左側のパネルに表示するリポジトリを選択します。
 
 ![AEM Assets リポジトリを選択して画像アセットにアクセスする ](./assets/content-assets-selector-aem-repo.png){width="700" zoomable="yes"}
 
 画像アセットをビジュアルキャンバスに追加するには、複数の方法があります。
 
-* 左側のナビゲーションから画像サムネールをドラッグ&amp;ドロップします。
+### 画像をドラッグ&amp;ドロップ
 
-  ![AEM Assets リポジトリを選択して画像アセットにアクセスする ](./assets/content-drag-drop-image-aem-assets.png){width="700" zoomable="yes"}
+1. 左側のパネルに表示されている画像のサムネールを参照します。
 
-* キャンバスに画像コンポーネントを追加し、「参照 **[!UICONTROL をクリックして]** Assetsを選択 _[!UICONTROL ダイアログを開き]_ す。
+1. 画像のサムネールをドラッグし、キャンバス内の新しい画像コンポーネントの追加場所にドロップします。
 
-  ダイアログで、選択したリポジトリから画像を選択できます。
+   ![ 画像アセットをドラッグ&amp;ドロップ ](./assets/content-drag-drop-image-aem-assets.png){width="700" zoomable="yes"}
 
-  必要なアセットを見つけるのに役立つツールが複数あります。
+## 画像の検索と選択
 
-  ![Assetsを選択ダイアログのツールを使用し、画像アセットを探して選択します ](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+1. 画像コンポーネントをカンバスに追加し、**[!UICONTROL Experience Manager Assets]** をクリックして _[!UICONTROL Assetsを選択]_ ダイアログを開きます。
+
+   ![ 画像コンポーネントのアセットの選択 ](./assets/content-image-component-empty.png){width="600" zoomable="yes"}
+
+1. ダイアログで、使用可能なツールを使用して必要なアセットを見つける画像を選択します。
 
    * 右上の **[!UICONTROL リポジトリ]** を変更します。
 
@@ -68,15 +66,19 @@ Adobe Experience Manager Assetsのas a Cloud ServiceをAdobe Journey Optimizer B
 
    * _並べ替え順序_ アイコンをクリックして、並べ替え順序を昇順と降順の間で変更します。
 
+     ![Assetsを選択ダイアログのツールを使用し、画像アセットを検索して選択します ](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+
    * 「**[!UICONTROL 並べ替え基準]**」メニュー矢印をクリックして、並べ替え条件を **[!UICONTROL 名前]**、**[!UICONTROL サイズ]**、**[!UICONTROL 変更]** に変更します。
 
    * 左上の _フィルター_ アイコンをクリックし、条件に従って表示される項目をフィルタリングします。
 
    * 「検索」フィールドにテキストを入力して、表示される項目をアセット名と一致するようにフィルタリングします。
 
-  ![ フィルターと検索フィールドを使用してアセットを検索します ](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
+   ![ フィルターと検索フィールドを使用してアセットを検索します ](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
+1. 「**[!UICONTROL 選択]**」をクリックします。
 <!-- 
+
 ## Upload assets
 
 To import files to Assets as a Cloud Service, you first need to browse or create the folder to be used for storage. You can then import an asset and add it to your email content. After assets are uploaded, you can [use the image assets as you author content](./assets-overview.md#add-assets-to-your-content).
@@ -94,5 +96,4 @@ To import files to Assets as a Cloud Service, you first need to browse or create
    You can also click the **[!UICONTROL Select a file from your computer]** link and use your file system to locate and select the image file. Click Open and the image file is displayed in the box.
 
 1. Click **[!UICONTROL Import]**.
-
 -->

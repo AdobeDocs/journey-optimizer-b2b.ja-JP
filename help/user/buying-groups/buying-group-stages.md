@@ -2,9 +2,10 @@
 title: 購買グループのステージ
 description: 購入グループステージと、売上目標に対するジャーニーの進行状況を追跡するためにそれらのステージを定義する方法について説明します。
 feature: Buying Groups, Account Journeys
-source-git-commit: 42d73cd2c1ead771205e5fdf188088fce7ca6f21
+exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2250'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 購入グループステージは、商談を顧客に変換する際の購入グループの進行状況を追跡するように設計されています。 この機能を使用して、購入グループの進行状況を追跡し、購入グループメンバーに次に最適なアクションを特定します。
 
-単一のステージングモデル内でステージを定義し、複数のステージとそれらの間の移行フローを定義します。 ライフサイクルにエントリする 1 つ以上のステージが指定されています。 また、このモデルでは、ステージ A からステージ B、ステージ C、ステージ D など、あるステージから別のステージへのトランジションを指定できる非線形の進行も可能です。購入や署名済みの契約など、1 つのステージを成功ステージと指定する必要があります。 別のステージを、契約の却下や別のベンダーからの競合ソリューションの購入など、失敗ステージとして指定することはオプションです。<!-- This is achieved through intelligent dashboards that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer. -->
+単一のステージングモデル内でステージを定義し、複数のステージとそれらの間の移行フローを定義します。 ライフサイクルにエントリする 1 つ以上のステージが指定されています。 また、このモデルでは、ステージ A からステージ B、ステージ C、ステージ D など、あるステージから別のステージへのトランジションを指定できる非線形の進行も可能です。購入や署名済みの契約など、1 つのステージを成功ステージと指定する必要があります。 別のステージを、契約の却下や別のベンダーからの競合ソリューションの購入など、失敗ステージとして指定することはオプションです。 これは、購入グループの進捗を示す [ インテリジェントダッシュボード ](../dashboards/intelligent-dashboard.md) を使用して、販売機会の完了や、機会から顧客への変換を行うことで達成されます。
 
 ![ 購入グループステージの例 ](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
