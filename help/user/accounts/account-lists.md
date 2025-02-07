@@ -1,7 +1,10 @@
 ---
 title: 顧客リスト
 description: アカウントリストと、そのリストをマーケターがアカウントジャーニーを通じてアカウントをターゲットにする方法について説明します。
-source-git-commit: c44721af93275297a90c6f7c0c3683ade6847658
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+hidefromtoc: true
+hide: true
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -232,4 +235,3 @@ ht-degree: 0%
 1. **[!UICONTROL ライブ静的アカウントリストを選択]** については、アカウントを削除するアカウントリストを選択します。
 
    ![ 「アカウントに追加」リストを選択 ](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
