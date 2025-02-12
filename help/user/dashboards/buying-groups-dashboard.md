@@ -3,87 +3,94 @@ title: 購買グループ概要ダッシュボード
 description: 購入グループの概要ダッシュボードと、マーケティングチームからの販売ハンドオフを有効にする方法について説明します。
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 2%
+source-wordcount: '584'
+ht-degree: 3%
 
 ---
 
 # 購買グループ概要ダッシュボード
 
-購入グループの概要ダッシュボードは、B2B 販売ハンドオフ・プロセス用に設計されています。 これにより、マーケティングチームは、実行に必要なデータと共に、_準備完了_ の購入グループとそのメンバーをセールスチームに共有できます。 このプロセスにより、マーケティングから販売への効率的な移行が確実に行われます。
+購入グループの概要ダッシュボードは、B2B セールスのハンドオフプロセス用に設計されています。 これにより、マーケティングチームは、実行に必要なデータと共に、_準備完了_ の購入グループとそのメンバーをセールスチームに共有できます。 このプロセスにより、マーケティングから販売への効率的な移行が確実に行われます。
 
-販売ハンドオフは、次の要素で構成されます。
+セールスのハンドオフは、次の要素で構成されます。
 
-* **データハンドオフ**：マーケティングは、_準備完了_ のターゲットデータを識別し、CSV 形式で営業部門からアクセスできるようにします。 
+* **データのハンドオフ**：マーケティングによって _準備完了_ のターゲットデータが識別され、セールス部門から CSV 形式でアクセスできるようになります。 
 * **営業承認**：営業は、手動でレビューし、_準備完了_ のターゲットをパイプラインに組み込みます。
 
-## 購入グループのステータス
-
-購入グループステータス ビューを使用して、購入グループの進行状況に関するインサイトを取得します。 このビジュアライゼーションでは、指定した期間内の最新のステータス更新別に分類された購入グループの分布が表示されます。
+このダッシュボードにアクセスするには、左側のナビゲーションで **[!UICONTROL アカウント]** を展開し、**[!UICONTROL 購入グループ]** を選択します。 「**[!UICONTROL 概要]**」タブがデフォルトで表示されていない場合は、選択します。
 
 ![ 購入グループの概要 ](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+<!--
+## Buying Group Status
 
-**[!UICONTROL ステータス]** （Y 軸）：様々な段階を経て、購入グループのジャーニーを追跡します。
-**[!UICONTROL 購入グループ数]** （x 軸）：各ステータスの購入グループ数を定量化し、ファネルの正常性とアクティビティを明確に指標します。
-<!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
+Gain insights into your buying groups' progression with the Buying Group Status view. This visualization showcases the distribution of your buying groups categorized by their most recent status update within a specified time frame.
 
-### データのフィルター
+![Buying Groups overview](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 
-* **データフィルター** - _[!UICONTROL 日付フィルター]_ を使用します。これは、購入グループの最後のステータス変更日を反映します。 開始日は調整可能です。 終了日はデフォルトで現在の日付になります。
+**[!UICONTROL Status]** (y-axis): Track the journey of buying groups through various stages.
+**[!UICONTROL Number of Buying Groups]** (x-axis): Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.
 
-  ![ 日付範囲別の購買グループ・ステータス・データのフィルタ処理 ](./assets//buying-group-status-filter-date.png){width="400"}
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
 
-* **属性フィルター** – 左上の _フィルター_ アイコンをクリックすると、次の属性のいずれかを使用してデータ表示をフィルタリングできます。
+## 購買グループの完了スコア分布
 
-   * ソリューションの関心
-   * ステータス
-   * 購入グループの状態
-   * アカウント地域
-   * アカウント業界
-  <!-- * Account's Industry -->
+このビジュアライゼーションは、完了スコアに基づいて購入グループの分布を示し、4 つの異なるスコアバンドに分類されています。 中央の図は購入グループの合計数を表し、全体的な進行状況のスナップショットを簡単に提供します。 セグメント化された色は、各スコア範囲内の購入グループの割合を示し、完了のトレンドを一目で評価できます。
 
-  ![ 属性による購買グループ・ステータス・データのフィルタ処理 ](./assets/buying-group-status-drill-through-filters.png){width="500"}
+詳細情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
+
+![ 購入グループ完了スコアビジュアライゼーション ](./assets/buying-group-completion-score-chart.png){width="500"}
+
+## 購買グループのエンゲージメントスコア分布
+
+このビジュアライゼーションは、エンゲージメントスコアに基づく購入グループの分布を示し、4 つの異なるスコアバンドに分類されています。 中央の図は購入グループの合計数を表し、全体的な進行状況のスナップショットを簡単に提供します。 セグメント化された色は、各スコア範囲内の購入グループの割合を示し、完了のトレンドを一目で評価できます。
+
+詳細情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
+
+![ 購入グループエンゲージメントスコアのビジュアライゼーション ](./assets/buying-group-completion-score-chart.png){width="500"}
+
+## ソリューションに対する関心別の購買グループ
+
+このビジュアライゼーションは、ソリューションの関心に基づいて購入グループの分布を示し、最も関心が高いソリューションを特定するのに役立ちます。 各棒グラフは特定のソリューションを表し、その長さは、その関心に関連付けられた購入グループの数を示します。 この棒グラフは、ソリューションの需要のトレンドを明確かつ迅速に把握します。
+
+詳細情報を表示するには、右上の「**...**」メニューアイコンをクリックします。 **ドリルスルー** または **詳細の表示** を選択します。
+
+![ 購入グループエンゲージメントスコアのビジュアライゼーション ](./assets/buying-group-by-solution-interest-chart.png){width="500"}
+
+## データのフィルタリング
+
+左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用して表示データをフィルタリングします。
+
+* 現在のステージ
+* 業界
+* 地域
+* ソリューションに対する関心
+
+![ 表示されたデータを属性でフィルタリング ](./assets/buying-group-overview-filters.png){width="500"}
+
+データのフィルタリングに使用する各属性の値を選択し、「**[!UICONTROL 適用]**」をクリックします。
 
 ## データの操作
 
-データを操作するには、右上隅のアクションメニューを使用します。
-
-![ アイコンをクリックしてアクションメニューにアクセスする ](./assets/buying-group-more-menu.png){width="300"}
+データを操作するには、各グラフの右上にある _その他_ （**...**）メニューを使用します。
 
 ### [!UICONTROL  ドリルスルー ]
 
-個々のグループのステータスを詳細に分析するには、「**[!UICONTROL ドリルスルー]**」を選択します。
+個々のグループのスコアまたは分布を詳細に分析するには、「**[!UICONTROL ドリルスルー]**」を選択します。
 
-![ グラフデータのドリルスルー ](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
+![ ドリルスルーしてグラフデータにアクセス ](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
 
-ダッシュボードに適用されたグローバルフィルターは引き継がれます。
+ダッシュボードに適用されたグローバルフィルターは引き継がれます。 左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、ドリルスルー表示の [ 属性フィルターの変更 ](#filter-the-data) をクリックします。
 
-右上のアクションメニューアイコンをクリックし、**[!UICONTROL さらに表示]** を選択して、[ 拡張データとインサイトを表示 ](#view-more) します。
+右上にある _その他_ （**...**）メニューをクリックし、**[!UICONTROL その他を表示]** を選択して [ 拡張データを表示 ](#view-more) することができます。
 
 ### [!UICONTROL  詳細を表示 ]
 
-拡張されたデータとインサイトについては、「**[!UICONTROL さらに表示]**」を選択します。 表示されるポップアップには、グラフと、購入グループのステータスの分類を示すテーブルが含まれます。
+**[!UICONTROL さらに表示]** を選択すると、拡張されたデータとインサイトが表示されます。
 
-* [!UICONTROL  アカウント ID ]
-* [!UICONTROL  アカウント名 ]
-* [!UICONTROL  アカウント地域 ]
-* [!UICONTROL  アカウント業界 ]
-* [!UICONTROL  購買グループ名 ]
-* [!UICONTROL  ソリューションの関心 ]
-* [!UICONTROL ステータス]
-* [!UICONTROL エンゲージメントスコア]
-* [!UICONTROL  完全性スコア ]
-* [!UICONTROL  メンバーの役割 ]
-* [!UICONTROL  メンバーの登録/作成日 ]
-* [!UICONTROL  ユーザー ID]
-* [!UICONTROL 名前]
-* [!UICONTROL メール]
-* [!UICONTROL タイトル]
-* [!UICONTROL  インバウンドエンゲージメントアクティビティの数 ]
-* [!UICONTROL  最終エンゲージメント日 ]
+![ 拡張データの表示 ](./assets/buying-group-engagement-score-view-more.png){width="700" zoomable="yes"}
 
-![ 拡張データの表示 ](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
+表示されるポップアップには、購買グループ配分の内訳を示すチャートおよびテーブルが含まれる。
 
-データをダウンロードするには、右上の **[!UICONTROL CSV をダウンロード]** をクリックします。
+データをダウンロードするには、データテーブルの右上にある **[!UICONTROL CSV をダウンロード]** をクリックします。 概要ダッシュボードに戻るには、「**[!UICONTROL 閉じる]** をクリックします。
