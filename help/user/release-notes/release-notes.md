@@ -2,9 +2,9 @@
 title: リリースノート
 description: Adobe Journey Optimizer B2B エディションの最新のリリースノート
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 9438b1472df38eddc3e1fa6cd5bc3992af0c9eec
+source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '1447'
 ht-degree: 10%
 
 ---
@@ -16,6 +16,27 @@ Adobe Journey Optimizer B2B editionは、新機能、既存機能の強化、お
 Journey Optimizer B2B editionは [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/latest){target="_blank"}を参照してください。
 
 使用権限、パフォーマンスガードレール、制限について詳しくは、[ 製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} を参照してください。
+
+## 2025年1月リリースノート {#Jan-2025}
+
+**リリース日**:2025 年 2 月 6 日（PT）
+
+このリリースには、次の新機能および機能強化が含まれています。
+
+| タイプ | 項目 | 説明 |
+| ---- | ---- | ----------- |
+| 新機能 | エクスペリエンスイベント転送 | 管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。 これらの設定により、マーケターは、AEP エクスペリエンスイベントに反応するアカウントジャーニーを作成できます。  <a href="../admin/configure-aep-events.md">詳細情報</a> |
+| 新機能 | 有料メディアの宛先 | アカウントジャーニーから有料メディアキャンペーンの既知の人物を選定して、LinkedIn などの広告プラットフォームでさらにエンゲージできるようにします。 アカウントジャーニーの分割パスノードを使用して、特定の行動に基づいてアカウントオーディエンスをセグメント化し、追加のエンゲージメントが必要なアカウントを特定します。 次に、これらのアカウントの人物を、Real-time CDP を通じて、サポートされている有料メディアの宛先の外部の顧客オーディエンスに追加します。 <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">詳細情報</a> |
+| 新機能 | インテリジェントダッシュボード | よりインテリジェントな分析と正確なアカウントの優先順位付けのための AI で生成されたインサイトを含め、アカウントジャーニーを通じて購入グループの進行状況を表示します。 <a href="../dashboards/intelligent-dashboard.md">詳細情報</a> |
+| 新機能 | 購入グループとアカウントの詳細 | 顧客とのエンゲージメントを開始する際に、購入グループおよびアカウントレベルでインサイトを表示して、より多くのコンテキストおよび履歴データを持つようにします。<p>購入グループの詳細には、検出されたファーストパーティインテントが含まれています。 <a href="../buying-groups/buying-group-details.md">詳細情報</a><p>アカウントの詳細アカウントは、検出されたエンゲージメントのインテントの急増を強調します。これにより、カスタマイズされたセールスに焦点を当てたエンゲージメントの準備が整ったアカウントに関してセールスにアラートを表示できます。  <a href="../accounts/account-details.md">詳細情報</a> |
+| 新機能 | ジャーニーの概要 | アカウントジャーニーにアクセスすると、「概要」タブに、アクティブなアカウントジャーニーの包括的なスナップショットが表示され、完了の分類と定量化を行う円グラフと棒グラフ、エンゲージメントアクティビティを使用して、アカウントの進行状況の詳細が示されます。  <a href="../dashboards/journeys-dashboard.md">詳細情報</a> |
+| 新機能 | Adobe Expressの画像編集 | Adobe Express クイックアクションを使用すると、画像に簡単な編集（切り抜きやサイズ変更など）を加えて、コンテンツをより洗練された外観にすることができます。 <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">詳細情報</a>  <p>より包括的な設計ツールを実現するために、この統合により、Journey Optimizer B2B editionへの完全なAdobe Express ライセンスが有効になります。 この設定により、ローカルのアセットワークスペース内でAdobe Expressの完全なユーザーインターフェイスにアクセスできるようになります。 <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">詳細情報</a> |
+| 新機能 | 購入グループの役割のインテントフィルター | インテントのキーワードを送信すると、インテント検出モデルは、リードのアクティビティに基づいて、十分な信頼性を持つ関心のあるソリューション/製品を予測します。 <a href="../admin/intent-data.md">詳細情報</a> <p>このインテントデータは、購入グループロールの条件を定義する際に使用できます <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles"> 詳細情報 </a> |
+| 機能強化 | ジャーニーでのMarketo Engage イベントのサポート | _イベントをリッスン_ ジャーニーノードは、人物レベルで 2 つのMarketo Engage イベント（_web ページを訪問_ および _フォームに入力_ をサポートするようになりました。 <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">詳細情報</a> |
+| 機能強化 | Marketo Engageスマートリスト用の購入グループフィルター | Marketo Engageの購買グループフィルターを使用して、スマートリストを表示および作成します。 これらの追加されたフィルターを使用すると、Journey Optimizer B2B edition内のアカウントジャーニーから、Marketo Engage キャンペーンおよびプログラム全体で購買グループメンバーを抑制し、含めることができます。 <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">詳細情報</a> |
+| 機能強化 | ジャーニーおよびロールのMarketo Engage リストメンバーシップフィルター | Journey Optimizer B2B では、_ユーザーによる分割パス_ ノードの条件としてMarketo Engage リストのメンバーシップを確認して、ジャーニーアクティビティの重複を排除します。 <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">詳細情報</a> <p> グループ ロール テンプレートを購入する場合は、リスト メンバーシップをロール条件として使用します。 <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">詳細情報</a> |
+| 機能強化 | エンゲージメントの概要ダッシュボード | このダッシュボードが更新され、エンゲージメントの包括的な表示が可能になりました。 スナップショットの円グラフとトレンドを明らかにする折れ線グラフを通じて、アカウントと個々のインタラクションのリアルタイム指標を時系列で表示します。 <a href="../dashboards/engagement-dashboard.md">詳細情報</a> |
+
 
 ## 2024年10月リリースノート {#Oct-2024}
 
@@ -41,7 +62,7 @@ Journey Optimizer B2B editionは [!DNL Adobe Experience Platform] でネイテ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能強化 | 中央アセットライブラリ | 強化された _中央アセットライブラリ_ を使用すると、Design Studio のワークスペース全体で、Marketo Engageインスタンス内のすべての画像アセットを使用できます。 Journey Optimizer B2B editionからのMarketo Engageアセットの編集や、削除操作および移動操作を防ぐ組み込みのガードレールがあります。 これらの保護機能により、ソースアセット（Marketo Engageデザインスタジオ）が維持されると同時に、Journey Optimizer B2B editionでシームレスな読み取りと再利用が可能になります。<p>Journey Optimizer B2B editionでのみ使用するアセットの場合は、専用のワークスペースがアセット管理機能を完全に提供します。 <a href="../content/marketo-engage-design-studio.md">詳細情報</a> |
+| 機能強化 | 中央アセットライブラリ | 強化された _中央アセットライブラリ_ を使用すると、Design Studio のワークスペース全体で、Marketo Engage インスタンスのすべての画像アセットを使用できます。 Journey Optimizer B2B editionからMarketo Engage アセットに対する編集や、削除および移動操作を防ぐガードレールが組み込まれています。 これらの保護機能により、ソースアセット（Marketo Engage Design Studio）が維持されると同時に、Journey Optimizer B2B editionでシームレスな読み取りと再利用が可能になります。<p>Journey Optimizer B2B editionでのみ使用するアセットの場合は、専用のワークスペースがアセット管理機能を完全に提供します。 <a href="../content/marketo-engage-design-studio.md">詳細情報</a> |
 | 新機能 | 最近アクセスしたアセット | Journey Optimizer B2B edition アプリのホームページには、「_[!UICONTROL 最近アクセス済み]_ セクションが含まれるようになりました。このセクションには、マーケターまたは管理者向けの最近アクセスしたアセットのリストが表示されます。 このリストを使用すると、一連のアセットページを移動したり検索したりせずに、最近作業したアセットに直接移動できます。 <p>このリストには、変更に関する追加情報が表示されるので、どのアセットで最後のセッションからさらに変更が必要かを決定できます。 メールアセットの場合は、メールアセットが使用されているアカウントジャーニーが表示されます。 <a href="../home-page.md">詳細情報</a> |
 | 機能強化 | ジャーニー分割ノード – パスの並べ替え | 分割パスノードでは、パスフィルタリングがトップダウンの順序で評価されます。 各ユーザーまたはアカウントは、一致する最初のパスに沿って進行します。 各パスカードの右上にある上向き矢印と下向き矢印をクリックして、定義済みのパスを並べ替え、リスト内で上下に移動できます。 <a href="../journeys/split-merge-paths-nodes.md#split-paths">詳細情報</a> |
 | 機能強化 | ジャーニー分割ノード – 追加のアクティビティ履歴条件属性 | 条件を使用して分割ノードのパスフィルタリングをユーザーごとに定義する場合は、さらに 2 つの属性があります。_開封済みのメール_ および _配信済みのメール_ です。 これらの追加により、メールのアクティビティに基づいてジャーニーの人物をフィルタリングする柔軟性が向上します。 <a href="../journeys/journey-nodes.md#split-paths">詳細情報</a> |
@@ -54,5 +75,5 @@ Journey Optimizer B2B editionは [!DNL Adobe Experience Platform] でネイテ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 新機能 | LinkedIn アカウントでマッチしたオーディエンス | アカウントでマッチしたオーディエンスを通じてLinkedIn広告オーディエンスを生成し、購入グループの空の役割を埋めるのに役立ちます。 購入グループフィルターのセットを定義することで、LinkedInでマッチしたオーディエンスを維持し、購入グループパラメーターに一致する見込み客をターゲットにすることができます。 <p>この機能は、Experience Platformの宛先を活用して、統合の一部の側面を管理します。 <a href="../data/linkedin-account-matched-audiences.md">詳細情報</a> |
+| 新機能 | LinkedIn アカウントでマッチしたオーディエンス | アカウントでマッチしたオーディエンスを通じて LinkedIn 広告オーディエンスを生成し、購入グループの空の役割を埋めるのに役立ちます。 購入グループフィルターのセットを定義することで、LinkedIn でマッチしたオーディエンスを維持し、購入グループパラメーターに一致する見込み客をターゲットにすることができます。 <p>この機能は、Experience Platform Destinations を活用して、統合の一部の側面を管理します。 <a href="../data/linkedin-account-matched-audiences.md">詳細情報</a> |
 | 機能強化 | ビジュアルコンテンツフラグメントのステータスライフサイクル | ビジュアルフラグメントは、ステータスのライフサイクルを使用して管理されるようになりました。 フラグメントステータスは、メールまたはメールテンプレートで使用できるフラグメントの有無と、フラグメントに加えられる変更を決定します。 <p>この強化されたワークフローにより、プロモーションや通信のカレンダーに従って再利用されたコンテンツを簡単に管理できます。 <a href="../content/fragments.md#fragment-status-and-lifecycle">詳細情報</a> |

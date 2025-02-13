@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B エディションのドキュメント
 description: Adobe Journey Optimizer B2B edition機能を使用して、組み込みのジェネレーティブ AI と業界最先端の自動化機能を使用して、アカウントジャーニーを調整し、グループジャーニーを購入する方法を説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '616'
 ht-degree: 7%
 
 ---
@@ -17,39 +17,37 @@ Journey Optimizer B2B edition製品およびドキュメントの最新の機能
 
 >[!BEGINTABS]
 
+>[!TAB  インテリジェントインサイトダッシュボード ]
+
+新しいインテリジェントダッシュボードを使用すると、ステージをまたいで購入グループの選定の進行状況を確認できます。 必要に応じてジャーニーをキュレーションして育成できるように、どの購入グループが迅速に移動し、どの購入グループが停滞しているかを把握します。 また、購入グループとアカウントレベルで詳細が表示され、顧客エンゲージメントのより詳細なコンテキストと履歴データが提供されます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="インテリジェントダッシュボードについて学ぶ"}
+
+>[!TAB Adobe Expressの画像編集 ]
+
+Adobe Express クイックアクションを使用すると、切り抜き、サイズ変更、背景の削除、書式変換などで、コンテンツにタッチします。 Adobe Expressの直感的な UI が組み込まれているので、画像アセットをすばやく微調整できます。
+
+Adobe Express Enterprise ライセンスを使用すると、Adobe Expressのすべての機能を活用できます。 これらの機能を使用して、ブランドガイドラインを守りながら画像を磨き、強化し、コンテンツサプライチェーンの障害を取り除きます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Adobe Expressを使用した画像編集について説明します"}
+
+>[!TAB AEP イベント転送 ]
+
+管理者はAdobe Experience Platform（AEP）ベースのイベント定義を設定できるようになりました。 これらの設定により、マーケターは、AEP エクスペリエンスイベントに反応するアカウントジャーニーを作成できます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Journey orchestration に使用する AEP イベント定義について説明します"}
+
+>[!TAB  スマート リスト用の購買グループ フィルター ]
+
+Marketo Engageの購買グループフィルターを使用して、スマートリストを表示および作成できるようになりました。 これらのフィルターを使用すると、Journey Optimizer B2B edition内のアカウントジャーニーのMarketo Engage キャンペーンおよびプログラム全体で購買グループメンバーを抑制し、含めることができます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Marketo Engageのスマートリストで使用される購入グループフィルターについて説明します"}
+
 >[!TAB  条件付きコンテンツ ]
 
 条件付きコンテンツを使用すると、条件付きルールに基づいてメールコンテンツを調整できます。 プロファイル属性またはコンテキストイベントを使用してルールを定義します。 条件付きルールはルールビルダーで作成し、アカウントジャーニー間で再利用するために保存できます。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/conditional-content.md" tooltip="条件付きコンテンツについて学ぶ"}
-
->[!TAB  人物アクション – リストに追加/リストから削除 ]
-
-アカウントジャーニーでは、「_リストに追加_ アクションノードを使用して、ユーザーをMarketo Engageの静的リストに追加します。 これらのリストにより、特定のオーディエンスの再利用やターゲティングを柔軟に行うことができます。 リストを作成してその周りにキャンペーンを作成したり、既存のキャンペーンにユーザーを直接追加したりできます。 さらに、「_リストから削除_ 人物」アクションを使用して、アカウントジャーニーの進行状況に基づいて、Marketo Engageでターゲティングを絞り込み、変更します。
-
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="リストへの追加およびリストからの削除について説明します"}
-
->[!TAB  中央アセットライブラリ ]
-
-Design Studio のワークスペースをまたいで、Marketo Engageインスタンスで画像アセットを使用します。 組み込みガードレールは、Journey Optimizer B2B editionからMarketo Engageアセットに編集を加えるのを防ぎます。 これらの保護機能により、Marketo Engageソースアセットが維持されると同時に、Journey Optimizer B2B editionでのシームレスな読み取りと再利用が可能になります。 Journey Optimizer B2B editionでのみ使用するアセットの場合は、専用のワークスペースがアセット管理機能を完全に提供します。
-
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="一元的なアセット管理について学ぶ"}
-
->[!TAB LinkedIn アカウントでオーディエンスをマッチング ]
-
-アカウントでマッチしたオーディエンスを通じてLinkedIn広告オーディエンスを生成し、購入グループの空の役割を埋めるのに役立ちます。 購入グループフィルターのセットを定義することで、LinkedInでマッチしたオーディエンスを維持し、購入グループパラメーターに一致する見込み客をターゲットにすることができます。 この機能は、Experience Platformの宛先を活用して、統合の一部の側面を管理します。
-
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="linkedIn アカウントでマッチしたオーディエンスについて学ぶ"}
-
->[!TAB AI アシスタント]
-
-アカウントベースのマーケティングの概念をすぐに習得し、チームの戦略を最大化するように設計されたJourney Optimizer B2B edition機能について学びます。
-
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="AI アシスタントについて学ぶ"}
-
-ジェネレーティブ AI を活用したAdobe Journey Optimizer B2B editionのメールコンテンツ用 AI アシスタントで、コンテンツを次のレベルに引き上げます。 AI アシスタントは、メール全体、ターゲットテキストコンテンツ、およびオーディエンスの共感を得るために特別にカスタマイズされた画像を生成することで、配信の影響を最適化するのに役立ちます。
-
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="メール用 AI アシスタントの詳細"}
 
 >[!ENDTABS]
 
@@ -119,7 +117,7 @@ Design Studio のワークスペースをまたいで、Marketo Engageインス�
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="インサイトとダッシュボード"><br/>
-      <strong> インサイト </strong><br/><a href="./dashboards/buying-groups-dashboard.md"> 購入グループダッシュボード </a><br/><a href="./dashboards/journeys-dashboard.md">ジャーニーダッシュボード </a><br/><a href="./dashboards/engagement-dashboard.md"> エンゲージメントダッシュボード </a>
+      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md"> インテリジェントダッシュボード </a><br/><a href="./dashboards/engagement-dashboard.md"> エンゲージメントダッシュボード </a><br/><a href="./dashboards/buying-groups-dashboard.md"> 購入グループダッシュボード </a><br/><a href="./dashboards/journeys-dashboard.md">ジャーニーダッシュボード </a>
     </td>
 
 </tr>
@@ -134,7 +132,7 @@ Design Studio のワークスペースをまたいで、Marketo Engageインス�
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> ドキュメント </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> 開発者向けリソース </a>
 </td></tr>
-<tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
+<tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home" target="_blank"> ドキュメント </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> 開発者向けチュートリアル </a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/marketo/using/home" target="_blank"> ユーザードキュメント </a> - <a href="https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/home" target="_blank"> 開発者向けドキュメント </a>
