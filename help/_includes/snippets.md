@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 ## インテントデータの設定 {#intent-data-note}
 
 >[!NOTE]
->インテントデータは、Journey Optimizer B2B edition インスタンスに対して設定されている場合に、ページに含めることもできます。 インテント検出モデルとキーワードの送信方法について詳しくは、[ インテント データ ](../user/admin/intent-data.md) を参照してください。
 >
+>Journey Optimizer B2B edition インスタンス用に設定されたインテントデータは、ページに含まれます。 インテント検出モデルの詳細と、キーワード、製品、カテゴリの送信方法については、[ インテント データ ](../user/admin/intent-data.md) を参照してください。
 
 ## AEM assets ライセンスノート {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->AEM Assetsas a Cloud ServiceのライセンスとDynamic Media ライセンスは、統合の前提条件です。 [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} が有効になっていることを確認する必要があります。<br/>
->契約と設定に応じて、Adobe Experience Manager Assetsのas a Cloud Serviceは、ビジュアルコンテンツをデザインする際にAdobe Journey Optimizer B2B editionから直接アクセスできます。
+>AEM Assets as a Cloud Serviceのライセンスと Dynamic Media のライセンスは統合の前提条件です。 [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} が有効になっていることを確認する必要があります。<br/>
+>契約と設定に応じて、ビジュアルコンテンツのデザイン時にAdobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
 
 ## コンテンツオーサリング – コンポーネント – 構造ステップ {#structures-step}
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    ソースタイプのアセットの使用について詳しくは、[ コンテンツへのアセットの追加 ](../user/content/assets-overview.md#use-assets-for-content-authoring) を参照してください。
 
-   ![Marketo Engageアセットをキャンバスにドラッグして、設定を調整します ](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
+   ![Marketo Engage アセットをキャンバスにドラッグして、設定を調整します ](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
 ## コンテンツオーサリング – パーソナライゼーションステップ {#personalization-step}
 
