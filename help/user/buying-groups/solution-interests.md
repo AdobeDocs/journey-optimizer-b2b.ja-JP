@@ -3,7 +3,7 @@ title: ソリューションの関心
 description: ソリューションの関心と、購入グループ内で使用するためにソリューションを定義する方法について説明します。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -83,7 +83,7 @@ _[!UICONTROL ソリューションの関心]_ タブの「**[!UICONTROL 購入�
 
 1. 必要に応じて、「**[!UICONTROL 既存の購買グループの更新]** 設定を変更します。
 
-   このオプションを有効にすると、ソリューションの関心とペアになっているすべての既存の購入グループが、24 時間同期サイクルを通じて更新されます。
+   このオプションを有効にすると、ソリューションの関心とペアになっているすべての既存の購入グループが、7 日間の同期サイクルを通じて更新されます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
