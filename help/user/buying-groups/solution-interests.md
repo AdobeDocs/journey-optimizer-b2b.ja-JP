@@ -3,7 +3,7 @@ title: ソリューションの関心
 description: ソリューションの関心と、購入グループ内で使用するためにソリューションを定義する方法について説明します。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    ![ ソリューションの「関心」タブ ](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   タブには、既存のソリューションに関心があるすべてのインベントリリストが表示されます。 提供される情報は、_[!UICONTROL 名前]_、_[!UICONTROL 役割テンプレート]_、_[!UICONTROL 購入グループ作成ジョブ]_、_[!UICONTROL 最終更新日]_、_[!UICONTROL 更新者]_、_[!UICONTROL 作成日]_ および _[!UICONTROL 作成者]_ です。
+   タブには、既存のソリューションに関心があるすべてのインベントリリストが表示されます。 _[!UICONTROL 名前]_、_[!UICONTROL 役割テンプレート]_、_[!UICONTROL 購入グループ作成ジョブ]_、_[!UICONTROL 最終更新日]_、_[!UICONTROL 更新者]_、_[!UICONTROL 作成日]_ および _[!UICONTROL 作成者]_ の情報が列形式で表示されます
 
    このリストは、デフォルトで _[!UICONTROL 最終更新日]_ 列で並べ替えられます。 ヘッダーの列タイトルをクリックして、降順と昇順の並べ替えを切り替えます。
 
@@ -58,7 +58,7 @@ _[!UICONTROL ソリューションの関心]_ タブの **[!UICONTROL 購入グ�
 
 1. 「**[!UICONTROL 既存の購買グループの更新]**」設定を有効にします（オプション）。
 
-   このオプションを有効にすると、ソリューションの関心とペアになっているすべての既存の購入グループが、24 時間同期サイクルを通じて更新されます。
+   このオプションを有効にすると、ソリューションの関心とペアになっているすべての既存の購入グループが、7 日間の同期サイクルを通じて更新されます。
 
 1. 右上隅にある「**[!UICONTROL 作成]**」をクリックします。
 
