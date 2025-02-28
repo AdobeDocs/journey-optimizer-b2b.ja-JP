@@ -3,10 +3,10 @@ title: インテリジェントダッシュボード
 description: 購入グループとアカウント指標の包括的なビューを提供するインテリジェントダッシュボードについて説明します
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 11%
+source-wordcount: '1688'
+ht-degree: 10%
 
 ---
 
@@ -24,6 +24,19 @@ _インテリジェントダッシュボード_ にアクセスするには、�
 * ユーザー、購入グループおよびアカウントのインテント検出
 
 {{intent-data-note}}
+
+インテリジェントダッシュボードから提供される情報やインサイトを活用するには、Journey Optimizer B2B edition インスタンスに必要な項目を用意する必要があります。
+
+| タイプ | 要件 |
+| ---- | ----------- |
+| [ 購入グループステージ ](#buying-group-stages) | 購買グループ ステージ **および** 作成した購買グループに追加する）を設定します。 |
+| [ 購入グループのハイライト ](#buying-group-highlights) | 購買グループ ステージ **および** 作成した購買グループに追加する）を設定します。 |
+| [ アカウントの急増 ](#surging-accounts) | 1 つ以上の公開済みジャーニー **または** が購入グループを作成しました。 |
+| [ アカウントのハイライト ](#account-highlights) | 1 つ以上の公開済みジャーニー **または** が購入グループを作成しました。 |
+| [ 連絡先の範囲 ](#contact-coverage) | 1 つ以上の購買グループが作成されました（ステージは不要です）。 |
+| [ 連絡先の重複 ](#contact-overlap) | 1 つ以上の購買グループが作成されました（ステージは不要です）。 |
+| [ アカウントの詳細ページ ](../accounts/account-details.md) | 1 つ以上の公開済みジャーニー。 |
+| [ 購入グループの詳細ページ ](../buying-groups/buying-group-details.md) | 1 つ以上の購買グループが作成されました（ステージは不要です）。 |
 
 ## 購買グループステージ {#buying-group-stages}
 
@@ -139,7 +152,7 @@ _購入グループのハイライト_ パネルの右上にある「**[!UICONTR
 
 >[!NOTE]
 >
->アカウントのサージデータは、アカウントジャーニーまたは購入グループを通じてJourney Optimizer B2B editionによってアカウントオーディエンスに取り込まれたアカウントに限定されます。
+>アカウントのサージデータは、アカウントジャーニーまたは購入グループを通じてJourney Optimizer B2B editionによってアカウントオーディエンスに取り込まれるアカウントに限定されます。
 
 ![ アカウントサージデータの可視化 ](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -179,11 +192,11 @@ _購入グループのハイライト_ パネルの右上にある「**[!UICONTR
 >title="リスクのあるアカウント"
 >abstract="選択した時間枠内にエンゲージメントの勢いが大幅に減少したアカウント。"
 
-_[!UICONTROL 購入グループのハイライト]_ セクションは 2 行に整理され、組織が関心を持つアカウントに関する情報が表示されます。
+_[!UICONTROL アカウントのハイライト表示]_ セクションは 2 行に整理され、組織が関心を持つアカウントに関する情報が表示されます。
 
 >[!NOTE]
 >
->アカウントハイライトデータは、アカウントジャーニーまたは購入グループを通じてアカウントオーディエンスのJourney Optimizer B2B editionによって取り込まれたアカウントに制限されています。
+>アカウントハイライトデータは、アカウントジャーニーまたは購入グループを通じてアカウントオーディエンスのJourney Optimizer B2B editionによって取り込まれるアカウントに限定されます。
 
 ![ アカウントのハイライト ](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 

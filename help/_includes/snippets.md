@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition インスタンス用に設定されたインテントデータは、ページに含まれます。 インテント検出モデルの詳細と、キーワード、製品、カテゴリの送信方法については、[ インテント データ ](../user/admin/intent-data.md) を参照してください。
+>インテントデータは、Journey Optimizer B2B edition インスタンスに対して設定される場合に含まれます。 また、1 つ以上の公開済みジャーニー **または** 作成された購入グループが必要です。 インテント検出モデルの詳細と、キーワード、製品、カテゴリの送信方法については、[ インテント データ ](../user/admin/intent-data.md) を参照してください。
 
 ## AEM assets ライセンスノート {#aem-assets-licensing-note}
 
