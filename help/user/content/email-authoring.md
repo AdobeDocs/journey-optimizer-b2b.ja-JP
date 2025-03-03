@@ -26,7 +26,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
    >[!NOTE]
    >
-   >初めてメールを作成する場合は、Adobe Marketo Engage内でメールチャネルがから設定されていることを確認してください。 詳しくは、Marketo Engageドキュメントの [ メール配信品質の確認 ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) を参照してください。
+   >初めてメールを作成する場合は、Adobe Marketo Engage内でメールチャネルがから設定されていることを確認してください。 詳しくは、Marketo Engage ドキュメントの [ メール配信品質の確認 ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) を参照してください。
 
    ![ アクションの実行 – メールの送信 ](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -56,7 +56,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
 式エディターで件名を設定およびパーソナライズするには、_Personalization_ アイコンをクリックし、任意のMarketo Engageトークンを追加します。
 
-メールコンテンツを作成およびパーソナライズした後、コンテンツを書き出して、検証したり、後で使用したりできます。 **[!UICONTROL 書き出しHTML]** をクリックして、HTMLとアセットを含む.zip ファイルとしてコンテンツを保存します。
+メールコンテンツを作成およびパーソナライズした後、コンテンツを書き出して、検証したり、後で使用したりできます。 「**[!UICONTROL HTMLを書き出し]**」をクリックして、HTMLとアセットを含む.zip ファイルとしてコンテンツを保存します。
 
 >[!TIP]
 >
@@ -67,7 +67,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="構造コンポーネントの追加"
->abstract="構造コンポーネントはランディングページのレイアウトを定義します。 **構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップして、ランディングページのコンテンツのデザインを開始します。"
+>abstract="構造コンポーネントはランディングページのレイアウトを定義します。**構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップして、ランディングページのコンテンツのデザインを開始します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
@@ -93,7 +93,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
 内容に問題がなければ、「**[!UICONTROL 保存]**」をクリックします。
 
-### 既存のHTMLコンテンツの読み込み
+### 既存のHTML コンテンツの読み込み
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -113,7 +113,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 >
 > 保存済みのテンプレートには、1 つ以上のコンポーネントにガバナンス（コンテンツロック）設定を適用できます。 管理されたテンプレートからメールを作成する [ 場合、ビジュアルデザイナーには、ロックされたコンポーネントに関するガイドラインが表示さ ](./email-authoring-governance.md) ます。
 
-## 構造とコンテンツを追加 {#structure-content}
+## 構造とコンテンツの追加 {#structure-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -190,7 +190,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 * **[!UICONTROL フラグメントとして保存]** - メールのすべてまたは一部をフラグメントとして保存し、複数のメールまたはメールテンプレートで再利用します。 フラグメントの名前と説明を指定し、使用可能なフラグメントのリストに保存します。
 * **[!UICONTROL デザインを変更]** - _メールのデザイン_ ページに戻ります。 ここから、別のテンプレートを選択してデザインプロセスを再開したり、黒いキャンバスでコンテンツをゼロからデザインしたりできます。
 * **[!UICONTROL コンテンツテンプレートとして保存]** - メール本文をメールテンプレートとして保存し、複数のメールまたはメールテンプレートで再利用します。 テンプレートの名前と説明を指定し、保存済みのメールテンプレートのリストに保存します。
-* **[!UICONTROL 書き出しHTML]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式でローカルシステムにダウンロードします。
+* **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式のローカルシステムにダウンロードします。
 
 ## アラートの確認
 
@@ -208,7 +208,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
      >
      >マーケティングスタイルの電子メールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。
 
-   * `Text version of HTML is empty`：メール本文のテキストバージョンを必ず定義してください。このバージョンは、HTMLコンテンツを表示できない場合に使用されます。
+   * `Text version of HTML is empty`：メール本文のテキストバージョンを必ず定義してください。このバージョンは、HTML コンテンツを表示できない場合に使用されます。
 
    * `Empty link is present in email body`: メール内のすべてのリンクが正しいことを確認してください。
 

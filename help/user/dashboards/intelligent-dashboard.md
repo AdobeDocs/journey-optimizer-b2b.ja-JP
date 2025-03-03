@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
 source-wordcount: '1688'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -43,7 +43,7 @@ _インテリジェントダッシュボード_ にアクセスするには、�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="購買グループステージ"
->abstract="このチャートは、設定された移行ルールに基づいて、様々なステージにわたる購入グループの進行状況の概要を示します。 第 1 のバーは、選択された期間の最後の日付と比較して、選択された期間の最初の日付における特定のステージにおける購入グループの数を示す。"
+>abstract="このグラフでは、設定されたトランジションルールに基づいて、様々なステージにわたる購買グループの進行状況の概要を示します。最初のバーは、選択した時間枠の最初の日に特定のステージにある購買グループの数を、選択した時間枠の最終日と比較して示します。"
 
 _[!UICONTROL 購入グループステージ]_ チャートは、様々なステージにわたる購入グループの進行状況の概要を提供します（[ 管理者が設定したトランジションルールに基づいて ](../buying-groups/buying-group-stages.md)）。
 
@@ -81,7 +81,7 @@ _[!UICONTROL 購入グループステージ]_ チャートは、様々なステ�
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-## 購入グループのハイライト {#buying-group-highlights}
+## 購買グループのハイライト {#buying-group-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
@@ -271,7 +271,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="連絡先の重複"
->abstract="複数のソリューションの関心に関連付けられた結果、複数の購入グループに属している連絡先のリスト。"
+>abstract="複数のソリューションの興味に関連付けられた結果、複数の購買グループに属している連絡先のリスト。"
 
 「_[!UICONTROL 連絡先の重複]_」セクションには、複数のソリューションの関心に関連付けられているので、複数の購入グループに属する連絡先のリストが表示されます。
 

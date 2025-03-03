@@ -2,7 +2,8 @@
 title: メールテンプレートオーサリング
 description: アカウントジャーニーメールに使用できるコンテンツメールテンプレートを作成して、デザインを簡単かつ効率的に再利用する方法を説明します。
 feature: Email Authoring, Content
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 11%
@@ -13,7 +14,7 @@ ht-degree: 11%
 
 [ メールテンプレートを作成 ](./email-templates.md#create-an-email-template) した後、ビジュアルデザイナーを使用して、メールテンプレートの構造コンポーネントとコンテンツコンポーネントを作成します。
 
-## 構造とコンテンツを追加 {#structure-content}
+## 構造とコンテンツの追加 {#structure-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
@@ -89,4 +90,4 @@ ht-degree: 11%
 * **[!UICONTROL テンプレートをリセット]** – このオプションをクリックすると、ビジュアルデザイナーのキャンバスを空白のスレートに戻し、コンテンツの作成を再開できます。
 * **[!UICONTROL フラグメントとして保存]** - テンプレートのすべてまたは一部をフラグメントとして保存し、複数のメールまたはメールテンプレートで再利用します。 フラグメントの名前と説明を指定し、使用可能なフラグメントのリストに保存します。
 * **[!UICONTROL デザインを変更]** - _テンプレートのデザイン_ ページに戻ります。 ここから、テンプレートをゼロから設計するか、既存のテンプレートを使用して設計プロセスを再開するかを選択できます。
-* **[!UICONTROL 書き出しHTML]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式でローカルシステムにダウンロードします。
+* **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式のローカルシステムにダウンロードします。
