@@ -1,17 +1,18 @@
 ---
-title: Experience Platformイベントの設定
+title: Experience Platform イベントの設定
 description: Journey Optimizer B2B editionでアカウントジャーニーを調整するために使用できる待機ノードタイプについて説明します。
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
 
-# Experience Platformイベント定義の設定
+# Experience Platform イベント定義の設定
 
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。この定義を使用すると、マーケターは、[AEP エクスペリエンスイベント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) に反応するアカウントジャーニーを作成できます。 アカウントジャーニーでの AEP エクスペリエンスイベントの使用は、次の 2 つの手順で構成されています。
+管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) に反応するアカウントジャーニーを作成できます。 アカウントジャーニーでの AEP エクスペリエンスイベントの使用は、次の 2 つの手順で構成されています。
 
 1. AEP イベント定義を作成して公開します。
 
@@ -39,11 +40,13 @@ ht-degree: 0%
 
 * Journey Optimizer B2B editionは、最大 50 個のイベント定義をサポートします。
 
-* スキーマとイベントタイプのセットを組み合わせて使用できるのは、1 つの AEP イベント定義のみです。 スキーマ（例えば、`My Schema`）およびイベントタイプ（例えば、`Web Webpagedetails Page Views`）を使用してイベント定義を作成する場合、他のイベント定義では `My Schema` と `Web Webpagedetails Page Views` の組み合わせを使用できません。
+* アカウントジャーニーでは、Web SDKや HTTP API などのAEP ストリーミング機能を使用して取り込まれたAEP エクスペリエンスイベントをリッスンできます。
+
+* スキーマとイベントタイプのセットを組み合わせて使用できるのは、1 つのAEP イベント定義のみです。 スキーマ（例えば、`My Schema`）およびイベントタイプ（例えば、`Web Webpagedetails Page Views`）を使用してイベント定義を作成する場合、他のイベント定義では `My Schema` と `Web Webpagedetails Page Views` の組み合わせを使用できません。
 
 * 1 つのイベント定義を複数のアカウントジャーニーで使用できます。
 
-* AEP エクスペリエンスイベントは、アカウントジャーニー内で意思決定目的で使用できますが、保持されません。 したがって、Journey Optimizer B2B edition内で AEP エクスペリエンスイベントの履歴を活用することはできません。
+* AEP エクスペリエンスイベントは、アカウントジャーニー内で意思決定目的に使用できますが、保持されません。 したがって、Journey Optimizer B2B edition内では、AEP エクスペリエンスイベントの履歴レコードを活用できません。
 
 * _アクティビティの日付_ および _最小回数_ の制約はサポートされていません。
 
@@ -73,7 +76,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 | -------------------- | ----------- |
 | 下書き | イベント定義を作成すると、そのイベント定義はドラフトステータスになります。 アカウントジャーニーで使用するために公開するまで、このステータスのままになります。 使用可能なアクション：<br/><ul><li>すべての詳細を編集<li>公開<li>削除 |
 | 公開日 | イベント定義を公開すると、アカウントジャーニーで使用できるようになります。 詳細は変更できません。 使用可能なアクション：<br/><ul><li>_イベントをリッスン_ ジャーニーノードで使用可能<li>ドラフトバージョンを作成<li>削除（使用中でない場合） |
-| 公開済み（ドラフトを使用） | 公開済みのイベント定義からドラフトを作成する場合、公開されたバージョンはアカウントジャーニーで引き続き使用でき、ドラフトバージョンは変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、まだ実行されていないアカウントジャーニーのイベント定義が更新されます。 使用可能なアクション：<br/><ul><li>すべての詳細を編集<li>Publishのドラフトバージョン<li>ドラフトバージョンを破棄<li>削除（使用中でない場合） |
+| 公開済み（ドラフトを使用） | 公開済みのイベント定義からドラフトを作成する場合、公開されたバージョンはアカウントジャーニーで引き続き使用でき、ドラフトバージョンは変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、まだ実行されていないアカウントジャーニーのイベント定義が更新されます。 使用可能なアクション：<br/><ul><li>すべての詳細を編集<li>ドラフトバージョンを公開<li>ドラフトバージョンを破棄<li>削除（使用中でない場合） |
 
 ![ フラグメントステータスのライフサイクル ](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
    ![ 新しいドラフトイベント定義がページに表示されます ](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-## イベント定義のPublish
+## イベント定義の公開
 
 ドラフトイベントの定義が完了し、ニーズに合っていることを確認したら、その定義を公開して、アカウントジャーニーで使用できるようにします。 イベント定義を公開した後、変更が必要な場合は、ドラフトバージョンを作成できます。 ただし、スキーマは変更できません。また、追加できるのはイベントタイプとフィールドのみです（削除することはできません）。
 
@@ -149,11 +152,11 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
    必要に応じて、公開する前に設定を確認します。 要件を満たさない場合は [ ドラフトを編集 ](#edit-an-event-definition) できます。
 
-1. 右上の **[!UICONTROL Publish]** をクリックします。
+1. 右上の **[!UICONTROL 公開]** をクリックします。
 
-1. 確認ダイアログで、「**[!UICONTROL Publish]**」をクリックします。
+1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
 
-   ![Publish イベントダイアログ ](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![ イベントを公開ダイアログ ](./assets/configuration-events-publish-dialog.png){width="300"}
 
    イベント定義のステータスが _公開済み_ に変わり、[ アカウントジャーニーで使用できる ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) ようになりました。
 
@@ -189,9 +192,9 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
    変更内容は自動的にドラフトに保存されます。
 
-1. イベント定義が条件を満たしており、アカウントジャーニーで使用できるようにする場合は、**[!UICONTROL Publish]** をクリックします。
+1. イベント定義が条件を満たしており、アカウントジャーニーで使用できるようにする場合は、「**[!UICONTROL 公開]**」をクリックします。
 
-1. 確認ダイアログで、「**[!UICONTROL Publish]**」をクリックします。
+1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
 
    イベント定義のステータスが _公開済み_ に変わり、アカウントジャーニーで使用できるようになりました。
 
@@ -221,11 +224,11 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
    変更内容は自動的にドラフトに保存されます。
 
-1. ドラフトイベント定義が条件を満たしており、アカウントジャーニーで使用するために現在の公開済みバージョンを置き換える場合は、「**[!UICONTROL Publishドラフト]**」をクリックします。
+1. ドラフトイベント定義が条件を満たしており、アカウントジャーニーで使用するために現在の公開済みバージョンを置き換える場合は、「**[!UICONTROL ドラフトを公開]**」をクリックします。
 
-1. 確認ダイアログで、「**[!UICONTROL Publish]**」をクリックします。
+1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
 
-   ![Publish ドラフトダイアログ ](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![ ドラフトを公開ダイアログ ](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、既に使用中でまだ実行されていないアカウントジャーニーの場合はイベント定義が更新されます。
 
@@ -243,11 +246,11 @@ _公開済み（ドラフト）_ イベント定義を開くと、デフォル�
 
    変更内容は自動的にドラフトに保存されます。
 
-1. ドラフトイベント定義が条件を満たしており、アカウントジャーニーで使用するために現在の公開済みバージョンを置き換える場合は、「**[!UICONTROL Publishドラフト]**」をクリックします。
+1. ドラフトイベント定義が条件を満たしており、アカウントジャーニーで使用するために現在の公開済みバージョンを置き換える場合は、「**[!UICONTROL ドラフトを公開]**」をクリックします。
 
-1. 確認ダイアログで、「**[!UICONTROL Publish]**」をクリックします。
+1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
 
-   ![Publish ドラフトダイアログ ](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![ ドラフトを公開ダイアログ ](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、既に使用中でまだ実行されていないアカウントジャーニーの場合はイベント定義が更新されます。
 
