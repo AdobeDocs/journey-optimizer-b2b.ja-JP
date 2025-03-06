@@ -3,10 +3,10 @@ title: フラグメント
 description: Adobe Journey Optimizer B2B editionをまたいで、メールおよびメールテンプレートの再利用可能なコンポーネントとしてビジュアルコンテンツフラグメントを作成し、使用する方法について説明します。
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
+source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
 workflow-type: tm+mt
-source-wordcount: '2679'
-ht-degree: 3%
+source-wordcount: '2624'
+ht-degree: 1%
 
 ---
 
@@ -14,14 +14,18 @@ ht-degree: 3%
 
 フラグメントは、Adobe Journey Optimizer B2B edition全体の 1 つ以上のメールおよびメールテンプレートで参照できる再利用可能なコンポーネントです。 通常は、事前に作成してすばやくメールまたはメールテンプレートに挿入できるコンテンツのブロック（テキスト、画像、またはその両方）です。 この機能を使用すると、マーケティングチームメンバーがメールコンテンツを組み合わせて設計プロセスを改善するために使用する、複数のカスタムコンテンツブロックを事前に作成できます。 一般的なユースケースとしては、メールのヘッダー/フッターコンテンツブロック、イベント招待バナー、季節ごとの挨拶などがあります。
 
+>[!BEGINSHADEBOX]
+
+**ビジュアルフラグメント**
+
+ビジュアルフラグメントは、ビジュアルコンテンツデザイナーを使用して作成され、複数のメールまたはメールテンプレートで再利用できる、事前定義されたビジュアルブロックです。 Journey Optimizer B2B editionの現在の範囲と、このドキュメントはビジュアルフラグメントのみです。 式ベースのフラグメントは、Journey Optimizer B2B editionではまだサポートされていません。
+
+>[!ENDSHADEBOX]
+
 ワークフローでフラグメントを最大限に活用するには：
 
 * _独自のフラグメントを作成_ - ビジュアルコンテンツエディターからゼロから、またはコンテンツをフラグメントとして保存することで、ビジュアルフラグメントを作成します。
 * _フラグメントを再利用_ - コンテンツで必要な回数だけ使用します。
-
-## ビジュアルフラグメント
-
-ビジュアルフラグメントは、ビジュアルコンテンツエディターを使用して作成され、複数のメールまたはメールテンプレートで再利用できる、事前定義されたビジュアルブロックです。 Journey Optimizer B2B editionの現在の範囲と、このドキュメントはビジュアルフラグメントのみです。 式ベースのフラグメントは、Journey Optimizer B2B editionではまだサポートされていません。
 
 ## フラグメントへのアクセスと管理
 
@@ -38,10 +42,10 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 | ステータス | 説明 |
 | -------------------- | ----------- |
 | 下書き | フラグメントを作成すると、そのステータスはドラフトになります。 ビジュアルコンテンツを定義または編集したあと、メールまたはメールテンプレートで使用するために公開するまで、このステータスのままになります。 使用可能なアクション：<br/><ul><li>すべての詳細を編集<li>ビジュアルデザイナーで編集<li>公開<li>複製<li>削除 |
-| 公開日 | フラグメントを公開すると、メールまたはメールテンプレートで使用できるようになります。 公開済みのフラグメントコンテンツは、ビジュアルデザイナーでは変更できません。 使用可能なアクション：<br/><ul><li>説明を編集<li>メールまたはテンプレートへの追加<li>ドラフトバージョンを作成<li>複製<li>削除（使用中でない場合） |
+| 公開日 | フラグメントを公開すると、メールまたはメールテンプレートで使用できるようになります。 公開されたフラグメントコンテンツは、ビジュアルデザイナーでは変更できません。 使用可能なアクション：<br/><ul><li>説明を編集<li>メールまたはテンプレートへの追加<li>ドラフトバージョンを作成<li>複製<li>削除（使用中でない場合） |
 | 公開済み下書きあり | 公開済みフラグメントからドラフトを作成する場合、公開されたバージョンはメールまたはメールテンプレートで使用でき、ドラフトコンテンツはビジュアルデザイナーで変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、使用中のメールおよびメールテンプレートのコンテンツが更新されます。 使用可能なアクション：<br/><ul><li>説明を編集<li>メールまたはテンプレートへの追加<li>ビジュアルデザイナーでのドラフトバージョンの編集<li>ドラフトバージョンを公開<li>複製<li>削除（使用中でない場合） |
 
-![ フラグメントステータスのライフサイクル ](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+![ フラグメントステータスのライフサイクル ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -85,45 +89,16 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 
 1. コンテンツデザインツールを使用して、ビジュアルフラグメントコンテンツを作成します。
 
-   * [構造とコンテンツの追加](#add-structure-and-content)
-   * [Assetsを追加](#add-assets)
-   * [レイヤー、設定、スタイルの移動](#navigate-the-layers-settings-and-styles)
-   * [コンテンツのパーソナライズ](#personalize-content)
-   * [リンクされた URL トラッキングを編集](#edit-linked-url-tracking)
+   * [構造とコンテンツの追加](./fragment-authoring.md#add-structure-and-content)
+   * [Assetsを追加](./fragment-authoring.md#add-assets)
+   * [レイヤー、設定、スタイルの移動](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [コンテンツのパーソナライズ](./fragment-authoring.md#personalize-content)
+   * [カスタムフィールドの有効化](./fragment-authoring.md#enable-custom-fields)
+   * [リンクされた URL トラッキングを編集](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. **[!UICONTROL 保存]** をクリックすれば、いつでもドラフトフラグメントを保存できます。
 
 1. フラグメントをメールまたはメールテンプレートで使用できるようにする準備が整ったら、「**[!UICONTROL 公開]**」をクリックします。
-
-### 構造とコンテンツの追加 {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="構造コンポーネントの追加"
->abstract="構造コンポーネントはフラグメントのレイアウトを定義します。 **構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップして、フラグメントのコンテンツのデザインを開始します。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="コンテンツコンポーネントについて"
->abstract="コンテンツコンポーネントは、フラグメントのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
-
-{{$include /help/_includes/content-design-components.md}}
-
-### アセットの追加
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### レイヤー、設定、スタイルの移動
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### コンテンツのパーソナライズ
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### リンクされた URL トラッキングを編集
-
-{{$include /help/_includes/content-design-links.md}}
 
 ## フラグメントの詳細を表示
 
@@ -194,11 +169,12 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 
    必要に応じて、ビジュアルデザイナーのツールを使用します。
 
-   * [構造とコンテンツの追加](#add-structure-and-content)
-   * [Assetsを追加](#add-assets)
-   * [レイヤー、設定、スタイルの移動](#navigate-the-layers-settings-and-styles)
-   * [コンテンツのパーソナライズ](#personalize-content)
-   * [リンクされた URL トラッキングを編集](#edit-linked-url-tracking)
+   * [構造とコンテンツの追加](./fragment-authoring.md#add-structure-and-content)
+   * [Assetsを追加](./fragment-authoring.md#add-assets)
+   * [レイヤー、設定、スタイルの移動](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [コンテンツのパーソナライズ](./fragment-authoring.md#personalize-content)
+   * [カスタムフィールドの有効化](./fragment-authoring.md#enable-custom-fields)
+   * [リンクされた URL トラッキングを編集](./fragment-authoring.md#edit-linked-url-tracking)
 
    **[!UICONTROL 保存]** または **[!UICONTROL 保存して閉じる]** をクリックして、フラグメントの詳細に戻ります。
 
@@ -222,11 +198,12 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 
    必要に応じて、ビジュアルデザイナーのツールを使用します。
 
-   * [構造とコンテンツの追加](#add-structure-and-content)
-   * [Assetsを追加](#add-assets)
-   * [レイヤー、設定、スタイルの移動](#navigate-the-layers-settings-and-styles)
-   * [コンテンツのパーソナライズ](#personalize-content)
-   * [リンクされた URL トラッキングを編集](#edit-linked-url-tracking)
+   * [構造とコンテンツの追加](./fragment-authoring.md#add-structure-and-content)
+   * [Assetsを追加](./fragment-authoring.md#add-assets)
+   * [レイヤー、設定、スタイルの移動](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [コンテンツのパーソナライズ](./fragment-authoring.md#personalize-content)
+   * [カスタムフィールドの有効化](./fragment-authoring.md#enable-custom-fields)
+   * [リンクされた URL トラッキングを編集](./fragment-authoring.md#edit-linked-url-tracking)
 
    **[!UICONTROL 保存]** または **[!UICONTROL 保存して閉じる]** をクリックして、フラグメントの詳細に戻ります。
 
@@ -250,11 +227,12 @@ _[!UICONTROL フラグメント]_ リストページからドラフトバージ�
 
 1. 右上の **[!UICONTROL フラグメントを編集]** をクリックします。 必要に応じて、ビジュアルデザイナーのツールを使用します。
 
-   * [構造とコンテンツの追加](#add-structure-and-content)
-   * [Assetsを追加](#add-assets)
-   * [レイヤー、設定、スタイルの移動](#navigate-the-layers-settings-and-styles)
-   * [コンテンツのパーソナライズ](#personalize-content)
-   * [リンクされた URL トラッキングを編集](#edit-linked-url-tracking)
+   * [構造とコンテンツの追加](./fragment-authoring.md#add-structure-and-content)
+   * [Assetsを追加](./fragment-authoring.md#add-assets)
+   * [レイヤー、設定、スタイルの移動](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [コンテンツのパーソナライズ](./fragment-authoring.md#personalize-content)
+   * [カスタムフィールドの有効化](./fragment-authoring.md#enable-custom-fields)
+   * [リンクされた URL トラッキングを編集](./fragment-authoring.md#edit-linked-url-tracking)
 
    **[!UICONTROL 保存]** または **[!UICONTROL 保存して閉じる]** をクリックして、フラグメントの詳細に戻ります。
 
