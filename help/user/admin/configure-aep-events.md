@@ -2,17 +2,22 @@
 title: Experience Platform イベントの設定
 description: Journey Optimizer B2B editionでアカウントジャーニーを調整するために使用できる待機ノードタイプについて説明します。
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
 
 # Experience Platform イベント定義の設定
 
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) に反応するアカウントジャーニーを作成できます。 アカウントジャーニーでの AEP エクスペリエンスイベントの使用は、次の 2 つの手順で構成されています。
+管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) に反応するアカウントジャーニーを作成できます。
+
+![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ ビデオの概要をご覧ください ](#overview-video)
+
+アカウントジャーニーでの AEP エクスペリエンスイベントの使用は、次の 2 つの手順で構成されています。
 
 1. AEP イベント定義を作成して公開します。
 
@@ -273,3 +278,7 @@ _公開済み（ドラフト）_ イベント定義を開くと、デフォル�
 1. 確認ダイアログで、「**[!UICONTROL 削除]**」をクリックします。
 
    ![ 確認してイベント定義を削除 ](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+
+## 概要ビデオ
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

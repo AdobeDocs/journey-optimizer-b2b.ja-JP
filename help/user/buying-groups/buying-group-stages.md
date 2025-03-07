@@ -3,9 +3,9 @@ title: 購買グループのステージ
 description: 購入グループステージと、売上目標に対するジャーニーの進行状況を追跡するためにそれらのステージを定義する方法について説明します。
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 単一のステージングモデル内でステージを定義し、複数のステージとそれらの間の移行フローを定義します。 ライフサイクルにエントリする 1 つ以上のステージが指定されています。 また、このモデルでは、ステージ A からステージ B、ステージ C、ステージ D など、あるステージから別のステージへのトランジションを指定できる非線形の進行も可能です。購入や署名済みの契約など、1 つのステージを成功ステージと指定する必要があります。 別のステージを、契約の却下や別のベンダーからの競合ソリューションの購入など、失敗ステージとして指定することはオプションです。 これは、購入グループの進捗を示す [ インテリジェントダッシュボード ](../dashboards/intelligent-dashboard.md) を使用して、販売機会の完了や、機会から顧客への変換を行うことで達成されます。
 
 ![ 購入グループステージの例 ](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ ビデオの概要をご覧ください ](#overview-video)
 
 ## 購入グループステージモデルの定義
 
@@ -159,7 +161,7 @@ ht-degree: 0%
 
    「_[!UICONTROL キャンセル]_」をクリックしてダイアログを閉じ、変更せずにモデルの詳細ページに戻ることもできます。
 
-## 購入グループステージモデルのPublish
+## 購入グループステージモデルを公開します
 
 検証エラーがない場合は、モデルを公開できます。 公開されると _ライブ_ 状態に変わり、アカウントジャーニーで購入グループステージを進行させるために使用できます。
 
@@ -173,7 +175,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL 公開]**」をクリックします。
 
-1. 確認ダイアログで、「**[!UICONTROL Publish]**」をクリックします。
+1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
 
    モデルの詳細ページに戻ると、モデルは _[!UICONTROL ライブ]_ と指定されます。 左上の _戻る_ 矢印をクリックして、「_[!UICONTROL ステージ]_」タブページに戻ります。
 
@@ -345,3 +347,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
    ![ジャーニーノード – アカウントのイベントをリッスン ](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. 引き続き他の変更を行い、ジャーニーを保存します。
+
+## 概要ビデオ
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
