@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B エディションのドキュメント
 description: Adobe Journey Optimizer B2B edition機能を使用して、組み込みのジェネレーティブ AI と業界最先端の自動化機能を使用して、アカウントジャーニーを調整し、グループジャーニーを購入する方法を説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '680'
 ht-degree: 7%
 
 ---
@@ -31,11 +31,17 @@ Adobe Express Enterprise ライセンスを使用すると、Adobe Expressのす
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Adobe Expressを使用した画像編集について説明します"}
 
+>[!TAB  フラグメントのカスタマイズ可能なフィールド ]
+
+コンテンツデザイナーは、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。 これにより、メールまたはテンプレートの作成者は、必要に応じてカスタムフィールド値を指定できます。 このカスタマイズフラグは、画像、テキスト、ボタンのビジュアルコンポーネントに限定されます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="コンテンツフラグメントのカスタムフィールドについて学ぶ"}
+
 >[!TAB AEP イベント転送 ]
 
-管理者はAdobe Experience Platform（AEP）ベースのイベント定義を設定できるようになりました。 これらの設定により、マーケターは、AEP エクスペリエンスイベントに反応するアカウントジャーニーを作成できます。
+管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できるようになりました。 これらの設定により、マーケターは、AEP エクスペリエンスイベントに反応するアカウントジャーニーを作成できます。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Journey orchestration に使用する AEP イベント定義について説明します"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Journey orchestration に使用するAEP イベント定義について説明します"}
 
 >[!TAB  スマート リスト用の購買グループ フィルター ]
 
