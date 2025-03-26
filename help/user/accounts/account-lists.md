@@ -1,22 +1,23 @@
 ---
 title: 顧客リスト
 description: アカウントリストと、そのリストをマーケターがアカウントジャーニーを通じてアカウントをターゲットにする方法について説明します。
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: true
 hide: true
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+hidefromtoc: true
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
-# 顧客リスト
+# アカウントリスト
 
 アカウントリストは、マーケターがターゲットのジャーニーオーケストレーションに使用できる名前付きアカウントのコレクションです。 アカウントリストでは、定義済みの条件（業界、場所、会社の規模など）に基づいて指定顧客をターゲットにすることができます。 アカウントリストには、次の 2 種類があります。
 
 * **静的** – 静的アカウントリストでは、アカウントを追加した場合にのみリストが変更されます。 現在のアカウントデータに基づいてリストに入力するフィルターセットを適用するか、アカウントジャーニーを通じてアカウントを追加および削除することで、アカウントを手動で追加できます。
-* **動的** – 動的アカウントリストを使用すると、リストを自動的にキュレーションするためのフィルターセットを定義できます。 システムは、このフィルターセットを使用して、アカウント情報の変更に従ってアカウントを追加および削除します。 このリスト管理は、[Real-time Customer Data Platformでのオーディエンスのセグメント化 ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b) に似ています。
+* **動的** – 動的アカウントリストを使用すると、リストを自動的にキュレーションするためのフィルターセットを定義できます。 システムは、このフィルターセットを使用して、アカウント情報の変更に従ってアカウントを追加および削除します。 このリスト管理は、[Real-time Customer Data Platform のオーディエンスのセグメント化 ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b) に似ています。
 
 アカウントリストが _ライブ_ （公開済み）状態の場合、アカウントジャーニーで使用できます。
 
@@ -140,7 +141,7 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-## アカウントリストのPublish
+## アカウントリストの公開
 
 フィルターセットが完了したらすぐに、アカウントリストの公開に進むことができます。
 
@@ -148,11 +149,11 @@ ht-degree: 0%
 
 >[!TAB  静的アカウントリスト ]
 
-1. 右上の **[!UICONTROL Publish]** をクリックします。
+1. 右上の **[!UICONTROL 公開]** をクリックします。
 
-   ![ 右上の「Publish」をクリック ](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![ 右上の「公開」をクリック ](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Publish静的アカウントリスト]_ ダイアログで、**[!UICONTROL Publish]** をクリックして確定します。
+1. _[!UICONTROL 静的アカウントリストを公開]_ ダイアログで、「**[!UICONTROL 公開]**」をクリックして確定します。
 
    ![ 静的アカウントリストの公開を確認 ](./assets/account-lists-static-publish-confirm.png){width="400"}
 
@@ -162,11 +163,11 @@ ht-degree: 0%
 
 フィルターセットが完了したらすぐに、動的アカウントリストの公開に進むことができます。 アカウントリストは、ライブ ステータスになると、アカウントオーディエンスジャーニーノードで選択できるようになります。
 
-1. 右上の **[!UICONTROL Publish]** をクリックします。
+1. 右上の **[!UICONTROL 公開]** をクリックします。
 
-   ![ 右上の「Publish」をクリック ](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![ 右上の「公開」をクリック ](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Publish動的アカウントリスト]_ ダイアログで、**[!UICONTROL Publish]** をクリックして確定します。
+1. _[!UICONTROL 動的アカウントリストを公開]_ ダイアログで、「**[!UICONTROL 公開]**」をクリックして確定します。
 
    ![ 動的アカウントリストの公開を確認 ](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 

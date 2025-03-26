@@ -2,9 +2,9 @@
 title: XDM フィールド
 description: Adobe Experience PlatformとJourney Optimizer B2B editionの間で同期されるデフォルトの属性フィールドを確認します。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 332c25305377398c2338d4b1d4a61b7fcf814232
+source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1372'
 ht-degree: 23%
 
 ---
@@ -79,26 +79,27 @@ ht-degree: 23%
 | `accountPhone.number` | なし | アカウントの電話番号 | 文字列 | アカウントに関連付けられている電話番号。 |
 | `accountSourceType` | なし | ソースのタイプ | 文字列 | アカウントのSourceタイプ。 |
 
-<!-- ## XDM Opportunity attributes
+## XDM Business Opportunity 属性
 
-|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+さらに、商談データは XDM Business Opportunity クラスの属性として保存されます。この属性は、[ こちら ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field) で説明されているように、多対 1 の関係を通じて XDM Business Account クラスに関連付けることができます。
+
+| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-|`opportunityName` | Opportunity Name   | ? |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
-|`opportunityDescription` | Opportunity Description   | ?    |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
-|`opportunityType` | Opportunity Type   | ?   | String | ?   |
-|`opportunityStage` | Opportunity Stage   | ?   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
-|`fiscalQuarter` | Fiscal Quarter   | ?   | String | The fiscal quarter that the opportunity is targeted.   |
-|`fiscalYear` | Fiscal Year   | ?   | String | The fiscal year that the opportunity is targeted.   |
-|`fiscalCategory` | Fiscal Category   | ?   | String | ?   |
-|`fiscalCategoryName` | Fiscal Category Name  | ?   | String | Forecast category name that is displayed in reports for a particular forecast category.   |
-|`isClosed` | Closed Flag  | ?   | String | Flag that indicates if the opportunity is closed.   |
-|`isWon` | Won Flag  | ?   | String | Flag that indicates if the opportunity is won.  |
-|`probabilityPercentage` | Probability Percentage  | ?   | String | Likelihood of closing the opportunity, stated as a percentage.  |
-|`opportunityAmount.amount` | Opportunity Amount  | ?   | String | Estimated total sale amount for the opportunity.   |
-|`expectedRevenue.amount` | Expected Revenue  | ?   | String | Calculated revenue based on the Amount and Probability.   |
-|`opportunityQuantity` | Opportunity Quantity  | ?   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
-|`expectedCloseDate` | Expected Close Date  | ?   | String | Expected date of closure for the opportunity.   |
-|`lastActivityDate` | Last Activity Date  | ?   | String | Last activity date for the opportunity.  |
-|`leadSource` | Lead Source  | ?   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
-|`nextStep` | Next Step  | ?   | String | Description of the next task for closing the opportunity.   |
--->
+| `expectedCloseDate` | 商談完了予定日 | 商談のクローズ予定日 | 文字列 | オポチュニティに対して期待されるクローズ日。 |
+| `expectedRevenue.amount` | 予想収益 | 商談の収益予測合計 | 文字列 | 金額と確率に基づいて計算された売上高。 |
+| `fiscalQuarter` | 会計四半期 | オポチュニティ会計四半期 | 文字列 | オポチュニティをターゲットにした会計四半期。 |
+| `fiscalYear` | 会計年度 | オポチュニティ会計年度 | 文字列 | オポチュニティのターゲットとなる会計年度。 |
+| `forecastCategory` | 予測カテゴリ | 商談予測カテゴリ | 文字列 | オポチュニティのステージ値によって決定された予測カテゴリ。 |
+| `forecastCategoryName` | 予測カテゴリ名 | 商談予測カテゴリ名 | 文字列 | 特定の予測カテゴリに関するレポートに表示される予測カテゴリ名。 |
+| `isClosed` | クローズドフラグ | クローズした商談 | 文字列 | オポチュニティがクローズされているかどうかを示すフラグ。 |
+| `isWon` | 獲得フラグ | 獲得した商談 | 文字列 | オポチュニティが獲得されたかどうかを示すフラグ。 |
+| `lastActivityDate` | 最後のアクティビティ日 | 最後のアクティビティの日付 | 文字列 | オポチュニティの最後のアクティビティの日付。 |
+| `leadSource` | リードのソース | リードのソース | 文字列 | オポチュニティのSource（広告、パートナー、web など）。 |
+| `nextStep` | 次のステップ | オポチュニティの次のステップ | 文字列 | オポチュニティをクローズするための次のタスクの説明。 |
+| `opportunityAmount.amount` | 商談額 | 合計商談数 | 文字列 | オポチュニティの推定合計販売金額。 |
+| `opportunityDescription` | 商談の説明 | オポチュニティの説明 | 文字列 | オポチュニティを説明する追加情報（販売する可能性のある製品や顧客からの過去の購入など）。 |
+| `opportunityName` | 商談名 | 商談名 | 文字列 | オポチュニティの件名または説明的な名前（期待される注文や会社名など）。 |
+| `opportunityQuantity` | 商談の数量 | オポチュニティの数量 | 文字列 | オポチュニティの関連製品リストにあるすべての製品に関するすべての数量フィールド値の合計。 |
+| `opportunityStage` | 商談のステージ | 商談のステージ | 文字列 | セールス・チームの取り組みを支援するオポチュニティのセールス・ステージ。 |
+| `opportunityType` | 商談のタイプ | 商談のタイプ | 文字列 | オポチュニティに割り当てられたタイプ（_Existing Business _や _New Business_ など） |
+| `probabilityPercentage` | 確率率 | 商談確率の割合 | 文字列 | オポチュニティをクローズする可能性（パーセンテージ）。 |

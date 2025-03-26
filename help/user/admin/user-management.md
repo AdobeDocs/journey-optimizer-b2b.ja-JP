@@ -4,9 +4,9 @@ description: チームメンバーをJourney Optimizer B2B edition製品プロ�
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: d5197e740a17de507bf72b4d7b64deb5af672346
+source-git-commit: 49df3035b3bafc608a5fb16be77d39c5055bf92e
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1878'
 ht-degree: 2%
 
 ---
@@ -144,81 +144,81 @@ User Management について詳しくは、Admin Console ドキュメントの [
 Adobe Experience Platformの _権限_ 領域では、管理者は、ユーザーの役割とアクセスポリシーを定義して、製品アプリケーション内の機能とオブジェクトのアクセス権限を管理できます。 このアプリでは、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたサンドボックスとユーザーを管理することもできます。
 
 Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [ ロールの権限の管理 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
-<!-- 
-### B2B product permissions
 
-The following permissions govern access to Journey Optimizer B2B Edition capabilities:
+### B2B 製品の権限
 
-| Category | Description | Permissions |
+Journey Optimizer B2B editionの機能へのアクセスには、次の権限が適用されます。
+
+| カテゴリ | 説明 | 権限 |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments|
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards |Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>Manage B2B Dashboards |
-| B2B Journeys | Configure manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths | <li>Manage B2B Journeys |
+| B2B アカウントリスト | B2B アカウントリストの権限を設定、管理、表示および公開します。 これらの権限には、アカウントリストに対するアカウントの追加、削除、インポート、削除などのアクションが含まれます。 | <li>B2B アカウントリストの管理 |
+| B2B 管理設定 | B2B 管理設定の権限を設定、管理、表示します。 これらの権限には、デジタルアセット管理接続、アセットリポジトリー、イベントが含まれます。 | <li>B2B 管理設定の管理 |
+| B2B Assets | B2B アセットの権限を設定、管理、表示します。 これらの権限には、メール、SMS、ランディングページ、フラグメント、テンプレート、画像が含まれます。 | <li>B2B Assetsの管理 <li>B2B テンプレートの管理 <li>B2B フラグメントの管理 |
+| B2B 購入グループ | B2B 購入グループの権限を設定、管理および表示します。 これらの権限には、ソリューションの関心、役割テンプレート、購入グループステータスが含まれます。 | <li>B2B 購入グループの管理 |
+| B2B チャネル設定 | B2B チャネル設定の権限を設定、管理、表示します。 これらの権限には、通信制限、API 資格情報、セキュリティ設定の設定が含まれます。 | <li>B2B チャネル設定の管理 |
+| B2B ダッシュボード | B2B ダッシュボードの権限の設定と表示。 これらの権限には、アカウントエンゲージメント、購入グループステージ、急増するアカウント、連絡先の対象範囲が含まれます。 | <li>B2B ダッシュボードの管理 |
+| B2B ジャーニー | B2B ジャーニーの管理、表示、公開権限を設定します。 これらの権限には、アカウントとユーザーのアクション、イベントリスナー、分割パスが含まれます | <li>B2B ジャーニーの管理 |
 
-### B2B built-in roles
+### B2B の組み込みの役割
 
-When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
+組織がJourney Optimizer B2B edition製品をプロビジョニングしている場合、Experience Platformには、製品の機能へのアクセスを管理するために使用できる、組み込みの（デフォルトの）一連の役割が含まれています。
 
-| Role | Permissions |
+| ロール | 権限 |
 | ---- | ----------- |
-| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Intelligent Dashboard <li>View B2B Insights Dashboard |
-| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
-| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-| B2B Sales User | <li>View Intelligent Dashboard |
+| B2B ジャーニーマネージャー | <li>B2B ジャーニーの管理 <li>B2B 購入グループの管理 <li>B2B アカウントリストの管理 <li>B2B インテリジェントダッシュボードの表示 <li>B2B インサイトダッシュボードの表示 |
+| B2B チャネルマネージャー | <li>B2B Assetsの管理 <li>B2B テンプレートの管理 <li>B2B フラグメントの管理 |
+| B2B システム管理者 | <li>B2B チャネル設定の管理 <li>B2B 管理設定の管理 |
+| B2B セールスユーザー | <li>インテリジェントダッシュボードの表示 |
 
-### Edit role permissions
+### 役割の権限の編集
 
-For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
+組み込みの役割またはカスタムの役割の場合は、いつでも権限を追加または削除できます。 デフォルトまたはカスタムの役割を変更すると、その役割に割り当てられたすべてのユーザーに影響します。
 
-In the following example, you want to add permissions related to the B2B Journeys resource for users assigned to the B2B Channel Manager role. This change enables users for that role to manage account journeys also.
+次の例では、B2B チャネルマネージャーのロールに割り当てられたユーザーに対して、B2B ジャーニーリソースに関連する権限を追加します。 この変更により、その役割のユーザーはアカウントジャーニーも管理できます。
 
 >[!NOTE]
 >
->An Admin Console system administrator can perform these steps.
+>Admin Consoleのシステム管理者は、これらの手順を実行できます。
 
-_To change the permissions for a role:_
+_役割の権限を変更するには：_
 
-1. Go to [experience.adobe.com](https://experience.adobe.com/).
+1. [experience.adobe.com](https://experience.adobe.com/) に移動します。
 
-1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
+1. _[!UICONTROL クイックアクセス]_ パネルで、「**[!UICONTROL 権限]**」を選択します。
 
    >[!NOTE]
    >
-   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
+   >_[!UICONTROL 権限]_ が表示されない場合は、「**[!UICONTROL すべて表示]**」をクリックし、使用可能なアプリケーションから選択する必要がある場合があります。
 
-   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Experience Platform - アクセス許可 ](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-1. Select **[!UICONTROL Roles]** in the left navigation.
+1. 左側のナビゲーションで「**[!UICONTROL 役割]**」を選択します。
 
-1. Click the **_B2B Channel Manager_** role name.
+1. **_B2B チャネルマネージャー_** の役割名をクリックします。
 
-1. In the details page, click **[!UICONTROL Edit]** at the top right.
+1. 詳細ページで、右上の **[!UICONTROL 編集]** をクリックします。
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform – 役割の編集 ](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
-   In the role editor, the _[!UICONTROL Resources]_ menu displays the list of resources that apply to the Experience Cloud - Platform powered applications products.
+   ロールエディターの _[!UICONTROL リソース]_ メニューには、Experience Cloud - Platform を利用したアプリケーション製品に適用されるリソースのリストが表示されます。
 
-   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions. 
-   
-1. Click the _Add_ icon (**+**) for the B2B Journeys resource.
+   検索ツールに _B2B_ と入力して、B2B 製品の権限のリストをフィルタリングできます。
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
+1. 「B2B ジャーニー」リソースの _追加_ アイコン（**+**）をクリックします。
 
-1. In the _[!UICONTROL B2B Journeys]_ permissions card, select **[!UICONTROL Manage B2B Account Journeys]**.
+   ![Experience Platform – 役割の編集 ](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Save]**.
+1. _[!UICONTROL B2B ジャーニー]_ 権限カードで、「**[!UICONTROL B2B アカウントのジャーニーを管理]**」を選択します。
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. Click **[!UICONTROL Close]** to return to the details page. -->
+   ![Experience Platform – 役割の編集 ](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+
+1. 「**[!UICONTROL 閉じる]**」をクリックして詳細ページに戻ります。
 
 ### 役割にユーザーを追加
 
-![ 管理者の役割要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者または AEP 製品管理者は、次の手順を実行できます。
+![ 管理者の役割の要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
 
 1. 役割の詳細を開き、「**[!UICONTROL ユーザー]**」タブを選択します。
 
@@ -242,7 +242,7 @@ _To change the permissions for a role:_
 
 User Management について詳しくは、Admin Console ドキュメントの [Admin Console ユーザー ](https://helpx.adobe.com/jp/enterprise/using/user-groups.html) を参照してください。
 
-![ 管理者の役割要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者または AEP 製品管理者は、次の手順を実行できます。
+![ 管理者の役割の要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
 
 1. 役割の詳細を開き、「**[!UICONTROL ユーザーグループ]**」タブを選択します。
 
@@ -264,7 +264,7 @@ User Management について詳しくは、Admin Console ドキュメントの [
 
 ## カスタムの役割の作成
 
-![ 管理者の役割要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者または AEP 製品管理者は、次の手順を実行できます。
+![ 管理者の役割の要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
 
 1. 左側のナビゲーションで「**[!UICONTROL 役割]**」を選択し、「**[!UICONTROL 役割を作成]**」を選択します。
 

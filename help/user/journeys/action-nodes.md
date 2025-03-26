@@ -3,7 +3,7 @@ title: アクションの実行
 description: Journey Optimizer B2B editionでアカウントジャーニーを調整するために使用できる、アクションの実行ノードタイプについて説明します。
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -25,9 +25,9 @@ ht-degree: 1%
 | アクション | 制約 |
 | ------ | ----------- |
 | [!UICONTROL  アカウント変更データ値 ] | 属性 <br/> 新しい値を選択 |
-| [!UICONTROL  アカウント興味深い瞬間 ] | タイプ （メール、マイルストーン、Web） <br/> 説明（オプション） |
+| [!UICONTROL  アカウント興味深い瞬間 ] | タイプ （メール、マイルストーン、web） <br/> 説明（オプション） |
 | [!UICONTROL  （その他）ジャーニーにアカウントを追加 ] | ライブアカウントジャーニーを選択 |
-| [!UICONTROL  アカウントリストに追加 ] | ライブ静的アカウントリストの選択 |
+| [!UICONTROL  アカウントリストに追加 ] | ライブ静的アカウントリストを選択 |
 | [!UICONTROL ジャーニーからアカウントを削除 ] | ライブアカウントジャーニーを選択 |
 | [!UICONTROL  アカウントリストから削除 ] | ライブ静的アカウントリストの選択 |
 | [!UICONTROL  販売アラートの送信 ] | ソリューションの関心 <br/> メールの送信先を選択 |
@@ -183,7 +183,7 @@ SMS メッセージを送信するには、このアクションを使用しま�
 
 ### Marketo Engageアクション
 
-Marketo Engageのユーザーベースは、Marketo Engage B2B editionのアカウントベースのマーケティングオーケストレーションとJourney Optimizerのリードベースのマーケティング活動を調整するように設計されています。 これらのアクションを使用して、リストメンバーシップ、人物パーティションおよびリクエストキャンペーンを調整します。
+Marketo Engageのユーザーベースのアクションは、Marketo Engage B2B editionのアカウントベースのマーケティングオーケストレーションとJourney Optimizerのリードベースのマーケティング活動を調整するように設計されています。 これらのアクションを使用して、リストメンバーシップ、人物パーティションおよびリクエストキャンペーンを調整します。
 
 +++[!UICONTROL  リストに追加 ]
 
