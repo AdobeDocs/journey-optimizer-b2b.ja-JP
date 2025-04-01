@@ -2,10 +2,11 @@
 title: アカウントジャーニーの作成と公開
 description: アカウントジャーニーの作成および公開方法を説明します。
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 1%
+source-wordcount: '773'
+ht-degree: 2%
 
 ---
 
@@ -109,7 +110,7 @@ _ジャーニーマップ_ は、ジャーニーデザイナーの中心にあ�
 
 ## アカウントジャーニーの公開
 
-アカウントジャーニーにエラーがない場合は、公開できます。
+ブロッカーエラーがない場合は、ジャーニーを公開できます。 公開すると、ジャーニーのステータスが _ライブ_ に変わります。 ジャーニーにエラーがある場合、「_[!UICONTROL 公開]_」ボタンは暗く、コンテンツ情報が表示されます（`Resolve errors before publishing`）。
 
 1. ジャーニーマップの右上にある「**[!UICONTROL 公開]**」をクリックします。
 

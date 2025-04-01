@@ -2,9 +2,9 @@
 title: リリースノート
 description: Adobe Journey Optimizer B2B エディションの最新のリリースノート
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
+source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1650'
 ht-degree: 9%
 
 ---
@@ -27,9 +27,8 @@ Journey Optimizer B2B editionは [!DNL Adobe Experience Platform] でネイテ�
 | ---- | ---- | ----------- |
 | 新機能 | カスタマイズ可能なフィールド – コンテンツフラグメント | コンテンツフラグメントデザイナーは、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。 これにより、メールまたはテンプレートの作成者は、必要に応じてカスタムフィールド値を指定できます。 このカスタマイズフラグは、画像、テキスト、ボタンのビジュアルコンポーネントに限定されます。 <a href="../content/fragment-authoring.md#enable-custom-fields">詳細情報</a> |
 | 新機能 | B2B の組み込みの役割と製品の権限 | Experience Platformには、B2B 製品の機能へのアクセスを管理するために使用できる、組み込みの（デフォルトの）一連のロールが含まれるようになりました。 <a href="../admin/user-management.md#b2b-built-in-roles">詳細情報</a> <br/> 管理者は、Adobe Experience Platformでカスタムの役割を定義して、Journey Optimizer B2B edition製品の権限を含めることができるようになりました。  <a href="../admin/user-management.md#b2b-product-permissions">詳細情報</a> |
+| 新機能 | ジャーニーの複製タイプ | アカウントジャーニーを複製する際、Journey Optimizer B2B editionで作成されたメールと SMS メッセージを除く、ノードの詳細を含めることができます。 別の方法として、ノードの詳細や設定を行わずに、構造およびパス フローのスケルトン コピーを作成することもできます。 <a href="../journeys/journey-overview.md#duplicate-journey">詳細情報</a> |
 | 機能強化 | 4 つの追加のサンプルメールテンプレート | サンプルのメール・テンプレート・ライブラリには、再エンゲージメント、通知、育成、フィードバックの各コンテンツの例として、4 つの SecurFinacial テンプレートが含まれるようになりました |
-
-
 
 ## 2025.1 リリースノート {#Jan-2025}
 
