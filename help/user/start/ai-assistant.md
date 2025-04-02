@@ -1,19 +1,19 @@
 ---
 title: AI アシスタントを使用
-description: Journey Optimizer B2B Edition の機能を最大限に活用するために AI アシスタントがどのように役立つかを説明します。
+description: Journey Optimizer B2B editionの機能を最大限に活用するために AI アシスタントがどのように役立つかを説明します。
 feature: AI Assistant
 level: Beginner
-badgeBeta: label="大文字ベータ" type="informative" tooltip="Beta機能"
-source-git-commit: 3d20c8e8b9e5b8bc37274fc170edec80e142ad8e
+exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+source-git-commit: e3ae3508db551cbd495be3108d555b936e2982a3
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
 # AI アシスタントを使用
 
-Journey Optimizer B2B Edition の AI アシスタントは、アカウントベースのマーケティングの概念を理解し、Journey Optimizer B2B Edition の機能を素早く移動して学ぶために使用できるユーザーインターフェイス機能 <!-- get operational insights for your specific environment --> す。 また、Adobe Experience Cloud全体の複数の製品でも使用できます。
+Journey Optimizer B2B editionで AI アシスタントを使用すると、アカウントベースのマーケティング概念を理解し、Journey Optimizer B2B editionの機能を素早く移動して学習できます <!-- get operational insights for your specific environment -->。 また、Adobe Experience Cloud全体の複数の製品でも使用できます。
 
 AI アシスタントにアクセスするには、ヘッダーのアイコンをクリックします。 AI アシスタントが右側のパネルに開きます。
 
@@ -23,11 +23,11 @@ AI アシスタントにアクセスするには、ヘッダーのアイコン�
 >
 >AI アシスタントを使用するには、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインの契約が必要です。 この契約および使用ガイドラインについて詳しくは、[Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) を参照してください。
 
-Adobe Journey Optimizer B2B Edition では、AI アシスタントは次のユースケースをサポートします。
+Adobe Journey Optimizer B2B editionでは、AI アシスタントは次のユースケースをサポートします。
 
 * **商品に関する知識** （Beta）
 
-  製品ナレッジの質問は、Adobe Journey Optimizerの側面に関連するJourney Optimizer B2B Edition の概念に関するものです。 製品に関する知識に関する質問の例を次に示します。
+  製品ナレッジの質問は、Adobe Journey Optimizerの側面に関連するJourney Optimizer B2B editionの概念に関するものです。 製品に関する知識に関する質問の例を次に示します。
 
    * SMS プロバイダーアカウントの設定方法
    * アカウントジャーニーでメールを送信するにはどうすればよいですか？
@@ -56,4 +56,4 @@ Adobe Journey Optimizer B2B Edition では、AI アシスタントは次のユ�
 
 親指を上げるか親指を下げることで、答えの質を評価します。
 
-AI アシスタントの使用方法については、AI アシスタントを使用して達成できる目標の例や、AI アシスタントの仕組みを参照してください。[Adobe Experience Platformのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}。
+AI アシスタントの使用方法については、AI アシスタントを使用して達成できる目標の例や、AI アシスタントの仕組みを参照してください。[Adobe Experience Platformのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}。
