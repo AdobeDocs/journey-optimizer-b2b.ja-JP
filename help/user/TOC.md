@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B エディションの概要と、組み込みの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 38%
+source-wordcount: '240'
+ht-degree: 41%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 38%
       + [電子メールオーサリング用 AI アシスタント](./content/ai-assistant-emails.md)
       + [管理されたテンプレート](./content/email-authoring-governance.md)
       + [販売警告メール](./content/sales-alert-email.md)
+   + [カスタムパーソナライゼーショントークン](./content/personalization-my-tokens.md)
    + [SMS オーサリング](./content/sms-authoring.md)
 + アカウント {#accounts}
    + [オーディエンス](./audiences/account-audience-overview.md)
@@ -45,7 +46,7 @@ ht-degree: 38%
       + [役割テンプレート](./buying-groups/buying-groups-role-templates.md)
       + [購買グループステージ](./buying-groups/buying-group-stages.md)
       + [購買グループの詳細](./buying-groups/buying-group-details.md)
-      + [購入グループの作成](./buying-groups/buying-groups-create.md)
+      + [購買グループを作成](./buying-groups/buying-groups-create.md)
       + [アカウントリストを書き出し](./audiences/account-list-export.md)
       + [LinkedIn アカウントでマッチしたオーディエンス](./data/linkedin-account-matched-audiences.md)
       + [Market Engage の購買グループフィルター](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
@@ -64,11 +65,15 @@ ht-degree: 38%
       + メールテンプレート {#email-templates}
          + [概要](./content/email-templates.md)
          + [メールテンプレートオーサリング](./content/email-template-authoring.md)
-      + [ランディングページテンプレート](./content/landing-page-templates.md)
+      + ランディングページテンプレート {#landing-page-templates}
+         + [概要](./content/landing-page-templates.md)
+         + [ランディングページのテンプレートデザイン](./content/landing-page-template-design.md)
    + フラグメント {#visual-fragments}
       + [概要](./content/fragments.md)
       + [フラグメントのオーサリング](./content/fragment-authoring.md)
-   + [フォーム](./content/forms.md)
+   + フォーム {#forms}
+      + [概要](./content/forms.md)
+      + [フォームデザイン](./content/form-design.md)
    + ランディングページ {#landing-pages}
       + [概要](./content/landing-pages.md)
       + [ランディングページのデザイン](./content/landing-page-design.md)

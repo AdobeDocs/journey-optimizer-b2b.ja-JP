@@ -2,31 +2,30 @@
 title: ランディングページ
 description: ランディングページと、アカウントジャーニーおよびキャンペーンをサポートするためのランディングページの作成および管理方法について説明します。
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '2188'
 ht-degree: 3%
 
 ---
 
 # ランディングページ
 
-ランディングページは、メール、SMS メッセージ、またはその他のデジタル化された場所でリンクされた項目をクリックした後、連絡先や顧客に直接アクセスできるスタンドアロン web ページです。 これらのページをアカウントジャーニーに組み込むと、見込み客や顧客が web 上でメッセージを表示し、アカウントジャーニーの進行状況を確認できます。 ランディングページDesignerでは、ランディングページの作成、パーソナライズおよびプレビューを行うことができます。
+ランディングページは、メール、SMS メッセージ、またはその他のデジタル化された場所でリンクされた項目をクリックした後、連絡先や顧客に直接アクセスできるスタンドアロン web ページです。 これらのページをアカウントジャーニーに組み込むと、見込み客や顧客が web 上でメッセージを表示し、アカウントジャーニーの進行状況を確認できます。 ランディングページのビジュアルデザインスペースで、ランディングページの作成、パーソナライズおよびプレビューを行うことができます。
 
 顧客が特定のリンクをクリックしたときに定義済みの web ページに誘導するには、Journey Optimizer B2B editionでランディングページを作成します。
 
 * ページを作成
 * ランディングページのデザインとコンテンツの作成
 * ページのテスト
-* ページのPublish
+* ページを公開します
 * ジャーニーコンテンツからページへのリンク
 
 例えば、ランディングページを作成およびデザインして、ユーザーにオンライン情報を提供することができます。 このページには、お客様からのお知らせの受信をオプトインまたはオプトアウトできるフォームを含めることができます。 または、ニュースレターなどの定期的なコミュニケーションを購読する機会ともなります。
 
-ビジュアルデザイナーで、ランディングページの作成、パーソナライズおよびプレビューを行えます。
+ビジュアルデザインスペースで、ランディングページの作成、パーソナライズおよびプレビューを行うことができます。
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -58,9 +57,9 @@ Adobe Journey Optimizer B2B editionのランディングページにアクセス
 
 | ステータス | 説明 |
 | -------------------- | ----------- |
-| 下書き | ランディングページを作成した場合、そのページはドラフトステータスになります。 ビジュアルコンテンツを定義または編集するとき、およびホストされたページとして公開するまで、このステータスのままになります。 使用可能なアクション：<br/><ul><li>名前または説明を編集<li>リンク URL を編集<li>ビジュアルデザイナーで編集<li>公開<li>複製<li>削除 |
+| 下書き | ランディングページを作成した場合、そのページはドラフトステータスになります。 ビジュアルコンテンツを定義または編集するとき、およびホストされたページとして公開するまで、このステータスのままになります。 使用可能なアクション：<br/><ul><li>名前または説明を編集<li>リンク URL を編集<li>ビジュアルデザインスペースで編集<li>公開<li>複製<li>削除 |
 | 公開日 | ランディングページを公開すると、そのページはJourney Optimizer B2B edition インスタンスでホストされ、メールまたは SMS メッセージコンテンツでリンクできるようになります。 使用可能なアクション：<br/><ul><li>名前または説明を編集<li>リンク URL を編集<li>メールまたは SMS メッセージコンテンツへのリンクの追加<li>ドラフトバージョンを作成<li>複製<li>削除 |
-| 公開済み下書きあり | 公開済みランディングページからドラフトを作成した場合、公開されたバージョンは残り、ドラフトコンテンツはビジュアルデザイナーで変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、ホストされているページのコンテンツが更新されます。 使用可能なアクション：<br/><ul><li>名前または説明を編集<li>リンク URL を編集<li>メールまたは SMS メッセージコンテンツへのリンクの追加<li>ビジュアルデザイナーでのドラフトバージョンの編集<li>Publishのドラフトバージョン<li>複製<li>削除（両方のバージョンを削除）<li>ドラフトを破棄（公開済みに戻る） |
+| 公開済み下書きあり | 公開済みランディングページからドラフトを作成した場合、公開されたバージョンは残り、ドラフトコンテンツはビジュアルデザイン領域で変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、ホストされているページのコンテンツが更新されます。 使用可能なアクション：<br/><ul><li>名前または説明を編集<li>リンク URL を編集<li>メールまたは SMS メッセージコンテンツへのリンクの追加<li>ビジュアルデザイン領域でのドラフトバージョンの編集<li>ドラフトバージョンを公開<li>複製<li>削除（両方のバージョンを削除）<li>ドラフトを破棄（公開済みステータスに戻る） |
 
 ![ ランディングページのステータスライフサイクル ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -90,7 +89,7 @@ Adobe Journey Optimizer B2B editionのランディングページにアクセス
 
    ![ ランディングページのデザインを開始する方法を選択する ](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-   ランディングページのデザインを開始する方法を選択したら、ビジュアルデザイナーを使用して [ ページのデザイン ](./landing-page-design.md) を行います。
+   ランディングページデザインの開始に使用する方法を選択したら、ビジュアルデザインスペースを使用して [ ページのデザイン ](./landing-page-design.md) を行います。
 
 ### ゼロからデザイン
 
@@ -102,7 +101,7 @@ Adobe Journey Optimizer B2B editionのランディングページにアクセス
 
 ### HTML の読み込み
 
-Adobe Journey Optimizer B2B editionでは、既存のHTMLコンテンツを読み込んでランディングページをデザインできます。
+Adobe Journey Optimizer B2B editionでは、既存のHTML コンテンツを読み込んでランディングページをデザインできます。
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -112,7 +111,7 @@ Adobe Journey Optimizer B2B editionでは、既存のHTMLコンテンツを読�
 >
 >`<table>` タグを HTML ファイルの最初のレイヤーとして使用すると、上部レイヤータグの背景や幅の設定などのスタイルが失われる可能性があります。
 
-読み込んだコンテンツは、必要に応じてビジュアルデザイナーでパーソナライズできます。
+読み込んだコンテンツは、必要に応じてビジュアルデザインスペースでパーソナライズできます。
 
 ### 保存済みテンプレートを選択
 
@@ -142,7 +141,7 @@ _プライマリランディングページを作成_ ホームページでは�
 
 表示が使用する内容と一致したら、プレビューウィンドウの右上にある **[!UICONTROL このテンプレートを使用]** をクリックします。
 
-このアクションにより、コンテンツがビジュアルコンテンツデザイナーにコピーされ、必要に応じてコンテンツを編集できます。
+このアクションにより、コンテンツがビジュアルデザインスペースにコピーされ、必要に応じてコンテンツを編集できます。
 
 >[!TAB  サンプルテンプレート ]
 
@@ -177,11 +176,11 @@ Adobe Journey Optimizer B2B editionには、独自のランディングページ
 
    ![ ドラフトステータスのランディングページの詳細 ](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. ビジュアルデザイナーでコンテンツを変更するには、「**[!UICONTROL ランディングページを編集]**」をクリックします。
+1. ビジュアルデザインスペースのコンテンツを変更するには、「**[!UICONTROL ランディングページを編集]**」をクリックします。
 
-   必要に応じて、ビジュアルデザイナーのツールを使用します。
+   必要に応じて、ビジュアルデザインツールを使用します。
 
-   * [構造とコンテンツを追加](./landing-page-design.md#add-structure-and-content)
+   * [構造とコンテンツの追加](./landing-page-design.md#add-structure-and-content)
    * [Assetsを追加](./landing-page-design.md#add-assets)
    * [レイヤー、設定、スタイルの移動](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [コンテンツのパーソナライズ](./landing-page-design.md#personalize-content)
@@ -189,7 +188,7 @@ Adobe Journey Optimizer B2B editionには、独自のランディングページ
 
 1. **[!UICONTROL 保存]** または **[!UICONTROL 保存して閉じる]** をクリックして、ランディングページの詳細に戻ります。
 
-1. ページが条件を満たしていて、表示できるようにする場合は、[**[!UICONTROL Publish]**] をクリックします。
+1. ページが条件を満たしていて、表示できるようにする場合は、「**[!UICONTROL 公開]**」をクリックします。
 
 >[!TAB パブリッシュ済み]
 
@@ -203,13 +202,13 @@ Adobe Journey Optimizer B2B editionには、独自のランディングページ
 
 1. コンテンツを更新する場合は、右側の **[!UICONTROL ランディングページを編集]** をクリックします。
 
-   ダイアログで **[!UICONTROL ドラフトバージョンを作成]** をクリックして、ビジュアルデザイナーでドラフトバージョンを開きます。
+   ダイアログで **[!UICONTROL ドラフトバージョンを作成]** をクリックして、ビジュアルデザイン領域でドラフトバージョンを開きます。
 
    ![ ドラフトバージョンを作成ダイアログ ](./assets/landing-page-create-draft-version.png){width="300"}
 
-   必要に応じて、ビジュアルデザイナーのツールを使用します。
+   必要に応じて、ビジュアルデザインツールを使用します。
 
-   * [構造とコンテンツを追加](./landing-page-design.md#add-structure-and-content)
+   * [構造とコンテンツの追加](./landing-page-design.md#add-structure-and-content)
    * [Assetsを追加](./landing-page-design.md#add-assets)
    * [レイヤー、設定、スタイルの移動](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [コンテンツのパーソナライズ](./landing-page-design.md#personalize-content)
@@ -217,7 +216,7 @@ Adobe Journey Optimizer B2B editionには、独自のランディングページ
 
 1. **[!UICONTROL 保存]** または **[!UICONTROL 保存して閉じる]** をクリックして、ランディングページの詳細に戻ります。
 
-1. ドラフトランディングページが条件を満たしていて、公開済みページで変更を利用できるようにするには、「**[!UICONTROL Publish]**」をクリックします。
+1. ドラフトランディングページが条件を満たしており、公開済みページで変更を使用できるようにするには、「**[!UICONTROL 公開]**」をクリックします。
 
    ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、ページ URL のコンテンツが更新されます。
 
@@ -229,9 +228,9 @@ Adobe Journey Optimizer B2B editionには、独自のランディングページ
 
 コンテンツを更新するには：
 
-1. 右上の **[!UICONTROL ランディングページを編集]** をクリックします。 必要に応じて、ビジュアルデザイナーのツールを使用します。
+1. 右上の **[!UICONTROL ランディングページを編集]** をクリックします。 必要に応じて、ビジュアルデザインツールを使用します。
 
-   * [構造とコンテンツを追加](./landing-page-design.md#add-structure-and-content)
+   * [構造とコンテンツの追加](./landing-page-design.md#add-structure-and-content)
    * [Assetsを追加](./landing-page-design.md#add-assets)
    * [レイヤー、設定、スタイルの移動](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [コンテンツのパーソナライズ](./landing-page-design.md#personalize-content)
@@ -239,7 +238,7 @@ Adobe Journey Optimizer B2B editionには、独自のランディングページ
 
 1. **[!UICONTROL 保存]** または **[!UICONTROL 保存して閉じる]** をクリックして、ランディングページの詳細に戻ります。
 
-1. ドラフトページが条件を満たしていて、変更を使用可能にする場合は、**[!UICONTROL Publish]** をクリックします。
+1. ドラフトページが基準を満たしていて、変更を使用可能にする場合は、「**[!UICONTROL 公開]**」をクリックします。
 
    ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、ホストされているページのコンテンツが更新されます。
 
@@ -259,7 +258,7 @@ Adobe Journey Optimizer B2B editionには、独自のランディングページ
 
    * `Placeholder links are present in the landing page body`: プレースホルダーを有効なリンクに置き換えることを忘れないでください。
 
-   * `Text version of HTML is empty`：ページ本文のテキストバージョンを必ず定義してください。このバージョンは、HTMLコンテンツを表示できない場合に使用されます。
+   * `Text version of HTML is empty`：ページ本文のテキストバージョンを必ず定義してください。このバージョンは、HTML コンテンツを表示できない場合に使用されます。
 
    * `Empty link is present in page body`: ページ内のすべてのリンクが正しいことを確認してください。
 
@@ -292,3 +291,33 @@ Adobe Journey Optimizer B2B editionには、独自のランディングページ
 この操作を実行すると、確認ダイアログが開きます。 **[!UICONTROL キャンセル]** をクリックするか、「**[!UICONTROL 削除]**」をクリックして削除を確定すると、プロセスを中止できます。
 
 ![ ランディングページを削除ダイアログ ](./assets/landing-page-delete-dialog.png){width="400"}
+
+## ランディングページへのリンク
+
+メール、フラグメントおよびページコンテンツを作成するマーケターまたはDesignerは、Journey Optimizer B2B edition インスタンスで作成された公開済み（ライブ）ランディングページへのリンクを埋め込むことができます。
+
+1. フラグメント、メール、ランディングページまたはテンプレートのビジュアルデザイン領域で作業する際に、リンクの抜粋、ボタンコンポーネントまたは画像コンポーネントを選択します。
+
+   **[!UICONTROL リンク]** オプションが右側のパネルに表示されます。
+
+1. 「**[!UICONTROL タイプ]**」オプションで「**[!UICONTROL ランディングページ]**」を選択します。
+
+   ![ ランディングページのリンクオプション ](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. **[!UICONTROL ランディングページ]** オプションについては、_ページを選択_ アイコン（![ リンクを表示アイコン ](/help/assets/do-not-localize/icon-landing-page-select.svg)）をクリックします。
+
+1. ランディングページを選択ダイアログで、**[!UICONTROL ランディングページのソース]** を **[!UICONTROL Journey Optimizer B2B edition]** に設定し、公開済みのページのリストからランディングページのチェックボックスを選択して、**[!UICONTROL 選択]** をクリックします。
+
+   ![ ランディングページのリンクオプション ](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. 「**[!UICONTROL ターゲット]**」オプションで、リンクターゲットの動作を選択します。
+
+   * **[!UICONTROL なし]** - ブラウザーのデフォルトの動作を使用してリンクを開きます。
+   * **[!UICONTROL 空白]** - リンクを新しいウィンドウまたは新しいタブで開きます。
+   * **[!UICONTROL セルフ]** – 同じフレームでリンクを開きます。
+   * **[!UICONTROL 親]** – 親フレームでリンクを開きます。
+   * **[!UICONTROL 上]** - ウィンドウの全体でリンクを開きます。
+
+1. （テキストリンクのみ）リンクされたテキストに下線を引く場合は、「**[!UICONTROL 下線リンク]**」チェックボックスを選択します。
+
+   右側のパネルの「**[!UICONTROL スタイル]**」タブを選択すると、リンクの色など、リンクテキストの追加のスタイル設定を行うことができます。

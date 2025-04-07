@@ -2,20 +2,18 @@
 title: ランディングページのデザイン
 description: アカウントジャーニーとキャンペーンをサポートするランディングページのコンテンツを設計および作成する方法について説明します。
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
+source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '346'
 ht-degree: 18%
 
 ---
 
 # ランディングページのデザイン
 
-[ ランディングページを作成 ](./landing-pages.md#create-a-landing-page) した後、ビジュアルデザイナーを使用して、ページの構造コンポーネントとコンテンツコンポーネントを作成します。
+[ ランディングページを作成 ](./landing-pages.md#create-a-landing-page) した後、ビジュアルデザインスペースを使用して、ページの構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#structure-content-landing-page}
 
@@ -34,6 +32,10 @@ ht-degree: 18%
 ### アセットの追加
 
 {{$include /help/_includes/content-design-assets.md}}
+
+### フォームを追加
+
+{{$include /help/_includes/content-design-add-forms.md}}
 
 ### レイヤー、設定、スタイルの移動
 
@@ -55,7 +57,7 @@ ht-degree: 18%
 
 ### オプションを表示
 
-ビジュアルデザイナーで使用できる表示およびコンテンツの検証オプションを活用します。
+ビジュアルデザインスペースで使用できる表示およびコンテンツの検証オプションを活用します。
 
 * プリセットのズームオプション全体でコンテンツをズームイン/ズームアウトします。
 
@@ -65,11 +67,11 @@ ht-degree: 18%
 
 ### 詳細オプション
 
-ビジュアルデザイナーの上部にある _[!UICONTROL その他…]_ メニューから、次の操作を実行できます。
+ビジュアルデザインスペースの上部にある _[!UICONTROL その他…]_ メニューから、次の操作を実行できます。
 
 ![ 「詳細」をクリックしてテンプレートアクションにアクセス ](./assets/landing-page-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL ランディングページをリセット]** – このオプションをクリックして、ビジュアルデザイナーのキャンバスを空白のスレートに戻し、ページコンテンツの作成を再開します。
+* **[!UICONTROL ランディングページをリセット]** – このオプションをクリックして、ビジュアルデザインキャンバスを空白のスレートにクリアし、ページコンテンツの作成を再開します。
 * **[!UICONTROL デザインを変更]** - _[!UICONTROL プライマリランディングページを作成]_ ホームページに戻ります。 ここから、別のテンプレートを選択してデザインプロセスを再開するか、空白のキャンバスでページをゼロからデザインするかを選択できます。
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式のローカルシステムにダウンロードします。

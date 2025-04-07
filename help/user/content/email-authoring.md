@@ -3,10 +3,10 @@ title: メールオーサリング
 description: アカウントのジャーニーで使用される、パーソナライズされたメールコンテンツを作成する方法を説明します。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 16%
+source-wordcount: '1297'
+ht-degree: 15%
 
 ---
 
@@ -144,6 +144,10 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 ### コンテンツのパーソナライズ
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>アカウントジャーニーに _[!UICONTROL マイトークン]_ が定義されている場合、メールコンテンツにこれらのジャーニー固有のトークンを使用することもできます。 詳しくは、[ メールのパーソナライゼーション用のカスタムトークン ](./personalization-my-tokens.md) を参照してください。
 
 ### リンクされた URL トラッキングを編集
 

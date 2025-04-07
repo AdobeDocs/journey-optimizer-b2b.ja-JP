@@ -3,9 +3,9 @@ title: SMS オーサリング
 description: 顧客のモバイルデバイスにテキストメッセージ（SMS）を送信する方法、および SMS エディターでテキスト形式のメッセージをパーソナライズおよびプレビューする方法について説明します。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1368'
 ht-degree: 4%
 
 ---
@@ -78,20 +78,20 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 
 1. ダイアログで、リンクする URL のタイプを選択します。
 
-   * **[!UICONTROL ランディングページ]** – 承認されたAdobe Marketo Engage Design Studio ランディングページをMarketo Engageインスタンスから選択する場合は、このオプションを選択します。 ワークスペースを選択し、ランディングページを選択します。
+   * **[!UICONTROL ランディングページ]** - Marketo Engage インスタンスから承認済みのAdobe Marketo Engage ランディングページを選択する場合は、このオプションを選択します。 ワークスペースを選択し、ランディングページを選択します。
 
    * **[!UICONTROL 外部 URL]** – このタイプは、テキストボックスに入力する外部 URL です。
 
 1. ランディングページを使用する場合は、トラッキングオプションを設定します。
 
-   * **[!UICONTROL トラッキングを有効にする]** – このチェックボックスを選択すると、URL のトラッキングを有効にします（URL の _短縮_ が必要です）。 ランディングページの場合は、短縮 URL にMarketo Engageサブドメインを使用します。 短縮 URL 形式のサンプルが表示されます。 実際の URL は、SMS が受信者に送信されたときに作成されます。
+   * **[!UICONTROL トラッキングを有効にする]** – このチェックボックスを選択すると、URL のトラッキングを有効にします（URL の _短縮_ が必要です）。 ランディングページの場合は、短縮 URL にMarketo Engage サブドメインを使用します。 短縮 URL 形式のサンプルが表示されます。 実際の URL は、SMS が受信者に送信されたときに作成されます。
 
    * **[!UICONTROL mkt_tok を含める]** - ユーザーに対するアクティビティを追跡するには、このチェックボックスを選択します。
 
      >[!NOTE]
      >
-     >トラッキングを許可するが無効にする _[!UICONTROL mkt_tok を含める]_ 場合、宛先 URL には、リダイレクト後の `mkt_tok` クエリ文字列パラメーターは含まれません。 このパラメーターは、Marketo EngageランディングページおよびMunchkinで使用され、人物アクティビティ（メールの登録解除など）を確実にトラッキングします。 Web サイトでパラメーターが問題を引き起こしている場合以外は、このオプションを無効にしないでください。<br/>
-     >Web サイトでのMunchkin トラッキングコードの使用について詳しくは、[Marketo Engageドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"} を参照してください。
+     >トラッキングを許可するが無効にする _[!UICONTROL mkt_tok を含める]_ 場合、宛先 URL には、リダイレクト後の `mkt_tok` クエリ文字列パラメーターは含まれません。 このパラメーターは、Marketo Engage ランディングページおよびMunchkinで使用され、人物アクティビティ（メールの登録解除など）を確実にトラッキングします。 Web サイトでパラメーターが問題を引き起こしている場合以外は、このオプションを無効にしないでください。<br/>
+     >Web サイトでのMunchkin トラッキングコードの使用について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"} を参照してください。
 
    ![SMS メッセージのリンクを追加ダイアログ ](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 
 1. 「_[!UICONTROL SMS プロパティ]_」セクションで、メッセージの **[!UICONTROL 名前]** （必須、最大 100 文字）と **[!UICONTROL 説明]** （オプション、最大 300 文字）を入力します。
 
-   Alpha、数字、特殊文字を使用できます。 次の予約文字は使用できません **許可されていません**:`\`、`/`、`:`、`*`、`?`、`"`、`<`、`>` および `|`。
+   これらのフィールドには、Alpha、数値、特殊文字を使用できます。 次の予約文字は使用できません **許可されていません**:`\`、`/`、`:`、`*`、`?`、`"`、`<`、`>` および `|`。
 
 1. **[!UICONTROL SMS タイプ]** を選択します。
 
@@ -137,7 +137,7 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 
 1. _コンテンツをシミュレート_ ページを使用して、テストプロファイルに使用するリードを管理します。
 
-   表示されたリストで、任意のリード（一度に 10 件までのリード）を検索し、Marketo Engageリードデータベースから追加できます。
+   このリストでは、任意のリード（一度に 10 件までのリード）をMarketo Engage リードデータベースから検索して追加できます。
 
    検索するには、メールアドレス全体を入力して _Enter_ を押します。 対応するリードプロファイルが選択用に表示されます。
 
@@ -165,4 +165,4 @@ Journey Optimizer B2B editionでは、次のロジックを使用して SMS メ�
 
 * デフォルトでは、リードがユーザーからの通信の受信をオプトアウトした場合、対応するプロファイルは後続の SMS 配信から除外されます
 
-* このリードの同意は、様々なソース（AEP や SMS サービスプロバイダーなど）から得られ、Journey Optimizer B2B editionに同期されます。 現在、インスタンスレベルのリードごとに 1 つの同意状態のみをサポートしています（リード「John Doe」は、インスタンス内のすべてのプロモーション SMS を購読または購読解除しています）。 現在、ブランドレベル/個々の購読リストレベルの同意でのダブルオプトインはサポートされていません。
+* このリードの同意は、様々なソース（AEPや SMS サービスプロバイダーなど）から得られ、Journey Optimizer B2B editionに同期されます。 現在、インスタンスレベルのリードごとに 1 つの同意状態のみをサポートしています（リード「John Doe」は、インスタンス内のすべてのプロモーション SMS を購読または購読解除しています）。 現在、ブランドレベル/個々の購読リストレベルの同意でのダブルオプトインはサポートされていません。

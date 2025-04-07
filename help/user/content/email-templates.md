@@ -3,9 +3,9 @@ title: メールテンプレート
 description: アカウントジャーニーメールの作成に使用するメールテンプレートを簡単かつ効率的に管理および作成する方法を説明します。
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1319'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Adobe Journey Optimizer B2B editionでメールテンプレートにアクセス
 
 ![ メールテンプレートライブラリにアクセスし、名前と日付でフィルタリングする ](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-右上の _テーブルをカスタマイズ_ アイコンをクリックして、テーブルに表示する列をカスタマイズします。 表示する列を選択し、「**[!UICONTROL 適用]**」をクリックします。
+右上の _テーブルをカスタマイズ_ アイコン（![ テーブルアイコンをカスタマイズ ](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。 表示する列を選択し、「**[!UICONTROL 適用]**」をクリックします。
 
 表示されたテンプレートのリストから、次の節で説明するアクションを実行できます。
 
@@ -38,7 +38,7 @@ Adobe Journey Optimizer B2B editionでメールテンプレートにアクセス
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-_[!UICONTROL テンプレートをデザイン]_ ページが開き、テンプレートを作成するための複数のオプション（_[!UICONTROL ゼロからデザイン]_、_[!UICONTROL テンプレートを読み込み]_、_[!UICONTROL デザインHTMLを選択]_ が表示されます。
+_[!UICONTROL テンプレートをデザイン]_ ページが開き、テンプレートを作成するための複数のオプション（_[!UICONTROL ゼロからデザイン]_、_[!UICONTROL HTMLを読み込み]_、_[!UICONTROL デザインテンプレートを選択]_ が表示されます。
 
 ![ メールテンプレートデザインの開始方法を選択する ](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
@@ -58,7 +58,7 @@ _[!UICONTROL テンプレートをデザイン]_ ページが開き、テンプ�
 
 ### HTML の読み込み
 
-Adobe Journey Optimizer B2B editionでは、既存のHTMLコンテンツを読み込んでメールテンプレートをデザインできます。
+Adobe Journey Optimizer B2B editionでは、既存のHTML コンテンツを読み込んでメールテンプレートをデザインできます。
 
 {{$include /help/_includes/content-design-import.md}}
 

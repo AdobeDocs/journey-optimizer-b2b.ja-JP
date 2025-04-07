@@ -3,9 +3,9 @@ title: 購買グループのステージ
 description: 購入グループステージと、売上目標に対するジャーニーの進行状況を追跡するためにそれらのステージを定義する方法について説明します。
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2344'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 購入グループステージモデルが _ドラフト_ 状態のままである限り、ステージとトランジションルールを編集できます。
 
-ドラフトモデルを表示するには：
+_ドラフトモデルを表示するには：:_
 
 1. 左側のナビゲーションで **[!UICONTROL アカウント]**/**[!UICONTROL 購入グループ]** に移動します。
 
@@ -186,6 +186,20 @@ Columns - Name, Status, Created by, Created date, Last updated by, Last update, 
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+
+## 購買グループ ステージ モデルを削除します
+
+購入グループステージモデルは、ドラフト状態または公開済み状態の場合に削除できます。 公開（ライブ）されている場合は、ソリューションの関心に関連付けられていない場合にのみ削除できます。
+
+1. 左側のナビゲーションで **[!UICONTROL アカウント]**/**[!UICONTROL 購入グループ]** に移動します。
+
+1. _購入グループ_ ページで、「**[!UICONTROL ステージ]**」タブを選択します。
+
+1. ステージモデル名の横にある _その他_ メニューアイコン（**...**）をクリックし、**[!UICONTROL 削除]** を選択します。
+
+   ![ 購入グループステージモデルの詳細メニュー ](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. ダイアログで、「**[!UICONTROL 削除]**」をクリックして確定します。
 
 ## アカウントジャーニーでのモデルの使用
 

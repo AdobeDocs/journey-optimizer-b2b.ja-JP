@@ -2,9 +2,9 @@
 title: リリースノート
 description: Adobe Journey Optimizer B2B エディションの最新のリリースノート
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
+source-git-commit: dd93531d76ecb025451f0015eedd9ccce0986cb8
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1816'
 ht-degree: 9%
 
 ---
@@ -16,6 +16,19 @@ Adobe Journey Optimizer B2B editionは、新機能、既存機能の強化、お
 Journey Optimizer B2B editionは [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/latest){target="_blank"}を参照してください。
 
 使用権限、パフォーマンスガードレール、制限について詳しくは、[ 製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} を参照してください。
+
+## 2025.3 リリースノート
+
+****&#x200B;リリース日：2025年4月1日（PT）
+
+このリリースには、次の新機能および機能強化が含まれています。
+
+| タイプ | 項目 | 説明 |
+| ---- | ---- | ----------- |
+| 新機能 | アカウントリスト | 静的または動的アカウントリストを作成して、業界、場所、会社の規模など、定義した条件に基づいて指定顧客をターゲットにできるようになりました。 <a href="../accounts/account-lists.md">詳細情報</a> |
+| 新機能 | アカウントジャーニーのマイトークン | アカウントジャーニーに固有の値を持つカスタムトークンのセットを定義できるようになりました。 このカスタムトークンのセットは _マイトークン_ と呼ばれ、これらのカスタムトークンはすべて、ジャーニーメールのオーサリング時にパーソナライゼーション用に使用されます。 |
+| 新機能 | 購買グループ ステージの削除 | 購入グループステージモデルは、ドラフト状態または公開済み状態の場合に削除できます。 公開（ライブ）されている場合は、ソリューションの関心に関連付けられていない場合にのみ削除できます。 <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">詳細情報</a> |
+| 機能強化 | ジャーニーノードの数 | ノードレベルでのジャーニーメンバーシップのカウントの可視性が向上しました。 この情報を使用して、ジャーニーでのアカウントの進行状況を検証します。 |
 
 ## 2025.2 リリースノート
 
