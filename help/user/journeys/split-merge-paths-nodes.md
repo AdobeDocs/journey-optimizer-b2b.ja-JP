@@ -3,9 +3,9 @@ title: パスの分割と結合
 description: Journey Optimizer B2B editionでアカウントジャーニーを調整するために使用できる分割パスおよび結合パス ノードタイプについて説明します。
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 0902e5569847be148bb5037c99cadf0b00c67b8c
+source-git-commit: 60abaff4e40fcab7fff0bcfd761ff90ec74c68a0
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1695'
 ht-degree: 6%
 
 ---
@@ -57,22 +57,13 @@ _人物ノード別の分割パスはどのように機能しますか？_
 | | [!UICONTROL  特別なフィルター ] > [!UICONTROL  商談あり ] | アカウントがオポチュニティに関連している、または関連していない。 次のオポチュニティ属性の 1 つ以上に対して評価することもできます。 <li>金額<li>クローズ日<li>説明<li>予測収益<li>会計四半期<li>会計年度<li>予測カテゴリ<li>予測カテゴリ名<li>クローズ済み<li>獲得済み</li><li>最後のアクティビティの日付</li><li>顧客ソース<li>名前</li><li>次の手順</li><li>Probability<li>数量<li>ステージ</li><li>タイプ |
 | [People](#add-a-split-path-by-people-node) > [!UICONTROL People 属性のみ ] | [!UICONTROL  人物の属性 ] | ユーザープロファイルからの属性。以下が含まれます。 <li>市区町村</li><li>国</li><li>生年月日</li><li>メールアドレス</li><li>メール無効</li><li>メール中断済み</li><li>名</li><li>推測される都道府県 / 地域</li><li>役職</li><li>姓</li><li>携帯電話番号</li><li>電話番号</li><li>郵便番号</li><li>ステート</li><li>登録解除</li><li>登録解除の理由</li> |
 | | [!UICONTROL  アクティビティ履歴 ] > [!UICONTROL  メール ] | ジャーニーに関連付けられたメールアクティビティ： <li>[!UICONTROL  メール内のクリックされたリンク ]</li><li>メール開封済み</li><li>メール配信済み</li><li>メールを送信済み</li> これらの条件は、ジャーニーの前半で選択したメールメッセージを使用して評価されます。 |
+| | [!UICONTROL  アクティビティ履歴 ] > [!UICONTROL SMS メッセージ ] | ジャーニーに関連付けられた SMS アクティビティ： <li>[!UICONTROL SMS 内のクリックされたリンク ]</li><li>[!UICONTROL SMS バウンス ]</li>これらの条件は、ジャーニーの前半で選択した SMS メッセージを使用して評価されます。 |
 | | [!UICONTROL  アクティビティ履歴 ] > [!UICONTROL  データ値が変更されました ] | 選択したユーザー属性に対して、値が変更されました。 次のような変更タイプがあります。 <li>新しい値</li><li>前回の値</li><li>理由</li><li>ソース</li><li>アクティビティの日付</li><li>分回数</li> |
 | | [!UICONTROL  アクティビティの履歴 ] > [!UICONTROL Had Interesting Moment] | 関連するMarketo Engage インスタンスで定義される興味深いモーメントアクティビティ。 制約には次のものが含まれます。 <li>マイルストーン</li><li>メール</li><li>Web</li> |
 | | [!UICONTROL  特殊フィルター ] > [!UICONTROL  購買グループのメンバー ] | 次の 1 つ以上の条件に照らして評価された、その人物は購買グループ・メンバーであるか、そうでないメンバーである： <li>ソリューションの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>ロール</li> |
 | | [!UICONTROL  特殊フィルター ] > [!UICONTROL  リストのメンバー ] | ユーザーが 1 つ以上のMarketo Engage リストのメンバーである、またはメンバーではない。 |
 | | [!UICONTROL  特殊フィルター ] > [!UICONTROL  プログラムのメンバー ] | ユーザーが 1 つ以上のMarketo Engage プログラムのメンバーである、またはメンバーではない。 |
 | [People](#add-a-split-path-by-people-node) > [!UICONTROL  アカウント人物属性のみ ] | アカウント属性における役割 | その人物は、アカウントで役割が割り当てられているか、割り当てられていません。 オプション制約： <li>役割名を入力</li> |
-
-<!-- 
-
-Add back for next release:
-
-People:
-
-| | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities associated with the journey: <li>[!UICONTROL Clicked link in SMS]</li><li>[!UICONTROL SMS Bounced]</li>These conditions are evaluated using a selected SMS message from earlier in the journey.  |
-
--->
 
 ### アカウントノードによる分割パスの追加
 
