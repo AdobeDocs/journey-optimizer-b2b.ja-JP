@@ -2,10 +2,11 @@
 title: フォーム
 description: ランディングページに含めることができる、再利用可能なフォームを作成する方法を説明します。
 feature: Content
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2350'
 ht-degree: 1%
 
 ---

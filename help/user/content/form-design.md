@@ -2,9 +2,11 @@
 title: フォームデザイン
 description: ビジネスリード情報の収集に使用する再利用可能なフォームを設計する方法について説明します。
 feature: Content
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
+exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
+source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '2054'
 ht-degree: 1%
 
 ---
