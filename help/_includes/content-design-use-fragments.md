@@ -1,9 +1,9 @@
 ---
 title: コンテンツオーサリング – フラグメントの使用
 description: コンテンツオーサリングでのフラグメントの使用に関する再利用された節
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
    * サムネール表示とリスト表示を切り替えます。
    * 最近作成したフラグメントが反映されるように、リストを更新します。
 
-   ![ リストからフラグメントを選択 ](../user/content/assets/visual-designer-fragments.png){width="700" zoomable="yes"}
+   ![ リストからフラグメントを選択 ](../user/content/assets/visual-designer-fragments.png)
 
 1. 任意のフラグメントを構造コンポーネントにドラッグ&amp;ドロップします。
 
@@ -37,15 +37,15 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**編集可能フィールド**
+**カスタマイズ可能なフラグメント内の編集可能フィールド**
 
-ビジュアルフラグメントには、カスタマイズ可能な編集可能フィールドを含めることができます。 カスタムフィールドを使用すると、フラグメントをコンテンツに組み込む際にパラメーターを変更し、元のフラグメントに影響を与えることなくカスタマイズされたエクスペリエンスを作成できます。 含まれるフラグメントに編集可能なフィールドを持つコンポーネントが含まれている場合は、デフォルト値を変更できます。
+ビジュアルフラグメントには、カスタマイズ可能な編集可能フィールドを含めることができます。 カスタムフィールドを使用すると、フラグメントをコンテンツに組み込む際にパラメーターを変更し、元のフラグメントに影響を与えることなくカスタマイズされたエクスペリエンスを作成できます。 フラグメント作成者は、テキスト、画像およびボタンコンポーネントの [ カスタマイズ用のフラグメントをデザイン ](../user/content/fragment-authoring.md#enable-fragment-customization) できます。 含まれるフラグメントに編集可能なフィールドを持つコンポーネントが含まれている場合は、デフォルト値を変更して、コンテンツに合わせてカスタマイズできます。
 
 1. フラグメントコンポーネントを選択します。
 
    右側に表示される設定には、デフォルト値を持つ編集可能なフィールドと編集可能なフィールドが含まれます。
 
-   ![ フラグメントコンポーネントパラメーターの変更 ](../user/content/assets/fragment-editable-fields-displayed-design.png){width="700" zoomable="yes"}
+   ![ フラグメントコンポーネントパラメーターの変更 ](../user/content/assets/fragment-editable-fields-displayed-design.png)
 
 1. 必要に応じて、編集可能フィールドを変更します。
 

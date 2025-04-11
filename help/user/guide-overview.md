@@ -2,7 +2,7 @@
 title: Adobe Journey Optimizer B2B エディションのドキュメント
 description: Adobe Journey Optimizer B2B edition機能を使用して、組み込みのジェネレーティブ AI と業界最先端の自動化機能を使用して、アカウントジャーニーを調整し、グループジャーニーを購入する方法を説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 7%
@@ -35,7 +35,7 @@ Adobe Express Enterprise ライセンスを使用すると、Adobe Expressのす
 
 コンテンツデザイナーは、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。 これにより、メールまたはテンプレートの作成者は、必要に応じてカスタムフィールド値を指定できます。 このカスタマイズフラグは、画像、テキスト、ボタンのビジュアルコンポーネントに限定されます。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="コンテンツフラグメントのカスタムフィールドについて学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="コンテンツフラグメントのカスタムフィールドについて学ぶ"}
 
 >[!TAB AEP イベント転送 ]
 
@@ -96,7 +96,7 @@ Marketo Engageの購買グループフィルターを使用して、スマート
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="基本を学ぶ"><br/>
-      <strong> 基本を学ぶ </strong><br/><a href="home-page.md"> ログインとホームページ </a><br/><a href="./start/get-started.md"> クイックスタートガイダンス </a><br/><a href="./start/ai-assistant.md">AI アシスタント </a>
+      <strong> 基本を学ぶ </strong><br/><a href="home-page.md"> ログインとホームページ </a><br/><a href="./start/get-started.md"> クイックスタートガイダンス </a><br/><a href="./ai-assistant/ai-assistant-overview.md">AI アシスタント </a>
     </td>
     <!--
     <td>
