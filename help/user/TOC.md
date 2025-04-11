@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B エディションの概要と、組み込みの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 41%
+source-wordcount: '269'
+ht-degree: 32%
 
 ---
 
@@ -13,39 +13,43 @@ ht-degree: 41%
 
 + [Adobe Journey Optimizer B2B エディションのドキュメント](guide-overview.md)
 + [リリースノート](./release-notes/release-notes.md)
-+ はじめに {#get-started}
++ {#get-started} の基本を学ぶ {#get-started}
    + [Journey Optimizer B2B editionの概要](about-journey-optimizer-b2b-edition.md)
    + [ログインとホームページ](home-page.md)
    + [クイックスタートガイダンス](./start/get-started.md)
    + [トラッキングと電子メールプロトコル](./start/email-protocols.md)
-   + [AI アシスタントを使用](./start/ai-assistant.md)
-+ アカウントジャーニー {#account-journeys}
++ AI アシスタント {#ai-アシスタント} {#ai-assistant}
+   + [概要](./ai-assistant/ai-assistant-overview.md)
+   + [AI アシスタントへのアクセスを有効にする](./ai-assistant/enable-ai-assistant-access.md)
+   + [質問ガイダンス](./ai-assistant/question-guidance.md)
+   + [AI アシスタントを使用する](./ai-assistant/use-ai-assistant.md)
++ アカウントジャーニー {#アカウント-journeys} {#account-journeys}
    + [概要](./journeys/journey-overview.md)
-   + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
+   + [ジャーニー作成および公開する](./journeys/create-publish-journey.md)
    + [ジャーニーノード](./journeys/journey-nodes.md)
-   + ジャーニーノード {#journey-nodes}
+   + ジャーニーノード {#ジャーニー-nodes} {#journey-nodes}
       + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
       + [アクションを実行](./journeys/action-nodes.md)
       + [イベントをリッスン](./journeys/listen-for-event-nodes.md)
       + [パスの分割と結合](./journeys/split-merge-paths-nodes.md)
       + [待機](./journeys/wait-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
-+ ジャーニーコンテンツ {#journey-content}
-   + メールチャネル {#email-channel}
++ ジャーニー 内容 {#ジャーニー-内容} {#journey-content}
+   + メールチャネル {#email-channel} {#email-channel}
       + [メールオーサリング](./content/email-authoring.md)
       + [電子メールオーサリング用 AI アシスタント](./content/ai-assistant-emails.md)
       + [管理されたテンプレート](./content/email-authoring-governance.md)
       + [販売警告メール](./content/sales-alert-email.md)
-   + [カスタムパーソナライゼーショントークン](./content/personalization-my-tokens.md)
+   + [パーソナライズ機能トークン特例文字](./content/personalization-my-tokens.md)
    + [SMS オーサリング](./content/sms-authoring.md)
-+ アカウント {#accounts}
++ アカウント {#accounts} {#accounts}
    + [オーディエンス](./audiences/account-audience-overview.md)
-   + 購買グループ {#buying-groups}
+   + 購入グループ {#buying-groups} {#buying-groups}
       + [概要](./buying-groups/buying-groups-overview.md)
       + [ソリューションの関心](./buying-groups/solution-interests.md)
-      + [役割テンプレート](./buying-groups/buying-groups-role-templates.md)
+      + [ロールテンプレート](./buying-groups/buying-groups-role-templates.md)
       + [購買グループステージ](./buying-groups/buying-group-stages.md)
-      + [購買グループの詳細](./buying-groups/buying-group-details.md)
+      + [グループの詳細を購入する](./buying-groups/buying-group-details.md)
       + [購買グループを作成](./buying-groups/buying-groups-create.md)
       + [アカウントリストを書き出し](./audiences/account-list-export.md)
       + [LinkedIn アカウントでマッチしたオーディエンス](./data/linkedin-account-matched-audiences.md)
@@ -53,43 +57,43 @@ ht-degree: 41%
    + [アカウントリスト](./accounts/account-lists.md)
    + [アカウントの詳細](./accounts/account-details.md)
    + [XDM フィールド](./data/field-mapping.md)
-+ コンテンツ管理 {#content-management}
-   + Assets {#assets}
++ コンテンツ管理 {#内容-management} {#content-management}
+   + Assets {#アセット} {#assets}
       + [概要](./content/assets-overview.md)
-      + Marketo Engage assets {#marketo-engage-dam}
-         + [Marketo Engage アセットの操作](./content/marketo-engage-design-studio.md)
+      + Marketo Engage アセット {#marketo-engage-dam} {#marketo-engage-dam}
+         + [Marketo Engageアセットの操作](./content/marketo-engage-design-studio.md)
          + [Adobe Express を使用した画像の編集](./content/image-edit-adobe-express.md)
       + [Experience Manager画像アセット](./content/aem-assets.md)
-   + テンプレート {#templates}
-      + [コンテンツガバナンス](./content/template-content-governance.md)
-      + メールテンプレート {#email-templates}
+   + テンプレート {#templates} {#templates}
+      + [コンテンツのガバナンス](./content/template-content-governance.md)
+      + 電子メールテンプレート {#email-templates} {#email-templates}
          + [概要](./content/email-templates.md)
          + [メールテンプレートオーサリング](./content/email-template-authoring.md)
-      + ランディングページテンプレート {#landing-page-templates}
+      + ランディングページテンプレート {#landing-page-templates} {#landing-page-templates}
          + [概要](./content/landing-page-templates.md)
          + [ランディングページのテンプレートデザイン](./content/landing-page-template-design.md)
-   + フラグメント {#visual-fragments}
+   + フラグメント {#visual-fragments} {#visual-fragments}
       + [概要](./content/fragments.md)
       + [フラグメントのオーサリング](./content/fragment-authoring.md)
-   + フォーム {#forms}
+   + Forms {#forms} {#forms}
       + [概要](./content/forms.md)
       + [フォームデザイン](./content/form-design.md)
-   + ランディングページ {#landing-pages}
+   + ランディングページ {#landing-pages} {#landing-pages}
       + [概要](./content/landing-pages.md)
-      + [ランディングページのデザイン](./content/landing-page-design.md)
+      + [着陸ページデザイン](./content/landing-page-design.md)
    + [条件付きコンテンツ](./content/conditional-content.md)
-+ Insights ダッシュボード {#dashboards}
++ Insights ダッシュボード {#dashboards} {#dashboards}
    + [インテリジェントダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントの概要](./dashboards/engagement-dashboard.md)
-   + [購買グループの概要](./dashboards/buying-groups-dashboard.md)
-   + [アカウントジャーニーの概要](./dashboards/journeys-dashboard.md)
-+ 管理 {#admin}
+   + [グループの購入概要](./dashboards/buying-groups-dashboard.md)
+   + [アカウントジャーニー概要](./dashboards/journeys-dashboard.md)
++ Administration {#admin} {#admin}
    + [ユーザー管理](./admin/user-management.md)
    + [インテントデータ](./admin/intent-data.md)
-   + チャネル {#channels}
+   + チャネル {#channels} {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
       + [SMS 設定](./admin/configure-channels-sms.md)
-   + [AEM Assets リポジトリの設定](./admin/configure-aem-repositories.md)
+   + [AEM Assetsリポジトリの設定](./admin/configure-aem-repositories.md)
    + [AEP イベント定義の設定](./admin/configure-aep-events.md)
    + [ランディングページの設定](./admin/landing-page-settings.md)
    + [ガバナンス](./admin/governance.md)
