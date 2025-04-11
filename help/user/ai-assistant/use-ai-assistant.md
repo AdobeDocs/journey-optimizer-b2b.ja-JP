@@ -1,67 +1,67 @@
 ---
-title: AI アシスタントを使用
+title: AI アシスタントを使用する
 description: Journey Optimizer B2B editionの機能を最大限に活用するために AI アシスタントがどのように役立つかを説明します。
 feature: AI Assistant
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 source-git-commit: d19ed2bbe850a14cb0563f6e3563cd8f1c8d3226
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '496'
 ht-degree: 6%
 
 ---
 
 # Journey Optimizer B2B editionでの AI アシスタントの使用
 
-Journey Optimizer B2B editionで AI アシスタントを使用すると、製品のコンセプトを理解し、Journey Optimizer B2B editionの機能をすばやくナビゲートして学習し、特定の環境の運用に関するインサイトを取得できます。 また、Adobe Experience Cloud全体の複数の製品でも使用できます。
+Journey Optimizer B2B editionで AI アシスタントを使用すると、製品のコンセプトを理解し、Journey Optimizer B2B editionの機能をすばやくナビゲートして学習し、特定の環境の運用に関するインサイトを取得できます。 また、Adobe Experience Cloud中のいくつかの製品で利用可能です。
 
 >[!IMPORTANT]
 >
->AI アシスタントを使用するには、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインの契約が必要です。 この契約および使用ガイドラインについて詳しくは、[Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) を参照してください。
+>AI アシスタントを使用する前に、Adobe Experience Cloud 生成 AI ユーザー ガイドラインの同意が必要です。 本契約および使用ガイドラインの詳細については、 [Adobe Experience Cloud Generative AI ユーザーガイドライン](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)を参照してください。
 
-AI アシスタントにアクセスするには、ヘッダーのアイコンをクリックします。 AI アシスタントが右側のパネルに開きます。
+AI アシスタントにアクセスするには、ヘッダーのアイコンをクリックします。 AIアシスタントが右側のパネルで開きます。
 
-![ アイコンをクリックして AI アシスタントにアクセス ](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}{width=&quot;420&quot; zoomable=&quot;yes&quot;}
+![アイコンをクリックしてAIアシスタントにアクセスします](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}
 
-AI アシスタントのインターフェイスが表示され、すぐに開始するための情報が表示されます。 「_アイデアを使って使い始める_ で提供されているオプションを使用して、次のような質問やコマンドに回答できます。
+AIアシスタントインターフェイスが表示され、開始するための情報がすぐに提供されます。 _アイデア_&#x200B;の下にあるオプションを使用して、次のような質問とコマンド～に回答できます。
 
-* 公開されたアカウントジャーニーはどれですか？
-* 作成されたソリューションの関心
+* アカウントジャーニーのどれが公開されましたか?
+* どのようなソリューションの関心が生まれましたか?
 * Journey Optimizer B2B editionの主なメリットを教えてください。
 
 Adobe Journey Optimizer B2B editionでは、AI アシスタントは次のユースケースをサポートします。
 
 ## 製品に関する知識
 
-製品ナレッジの質問は、Adobe Journey Optimizerの側面に関連するJourney Optimizer B2B editionの概念に関するものです。 製品に関する知識に関する質問の例を次に示します。
+製品に関する質問は、Adobe Systems Journey Manager の側面に関連する Journey Optimizer B2B Edition の概念に関するものです。 製品知識に関する質問の例をいくつか挙げます。
 
-* SMS プロバイダーアカウントの設定方法
-* アカウントジャーニーでメールを送信するにはどうすればよいですか？
-* メールコンテンツをパーソナライズするにはどうすればよいですか？
+* SMSプロバイダーアカウントを設定するにはどうすればよいですか?
+* アカウントジャーニーでメールを送信するにはどうすればよいですか?
+* E メール内容をパーソナライズするにはどうすればよいですか?
 
-製品に関する質問を行うには、パネルの下部にあるフィールドに製品を入力し、Enter キーを押します。
+製品に関する質問は、パネル下部のフィールドに入力し、Enter キーを押します。
 
-![ テキストボックスに質問を入力 ](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}{width=&quot;420&quot; zoomable=&quot;yes&quot;}
+![テキストボックスに質問を入力します](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}
 
-AI アシスタントから返された回答を確認するには、製品の知識に関する回答ごとに使用可能な引用文献を確認します。
+AI Assistant によって返された応答を確認するには、すべての製品ナレッジ ～に回答で利用可能な引用を確認します。
 
-引用文献を表示して AI アシスタントの応答を検証するには、[**[!UICONTROL ソースを表示]**] を選択します。
+引用文献を表示し、AI Assistant の応答を検証するには、[ **[!UICONTROL 表示 ソース]**] を選択します。
 
-![AI アシスタントのクエリの結果 ](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}{width=&quot;420&quot; zoomable=&quot;yes&quot;}
+![AI アシスタントのクエリの結果 ](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}
 
 AI アシスタントがインターフェイスを更新し、最初の応答を裏付けるドキュメントへのリンクを提供します。 さらに、引用が有効な場合、AI アシスタントは応答を更新して、提供されたドキュメントを参照する回答の特定の部分を示す脚注を含めます。
 
-親指を上げるか親指を下げることで、答えの質を評価します。
+親指を上にするか、下に親指を立てて、～に回答の品質を評価します。
 
-## 運用インサイト
+## 運用上の洞察
 
 運用上のインサイトの質問は、組織のサンドボックス内のジャーニーオブジェクトに関するものです。運用上のインサイトの質問やプロンプトの例を次に示します。
 
-* Adobe Journey Optimizer B2B editionには、ライブジャーニーがいくつありますか？
+* Adobe Systems Journey Optimizer B2B Edition にはいくつのライブジャーニーがありますか?
 * スケジュールされたすべてのジャーニーのリストを提示してください。
-* 過去 7 日間に作成されたジャーニーの数
+* 過去 7 日間に作成されたジャーニーの数はいくつですか。
 
-AI アシスタントが運用インサイトに関する質問に十分な回答を提供するには、アクティブなサンドボックスにいる必要があります。
+AI Assistant が運用上の分析情報に関する質問に十分な回答を提供するには、アクティブなサンドボックスにいる必要があります。
 
 >[!NOTE]
 >

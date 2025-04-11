@@ -4,7 +4,7 @@ description: Journey Optimizer B2B edition アプリにアクセスし、ホー�
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '444'
 ht-degree: 6%
 
 ---
@@ -17,11 +17,11 @@ Adobe Journey Optimizer B2B エディションを使用すると、組み込み�
 -->
 [!DNL Adobe Journey Optimizer B2B Edition] にアクセスするには、Adobe IDを使用してAdobe Experience Cloudに接続し、「[!DNL Journey Optimizer B2B Edition]」を選択します。
 
-![Adobe Experience Platform アプリ ](./assets/experience-cloud-apps.png){width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Adobe Experience Platform アプリ ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 ホームページは、Adobe Experience Platformにログインし、Adobe Journey Optimizer B2B edition アプリを選択すると表示されます。 Journey Optimizer B2B の取り組みの現状を、関連するモジュールに素早くアクセスできる形で <!-- refined insights and--> 紹介しています。<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![Journey Optimizer B2B edition ホームページ ](./assets/home-page.png){width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Journey Optimizer B2B editionのホームページ ](./assets/home-page.png){width="800" zoomable="yes"}
 
 Journey Optimizer B2B editionには、（マーケター _**と_** 管理者 **_という 2 つの主要なユーザーペルソナがあ**_ ます。 各ペルソナには、様々な成熟段階（新規または高度）に固有のホームページがあります。 ページのコンテンツは、各ペルソナが情報に関して必要とするものと、次に実行されるアクションに基づいています。
 
