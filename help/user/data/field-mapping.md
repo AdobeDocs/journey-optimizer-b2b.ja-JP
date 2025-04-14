@@ -2,9 +2,9 @@
 title: XDM フィールド
 description: Adobe Experience PlatformとJourney Optimizer B2B editionの間で同期されるデフォルトの属性フィールドを確認します。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
+source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1342'
 ht-degree: 23%
 
 ---
@@ -31,8 +31,6 @@ ht-degree: 23%
 
 | [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `b2b.companyName` | 企業名 | 企業名 | 文字列 | ビジネスユーザーが関連付けられている会社の名前。 |
-| `b2b.companyWebsite` | 会社の Web サイト | Web サイト | 文字列 | ビジネスユーザーが関連付けられている会社の web サイト。 |
 | `b2b.isMarketingSuspended` | マーケティング中断指標 | マーケティング中断 | ブール値 | 値は、その人物のマーケティングが中断されているかどうかを示します。 |
 | `b2b.marketingSuspendedCause` | マーケティングの中断理由 | マーケティングの中断理由 | 文字列 | その人物のマーケティングが停止されている場合、このプロパティがその理由となります。 |
 | `b2b.personStatus` | 人物のステータス | リードのステータス | 文字列 | 人物の現在のマーケティング /販売ステータスを記録するフィールド。 |
@@ -101,5 +99,5 @@ ht-degree: 23%
 | `opportunityName` | 商談名 | 商談名 | 文字列 | オポチュニティの件名または説明的な名前（期待される注文や会社名など）。 |
 | `opportunityQuantity` | 商談の数量 | オポチュニティの数量 | 文字列 | オポチュニティの関連製品リストにあるすべての製品に関するすべての数量フィールド値の合計。 |
 | `opportunityStage` | 商談のステージ | 商談のステージ | 文字列 | セールス・チームの取り組みを支援するオポチュニティのセールス・ステージ。 |
-| `opportunityType` | 商談のタイプ | 商談のタイプ | 文字列 | オポチュニティに割り当てられたタイプ（_Existing Business _や _New Business_ など） |
+| `opportunityType` | 商談のタイプ | 商談のタイプ | 文字列 | オポチュニティに割り当てられたタイプ （_既存のビジネス_ または _新規ビジネス_ など） |
 | `probabilityPercentage` | 確率率 | 商談確率の割合 | 文字列 | オポチュニティをクローズする可能性（パーセンテージ）。 |
