@@ -1,38 +1,38 @@
 ---
 title: ログインとホームページ
-description: Journey Optimizer B2B edition アプリにアクセスし、ホームページ情報を使用する方法を説明します。
+description: Journey Optimizer B2B Edition アプリにアクセスし、ホームページ情報を使用する方法について説明します。
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # ログインとホームページ
 
-Adobe Journey Optimizer B2B エディションを使用すると、組み込みの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整し、マーケティング資格のある購買グループを使用して特定のサービスに対する需要を最大限に高めることができます。
+Adobe Journey Optimizer B2B Edition を使用すると、組み込みの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整し、マーケティング資格のある購買グループを使用して特定の製品に対する需要を最大化できます。
 
 <!-- Requirements?
 -->
-[!DNL Adobe Journey Optimizer B2B Edition] にアクセスするには、Adobe IDを使用してAdobe Experience Cloudに接続し、「[!DNL Journey Optimizer B2B Edition]」を選択します。
+[!DNL Adobe Journey Optimizer B2B Edition] にアクセスするには、Adobe ID を使用して Adobe Experience Cloud に接続し、[!DNL Journey Optimizer B2B Edition] を選択します。
 
-![Adobe Experience Platform アプリ ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![Adobe Experience Platform アプリ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-ホームページは、Adobe Experience Platformにログインし、Adobe Journey Optimizer B2B edition アプリを選択すると表示されます。 Journey Optimizer B2B の取り組みの現状を、関連するモジュールに素早くアクセスできる形で <!-- refined insights and--> 紹介しています。<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
+Adobe Experience Platform にログインし、Adobe Journey Optimizer B2B Edition アプリを選択すると、ホームページが表示されます。このページでは、<!-- refined insights and-->関連モジュールへのクイックアクセス<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->の形式で、Journey Optimizer B2B イニシアチブの現在の状態の概要を示します。
 
-![Journey Optimizer B2B editionのホームページ ](./assets/home-page.png){width="800" zoomable="yes"}
+![Journey Optimizer B2B Edition ホームページ](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B editionには、（マーケター _**と_** 管理者 **_という 2 つの主要なユーザーペルソナがあ**_ ます。 各ペルソナには、様々な成熟段階（新規または高度）に固有のホームページがあります。 ページのコンテンツは、各ペルソナが情報に関して必要とするものと、次に実行されるアクションに基づいています。
+Journey Optimizer B2B Edition には、_**マーケター**_&#x200B;と&#x200B;_**管理者**_&#x200B;という 2 つの主要なユーザーペルソナがあります。各ペルソナには、成熟度ステージ（新規または高度）が異なる固有のホームページがあります。ページのコンテンツは、各ペルソナが必要とする情報と次に実行するアクションに基づいています。
 
-* **マーケター – 新規ユーザー** – 新規ユーザーの _マーケター_ ホームページは、Journey Optimizer B2B とその機能に慣れるのに役立ちます。 これには、新しいマーケターがシステムのニュアンスを理解し、B2B マーケティング戦略や取り組みの開発を効率的に行えるように、オンボーディングチュートリアルを取得するためのガイド付きチュートリアルが含まれています。
-* **マーケター – 上級ユーザー** – 上級マーケターの _マーケター_ ホームページは、現在のイニシアチブの進行状況や特定のアクションの詳細情報、実行する次の最適なアクション、関連する節へのクイックアクセスに役立ちます。
-* **管理者 – 新規ユーザー** – 新しい管理者用の _管理者_ ホームページは、Journey Optimizer B2B editionとその機能に慣れるのに役立ちます。 新しい管理者がステップバイステップのオンボーディングジャーニーを取得して、システムのニュアンスを理解し、B2B マーケティング戦略やイニシアチブの開発を効率的にするためのガイド付きチュートリアルが含まれています。
-* **管理者 – 詳細ユーザー** – 詳細管理者の _管理者_ ホームページは、インスタンスの現在のステータスに関する詳細情報の取得と、マーケターにとっての効率的かつ効果的な特定のアクションに関する情報の取得を支援します。
+* **マーケター - 新規ユーザー** - 新規ユーザー向けの&#x200B;_マーケター_&#x200B;ホームページは、Journey Optimizer B2B とその機能に慣れるのに役立ちます。このページには、新規マーケターがオンボーディングチュートリアルを取得するためのガイド付きチュートリアルが含まれ、システムのニュアンスを理解して、B2B マーケティング戦略とイニシアチブを効率的に開発できるようになります。
+* **マーケター - 高度なユーザー** - 高度なマーケター向けの&#x200B;_マーケター_&#x200B;ホームページは、イニシアチブの現在の進行状況、特定のアクション、次に実行する最善のアクションに関する詳細情報の取得や、関連セクションへのクイックアクセスに役立ちます。
+* **管理者 - 新規ユーザー** - 新規管理者向けの&#x200B;_管理者_&#x200B;ホームページは、Journey Optimizer B2B Edition とその機能に慣れるのに役立ちます。このページには、新規管理者がステップバイステップのオンボーディング ジャーニーを取得するためのガイド付きチュートリアルが含まれ、システムのニュアンスを理解して、B2B マーケティング戦略とイニシアチブを効率的に開発できるようになります。
+* **管理者 - 高度なユーザー** - 高度な管理者向けの&#x200B;_管理者_&#x200B;ホームページは、インスタンスの現在のステータスに関する詳細情報や、マーケターに対してより効率的で効果的なものにするために実行できる特定のアクションを取得するのに役立ちます。
 
-_[!UICONTROL 最近アクセス]_ セクションには、マーケターまたは管理者の最近アクセスしたアセットのリストが表示されます。 一連のアセットページを移動したり検索したりせずに、最近作業したアセットに直接移動するには、このリストを使用します。
+「_[!UICONTROL 最近アクセス済み]_」セクションには、マーケターや管理者に対して最近アクセス済みのアセットのリストが表示されます。このリストを使用すると、一連のアセットページを移動して検索することなく、最近作業済みのアセットに直接移動できます。
 
-また、ユーザーが必要な特定の質問やトピックに関する情報をすばやく取得するのに役立つ [AI アシスタント ](./ai-assistant/ai-assistant-overview.md) へのアクセス <!-- and to obtain specific recommendations for their challenges or objectives--> も含まれています。
+また、このページには [AI アシスタント](./ai-assistant/ai-assistant-overview.md)へのアクセスも含まれ、これを使用すると、ユーザーは、必要な特定の質問やトピックに関する情報をすばやく入手できます。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 
