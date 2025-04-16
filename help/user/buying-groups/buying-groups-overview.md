@@ -3,10 +3,10 @@ title: 購買グループ
 description: Journey Optimizer B2B Edition の購買グループが、アカウントリストのメンバーを識別してターゲティングすることで、マーケティング効果を高める方法について説明します。
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 98%
+source-wordcount: '1782'
+ht-degree: 97%
 
 ---
 
@@ -36,10 +36,8 @@ Journey Optimizer B2B Edition で購買グループを確立し、販売チー�
 
 1. 購買グループを作成します。
 
-   オプション：
-   * [ソリューションに対する関心](./solution-interests.md)と[役割テンプレート](./buying-groups-role-templates.md)を使用
-   * サードパーティの読み込みを使用
-   * AI／ML から生成
+   * [ ソリューションの関心 ](./solution-interests.md) および [ 役割テンプレート ](./buying-groups-role-templates.md) を定義
+   * [ 購入グループを作成 ](./buying-groups-create.md#create-buying-groups) し、[ 購入グループステージ ](./buying-group-stages.md) を割り当てます。
 
 1. 欠落している人物を識別します。
 
@@ -53,7 +51,7 @@ Journey Optimizer B2B Edition で購買グループを確立し、販売チー�
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. 関連するソリューションに対する関心を通じてアカウントジャーニーで使用します。
+1. アカウントジャーニーの購入グループを使用します。
 
 ## 購買グループとコンポーネントの表示
 

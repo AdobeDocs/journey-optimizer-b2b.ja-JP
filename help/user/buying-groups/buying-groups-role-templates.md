@@ -3,22 +3,20 @@ title: 購買グループの役割テンプレート
 description: 購入グループコンポーネントとして使用する役割テンプレートの定義について説明します。
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 4%
+source-wordcount: '1115'
+ht-degree: 5%
 
 ---
 
-# 購買グループ ロール テンプレート
+# 購買グループの役割テンプレート
 
 B2B 市場では、購入の決定は通常、複数の個人によって行われます。 これらの個人は、組織内での役割に応じて意思決定プロセスに参加します。 各製品オファーのタイプまたはアカウントのユースケースに従って、これらの役割定義を含む購買グループ役割テンプレートを作成します。
 
-![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ 概要ビデオをご覧ください ](#overview-video)
+![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
 ## 役割テンプレートへのアクセスと参照
-
-1. Adobe Experience Platformのホームページで、「Adobe Journey Optimizer B2B edition」をクリックします。
 
 1. 左側のナビゲーションで「**[!UICONTROL 購入グループ]**」をクリックします。
 
@@ -34,8 +32,8 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
    * [!UICONTROL 作成者]
    * [!UICONTROL  最終更新日 ]
    * [!UICONTROL 最終更新者]
-   * [!UICONTROL  公開日 ]
-   * [!UICONTROL  公開者 ]
+   * [!UICONTROL 公開日]
+   * [!UICONTROL 公開者]
 
    このリストは、デフォルトで _[!UICONTROL 最終更新]_ 列で並べ替えられます。
 

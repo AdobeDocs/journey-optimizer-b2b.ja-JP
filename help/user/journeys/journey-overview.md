@@ -3,10 +3,10 @@ title: アカウントジャーニー
 description: アカウントジャーニーと、それらを作成および管理する方法について説明します。
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 30%
+source-wordcount: '1009'
+ht-degree: 29%
 
 ---
 
@@ -29,22 +29,20 @@ ht-degree: 30%
 
 ## アカウントジャーニーへのアクセスと参照
 
-1. Adobe Experience Platform ホームページで、「Adobe Journey Optimizer B2B Edition」をクリックします。
+左側のナビゲーションで、「**[!UICONTROL アカウントジャーニー]**」をクリックします。
 
-1. 左側のナビゲーションで、「**[!UICONTROL アカウントジャーニー]**」をクリックします。
+![アカウントジャーニーへのアクセス](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![アカウントジャーニーへのアクセス](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+表示されたジャーニーページには、次の列が含まれています。
 
-   表示されたジャーニーページには、次の列が含まれています。
-
-   * [!UICONTROL  名前 ] （名前をクリックすると、ジャーニーが編集用に開きます）
-   * [!UICONTROL ステータス]
-   * [!UICONTROL 説明]
-   * [!UICONTROL 作成者]
-   * [!UICONTROL 最終更新日]
-   * [!UICONTROL 最終更新者]
-   * [!UICONTROL 公開日]
-   * [!UICONTROL 公開者]
+* [!UICONTROL  名前 ] （名前をクリックすると、ジャーニーが編集用に開きます）
+* [!UICONTROL ステータス]
+* [!UICONTROL 説明]
+* [!UICONTROL 作成者]
+* [!UICONTROL 最終更新日]
+* [!UICONTROL 最終更新者]
+* [!UICONTROL 公開日]
+* [!UICONTROL 公開者]
 
 上部の _検索_ ツールを使用して、名前でジャーニーを見つけます。 列見出しをクリックすると、_[!UICONTROL ステータス]_ でリストを並べ替えることができます。
 

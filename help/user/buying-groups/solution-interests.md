@@ -3,22 +3,20 @@ title: ソリューションの関心
 description: ソリューションの関心と、購入グループ内で使用するためにソリューションを定義する方法について説明します。
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 1%
 
 ---
 
-# ソリューションの関心
+# ソリューションに対する関心
 
 購買グループを作成する前に、自分が何を販売し、誰をターゲットにするかを把握しておく必要があります。 購入グループに対するソリューションの関心を高められるように、マーケティングとセールスの戦略を調整する必要があります。
 
-![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ 概要ビデオをご覧ください ](#overview-video)
+![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
 ## ソリューションの関心へのアクセスと参照
-
-1. Adobe Experience Platformのホームページで、「Adobe Journey Optimizer B2B edition」をクリックします。
 
 1. 左側のナビゲーションで「**[!UICONTROL 購入グループ]**」をクリックします。
 

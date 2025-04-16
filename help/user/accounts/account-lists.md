@@ -2,10 +2,10 @@
 title: 顧客リスト
 description: アカウントリストと、そのリストをマーケターがアカウントジャーニーを通じてアカウントをターゲットにする方法について説明します。
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 0%
+source-wordcount: '1621'
+ht-degree: 1%
 
 ---
 
@@ -20,29 +20,27 @@ ht-degree: 0%
 
 ## アカウントリストへのアクセスと参照
 
-1. Adobe Experience Platformのホームページで、「Adobe Journey Optimizer B2B edition」をクリックします。
+左側のナビゲーションで、「**[!UICONTROL アカウント]**」を展開し、「**[!UICONTROL アカウントリスト]**」をクリックします。
 
-1. 左側のナビゲーションで、「**[!UICONTROL アカウント]**」を展開し、「**[!UICONTROL アカウントリスト]**」をクリックします。
+![アカウントジャーニーへのアクセス](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![ アカウントジャーニーへのアクセス ](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+表示される _[!UICONTROL アカウントリスト]_ ページには、次の列が含まれます。
 
-   表示される _[!UICONTROL アカウントリスト]_ ページには、次の列が含まれます。
-
-   * [!UICONTROL  名前 ] （アカウントリストの名前をクリックすると詳細が表示されます）
-   * [!UICONTROL ステータス]
-   * [!UICONTROL タイプ]
-   * [!UICONTROL  最終更新日 ]
-   * [!UICONTROL 最終更新者]
-   * [!UICONTROL 作成日]
-   * [!UICONTROL 作成者]
+* [!UICONTROL  名前 ] （アカウントリストの名前をクリックすると詳細が表示されます）
+* [!UICONTROL ステータス]
+* [!UICONTROL タイプ]
+* [!UICONTROL  最終更新日 ]
+* [!UICONTROL 最終更新者]
+* [!UICONTROL 作成日]
+* [!UICONTROL 作成者]
 
 このテーブルには、名前で検索する機能が含まれています。 並べ替え関数は現在使用できません。
 
 右上隅の _列設定_ （![ 列設定 ](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
 
-![ アカウントジャーニーリストに表示する列を選択 ](./assets/account-lists-list-columns.png){width="300"}
+![アカウントジャーニーリストに表示する列を選択](./assets/account-lists-list-columns.png){width="300"}
 
-アカウントリストの説明を表示するには、名前の横にある _情報_ アイコンをクリックします。
+アカウントリストの説明を表示するには、名前の横にある _情報_ （![ 情報アイコン ](../assets/do-not-localize/icon-info.svg)）アイコンをクリックします。
 
 ## アカウントリストの作成
 
