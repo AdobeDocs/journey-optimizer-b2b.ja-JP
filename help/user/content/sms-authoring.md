@@ -3,9 +3,9 @@ title: SMS オーサリング
 description: 顧客のモバイルデバイスにテキストメッセージ（SMS）を送信する方法、および SMS エディターでテキスト形式のメッセージをパーソナライズおよびプレビューする方法について説明します。
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 
 ## アカウントジャーニーへの SMS アクションの追加
 
-「_[!UICONTROL 特定のアクションを実行]_」ノードを追加して以下の操作を実行すると、アカウントジャーニーでテキストメッセージ配信を設定できます。
+「_[!UICONTROL アクションを実行]_」ノードを追加して以下の操作を実行すると、アカウントジャーニーでテキストメッセージ配信を設定できます。
 
 1. _[!UICONTROL アクションオン]_ ターゲットで、「**[!UICONTROL ユーザー]**」を選択します。
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-   _ジャーニーコンテンツデザイナー_ が開き、メッセージを作成し、メッセージを送信するための SMS プロパティを設定できます。
+   _ジャーニーマップ_ が開きます。メッセージを作成し、メッセージを送信するための SMS プロパティを設定できます。
 
 ### SMS メッセージの作成
 
