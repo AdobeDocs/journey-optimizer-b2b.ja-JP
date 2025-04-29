@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: 組み込みの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整する Adobe Journey Optimizer B2B Edition 機能の使用方法について説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 99%
+source-wordcount: '719'
+ht-degree: 65%
 
 ---
 
@@ -13,9 +13,33 @@ ht-degree: 99%
 
 ## 新着情報？
 
-Journey Optimizer B2B Edition 製品とドキュメントの最新の機能強化のサンプルを以下に示します。
+Journey Optimizer B2B edition アプリケーションおよびドキュメントに対する最新の追加機能および機能強化のサンプリングを以下に示します。
 
 >[!BEGINTABS]
+
+>[!TAB  アカウントリスト ]
+
+アカウントリストを作成します。これは、マーケターがターゲットの Journey Orchestration に使用できる名前付きアカウントのコレクションです。 アカウントリストでは、定義済みの条件（業界、場所、会社の規模など）に基づいて指定顧客をターゲットにすることができます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="アカウントリストについて学ぶ"}
+
+>[!TAB  スマート・リストの勘定科目リスト・フィルタ ]
+
+アカウントリストフィルターを使用して、Marketo Engage スマートリストをフィルタリングできるようになりました。 これらのフィルターを使用すると、Journey Optimizer B2B edition内のアカウントジャーニーから、Marketo Engage キャンペーンおよびプログラム全体でアカウントリストメンバーを抑制して含めることができます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Marketo Engage スマートリストで使用されるアカウントリストフィルターについて説明します"}
+
+>[!TAB  非アクティブ履歴フィルター ]
+
+メール、興味深い瞬間、データ値の変化、訪問した web ページなど、Marketo Engage キャンペーンおよびプログラム内の非アクティブに基づいて、ジャーニーを進行させます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="非アクティブ履歴フィルターについて説明します"}
+
+>[!TAB ジャーニーの複製 ]
+
+アカウントジャーニー構造を複製して手動のエラーを最小限に抑え、一貫性のある設定、フローおよびパスを確保します。 複製されたジャーニーでは、コンテンツやアクションを調整して、大きくて複雑なキャンペーンを管理しやすくすることができ&#x200B;ます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="ジャーニーの複製について説明します"}
 
 >[!TAB インテリジェントインサイトダッシュボード]
 
@@ -27,33 +51,15 @@ Journey Optimizer B2B Edition 製品とドキュメントの最新の機能強�
 
 Adobe Express クイックアクションを使用すると、切り抜き、サイズ変更、背景の削除、形式の変換などによりコンテンツをタッチアップできます。直感的な Adobe Express UI が組み込まれているので、画像アセットをすばやく微調整できます。
 
-Adobe Express Enterprise ライセンスを使用すると、Adobe Express の完全な機能スイートを活用できます。これらの機能を使用して、ブランドガイドラインを遵守しながら画像を磨き上げ、強化し、コンテンツサプライチェーンの障害を取り除きます。
+Adobe Express Enterprise ライセンスを使用すると、Adobe Express の完全な機能スイートを活用できます。これらの機能を使用して、ブランドガイドラインを守りながら画像を磨き、強化し、コンテンツサプライチェーンの障害を取り除きます。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Adobe Express を使用した画像編集について学ぶ"}
 
 >[!TAB フラグメントのカスタマイズ可能なフィールド]
 
-コンテンツデザイナーは、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。これにより、メールまたはテンプレートの作成者は、必要に応じてカスタムフィールド値を指定できます。このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。
+コンテンツデザイナーは、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。この設定を使用すると、メールまたはテンプレートの作成者は、必要に応じてカスタムフィールド値を指定できます。 このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="コンテンツフラグメントのカスタムフィールドについて学ぶ"}
-
->[!TAB AEP イベント転送]
-
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できるようになりました。これらの設定により、マーケターは、AEP エクスペリエンスイベントに反応するアカウントジャーニーを作成できます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Journey Orchestration に使用する AEP イベント定義について学ぶ"}
-
->[!TAB スマートリスト用の購買グループフィルター]
-
-Marketo Engage で購買グループフィルターを使用してスマートリストを表示および作成できるようになりました。これらのフィルターを使用すると、Journey Optimizer B2B Edition 内のアカウントジャーニーから、Marketo Engage キャンペーンおよびプログラムをまたいで購買グループメンバーを抑制したり、含めたりすることができます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Marketo Engage のスマートリストで使用される購買グループフィルターについて学ぶ"}
-
->[!TAB 条件付きコンテンツ]
-
-条件付きコンテンツを使用すると、条件付きルールに基づいてメールのコンテンツを調整できます。プロファイル属性またはコンテキストイベントを使用してルールを定義します。ルールビルダーで条件付きルールを作成し、アカウントジャーニーをまたいで再利用するのに保存できます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/conditional-content.md" tooltip="条件付きコンテンツについて学ぶ"}
 
 >[!ENDTABS]
 
@@ -64,15 +70,15 @@ Marketo Engage で購買グループフィルターを使用してスマート�
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="製品の使用状況のローンチ"></a>
+    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="製品の使用状況のローンチ"></a>
     <div><strong>ホームページからローンチ</strong><br/>自分の役割に基づいてパーソナライズされたホームページを使用して、Journey Optimizer B2B Edition で目標をより早く達成する方法について説明します。</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="購買グループ"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="購買グループ"></a>
     <div><strong>最初の購買グループを作成</strong><br/>Journey Optimizer B2B Edition で最初の購買グループを作成し、連絡先のエンゲージメントと選定のプロセスを自動化します。</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="アカウントジャーニー"></a>
+    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="アカウントジャーニー"></a>
     <div><strong>最初のアカウントジャーニーを作成</strong><br/>パーソナライズされたアカウントジャーニーを設計および調整して、マーケティングアウトリーチとターゲットとするエンゲージメントを調和させます。 
     </div>
     </td>

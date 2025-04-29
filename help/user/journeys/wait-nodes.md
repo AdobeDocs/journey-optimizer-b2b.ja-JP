@@ -2,7 +2,8 @@
 title: 待機ノード
 description: Journey Optimizer B2B editionでアカウントジャーニーを調整するために使用できる待機ノードタイプについて説明します。
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -20,7 +21,7 @@ _待機_ ノードは、次のステップに進む前に、ジャーニーの�
 
 _アカウントジャーニーの待機ノードを定義するには：_
 
-1. ジャーニーエディターに移動します。
+1. ジャーニーマップに移動します。
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL 待機]**」を選択します。
 

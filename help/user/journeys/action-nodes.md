@@ -3,18 +3,18 @@ title: アクションの実行
 description: Journey Optimizer B2B editionでアカウントジャーニーを調整するために使用できる、アクションの実行ノードタイプについて説明します。
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
+source-git-commit: db30486c23f6560beb72cd9d9b3a82b70a2e2ddd
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 1%
+source-wordcount: '1240'
+ht-degree: 3%
 
 ---
 
-# アクションを実行
+# アクションの実行
 
 アカウントジャーニーで、_[!UICONTROL アクションの実行]_ ノードを追加して、メールの送信、スコアの変更、購入グループへの割り当てなどのアクションを実行できます。 アクションは、通常、イベントや以前のアクションなど、何らかのトリガーの結果として発生させるもので、
 
-![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ 概要ビデオをご覧ください ](#overview-video)
+![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
 ## アカウントのアクション
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 | [!UICONTROL  アカウント変更データ値 ] | 属性 <br/> 新しい値を選択 |
 | [!UICONTROL  アカウント興味深い瞬間 ] | タイプ （メール、マイルストーン、web） <br/> 説明（オプション） |
 | [!UICONTROL  （その他）ジャーニーにアカウントを追加 ] | ライブアカウントジャーニーを選択 |
-| [!UICONTROL  アカウントリストに追加 ] | ライブ静的アカウントリストを選択 |
+| [!UICONTROL  アカウントリストに追加 ] | ライブの静的アカウントリストを選択 |
 | [!UICONTROL ジャーニーからアカウントを削除 ] | ライブアカウントジャーニーを選択 |
 | [!UICONTROL  アカウントリストから削除 ] | ライブ静的アカウントリストの選択 |
 | [!UICONTROL  販売アラートの送信 ] | ソリューションの関心 <br/> メールの送信先を選択 |
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 ### アカウントベースのアクションの追加
 
-1. ジャーニーエディターに移動します。
+1. ジャーニーマップに移動します。
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL アクションを実行]**」を選択します。
 
@@ -56,12 +56,12 @@ ht-degree: 1%
 
 | コンテキスト | アクション | 制約 |
 | ------- | ------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL  外部顧客オーディエンスに追加 ] | 外部顧客オーディエンスを選択 |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL  外部顧客オーディエンスに追加 ] | 外部の顧客オーディエンスを選択 |
 | | [!UICONTROL  購買グループへの割当て ] | ソリューションの関心 <br/> 役割を選択 |
 | | [!UICONTROL  データ値を変更 ] | 人物属性 <br/> 新しい値を設定を選択 |
 | | [!UICONTROL  スコアを変更 ] | スコア名 <br/> スコアの変更 |
 | | [!UICONTROL  人物の興味深い瞬間 ] | タイプ <br/> 説明 |
-| | [!UICONTROL  購入グループから削除 ] | ソリューションの関心を選択 |
+| | [!UICONTROL  購入グループから削除 ] | ソリューションに対する関心を選択 |
 | | [!UICONTROL  メールを送信 ] | 新しいメールを作成 <br/>Marketo Engageからメールを選択 |
 | | [!UICONTROL SMS を送信 ] | SMS を作成 |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL  リストに追加 ] | Marketo Engage Workspace<br/>List 名を選択します。 |
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 ### ユーザーベースのアクションを追加
 
-1. ジャーニーエディターに移動します。
+1. ジャーニーマップに移動します。
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL アクションを実行]**」を選択します。
 
@@ -112,6 +112,10 @@ _外部オーディエンスを作成するには：_
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
    新しいオーディエンスが作成され、確認メッセージが表示されます。 その後、ノードアクションの既存のオーディエンスとして使用に進むことができます。
+
+   >[!NOTE]
+   >
+   >Journey Optimizer B2B editionから新しい外部カスタマーオーディエンスが作成されると、ダミーレコードがシードされます（`test@email.com`）。 このレコードは、最初の実際のプロファイルがジャーニーから外部オーディエンスに追加されるとすぐに上書きされます。
 
 _既存のオーディエンスを使用するには：_
 
