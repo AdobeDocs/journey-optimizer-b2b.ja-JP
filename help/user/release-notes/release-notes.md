@@ -2,9 +2,9 @@
 title: リリースノート
 description: Adobe Journey Optimizer B2B エディションの最新のリリースノート
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f4c0870e3cf8a8c1db3ed2f11f7ecfdf244f69fe
+source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2004'
 ht-degree: 81%
 
 ---
@@ -27,7 +27,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | ---- | ---- | ----------- |
 | 機能 | アカウントリスト | 静的または動的アカウントリストを作成して、業界、場所、会社の規模など、定義した条件に基づいて指定顧客をターゲットにできるようになりました。 <a href="../accounts/account-lists.md">詳細情報</a> |
 | 機能 | アカウントリストのジャーニーオーケストレーション | ジャーニーアクションノードを使用して、静的アカウントリストのアカウントを追加および削除します。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">詳細情報</a> |
-| 機能強化 | Marketo Engageのジャーニーメンバーシップのフィルタリング | ジャーニーオーディエンスにAdobe Journey Optimizer B2B edition アカウントリストを使用してから、Marketo Engage スマートリストで _アカウントリストのメンバー_ フィルターを使用する。 &lt;a href=&quot;../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list> 詳細情報 </a> |
+| 機能強化 | Marketo Engageのジャーニーメンバーシップのフィルタリング | ジャーニーオーディエンスにAdobe Journey Optimizer B2B edition アカウントリストを使用してから、Marketo Engage スマートリストで _アカウントリストのメンバー_ フィルターを使用する。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">詳細情報</a> |
 | 機能 | 非アクティブフィルター | メールの無操作状態、興味深い瞬間、データ値の変化、訪問した web ページなど、Marketo Engageのキャンペーンやプログラム内の無操作状態に基づいてジャーニーを調整します。 <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">詳細情報</a> |
 | 機能強化 | 訪問済み web ページフィルター | Marketo Engageのキャンペーンとプログラムに関連付けられた、訪問した web ページのアクティビティに基づいてジャーニーを調整します。 <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">詳細情報</a> |
 
@@ -41,7 +41,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | ---- | ---- | ----------- |
 | 機能 | アカウントジャーニーの複製 | アカウントジャーニーで重複アクションを使用できるようになりました。 アカウントジャーニーの詳細を複製するか、フローとパス構造の単純なスケルトンのみを複製できます。 <a href="../journeys/journey-overview.md#duplicate-journey">詳細情報</a> |
 | 機能 | アカウントジャーニーのマイトークン | アカウントジャーニーに固有の値を持つカスタムトークンのセットを定義できるようになりました。 このカスタムトークンのセットは _マイトークン_ と呼ばれ、これらのカスタムトークンはすべて、ジャーニーメールのオーサリング時にパーソナライゼーション用に使用されます。 <a href="../content/personalization-my-tokens.md">詳細情報</a> |
-| 機能 | 購買グループ ステージの削除 | 購入グループステージモデルは、ドラフト状態または公開済み状態の場合に削除できます。 公開（ライブ）されている場合は、ソリューションの関心に関連付けられていない場合にのみ削除できます。 <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">詳細情報</a> |
+| 機能 | 削除購入段階グループ | 購入グループステージモデルは、ドラフト状態または公開済み状態のときに削除できます。 公開（ライブ）されている場合は、ソリューションの関心に関連付けられていない場合にのみ削除できます。 <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">詳細情報</a> |
 | 機能強化 | ジャーニーノードの数 | ノードレベルでの公開済みジャーニーメンバーシップのカウントに対する可視性が向上しました。 _ジャーニーマップ_ では、ノードに _[!UICONTROL 入力されたアカウントの合計]_ が表示されます。 アクションノードを選択すると、右側の詳細に _[!UICONTROL まだアクションが実行されていないアカウント]_ も含まれます。 _イベントをリッスン_ ノードの詳細には、_[!UICONTROL この手順のアカウント]_ が含まれます。 この情報を使用して、ライブジャーニー、完了ジャーニーおよび中止されたジャーニーでのアカウントの進行状況を検証します。 |
 
 ## 2025.2 リリースノート
