@@ -3,8 +3,8 @@ user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B エディションの概要と、組み込みの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
 source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 91%
    + [トラッキングとメールプロトコル](./start/email-protocols.md)
 + AI アシスタント {#ai-assistant}
    + [概要](./ai-assistant/ai-assistant-overview.md)
-   + [AI アシスタント アクセスを有効にする](./ai-assistant/enable-ai-assistant-access.md)
+   + [AI アシスタントへのアクセスを有効にする](./ai-assistant/enable-ai-assistant-access.md)
    + [質問ガイダンス](./ai-assistant/question-guidance.md)
-   + [AI アシスタントの使用](./ai-assistant/use-ai-assistant.md)
+   + [AI アシスタントを使用](./ai-assistant/use-ai-assistant.md)
 + アカウントジャーニー {#account-journeys}
    + [概要](./journeys/journey-overview.md)
    + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
@@ -73,18 +73,18 @@ ht-degree: 91%
          + [メールテンプレートオーサリング](./content/email-template-authoring.md)
       + ランディングページテンプレート {#landing-page-templates}
          + [概要](./content/landing-page-templates.md)
-         + [ランディングページのテンプレートデザイン](./content/landing-page-template-design.md)
+         + [ランディングページテンプレートのデザイン](./content/landing-page-template-design.md)
    + フラグメント {#visual-fragments}
       + [概要](./content/fragments.md)
       + [フラグメントオーサリング](./content/fragment-authoring.md)
    + フォーム {#forms}
       + [概要](./content/forms.md)
-      + [フォームデザイン](./content/form-design.md)
+      + [フォームのデザイン](./content/form-design.md)
    + ランディングページ {#landing-pages}
       + [概要](./content/landing-pages.md)
       + [ランディングページのデザイン](./content/landing-page-design.md)
    + [条件付きコンテンツ](./content/conditional-content.md)
-+ Insights ダッシュボード {#dashboards}
++ インサイトダッシュボード {#dashboards}
    + [インテリジェントダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントの概要](./dashboards/engagement-dashboard.md)
    + [購買グループの概要](./dashboards/buying-groups-dashboard.md)

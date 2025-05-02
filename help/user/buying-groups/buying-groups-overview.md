@@ -5,8 +5,8 @@ feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,7 @@ _[!UICONTROL 購買グループ]_&#x200B;ページは、次のタブで構成さ
 | タブ | 説明 |
 | --- | ----------- |
 | [!UICONTROL 概要] | このタブはデフォルトで、[購買グループダッシュボード](../dashboards/buying-groups-dashboard.md)が表示されます。 |
-| [!UICONTROL 参照] | このタブでは、次のアクティビティがサポートされています。 <ul><li>既存の購買グループのリストを表示。 </li><li>購買グループ名別に検索。 </li><li>ソリューションに対する関心別にフィルタリング。 </li><li>購買グループの詳細にドリルイン。 </li><li>購入グループを作成します。 </li></ul> |
+| [!UICONTROL 参照] | このタブでは、次のアクティビティがサポートされています。 <ul><li>既存の購買グループのリストを表示。 </li><li>購買グループ名別に検索。 </li><li>ソリューションに対する関心別にフィルタリング。 </li><li>購買グループの詳細にドリルイン。 </li><li>購買グループを作成。 </li></ul> |
 | [!UICONTROL ソリューションに対する関心] | このタブでは、次のアクティビティがサポートされています。 <ul><li>既存の購買グループのリストを表示。 </li><li>購買グループ名別に検索。 </li><li>ソリューションに対する関心プロパティにアクセスして編集。 </li><li>ソリューションに対する関心を作成。 </li><li>ソリューションに対する関心を削除。 </li><li>購買グループジョブを表示および削除。 </li></ul> |
 | [!UICONTROL 役割テンプレート] | このタブでは、次のアクティビティがサポートされています。 <ul><li>既存の役割テンプレートのリストを表示。 </li><li>役割テンプレート名別に検索。 </li><li>役割テンプレートのプロパティと条件にアクセスして編集。 </li><li>役割テンプレートを作成。 </li><li>役割テンプレートを削除。 </li></ul> |
 | [!UICONTROL ステージ] | このタブでは、次のアクティビティがサポートされています。 <ul><li>既存の購買グループステージモデルを表示。 </li><li>ドラフト購買グループステージモデルにアクセスして編集。 </li><li>購買グループステージモデルを作成。 </li></ul> |
@@ -138,7 +138,7 @@ _[!UICONTROL 購買グループ]_&#x200B;ページは、次のタブで構成さ
 
 >[!NOTE]
 >
->エンゲージメントスコアアクティビティは、Marketo Engage[ ユーザーのアクティビティログ ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} に記録されます。
+>エンゲージメントスコアアクティビティは、[ユーザーの Marketo Engage アクティビティログ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}に記録されます。
 
 +++
 
