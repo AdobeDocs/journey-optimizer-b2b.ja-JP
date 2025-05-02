@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition の概要
 description: Adobe Journey Optimizer B2B エディションの主な機能、ユースケース、アーキテクチャについて説明します。
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B Edition は、Adobe Experience Platform の&#x200B;_
 
 >[!NOTE]
 >
->ライセンスの使用権限と、パフォーマンスガードレールと静的な制限に関する対応する [ 製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} を確認します。
+>パフォーマンスガードレールと静的制限について詳しくは、ライセンスの使用権限と対応する[製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}を参照してください。
 
 ### サブスクリプションモデル
 
