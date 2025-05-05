@@ -91,7 +91,7 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
      >[!NOTE]
      >
      >トラッキングを許可するが無効にする _[!UICONTROL mkt_tok を含める]_ 場合、宛先 URL には、リダイレクト後の `mkt_tok` クエリ文字列パラメーターは含まれません。 このパラメーターは、Marketo Engage ランディングページおよびMunchkinで使用され、人物アクティビティ（メールの登録解除など）を確実にトラッキングします。 Web サイトでパラメーターが問題を引き起こしている場合以外は、このオプションを無効にしないでください。<br/>
-     >Web サイトでのMunchkin トラッキングコードの使用について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"} を参照してください。
+     >Web サイトでのMunchkin トラッキングコードの使用について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"} を参照してください。
 
    ![SMS メッセージのリンクを追加ダイアログ ](./assets/sms-add-link-dialog.png){width="470"}
 

@@ -69,7 +69,7 @@ Adobe Express用の Enterprise ライセンスをお持ちの場合は、Express
 
 ![ 画像をAdobe Expressのエンタープライズエディターで開く ](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-使用可能な編集機能の詳細については、[Adobe Expressユーザーガイド ](https://helpx.adobe.com/express/user-guide.html){target="_blank"} を参照してください。
+使用可能な編集機能の詳細については、[Adobe Expressユーザーガイド ](https://helpx.adobe.com/jp/express/user-guide.html){target="_blank"} を参照してください。
 
 ## Adobe Expressのクイックアクション
 

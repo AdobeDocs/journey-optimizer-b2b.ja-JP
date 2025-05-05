@@ -50,11 +50,11 @@ Adobe Journey Optimizer B2B editionは、Marketo Engageのチャネル関数と�
 
 ![ ブランディングドメイン設定へのアクセス ](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-この設定は、1 つ以上のMarketo Engage ワークスペースのプライマリドメインを定義します。 新しいメールでは、デフォルトでこのドメインが使用されますが、マーケターはメールごとに上書きできます。 詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"} を参照してください。
+この設定は、1 つ以上のMarketo Engage ワークスペースのプライマリドメインを定義します。 新しいメールでは、デフォルトでこのドメインが使用されますが、マーケターはメールごとに上書きできます。 詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
->Journey Optimizer B2B editionおよびコネクテッド Marketo Engage インスタンスから複数のブランドをマーケティングしており、それぞれに独自のブランドトラッキングリンクを設定する場合は、ブランディングドメインを追加できます。 詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"} を参照してください。
+>Journey Optimizer B2B editionおよびコネクテッド Marketo Engage インスタンスから複数のブランドをマーケティングしており、それぞれに独自のブランドトラッキングリンクを設定する場合は、ブランディングドメインを追加できます。 詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"} を参照してください。
 
 ### [!UICONTROL &#x200B; カスタムヘッダーオプション &#x200B;] {#custom-header-options}
 
@@ -112,7 +112,7 @@ DKIMは、メール受信者がメールメッセージの送信者を検証す�
 
 DNS レコードの公開鍵と、接続されたMarketo Engage インスタンスで有効になった送信ドメインを使用して、送信メッセージにカスタムDKIM署名を使用します。 カスタム DKIM署名には、送信される各メールに暗号化されたデジタル署名が含まれます。 その後、受信者は、送信ドメインの DNS で _公開鍵_ を検索することで、デジタル署名を復号化できます。 メール内のキーが DNS レコード内のキーと一致する場合、受信側のメールサーバーはMarketo Engageを通じて送信されたメールを受け入れる可能性が高くなります。
 
-メール配信用のカスタム DKIM署名の設定について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} を参照してください。
+メール配信用のカスタム DKIM署名の設定について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} を参照してください。
 
 ## ボットアクティビティ
 
@@ -145,4 +145,4 @@ Marketo Engageでは、ボットアクティビティの確認に次の 2 つの
 >
 >Adobe Marketo Engageのこれらの設定にアクセスして編集するには、製品管理者権限が必要です。
 
-ボットアクティビティオプションの設定について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"} を参照してください。
+ボットアクティビティオプションの設定について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"} を参照してください。

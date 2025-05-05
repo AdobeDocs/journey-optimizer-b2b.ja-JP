@@ -26,7 +26,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
    >[!NOTE]
    >
-   >初めてメールを作成する場合は、Adobe Marketo Engage内でメールチャネルがから設定されていることを確認してください。 詳しくは、Marketo Engage ドキュメントの [ メール配信品質の確認 ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) を参照してください。
+   >初めてメールを作成する場合は、Adobe Marketo Engage内でメールチャネルがから設定されていることを確認してください。 詳しくは、Marketo Engage ドキュメントの [ メール配信品質の確認 ](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) を参照してください。
 
    ![ アクションの実行 – メールの送信 ](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

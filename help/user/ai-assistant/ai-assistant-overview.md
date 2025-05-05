@@ -77,9 +77,9 @@ _オペレーショナルインサイト_ とは、メタデータオブジェ�
 
 現在、AI アシスタントの範囲は次のとおりです。
 
-* [ 製品ナレッジ ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge):AI アシスタントは、Real-Time Customer Data PlatformおよびAdobe Journey Optimizer B2B editionの製品ナレッジに関する質問に回答できます。
+* [ 製品ナレッジ ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home#product-knowledge):AI アシスタントは、Real-Time Customer Data PlatformおよびAdobe Journey Optimizer B2B editionの製品ナレッジに関する質問に回答できます。
 
-* [ 運用に関するインサイト ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights)：属性、アカウントオーディエンス、データフロー、データセット、宛先、アカウントジャーニー、スキーマ、ソース、購入グループテンプレート、ソリューションの関心など、データオブジェクトの運用に関するインサイトについて、AI Assistant に質問することができます。
+* [ 運用に関するインサイト ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home#operational-insights)：属性、アカウントオーディエンス、データフロー、データセット、宛先、アカウントジャーニー、スキーマ、ソース、購入グループテンプレート、ソリューションの関心など、データオブジェクトの運用に関するインサイトについて、AI Assistant に質問することができます。
 
 ### プライバシー、セキュリティ、ガバナンス
 
@@ -91,7 +91,7 @@ Journey Optimizer B2B editionの AI アシスタントは、プライバシー�
 
 * AI アシスタントとやり取りするには、明示的な権限が必要です。
 
-   * 管理者は、[権限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)および [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse) を使用して権限を設定できます。
+   * 管理者は、[権限UI](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions)および [Admin Console](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/browse) を使用して権限を設定できます。
 
    * 権限はきめ細かく、サンドボックス管理者は、さまざまな質問カテゴリ(AI Assistantを使用した製品ナレッジベースの質問または運用上の洞察に関する質問)を行うことができるユーザーを構成できます。
 
