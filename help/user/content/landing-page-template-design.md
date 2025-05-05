@@ -3,14 +3,15 @@ title: ランディングページのテンプレートデザイン
 description: マーケターがランディングページの作成に再利用できるランディングページテンプレートのコンテンツをデザインおよび作成する方法について説明します。
 feature: Content
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
-source-git-commit: f0658fad82d6656bc052c1810530963404e29396
+exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
+source-git-commit: 4e203a5d1fb0c9d9dc2a6bd14705b17335c98ee3
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 9%
+ht-degree: 22%
 
 ---
 
-# ランディングページのテンプレートデザイン
+# ランディングページテンプレートのデザイン
 
 [ ランディングページテンプレートの作成 ](./landing-page-templates.md#create-a-landing-page-template) 後、ビジュアルデザインスペースを使用して、ページテンプレートの構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
@@ -19,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_template_structure"
 >title="ランディングページへの構造コンポーネントの追加"
->abstract="構造コンポーネントはランディングページのレイアウトを定義します。**構造** コンポーネントをキャンバスにドラッグ&amp;ドロップして、ページテンプレートのコンテンツのデザインを開始します。"
+>abstract="構造コンポーネントはランディングページのレイアウトを定義します。ページテンプレートのコンテンツのデザインを開始するには、**構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_template_content_components"
