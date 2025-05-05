@@ -204,4 +204,4 @@ _[!UICONTROL 非常に重要]_、_[!UICONTROL 重要]_、_[!UICONTROL 標準]_&#
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452926/?learn=on&captions=jpn)

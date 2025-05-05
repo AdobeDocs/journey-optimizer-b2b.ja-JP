@@ -233,4 +233,4 @@ _結合パス_ ノードを追加して、ジャーニー内のアカウント�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443257/?learn=on&captions=jpn)

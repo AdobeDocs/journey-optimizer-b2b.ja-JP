@@ -229,4 +229,4 @@ Marketo Engageの [ スマートリスト ](https://experienceleague.adobe.com/j
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443246/?learn=on&captions=jpn)
