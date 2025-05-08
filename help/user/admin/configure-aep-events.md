@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Experience Platform イベント定義の設定
 
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。
+管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。
 
 ![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
@@ -115,7 +115,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. イベント定義に使用する **[!UICONTROL イベントタイプ]** を選択します。
 
-   選択する [ イベントタイプ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
+   選択する [ イベントタイプ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
 
    * **[!UICONTROL イベントタイプを選択]** をクリックします。
    * ダイアログで、リストから 1 つ以上のイベントタイプを選択します（最大 20）。
