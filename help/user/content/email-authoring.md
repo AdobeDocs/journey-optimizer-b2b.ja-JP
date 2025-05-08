@@ -48,7 +48,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
 メールDesignerが起動し、以下のオプションからメールのデザイン方法を選択できます。
 
-* E メールDesignerインターフェイスを使用して ](#design-your-email-from-scratch) ゼロからメールをデザイン [ します。
+* E メールDesignerインターフェイスを使用して [&#128279;](#design-your-email-from-scratch) ゼロからメールをデザイン  します。
 
 * ファイルまたは .zip フォルダーから[既存の HTML コンテンツを読み込み](#import-existing-html-content)ます。
 
