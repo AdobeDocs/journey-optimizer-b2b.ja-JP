@@ -2,9 +2,9 @@
 title: XDM フィールド
 description: Adobe Experience PlatformとJourney Optimizer B2B editionの間で同期されるデフォルトの属性フィールドを確認します。
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1346'
 ht-degree: 23%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 23%
 
 >[!TIP]
 >
->[Experience Platform XDM ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b) に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
+>[Experience Platform XDM ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
 
 ## XDM ビジネスアカウント人物関係属性
 
-| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
+| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `personRoles` | 人物の役割 | ロール | 文字列配列 | アカウント上の人物に関連付けられた役割の配列（`owner, accountant, designer` など）。 |
+| `personRoles` | 人物の役割 | 役割 | 文字列配列 | アカウント上の人物に関連付けられた役割の配列（`owner, accountant, designer` など）。 |
 
 ## XDM ビジネスユーザー属性
 
@@ -29,7 +29,7 @@ ht-degree: 23%
 >
 >`workEmail.Address` 属性は必須です。 アカウントオーディエンスメンバーが空の場合、そのユーザーは取り込まれず、オーディエンスを参照するアカウントジャーニーおよび購入グループから除外されます。
 
-| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
+| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `b2b.isMarketingSuspended` | マーケティング中断指標 | マーケティング中断 | ブール値 | 値は、その人物のマーケティングが中断されているかどうかを示します。 |
 | `b2b.marketingSuspendedCause` | マーケティングの中断理由 | マーケティングの中断理由 | 文字列 | その人物のマーケティングが停止されている場合、このプロパティがその理由となります。 |
@@ -59,7 +59,7 @@ ht-degree: 23%
 >
 >`accountName` 属性は必須です。 アカウントオーディエンスのアカウントで空の場合、そのアカウントは取り込まれず、オーディエンスを参照するアカウントジャーニーおよび購入グループから除外されます。
 
-| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
+| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md){target="_blank"} | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `accountBillingAddress.city` | 市区町村 | 市区町村 | 文字列 | 請求先住所で使用される市区町村の名前。 |
 | `accountBillingAddress.country` | 国 | 国 | 文字列 | 請求先住所で使用される政府が管理する地域の名前。 `xdm:countryCode` 以外の場合は、自由形式のフィールドであり、どの言語でも国名を持つことができます。 |
@@ -79,9 +79,9 @@ ht-degree: 23%
 
 ## XDM Business Opportunity 属性
 
-さらに、商談データは XDM Business Opportunity クラスの属性として保存されます。この属性は、[ こちら ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field) で説明されているように、多対 1 の関係を通じて XDM Business Account クラスに関連付けることができます。
+さらに、商談データは XDM Business Opportunity クラスの属性として保存されます。これは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"} に記載されているように、多対 1 の関係を通じて XDM Business Account クラスに関連付けることができます。
 
-| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
+| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `expectedCloseDate` | 商談完了予定日 | 商談のクローズ予定日 | 文字列 | オポチュニティに対して期待されるクローズ日。 |
 | `expectedRevenue.amount` | 予想収益 | 商談の収益予測合計 | 文字列 | 金額と確率に基づいて計算された売上高。 |

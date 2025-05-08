@@ -2,8 +2,8 @@
 title: Journey Optimizer B2B Edition の基本を学ぶ
 description: Journey Optimizer B2B Edition の新規ユーザーとして、使用を開始する上での重要な領域について説明します。
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 100%
 
@@ -29,13 +29,13 @@ Adobe Journey Optimizer B2B Edition で取り扱う機能とツールは、チ�
 
 アクセス管理については、次のページを参照してください。
 
-1. **サンドボックスを作成**&#x200B;して、インスタンスを個別の独立した仮想環境に分割します。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **サンドボックスを作成**&#x200B;して、インスタンスを個別の独立した仮想環境に分割します。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
 1. **製品プロファイルを設定します**。製品プロファイルは、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできるようにする、Adobe Experience Platform の単一権限のセットです。[詳細情報](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. サンドボックスを含む製品プロファイルの&#x200B;**ユーザー権限を設定**&#x200B;し、チームメンバーを異なる製品プロファイルに割り当ててアクセス権を付与します。このタスクは、Admin Console で実行します。[詳細情報](../admin/user-management.md#create-a-user-group)
 
-1. Marketo Engage で&#x200B;**メール配信を設定**&#x200B;すると、チームがアカウントジャーニーからメールコンテンツを送信できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
+1. Marketo Engage で&#x200B;**メール配信を設定**&#x200B;すると、チームがアカウントジャーニーからメールコンテンツを送信できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **SMS サービスを設定します**。テキストメッセージサービスを個別に提供する、サポート対象のサードパーティ SMS プロバイダーの 1 つを設定し、Adobe Journey Optimizer B2B Edition でアカウント資格情報を設定します。[詳細情報](../admin/configure-channels-sms.md)
 

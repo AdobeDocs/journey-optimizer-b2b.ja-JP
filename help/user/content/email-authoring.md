@@ -3,7 +3,7 @@ title: メールオーサリング
 description: アカウントのジャーニーで使用される、パーソナライズされたメールコンテンツを作成する方法を説明します。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 15%
@@ -26,7 +26,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
    >[!NOTE]
    >
-   >初めてメールを作成する場合は、Adobe Marketo Engage内でメールチャネルがから設定されていることを確認してください。 詳しくは、Marketo Engage ドキュメントの [ メール配信品質の確認 ](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) を参照してください。
+   >初めてメールを作成する場合は、Adobe Marketo Engage内でメールチャネルがから設定されていることを確認してください。 詳しくは、Marketo Engage ドキュメントの [ メール配信品質の確認 ](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} を参照してください。
 
    ![ アクションの実行 – メールの送信 ](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -48,7 +48,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
 メールDesignerが起動し、以下のオプションからメールのデザイン方法を選択できます。
 
-* E メールDesignerインターフェイスを使用して [&#128279;](#design-your-email-from-scratch) ゼロからメールをデザイン  します。
+* E メールDesignerインターフェイスを使用して ](#design-your-email-from-scratch) ゼロからメールをデザイン [ します。
 
 * ファイルまたは .zip フォルダーから[既存の HTML コンテンツを読み込み](#import-existing-html-content)ます。
 

@@ -3,26 +3,26 @@ title: Experience Manager Assets の操作
 description: Adobe Journey Optimizer B2B editionでコンテンツをオーサリングする際に、接続されたAEM Assets リポジトリの画像アセットを使用する方法について説明します。
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Experience Managerアセットの操作
+# Experience Manager アセットの操作
 
-Adobe Experience Manager Assetsのas a Cloud ServiceをAdobe Journey Optimizer B2B editionと統合すると、マーケティングコンテンツで使用するデジタルアセットを簡単に見つけてアクセスできます。 コンテンツを作成する際には、左側のナビゲーションの _Experience Manager Assets_ 項目から、またアカウントジャーニーのメールコンテンツを作成する際に、アセットにアクセスできます。
+Adobe Experience Manager Assets as a Cloud ServiceをAdobe Journey Optimizer B2B editionと統合すると、マーケティングコンテンツで使用するデジタルアセットを簡単に見つけてアクセスできます。 コンテンツを作成する際には、左側のナビゲーションの _Experience Manager Assets_ 項目から、またアカウントジャーニーのメールコンテンツを作成する際に、アセットにアクセスできます。
 
 {{aem-assets-licensing-note}}
 
-これらのデジタルアセットを使用すると、Assetsのas a Cloud Serviceの最新の変更が、リンクされた参照を通じてライブメールキャンペーンに自動的に反映されます。 Adobe Experience Manager Assetsのas a Cloud Serviceで画像を削除すると、メール内の参照が壊れて画像が表示されます。 現在アカウントジャーニー内で使用されているアセットが変更または削除されると、画像の変更とその画像を使用しているジャーニーのリストがジャーニー作成者に通知されます。 アセットに対するすべての変更は、Adobe Experience Manager Assets中央リポジトリで行う必要があります。
+これらのデジタルアセットを使用すると、Assets as a Cloud Serviceの最新の変更内容が、リンクされた参照を通じてライブメールキャンペーンに自動的に反映されます。 Adobe Experience Manager Assets as a Cloud Serviceで画像を削除すると、メール内の参照が壊れて画像が表示されます。 現在アカウントジャーニー内で使用されているアセットが変更または削除されると、画像の変更とその画像を使用しているジャーニーのリストがジャーニー作成者に通知されます。 アセットに対するすべての変更は、Adobe Experience Manager Assets中央リポジトリで行う必要があります。
 
 環境に 1 つ以上の [Assets リポジトリ接続 ](../admin/configure-aem-repositories.md) がある場合、コンテンツ作成者は、メール、メールテンプレートまたはビジュアルフラグメントを作成するときに、AEM Assetsをアセットのソースとして使用できます。
 
 >[!IMPORTANT]
 >
->管理者は、Assetsへのアクセスを必要とするユーザーをAssets Consumer Users または/およびAssets Users 製品プロファイルに追加する必要があります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>管理者は、Assetsへのアクセスを必要とするユーザーをAssets Consumer Users または/およびAssets Users 製品プロファイルに追加する必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assets画像へのアクセス
 
@@ -32,7 +32,7 @@ Adobe Experience Manager Assetsのas a Cloud ServiceをAdobe Journey Optimizer B
 
 >[!NOTE]
 >
->現在、Adobe Journey Optimizer B2B editionでは、Adobe Experience Manager Assetsの画像アセットのみがサポートされています。 アセットに対する変更は、Adobe Experience Manager Assets中央リポジトリから行う必要があります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>現在、Adobe Journey Optimizer B2B editionでは、Adobe Experience Manager Assetsの画像アセットのみがサポートされています。 アセットに対する変更は、Adobe Experience Manager Assets中央リポジトリから行う必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 表示されるリポジトリの変更
 
@@ -42,7 +42,7 @@ Adobe Experience Manager Assetsのas a Cloud ServiceをAdobe Journey Optimizer B
 
 画像アセットをビジュアルキャンバスに追加するには、複数の方法があります。
 
-### 画像をドラッグ&amp;ドロップ
+### 画像をドラッグ＆ドロップ
 
 1. 左側のパネルに表示されている画像のサムネールを参照します。
 

@@ -4,20 +4,20 @@ description: Journey Optimizer B2B editionでアカウントジャーニーを�
 feature: Setup
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Experience Platform イベント定義の設定
 
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent) に反応するアカウントジャーニーを作成できます。
+管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。
 
-![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ ビデオの概要をご覧ください ](#overview-video)
+![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
-アカウントジャーニーでの AEP エクスペリエンスイベントの使用は、次の 2 つの手順で構成されています。
+アカウントジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
 
 1. AEP イベント定義を作成して公開します。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >必要なスキーマが確実に定義されるように、エンジニアリングチームと調整します。 [XDM スキーマの作成 ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition) は、データエンジニアが組織全体のユースケース要件に基づいて実行する複雑なプロセスです。
+  >必要なスキーマが確実に定義されるように、エンジニアリングチームと調整します。 [XDM スキーマの作成 ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition){target="_blank"} は、データエンジニアが組織全体のユースケース要件に基づいて実行する複雑なプロセスです。
 
 * **_イベントタイプ_** - XDM ExperienceEventType （イベント定義ごとに最大 20）。
 
@@ -81,7 +81,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 | -------------------- | ----------- |
 | 下書き | イベント定義を作成すると、そのイベント定義はドラフトステータスになります。 アカウントジャーニーで使用するために公開するまで、このステータスのままになります。 使用可能なアクション：<br/><ul><li>すべての詳細を編集<li>公開<li>削除 |
 | 公開日 | イベント定義を公開すると、アカウントジャーニーで使用できるようになります。 詳細は変更できません。 使用可能なアクション：<br/><ul><li>_イベントをリッスン_ ジャーニーノードで使用可能<li>ドラフトバージョンを作成<li>削除（使用中でない場合） |
-| 公開済み（ドラフトを使用） | 公開済みのイベント定義からドラフトを作成する場合、公開されたバージョンはアカウントジャーニーで引き続き使用でき、ドラフトバージョンは変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、まだ実行されていないアカウントジャーニーのイベント定義が更新されます。 使用可能なアクション：<br/><ul><li>すべての詳細を編集<li>ドラフトバージョンを公開<li>ドラフトバージョンを破棄<li>削除（使用中でない場合） |
+| 公開済み (ドラフトあり) | 公開済みのイベント定義からドラフトを作成する場合、公開されたバージョンはアカウントジャーニーで引き続き使用でき、ドラフトバージョンは変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、まだ実行されていないアカウントジャーニーのイベント定義が更新されます。 使用可能なアクション：<br/><ul><li>すべての詳細を編集<li>ドラフトバージョンを公開<li>ドラフトバージョンを破棄<li>削除（使用中でない場合） |
 
 ![ フラグメントステータスのライフサイクル ](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -115,7 +115,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. イベント定義に使用する **[!UICONTROL イベントタイプ]** を選択します。
 
-   選択する [ イベントタイプ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent#eventType) によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
+   選択する [ イベントタイプ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
 
    * **[!UICONTROL イベントタイプを選択]** をクリックします。
    * ダイアログで、リストから 1 つ以上のイベントタイプを選択します（最大 20）。
@@ -187,7 +187,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 >[!BEGINTABS]
 
->[!TAB  ドラフト ]
+>[!TAB ドラフト]
 
 1. 必要に応じて、イベント定義の詳細を変更します。
 
@@ -281,4 +281,4 @@ _公開済み（ドラフト）_ イベント定義を開くと、デフォル�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3448684/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

@@ -3,7 +3,7 @@ title: イベントをリッスン
 description: Journey Optimizer B2B editionでアカウントジャーニーの調整に使用できるイベントノードタイプのリッスンについて説明します。
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 16%
@@ -118,7 +118,7 @@ _イベントをリッスン_ ノードを追加して、イベントが発生�
 
 ### エクスペリエンスイベントをリッスン
 
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent) に反応するアカウントジャーニーを作成できます。 アカウントジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
+管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。 アカウントジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
 
 1. [AEP イベント定義を作成して公開します ](../admin/configure-aep-events.md)。
 
@@ -182,4 +182,4 @@ _ジャーニーにエクスペリエンスイベントを含めるには：_
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443235/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

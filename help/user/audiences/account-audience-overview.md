@@ -2,8 +2,8 @@
 title: アカウントオーディエンス
 description: アカウントオーディエンスと、アカウントベースのジャーニーを有効にする方法について説明します。
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: b6b26d9cb79926577ed7fc4ed50c094986796505
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 オーディエンスとは、類似した行動や特性を共有する一連のユーザーです。Journey Optimizer B2B Edition では、Adobe Real-Time Customer Data Platform B2B および B2P Edition にあるアカウントのセグメント化機能を使用します。アカウントのセグメント化を使用すると、ユーザーはシステム内の任意の B2B エンティティのデータを活用してアカウントオーディエンスを生成できます。これらのアカウントオーディエンスは、Journey Optimizer B2B Edition アカウントジャーニーの入力として機能し、シームレスなアクティベーションとパーソナライゼーション機能を促進します。
 
-アカウントオーディエンスとその定義方法について詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences)を参照してください。
+アカウントオーディエンスとその定義方法について詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}を参照してください。
 
 ## アカウントオーディエンスワークフロー
 
@@ -32,7 +32,7 @@ Journey Optimizer B2B Edition を使用すると、左側のナビゲーショ�
 
 ## オーディエンスの作成
 
-アカウントのセグメント化を作成して、アカウントオーディエンスを定義します。Journey Optimizer B2B Edition アプリケーション内で直接アカウントのセグメント化を作成することも、[セグメントビルダー UI](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder) を使用することもできます。Journey Optimizer B2B Edition でアカウントのセグメント化を作成するために使用できる手順を以下に示します。
+アカウントのセグメント化を作成して、アカウントオーディエンスを定義します。Journey Optimizer B2B Edition アプリケーション内で直接アカウントのセグメント化を作成することも、[セグメントビルダー UI](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"} を使用することもできます。Journey Optimizer B2B Edition でアカウントのセグメント化を作成するために使用できる手順を以下に示します。
 
 1. 左側のナビゲーションで、**[!UICONTROL アカウント]**／**[!UICONTROL オーディエンス]**&#x200B;を選択します。
 
