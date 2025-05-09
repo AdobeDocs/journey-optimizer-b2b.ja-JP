@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition の基本を学ぶ
 description: Journey Optimizer B2B Edition の新規ユーザーとして、使用を開始する上での重要な領域について説明します。
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
 ht-degree: 100%
 
