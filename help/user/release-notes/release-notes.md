@@ -3,9 +3,9 @@ title: リリースノート
 description: Adobe Journey Optimizer B2B エディションの最新のリリースノート
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2004'
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
 | 機能 | アカウントリスト | 業界、場所、会社の規模など、定義した条件で重点顧客をターゲットにする静的または動的アカウントリストを作成できるようになりました。<a href="../accounts/account-lists.md">詳細情報</a> |
-| 機能 | アカウントリストのジャーニーオーケストレーション | ジャーニーアクションノードを使用して、静的アカウントリストのアカウントを追加および削除します。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">詳細情報</a> |
-| 機能強化 | Marketo Engageのジャーニーメンバーシップのフィルタリング | ジャーニーオーディエンスにAdobe Journey Optimizer B2B edition アカウントリストを使用してから、Marketo Engage スマートリストで _アカウントリストのメンバー_ フィルターを使用する。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">詳細情報</a> |
-| 機能 | 非アクティブフィルター | メールの無操作状態、興味深い瞬間、データ値の変化、訪問した web ページなど、Marketo Engageのキャンペーンやプログラム内の無操作状態に基づいてジャーニーを調整します。 <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">詳細情報</a> |
-| 機能強化 | 訪問済み web ページフィルター | Marketo Engageのキャンペーンとプログラムに関連付けられた、訪問した web ページのアクティビティに基づいてジャーニーを調整します。 <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">詳細情報</a> |
+| 機能 | アカウントリストのジャーニーオーケストレーション | ジャーニーアクションノードを使用して、静的アカウントリストのアカウントを追加および削除します。<a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">詳細情報</a> |
+| 機能強化 | Marketo Engage でジャーニーメンバーシップをフィルタリング | ジャーニーオーディエンスに Adobe Journey Optimizer B2B Edition アカウントリストを使用し、Marketo Engage スマートリストで&#x200B;_アカウントリストのメンバー_&#x200B;フィルターを使用します。<a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">詳細情報</a> |
+| 機能 | 非アクティブフィルター | メールの非アクティビティ、注目のアクション、データ値の変更、訪問済みの web ページなど、Marketo Engage キャンペーンとプログラム内の非アクティビティに基づいてジャーニーを調整します。<a href="../journeys/split-merge-paths-nodes.md#activity-filtering">詳細情報</a> |
+| 機能強化 | 訪問済みの web ページフィルター | Marketo Engage キャンペーンとプログラムに関連付けられた訪問済みの web ページのアクティビティに基づいてジャーニーを調整します。<a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">詳細情報</a> |
 
 ## 2025.3 リリースノート
 
@@ -39,7 +39,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | アカウントジャーニーの複製 | アカウントジャーニーで重複アクションを使用できるようになりました。 アカウントジャーニーの詳細を複製するか、フローとパス構造の単純なスケルトンのみを複製できます。 <a href="../journeys/journey-overview.md#duplicate-journey">詳細情報</a> |
+| 機能 | アカウントジャーニーを複製 | アカウントジャーニーで複製アクションが使用できるようになりました。アカウントジャーニーの詳細を複製するか、フローとパス構造のシンプルなスケルトンのみを複製できます。<a href="../journeys/journey-overview.md#duplicate-journey">詳細情報</a> |
 | 機能 | アカウントジャーニーのマイトークン | アカウントジャーニーに固有の値を持つカスタムトークンのセットを定義できるようになりました。このカスタムトークンのセットは&#x200B;_マイトークン_&#x200B;と呼ばれ、これらのカスタムトークンはすべて、ジャーニーメールのオーサリング時にパーソナライゼーション用に使用されます。<a href="../content/personalization-my-tokens.md">詳細情報</a> |
 | 機能 | 購買グループのステージを削除 | 購買グループステージモデルは、ドラフト状態または公開済みの状態の場合に削除できます。公開済み（ライブ）の場合は、ソリューションに対する関心に関連付けられていない場合にのみ削除できます。<a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">詳細情報</a> |
 | 機能強化 | ジャーニーノードの数 | ノードレベルでの公開済みジャーニーメンバーシップの数に対する表示が向上しました。_ジャーニーマップ_&#x200B;では、ノードに&#x200B;_[!UICONTROL 入力済み合計アカウント数]_&#x200B;が表示されます。アクションノードを選択すると、右側の詳細には&#x200B;_[!UICONTROL まだアクションが実行されていないアカウント]_&#x200B;も含まれます。_イベントをリッスン_&#x200B;ノードの詳細には、_[!UICONTROL このステップのアカウント]_&#x200B;が含まれます。この情報を使用して、ライブ、完了、中止の各ジャーニーでのアカウントの進行状況を検証します。 |

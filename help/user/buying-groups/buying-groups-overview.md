@@ -4,9 +4,9 @@ description: Journey Optimizer B2B Edition の購買グループが、アカウ�
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1782'
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ Journey Optimizer B2B Edition で購買グループを確立し、販売チー�
 
 1. 購買グループを作成します。
 
-   * [ ソリューションの関心 ](./solution-interests.md) および [ 役割テンプレート ](./buying-groups-role-templates.md) を定義
-   * [ 購入グループを作成 ](./buying-groups-create.md#create-buying-groups) し、[ 購入グループステージ ](./buying-group-stages.md) を割り当てます。
+   * [ソリューションに対する関心](./solution-interests.md)と[役割テンプレート](./buying-groups-role-templates.md)を定義します。
+   * [購買グループを作成](./buying-groups-create.md#create-buying-groups)し、[購買グループステージ](./buying-group-stages.md)を割り当てます。
 
 1. 欠落している人物を識別します。
 
@@ -51,7 +51,7 @@ Journey Optimizer B2B Edition で購買グループを確立し、販売チー�
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. アカウントジャーニーの購入グループを使用します。
+1. アカウントジャーニーの購買グループを使用します。
 
 ## 購買グループとコンポーネントの表示
 
@@ -204,4 +204,4 @@ _[!UICONTROL 非常に重要]_、_[!UICONTROL 重要]_、_[!UICONTROL 標準]_&#
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3452926/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

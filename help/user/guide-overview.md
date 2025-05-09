@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: 組み込みの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整する Adobe Journey Optimizer B2B Edition 機能の使用方法について説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '719'
+ht-degree: 100%
 
 ---
 
@@ -13,33 +13,33 @@ ht-degree: 0%
 
 ## 新着情報？
 
-Journey Optimizer B2B edition アプリケーションおよびドキュメントに対する最新の追加機能および機能強化のサンプリングを以下に示します。
+Journey Optimizer B2B Edition アプリケーションとドキュメントの最新の追加事項と機能強化のサンプルを以下に示します。
 
 >[!BEGINTABS]
 
->[!TAB  アカウントリスト ]
+>[!TAB アカウントリスト]
 
-アカウントリストを作成します。これは、マーケターがターゲットの Journey Orchestration に使用できる名前付きアカウントのコレクションです。 アカウントリストでは、定義済みの条件（業界、場所、会社の規模など）に基づいて指定顧客をターゲットにすることができます。
+マーケターがターゲットのジャーニーオーケストレーションに使用できる重点顧客のコレクションであるアカウントリストを作成します。アカウントリストでは、業界、場所、会社の規模など、定義した条件で重点顧客をターゲットにすることができます。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="アカウントリストについて学ぶ"}
 
->[!TAB  スマート・リストの勘定科目リスト・フィルタ ]
+>[!TAB スマートリスト用のアカウントリストフィルター]
 
-アカウントリストフィルターを使用して、Marketo Engage スマートリストをフィルタリングできるようになりました。 これらのフィルターを使用すると、Journey Optimizer B2B edition内のアカウントジャーニーから、Marketo Engage キャンペーンおよびプログラム全体でアカウントリストメンバーを抑制して含めることができます。
+アカウントリストフィルターを使用して Marketo Engage スマートリストをフィルタリングできるようになりました。これらのフィルターを使用すると、Journey Optimizer B2B Edition 内のアカウントジャーニーから、Marketo Engage キャンペーンおよびプログラムをまたいでアカウントリストメンバーを抑制したり、含めたりすることができます。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Marketo Engage スマートリストで使用されるアカウントリストフィルターについて説明します"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Marketo Engage スマートリストで使用されるアカウントリストフィルターについて学ぶ"}
 
->[!TAB  非アクティブ履歴フィルター ]
+>[!TAB 非アクティビティ履歴フィルター]
 
-メール、興味深い瞬間、データ値の変化、訪問した web ページなど、Marketo Engage キャンペーンおよびプログラム内の非アクティブに基づいて、ジャーニーを進行させます。
+メール、注目のアクション、データ値の変更、訪問済みの web ページなど、Marketo Engage キャンペーンとプログラム内の非アクティビティに基づいてジャーニーを進行させます。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="非アクティブ履歴フィルターについて説明します"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="非アクティビティ履歴フィルターについて学ぶ"}
 
->[!TAB ジャーニーの複製 ]
+>[!TAB ジャーニーの複製]
 
-アカウントジャーニー構造を複製して手動のエラーを最小限に抑え、一貫性のある設定、フローおよびパスを確保します。 複製されたジャーニーでは、コンテンツやアクションを調整して、大きくて複雑なキャンペーンを管理しやすくすることができ&#x200B;ます。
+アカウントジャーニー構造を複製して、手動によるエラーを最小限に抑え、一貫性のある設定、フローおよびパスを確保します。複製したジャーニーでは、コンテンツやアクションを調整できるので、より大規模でより複雑なキャンペーンの管理が簡単になります。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="ジャーニーの複製について説明します"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="ジャーニーの複製について学ぶ"}
 
 >[!TAB インテリジェントインサイトダッシュボード]
 
@@ -51,13 +51,13 @@ Journey Optimizer B2B edition アプリケーションおよびドキュメン�
 
 Adobe Express クイックアクションを使用すると、切り抜き、サイズ変更、背景の削除、形式の変換などによりコンテンツをタッチアップできます。直感的な Adobe Express UI が組み込まれているので、画像アセットをすばやく微調整できます。
 
-Adobe Express Enterprise ライセンスを使用すると、Adobe Express の完全な機能スイートを活用できます。これらの機能を使用して、ブランドガイドラインを守りながら画像を磨き、強化し、コンテンツサプライチェーンの障害を取り除きます。
+Adobe Express Enterprise ライセンスを使用すると、Adobe Express の完全な機能スイートを活用できます。これらの機能を使用して、ブランドガイドラインを遵守しながら画像を磨き上げ、強化し、コンテンツサプライチェーンの障害を取り除きます。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Adobe Express を使用した画像編集について学ぶ"}
 
 >[!TAB フラグメントのカスタマイズ可能なフィールド]
 
-コンテンツデザイナーは、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。この設定を使用すると、メールまたはテンプレートの作成者は、必要に応じてカスタムフィールド値を指定できます。 このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。
+コンテンツデザイナーは、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。この設定により、メールまたはテンプレートの作成者は、必要に応じてカスタムフィールド値を指定できます。このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="コンテンツフラグメントのカスタムフィールドについて学ぶ"}
 
@@ -139,7 +139,7 @@ Adobe Express Enterprise ライセンスを使用すると、Adobe Express の�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">ドキュメント</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>
