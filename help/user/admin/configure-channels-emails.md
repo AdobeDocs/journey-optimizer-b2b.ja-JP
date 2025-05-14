@@ -50,11 +50,11 @@ Adobe Journey Optimizer B2B editionは、Marketo Engageのチャネル関数と�
 
 ![ ブランディングドメイン設定へのアクセス ](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-この設定は、1 つ以上のMarketo Engage ワークスペースのプライマリドメインを定義します。 新しいメールでは、デフォルトでこのドメインが使用されますが、マーケターはメールごとに上書きできます。 詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"} を参照してください。
+この設定は、1 つ以上のMarketo Engage ワークスペースのプライマリドメインを定義します。 新しいメールでは、デフォルトでこのドメインが使用されますが、マーケターはメールごとに上書きできます。 詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
->Journey Optimizer B2B editionおよびコネクテッド Marketo Engage インスタンスから複数のブランドをマーケティングしており、それぞれに独自のブランドトラッキングリンクを設定する場合は、ブランディングドメインを追加できます。 詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"} を参照してください。
+>Journey Optimizer B2B editionおよびコネクテッド Marketo Engage インスタンスから複数のブランドをマーケティングしており、それぞれに独自のブランドトラッキングリンクを設定する場合は、ブランディングドメインを追加できます。 詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"} を参照してください。
 
 ### [!UICONTROL &#x200B; カスタムヘッダーオプション &#x200B;] {#custom-header-options}
 
@@ -145,4 +145,4 @@ Marketo Engageでは、ボットアクティビティの確認に次の 2 つの
 >
 >Adobe Marketo Engageのこれらの設定にアクセスして編集するには、製品管理者権限が必要です。
 
-ボットアクティビティオプションの設定について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"} を参照してください。
+ボットアクティビティオプションの設定について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"} を参照してください。
