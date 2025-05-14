@@ -3,18 +3,18 @@ title: 条件付きコンテンツ
 description: アカウントジャーニー用のメールコンテンツをオーサリングする際に、コンテンツのバリエーションを作成し、条件付きルールを適用する方法を説明します。
 feature: Email Authoring, Content
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 1351880505fcf656f94dc5d9e383337d83faeff4
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 13%
+source-wordcount: '1305'
+ht-degree: 15%
 
 ---
 
 # 条件付きコンテンツ
 
-条件付きコンテンツを使用すると、条件付きルールに基づいてメールコンテンツを適応させることができます。 これらのルールは、プロファイル属性またはコンテキストイベントを使用して定義されます。 条件付きルールはルールビルダーで作成し、アカウントジャーニー間で再利用するために保存できます。
+条件付きコンテンツを使用すると、条件付きルールに基づいてメールコンテンツを適応させることができます。 これらのルールは、プロファイル属性またはコンテキストイベントを使用して定義されます。 ルールビルダーで条件付きルールを作成し、アカウントジャーニーをまたいで再利用するのに保存できます。
 
-Adobe Journey Optimizerでは、条件付きコンテンツをメールメッセージに追加するために、_条件_ ライブラリに保存されている条件付きルールを適用できます。 [ アカウントジャーニー内でメールを作成 ](./email-authoring.md) する際に、メールデザインスペース内で条件付きルールを適用します。
+Adobe Journey Optimizerでは、条件付きコンテンツをメールメッセージに追加するために、_条件_ ライブラリに保存されている条件付きルールを適用できます。 [ アカウントジャーニー用のメールコンテンツの作成 ](./email-authoring.md) の際に、メールデザインスペース内で条件付きルールを適用します。
 
 ## メールへの条件付きコンテンツの追加 {#email-content}
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizerでは、条件付きコンテンツをメールメッセ
 
    このコンポーネントは、条件付きコンポーネントとしてアクティブであることを示すために、オレンジで囲まれます。 **[!UICONTROL 条件付きコンテンツ]** パネルが左側に表示され、_デフォルトバリアント_ と_バリアント - 1 が表示されます。
 
-   ![ テキストコンポーネントの条件付きコンテンツを有効にする ](./assets/conditions-enable.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![ テキストコンポーネントの条件付きコンテンツを有効にする ](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
    デフォルトは、選択してアクティベートした元のコンテンツで、定義したバリアントのいずれにも条件ルールが満たされない場合に適用されます。
 
@@ -42,13 +42,13 @@ Adobe Journey Optimizerでは、条件付きコンテンツをメールメッセ
 
 1. 最初のバリアント（_バリアント - 1_）にポインタを合わせ、「_条件を選択_」アイコン（![ 条件アイコン ](../assets/do-not-localize/icon-select-condition.svg)）をクリックします。
 
-   ![ バリアントの条件を選択 ](./assets/conditions-variant-select.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![ バリアントの条件を選択 ](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
    _[!UICONTROL 条件を選択]_ ダイアログが開き、条件ライブラリが表示されます。
 
    条件の詳細を表示して目的に合わせるには、_詳細メニュー_ アイコン（**...**）をクリックし、「**[!UICONTROL 情報を表示]**」を選択します。
 
-   ![ 条件ライブラリアクセス条件の詳細 ](assets/conditions-select-dialog.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![ 条件ライブラリアクセス条件の詳細 ](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
    必要な条件が存在しない場合は、「新規作成 [ をクリックして ](#create-condition) 条件付きルールを作成 **[!UICONTROL します]**。
 
@@ -56,23 +56,23 @@ Adobe Journey Optimizerでは、条件付きコンテンツをメールメッセ
 
    関連する条件を確認するには、バリアントの _その他メニュー_ アイコン（**...**）をクリックし、「**[!UICONTROL 条件を表示]**」を選択します。
 
-   ![ バリアントに関連付けられた条件を表示 ](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![ バリアントに関連付けられた条件を表示 ](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    右上の X をクリックして、ポップアップを閉じます。
 
-   ![ 関連付けられた条件の詳細を表示 ](./assets/conditions-info-popup.png){width="500"}{width=&quot;500&quot;}
+   ![ 関連付けられた条件の詳細を表示 ](./assets/conditions-info-popup.png){width="500"}
 
 1. 読みやすくするために、バリアントの _その他メニュー_ アイコン（**...**）をクリックし、「名前を変更 **[!UICONTROL を選択して、バリアントの名前を変更し]** す。
 
    バリアントとその目的を識別するのに役立つ、バリアントにわかりやすい名前を入力します。
 
-   ![ バリアントの名前を変更 ](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![ バリアントの名前を変更 ](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. 左側のペインでバリアントを選択した状態で、条件が true の場合にメールメッセージに表示される方法を変更するように、コンポーネントを変更します。
 
    この例では、テキストコンポーネントのバリアントが、受信者の地域に基づいて異なる説明を使用しています。
 
-   ![ バリアントのコンポーネントを変更 ](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![ バリアントのコンポーネントを変更 ](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、「**[!UICONTROL バリアントを追加]**」をクリックして別のバリアントを定義します。
 
@@ -105,12 +105,12 @@ Adobe Journey Optimizerでは、条件付きコンテンツをメールメッセ
 
 | 条件タイプ | フィルター | 説明 |
 | -------------- | ------- | ----------- |
-| **アカウント** | アカウント属性 | アカウントプロファイルからの属性。次のものが含まれます。 <li>年間売上高</li><li>市区町村</li><li>国</li><li>従業員数</li><li>業界</li><li>名前</li><li>SIC コード</li><li>都道府県</li> |
-| | [!UICONTROL &#x200B; 特殊フィルター &#x200B;] > [!UICONTROL &#x200B; 購入グループあり &#x200B;] | アカウントに購買グループのメンバーがいないか、メンバーがいません。 また、次の 1 つ以上の条件に照らして評価することもできます。 <li>ソリューションの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li> |
-| | [!UICONTROL &#x200B; 特別なフィルター &#x200B;] > [!UICONTROL &#x200B; 商談あり &#x200B;] | アカウントがオポチュニティに関連している、または関連していない。 次のオポチュニティ属性の 1 つ以上に対して評価することもできます。 <li>金額<li>クローズ日<li>説明<li>予測収益<li>会計四半期<li>会計年度<li>予測カテゴリ<li>予測カテゴリ名<li>クローズ済み<li>獲得済み</li><li>最後のアクティビティの日付</li><li>顧客ソース<li>名前</li><li>次の手順</li><li>Probability<li>数量<li>ステージ</li><li>タイプ |
-| **人物** | [!UICONTROL &#x200B; アクティビティ履歴 &#x200B;] > [!UICONTROL &#x200B; メール &#x200B;] | ジャーニーに関連付けられたメールアクティビティ： <li>[!UICONTROL &#x200B; メール内のクリックされたリンク &#x200B;]</li><li>メール開封済み</li><li>メール配信済み</li><li>メールを送信済み</li> これらの条件は、ジャーニーの前半で選択したメールメッセージを使用して評価されます。 |
-|  | [!UICONTROL &#x200B; 人物の属性 &#x200B;] | ユーザープロファイルからの属性。以下が含まれます。 <li>市区町村</li><li>国</li><li>生年月日</li><li>メールアドレス</li><li>メール無効</li><li>メール中断済み</li><li>名</li><li>推測される都道府県 / 地域</li><li>役職</li><li>姓</li><li>携帯電話番号</li><li>電話番号</li><li>郵便番号</li><li>ステート</li><li>登録解除</li><li>登録解除の理由</li> |
-| | [!UICONTROL &#x200B; 特殊フィルター &#x200B;] > [!UICONTROL &#x200B; 購買グループのメンバー &#x200B;] | 次の 1 つ以上の条件に照らして評価された、その人物は購買グループ・メンバーであるか、そうでないメンバーである： <li>ソリューションの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>ロール</li> |
+| **アカウント** | アカウント属性 | アカウントプロファイルからの属性。次のものが含まれます。 <li>年間売上高</li><li>市区町村</li><li>国</li><li>従業員数</li><li>業界</li><li>名前</li><li>SIC コード</li><li>State</li> |
+| | [!UICONTROL  特殊フィルター ] > [!UICONTROL  購入グループあり ] | アカウントに購買グループのメンバーがいないか、メンバーがいません。 また、次の 1 つ以上の条件に照らして評価することもできます。 <li>ソリューションの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li> |
+| | [!UICONTROL  特別なフィルター ] > [!UICONTROL  商談あり ] | アカウントがオポチュニティに関連している、または関連していない。 次のオポチュニティ属性の 1 つ以上に対して評価することもできます。 <li>Amount<li>クローズ日<li>説明<li>予測収益<li>会計四半期<li>会計年度<li>予測カテゴリ<li>予測カテゴリ名<li>クローズ済み<li>獲得済み</li><li>最後のアクティビティの日付</li><li>顧客ソース<li>名前</li><li>次の手順</li><li>Probability<li>Quantity<li>Stage</li><li>タイプ |
+| **人物** | [!UICONTROL  アクティビティ履歴 ] > [!UICONTROL  メール ] | ジャーニーに関連付けられたメールアクティビティ： <li>[!UICONTROL  メール内のクリックされたリンク ]</li><li>メール開封済み</li><li>メール配信済み</li><li>メールを送信済み</li> これらの条件は、ジャーニーの前半で選択したメールメッセージを使用して評価されます。 |
+|  | [!UICONTROL  人物の属性 ] | ユーザープロファイルからの属性。以下が含まれます。 <li>市区町村</li><li>国</li><li>生年月日</li><li>メールアドレス</li><li>メール無効</li><li>メール中断済み</li><li>名</li><li>推測される都道府県 / 地域</li><li>役職</li><li>姓</li><li>携帯電話番号</li><li>電話番号</li><li>郵便番号</li><li>ステート</li><li>登録解除</li><li>登録解除の理由</li> |
+| | [!UICONTROL  特殊フィルター ] > [!UICONTROL  購買グループのメンバー ] | 次の 1 つ以上の条件に照らして評価された、その人物は購買グループ・メンバーであるか、そうでないメンバーである： <li>ソリューションの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>役割</li> |
 
 <!-- 
 
@@ -136,13 +136,13 @@ Adobe Journey Optimizerでは、条件付きコンテンツをメールメッセ
    * **[!UICONTROL 人物条件]** – このタイプを選択すると、人物属性とコンテキストイベントを使用して条件付きルールを作成できます。
    * **[!UICONTROL アカウント条件]** - アカウント属性を使用して条件付きルールを作成する場合に選択します。
 
-   ![ 作成する条件タイプを選択 ](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![ 作成する条件タイプを選択 ](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、条件付きルールを作成します。
 
    ルールに含める属性またはイベントごとに、項目をルールキャンバスにドラッグ&amp;ドロップします。 フィルターを展開し、式を入力します。
 
-   ![ 評価する式を入力 ](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![ 評価する式を入力 ](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
 
    複数のフィルターを含める場合は、**[!UICONTROL フィルターロジック]** を設定します。
 
@@ -153,7 +153,7 @@ Adobe Journey Optimizerでは、条件付きコンテンツをメールメッセ
 
    別の重複条件を作成する代わりに再利用できるように、意味のある名前や、組織内の他のユーザーにとって役に立つ説明を使用します。
 
-   ![ 条件付きルールの名前と説明を追加 ](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![ 条件付きルールの名前と説明を追加 ](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
 
 1. 条件付きルールが完成したら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -167,7 +167,7 @@ Adobe Journey Optimizerでは、条件付きコンテンツをメールメッセ
 
    ルールビルダーでルールの複製が開きます。 複製を、作成するルールの出発点として使用します。
 
-   ![ 重複するルールを使用して、必要なルールを作成します ](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![ 重複するルールを使用して、必要なルールを作成する ](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
 
 1. ルールビルダーで、必要に応じて条件を変更、追加または削除します。
 

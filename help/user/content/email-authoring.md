@@ -1,54 +1,26 @@
 ---
-title: メールオーサリング
-description: アカウントのジャーニーで使用される、パーソナライズされたメールコンテンツを作成する方法を説明します。
+title: メールメッセージのオーサリング
+description: Adobe Journey Optimizer B2B でメールコンテンツを作成する方法を説明します。 テンプレート、HTMLの読み込み、AI を利用したツールを使用して、メール通信をパーソナライズおよび最適化します。
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 15%
+source-wordcount: '949'
+ht-degree: 20%
 
 ---
 
-# メールオーサリング
+# メールメッセージのオーサリング
 
-Adobe Journey Optimizer B2B editionを使用すると、メールメッセージを顧客に送信できます。 ビジュアルデザイナーで、メッセージの作成、パーソナライズ、プレビューを行えます。
-
-## アカウントジャーニーへのメールアクションの追加
-
-_[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下の操作を実行すると、アカウントジャーニーでメール配信を設定できます。
-
-1. _[!UICONTROL アクションオン]_ ターゲットで、「**[!UICONTROL ユーザー]**」を選択します。
-1. _[!UICONTROL ユーザーに対するアクション]_ については、「**[!UICONTROL メールを送信]**」を選択します。
-1. _[!UICONTROL メールソース]_ については、「**[!UICONTROL 新しいメールを作成]**」を選択します。
-
-   または、「_[!UICONTROL Adobe Marketo Engageからメールを選択]_」オプションを使用して、Marketo Engageで作成済みのメールの 1 つを使用し、アカウントジャーニーの一部として送信することもできます。
-
-   >[!NOTE]
-   >
-   >初めてメールを作成する場合は、Adobe Marketo Engage内でメールチャネルがから設定されていることを確認してください。 詳しくは、Marketo Engage ドキュメントの [ メール配信品質の確認 ](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} を参照してください。
-
-   ![ アクションの実行 – メールの送信 ](assets/journey-node-send-email.png){width="700" zoomable="yes"}
-
-1. _[!UICONTROL アクションの実行]_ パネルの下部にある「**[!UICONTROL メールの作成]**」をクリックします。
-
-1. ダイアログで、メールの一意の **[!UICONTROL 名前]** と **[!UICONTROL 件名]** を入力します。
-
-   ![ 新しいメールを作成ダイアログ ](assets/create-new-email.png){width="400"}
-
-1. 「**[!UICONTROL 作成]**」をクリックします。
-
-   メールコンテンツページの _[!UICONTROL メールのプロパティ]_ セクションで、_[!UICONTROL 送信者メール]_ および _[!UICONTROL 返信先アドレス]_ フィールドが既に設定されています。 「_[!UICONTROL 送信者名]_」フィールドと「_[!UICONTROL 説明]_ （オプション）」フィールドの値を入力できます。
-
-## メールコンテンツを作成
+ジャーニーアクションノードに [ 新しい <!-- or duplicated --> メールアセットを追加 ](./add-email.md) した後、メールメッセージのコンテンツを定義できます。
 
 **[!UICONTROL メール]** プレビューパネルの上部にある _[!UICONTROL メールコンテンツを追加]_ をクリックします。
 
 ![ 「メールコンテンツを追加」をクリックします ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
-メールDesignerが起動し、以下のオプションからメールのデザイン方法を選択できます。
+このアクションは、メールデザインツールを起動し、次のオプションからメールのデザイン方法を選択できます。
 
-* E メールDesignerインターフェイスを使用して [&#128279;](#design-your-email-from-scratch) ゼロからメールをデザイン  します。
+* E メールDesignerインターフェイスを使用して ](#design-your-email-from-scratch) ゼロからメールをデザイン [ します。
 
 * ファイルまたは .zip フォルダーから[既存の HTML コンテンツを読み込み](#import-existing-html-content)ます。
 
@@ -62,7 +34,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 >
 >ジェネレーティブ AI を活用したAdobe Journey Optimizer B2B editionの AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。 AI アシスタントは、メール全体の生成、ターゲット設定されたテキストコンテンツの生成、およびオーディエンスの共感を得られる画像に対する AI アシスタントのレコメンデーションの取得により、配信の影響を最適化するのに役立ちます。 [詳細情報](./ai-assistant-emails.md)
 
-### メールをゼロからデザイン {#design-from-scratch}
+## メールをゼロからデザイン {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
@@ -93,7 +65,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
 内容に問題がなければ、「**[!UICONTROL 保存]**」をクリックします。
 
-### 既存のHTML コンテンツの読み込み
+## 既存のHTML コンテンツの読み込み
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -105,7 +77,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
 読み込んだコンテンツは、必要に応じて、視覚的なメールエディターツールを使用してパーソナライズできます。
 
-### テンプレートを選択
+## テンプレートを選択
 
 {{$include /help/_includes/content-design-select-template.md}}
 
@@ -165,7 +137,7 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 
 ### 詳細オプション
 
-電子メールデザイナーの上部にある _[!UICONTROL その他…]_ メニューから、次のアクションを実行できます。
+メールデザインスペースの上部にある _[!UICONTROL その他…]_ メニューから、次のアクションを実行できます。
 
 ![ 「詳細」をクリックしてテンプレートアクションにアクセス ](./assets/email-designer-more-menu.png){width="500"}
 
@@ -174,34 +146,6 @@ _[!UICONTROL 特定のアクションを実行]_ ノードを追加して以下�
 * **[!UICONTROL デザインを変更]** - _メールのデザイン_ ページに戻ります。 ここから、別のテンプレートを選択してデザインプロセスを再開したり、黒いキャンバスでコンテンツをゼロからデザインしたりできます。
 * **[!UICONTROL コンテンツテンプレートとして保存]** - メール本文をメールテンプレートとして保存し、複数のメールまたはメールテンプレートで再利用します。 テンプレートの名前と説明を指定し、保存済みのメールテンプレートのリストに保存します。
 * **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式のローカルシステムにダウンロードします。
-
-## アラートの確認
-
-メールメッセージコンテンツをデザインする際、重要な設定が見つからない場合は、インターフェイス（ページの右上）にアラートが表示されます。
-
-このボタンが表示されない場合は、検出された問題はありません。
-
-次の 2 種類のアラートを検出できます。
-
-* 推奨事項やベストプラクティスを参照する **_警告_**。例えば、次のようなものがあります。
-
-   * `The opt-out link is not present in the email body`：メール本文に購読解除リンクを追加することがベストプラクティスです。
-
-     >[!NOTE]
-     >
-     >マーケティングスタイルの電子メールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。
-
-   * `Text version of HTML is empty`：メール本文のテキストバージョンを必ず定義してください。このバージョンは、HTML コンテンツを表示できない場合に使用されます。
-
-   * `Empty link is present in email body`: メール内のすべてのリンクが正しいことを確認してください。
-
-   * `Email size has exceeded the limit of 100KB`：配信を最適化するには、メールのサイズが 100 KB を超えないようにしてください。
-
-* **_エラー_** 解決されない限り、ジャーニー/キャンペーンのテストやアクティブ化はできません。例えば、次のエラーなどです。
-
-   * `The subject line is missing`：メールの件名は必須です。
-
-   * `The email version of the message is empty`：このエラーは、メールコンテンツが設定されていない場合に表示されます。
 
 ## メールを確認およびテスト {#preview-test}
 
