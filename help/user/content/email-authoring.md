@@ -13,7 +13,7 @@ ht-degree: 20%
 
 # メールメッセージのオーサリング
 
-ジャーニーアクションノードに &lbrack; 新しい <!-- or duplicated --> メールアセットを追加 &rbrack;(./add-email.md) した後、メールメッセージのコンテンツを定義できます。
+ジャーニーアクションノードに [ 新しい <!-- or duplicated --> メールアセットを追加 ](./add-email.md) した後、メールメッセージのコンテンツを定義できます。
 
 **[!UICONTROL メール]** プレビューパネルの上部にある _[!UICONTROL メールコンテンツを追加]_ をクリックします。
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 
 このアクションは、メールデザインツールを起動し、次のオプションからメールのデザイン方法を選択できます。
 
-* E メールDesignerインターフェイスを使用して [&#128279;](#design-your-email-from-scratch) ゼロからメールをデザイン  します。
+* E メールDesignerインターフェイスを使用して ](#design-your-email-from-scratch) ゼロからメールをデザイン [ します。
 
 * ファイルまたは .zip フォルダーから[既存の HTML コンテンツを読み込み](#import-existing-html-content)ます。
 

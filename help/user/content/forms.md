@@ -76,7 +76,7 @@ Journey Optimizer B2B editionで再利用可能なフォームの作成を開始
 
 ### 新しいフォームを追加
 
-Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL Forms **[!UICONTROL リストページの右上にある]**&#x200B;フォームを作成]_ をクリックします。
+Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL Forms **[!UICONTROL リストページの右上にある]**フォームを作成]_ をクリックします。
 
 1. _[!UICONTROL フォームを作成]_ ダイアログで、便利な **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を入力します。
 
@@ -112,7 +112,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 ### 「ありがとうございます」ページを設定します
 
-右側の _[!UICONTROL 概要]_ パネルで、「ありがとうページ **&#x200B;**&#x200B;セクションまでスクロールし、「**[!UICONTROL フォローアップ]** 設定を使用して、訪問者がフォームを送信したときの動作を定義します。
+右側の _[!UICONTROL 概要]_ パネルで、「ありがとうページ **** セクションまでスクロールし、「**[!UICONTROL フォローアップ]** 設定を使用して、訪問者がフォームを送信したときの動作を定義します。
 
 * **[!UICONTROL ページを維持]** - フォームの送信時に訪問者のページを変えない場合は、このオプションを選択します。
 

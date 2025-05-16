@@ -78,11 +78,11 @@ Adobe Express Enterprise ライセンスがない場合は、Adobe Express ク�
 
 1. Adobe Express クイックアクションエディターで、画像編集機能のいずれかを選択して画像を変更します。
 
-   * [**[!UICONTROL &#x200B; 画像のサイズ変更 &#x200B;]**](#resize-image)
-   * [**[!UICONTROL &#x200B; 背景を削除 &#x200B;]**](#remove-background)
-   * [**[!UICONTROL &#x200B; 画像を切り抜く &#x200B;]**](#crop-image)
-   * [**[!UICONTROL PNG に変換 &#x200B;]**](#convert-file-format) （JPEG画像が読み込まれた場合）
-   * [**[!UICONTROL JPEGに変換 &#x200B;]**](#convert-file-format) （PNG 画像が読み込まれた場合）
+   * [**[!UICONTROL  画像のサイズ変更 ]**](#resize-image)
+   * [**[!UICONTROL  背景を削除 ]**](#remove-background)
+   * [**[!UICONTROL  画像を切り抜く ]**](#crop-image)
+   * [**[!UICONTROL PNG に変換 ]**](#convert-file-format) （JPEG画像が読み込まれた場合）
+   * [**[!UICONTROL JPEGに変換 ]**](#convert-file-format) （PNG 画像が読み込まれた場合）
 
    ![ 編集タイプを選択して画像を変更します ](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 

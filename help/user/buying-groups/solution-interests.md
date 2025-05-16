@@ -102,4 +102,4 @@ _[!UICONTROL ソリューションの関心]_ タブの **[!UICONTROL 購入グ�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3450114/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

@@ -17,7 +17,7 @@ ht-degree: 23%
 
 >[!TIP]
 >
->[Experience Platform XDM ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
+>[Experience Platform XDM ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
 
 ## XDM ビジネスアカウント人物関係属性
 
@@ -81,7 +81,7 @@ ht-degree: 23%
 
 ## XDM Business Opportunity 属性
 
-さらに、商談データは XDM Business Opportunity クラスの属性として保存されます。これは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"} に記載されているように、多対 1 の関係を通じて XDM Business Account クラスに関連付けることができます。
+さらに、商談データは XDM Business Opportunity クラスの属性として保存されます。これは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"} に記載されているように、多対 1 の関係を通じて XDM Business Account クラスに関連付けることができます。
 
 | [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

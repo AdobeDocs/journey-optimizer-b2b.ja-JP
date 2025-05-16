@@ -119,8 +119,8 @@ ht-degree: 1%
 | ------ | ---------- |
 | **[!UICONTROL ステージ名]** | ステージの名前。 情報アイコンをクリックして、ステージの説明を表示します。 |
 | **[!UICONTROL 次へのトランジットを許可]** | モデル内の _移動先_ アクションに有効なステージを一覧表示します。 |
-| **[!UICONTROL エントリポイントステージ]** | ステージがエントリポイントステージとして有効かどうかを示します（[!UICONTROL &#x200B; はい &#x200B;] または [!UICONTROL &#x200B; いいえ &#x200B;]）。 |
-| **[!UICONTROL 宛先]** | ステージが宛先ステージとして指定されているかどうかを示します（[!UICONTROL &#x200B; 成功 &#x200B;] または [!UICONTROL &#x200B; 失敗 &#x200B;]）。 |
+| **[!UICONTROL エントリポイントステージ]** | ステージがエントリポイントステージとして有効かどうかを示します（[!UICONTROL  はい ] または [!UICONTROL  いいえ ]）。 |
+| **[!UICONTROL 宛先]** | ステージが宛先ステージとして指定されているかどうかを示します（[!UICONTROL  成功 ] または [!UICONTROL  失敗 ]）。 |
 
 ![ ドラフトモデル用に定義されたステージと送信ルール ](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
 
@@ -365,4 +365,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3448695/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
