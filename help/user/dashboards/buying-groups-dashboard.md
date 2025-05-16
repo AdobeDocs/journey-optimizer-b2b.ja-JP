@@ -76,7 +76,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 データを操作するには、各グラフの右上にある _その他_ （**...**）メニューを使用します。
 
-### [!UICONTROL  ドリルスルー ]
+### [!UICONTROL &#x200B; ドリルスルー &#x200B;]
 
 個々のグループのスコアまたは分布を詳細に分析するには、「**[!UICONTROL ドリルスルー]**」を選択します。
 
@@ -86,7 +86,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 右上にある _その他_ （**...**）メニューをクリックし、**[!UICONTROL その他を表示]** を選択して [ 拡張データを表示 ](#view-more) することができます。
 
-### [!UICONTROL  詳細を表示 ]
+### [!UICONTROL &#x200B; 詳細を表示 &#x200B;]
 
 **[!UICONTROL さらに表示]** を選択すると、拡張されたデータとインサイトが表示されます。
 
