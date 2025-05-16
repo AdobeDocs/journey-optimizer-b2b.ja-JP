@@ -62,4 +62,4 @@ Remove a member of the buying group. -->
 
 ## チュートリアルビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451762/?learn=on&captions=jpn)

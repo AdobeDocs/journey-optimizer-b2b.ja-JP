@@ -164,4 +164,4 @@ Marketo Engageでは、_スマートキャンペーン_ プログラムのメン
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453298/?learn=on&captions=jpn)
