@@ -2,11 +2,12 @@
 title: 購買グループのステージ
 description: 購入グループステージと、売上目標に対するジャーニーの進行状況を追跡するためにそれらのステージを定義する方法について説明します。
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2344'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ![ 購入グループステージの例 ](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
-![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ ビデオの概要をご覧ください ](#overview-video)
+![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
 ## 購入グループステージモデルの定義
 
@@ -118,8 +119,8 @@ ht-degree: 0%
 | ------ | ---------- |
 | **[!UICONTROL ステージ名]** | ステージの名前。 情報アイコンをクリックして、ステージの説明を表示します。 |
 | **[!UICONTROL 次へのトランジットを許可]** | モデル内の _移動先_ アクションに有効なステージを一覧表示します。 |
-| **[!UICONTROL エントリポイントステージ]** | ステージがエントリポイントステージとして有効かどうかを示します（[!UICONTROL &#x200B; はい &#x200B;] または [!UICONTROL &#x200B; いいえ &#x200B;]）。 |
-| **[!UICONTROL 宛先]** | ステージが宛先ステージとして指定されているかどうかを示します（[!UICONTROL &#x200B; 成功 &#x200B;] または [!UICONTROL &#x200B; 失敗 &#x200B;]）。 |
+| **[!UICONTROL エントリポイントステージ]** | ステージがエントリポイントステージとして有効かどうかを示します（[!UICONTROL  はい ] または [!UICONTROL  いいえ ]）。 |
+| **[!UICONTROL 宛先]** | ステージが宛先ステージとして指定されているかどうかを示します（[!UICONTROL  成功 ] または [!UICONTROL  失敗 ]）。 |
 
 ![ ドラフトモデル用に定義されたステージと送信ルール ](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
 
@@ -189,7 +190,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 購買グループ ステージ モデルを削除します
 
-購入グループステージモデルは、ドラフト状態または公開済み状態の場合に削除できます。 公開（ライブ）されている場合は、ソリューションの関心に関連付けられていない場合にのみ削除できます。
+購買グループステージモデルは、ドラフト状態または公開済みの状態の場合に削除できます。公開（ライブ）されている場合は、ソリューションの関心に関連付けられていない場合にのみ削除できます。
 
 1. 左側のナビゲーションで **[!UICONTROL アカウント]**/**[!UICONTROL 購入グループ]** に移動します。
 
@@ -364,4 +365,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3448695/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

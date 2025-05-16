@@ -2,8 +2,9 @@
 title: ソリューションの関心
 description: ソリューションの関心と、購入グループ内で使用するためにソリューションを定義する方法について説明します。
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 1%
@@ -101,4 +102,4 @@ _[!UICONTROL ソリューションの関心]_ タブの **[!UICONTROL 購入グ�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3450114/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

@@ -1,9 +1,11 @@
 ---
 title: アカウントオーディエンス
 description: アカウントオーディエンスと、アカウントベースのジャーニーを有効にする方法について説明します。
+feature: Audiences
+role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 

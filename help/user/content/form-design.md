@@ -1,17 +1,18 @@
 ---
 title: フォームデザイン
 description: ビジネスリード情報の収集に使用する再利用可能なフォームを設計する方法について説明します。
-feature: Content
+feature: Forms, Content Design Tools
+role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
 
 ---
 
-# フォームデザイン
+# フォームのデザイン
 
 [ フォームを作成 ](./landing-pages.md#create-a-landing-page) した後、ビジュアルデザインスペースは、デフォルトの基本フォーム定義でドラフトを開きます。 右側の _[!UICONTROL 概要]_ パネルで **[!UICONTROL フォームを編集]** をクリックし、ビジュアルデザインスペースを使用してフォームのスタイルとフィールドコンポーネントを定義します。
 

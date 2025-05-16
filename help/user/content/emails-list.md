@@ -2,7 +2,9 @@
 title: メール
 description: メール リストを使用すると、Adobe Journey Optimizer B2B editionでメールコンテンツを管理できます。 ジャーニー全体でメールを簡単に評価および更新できます。
 feature: Email Authoring, Content
-source-git-commit: 6517a953692a56bd31c5b0f2fa5f15f40c6743b5
+role: User
+exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%

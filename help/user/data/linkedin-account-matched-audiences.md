@@ -1,8 +1,10 @@
 ---
 title: LinkedIn Account Matched Audiences
 description: LinkedIn アカウントを接続し、購入グループ用のデータフローをアクティブ化する方法を説明します。
+feature: Integrations, Audiences, Buying Groups
+role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 16%
@@ -13,7 +15,7 @@ ht-degree: 16%
 
 Journey Optimizer B2B editionは、アカウントでマッチしたオーディエンスを通じて LinkedIn Ad オーディエンスを生成する機能を提供し、顧客が購入グループで空の役割を果たすのを支援するように設計されています。 購入グループフィルターのセットを定義することで、LinkedIn でマッチしたオーディエンスを維持し、購入グループパラメーターに一致する見込み客をターゲットにすることができます。 この機能は、Experience Platform の宛先を活用して統合のいくつかの側面を管理します。データフローの上限は 10 個です。
 
-Journey Optimizer B2B editionからデータフローを開始する前に、一致したオーディエンスの [ （会社） LinkedIn 宛先コネクタのインスタンスが少なくとも 1 つ必要で ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Experience Platform アプリケーションに LinkedIn Campaign Manager アカウントが設定されている必要があります。
+Journey Optimizer B2B editionからデータフローを開始する前に、一致したオーディエンスの [ （会社） LinkedIn 宛先コネクタのインスタンスが少なくとも 1 つ必要で ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Experience Platform アプリケーションに LinkedIn Campaign Manager アカウントが設定されている必要があります。
 
 ## 新しい LinkedIn アカウント接続を設定 {#linkedin-destination-setup}
 
@@ -46,7 +48,7 @@ Journey Optimizer B2B editionからデータフローを開始する前に、一
 
    >[!IMPORTANT]
    >
-   >この時点で、**宛先の詳細 _[!UICONTROL を入力**&#x200B;ないでください]_。 接続のみが必要です。
+   >この時点で、**宛先の詳細 _[!UICONTROL を入力**ないでください]_。 接続のみが必要です。
 
 ## アカウントの詳細の更新
 
@@ -116,4 +118,4 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B editionの
 
 LinkedIn 広告オーディエンスなどの有料メディアチャネルを通じてアカウントメンバーと関わり、メンバーを獲得、育成し、セールスの対象として認定できます。 アカウントジャーニーで _アクションの実行_ ノードを使用し、様々なアカウントメンバーに最適な外部チャネルを通じて、アカウントの主要メンバーとのエンゲージメントを自動化します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448673/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

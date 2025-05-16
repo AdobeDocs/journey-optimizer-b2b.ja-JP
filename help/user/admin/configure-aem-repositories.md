@@ -2,8 +2,9 @@
 title: Experience Manager アセットリポジトリーの設定
 description: Journey Optimizer B2B edition コンテンツオーサリングで使用するExperience Manager Assets リポジトリへの接続を設定する方法について説明します。
 feature: Assets, Integrations
+role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 Adobe Journey Optimizer B2B editionは、Adobe Experience Manager Assets as a Cloud Serviceと統合されており、アカウントジャーニー内でメールなどのアセットを使用する以上のことが可能になっています。 Experience Manager Assetsとの情報交換により、透明性が確保されます。 Adobe Experience Assetsへの接続を設定してこの機能を有効にします。
 
-Adobe Experience Manager Cloud Managerはプログラム別に整理されており、各プログラムには複数の環境とリポジトリがあります（[ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 Adobe Journey Optimizer B2B editionでAdobe Experience Manager Assetsを設定する場合、デジタルアセットへのアクセスに使用する各リポジトリへの接続を設定します。
+Adobe Experience Manager Cloud Managerはプログラム別に整理されており、各プログラムには複数の環境とリポジトリがあります（[ 詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 Adobe Journey Optimizer B2B editionでAdobe Experience Manager Assetsを設定する場合、デジタルアセットへのアクセスに使用する各リポジトリへの接続を設定します。
 
 {{aem-assets-licensing-note}}
 
 ## 前提条件
 
-* 目的の環境のサービス資格情報をAEM ヘッドレス Developer Consoleで生成します（[ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
+* 目的の環境のサービス資格情報をAEM ヘッドレス Developer Consoleで生成します（[ 詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
 * 接続に必要な証明書を入手します。 ベストプラクティスとして、証明書の有効期限が切れるまで、少なくとも 6 か月は残っていることを確認します。 証明書は 365 日ごとに期限切れになります。
 * Adobe Journey Optimizer B2B editionでは、一度に 1 つのデジタルアセット管理ソースへのアクセスをサポートしています。 切り替える前に、必要なアセットがAdobe Experience Managerで使用可能であることを確認してください。
 
@@ -32,7 +33,7 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
 1. 左側のナビゲーションで **[!UICONTROL 管理]**/**[!UICONTROL 設定]** を選択します。
 
-1. 中間パネルの **0&rbrace;Assets&rbrace; をクリックします。**
+1. 中間パネルの ]**0}Assets} をクリックします。**[!UICONTROL 
 
    ![Assets設定スペースへのアクセス ](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 

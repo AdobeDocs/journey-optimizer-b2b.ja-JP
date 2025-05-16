@@ -1,9 +1,10 @@
 ---
 title: インテリジェントダッシュボード
 description: 購入グループとアカウント指標の包括的なビューを提供するインテリジェントダッシュボードについて説明します
-feature: Dashboards, Buying Groups
+feature: Dashboards, Intelligent Insights, Buying Groups
+role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1688'
 ht-degree: 15%
@@ -284,7 +285,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 _情報_ （![ 情報アイコン ](../assets/do-not-localize/icon-info.svg)）をクリックして、次の詳細を含むテーブルを表示します。
 
 * 購買グループ名（名前をクリックして購買グループの詳細ページを開きます）
-* ロール
+* 役割
 * ソリューションに対する関心
 * 製品の意図
 * 製品

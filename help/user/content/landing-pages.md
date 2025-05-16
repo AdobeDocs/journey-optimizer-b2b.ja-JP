@@ -1,10 +1,11 @@
 ---
 title: ランディングページ
 description: ランディングページと、アカウントジャーニーおよびキャンペーンをサポートするためのランディングページの作成および管理方法について説明します。
-feature: Content
+feature: Landing Pages, Content
+role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 3%
@@ -166,7 +167,7 @@ Adobe Journey Optimizer B2B editionには、独自のランディングページ
 
 >[!BEGINTABS]
 
->[!TAB  ドラフト ]
+>[!TAB ドラフト]
 
 1. _[!UICONTROL ランディングページ]_ リストページで、ランディングページの名前をクリックして開きます。
 

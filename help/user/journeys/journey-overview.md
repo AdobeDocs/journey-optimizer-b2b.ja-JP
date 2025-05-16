@@ -2,9 +2,10 @@
 title: アカウントジャーニー
 description: アカウントジャーニーと、それらを作成および管理する方法について説明します。
 feature: Account Journeys
+role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 100%
 
@@ -154,4 +155,4 @@ _アカウントジャーニー_&#x200B;リストには、Journey Optimizer B2B 
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443208/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

@@ -1,10 +1,10 @@
 ---
 title: ユーザ管理
 description: チームメンバーをJourney Optimizer B2B edition製品プロファイルに割り当てる方法について説明します。
-feature: Setup
+feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 6e97e687ca577d89245d40c22a61c536e92c869c
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1879'
 ht-degree: 2%
@@ -62,7 +62,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _Standard User_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
 
-For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
+For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
 
 >[!ENDSHADEBOX]-->
 
@@ -107,7 +107,7 @@ For more information about managing these permissions within Marketo Engage, see
    * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
    * [!UICONTROL Adobe Experience Platform のデータ収集]
-   * [!UICONTROL &#x200B; データ収集のすべてのアクセス &#x200B;]
+   * [!UICONTROL  データ収集のすべてのアクセス ]
 
    ![Admin Console - ユーザーグループ – 商品を追加 ](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
 
@@ -143,7 +143,7 @@ User Management について詳しくは、Admin Console ドキュメントの [
 
 Adobe Experience Platformの _権限_ 領域では、管理者は、ユーザーの役割とアクセスポリシーを定義して、製品アプリケーション内の機能とオブジェクトのアクセス権限を管理できます。 このアプリでは、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたサンドボックスとユーザーを管理することもできます。
 
-Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [ ロールの権限の管理 ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
+Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [ ロールの権限の管理 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
 
 ### B2B 製品の権限
 
@@ -281,18 +281,18 @@ User Management について詳しくは、Admin Console ドキュメントの [
    * 左側の _[!UICONTROL リソース]_ リストで「**[!UICONTROL プロファイル管理]**」項目を見つけ、「_追加_ （**+**）」アイコンをクリックして属性を追加します。
 
    * 属性に次の権限を追加します。
-      * [!UICONTROL &#x200B; セグメントの表示 &#x200B;]
-      * [!UICONTROL &#x200B; セグメントの管理 &#x200B;]
-      * [!UICONTROL &#x200B; プロファイルの表示 &#x200B;]
-      * [!UICONTROL &#x200B; プロファイルの管理 &#x200B;]
-      * [!UICONTROL B2B プロファイルの表示 &#x200B;]
-      * [!UICONTROL B2B プロファイルの管理 &#x200B;]
+      * [!UICONTROL  セグメントの表示 ]
+      * [!UICONTROL  セグメントの管理 ]
+      * [!UICONTROL  プロファイルの表示 ]
+      * [!UICONTROL  プロファイルの管理 ]
+      * [!UICONTROL B2B プロファイルの表示 ]
+      * [!UICONTROL B2B プロファイルの管理 ]
 
    ![Experience Platform – 新しい役割のプロファイルを追加 ](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 
 1. B2B 製品の権限を追加します。
 
-   役割に必要な製品機能を決定するには [&#128279;](#b2b-product-permissions)B2B 製品の権限のリストを参照してください。
+   役割に必要な製品機能を決定するには ](#b2b-product-permissions)[B2B 製品の権限のリストを参照してください。
 
    左側の _[!UICONTROL リソース]_ リストで、**[!UICONTROL B2B]** 項目を見つけ、_追加_ （**+**）アイコンをクリックして、役割に対して有効にする各属性を追加します。
 

@@ -1,7 +1,10 @@
 ---
 title: ジャーニーとプログラムでアカウント一覧を使用する
 description: ジャーニーでアカウントリストメンバーシップを調整し、アカウントリストメンバーシップに基づいてMarketo Engage スマートリストをフィルタリングする方法について説明します。
-source-git-commit: 0845bff023741ebf8aca448c65950beceae77cf1
+feature: Account Lists, Account Journeys
+role: User
+exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -74,7 +77,7 @@ ht-degree: 0%
 
 マーケターの場合、Journey Optimizer B2B editionのアカウントリストに含まれているユーザーに対しては、Marketo Engageのプログラムを抑制することができます。
 
-Journey Optimizer B2B editionに接続されたMarketo Engage インスタンスでは、スマートリストで _[!UICONTROL アカウントリストのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。 スマートリストについて詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} を参照してください。
+Journey Optimizer B2B editionに接続されたMarketo Engage インスタンスでは、スマートリストで _[!UICONTROL アカウントリストのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。 スマートリストについて詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} を参照してください。
 
 ### スマート・リストへのフィルタの追加
 
@@ -92,11 +95,10 @@ Journey Optimizer B2B editionに接続されたMarketo Engage インスタンス
 
 1. キャンペーンフローで、「**[!UICONTROL リストに追加]**」手順を追加し、Journey Optimizer B2B edition アカウントリストからユーザーを入力するリストを選択します。
 
-   フローにステップを追加する方法について詳しくは、Marketo Engage ドキュメントの _[スマートキャンペーンへのフローステップの追加 ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ を参照してください。
+   フローにステップを追加する方法について詳しくは、Marketo Engage ドキュメントの _[スマートキャンペーンへのフローステップの追加 ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ を参照してください。
 
 ### メンバーのレビュー
 
 フローを実行した後、リストに入力されたユーザーのリストを表示できます。 リストを開いて「人物」タブを選択します。
 
 ![ アカウントリストから入力されたMarketo Engage キャンペーンリスト ](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
-

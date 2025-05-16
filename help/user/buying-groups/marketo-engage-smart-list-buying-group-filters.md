@@ -1,26 +1,28 @@
 ---
 title: Market Engage の購買グループ フィルター
-description: Marketo Engageのスマートリストでフィルターを定義するために購入グループメンバーシップを使用する方法を説明します。
-feature: Buying Groups
-source-git-commit: 2c01fed7e50a48b268e0b6aceb4634bdfc895866
+description: 購買グループメンバーシップを使用してMarketo Engageのスマートリストでフィルターを定義する方法を説明します。
+feature: Buying Groups, Integrations
+role: User
+exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Market Engage の購買グループフィルター
 
-マーケターの場合、Journey Optimizer B2B editionの購買グループに属するユーザーのMarketo Engageのキャンペーンを抑制することができます。 また、購買グループに関連付けられた引合に関する情報を使用して、Marketo Engageの引合スコアリング・ワークフローに通知することもできます。 例：
+マーケターの場合、Journey Optimizer B2B editionの購買グループに属するユーザーに対しては、Marketo Engageのキャンペーンを抑制することができます。 また、購入グループに関連付けられているリードに関する情報を使用して、Marketo Engageのリードスコアリングワークフローに情報を提供することもできます。 例：
 
 * これは購買グループのリード部分ですか？
 * 購買グループは完了し、関与していますか？
 
 これらの条件が当てはまる場合は、より高いスコアのリードを選択することができます。 そうでない場合は、マーケティング認定リード（MQL）としてマークしないことを選択できます。
 
-Journey Optimizer B2B editionに接続されたMarketo Engageインスタンスでは、スマートリストで _[!UICONTROL 購入グループのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。
+Journey Optimizer B2B editionに接続されたMarketo Engage インスタンスでは、スマートリストで _[!UICONTROL 購入グループのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。
 
-1. [Marketo Engageでスマート・リストを作成 ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} した後、「**[!UICONTROL スマート・リスト]**」タブを選択してフィルタ・エディタを開きます。
+1. [Marketo Engageでスマートリストを作成 ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} した後、「**[!UICONTROL スマートリスト]**」タブを選択してフィルターエディターを開きます。
 
 1. 右側のフィルターリストで、リストを下にスクロールして「**[!UICONTROL 特殊フィルター]**」フォルダーを展開します。
 

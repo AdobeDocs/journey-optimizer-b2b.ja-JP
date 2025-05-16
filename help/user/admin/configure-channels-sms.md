@@ -1,8 +1,10 @@
 ---
 title: SMS 設定
 description: サポートされている SMS プロバイダーへの接続を設定して、Journey Optimizer B2B edition SMS メッセージングで使用する方法を説明します。
-feature: Setup
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+feature: Setup, Channels
+role: Admin
+exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 6%

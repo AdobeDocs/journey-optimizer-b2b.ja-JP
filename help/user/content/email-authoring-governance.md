@@ -2,7 +2,9 @@
 title: 管理テンプレートからのオーサリング
 description: ロックされたコンテンツコンポーネントを含む管理済みテンプレートでメールオーサリングを使用する方法を説明します。
 feature: Email Authoring, Content
-source-git-commit: d7e2b7673b0a6709d2841893d87617e580b62298
+role: User
+exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 1%

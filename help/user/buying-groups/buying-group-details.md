@@ -1,12 +1,13 @@
 ---
 title: 購買グループの詳細
 description: Journey Optimizer B2B editionで購入グループ向けの詳細情報と生成 AI の概要へのアクセスについて説明します。
-feature: Buying Groups
+feature: Buying Groups, Intelligent Insights
+role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -29,7 +30,7 @@ Journey Optimizer B2B editionのどこからでも購入グループ名をクリ
 * 購買グループ名
 * アカウント名（名前をクリックしてアカウントの詳細を開きます）
 * 購買グループ内の人数
-* エンゲージメント スコア
+* エンゲージメントスコア
 * 完全性スコア
 * 現在の購買グループのステージ
 * 役割テンプレート （名前をクリックすると、役割テンプレートの詳細が開きます）
@@ -62,13 +63,13 @@ Journey Optimizer B2B editionのどこからでも購入グループ名をクリ
 
 * 名前
 * 職位
-* ロール
+* 役割
 * リードエンゲージメントスコア
 
 「**[!UICONTROL 詳細の表示]**」をクリックして、次のメンバー情報にアクセスします。
 
 * 生成 AI の概要
-* 最後の興味深い瞬間
+* 最新の注目のアクション
 * 最新のアクティビティ （2）
 * リードがメンバーであるその他の購入グループ （直近に追加された購入グループに基づいて 3 つの購入グループに制限）。
 * メールアドレス

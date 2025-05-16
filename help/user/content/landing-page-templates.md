@@ -1,12 +1,13 @@
 ---
 title: ランディングページのテンプレート
 description: マーケティングチームがアカウントジャーニーとキャンペーンをサポートする新しいページを作成するために使用できる、ランディングページテンプレートを作成する方法を説明します。
-feature: Content
+feature: Landing Pages, Templates, Content
+role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%
@@ -118,7 +119,7 @@ _Landinhg ページテンプレート_ リストページで、ランディン�
 
 次のいずれかの方法を使用して、ランディングページテンプレートを複製できます。
 
-* 右側のテンプレートの詳細で、「詳細 **[!UICONTROL を展開し、「**&#x200B;[!UICONTROL &#x200B; 複製 &#x200B;]&#x200B;**をクリックし]** す。
+* 右側のテンプレートの詳細で、「詳細 **[!UICONTROL を展開し、「**[!UICONTROL  複製 ]**をクリックし]** す。
 
   ![ 「詳細」をクリックすると、削除および複製アクションにアクセスできます ](./assets/template-details-more-menu.png){width="400"}
 

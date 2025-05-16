@@ -2,9 +2,10 @@
 title: アセット
 description: Journey Optimizer B2B Edition でのアセット管理について説明します。
 feature: Assets, Content
+role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 100%
 

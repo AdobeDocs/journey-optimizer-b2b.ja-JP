@@ -1,10 +1,11 @@
 ---
 title: ランディングページのテンプレートデザイン
 description: マーケターがランディングページの作成に再利用できるランディングページテンプレートのコンテンツをデザインおよび作成する方法について説明します。
-feature: Content
+feature: Templates, Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 4e203a5d1fb0c9d9dc2a6bd14705b17335c98ee3
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 22%

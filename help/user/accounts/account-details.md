@@ -2,7 +2,9 @@
 title: アカウントの詳細
 description: Journey Optimizer B2B editionで、アカウントの詳細情報および生成 AI の概要へのアクセスについて説明します。
 feature: Account Insights
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+role: User
+exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 10%
@@ -67,7 +69,7 @@ Journey Optimizer B2B editionのどこからでもアカウント名をクリッ
 連絡先名の横にある _情報_ （![ 情報アイコン ](../assets/do-not-localize/icon-info.svg)）をクリックして、次の詳細を含むテーブルを表示します。
 
 * 購買グループ（名前をクリックして購買グループの詳細を開きます）
-* ロール
+* 役割
 * ソリューションに対する関心
 * 製品インテント（設定されている場合）
 * 製品
