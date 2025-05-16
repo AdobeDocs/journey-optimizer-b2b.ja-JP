@@ -15,7 +15,7 @@ ht-degree: 16%
 
 Journey Optimizer B2B editionは、アカウントでマッチしたオーディエンスを通じて LinkedIn Ad オーディエンスを生成する機能を提供し、顧客が購入グループで空の役割を果たすのを支援するように設計されています。 購入グループフィルターのセットを定義することで、LinkedIn でマッチしたオーディエンスを維持し、購入グループパラメーターに一致する見込み客をターゲットにすることができます。 この機能は、Experience Platform の宛先を活用して統合のいくつかの側面を管理します。データフローの上限は 10 個です。
 
-Journey Optimizer B2B editionからデータフローを開始する前に、一致したオーディエンスの [ （会社） LinkedIn 宛先コネクタのインスタンスが少なくとも 1 つ必要で ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Experience Platform アプリケーションに LinkedIn Campaign Manager アカウントが設定されている必要があります。
+Journey Optimizer B2B editionからデータフローを開始する前に、一致したオーディエンスの [ （会社） LinkedIn 宛先コネクタのインスタンスが少なくとも 1 つ必要で ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Experience Platform アプリケーションに LinkedIn Campaign Manager アカウントが設定されている必要があります。
 
 ## 新しい LinkedIn アカウント接続を設定 {#linkedin-destination-setup}
 

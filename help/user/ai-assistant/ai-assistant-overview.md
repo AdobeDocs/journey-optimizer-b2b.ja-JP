@@ -92,7 +92,7 @@ Journey Optimizer B2B editionの AI アシスタントは、プライバシー�
 
 * AI アシスタントとやり取りするには、明示的な権限が必要です。
 
-   * 管理者は、[ 権限 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} と [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"} を使用して権限を設定できます。
+   * 管理者は、[ 権限 UI](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} と [Admin Console](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/browse){target="_blank"} を使用して権限を設定できます。
 
    * 権限は粒度が細かく、サンドボックス管理者は、様々な質問カテゴリ（AI アシスタントを使用した製品のナレッジベースの質問または運用インサイトに関する質問）を実行できるユーザーを設定できます。
 
