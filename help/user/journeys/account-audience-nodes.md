@@ -54,4 +54,4 @@ _オーディエンスセグメントを作成するには：_
 
    ![ オーディエンスセグメントの作成 ](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. [ セグメント化サービスガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"} に記載されている手順に従います。
+1. [ セグメント化サービスガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"} に記載されている手順に従います。

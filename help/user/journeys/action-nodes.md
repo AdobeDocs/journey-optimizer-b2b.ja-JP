@@ -96,7 +96,7 @@ Journey Optimizer B2B の人物ベースのアクションは、設定された�
 
 ![ アクションの実行 – 外部の顧客オーディエンスに追加 ](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-この人物ベースのアクションを選択する場合は、新しい外部オーディエンスを作成するか、既存の外部オーディエンスから選択できます。 既存のオーディエンスの場合は、Journey Optimizer B2B editionでのみ作成された外部のカスタマーオーディエンスから選択できます。 オーディエンスを作成し、このジャーニーアクションに使用する場合は、必ず宛先に接続してください。 詳しくは、Experience Platform ドキュメントの [ 新しい宛先接続の作成 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} および [ アクティベーションの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} を参照してください。
+この人物ベースのアクションを選択する場合は、新しい外部オーディエンスを作成するか、既存の外部オーディエンスから選択できます。 既存のオーディエンスの場合は、Journey Optimizer B2B editionでのみ作成された外部のカスタマーオーディエンスから選択できます。 オーディエンスを作成し、このジャーニーアクションに使用する場合は、必ず宛先に接続してください。 詳しくは、Experience Platform ドキュメントの [ 新しい宛先接続の作成 ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} および [ アクティベーションの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} を参照してください。
 
 ![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ 有料メディアオーケストレーションの概要に関するビデオをご覧ください ](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -148,7 +148,7 @@ _既存のオーディエンスを使用するには：_
 
 +++[!UICONTROL &#x200B; スコアを変更 &#x200B;]
 
-Marketo Engageで人物スコアを変更するには、このアクションを使用します。 [詳細情報](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Marketo Engageで人物スコアを変更するには、このアクションを使用します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![ アクションの実行 – スコアの変更 ](./assets/node-action-change-score.png){width="300"}
 
@@ -172,7 +172,7 @@ Marketo Engageで人物スコアを変更するには、このアクションを
 
 +++[!UICONTROL &#x200B; メールを送信 &#x200B;]
 
-メールを送信するには、このアクションを使用します。 ノードの [ メールを作成 ](../content/add-email.md#add-an-email-to-your-journey) した後は、メールデザイン領域でメールメッセージのデザイン、パーソナライズおよびプレビューを行うことができます（[ メールのオーサリング ](../content/email-authoring.md) を参照）。 [Marketo Engageからメールを送信する ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"} ともできます。 Marketo Engage Workspace を選択し、送信するメールを選択します。
+メールを送信するには、このアクションを使用します。 ノードの [ メールを作成 ](../content/add-email.md#add-an-email-to-your-journey) した後は、メールデザイン領域でメールメッセージのデザイン、パーソナライズおよびプレビューを行うことができます（[ メールのオーサリング ](../content/email-authoring.md) を参照）。 [Marketo Engageからメールを送信する ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"} ともできます。 Marketo Engage Workspace を選択し、送信するメールを選択します。
 
 ![ アクションの実行 – メールの送信 ](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -192,7 +192,7 @@ Marketo Engageのユーザーベースのアクションは、Marketo Engage B2B
 
 +++[!UICONTROL &#x200B; リストに追加 &#x200B;]
 
-Marketo Engageの [ スマートリスト ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} からユーザーを削除するには、このアクションを使用します。
+Marketo Engageの [ スマートリスト ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} からユーザーを削除するには、このアクションを使用します。
 
 まず、接続されたMarketo Engage インスタンスのワークスペースを選択します。 次に、リスト名を選択します。
 
@@ -202,7 +202,7 @@ Marketo Engageの [ スマートリスト ](https://experienceleague.adobe.com/e
 
 +++[!UICONTROL Marketo リクエストキャンペーンに追加 &#x200B;]
 
-Marketo Engageの [ リクエストキャンペーン ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} に人物プロファイルを追加するには、このアクションを使用します。
+Marketo Engageの [ リクエストキャンペーン ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} に人物プロファイルを追加するには、このアクションを使用します。
 
 まず、接続されたMarketo Engage インスタンスのワークスペースを選択します。 次に、リクエストキャンペーン名を選択します。
 
@@ -212,7 +212,7 @@ Marketo Engageの [ リクエストキャンペーン ](https://experienceleague
 
 +++[!UICONTROL Marketo Engageの人物パーティションの変更 &#x200B;]
 
-Marketo Engageで [ 人物パーティション ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} を変更するには、このアクションを使用します。
+Marketo Engageで [ 人物パーティション ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} を変更するには、このアクションを使用します。
 
 ![ アクションを実行 – Marketo Engageの人物パーティションを変更 ](./assets/node-action-change-people-partition-options.png){width="300"}
 
@@ -220,7 +220,7 @@ Marketo Engageで [ 人物パーティション ](https://experienceleague.adobe
 
 +++[!UICONTROL &#x200B; リストから削除 &#x200B;]
 
-Marketo Engageの [ スマートリスト ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} からユーザーを削除するには、このアクションを使用します。 まず、接続されたMarketo Engage インスタンスのワークスペースを選択します。 次に、リスト名を選択します。
+Marketo Engageの [ スマートリスト ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} からユーザーを削除するには、このアクションを使用します。 まず、接続されたMarketo Engage インスタンスのワークスペースを選択します。 次に、リスト名を選択します。
 
 ![ アクションの実行 – リストから削除 ](./assets/node-action-remove-from-list-options.png){width="300"}
 

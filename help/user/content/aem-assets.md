@@ -23,7 +23,7 @@ Adobe Experience Manager Assets as a Cloud ServiceをAdobe Journey Optimizer B2B
 
 >[!IMPORTANT]
 >
->管理者は、Assetsへのアクセスを必要とするユーザーをAssets Consumer Users または/およびAssets Users 製品プロファイルに追加する必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理者は、Assetsへのアクセスを必要とするユーザーをAssets Consumer Users または/およびAssets Users 製品プロファイルに追加する必要があります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assets画像へのアクセス
 
@@ -33,7 +33,7 @@ Adobe Experience Manager Assets as a Cloud ServiceをAdobe Journey Optimizer B2B
 
 >[!NOTE]
 >
->現在、Adobe Journey Optimizer B2B editionでは、Adobe Experience Manager Assetsの画像アセットのみがサポートされています。 アセットに対する変更は、Adobe Experience Manager Assets中央リポジトリから行う必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>現在、Adobe Journey Optimizer B2B editionでは、Adobe Experience Manager Assetsの画像アセットのみがサポートされています。 アセットに対する変更は、Adobe Experience Manager Assets中央リポジトリから行う必要があります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 表示されるリポジトリの変更
 
