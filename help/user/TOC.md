@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B エディションの概要と、組み込みの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
 source-git-commit: e16a6ad931683a975fa0373f4dc24a0c0b6e2a2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
    + [ジャーニーの詳細](./journeys/journey-details.md)
 + ジャーニーコンテンツ {#journey-content}
    + メールチャネル {#email-channel}
-      + [メールを追加](./content/add-email.md)
+      + [メールの追加](./content/add-email.md)
       + [メールオーサリング](./content/email-authoring.md)
       + [メールオーサリング用 AI アシスタント](./content/ai-assistant-emails.md)
       + [管理されたテンプレート](./content/email-authoring-governance.md)

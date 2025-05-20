@@ -3,9 +3,9 @@ title: リリースノート
 description: Adobe Journey Optimizer B2B エディションの最新のリリースノート
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: c3f2d57da830c46bd1e91d172db14f5400aabfca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2030'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | 機能 | アカウントリストのジャーニーオーケストレーション | ジャーニーアクションノードを使用して、静的アカウントリストのアカウントを追加および削除します。<a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">詳細情報</a> |
 | 機能強化 | Marketo Engage でジャーニーメンバーシップをフィルタリング | ジャーニーオーディエンスに Adobe Journey Optimizer B2B Edition アカウントリストを使用し、Marketo Engage スマートリストで&#x200B;_アカウントリストのメンバー_&#x200B;フィルターを使用します。<a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">詳細情報</a> |
 | 機能 | 非アクティブフィルター | メールの非アクティビティ、注目のアクション、データ値の変更、訪問済みの web ページなど、Marketo Engage キャンペーンとプログラム内の非アクティビティに基づいてジャーニーを調整します。<a href="../journeys/split-merge-paths-nodes.md#activity-filtering">詳細情報</a> |
-| 機能強化 | 訪問済み Web ページフィルター | Marketo Engageのキャンペーンとプログラムに関連付けられた、訪問した web ページのアクティビティに基づいてジャーニーを調整します。 <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">詳細情報</a> |
-| 機能強化 | Emails list | アクティブなメールとドラフトのメールのグローバルリストを表示し、関連するアカウントジャーニー全体でメールを検索、レビュー、更新します。 <a href="../content/emails-list.md">詳細情報</a> |
+| 機能強化 | 訪問済みの web ページフィルター | Marketo Engage キャンペーンとプログラムに関連付けられた訪問済みの web ページのアクティビティに基づいてジャーニーを調整します。<a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">詳細情報</a> |
+| 機能強化 | メールリスト | アクティブなメールとドラフトのメールのグローバルリストを表示し、関連するアカウントジャーニー全体でメールを検索、確認、更新します。<a href="../content/emails-list.md">詳細情報</a> |
 
 ## 2025.3 リリースノート
 
@@ -53,7 +53,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | カスタマイズ可能なフィールド - コンテンツフラグメント | コンテンツフラグメントデザイナーは、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。この機能を使用すると、メールまたはテンプレートの作成者は、必要に応じてカスタムフィールド値を指定できます。 このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。<a href="../content/fragment-authoring.md#enable-fragment-customization">詳細情報</a> |
+| 機能 | カスタマイズ可能なフィールド - コンテンツフラグメント | コンテンツフラグメントデザイナーは、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。この機能により、メールまたはテンプレートの作成者は、必要に応じたカスタムフィールド値を指定できます。このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。<a href="../content/fragment-authoring.md#enable-fragment-customization">詳細情報</a> |
 | 機能 | B2B の組み込みの役割と製品の権限 | Experience Platform には、B2B 製品機能へのアクセスの管理に使用できる、一連の組み込みの（デフォルトの）役割が含まれるようになりました。<a href="../admin/user-management.md#b2b-built-in-roles">詳細情報</a> <br/>管理者は、Adobe Experience Platform でカスタムの役割を定義して、Journey Optimizer B2B Edition 製品の権限を含めることができるようになりました。<a href="../admin/user-management.md#b2b-product-permissions">詳細情報</a> |
 | 機能 | ジャーニーの複製タイプ | アカウントジャーニーを複製する際に、Journey Optimizer B2B Edition で作成したメールと SMS メッセージを除く、ノードの詳細を含めることができます。代わりに、ノードの詳細と設定を除いた構造とパスフローのスケルトンコピーを作成できます。<a href="../journeys/journey-overview.md#duplicate-journey">詳細情報</a> |
 | 機能強化 | 4 個の追加のサンプルメールテンプレート | サンプルメールテンプレートライブラリには、再エンゲージメント、通知、育成、フィードバックコンテンツの例として、4 個の SecurFinacial テンプレートが含まれるようになりました。 |
