@@ -4,7 +4,7 @@ description: Journey Optimizer B2B Edition の新規ユーザーとして、使�
 role: Admin, User
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
 ht-degree: 100%
 

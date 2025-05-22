@@ -5,7 +5,7 @@ feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '981'
 ht-degree: 100%
 
