@@ -4,30 +4,28 @@ description: Adobe Journey Optimizer B2B でメールコンテンツを作成す
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '928'
 ht-degree: 20%
 
 ---
 
 # メールメッセージのオーサリング
 
-ジャーニーアクションノードに &lbrack; 新しい <!-- or duplicated --> メールアセットを追加 &rbrack;(./add-email.md) した後、メールメッセージのコンテンツを定義できます。
+ジャーニーアクションノードに [ 新しい <!-- or duplicated --> メールアセットを追加 ](./add-email.md) した後、メールメッセージのコンテンツを定義できます。
 
-**[!UICONTROL メール]** プレビューパネルの上部にある _[!UICONTROL メールコンテンツを追加]_ をクリックします。
+右側のパネルの **[!UICONTROL 詳細]** タブにある _[!UICONTROL メールコンテンツを編集]_ をクリックします。
 
-![ 「メールコンテンツを追加」をクリックします ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![ 「電子メールコンテンツを編集」をクリックします ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 このアクションは、メールデザインツールを起動し、次のオプションからメールのデザイン方法を選択できます。
 
-* E メールDesignerインターフェイスを使用して [&#128279;](#design-your-email-from-scratch) ゼロからメールをデザイン  します。
+* E メールDesignerインターフェイスを使用して ](#design-your-email-from-scratch) ゼロからメールをデザイン [ します。
 
 * ファイルまたは .zip フォルダーから[既存の HTML コンテンツを読み込み](#import-existing-html-content)ます。
 
 * [ 既存のテンプレートを選択 ](#select-a-template) – 組み込みまたはカスタムメールテンプレートのリストから行います。
-
-式エディターで件名を設定およびパーソナライズするには、_Personalization_ アイコンをクリックし、任意のMarketo Engageトークンを追加します。
 
 メールコンテンツを作成およびパーソナライズした後、コンテンツを書き出して、検証したり、後で使用したりできます。 「**[!UICONTROL HTMLを書き出し]**」をクリックして、HTMLとアセットを含む.zip ファイルとしてコンテンツを保存します。
 
@@ -47,10 +45,9 @@ ht-degree: 20%
 >title="コンテンツコンポーネントについて"
 >abstract="コンテンツコンポーネントは、ランディングページのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
-ビジュアルコンテンツエディターを使用して、メールコンテンツの構造を定義します。 簡単なドラッグ&amp;ドロップ操作で構造コンポーネントを追加して移動することで、再利用可能なメールコンテンツの形状を数秒でデザインできます。
+ビジュアルコンテンツデザイン スペースを使用して、メールの構造とコンテンツを定義します。 簡単なドラッグ&amp;ドロップ操作で構造コンポーネントを追加して移動することで、再利用可能なメールコンテンツの形状を数秒でデザインできます。
 
 1. _[!UICONTROL テンプレートをデザイン]_ ホームページで「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
-
 1. メールメッセージに [ 構造とコンテンツを追加 ](#add-structure-and-content) します。
 1. メールメッセージに [ 画像アセットを追加 ](#add-assets) します。
 1. [ メールコンテンツをパーソナライズ ](#personalize-content)。
