@@ -4,9 +4,9 @@ description: Adobe Experience PlatformとJourney Optimizer B2B editionの間で�
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1004'
 ht-degree: 23%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 23%
 
 >[!TIP]
 >
->[Experience Platform XDM ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
+>[Experience Platform XDM ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
 
 ## XDM ビジネスアカウント人物関係属性
 
@@ -79,27 +79,28 @@ ht-degree: 23%
 | `accountPhone.number` | 該当なし | アカウントの電話番号 | 文字列 | アカウントに関連付けられている電話番号。 |
 | `accountSourceType` | 該当なし | ソースのタイプ | 文字列 | アカウントのSourceタイプ。 |
 
-## XDM Business Opportunity 属性
+<!-- ## XDM Business Opportunity attributes
 
-さらに、商談データは XDM Business Opportunity クラスの属性として保存されます。これは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"} に記載されているように、多対 1 の関係を通じて XDM Business Account クラスに関連付けることができます。
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
-| [プロパティ](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | 表示名 | Journey Optimizer B2B の表示名 | データタイプ | 説明 |
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `expectedCloseDate` | 商談完了予定日 | 商談のクローズ予定日 | 文字列 | オポチュニティに対して期待されるクローズ日。 |
-| `expectedRevenue.amount` | 予想収益 | 商談の収益予測合計 | 文字列 | 金額と確率に基づいて計算された売上高。 |
-| `fiscalQuarter` | 会計四半期 | オポチュニティ会計四半期 | 文字列 | オポチュニティをターゲットにした会計四半期。 |
-| `fiscalYear` | 会計年度 | オポチュニティ会計年度 | 文字列 | オポチュニティのターゲットとなる会計年度。 |
-| `forecastCategory` | 予測カテゴリ | 商談予測カテゴリ | 文字列 | オポチュニティのステージ値によって決定された予測カテゴリ。 |
-| `forecastCategoryName` | 予測カテゴリ名 | 商談予測カテゴリ名 | 文字列 | 特定の予測カテゴリに関するレポートに表示される予測カテゴリ名。 |
-| `isClosed` | クローズドフラグ | クローズした商談 | 文字列 | オポチュニティがクローズされているかどうかを示すフラグ。 |
-| `isWon` | 獲得フラグ | 獲得した商談 | 文字列 | オポチュニティが獲得されたかどうかを示すフラグ。 |
-| `lastActivityDate` | 最後のアクティビティ日 | 最後のアクティビティの日付 | 文字列 | オポチュニティの最後のアクティビティの日付。 |
-| `leadSource` | リードのソース | リードのソース | 文字列 | オポチュニティのSource（広告、パートナー、web など）。 |
-| `nextStep` | 次のステップ | オポチュニティの次のステップ | 文字列 | オポチュニティをクローズするための次のタスクの説明。 |
-| `opportunityAmount.amount` | 商談額 | 合計商談数 | 文字列 | オポチュニティの推定合計販売金額。 |
-| `opportunityDescription` | 商談の説明 | オポチュニティの説明 | 文字列 | オポチュニティを説明する追加情報（販売する可能性のある製品や顧客からの過去の購入など）。 |
-| `opportunityName` | 商談名 | 商談名 | 文字列 | オポチュニティの件名または説明的な名前（期待される注文や会社名など）。 |
-| `opportunityQuantity` | 商談の数量 | オポチュニティの数量 | 文字列 | オポチュニティの関連製品リストにあるすべての製品に関するすべての数量フィールド値の合計。 |
-| `opportunityStage` | 商談のステージ | 商談のステージ | 文字列 | セールス・チームの取り組みを支援するオポチュニティのセールス・ステージ。 |
-| `opportunityType` | 商談のタイプ | 商談のタイプ | 文字列 | オポチュニティに割り当てられたタイプ （_既存のビジネス_ または _新規ビジネス_ など） |
-| `probabilityPercentage` | 確率率 | 商談確率の割合 | 文字列 | オポチュニティをクローズする可能性（パーセンテージ）。 |
+|`expectedCloseDate` | Expected Close Date  | Expected opportunity close date   | String | Expected date of closure for the opportunity.   |
+|`expectedRevenue.amount` | Expected Revenue  | Total opportunity expected revenue   | String | Calculated revenue based on the Amount and Probability.   |
+|`fiscalQuarter` | Fiscal Quarter   | Opportunity fiscal quarter  | String | The targeted fiscal quarter for the opportunity.   |
+|`fiscalYear` | Fiscal Year   | Opportunity fiscal year   | String | The targeted fiscal year for the opportunity.   |
+|`forecastCategory`|Forecast Category | Opportunity Forecast category | String | Forecast Category determined by the opportunity Stage value. |
+|`forecastCategoryName`|Forecast Category Name | Opportunity forecast category name | String | Forecast category name that is displayed in reports for a particular forecast category. |
+|`isClosed` | Closed Flag  | Opportunity closed   | String | Flag that indicates if the opportunity is closed.   |
+|`isWon` | Won Flag  | Opportunity won   | String | Flag that indicates if the opportunity is won.  |
+|`lastActivityDate` | Last Activity Date  | Last activity date   | String | Last activity date for the opportunity.  |
+|`leadSource` | Lead Source  | Lead source   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
+|`nextStep` | Next Step  | Opportunity next step   | String | Description of the next task for closing the opportunity.   |
+|`opportunityAmount.amount` | Opportunity Amount  | Total Opportunity Amount | String | Estimated total sale amount for the opportunity.   |
+|`opportunityDescription` | Opportunity Description   | Opportunity description  |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
+|`opportunityName` | Opportunity Name   | Opportunity name |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
+|`opportunityQuantity` | Opportunity Quantity  | Opportunity quantity   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
+|`opportunityStage` | Opportunity Stage   | Opportunity stage   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
+|`opportunityType` | Opportunity Type   | Opportunity type   | String | Type assigned to the opportunity, such as _Existing Business_ or _New Business_  |
+|`probabilityPercentage` | Probability Percentage  | Opportunity probability percentage  | String | Likelihood of closing the opportunity, stated as a percentage.  |
+ -->
