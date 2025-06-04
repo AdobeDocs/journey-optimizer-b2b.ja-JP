@@ -4,16 +4,16 @@ description: アカウントジャーニーメールに使用できるコンテ�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 18%
 
 ---
 
 # メールテンプレートオーサリング
 
-[ メールテンプレートを作成 ](./email-templates.md#create-an-email-template) した後、ビジュアルデザイナーを使用して、メールテンプレートの構造コンポーネントとコンテンツコンポーネントを作成します。
+[ メールテンプレートを作成 ](./email-templates.md#create-an-email-template) した後、ビジュアルデザインスペースを使用して、メールテンプレートの構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#structure-content}
 
@@ -45,7 +45,7 @@ ht-degree: 18%
 
 ### コンテンツのパーソナライズ
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### リンクされた URL トラッキングを編集
 
@@ -53,7 +53,7 @@ ht-degree: 18%
 
 ## オプションを表示
 
-ビジュアルデザイナーで使用できる表示およびコンテンツの検証オプションを活用します。
+ビジュアルデザインスペースで使用できる表示およびコンテンツの検証オプションを活用します。
 
 * プリセットのズームオプション全体でコンテンツをズームイン/ズームアウトします。
 
@@ -63,11 +63,11 @@ ht-degree: 18%
 
 ### 詳細オプション
 
-電子メールデザイナーの上部にある _[!UICONTROL その他…]_ メニューから、次のアクションを実行できます。
+メールデザインスペースの上部にある _[!UICONTROL その他…]_ メニューから、次のアクションを実行できます。
 
 ![ 「詳細」をクリックしてテンプレートアクションにアクセス ](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL テンプレートをリセット]** – このオプションをクリックすると、ビジュアルデザイナーのキャンバスを空白のスレートに戻し、コンテンツの作成を再開できます。
+* **[!UICONTROL テンプレートをリセット]** – このオプションをクリックすると、デザインキャンバスを空白のスレートにクリアして、コンテンツの作成を再開できます。
 * **[!UICONTROL フラグメントとして保存]** - テンプレートのすべてまたは一部をフラグメントとして保存し、複数のメールまたはメールテンプレートで再利用します。 フラグメントの名前と説明を指定し、使用可能なフラグメントのリストに保存します。
 * **[!UICONTROL デザインを変更]** - _テンプレートのデザイン_ ページに戻ります。 ここから、テンプレートをゼロから設計するか、既存のテンプレートを使用して設計プロセスを再開するかを選択できます。
 * **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式のローカルシステムにダウンロードします。
