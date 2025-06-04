@@ -72,7 +72,7 @@ GenStudio for Performance Marketing機能について詳しくは、[ ドキュ�
 
 HTML ファイルを使用して、GenStudio for Performance Marketingにテンプレートを作成します。
 
-Adobe GenStudio for Performance MarketingでHTML テンプレートをGenStudioにアップロードする方法について詳しくは、GenStudio for Performance Marketing ドキュメントの [ テンプレートの追加 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) を参照してください。
+Adobe GenStudio for Performance MarketingでHTML テンプレートをGenStudioにアップロードする方法について詳しくは、GenStudio for Performance Marketing ドキュメントの [ テンプレートの追加 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) を参照してください。
 
 書き出したHTMLをテンプレートとしてアップロードすると、GenStudio for Performance MarketingはHTML ファイルをスキャンして、認識されたフィールドを探します。 プレビューを使用してテンプレート要素を確認し、認識されたフィールド名で正しく識別されたことを確認します。
 
