@@ -1,12 +1,12 @@
 ---
-title: Journey Optimizer B2B edition リリースノート
-description: Adobe Journey Optimizer B2B editionの最新機能と機能強化について説明します。
+title: Journey Optimizer B2B Edition リリースノート
+description: Adobe Journey Optimizer B2B Edition の最新機能と機能強化について説明します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2190'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,20 +20,20 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 ## 2025.5 リリースノート
 
-**デプロイメント日**:2025 年 6 月 3 日（PT）
+**デプロイメント日**：2025年6月3日（PT）
 
 このリリースには、次の新機能および機能強化が含まれています。
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | GenStudio for Performance Marketingとの統合 | （限定提供）GenStudio for Performance MarketingのメールエクスペリエンスをJourney Optimizer B2B editionと統合して、マーケティング効率を高め、ブランドの一貫性を維持できるようになりました。 この統合を利用すると、GenStudio AI を利用したコンテンツ作成と、Journey Optimizer B2B editionの高度なオーケストレーション機能を組み合わせることができます。 [詳細情報](../content/genstudio-email-workflow.md) |
-| 機能強化 | メールのハンドルバートークン形式 | メールコンテンツのPersonalization トークンで、Handlebar スクリプティングと完全に互換性のある更新済み形式が使用されるようになりました。 この形式では _キャメルケース_ またはアンダースコアを使用し、スペースを排除します。 [詳細情報](../content/email-authoring.md#content-authoring---personalization) |
-| 機能強化 | リストの合計数の表示 | _[!UICONTROL ソリューションの関心]_ および _[!UICONTROL アカウントのジャーニー]_ リストページが強化され、検索バーの横に合計数が表示されます。 |
+| 機能 | GenStudio for Performance Marketing との統合 | （限定提供）GenStudio for Performance Marketing のメールエクスペリエンスを Journey Optimizer B2B Edition と統合して、マーケティング効率を高め、ブランドの一貫性を維持できるようになりました。この統合を利用すると、GenStudio AI を活用したコンテンツ作成と、Journey Optimizer B2B B2B Edition の高度なオーケストレーション機能を組み合わせることができます。[詳細情報](../content/genstudio-email-workflow.md) |
+| 機能強化 | メールのハンドルバートークン形式 | メールコンテンツのパーソナライゼーショントークンで、ハンドルバースクリプトと完全に互換性のある更新済み形式が使用されるようになりました。この形式では、_キャメルケース_&#x200B;またはアンダースコアを使用し、スペースを排除します。[詳細情報](../content/email-authoring.md#content-authoring---personalization) |
+| 機能強化 | リストの合計数の表示 | _[!UICONTROL ソリューションに対する関心]_&#x200B;および&#x200B;_[!UICONTROL アカウントジャーニー]_&#x200B;リストページが強化され、検索バーの横に合計数が表示されます。 |
 
 
 ## 2025.4 リリースノート
 
-**デプロイメント日**:2025 年 4 月 29 日（PT）
+**デプロイメント日**：2025年4月29日（PT）
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -48,7 +48,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 ## 2025.3 リリースノート
 
-**デプロイメント日**:2025 年 4 月 1 日（PT）
+**デプロイメント日**：2025年4月1日（PT）
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -61,27 +61,27 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 ## 2025.2 リリースノート
 
-**デプロイ日**:2025 年 3 月 11 日（PT）
+**デプロイメント日**：2025年3月11日（PT）
 
 このリリースには、次の新機能および機能強化が含まれています。
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | カスタマイズ可能なフィールド - コンテンツフラグメント | ビジュアルフラグメントデザインの際に、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。 この機能により、メールまたはテンプレートの作成者は、必要に応じたカスタムフィールド値を指定できます。このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。<a href="../content/fragment-authoring.md#enable-fragment-customization">詳細情報</a> |
+| 機能 | カスタマイズ可能なフィールド - コンテンツフラグメント | ビジュアルフラグメントのデザイン中に、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。この機能により、メールまたはテンプレートの作成者は、必要に応じたカスタムフィールド値を指定できます。このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。<a href="../content/fragment-authoring.md#enable-fragment-customization">詳細情報</a> |
 | 機能 | B2B の組み込みの役割と製品の権限 | Experience Platform には、B2B 製品機能へのアクセスの管理に使用できる、一連の組み込みの（デフォルトの）役割が含まれるようになりました。<a href="../admin/user-management.md#b2b-built-in-roles">詳細情報</a> <br/>管理者は、Adobe Experience Platform でカスタムの役割を定義して、Journey Optimizer B2B Edition 製品の権限を含めることができるようになりました。<a href="../admin/user-management.md#b2b-product-permissions">詳細情報</a> |
 | 機能 | ジャーニーの複製タイプ | アカウントジャーニーを複製する際に、Journey Optimizer B2B Edition で作成したメールと SMS メッセージを除く、ノードの詳細を含めることができます。代わりに、ノードの詳細と設定を除いた構造とパスフローのスケルトンコピーを作成できます。<a href="../journeys/journey-overview.md#duplicate-journey">詳細情報</a> |
 | 機能強化 | 4 個の追加のサンプルメールテンプレート | サンプルメールテンプレートライブラリには、再エンゲージメント、通知、育成、フィードバックコンテンツの例として、4 個の SecurFinacial テンプレートが含まれるようになりました。 |
 
 ## 2025.1 リリースノート {#Jan-2025}
 
-**デプロイ日**:2025 年 2 月 6 日（PT）
+**デプロイメント日**：2025年2月6日（PT）
 
 このリリースには、次の新機能および機能強化が含まれています。
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
 | 機能 | エクスペリエンスイベント転送 | 管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これらの設定により、マーケターは、AEP エクスペリエンスイベントに反応するアカウントジャーニーを作成できます。<a href="../admin/configure-aep-events.md">詳細情報</a> |
-| 機能 | 有料メディアの宛先 | アカウントジャーニーから有料メディアキャンペーンの対象となる既知の人物を選定し、LinkedIn などの広告プラットフォームでさらに関与できます。アカウントジャーニーの分割パスノードを使用して、特定の行動に基づいてアカウントオーディエンスをセグメント化し、追加のエンゲージメントが必要なアカウントを特定します。 次に、Real-Time CDP を通じて、これらのアカウントの人物を、サポートされている有料メディアの宛先への外部顧客オーディエンスに追加します。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">詳細情報</a> |
+| 機能 | 有料メディアの宛先 | アカウントジャーニーから有料メディアキャンペーンの対象となる既知の人物を選定し、LinkedIn などの広告プラットフォームでさらに関与できます。アカウントジャーニーで分割パスノードを使用して、特定の行動に基づいてアカウントオーディエンスをセグメント化し、追加のエンゲージメントを保証するアカウントを識別します。次に、Real-Time CDP を通じて、これらのアカウントの人物を、サポートされている有料メディアの宛先への外部顧客オーディエンスに追加します。<a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">詳細情報</a> |
 | 機能 | インテリジェントダッシュボード | よりインテリジェントな分析と正確なアカウントの優先順位付けの AI 生成のインサイトなど、アカウントジャーニーを通じて購買グループの進行状況を表示します。<a href="../dashboards/intelligent-dashboard.md">詳細情報</a> |
 | 機能 | 購買グループとアカウントの詳細 | 購買グループとアカウントレベルでインサイトを表示して、顧客との関与を開始する際に、より多くのコンテキストと履歴データを入手します。<p>購買グループの詳細には、検出されたファーストパーティのインテントが含まれます。<a href="../buying-groups/buying-group-details.md">詳細情報</a><p>アカウントの詳細アカウントでは、検出されたエンゲージメントの急増がハイライト表示されるので、カスタマイズされた販売に焦点を当てたエンゲージメントの準備が整ったアカウントに関して販売に警告できます。<a href="../accounts/account-details.md">詳細情報</a> |
 | 機能 | ジャーニーの概要 | アカウントジャーニーにアクセスすると、「概要」タブにアクティブなアカウントジャーニーの包括的なスナップショットが表示され、完了とエンゲージメントアクティビティを分類および選定する円グラフと棒グラフを使用してアカウントの進行状況の詳細が表示されます。<a href="../dashboards/journeys-dashboard.md">詳細情報</a> |
@@ -92,13 +92,13 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | 機能強化 | ジャーニーと役割の Marketo Engage リストメンバーシップフィルター | Journey Optimizer B2B では、ジャーニーアクティビティの重複を排除することを目的に、_人物でパスを分割_&#x200B;ノードの条件として Marketo Engage リストのメンバーシップを確認します。<a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">詳細情報</a> <p> 購買グループの役割テンプレートの場合は、役割の条件としてリストメンバーシップを使用します。<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">詳細情報</a> |
 | 機能強化 | エンゲージメントの概要ダッシュボード | このダッシュボードは、エンゲージメントの包括的なビューを表示するのに更新されています。スナップショットの円グラフと、時間の経過と共にトレンドを示す折れ線グラフを通じて、アカウントと個々のインタラクションのリアルタイムの指標が表示されます。<a href="../dashboards/engagement-dashboard.md">詳細情報</a> |
 
-## 2024 年リリース
+## 2024年リリース
 
-2024 年にリリースされたJourney Optimizer B2B editionの機能と機能強化については、以下のリストを展開してください。
+2024年にリリースされた Journey Optimizer B2B Edition の機能と機能強化について詳しくは、以下のリストを展開してください。
 
-+++2024 年 10 月リリースノート
++++2024年10月リリースノート
 
-**デプロイメント日**: 2024 年 10 月 29 日（PT）
+**デプロイメント日**：2024年10月29日（PT）
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -114,9 +114,9 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 +++
 
-+++2024 年 9 月リリースノート
++++2024年9月リリースノート
 
-**デプロイメント日**:2024 年 10 月 7 日（PT）
+**デプロイメント日**：2024年10月7日（PT）
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -129,9 +129,9 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 +++
 
-+++2024 年 8 月リリースノート
++++2024年8月リリースノート
 
-**デプロイメント日**:2024 年 8 月 29 日（PT）
+**デプロイメント日**：2024年8月29日（PT）
 
 このリリースには、次の新機能および機能強化が含まれています。
 

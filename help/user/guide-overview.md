@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: 組み込みの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整する Adobe Journey Optimizer B2B Edition 機能の使用方法について説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Journey Optimizer B2B Edition アプリケーションとドキュメントの�
 
 >[!BEGINTABS]
 
->[!TAB GenStudioのメールエクスペリエンス ]
+>[!TAB GenStudio のメールエクスペリエンス]
 
-GenStudio for Performance MarketingのメールエクスペリエンスをJourney Optimizer B2B editionと統合して、マーケティング効率を強化し、ブランドの一貫性を維持します。 この統合を利用すると、GenStudio AI を利用したコンテンツ作成と、Journey Optimizer B2B editionの高度なオーケストレーション機能を組み合わせることができます。
+GenStudio for Performance Marketing のメールエクスペリエンスを Journey Optimizer B2B Edition と統合して、マーケティング効率を高め、ブランドの一貫性を維持します。この統合を利用すると、GenStudio AI を活用したコンテンツ作成と、Journey Optimizer B2B B2B Edition の高度なオーケストレーション機能を組み合わせることができます。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="GenStudioのメールエクスペリエンスについて説明します"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="GenStudio のメールエクスペリエンスについて説明します"}
 
 >[!TAB アカウントリスト]
 
@@ -121,7 +121,7 @@ Adobe Express Enterprise ライセンスを使用すると、Adobe Express の�
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="ジャーニーコンテンツ"><br/>
-      <strong>ジャーニーコンテンツ </strong><br/><a href="./content/add-email.md"> メールチャネル </a><br/><a href="./content/ai-assistant-emails.md"> メール用 AI アシスタント </a><br/><a href="./content/genstudio-email-workflow.md">GenStudioのメールエクスペリエンス </a><br/><a href="./content/sales-alert-email.md"> セールスアラートメール </a><br/><a href="./content/sms-authoring.md">SMS チャネル </a>
+      <strong>ジャーニーコンテンツ</strong><br/><a href="./content/add-email.md">メールチャネル</a><br/><a href="./content/ai-assistant-emails.md">メール用 AI アシスタント</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio のメールエクスペリエンス</a><br/><a href="./content/sales-alert-email.md">セールスアラートメール</a><br/><a href="./content/sms-authoring.md">SMS チャネル</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="コンテンツ管理"><br/>
@@ -139,7 +139,7 @@ Adobe Express Enterprise ライセンスを使用すると、Adobe Express の�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">ドキュメント</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>
