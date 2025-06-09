@@ -157,4 +157,4 @@ _アカウントジャーニー_&#x200B;リストには、Journey Optimizer B2B 
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443208/?learn=on&captions=jpn)
