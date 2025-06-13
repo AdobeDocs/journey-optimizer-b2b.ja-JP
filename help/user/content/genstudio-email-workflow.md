@@ -6,23 +6,24 @@ topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="限定提供" type="Informative"
-source-git-commit: fe54f7eba982a29461aa922b408e6b4d68e6b0e2
+exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
+source-git-commit: 82bfb3b425bc7a3931b5ce8b925b860ef70d11fe
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
-# GenStudio for Performance Marketingを使用したメールコンテンツの作成 {#genstudio-workflow}
+# GenStudio for Performance Marketing を使用したメールコンテンツの作成 {#genstudio-workflow}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="GenStudio で作成したテンプレートの使用"
->abstract="Adobe GenStudio for Performance Marketingとの統合を使用して、Adobe AI テクノロジーで強化されたGenStudio テンプレートを読み込みます。"
+>abstract="Adobe GenStudio for Performance Marketing との統合を使用して、Adobe AI テクノロジーで強化された GenStudio テンプレートを読み込みます。"
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Journey Optimizer B2B Edition] での GenStudio 統合は、現在、**Healthcare Shield** または&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン製品では使用できません。
+>[!DNL Adobe Journey Optimizer B2B Edition] での GenStudio 統合は、現在、**Healthcare Shield** または **Privacy and Security Shield** アドオン製品では使用できません。
 >
 >この統合は、メールチャネルでのみ使用できます。
 
@@ -72,7 +73,7 @@ GenStudio for Performance Marketing機能について詳しくは、[ ドキュ�
 
 HTML ファイルを使用して、GenStudio for Performance Marketingにテンプレートを作成します。
 
-Adobe GenStudio for Performance MarketingでHTML テンプレートをGenStudioにアップロードする方法について詳しくは、GenStudio for Performance Marketing ドキュメントの [ テンプレートの追加 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) を参照してください。
+Adobe GenStudio for Performance MarketingでHTML テンプレートをGenStudioにアップロードする方法について詳しくは、GenStudio for Performance Marketing ドキュメントの [ テンプレートの追加 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) を参照してください。
 
 書き出したHTMLをテンプレートとしてアップロードすると、GenStudio for Performance MarketingはHTML ファイルをスキャンして、認識されたフィールドを探します。 プレビューを使用してテンプレート要素を確認し、認識されたフィールド名で正しく識別されたことを確認します。
 
