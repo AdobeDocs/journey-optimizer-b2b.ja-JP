@@ -107,7 +107,7 @@ For more information about managing these permissions within Marketo Engage, see
    * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
    * [!UICONTROL Adobe Experience Platform のデータ収集]
-   * [!UICONTROL  データ収集のすべてのアクセス ]
+   * [!UICONTROL &#x200B; データ収集のすべてのアクセス &#x200B;]
 
    ![Admin Console - ユーザーグループ – 商品を追加 ](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
 
