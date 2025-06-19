@@ -4,16 +4,16 @@ description: メール リストを使用すると、Adobe Journey Optimizer B2B
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # メール
 
-[ メールを作成 ](./add-email.md) する際に、ジャーニーノードのコンテキストに追加します。 ジャーニーマップ外でメールを操作する場合は、_[!UICONTROL メール]_ リストを使用してメールを検索および更新します。 メールを確認したり、設定やコンテンツを更新したりできます。
+[ メールを作成 ](./add-email.md) する際に、ジャーニーノードのコンテキストに追加します。 ジャーニーマップ外でメールコンテンツを操作する場合は、_[!UICONTROL メール]_ リストを使用してメールを検索および更新します。 メールを確認したり、設定やコンテンツを更新したりできます。
 
 ## メールへのアクセスと管理
 
