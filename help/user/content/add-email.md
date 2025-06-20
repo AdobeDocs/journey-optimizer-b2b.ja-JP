@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer B2B でメールアクションを追加、
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -33,59 +33,55 @@ Adobe Journey Optimizer B2B editionを使用すると、アカウントジャー
 
    * **[!UICONTROL 新しいメールを作成]** を選択して、Journey Optimizer B2B editionでネイティブにメールを作成します。
 
-     このオプションを使用すると、Journey Optimizer B2B editionでメールコンテンツをネイティブに管理できます。 **[!UICONTROL メールを作成]** をクリックして、_新しいメールを作成_ ダイアログを開きます。 新しいメールコンテンツアセット <!-- or duplicate an existing email content asset--> を作成できます。
+     このオプションを使用すると、Journey Optimizer B2B editionでメールコンテンツをネイティブに管理できます。 **[!UICONTROL メールを作成]** をクリックして、_新しいメールを作成_ ダイアログを開きます。 新しいメールコンテンツアセットを作成したり、既存のメールコンテンツアセットを複製したりできます。
 
-     ダイアログで、メールの一意の **[!UICONTROL 名前]** と **[!UICONTROL 件名]** を入力し、「作成 **[!UICONTROL をクリックし]** す。
+     +++新しいメール
 
-     ![ 新しいメールを作成ダイアログ – 新しいメール ](assets/create-new-email-no-duplicate.png){width="400"}
+     空のキャンバスまたはメールテンプレートを使用してメールを作成する場合は、「_[!UICONTROL 新規メール]_」オプションを使用します。
 
-     メールコンテンツページの _[!UICONTROL メールのプロパティ]_ セクションで、_[!UICONTROL 送信者メール]_ および _[!UICONTROL 返信先アドレス]_ フィールドが既に設定されています。 「_[!UICONTROL 送信者名]_」フィールドと「_[!UICONTROL 説明]_ （オプション）」フィールドの値を入力できます。
+      1. ダイアログで、「**[!UICONTROL 新規メール]**」を選択します。
 
-     メール [ 設定 ](#define-the-email-settings) を定義し、「**[!UICONTROL メールコンテンツを編集]**」をクリックして [ コンテンツをデザイン ](./email-authoring.md) します。
+      1. メールの一意の **[!UICONTROL 名前]** と **[!UICONTROL 件名]** を入力します。
 
-     <!-- +++New email {#new-email}
-     When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
+         ![ 新しいメールを作成ダイアログ – 新しいメール ](assets/create-new-email.png){width="400"}
 
-     1. In the dialog, choose **[!UICONTROL New email]**.
+      1. 「**[!UICONTROL 作成]**」をクリックします。
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+         メールコンテンツページの _[!UICONTROL メールのプロパティ]_ セクションで、_[!UICONTROL 送信者メール]_ および _[!UICONTROL 返信先アドレス]_ フィールドが既に設定されています。 「_[!UICONTROL 送信者名]_」フィールドと「_[!UICONTROL 説明]_ （オプション）」フィールドの値を入力できます。
 
-        ![Create new email dialog - new email](assets/create-new-email.png){width="400"}
+      1. 「**[!UICONTROL メールを編集]**」をクリックして、メール [ 設定 ](#define-the-email-settings) を定義し、[ コンテンツ ](./email-authoring.md) をデザインします。
 
-     1. Click **[!UICONTROL Create]**.
++++
 
-       In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
+     +++既存の電子メールを複製
 
-     1. Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
+     現在のジャーニーまたは別のジャーニーの既存のメールを使用してメールを作成する場合は、「_[!UICONTROL 既存のメールを複製]_」オプションを使用します。 ジャーニーノードの目的に応じて、複製したメールを変更できます。
 
-     +++
+      1. _[!UICONTROL 新規メールを作成]_ ダイアログで、「**[!UICONTROL 既存のメールを複製]**」を選択します。
 
-     +++Duplicate existing email {#duplicate-email}
-     When you want to create an email using an existing email from the current journey or from another journey, use the Duplicate existing journey option. You can make changes to the duplicated email according to your objective for the journey node.
+      1. 「**[!UICONTROL 複製する既存のメール]**」については、「_選択_」アイコン（![ 選択アイコン ](../assets/do-not-localize/icon-email-select.svg)）をクリックし、複製してジャーニーノードに使用するメールを選択します。
 
-     1. In the dialog, choose **[!UICONTROL Duplicate existing email]**.
+         検索フィールドにメール名と一致するテキスト文字列を入力することで、メールのリストをフィルタリングできます。
 
-     1. For **[!UICONTROL Existing email to duplicate]**, click the _Select email_ icon and select the email you want to duplicate and use for the journey node.
+         ![ メールを選択 ](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-      You can filter the list of emails by entering a text string in the search field to match the email name.
+         複製するメールのチェックボックスを選択し、「**[!UICONTROL 選択]**」をクリックします。
 
-      ![Select email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+      1. メールの一意の **[!UICONTROL 名前]** と **[!UICONTROL 件名]** を入力します。
 
-      Select the checkbox for the email that you want to duplicate and click **[!UICONTROL Select]**. 
+         ![ 新しいメールを作成ダイアログ – 既存のメールを複製 ](assets/create-new-email-duplicate.png){width="400"}
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+      1. 「**[!UICONTROL 作成]**」をクリックします。
 
-        ![Create new email dialog - duplciate existing email](assets/create-new-email.png){width="400"}
+         メールコンテンツページの _[!UICONTROL メールのプロパティ]_ セクションで、_[!UICONTROL 送信者メール]_ および _[!UICONTROL 返信先アドレス]_ フィールドが既に設定されています。 「_[!UICONTROL 送信者名]_」フィールドと「_[!UICONTROL 説明]_ （オプション）」フィールドの値を入力できます。
 
-     1. Click **[!UICONTROL Create]**.
+      1. 必要に応じて、「**[!UICONTROL メールを編集]**」をクリックして、メール [ 設定 ](#define-the-email-settings) および [ コンテンツ ](./email-authoring.md) を変更します。
 
-        In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
++++
 
-     1. If needed, click **[!UICONTROL Edit email]** to modify the email [settings](#define-the-email-settings) and [content](./email-authoring.md).
-
-     +++
-   —>
    * **[!UICONTROL Adobe Marketo Engageからメールを選択]** を選択すると、Marketo Engageで作成済みのメールの 1 つを使用して、ジャーニーの一部として送信できます。
+
+     接続された Market Engage インスタンスで複数のワークスペースを使用できる場合は、ワークスペースを選択します。 次に、ジャーニーノードに送信する承認済みメールを選択します。
 
      ![Marketo Engageのメールを選択 ](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -103,11 +99,11 @@ Adobe Journey Optimizer B2B editionを使用すると、アカウントジャー
 | [!UICONTROL  送信元メール ] | E メールヘッダーで使用される送信者のアドレス。 デフォルト値は [ メールチャネル配信設定 ](../admin/configure-channels-emails.md#delivery-settings) から入力されます。 _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。 |
 | [!UICONTROL  返信先アドレス ] | E メールヘッダーで使用される送信者のアドレス。 デフォルト値は [ メールチャネル配信設定 ](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL  ラベルから ]）から入力されます。 受信者が返信機能を使用している場合に入力するメールアドレスを入力します（送信者のアドレスと異なる場合も同じ場合もあります）。 _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。 |
 | [!UICONTROL  件名 ] | E メールの件名フィールドに表示されるテキスト。 デフォルト値は、「_[!UICONTROL 新しいメールを作成]_ ダイアログで入力したテキストから入力されます。 必要に応じて、テキストを変更できます。 _パーソナライズ_ アイコン（![ パーソナライゼーションアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
-| [!UICONTROL &#x200B; 運用上のメール &#x200B;] | メールを操作可能として指定する場合は、チェックボックスを選択します。 運用中のメールは、オプトアウト/購読解除リストおよび通信の制限から除外されます。 受信者がメールメッセージを迷惑メールと見なさない商用メッセージ （SPAM）の場合にのみ、このオプションを選択します。 |
-| [!UICONTROL Web ページとしてビューを含める &#x200B;] | チェックボックスを選択して、メールメッセージコンテンツから生成される web ページへのリンクを含めます。 メールメッセージは web ページよりも機能が制限されるので、JavaScript、拡張 CSS およびフォームで役立ちます。 リンクの生成に使用するテキストは、[ メールチャネル配信の設定 ](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL web ページのHTMLとして表示 &#x200B;] および [!UICONTROL web ページテキストとして表示 &#x200B;]）で設定します。 |
-| [!UICONTROL &#x200B; 開封トラッキングを無効にする &#x200B;] | メールの開封アクティビティを追跡しない場合は、チェックボックスを選択します。 機能を無効にした場合、一意のユーザーがメールを開いた場合にのみ、メールの開封アクティビティ数が増分されます。 メール本文コンテンツをデザインする際に [ メールコンテンツリンクのトラッキングを管理 ](./email-authoring.md#content-authoring---link-tracking) できます。 |
-| [!UICONTROL &#x200B; プリヘッダー &#x200B;] | プリヘッダーを含めるチェックボックスを選択します。 プリヘッダーは、一部のメールクライアントの件名の後に表示される短い概要テキストです。 通常は、メールの短い概要を提供し、通常は 1 文です。 フィールドに概要テキストを入力し <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content --> す。 |
-| [!UICONTROL CC アドレスとして使用されるフィールド &#x200B;] | 使用可能な場合は、`Email` タイプを使用して、Marketo Engageで設定された最大 25 の「リード」フィールドまたは「会社」フィールドを選択します。 |
+| [!UICONTROL  運用上のメール ] | メールを操作可能として指定する場合は、チェックボックスを選択します。 運用中のメールは、オプトアウト/購読解除リストおよび通信の制限から除外されます。 受信者がメールメッセージを迷惑メールと見なさない商用メッセージ （SPAM）の場合にのみ、このオプションを選択します。 |
+| [!UICONTROL Web ページとしてビューを含める ] | チェックボックスを選択して、メールメッセージコンテンツから生成される web ページへのリンクを含めます。 メールメッセージは web ページよりも機能が制限されるので、JavaScript、拡張 CSS およびフォームで役立ちます。 リンクの生成に使用するテキストは、[ メールチャネル配信の設定 ](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL web ページのHTMLとして表示 ] および [!UICONTROL web ページテキストとして表示 ]）で設定します。 |
+| [!UICONTROL  開封トラッキングを無効にする ] | メールの開封アクティビティを追跡しない場合は、チェックボックスを選択します。 機能を無効にした場合、一意のユーザーがメールを開いた場合にのみ、メールの開封アクティビティ数が増分されます。 メール本文コンテンツをデザインする際に [ メールコンテンツリンクのトラッキングを管理 ](./email-authoring.md#content-authoring---link-tracking) できます。 |
+| [!UICONTROL  プリヘッダー ] | プリヘッダーを含めるチェックボックスを選択します。 プリヘッダーは、一部のメールクライアントの件名の後に表示される短い概要テキストです。 通常は、メールの短い概要を提供し、通常は 1 文です。 フィールドに概要テキストを入力し <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content --> す。 |
+| [!UICONTROL CC アドレスとして使用されるフィールド ] | 使用可能な場合は、`Email` タイプを使用して、Marketo Engageで設定された最大 25 の「リード」フィールドまたは「会社」フィールドを選択します。 |
 
 ## アラートの確認
 
