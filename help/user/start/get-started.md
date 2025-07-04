@@ -31,7 +31,7 @@ Adobe Journey Optimizer B2B editionで取り組みたい機能とツールは、
 
 1. **サンドボックスを作成**&#x200B;して、インスタンスを個別の独立した仮想環境に分割します。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **データエンジニアと協力** して、B2B オーディエンスとプロファイルのアクティベーションを計画および実装します。 公開したブループリントを確認し、要件に応じてガイドラインに従います。 [詳細情報](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **データエンジニアと協力** して、B2B オーディエンスとプロファイルのアクティベーションを計画および実装します。 公開したブループリントを確認し、要件に応じてガイドラインに従います。 [詳細情報](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **製品プロファイルを設定します**。製品プロファイルは、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできるようにする、Adobe Experience Platform の単一権限のセットです。[詳細情報](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
