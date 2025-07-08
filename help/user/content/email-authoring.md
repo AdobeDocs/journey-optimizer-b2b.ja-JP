@@ -4,16 +4,16 @@ description: Adobe Journey Optimizer B2B でメールコンテンツを作成す
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
+source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 20%
+source-wordcount: '927'
+ht-degree: 19%
 
 ---
 
 # メールメッセージのオーサリング
 
-ジャーニーアクションノードに &lbrack; 新しい <!-- or duplicated --> メールアセットを追加 &rbrack;(./add-email.md) した後、メールメッセージのコンテンツを定義できます。
+ジャーニーアクションノードに [ 新しい <!-- or duplicated --> メールアセットを追加 ](./add-email.md) した後、メールメッセージのコンテンツを定義できます。
 
 右側のパネルの **[!UICONTROL 詳細]** タブにある _[!UICONTROL メールコンテンツを編集]_ をクリックします。
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 
 このアクションは、メールデザインツールを起動し、次のオプションからメールのデザイン方法を選択できます。
 
-* E メールDesignerインターフェイスを使用して [&#128279;](#design-your-email-from-scratch) ゼロからメールをデザイン  します。
+* E メールDesignerインターフェイスを使用して [ ゼロからメールをデザイン ](#design-your-email-from-scratch) します。
 
 * ファイルまたは .zip フォルダーから[既存の HTML コンテンツを読み込み](#import-existing-html-content)ます。
 
@@ -52,14 +52,13 @@ ht-degree: 20%
 1. メールメッセージに [ 画像アセットを追加 ](#add-assets) します。
 1. [ メールコンテンツをパーソナライズ ](#personalize-content)。
 1. [ リンクを確認および更新 ](#preview-and-edit-linked-urls) します。
+1. [ メールをテストします ](#check-and-test-the-email)。
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
-
-コンテンツが完成したら、上部の **[!UICONTROL コンテンツをシミュレート]** をクリックしてレンダリングを確認します。 デスクトップまたはモバイル表示を選択できます。
 
 内容に問題がなければ、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -133,7 +132,7 @@ ht-degree: 20%
    * _表示_ アイコンをクリックして、デバイス間でコンテンツをプレビューします。
    * 標準提供のデバイスの 1 つを選択するか、カスタムサイズを入力してコンテンツをプレビューします。
 
-### 詳細オプション
+## 詳細オプション
 
 メールデザインスペースの上部にある _[!UICONTROL その他…]_ メニューから、次のアクションを実行できます。
 
@@ -145,15 +144,21 @@ ht-degree: 20%
 * **[!UICONTROL コンテンツテンプレートとして保存]** - メール本文をメールテンプレートとして保存し、複数のメールまたはメールテンプレートで再利用します。 テンプレートの名前と説明を指定し、保存済みのメールテンプレートのリストに保存します。
 * **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式のローカルシステムにダウンロードします。
 
-## メールを確認およびテスト {#preview-test}
+## メールを確認およびテスト {#email-testing}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="コンテンツのレンダリング方法の確認"
 >abstract="コンテンツを定義したら、プレビューし、使用しているチャネルのレンダリングが正しいかどうかを確認できます。"
 
-メッセージコンテンツを定義したら、テストプロファイルを使用してプレビュー、配達確認の送信、一般的なデスクトップ、モバイルおよび web ベースのクライアントでのレンダリングの制御を行うことができます。 パーソナライズされたコンテンツを挿入した場合は、テストプロファイルデータを使用して、そのコンテンツがメッセージにどのように表示されるかをプレビューできます。
+メッセージコンテンツを定義したら、テストプロファイルを使用してプレビュー、配達確認を送信、デスクトップおよびモバイルの縦横比でのレンダリングを確認できます。 パーソナライズされたコンテンツを挿入した場合は、テストプロファイルデータを使用して、そのコンテンツがメッセージにどのように表示されるかをプレビューできます。
 
-メールコンテンツをプレビューするには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを追加して、テストプロファイルデータを使用してメッセージを確認します。
+[ メールコンテンツをプレビュー ](./email-simulate-content.md) するには、「**[!UICONTROL コンテンツをシミュレート]** をクリックし、テストプロファイルを選択して、人物プロファイルデータを使用してメッセージを確認します。
 
 ![ メールコンテンツをシミュレートしてデザインを確認する ](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+追加のツールにアクセスして、メールの内容を検証およびレビューできます。
+
+* [配達確認を送信](./email-simulate-content.md#send-proofs)
+* [メールクライアントでのレンダリングのテスト](./email-test-rendering.md)
+<!-- * Generate a spam report -->
