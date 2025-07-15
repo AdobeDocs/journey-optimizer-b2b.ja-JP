@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能と機能強化について説明します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 91386eb001a8fdd31c2b35879cb47eefd99e97f5
+source-git-commit: 7e9396a7ac029c173fe3d9b0b1bab6b7c4521ee0
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2165'
 ht-degree: 96%
 
 ---
@@ -26,7 +26,6 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | GenStudio for Performance Marketing との統合 | （限定提供）GenStudio for Performance Marketing のメールエクスペリエンスを Journey Optimizer B2B Edition と統合して、マーケティング効率を高め、ブランドの一貫性を維持できるようになりました。この統合を利用すると、GenStudio AI を活用したコンテンツ作成と、Journey Optimizer B2B B2B Edition の高度なオーケストレーション機能を組み合わせることができます。[詳細情報](../content/genstudio-email-workflow.md) |
 | 機能 | Litmus を使用したメールテスト | [Litmus アカウント ](https://www.litmus.com/email-testing){target="_blank"} を使用して、Journey Optimizer B2B editionの一般的なメールクライアントでのメールのレンダリングをプレビューできるようになりました。 この統合により、メールコンテンツが適切に表示され、すべてのメールインボックスで設計どおりに動作することを確認できます。 [詳細情報](../content/email-test-rendering.md) |
 | 機能強化 | メールを複製 | ジャーニーノードのメールを追加する際に、既存のメールを複製できるようになりました。 複製したメールの設定や内容を変更するか、そのままにしておきます。  [詳細情報](../content/add-email.md#add-an-email-to-your-journey) |
 | 機能強化 | メールのハンドルバートークン形式 | メールコンテンツのパーソナライゼーショントークンで、ハンドルバースクリプトと完全に互換性のある更新済み形式が使用されるようになりました。この形式では、_キャメルケース_&#x200B;またはアンダースコアを使用し、スペースを排除します。[詳細情報](../content/email-authoring.md#content-authoring---personalization) |
