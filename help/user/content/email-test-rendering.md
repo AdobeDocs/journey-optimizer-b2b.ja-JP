@@ -5,16 +5,20 @@ feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: 9a8e7e2f36195acad0160456525c00f88cbfcc73
+source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '355'
 ht-degree: 3%
 
 ---
 
 # Litmus でのメールのレンダリングのテスト
 
-メールをテストするには、[Litmus アカウント ](https://www.litmus.com/email-testing){target="_blank"} をJourney Optimizer B2B editionに使用します。 この統合を使用すると、一般的なメールクライアントでのメールのレンダリングをプレビューできます。 このツールを使用すると、メールコンテンツを適切に表示し、すべてのインボックスで設計どおりに動作させることができます。
+メールをテストするには、Journey Optimizer B2B editionから [Litmus](https://www.litmus.com/email-testing){target="_blank"} Enterprise アカウントを利用します。 この統合を使用すると、一般的なメールクライアントでのメールのレンダリングをプレビューできます。 このツールを使用すると、メールコンテンツを適切に表示し、すべてのインボックスで設計どおりに動作させることができます。
+
+>[!NOTE]
+>
+>この統合は、Litmus Enterprise アカウントでのみ使用できます。 詳しくは、[Litmus web サイトのソリューションページ ](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"} を参照してください。
 
 1. メールデザインが完了し、テストする準備が整ったら、メールデザイン領域で **[!UICONTROL コンテンツをシミュレート]** をクリックします。
 
