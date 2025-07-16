@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B エディションの概要�
 source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 93%
       + [購買グループの作成](./buying-groups/buying-groups-create.md)
       + [アカウントリストの書き出し](./audiences/account-list-export.md)
       + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
-      + [Marketo Engageの購買グループフィルター](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [Marketo Engage の購買グループフィルター](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + アカウントリスト {#account-lists}
       + [概要](./accounts/account-lists.md)
       + [ジャーニーとプログラムでの使用](./accounts/account-lists-journeys.md)
