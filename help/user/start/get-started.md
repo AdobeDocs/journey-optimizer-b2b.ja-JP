@@ -4,10 +4,10 @@ description: Journey Optimizer B2B Edition の新規管理者またはユーザ�
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
+source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 87%
+source-wordcount: '713'
+ht-degree: 83%
 
 ---
 
@@ -31,7 +31,9 @@ Adobe Journey Optimizer B2B editionで取り組みたい機能とツールは、
 
 1. **サンドボックスを作成**&#x200B;して、インスタンスを個別の独立した仮想環境に分割します。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **データエンジニアと協力** して、B2B オーディエンスとプロファイルのアクティベーションを計画および実装します。 公開したブループリントを確認し、要件に応じてガイドラインに従います。 [詳細情報](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **データエンジニアと協力** して、B2B オーディエンスとプロファイルのアクティベーションを計画および実装します。 公開したブループリントを確認し、要件に応じてガイドラインに従います。 [詳細情報](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+
+1. **Marketo Engage統合の計画と実装** を実施して、カスタムスキーマの取り込み、プロファイルとアカウントの取り込み、購買グループ向けにパーソナライズされたジャーニーのオーケストレーションを行います。 [詳細情報](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **製品プロファイルを設定します**。製品プロファイルは、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできるようにする、Adobe Experience Platform の単一権限のセットです。[詳細情報](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -65,7 +67,7 @@ Adobe Journey Optimizer B2B editionで取り組みたい機能とツールは、
 
    * イベントからのコンテキストデータ、Adobe Experience Platform からの情報、サードパーティの API サービスからのデータを使用します。
 
-   * 組み込みのチャネルアクション（メールと SMS）を使用して、Journey Optimizer B2B Edition で設計したメッセージを送信します。
+   * ビルトインのチャネルアクション（メールと SMS）を使用して、Journey Optimizer B2B Edition で設計したメッセージを送信します。
 
    * ジャーニーマップで、複数ステップのユースケースを作成し、条件を追加して、パーソナライズされたメッセージを送信します。
 
