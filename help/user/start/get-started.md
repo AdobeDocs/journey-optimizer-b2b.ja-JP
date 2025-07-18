@@ -33,7 +33,7 @@ Adobe Journey Optimizer B2B Edition で取り扱う機能とツールは、チ�
 
 1. **データエンジニアと協力**&#x200B;して、B2B オーディエンスとプロファイルのアクティベーションを計画および実装します。公開したブループリントを確認し、要件に応じてガイドラインに従います。[詳細情報](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Marketo Engage統合の計画と実装** を実施して、カスタムスキーマの取り込み、プロファイルとアカウントの取り込み、購買グループ向けにパーソナライズされたジャーニーのオーケストレーションを行います。 [詳細情報](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Marketo Engage統合の計画と実装** を実施して、カスタムスキーマの取り込み、プロファイルとアカウントの取り込み、購買グループ向けにパーソナライズされたジャーニーのオーケストレーションを行います。 [詳細情報](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **製品プロファイルを設定します**。製品プロファイルは、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできるようにする、Adobe Experience Platform の単一権限のセットです。[詳細情報](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
