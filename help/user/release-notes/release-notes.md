@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
 workflow-type: tm+mt
 source-wordcount: '2552'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -54,8 +54,8 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | Litmus を使用したメールテスト | [Litmus Enterprise アカウント ](https://www.litmus.com/email-testing){target="_blank"} を使用して、Journey Optimizer B2B editionの一般的なメールクライアントでのメールのレンダリングをプレビューできるようになりました。 この統合により、メールコンテンツが適切に表示され、すべてのメールインボックスで設計どおりに動作することを確認できます。 [詳細情報](../content/email-test-rendering.md) |
-| 機能強化 | メールを複製 | ジャーニーノードのメールを追加する際に、既存のメールを複製できるようになりました。 複製したメールの設定や内容を変更するか、そのままにしておきます。  [詳細情報](../content/add-email.md#add-an-email-to-your-journey) |
+| 機能 | Litmus を使用したメールテスト | [Litmus Enterprise アカウント ](https://www.litmus.com/email-testing){target="_blank"} を使用して、Journey Optimizer B2B editionの一般的なメールクライアントでのメールのレンダリングをプレビューできるようになりました。 この統合により、すべてのメールのインボックスで、メールコンテンツが適切に表示され、設計どおりに機能します。[詳細情報](../content/email-test-rendering.md) |
+| 機能強化 | メールの複製 | ジャーニーノードにメールを追加する際に、既存のメールを複製できるようになりました。複製したメールの設定やコンテンツを変更するか、そのままにしておきます。[詳細情報](../content/add-email.md#add-an-email-to-your-journey) |
 | 機能強化 | メールのハンドルバートークン形式 | メールコンテンツのパーソナライゼーショントークンで、ハンドルバースクリプトと完全に互換性のある更新済み形式が使用されるようになりました。この形式では、_キャメルケース_&#x200B;またはアンダースコアを使用し、スペースを排除します。[詳細情報](../content/email-authoring.md#content-authoring---personalization) |
 | 機能強化 | リストの合計数の表示 | _[!UICONTROL ソリューションに対する関心]_&#x200B;および&#x200B;_[!UICONTROL アカウントジャーニー]_&#x200B;リストページが強化され、検索バーの横に合計数が表示されます。 |
 

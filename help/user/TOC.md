@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビ�
 source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 93%
    + メール {#emails}
       + [メールコンテンツの操作](./content/emails-list.md)
       + プレビューと検証 {#preview}
-         + [コンテンツをシミュレート](./content/email-simulate-content.md)
+         + [コンテンツのシミュレート](./content/email-simulate-content.md)
          + [メールレンダリングのテスト](./content/email-test-rendering.md)
          + [スパムレポート](./content/email-spam-report.md)
    + アセット {#assets}
