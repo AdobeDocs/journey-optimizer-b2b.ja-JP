@@ -35,7 +35,7 @@ Adobe Journey Optimizer B2B Edition では、Marketo Engage のメールチャ�
 1. [ドメインの MX レコードを設定](#set-up-mx-records-for-your-domain)
 1. [アウトバウンド IP アドレスを許可リストに追加](#outbound-ip-addresses)
 
-## <!-- landing pages and -->メールの DNS レコードを作成
+## &#x200B;<!-- landing pages and -->メールの DNS レコードを作成
 
 CNAME レコードを接続すると、マーケターは、トラフィックとコンバージョンを向上させる一貫性のあるブランドで、メール、ランディングページ、ブログの web バージョンをホストできます。マーケティングに焦点を当てた web アセットをホストするために、Marketo Engage のルートドメインホストに CNAME を追加することを強くお勧めします。管理者は、マーケティングチームと連携して、Marketo Engage を通じて送信されるメールに含まれるトラッキングリンクの CNAME レコードを計画および実装する必要があります。
 <!-- As an administrator, you should work with your Marketing team to plan and implement two CNAME records. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.

@@ -29,7 +29,7 @@ Adobe Journey Optimizer B2B editionは、Marketo Engageのチャネル関数と�
 
 現在の設定をレビューするには、次の各タブを選択します。
 
-### [!UICONTROL  メールヘッダーパラメーター ] {#email-header}
+### [!UICONTROL &#x200B; メールヘッダーパラメーター &#x200B;] {#email-header}
 
 メールヘッダーパラメーターでは、次のデフォルト値を定義します。
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer B2B editionは、Marketo Engageのチャネル関数と�
 
 * **[!UICONTROL Web ページテキストとして表示]** - _Web ページとして表示_ に使用されるプレーンテキスト。ブラウザーにメールを表示するためのリンクを提供します。
 
-### [!UICONTROL  ブランディングドメイン ] {#branding-domains}
+### [!UICONTROL &#x200B; ブランディングドメイン &#x200B;] {#branding-domains}
 
 ブランディングドメインを確認するには、「**[!UICONTROL ブランディングドメイン]**」タブをクリックします。
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer B2B editionは、Marketo Engageのチャネル関数と�
 >
 >複数のブランドをマーケティングし、それぞれに独自のブランドトラッキングリンクを設定する場合は、ブランディングドメインを追加できます。 複数のブランディングドメインの追加について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"} を参照してください。
 
-### [!UICONTROL  カスタムヘッダーオプション ] {#custom-header-options}
+### [!UICONTROL &#x200B; カスタムヘッダーオプション &#x200B;] {#custom-header-options}
 
 カスタムヘッダーオプションを確認するには、「**[!UICONTROL カスタムヘッダーオプション]**」タブをクリックします。
 

@@ -49,7 +49,7 @@ Excel ファイルをダウンロードすると、マッピングデータを�
 1. テンプレートを使用して、インテントマッピングデータを定義します。
 
    * ファイル名をカテゴリ名に合わせて変更します（_Personalization at scale_ など）。
-   * _Journey Optimizer B2B}、_ Marketo Engage _、_ Experience Manager _など、商品名に応じて各タブの名前を変更し_ す。
+   * _Journey Optimizer B2B&rbrace;、_ Marketo Engage _、_ Experience Manager _など、商品名に応じて各タブの名前を変更し_ す。
    * _B2B マーケティング_、_ブランド認識_、_リードエンゲージメント_ など、各タブの製品キーワードを追加します。
 
    ![ カテゴリ スプレッドシート ](./assets/intent-category-spreadsheet.png){width="600" zoomable="yes"}
