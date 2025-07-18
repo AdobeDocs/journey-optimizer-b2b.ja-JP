@@ -4,10 +4,10 @@ description: 必要なコンポーネントを使用して購入グループを�
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '268'
+ht-degree: 4%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 3%
 
 ![ 購入グループ作成の確認ダイアログ ](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
-ユーザーにソリューションの関心のタブに移動すると、ソリューションの関心に対して作成されたジョブの数を表示できます。
+## 購買グループ作成ジョブ
 
-![ 「購入グループの作成」をクリック ](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
+作成ジョブは、アカウントオーディエンスの新しいアカウントごとに購入グループを自動的に作成します。 「_[!UICONTROL ソリューションの関心]_」タブに移動すると、ソリューションの関心ごとに作成された作成ジョブの数を表示できます。 **[!UICONTROL 購買グループ作成ジョブ]** 列の数値をクリックして、作成ジョブのリストを表示します。
+
+![ ソリューションの関心によるグループのジョブの購入 ](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 <!-- Other buying group activities:
 
@@ -62,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## チュートリアルビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3451762/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

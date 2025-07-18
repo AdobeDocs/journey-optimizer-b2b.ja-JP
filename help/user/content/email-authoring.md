@@ -4,16 +4,16 @@ description: Adobe Journey Optimizer B2B でメールコンテンツを作成す
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
+source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '1050'
 ht-degree: 19%
 
 ---
 
 # メールメッセージのオーサリング
 
-ジャーニーアクションノードに &lbrack; 新しい <!-- or duplicated --> メールアセットを追加 &rbrack;(./add-email.md) した後、メールメッセージのコンテンツを定義できます。
+ジャーニーアクションノードに [ 新しい <!-- or duplicated --> メールアセットを追加 ](./add-email.md) した後、メールメッセージのコンテンツを定義できます。
 
 右側のパネルの **[!UICONTROL 詳細]** タブにある _[!UICONTROL メールコンテンツを編集]_ をクリックします。
 
@@ -95,6 +95,20 @@ ht-degree: 19%
 >abstract="コンテンツコンポーネントは、メールのレイアウト作成に使用できる空のコンテンツプレースホルダーです。"
 
 {{$include /help/_includes/content-design-components.md}}
+
+### カスタム CSS を追加
+
+独自のカスタム CSS をメールデザイン空間内に直接追加できます。 カスタム CSS を使用して高度な特定のスタイル設定を適用し、コンテンツの外観をより柔軟に制御できます。 画像、ボタン、テキストなどのコンポーネントを含める前に、この最高レベルのスタイルを追加することをお勧めします。
+
+キャンバスに 1 つ以上のコンテンツコンポーネントがある状態で、左側のナビゲーションツリーで **[!UICONTROL 本文]** コンポーネントを選択して、カスタム CSS エディターにアクセスします。
+
+>[!NOTE]
+>
+>メールメッセージが [ コンテンツをロックしたテンプレート ](./template-content-governance.md) を使用してデザインされている場合、カスタム CSS をコンテンツに追加することはできません。 ボタンのラベルが&#x200B;**[!UICONTROL カスタム CSS を表示]**&#x200B;に変わり、コンテンツに既に存在するカスタム CSS は読み取り専用になります。
+
+![ 本文スタイルへのアクセス ](./assets/email-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### フラグメントを追加
 

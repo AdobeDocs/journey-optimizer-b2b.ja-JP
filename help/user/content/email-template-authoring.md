@@ -4,10 +4,10 @@ description: アカウントジャーニーメールに使用できるコンテ�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 18%
+source-wordcount: '421'
+ht-degree: 15%
 
 ---
 
@@ -28,6 +28,16 @@ ht-degree: 18%
 >abstract="コンテンツコンポーネントは、テンプレートのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
 {{$include /help/_includes/content-design-components.md}}
+
+### カスタム CSS を追加
+
+独自のカスタム CSS をメールテンプレートデザインスペース内に直接追加できます。 カスタム CSS を使用して高度な特定のスタイル設定を適用し、コンテンツの外観をより柔軟に制御できます。 画像、ボタン、テキストなどのコンポーネントを含める前に、この最高レベルのスタイルを追加することをお勧めします。
+
+キャンバスに 1 つ以上のコンテンツコンポーネントがある状態で、左側のナビゲーションツリーで **[!UICONTROL 本文]** コンポーネントを選択して、カスタム CSS エディターにアクセスします。
+
+![ 本文スタイルへのアクセス ](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### フラグメントを追加
 

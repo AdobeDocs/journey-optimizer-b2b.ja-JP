@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能と機能強化について説明します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 96%
+source-wordcount: '2552'
+ht-degree: 85%
 
 ---
 
@@ -17,6 +17,34 @@ Adobe Journey Optimizer B2B Edition では、新機能、既存機能の強化�
 Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネイティブに作成され、最新のイノベーションと改善点を継承しています。次の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/latest){target="_blank"}を参照してください。
 
 使用権限、パフォーマンスガードレール、制限事項について詳しくは、[製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}を参照してください。
+<!-- hold for 2025.8 release 
+
+| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
+| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
+
+-->
+
+## 2025.6 リリースノート
+
+**デプロイメント日**：2025年7月15日（PT）
+
+このリリースには、次の新機能および機能強化が含まれています。
+
+| タイプ | 項目 | 説明 |
+| ---- | ---- | ----------- |
+| 機能 | GenStudio for Performance Marketing との統合 | （限定提供）GenStudio for Performance Marketing のメールエクスペリエンスを Journey Optimizer B2B Edition と統合して、マーケティング効率を高め、ブランドの一貫性を維持できるようになりました。この統合を利用すると、GenStudio AI を活用したコンテンツ作成と、Journey Optimizer B2B B2B Edition の高度なオーケストレーション機能を組み合わせることができます。[詳細情報](../content/genstudio-email-workflow.md) |
+| 機能 | スパム検出レポート | スパムフィルターを回避し、メッセージがオーディエンスのインボックスに確実に配信されるように、電子メールデザインスペースで直接 _スパムレポート_ を生成できます。 [詳細情報](../content/email-spam-report.md) |
+| 機能 | 人物の詳細ページ | インテリジェントダッシュボード、購入グループの詳細ページ、アカウントの詳細ページで（ハイパーリンクとして）表示されたときに、ユーザーの名前をクリックできるようになりました。 このアクションにより、関連する人物の詳細ページが開きます。このページには、連絡先、活動、および上位のエンゲージメントの高い購入グループに関する情報が表示されます。 [詳細情報](../accounts/person-details.md) |
+| 機能 | アカウントおよび購入グループのアクション | タイムリーで意図的なエンゲージメントを実現するために、アカウントの詳細ページと購入グループの詳細ページから直接アクションを実行します。 <li>_メールを送信_ アクションを使用して、選択したアカウントの連絡先または購入グループメンバーに承認済みのMarketo Engage メールを送信します。 [詳細情報](../accounts/account-details.md#send-emails) <li>購入グループの詳細から、アクションには _新しいメンバーの割り当て_、_メンバーの削除_、_役割の編集_ も含まれます。 [詳細情報](../buying-groups/buying-group-details.md#members-tab) |
+| 機能 | 詳細ページへの CRM 内アクセス | SalesforceやMicrosoft Dynamicsなどの顧客関係管理（CRM）ツールで、アカウント、連絡先、リードのJourney Optimizer B2B edition詳細ページへのダイレクトリンクを設定できるようになりました。 [詳細情報](../accounts/crm-linking.md) |
+| 機能 | コンテンツデザインのカスタム CSS サポート | デザイン領域でメールおよびランディングページのコンテンツをオーサリングする際に、独自のカスタム CSS を追加できるようになりました。 [詳細情報](../content/design-custom-css.md) |
+| 機能 | インテントキーワードマッピングの設定 | インテント検出モデルをアクティブ化および管理するために、スプレッドシートをアップロードしてインテントデータマッピングカテゴリを定義できるようになりました。 [詳細情報](../admin/intent-data.md) |
+| 機能強化 | メールの概要からコンテンツをシミュレート | メール リストからメールを開いたときに、メールの概要（詳細とプロパティ）から _コンテンツをシミュレート_ ツールにアクセスできるようになりました。 このアクセス権は、メールデザイン領域に追加されます。 [詳細情報](../content/email-simulate-content.md#display-the-email-preview) |
+| 機能強化 | ロールテンプレートリストに表示される合計数 | _[!UICONTROL ロールテンプレート]_ リストページが強化され、検索バーの横に合計数が表示されます。 |
+
+<!-- The following capabilities are currently available only for a set of program participants (Beta):
+
+**Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. -->
 
 ## 2025.5 リリースノート
 
@@ -123,7 +151,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能強化 | 中央アセットライブラリ | 強化された&#x200B;_中央アセットライブラリ_&#x200B;を使用すると、Design Studio ワークスペースをまたいで Marketo Engage インスタンス内のすべての画像アセットを使用できます。Journey Optimizer B2B Edition からの Marketo Engage アセットの編集、削除、移動操作を防ぐガードレールが組み込まれています。これらの保護により、ソースアセット（Marketo Engage Design Studio）が維持され、Journey Optimizer B2B Edition でシームレスな読み取りと再利用が可能になります。<p>Journey Optimizer B2B Edition 専用アセットの場合、特定のワークスペースで完全なアセット管理機能が提供されます。<a href="../content/marketo-engage-design-studio.md">詳細情報</a> |
+| 機能強化 | 中央アセットライブラリ | 強化された&#x200B;_中央アセットライブラリ_&#x200B;を使用すると、Design Studio ワークスペースをまたいで Marketo Engage インスタンス内のすべての画像アセットを使用できます。Journey Optimizer B2B Edition からの Marketo Engage アセットの編集、削除、移動操作を防ぐ、ビルトインのガードレールが用意されています。これらの保護により、ソースアセット（Marketo Engage Design Studio）が維持され、Journey Optimizer B2B Edition でシームレスな読み取りと再利用が可能になります。<p>Journey Optimizer B2B Edition 専用アセットの場合、特定のワークスペースで完全なアセット管理機能が提供されます。<a href="../content/marketo-engage-design-studio.md">詳細情報</a> |
 | 機能 | 最近アクセス済みのアセット | Journey Optimizer B2B Edition アプリのホームページに「_[!UICONTROL 最近アクセス済み]_」セクションが追加され、マーケターや管理者に対して最近アクセス済みのアセットのリストが表示されるようになりました。このリストを使用すると、一連のアセットページを移動して検索することなく、最近作業済みのアセットに直接移動できます。 <p>リストには、変更に関する追加情報が提供され、前回のセッションからさらに変更が必要なアセットを決定できます。メールアセットの場合、メールアセットを使用するアカウントジャーニーが表示されます。<a href="../home-page.md">詳細情報</a> |
 | 機能強化 | ジャーニー分割ノード - パスを並べ替え | 分割パスノードでは、パスフィルタリングは上から下へ順に評価されます。各ユーザーまたはアカウントは、一致する最初のパスに沿って進行します。各パスカードの右上にある上向き矢印と下向き矢印をクリックして、定義済みのパスをリスト内で上下に移動することで、パスの順序を変更できます。<a href="../journeys/split-merge-paths-nodes.md#split-paths">詳細情報</a> |
 | 機能強化 | ジャーニー分割ノード - 追加のアクティビティ履歴条件属性 | 条件を使用して、人物別に分割ノードのパスフィルタリングを定義する場合、_開封済みのメール_&#x200B;と&#x200B;_配信済みのメール_&#x200B;という 2 つの追加属性があります。これらの追加により、メールのアクティビティに基づいてジャーニー内の人物をフィルタリングする際の柔軟性が向上します。<a href="../journeys/journey-nodes.md#split-paths">詳細情報</a> |

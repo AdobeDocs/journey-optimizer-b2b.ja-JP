@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition ドキュメント
-description: 組み込みの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整する Adobe Journey Optimizer B2B Edition 機能の使用方法について説明します。
+description: ビルトインの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整する Adobe Journey Optimizer B2B Edition 機能の使用方法について説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 60%
 
 ---
 
@@ -23,43 +23,41 @@ GenStudio for Performance Marketing のメールエクスペリエンスを Jour
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="GenStudio のメールエクスペリエンスについて説明します"}
 
->[!TAB アカウントリスト]
+>[!TAB  スパム検出レポート ]
 
-マーケターがターゲットのジャーニーオーケストレーションに使用できる重点顧客のコレクションであるアカウントリストを作成します。アカウントリストでは、業界、場所、会社の規模など、定義した条件で重点顧客をターゲットにすることができます。
+新しいスパムレポートを使用すると、スパムフィルターを回避し、メッセージがオーディエンスの受信ボックスに確実に配信されるようにします。 メールデザイン領域で直接 _スパムレポート_ を生成します。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="アカウントリストについて学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="スパム検出レポートについて学ぶ"}
 
->[!TAB スマートリスト用のアカウントリストフィルター]
+>[!TAB  アカウントおよび購入グループのアクション ]
 
-アカウントリストフィルターを使用して Marketo Engage スマートリストをフィルタリングできるようになりました。これらのフィルターを使用すると、Journey Optimizer B2B Edition 内のアカウントジャーニーから、Marketo Engage キャンペーンおよびプログラムをまたいでアカウントリストメンバーを抑制したり、含めたりすることができます。
+タイムリーで意図的なエンゲージメントを実現するために、アカウントの詳細ページと購入グループの詳細ページから直接アクションを実行します。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Marketo Engage スマートリストで使用されるアカウントリストフィルターについて学ぶ"}
+_メールを送信_ アクションを使用して、選択したアカウントの連絡先または購入グループメンバーに承認済みのMarketo Engage メールを送信します。
 
->[!TAB 非アクティビティ履歴フィルター]
+[!BADGE 詳細情報]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="アカウント連絡先へのメール送信について学ぶ"}
 
-メール、注目のアクション、データ値の変更、訪問済みの web ページなど、Marketo Engage キャンペーンとプログラム内の非アクティビティに基づいてジャーニーを進行させます。
+購入グループの詳細から、アクションには _新しいメンバーの割り当て_、_メンバーの削除_、_役割の編集_ も含まれます。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="非アクティビティ履歴フィルターについて学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="グループアクションの購入について学ぶ"}
 
->[!TAB ジャーニーの複製]
+>[!TAB  カスタム CSS のサポート ]
 
-アカウントジャーニー構造を複製して、手動によるエラーを最小限に抑え、一貫性のある設定、フローおよびパスを確保します。複製したジャーニーでは、コンテンツやアクションを調整できるので、より大規模でより複雑なキャンペーンの管理が簡単になります。
+デザイン領域でメールおよびランディングページのコンテンツをオーサリングする際に、独自のカスタム CSS を追加できるようになりました。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="ジャーニーの複製について学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="カスタム CSS の使用について"}
 
->[!TAB インテリジェントインサイトダッシュボード]
+>[!TAB  インテントキーワードマッピング ]
 
-新しいインテリジェントダッシュボードを使用すると、ステージをまたいで購買グループの選定の進行状況を確認できます。急速に移動している購買グループや、停滞しているグループを把握することで、必要に応じてお客様を育成するジャーニーをキュレーションできます。また、購買グループとアカウントレベルの詳細も取得できるので、顧客エンゲージメントに関する詳細なコンテキストと履歴データが提供されます。
+インテント検出モデルをアクティブ化および管理するために、スプレッドシートをアップロードしてインテントデータマッピングカテゴリを定義できるようになりました。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="インテリジェントダッシュボードについて学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/admin/intent-data.md" tooltip="インテントキーワードマッピング設定について説明します"}
 
->[!TAB Adobe Express の画像編集]
+>[!TAB Litmus を使用したメールテスト ]
 
-Adobe Express クイックアクションを使用すると、切り抜き、サイズ変更、背景の削除、形式の変換などによりコンテンツをタッチアップできます。直感的な Adobe Express UI が組み込まれているので、画像アセットをすばやく微調整できます。
+Litmus アカウントを使用して、Journey Optimizer B2B editionから一般的なメールクライアントでのメールのレンダリングをプレビューできるようになりました。 この統合により、メールコンテンツが適切に表示され、すべてのメールインボックスで設計どおりに動作することを確認できます。
 
-Adobe Express Enterprise ライセンスを使用すると、Adobe Express の完全な機能スイートを活用できます。これらの機能を使用して、ブランドガイドラインを遵守しながら画像を磨き上げ、強化し、コンテンツサプライチェーンの障害を取り除きます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Adobe Express を使用した画像編集について学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Litmus メールテスト統合について説明します"}
 
 >[!ENDTABS]
 
@@ -139,7 +137,7 @@ Adobe Express Enterprise ライセンスを使用すると、Adobe Express の�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">ドキュメント</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>

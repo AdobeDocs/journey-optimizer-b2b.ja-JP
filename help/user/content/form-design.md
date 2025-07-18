@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # フォームのデザイン
 
-[ フォームを作成 ](./landing-pages.md#create-a-landing-page) した後、ビジュアルデザインスペースは、デフォルトの基本フォーム定義でドラフトを開きます。 右側の _[!UICONTROL 概要]_ パネルで **[!UICONTROL フォームを編集]** をクリックし、ビジュアルデザインスペースを使用してフォームのスタイルとフィールドコンポーネントを定義します。
+[ フォームを作成 ](./forms.md#create-forms) した後、ビジュアルデザインスペースは、デフォルトの基本フォーム定義でドラフトを開きます。 右側の _[!UICONTROL 概要]_ パネルで **[!UICONTROL フォームを編集]** をクリックし、ビジュアルデザインスペースを使用してフォームのスタイルとフィールドコンポーネントを定義します。
 
 ![Forms ライブラリへのアクセス ](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
@@ -179,7 +179,7 @@ ht-degree: 1%
 
 新しいフォームでは、スタイル設定にデフォルトの CSS を使用します。 CSS を変更してスタイルを変更する場合は、その CSS をコピーしてから、それを使用してフォームのカスタム CSS を定義します。
 
-_フォームのカスタム CSS を定義するには：_
+フォームのカスタム CSS を定義するには（_T） :_
 
 1. 右側のパネルで **[!UICONTROL CSS を表示]** をクリックして、CSS コードを確認します。
 

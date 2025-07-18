@@ -5,7 +5,7 @@ feature: Forms, Content
 role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b3b6db22e27ceff88be9808a1aaf89b3eee7f17
 workflow-type: tm+mt
 source-wordcount: '2350'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Journey Optimizer B2B editionで再利用可能なフォームの作成を開始
 
 ### 新しいフォームを追加
 
-Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL Forms **[!UICONTROL リストページの右上にある]**&#x200B;フォームを作成]_ をクリックします。
+Journey Optimizer B2B editionでフォームを作成するには、**[!UICONTROL Forms]** リストページの右上にある _[!UICONTROL フォームを作成]_ をクリックします。
 
 1. _[!UICONTROL フォームを作成]_ ダイアログで、便利な **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を入力します。
 
@@ -112,7 +112,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 ### 「ありがとうございます」ページを設定します
 
-右側の _[!UICONTROL 概要]_ パネルで、「ありがとうページ **&#x200B;**&#x200B;セクションまでスクロールし、「**[!UICONTROL フォローアップ]** 設定を使用して、訪問者がフォームを送信したときの動作を定義します。
+右側の _[!UICONTROL 概要]_ パネルで、「ありがとうページ **** セクションまでスクロールし、「**[!UICONTROL フォローアップ]** 設定を使用して、訪問者がフォームを送信したときの動作を定義します。
 
 * **[!UICONTROL ページを維持]** - フォームの送信時に訪問者のページを変えない場合は、このオプションを選択します。
 

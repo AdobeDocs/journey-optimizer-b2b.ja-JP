@@ -4,9 +4,9 @@ description: メール リストを使用すると、Adobe Journey Optimizer B2B
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,12 @@ Adobe Journey Optimizer B2B editionでメールにアクセスするには、左
 
 ![ メールテンプレートライブラリにアクセスし、名前と日付でフィルタリングする ](./assets/emails-list-filtered.png){width="700" zoomable="yes"}
 
-## メールを編集
+## メールを開いて編集する
 
 リストでメール名をクリックして開きます。 [ メール設定 ](./add-email.md#define-the-email-settings) を確認および変更できます。 「**[!UICONTROL メールコンテンツを編集]**」をクリックして [ コンテンツの更新 ](./email-authoring.md) を行います。
 
 ページの右上に [ アラートが表示されている場合 ](./add-email.md#check-alerts) をクリックし、警告またはエラーを確認して、必要に応じて項目を対処します。
 
 ![ 更新するには、E メールを開きます ](./assets/email-open-update.png){width="700" zoomable="yes"}
+
+また、[_[!UICONTROL  コンテンツをシミュレート ]_](./email-simulate-content.md) ウィンドウにアクセスすることもできます。 これらのツールを使用して、テストプロファイルを使用してコンテンツをプレビューし、配達確認を送信し、配信品質とメールクライアントのレンダリングについてメールをテストします。

@@ -4,10 +4,10 @@ description: 購入グループコンポーネントとして使用する役割�
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 5%
+source-wordcount: '1103'
+ht-degree: 6%
 
 ---
 
@@ -25,20 +25,18 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
    ![ 「役割テンプレート」タブ ](assets/roles-templates-tab.png){width="700" zoomable="yes"}
 
-   このタブには、次の列を持つ既存のすべての役割テンプレートの在庫リストが表示されます。
+   このタブには、既存のすべての役割テンプレートの在庫リストが表示され、次の情報が列形式で表示されます。
 
    * [!UICONTROL 名前]
    * [!UICONTROL ステータス]
    * [!UICONTROL 作成日]
    * [!UICONTROL 作成者]
-   * [!UICONTROL &#x200B; 最終更新日 &#x200B;]
+   * [!UICONTROL  最終更新日 ]
    * [!UICONTROL 最終更新者]
    * [!UICONTROL 公開日]
    * [!UICONTROL 公開者]
 
-   このリストは、デフォルトで _[!UICONTROL 最終更新]_ 列で並べ替えられます。
-
-   _ライブ_ （公開済み）ロールテンプレートの数は、ページの右上に表示されます。 すべての役割テンプレートのステータスは、`Draft` または `Live` です。
+   このリストは、デフォルトで _[!UICONTROL 最終更新]_ 順に並べ替えられます。 すべての役割テンプレートのステータスは、`Draft` または `Live` です。
 
 1. リストを名前でフィルタリングするには、リストの上部にある検索フィールドを使用します。
 
@@ -66,7 +64,7 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 | ---- | --------- |
 | 顧客属性 | <li>メールアドレス <li>メール無効 <li>メール中断済み <li>FAX 番号 <li>名 <li>推測される都道府県 / 地域 <li>役職 <li>姓 <li>ミドルネーム <li>携帯電話番号 <li>電話番号 <li>郵便番号 <li>ステート <li>登録解除 <li>登録解除の理由 |
 | 特殊フィルター | <li>リストのメンバー <li>プログラムのメンバー |
-| インテントデータ | カテゴリインテント <li>製品の意図 <li>キーワードインテント <br/>[ インテントデータについて説明します ](../admin/intent-data.md)。 |
+| インテントデータ | カテゴリインテント <li>製品インテント <li>キーワードインテント <br/>[ インテントデータについて説明します ](../admin/intent-data.md)。 |
 
 1. 最初の役割カードに対して、役割のプロパティを定義します。
 
@@ -78,7 +76,7 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
    * エンゲージメントスコアの計算に使用される役割の **[!UICONTROL 重み付け]** を設定します。
 
-     各オプションの値は、スコア計算のパーセンテージ（[!UICONTROL &#x200B; 簡易 &#x200B;] = 20、[!UICONTROL &#x200B; 軽度 &#x200B;] = 40、[!UICONTROL &#x200B; 標準 &#x200B;] = 60、[!UICONTROL &#x200B; 重要 &#x200B;] = 80、[!UICONTROL &#x200B; 重要 &#x200B;] = 100）に変換されます。
+     各オプションの値は、スコア計算のパーセンテージ（[!UICONTROL  簡易 ] = 20、[!UICONTROL  軽度 ] = 40、[!UICONTROL  標準 ] = 60、[!UICONTROL  重要 ] = 80、[!UICONTROL  重要 ] = 100）に変換されます。
 
      例えば、重要、重要、標準を使用する役割を含む役割テンプレートは、100/240、80/240、60/240 に変換されます。
 
@@ -164,4 +162,4 @@ Marketo Engageでは、_スマートキャンペーン_ プログラムのメン
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3453298/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

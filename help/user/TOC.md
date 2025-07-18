@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
-user-guide-description: Adobe Journey Optimizer B2B エディションの概要と、組み込みの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
+user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
+source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 95%
+source-wordcount: '282'
+ht-degree: 93%
 
 ---
 
@@ -51,7 +51,6 @@ ht-degree: 95%
       + [ソリューションに対する関心](./buying-groups/solution-interests.md)
       + [役割テンプレート](./buying-groups/buying-groups-role-templates.md)
       + [購買グループステージ](./buying-groups/buying-group-stages.md)
-      + [購買グループの詳細](./buying-groups/buying-group-details.md)
       + [購買グループの作成](./buying-groups/buying-groups-create.md)
       + [アカウントリストの書き出し](./audiences/account-list-export.md)
       + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
@@ -59,14 +58,19 @@ ht-degree: 95%
    + アカウントリスト {#account-lists}
       + [概要](./accounts/account-lists.md)
       + [ジャーニーとプログラムでの使用](./accounts/account-lists-journeys.md)
-   + [アカウントの詳細](./accounts/account-details.md)
    + [XDM フィールド](./data/field-mapping.md)
+   + 販売エクスペリエンス {#sales-experience}
+      + [アカウントの詳細](./accounts/account-details.md)
+      + [購買グループの詳細](./buying-groups/buying-group-details.md)
+      + [顧客の詳細](./accounts/person-details.md)
+      + [CRM リンク](./accounts/crm-linking.md)
 + コンテンツ管理 {#content-management}
    + メール {#emails}
-      + [ メールコンテンツの操作 ](./content/emails-list.md)
-プレビューと検証  {#preview}
+      + [メールコンテンツの操作](./content/emails-list.md)
+      + プレビューと検証 {#preview}
          + [コンテンツをシミュレート](./content/email-simulate-content.md)
          + [メールレンダリングのテスト](./content/email-test-rendering.md)
+         + [スパムレポート](./content/email-spam-report.md)
    + アセット {#assets}
       + [概要](./content/assets-overview.md)
       + Marketo Engage アセット {#marketo-engage-dam}
@@ -91,6 +95,7 @@ ht-degree: 95%
       + [概要](./content/landing-pages.md)
       + [ランディングページのデザイン](./content/landing-page-design.md)
    + [条件付きコンテンツ](./content/conditional-content.md)
+   + [カスタム CSS](./content/design-custom-css.md)
 + インサイトダッシュボード {#dashboards}
    + [インテリジェントダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントの概要](./dashboards/engagement-dashboard.md)
