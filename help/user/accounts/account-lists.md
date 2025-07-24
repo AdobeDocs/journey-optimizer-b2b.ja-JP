@@ -34,10 +34,10 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
 表示される _[!UICONTROL アカウントリスト]_ ページには、次の列が含まれます。
 
-* [!UICONTROL  名前 ] （アカウントリストの名前をクリックすると詳細が表示されます）
+* [!UICONTROL &#x200B; 名前 &#x200B;] （アカウントリストの名前をクリックすると詳細が表示されます）
 * [!UICONTROL ステータス]
 * [!UICONTROL タイプ]
-* [!UICONTROL  最終更新日 ]
+* [!UICONTROL &#x200B; 最終更新日 &#x200B;]
 * [!UICONTROL 最終更新者]
 * [!UICONTROL 作成日]
 * [!UICONTROL 作成者]
