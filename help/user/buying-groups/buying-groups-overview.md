@@ -5,7 +5,7 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2151'
 ht-degree: 100%
 
@@ -220,4 +220,4 @@ _[!UICONTROL 非常に重要]_、_[!UICONTROL 重要]_、_[!UICONTROL 標準]_&#
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3452926/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
