@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer B2B Edition の最新機能と機能強化�
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -33,14 +33,14 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
 | 機能 | GenStudio for Performance Marketing との統合 | （限定提供）GenStudio for Performance Marketing のメールエクスペリエンスを Journey Optimizer B2B Edition と統合して、マーケティング効率を高め、ブランドの一貫性を維持できるようになりました。この統合を利用すると、GenStudio AI を活用したコンテンツ作成と、Journey Optimizer B2B B2B Edition の高度なオーケストレーション機能を組み合わせることができます。[詳細情報](../content/genstudio-email-workflow.md) |
-| 機能 | スパム検出レポート | スパムフィルターを回避し、メッセージがオーディエンスのインボックスに確実に配信されるように、電子メールデザインスペースで直接 _スパムレポート_ を生成できます。 [詳細情報](../content/email-spam-report.md) |
-| 機能 | 人物の詳細ページ | インテリジェントダッシュボード、購入グループの詳細ページ、アカウントの詳細ページで（ハイパーリンクとして）表示されたときに、ユーザーの名前をクリックできるようになりました。 このアクションにより、関連する人物の詳細ページが開きます。このページには、連絡先、活動、および上位のエンゲージメントの高い購入グループに関する情報が表示されます。 [詳細情報](../accounts/person-details.md) |
-| 機能 | アカウントおよび購入グループのアクション | タイムリーで意図的なエンゲージメントを実現するために、アカウントの詳細ページと購入グループの詳細ページから直接アクションを実行します。 <li>_メールを送信_ アクションを使用して、選択したアカウントの連絡先または購入グループメンバーに承認済みのMarketo Engage メールを送信します。 [詳細情報](../accounts/account-details.md#send-emails) <li>購入グループの詳細から、アクションには _新しいメンバーの割り当て_、_メンバーの削除_、_役割の編集_ も含まれます。 [詳細情報](../buying-groups/buying-group-details.md#members-tab) |
-| 機能 | 詳細ページへの CRM 内アクセス | SalesforceやMicrosoft Dynamicsなどの顧客関係管理（CRM）ツールで、アカウント、連絡先、リードのJourney Optimizer B2B edition詳細ページへのダイレクトリンクを設定できるようになりました。 [詳細情報](../accounts/crm-linking.md) |
-| 機能 | コンテンツデザインのカスタム CSS サポート | デザイン領域でメールおよびランディングページのコンテンツをオーサリングする際に、独自のカスタム CSS を追加できるようになりました。 [詳細情報](../content/design-custom-css.md) |
-| 機能 | インテントキーワードマッピングの設定 | インテント検出モデルをアクティブ化および管理するために、スプレッドシートをアップロードしてインテントデータマッピングカテゴリを定義できるようになりました。 [詳細情報](../admin/intent-data.md) |
-| 機能強化 | メールの概要からコンテンツをシミュレート | メール リストからメールを開いたときに、メールの概要（詳細とプロパティ）から _コンテンツをシミュレート_ ツールにアクセスできるようになりました。 このアクセス権は、メールデザイン領域に追加されます。 [詳細情報](../content/email-simulate-content.md#display-the-email-preview) |
-| 機能強化 | ロールテンプレートリストに表示される合計数 | _[!UICONTROL ロールテンプレート]_ リストページが強化され、検索バーの横に合計数が表示されます。 |
+| 機能 | スパム検出レポート | スパムフィルターを回避し、メッセージがオーディエンスのインボックスに確実に配信されるようにするには、メールデザインスペースで&#x200B;_スパムレポート_&#x200B;を直接生成します。[詳細情報](../content/email-spam-report.md) |
+| 機能 | ユーザーの詳細ページ | インテリジェントダッシュボード、購買グループの詳細ページ、アカウントの詳細ページでユーザーの名前が（ハイパーリンクとして）表示されている際に、その名前をクリックできるようになりました。このアクションにより、関連するユーザーの詳細ページが開き、連絡先、そのアクティビティ、上位の関与している購買グループに関する情報が表示されます。[詳細情報](../accounts/person-details.md) |
+| 機能 | アカウントと購買グループのアクション | タイムリーで意図的なエンゲージメントを実現するために、アカウントの詳細ページと購買グループの詳細ページからアクションを直接実行します。 <li>_メールを送信_&#x200B;アクションを使用して、Marketo Engage の承認済みメールを、選択したアカウントの連絡先または購買グループのメンバーに送信します。[詳細情報](../accounts/account-details.md#send-emails) <li>購買グループの詳細からは、_新規メンバーを割り当て_、_メンバーを削除_、_役割を編集_&#x200B;などのアクションも実行できます。[詳細情報](../buying-groups/buying-group-details.md#members-tab) |
+| 機能 | CRM 内から詳細ページへのアクセス | Salesforce や Microsoft Dynamics などの顧客関係管理（CRM）ツールで、アカウント、連絡先、リードの Journey Optimizer B2B Edition の詳細ページへのダイレクトリンクを設定できるようになりました。[詳細情報](../accounts/crm-linking.md) |
+| 機能 | コンテンツデザインのカスタム CSS サポート | デザインスペースでメールやランディングページのコンテンツを作成する際に、独自のカスタム CSS を追加できるようになりました。[詳細情報](../content/design-custom-css.md) |
+| 機能 | インテントキーワードマッピングの設定 | インテント検出モデルをアクティブ化および管理するために、スプレッドシートをアップロードしてインテントデータマッピングカテゴリを定義できるようになりました。[詳細情報](../admin/intent-data.md) |
+| 機能強化 | メールの概要からのコンテンツのシミュレート | メールリストからメールを開く際に、メールの概要（詳細とプロパティ）から&#x200B;_コンテンツをシミュレート_&#x200B;ツールにアクセスできるようになりました。このアクセス権は、メールのデザインスペースに追加されます。[詳細情報](../content/email-simulate-content.md#display-the-email-preview) |
+| 機能強化 | 役割テンプレートリストの合計数表示 | _[!UICONTROL アカウントジャーニー]_&#x200B;リストページが強化され、検索バーの横に合計数が表示されます。 |
 
 <!-- The following capabilities are currently available only for a set of program participants (Beta):
 
@@ -54,7 +54,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | Litmus を使用したメールテスト | [Litmus Enterprise アカウント ](https://www.litmus.com/email-testing){target="_blank"} を使用して、Journey Optimizer B2B editionの一般的なメールクライアントでのメールのレンダリングをプレビューできるようになりました。 この統合により、すべてのメールのインボックスで、メールコンテンツが適切に表示され、設計どおりに機能します。[詳細情報](../content/email-test-rendering.md) |
+| 機能 | Litmus を使用したメールテスト | [Litmus Enterprise アカウント](https://www.litmus.com/email-testing){target="_blank"}を使用して、Journey Optimizer B2B Edition で選定した一般的なメールクライアントのメールのレンダリングをプレビューできるようになりました。この統合により、すべてのメールのインボックスで、メールコンテンツが適切に表示され、設計どおりに機能します。[詳細情報](../content/email-test-rendering.md) |
 | 機能強化 | メールの複製 | ジャーニーノードにメールを追加する際に、既存のメールを複製できるようになりました。複製したメールの設定やコンテンツを変更するか、そのままにしておきます。[詳細情報](../content/add-email.md#add-an-email-to-your-journey) |
 | 機能強化 | メールのハンドルバートークン形式 | メールコンテンツのパーソナライゼーショントークンで、ハンドルバースクリプトと完全に互換性のある更新済み形式が使用されるようになりました。この形式では、_キャメルケース_&#x200B;またはアンダースコアを使用し、スペースを排除します。[詳細情報](../content/email-authoring.md#content-authoring---personalization) |
 | 機能強化 | リストの合計数の表示 | _[!UICONTROL ソリューションに対する関心]_&#x200B;および&#x200B;_[!UICONTROL アカウントジャーニー]_&#x200B;リストページが強化され、検索バーの横に合計数が表示されます。 |

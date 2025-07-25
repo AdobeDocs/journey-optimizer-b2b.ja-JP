@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: ビルトインの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整する Adobe Journey Optimizer B2B Edition 機能の使用方法について説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,41 +23,41 @@ GenStudio for Performance Marketing のメールエクスペリエンスを Jour
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="GenStudio のメールエクスペリエンスについて説明します"}
 
->[!TAB  スパム検出レポート ]
+>[!TAB スパム検出レポート]
 
-新しいスパムレポートを使用すると、スパムフィルターを回避し、メッセージがオーディエンスの受信ボックスに確実に配信されるようにします。 メールデザイン領域で直接 _スパムレポート_ を生成します。
+新しいスパムレポートを使用すると、スパムフィルターを回避し、メッセージがオーディエンスのインボックスに確実に配信されるようになります。メールのデザインスペースで&#x200B;_スパムレポート_&#x200B;を直接生成します。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="スパム検出レポートについて学ぶ"}
 
->[!TAB  アカウントおよび購入グループのアクション ]
+>[!TAB アカウントと購買グループのアクション]
 
-タイムリーで意図的なエンゲージメントを実現するために、アカウントの詳細ページと購入グループの詳細ページから直接アクションを実行します。
+タイムリーで意図的なエンゲージメントを実現するために、アカウントの詳細ページと購買グループの詳細ページからアクションを直接実行します。
 
-_メールを送信_ アクションを使用して、選択したアカウントの連絡先または購入グループメンバーに承認済みのMarketo Engage メールを送信します。
+_メールを送信_&#x200B;アクションを使用して、Marketo Engage の承認済みメールを、選択したアカウントの連絡先または購買グループのメンバーに送信します。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="アカウント連絡先へのメール送信について学ぶ"}
 
-購入グループの詳細から、アクションには _新しいメンバーの割り当て_、_メンバーの削除_、_役割の編集_ も含まれます。
+購買グループの詳細からは、_新規メンバーを割り当て_、_メンバーを削除_、_役割を編集_&#x200B;などのアクションも実行できます。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="グループアクションの購入について学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="購買グループのアクションについて学ぶ"}
 
->[!TAB  カスタム CSS のサポート ]
+>[!TAB カスタム CSS サポート]
 
-デザイン領域でメールおよびランディングページのコンテンツをオーサリングする際に、独自のカスタム CSS を追加できるようになりました。
+デザインスペースでメールやランディングページのコンテンツを作成する際に、独自のカスタム CSS を追加できるようになりました。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="カスタム CSS の使用について"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="カスタム CSS の使用について学ぶ"}
 
->[!TAB  インテントキーワードマッピング ]
+>[!TAB インテントキーワードマッピング]
 
 インテント検出モデルをアクティブ化および管理するために、スプレッドシートをアップロードしてインテントデータマッピングカテゴリを定義できるようになりました。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/admin/intent-data.md" tooltip="インテントキーワードマッピング設定について説明します"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/admin/intent-data.md" tooltip="インテントキーワードマッピングの設定について学ぶ"}
 
->[!TAB Litmus を使用したメールテスト ]
+>[!TAB Litmus を使用したメールテスト]
 
-Litmus アカウントを使用して、Journey Optimizer B2B editionから一般的なメールクライアントでのメールのレンダリングをプレビューできるようになりました。 この統合により、メールコンテンツが適切に表示され、すべてのメールインボックスで設計どおりに動作することを確認できます。
+Litmus アカウントを使用して、Journey Optimizer B2B Edition で選定した一般的なメールクライアントのメールのレンダリングをプレビューできるようになりました。この統合により、すべてのメールのインボックスで、メールコンテンツが適切に表示され、設計どおりに機能します。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Litmus メールテスト統合について説明します"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Litmus メールテスト統合について学ぶ"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ Litmus アカウントを使用して、Journey Optimizer B2B editionから一�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">ドキュメント</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>

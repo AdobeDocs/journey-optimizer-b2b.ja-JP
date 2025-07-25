@@ -5,9 +5,9 @@ feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
 source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1798'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer B2B Edition では、Marketo Engage のメールチャ�
 1. [ドメインの MX レコードを設定](#set-up-mx-records-for-your-domain)
 1. [アウトバウンド IP アドレスを許可リストに追加](#outbound-ip-addresses)
 
-## &#x200B;<!-- landing pages and -->メールの DNS レコードを作成
+## <!-- landing pages and -->メールの DNS レコードを作成
 
 CNAME レコードを接続すると、マーケターは、トラフィックとコンバージョンを向上させる一貫性のあるブランドで、メール、ランディングページ、ブログの web バージョンをホストできます。マーケティングに焦点を当てた web アセットをホストするために、Marketo Engage のルートドメインホストに CNAME を追加することを強くお勧めします。管理者は、マーケティングチームと連携して、Marketo Engage を通じて送信されるメールに含まれるトラッキングリンクの CNAME レコードを計画および実装する必要があります。
 <!-- As an administrator, you should work with your Marketing team to plan and implement two CNAME records. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.
@@ -61,7 +61,7 @@ Add the landing page CNAME to your DNS record, so that `[YourLandingPageCNAME]` 
 
 >[!NOTE]
 >
->`[MktoTrackingLink]` の値は、デフォルトの [ ブランディングドメイン ](../admin/configure-channels-emails.md#branding-domains) である必要があります。
+>`[MktoTrackingLink]` 値は、デフォルトの[ブランディングドメイン](../admin/configure-channels-emails.md#branding-domains)にする必要があります。
 
 ### SSL 証明書のプロビジョニング
 
@@ -220,11 +220,11 @@ MX レコードを使用すると、メールの送信元のドメインに対�
 
 <!-- ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
 
 ## アウトバウンド IP アドレスブロック
 
