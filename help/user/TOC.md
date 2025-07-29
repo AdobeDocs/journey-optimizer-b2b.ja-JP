@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+source-git-commit: 99e859e352cb2682e1d3fb5f0000eb55eacf2642
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 95%
 
 ---
 
@@ -88,12 +88,16 @@ ht-degree: 100%
    + フラグメント {#visual-fragments}
       + [概要](./content/fragments.md)
       + [フラグメントオーサリング](./content/fragment-authoring.md)
-   + フォーム {#forms}
+   + Forms（Beta） {#forms}
       + [概要](./content/forms.md)
       + [フォームのデザイン](./content/form-design.md)
-   + ランディングページ {#landing-pages}
+   + ランディングページ（Beta） {#landing-pages}
       + [概要](./content/landing-pages.md)
       + [ランディングページのデザイン](./content/landing-page-design.md)
+   + ブランド （Beta） {#brands}
+      + [概要](./content/brands-overview.md)
+      + [管理と作成](./content/brands-manage-create.md)
+      + [ ブランドの整合性 ](./content/brand-alignment.md)
    + [条件付きコンテンツ](./content/conditional-content.md)
    + [カスタム CSS](./content/design-custom-css.md)
 + インサイトダッシュボード {#dashboards}
