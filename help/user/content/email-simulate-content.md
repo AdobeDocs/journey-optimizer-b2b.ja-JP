@@ -5,14 +5,19 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 0%
+source-wordcount: '576'
+ht-degree: 5%
 
 ---
 
-# メールコンテンツのプレビューとテスト
+# メールコンテンツのプレビューとテスト {#preview-simulate}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_email_preview_simulate"
+>title="コンテンツのレンダリング方法の確認"
+>abstract="コンテンツを定義したら、プレビューし、使用しているチャネルのレンダリングが正しいかどうかを確認できます。"
 
 _コンテンツをシミュレート_ 機能を使用して、メールコンテンツをプレビューし、特定の受信者にテスト配信を送信します。 プレビューおよびテスト機能にアクセスするには、必須のメールフィールド _[!UICONTROL 送信者名]_、_[!UICONTROL 送信元アドレス]_、_[!UICONTROL 返信先アドレス]_ および _[!UICONTROL 件名]_ を定義する必要があります。
 
