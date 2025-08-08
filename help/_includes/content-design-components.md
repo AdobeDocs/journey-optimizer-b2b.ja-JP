@@ -1,7 +1,7 @@
 ---
 title: コンテンツオーサリング – コンポーネント
 description: コンテンツのオーサリングにコンポーネントとコンテンツ要素を使用する方法に関する再利用可能な節
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    各列のサイズを構造コンポーネントの全幅の 10% 未満にすることはできません。 削除できるのは空の列のみです。
 
-1. 「**[!UICONTROL コンテンツ]**」セクションを展開し、必要な数の要素を 1 つ以上の構造コンポーネントに追加します。
+1. 「**[!UICONTROL コンテンツ]**」セクションを展開し、必要な数のコンテンツコンポーネントを 1 つ以上の構造コンポーネントに追加します。
 
    ![ コンテンツ要素をキャンバスにドラッグして、設定を調整します ](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--

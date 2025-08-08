@@ -4,9 +4,9 @@ description: Journey Optimizer B2B editionでのMarketo Engage Design Studio Ass
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2022'
 ht-degree: 1%
 
 ---
@@ -280,7 +280,7 @@ Assetsは、チームのメール、メールテンプレートまたはビジ�
 
 * 左側のナビゲーションから画像サムネールをドラッグ&amp;ドロップします。
 
-* 画像コンポーネントをカンバスに追加し、「参照 **[!UICONTROL をクリックして]** Adobe Marketo Engageからアセットを選択 _[!UICONTROL ダイアログを開き]_ す。
+* キャンバスに画像コンポーネントを追加し、コンポーネントで **[!UICONTROL Marketo Engage Assets]** をクリックして、_[!UICONTROL Adobe Marketo Engageからアセットを選択]_ ダイアログを開きます。
 
   ![ フィルターと検索フィールドを使用して、必要なアセットを見つける ](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

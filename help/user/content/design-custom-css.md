@@ -1,9 +1,10 @@
 ---
 title: コンテンツのカスタム CSS の追加
 description: メールとランディングページのコンテンツにカスタム CSS を追加する方法を説明します。
-feature: Email Authoring, Landing Pages, Content Design Tools
+feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
-source-git-commit: 9d753873ed24f10b5747ed64b7f85188dec52fa0
+exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 9%
@@ -55,7 +56,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->選択したコンポーネントの _[!UICONTROL スタイル]_ パネルにカスタム CSS が反映されず、検証もされません。 これは完全に独立しており、本文コンポーネントレベルの「[!UICONTROL &#x200B; カスタム CSS を追加 &#x200B;]」オプションによってのみ変更できます。
+>選択したコンポーネントの _[!UICONTROL スタイル]_ パネルにカスタム CSS が反映されず、検証もされません。 これは完全に独立しており、本文コンポーネントレベルの「[!UICONTROL  カスタム CSS を追加 ]」オプションによってのみ変更できます。
 
 ## カスタム CSS の追加
 
@@ -189,9 +190,9 @@ body {
 
 メールまたはランディングページのデザインスペースにコンテンツを読み込んでカスタム CSS を使用する場合は、次の点を考慮してください。
 
-* CSS を含む外部HTML コンテンツを読み込む場合 <!-- unless converting that content, --> そのコンテンツは [!UICONTROL &#x200B; 互換モードで入力され &#x200B;]、「[!UICONTROL CSS スタイル &#x200B;]」セクションは使用できません。
+* CSS を含む外部HTML コンテンツを読み込む場合 <!-- unless converting that content, --> そのコンテンツは [!UICONTROL  互換モードで入力され ]、「[!UICONTROL CSS スタイル ]」セクションは使用できません。
 
-* 「[!UICONTROL &#x200B; カスタム CSS を追加 &#x200B;]」オプションを使用して適用された CSS を含め、メールスペースまたはランディングページデザインスペースで最初に作成されたコンテンツを読み込むと、適用された CSS は同じオプションから表示および編集できます。
+* 「[!UICONTROL  カスタム CSS を追加 ]」オプションを使用して適用された CSS を含め、メールスペースまたはランディングページデザインスペースで最初に作成されたコンテンツを読み込むと、適用された CSS は同じオプションから表示および編集できます。
 
 ## トラブルシューティング
 
@@ -214,4 +215,3 @@ body {
   background: red !important;
   }
   ```
-

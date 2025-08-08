@@ -4,10 +4,10 @@ description: 効率を高め、デザインとブランディングの標準を�
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 19%
+source-wordcount: '325'
+ht-degree: 7%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 19%
 [ フラグメントを作成 ](./fragments.md#create-fragments) した後、ビジュアルエディターを使用して、フラグメントの構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="構造コンポーネントの追加"
->abstract="構造コンポーネントはフラグメントのレイアウトを定義します。 **構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップして、フラグメントのコンテンツのデザインを開始します。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="コンテンツコンポーネントについて"
->abstract="コンテンツコンポーネントは、フラグメントのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
 {{$include /help/_includes/content-design-components.md}}
 

@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
+source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,12 @@ ht-degree: 0%
 >
 >インテントデータは、Journey Optimizer B2B edition インスタンスに対して設定される場合に含まれます。 また、1 つ以上の公開済みジャーニー **または** 作成された購入グループが必要です。 インテント検出モデルの詳細と、キーワード、製品、カテゴリの送信方法については、[ インテント データ ](../user/admin/intent-data.md) を参照してください。
 
-## AEM assets ライセンスノート {#aem-assets-licensing-note}
+## AEM Assets ライセンスノート {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Serviceのライセンスと Dynamic Media のライセンスは統合の前提条件です。 [Dynamic Media withOpen API](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} が有効になっていることを確認する必要があります。<br/>
->契約と設定に応じて、ビジュアルコンテンツのデザイン時にAdobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
+>AEM Assets as a Cloud Serviceのライセンスと Dynamic Media のライセンスは統合の前提条件です。 [Dynamic Media withOpen API](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} が有効になっていることを確認します。<br/>
+>>契約と設定に応じて、ビジュアルコンテンツのデザイン時にAdobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
 
 ## コンテンツオーサリング – コンポーネント – 構造ステップ {#structures-step}
 
@@ -76,3 +76,189 @@ ht-degree: 0%
 1. 左側のペインから「**[!UICONTROL リンク]**」タブを選択し、追跡するコンテンツのすべての URL を表示します。
 
    _トラッキングタイプ_ または _ラベル_ を変更し、必要に応じてタグを追加できます。
+
+## コンテンツコンポーネント – 詳細スタイル {#styles-advanced}
+
+値に CSS 準拠の追加の属性を適用するには、**[!UICONTROL 詳細]** スタイル設定を使用します。 既存の属性の値を変更したり、新しい属性を追加したりできます。 スタイルは、親子コンポーネント（要素）の CSS 継承モデルを使用してコンポーネントに適用されます。
+
+表示される属性は、コンポーネントに対して現在定義されているスタイルを反映しています。 [CSS 定義 ](https://www.w3schools.com/CSSref/index.php){target="_blank"} に従って値を変更できます。 _追加_ （**+**）アイコンをクリックして、コンポーネントに新しいスタイル属性を追加します。
+
+![ 詳細スタイル ](../assets/content-design-shared//content-components-styles-advanced.png){width="250"}
+
+## コンテンツコンポーネント – 水平方向の整列スタイル {#styles-alignment-h}
+
+「**[!UICONTROL 整列]**」セクションを展開し、使用する水平方向の整列（左、中央または右）を選択します。 このスタイルは標準の `text-align` CSS スタイルに変換され、コンポーネントを含むコンポーネント内でのコンポーネントの配置方法に影響します。
+
+![ 水平方向揃えスタイル ](../assets/content-design-shared/content-components-styles-alignment.png){width="250"}
+
+## コンテンツコンポーネント – 垂直方向の整列スタイル {#styles-alignment-v}
+
+**[!UICONTROL 配置]** セクションを展開し、使用する垂直方向の配置（上、中央、下）を選択します。 このスタイルは標準の `vertical-align` CSS スタイルに変換され、そのコンポーネント内の配置に影響します。
+
+![ 垂直方向揃えスタイル ](../assets/content-design-shared/content-components-styles-alignment-v.png){width="250"}
+
+## コンテンツコンポーネント – 水平および垂直の整列スタイル {#styles-alignment-h-v}
+
+「**[!UICONTROL 整列]**」セクションを展開し、使用する水平方向と垂直方向の整列を選択します。 整列スタイルは、HTML コンポーネントを含むコンポーネント（構造またはコンテナ）内での配置に影響します。
+
+水平方向揃えは、標準 `text-align`CSS スタイルに変換され、左、中央または右から選択できます。 垂直方向の整列は、標準 `vertical-align` CSS スタイルに変換され、上、中央または下から選択できます。
+
+![HTML コンポーネントの整列スタイル ](../assets/content-design-shared/content-components-styles-alignment-h-v.png){width="300"}
+
+## コンテンツコンポーネント – 背景スタイル {#styles-background}
+
+右側のパネルで「_[!UICONTROL スタイル]_」タブを選択した状態で、「**[!UICONTROL 背景]**」セクションを使用してコンポーネントの背景色を定義します。
+
+チェックボックスを選択してカラーの四角形をクリックし、ピッカーからカラーを選択します。 色を選択するには、RGB、HSL、HSB、または 16 進数値を入力します。 または、カラースライダーとカラーフィールドを使用して、カラーを選択できます。
+
+![ 背景カラーピッカー ](../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
+
+## コンテンツコンポーネント – 境界線のスタイル {#styles-border}
+
+1. 「_[!UICONTROL スタイル]_」タブを選択した右側のパネルで、「**[!UICONTROL 境界線]**」セクションを展開し、コンポーネントの境界線を表示するオプションを設定します。
+
+1. 切替スイッチを右に移動して図面枠の表示オプションを有効にし、設計基準に従って設定します。
+
+   * **[!UICONTROL 境界線のカラー]** を設定するには、チェックボックスを選択し、カラーの四角形をクリックして、ピッカーから色を選択します。 色を選択するには、RGB、HSL、HSB、または 16 進数値を入力します。 または、カラースライダーとカラーフィールドを使用して、カラーを選択できます。
+
+   ![ 境界線のカラーピッカー ](../assets/content-design-shared/content-components-styles-border-color.png){width="300"}
+
+   * **[!UICONTROL 境界線のサイズ]** （線の幅）を設定するには、上向き矢印アイコンと下向き矢印アイコンをクリックしてピクセル数を増減します。
+
+   * **[!UICONTROL 境界線スタイル]** を設定するには、リスト標準 CSS `border-style` の値から値を選択します。
+
+   * 境界線の表示場所を指定するには、それぞれの **[!UICONTROL 境界線の位置]** チェックボックスを選択します。
+
+   ![ 境界線のスタイル ](../assets/content-design-shared/content-components-styles-border.png){width="250"}
+
+1. **[!UICONTROL 境界半径]** には、コーナーに必要なカーブに従って数値を設定します。
+
+   値が 0 （デフォルト）の場合、コーナーは 2 乗になります。
+
+## コンテンツコンポーネント – マージンのスタイル {#styles-margin}
+
+「_[!UICONTROL スタイル]_」タブを選択した右側のパネルで、「**[!UICONTROL 余白]**」セクションを展開し、構造コンポーネント内の余白の間隔のオプションを設定します。 このスタイルは、コンポーネント境界線の外側の領域をコントロールする CSS `margin` パラメーターを複製して、他のコンポーネントと分離します。 コンポーネントの周囲に隙間ができ、周囲のコンテンツの配置やレイアウトに影響します。
+
+デザインのニーズに応じて、マージンの値をピクセル単位で設定します。 コンポーネントのすべての辺、上部のボタン、左右または各辺の余白は、個別に設定できます。
+
+* **すべての辺** – すべての辺に適用する値を 1 つ設定するには、「**[!UICONTROL 各辺に異なるマージン]**」チェックボックスをオフにします。 上下の矢印アイコンをクリックして、ピクセル数を増減します。
+
+  ![ すべての辺に余白を設定 ](../assets/content-design-shared/content-components-styles-margin-all-sides.png){width="250"}
+
+* **上下** – 上下の余白を同じ値に設定するには、上下の設定の間に _ロック_ アイコンを設定します。 の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
+
+* **左右** – 左右の余白を同じ値に設定するには、左右の設定の間に _ロック_ アイコンを設定します。 の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
+
+  ![ 上下および左右の余白の余白をロック ](../assets/content-design-shared/content-components-styles-margin-locked.png){width="250"}
+
+* **独立** – 各余白を独立した値に設定するには、「上」設定と「下」設定の間、および「左」と「右」の間に _ロック解除_ アイコンを設定します。 各設定で、の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
+
+  ![ 独立した余白の設定 ](../assets/content-design-shared/content-components-styles-margin-unlocked.png){width="250"}
+
+## コンテンツコンポーネント – パディングスタイル {#styles-padding}
+
+「_[!UICONTROL スタイル]_」タブを選択した右側のパネルで、「**[!UICONTROL パディング]**」セクションを展開し、構造コンポーネント内のパディングのオプションを設定します。 このスタイルは、CSS `padding` パラメーター（コンポーネントのコンテンツとそのボーダーの間のスペース）を複製します。 パディングには、コンテンツとコンポーネントの境界線との距離を制御するために使用できる内部間隔が用意されています。
+
+デザインのニーズに応じて、パディング値をピクセル単位で設定します。 コンポーネントのすべての辺、上部ボタン、左右または各辺のパディングを個別に設定できます。
+
+* **すべての辺** – すべての辺に適用する値を 1 つ設定するには、「**[!UICONTROL 各辺に異なるパディングを使用]**」チェックボックスをオフにします。 上下の矢印アイコンをクリックして、ピクセル数を増減します。
+
+  ![ すべての辺にパディングを設定 ](../assets/content-design-shared/content-components-styles-padding-all-sides.png){width="250"}
+
+* **上下** – 上下のパディングを同じ値に設定するには、上下の設定の間に _ロック_ アイコンを設定します。 の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
+
+* **左右** – 左右のパディングを同じ値に設定するには、左右の設定の間に _ロック_ アイコンを設定します。 の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
+
+  ![ 上下および左右の余白のパディングをロック ](../assets/content-design-shared/content-components-styles-padding-locked.png){width="250"}
+
+* **独立** – 各辺のパディングを独立した値に設定するには、上部と下部の設定の間、および左と右の間に _ロック解除_ アイコンを設定します。 各設定で、の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
+
+  ![ 独立したパディングを設定 ](../assets/content-design-shared/content-components-styles-padding-unlocked.png){width="250"}
+
+## コンテンツコンポーネント – サイズスタイル {#styles-size}
+
+「_[!UICONTROL スタイル]_」タブを選択した右側のパネルで、「**[!UICONTROL サイズ]**」セクションを展開し、コンポーネントの高さと幅のオプションを設定します。
+
+* **[!UICONTROL 高さ]** – 上下の矢印アイコンをクリックして、ピクセル数を増減します。 デフォルトは空の値（Auto）で、内容に応じて要素の高さのサイズを指定します。
+
+* **[!UICONTROL 幅]** – 幅をピクセル単位またはパーセント単位で設定するには、切替スイッチを使用します。
+
+   * 幅のパーセンテージの場合は、スライダーを使用してパーセンテージの値を設定します。 割合は、含まれるブロックのコンテンツボックス（パディングと境界線を除く）に基づいて要素のサイズを決定します。 例えば、値が 50 の場合、要素の幅は、その要素を含むブロックコンテンツの幅の 50% に設定されます。
+
+     ![ パーセンテージを使用した幅のスタイル ](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
+
+   * ピクセルベースの幅の場合は、上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。 デフォルトは空の値（Auto）で、コンテンツに応じて要素の幅をサイズ設定します。
+
+     ![ ピクセルを使用した幅のスタイル ](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
+
+## コンテンツコンポーネント – テキストスタイル {#styles-text}
+
+「_[!UICONTROL スタイル]_」タブを選択した右側のパネルで、「**[!UICONTROL テキスト]**」セクションを展開し、コンポーネントのテキストスタイルのオプションを設定します。
+
+* **[!UICONTROL フォントファミリー]** – 下向き矢印アイコンをクリックして、コンポーネント内のテキストのフォントファミリーを選択します。
+
+* **[!UICONTROL フォントサイズ]** – 上下の矢印アイコンをクリックして、フォントサイズを増減するか、値を入力します。 入力した値には、小数を使用できます。
+
+* **[!UICONTROL 行の高さ]** – 上下の矢印アイコンをクリックして行の高さを増減するか、値を入力します。 入力した値には、小数を使用できます。
+
+  ![ テキストスタイル ](../assets/content-design-shared/content-components-styles-text.png){width="250"}
+
+* **[!UICONTROL テキストスタイル]** - テキストスタイルのアイコンとして、「_太字_」、「_斜体_」、「_下線_」または「_打ち消し線_ を選択します。
+
+* **[!UICONTROL テキストの整列]** - テキストの水平方向の整列のアイコンとして、_左_、_中央_、_右_、_両端揃え_ を選択します。
+
+* **[!UICONTROL フォントカラー]** - カラーの四角形をクリックして、ピッカーからフォントカラーを選択します。 色を選択するには、RGB、HSL、HSB、または 16 進数値を入力します。 または、カラースライダーとカラーフィールドを使用して、カラーを選択できます。
+
+  ![ フォントカラーピッカー ](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
+
+## コンテンツ – 画像の選択 – Marketo DAM {#me-dam}
+
+Journey Optimizer B2B edition ライブラリまたは接続された Market Engage インスタンスから画像アセットを参照して選択するには、このタイプを選択します。
+
+![ 使用可能な画像アセットの参照 ](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+
+ダイアログで、選択したリポジトリとワークスペースから画像を選択できます。 **[!UICONTROL 選択]** をクリックして、アセットを追加します。
+
+必要なアセットを見つけるのに役立つツールを利用できます。
+
+* 左上の _フィルター_ アイコンをクリックし、条件に従って表示される項目をフィルタリングします。
+
+* 「_検索_」フィールドにテキストを入力し、表示される項目をフィルタリングしてアセット名が一致するかどうかを確認します。
+
+  ![ フィルターと検索フィールドを使用して、必要なアセットを見つける ](../user/content/assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+
+## コンテンツ – 画像の選択 – AEM Assets {#aem-assets-dam}
+
+このタイプを選択して、[ 設定済みの Experience Manage Assets リポジトリ ](../user/admin/configure-aem-repositories.md) から画像アセットを参照して選択します。
+
+_[!UICONTROL Assetsを選択]_ ダイアログで、必要なアセットを見つけるために使用可能なツールを使用して画像を選択し、「**[!UICONTROL 選択]**」をクリックします。
+
+* 右上の **[!UICONTROL リポジトリ]** を変更します。
+
+* 右上の **[!UICONTROL アセットを管理]** をクリックして、別のブラウザータブでAssets リポジトリを開き、AEM Assets management tools を使用します。
+
+* 右上の _表示タイプ_ セレクターをクリックして、表示を **[!UICONTROL リスト表示]**、**[!UICONTROL グリッド表示]**、**[!UICONTROL ギャラリー表示]**、**[!UICONTROL ウォーターフォール表示]** に変更します。
+
+* _並べ替え順序_ アイコンをクリックして、並べ替え順序を昇順と降順の間で変更します。
+
+  ![Assetsを選択ダイアログのツールを使用し、画像アセットを検索して選択します ](../user/content/assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+
+* 「**[!UICONTROL 並べ替え基準]**」メニュー矢印をクリックして、並べ替え条件を **[!UICONTROL 名前]**、**[!UICONTROL サイズ]**、**[!UICONTROL 変更]** に変更します。
+
+* 左上の _フィルター_ アイコンをクリックし、条件に従って表示される項目をフィルタリングします。
+
+* 「_検索_」フィールドにテキストを入力し、表示される項目をフィルタリングしてアセット名が一致するかどうかを確認します。
+
+  ![ フィルターと検索フィールドを使用してアセットを検索します ](../user/content/assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
+
+## コンテンツ – 画像のアップロード {#image-upload}
+
+このタイプを選択してシステムからファイルを選択し、Journey Optimizer B2B edition アセットライブラリに読み込みます。
+
+_[!UICONTROL 画像をアップロード]_ ダイアログで、システムからファイルボックスにファイルをドラッグ&amp;ドロップします。 最大ファイルサイズは 100 MB です。
+
+![ に画像ファイルを読み込む ](../user/content/assets/email-designer-image-upload.png){width="450"}
+
+選択した画像のファイル名がダイアログに表示されます。 アセットファイル名は（フォルダー間で）一意である必要があり、という名前のファイルが既に存在する場合は、メッセージが表示されます。 名前は最大 100 文字まで指定でき、特殊文字（`;`、`:`、`\`、`|` など）を含めることはできません。
+
+「**[!UICONTROL インポート]**」をクリックします。

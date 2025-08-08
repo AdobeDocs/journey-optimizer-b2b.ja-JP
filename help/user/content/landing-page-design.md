@@ -5,10 +5,10 @@ feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 16%
+source-wordcount: '374'
+ht-degree: 4%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 16%
 [ ランディングページを作成 ](./landing-pages.md#create-a-landing-page) した後、ビジュアルデザインスペースを使用して、ページの構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#structure-content-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
->title="ランディングページへの構造コンポーネントの追加"
->abstract="構造コンポーネントはランディングページのレイアウトを定義します。ページのコンテンツのデザインを開始するには、**構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップします。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
->title="ランディングページのコンテンツコンポーネントについて"
->abstract="コンテンツコンポーネントは、ランディングページのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
 {{$include /help/_includes/content-design-components.md}}
 

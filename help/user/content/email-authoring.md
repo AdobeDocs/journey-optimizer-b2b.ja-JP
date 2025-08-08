@@ -4,16 +4,16 @@ description: Adobe Journey Optimizer B2B でメールコンテンツを作成す
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 19%
+source-wordcount: '924'
+ht-degree: 8%
 
 ---
 
 # メールメッセージのオーサリング
 
-ジャーニーアクションノードに &lbrack; 新しい <!-- or duplicated --> メールアセットを追加 &rbrack;(./add-email.md) した後、メールメッセージのコンテンツを定義できます。
+ジャーニーアクションノードに [ 新しい <!-- or duplicated --> メールアセットを追加 ](./add-email.md) した後、メールメッセージのコンテンツを定義できます。
 
 右側のパネルの **[!UICONTROL 詳細]** タブにある _[!UICONTROL メールコンテンツを編集]_ をクリックします。
 
@@ -34,16 +34,6 @@ ht-degree: 19%
 >ジェネレーティブ AI を活用したAdobe Journey Optimizer B2B editionの AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。 AI アシスタントは、メール全体の生成、ターゲット設定されたテキストコンテンツの生成、およびオーディエンスの共感を得られる画像に対する AI アシスタントのレコメンデーションの取得により、配信の影響を最適化するのに役立ちます。 [詳細情報](./ai-assistant-emails.md)
 
 ## メールをゼロからデザイン {#design-from-scratch}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="構造コンポーネントの追加"
->abstract="構造コンポーネントはランディングページのレイアウトを定義します。**構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップして、ランディングページのコンテンツのデザインを開始します。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="コンテンツコンポーネントについて"
->abstract="コンテンツコンポーネントは、ランディングページのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
 ビジュアルコンテンツデザイン スペースを使用して、メールの構造とコンテンツを定義します。 簡単なドラッグ&amp;ドロップ操作で構造コンポーネントを追加して移動することで、再利用可能なメールコンテンツの形状を数秒でデザインできます。
 
@@ -83,16 +73,6 @@ ht-degree: 19%
 > 保存済みのテンプレートには、1 つ以上のコンポーネントにガバナンス（コンテンツロック）設定を適用できます。 管理されたテンプレートからメールを作成する [ 場合、ビジュアルデザイナーには、ロックされたコンポーネントに関するガイドラインが表示さ ](./email-authoring-governance.md) ます。
 
 ## 構造とコンテンツの追加 {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="構造コンポーネントの追加"
->abstract="構造コンポーネントはメールのレイアウトを定義します。 ドラッグ＆ドロップ&#x200B;**構造**&#x200B;コンポーネントをキャンバスに追加して、メールコンテンツのデザインを開始します。"
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="コンテンツコンポーネントについて"
->abstract="コンテンツコンポーネントは、メールのレイアウト作成に使用できる空のコンテンツプレースホルダーです。"
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -159,11 +139,6 @@ ht-degree: 19%
 * **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式のローカルシステムにダウンロードします。
 
 ## メールを確認およびテスト {#email-testing}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_email_preview_simulate"
->title="コンテンツのレンダリング方法の確認"
->abstract="コンテンツを定義したら、プレビューし、使用しているチャネルのレンダリングが正しいかどうかを確認できます。"
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してプレビュー、配達確認を送信、デスクトップおよびモバイルの縦横比でのレンダリングを確認できます。 パーソナライズされたコンテンツを挿入した場合は、テストプロファイルデータを使用して、そのコンテンツがメッセージにどのように表示されるかをプレビューできます。
 
