@@ -7,19 +7,20 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
-# コンテンツの生成と一貫性にブランドを使用 {#brands}
+# コンテンツの生成と一貫性に対するブランドの使用 {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="ブランドの基本を学ぶ"
->abstract="独自のブランドを作成およびカスタマイズして、独自の視覚的および言語的 ID を定義すると同時に、ブランドスタイルや音声に合ったコンテンツを簡単に生成できます。"
+>abstract="独自のブランドを作成およびカスタマイズして、独自の視覚的および言語的アイデンティティを定義すると同時に、ブランドスタイルやブランドボイスに一致するコンテンツを簡単に生成できるようにします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -99,4 +100,3 @@ ht-degree: 3%
    * 「**[!UICONTROL 保存]**」をクリックして、変更を適用します。
 
 >[!ENDSHADEBOX]
-

@@ -1,5 +1,5 @@
 ---
-title: ブランドの整合性スコアリング
+title: ブランド整合性スコア付け
 description: ブランドの整合性スコアを使用してオンブランドコンテンツを作成、検証および管理する方法について説明します。
 badge: label="ベータ版" type="Informative"
 feature: Content, Brand Identity
@@ -7,14 +7,15 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: b0b4359128d65c6e765af6d07db1bfeb26d4fbc9
+exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 17%
+ht-degree: 25%
 
 ---
 
-# ブランドの整合性スコアリング {#brand-score}
+# ブランド整合性スコア付け {#brand-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -23,8 +24,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
->title="ブランドの整合性スコア"
->abstract="ブランドのアラインメントスコアは、コンテンツがブランドガイドラインにどれだけ準拠しているかを測定し、色、フォント、ロゴ、画像、書き方の一貫性を確保します。"
+>title="ブランド整合性スコア"
+>abstract="ブランド整合性スコアは、コンテンツがブランドのガイドラインにどのくらい良く準拠しているかを測定し、色、フォント、ロゴ、画像、文体の一貫性を確保します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"
