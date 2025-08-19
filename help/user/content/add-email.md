@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer B2B でメールアクションを追加、
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
+source-git-commit: 828419933a6552b09d05a8be2a14676a87046a26
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Journey Optimizer B2B editionを使用すると、アカウントジャー
 
      このオプションを使用すると、Journey Optimizer B2B editionでメールコンテンツをネイティブに管理できます。 **[!UICONTROL メールを作成]** をクリックして、_新しいメールを作成_ ダイアログを開きます。 新しいメールコンテンツアセットを作成したり、既存のメールコンテンツアセットを複製したりできます。
 
-     +++新しいメール
+     +++新規メール
 
      空のキャンバスまたはメールテンプレートを使用してメールを作成する場合は、「_[!UICONTROL 新規メール]_」オプションを使用します。
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer B2B editionを使用すると、アカウントジャー
 
      +++
 
-     +++既存の電子メールを複製
+     +++既存のメールを複製
 
      現在のジャーニーまたは別のジャーニーの既存のメールを使用してメールを作成する場合は、「_[!UICONTROL 既存のメールを複製]_」オプションを使用します。 ジャーニーノードの目的に応じて、複製したメールを変更できます。
 
@@ -95,18 +95,17 @@ Adobe Journey Optimizer B2B editionを使用すると、アカウントジャー
 
 | オプション | 説明 |
 | ------ | ----------- |
-| [!UICONTROL &#x200B; 送信者名 &#x200B;] | E メールヘッダーで使用される送信者名。 受信者に表示する送信者の名前を入力します。 _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。 |
-| [!UICONTROL &#x200B; 送信元メール &#x200B;] | E メールヘッダーで使用される送信者のアドレス。 デフォルト値は [ メールチャネル配信設定 ](../admin/configure-channels-emails.md#delivery-settings) から入力されます。 _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。 |
-| [!UICONTROL &#x200B; 返信先アドレス &#x200B;] | E メールヘッダーで使用される送信者のアドレス。 デフォルト値は [ メールチャネル配信設定 ](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL &#x200B; ラベルから &#x200B;]）から入力されます。 受信者が返信機能を使用している場合に入力するメールアドレスを入力します（送信者のアドレスと異なる場合も同じ場合もあります）。 _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。 |
-| [!UICONTROL &#x200B; 件名 &#x200B;] | E メールの件名フィールドに表示されるテキスト。 デフォルト値は、「_[!UICONTROL 新しいメールを作成]_ ダイアログで入力したテキストから入力されます。 必要に応じて、テキストを変更できます。 _パーソナライズ_ アイコン（![ パーソナライゼーションアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
-| [!UICONTROL &#x200B; ブランディングドメイン &#x200B;] | システムで複数の [ ブランディングドメイン ](../admin/configure-channels-emails.md#branding-domains) を定義している場合は、メールの送信に使用するブランディングドメインを選択します。 会社全体ではなくブランドから送信されているように見えるメールを送信するには、特定のブランディングドメインを使用します。 ブランドとの信頼を構築し、メールエクスペリエンスをパーソナライズし、開封率と応答率を向上させます。 |
-| [!UICONTROL &#x200B; 専用 IP] | 複数の専用 IP アドレスを定義している場合は、メールの送信に使用する専用 IP アドレスを選択します。 プログラムに特定の専用 IP を使用すると、配信品質をより詳細に追跡および監視し、配信指標の変更にすばやく対応できます。 接続されたMarketo Engage インスタンスの専用 IP の追加について詳しくは、[Marketo Engageのドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"} を参照してください。 |
-| 問題の解決 – 配信の問題を調査、理解、解決しやすくなります。 |
-| [!UICONTROL &#x200B; 運用上のメール &#x200B;] | メールを操作可能として指定する場合は、チェックボックスを選択します。 運用中のメールは、オプトアウト/購読解除リストおよび通信の制限から除外されます。 受信者がメールメッセージを迷惑メールと見なさない商用メッセージ （SPAM）の場合にのみ、このオプションを選択します。 |
-| [!UICONTROL Web ページとしてビューを含める &#x200B;] | チェックボックスを選択して、メールメッセージコンテンツから生成される web ページへのリンクを含めます。 メールメッセージは web ページよりも機能が制限されるので、JavaScript、拡張 CSS およびフォームで役立ちます。 リンクの生成に使用するテキストは、[ メールチャネル配信の設定 ](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL web ページのHTMLとして表示 &#x200B;] および [!UICONTROL web ページテキストとして表示 &#x200B;]）で設定します。 |
-| [!UICONTROL &#x200B; 開封トラッキングを無効にする &#x200B;] | メールの開封アクティビティを追跡しない場合は、チェックボックスを選択します。 機能を無効にした場合、一意のユーザーがメールを開いた場合にのみ、メールの開封アクティビティ数が増分されます。 メール本文コンテンツをデザインする際に [ メールコンテンツリンクのトラッキングを管理 ](./email-authoring.md#content-authoring---link-tracking) できます。 |
-| [!UICONTROL &#x200B; プリヘッダー &#x200B;] | プリヘッダーを含めるチェックボックスを選択します。 プリヘッダーは、一部のメールクライアントの件名の後に表示される短い概要テキストです。 通常は、メールの短い概要を提供し、通常は 1 文です。 フィールドに概要テキストを入力し <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content --> す。 |
-| [!UICONTROL CC アドレスとして使用されるフィールド &#x200B;] | 使用可能な場合は、`Email` タイプを使用して、Marketo Engageで設定された最大 25 の「リード」フィールドまたは「会社」フィールドを選択します。 |
+| [!UICONTROL  送信者名 ] | E メールヘッダーで使用される送信者名。 受信者に表示する送信者の名前を入力します。 _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。 |
+| [!UICONTROL  送信元メール ] | E メールヘッダーで使用される送信者のアドレス。 デフォルト値は [ メールチャネル配信設定 ](../admin/configure-channels-emails.md#delivery-settings) から入力されます。 _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。 |
+| [!UICONTROL  返信先アドレス ] | E メールヘッダーで使用される送信者のアドレス。 デフォルト値は [ メールチャネル配信設定 ](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL  ラベルから ]）から入力されます。 受信者が返信機能を使用している場合に入力するメールアドレスを入力します（送信者のアドレスと異なる場合も同じ場合もあります）。 _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。 |
+| [!UICONTROL  件名 ] | E メールの件名フィールドに表示されるテキスト。 デフォルト値は、「_[!UICONTROL 新しいメールを作成]_ ダイアログで入力したテキストから入力されます。 必要に応じて、テキストを変更できます。 _パーソナライズ_ アイコン（![ パーソナライゼーションアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドのパーソナライゼーショントークンを使用します。<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
+| [!UICONTROL  ブランディングドメイン ] | システムで複数の [ ブランディングドメイン ](../admin/configure-channels-emails.md#branding-domains) を定義している場合は、メールの送信に使用するブランディングドメインを選択します。 会社全体ではなくブランドから送信されているように見えるメールを送信するには、特定のブランディングドメインを使用します。 ブランドとの信頼を構築し、メールエクスペリエンスをパーソナライズし、開封率と応答率を向上させます。 |
+| [!UICONTROL  専用 IP] | 複数の専用 IP アドレスを定義している場合は、メールの送信に使用する専用 IP アドレスを選択します。 プログラムに特定の専用 IP を使用すると、配信品質をより詳細に追跡および監視し、配信指標の変更にすばやく対応できます。 接続されたMarketo Engage インスタンスの専用 IP の追加について詳しくは、[Marketo Engageのドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"} を参照してください。 |
+| [!UICONTROL  運用上のメール ] | メールを操作可能として指定する場合は、チェックボックスを選択します。 運用中のメールは、オプトアウト/購読解除リストおよび通信の制限から除外されます。 受信者がメールメッセージを迷惑メールと見なさない商用メッセージ （SPAM）の場合にのみ、このオプションを選択します。 |
+| [!UICONTROL Web ページとしてビューを含める ] | チェックボックスを選択して、メールメッセージコンテンツから生成される web ページへのリンクを含めます。 メールメッセージは web ページよりも機能が制限されるので、JavaScript、拡張 CSS およびフォームで役立ちます。 リンクの生成に使用するテキストは、[ メールチャネル配信の設定 ](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL web ページのHTMLとして表示 ] および [!UICONTROL web ページテキストとして表示 ]）で設定します。 |
+| [!UICONTROL  開封トラッキングを無効にする ] | メールの開封アクティビティを追跡しない場合は、チェックボックスを選択します。 機能を無効にした場合、一意のユーザーがメールを開いた場合にのみ、メールの開封アクティビティ数が増分されます。 メール本文コンテンツをデザインする際に [ メールコンテンツリンクのトラッキングを管理 ](./email-authoring.md#content-authoring---link-tracking) できます。 |
+| [!UICONTROL  プリヘッダー ] | プリヘッダーを含めるチェックボックスを選択します。 プリヘッダーは、一部のメールクライアントの件名の後に表示される短い概要テキストです。 通常は、メールの短い概要を提供し、通常は 1 文です。 フィールドに概要テキストを入力し <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content --> す。 |
+| [!UICONTROL CC アドレスとして使用されるフィールド ] | 使用可能な場合は、`Email` タイプを使用して、Marketo Engageで設定された最大 25 の「リード」フィールドまたは「会社」フィールドを選択します。 |
 
 ## アラートの確認
 
