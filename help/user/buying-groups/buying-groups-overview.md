@@ -7,7 +7,7 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: a2917ea8c389c35129a77d427528051be499addf
 workflow-type: tm+mt
 source-wordcount: '2170'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -107,7 +107,7 @@ _[!UICONTROL 購買グループ]_&#x200B;ページは、次のタブで構成さ
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
 >title="エンゲージメントスコア"
->abstract="エンゲージメントスコアは、購入グループメンバーのエンゲージメントレベルを決定します。"
+>abstract="エンゲージメントスコアは、購買グループメンバーのエンゲージメントレベルを決定します。"
 
 購買グループのエンゲージメントスコアは、購買グループのメンバーが実行するアクティビティに基づいて、そのメンバーのエンゲージメントを決定する数値です。
 
@@ -230,4 +230,4 @@ _[!UICONTROL 非常に重要]_、_[!UICONTROL 重要]_、_[!UICONTROL 標準]_&#
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3452926/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
