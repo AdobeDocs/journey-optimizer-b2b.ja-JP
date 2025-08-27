@@ -5,7 +5,7 @@ feature: Setup, Integrations
 role: Admin
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Experience Platform イベント定義の設定
 
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。
+管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。
 
 ![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 
 1. 中間パネルの **[!UICONTROL イベント]** をクリックして、イベント定義のリストを表示します。
 
-   このページから、イベント定義 [ 作成 ](#create-an-event-definition)、[ 公開 ](#publish-an-event-defintion)、[ 編集 ](#publish-an-event-defintion)、[ 削除 ](#delete-an-event-definition) を実行できます。
+   このページから、イベント定義 [ 作成 ](#create-an-event-definition)、[ 公開 ](#publish-an-event-defintion)、[ 編集 ](#edit-an-event-definition)、[ 削除 ](#delete-an-event-definition) を実行できます。
 
    ![ 設定済みのイベント定義へのアクセス ](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
@@ -116,7 +116,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. イベント定義に使用する **[!UICONTROL イベントタイプ]** を選択します。
 
-   選択する [ イベントタイプ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
+   選択する [ イベントタイプ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
 
    * **[!UICONTROL イベントタイプを選択]** をクリックします。
    * ダイアログで、リストから 1 つ以上のイベントタイプを選択します（最大 20）。
@@ -282,4 +282,4 @@ _公開済み（ドラフト）_ イベント定義を開くと、デフォル�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3448684/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

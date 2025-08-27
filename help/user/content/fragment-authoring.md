@@ -4,16 +4,16 @@ description: 効率を高め、デザインとブランディングの標準を�
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 7%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
 # フラグメントオーサリング
 
-[ フラグメントを作成 ](./fragments.md#create-fragments) した後、ビジュアルエディターを使用して、フラグメントの構造コンポーネントとコンテンツコンポーネントをオーサリングします。
+[ フラグメントを作成 ](./fragments.md#create-fragments) した後、ビジュアルデザインスペースを使用して、フラグメントの構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#design-fragment}
 
@@ -30,6 +30,12 @@ ht-degree: 7%
 ## コンテンツのパーソナライズ
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+## 条件付きコンテンツ
+
+ルールに基づいてコンテンツをターゲットプロファイルに適応させる条件付きコンテンツを追加するには、コンテンツコンポーネントを選択し、コンポーネントツールバーの **[!UICONTROL 条件付きコンテンツを有効にする]** ボタンをクリックします。 公開されたフラグメントがメールメッセージに含まれる場合、メールメッセージでレンダリングされる条件付きコンポーネントのバリアントは条件付きルールによって決定されます。
+
+詳しくは、[_条件付きコンテンツ_](./conditional-content.md) を参照してください。
 
 ## フラグメントのカスタマイズを有効にする
 

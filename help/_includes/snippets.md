@@ -1,10 +1,10 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: f12042952864dfbc37b214351849a20578d1ed63
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 0%
+source-wordcount: '2375'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >AEM Assets as a Cloud Serviceのライセンスと Dynamic Media のライセンスは統合の前提条件です。 [Dynamic Media withOpen API](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} が有効になっていることを確認します。 統合は、_配信層_ からのリポジトリに制限されます。 _オーサー層_ を使用していて、コンバージョンする場合は、Adobe Experience Manager サポートにお問い合わせください。<br/>
->&#x200B;>契約と設定に応じて、ビジュアルコンテンツのデザイン時にAdobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
+>>契約と設定に応じて、ビジュアルコンテンツのデザイン時にAdobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
 
 ## コンテンツオーサリング – コンポーネント – 構造ステップ {#structures-step}
 
@@ -262,3 +262,16 @@ _[!UICONTROL 画像をアップロード]_ ダイアログで、システムか�
 選択した画像のファイル名がダイアログに表示されます。 アセットファイル名は（フォルダー間で）一意である必要があり、という名前のファイルが既に存在する場合は、メッセージが表示されます。 名前は最大 100 文字まで指定でき、特殊文字（`;`、`:`、`\`、`|` など）を含めることはできません。
 
 「**[!UICONTROL インポート]**」をクリックします。
+
+## エンゲージメントスコアアクティビティ {#engagement-activities}
+
+| アクティビティ名 | 説明 | エンゲージメントタイプ | 1 日あたりの最大頻度数 | 既定のモデル アクティビティの重み付け |
+| --- | --- | --- | --- | --- |
+| [!UICONTROL  出席イベント ] | メンバーがイベントに出席しました | イベント | 20 | 60 |
+| [!UICONTROL  電子メールのクリック ] | メンバーがメール内のリンクをクリックします | メール | 20 | 30 |
+| [!UICONTROL  電子メールの開封 ] | メンバーがメールを開きます | メール | 20 | 30 |
+| [!UICONTROL  フォームに入力 ] | メンバーが web ページ上のフォームに入力して送信します | Web | 20 | 40 |
+| [!UICONTROL 注目のアクション] | メンバーに注目のアクションがあります | キュレート | 20 | 60 |
+| [!UICONTROL  リンククリック数 ] | メンバーが web ページ上のリンクをクリックします | Web | 20 | 40 |
+| [!UICONTROL  ページビュー数 ] | メンバーが web ページを閲覧した場合 | Web | 20 | 40 |
+| [!UICONTROL  イベントの登録 ] | イベントに登録されているメンバー | イベント | 20 | 60 |

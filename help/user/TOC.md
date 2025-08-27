@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: d4fee6639033378ecbbe8836d9f63ce4b81208c5
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 95%
+source-wordcount: '309'
+ht-degree: 91%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 95%
       + [概要](./buying-groups/buying-groups-overview.md)
       + [ソリューションに対する関心](./buying-groups/solution-interests.md)
       + [役割テンプレート](./buying-groups/buying-groups-role-templates.md)
+      + [デフォルトおよびカスタムの役割](./buying-groups/default-custom-roles.md)
+      + [エンゲージメントスコア](./buying-groups/engagement-scores.md)
       + [購買グループステージ](./buying-groups/buying-group-stages.md)
       + [購買グループの作成](./buying-groups/buying-groups-create.md)
-      + [アカウントリストの書き出し](./audiences/account-list-export.md)
+      + [アカウントを書き出し](./audiences/account-list-export.md)
       + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
       + [Marketo Engage の購買グループフィルター](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + アカウントリスト {#account-lists}
@@ -116,5 +118,6 @@ ht-degree: 95%
       + [SMS 設定](./admin/configure-channels-sms.md)
    + [AEM Assets リポジトリの設定](./admin/configure-aem-repositories.md)
    + [AEP イベント定義の設定](./admin/configure-aep-events.md)
+   + [エンゲージメントスコアの重み付けの設定](./admin/engagement-score-weighting.md)
    + [ランディングページの設定](./admin/landing-page-settings.md)
    + [ガバナンス](./admin/governance.md)
