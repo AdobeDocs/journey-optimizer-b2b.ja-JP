@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2376'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >AEM Assets as a Cloud Serviceのライセンスと Dynamic Media のライセンスは統合の前提条件です。 [Dynamic Media withOpen API](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} が有効になっていることを確認します。 統合は、_配信層_ からのリポジトリに制限されます。 _オーサー層_ を使用していて、コンバージョンする場合は、Adobe Experience Manager サポートにお問い合わせください。<br/>
->&#x200B;>契約と設定に応じて、ビジュアルコンテンツのデザイン時にAdobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
+>>契約と設定に応じて、ビジュアルコンテンツのデザイン時にAdobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
 
 ## コンテンツオーサリング – コンポーネント – 構造ステップ {#structures-step}
 
@@ -125,7 +125,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 境界線のサイズ]** （線の幅）を設定するには、上向き矢印アイコンと下向き矢印アイコンをクリックしてピクセル数を増減します。
 
-   * **[!UICONTROL 境界線スタイル]** を設定するには、リスト標準 CSS `border-style` の値から値を選択します。
+   * **[!UICONTROL 境界線スタイル]** を設定するには、標準 CSS `border-style` 値のリストから値を選択します。
 
    * 境界線の表示場所を指定するには、それぞれの **[!UICONTROL 境界線の位置]** チェックボックスを選択します。
 
@@ -267,11 +267,11 @@ _[!UICONTROL 画像をアップロード]_ ダイアログで、システムか�
 
 | アクティビティ名 | 説明 | エンゲージメントタイプ | 1 日あたりの最大頻度数 | 既定のモデル アクティビティの重み付け |
 | --- | --- | --- | --- | --- |
-| [!UICONTROL &#x200B; 出席イベント &#x200B;] | メンバーがイベントに出席しました | イベント | 20 | 60 |
-| [!UICONTROL &#x200B; 電子メールのクリック &#x200B;] | メンバーがメール内のリンクをクリックします | メール | 20 | 30 |
-| [!UICONTROL &#x200B; 電子メールの開封 &#x200B;] | メンバーがメールを開きます | メール | 20 | 30 |
-| [!UICONTROL &#x200B; フォームに入力 &#x200B;] | メンバーが web ページ上のフォームに入力して送信します | Web | 20 | 40 |
+| [!UICONTROL  出席イベント ] | メンバーがイベントに出席しました | イベント | 20 | 60 |
+| [!UICONTROL  電子メールのクリック ] | メンバーがメール内のリンクをクリックします | メール | 20 | 30 |
+| [!UICONTROL  電子メールの開封 ] | メンバーがメールを開きます | メール | 20 | 30 |
+| [!UICONTROL  フォームに入力 ] | メンバーが web ページ上のフォームに入力して送信します | Web | 20 | 40 |
 | [!UICONTROL 注目のアクション] | メンバーに注目のアクションがあります | キュレート | 20 | 60 |
-| [!UICONTROL &#x200B; リンククリック数 &#x200B;] | メンバーが web ページ上のリンクをクリックします | Web | 20 | 40 |
-| [!UICONTROL &#x200B; ページビュー数 &#x200B;] | メンバーが web ページを閲覧した場合 | Web | 20 | 40 |
-| [!UICONTROL &#x200B; イベントの登録 &#x200B;] | イベントに登録されているメンバー | イベント | 20 | 60 |
+| [!UICONTROL  リンククリック数 ] | メンバーが web ページ上のリンクをクリックします | Web | 20 | 40 |
+| [!UICONTROL  ページビュー数 ] | メンバーが web ページを閲覧した場合 | Web | 20 | 40 |
+| [!UICONTROL  イベントの登録 ] | イベントに登録されているメンバー | イベント | 20 | 60 |

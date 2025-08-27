@@ -4,9 +4,9 @@ description: アカウントジャーニーメールに使用できるコンテ�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '423'
 ht-degree: 4%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 4%
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### フラグメントを追加
+
+>[!NOTE]
+>
+>フラグメントは、メールコンテンツの _テーマモード_ と _手動モード_ の間で相互互換性がありません。 また、テーマが適用されるメールコンテンツでフラグメントを使用するには、フラグメントを _テーマモード_ で作成する必要があります。
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -69,5 +73,5 @@ ht-degree: 4%
 
 * **[!UICONTROL テンプレートをリセット]** – このオプションをクリックすると、デザインキャンバスを空白のスレートにクリアして、コンテンツの作成を再開できます。
 * **[!UICONTROL フラグメントとして保存]** - テンプレートのすべてまたは一部をフラグメントとして保存し、複数のメールまたはメールテンプレートで再利用します。 フラグメントの名前と説明を指定し、使用可能なフラグメントのリストに保存します。
-* **[!UICONTROL デザインを変更]** - _テンプレートのデザイン_ ページに戻ります。 ここから、テンプレートをゼロから設計するか、既存のテンプレートを使用して設計プロセスを再開するかを選択できます。
+* **[!UICONTROL デザインを変更]** - _メールのデザイン_ ページに戻ります。 ここから、別のテンプレートを選択して設計プロセスを再開できます。 また、空のキャンバス（_クラシックモード_）または [ ブランドテーマ ](./brand-themes.md) （_テーマモード_）を使用して、ゼロからコンテンツをデザインすることもできます。
 * **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式のローカルシステムにダウンロードします。

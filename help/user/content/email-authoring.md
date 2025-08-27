@@ -4,16 +4,16 @@ description: Adobe Journey Optimizer B2B でメールコンテンツを作成す
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 8%
+source-wordcount: '1046'
+ht-degree: 7%
 
 ---
 
 # メールメッセージのオーサリング
 
-ジャーニーアクションノードに &lbrack; 新しい <!-- or duplicated --> メールアセットを追加 &rbrack;(./add-email.md) した後、メールメッセージのコンテンツを定義できます。
+[ ジャーニーアクションノードにメールアセットを追加 ](./add-email.md) した後、メールメッセージのコンテンツを定義できます。
 
 右側のパネルの **[!UICONTROL 詳細]** タブにある _[!UICONTROL メールコンテンツを編集]_ をクリックします。
 
@@ -38,17 +38,24 @@ ht-degree: 8%
 ビジュアルコンテンツデザイン スペースを使用して、メールの構造とコンテンツを定義します。 簡単なドラッグ&amp;ドロップ操作で構造コンポーネントを追加して移動することで、再利用可能なメールコンテンツの形状を数秒でデザインできます。
 
 1. _[!UICONTROL テンプレートをデザイン]_ ホームページで「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
-1. メールメッセージに [ 構造とコンテンツを追加 ](#add-structure-and-content) します。
-1. メールメッセージに [ 画像アセットを追加 ](#add-assets) します。
-1. [ メールコンテンツをパーソナライズ ](#personalize-content)。
+
+1. _[!UICONTROL メールを作成]_ ダイアログで、作成するメールコンテンツのタイプを選択します。
+
+   * **[!UICONTROL テーマを使用]** - メールを _テーマモード_ で作成する場合は、このオプションを選択します。 このモードでは、定義済みのブランドテーマを使用してコンテンツオーサリングプロセスを効率化し、デザインが定義済みの標準に従っていることを確認できます。
+
+   * **[!UICONTROL 手動スタイル設定]** - メールを _手動モード_ で作成する場合は、このオプションを選択します。 このモードでは、空白のキャンバスに追加するすべての構造およびコンテンツコンポーネントのスタイル設定を手動で行います。
+
+1. テンプレートに [ 構造とコンテンツを追加 ](./email-authoring.md#add-structure-and-content) します。
+
 1. [ リンクを確認および更新 ](#preview-and-edit-linked-urls) します。
+
 1. [ メールをテストします ](#check-and-test-the-email)。
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
 内容に問題がなければ、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -70,7 +77,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
-> 保存済みのテンプレートには、1 つ以上のコンポーネントにガバナンス（コンテンツロック）設定を適用できます。 管理されたテンプレートからメールを作成する [ 場合、ビジュアルデザイナーには、ロックされたコンポーネントに関するガイドラインが表示さ ](./email-authoring-governance.md) ます。
+> 保存済みのテンプレートには、1 つ以上のコンポーネントにガバナンス（コンテンツロック）設定を適用できます。 ビジュアルデザインスペースでは、管理されたテンプレートからメールを作成 [ する際、ロックされたコンポーネントに関するガイドラインを提供し ](./email-authoring-governance.md) す。
 
 ## 構造とコンテンツの追加 {#structure-content}
 
@@ -78,7 +85,7 @@ ht-degree: 8%
 
 ### カスタム CSS を追加
 
-独自のカスタム CSS をメールデザイン空間内に直接追加できます。 カスタム CSS を使用して高度な特定のスタイル設定を適用し、コンテンツの外観をより柔軟に制御できます。 画像、ボタン、テキストなどのコンポーネントを含める前に、この最高レベルのスタイルを追加することをお勧めします。
+独自のカスタム CSS をメールデザイン空間内に直接追加できます。 カスタム CSS を使用して高度な特定のスタイル設定を適用し、コンテンツの外観をより柔軟に制御できます。 画像、ボタン、テキストなどのコンテンツコンポーネントを含める前に、この最高レベルのスタイル設定を追加することをお勧めします。
 
 キャンバスに 1 つ以上のコンテンツコンポーネントがある状態で、左側のナビゲーションツリーで **[!UICONTROL 本文]** コンポーネントを選択して、カスタム CSS エディターにアクセスします。
 
@@ -91,6 +98,10 @@ ht-degree: 8%
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### フラグメントを追加
+
+>[!NOTE]
+>
+>フラグメントは、メールコンテンツの _テーマモード_ と _手動モード_ の間で相互互換性がありません。 また、テーマが適用されるメールコンテンツでフラグメントを使用するには、フラグメントを _テーマモード_ で作成する必要があります。
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -128,13 +139,13 @@ ht-degree: 8%
 
 ## 詳細オプション
 
-メールデザインスペースの上部にある _[!UICONTROL その他…]_ メニューから、次のアクションを実行できます。
+ビジュアルデザインスペースの上部にある _[!UICONTROL その他…]_ メニューから、次の操作を実行できます。
 
 ![ 「詳細」をクリックしてテンプレートアクションにアクセス ](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL メールをリセット]** – このオプションをクリックして、ビジュアルメールデザイナーキャンバスを空白のスレートにクリアし、コンテンツの作成を再開します。
+* **[!UICONTROL メールをリセット]** – このオプションをクリックして、メールデザインキャンバスを空白のスレートにクリアし、コンテンツの作成を再開します。
 * **[!UICONTROL フラグメントとして保存]** - メールのすべてまたは一部をフラグメントとして保存し、複数のメールまたはメールテンプレートで再利用します。 フラグメントの名前と説明を指定し、使用可能なフラグメントのリストに保存します。
-* **[!UICONTROL デザインを変更]** - _メールのデザイン_ ページに戻ります。 ここから、別のテンプレートを選択してデザインプロセスを再開したり、黒いキャンバスでコンテンツをゼロからデザインしたりできます。
+* **[!UICONTROL デザインを変更]** - _メールのデザイン_ ページに戻ります。 ここから、別のテンプレートを選択して設計プロセスを再開できます。 また、空のキャンバス（_クラシックモード_）または [ ブランドテーマ ](./brand-themes.md) （_テーマモード_）を使用して、ゼロからコンテンツをデザインすることもできます。
 * **[!UICONTROL コンテンツテンプレートとして保存]** - メール本文をメールテンプレートとして保存し、複数のメールまたはメールテンプレートで再利用します。 テンプレートの名前と説明を指定し、保存済みのメールテンプレートのリストに保存します。
 * **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式のローカルシステムにダウンロードします。
 
