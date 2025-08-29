@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: ビルトインの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整する Adobe Journey Optimizer B2B Edition 機能の使用方法について説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 76%
 
 ---
 
@@ -17,29 +17,23 @@ Journey Optimizer B2B Edition アプリケーションとドキュメントの�
 
 >[!BEGINTABS]
 
+>[!TAB  人物エンゲージメントスコア ]
+
+B2B マーケターは、ジャーニーの分割パスや役割テンプレートで、ユーザーレベルのエンゲージメントスコアをフィルターとして使用して、購入グループを作成できるようになりました。 このスコアとフィルタリングにより、購入グループメンバーの正確なターゲティングが可能になり、進行中のエンゲージメントをパーソナライズできます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="人物エンゲージメントスコアとフィルタリングについて学ぶ"}
+
+>[!TAB  カスタム購入グループの役割 ]
+
+B2B マーケティングストラテジストは、カスタムの購入グループの役割を使用して、購入グループの精度を拡大できるようになりました。 デフォルトの 6 つ以上のカスタムの役割を最大 20 つ作成し、複数の購入グループで再利用します。 アカウントジャーニー内で、独自の役割に合わせてメッセージをカスタマイズし、購入グループ間の関連性とエンゲージメントを向上させます。&#x200B;
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="カスタム購入グループの役割の詳細"}
+
 >[!TAB GenStudio のメールエクスペリエンス]
 
 GenStudio for Performance Marketing のメールエクスペリエンスを Journey Optimizer B2B Edition と統合して、マーケティング効率を高め、ブランドの一貫性を維持します。この統合を利用すると、GenStudio AI を活用したコンテンツ作成と、Journey Optimizer B2B B2B Edition の高度なオーケストレーション機能を組み合わせることができます。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="GenStudio のメールエクスペリエンスについて説明します"}
-
->[!TAB スパム検出レポート]
-
-新しいスパムレポートを使用すると、スパムフィルターを回避し、メッセージがオーディエンスのインボックスに確実に配信されるようになります。メールのデザインスペースで&#x200B;_スパムレポート_&#x200B;を直接生成します。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="スパム検出レポートについて学ぶ"}
-
->[!TAB アカウントと購買グループのアクション]
-
-タイムリーで意図的なエンゲージメントを実現するために、アカウントの詳細ページと購買グループの詳細ページからアクションを直接実行します。
-
-_メールを送信_&#x200B;アクションを使用して、Marketo Engage の承認済みメールを、選択したアカウントの連絡先または購買グループのメンバーに送信します。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="アカウント連絡先へのメール送信について学ぶ"}
-
-購買グループの詳細からは、_新規メンバーを割り当て_、_メンバーを削除_、_役割を編集_&#x200B;などのアクションも実行できます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="購買グループのアクションについて学ぶ"}
 
 >[!TAB カスタム CSS サポート]
 
@@ -53,11 +47,11 @@ _メールを送信_&#x200B;アクションを使用して、Marketo Engage の�
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/admin/intent-data.md" tooltip="インテントキーワードマッピングの設定について学ぶ"}
 
->[!TAB Litmus を使用したメールテスト]
+>[!TAB スパム検出レポート]
 
-Litmus アカウントを使用して、Journey Optimizer B2B Edition で選定した一般的なメールクライアントのメールのレンダリングをプレビューできるようになりました。この統合により、すべてのメールのインボックスで、メールコンテンツが適切に表示され、設計どおりに機能します。
+新しいスパムレポートを使用すると、スパムフィルターを回避し、メッセージがオーディエンスのインボックスに確実に配信されるようになります。メールのデザインスペースで&#x200B;_スパムレポート_&#x200B;を直接生成します。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Litmus メールテスト統合について学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="スパム検出レポートについて学ぶ"}
 
 >[!ENDTABS]
 
@@ -100,7 +94,7 @@ Litmus アカウントを使用して、Journey Optimizer B2B Edition で選定�
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="基本を学ぶ"><br/>
-      <strong>基本を学ぶ</strong><br/><a href="home-page.md">ログインとホームページ</a><br/><a href="./start/get-started.md">クイックスタートガイダンス</a><br/><a href="./ai-assistant/ai-assistant-overview.md">AI アシスタント</a>
+      <strong> 基本を学ぶ </strong><br/><a href="home-page.md"> ログインとホームページ </a><br/><a href="./start/get-started.md"> オンボーディングガイダンス </a><br/><a href="./ai-assistant/ai-assistant-overview.md">AI アシスタント </a>
     </td>
     <!--
     <td>
@@ -113,7 +107,7 @@ Litmus アカウントを使用して、Journey Optimizer B2B Edition で選定�
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="アカウントジャーニー"><br/>
-      <strong>アカウントジャーニー</strong><br/><a href="./journeys/journey-overview.md">ジャーニーの概要</a><br/><a href="./journeys/journey-nodes.md">ジャーニーノード</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">アカウントジャーニーの作成</a>
+      <strong> アカウントジャーニー </strong><br/><a href="./journeys/journey-overview.md">ジャーニーの概要 </a><br/><a href="./journeys/journey-overview.md#create-an-account-journey"> アカウントジャーニーの作成 </a><br/><a href="./journeys/journey-nodes.md">ジャーニーノード </a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -137,7 +131,7 @@ Litmus アカウントを使用して、Journey Optimizer B2B Edition で選定�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">ドキュメント</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>
