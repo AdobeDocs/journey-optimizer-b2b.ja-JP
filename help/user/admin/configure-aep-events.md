@@ -3,18 +3,18 @@ title: Experience Platform イベントの設定
 description: Journey Optimizer B2B editionでアカウントジャーニーを調整するために使用できる待機ノードタイプについて説明します。
 feature: Setup, Integrations
 role: Admin
-soultion: Journey Optimizer B2B Edition, Experience Platform
+solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1779'
 ht-degree: 2%
 
 ---
 
 # Experience Platform イベント定義の設定
 
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。
+管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。
 
 ![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >必要なスキーマが確実に定義されるように、エンジニアリングチームと調整します。 [XDM スキーマの作成 ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition){target="_blank"} は、データエンジニアが組織全体のユースケース要件に基づいて実行する複雑なプロセスです。
+  >必要なスキーマを確実に定義するために、エンジニアリングチームと調整します。 [XDM スキーマの作成 ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition){target="_blank"} は、データエンジニアが組織全体のユースケース要件に基づいて実行する複雑なプロセスです。
 
 * **_イベントタイプ_** - XDM ExperienceEventType （イベント定義ごとに最大 20）。
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
    ![ 設定済みのイベント定義へのアクセス ](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
-   テーブルは「変更済み _[!UICONTROL 列で並べ替えられ]_ す。デフォルトでは、最も新しく更新された定義が先頭に表示されます。<!-- Click the column title to change between ascending and descending.-->
+   テーブルは「_[!UICONTROL 変更済み]_ 列で並べ替えられ、最後に更新された定義がデフォルトで一番上に表示されます。<!-- Click the column title to change between ascending and descending.-->
 
 1. イベント定義の詳細にアクセスするには、名前をクリックします。
 
@@ -80,9 +80,9 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 | ステータス | 説明 |
 | -------------------- | ----------- |
-| 下書き | イベント定義を作成すると、そのイベント定義はドラフトステータスになります。 アカウントジャーニーで使用するために公開するまで、このステータスのままになります。 使用可能なアクション：<br/><ul><li>すべての詳細を編集<li>公開<li>削除 |
-| 公開日 | イベント定義を公開すると、アカウントジャーニーで使用できるようになります。 詳細は変更できません。 使用可能なアクション：<br/><ul><li>_イベントをリッスン_ ジャーニーノードで使用可能<li>ドラフトバージョンを作成<li>削除（使用中でない場合） |
-| 公開済み (ドラフトあり) | 公開済みのイベント定義からドラフトを作成する場合、公開されたバージョンはアカウントジャーニーで引き続き使用でき、ドラフトバージョンは変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、まだ実行されていないアカウントジャーニーのイベント定義が更新されます。 使用可能なアクション：<br/><ul><li>すべての詳細を編集<li>ドラフトバージョンを公開<li>ドラフトバージョンを破棄<li>削除（使用中でない場合） |
+| 下書き | イベント定義を作成すると、そのイベント定義はドラフトステータスになります。 アカウントジャーニーで使用するために公開するまで、このステータスのままになります。 使用可能なアクション：<br/><li>すべての詳細を編集<li>公開<li>削除 |
+| 公開日 | イベント定義を公開すると、アカウントジャーニーで使用できるようになります。 詳細は変更できません。 使用可能なアクション：<br/><li>_イベントをリッスン_ ジャーニーノードで使用可能<li>ドラフトバージョンを作成<li>削除（使用中でない場合） |
+| 公開済み (ドラフトあり) | 公開済みのイベント定義からドラフトを作成する場合、公開されたバージョンはアカウントジャーニーで引き続き使用でき、ドラフトバージョンは変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、まだ実行されていないアカウントジャーニーのイベント定義が更新されます。 使用可能なアクション：<br/><li>すべての詳細を編集<li>ドラフトバージョンを公開<li>ドラフトバージョンを破棄<li>削除（使用中でない場合） |
 
 ![ フラグメントステータスのライフサイクル ](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -106,7 +106,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. イベント定義に使用する **[!UICONTROL スキーマ]** を設定します。
 
-   選択するスキーマによって、定義に追加できるフィールドが決まり、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるようになります。
+   選択するスキーマによって、定義に追加できるフィールドが決まります。 追加するフィールドは、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できます。
 
    * **[!UICONTROL スキーマを選択]** をクリックします。
    * ダイアログで、エクスペリエンスイベントベースのスキーマのリストからスキーマを選択します。
@@ -116,7 +116,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. イベント定義に使用する **[!UICONTROL イベントタイプ]** を選択します。
 
-   選択する [ イベントタイプ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
+   選択する [ イベントタイプ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
 
    * **[!UICONTROL イベントタイプを選択]** をクリックします。
    * ダイアログで、リストから 1 つ以上のイベントタイプを選択します（最大 20）。
@@ -146,7 +146,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 ## イベント定義の公開
 
-ドラフトイベントの定義が完了し、ニーズに合っていることを確認したら、その定義を公開して、アカウントジャーニーで使用できるようにします。 イベント定義を公開した後、変更が必要な場合は、ドラフトバージョンを作成できます。 ただし、スキーマは変更できません。また、追加できるのはイベントタイプとフィールドのみです（削除することはできません）。
+ドラフトイベントの定義が完了し、ニーズに合っていることを確認したら、ドラフトイベントを公開できます。 公開されたイベント定義は、アカウントジャーニーで使用できます。 イベント定義を公開した後、変更が必要な場合は、ドラフトバージョンを作成できます。 ただし、スキーマは変更できません。また、追加できるのはイベントタイプとフィールドのみです（削除することはできません）。
 
 1. 左側のナビゲーションで **[!UICONTROL 管理]**/**[!UICONTROL 設定]** を選択します。
 
@@ -218,7 +218,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. イベント定義名をクリックして開きます。
 
-   _公開済み（ドラフトを使用）_ イベント定義の場合、「_[!UICONTROL 公開済み]_ バージョン」タブがデフォルトで選択されます。
+   _公開済み（ドラフト付き）_ イベント定義の場合、_[!UICONTROL 公開済み]_ バージョンタブがデフォルトとして選択されます。
 
 1. 「**[!UICONTROL ドラフト]** バージョン」タブを選択します。
 
@@ -282,4 +282,4 @@ _公開済み（ドラフト）_ イベント定義を開くと、デフォル�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3448684/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

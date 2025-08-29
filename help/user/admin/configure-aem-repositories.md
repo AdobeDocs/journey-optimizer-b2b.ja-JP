@@ -4,24 +4,24 @@ description: Journey Optimizer B2B edition コンテンツオーサリングで�
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # Experience Manager アセットリポジトリーの設定
 
-Adobe Journey Optimizer B2B editionは、Adobe Experience Manager Assets as a Cloud Serviceと統合されており、アカウントジャーニー内でメールなどのアセットを使用する以上のことが可能になっています。 Experience Manager Assetsとの情報交換により、透明性が確保されます。 Adobe Experience Assetsへの接続を設定してこの機能を有効にします。
+[!DNL Adobe Journey Optimizer B2B Edition] は [!DNL Adobe Experience Manager Assets as a Cloud Service] と統合されているので、メールコンテンツでアセットを使用できます。 [!DNL Experience Manager Assets] と情報を交換することで、透明性を確保します。 [!DNL Adobe Experience Assets] への接続を設定してこの機能を有効にします。
 
-Adobe Experience Manager Cloud Managerはプログラム別に整理されており、各プログラムには複数の環境とリポジトリがあります（[ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 Adobe Journey Optimizer B2B editionでAdobe Experience Manager Assetsを設定する場合、デジタルアセットへのアクセスに使用する各リポジトリへの接続を設定します。
+Adobe Experience Manager Cloud Managerはプログラム別に整理されており、各プログラムには複数の環境とリポジトリがあります（[ 詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 Adobe Journey Optimizer B2B editionでAdobe Experience Manager Assetsを設定する場合、デジタルアセットへのアクセスに使用する各リポジトリへの接続を設定します。
 
 {{aem-assets-licensing-note}}
 
 ## 前提条件
 
-* 目的の環境のサービス資格情報をAEM ヘッドレス Developer Consoleで生成します（[ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
+* 目的の環境のサービス資格情報をAEM ヘッドレス Developer Consoleで生成します（[ 詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
 * 接続に必要な証明書を入手します。 ベストプラクティスとして、証明書の有効期限が切れるまで、少なくとも 6 か月は残っていることを確認します。 証明書は 365 日ごとに期限切れになります。
 * Adobe Journey Optimizer B2B editionでは、一度に 1 つのデジタルアセット管理ソースへのアクセスをサポートしています。 切り替える前に、必要なアセットがAdobe Experience Managerで使用可能であることを確認してください。
 
@@ -33,7 +33,7 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
 1. 左側のナビゲーションで **[!UICONTROL 管理]**/**[!UICONTROL 設定]** を選択します。
 
-1. 中間パネルの **0&rbrace;Assets&rbrace; をクリックします。**
+1. 中間パネルの **[!UICONTROL 0}Assets} をクリックします。]**
 
    ![Assets設定スペースへのアクセス ](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
@@ -47,7 +47,7 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
 1. **[!UICONTROL 証明書を追加]** をクリックし、ダイアログツールを使用してファイルをアップロードします。
 
-   .json ファイルをダイアログにドラッグするか、リンクをクリックしてシステムからファイルを見つけて選択することで、アップロードできます（ファイルが有効な JSON 型であることを確認してください）。
+   .json ファイルをダイアログ上にドラッグすることで、アップロードできます。 このリンクをクリックして、システムからファイルを探して選択することもできます。
 
    ![ 証明書の JSON ファイルをアップロードする ](./assets/configuration-assets-aem-upload-cert.png){width="500"}
 
@@ -65,7 +65,7 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
    ![ 設定済みのAEM アセットリポジトリを確認する ](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
 
-リポジトリの設定が完了したら、チームメンバーは、コンテンツのオーサリング時にAdobe Experience Manager Assetsを選択できます。
+リポジトリの設定が完了すると、チームメンバーはコンテンツのオーサリング時に [!DNL Adobe Experience Manager Assets] を選択できます。
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
 ## 証明書の置換
 
-証明書は作成日から 365 日ごとに期限切れになります。 チームが引き続きアセットにアクセスできるように、有効期限の前に置き換えます。
+証明書は作成日から 365 日ごとに期限切れになります。 チームが引き続きアセットにアクセスできるようにするには、有効期限が切れる前に証明書を置き換えます。
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B editionは、Experience Manager assets と通信して使用状況の情報を取得します。 信頼性の高い使用状況データ同期およびデータの不一致を防ぐには、接続がアクティブである必要があります。 管理者ユーザーには、アプリ内通知を通じて、証明書の有効期限が切れることを知らせる通知が届きます。 また、Assetsのサブセクション（管理領域のデジタルアセット管理）の有効期限に注意することもできます。
+>[!DNL Adobe Journey Optimizer B2B Edition] は [!DNL Experience Manager Assets] と通信して使用情報を取得します。 信頼性の高い使用データの同期とデータの不一致の防止のために、接続はアクティブなままにする必要があります。 管理者は、アプリ内通知を介して、証明書の有効期限に関する通知を受け取ります。 有効期限は、「_管理_ エリアの _[!UICONTROL Assets]_ サブセクションにも表示されます。
 
 1. デジタルアセット管理ページで、設定済みリポジトリのリストを探します。
 
@@ -89,7 +89,7 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
 1. 「**[!UICONTROL 置換]**」を選択して、ファイルのアップロード用のダイアログを開きます。
 
-1. ダイアログ上にファイルをドラッグするか、リンクを使用して、ファイルをアップロードします。 ファイルの JSON タイプが指定されていることを確認します。
+1. ダイアログ上にファイルをドラッグするか、リンクを使用して、ファイルをアップロードします。 ファイルのタイプが JSON であることを確認します。
 
    ![ 代替のAEM Assets リポジトリ証明書 JSON ファイルをアップロードします ](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
 
