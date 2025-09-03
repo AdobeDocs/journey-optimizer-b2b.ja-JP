@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビ�
 source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 91%
       + [購買グループステージ](./buying-groups/buying-group-stages.md)
       + [購買グループの作成](./buying-groups/buying-groups-create.md)
       + [アカウントを書き出し](./audiences/account-list-export.md)
-      + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
+      + [LinkedIn アカウントと一致するオーディエンス](./data/linkedin-account-matched-audiences.md)
       + [Marketo Engage の購買グループフィルター](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + アカウントリスト {#account-lists}
       + [概要](./accounts/account-lists.md)
@@ -90,17 +90,17 @@ ht-degree: 91%
    + フラグメント {#visual-fragments}
       + [概要](./content/fragments.md)
       + [フラグメントオーサリング](./content/fragment-authoring.md)
-   + Forms（Beta） {#forms}
+   + フォーム（ベータ版） {#forms}
       + [概要](./content/forms.md)
       + [フォームのデザイン](./content/form-design.md)
-   + ランディングページ（Beta） {#landing-pages}
+   + ランディングページ（ベータ版） {#landing-pages}
       + [概要](./content/landing-pages.md)
       + [ランディングページのデザイン](./content/landing-page-design.md)
    + コンテンツデザインツール {#content-design}
       + [構造コンポーネント](./content/structure-components.md)
       + [コンテンツコンポーネント](./content/content-components.md)
       + [カスタム CSS](./content/design-custom-css.md)
-   + ブランド （Beta） {#brands}
+   + ブランド（ベータ版） {#brands}
       + [概要](./content/brands-overview.md)
       + [管理と作成](./content/brands-manage-create.md)
       + [ブランド一致](./content/brand-alignment.md)
