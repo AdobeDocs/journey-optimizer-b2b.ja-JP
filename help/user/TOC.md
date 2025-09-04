@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
+source-git-commit: d80b5aeb2fdc2dcab727f5e5f828a933e919118a
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -116,9 +116,9 @@ ht-degree: 95%
    + [インテントデータ](./admin/intent-data.md)
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
-      + [SMS 設定](./admin/configure-channels-sms.md)
+      + [SMS 設定 ](./admin/configure-channels-sms.md)
+      + [ランディングページの設定](./admin/landing-page-settings.md)
    + [AEM Assets リポジトリの設定](./admin/configure-aem-repositories.md)
    + [AEP イベント定義の設定](./admin/configure-aep-events.md)
    + [エンゲージメントスコアの重み付けの設定](./admin/engagement-score-weighting.md)
-   + [ランディングページの設定](./admin/landing-page-settings.md)
    + [ガバナンス](./admin/governance.md)
