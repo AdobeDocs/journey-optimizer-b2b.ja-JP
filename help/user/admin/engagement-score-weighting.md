@@ -4,7 +4,7 @@ description: ビジネス戦略に合致するスコアリングロジックを�
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 1%
@@ -27,9 +27,11 @@ ht-degree: 1%
 
    ![ 設定済みのイベント定義へのアクセス ](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   このテーブルには、最近更新されたモデルが上部に表示され（_[!UICONTROL 最終更新日]_ 順）、_[!UICONTROL 名前]_ で検索する機能が含まれています。 右上隅の _列設定_ （![ 列設定 ](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、列チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
+   このテーブルには、最近更新されたモデルが上部に表示され（_[!UICONTROL 最終更新日]_ 順）、_[!UICONTROL 名前]_ で検索する機能が含まれています。
 
-![ エンゲージメントスコアの重み付けリストに表示する列 ](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   右上隅の _列設定_ （![ 列設定 ](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、列チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
+
+   ![ エンゲージメントスコアの重み付けリストに表示する列 ](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. エンゲージメントスコアモデルの詳細にアクセスするには、名前をクリックします。
 
@@ -76,7 +78,7 @@ ht-degree: 1%
 1. 各ウェイト バンドに対して、必要に応じて名前または値を調整します。
 
    * 「_[!UICONTROL 重み付けバンド]_」フィールドの名前を変更します。
-   * 新しい値を入力します。**&plus;** または **−** をクリックして、値を増減することもできます。
+   * 新しい値を入力します。**&amp;plus;** または **−** をクリックして、値を増減することもできます。
 
    ![ 差込み代の重み付けの設定 ](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
