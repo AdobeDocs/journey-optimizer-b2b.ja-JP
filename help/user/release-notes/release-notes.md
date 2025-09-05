@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能と機能強化について説明します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 92%
 
 ---
@@ -35,7 +35,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | ---- | ---- | ----------- |
 | 機能 | 役割テンプレートおよびジャーニーの人物エンゲージメントスコアフィルター | 購入グループおよび分割パスジャーニーノードの作成に使用される役割テンプレートのフィルターとして、_人物エンゲージメントスコア_ を使用できるようになりました。 [詳細情報](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | 機能 | 購入グループのカスタムの役割の設定 | 購入グループ用のカスタムの役割を柔軟に設定できるようになりました。これにより、ユースケースに固有の役割を定義できます。 [詳細情報](../buying-groups/default-custom-roles.md) |
-| 機能 | エンゲージメントスコアの重み付けの設定 | 購入グループエンゲージメントスコアに影響を与えるアクティビティに重み付けを割り当てることができるようになりました。 この機能には、独自のカスタムスコアモデルの定義や、エンゲージメントスコアの計算に影響を与えるアクティブなモデルの変更が含まれます。<!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| 機能 | エンゲージメントスコアの重み付けの設定 | 購入グループエンゲージメントスコアに影響を与えるアクティビティに重み付けを割り当てることができるようになりました。 この機能には、独自のカスタムスコアモデルの定義や、エンゲージメントスコアの計算に影響を与えるアクティブなモデルの変更が含まれます。 [詳細情報](../admin/engagement-score-weighting.md) |
 | 機能強化 | フラグメントの条件付きコンテンツ | ビジュアルフラグメントデザインに条件付きコンテンツツールを使用できるようになりました。 [詳細情報](../content/conditional-content.md) |
 | 機能強化 | エンゲージメントスコアの更新 | 購入グループエンゲージメントスコアロジックが更新され、スコアが正規化されます。 さらに、メンバーレベルのエンゲージメントスコアと、購入グループ全体の全体的なエンゲージメントスコアを操作できます。 [詳細情報](../buying-groups/engagement-scores.md) |
 | 機能強化 | アクティブなジャーニーの監視 – 各ノードのアカウント | アクティブなアカウントジャーニーの場合は、ジャーニーの各アカウントノードに到達したアカウントのリストにアクセスできます。 |
@@ -186,7 +186,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | LinkedIn Account Matched Audiences | Account Matched Audiences を通じて LinkedIn 広告オーディエンスを生成し、購買グループ内の空いている役割を埋めるのに役立ちます。一連の購買グループフィルターを定義することで、LinkedIn Matched Audience を維持し、購買グループのパラメーターに一致する見込み客をターゲットにすることができます。 <p>この機能は、Experience Platform の宛先を活用して統合のいくつかの側面を管理します。<a href="../data/linkedin-account-matched-audiences.md">詳細情報</a> |
+| 機能 | LinkedIn アカウントと一致するオーディエンス | Account Matched Audiences を通じて LinkedIn 広告オーディエンスを生成し、購買グループ内の空いている役割を埋めるのに役立ちます。一連の購買グループフィルターを定義することで、LinkedIn の一致するオーディエンスを維持し、購買グループのパラメーターに一致する見込み客をターゲットにすることができます。 <p>この機能は、Experience Platform の宛先を活用して統合のいくつかの側面を管理します。<a href="../data/linkedin-account-matched-audiences.md">詳細情報</a> |
 | 機能強化 | ビジュアルコンテンツフラグメントのステータスライフサイクル | ビジュアルフラグメントは、ステータスライフサイクルを使用して管理されるようになりました。フラグメントのステータスによって、メールまたはメールテンプレートでの使用の可用性と、フラグメントに行われる変更が決定されます。 <p>この強化されたワークフローにより、プロモーションや通信のカレンダーに従って再利用コンテンツを簡単に管理できます。<a href="../content/fragments.md#fragment-status-and-lifecycle">詳細情報</a> |
 
 +++

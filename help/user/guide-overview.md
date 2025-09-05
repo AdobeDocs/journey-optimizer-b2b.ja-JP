@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: ビルトインの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整する Adobe Journey Optimizer B2B Edition 機能の使用方法について説明します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 76%
+source-wordcount: '639'
+ht-degree: 71%
 
 ---
 
@@ -28,6 +28,12 @@ B2B マーケターは、ジャーニーの分割パスや役割テンプレー�
 B2B マーケティングストラテジストは、カスタムの購入グループの役割を使用して、購入グループの精度を拡大できるようになりました。 デフォルトの 6 つ以上のカスタムの役割を最大 20 つ作成し、複数の購入グループで再利用します。 アカウントジャーニー内で、独自の役割に合わせてメッセージをカスタマイズし、購入グループ間の関連性とエンゲージメントを向上させます。&#x200B;
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="カスタム購入グループの役割の詳細"}
+
+>[!TAB  カスタムエンゲージメントスコアの加重 ]
+
+エンゲージメントスコアが最高値のアクティビティを反映するように、エンゲージメントアクティビティにカスタム重み付けを割り当てます。 意図の高いシグナルを強調することで、チームは、最も購入の可能性が高いアカウントをより適切に特定し、優先順位を付けることができます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="カスタムエンゲージメントスコアの重み付けについて学ぶ"}
 
 >[!TAB GenStudio のメールエクスペリエンス]
 
@@ -131,7 +137,7 @@ GenStudio for Performance Marketing のメールエクスペリエンスを Jour
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">ドキュメント</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>

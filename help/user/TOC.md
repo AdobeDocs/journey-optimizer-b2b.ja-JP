@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: a5df9dc1674d2a4fbc1705423e51318e3367d3c6
+source-git-commit: 2a452537620e357a94a5f1c6b6c66f994d06c3c2
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 93%
+source-wordcount: '314'
+ht-degree: 92%
 
 ---
 
@@ -112,14 +112,15 @@ ht-degree: 93%
    + [購買グループの概要](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーの概要](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
+   + [ガバナンス](./admin/governance.md)
    + [ユーザー管理](./admin/user-management.md)
-   + [インテントデータ](./admin/intent-data.md)
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
-      + [SMS 設定 ](./admin/configure-channels-sms.md)
+      + [SMS 設定](./admin/configure-channels-sms.md)
       + [ランディングページの設定](./admin/landing-page-settings.md)
       + [イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
-   + [AEM Assets リポジトリの設定](./admin/configure-aem-repositories.md)
-   + [AEP イベント定義の設定](./admin/configure-aep-events.md)
-   + [エンゲージメントスコアの重み付けの設定](./admin/engagement-score-weighting.md)
-   + [ガバナンス](./admin/governance.md)
+   + 設定  {#configurations}
+      + [AEM Assets リポジトリ](./admin/configure-aem-repositories.md)
+      + [AEP イベントの定義](./admin/configure-aep-events.md)
+      + [インテントデータ](./admin/intent-data.md)
+      + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)

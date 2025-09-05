@@ -2,14 +2,11 @@
 title: エンゲージメントスコアの重み付けの設定
 description: ビジネス戦略に合致するスコアリングロジックを反映するようにカスタムエンゲージメントスコアの重み付けを設定する方法について説明します。
 feature: Setup, Engagement, Buying Groups
-hide: true
-hidefromtoc: true
-badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
@@ -79,7 +76,7 @@ ht-degree: 1%
 1. 各ウェイト バンドに対して、必要に応じて名前または値を調整します。
 
    * 「_[!UICONTROL 重み付けバンド]_」フィールドの名前を変更します。
-   * 新しい値を入力します。**&plus;** または **−** をクリックして、値を増減することもできます。
+   * 新しい値を入力します。**&amp;plus;** または **−** をクリックして、値を増減することもできます。
 
    ![ 差込み代の重み付けの設定 ](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
