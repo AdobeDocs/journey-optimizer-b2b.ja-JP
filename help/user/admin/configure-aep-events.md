@@ -282,4 +282,4 @@ _公開済み（ドラフト）_ イベント定義を開くと、デフォル�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448684/?learn=on&captions=jpn)
