@@ -179,7 +179,7 @@ Power Apps を使用して、Dynamics コンポーネントなどのMicrosoft �
 
 **2 - フォームの設定**
 
-1. 「_ソリューション_」タブで、**[!UICONTROL エンティティ]**/**[!UICONTROL アカウント]**/**[!UICONTROL 連絡先]**/**[!UICONTROL リード]**/**[!UICONTROL 10}Forms]**/アカウント **[!UICONTROL /]** 連絡先 **[!UICONTROL /]** リード **[!UICONTROL を選択します。]**
+1. 「_ソリューション_」タブで、**[!UICONTROL エンティティ]**/**[!UICONTROL アカウント]**/**[!UICONTROL 連絡先]**/**[!UICONTROL リード]**/**[!UICONTROL 10&rbrace;Forms]**/アカウント **[!UICONTROL /]** 連絡先 **[!UICONTROL /]** リード **[!UICONTROL を選択します。]**
 1. 最初のタスクで作成した新しいフィールドを **[!UICONTROL フィールドエクスプローラー]** から **[!UICONTROL 概要]** セクションにドラッグします。
 
    ![ 「概要」セクションへの「URL リンク」フィールドの追加 ](./assets/crm-linking-dynamics-url-field-forms.png){width="800" zoomable="yes"}
@@ -288,7 +288,7 @@ Power Apps を使用して、Dynamics コンポーネントなどのMicrosoft �
 
 **2 - JS web リソースをフォームライブラリに追加する**
 
-1. 「_ソリューション_」タブで、**[!UICONTROL エンティティ]**/**[!UICONTROL アカウント]**/**[!UICONTROL 連絡先]**/**[!UICONTROL リード]**/**[!UICONTROL 10}Forms]**/アカウント **[!UICONTROL /]** 連絡先 **[!UICONTROL /]** リード **[!UICONTROL を選択します。]**
+1. 「_ソリューション_」タブで、**[!UICONTROL エンティティ]**/**[!UICONTROL アカウント]**/**[!UICONTROL 連絡先]**/**[!UICONTROL リード]**/**[!UICONTROL 10&rbrace;Forms]**/アカウント **[!UICONTROL /]** 連絡先 **[!UICONTROL /]** リード **[!UICONTROL を選択します。]**
 
 1. 上部の「_ホーム_」タブで、「**[!UICONTROL フォームのプロパティ]**」をクリックします。
 
