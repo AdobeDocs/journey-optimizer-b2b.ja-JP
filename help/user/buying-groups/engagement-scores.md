@@ -3,13 +3,13 @@ title: 購入グループのエンゲージメントスコア
 description: スコアリングを決定する計算ロジックとアクティビティタイプを含め、購入グループとユーザーのエンゲージメントスコアについて説明します。
 feature: Buying Groups
 role: User
-source-git-commit: 9a70cdf73585a1d55cc973046d91fe15c7e80a02
+exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
-
 
 # エンゲージメントスコア {#engagement-scores}
 
@@ -30,7 +30,7 @@ ht-degree: 22%
 
 * **ユーザーエンゲージメントスコア** - ユーザーエンゲージメントスコアは、個々の購入グループメンバーのアクティビティに基づいています。
 
-  購入グループメンバーごとのユーザーエンゲージメントスコアは、購入グループの詳細ページ [_[!UICONTROL &#x200B; 「メンバー &#x200B;]_&#x200B;タブ ](./buying-group-details.md#buying-group-members) に表示されます。 これらのスコアは、上位のエンゲージメントメンバーや重複する連絡先情報を含むページやダッシュボードにも表示されます。
+  購入グループメンバーごとのユーザーエンゲージメントスコアは、購入グループの詳細ページ [_[!UICONTROL  「メンバー ]_タブ ](./buying-group-details.md#buying-group-members) に表示されます。 これらのスコアは、上位のエンゲージメントメンバーや重複する連絡先情報を含むページやダッシュボードにも表示されます。
 
   ![ 最も関与している購入グループメンバー ](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -100,8 +100,8 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"
->title="エンゲージメントスコアの役割の重み付け"
->abstract="役割の重み付けを使用して、エンゲージメントスコアの計算をカスタマイズします。"
+>title="エンゲージメントスコアの役割別重み付け"
+>abstract="役割別重み付けを使用して、エンゲージメントスコアの計算をカスタマイズします。"
 
 ユーザーは _役割テンプレート_ 内の各役割に [ 重み付け ](./buying-groups-role-templates.md) を割り当てて、役割に異なる重み付けを割り当てることができます。
 
