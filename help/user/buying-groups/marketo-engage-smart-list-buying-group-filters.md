@@ -1,12 +1,12 @@
 ---
 title: Market Engage の購買グループ フィルター
-description: 購買グループメンバーシップを使用してMarketo Engageのスマートリストでフィルターを定義する方法を説明します。
+description: Marketo Engage スマートリストのグループメンバーシップを購入してリードをフィルタリングし、Journey Optimizer B2B editionでキャンペーンを最適化し、リードのスコアリングを行います。
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Journey Optimizer B2B editionに接続されたMarketo Engage インスタンスでは、スマートリストで _[!UICONTROL 購入グループのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。
 
-1. [Marketo Engageでスマートリストを作成 ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} した後、「**[!UICONTROL スマートリスト]**」タブを選択してフィルターエディターを開きます。
+1. [Marketo Engageでスマートリストを作成 ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} した後、「**[!UICONTROL スマートリスト]**」タブを選択してフィルターエディターを開きます。
 
 1. 右側のフィルターリストで、リストを下にスクロールして「**[!UICONTROL 特殊フィルター]**」フォルダーを展開します。
 

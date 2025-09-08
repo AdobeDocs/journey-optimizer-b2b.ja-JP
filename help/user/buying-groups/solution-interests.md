@@ -1,12 +1,12 @@
 ---
 title: ソリューションの関心
-description: ソリューションの関心と、購入グループ内で使用するためにソリューションを定義する方法について説明します。
+description: ソリューションへの関心を定義してターゲット製品を特定し、Journey Optimizer B2B editionのロールテンプレートを使用して購買グループを自動的に作成します。
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ _[!UICONTROL ソリューションの関心]_ タブの **[!UICONTROL 購入グ�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3450114/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

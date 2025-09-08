@@ -1,12 +1,12 @@
 ---
 title: エンゲージメント概要ダッシュボード
-description: エンゲージメントの概要ダッシュボードを使用して、エンゲージメントの取り組みを監視する方法について説明します。
+description: Journey Optimizer B2B editionのインタラクティブグラフとトレンド分析を使用して、アカウント、購入グループ、人物のリアルタイムエンゲージメント指標をモニタリングします。
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '549'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ _エンゲージメントダッシュボード_ にアクセスするには、�
 * エンゲージメントタイプ
 * 地域
 * 業界
-* 購買グループのメンバーの役割
+* 購買グループメンバーの役割
 
 ![ 表示されたデータを属性でフィルタリング ](./assets/engagement-dashboard-filters.png){width="500"}
 

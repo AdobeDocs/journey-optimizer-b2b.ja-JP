@@ -1,21 +1,22 @@
 ---
-title: 詳細ページへの CRM 内アクセス
-description: セールスチームメンバーがSalesforceやMicrosoft Dynamicsなどの CRM （Customer Relationship Management）ツールからアカウント、連絡先、リードの詳細ページに直接アクセスする方法を説明します。
+title: CRM 内から詳細ページへのアクセス
+description: アカウントおよび連絡先の詳細にカスタムリンクを追加して、Salesforceと Dynamics CRM からJourney Optimizer B2B インサイトに直接アクセスできるようにします。
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1428'
+ht-degree: 1%
 
 ---
 
-# 詳細ページへの CRM 内アクセス
+# CRM 内から詳細ページへのアクセス
 
-Adobe Journey Optimizer B2B editionを使用すると、セールスチームメンバーやアカウントマネージャーは、SalesforceやMicrosoft Dynamicsなどの顧客関係管理（CRM）ツールから直接、アカウントおよび購入グループ情報の詳細ページにアクセスできます。 この統合により、営業担当者は、エンゲージメント履歴、インテントシグナル、AI で生成されたレコメンデーションなど、リアルタイムのアカウントおよび購入グループのインサイトにすばやくアクセスできます。 この機能により、セールスチームはアウトリーチを迅速化し、優先順位付けをスマート化し、マーケティングとの連携を強化することができます。
+Adobe Journey Optimizer B2B editionを使用すると、営業およびアカウントチームメンバーは、SalesforceやMicrosoft Dynamicsなどの Customer Relationship Management （CRM）ツールからアカウントおよび購入グループ情報の詳細ページに直接アクセスできます。 この統合により、営業担当者は、エンゲージメント履歴、インテントシグナル、AI で生成されたレコメンデーションなど、リアルタイムのアカウントおよび購入グループのインサイトにすばやくアクセスできます。 この機能により、セールスチームはアウトリーチを迅速化し、優先順位付けをスマート化し、マーケティングとの連携を強化することができます。
 
-営業チームメンバーが CRM からJourney Optimizer B2B editionの [ アカウントの詳細 ](account-details.md) ページと [ 人物の詳細 ](person-details.md) ページを表示できるようにするには、Salesforce管理者または Dynamics 管理者がアカウント、連絡先、リードの各ビューからJourney Optimizer B2B edition リンクを追加できます。
+営業およびアカウントチームメンバーが CRM からJourney Optimizer B2B editionの [ アカウントの詳細 ](account-details.md) および [ 人物の詳細 ](person-details.md) ページを表示できるようにするには、Salesforceまたは Dynamics 管理者がアカウント、連絡先またはリード表示からリンクを追加できます。
 
 営業チームメンバーが CRM インスタンスからのリンクを使用する場合、サンドボックスは _Prod_ である必要があり、次の順序付きロジックに従って IMS 組織が決定されます。
 
@@ -91,7 +92,7 @@ Salesforceへのカスタムリンクの追加について詳しくは、Salesfo
 
 +++
 
-+++「詳細」ページボタン
++++「詳細ページ」ボタン
 
 1. Salesforceで、**[!UICONTROL 設定]**/**[!UICONTROL Object Manager]**/**[!UICONTROL アカウント]**/**[!UICONTROL 連絡先]**/**[!UICONTROL リード]**/**[!UICONTROL ボタン、リンク、アクション]** に移動します。
 1. 右上隅の **[!UICONTROL 新規ボタンまたはリンク]** をクリックして、詳細ページボタンを作成します。
@@ -178,7 +179,7 @@ Power Apps を使用して、Dynamics コンポーネントなどのMicrosoft �
 
 **2 - フォームの設定**
 
-1. 「_ソリューション_」タブで、**[!UICONTROL エンティティ]**/**[!UICONTROL アカウント]**/**[!UICONTROL 連絡先]**/**[!UICONTROL リード]**/**[!UICONTROL 10&rbrace;Forms]**/アカウント **[!UICONTROL /]** 連絡先 **[!UICONTROL /]** リード **[!UICONTROL を選択します。]**
+1. 「_ソリューション_」タブで、**[!UICONTROL エンティティ]**/**[!UICONTROL アカウント]**/**[!UICONTROL 連絡先]**/**[!UICONTROL リード]**/**[!UICONTROL 10}Forms]**/アカウント **[!UICONTROL /]** 連絡先 **[!UICONTROL /]** リード **[!UICONTROL を選択します。]**
 1. 最初のタスクで作成した新しいフィールドを **[!UICONTROL フィールドエクスプローラー]** から **[!UICONTROL 概要]** セクションにドラッグします。
 
    ![ 「概要」セクションへの「URL リンク」フィールドの追加 ](./assets/crm-linking-dynamics-url-field-forms.png){width="800" zoomable="yes"}
@@ -222,7 +223,7 @@ Power Apps を使用して、Dynamics コンポーネントなどのMicrosoft �
 
 +++
 
-+++HTML web リソース
++++HTML web resource
 
 次の一連のタスクに従って、カスタムリンクをHTML web リソースとして追加します。
 
@@ -287,7 +288,7 @@ Power Apps を使用して、Dynamics コンポーネントなどのMicrosoft �
 
 **2 - JS web リソースをフォームライブラリに追加する**
 
-1. 「_ソリューション_」タブで、**[!UICONTROL エンティティ]**/**[!UICONTROL アカウント]**/**[!UICONTROL 連絡先]**/**[!UICONTROL リード]**/**[!UICONTROL 10&rbrace;Forms]**/アカウント **[!UICONTROL /]** 連絡先 **[!UICONTROL /]** リード **[!UICONTROL を選択します。]**
+1. 「_ソリューション_」タブで、**[!UICONTROL エンティティ]**/**[!UICONTROL アカウント]**/**[!UICONTROL 連絡先]**/**[!UICONTROL リード]**/**[!UICONTROL 10}Forms]**/アカウント **[!UICONTROL /]** 連絡先 **[!UICONTROL /]** リード **[!UICONTROL を選択します。]**
 
 1. 上部の「_ホーム_」タブで、「**[!UICONTROL フォームのプロパティ]**」をクリックします。
 

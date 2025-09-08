@@ -1,13 +1,13 @@
 ---
 title: アカウントオーディエンス
-description: アカウントオーディエンスと、アカウントベースのジャーニーを有効にする方法について説明します。
+description: 特定のアカウントをターゲットにし、Journey Optimizer B2B editionでパーソナライズされたアカウントベースのジャーニーを有効にするためのセグメント化を使用して、アカウントオーディエンスを構築します。
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '552'
-ht-degree: 100%
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 96%
 
 ---
 

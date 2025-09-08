@@ -1,12 +1,12 @@
 ---
 title: インテントデータ
-description: Journey Optimizer B2B editionのインテントデータを生成するためのキーワードを組み合わせて送信する方法を説明します。
+description: キーワードマッピングを使用してインテントデータを設定し、Journey Optimizer B2B editionでアカウントベースのマーケティングに対する顧客の興味と購入シグナルを予測します。
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-source-git-commit: 65c7bdcc998c604125442fbd0a65c2f8ebd3255d
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Excel ファイルをダウンロードすると、マッピングデータを�
 1. テンプレートを使用して、インテントマッピングデータを定義します。
 
    * ファイル名をカテゴリ名に合わせて変更します（_Personalization at scale_ など）。
-   * _Journey Optimizer B2B&rbrace;、_ Marketo Engage _、_ Experience Manager _など、商品名に応じて各タブの名前を変更し_ す。
+   * _Journey Optimizer B2B}、_ Marketo Engage _、_ Experience Manager _など、商品名に応じて各タブの名前を変更し_ す。
    * _B2B マーケティング_、_ブランド認識_、_リードエンゲージメント_ など、各タブの製品キーワードを追加します。
 
    ![ カテゴリ スプレッドシート ](./assets/intent-category-spreadsheet.png){width="600" zoomable="yes"}

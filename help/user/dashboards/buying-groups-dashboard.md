@@ -1,12 +1,12 @@
 ---
 title: 購買グループ概要ダッシュボード
-description: 購入グループの概要ダッシュボードと、マーケティングチームからの販売ハンドオフを有効にする方法について説明します。
+description: 完了スコア、エンゲージメント指標、ソリューションの関心分析を使用して購入グループの進行状況を追跡し、Journey Optimizer B2B editionでの販売の引き継ぎを可能にします。
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -76,7 +76,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 データを操作するには、各グラフの右上にある _その他_ （**...**）メニューを使用します。
 
-### [!UICONTROL &#x200B; ドリルスルー &#x200B;]
+### [!UICONTROL  ドリルスルー ]
 
 個々のグループのスコアまたは分布を詳細に分析するには、「**[!UICONTROL ドリルスルー]**」を選択します。
 
@@ -86,7 +86,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 右上にある _その他_ （**...**）メニューをクリックし、**[!UICONTROL その他を表示]** を選択して [ 拡張データを表示 ](#view-more) することができます。
 
-### [!UICONTROL &#x200B; 詳細を表示 &#x200B;]
+### [!UICONTROL  詳細を表示 ]
 
 **[!UICONTROL さらに表示]** を選択すると、拡張されたデータとインサイトが表示されます。
 

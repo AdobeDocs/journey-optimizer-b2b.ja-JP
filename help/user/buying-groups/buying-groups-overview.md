@@ -1,13 +1,13 @@
 ---
 title: 購買グループ
-description: Journey Optimizer B2B Edition の購買グループが、アカウントリストのメンバーを識別してターゲティングすることで、マーケティング効果を高める方法について説明します。
+description: 購買グループとのアカウントベースのマーケティングを強化して、主要な意思決定者を特定し、エンゲージメントスコアを追跡し、Journey Optimizer B2B editionのアカウントをターゲットにします。
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -112,4 +112,4 @@ _[!UICONTROL 購買グループ]_&#x200B;ページは、次のタブで構成さ
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3452926/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

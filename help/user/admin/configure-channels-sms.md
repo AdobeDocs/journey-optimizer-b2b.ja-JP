@@ -1,12 +1,12 @@
 ---
 title: SMS 設定
-description: サポートされている SMS プロバイダーへの接続を設定して、Journey Optimizer B2B edition SMS メッセージングで使用する方法を説明します。
+description: Sinch、Twilio、Infobip などの SMS プロバイダーを API 資格情報に接続して、Journey Optimizer B2B edition ジャーニーでテキストメッセージを有効にします。
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ Adobe Journey Optimizer B2B editionで SMS チャネルを設定する前に、�
 
 >[!TAB  シンチ ]
 
-_Adobe Journey Optimizer B2B editionを使用して、Sinch を SMS プロバイダーとして設定するには：_
+Adobe Journey Optimizer B2B editionで Sinch を SMS プロバイダーとして設定するには（_T） :_
 
 1. 左側のナビゲーションで、「**[!UICONTROL 管理者]**」セクションを展開し、「**[!UICONTROL 設定]**」をクリックします。
 
@@ -71,7 +71,7 @@ _Adobe Journey Optimizer B2B editionを使用して、Sinch を SMS プロバイ
 
 >[!TAB  ツイリオ ]
 
-_Adobe Journey Optimizer B2B editionで Twilio を SMS プロバイダーとして設定するには：_
+Adobe Journey Optimizer B2B editionで Twilio を SMS プロバイダーとして設定するには（_T） :_
 
 1. 左側のナビゲーションで、「**[!UICONTROL 管理者]**」セクションを展開し、「**[!UICONTROL 設定]**」をクリックします。
 
@@ -93,7 +93,7 @@ _Adobe Journey Optimizer B2B editionで Twilio を SMS プロバイダーとし�
 
 >[!TAB Infobip]
 
-_Adobe Journey Optimizer B2B editionで Infobip を SMS プロバイダーとして設定するには：_
+Adobe Journey Optimizer B2B editionで Infobip を SMS プロバイダーとして設定するには（_T） :_
 
 1. 左側のナビゲーションで、「**[!UICONTROL 管理者]**」セクションを展開し、「**[!UICONTROL 設定]**」をクリックします。
 

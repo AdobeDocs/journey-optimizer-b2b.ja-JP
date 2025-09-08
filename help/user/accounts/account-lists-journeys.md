@@ -1,12 +1,12 @@
 ---
 title: ジャーニーとプログラムでアカウント一覧を使用する
-description: ジャーニーでアカウントリストメンバーシップを調整し、アカウントリストメンバーシップに基づいてMarketo Engage スマートリストをフィルタリングする方法について説明します。
+description: Journey orchestration でアカウントリストを使用し、アカウントを動的に追加/削除し、Journey Optimizer B2B editionでMarketo Engage スマートリストをフィルタリングします。
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 アカウントジャーニー内で、[a _アクションを実行_ ノード ](../journeys/action-nodes.md) を使用して、アカウントを静的アカウントリストに追加します。
 
-例えば、メールを送信するジャーニーパスがあり、一部のアカウントが応答アクションとして様々なアクションを実行する場合などです。 このアクティビティをジャーニーの選定ポイントと見なし、選定アカウントのフローが異なる別のジャーニーのオーディエンスとして使用されるアカウントリストに追加するとします。
+例えば、メールを送信するジャーニーパスがあり、一部のアカウントが応答アクションとして様々なアクションを実行する場合などです。 このアクティビティをジャーニーの選定ポイントと見なします。 選定を使用する場合、選定されたアカウントのフローが異なる別のジャーニーのオーディエンスとして使用されるアカウントリストに追加します。
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 アカウントジャーニー内で、[a _アクションを実行_ ノード ](../journeys/action-nodes.md) を使用して、静的アカウントリストからアカウントを削除します。
 
-例えば、メールを送信するジャーニーパスがあり、一部のアカウントが応答アクションとして様々なアクションを実行する場合などです。 このアクティビティをジャーニーの選定ポイントと見なし、選定コミュニケーションが重複しないように、追加のメールを送信する別のジャーニーのオーディエンスとしてに使用されるアカウントリストから削除するとします。
+例えば、メールを送信するジャーニーパスがあり、一部のアカウントが応答アクションとして様々なアクションを実行する場合などです。 このアクティビティをジャーニーの選定ポイントと見なします。 この選定では、選定に関するコミュニケーションが重複しないように、追加のメールを送信する別のジャーニーのオーディエンスとしてに使用されるアカウントリストから削除します。
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 マーケターの場合、Journey Optimizer B2B editionのアカウントリストに含まれているユーザーに対しては、Marketo Engageのプログラムを抑制することができます。
 
-Journey Optimizer B2B editionに接続されたMarketo Engage インスタンスでは、スマートリストで _[!UICONTROL アカウントリストのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。 スマートリストについて詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} を参照してください。
+Journey Optimizer B2B editionに接続されたMarketo Engage インスタンスでは、スマートリストで _[!UICONTROL アカウントリストのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。 スマートリストについて詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} を参照してください。
 
 ### スマート・リストへのフィルタの追加
 
@@ -95,7 +95,7 @@ Journey Optimizer B2B editionに接続されたMarketo Engage インスタンス
 
 1. キャンペーンフローで、「**[!UICONTROL リストに追加]**」手順を追加し、Journey Optimizer B2B edition アカウントリストからユーザーを入力するリストを選択します。
 
-   フローにステップを追加する方法について詳しくは、Marketo Engage ドキュメントの _[スマートキャンペーンへのフローステップの追加 ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ を参照してください。
+   フローにステップを追加する方法について詳しくは、Marketo Engage ドキュメントの _[スマートキャンペーンへのフローステップの追加 ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ を参照してください。
 
 ### メンバーのレビュー
 

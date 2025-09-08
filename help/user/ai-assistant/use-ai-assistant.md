@@ -1,13 +1,13 @@
 ---
 title: AI アシスタントを使用
-description: Journey Optimizer B2B editionの機能を最大限に活用するために AI アシスタントがどのように役立つかを説明します。
+description: AI アシスタントに製品に関する知識の質問をしたり、Journey Optimizer B2B editionのジャーニー、オーディエンス、購買グループに関する運用上のインサイトを得たりします。
 feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '960'
 ht-degree: 1%
 
 ---
@@ -104,7 +104,7 @@ AI Assistant が提供する SQL クエリを使用して、運用インサイ�
 
 ![AI アシスタントの応答 – フィードバックアイコン ](./assets/ai-assistant-response-feedback-icons.png){width="420"}
 
-+++フォームを表示
++++フォームの表示
 
 >[!BEGINTABS]
 

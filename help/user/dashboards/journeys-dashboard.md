@@ -1,12 +1,12 @@
 ---
 title: アカウントジャーニーの概要ダッシュボード
-description: ジャーニーの概要ダッシュボードに表示される情報と、アカウントジャーニー戦略の監視と管理にどう役立つかを説明します。
+description: Journey Optimizer B2B editionで、完了率、エンゲージメント指標、チャネル有効性分析を使用して、アカウントジャーニーのパフォーマンスを追跡します。
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 データを操作するには、各グラフの右上にある **...** メニューを使用します。
 
-### [!UICONTROL &#x200B; ドリルスルー &#x200B;]
+### [!UICONTROL  ドリルスルー ]
 
 円グラフの場合は、「**[!UICONTROL ドリルスルー]**」を選択すると、データが詳細に分析されます。
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 右上にある _その他_ （**...**）メニューをクリックし、「**[!UICONTROL その他を表示]**」を選択して [ 拡張データを表示 ](#view-more) することができます。
 
-### [!UICONTROL &#x200B; 詳細を表示 &#x200B;]
+### [!UICONTROL  詳細を表示 ]
 
 **[!UICONTROL さらに表示]** を選択すると、拡張されたデータとインサイトが表示されます。
 

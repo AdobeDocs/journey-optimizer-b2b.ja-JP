@@ -1,12 +1,12 @@
 ---
 title: エンゲージメントスコアの重み付けの設定
-description: ビジネス戦略に合致するスコアリングロジックを反映するようにカスタムエンゲージメントスコアの重み付けを設定する方法について説明します。
+description: 重み付けアクティビティを使用してカスタムエンゲージメントスコアモデルを作成し、Journey Optimizer B2B editionで購入グループエンゲージメントとインテントを正確に測定します。
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
 1. 各ウェイト バンドに対して、必要に応じて名前または値を調整します。
 
    * 「_[!UICONTROL 重み付けバンド]_」フィールドの名前を変更します。
-   * 新しい値を入力します。**&plus;** または **−** をクリックして、値を増減することもできます。
+   * 新しい値を入力します。**&amp;plus;** または **−** をクリックして、値を増減することもできます。
 
    ![ 差込み代の重み付けの設定 ](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 

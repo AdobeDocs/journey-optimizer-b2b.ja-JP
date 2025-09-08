@@ -1,13 +1,13 @@
 ---
 title: インテリジェントダッシュボード
-description: 購入グループとアカウント指標の包括的なビューを提供するインテリジェントダッシュボードについて説明します
+description: Journey Optimizer B2B editionのエンゲージメント指標、インテント検出、予測分析を使用して、グループやアカウントの購入に役立つ、AI を活用したインサイトにアクセスします。
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 15%
+source-wordcount: '1679'
+ht-degree: 16%
 
 ---
 
@@ -153,7 +153,7 @@ _購入グループのハイライト_ パネルの右上にある「**[!UICONTR
 
 >[!NOTE]
 >
->アカウントのサージデータは、アカウントジャーニーまたは購入グループを通じてJourney Optimizer B2B editionによってアカウントオーディエンスに取り込まれるアカウントに限定されます。
+>アカウントのサージデータには、Journey Optimizer B2B editionがアカウントジャーニーまたは購入グループを通じて取り込むアカウントのみが含まれます。
 
 ![ アカウントサージデータの可視化 ](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -197,7 +197,7 @@ _[!UICONTROL アカウントのハイライト表示]_ セクションは 2 行�
 
 >[!NOTE]
 >
->アカウントハイライトデータは、アカウントジャーニーまたは購入グループを通じてアカウントオーディエンスのJourney Optimizer B2B editionによって取り込まれるアカウントに限定されます。
+>アカウントハイライト データには、Journey Optimizer B2B editionがアカウントジャーニーまたは購入グループを通じて取り込むアカウントのみが含まれます。
 
 ![ アカウントのハイライト ](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -287,7 +287,7 @@ _情報_ （![ 情報アイコン ](../assets/do-not-localize/icon-info.svg)）�
 * 購買グループ名（名前をクリックして購買グループの詳細ページを開きます）
 * 役割
 * ソリューションに対する関心
-* 製品の意図
+* 製品インテント
 * 製品
 
 ![ 連絡先の重複の詳細 ](./assets/intelligent-dashboard-contact-overlap-detail-info.png){width="600" zoomable="yes"}

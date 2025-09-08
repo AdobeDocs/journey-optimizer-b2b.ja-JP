@@ -1,12 +1,12 @@
 ---
 title: アカウントの詳細
-description: Journey Optimizer B2B editionで、アカウントの詳細情報および生成 AI の概要へのアクセスについて説明します。
+description: Journey Optimizer B2B editionで、AI による要約、インテント検出、連絡先のカバー範囲分析、電子メール通信を使用して、アカウントのインサイトを表示します。
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '639'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ Journey Optimizer B2B editionのどこからでもアカウント名をクリッ
 
 「**[!UICONTROL 概要]**」タブを使用してアカウントに関する情報を確認し、「**[!UICONTROL 連絡先]**」タブを使用してアカウントの連絡先のリストにアクセスします。
 
-## [!UICONTROL &#x200B; 概要 &#x200B;] タブ
+## [!UICONTROL  概要 ] タブ
 
 アカウントの詳細ページは、次の 3 つの主要セクションで構成されます。
 
@@ -93,7 +93,7 @@ Journey Optimizer B2B editionでは、インテント検出モデルが、アカ
 * ソリューションに対する関心
 * ロール
 
-## [!UICONTROL &#x200B; 連絡先 &#x200B;] タブ
+## [!UICONTROL  連絡先 ] タブ
 
 「**[!UICONTROL 連絡先]**」タブを選択して、そのアカウントに関連付けられているすべての人物のリストを表示します。このリストは、Experience Platformに同期されます。 リストされる各連絡先には、名前、メールアドレス、エンゲージメントスコアが含まれます。
 

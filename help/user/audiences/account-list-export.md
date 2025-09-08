@@ -1,13 +1,13 @@
 ---
 title: アカウントの書き出し
-description: 購買グループフィルターに基づいてアカウントリストを書き出す方法について説明します。
-feature: Account Lists
+description: Journey Optimizer B2B editionで購入グループとエンゲージメントスコアフィルターを使用しているサードパーティプラットフォーム向けに、フィルター済みのアカウントリストを CSV に書き出します。
+feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 91%
+source-wordcount: '259'
+ht-degree: 83%
 
 ---
 

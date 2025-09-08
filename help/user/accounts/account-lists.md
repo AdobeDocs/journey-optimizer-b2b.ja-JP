@@ -1,10 +1,10 @@
 ---
 title: 顧客リスト
-description: アカウントリストと、そのリストをマーケターがアカウントジャーニーを通じてアカウントをターゲットにする方法について説明します。
+description: Journey Optimizer B2B editionで、ターゲットを絞った journey orchestration とアカウントベースのマーケティングのカスタムフィルターを使用して、静的および動的なアカウントリストを作成します。
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 Journey Optimizer B2B editionでは、アカウントリストは、マーケターがターゲットの Journey Orchestration に使用できる名前付きアカウントのコレクションです。 アカウントリストでは、定義済みの条件（業界、場所、会社の規模など）に基づいて指定顧客をターゲットにすることができます。 アカウントリストには、次の 2 種類があります。
 
 * **静的** – 静的アカウントリストでは、アカウントを追加した場合にのみリストが変更されます。 現在のアカウントデータに基づいてリストに入力するフィルターセットを適用するか、アカウントジャーニーを通じてアカウントを追加および削除することで、アカウントを手動で追加できます。
-* **動的** – 動的アカウントリストを使用すると、リストを自動的にキュレーションするためのフィルターセットを定義できます。 システムは、このフィルターセットを使用して、アカウント情報の変更に従ってアカウントを追加および削除します。 このリスト管理は、[Real-time Customer Data Platform のオーディエンスのセグメント化 ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"} に似ています。
+* **動的** – 動的アカウントリストを使用すると、リストを自動的にキュレーションするためのフィルターセットを定義できます。 システムは、このフィルターセットを使用して、アカウント情報の変更に従ってアカウントを追加および削除します。 このリスト管理は、[Real-time Customer Data Platform のオーディエンスのセグメント化 ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"} に似ています。
 
 アカウントリストが _ライブ_ （公開済み）ステートの場合、[ アカウントジャーニーおよびMarketo Engage プログラムで使用 ](./account-lists-journeys.md) できます。
 
@@ -24,7 +24,7 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
 >[!NOTE]
 >
->アカウントリストは、Marketo Engageのアカウントデータを活用して、アカウントセグメントとリストを作成します。 つまり、Adobe Experience PlatformのアカウントセグメントがJourney Optimizerにアクティブに同期されていない場合、そのMarketo Engage セグメント内のアカウントをExperience Platform B2B editionのアカウントリストで使用できない可能性があります。 その後、Experience Platform セグメントのアカウントでMarketo Engageに同期されていない人物は、人物のメンバーシップのカウントに含めなかったり、トリガーイベントでカウントされたりすることはありません。
+>アカウントリストは、Marketo Engageのアカウントデータを活用して、アカウントセグメントとリストを作成します。 つまり、Adobe Experience PlatformのアカウントセグメントがJourney Optimizerにアクティブに同期されていない場合、そのMarketo Engage セグメント内のアカウントをExperience Platform B2B editionのアカウントリストで使用できない可能性があります。 その後、Marketo Engageに同期されたExperience Platform セグメント内のアカウントの人物のみが、人物のメンバーシップの数とトリガーイベントに含まれます。
 
 ## アカウントリストへのアクセスと参照
 
@@ -34,10 +34,10 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
 表示される _[!UICONTROL アカウントリスト]_ ページには、次の列が含まれます。
 
-* [!UICONTROL &#x200B; 名前 &#x200B;] （アカウントリストの名前をクリックすると詳細が表示されます）
+* [!UICONTROL  名前 ] （アカウントリストの名前をクリックすると詳細が表示されます）
 * [!UICONTROL ステータス]
 * [!UICONTROL タイプ]
-* [!UICONTROL &#x200B; 最終更新日 &#x200B;]
+* [!UICONTROL  最終更新日 ]
 * [!UICONTROL 最終更新者]
 * [!UICONTROL 作成日]
 * [!UICONTROL 作成者]
@@ -180,4 +180,4 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3448650/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

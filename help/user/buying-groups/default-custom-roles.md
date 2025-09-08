@@ -1,11 +1,12 @@
 ---
 title: デフォルトおよびカスタムの役割
-description: デフォルトの役割とカスタムの役割、および購入グループの役割テンプレートで使用するカスタムの役割を定義する方法について説明します。
+description: デフォルトおよびカスタムの購入グループの役割の管理 – Journey Optimizer B2B editionで、ビジネスニーズに合った役割定義を作成、編集および設定します。
 feature: Buying Groups
 role: User
-source-git-commit: f68d9ed7e1c64d95cba729eba7f11c5d95d0022f
+exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---
@@ -25,11 +26,11 @@ Journey Optimizer B2B editionには、購買グループ用のロールテンプ
    このタブには、既存のすべての役割の在庫リストが表示され、次の情報が列形式で表示されます。
 
    * [!UICONTROL Name] – 役割名。
-   * [!UICONTROL &#x200B; タイプ &#x200B;] – すべての役割のタイプは、`Default` または `Custom` です。
-   * [!UICONTROL &#x200B; 作成日 &#x200B;] - カスタムの役割に対して、役割が作成された日時。
-   * [!UICONTROL &#x200B; 作成者 &#x200B;] - カスタムの役割の場合、役割を作成したユーザー。
-   * [!UICONTROL &#x200B; 最終更新日 &#x200B;] - カスタムの役割の場合、役割が最後に更新された日時。
-   * [!UICONTROL &#x200B; 更新者 &#x200B;] - カスタムの役割の場合、役割を最後に更新したユーザー。
+   * [!UICONTROL  タイプ ] – すべての役割のタイプは、`Default` または `Custom` です。
+   * [!UICONTROL  作成日 ] - カスタムの役割に対して、役割が作成された日時。
+   * [!UICONTROL  作成者 ] - カスタムの役割の場合、役割を作成したユーザー。
+   * [!UICONTROL  最終更新日 ] - カスタムの役割の場合、役割が最後に更新された日時。
+   * [!UICONTROL  更新者 ] - カスタムの役割の場合、役割を最後に更新したユーザー。
 
    リストの上部には、デフォルトの役割が表示されます。
 

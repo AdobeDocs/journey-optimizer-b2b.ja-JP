@@ -1,13 +1,13 @@
 ---
 title: AI アシスタントの質問ガイダンス
-description: Journey Optimizer B2B editionの AI アシスタント用に効果的な質問を記述する方法を説明します。
+description: Journey Optimizer B2B editionで最適な回答を得るには、ベストプラクティス、例、言葉遣いのヒントを使用して、効果的な AI アシスタントの質問を記述します。
 feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '891'
 ht-degree: 1%
 
 ---

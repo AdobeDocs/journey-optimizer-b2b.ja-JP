@@ -1,16 +1,16 @@
 ---
 title: ランディングページの設定
-description: マーケティングチームがキャンペーンをサポートする web ページを作成および公開できるようにランディングページ設定にアクセスして設定する方法を説明します。
+description: Journey Optimizer B2B editionで campaign web ページの公開を有効にするには、ランディングページのサブドメイン、フォームの事前入力設定、データストリームを設定する必要があります。
 feature: Setup, Landing Pages, Content
 role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 8bd3d696a52a813b88de9e3b58145b1cbfb3fa32
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 27%
+source-wordcount: '506'
+ht-degree: 28%
 
 ---
 
