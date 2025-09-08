@@ -77,7 +77,7 @@ ht-degree: 0%
 
 マーケターの場合、Journey Optimizer B2B editionのアカウントリストに含まれているユーザーに対しては、Marketo Engageのプログラムを抑制することができます。
 
-Journey Optimizer B2B editionに接続されたMarketo Engage インスタンスでは、スマートリストで _[!UICONTROL アカウントリストのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。 スマートリストについて詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} を参照してください。
+Journey Optimizer B2B editionに接続されたMarketo Engage インスタンスでは、スマートリストで _[!UICONTROL アカウントリストのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。 スマートリストについて詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} を参照してください。
 
 ### スマート・リストへのフィルタの追加
 
@@ -95,7 +95,7 @@ Journey Optimizer B2B editionに接続されたMarketo Engage インスタンス
 
 1. キャンペーンフローで、「**[!UICONTROL リストに追加]**」手順を追加し、Journey Optimizer B2B edition アカウントリストからユーザーを入力するリストを選択します。
 
-   フローにステップを追加する方法について詳しくは、Marketo Engage ドキュメントの _[スマートキャンペーンへのフローステップの追加 ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ を参照してください。
+   フローにステップを追加する方法について詳しくは、Marketo Engage ドキュメントの _[スマートキャンペーンへのフローステップの追加 ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ を参照してください。
 
 ### メンバーのレビュー
 

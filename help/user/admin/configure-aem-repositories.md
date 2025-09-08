@@ -15,13 +15,13 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer B2B Edition] は [!DNL Adobe Experience Manager Assets as a Cloud Service] と統合されているので、メールコンテンツでアセットを使用できます。 [!DNL Experience Manager Assets] と情報を交換することで、透明性を確保します。 [!DNL Adobe Experience Assets] への接続を設定してこの機能を有効にします。
 
-Adobe Experience Manager Cloud Managerはプログラム別に整理されており、各プログラムには複数の環境とリポジトリがあります（[ 詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 Adobe Journey Optimizer B2B editionでAdobe Experience Manager Assetsを設定する場合、デジタルアセットへのアクセスに使用する各リポジトリへの接続を設定します。
+Adobe Experience Manager Cloud Managerはプログラム別に整理されており、各プログラムには複数の環境とリポジトリがあります（[ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 Adobe Journey Optimizer B2B editionでAdobe Experience Manager Assetsを設定する場合、デジタルアセットへのアクセスに使用する各リポジトリへの接続を設定します。
 
 {{aem-assets-licensing-note}}
 
 ## 前提条件
 
-* 目的の環境のサービス資格情報をAEM ヘッドレス Developer Consoleで生成します（[ 詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
+* 目的の環境のサービス資格情報をAEM ヘッドレス Developer Consoleで生成します（[ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
 * 接続に必要な証明書を入手します。 ベストプラクティスとして、証明書の有効期限が切れるまで、少なくとも 6 か月は残っていることを確認します。 証明書は 365 日ごとに期限切れになります。
 * Adobe Journey Optimizer B2B editionでは、一度に 1 つのデジタルアセット管理ソースへのアクセスをサポートしています。 切り替える前に、必要なアセットがAdobe Experience Managerで使用可能であることを確認してください。
 

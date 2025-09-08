@@ -62,7 +62,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 ユーザーをMarketo Engage製品プロファイルに追加すると、その後、Marketo Engage サブスクリプションのデフォルトワークスペース内の _標準ユーザー_ ロールに追加されます。 このロールは、そのワークスペース内のMarketo Engageに対するすべての _標準ユーザー_ 権限を付与します。 現在、すべてのJourney Optimizer B2B edition ユーザーは、Marketo Engage ユーザーである必要があります。 Marketo Engage管理者は、_標準ユーザー_ ロールの権限をアップデートするか、より制限の厳しい権限を持つ別のMarketo Engage ユーザーロールにユーザーを移動することで、アクセスを制限できます。
 
-Marketo Engage内のこれらの権限の管理について詳しくは、Marketo Engage ドキュメントの [ ユーザーの役割と権限の管理 ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} を参照してください。
+Marketo Engage内のこれらの権限の管理について詳しくは、Marketo Engage ドキュメントの [ ユーザーの役割と権限の管理 ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -143,7 +143,7 @@ Permissions are unitary rights that allow you to define the authorizations assig
 
 The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
-For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
+For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
 
 ### B2B product permissions
 
@@ -240,7 +240,7 @@ _To change the permissions for a role:_
 
 ### Add user groups to a role
 
-For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
+For information about user management, see [Admin Console users](https://helpx.adobe.com/jp/enterprise/using/user-groups.html) in the Admin Console documentation.
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
