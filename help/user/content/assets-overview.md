@@ -1,21 +1,21 @@
 ---
 title: アセット
-description: Journey Optimizer B2B Edition でのアセット管理について説明します。
+description: Journey Optimizer B2B editionで、メール、テンプレート、フラグメント用にMarketo Engage Design Studio とAEM Assetsの画像アセットを管理します。
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 48%
+source-wordcount: '883'
+ht-degree: 46%
 
 ---
 
 # アセット
 
-[!DNL Adobe Journey Optimizer B2B Edition] では、アセットは通常、アカウントジャーニーをサポートするためにコンテンツを設計する際に使用される画像です。 これらの画像をメール、メールテンプレートおよびフラグメント内で使用するには、アセットセレクターまたはビジュアルデザインスペース内のシンプルなドラッグ&amp;ドロップインターフェイスを使用します。
+[!DNL Adobe Journey Optimizer B2B Edition] では、アセットは通常、アカウントジャーニーをサポートするためにコンテンツを設計する際に使用される画像です。 これらの画像をメール、メールテンプレートおよびフラグメント内でアセットセレクターから、またはビジュアルデザインスペース内のシンプルなドラッグ&amp;ドロップインターフェイスから使用できます。
 
-[!DNL Journey Optimizer B2B Edition] では、マーケターは [!DNL Adobe Marketo Engage] [!DNL Design Studio] と [!DNL Adobe Experience Manager Assets as a Cloud Service] の 2 種類のアセットライブラリにアクセスできます。 Adobe Marketo Engage Design Studio のみを使用するか、（お持ちの [!DNL Experience Manager Assets] ライセンスに基づいて）同時に設定された両方のライブラリを使用することができます。
+[!DNL Journey Optimizer B2B Edition] では、マーケターは [!DNL Adobe Marketo Engage] [!DNL Design Studio] と [!DNL Adobe Experience Manager Assets as a Cloud Service] の 2 種類のアセットライブラリにアクセスできます。 Adobe Marketo Engage Design Studio のみを使用する場合や、（お持ちの [!DNL Experience Manager Assets] ライセンスに基づいて）同時に設定した両方のライブラリを使用する場合があります。
 
 ## アセット管理
 
@@ -23,7 +23,7 @@ ht-degree: 48%
 
 ### Adobe Marketo Engage アセット
 
-[!DNL Adobe Marketo Engage Design Studio] Assets リポジトリは、[!DNL Journey Optimizer B2B Edition] サブスクリプションごとにデフォルトで提供されます。 つまり、[!DNL Adobe Marketo Engage] に保存されている任意の画像アセット（[!UICONTROL Design Studio]/[!UICONTROL &#x200B; 画像とファイル &#x200B;]）にアクセスできます。 このリポジトリは、アセットのアップロードやダウンロード機能を含むローカルアセットライブラリとして使用できます。また、これらのアセットをジャーニーコンテンツ内で使用することもできます。
+[!DNL Adobe Marketo Engage Design Studio] Assets リポジトリは、[!DNL Journey Optimizer B2B Edition] サブスクリプションごとにデフォルトで提供されます。 つまり、[!DNL Adobe Marketo Engage] に保存されている任意の画像アセット（[!UICONTROL Design Studio]/[!UICONTROL  画像とファイル ]）にアクセスできます。 このリポジトリは、アセットのアップロードやダウンロード機能を含むローカルアセットライブラリとして使用できます。また、これらのアセットをジャーニーコンテンツ内で使用することもできます。
 
 [!DNL Marketo Engage] アセットに対する編集、削除および移動操作を防ぐ組み込みのガードレールが [!DNL Journey Optimizer B2B Edition] ります。 これらの保護機能により、ソースアセット（Marketo Engage Design Studio）が維持されると同時に、[!DNL Journey Optimizer B2B Edition] でシームレスに読み取りと再利用が可能になります。
 

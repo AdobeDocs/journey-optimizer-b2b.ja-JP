@@ -1,12 +1,12 @@
 ---
 title: メールテンプレートオーサリング
-description: アカウントジャーニーメールに使用できるコンテンツメールテンプレートを作成して、デザインを簡単かつ効率的に再利用する方法を説明します。
+description: Journey Optimizer B2B editionで、ビジュアルデザインツール、カスタム CSS、フラグメント、アカウントジャーニーのパーソナライゼーションを使用して、再利用可能なメールテンプレートを作成します。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '422'
 ht-degree: 4%
 
 ---

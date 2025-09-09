@@ -1,12 +1,12 @@
 ---
 title: メールメッセージのオーサリング
-description: Adobe Journey Optimizer B2B でメールコンテンツを作成する方法を説明します。 テンプレート、HTMLの読み込み、AI を利用したツールを使用して、メール通信をパーソナライズおよび最適化します。
+description: ビジュアルデザインツール、HTML読み込み、テンプレートなどを使用してメールを作成します。Journey Optimizer B2B editionで、AI アシスタントのコンテンツ生成、カスタム CSS、パーソナライゼーションを使用します。
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1045'
 ht-degree: 7%
 
 ---

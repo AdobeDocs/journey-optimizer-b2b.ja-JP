@@ -1,13 +1,13 @@
 ---
 title: E メールPersonalizationのカスタムトークン
-description: アカウントジャーニー用に定義された一連のトークンを使用して、メールコンテンツのパーソナライズ機能を管理する方法を説明します。
+description: 動的なメールのパーソナライゼーション用のカスタムのマイトークンの作成および管理 – Journey Optimizer B2B editionでのアカウントジャーニーのテキストおよび数値変数を定義します。
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 3%
+source-wordcount: '603'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ _マイトークン_ は、ドラフトステータスのアカウントジャ�
 
 カスタムトークンをメールに追加すると、`{{my.TokenName}}` のように表示されます。 例えば、今後のウェビナーに関連するメールコンテンツを管理するために、`{{my.EventDate}}` または `{{my.WebinarSpeaker}}` のトークンを作成できます。
 
-_アカウントジャーニーのカスタムトークンにアクセスするには：_
+アカウントジャーニーのカスタムトークンにアクセスするには（_T） :_
 
 1. ドラフトアカウントジャーニーを開きます。
 
@@ -47,7 +47,7 @@ _アカウントジャーニーのカスタムトークンにアクセスする�
 
    ![ テキストトークンの名前と値を入力 ](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   トークン名にはスペースや特殊文字を使用できません。 `EventType` などの _キャメルケース_ を使用して、簡単に識別できる複数単語の名前を使用できます。
+   トークン名にはスペースや特殊文字を使用できません。 _などの_ キャメルケース `EventType` を使用して、簡単に識別できる複数単語の名前を使用できます。
 
    _数値_ トークンを定義する場合、値には数字のみを含めることができます。 小数値を使用できます。
 

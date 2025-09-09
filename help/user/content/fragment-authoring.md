@@ -1,10 +1,10 @@
 ---
 title: フラグメントのオーサリング
-description: 効率を高め、デザインとブランディングの標準を維持するために、メールやテンプレートデザインで再利用できるコンテンツフラグメントを作成する方法を説明します。
+description: ビジュアルデザインツールを使用した再利用可能なコンテンツフラグメントの作成 – Journey Optimizer B2B editionで、メールおよびテンプレート用のコンポーネント、パーソナライゼーション、条件付きコンテンツ、カスタマイズ可能なフィールドを追加します。
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%

@@ -1,12 +1,12 @@
 ---
 title: Marketo Engage Assetsの操作
-description: Journey Optimizer B2B editionでのMarketo Engage Design Studio Asset Management 統合の使用について説明します。
+description: Journey Optimizer B2B editionでMarketo Engage Design Studio のアセットを参照、管理、使用します。ワークスペースの整理、画像の編集、アカウントジャーニーのコンテンツの作成を行います。
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ _[!UICONTROL アセットを置換]_ ダイアログで、置き換えるファ�
 
 続行するには、「**[!UICONTROL 置換]**」をクリックします。 「**[!UICONTROL キャンセル]**」をクリックして、プロセスを中止できます。
 
-置き換えるファイルが使用中の場合、使用されているすべての場所（メール、メールテンプレート、フラグメント）で新しい画像ファイルが置き換えられることを示す情報ダイアログが表示されます。
+置き換えるファイルが使用中の場合は、新しい画像ファイルによって使用中の画像（メール、メールテンプレート、フラグメント）が置き換えられることを示すダイアログが表示されます。
 
 ## アセットのダウンロード
 
@@ -196,7 +196,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ ワークスペースでは、フ�
 
 フォルダーレベルで次の操作を実行できます。
 
-+++アセットを追加
++++アセットの追加
 
 1. **[!UICONTROL アセットを追加]** を選択して、画像ファイルをフォルダーにアップロードします。
 
@@ -256,7 +256,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ ワークスペースでは、フ�
 
 +++
 
-+++アーカイブフォルダーへの変換
++++アーカイブフォルダーに変換
 
 フォルダーをアーカイブすると、そのフォルダー内のファイルを検索できなくなります。 古いイベントのプロモーションバッジや季節ごとのコンテンツなど、チームメンバーが今後も使用したくないアセットファイルには、アーカイブ機能を使用します。 コンテンツを再び使用できるようにする場合は、後でフォルダーのアーカイブを解除できます。
 
@@ -270,7 +270,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ ワークスペースでは、フ�
 
 Assetsは、チームのメール、メールテンプレートまたはビジュアルコンテンツエディターからのビジュアルフラグメントオーサリングで使用できます。
 
-ビジュアルデザイナーの UI で、左側のサイドバーにある _Marketo Engage Assets_ アイコン（![Marketo Engage Assets アイコン ](../../assets/do-not-localize/icon-assets-me.svg)）をクリックします。
+ビジュアルデザインスペースで、左側のサイドバーにある「_Marketo Engage Assets_」アイコン（![Marketo Engage Assets アイコン ](../../assets/do-not-localize/icon-assets-me.svg)）を選択します。
 
 選択したワークスペースで使用可能なアセットの構造化リストを表示するツールパネルを変更します。 アセットを選択するために表示するワークスペースを選択します。
 

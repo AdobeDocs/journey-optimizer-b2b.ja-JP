@@ -1,12 +1,12 @@
 ---
 title: メールテンプレート
-description: アカウントジャーニーメールの作成に使用するメールテンプレートを簡単かつ効率的に管理および作成する方法を説明します。
+description: 再利用可能なメールテンプレートをゼロから作成、HTMLで読み込む、または既存のデザインから作成 – Journey Optimizer B2B editionでアカウントジャーニーのテンプレートを管理します。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1533'
 ht-degree: 4%
 
 ---

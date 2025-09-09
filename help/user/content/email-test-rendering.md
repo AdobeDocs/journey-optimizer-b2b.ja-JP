@@ -1,13 +1,13 @@
 ---
 title: メールのレンダリングをテスト
-description: Litmus アカウントを活用して、Journey Optimizer B2B editionでメールのレンダリングをテストする方法を説明します。
+description: Litmus 統合を使用してデスクトップ、モバイル、web クライアント全体でメールのレンダリングをテストし、Journey Optimizer B2B editionでインボックスの互換性を確認します。
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: dbb678f40b8d637f4eb534acb31328ebea0c182a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 3%
 
 ---

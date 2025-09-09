@@ -1,12 +1,12 @@
 ---
 title: 購入グループのエンゲージメントスコア
-description: Journey Optimizer B2B editionで、重み付けされたアクティビティとロールベースの計算を使用して、購入グループとユーザーのエンゲージメントスコアを追跡します。
+description: Journey Optimizer B2B editionの重み付けアクティビティ、ロールベースの計算および 30 日間のスコアリングウィンドウを使用して、購入グループとユーザーのエンゲージメントスコアを計算します。
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1254'
 ht-degree: 29%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 29%
 
 * **ユーザーエンゲージメントスコア** - ユーザーエンゲージメントスコアは、個々の購入グループメンバーのアクティビティに基づいています。
 
-  購入グループメンバーごとのユーザーエンゲージメントスコアは、購入グループの詳細ページ [_[!UICONTROL &#x200B; 「メンバー &#x200B;]_&#x200B;タブ ](./buying-group-details.md#buying-group-members) に表示されます。 これらのスコアは、上位のエンゲージメントメンバーや重複する連絡先情報を含むページやダッシュボードにも表示されます。
+  購入グループメンバーごとのユーザーエンゲージメントスコアは、購入グループの詳細ページ [_[!UICONTROL  「メンバー ]_タブ ](./buying-group-details.md#buying-group-members) に表示されます。 これらのスコアは、上位のエンゲージメントメンバーや重複する連絡先情報を含むページやダッシュボードにも表示されます。
 
   ![ 最も関与している購入グループメンバー ](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 

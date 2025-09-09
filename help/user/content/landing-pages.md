@@ -1,13 +1,13 @@
 ---
 title: ランディングページ
-description: ランディングページと、アカウントジャーニーおよびキャンペーンをサポートするためのランディングページの作成および管理方法について説明します。
+description: アカウントジャーニー用のランディングページの作成、設計および公開 – ゼロから作成、HTMLを読み込み、フォームを追加、コンテンツをパーソナライズ、Journey Optimizer B2B editionのメールからリンクします。
 feature: Landing Pages, Content
 role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2198'
 ht-degree: 3%
 
 ---

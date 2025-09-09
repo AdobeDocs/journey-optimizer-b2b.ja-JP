@@ -1,12 +1,12 @@
 ---
 title: 購買グループのステージ
-description: 購入グループステージを設定し、Journey Optimizer B2B editionでオポチュニティから顧客コンバージョンまでの販売の進行状況をトラッキングします。
+description: Journey Optimizer B2B editionで入口、成功、失敗の各ステージからなるカスタムの購入グループステージモデルを作成して、進行状況とトリガーアカウントのジャーニーアクションを追跡します。
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2351'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 購入グループステージは、商談を顧客に変換する際の購入グループの進行状況を追跡するように設計されています。 この機能を使用して、購入グループの進行状況を追跡し、購入グループメンバーに次に最適なアクションを特定します。
 
-単一のステージングモデル内でステージを定義し、複数のステージとそれらの間の移行フローを定義します。 ライフサイクルにエントリする 1 つ以上のステージが指定されています。 また、このモデルでは、ステージ A からステージ B、ステージ C、ステージ D など、あるステージから別のステージへのトランジションを指定できる非線形の進行も可能です。購入や署名済みの契約など、1 つのステージを成功ステージと指定する必要があります。 別のステージを、契約の却下や別のベンダーからの競合ソリューションの購入など、失敗ステージとして指定することはオプションです。 これは、購入グループの進捗を示す [ インテリジェントダッシュボード ](../dashboards/intelligent-dashboard.md) を使用して、販売機会の完了や、機会から顧客への変換を行うことで達成されます。
+単一のステージングモデル内でステージを定義し、複数のステージとそれらの間の移行フローを定義します。 ライフサイクルにエントリする 1 つ以上のステージが指定されています。 また、このモデルでは、ステージ A からステージ B、ステージ C、ステージ D など、あるステージから別のステージへのトランジションを指定できる非線形の進行も可能です。購入や署名済みの契約など、1 つのステージを成功ステージと指定する必要があります。 別のステージを、契約の却下や別のベンダーからの競合ソリューションの購入など、失敗ステージとして指定することはオプションです。 これらのステージを [ インテリジェントダッシュボード ](../dashboards/intelligent-dashboard.md) で監視します。これは、購入グループの進捗を、販売機会の完了や、機会から顧客への変換の観点から示します。
 
 ![ 購入グループステージの例 ](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -119,8 +119,8 @@ ht-degree: 1%
 | ------ | ---------- |
 | **[!UICONTROL ステージ名]** | ステージの名前。 情報アイコンをクリックして、ステージの説明を表示します。 |
 | **[!UICONTROL 次へのトランジットを許可]** | モデル内の _移動先_ アクションに有効なステージを一覧表示します。 |
-| **[!UICONTROL エントリポイントステージ]** | ステージがエントリポイントステージとして有効かどうかを示します（[!UICONTROL &#x200B; はい &#x200B;] または [!UICONTROL &#x200B; いいえ &#x200B;]）。 |
-| **[!UICONTROL 宛先]** | ステージが宛先ステージとして指定されているかどうかを示します（[!UICONTROL &#x200B; 成功 &#x200B;] または [!UICONTROL &#x200B; 失敗 &#x200B;]）。 |
+| **[!UICONTROL エントリポイントステージ]** | ステージがエントリポイントステージとして有効かどうかを示します（[!UICONTROL  はい ] または [!UICONTROL  いいえ ]）。 |
+| **[!UICONTROL 宛先]** | ステージが宛先ステージとして指定されているかどうかを示します（[!UICONTROL  成功 ] または [!UICONTROL  失敗 ]）。 |
 
 ![ ドラフトモデル用に定義されたステージと送信ルール ](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
 
@@ -365,4 +365,4 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3448695/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

@@ -1,12 +1,12 @@
 ---
 title: 販売通知メール
-description: アカウントジャーニーに自動販売警告メールを含める方法を説明します。
+description: 営業チームに通知するためのアカウントジャーニーで営業アラートメールを設定します。これには、Journey Optimizer B2B editionでの購入グループの概要、AI インサイト、メンバーの詳細が含まれます。
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '533'
 ht-degree: 6%
 
 ---
@@ -65,4 +65,4 @@ _セールスに関するアラート・メール_ は、セールスへの購�
 
    ![ 新しいメールを作成ダイアログ ](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   アカウントジャーニーが公開されると、これらのパラメーターに従って販売アラートが配信されます。
+   アカウントジャーニーがライブの場合、sales アラートはこれらのパラメーターに従って配信されます。

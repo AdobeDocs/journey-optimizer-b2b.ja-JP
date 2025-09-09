@@ -1,10 +1,10 @@
 ---
 title: フラグメント
-description: Adobe Journey Optimizer B2B editionをまたいで、メールおよびメールテンプレートの再利用可能なコンポーネントとしてビジュアルコンテンツフラグメントを作成し、使用する方法について説明します。
+description: メールおよびテンプレート用のビジュアルコンテンツフラグメントの作成、管理、再利用 – 再利用可能なブロックの作成、バージョンの公開、Journey Optimizer B2B editionでの使用状況の追跡 –。
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 5e0415268ac3423a6d3004338302b2f756c75a9f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '2736'
 ht-degree: 3%
@@ -302,7 +302,7 @@ _[!UICONTROL フラグメント]_ リストページからドラフトバージ�
 
 1. **[!UICONTROL アカウントジャーニー]** に移動し、既存のジャーニーを開くか、新しいジャーニーを作成します。
 
-1. [_[!UICONTROL &#x200B; メールを送信 &#x200B;]_&#x200B;ノード ](./add-email.md#add-an-email-action-node-in-a-journey) を作成します。
+1. [_[!UICONTROL  メールを送信 ]_ノード ](./add-email.md#add-an-email-action-node-in-a-journey) を作成します。
 
 1. [ ノードのメールコンテンツ ](./email-authoring.md) を作成または編集します。
 
@@ -326,7 +326,7 @@ _[!UICONTROL フラグメント]_ リストページからドラフトバージ�
 
 >[!TIP]
 >
->フラグメントをメール内の水平レイアウト全体に配置する場合は、[!UICONTROL 1:1 列 &#x200B;] 構造を追加してから、フラグメントをドラッグ&amp;ドロップします。
+>フラグメントをメール内の水平レイアウト全体に配置する場合は、[!UICONTROL 1:1 列 ] 構造を追加してから、フラグメントをドラッグ&amp;ドロップします。
 
 メールを保存した後、「使用 _[!UICONTROL タブが選択されると、フラグメントの詳細ページに表示され]_ す。 メールに追加されたフラグメントは、メールまたはテンプレート内では編集できません。公開されたソースフラグメントがコンテンツを定義します。
 

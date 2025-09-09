@@ -1,12 +1,12 @@
 ---
 title: イベントをリッスン
-description: Journey Optimizer B2B editionでアカウントジャーニーの調整に使用できるイベントノードタイプのリッスンについて説明します。
+description: アカウントおよび人物トリガーのイベントノードを設定 – Journey Optimizer B2B editionで購入グループの変更、メールのクリック数、フォームへの入力およびExperience Platform イベントをリッスンします。
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1374'
 ht-degree: 16%
 
 ---
@@ -58,13 +58,13 @@ _イベントをリッスン_ ノードを追加して、イベントが発生�
 
 | 入力タイプ | イベント | 制約 |
 | ---------- | ----- | ----------- |
-| Journey Optimizer B2B | 購買グループに割り当てられました | ソリューションの関心 <br/><br/> 追加の制約（オプション）: <li>役割</li><li>アクティビティの日付</li><br/> タイムアウト （オプション） |
+| Journey Optimizer B2B | 購買グループに割り当てられた | ソリューションの関心 <br/><br/> 追加の制約（オプション）: <li>役割</li><li>アクティビティの日付</li><br/> タイムアウト （オプション） |
 | | メール内のリンクをクリック | メール <br/><br/> 追加の制約（オプション）: <li>リンク</li><li>リンク ID</li><li>モバイルデバイスである</li><li>デバイス</li><li>Platform</li><li>ブラウザー</li><li>予測コンテンツ</li><li>ボットアクティビティ</li><li>ボットアクティビティパターン</li><li>ブラウザー</li><li>アクティビティの日付</li><li>分回数</li><br/> タイムアウト （オプション） |
 | | SMS 内のリンクをクリック | メール <br/><br/> 追加の制約（オプション）: <li>リンク</li><li>デバイス</li><li>Platform</li><li>アクティビティの日付</li><li>分回数</li><br/> タイムアウト （オプション） |
 | | データ値変更 | 人物属性 <br/><br/> 追加の制約（オプション）: <li>新しい値</li><li>前回の値</li><li>理由</li><li>ソース</li><li>アクティビティの日付</li><li>分回数</li><br/> タイムアウト （オプション） |
 | | メールを開封 | メール <br/><br/> 追加の制約（オプション）: <li>リンク</li><li>リンク ID</li><li>モバイルデバイスである</li><li>デバイス</li><li>Platform</li><li>ブラウザー</li><li>予測コンテンツ</li><li>ボットアクティビティ</li><li>ボットアクティビティパターン</li><li>ブラウザー</li><li>アクティビティの日付</li><li>分回数</li><br/> タイムアウト （オプション） |
-| | 購買グループから削除されました | ソリューションの関心 <br/> アクティビティの日付（オプション） <br/> タイムアウト（オプション） |
-| | スコアが変更されました | スコア名 <br/><br/> 追加の制約（オプション）:<li>変更</li><li>新規スコア</li><li>緊急度</li><li>優先度</li><li>相対スコア</li><li>相対的緊急度</li><li>アクティビティの日付</li><li>分回数</li><br/> タイムアウト （オプション） |
+| | 購買グループから削除された | ソリューションの関心 <br/> アクティビティの日付（オプション） <br/> タイムアウト（オプション） |
+| | スコアが変更された | スコア名 <br/><br/> 追加の制約（オプション）:<li>変更</li><li>新規スコア</li><li>緊急度</li><li>優先度</li><li>相対スコア</li><li>相対的緊急度</li><li>アクティビティの日付</li><li>分回数</li><br/> タイムアウト （オプション） |
 | | SMS バウンス | SMS メッセージ <br/><br/> 追加の制約（オプション）: <li>アクティビティの日付</li><li>最小回数</li><br/> タイムアウト （オプション） |
 | Marketo Engage | Web ページにアクセス | Web ページ <br/> 一致させる 1 つ以上のMarketo Engage ページを選択します。 <br/><br/> 追加の制約（オプション）: <li>クエリ文字列</li><li>クライアント IP アドレス</li><li>リファラー</li><li>ユーザーエージェント</li><li>検索エンジン</li><li>検索クエリ</li><li>トークン</li><li>ブラウザー</li><li>Platform</li><li>デバイス</li><li>アクティビティの日付</li> |
 | | フォームの入力 | フォーム <br/> 一致するMarketo Engage フォームを 1 つ以上選択します。  <br/><br/> 追加の制約（オプション）: <li>アクティビティの日付</li><li>クエリ文字列</li><li>クライアント IP アドレス</li><li>リファラー</li><li>ユーザーエージェント</li><li>Platform</li><li>デバイス</li><br/> タイムアウト （オプション） |
@@ -86,7 +86,7 @@ _イベントをリッスン_ ノードを追加して、イベントが発生�
 
 ### Marketo Engage イベントをリッスン
 
-接続したMarketo Engage インスタンスに web ページを作成している場合は、Marketo Engage web ページへの訪問/訪問なし、および入力された/または入力されなかったMarketo Engage フォームに基づいてイベントをトリガーできます。
+接続したMarketo Engage インスタンスに web ページがある場合、これらの web ページへの訪問/訪問なし、および入力された/または入力されなかったMarketo Engage フォームに基づいてイベントをトリガーできます。
 
 1. ジャーニーマップで **[!UICONTROL イベントをリッスン]** ノードを選択します。
 
@@ -119,7 +119,7 @@ _イベントをリッスン_ ノードを追加して、イベントが発生�
 
 ### エクスペリエンスイベントをリッスン
 
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。 アカウントジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
+管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。 アカウントジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
 
 1. [AEP イベント定義を作成して公開します ](../admin/configure-aep-events.md)。
 
@@ -127,7 +127,7 @@ _イベントをリッスン_ ノードを追加して、イベントが発生�
 
 ![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](../admin/configure-aep-events.md#overview-video)
 
-_ジャーニーにエクスペリエンスイベントを含めるには：_
+ジャーニーにエクスペリエンスイベントを含めるには（_T） :_
 
 1. ジャーニーマップで **[!UICONTROL イベントをリッスン]** ノードを選択します。
 
@@ -183,4 +183,4 @@ _ジャーニーにエクスペリエンスイベントを含めるには：_
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443235/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

@@ -1,12 +1,12 @@
 ---
 title: アカウントジャーニーの作成と公開
-description: アカウントジャーニーの作成および公開方法を説明します。
+description: ビジュアルキャンバスでアカウントジャーニーを作成し、アクションノードとイベントノードを追加し、スケジュールを設定して、Journey Optimizer B2B editionでライブオーケストレーション用に公開します。
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '806'
 ht-degree: 5%
 
 ---
@@ -141,4 +141,4 @@ _ジャーニーマップ_ は、ジャーニーワークスペースの中央�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443220/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

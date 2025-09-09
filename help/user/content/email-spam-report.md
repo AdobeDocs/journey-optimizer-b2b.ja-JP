@@ -1,12 +1,13 @@
 ---
 title: スパムレポートの確認
-description: ISP やメールボックスプロバイダーがスパムと見なすかどうかを予測する専用のスパムレポートで、メールコンテンツのスパムのスコアを確認する方法を説明します。
+description: SpamAssassin スコアを使用してスパムレポートを生成し、メールがスパムフィルターをトリガーにしているかどうかを確認し、Journey Optimizer B2B editionの配信品質を向上させます。
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: 7992df497182b69c5103b603d69a70e1a40e903a
+exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
@@ -40,6 +41,3 @@ ht-degree: 2%
 1. メールコンテンツ内に改善可能な要素がある場合は、コンテンツを編集して必要な更新を適用します。
 
 1. 変更が完了したら、_[!UICONTROL シミュレート]_ ページに戻り、**[!UICONTROL スパムレポート]** を再度クリックして、結果として生じるスコアの改善を確認します。
-
-
-

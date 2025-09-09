@@ -1,14 +1,14 @@
 ---
 title: アカウントジャーニーノード
-description: Journey Optimizer B2B editionでアカウントジャーニーを構築するために使用できるノードタイプについて説明します。
+description: Journey Optimizer B2B editionでのクロスチャネルマーケティング用に、アクション、イベント、オーケストレーションノード（オーディエンス、待機、分割、結合）を組み込んだアカウントジャーニーを作成します。
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 9438b1472df38eddc3e1fa6cd5bc3992af0c9eec
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 12%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 2%
 様々なアクション、イベント、オーケストレーションのノードを複数手順のクロスチャネルシナリオとして組み合わせることで、アカウントジャーニーを構築します。 ジャーニーの各ノードは、論理パスに沿ったステップを表します。 次のノードタイプを使用して、アカウントジャーニーを構築します。
 
 * [アカウントオーディエンス](./account-audience-nodes.md)
-* [アクションを実行](./action-nodes.md)
-* [イベントをリッスン](./listen-for-event-nodes.md)
+* [アクションの実行](./action-nodes.md)
+* [イベントのリッスン](./listen-for-event-nodes.md)
 * [パスを分割](./split-merge-paths-nodes.md)
 * [待機](./wait-nodes.md)
 * [パスを結合](./split-merge-paths-nodes.md)

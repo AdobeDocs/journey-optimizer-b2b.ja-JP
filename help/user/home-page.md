@@ -1,19 +1,19 @@
 ---
 title: ログインとホームページ
-description: Journey Optimizer B2B Edition アプリにアクセスし、ホームページ情報を使用する方法について説明します。
+description: Journey Optimizer B2B editionへのアクセスとパーソナライズされたホームページの操作 – クイックアクセスと AI アシスタントを使用した、マーケターや管理者向けの様々なビュー。
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '444'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 59%
 
 ---
 
 # ログインとホームページ
 
-Adobe Journey Optimizer B2B Edition を使用すると、組み込みの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整し、マーケティング資格のある購買グループを使用して特定の製品に対する需要を最大化できます。
+Adobe Journey Optimizer B2B Edition を使用すると、ビルトインの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーを調整し、マーケティング資格のある購買グループを使用して特定の製品に対する需要を最大化できます。
 
 <!-- Requirements?
 -->
@@ -21,16 +21,16 @@ Adobe Journey Optimizer B2B Edition を使用すると、組み込みの生成 A
 
 ![Adobe Experience Platform アプリ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-Adobe Experience Platform にログインし、Adobe Journey Optimizer B2B Edition アプリを選択すると、ホームページが表示されます。このページでは、<!-- refined insights and-->関連モジュールへのクイックアクセス<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->の形式で、Journey Optimizer B2B イニシアチブの現在の状態の概要を示します。
+Adobe Experience Platformにログインし、Adobe Journey Optimizer B2B edition アプリを選択すると、ホームページが表示されます。 このページでは、Journey Optimizer B2B の取り組みの現在の状況の概要を <!-- refined insights and--> 関連リソースへのクイックリンクの形式で説明します。<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
 ![Journey Optimizer B2B Edition ホームページ](./assets/home-page.png){width="800" zoomable="yes"}
 
 Journey Optimizer B2B Edition には、_**マーケター**_&#x200B;と&#x200B;_**管理者**_&#x200B;という 2 つの主要なユーザーペルソナがあります。各ペルソナには、成熟度ステージ（新規または高度）が異なる固有のホームページがあります。ページのコンテンツは、各ペルソナが必要とする情報と次に実行するアクションに基づいています。
 
-* **マーケター - 新規ユーザー** - 新規ユーザー向けの&#x200B;_マーケター_&#x200B;ホームページは、Journey Optimizer B2B とその機能に慣れるのに役立ちます。このページには、新規マーケターがオンボーディングチュートリアルを取得するためのガイド付きチュートリアルが含まれ、システムのニュアンスを理解して、B2B マーケティング戦略とイニシアチブを効率的に開発できるようになります。
-* **マーケター - 高度なユーザー** - 高度なマーケター向けの&#x200B;_マーケター_&#x200B;ホームページは、イニシアチブの現在の進行状況、特定のアクション、次に実行する最善のアクションに関する詳細情報の取得や、関連セクションへのクイックアクセスに役立ちます。
-* **管理者 - 新規ユーザー** - 新規管理者向けの&#x200B;_管理者_&#x200B;ホームページは、Journey Optimizer B2B Edition とその機能に慣れるのに役立ちます。このページには、新規管理者がステップバイステップのオンボーディング ジャーニーを取得するためのガイド付きチュートリアルが含まれ、システムのニュアンスを理解して、B2B マーケティング戦略とイニシアチブを効率的に開発できるようになります。
-* **管理者 - 高度なユーザー** - 高度な管理者向けの&#x200B;_管理者_&#x200B;ホームページは、インスタンスの現在のステータスに関する詳細情報や、マーケターに対してより効率的で効果的なものにするために実行できる特定のアクションを取得するのに役立ちます。
+* **マーケター – 新規ユーザー** – 新規ユーザーの _マーケター_ ホームページは、Journey Optimizer B2B とその機能に慣れるのに役立ちます。 このページには、新規マーケターがオンボーディングチュートリアルを取得するためのガイド付きチュートリアルが含まれ、システムのニュアンスを理解して、B2B マーケティング戦略とイニシアチブを効率的に開発できるようになります。
+* **マーケター – 上級ユーザー** – 上級マーケターの _マーケター_ ホームページには、現在のイニシアチブの進捗状況や推奨される次のアクションが表示され、関連する節にすばやくアクセスできます。
+* **管理者 – 新規ユーザー** – 新規ユーザーの _管理者_ ホームページは、Journey Optimizer B2B editionとその機能に慣れるのに役立ちます。 このページには、新規管理者がステップバイステップのオンボーディング ジャーニーを取得するためのガイド付きチュートリアルが含まれ、システムのニュアンスを理解して、B2B マーケティング戦略とイニシアチブを効率的に開発できるようになります。
+* **管理者 – 上級ユーザー** – 上級管理者の _管理者_ ホームページには、現在のインスタンスのステータスと、管理者の効率と有効性を向上させるための実用的な手順が表示されます。
 
 「_[!UICONTROL 最近アクセス済み]_」セクションには、マーケターや管理者に対して最近アクセス済みのアセットのリストが表示されます。このリストを使用すると、一連のアセットページを移動して検索することなく、最近作業済みのアセットに直接移動できます。
 

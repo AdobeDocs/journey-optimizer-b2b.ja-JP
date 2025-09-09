@@ -1,12 +1,12 @@
 ---
 title: 購買グループの詳細
-description: Journey Optimizer B2B editionで、AI インサイトを使用して購入グループの詳細を表示し、メンバーを管理し、エンゲージメントスコアを追跡します。
+description: Journey Optimizer B2B editionで、AI インサイトを使用して購入グループの詳細を表示し、メンバーの役割を管理し、エンゲージメントスコアを追跡し、インテントデータを分析します。
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '785'
 ht-degree: 5%
 
 ---

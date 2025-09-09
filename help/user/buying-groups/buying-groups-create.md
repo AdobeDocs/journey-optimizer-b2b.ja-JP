@@ -1,12 +1,12 @@
 ---
 title: 購買グループの作成
-description: Journey Optimizer B2B editionで自動マーケティング用のソリューションの関心とアカウントオーディエンスを選択して、購入グループを作成します。
+description: Journey Optimizer B2B editionで、ターゲットを絞ったアカウントジャーニー用にソリューションの関心とアカウントオーディエンスを選択して、自動購入グループを作成します。
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 3%
 
 ---
@@ -64,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## チュートリアルビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3451762/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

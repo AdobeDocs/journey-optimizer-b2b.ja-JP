@@ -1,13 +1,13 @@
 ---
 title: ランディングページのテンプレートデザイン
-description: マーケターがランディングページの作成に再利用できるランディングページテンプレートのコンテンツをデザインおよび作成する方法について説明します。
+description: 再利用のためのランディングページテンプレートの設計 – Journey Optimizer B2B editionでコンテンツコンポーネント、フォーム、カスタム CSS、パーソナライゼーションおよびデバイスプレビューを追加します。
 feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '347'
 ht-degree: 4%
 
 ---

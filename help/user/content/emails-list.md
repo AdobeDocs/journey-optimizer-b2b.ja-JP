@@ -1,12 +1,12 @@
 ---
 title: メール
-description: メール リストを使用すると、Adobe Journey Optimizer B2B editionでメールコンテンツを管理できます。 ジャーニー全体でメールを簡単に評価および更新できます。
+description: 検索、フィルター、一括アクションを使用したメールライブラリの管理 – Journey Optimizer B2B editionで、コンテンツや設定を編集したり、ジャーニー外のメールをテストしたりします。
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ Adobe Journey Optimizer B2B editionでメールにアクセスするには、左
 
 ![ 更新するには、E メールを開きます ](./assets/email-open-update.png){width="700" zoomable="yes"}
 
-また、[_[!UICONTROL &#x200B; コンテンツをシミュレート &#x200B;]_](./email-simulate-content.md) ウィンドウにアクセスすることもできます。 これらのツールを使用して、テストプロファイルを使用してコンテンツをプレビューし、配達確認を送信し、配信品質とメールクライアントのレンダリングについてメールをテストします。
+また、[_[!UICONTROL  コンテンツをシミュレート ]_](./email-simulate-content.md) ウィンドウにアクセスすることもできます。 これらのツールを使用して、テストプロファイルを使用してコンテンツをプレビューし、配達確認を送信し、配信品質とメールクライアントのレンダリングについてメールをテストします。
