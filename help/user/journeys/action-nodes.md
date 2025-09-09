@@ -25,15 +25,15 @@ ht-degree: 3%
 
 | アクション | 制約 |
 | ------ | ----------- |
-| [!UICONTROL  アカウント変更データ値 ] | 属性 <br/> 新しい値を選択 |
-| [!UICONTROL  アカウント興味深い瞬間 ] | タイプ （メール、マイルストーン、web） <br/> 説明（オプション） |
-| [!UICONTROL  （その他）ジャーニーにアカウントを追加 ] | ライブアカウントジャーニーを選択 |
-| [!UICONTROL  アカウントリストに追加 ] | ライブの静的アカウントリストを選択 |
-| [!UICONTROL ジャーニーからアカウントを削除 ] | ライブアカウントジャーニーを選択 |
-| [!UICONTROL  アカウントリストから削除 ] | ライブ静的アカウントリストの選択 |
-| [!UICONTROL  販売アラートの送信 ] | ソリューションの関心 <br/> メールの送信先を選択 |
-| [!UICONTROL  購買グループの更新ステージ ] | ソリューションの興味 <br/> 購入グループのステージを選択 |
-| [!UICONTROL  購買グループ・ステータスの更新 ] | ソリューションの関心 <br/> ステータスを選択（必須、最大 50 文字） |
+| [!UICONTROL &#x200B; アカウント変更データ値 &#x200B;] | 属性 <br/> 新しい値を選択 |
+| [!UICONTROL &#x200B; アカウント興味深い瞬間 &#x200B;] | タイプ （メール、マイルストーン、web） <br/> 説明（オプション） |
+| [!UICONTROL &#x200B; （その他）ジャーニーにアカウントを追加 &#x200B;] | ライブアカウントジャーニーを選択 |
+| [!UICONTROL &#x200B; アカウントリストに追加 &#x200B;] | ライブの静的アカウントリストを選択 |
+| [!UICONTROL ジャーニーからアカウントを削除 &#x200B;] | ライブアカウントジャーニーを選択 |
+| [!UICONTROL &#x200B; アカウントリストから削除 &#x200B;] | ライブ静的アカウントリストの選択 |
+| [!UICONTROL &#x200B; 販売アラートの送信 &#x200B;] | ソリューションの関心 <br/> メールの送信先を選択 |
+| [!UICONTROL &#x200B; 購買グループの更新ステージ &#x200B;] | ソリューションの興味 <br/> 購入グループのステージを選択 |
+| [!UICONTROL &#x200B; 購買グループ・ステータスの更新 &#x200B;] | ソリューションの関心 <br/> ステータスを選択（必須、最大 50 文字） |
 
 ### アカウントベースのアクションの追加
 
@@ -57,18 +57,18 @@ ht-degree: 3%
 
 | コンテキスト | アクション | 制約 |
 | ------- | ------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL  外部顧客オーディエンスに追加 ] | 外部の顧客オーディエンスを選択 |
-| | [!UICONTROL  購買グループへの割当て ] | ソリューションの関心 <br/> 役割を選択 |
-| | [!UICONTROL  データ値を変更 ] | 人物属性 <br/> 新しい値を設定を選択 |
-| | [!UICONTROL  スコアを変更 ] | スコア名 <br/> スコアの変更 |
-| | [!UICONTROL  人物の興味深い瞬間 ] | タイプ <br/> 説明 |
-| | [!UICONTROL  購入グループから削除 ] | ソリューションに対する関心を選択 |
-| | [!UICONTROL  メールを送信 ] | 新しいメールを作成 <br/>Marketo Engageからメールを選択 |
-| | [!UICONTROL SMS を送信 ] | SMS を作成 |
-| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL  リストに追加 ] | Marketo Engage Workspace<br/>List 名を選択します。 |
-| | [!UICONTROL Marketo Engage リクエストキャンペーンに追加 ] | Marketo Engage Workspace を選択し <br/> リクエストキャンペーンを選択します。 |
-| | [!UICONTROL Marketo Engageの People パーティションの変更 ] | 新規パーティション |
-| | [!UICONTROL  リストから削除 ] | Marketo Engage Workspace<br/>List 名を選択します。 |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL &#x200B; 外部顧客オーディエンスに追加 &#x200B;] | 外部の顧客オーディエンスを選択 |
+| | [!UICONTROL &#x200B; 購買グループへの割当て &#x200B;] | ソリューションの関心 <br/> 役割を選択 |
+| | [!UICONTROL &#x200B; データ値を変更 &#x200B;] | 人物属性 <br/> 新しい値を設定を選択 |
+| | [!UICONTROL &#x200B; スコアを変更 &#x200B;] | スコア名 <br/> スコアの変更 |
+| | [!UICONTROL &#x200B; 人物の興味深い瞬間 &#x200B;] | タイプ <br/> 説明 |
+| | [!UICONTROL &#x200B; 購入グループから削除 &#x200B;] | ソリューションに対する関心を選択 |
+| | [!UICONTROL &#x200B; メールを送信 &#x200B;] | 新しいメールを作成 <br/>Marketo Engageからメールを選択 |
+| | [!UICONTROL SMS を送信 &#x200B;] | SMS を作成 |
+| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL &#x200B; リストに追加 &#x200B;] | Marketo Engage Workspace<br/>List 名を選択します。 |
+| | [!UICONTROL Marketo Engage リクエストキャンペーンに追加 &#x200B;] | Marketo Engage Workspace を選択し <br/> リクエストキャンペーンを選択します。 |
+| | [!UICONTROL Marketo Engageの People パーティションの変更 &#x200B;] | 新規パーティション |
+| | [!UICONTROL &#x200B; リストから削除 &#x200B;] | Marketo Engage Workspace<br/>List 名を選択します。 |
 
 ### ユーザーベースのアクションを追加
 
@@ -86,7 +86,7 @@ ht-degree: 3%
 
 Journey Optimizer B2B の人物ベースのアクションは、設定されたチャネルを通じてのコミュニケーションを管理し、購入グループおよびアカウント内の人物の分類を管理するように設計されています。 ジャーニーは、ユーザープロファイルを持つ資格のあるアカウントがノードに到達すると、アクションを適用します。
 
-+++[!UICONTROL  外部顧客オーディエンスに追加 ]
++++[!UICONTROL &#x200B; 外部顧客オーディエンスに追加 &#x200B;]
 
 このアクションを使用して、外部オーディエンスにユーザーをプッシュします。このオーディエンスは、有料メディアチャネルでアクティブ化でき、購入グループのメンバーをさらにターゲットにすることができます。 このアクションは、Real-Time CDP B2B/P Edition を使用して実行されます。
 
@@ -130,7 +130,7 @@ Journey Optimizer B2B の人物ベースのアクションは、設定された�
 
 +++
 
-+++[!UICONTROL  購買グループへの割当て ]
++++[!UICONTROL &#x200B; 購買グループへの割当て &#x200B;]
 
 このアクションを使用して、選択したソリューションの関心と役割に基づいて、人物プロファイルを [ 購入グループ ](../buying-groups/buying-groups-overview.md) に追加します。
 
@@ -138,7 +138,7 @@ Journey Optimizer B2B の人物ベースのアクションは、設定された�
 
 +++
 
-+++[!UICONTROL  データ値を変更 ]
++++[!UICONTROL &#x200B; データ値を変更 &#x200B;]
 
 [ 人物プロファイル属性 ](../data/field-mapping.md#xdm-business-person-attributes) の値を変更するには、このアクションを使用します。 属性を選択して、新しい値を設定します。
 
@@ -146,7 +146,7 @@ Journey Optimizer B2B の人物ベースのアクションは、設定された�
 
 +++
 
-+++[!UICONTROL  スコアを変更 ]
++++[!UICONTROL &#x200B; スコアを変更 &#x200B;]
 
 Marketo Engageで人物スコアを変更するには、このアクションを使用します。 [詳細情報](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
@@ -154,7 +154,7 @@ Marketo Engageで人物スコアを変更するには、このアクションを
 
 +++
 
-+++[!UICONTROL  人物の興味深い瞬間 ]
++++[!UICONTROL &#x200B; 人物の興味深い瞬間 &#x200B;]
 
 このアクションを使用して、人物に興味深い瞬間を記録します。 タイプ（メール、マイルストーン、web）を選択し、説明（オプション）を追加します。
 
@@ -162,7 +162,7 @@ Marketo Engageで人物スコアを変更するには、このアクションを
 
 +++
 
-+++[!UICONTROL  購入グループから削除 ]
++++[!UICONTROL &#x200B; 購入グループから削除 &#x200B;]
 
 このアクションを使用して、選択したソリューションの関心に基づいて [ 購入グループ ](../buying-groups/buying-groups-overview.md) から人物プロファイルを削除します。
 
@@ -170,7 +170,7 @@ Marketo Engageで人物スコアを変更するには、このアクションを
 
 +++
 
-+++[!UICONTROL  メールを送信 ]
++++[!UICONTROL &#x200B; メールを送信 &#x200B;]
 
 メールを送信するには、このアクションを使用します。 ノードの [ メールを作成 ](../content/add-email.md#add-an-email-to-your-journey) した後は、メールデザイン領域でメールメッセージのデザイン、パーソナライズおよびプレビューを行うことができます（[ メールのオーサリング ](../content/email-authoring.md) を参照）。 [Marketo Engageからメールを送信する ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"} ともできます。 Marketo Engage Workspace を選択し、送信するメールを選択します。
 
@@ -178,7 +178,7 @@ Marketo Engageで人物スコアを変更するには、このアクションを
 
 +++
 
-+++[!UICONTROL SMS を送信 ]
++++[!UICONTROL SMS を送信 &#x200B;]
 
 SMS メッセージを送信するには、このアクションを使用します。 ビジュアルデザインスペースで SMS メッセージの作成、パーソナライズ、プレビューを行うことができます（「[SMS オーサリング ](../content/sms-authoring.md)」を参照）。
 
@@ -190,7 +190,7 @@ SMS メッセージを送信するには、このアクションを使用しま�
 
 Marketo Engageのユーザーベースのアクションは、Marketo Engage B2B editionのアカウントベースのマーケティングオーケストレーションとJourney Optimizerのリードベースのマーケティング活動を調整するように設計されています。 これらのアクションを使用して、リストメンバーシップ、人物パーティションおよびリクエストキャンペーンを調整します。
 
-+++[!UICONTROL  リストに追加 ]
++++[!UICONTROL &#x200B; リストに追加 &#x200B;]
 
 Marketo Engageでユーザーを [ 静的リスト ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} に追加するには、このアクションを使用します。
 
@@ -200,7 +200,7 @@ Marketo Engageでユーザーを [ 静的リスト ](https://experienceleague.ad
 
 +++
 
-+++[!UICONTROL Marketo リクエストキャンペーンに追加 ]
++++[!UICONTROL Marketo リクエストキャンペーンに追加 &#x200B;]
 
 Marketo Engageの [ リクエストキャンペーン ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} に人物プロファイルを追加するには、このアクションを使用します。
 
@@ -210,7 +210,7 @@ Marketo Engageの [ リクエストキャンペーン ](https://experienceleague
 
 +++
 
-+++[!UICONTROL Marketo Engageの人物パーティションの変更 ]
++++[!UICONTROL Marketo Engageの人物パーティションの変更 &#x200B;]
 
 Marketo Engageで [ 人物パーティション ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} を変更するには、このアクションを使用します。
 
@@ -218,7 +218,7 @@ Marketo Engageで [ 人物パーティション ](https://experienceleague.adobe
 
 +++
 
-+++[!UICONTROL  リストから削除 ]
++++[!UICONTROL &#x200B; リストから削除 &#x200B;]
 
 Marketo Engageの [ 静的リスト ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} からユーザーを削除するには、このアクションを使用します。 まず、接続されたMarketo Engage インスタンスのワークスペースを選択します。 次に、リスト名を選択します。
 

@@ -41,15 +41,15 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある **[!UICON
 
 | アイコン | コンポーネント。 | 説明 |
 | ----- | ----------- | ----------- |
-| ![1:1 列アイコン ](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 列 ] | スペースの幅を埋める 1 列のコンテナ。 |
-| ![1:2 列アイコン ](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 列左 ] | スペースの幅を埋めるために 1:2 の比率を使用する 2 列のコンテナ。 最初（左）の列は幅の 3 分の 1 を占め、2 番目（右）の列は残りの 3 分の 2 を占めます。 |
-| ![1:3 列アイコン ](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 列左 ] | スペースの幅を埋めるために 1:3 の比率を使用する 2 列のコンテナ。 最初の列（左）は幅の 4 分の 1 を占め、2 番目の列（右）は残りの 4 分の 3 を占めます。 |
-| ![2:1 列アイコン ](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 列右 ] | スペースの幅を埋めるために 2:1 の比率を使用する 2 列のコンテナ。 最初の列（左）は幅の 3 分の 2 を占め、2 番目の列（右）は残りの 3 分の 1 を占めます。 |
-| ![2:2 列アイコン ](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 列 ] | スペースの幅を埋めるために 2:2 の比率を使用する 2 列のコンテナ。 左右の列の幅は同じです。 |
-| ![3:1 列アイコン ](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 列右 ] | スペースの幅を埋めるために 3:1 の比率を使用する 2 列のコンテナ。 最初の列（左）は幅の 4 分の 3 （75%）を占め、2 番目の列（右）は残りの 4 分の 1 （25%）を占めます。 |
-| ![3:3 列アイコン ](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 列 ] | スペースの幅を埋めるために 3:3 の比率を使用する 3 列のコンテナ。 3 つの列の幅はすべて等しくなります。 |
-| ![4:4 列アイコン ](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 列 ] | スペースの幅を埋めるために 4:4 の比率を使用する 4 列のコンテナ。 4 つの列の幅はすべて等しくなります。 |
-| ![n:n 列アイコン ](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n 列 ] | 定義した列に従ってスペースを埋める、カスタマイズ可能な列構造。 列数（2～10 個）を設定し、各列の幅を個別に設定します。 [詳細情報](#change-nn-columns) |
+| ![1:1 列アイコン ](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 列 &#x200B;] | スペースの幅を埋める 1 列のコンテナ。 |
+| ![1:2 列アイコン ](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 列左 &#x200B;] | スペースの幅を埋めるために 1:2 の比率を使用する 2 列のコンテナ。 最初（左）の列は幅の 3 分の 1 を占め、2 番目（右）の列は残りの 3 分の 2 を占めます。 |
+| ![1:3 列アイコン ](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 列左 &#x200B;] | スペースの幅を埋めるために 1:3 の比率を使用する 2 列のコンテナ。 最初の列（左）は幅の 4 分の 1 を占め、2 番目の列（右）は残りの 4 分の 3 を占めます。 |
+| ![2:1 列アイコン ](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 列右 &#x200B;] | スペースの幅を埋めるために 2:1 の比率を使用する 2 列のコンテナ。 最初の列（左）は幅の 3 分の 2 を占め、2 番目の列（右）は残りの 3 分の 1 を占めます。 |
+| ![2:2 列アイコン ](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 列 &#x200B;] | スペースの幅を埋めるために 2:2 の比率を使用する 2 列のコンテナ。 左右の列の幅は同じです。 |
+| ![3:1 列アイコン ](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 列右 &#x200B;] | スペースの幅を埋めるために 3:1 の比率を使用する 2 列のコンテナ。 最初の列（左）は幅の 4 分の 3 （75%）を占め、2 番目の列（右）は残りの 4 分の 1 （25%）を占めます。 |
+| ![3:3 列アイコン ](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 列 &#x200B;] | スペースの幅を埋めるために 3:3 の比率を使用する 3 列のコンテナ。 3 つの列の幅はすべて等しくなります。 |
+| ![4:4 列アイコン ](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 列 &#x200B;] | スペースの幅を埋めるために 4:4 の比率を使用する 4 列のコンテナ。 4 つの列の幅はすべて等しくなります。 |
+| ![n:n 列アイコン ](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n 列 &#x200B;] | 定義した列に従ってスペースを埋める、カスタマイズ可能な列構造。 列数（2～10 個）を設定し、各列の幅を個別に設定します。 [詳細情報](#change-nn-columns) |
 
 ## 構造コンポーネントの追加
 
@@ -107,13 +107,13 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある **[!UICON
 
 右側のパネルで「_[!UICONTROL スタイル]_」タブを選択した状態で、「**[!UICONTROL 背景]**」セクションを使用して、構造コンポーネントの背景として使用する色とオプションの画像を定義します。
 
-#### [!UICONTROL  背景色 ]
+#### [!UICONTROL &#x200B; 背景色 &#x200B;]
 
 チェックボックスを選択してカラーの四角形をクリックし、ピッカーからカラーを選択します。 色を選択するには、RGB、HSL、HSB、または 16 進数値を入力します。 または、カラースライダーとカラーフィールドを使用して、カラーを選択します。
 
 ![ 背景カラーピッカー ](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL  背景画像 ]
+#### [!UICONTROL &#x200B; 背景画像 &#x200B;]
 
 切り替えセレクターを移動して、背景画像設定を有効にします。
 
