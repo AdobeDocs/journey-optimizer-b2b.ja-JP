@@ -141,4 +141,4 @@ _ジャーニーマップ_ は、ジャーニーワークスペースの中央�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443220/?learn=on&captions=jpn)

@@ -230,4 +230,4 @@ Marketo Engageの [ 静的リスト ](https://experienceleague.adobe.com/ja/docs
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443246/?learn=on&captions=jpn)
