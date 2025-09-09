@@ -1,6 +1,6 @@
 ---
 title: コンテンツの生成と一貫性にブランドを使用
-description: ブランドスタイルと音声に応じてコンテンツを生成および最適化するためにJourney Optimizer B2B editionで定義できるブランドガイドラインについて説明します。
+description: 一貫したコンテンツ作成のためのブランドガイドラインを定義 – Journey Optimizer B2B editionで視覚的な ID、メッセージの整合性、信頼できる音声を維持します。
 badge: label="ベータ版" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 9%
+source-wordcount: '837'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="ブランドの基本を学ぶ"
->abstract="独自のブランドを作成およびカスタマイズして、独自の視覚的および言語的アイデンティティを定義すると同時に、ブランドスタイルやブランドボイスに一致するコンテンツを簡単に生成できるようにします。"
+>abstract="ブランドを作成およびカスタマイズして、独自の視覚的および言語的 ID を定義すると同時に、ブランドスタイルや音声に合ったコンテンツを簡単に生成できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -73,7 +73,7 @@ ht-degree: 9%
 
 ## ブランド関連の権限
 
-製品管理者は、Adobe Experience Cloudの **[!UICONTROL 権限]** アプリで **[!UICONTROL ブランドキットを管理]** または _AI アシスタントを有効にする_ リソース権限を割り当てることで、ブランド管理およびブランドの連携機能へのアクセスを有効にすることができます。
+製品管理者は、Adobe Experience Cloudの **[!UICONTROL 権限]** UI を使用して **[!UICONTROL ブランドキットを管理]** または _AI アシスタントを有効にする_ リソース権限を割り当てることで、ブランド管理およびブランドの連携機能へのアクセスを有効にすることができます。
 
 1. 権限アプリで、「**[!UICONTROL 役割]**」タブに移動し、目的の [ 役割 ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"} を選択します。
 

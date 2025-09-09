@@ -1,6 +1,6 @@
 ---
-title: ブランド整合性スコア付け
-description: ブランドの整合性スコアを使用してオンブランドコンテンツを作成、検証および管理する方法について説明します。
+title: ブランドの整合性スコアリング
+description: ブランドの整合性スコアを使用してメールコンテンツを評価 – Journey Optimizer B2B editionで、ブランドガイドラインに照らして色、フォント、ロゴ、記述スタイルを検証します。
 badge: label="ベータ版" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 25%
+source-wordcount: '467'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="ブランド整合性スコア"
->abstract="ブランド整合性スコアは、コンテンツがブランドのガイドラインにどのくらい良く準拠しているかを測定し、色、フォント、ロゴ、画像、文体の一貫性を確保します。"
+>abstract="ブランドのアラインメントスコアは、コンテンツがブランドガイドラインにどれだけ準拠しているかを測定し、色、フォント、ロゴ、画像および書き込みスタイルの一貫性を確保します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

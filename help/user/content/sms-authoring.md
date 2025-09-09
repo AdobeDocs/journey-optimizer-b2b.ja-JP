@@ -1,13 +1,13 @@
 ---
 title: SMS オーサリング
-description: 顧客のモバイルデバイスにテキストメッセージ（SMS）を送信する方法、および SMS エディターでテキスト形式のメッセージをパーソナライズおよびプレビューする方法について説明します。
+description: パーソナライゼーション、リンク、同意管理を使用してアカウントジャーニーの SMS メッセージを作成する – Journey Optimizer B2B editionで、コンテンツをプレビューし、配信設定を指定します。
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 4%
+source-wordcount: '1362'
+ht-degree: 3%
 
 ---
 
@@ -92,7 +92,7 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
      >[!NOTE]
      >
      >トラッキングを許可するが無効にする _[!UICONTROL mkt_tok を含める]_ 場合、宛先 URL には、リダイレクト後の `mkt_tok` クエリ文字列パラメーターは含まれません。 このパラメーターは、Marketo Engage ランディングページおよびMunchkinで使用され、人物アクティビティ（メールの登録解除など）を確実にトラッキングします。 Web サイトでパラメーターが問題を引き起こしている場合以外は、このオプションを無効にしないでください。<br/>
-     >Web サイトでのMunchkin トラッキングコードの使用について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"} を参照してください。
+     >Web サイトでのMunchkin トラッキングコードの使用について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"} を参照してください。
 
    ![SMS メッセージのリンクを追加ダイアログ ](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -124,7 +124,7 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="コンテンツのレンダリング方法の確認"
->abstract="コンテンツを定義したら、プレビューして、使用しているチャネルのレンダリングを確認できます。"
+>abstract="コンテンツを定義したら、使用しているチャネルのレンダリングをプレビューおよび確認できます。"
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してそのコンテンツをシミュレート（プレビュー）できます。 パーソナライズされたコンテンツを挿入してある場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
