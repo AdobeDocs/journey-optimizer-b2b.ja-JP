@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 28%
+ht-degree: 33%
 
 ---
 
@@ -46,13 +46,13 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_datastream"
->title="データストリーム要件"
+>title="データストリームの要件"
 >abstract="このドメインのランディングページからページイベントを収集するには、データストリームが必要です。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="データストリーム ID がありません"
->abstract="サブドメインにデータストリーム ID がありません。これは適切なルーティングに必要です。 設定で設定して続行します"
+>abstract="サブドメインにデータストリーム ID がありません。これは適切なルーティングに必要です。 続行するには、「設定」で ID を構成してください"
 
 **[!UICONTROL Datastream]** オプションを設定して、ランディングページイベント収集用のデータストリームを設定します。
 
