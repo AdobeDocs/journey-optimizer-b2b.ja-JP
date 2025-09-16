@@ -1,13 +1,13 @@
 ---
 title: アカウントの書き出し
-description: Journey Optimizer B2B editionで購入グループとエンゲージメントスコアフィルターを使用しているサードパーティプラットフォーム向けに、フィルター済みのアカウントリストを CSV に書き出します。
+description: Journey Optimizer B2B Edition の購買グループとエンゲージメントスコアフィルターを使用して、フィルタリングされたアカウントリストをサードパーティプラットフォーム用の CSV に書き出します。
 feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 

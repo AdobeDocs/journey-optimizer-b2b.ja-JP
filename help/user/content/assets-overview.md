@@ -1,21 +1,21 @@
 ---
 title: アセット
-description: Journey Optimizer B2B editionで、メール、テンプレート、フラグメント用にMarketo Engage Design Studio とAEM Assetsの画像アセットを管理します。
+description: Journey Optimizer B2B Edition のメール、テンプレート、フラグメント用の Marketo Engage Design Studio および AEM Assets からの画像アセットを管理します。
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # アセット
 
-[!DNL Adobe Journey Optimizer B2B Edition] では、アセットは通常、アカウントジャーニーをサポートするコンテンツを設計する際に使用される画像です。これらの画像をメール、メールテンプレートおよびフラグメント内でアセットセレクターから、またはビジュアルデザインスペース内のシンプルなドラッグ&amp;ドロップインターフェイスから使用できます。
+[!DNL Adobe Journey Optimizer B2B Edition] では、アセットは通常、アカウントジャーニーをサポートするコンテンツを設計する際に使用される画像です。これらの画像は、アセットセレクターや、ビジュアルデザインスペース内のシンプルなドラッグ＆ドロップインターフェイスから、メール、メールテンプレート、フラグメント内で使用できます。
 
-[!DNL Journey Optimizer B2B Edition] では、マーケターは [!DNL Adobe Marketo Engage] [!DNL Design Studio] と [!DNL Adobe Experience Manager Assets as a Cloud Service] の 2 つのタイプのアセットライブラリにアクセスできます。Adobe Marketo Engage Design Studio のみを使用する場合や、（お持ちの [!DNL Experience Manager Assets] ライセンスに基づいて）同時に設定した両方のライブラリを使用する場合があります。
+[!DNL Journey Optimizer B2B Edition] では、マーケターは [!DNL Adobe Marketo Engage] [!DNL Design Studio] と [!DNL Adobe Experience Manager Assets as a Cloud Service] の 2 つのタイプのアセットライブラリにアクセスできます。Adobe Marketo Engage Design Studio のみを使用することも、両方のライブラリを同時に設定して使用することもできます（保有している [!DNL Experience Manager Assets] ライセンスに基づきます）。
 
 ## アセット管理
 

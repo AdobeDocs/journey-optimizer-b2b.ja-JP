@@ -1,13 +1,13 @@
 ---
 title: アカウントジャーニー
-description: アカウントジャーニーによる需要の生み出しの効率化 – Journey Optimizer B2B editionで、メール、SMS、イベントをまたいで購入グループエンゲージメントを作成、公開、管理します。
+description: アカウントジャーニーでデマンドジェネレーションを効率化 - Journey Optimizer B2B Edition で、メール、SMS、イベントをまたいで購買グループのエンゲージメントを作成、公開、管理します。
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ _[!UICONTROL アカウントジャーニー]_&#x200B;リスト内の名前（リ
 
 | ステータス | 説明 | 使用可能なアクション |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**ドラフト**&#x200B;_ | 編集可能な非公開のジャーニー。 | <li>[公開](./create-publish-journey.md#publish-an-account-journey)<li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
-| _&#x200B;**ライブ**&#x200B;_ | ジャーニーを公開すると、ジャーニーのステータスがドラフトからライブに変更されます。この状態では、編集できなくなります。 | <li>[複製](#duplicate-journey)<li>[新規エントリに対してクローズ](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _&#x200B;**新規エントリに対してクローズ済み**&#x200B;_ | 上部のナビゲーションで「[!UICONTROL 新規エントリに対してクローズ]」をクリックすると、ジャーニーのステータスが&#x200B;_ライブ_&#x200B;から&#x200B;_新規エントリに対してクローズ済み_&#x200B;に変更されます。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
-| _&#x200B;**中止**&#x200B;_ | ジャーニーを中止すると、ジャーニーのステータスが&#x200B;_ライブ_&#x200B;または&#x200B;_新規エントリに対してクローズ済み_&#x200B;に変更されます。中止したジャーニーは再起動できません。 | <li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
-| _&#x200B;**終了**&#x200B;_ | ジャーニー内のすべてのアカウントがジャーニーを完了すると、ステータスが「_ライブ_」または「_新規エントリに対してクローズ済み_」から「_終了_」に変わります。 | <li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
+| _**ドラフト**_ | 編集可能な非公開のジャーニー。 | <li>[公開](./create-publish-journey.md#publish-an-account-journey)<li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
+| _**ライブ**_ | ジャーニーを公開すると、ジャーニーのステータスがドラフトからライブに変更されます。この状態では、編集できなくなります。 | <li>[複製](#duplicate-journey)<li>[新規エントリに対してクローズ](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _**新規エントリに対してクローズ済み**_ | 上部のナビゲーションで「[!UICONTROL 新規エントリに対してクローズ]」をクリックすると、ジャーニーのステータスが&#x200B;_ライブ_&#x200B;から&#x200B;_新規エントリに対してクローズ済み_&#x200B;に変更されます。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
+| _**中止**_ | ジャーニーを中止すると、ジャーニーのステータスが&#x200B;_ライブ_&#x200B;または&#x200B;_新規エントリに対してクローズ済み_&#x200B;に変更されます。中止したジャーニーは再起動できません。 | <li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
+| _**終了**_ | ジャーニー内のすべてのアカウントがジャーニーを完了すると、ステータスが「_ライブ_」または「_新規エントリに対してクローズ済み_」から「_終了_」に変わります。 | <li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
 
 ## ジャーニーの管理
 
@@ -157,4 +157,4 @@ _アカウントジャーニー_&#x200B;リストには、Journey Optimizer B2B 
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443208/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

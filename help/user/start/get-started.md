@@ -1,13 +1,13 @@
 ---
 title: 管理者およびマーケター向けのオンボーディングガイダンス
-description: 管理者およびマーケター向けのオンボーディングガイド - Journey Optimizer B2B editionでサンドボックスの設定、チャネルの設定、購入グループの作成、アカウントジャーニーの設計を行います。
+description: 管理者およびマーケター向けオンボーディングガイド - Journey Optimizer B2B Edition でサンドボックスの設定、チャネルの設定、購買グループの作成、アカウントジャーニーの設計を行います。
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
