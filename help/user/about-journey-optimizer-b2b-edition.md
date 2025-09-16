@@ -3,7 +3,7 @@ title: Adobe Journey Optimizer B2B Edition の概要
 description: Adobe Journey Optimizer B2B Edition について - B2B マーケティング向けの購買グループ、AI インサイトおよび Experience Platform 統合を使用してアカウントジャーニーを調整します。
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 100%
 

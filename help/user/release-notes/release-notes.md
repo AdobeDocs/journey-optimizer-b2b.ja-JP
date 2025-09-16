@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化�
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 100%
 
