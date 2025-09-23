@@ -11,7 +11,7 @@ exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="ブランドの基本を学ぶ"
->abstract="ブランドを作成およびカスタマイズして、独自の視覚的および言語的 ID を定義すると同時に、ブランドスタイルや音声に合ったコンテンツを簡単に生成できます。"
+>abstract="自分のブランドを作成およびカスタマイズして、独自の視覚的および言語的アイデンティティを定義すると同時に、ブランドスタイルやブランドボイスに一致するコンテンツを簡単に生成できるようにします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"

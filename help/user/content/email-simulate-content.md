@@ -8,7 +8,7 @@ exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="コンテンツのレンダリング方法の確認"
->abstract="コンテンツを定義したら、プレビューして、使用しているチャネルのレンダリングが正しいことを確認できます。"
+>abstract="コンテンツを定義したら、プレビューし、使用しているチャネルのレンダリングが正しいことを確認できます。"
 
 _コンテンツをシミュレート_ 機能を使用して、メールコンテンツをプレビューし、特定の受信者にテスト配信を送信します。 プレビューおよびテスト機能にアクセスするには、必須のメールフィールド _[!UICONTROL 送信者名]_、_[!UICONTROL 送信元アドレス]_、_[!UICONTROL 返信先アドレス]_ および _[!UICONTROL 件名]_ を定義する必要があります。
 
