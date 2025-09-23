@@ -107,7 +107,7 @@ Marketo Engage内のこれらの権限の管理について詳しくは、Market
    * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
    * [!UICONTROL Adobe Experience Platform のデータ収集]
-   * [!UICONTROL  データ収集のすべてのアクセス ]
+   * [!UICONTROL &#x200B; データ収集のすべてのアクセス &#x200B;]
 
    ![Admin Console - ユーザーグループ – 商品を追加 ](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
 
@@ -281,18 +281,18 @@ User Management について詳しくは、Admin Console ドキュメントの [
    * 左側の _[!UICONTROL リソース]_ リストで「**[!UICONTROL プロファイル管理]**」項目を見つけ、「_追加_ （**+**）」アイコンをクリックして属性を追加します。
 
    * 属性に次の権限を追加します。
-      * [!UICONTROL  セグメントの表示 ]
-      * [!UICONTROL  セグメントの管理 ]
-      * [!UICONTROL  プロファイルの表示 ]
-      * [!UICONTROL  プロファイルの管理 ]
-      * [!UICONTROL B2B プロファイルの表示 ]
-      * [!UICONTROL B2B プロファイルの管理 ]
+      * [!UICONTROL &#x200B; セグメントの表示 &#x200B;]
+      * [!UICONTROL &#x200B; セグメントの管理 &#x200B;]
+      * [!UICONTROL &#x200B; プロファイルの表示 &#x200B;]
+      * [!UICONTROL &#x200B; プロファイルの管理 &#x200B;]
+      * [!UICONTROL B2B プロファイルの表示 &#x200B;]
+      * [!UICONTROL B2B プロファイルの管理 &#x200B;]
 
    ![Experience Platform – 新しい役割のプロファイルを追加 ](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 
 1. B2B 製品の権限を追加します。
 
-   役割に必要な製品機能を決定するには [](#b2b-product-permissions)B2B 製品の権限のリストを参照してください。
+   役割に必要な製品機能を決定するには [&#128279;](#b2b-product-permissions)B2B 製品の権限のリストを参照してください。
 
    左側の _[!UICONTROL リソース]_ リストで、**[!UICONTROL B2B]** 項目を見つけ、_追加_ （**+**）アイコンをクリックして、役割に対して有効にする各属性を追加します。
 
