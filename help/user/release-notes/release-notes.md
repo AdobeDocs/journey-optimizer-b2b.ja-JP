@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について - 新機能や製品の改善点に関する最新情報を逐次提供します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
 workflow-type: tm+mt
-source-wordcount: '2795'
-ht-degree: 100%
+source-wordcount: '3016'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,23 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## 2025.9 リリースノート
+
+**デプロイメント日**：2025年9月30日（PT）
+
+このリリースには、次の新機能および機能強化が含まれています。
+
+| タイプ | 項目 | 説明 |
+| ---- | ---- | ----------- |
+| 機能 | メールコンテンツの共同作業 | メールアセットのコンテキストで、Journey Optimizer B2B editionの仲間ユーザーとの共同作業にコメントできるようになりました。 チームメンバーにタグを付けて、コメントの詳細を記載したメール通知を受信するようにできます。 通知は、パルス通知としても使用できます。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| 機能 | メールデザインのダークモード | メールデザインスペースに、_ダークモード_ に切り替える機能が追加されました。 ダークモードでは、メールのコンテンツをプレビューし、ダークモードでメールを表示する受信者に特別に表示されるカスタム設定を定義できます。<!-- [Learn more](../content/email-dark-mode.md) --> |
+| 機能強化 | ジャーニー – 役割のユーザー数によってパスを分割 | アカウントノード別の分割パスを使用すると、1 つ以上の購入グループの役割を持つユーザー数を持つアカウントをターゲットにすることができます。 パスでは、役割の深さに基づいて、セールス・アラートやその他の活動に対する購買グループの対応を評価できます。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
+| 機能強化 | ジャーニー - イベントの人物フィルター | 人物フィルターを使用して、人物イベントをリッスンします。 これらのフィルターには、一致した購入グループの特定の役割をターゲットにする機能が含まれます。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+
+>[!NOTE]
+>
+>リリースの変更は、2025年9月30日（PT）にデプロイメントを開始し、各機能が段階的にロールアウトされます。機能および機能強化のリリース日は変更される場合があります。
 
 ## 2025.8 リリースノート
 
