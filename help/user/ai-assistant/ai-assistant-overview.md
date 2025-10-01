@@ -1,6 +1,6 @@
 ---
 title: Journey Optimizer B2B editionの AI アシスタント
-description: AI アシスタントでワークフローを高速化 – Journey Optimizer B2B editionの製品知識、トラブルシューティング ヘルプ、運用インサイトを取得します。
+description: AI アシスタントでワークフローを高速化 - Journey Optimizer B2B Edition の製品知識、トラブルシューティングヘルプ、運用上のインサイトを取得します。
 feature: AI Assistant
 role: User, Admin
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ Journey Optimizerの AI アシスタント B2B editionは、同じテクノロ�
 
 ## Journey Optimizer B2B editionの AI アシスタント機能
 
-送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読み取れる回答に変換します。 この応答は、基になるデータの内部表現であり、_&#x200B;**_ナレッジグラフ_**&#x200B;_ とも呼ばれます。これは、特定の回答に関する概念、データ、メタデータの包括的な Web です。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
+送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読み取れる回答に変換します。 この応答は、基になるデータの内部表現であり、_**_ナレッジグラフ_**_ とも呼ばれます。これは、特定の回答に関する概念、データ、メタデータの包括的な Web です。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
 
 * Experience Leagueのドキュメント。
 * 運用上のアーティファクト（スキーマ、フィールド、オーディエンス、ジャーニーなど）。
@@ -92,7 +92,7 @@ Journey Optimizer B2B editionの AI アシスタントは、プライバシー�
 
 * AI アシスタントとやり取りするには、明示的な権限が必要です。
 
-   * 管理者は、[ 権限 UI](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} と [Admin Console](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/browse){target="_blank"} を使用して権限を設定できます。
+   * 管理者は、[ 権限 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} と [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"} を使用して権限を設定できます。
 
    * 権限は粒度が細かく、サンドボックス管理者は、様々な質問カテゴリ（AI アシスタントを使用した製品のナレッジベースの質問または運用インサイトに関する質問）を実行できるユーザーを設定できます。
 
