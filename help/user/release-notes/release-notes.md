@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化�
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3016'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,10 +33,10 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | メールコンテンツの共同作業 | メールアセットのコンテキストで、Journey Optimizer B2B editionの仲間ユーザーとの共同作業にコメントできるようになりました。 チームメンバーにタグを付けて、コメントの詳細を記載したメール通知を受信するようにできます。 通知は、パルス通知としても使用できます。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| 機能 | メールデザインのダークモード | メールデザインスペースに、_ダークモード_ に切り替える機能が追加されました。 ダークモードでは、メールのコンテンツをプレビューし、ダークモードでメールを表示する受信者に特別に表示されるカスタム設定を定義できます。<!-- [Learn more](../content/email-dark-mode.md) --> |
-| 機能強化 | ジャーニー – 役割のユーザー数によってパスを分割 | アカウントノード別の分割パスを使用すると、1 つ以上の購入グループの役割を持つユーザー数を持つアカウントをターゲットにすることができます。 パスでは、役割の深さに基づいて、セールス・アラートやその他の活動に対する購買グループの対応を評価できます。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| 機能強化 | ジャーニー - イベントの人物フィルター | 人物フィルターを使用して、人物イベントをリッスンします。 これらのフィルターには、一致した購入グループの特定の役割をターゲットにする機能が含まれます。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| 機能 | メールコンテンツの共同作業 | メールアセットのコンテキストで Journey Optimizer B2B Edition ユーザにコメントしたり、Journey Optimizer B2B Edition ユーザと共同作業したりできるようになりました。チームメンバーにタグを付けると、コメントの詳細が記載されたメール通知を受信できます。通知は、パルス通知としても使用できます。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| 機能 | メールデザインのダークモード | メールデザインスペースに、_ダークモード_&#x200B;に切り替える機能が追加されました。ダークモードでは、メールのコンテンツをプレビューし、ダークモードでメールを表示する受信者専用のカスタム設定を定義できます。<!-- [Learn more](../content/email-dark-mode.md) --> |
+| 機能強化 | ジャーニー - ロールの人物数別にパスを分割 | アカウントノード別に分割パスを使用すると、1 つ以上の購買グループロールに属する人物数でアカウントをターゲットにできます。パスでは、ロールの深度に基づいて、セールスアラートやその他のエンゲージメントに対する購買グループの準備を評価できます。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
+| 機能強化 | ジャーニー - イベントの顧客フィルター | 人物フィルターを使用して、人物イベントをリッスンします。これらのフィルターには、一致した購買グループの特定のロールをターゲットにする機能が含まれます。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
 
 >[!NOTE]
 >
