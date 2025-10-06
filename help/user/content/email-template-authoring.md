@@ -4,10 +4,10 @@ description: Journey Optimizer B2B editionで、ビジュアルデザインツ�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 4%
+source-wordcount: '540'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 テンプレートが保存されると、概要の「_[!UICONTROL 使用]_」タブを選択したときに、フラグメントの詳細ページに表示されます。
 
-### アセットの追加
+### 画像アセットの追加
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -54,6 +54,14 @@ ht-degree: 4%
 ### リンクされた URL トラッキングを編集
 
 {{$include /help/_includes/content-design-links.md}}
+
+### ダークモードのスタイル設定を適用
+
+_ダークモード_ を使用して、メールクライアントでのダークテーマのメール表示を確認します。 ダークモードまたはテーマを使用すると、サポートされるメールクライアントまたはアプリで、テキスト、ボタン、その他の視覚的要素に対して、暗い背景と明るい色のメールを表示できます。 デザインキャンバスの右上で、セレクターを _ダークモード_ （![ ダークモードアイコン ](../assets/do-not-localize/icon-content-dark-mode.svg)）に変更します。 次に、サポートしているメールクライアントのダークテーマが有効になっている場合に、表示に使用される特定のカスタム設定をプレビューして定義します。
+
+![ ダークモードセレクターを表示するメールデザインキャンバスと、ダークモードで表示されるメールコンテンツ ](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+ダークモードのスタイル設定とベストプラクティスについて詳しくは、[ メールコンテンツのダークモード ](./email-dark-mode.md) を参照してください。
 
 ## オプションを表示
 

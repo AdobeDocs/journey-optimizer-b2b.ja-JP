@@ -4,7 +4,7 @@ description: 検索、フィルター、一括アクションを使用したメ�
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 6a5bfd15272b4b2a95bd979d117743b4583bb2a4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -33,4 +33,4 @@ Adobe Journey Optimizer B2B editionでメールにアクセスするには、左
 
 ![ 更新するには、E メールを開きます ](./assets/email-open-update.png){width="700" zoomable="yes"}
 
-また、[_[!UICONTROL &#x200B; コンテンツをシミュレート &#x200B;]_](./email-simulate-content.md) ウィンドウにアクセスすることもできます。 これらのツールを使用して、テストプロファイルを使用してコンテンツをプレビューし、配達確認を送信し、配信品質とメールクライアントのレンダリングについてメールをテストします。
+また、[_[!UICONTROL  コンテンツをシミュレート ]_](./email-simulate-content.md) ウィンドウにアクセスすることもできます。 これらのツールを使用して、テストプロファイルを使用してコンテンツをプレビューし、配達確認を送信し、配信品質とメールクライアントのレンダリングについてメールをテストします。

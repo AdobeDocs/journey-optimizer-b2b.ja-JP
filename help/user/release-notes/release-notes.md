@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について - 新機能や製品の改善点に関する最新情報を逐次提供します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: ht
-source-wordcount: '3016'
-ht-degree: 100%
+source-git-commit: 93a5b236c9d6f4e11d18704f1feb4804a79989f6
+workflow-type: tm+mt
+source-wordcount: '3000'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,6 @@ Adobe Journey Optimizer B2B Edition では、新機能、既存機能の強化�
 Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネイティブに作成され、最新のイノベーションと改善点を継承しています。次の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/latest){target="_blank"}を参照してください。
 
 使用権限、パフォーマンスガードレール、制限事項について詳しくは、[製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}を参照してください。
-
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -33,10 +32,10 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | メールコンテンツの共同作業 | メールアセットのコンテキストで Journey Optimizer B2B Edition ユーザにコメントしたり、Journey Optimizer B2B Edition ユーザと共同作業したりできるようになりました。チームメンバーにタグを付けると、コメントの詳細が記載されたメール通知を受信できます。通知は、パルス通知としても使用できます。<!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| 機能 | メールデザインのダークモード | メールデザインスペースに、_ダークモード_&#x200B;に切り替える機能が追加されました。ダークモードでは、メールのコンテンツをプレビューし、ダークモードでメールを表示する受信者専用のカスタム設定を定義できます。<!-- [Learn more](../content/email-dark-mode.md) --> |
-| 機能強化 | ジャーニー - ロールの人物数別にパスを分割 | アカウントノード別に分割パスを使用すると、1 つ以上の購買グループロールに属する人物数でアカウントをターゲットにできます。パスでは、ロールの深度に基づいて、セールスアラートやその他のエンゲージメントに対する購買グループの準備を評価できます。<!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| 機能強化 | ジャーニー - イベントの顧客フィルター | 人物フィルターを使用して、人物イベントをリッスンします。これらのフィルターには、一致した購買グループの特定のロールをターゲットにする機能が含まれます。<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| 機能 | メールコンテンツの共同作業 | メールアセットのコンテキストで Journey Optimizer B2B Edition ユーザにコメントしたり、Journey Optimizer B2B Edition ユーザと共同作業したりできるようになりました。チームメンバーにタグを付けると、コメントの詳細が記載されたメール通知を受信できます。通知は、パルス通知としても使用できます。 [詳細情報](../content/email-collaboration-tools.md) |
+| 機能 | メールデザインのダークモード | メールデザインスペースに、_ダークモード_&#x200B;に切り替える機能が追加されました。ダークモードでは、メールのコンテンツをプレビューし、ダークモードでメールを表示する受信者に特別に表示されるカスタム設定を定義できます。 [詳細情報](../content/email-dark-mode.md) |
+| 機能強化 | ジャーニー - ロールの人物数別にパスを分割 | アカウントノード別に分割パスを使用すると、1 つ以上の購買グループロールに属する人物数でアカウントをターゲットにできます。パスでは、役割の深さに基づいて、セールス・アラートやその他の活動に対する購買グループの対応を評価できます。 [詳細情報](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
+| 機能強化 | ジャーニー - イベントの顧客フィルター | 人物フィルターを使用して、人物イベントをリッスンします。これらのフィルターには、一致した購入グループの特定の役割をターゲットにする機能が含まれます。 [詳細情報](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -56,10 +55,6 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | 機能強化 | フラグメントの条件付きコンテンツ | ビジュアルフラグメントデザインに条件付きコンテンツツールを使用できるようになりました。[詳細情報](../content/conditional-content.md) |
 | 機能強化 | エンゲージメントスコアの更新 | 購買グループのエンゲージメントスコアロジックが更新され、スコアが正規化されました。さらに、メンバーレベルのエンゲージメントスコアだけでなく、購買グループ全体の総合的なエンゲージメントスコアも操作できるようになりました。[詳細情報](../buying-groups/engagement-scores.md) |
 | 機能強化 | アクティブなジャーニーの監視 - 各ノードのアカウント | アクティブなアカウントジャーニーの場合は、ジャーニーの各アカウントノードに到達したアカウントのリストにアクセスできます。 |
-
->[!NOTE]
->
->リリースの変更は、2025年8月26日（PT）にデプロイメントを開始し、各機能が段階的にロールアウトされます。機能および機能強化のリリース日は変更される場合があります。
 
 ## 2025.6 リリースノート
 
@@ -108,7 +103,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | 機能 | アカウントリストのジャーニーオーケストレーション | ジャーニーアクションノードを使用して、静的アカウントリストのアカウントを追加および削除します。<a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">詳細情報</a> |
 | 機能強化 | Marketo Engage でジャーニーメンバーシップをフィルタリング | ジャーニーオーディエンスに Adobe Journey Optimizer B2B Edition アカウントリストを使用し、Marketo Engage スマートリストで&#x200B;_アカウントリストのメンバー_&#x200B;フィルターを使用します。<a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">詳細情報</a> |
 | 機能 | 非アクティブフィルター | メールの非アクティビティ、注目のアクション、データ値の変更、訪問済みの web ページなど、Marketo Engage キャンペーンとプログラム内の非アクティビティに基づいてジャーニーを調整します。<a href="../journeys/split-merge-paths-nodes.md#activity-filtering">詳細情報</a> |
-| 機能強化 | 訪問済みの web ページフィルター | Marketo Engage キャンペーンとプログラムに関連付けられた訪問済みの web ページのアクティビティに基づいてジャーニーを調整します。<a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">詳細情報</a> |
+| 機能強化 | 訪問済みの web ページフィルター | Marketo Engage キャンペーンとプログラムに関連付けられた訪問済みの web ページのアクティビティに基づいてジャーニーを調整します。<a href="../journeys/split-merge-paths-nodes.md#people-path-filters">詳細情報</a> |
 | 機能強化 | メールリスト | アクティブなメールとドラフトのメールのグローバルリストを表示し、関連するアカウントジャーニー全体でメールを検索、確認、更新します。<a href="../content/emails-list.md">詳細情報</a> |
 
 ## 2025.3 リリースノート
