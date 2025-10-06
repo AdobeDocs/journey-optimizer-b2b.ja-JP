@@ -135,7 +135,7 @@ _イベントをリッスン_ ノードを追加して、イベントが発生�
 
 ### エクスペリエンスイベントをリッスン
 
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。 アカウントジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
+管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。 アカウントジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
 
 1. [AEP イベント定義を作成して公開します &#x200B;](../admin/configure-aep-events.md)。
 
