@@ -19,7 +19,7 @@ ht-degree: 1%
 
 * **_AI を活用して購入グループを検出_** - AI、構造化された非構造化データ、統合ファーストパーティデータを使用して、購入グループの検出と作成を合理化します。
 
-![Audience Agent B2B （フルページモード） ](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+![Audience Agent B2B （フルページモード） &#x200B;](./assets/audience-agent-full.png){width="700" zoomable="yes"}
 
 ## Audience Agent機能
 
