@@ -221,4 +221,4 @@ _イベントをリッスン_ ノードを追加して、イベントが発生�
 
 ## 概要ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443235/?learn=on&captions=jpn)
