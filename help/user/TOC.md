@@ -72,7 +72,7 @@ ht-degree: 97%
 + コンテンツ管理 {#content-management}
    + メール {#emails}
       + [メールコンテンツの操作](./content/emails-list.md)
-      + [アクセス可能なコンテンツのデザイン](./content/email-accessible-content.md)
+      + [アクセシブルなコンテンツのデザイン](./content/email-accessible-content.md)
       + プレビューと検証 {#preview}
          + [コンテンツのシミュレート](./content/email-simulate-content.md)
          + [メールのレンダリングのテスト](./content/email-test-rendering.md)
