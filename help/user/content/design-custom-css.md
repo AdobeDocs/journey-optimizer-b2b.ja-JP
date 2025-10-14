@@ -64,7 +64,7 @@ ht-degree: 9%
 
 1. 右側の「_スタイル_」タブを選択し、「**[!UICONTROL カスタム CSS を追加]**」をクリックします。
 
-   ![ 本文スタイルへのアクセス ](./assets/email-body-styles.png){width="800" zoomable="yes"}
+   ![&#x200B; 本文スタイルへのアクセス &#x200B;](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -74,15 +74,15 @@ ht-degree: 9%
 
 1. エディターに CSS コードを入力します。
 
-   カスタム CSS が有効で、適切な構文に従っていることを確認します。 入力した CSS が無効な場合は、エラーメッセージが表示され、CSS を保存できません。 詳しくは、[CSS の有効性 ](#css-validity) を参照してください。
+   カスタム CSS が有効で、適切な構文に従っていることを確認します。 入力した CSS が無効な場合は、エラーメッセージが表示され、CSS を保存できません。 詳しくは、[CSS の有効性 &#x200B;](#css-validity) を参照してください。
 
-   ![ エディターにカスタム CSS を入力 ](./assets/content-design-add-custom-css.png){width="450"}
+   ![&#x200B; エディターにカスタム CSS を入力 &#x200B;](./assets/content-design-add-custom-css.png){width="450"}
 
 1. 「**[!UICONTROL 保存]**」をクリックして、カスタム CSS を保存します。
 
-   カスタムスタイルシートは、既存のコンテンツに適用されます。 必要に応じて、カスタム CSS が適用されていることを確認できます。 スタイルシートのアプリケーションを変更および調整する方法について詳しくは、[ トラブルシューティング ](#troubleshooting) を参照してください。
+   カスタムスタイルシートは、既存のコンテンツに適用されます。 必要に応じて、カスタム CSS が適用されていることを確認できます。 スタイルシートのアプリケーションを変更および調整する方法について詳しくは、[&#x200B; トラブルシューティング &#x200B;](#troubleshooting) を参照してください。
 
-   ![ コンテンツに適用されたカスタム CSS](assets/email-body-custom-css-applied.png){width="600" zoomable="yes"}
+   ![&#x200B; コンテンツに適用されたカスタム CSS](assets/email-body-custom-css-applied.png){width="600" zoomable="yes"}
 
 ## CSS の有効性
 

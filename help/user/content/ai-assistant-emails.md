@@ -31,7 +31,7 @@ ht-degree: 1%
    * アップロードされるブランドアセットの最大サイズは 50 MB です。 ファイルのサイズが大きい場合や大量の画像を使用する場合は動作しますが、処理時間が長くなります。
 * Adobe Journey Optimizer B2B editionで作成したメールテンプレート（できれば組み込みまたはサンプルテンプレート、ブランド固有のテンプレート、カスタムテンプレートなど）を使用して、メールコンテンツを作成します。 最大 8～10 個の画像を含むメールテンプレートを使用することをお勧めします。
 * 生成されたバリアントに対して、サムダウンアイコンまたはフラグアイコンを使用して、問題のある出力を報告してください。
-* AI アシスタントを使用する際は、[Adobe ジェネレーティブ AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) に従ってください。
+* AI アシスタントを使用する際は、[Adobe ジェネレーティブ AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) に従ってください。
 
 メールコンテンツ生成用のAdobe Journey Optimizer B2B editionの AI アシスタントには、次の制限が適用されます。
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 可能な限り最高のコンテンツを生成するには、効果的なプロンプトが不可欠です。 プロンプトの作成に関する支援が必要な場合は、_プロンプトライブラリ_ にアクセスします。 このライブラリは、コンテンツ生成を改善するための様々な迅速なアイデアを提供します。
 
-![AI アシスタント – プロンプトライブラリへのアクセス ](./assets/email-designer-ai-assistant-prompt-library.png){width="500" zoomable="no"}
+![AI アシスタント – プロンプトライブラリへのアクセス &#x200B;](./assets/email-designer-ai-assistant-prompt-library.png){width="500" zoomable="no"}
 
 意図した目標を最もよく反映するプロンプトを選択し、ブランド、オファー、キャンペーン、ユースケースを指定する必要な値を追加します。
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
 ## AI アシスタントでメールプロパティを生成
 
-アカウントジャーニーに [ メールアクションを追加 ](./add-email.md#add-an-email-action-node-in-a-journey) する場合、メールの送信に使用する一連のメールプロパティを定義します。 AI アシスタントは、メール **件名** および **プリヘッダー** の推奨コンテンツを生成することで、メールのエンゲージメントを向上させるのに役立ちます。
+アカウントジャーニーに [&#x200B; メールアクションを追加 &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey) する場合、メールの送信に使用する一連のメールプロパティを定義します。 AI アシスタントは、メール **件名** および **プリヘッダー** の推奨コンテンツを生成することで、メールのエンゲージメントを向上させるのに役立ちます。
 
 1. アカウントジャーニーからメールを作成するか、ジャーニーノードから既存のメールを開きます。
 
@@ -82,9 +82,9 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
 次の手順では、AI アシスタントを使用して最適化された件名をメールに生成するためのタスクシーケンスを説明します。
 
-1. _[!UICONTROL メールのプロパティ]_ で、「![ 件名 ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}」フィールドの右側にある AI アシスタントアイコン（**[!UICONTROL AI アシスタントのアクセスアイコン]**）をクリックします。
+1. _[!UICONTROL メールのプロパティ]_ で、「![&#x200B; 件名 &#x200B;](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}」フィールドの右側にある AI アシスタントアイコン（**[!UICONTROL AI アシスタントのアクセスアイコン]**）をクリックします。
 
-   ![ メールの件名に対する AI アシスタントのアクセス ](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
+   ![&#x200B; メールの件名に対する AI アシスタントのアクセス &#x200B;](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
    AI アシスタントのポップアップが開き、メールの件名の生成設定が表示されます。
 
@@ -96,7 +96,7 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
 1. **[!UICONTROL プロンプト]** フィールドに、生成対象の説明を入力します。
 
-   効果的なプロンプトの作成に関するヘルプが必要な場合は、[ プロンプトライブラリ ](#prompt-library) を使用します。
+   効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompt-library) を使用します。
 
 1. テキスト生成用のソースとして機能するコンテンツを含むブランドアセットを指定します。
 
@@ -104,7 +104,7 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
    * **[!UICONTROL ブランドアセットをアップロード]** をクリックして、ブランドアセットファイルを追加します。
 
-   ![AI アシスタント – 件名 ](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
+   ![AI アシスタント – 件名 &#x200B;](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
 
 1. 必要に応じてスクロールし、**[!UICONTROL 購入グループの役割]** を選択して、生成されたテキストのターゲットオーディエンスとして使用します。
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
    * **[!UICONTROL よりシンプルな言語の使用]** - AI アシスタントを活用して言語を簡素化し、より幅広いオーディエンスに対して明確さとアクセシビリティを確保します。
 
-   ![AI アシスタント – 件名行の絞り込み ](./assets/email-properties-ai-assistant-subject-line-refine.png){width="600" zoomable="yes"}
+   ![AI アシスタント – 件名行の絞り込み &#x200B;](./assets/email-properties-ai-assistant-subject-line-refine.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL 選択]**」をクリックして、件名行のテキストを選択したバリアントに置き換え、メールのプロパティに戻ります。
 
@@ -142,9 +142,9 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
 メールのプリヘッダーは、インボックスでメールが表示された際に件名の後に表示される短い概要テキストです。 これはメールのオプション要素ですが、エンゲージメントを向上させる絶好の機会です。 次の手順では、AI アシスタントを使用してメールに最適化されたプリヘッダーを生成するためのタスクシーケンスを説明します。
 
-1. メールのプロパティで、「**[!UICONTROL プリヘッダー]**」チェックボックスを選択し、右側の AI アシスタント アイコン（![AI アシスタントのアクセスアイコン ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}）をクリックします。
+1. メールのプロパティで、「**[!UICONTROL プリヘッダー]**」チェックボックスを選択し、右側の AI アシスタント アイコン（![AI アシスタントのアクセスアイコン &#x200B;](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}）をクリックします。
 
-   ![ 電子メールプリヘッダー用の AI アシスタントのアクセス ](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
+   ![&#x200B; 電子メールプリヘッダー用の AI アシスタントのアクセス &#x200B;](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
 
    AI アシスタントのポップアップが開き、メールのプリヘッダーの生成設定が表示されます。
 
@@ -156,7 +156,7 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
 1. **[!UICONTROL プロンプト]** フィールドに、生成対象の説明を入力します。
 
-   効果的なプロンプトの作成に関するヘルプが必要な場合は、[ プロンプトライブラリ ](#prompt-library) を使用します。
+   効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompt-library) を使用します。
 
 1. テキスト生成用のソースとして機能するコンテンツを含むブランドアセットを指定します。
 
@@ -164,7 +164,7 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
    * **[!UICONTROL ブランドアセットをアップロード]** をクリックして、ブランドアセットファイルを追加します。
 
-   ![AI アシスタント – プリヘッダー ](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
+   ![AI アシスタント – プリヘッダー &#x200B;](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
 
 1. 必要に応じてスクロールし、**[!UICONTROL 購入グループの役割]** を選択して、生成されたテキストのターゲットオーディエンスとして使用します。
 
@@ -194,7 +194,7 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
    * **[!UICONTROL よりシンプルな言語の使用]** - AI アシスタントを活用して言語を簡素化し、より幅広いオーディエンスに対して明確さとアクセシビリティを確保します。
 
-   ![AI アシスタント – プリヘッダーの絞り込み ](./assets/email-properties-ai-assistant-preheader-refine.png){width="600" zoomable="yes"}
+   ![AI アシスタント – プリヘッダーの絞り込み &#x200B;](./assets/email-properties-ai-assistant-preheader-refine.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL 選択]**」をクリックして、プリヘッダーを選択したバリアントに置き換え、メールのプロパティに戻ります。
 
@@ -202,7 +202,7 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
 ## AI アシスタントでのメール本文コンテンツの生成
 
-[ メールを作成およびパーソナライズ ](./email-authoring.md) した後は、ジェネレーティブ AI を活用したAdobe Journey Optimizer B2B editionの AI アシスタントを使用して、メール本文のコンテンツを次のレベルに引き上げます。
+[&#x200B; メールを作成およびパーソナライズ &#x200B;](./email-authoring.md) した後は、ジェネレーティブ AI を活用したAdobe Journey Optimizer B2B editionの AI アシスタントを使用して、メール本文のコンテンツを次のレベルに引き上げます。
 
 電子メールデザインスペースでは、AI アシスタントを使用すると、電子メールの本文全体、ターゲットテキストコンテンツ、オーディエンスの共感を得られる画像のレコメンデーションを生成することで、配信の影響を最適化するのに役立ちます。 このメールキャンペーンの最適化は、より良いエンゲージメントを生み出すように設計されています。
 
@@ -220,17 +220,17 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
 次の手順では、AI アシスタントを使用して既存の電子メールテンプレートを調整するためのタスクシーケンスを説明します。
 
-1. メールデザインスペースで、右側のアイコン（![AI アシスタント メニュー切り替え ](../assets/button-ai-assistant.png){width="30" zoomable="no"}）をクリックして、AI アシスタント メニューにアクセスします。
+1. メールデザインスペースで、右側のアイコン（![AI アシスタント メニュー切り替え &#x200B;](../assets/button-ai-assistant.png){width="30" zoomable="no"}）をクリックして、AI アシスタント メニューにアクセスします。
 
-   ![ 電子メールデザイナーの AI アシスタントの切り替え ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![&#x200B; 電子メールデザイナーの AI アシスタントの切り替え &#x200B;](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
    右側の AI アシスタントの設定には、_生成設定（完全なメール）_ が反映されています。
 
 1. **[!UICONTROL プロンプト]** フィールドに、生成対象の説明を入力します。
 
-   効果的なプロンプトの作成に関するヘルプが必要な場合は、[ プロンプトライブラリ ](#prompt-library) を使用します。
+   効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompt-library) を使用します。
 
-   ![AI アシスタント – テキスト設定 ](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
+   ![AI アシスタント – テキスト設定 &#x200B;](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
 1. AI アシスタントの追加コンテキストを提供できるコンテンツを含むブランドアセットを指定します。
 
@@ -257,7 +257,7 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
    * _サムズアップ_、_サムズダウン_、または _フラグ_ アイコンをクリックして、生成されたバリアントに関するフィードバックを提供し、フィードバックを最もよく要約する理由を選択します。
 
-     ![AI アシスタント – テキスト設定 ](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
+     ![AI アシスタント – テキスト設定 &#x200B;](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL 選択]**」をクリックして、テンプレートのコンテンツを選択したバリアントに置き換え、メールデザインスペースに戻ります。
 
@@ -267,9 +267,9 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
 次の手順では、AI アシスタントを使用して既存の電子メールのテキストコンテンツを調整または拡張するためのタスクシーケンスを説明します。
 
-1. メールデザインスペースで、右側のアイコン（![AI アシスタント メニュー切り替え ](../assets/button-ai-assistant.png){width="30" zoomable="no"}）をクリックして、AI アシスタント メニューにアクセスします。
+1. メールデザインスペースで、右側のアイコン（![AI アシスタント メニュー切り替え &#x200B;](../assets/button-ai-assistant.png){width="30" zoomable="no"}）をクリックして、AI アシスタント メニューにアクセスします。
 
-   ![ 電子メールデザイナーの AI アシスタントの切り替え ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![&#x200B; 電子メールデザイナーの AI アシスタントの切り替え &#x200B;](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
 1. 特定のコンテンツをターゲットにする _テキスト_ コンポーネントを選択します。
 
@@ -277,9 +277,9 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
 1. **[!UICONTROL プロンプト]** フィールドに、生成対象の説明を入力します。
 
-   ![AI アシスタント – テキスト設定 ](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
+   ![AI アシスタント – テキスト設定 &#x200B;](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   効果的なプロンプトの作成に関するヘルプが必要な場合は、[ プロンプトライブラリ ](#prompt-library) を使用します。
+   効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompt-library) を使用します。
 
 1. テキスト生成用のソースとして機能するコンテンツを含むブランドアセットを指定します。
 
@@ -313,7 +313,7 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
    * **[!UICONTROL よりシンプルな言語の使用]** - AI アシスタントを活用して言語を簡素化し、より幅広いオーディエンスに対して明確さとアクセシビリティを確保します。
 
-   ![ テキストのバリエーションおよび絞り込みオプションの AI アシスタントによるプレビュー ](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
+   ![&#x200B; テキストのバリエーションおよび絞り込みオプションの AI アシスタントによるプレビュー &#x200B;](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
 1. 必要なコンテンツが揃ったら、「**[!UICONTROL 選択]**」をクリックして、テキストを選択したバリアントに置き換え、メールデザインスペースに戻ります。
 
@@ -323,9 +323,9 @@ Adobe Journey Optimizer B2B editionには、5 つの標準の B2B 購入グル�
 
 AI アシスタントを使用して、アセットを最適化および改善し、より使いやすいエクスペリエンスを確保できます。 次の手順では、AI アシスタントを使用してメールの画像コンテンツを強化するためのタスクシーケンスを説明します。
 
-1. 右側のアイコン（![AI アシスタント メニュー切り替え ](../assets/button-ai-assistant.png){width="30" zoomable="no"}）をクリックして、AI アシスタント メニューにアクセスします。
+1. 右側のアイコン（![AI アシスタント メニュー切り替え &#x200B;](../assets/button-ai-assistant.png){width="30" zoomable="no"}）をクリックして、AI アシスタント メニューにアクセスします。
 
-   ![ 電子メールデザイナーの AI アシスタントの切り替え ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![&#x200B; 電子メールデザイナーの AI アシスタントの切り替え &#x200B;](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
 1. _画像_ コンポーネントを選択して特定のコンテンツをターゲットにし、AI アシスタント メニューにアクセスします。
 
@@ -333,9 +333,9 @@ AI アシスタントを使用して、アセットを最適化および改善�
 
 1. アセットを微調整するには、必要な説明を「**[!UICONTROL プロンプト]**」フィールドに入力します。
 
-   ![AI アシスタント – テキスト設定 ](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
+   ![AI アシスタント – テキスト設定 &#x200B;](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   効果的なプロンプトの作成に関するヘルプが必要な場合は、[ プロンプトライブラリ ](#prompt-library) を使用します。
+   効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompt-library) を使用します。
 
 1. **[!UICONTROL ブランドアセットをアップロード]** をクリックして、AI アシスタントの追加コンテキストを提供できるコンテンツを含むブランドアセットを追加します。
 

@@ -26,8 +26,8 @@ _待機_ ノードは、次のステップに進む前に、ジャーニーの�
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL 待機]**」を選択します。
 
-   ![ ジャーニーノードの追加 – 待機 ](./assets/add-node-wait.png){width="400"}
+   ![&#x200B; ジャーニーノードの追加 – 待機 &#x200B;](./assets/add-node-wait.png){width="400"}
 
 1. 右側のノードプロパティで、パス内の次のノードにジャーニーが進むまでの待機時間 **[!UICONTROL タイプ]** を設定します。
 
-   ![ジャーニーノード – 待機 ](./assets/node-wait.png){width="700" zoomable="yes"}
+   ![ジャーニーノード – 待機 &#x200B;](./assets/node-wait.png){width="700" zoomable="yes"}

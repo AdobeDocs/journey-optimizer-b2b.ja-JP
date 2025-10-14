@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # アカウントオーディエンスジャーニーノード
 
-アカウントオーディエンスノードは、ジャーニーにエントリするアカウントを指定します。 [ アカウントジャーニーを作成 ](./journey-overview.md#create-an-account-journey) すると、ジャーニーは常に、その入力を定義するアカウントオーディエンスノードで開始します。
+アカウントオーディエンスノードは、ジャーニーにエントリするアカウントを指定します。 [&#x200B; アカウントジャーニーを作成 &#x200B;](./journey-overview.md#create-an-account-journey) すると、ジャーニーは常に、その入力を定義するアカウントオーディエンスノードで開始します。
 
 このジャーニーノードには、次のいずれかの入力オプションを使用します。
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL アカウントオーディエンス]** ノードをクリックします。 このアクションを実行すると、右側にノードのプロパティが表示されます。
 
-   ![ アカウントオーディエンスジャーニーノード ](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
+   ![&#x200B; アカウントオーディエンスジャーニーノード &#x200B;](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 
 1. ジャーニーにエントリするアカウントの入力タイプを選択します。
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
      _[!UICONTROL オーディエンスを追加]_ ダイアログで、以前に作成したオーディエンスセグメントを選択します。 次に、「**[!UICONTROL オーディエンスを追加]** をクリックします。
 
-     ![ ノードのオーディエンスセグメントの選択 ](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+     ![&#x200B; ノードのオーディエンスセグメントの選択 &#x200B;](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
    * **[!UICONTROL アカウントリスト]**
 
@@ -43,9 +43,9 @@ ht-degree: 1%
 
      _[!UICONTROL ライブアカウントリストを選択]_ ダイアログで、公開済みのアカウントリストを選択します。 次に、「**[!UICONTROL 保存]**」をクリックします。
 
-     ![ ノードのライブアカウントリストの選択 ](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
+     ![&#x200B; ノードのライブアカウントリストの選択 &#x200B;](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
 
-     アカウントリストの作成と公開について詳しくは、[ アカウントリスト ](../accounts/account-lists.md) を参照してください。
+     アカウントリストの作成と公開について詳しくは、[&#x200B; アカウントリスト &#x200B;](../accounts/account-lists.md) を参照してください。
 
 ## オーディエンスセグメントの作成
 
@@ -53,6 +53,6 @@ ht-degree: 1%
 
 1. 右上隅の **[!UICONTROL オーディエンスを作成]** をクリックします。
 
-   ![ オーディエンスセグメントの作成 ](./assets/audiences-list-create.png){width="800" zoomable="yes"}
+   ![&#x200B; オーディエンスセグメントの作成 &#x200B;](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. [ セグメント化サービスガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences){target="_blank"} の手順に従います。
+1. [&#x200B; セグメント化サービスガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences){target="_blank"} の手順に従います。

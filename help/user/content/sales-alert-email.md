@@ -19,12 +19,12 @@ _セールスに関するアラート・メール_ は、セールスへの購�
 
 >[!IMPORTANT]
 >
->セールスのアラートメールを配信できるように、組織の許可リストが更新されていることを確認します。 詳しくは、[ トラッキングとメール配信のプロトコル ](../start/email-protocols.md) を参照してください。
+>セールスのアラートメールを配信できるように、組織の許可リストが更新されていることを確認します。 詳しくは、[&#x200B; トラッキングとメール配信のプロトコル &#x200B;](../start/email-protocols.md) を参照してください。
 
 ## メールコンテンツ
 
 +++販売アラートメールのサンプル
-![ デフォルトテンプレートを使用した販売アラートメールの例 ](./assets/sales-alert-email-example.png){width="500" zoomable="yes"}
+![&#x200B; デフォルトテンプレートを使用した販売アラートメールの例 &#x200B;](./assets/sales-alert-email-example.png){width="500" zoomable="yes"}
 
 +++
 
@@ -63,6 +63,6 @@ _セールスに関するアラート・メール_ は、セールスへの購�
 
 1. **[!UICONTROL メールの送信先]** については、配信に含める各メールアドレスまたはエイリアスを入力します。
 
-   ![ 新しいメールを作成ダイアログ ](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しいメールを作成ダイアログ &#x200B;](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
    アカウントジャーニーがライブの場合、sales アラートはこれらのパラメーターに従って配信されます。

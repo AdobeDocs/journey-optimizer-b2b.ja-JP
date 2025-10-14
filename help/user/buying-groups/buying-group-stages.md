@@ -15,9 +15,9 @@ ht-degree: 1%
 
 購入グループステージは、商談を顧客に変換する際の購入グループの進行状況を追跡するように設計されています。 この機能を使用して、購入グループの進行状況を追跡し、購入グループメンバーに次に最適なアクションを特定します。
 
-単一のステージングモデル内でステージを定義し、複数のステージとそれらの間の移行フローを定義します。 ライフサイクルにエントリする 1 つ以上のステージが指定されています。 また、このモデルでは、ステージ A からステージ B、ステージ C、ステージ D など、あるステージから別のステージへのトランジションを指定できる非線形の進行も可能です。購入や署名済みの契約など、1 つのステージを成功ステージと指定する必要があります。 別のステージを、契約の却下や別のベンダーからの競合ソリューションの購入など、失敗ステージとして指定することはオプションです。 これらのステージを [ インテリジェントダッシュボード ](../dashboards/intelligent-dashboard.md) で監視します。これは、購入グループの進捗を、販売機会の完了や、機会から顧客への変換の観点から示します。
+単一のステージングモデル内でステージを定義し、複数のステージとそれらの間の移行フローを定義します。 ライフサイクルにエントリする 1 つ以上のステージが指定されています。 また、このモデルでは、ステージ A からステージ B、ステージ C、ステージ D など、あるステージから別のステージへのトランジションを指定できる非線形の進行も可能です。購入や署名済みの契約など、1 つのステージを成功ステージと指定する必要があります。 別のステージを、契約の却下や別のベンダーからの競合ソリューションの購入など、失敗ステージとして指定することはオプションです。 これらのステージを [&#x200B; インテリジェントダッシュボード &#x200B;](../dashboards/intelligent-dashboard.md) で監視します。これは、購入グループの進捗を、販売機会の完了や、機会から顧客への変換の観点から示します。
 
-![ 購入グループステージの例 ](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+![&#x200B; 購入グループステージの例 &#x200B;](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
 ![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 1. 購入グループページで、「**[!UICONTROL ステージ]**」タブを選択します。
 
-   ![ 「ステージ」タブ ](assets/stages-tab-none.png){width="800" zoomable="yes"}
+   ![&#x200B; 「ステージ」タブ &#x200B;](assets/stages-tab-none.png){width="800" zoomable="yes"}
 
    この _[!UICONTROL ステージ]_ タブは、モデルを作成するまで _空_ 状態になります。
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 1. ダイアログで、モデルの **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![ モデルの名前と説明を追加します ](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}。
+   ![&#x200B; モデルの名前と説明を追加します &#x200B;](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}。
 
    このダイアログで「_[!UICONTROL キャンセル]_」をクリックすると、_[!UICONTROL 空]_ 状態の _ステージ_ タブに戻ります。
 
@@ -59,11 +59,11 @@ ht-degree: 1%
 
 1. **[!UICONTROL ステージを編集]** をクリックします。
 
-   ![ 空のモデルにステージを追加する ](assets/stages-model-empty.png){width="700" zoomable="yes"}
+   ![&#x200B; 空のモデルにステージを追加する &#x200B;](assets/stages-model-empty.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を入力して、最初のステージを定義します。
 
-   ![ 最初のステージの名前と説明を追加 ](assets/stages-model-stage-1.png){width="700" zoomable="yes"}
+   ![&#x200B; 最初のステージの名前と説明を追加 &#x200B;](assets/stages-model-stage-1.png){width="700" zoomable="yes"}
 
    ステージは特定の順序で追加する必要はありませんが、モデルの詳細ページでのステージのリスト方法は決定されます。 移行ルールを定義する際に、入口ステージとステージ間のフローを指定します。
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 
    モデルに必要なステージが揃うまでこの手順を繰り返します。
 
-   ![ モデルに対して定義されたステージ ](assets/stages-model-stages-added.png){width="700" zoomable="yes"}
+   ![&#x200B; モデルに対して定義されたステージ &#x200B;](assets/stages-model-stages-added.png){width="700" zoomable="yes"}
 
 1. 定義したステージの設定が完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 ステージを保存すると、モデルワークスペースに戻ります。 _[!UICONTROL 許可されている転送先]_ 列が空です。これは、モデルステージのトランジションルールがまだ定義されていないことを示します。
 
-![ トランジションルールがまだ定義されていません ](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
+![&#x200B; トランジションルールがまだ定義されていません &#x200B;](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
 トランジションルールは、購入グループがあるステージから別のステージにどのように移動できるかを決定します。 例えば、入口ステージから中間ステージに、そして中間ステージから他の様々なステージに移動することができます。 入口ステージは、購入グループが空白の状態から入ることができる初期ステージで、宛先ステージは成功ステージと失敗ステージに分類されます。
 
@@ -101,13 +101,13 @@ ht-degree: 1%
 
    * **[!UICONTROL 失敗ステージ]** （オプション） – 購買グループの商談が失敗点（宛先）に到達したことを示す 1 つ以上のステージを指定します。
 
-   ![ エントリポイントステージとオプションの失敗ステージを設定 ](./assets/stages-model-edit-stage-rules.png){width="700" zoomable="yes"}
+   ![&#x200B; エントリポイントステージとオプションの失敗ステージを設定 &#x200B;](./assets/stages-model-edit-stage-rules.png){width="700" zoomable="yes"}
 
 1. 宛先以外の各ステージに対して、フロー（トランジション）内で次に来る 1 つ以上のステージを定義します。
 
    すべての宛先以外のステージで、少なくとも 1 つの **[!UICONTROL トランジットを許可する]** ステージを選択する必要があります。 そうしないと、モデルロジックが有効にならず、成功や失敗に進む方法がないまま、その段階でアカウントが _停止_ する可能性があります。
 
-   ![ 宛先以外のステージ間のトランザクションの設定 ](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
+   ![&#x200B; 宛先以外のステージ間のトランザクションの設定 &#x200B;](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
    オプションで、失敗ステージからのトランジションを指定できます。 例えば、「_応答なし_ という名前のステージを失敗ステージとして指定するとします。 ただし、休眠状態のアカウントが再アクティブ化されるケースを特定するための移行可能性として、_復活_ という名前のステージを指定します。
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 | **[!UICONTROL エントリポイントステージ]** | ステージがエントリポイントステージとして有効かどうかを示します（[!UICONTROL &#x200B; はい &#x200B;] または [!UICONTROL &#x200B; いいえ &#x200B;]）。 |
 | **[!UICONTROL 宛先]** | ステージが宛先ステージとして指定されているかどうかを示します（[!UICONTROL &#x200B; 成功 &#x200B;] または [!UICONTROL &#x200B; 失敗 &#x200B;]）。 |
 
-![ ドラフトモデル用に定義されたステージと送信ルール ](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
+![&#x200B; ドラフトモデル用に定義されたステージと送信ルール &#x200B;](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
 
 ## ドラフトモデルの編集
 
@@ -156,7 +156,7 @@ ht-degree: 1%
 
 1. _ステージルールを編集_ ダイアログで、必要に応じてフローオプションを変更します。
 
-   これらのオプションとモデルフローへの影響について詳しくは、[ ワークフローとトランジションルールの設定 ](#configure-the-workflow-and-transition-rules) を参照してください。
+   これらのオプションとモデルフローへの影響について詳しくは、[&#x200B; ワークフローとトランジションルールの設定 &#x200B;](#configure-the-workflow-and-transition-rules) を参照してください。
 
 1. 定義したトランジションルールの設定が完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -180,7 +180,7 @@ ht-degree: 1%
 
    モデルの詳細ページに戻ると、モデルは _[!UICONTROL ライブ]_ と指定されます。 左上の _戻る_ 矢印をクリックして、「_[!UICONTROL ステージ]_」タブページに戻ります。
 
-![ 公開されたモデル ](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
+![&#x200B; 公開されたモデル &#x200B;](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
 <!-- list these later when the Published columns are working correctly
 
 Columns - Name, Status, Created by, Created date, Last updated by, Last update, Published by, Published on.
@@ -198,7 +198,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. ステージモデル名の横にある _その他_ メニューアイコン（**...**）をクリックし、**[!UICONTROL 削除]** を選択します。
 
-   ![ 購入グループステージモデルの詳細メニュー ](./assets/stages-model-list-more-menu.png){width="700"}
+   ![&#x200B; 購入グループステージモデルの詳細メニュー &#x200B;](./assets/stages-model-list-more-menu.png){width="700"}
 
 1. ダイアログで、「**[!UICONTROL 削除]**」をクリックして確定します。
 
@@ -208,7 +208,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### ソリューションの関心の関連付け
 
-購入グループステージモデルを関連付ける既存のソリューションの関心ごとに、ソリューションの関心の詳細を開き、モデルを追加します。 [ ソリューションの関心事を作成 ](./solution-interests.md#create-a-solution-interest) する際に、プロパティにモデルを追加することもできます。
+購入グループステージモデルを関連付ける既存のソリューションの関心ごとに、ソリューションの関心の詳細を開き、モデルを追加します。 [&#x200B; ソリューションの関心事を作成 &#x200B;](./solution-interests.md#create-a-solution-interest) する際に、プロパティにモデルを追加することもできます。
 
 1. _[!UICONTROL ソリューションの関心]_ タブを選択します。
 
@@ -217,11 +217,11 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
    * ソリューションの対象者名をクリックします。
    * その横にある省略記号（**...**）をクリックし、「**[!UICONTROL 編集]**」を選択します。
 
-   ![ ソリューションの関心の詳細メニュー ](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
+   ![&#x200B; ソリューションの関心の詳細メニュー &#x200B;](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. **[!UICONTROL 購入グループステージモデル]** を選択して、購入グループステージの進行を使用します（オプション）。
 
-   ![ ソリューションの対象となる購買グループステージモデルを選択してください ](assets/solution-interest-edit-buying-group-stages-model.png){width="700" zoomable="yes"}
+   ![&#x200B; ソリューションの対象となる購買グループステージモデルを選択してください &#x200B;](assets/solution-interest-edit-buying-group-stages-model.png){width="700" zoomable="yes"}
 
 1. 必要に応じて、「**[!UICONTROL 既存の購買グループの更新]** 設定を変更します。
 
@@ -231,7 +231,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### パスを分割
 
-[ 分割パスノード ](../journeys/journey-nodes.md#split-paths) を使用すると、購入グループステージに応じて、アカウントレベルまたは人物レベルでフィルタリングできます。 例えば、購入グループメンバーによってパスを分割する際のパス条件として、購入グループステージを追加します。
+[&#x200B; 分割パスノード &#x200B;](../journeys/journey-nodes.md#split-paths) を使用すると、購入グループステージに応じて、アカウントレベルまたは人物レベルでフィルタリングできます。 例えば、購入グループメンバーによってパスを分割する際のパス条件として、購入グループステージを追加します。
 
 >[!BEGINTABS]
 
@@ -241,13 +241,13 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL パスを分割]**」を選択します。
 
-   ![ ジャーニーノードの追加 – 分割パス ](../journeys/assets/add-node-split.png){width="300"}
+   ![&#x200B; ジャーニーノードの追加 – 分割パス &#x200B;](../journeys/assets/add-node-split.png){width="300"}
 
 1. 右側のノードプロパティで、分割の **[!UICONTROL アカウント]** を選択します。
 
 1. _[!UICONTROL パス 1]_ に適用できる条件を定義するには、「**[!UICONTROL 条件を適用]**」をクリックします。
 
-   ![ 分割パスノード – 条件を追加 ](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
+   ![&#x200B; 分割パスノード – 条件を追加 &#x200B;](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
 1. 条件エディターで、購入グループフィルターを追加して、分割パスを定義します。
 
@@ -257,13 +257,13 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    * **[!UICONTROL 制約を追加]** をクリックし、**[!UICONTROL 購入グループステージ]** を選択します。
 
-     ![ 分割パスノード – 条件フィルターロジック ](./assets/stages-split-condition-buying-group-stage.png){width="700" zoomable="yes"}
+     ![&#x200B; 分割パスノード – 条件フィルターロジック &#x200B;](./assets/stages-split-condition-buying-group-stage.png){width="700" zoomable="yes"}
 
    * 「**[!UICONTROL 完了]**」をクリックします。
 
    分割パスは、右側のノードプロパティで定義します。
 
-   ![ジャーニー分割ノード プロパティ ](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
+   ![ジャーニー分割ノード プロパティ &#x200B;](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
 
 1. 続けて、分割ノードに他のパスを定義し、ジャーニーを保存します。
 
@@ -273,7 +273,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL パスを分割]**」を選択します。
 
-   ![ ジャーニーノードの追加 – 分割パス ](../journeys/assets/add-node-split.png){width="300"}
+   ![&#x200B; ジャーニーノードの追加 – 分割パス &#x200B;](../journeys/assets/add-node-split.png){width="300"}
 
 1. 右側のノードプロパティで、分割の **[!UICONTROL 人物]** を選択します。
 
@@ -281,7 +281,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. _[!UICONTROL パス 1]_ に適用できる条件を定義するには、「**[!UICONTROL 条件を適用]**」をクリックします。
 
-   ![ 分割パスノード – 条件を追加 ](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
+   ![&#x200B; 分割パスノード – 条件を追加 &#x200B;](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
 1. 条件エディターで、購入グループフィルターを追加して、分割パスを定義します。
 
@@ -291,13 +291,13 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    * **[!UICONTROL 制約を追加]** をクリックし、**[!UICONTROL 購入グループステージ]** を選択します。
 
-     ![ 分割パスノード – 条件フィルターロジック ](./assets/stages-split-condition-member-of-buying-group.png){width="700" zoomable="yes"}
+     ![&#x200B; 分割パスノード – 条件フィルターロジック &#x200B;](./assets/stages-split-condition-member-of-buying-group.png){width="700" zoomable="yes"}
 
    * 「**[!UICONTROL 完了]**」をクリックします。
 
    分割パスは、右側のノードプロパティで定義します。
 
-   ![ジャーニーノード – アカウントのイベントをリッスン ](./assets/stages-split-node-people-properties.png){width="600" zoomable="yes"}
+   ![ジャーニーノード – アカウントのイベントをリッスン &#x200B;](./assets/stages-split-node-people-properties.png){width="600" zoomable="yes"}
 
 1. 続けて、分割ノードに他のパスを定義し、ジャーニーを保存します。
 
@@ -305,7 +305,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### 購買グループ ステージ アカウントの更新アクション
 
-[ アカウントのアクションノード ](../journeys/journey-nodes.md#add-an-account-action) を使用して、購入グループステージを更新できます。 このノードを定義するには、ソリューションの関心を選択し、購入グループの新しいステージを定義する必要があります。
+[&#x200B; アカウントのアクションノード &#x200B;](../journeys/journey-nodes.md#add-an-account-action) を使用して、購入グループステージを更新できます。 このノードを定義するには、ソリューションの関心を選択し、購入グループの新しいステージを定義する必要があります。
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL アクションを実行]**」を選択します。
 
-   ![ ジャーニーノードを追加 – アクションを実行 ](../journeys/assets/add-node-action.png){width="400"}
+   ![&#x200B; ジャーニーノードを追加 – アクションを実行 &#x200B;](../journeys/assets/add-node-action.png){width="400"}
 
 1. 右側のノードプロパティで、アクションとして **[!UICONTROL アカウント]** を選択します。
 
@@ -329,7 +329,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    アクションは、右側のノードプロパティで定義されます。
 
-   ![ジャーニーノード – アカウントに対してアクションを実行 ](./assets/stages-take-action-node-update-buying-group-stage.png){width="600" zoomable="yes"}
+   ![ジャーニーノード – アカウントに対してアクションを実行 &#x200B;](./assets/stages-take-action-node-update-buying-group-stage.png){width="600" zoomable="yes"}
 
 1. 引き続き他の変更を行い、ジャーニーを保存します。
 
@@ -341,7 +341,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL イベントをリッスン]**」を選択します。
 
-   ![ ジャーニーノードを追加 – イベントをリッスン ](../journeys/assets/add-node-event.png){width="400"}
+   ![&#x200B; ジャーニーノードを追加 – イベントをリッスン &#x200B;](../journeys/assets/add-node-event.png){width="400"}
 
 1. 右側のノードプロパティで、イベントタイプとして **[!UICONTROL アカウント]** を選択します。
 
@@ -353,13 +353,13 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    * 「**[!UICONTROL 制約を追加]**」をクリックし、イベントのトリガーに使用する購入グループステージ変更を選択します。
 
-     ![ジャーニーノード – アカウントのイベントをリッスン ](./assets/stages-event-node-edit-buying-group-stage-change.png){width="700" zoomable="yes"}
+     ![ジャーニーノード – アカウントのイベントをリッスン &#x200B;](./assets/stages-event-node-edit-buying-group-stage-change.png){width="700" zoomable="yes"}
 
    * 「**[!UICONTROL 完了]**」をクリックします。
 
    イベントは、右側のノードプロパティで定義されます。
 
-   ![ジャーニーノード – アカウントのイベントをリッスン ](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
+   ![ジャーニーノード – アカウントのイベントをリッスン &#x200B;](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. 引き続き他の変更を行い、ジャーニーを保存します。
 

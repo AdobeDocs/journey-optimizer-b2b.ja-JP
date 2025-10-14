@@ -23,7 +23,7 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
 1. _[!UICONTROL 購入グループ]_ ページで、「**[!UICONTROL 役割テンプレート]**」タブを選択します。
 
-   ![ 「役割テンプレート」タブ ](assets/roles-templates-tab.png){width="800" zoomable="yes"}
+   ![&#x200B; 「役割テンプレート」タブ &#x200B;](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    このタブには、既存のすべての役割テンプレートの在庫リストが表示され、次の情報が列形式で表示されます。
 
@@ -42,7 +42,7 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
    名前の最初の数文字を入力して、表示されるリストを一致する項目に減らします。
 
-   ![ 検索文字列による役割テンプレートのフィルタリング ](assets/roles-templates-search.png){width="700" zoomable="yes"}
+   ![&#x200B; 検索文字列による役割テンプレートのフィルタリング &#x200B;](assets/roles-templates-search.png){width="700" zoomable="yes"}
 
 ## 役割テンプレートの作成
 
@@ -50,7 +50,7 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
 1. ダイアログで、テンプレートに一意の **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![ 役割テンプレートを作成ダイアログ ](assets/roles-template-create-dialog.png){width="400"}
+   ![&#x200B; 役割テンプレートを作成ダイアログ &#x200B;](assets/roles-template-create-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -64,15 +64,15 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 | ---- | --------- |
 | 顧客属性 | <li>メールアドレス <li>メール無効 <li>メール中断済み <li>FAX 番号 <li>名 <li>推測される都道府県 / 地域 <li>役職 <li>姓 <li>ミドルネーム <li>携帯電話番号 <li>人物エンゲージメントスコア <li>電話番号 <li>郵便番号 <li>ステート <li>登録解除 <li>登録解除の理由 |
 | 特殊フィルター | <li>リストのメンバー <li>プログラムのメンバー |
-| インテントデータ | カテゴリインテント <li>製品インテント <li>キーワードインテント <br/>[ インテントデータについて説明します ](../admin/intent-data.md)。 |
+| インテントデータ | カテゴリインテント <li>製品インテント <li>キーワードインテント <br/>[&#x200B; インテントデータについて説明します &#x200B;](../admin/intent-data.md)。 |
 
 1. 最初の役割カードに対して、役割のプロパティを定義します。
 
    * リストから **[!UICONTROL 購入グループの役割]** を選択します。
 
-     デフォルトの役割には、`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion` および `Other` の 6 つがあります。 リストには、[ 役割 _リストで定義されているカスタムの役割_ も含まれ ](./default-custom-roles.md#custom-roles) います。
+     デフォルトの役割には、`Decision Maker`、`Influencer`、`Practitioner`、`Executive Steering Committee`、`Champion` および `Other` の 6 つがあります。 リストには、[&#x200B; 役割 _リストで定義されているカスタムの役割_ も含まれ &#x200B;](./default-custom-roles.md#custom-roles) います。
 
-     ![ 購入グループの役割のリスト ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![&#x200B; 購入グループの役割のリスト &#x200B;](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
    * エンゲージメントスコアの計算に使用される役割の **[!UICONTROL 重み付け]** を設定します。
 
@@ -88,7 +88,7 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
    * _[!UICONTROL 条件]_ ダイアログで、**[!UICONTROL Person 属性]** のリストを展開し、役割に一致させるために使用する属性を見つけます。 右にドラッグして、フィルタースペースにドロップします。
 
-     ![ ロールテンプレートの追加条件のドラッグ属性 ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+     ![&#x200B; ロールテンプレートの追加条件のドラッグ属性 &#x200B;](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
      >[!NOTE]
      >
@@ -98,7 +98,7 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
      次の例では、ジョブタイトル属性を使用して、意思決定者の一致を識別します。 `Director` または `Sr Director` で始まるタイトルの値が、条件で true と評価される場合。
 
-     ![ 役職を使用したロールテンプレートの条件の例 ](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+     ![&#x200B; 役職を使用したロールテンプレートの条件の例 &#x200B;](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
    * 必要に応じて、別の属性と条件を追加し、役割との一致の条件をさらに絞り込みます。
 
@@ -106,7 +106,7 @@ B2B 市場では、購入の決定は通常、複数の個人によって行わ�
 
 1. テンプレートに含める追加の役割ごとに、「**[!UICONTROL 別の役割を追加]**」をクリックし、手順 1 と 2 を繰り返して役割を定義します。
 
-   ![ 複数の役割が定義された役割テンプレート ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![&#x200B; 複数の役割が定義された役割テンプレート &#x200B;](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX  「Marketo Engage リストのメンバーシップ」 ]
 
@@ -114,7 +114,7 @@ Marketo Engageでは、_スマートキャンペーン_ プログラムのメン
 
 リスト メンバシップをロール条件として使用するには、[**[!UICONTROL 特殊フィルタ]**] を展開し、[**[!UICONTROL リストのメンバ]**] 条件をフィルタ スペースにドラッグします。 次に、フィルター定義を完了して、1 つ以上のMarketo Engage リストのメンバーシップを評価します。
 
-![Marketo Engage リストメンバーシップのロールテンプレート条件 ](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+![Marketo Engage リストメンバーシップのロールテンプレート条件 &#x200B;](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -132,21 +132,21 @@ Marketo Engageでは、_スマートキャンペーン_ プログラムのメン
 
 購入グループの役割、重み付け、自動割り当て、完了度スコアの要件など、役割カードのヘッダーの設定を変更します。
 
-![ 購買グループ ロール プロパティの変更 ](./assets/roles-template-role-properties.png){width="600"}
+![&#x200B; 購買グループ ロール プロパティの変更 &#x200B;](./assets/roles-template-role-properties.png){width="600"}
 
 ### 役割の条件の変更
 
-いずれかの役割の条件/フィルタリングロジックを変更するには、役割カードの右上にある _編集_ （![ 編集アイコン ](../assets/do-not-localize/icon-edit.svg)）アイコンをクリックします。 このアクションにより、_[!UICONTROL 条件]_ ワークスペースが開き、既存のフィルターの変更、フィルターの追加や削除、フィルターロジックの変更をおこなうことができます。
+いずれかの役割の条件/フィルタリングロジックを変更するには、役割カードの右上にある _編集_ （![&#x200B; 編集アイコン &#x200B;](../assets/do-not-localize/icon-edit.svg)）アイコンをクリックします。 このアクションにより、_[!UICONTROL 条件]_ ワークスペースが開き、既存のフィルターの変更、フィルターの追加や削除、フィルターロジックの変更をおこなうことができます。
 
 ### 役割カードの削除
 
-テンプレートから役割を削除する場合は、役割カードの _削除_ （![ 削除アイコン ](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックします。
+テンプレートから役割を削除する場合は、役割カードの _削除_ （![&#x200B; 削除アイコン &#x200B;](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックします。
 
 ### 役割の優先度の設定
 
 テンプレート内のロールの順序を変更できます。これにより、リードをロールに割り当てる優先度が決まります。 各役割カードの右側に **[!UICONTROL 優先度]** コントローラが表示されます。 右側の _上_ または _下_ 矢印をクリックして、役割カードを優先して上下に移動します。
 
-![ 役割の優先度の変更 ](./assets/roles-template-role-priority.png){width="700"}
+![&#x200B; 役割の優先度の変更 &#x200B;](./assets/roles-template-role-priority.png){width="700"}
 
 ## 役割テンプレートの削除
 
@@ -156,7 +156,7 @@ Marketo Engageでは、_スマートキャンペーン_ プログラムのメン
 
 1. 右上の **[!UICONTROL 削除]** をクリックします。
 
-   ![ 役割の優先度の変更 ](./assets/roles-template-delete.png){width="700"}
+   ![&#x200B; 役割の優先度の変更 &#x200B;](./assets/roles-template-delete.png){width="700"}
 
 1. ダイアログで、「**[!UICONTROL 削除]**」をクリックして確定します。
 

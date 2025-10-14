@@ -20,23 +20,23 @@ ht-degree: 2%
 
 1. _[!UICONTROL シミュレート]_ ページで、右上の **[!UICONTROL スパムレポート]** をクリックします。
 
-   ![ スパムレポートのボタン ](./assets/email-spam-report-button.png){width="700" zoomable="yes"}
+   ![&#x200B; スパムレポートのボタン &#x200B;](./assets/email-spam-report-button.png){width="700" zoomable="yes"}
 
-   レポートプロセスは、メールコンテンツをスキャンし、スコアの生成に使用されるトリガーフィルタリングルールのリストを含むスコアを生成します。 要因には、本文のレイアウト、構造、画像サイズ、スパムトリガーの語句、その他の要素が含まれます。 メール要素のルール評価テストのリストについては、[[!DNL SpamAssassin]  テストリスト ](https://spamassassin.apache.org/old/tests_3_0_x.html) を参照してください。
+   レポートプロセスは、メールコンテンツをスキャンし、スコアの生成に使用されるトリガーフィルタリングルールのリストを含むスコアを生成します。 要因には、本文のレイアウト、構造、画像サイズ、スパムトリガーの語句、その他の要素が含まれます。 メール要素のルール評価テストのリストについては、[[!DNL SpamAssassin]  テストリスト &#x200B;](https://spamassassin.apache.org/old/tests_3_0_x.html) を参照してください。
 
 1. 各項目のスコアと説明を確認します。
 
    >[!NOTE]
    >
-   >スパムスコアは SpamAssassin を使用して計算され、Adobeはルールやスコアリングロジックを所有していません。 [!DNL SpamAssassin] オープンソースプロジェクトについて詳しくは、[[!DNL SpamAssassin]  ドキュメント ](https://cwiki.apache.org/confluence/display/SPAMASSASSIN/) を参照してください。
+   >スパムスコアは SpamAssassin を使用して計算され、Adobeはルールやスコアリングロジックを所有していません。 [!DNL SpamAssassin] オープンソースプロジェクトについて詳しくは、[[!DNL SpamAssassin]  ドキュメント &#x200B;](https://cwiki.apache.org/confluence/display/SPAMASSASSIN/) を参照してください。
 
    スコアが低いほど、メールがスパムとしてマークされる可能性が低くなります。
 
-   ![ スパムレポートのポジティブスコア ](./assets/email-spam-report-positive.png){width="600" zoomable="yes"}
+   ![&#x200B; スパムレポートのポジティブスコア &#x200B;](./assets/email-spam-report-positive.png){width="600" zoomable="yes"}
 
    スコアが 5 を超えるレポートには、一部のメッセージが受信時にブロックされるかスパムと見なされる可能性があるという警告が含まれます。 ベストプラクティスとして、スコアを 2 未満に抑えます。
 
-   ![ スパムレポートの管理スコア ](./assets/email-spam-report-negative.png){width="600" zoomable="yes"}
+   ![&#x200B; スパムレポートの管理スコア &#x200B;](./assets/email-spam-report-negative.png){width="600" zoomable="yes"}
 
 1. メールコンテンツ内に改善可能な要素がある場合は、コンテンツを編集して必要な更新を適用します。
 

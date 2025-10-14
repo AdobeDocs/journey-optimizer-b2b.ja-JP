@@ -18,13 +18,13 @@ ht-degree: 0%
    >
    >_[!UICONTROL n:n 列]_ コンポーネントを選択して、列数（3～10）を任意に定義します。 また、列の下に矢印を移動して、各列の幅を定義することもできます。
 
-   ![ 構造をキャンバスにドラッグして、設定を調整します ](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"}
+   ![&#x200B; 構造をキャンバスにドラッグして、設定を調整します &#x200B;](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"}
 
    各列のサイズを構造コンポーネントの全幅の 10% 未満にすることはできません。 削除できるのは空の列のみです。
 
 1. 「**[!UICONTROL コンテンツ]**」セクションを展開し、必要な数のコンテンツコンポーネントを 1 つ以上の構造コンポーネントに追加します。
 
-   ![ コンテンツ要素をキャンバスにドラッグして、設定を調整します ](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
+   ![&#x200B; コンテンツ要素をキャンバスにドラッグして、設定を調整します &#x200B;](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
    reference to the contents elements when we have a completed reference for each.--->
 

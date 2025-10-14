@@ -10,10 +10,10 @@ ht-degree: 0%
 
 # コンテンツオーサリング – リンクトラッキング
 
-1. 左側の _[!UICONTROL リンク]_ アイコン（![ リンクを表示アイコン ](../assets/do-not-localize/icon-links.svg)）をクリックすると、追跡するコンテンツ内のすべてのリンク済み URL が表示されます。
+1. 左側の _[!UICONTROL リンク]_ アイコン（![&#x200B; リンクを表示アイコン &#x200B;](../assets/do-not-localize/icon-links.svg)）をクリックすると、追跡するコンテンツ内のすべてのリンク済み URL が表示されます。
 
-1. 必要に応じて、_編集_ （![ 編集アイコン ](../user/assets/do-not-localize/icon-edit.svg)）アイコンをクリックし、**[!UICONTROL トラッキングタイプ]** または **[!UICONTROL ラベル]** を変更します。
+1. 必要に応じて、_編集_ （![&#x200B; 編集アイコン &#x200B;](../user/assets/do-not-localize/icon-edit.svg)）アイコンをクリックし、**[!UICONTROL トラッキングタイプ]** または **[!UICONTROL ラベル]** を変更します。
 
    リンクに _タグ_ を追加することもできます。
 
-![ リンクトラッキングにアクセスするには、編集アイコンをクリック ](../assets/content-design-shared/visual-designer-links.png){width="500"}
+![&#x200B; リンクトラッキングにアクセスするには、編集アイコンをクリック &#x200B;](../assets/content-design-shared/visual-designer-links.png){width="500"}

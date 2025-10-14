@@ -19,7 +19,7 @@ ht-degree: 1%
 
 この概要は、公開済みアカウントジャーニーで使用でき、データがグラフとテーブルに入力され始めるまで約 4 時間かかります。
 
-![ アクティブなジャーニーの詳細へのアクセス ](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+![&#x200B; アクティブなジャーニーの詳細へのアクセス &#x200B;](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
 
 ## ジャーニー完了
 
@@ -71,7 +71,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 _[!UICONTROL ジャーニーのステータス]_ グラフで、個々のアカウントのステータスを詳細に分析するには、「**[!UICONTROL ドリルスルー]**」を選択します。
 
-![ グラフデータのドリルスルー ](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+![&#x200B; グラフデータのドリルスルー &#x200B;](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
 The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
 
@@ -79,6 +79,6 @@ The applied global filters are carried over to the view and displayed at the top
 
 **[!UICONTROL さらに表示]** を選択すると、拡張データにアクセスできます。 表示されるポップアップには、データの分類が表示されます。
 
-![ 拡張データの表示 ](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
+![&#x200B; 拡張データの表示 &#x200B;](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
 データをダウンロードするには、データテーブルの右上にある **[!UICONTROL CSV をダウンロード]** をクリックします。 _概要_ ダッシュボードに戻るには、「**[!UICONTROL 閉じる]**」をクリックします。

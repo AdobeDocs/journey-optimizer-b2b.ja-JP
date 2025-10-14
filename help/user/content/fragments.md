@@ -36,7 +36,7 @@ ht-degree: 3%
 
 Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアクセスするには、左側のナビゲーションに移動して、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL フラグメント]** をクリックします。 このアクションを実行すると、インスタンスで作成されたすべてのフラグメントを含むリストページがテーブルに表示されます。
 
-![ フラグメントライブラリへのアクセス ](./assets/fragments-list.png){width="700" zoomable="yes"}
+![&#x200B; フラグメントライブラリへのアクセス &#x200B;](./assets/fragments-list.png){width="700" zoomable="yes"}
 
 テーブルは _[!UICONTROL 変更済み]_ 列で並べ替えられ、デフォルトでは最近更新されたフラグメントが先頭に表示されます。 列タイトルをクリックして、昇順と降順を切り替えます。
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 | 公開日 | フラグメントを公開すると、メールまたはメールテンプレートで使用できるようになります。 公開されたフラグメントコンテンツは、ビジュアルデザイン領域では変更できません。 使用可能なアクション：<br/><ul><li>説明を編集<li>メールまたはテンプレートへの追加<li>ドラフトバージョンを作成<li>複製<li>削除（使用中でない場合） |
 | 公開済み下書きあり | 公開されたフラグメントからドラフトを作成する場合、公開されたバージョンはメールまたはメールテンプレートで使用でき、ドラフトコンテンツはビジュアルデザイン領域で変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、使用中のメールおよびメールテンプレートのコンテンツが更新されます。 使用可能なアクション：<br/><ul><li>説明を編集<li>メールまたはテンプレートへの追加<li>ビジュアルデザイン領域でのドラフトバージョンの編集<li>ドラフトバージョンを公開<li>複製<li>削除（使用中でない場合） |
 
-![ フラグメントステータスのライフサイクル ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+![&#x200B; フラグメントステータスのライフサイクル &#x200B;](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -58,17 +58,17 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 
 ### フラグメントリストのフィルタリング
 
-名前でフラグメントを検索するには、検索バーに一致するテキスト文字列を入力します。 _フィルター_ アイコン（![ フィルターを表示/非表示アイコン ](../assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、表示される項目を指定した条件に従ってフィルタリングするための設定を変更します。
+名前でフラグメントを検索するには、検索バーに一致するテキスト文字列を入力します。 _フィルター_ アイコン（![&#x200B; フィルターを表示/非表示アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、表示される項目を指定した条件に従ってフィルタリングするための設定を変更します。
 
-![ 表示されたフラグメントのフィルタリング ](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
+![&#x200B; 表示されたフラグメントのフィルタリング &#x200B;](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
 ### 列表示のカスタマイズ
 
-右上の _テーブルをカスタマイズ_ アイコン（![ テーブルアイコンをカスタマイズ ](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。
+右上の _テーブルをカスタマイズ_ アイコン（![&#x200B; テーブルアイコンをカスタマイズ &#x200B;](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。
 
 ダイアログで、表示する列を選択し、「**[!UICONTROL 適用]**」をクリックします。
 
-![ 表示する列を選択する ](./assets/fragments-customize-table-dialog.png){width="300"}
+![&#x200B; 表示する列を選択する &#x200B;](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## フラグメントを作成
 
@@ -86,7 +86,7 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 
    * 予約文字は使用できません **_使用できません_**: `\ / : * ? " < > |`
 
-   ![ フラグメントを作成ダイアログ ](./assets/assets-fragments-create-dialog.png){width="400"}
+   ![&#x200B; フラグメントを作成ダイアログ &#x200B;](./assets/assets-fragments-create-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -101,15 +101,15 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
    * [カスタムフィールドの有効化](./fragment-authoring.md#enable-fragment-customization)
    * [リンクされた URL トラッキングを編集](./fragment-authoring.md#edit-linked-url-tracking)
 
-1. （オプション）フラグメントコンテンツに [ ブランドテーマ ](./brand-themes.md) を適用して、フラグメントのオーサリングプロセスを効率化し、デザインが定義済みの標準に従っていることを確認します。
+1. （オプション）フラグメントコンテンツに [&#x200B; ブランドテーマ &#x200B;](./brand-themes.md) を適用して、フラグメントのオーサリングプロセスを効率化し、デザインが定義済みの標準に従っていることを確認します。
 
    >[!NOTE]
    >
    >テーマを適用した場合、フラグメントの互換性は、_テーマモード_ で作成されたメールおよびメールテンプレートに制限されます。
 
-   右側の _テーマ_ （![ テーマアイコン ](../assets/do-not-localize/icon-design-themes.svg)）アイコンをクリックします。
+   右側の _テーマ_ （![&#x200B; テーマアイコン &#x200B;](../assets/do-not-localize/icon-design-themes.svg)）アイコンをクリックします。
 
-   ![ フラグメントデザイン領域 – テーマアイコンが選択されている様子 ](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+   ![&#x200B; フラグメントデザイン領域 – テーマアイコンが選択されている様子 &#x200B;](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
 
    「**[!UICONTROL マイテーマ]**」タブに表示されているカスタムテーマの 1 つを選択するか、**[!UICONTROL Adobe テーマ]** を選択して組み込みのテーマを使用できます。 リストの外側をクリックすると、選択したテーマによってキャンバス内のすべてのコンポーネントのスタイルが適用されます。 必要に応じて、カラーバリエーションを切り替えることができます。
 
@@ -125,7 +125,7 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 >
 >公開されたフラグメントがメールまたはメールテンプレートで使用されている場合、名前を変更したり、コンテンツを編集したりすることはできません。 フラグメントに変更を加える場合は、ドラフトバージョンを作成できます。
 
-![ 公開済みフラグメントの詳細を表示 ](./assets/fragment-details-published.png){width="600" zoomable="yes"}
+![&#x200B; 公開済みフラグメントの詳細を表示 &#x200B;](./assets/fragment-details-published.png){width="600" zoomable="yes"}
 
 **[!UICONTROL フラグメントを編集]** をクリックして、フラグメントをビジュアルコンテンツエディターで開きます。
 
@@ -141,7 +141,7 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 
 参照は、カテゴリ（_メール_ または _メールテンプレート_ に従って表示されます。 Journey Optimizer B2B editionのメールは、アカウントジャーニー内に埋め込まれて作成されるので、フラグメントを使用するメールの親ジャーニーは参照に表示されます。
 
-![ フラグメントの参照で使用 ](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
+![&#x200B; フラグメントの参照で使用 &#x200B;](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
 リンクをクリックして、フラグメントが使用されている対応するメールまたはメールテンプレートを開きます。
 
@@ -156,11 +156,11 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 
 この操作を実行すると、確認ダイアログが開きます。 **[!UICONTROL キャンセル]** をクリックするか、「**[!UICONTROL 削除]**」をクリックして削除を確定すると、プロセスを中止できます。
 
-![ フラグメントを削除ダイアログ ](./assets/fragment-delete-dialog.png){width="400"}
+![&#x200B; フラグメントを削除ダイアログ &#x200B;](./assets/fragment-delete-dialog.png){width="400"}
 
 フラグメントが現在使用中の場合は、削除できないことを警告する情報ダイアログが開きます。 「**[!UICONTROL OK]**」をクリックすると、削除アクションは中止されます。
 
-![ フラグメントを削除ダイアログ – 使用中のフラグメントを削除できない ](./assets/fragment-delete-dialog-in-use.png){width="400"}
+![&#x200B; フラグメントを削除ダイアログ – 使用中のフラグメントを削除できない &#x200B;](./assets/fragment-delete-dialog-in-use.png){width="400"}
 
 ## フラグメントの編集
 
@@ -180,7 +180,7 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 
 1. 名前や説明など、詳細を変更します。
 
-   ![ ドラフト状態のフラグメントの詳細 ](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![&#x200B; ドラフト状態のフラグメントの詳細 &#x200B;](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
 1. ビジュアルデザインスペースでコンテンツに変更を加えるには、「**[!UICONTROL フラグメントを編集]** をクリックします。
 
@@ -211,7 +211,7 @@ Adobe Journey Optimizer B2B editionでビジュアルフラグメントにアク
 
    ダイアログで **[!UICONTROL OK]** をクリックして、ビジュアルデザイン領域でドラフトバージョンを開きます。
 
-   ![ ドラフトバージョンを作成ダイアログ ](./assets/fragments-create-draft-version.png){width="300"}
+   ![&#x200B; ドラフトバージョンを作成ダイアログ &#x200B;](./assets/fragments-create-draft-version.png){width="300"}
 
    必要に応じて、ビジュアルデザインツールを使用します。
 
@@ -234,7 +234,7 @@ _[!UICONTROL フラグメント]_ リストページからドラフトバージ�
 
 * フラグメント名の横にある _詳細_ アイコン（**...**）をクリックし、「**[!UICONTROL ドラフトバージョンを開く]**」を選択します。
 
-  ![ ドラフトバージョンを開く ](./assets/fragments-create-draft-version.png){width="300"}
+  ![&#x200B; ドラフトバージョンを開く &#x200B;](./assets/fragments-create-draft-version.png){width="300"}
 
 * フラグメント名をクリックして開きます。 次に、右上の **[!UICONTROL ドラフトバージョンを開く]** をクリックします。
 
@@ -266,11 +266,11 @@ _[!UICONTROL フラグメント]_ リストページからドラフトバージ�
 * _[!UICONTROL フラグメント]_ リストページで、フラグメント名の横にある _詳細_ アイコン（**...**）をクリックし、「**[!UICONTROL 複製]**」を選択します。
 * フラグメントの詳細ページの右上にある「**[!UICONTROL ..」をクリックします。詳細を表示して]** 「複製 **[!UICONTROL を選択]** ます。
 
-![ フラグメントを複製 ](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
+![&#x200B; フラグメントを複製 &#x200B;](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
 
 ダイアログで、便利な名前（一意の）と説明を入力します。 「**[!UICONTROL 複製]**」をクリックして、アクションを完了します。
 
-![ 複製されたフラグメントの名前と説明を入力 ](./assets/fragment-duplicate-dialog.png){width="400"}
+![&#x200B; 複製されたフラグメントの名前と説明を入力 &#x200B;](./assets/fragment-duplicate-dialog.png){width="400"}
 
 複製された（新しい）フラグメントが _フラグメント_ リストに表示されます。
 
@@ -302,9 +302,9 @@ _[!UICONTROL フラグメント]_ リストページからドラフトバージ�
 
 1. **[!UICONTROL アカウントジャーニー]** に移動し、既存のジャーニーを開くか、新しいジャーニーを作成します。
 
-1. [_[!UICONTROL &#x200B; メールを送信 &#x200B;]_&#x200B;ノード ](./add-email.md#add-an-email-action-node-in-a-journey) を作成します。
+1. [_[!UICONTROL &#x200B; メールを送信 &#x200B;]_&#x200B;ノード &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey) を作成します。
 
-1. [ ノードのメールコンテンツ ](./email-authoring.md) を作成または編集します。
+1. [&#x200B; ノードのメールコンテンツ &#x200B;](./email-authoring.md) を作成または編集します。
 
 1. **[!UICONTROL コンポーネント]** メニューから項目をドラッグ&amp;ドロップして、フラグメントの _構造_ を指定します。
 
@@ -316,7 +316,7 @@ _[!UICONTROL フラグメント]_ リストページからドラフトバージ�
    * カード表示（サムネール）とリスト表示を切り替えます。
    * 最近作成したフラグメントが反映されるように、リストを更新します。
 
-   ![ ビジュアルデザイナーでのフラグメントの検索 ](./assets/fragments-list-designer-search.png){width="600"}
+   ![&#x200B; ビジュアルデザイナーでのフラグメントの検索 &#x200B;](./assets/fragments-list-designer-search.png){width="600"}
 
 1. 任意のフラグメントを構造コンポーネントプレースホルダーにドラッグ&amp;ドロップします。
 
@@ -346,7 +346,7 @@ _[!UICONTROL フラグメント]_ リストページからドラフトバージ�
    * カード表示（サムネール）とリスト表示を切り替えます。
    * 最近作成したフラグメントが反映されるように、リストを更新します。
 
-   ![ ビジュアルデザイナーでのフラグメントの検索 ](./assets/fragments-list-designer-search.png){width="600"}
+   ![&#x200B; ビジュアルデザイナーでのフラグメントの検索 &#x200B;](./assets/fragments-list-designer-search.png){width="600"}
 
 1. 任意のフラグメントを構造コンポーネントプレースホルダーにドラッグ&amp;ドロップします。
 
@@ -376,4 +376,4 @@ _[!UICONTROL フラグメント]_ リストページからドラフトバージ�
 
 エディターページでフラグメントを選択すると、これらのアクションはコンテキストツールバーと、右側のプロパティパネルから使用できます。
 
-![ 選択されているフラグメントへのアクションの適用 ](./assets/fragment-actions-email-authoring.png){width="600" zoomable="yes"}
+![&#x200B; 選択されているフラグメントへのアクションの適用 &#x200B;](./assets/fragment-actions-email-authoring.png){width="600" zoomable="yes"}

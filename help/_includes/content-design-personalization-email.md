@@ -19,7 +19,7 @@ Journey Optimizer B2B editionでは、パーソナライズされたコンテン
 
 >[!NOTE]
 >
->一貫したエクスペリエンスを実現するために、Journey Optimizer B2B editionはメール内のパーソナライゼーショントークンの _キャメルケース_ 構文に従って、他のAdobe Experience Platform アプリケーションと一致するようになりました。 このトークン形式は、[Handlebars テンプレート言語 ](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"} と完全に互換性があります。 この変更の前に追加されたトークンは、自動的に更新されます。
+>一貫したエクスペリエンスを実現するために、Journey Optimizer B2B editionはメール内のパーソナライゼーショントークンの _キャメルケース_ 構文に従って、他のAdobe Experience Platform アプリケーションと一致するようになりました。 このトークン形式は、[Handlebars テンプレート言語 &#x200B;](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"} と完全に互換性があります。 この変更の前に追加されたトークンは、自動的に更新されます。
 
 Journey Optimizer B2B editionは、コンテンツの処理時に、式をExperience Platform データベースに含まれるデータで置き換えます。 最初の例は、_Hello John Doe_ となります。
 
@@ -27,7 +27,7 @@ Journey Optimizer B2B editionは、コンテンツの処理時に、式をExperi
 
 1. テキストコンポーネントを選択し、ツールバーの _パーソナライゼーションを追加_ アイコンをクリックします。
 
-   ![ 「パーソナライズ」アイコンをクリック ](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
+   ![&#x200B; 「パーソナライズ」アイコンをクリック &#x200B;](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
 
    これにより、「_Personalizationを編集_ ダイアログが開きます。
 
@@ -35,7 +35,7 @@ Journey Optimizer B2B editionは、コンテンツの処理時に、式をExperi
 
    フォールバック（リードでそのフィールドが使用できない場合に表示されるデフォルトのテキスト）を含むトークンを追加したい場合は、_詳細_ アイコン（**...**）をクリックして **[!UICONTROL フォールバックテキストで挿入]** を選択します。
 
-   ![ トークンを使用したパーソナライズされたテキストの作成 ](../assets/content-design-shared/visual-designer-personalize-dialog-handlebar.png){width="700" zoomable="yes"}
+   ![&#x200B; トークンを使用したパーソナライズされたテキストの作成 &#x200B;](../assets/content-design-shared/visual-designer-personalize-dialog-handlebar.png){width="700" zoomable="yes"}
 
 1. 含める追加のトークンやその他の静的テキストを追加します。
 
@@ -43,4 +43,4 @@ Journey Optimizer B2B editionは、コンテンツの処理時に、式をExperi
 
    パーソナライゼーションスクリプティングがビジュアルデザインスペースに表示されます。 必要に応じて、テンプレートを選択して変更を加えることができます。
 
-   ![ パーソナライゼーションスクリプトを選択 ](../assets/content-design-shared/visual-designer-select-personalization-script.png){width="600"}
+   ![&#x200B; パーソナライゼーションスクリプトを選択 &#x200B;](../assets/content-design-shared/visual-designer-select-personalization-script.png){width="600"}

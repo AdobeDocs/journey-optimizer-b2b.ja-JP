@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # 購買グループの作成
 
-購入グループを作成すると、[ ソリューションの興味 ](./solution-interests.md) を通じて、アカウントジャーニーで使用できるようになります。
+購入グループを作成すると、[&#x200B; ソリューションの興味 &#x200B;](./solution-interests.md) を通じて、アカウントジャーニーで使用できるようになります。
 
 1. 左側のナビゲーションで「**[!UICONTROL 購入グループ]**」をクリックします。
 
 1. _[!UICONTROL 購入グループ]_ ページで、ページの右上にある **[!UICONTROL 購入グループの作成]** をクリックします。
 
-   ![ 「購入グループの作成」をクリック ](./assets/buying-groups-create.png){width="700" zoomable="yes"}
+   ![&#x200B; 「購入グループの作成」をクリック &#x200B;](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
 1. 各ページのプロンプトに従い、「**[!UICONTROL 次へ]**」をクリックして続行します。
 
-![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ チュートリアルビデオをご覧ください ](#how-to-video)
+![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"}[&#x200B; チュートリアルビデオをご覧ください &#x200B;](#how-to-video)
 
 ## ガイダンスページ
 
@@ -40,7 +40,7 @@ ht-degree: 3%
 
    _[!UICONTROL プロパティ]_ の下で、購入グループの名前が &lt; アカウント名 > の &lt; ソリューションの関心名 > として自動的に生成されます（読み取り専用）。
 
-   ![ 「購入グループの作成」をクリック ](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
+   ![&#x200B; 「購入グループの作成」をクリック &#x200B;](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
 1. ソリューションの関心とアカウントオーディエンスを選択したら、「**[!UICONTROL 作成]**」をクリックします。
 
@@ -48,13 +48,13 @@ ht-degree: 3%
 
 確認ダイアログには、購買グループのプロセスの概要と完了までの推定時間が表示されます。 プロセスを確認して開始するには、「**[!UICONTROL 作成]**」をクリックします。
 
-![ 購入グループ作成の確認ダイアログ ](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
+![&#x200B; 購入グループ作成の確認ダイアログ &#x200B;](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
 ## 購買グループ作成ジョブ
 
 作成ジョブは、アカウントオーディエンスの新しいアカウントごとに購入グループを自動的に作成します。 「_[!UICONTROL ソリューションの関心]_」タブに移動すると、ソリューションの関心ごとに作成された作成ジョブの数を表示できます。 **[!UICONTROL 購買グループ作成ジョブ]** 列の数値をクリックして、作成ジョブのリストを表示します。
 
-![ ソリューションの関心によるグループのジョブの購入 ](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
+![&#x200B; ソリューションの関心によるグループのジョブの購入 &#x200B;](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 <!-- Other buying group activities:
 

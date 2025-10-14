@@ -22,7 +22,7 @@ ht-degree: 35%
 
 ランディングページの設定を確認するには、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]** に移動します。 ナビゲーションパネルの _[!UICONTROL ランディングページ]_ の下で **[!UICONTROL 設定]** を選択します。
 
-![ ランディングページの設定 ](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
+![&#x200B; ランディングページの設定 &#x200B;](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
 ### アカウント文字列 {#account-string}
 
@@ -84,7 +84,7 @@ Adobe Journey Optimizer B2B editionでホストする一意のブランド URL �
 
 サブドメインを確認して新しいサブドメインを追加するには、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]** に移動します。 ナビゲーションパネルの _[!UICONTROL ランディングページ]_ の下で **[!UICONTROL サブドメイン]** を選択します。
 
-![ ランディングページのサブドメイン ](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
+![&#x200B; ランディングページのサブドメイン &#x200B;](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
 ランディングページのサブドメインを追加するには（_T） :_
 
@@ -96,6 +96,6 @@ Adobe Journey Optimizer B2B editionでホストする一意のブランド URL �
    * **[!UICONTROL デフォルトページ]** - デフォルトのサブドメインページの URL （`marketing.yourcompany.com/products` など）
    * **[!UICONTROL フォールバックページ]** - サブドメイン上のランディングページがアクティブでない場合に使用されるフォールバックページの URL （例：`marketing.yourcompany.com/expired`）
 
-   ![ ランディングページのサブドメインを追加 ](./assets/config-landing-pages-add-subdomain.png){width="700" zoomable="yes"}
+   ![&#x200B; ランディングページのサブドメインを追加 &#x200B;](./assets/config-landing-pages-add-subdomain.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。

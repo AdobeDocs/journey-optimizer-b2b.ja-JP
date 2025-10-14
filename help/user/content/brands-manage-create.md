@@ -27,33 +27,33 @@ Journey Optimizer B2B editionでは、ブランド定義やアセットを手動
 >
 ><br>
 >
->Adobe Journey Optimizer B2B editionで AI を利用した機能を使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer B2B editionで AI を利用した機能を使用するには、[&#x200B; ユーザー使用許諾契約 &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 >
 ><br>
 >
->製品管理者がこれらの機能を有効にする方法については、[ ブランド関連の権限 ](./brands-overview.md#brand-related-permissions) を参照してください。
+>製品管理者がこれらの機能を有効にする方法については、[&#x200B; ブランド関連の権限 &#x200B;](./brands-overview.md#brand-related-permissions) を参照してください。
 
 ## ブランドライブラリへのアクセス
 
 Adobe Journey Optimizer B2B editionでブランドキットにアクセスするには、左側のナビゲーションに移動して、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL ブランド]** をクリックします。 このアクションにより、作成されたブランドがカードとして表示されるページが開きます。
 
-![Brands ライブラリへのアクセス ](./assets/brands-library.png){width="800" zoomable="yes"}
+![Brands ライブラリへのアクセス &#x200B;](./assets/brands-library.png){width="800" zoomable="yes"}
 
-まだブランドが作成されていない場合は、「最初のブランドを作成 [ するためのボタンが 1 つのグラフィックに表示され ](#create-and-define-a-brand) す。
+まだブランドが作成されていない場合は、「最初のブランドを作成 [&#x200B; するためのボタンが 1 つのグラフィックに表示され &#x200B;](#create-and-define-a-brand) す。
 
 ### ブランド管理のアクション
 
-各カードについて、_その他メニュー_ （![ その他メニューアイコン ](../../assets/do-not-localize/icon-more-menu.svg)）アイコンをクリックし、ブランドのアクションを選択できます。
+各カードについて、_その他メニュー_ （![&#x200B; その他メニューアイコン &#x200B;](../../assets/do-not-localize/icon-more-menu.svg)）アイコンをクリックし、ブランドのアクションを選択できます。
 
 * **[!UICONTROL ブランドを表示]** - ブランドページを開いて、定義を表示します。
-* **[!UICONTROL デフォルトブランドとしてマーク]** （ライブのみ） – コンテンツの整列と生成では、[ ブランドをデフォルトとしてマーク ](#default-brand) します。
+* **[!UICONTROL デフォルトブランドとしてマーク]** （ライブのみ） – コンテンツの整列と生成では、[&#x200B; ブランドをデフォルトとしてマーク &#x200B;](#default-brand) します。
 * **[!UICONTROL 編集]** - ブランドページを開き、ブランドガイドライン、除外、例を編集します。
 * **[!UICONTROL 複製]** - コピーを新しいドラフトブランドとして作成します。
-* **[!UICONTROL 公開]** （ドラフトのみ） – [ ブランドを公開 ](#publish-the-brand) して、コンテンツの整列や生成で使用できるようにします。
+* **[!UICONTROL 公開]** （ドラフトのみ） – [&#x200B; ブランドを公開 &#x200B;](#publish-the-brand) して、コンテンツの整列や生成で使用できるようにします。
 * **[!UICONTROL 非公開]** （ライブのみ） – ブランドを非公開にして、コンテンツの整列と生成に使用されないようにします。
 * **[!UICONTROL 削除]** - ブランドライブラリからブランドを削除します。
 
-![ ブランドの詳細メニューへのアクセス ](./assets/brands-library-card-more-menu.png){width="440"}
+![&#x200B; ブランドの詳細メニューへのアクセス &#x200B;](./assets/brands-library-card-more-menu.png){width="440"}
 
 ### デフォルトのブランド
 
@@ -61,11 +61,11 @@ Adobe Journey Optimizer B2B editionでブランドキットにアクセスする
 
 ブランド ライブラリでは、デフォルトのブランドカードがフラグと共に表示されます。
 
-![ デフォルトのブランドフラグ ](./assets/brands-default-flag.png){width="200"}
+![&#x200B; デフォルトのブランドフラグ &#x200B;](./assets/brands-default-flag.png){width="200"}
 
-公開されている（_ライブ_）ブランドをデフォルトのブランドとして設定できます。 ブランドカードで、「_その他メニュー_ （![ その他メニューアイコン ](../../assets/do-not-localize/icon-more-menu.svg)）」アイコンをクリックし、「**[!UICONTROL デフォルトブランドとしてマーク]**」を選択します。
+公開されている（_ライブ_）ブランドをデフォルトのブランドとして設定できます。 ブランドカードで、「_その他メニュー_ （![&#x200B; その他メニューアイコン &#x200B;](../../assets/do-not-localize/icon-more-menu.svg)）」アイコンをクリックし、「**[!UICONTROL デフォルトブランドとしてマーク]**」を選択します。
 
-![ デフォルトのブランド ID の指定 ](./assets/brands-set-default.png){width="350"}
+![&#x200B; デフォルトのブランド ID の指定 &#x200B;](./assets/brands-set-default.png){width="350"}
 
 ## ブランドの作成と定義 {#create-brand}
 
@@ -84,7 +84,7 @@ Adobe Journey Optimizer B2B editionでブランドキットにアクセスする
 
 1. ファイルをドラッグ&amp;ドロップまたは選択してブランドガイドラインをアップロードし、自動的に関連するブランド情報を抽出します。
 
-   ![ 新しいブランドの定義 ](./assets/brands-create-new.png){width="500"}
+   ![&#x200B; 新しいブランドの定義 &#x200B;](./assets/brands-create-new.png){width="500"}
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ Adobe Journey Optimizer B2B editionでブランドキットにアクセスする
 
    抽出プロセスが完了すると、コンテンツとビジュアル作成標準が自動的に入力されます。
 
-   ![ アップロードされたドキュメントからの最初のブランドガイドライン ](./assets/brands-create-new-page.png){width="700" zoomable="yes"}
+   ![&#x200B; アップロードされたドキュメントからの最初のブランドガイドライン &#x200B;](./assets/brands-create-new-page.png){width="700" zoomable="yes"}
 
 ### ブランドガイドラインの調整と更新
 
@@ -112,43 +112,43 @@ Adobe Journey Optimizer B2B editionでブランドキットにアクセスする
 
    ブランドの作成時に 1 つ以上のドキュメントを含めた場合、情報抽出プロセスによって、タブとセクションの定義が作成されました。 完全性は、ドキュメントに含まれる範囲と詳細によって異なります。 結果を確認する際に、情報を変更または削除できます。
 
-   各タブまたはカテゴリの _その他メニュー_ （![ その他のメニューアイコン ](../../assets/do-not-localize/icon-more-menu.svg)）から、ドキュメントを追加して、関連するブランド情報を自動的に抽出できます。 既存のコンテンツを消去することもできます。
+   各タブまたはカテゴリの _その他メニュー_ （![&#x200B; その他のメニューアイコン &#x200B;](../../assets/do-not-localize/icon-more-menu.svg)）から、ドキュメントを追加して、関連するブランド情報を自動的に抽出できます。 既存のコンテンツを消去することもできます。
 
-   ![ セクション/カテゴリをクリアするか、抽出参照を追加 ](./assets/brands-sections-categories-more-menu.png){width="500" zoomable="yes"}
+   ![&#x200B; セクション/カテゴリをクリアするか、抽出参照を追加 &#x200B;](./assets/brands-sections-categories-more-menu.png){width="500" zoomable="yes"}
 
    サブセクション内の抽出された情報のソースを確認する場合は、「**[!UICONTROL ソースを表示]**」リンクをクリックします。
 
-   ![ ブランドコンテンツソースを表示 ](./assets/brands-view-source.png){width="700" zoomable="yes"}
+   ![&#x200B; ブランドコンテンツソースを表示 &#x200B;](./assets/brands-view-source.png){width="700" zoomable="yes"}
 
 1. 各詳細タブで、カテゴリを確認し、定義を追加、削除、変更してブランドを向上させます。
 
    **[!UICONTROL Do&#39;s]** というラベルの付いたサブセクションは、カテゴリのガイドラインの概要を示します。 この領域を使用して、ガイドラインの説明とガイドラインの例を追加します。
 
-   ![ 例を使用して定義されたガイドライン ](./assets/brands-guidelines-examples.png){width="500" zoomable="yes"}
+   ![&#x200B; 例を使用して定義されたガイドライン &#x200B;](./assets/brands-guidelines-examples.png){width="500" zoomable="yes"}
 
    **[!UICONTROL 適用しない]** というラベルの付いたサブセクションが除外の概要を示します。 この領域を使用して、除外の説明と除外例を追加します。
 
-   ![ 例を使用した定義済みの除外 ](./assets/brands-exclusions-examples.png){width="500" zoomable="yes"}
+   ![&#x200B; 例を使用した定義済みの除外 &#x200B;](./assets/brands-exclusions-examples.png){width="500" zoomable="yes"}
 
    * **ガイドラインまたは除外を追加** します。
 
-     ガイドラインを追加するセクションで、右側の _追加_ （![ 追加アイコン ](../assets/do-not-localize/icon-add-components.svg)） アイコンをクリックします。 ポップアップダイアログで、ガイドラインを入力し、チェックボックスを選択して、ガイドラインを適用するチャネルと要素を指定します。 次に、「**[!UICONTROL 追加]** をクリックします。
+     ガイドラインを追加するセクションで、右側の _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/do-not-localize/icon-add-components.svg)） アイコンをクリックします。 ポップアップダイアログで、ガイドラインを入力し、チェックボックスを選択して、ガイドラインを適用するチャネルと要素を指定します。 次に、「**[!UICONTROL 追加]** をクリックします。
 
-     ![ ガイドラインを追加 ](./assets/brands-guideline-add.png){width="600" zoomable="yes"}
+     ![&#x200B; ガイドラインを追加 &#x200B;](./assets/brands-guideline-add.png){width="600" zoomable="yes"}
 
    * **ガイドラインまたは除外の変更**。
 
      ガイドラインを削除するセクションで、ガイドラインウィジェットをクリックします。 ポップアップダイアログで、必要に応じてガイドラインのコンテンツと選択したチェックボックスを変更します。 次に、「**[!UICONTROL 更新]**」をクリックします。
 
-     ![ ガイドラインの変更 ](./assets/brands-guideline-update.png){width="600" zoomable="yes"}
+     ![&#x200B; ガイドラインの変更 &#x200B;](./assets/brands-guideline-update.png){width="600" zoomable="yes"}
 
    * **ガイドラインまたは除外を削除**。
 
-     ガイドラインを削除するセクションで、ガイドラインウィジェットをクリックします。 ポップアップダイアログで、上部の _削除_ （![ 削除アイコン ](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックします。
+     ガイドラインを削除するセクションで、ガイドラインウィジェットをクリックします。 ポップアップダイアログで、上部の _削除_ （![&#x200B; 削除アイコン &#x200B;](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックします。
 
    * **ガイドラインと除外の例を追加または改訂します**。
 
-     表示されたサンプルタイルで、「_編集_ （![ 編集アイコン ](../assets/do-not-localize/icon-edit.svg)）」アイコンをクリックしてサンプルを変更するか、「_削除_ （![ 削除アイコン ](../assets/do-not-localize/icon-delete.svg)）」アイコンをクリックして削除します。
+     表示されたサンプルタイルで、「_編集_ （![&#x200B; 編集アイコン &#x200B;](../assets/do-not-localize/icon-edit.svg)）」アイコンをクリックしてサンプルを変更するか、「_削除_ （![&#x200B; 削除アイコン &#x200B;](../assets/do-not-localize/icon-delete.svg)）」アイコンをクリックして削除します。
 
 1. すべてを定義したら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -158,9 +158,9 @@ Adobe Journey Optimizer B2B editionでブランドキットにアクセスする
 
 ブランドが定義の完全なセットを含み、要件を満たしたら、「**[!UICONTROL 公開]**」をクリックして、ブランドガイドラインをコンテンツの調整および生成に使用できるようにします。
 
-公開済みのブランドには、AI **[!UICONTROL ブランドの整合性]** およびコンテンツ生成ツールの [ ブランド ](./brand-alignment.md) オプションからアクセスできます。<!-- [Learn more about content generation](gs-generative.md) -->
+公開済みのブランドには、AI **[!UICONTROL ブランドの整合性]** およびコンテンツ生成ツールの [&#x200B; ブランド &#x200B;](./brand-alignment.md) オプションからアクセスできます。<!-- [Learn more about content generation](gs-generative.md) -->
 
-![ コンテンツのブランドオプション ](./assets/brand-menu-content-ai-tools.png){width="300"}
+![&#x200B; コンテンツのブランドオプション &#x200B;](./assets/brand-menu-content-ai-tools.png){width="300"}
 
 ## ブランド定義
 
@@ -182,7 +182,7 @@ Adobe Journey Optimizer B2B editionでブランドキットにアクセスする
 
    * **[!UICONTROL タグライン （デフォルト）]** - ブランドに関連付けられているメインのタグラインを追加します。
 
-   ![ ブランドについて – 主な詳細 ](./assets/brands-about-key-details.png){width="600" zoomable="yes"}
+   ![&#x200B; ブランドについて – 主な詳細 &#x200B;](./assets/brands-about-key-details.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL 基本原則]**&#x200B;カテゴリで、ブランドのコアとなる方向性と哲学を明確にします。
 
@@ -192,13 +192,13 @@ Adobe Journey Optimizer B2B editionでブランドキットにアクセスする
 
    * **[!UICONTROL 市場での位置づけ]** - ブランドが市場でどのように位置づけられているかを説明します。
 
-   ![ ブランドについて – 基本原則 ](./assets/brands-about-guiding-principles.png){width="600" zoomable="yes"}
+   ![&#x200B; ブランドについて – 基本原則 &#x200B;](./assets/brands-about-guiding-principles.png){width="600" zoomable="yes"}
 
    **[!UICONTROL コアブランド値]** カテゴリから、定義されたブランド値を確認し、必要に応じて調整します。
 
-   * 新しいコア値を定義するには、右側の _追加_ （![ 追加アイコン ](../assets/do-not-localize/icon-add-components.svg)） アイコンをクリックし、詳細を入力します。
+   * 新しいコア値を定義するには、右側の _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/do-not-localize/icon-add-components.svg)） アイコンをクリックし、詳細を入力します。
 
-     ![ ブランドについて – ガイド原則 – コア価値を追加 ](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
+     ![&#x200B; ブランドについて – ガイド原則 – コア価値を追加 &#x200B;](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
       * **[!UICONTROL 値]** - コアブランド値の名前を入力します。
 
@@ -208,11 +208,11 @@ Adobe Journey Optimizer B2B editionでブランドキットにアクセスする
 
       * **[!UICONTROL 臨床像]** – この値が実際のブランディングでどのように表現されるかの例を示します。
 
-   * コア値を変更または削除するには、_編集_ （![ 編集アイコン ](../assets/do-not-localize/icon-edit.svg)） アイコンをクリックして、コアブランド値を更新または削除します。
+   * コア値を変更または削除するには、_編集_ （![&#x200B; 編集アイコン &#x200B;](../assets/do-not-localize/icon-edit.svg)） アイコンをクリックして、コアブランド値を更新または削除します。
 
-     ![ ブランドについて – ガイド原則 – コア値の編集 ](./assets/brands-about-guiding-principles-edit-core-values.png){width="500" zoomable="yes"}
+     ![&#x200B; ブランドについて – ガイド原則 – コア値の編集 &#x200B;](./assets/brands-about-guiding-principles-edit-core-values.png){width="500" zoomable="yes"}
 
-     詳細を変更し、「**[!UICONTROL 更新]**」をクリックします。 または、上部の _削除_ （![ 削除アイコン ](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックして、コア値を削除します。
+     詳細を変更し、「**[!UICONTROL 更新]**」をクリックします。 または、上部の _削除_ （![&#x200B; 削除アイコン &#x200B;](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックして、コア値を削除します。
 
 1. **[!UICONTROL ブランドガイドラインドキュメント]** カテゴリで、ブランドガイドラインの生成に使用するドキュメントを確認します。
 
@@ -221,9 +221,9 @@ Adobe Journey Optimizer B2B editionでブランドキットにアクセスする
    * **[!UICONTROL ガイドラインを再抽出]** – 現在のドキュメントを使用して抽出ジョブを実行する場合は、このアクションを選択します。
    * **[!UICONTROL 抽出用に参照を追加]** – 別のドキュメントをアップロードして抽出ジョブを実行する場合は、このアクションを選択します。
 
-   ![ ブランドについて – ブランドガイドラインドキュメント ](./assets/brands-about-documents.png){width="600" zoomable="yes"}
+   ![&#x200B; ブランドについて – ブランドガイドラインドキュメント &#x200B;](./assets/brands-about-documents.png){width="600" zoomable="yes"}
 
-[ ライティングスタイル ](#writing-style) または [ ビジュアルコンテンツ ](#visual-content) ガイドライン、除外および例を絞り込んだり、[ ブランドを公開 ](#publish-the-brand) したりできます。
+[&#x200B; ライティングスタイル &#x200B;](#writing-style) または [&#x200B; ビジュアルコンテンツ &#x200B;](#visual-content) ガイドライン、除外および例を絞り込んだり、[&#x200B; ブランドを公開 &#x200B;](#publish-the-brand) したりできます。
 
 ### 文体 {#writing-style}
 
@@ -236,7 +236,7 @@ _[!UICONTROL ライティングスタイル]_ の定義は、コンテンツを�
 
 **[!UICONTROL ライティングスタイル]** タブを選択し、各カテゴリを確認します。
 
-![ 「ライティングスタイル」タブ ](./assets/brands-writing-style-tab.png){width="600" zoomable="yes"}
+![&#x200B; 「ライティングスタイル」タブ &#x200B;](./assets/brands-writing-style-tab.png){width="600" zoomable="yes"}
 
 | カテゴリ | サブカテゴリ | ガイドラインの例 | 除外の例 |
 |----------------------------|----------------|-----------------------|-----------------------|
@@ -279,7 +279,7 @@ _[!UICONTROL 視覚的コンテンツ]_ の定義は、画像とデザインの�
 
 **[!UICONTROL ビジュアルコンテンツ]** タブを選択し、各カテゴリを確認します。
 
-![ 「ビジュアルコンテンツ」タブ ](./assets/brands-visual-content-tab.png){width="600" zoomable="yes"}
+![&#x200B; 「ビジュアルコンテンツ」タブ &#x200B;](./assets/brands-visual-content-tab.png){width="600" zoomable="yes"}
 
 | カテゴリ | ガイドラインの例 | 除外の例 |
 |------------------------|---------------------|---------------------|
@@ -302,7 +302,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 正しい使用方法または間違った使用方法を示す画像を追加するには、「**[!UICONTROL ガイドラインを追加]**」または「_[!UICONTROL 除外を追加]_ ポップアップダイアログで _[!UICONTROL 例]_ を選択します。 **[!UICONTROL 画像を選択]** をクリックして、システムからファイルを選択して画像を作成します。 **[!UICONTROL 追加]** をクリックして、画像をアップロードし、領域のサムネールを表示します。
 
-![ サンプル画像を追加 ](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
+![&#x200B; サンプル画像を追加 &#x200B;](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
 
 ## 公開済みブランドの編集
 

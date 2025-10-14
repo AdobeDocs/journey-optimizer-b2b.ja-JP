@@ -13,9 +13,9 @@ ht-degree: 5%
 
 # 購買グループの詳細
 
-Journey Optimizer B2B editionのどこからでも購入グループ名をクリックすると、購入グループの詳細が表示されます。 この概要では、生成 AI の概要など、購入グループに関する有用な情報を提供します。 アカウントに関連付けられた連絡先に対して実行できる [ アクション ](#buying-group-actions) もあります。
+Journey Optimizer B2B editionのどこからでも購入グループ名をクリックすると、購入グループの詳細が表示されます。 この概要では、生成 AI の概要など、購入グループに関する有用な情報を提供します。 アカウントに関連付けられた連絡先に対して実行できる [&#x200B; アクション &#x200B;](#buying-group-actions) もあります。
 
-![ 購買グループ詳細へのアクセス ](./assets/buying-group-details.png){width="800" zoomable="yes"}
+![&#x200B; 購買グループ詳細へのアクセス &#x200B;](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
 「**[!UICONTROL 概要]**」タブを使用してアカウントに関する情報を確認し、「**[!UICONTROL メンバー]**」タブを使用して購入グループメンバーのリストにアクセスします。
 
@@ -25,23 +25,23 @@ Journey Optimizer B2B editionのどこからでも購入グループ名をクリ
 
 ### 購買グループの概要
 
-![ 購入グループの概要 ](./assets/details-page-buying-group-overview.png){zoomable="yes"}
+![&#x200B; 購入グループの概要 &#x200B;](./assets/details-page-buying-group-overview.png){zoomable="yes"}
 
 購買グループ要約セクションには、次の購買グループ情報が含まれます。
 
 * 購買グループ名
-* アカウント名（名前をクリックすると [ アカウントの詳細 ](../accounts/account-details.md) が開きます）
+* アカウント名（名前をクリックすると [&#x200B; アカウントの詳細 &#x200B;](../accounts/account-details.md) が開きます）
 * 購買グループのメンバー数
 * エンゲージメントスコア
 * 完全性スコア
 * 現在の購買グループのステージ
-* 役割テンプレート （名前をクリックして [ 役割テンプレート ](buying-groups-role-templates.md#access-and-browse-role-templates) を開きます）
+* 役割テンプレート （名前をクリックして [&#x200B; 役割テンプレート &#x200B;](buying-groups-role-templates.md#access-and-browse-role-templates) を開きます）
 * 最終変更日/更新日
 * 購入グループの生成 AI の概要
 
 ### アカウントの概要
 
-![ 購入グループアカウントの概要 ](./assets/details-page-buying-group-account-overview.png){zoomable="yes"}
+![&#x200B; 購入グループアカウントの概要 &#x200B;](./assets/details-page-buying-group-account-overview.png){zoomable="yes"}
 
 「アカウントの概要」セクションには、次のアカウント情報が含まれます。
 
@@ -58,14 +58,14 @@ Journey Optimizer B2B editionでは、インテント検出モデルが、購入
 
 {{intent-data-note}}
 
-![ インテントデータ – 購入グループの詳細 ](../accounts/assets/intent-data-panel.png){width="700" zoomable="yes"}
+![&#x200B; インテントデータ – 購入グループの詳細 &#x200B;](../accounts/assets/intent-data-panel.png){width="700" zoomable="yes"}
 
 * インテントのレベル
 * インテントシグナルのタイプ – キーワード、製品、ソリューション
 
 ### 購買グループのメンバー
 
-![ 買収グループメンバー ](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
+![&#x200B; 買収グループメンバー &#x200B;](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
 「_[!UICONTROL 購買グループ・メンバー]_」セクションには、購買グループ・メンバーを強調表示する 2 つの行が表示されます。
 
@@ -88,13 +88,13 @@ Journey Optimizer B2B editionでは、インテント検出モデルが、購入
 * メールアドレス
 * 電話番号
 
-![ 購入グループメンバーの詳細を表示 ](./assets/details-page-buying-group-members-view-details.png){width="600" zoomable="yes"}
+![&#x200B; 購入グループメンバーの詳細を表示 &#x200B;](./assets/details-page-buying-group-members-view-details.png){width="600" zoomable="yes"}
 
 ## 「メンバー」タブ
 
 「**[!UICONTROL メンバー]**」タブを選択して、すべての購買グループ・メンバーのリストを表示します。 各メンバーリストには、名前、役割、役職、メールアドレス、電話番号、ソースが含まれます。
 
-![ 「メンバー」タブ – 購買グループ詳細 ](./assets/buying-group-details-members-tab.png){width="700" zoomable="yes"}
+![&#x200B; 「メンバー」タブ – 購買グループ詳細 &#x200B;](./assets/buying-group-details-members-tab.png){width="700" zoomable="yes"}
 
 「_メンバー_」タブから実行できるアクションは複数あります。
 
@@ -106,11 +106,11 @@ Journey Optimizer B2B editionでは、インテント検出モデルが、購入
 
 1. _[!UICONTROL メンバーの割当て]_ ダイアログで、購買グループに追加するアカウント・リードを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![ 「メンバー」タブ – 新しいメンバーを割り当て ](./assets/buying-group-details-assign-member.png){width="700" zoomable="yes"}
+   ![&#x200B; 「メンバー」タブ – 新しいメンバーを割り当て &#x200B;](./assets/buying-group-details-assign-member.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL 新しいメンバーの役割を編集]_ ダイアログで、新しい各メンバーに割り当てる役割を選択します。
 
-   ![ 「メンバー」タブ – 新しいメンバーの役割を割り当て ](./assets/buying-group-details-assign-member-edit-role.png){width="700" zoomable="yes"}
+   ![&#x200B; 「メンバー」タブ – 新しいメンバーの役割を割り当て &#x200B;](./assets/buying-group-details-assign-member-edit-role.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -122,7 +122,7 @@ Journey Optimizer B2B editionでは、インテント検出モデルが、購入
 
 1. 下部の選択バーで、[**[!UICONTROL メンバーを削除]**] をクリックします。
 
-   ![ 「メンバー」タブ – メンバーを削除 ](./assets/buying-group-details-remove-selected.png){width="700" zoomable="yes"}
+   ![&#x200B; 「メンバー」タブ – メンバーを削除 &#x200B;](./assets/buying-group-details-remove-selected.png){width="700" zoomable="yes"}
 
 1. 確認ダイアログで、「**[!UICONTROL 削除]**」をクリックします。
 
@@ -134,11 +134,11 @@ Journey Optimizer B2B editionでは、インテント検出モデルが、購入
 
 1. 下部の選択バーで、「**[!UICONTROL 役割を編集]**」をクリックします。
 
-   ![ 「メンバー」タブ – ロールを編集 ](./assets/buying-group-details-edit-roles.png){width="700" zoomable="yes"}
+   ![&#x200B; 「メンバー」タブ – ロールを編集 &#x200B;](./assets/buying-group-details-edit-roles.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL メンバーの役割を編集]_ ダイアログで、各メンバーに割り当てる役割を選択します。
 
-   ![ メンバーロールの編集 – ロールの選択 ](./assets/buying-group-details-edit-roles-choose-roles.png){width="700" zoomable="yes"}
+   ![&#x200B; メンバーロールの編集 – ロールの選択 &#x200B;](./assets/buying-group-details-edit-roles-choose-roles.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -150,10 +150,10 @@ Journey Optimizer B2B editionでは、インテント検出モデルが、購入
 
 1. 右上または下部の選択バーで、「**[!UICONTROL メールを送信]**」をクリックします。
 
-   ![ 「メンバー」タブ – メールを送信 ](./assets/buying-group-details-send-email.png){width="700" zoomable="yes"}
+   ![&#x200B; 「メンバー」タブ – メールを送信 &#x200B;](./assets/buying-group-details-send-email.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL メールを送信]_ ダイアログで、「Marketo Engage Workspace」を選択し、送信するメールのチェックボックスをオンにします。
 
-   ![ 購入グループメンバーに送信するメールを選択 ](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
+   ![&#x200B; 購入グループメンバーに送信するメールを選択 &#x200B;](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 送信]**」をクリックします。

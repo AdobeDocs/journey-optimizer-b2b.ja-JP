@@ -19,7 +19,7 @@ ht-degree: 2%
 
 これらのデジタルアセットを使用すると、[!DNL Assets as a Cloud Service] の最新の変更が、リンクされた参照を通じてライブメールキャンペーンに自動的に反映されます。 [!DNL Adobe Experience Manager Assets as a Cloud Service] で画像を削除すると、メール内で画像の参照が壊れて表示されます。 現在アカウントジャーニー内で使用されているアセットが変更または削除されると、画像の変更とその画像を使用しているジャーニーのリストがジャーニー作成者に通知されます。 アセットに対するすべての変更は、[!DNL Adobe Experience Manager Assets] の中央リポジトリで行う必要があります。
 
-環境に 1 つ以上の [Assets リポジトリ接続 ](../admin/configure-aem-repositories.md) がある場合、コンテンツ作成者は、メール、メールテンプレートまたはビジュアルフラグメントを作成するときに、[!DNL Experience Manager Assets] をアセットのソースとして使用できます。
+環境に 1 つ以上の [Assets リポジトリ接続 &#x200B;](../admin/configure-aem-repositories.md) がある場合、コンテンツ作成者は、メール、メールテンプレートまたはビジュアルフラグメントを作成するときに、[!DNL Experience Manager Assets] をアセットのソースとして使用できます。
 
 >[!IMPORTANT]
 >
@@ -27,9 +27,9 @@ ht-degree: 2%
 
 ## AEM Assets画像へのアクセス
 
-コンテンツデザイン スペースで、左側のサイドバーにある _[!UICONTROL Experience Manager Assets]_ （![Experience Manager Assets アイコン ](../../assets/do-not-localize/icon-assets-aem.svg)）アイコンをクリックします。 これにより、ツールパネルが、選択したリポジトリで使用可能なアセットのリストに変更されます。
+コンテンツデザイン スペースで、左側のサイドバーにある _[!UICONTROL Experience Manager Assets]_ （![Experience Manager Assets アイコン &#x200B;](../../assets/do-not-localize/icon-assets-aem.svg)）アイコンをクリックします。 これにより、ツールパネルが、選択したリポジトリで使用可能なアセットのリストに変更されます。
 
-![Assets セレクターアイコンをクリックして、画像アセットにアクセスする ](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
+![Assets セレクターアイコンをクリックして、画像アセットにアクセスする &#x200B;](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 複数のAEM リポジトリが接続されている場合は、「**[!UICONTROL リポジトリ]**」のメニュー矢印をクリックして、左側のパネルに表示するリポジトリを選択します。
 
-![AEM Assets リポジトリを選択して画像アセットにアクセスする ](./assets/content-assets-selector-aem-repo.png){width="700" zoomable="yes"}
+![AEM Assets リポジトリを選択して画像アセットにアクセスする &#x200B;](./assets/content-assets-selector-aem-repo.png){width="700" zoomable="yes"}
 
 画像アセットをビジュアルキャンバスに追加するには、複数の方法があります。
 
@@ -49,13 +49,13 @@ ht-degree: 2%
 
 1. 画像のサムネールをドラッグし、キャンバス内の新しい画像コンポーネントの追加場所にドロップします。
 
-   ![ 画像アセットをドラッグ&amp;ドロップ ](./assets/content-drag-drop-image-aem-assets.png){width="700" zoomable="yes"}
+   ![&#x200B; 画像アセットをドラッグ&amp;ドロップ &#x200B;](./assets/content-drag-drop-image-aem-assets.png){width="700" zoomable="yes"}
 
 ## 画像の検索と選択
 
 1. 画像コンポーネントをカンバスに追加し、**[!UICONTROL Experience Manager Assets]** をクリックして _[!UICONTROL Assetsを選択]_ ダイアログを開きます。
 
-   ![ 画像コンポーネントのアセットの選択 ](./assets/content-image-component-empty.png){width="600" zoomable="yes"}
+   ![&#x200B; 画像コンポーネントのアセットの選択 &#x200B;](./assets/content-image-component-empty.png){width="600" zoomable="yes"}
 
 1. ダイアログで、使用可能なツールを使用して必要なアセットを見つける画像を選択します。
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 
    * _並べ替え順序_ アイコンをクリックして、並べ替え順序を昇順と降順の間で変更します。
 
-     ![Assetsを選択ダイアログのツールを使用し、画像アセットを検索して選択します ](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+     ![Assetsを選択ダイアログのツールを使用し、画像アセットを検索して選択します &#x200B;](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
 
    * 「**[!UICONTROL 並べ替え基準]**」メニュー矢印をクリックして、並べ替え条件を **[!UICONTROL 名前]**、**[!UICONTROL サイズ]**、**[!UICONTROL 変更]** に変更します。
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
    * 「検索」フィールドにテキストを入力して、表示される項目をアセット名と一致するようにフィルタリングします。
 
-   ![ フィルターと検索フィールドを使用してアセットを検索します ](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
+   ![&#x200B; フィルターと検索フィールドを使用してアセットを検索します &#x200B;](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 選択]**」をクリックします。
 <!-- 

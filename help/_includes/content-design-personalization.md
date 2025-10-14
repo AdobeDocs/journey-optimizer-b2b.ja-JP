@@ -24,12 +24,12 @@ Journey Optimizer B2B editionは、コンテンツの処理時に、式をExperi
 
 1. テキストコンポーネントを選択し、ツールバーの _パーソナライゼーションを追加_ アイコンをクリックします。
 
-   ![ 「パーソナライズ」アイコンをクリック ](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
+   ![&#x200B; 「パーソナライズ」アイコンをクリック &#x200B;](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
 
    これにより、「_Personalizationを編集_ ダイアログが開きます。
 
 1. **+** または **...** をクリックして、空白スペースにトークンを追加します。
 
-   ![ トークンを使用したパーソナライズされたテキストの作成 ](../assets/content-design-shared/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
+   ![&#x200B; トークンを使用したパーソナライズされたテキストの作成 &#x200B;](../assets/content-design-shared/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。

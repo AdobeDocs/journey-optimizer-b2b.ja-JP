@@ -17,7 +17,7 @@ ht-degree: 16%
 
 _インテリジェントダッシュボード_ にアクセスするには、左側のナビゲーションで **[!UICONTROL ダッシュボード]** 項目を選択します。
 
-![ インテリジェント ダッシュボードへのアクセス ](./assets/intelligent-dashboard.png){width="800" zoomable="yes"}
+![&#x200B; インテリジェント ダッシュボードへのアクセス &#x200B;](./assets/intelligent-dashboard.png){width="800" zoomable="yes"}
 
 また、インテリジェントダッシュボードでは、次の 2 種類の生成 AI 機能を含むアカウントおよび購入グループの詳細ページにもアクセスできます。
 
@@ -30,14 +30,14 @@ _インテリジェントダッシュボード_ にアクセスするには、�
 
 | タイプ | 要件 |
 | ---- | ----------- |
-| [ 購入グループステージ ](#buying-group-stages) | 購買グループ ステージ **および** 作成した購買グループに追加する）を設定します。 |
-| [ 購入グループのハイライト ](#buying-group-highlights) | 購買グループ ステージ **および** 作成した購買グループに追加する）を設定します。 |
-| [ アカウントの急増 ](#surging-accounts) | 1 つ以上の公開済みジャーニー **または** が購入グループを作成しました。 |
-| [ アカウントのハイライト ](#account-highlights) | 1 つ以上の公開済みジャーニー **または** が購入グループを作成しました。 |
-| [ 連絡先の範囲 ](#contact-coverage) | 1 つ以上の購買グループが作成されました（ステージは不要です）。 |
-| [ 連絡先の重複 ](#contact-overlap) | 1 つ以上の購買グループが作成されました（ステージは不要です）。 |
-| [ アカウントの詳細ページ ](../accounts/account-details.md) | 1 つ以上の公開済みジャーニー。 |
-| [ 購入グループの詳細ページ ](../buying-groups/buying-group-details.md) | 1 つ以上の購買グループが作成されました（ステージは不要です）。 |
+| [&#x200B; 購入グループステージ &#x200B;](#buying-group-stages) | 購買グループ ステージ **および** 作成した購買グループに追加する）を設定します。 |
+| [&#x200B; 購入グループのハイライト &#x200B;](#buying-group-highlights) | 購買グループ ステージ **および** 作成した購買グループに追加する）を設定します。 |
+| [&#x200B; アカウントの急増 &#x200B;](#surging-accounts) | 1 つ以上の公開済みジャーニー **または** が購入グループを作成しました。 |
+| [&#x200B; アカウントのハイライト &#x200B;](#account-highlights) | 1 つ以上の公開済みジャーニー **または** が購入グループを作成しました。 |
+| [&#x200B; 連絡先の範囲 &#x200B;](#contact-coverage) | 1 つ以上の購買グループが作成されました（ステージは不要です）。 |
+| [&#x200B; 連絡先の重複 &#x200B;](#contact-overlap) | 1 つ以上の購買グループが作成されました（ステージは不要です）。 |
+| [&#x200B; アカウントの詳細ページ &#x200B;](../accounts/account-details.md) | 1 つ以上の公開済みジャーニー。 |
+| [&#x200B; 購入グループの詳細ページ &#x200B;](../buying-groups/buying-group-details.md) | 1 つ以上の購買グループが作成されました（ステージは不要です）。 |
 
 ## 購買グループステージ {#buying-group-stages}
 
@@ -46,23 +46,23 @@ _インテリジェントダッシュボード_ にアクセスするには、�
 >title="購買グループステージ"
 >abstract="このグラフでは、設定されたトランジションルールに基づいて、様々なステージにわたる購買グループの進行状況の概要を示します。最初のバーは、選択した時間枠の最初の日に特定のステージにある購買グループの数を、選択した時間枠の最終日と比較して示します。"
 
-_[!UICONTROL 購入グループステージ]_ チャートは、様々なステージにわたる購入グループの進行状況の概要を提供します（[ 管理者が設定したトランジションルールに基づいて ](../buying-groups/buying-group-stages.md)）。
+_[!UICONTROL 購入グループステージ]_ チャートは、様々なステージにわたる購入グループの進行状況の概要を提供します（[&#x200B; 管理者が設定したトランジションルールに基づいて &#x200B;](../buying-groups/buying-group-stages.md)）。
 
 >[!NOTE]
 >
->購入グループステージを利用するには、購入グループステージを設定する必要があります。 ステージと、購入グループのステージを定義して有効にする方法について詳しくは、[ 購入グループステージ ](../buying-groups/buying-group-stages.md) を参照してください。
+>購入グループステージを利用するには、購入グループステージを設定する必要があります。 ステージと、購入グループのステージを定義して有効にする方法について詳しくは、[&#x200B; 購入グループステージ &#x200B;](../buying-groups/buying-group-stages.md) を参照してください。
 
-![ 購入グループステージのデータビジュアライゼーション ](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
+![&#x200B; 購入グループステージのデータビジュアライゼーション &#x200B;](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
 このグラフでは、購入グループステージモデルの最近公開されたバージョンの購入グループステージを使用します。 ステージごとに 2 つのバーがあります。 最初のバーは、選択した時間枠の最初の日付の購入グループの数を示します。 2 つ目は（比較して）時間枠の最後の日付の購入グループの数です。 各バーにカーソルを合わせると、各ステージの購入グループの数が表示されます。
 
-![ バーにカーソルを合わせると、詳細な数値が表示されます ](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"}
+![&#x200B; バーにカーソルを合わせると、詳細な数値が表示されます &#x200B;](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"}
 
 ### 生成 AI の概要
 
 バーをクリックして、選択した期間のそのステージの購入グループの生成 AI の概要を表示します。
 
-![ バーをクリックして、生成 AI の概要を表示 ](./assets/intelligent-dashboard-buying-group-stages-click-bar.png){width="500"}
+![&#x200B; バーをクリックして、生成 AI の概要を表示 &#x200B;](./assets/intelligent-dashboard-buying-group-stages-click-bar.png){width="500"}
 
 生成された概要には、設定されたトランジションルールに基づいて、様々なステージにわたる購入グループの進行状況の概要が表示されます。
 
@@ -74,7 +74,7 @@ _[!UICONTROL 購入グループステージ]_ チャートは、様々なステ�
 
 ### 属性フィルター {#attribute-filter-stages}
 
-左上の _フィルター_ （![ 編集アイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
+左上の _フィルター_ （![&#x200B; 編集アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
 
 * ソリューションの関心
 * アカウント
@@ -101,7 +101,7 @@ _[!UICONTROL 購入グループステージ]_ チャートは、様々なステ�
 
 _[!UICONTROL 購入グループのハイライト]_ セクションは 3 行に整理され、興味のある購入グループに関する情報を組織に示します。
 
-![ 購入グループのハイライト ](./assets/intelligent-dashboard-buying-group-highlights.png){width="800" zoomable="yes"}
+![&#x200B; 購入グループのハイライト &#x200B;](./assets/intelligent-dashboard-buying-group-highlights.png){width="800" zoomable="yes"}
 
 * **エンゲージメント別の上位 5 件の購入グループ** – この行には、正規化されたエンゲージメントスコアに基づいて、上位のエンゲージメントのある購入グループが表示されます。
 * **上位 5 件の高速購入グループ** – この行には、購入グループステージで進行しているベロシティに基づく上位の購入グループが表示されます。
@@ -116,7 +116,7 @@ _[!UICONTROL 購入グループのハイライト]_ セクションは 3 行に�
 * **_完全性スコア_** （1 ～ 100 の範囲）。 すべての購入グループのトップスコアが同じ場合は、最後に更新されたスコアが表示されます。
 * **_カテゴリインテント_**。 _[!UICONTROL 詳細を表示]_ をクリックして、インテント データを表示します。
 
-  ![ 購入グループインテントデータ ](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
+  ![&#x200B; 購入グループインテントデータ &#x200B;](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
    * 詳細ポップアップには、カテゴリ名が表示され、最上位にインテントレベルが表示されます。
    * 各行のデータは、製品名、製品インテントの強さ、インテントの強さによる上位のキーワードという列で整理されています。
@@ -128,7 +128,7 @@ _購入グループのハイライト_ パネルの右上にある「**[!UICONTR
 
 ### 属性フィルター {#attribute-filter-bg-highlights}
 
-左上の _フィルター_ （![ 編集アイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
+左上の _フィルター_ （![&#x200B; 編集アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
 
 * ソリューションに対する関心
 * 購買グループ
@@ -155,19 +155,19 @@ _購入グループのハイライト_ パネルの右上にある「**[!UICONTR
 >
 >アカウントのサージデータには、Journey Optimizer B2B editionがアカウントジャーニーまたは購入グループを通じて取り込むアカウントのみが含まれます。
 
-![ アカウントサージデータの可視化 ](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
+![&#x200B; アカウントサージデータの可視化 &#x200B;](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
 各バーにポインタを合わせると、各カテゴリのアカウント数が表示されます。
 
-![ バーにカーソルを合わせると、詳細な数値が表示されます ](./assets/intelligent-dashboard-account-surge-hover-bar.png){width="400"}
+![&#x200B; バーにカーソルを合わせると、詳細な数値が表示されます &#x200B;](./assets/intelligent-dashboard-account-surge-hover-bar.png){width="400"}
 
 バーをクリックすると、選択した時間枠のカテゴリ内のアカウントの生成 AI の概要が表示されます。
 
-![ バーをクリックして、生成 AI の概要を表示 ](./assets/intelligent-dashboard-account-surge-click-bar.png){width="500"}
+![&#x200B; バーをクリックして、生成 AI の概要を表示 &#x200B;](./assets/intelligent-dashboard-account-surge-click-bar.png){width="500"}
 
 ### 属性フィルター {#attribute-filter-acct-surge}
 
-左上の _フィルター_ （![ 編集アイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
+左上の _フィルター_ （![&#x200B; 編集アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
 
 * ソリューションに対する関心
 * 業界
@@ -199,7 +199,7 @@ _[!UICONTROL アカウントのハイライト表示]_ セクションは 2 行�
 >
 >アカウントハイライト データには、Journey Optimizer B2B editionがアカウントジャーニーまたは購入グループを通じて取り込むアカウントのみが含まれます。
 
-![ アカウントのハイライト ](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
+![&#x200B; アカウントのハイライト &#x200B;](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **急増するアカウント** – この行には、選択した期間でエンゲージメントの勢いが大幅に増加したアカウントが表示されます。
 * **危険なアカウント** – この行には、選択した期間に、エンゲージメントの勢いが大幅に低下したアカウントが表示されます。
@@ -210,7 +210,7 @@ _[!UICONTROL アカウントのハイライト表示]_ セクションは 2 行�
 * アカウントの **_生成 AI の概要_**。
 * **_キーワードインテント_**。 _[!UICONTROL 詳細を表示]_ をクリックして、インテント データを表示します。
 
-  ![ アカウントインテントのデータ ](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
+  ![&#x200B; アカウントインテントのデータ &#x200B;](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
    * 詳細ポップアップには、カテゴリ名が表示され、最上位にインテントレベルが表示されます。
    * 各行のデータは、製品名、製品インテントの強さ、インテントの強さによる上位のキーワードという列で整理されています。
@@ -222,7 +222,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 
 ### 属性フィルター {#attribute-filter-acct-highlights}
 
-左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
+左上の _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
 
 * ソリューションに対する関心
 * 購買グループ
@@ -248,19 +248,19 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 >
 >連絡先カバレッジデータは、Journey Optimizer B2B edition インスタンスで作成された購入グループに基づいています。
 
-![ アカウントサージデータの可視化 ](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
+![&#x200B; アカウントサージデータの可視化 &#x200B;](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
 各セルにポインタを合わせると、役割またはソリューションの関心のある連絡先の数が表示されます。
 
-![ バーにカーソルを合わせると、詳細な数値が表示されます ](./assets/intelligent-dashboard-contact-coverage-hover-cell.png){width="400"}
+![&#x200B; バーにカーソルを合わせると、詳細な数値が表示されます &#x200B;](./assets/intelligent-dashboard-contact-coverage-hover-cell.png){width="400"}
 
 セルをクリックして、役割またはソリューションに関心のある連絡先の詳細情報を表示します。
 
-![ セルをクリックすると連絡先の詳細が表示されます ](./assets/intelligent-dashboard-contact-coverage-click-cell.png){width="700" zoomable="yes"}
+![&#x200B; セルをクリックすると連絡先の詳細が表示されます &#x200B;](./assets/intelligent-dashboard-contact-coverage-click-cell.png){width="700" zoomable="yes"}
 
 ### 属性フィルター {#attribute-filter-contact-coverage}
 
-左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
+左上の _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
 
 * ソリューションに対する関心
 * アカウント
@@ -280,9 +280,9 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 >
 >連絡先の重複データは、Journey Optimizer B2B edition インスタンスで作成された購入グループに基づいています。
 
-![ 連絡先の重複テーブル ](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
+![&#x200B; 連絡先の重複テーブル &#x200B;](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 
-_情報_ （![ 情報アイコン ](../assets/do-not-localize/icon-info.svg)）をクリックして、次の詳細を含むテーブルを表示します。
+_情報_ （![&#x200B; 情報アイコン &#x200B;](../assets/do-not-localize/icon-info.svg)）をクリックして、次の詳細を含むテーブルを表示します。
 
 * 購買グループ名（名前をクリックして購買グループの詳細ページを開きます）
 * 役割
@@ -290,11 +290,11 @@ _情報_ （![ 情報アイコン ](../assets/do-not-localize/icon-info.svg)）�
 * 製品インテント
 * 製品
 
-![ 連絡先の重複の詳細 ](./assets/intelligent-dashboard-contact-overlap-detail-info.png){width="600" zoomable="yes"}
+![&#x200B; 連絡先の重複の詳細 &#x200B;](./assets/intelligent-dashboard-contact-overlap-detail-info.png){width="600" zoomable="yes"}
 
 ### 属性フィルター {#attribute-filter-contact-overage}
 
-左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
+左上の _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用してデータ表示をフィルタリングします。
 
 * ソリューションに対する関心
 * ロール

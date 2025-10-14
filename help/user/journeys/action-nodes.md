@@ -41,13 +41,13 @@ ht-degree: 3%
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL アクションを実行]**」を選択します。
 
-   ![ ジャーニーノードを追加 – アクションを実行 ](./assets/add-node-action.png){width="400"}
+   ![&#x200B; ジャーニーノードを追加 – アクションを実行 &#x200B;](./assets/add-node-action.png){width="400"}
 
 1. 右側のノードプロパティで、アクションとして **[!UICONTROL アカウント]** を選択します。
 
 1. リストからアクションを選択し、アクションの値を設定します。
 
-   ![ジャーニーノード – アカウントに対してアクションを実行 ](./assets/node-take-action-account.png){width="700" zoomable="yes"}
+   ![ジャーニーノード – アカウントに対してアクションを実行 &#x200B;](./assets/node-take-action-account.png){width="700" zoomable="yes"}
 
 ## 顧客のアクション
 
@@ -80,7 +80,7 @@ ht-degree: 3%
 
 1. リストからアクションを選択し、アクションの値を設定します。
 
-![ジャーニー ノード – 人物に対してアクションを実行 ](./assets/node-take-action-people.png){width="700" zoomable="yes"}
+![ジャーニー ノード – 人物に対してアクションを実行 &#x200B;](./assets/node-take-action-people.png){width="700" zoomable="yes"}
 
 ### Journey Optimizer B2B アクション
 
@@ -94,11 +94,11 @@ Journey Optimizer B2B の人物ベースのアクションは、設定された�
 >
 >個人プロファイルを含む資格のあるアカウントが公開済みのジャーニーの _外部顧客オーディエンスに追加_ ノードに達した場合、これらのプロファイルが外部オーディエンスに入力されるまで最大 48 時間かかる場合があります。
 
-![ アクションの実行 – 外部の顧客オーディエンスに追加 ](./assets/node-action-add-to-external-audience-options.png){width="300"}
+![&#x200B; アクションの実行 – 外部の顧客オーディエンスに追加 &#x200B;](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-この人物ベースのアクションを選択する場合は、新しい外部オーディエンスを作成するか、既存の外部オーディエンスから選択できます。 既存のオーディエンスの場合は、Journey Optimizer B2B editionでのみ作成された外部のカスタマーオーディエンスから選択できます。 オーディエンスを作成し、このジャーニーアクションに使用する場合は、必ず宛先に接続してください。 詳しくは、Experience Platform ドキュメントの [ 新しい宛先接続の作成 ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} および [ アクティベーションの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} を参照してください。
+この人物ベースのアクションを選択する場合は、新しい外部オーディエンスを作成するか、既存の外部オーディエンスから選択できます。 既存のオーディエンスの場合は、Journey Optimizer B2B editionでのみ作成された外部のカスタマーオーディエンスから選択できます。 オーディエンスを作成し、このジャーニーアクションに使用する場合は、必ず宛先に接続してください。 詳しくは、Experience Platform ドキュメントの [&#x200B; 新しい宛先接続の作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} および [&#x200B; アクティベーションの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} を参照してください。
 
-![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ 有料メディアオーケストレーションの概要に関するビデオをご覧ください ](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
+![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"}[&#x200B; 有料メディアオーケストレーションの概要に関するビデオをご覧ください &#x200B;](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
 外部オーディエンスを作成するには（_T） :_
 
@@ -108,7 +108,7 @@ Journey Optimizer B2B の人物ベースのアクションは、設定された�
 
 1. 新しい外部オーディエンスの **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![ 外部顧客オーディエンスに追加 – オーディエンスを作成 ](./assets/node-action-add-to-external-create-new.png){width="300"}
+   ![&#x200B; 外部顧客オーディエンスに追加 – オーディエンスを作成 &#x200B;](./assets/node-action-add-to-external-create-new.png){width="300"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -124,7 +124,7 @@ Journey Optimizer B2B の人物ベースのアクションは、設定された�
 
 1. ダイアログで、使用するオーディエンスを選択します。
 
-   ![ 外部顧客オーディエンスに追加 – オーディエンスを追加 ](./assets/node-action-add-to-external-audience-select.png){width="700" zoomable="yes"}
+   ![&#x200B; 外部顧客オーディエンスに追加 – オーディエンスを追加 &#x200B;](./assets/node-action-add-to-external-audience-select.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL オーディエンスを追加]** をクリックします。
 
@@ -132,17 +132,17 @@ Journey Optimizer B2B の人物ベースのアクションは、設定された�
 
 +++[!UICONTROL &#x200B; 購買グループへの割当て &#x200B;]
 
-このアクションを使用して、選択したソリューションの関心と役割に基づいて、人物プロファイルを [ 購入グループ ](../buying-groups/buying-groups-overview.md) に追加します。
+このアクションを使用して、選択したソリューションの関心と役割に基づいて、人物プロファイルを [&#x200B; 購入グループ &#x200B;](../buying-groups/buying-groups-overview.md) に追加します。
 
-![ アクションを実行 – 購入グループに追加 ](./assets/node-action-add-to-buying-group.png){width="300"}
+![&#x200B; アクションを実行 – 購入グループに追加 &#x200B;](./assets/node-action-add-to-buying-group.png){width="300"}
 
 +++
 
 +++[!UICONTROL &#x200B; データ値を変更 &#x200B;]
 
-[ 人物プロファイル属性 ](../data/field-mapping.md#xdm-business-person-attributes) の値を変更するには、このアクションを使用します。 属性を選択して、新しい値を設定します。
+[&#x200B; 人物プロファイル属性 &#x200B;](../data/field-mapping.md#xdm-business-person-attributes) の値を変更するには、このアクションを使用します。 属性を選択して、新しい値を設定します。
 
-![ アクションの実行 – データ値の変更 ](./assets/node-action-change-data-value.png){width="300"}
+![&#x200B; アクションの実行 – データ値の変更 &#x200B;](./assets/node-action-change-data-value.png){width="300"}
 
 +++
 
@@ -150,7 +150,7 @@ Journey Optimizer B2B の人物ベースのアクションは、設定された�
 
 Marketo Engageで人物スコアを変更するには、このアクションを使用します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
-![ アクションの実行 – スコアの変更 ](./assets/node-action-change-score.png){width="300"}
+![&#x200B; アクションの実行 – スコアの変更 &#x200B;](./assets/node-action-change-score.png){width="300"}
 
 +++
 
@@ -158,31 +158,31 @@ Marketo Engageで人物スコアを変更するには、このアクションを
 
 このアクションを使用して、人物に興味深い瞬間を記録します。 タイプ（メール、マイルストーン、web）を選択し、説明（オプション）を追加します。
 
-![ アクションを取る – 人物興味深い瞬間 ](./assets/node-action-person-interesting-moment.png){width="300"}
+![&#x200B; アクションを取る – 人物興味深い瞬間 &#x200B;](./assets/node-action-person-interesting-moment.png){width="300"}
 
 +++
 
 +++[!UICONTROL &#x200B; 購入グループから削除 &#x200B;]
 
-このアクションを使用して、選択したソリューションの関心に基づいて [ 購入グループ ](../buying-groups/buying-groups-overview.md) から人物プロファイルを削除します。
+このアクションを使用して、選択したソリューションの関心に基づいて [&#x200B; 購入グループ &#x200B;](../buying-groups/buying-groups-overview.md) から人物プロファイルを削除します。
 
-![ アクションを実行 – 購入グループに追加 ](./assets/node-action-remove-from-buying-group.png){width="300"}
+![&#x200B; アクションを実行 – 購入グループに追加 &#x200B;](./assets/node-action-remove-from-buying-group.png){width="300"}
 
 +++
 
 +++[!UICONTROL &#x200B; メールを送信 &#x200B;]
 
-メールを送信するには、このアクションを使用します。 ノードの [ メールを作成 ](../content/add-email.md#add-an-email-to-your-journey) した後は、メールデザイン領域でメールメッセージのデザイン、パーソナライズおよびプレビューを行うことができます（[ メールのオーサリング ](../content/email-authoring.md) を参照）。 [Marketo Engageからメールを送信する ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"} ともできます。 Marketo Engage Workspace を選択し、送信するメールを選択します。
+メールを送信するには、このアクションを使用します。 ノードの [&#x200B; メールを作成 &#x200B;](../content/add-email.md#add-an-email-to-your-journey) した後は、メールデザイン領域でメールメッセージのデザイン、パーソナライズおよびプレビューを行うことができます（[&#x200B; メールのオーサリング &#x200B;](../content/email-authoring.md) を参照）。 [Marketo Engageからメールを送信する &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"} ともできます。 Marketo Engage Workspace を選択し、送信するメールを選択します。
 
-![ アクションの実行 – メールの送信 ](./assets/node-action-send-email-from-marketo.png){width="300"}
+![&#x200B; アクションの実行 – メールの送信 &#x200B;](./assets/node-action-send-email-from-marketo.png){width="300"}
 
 +++
 
 +++[!UICONTROL SMS を送信 &#x200B;]
 
-SMS メッセージを送信するには、このアクションを使用します。 ビジュアルデザインスペースで SMS メッセージの作成、パーソナライズ、プレビューを行うことができます（「[SMS オーサリング ](../content/sms-authoring.md)」を参照）。
+SMS メッセージを送信するには、このアクションを使用します。 ビジュアルデザインスペースで SMS メッセージの作成、パーソナライズ、プレビューを行うことができます（「[SMS オーサリング &#x200B;](../content/sms-authoring.md)」を参照）。
 
-![ アクションの実行 – SMS の送信 ](./assets/node-action-send-sms.png){width="300"}
+![&#x200B; アクションの実行 – SMS の送信 &#x200B;](./assets/node-action-send-sms.png){width="300"}
 
 +++
 
@@ -192,37 +192,37 @@ Marketo Engageのユーザーベースのアクションは、Marketo Engage B2B
 
 +++[!UICONTROL &#x200B; リストに追加 &#x200B;]
 
-Marketo Engageでユーザーを [ 静的リスト ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} に追加するには、このアクションを使用します。
+Marketo Engageでユーザーを [&#x200B; 静的リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} に追加するには、このアクションを使用します。
 
 まず、接続されたMarketo Engage インスタンスのワークスペースを選択します。 次に、リスト名を選択します。
 
-![ アクションの実行 – リストに追加 ](./assets/node-action-add-to-list-options.png){width="300"}
+![&#x200B; アクションの実行 – リストに追加 &#x200B;](./assets/node-action-add-to-list-options.png){width="300"}
 
 +++
 
 +++[!UICONTROL Marketo リクエストキャンペーンに追加 &#x200B;]
 
-Marketo Engageの [ リクエストキャンペーン ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} に人物プロファイルを追加するには、このアクションを使用します。
+Marketo Engageの [&#x200B; リクエストキャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} に人物プロファイルを追加するには、このアクションを使用します。
 
 まず、接続されたMarketo Engage インスタンスのワークスペースを選択します。 次に、リクエストキャンペーン名を選択します。
 
-![ アクションを実行 – Marketo リクエストキャンペーンに追加 ](./assets/node-action-add-to-request-campaign-options.png){width="300"}
+![&#x200B; アクションを実行 – Marketo リクエストキャンペーンに追加 &#x200B;](./assets/node-action-add-to-request-campaign-options.png){width="300"}
 
 +++
 
 +++[!UICONTROL Marketo Engageの人物パーティションの変更 &#x200B;]
 
-Marketo Engageで [ 人物パーティション ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} を変更するには、このアクションを使用します。
+Marketo Engageで [&#x200B; 人物パーティション &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} を変更するには、このアクションを使用します。
 
-![ アクションを実行 – Marketo Engageの人物パーティションを変更 ](./assets/node-action-change-people-partition-options.png){width="300"}
+![&#x200B; アクションを実行 – Marketo Engageの人物パーティションを変更 &#x200B;](./assets/node-action-change-people-partition-options.png){width="300"}
 
 +++
 
 +++[!UICONTROL &#x200B; リストから削除 &#x200B;]
 
-Marketo Engageの [ 静的リスト ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} からユーザーを削除するには、このアクションを使用します。 まず、接続されたMarketo Engage インスタンスのワークスペースを選択します。 次に、リスト名を選択します。
+Marketo Engageの [&#x200B; 静的リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} からユーザーを削除するには、このアクションを使用します。 まず、接続されたMarketo Engage インスタンスのワークスペースを選択します。 次に、リスト名を選択します。
 
-![ アクションの実行 – リストから削除 ](./assets/node-action-remove-from-list-options.png){width="300"}
+![&#x200B; アクションの実行 – リストから削除 &#x200B;](./assets/node-action-remove-from-list-options.png){width="300"}
 
 ユーザープロファイルがスマートリストのメンバーでない場合、アクションは無視されます。
 

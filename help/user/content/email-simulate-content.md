@@ -27,11 +27,11 @@ _コンテンツをシミュレート_ 機能を使用して、メールコン�
 
 ## メールのプレビューを表示
 
-レンダリングプレビューには、[ メールデザインスペース ](./email-authoring.md) または _[!UICONTROL メール一覧からメールを開く]_ 際の [ 概要 ](./emails-list.md#edit-emails) からアクセスできます。
+レンダリングプレビューには、[&#x200B; メールデザインスペース &#x200B;](./email-authoring.md) または _[!UICONTROL メール一覧からメールを開く]_ 際の [&#x200B; 概要 &#x200B;](./emails-list.md#edit-emails) からアクセスできます。
 
 1. 上部の「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
 
-   ![ 「コンテンツをシミュレート」をクリック ](assets/email-simulate-content.png){width="800" zoomable="yes"}
+   ![&#x200B; 「コンテンツをシミュレート」をクリック &#x200B;](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -41,23 +41,23 @@ _コンテンツをシミュレート_ 機能を使用して、メールコン�
 
    コンテンツプレビューでは、選択したユーザープロファイルに従ってパーソナライズされた要素が入力されます。
 
-   ![ シミュレーションをレンダリングするユーザープロファイルを選択する ](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
+   ![&#x200B; シミュレーションをレンダリングするユーザープロファイルを選択する &#x200B;](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   左側の _[!UICONTROL ユーザー]_ リストに何も表示されていない場合は、接続されたMarketo Engage インスタンスからの連絡先を使用して [ ユーザーを追加 ](#add-people-to-the-profiles-list) します。
+   左側の _[!UICONTROL ユーザー]_ リストに何も表示されていない場合は、接続されたMarketo Engage インスタンスからの連絡先を使用して [&#x200B; ユーザーを追加 &#x200B;](#add-people-to-the-profiles-list) します。
 
    >[!TIP]
    >
-   >また、[Litmus テストレンダリング統合 ](./email-test-rendering.md) を使用して、一般的なデスクトップ、モバイルおよび web ベースのクライアントでのメールメッセージのレンダリングを確認することもできます。
+   >また、[Litmus テストレンダリング統合 &#x200B;](./email-test-rendering.md) を使用して、一般的なデスクトップ、モバイルおよび web ベースのクライアントでのメールメッセージのレンダリングを確認することもできます。
 
 ## 表示オプションの調整
 
 表示ツールを使用して、デバイスのタイプやズームレベルに応じてプレビューを変更します。
 
-* _デスクトップ_ （![ デスクトップディスプレイアイコン ](../../assets/do-not-localize/icon-device-desktop.svg)）アイコンを選択し、デスクトップスタイルと縦横比を使用してプレビューを表示します。
-* _モバイル_ （![ モバイル表示アイコン ](../../assets/do-not-localize/icon-device-mobile.svg)）アイコンを選択し、モバイルデバイスのスタイルと縦横比を使用してプレビューを表示します。
+* _デスクトップ_ （![&#x200B; デスクトップディスプレイアイコン &#x200B;](../../assets/do-not-localize/icon-device-desktop.svg)）アイコンを選択し、デスクトップスタイルと縦横比を使用してプレビューを表示します。
+* _モバイル_ （![&#x200B; モバイル表示アイコン &#x200B;](../../assets/do-not-localize/icon-device-mobile.svg)）アイコンを選択し、モバイルデバイスのスタイルと縦横比を使用してプレビューを表示します。
 * _ズームレベル_ 矢印をクリックし、ズーム率を選択して、ズームレベルに応じたコンテンツの変化を確認します。
 
-![ プレビュー表示の調整 ](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
+![&#x200B; プレビュー表示の調整 &#x200B;](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
 
 ## 配達確認の送信
 
@@ -65,7 +65,7 @@ _コンテンツをシミュレート_ 機能を使用して、メールコン�
 
 1. 右上の **[!UICONTROL 配達確認を送信]** をクリックします。
 
-   ![ 「配達確認を送信」をクリック ](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![&#x200B; 「配達確認を送信」をクリック &#x200B;](assets/email-simulate-content-preview-send-proof.png){width="500"}
 
 1. _配達確認を送信_ ページで、最初の受信者のメールアドレスを入力します。
 
@@ -75,7 +75,7 @@ _コンテンツをシミュレート_ 機能を使用して、メールコン�
 
 1. 受信者ごとに、メッセージコンテンツのパーソナライズに使用するテストプロファイルを選択して、「**[!UICONTROL 次の形式でシミュレート]**」フィールドを設定します。
 
-   ![ 受信者の追加とテストプロファイルの設定 ](assets/email-simulate-content-preview-send-proof-recipients.png){width="700" zoomable="yes"}
+   ![&#x200B; 受信者の追加とテストプロファイルの設定 &#x200B;](assets/email-simulate-content-preview-send-proof-recipients.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 配達確認を送信]**」をクリックします。
 
@@ -83,7 +83,7 @@ _コンテンツをシミュレート_ 機能を使用して、メールコン�
 
 1. _[!UICONTROL ユーザー]_ リストの上部にある「**[!UICONTROL ユーザーを追加]**」をクリックします。
 
-   ![ プレビュー表示の調整 ](assets/email-simulate-content-add-people.png){width="500"}
+   ![&#x200B; プレビュー表示の調整 &#x200B;](assets/email-simulate-content-add-people.png){width="500"}
 
 1. _[!UICONTROL テストするユーザーを追加]_ ダイアログで、連絡先の完全なメールアドレスを入力します。
 
@@ -91,6 +91,6 @@ _コンテンツをシミュレート_ 機能を使用して、メールコン�
 
 1. テストプロファイルのリストに追加する、一致した各連絡先のチェックボックスを選択します。
 
-   ![ プレビュー表示の調整 ](assets/email-simulate-content-add-people-addresses.png){width="700" zoomable="yes"}
+   ![&#x200B; プレビュー表示の調整 &#x200B;](assets/email-simulate-content-add-people-addresses.png){width="700" zoomable="yes"}
 
 1. 右上の **[!UICONTROL 追加]** をクリックします。

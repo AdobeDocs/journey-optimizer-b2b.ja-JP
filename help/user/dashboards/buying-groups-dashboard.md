@@ -22,7 +22,7 @@ ht-degree: 3%
 
 このダッシュボードにアクセスするには、左側のナビゲーションで **[!UICONTROL アカウント]** を展開し、**[!UICONTROL 購入グループ]** を選択します。 「**[!UICONTROL 概要]**」タブがデフォルトで表示されていない場合は、選択します。
 
-![ 購入グループの概要 ](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+![&#x200B; 購入グループの概要 &#x200B;](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
 ## Buying Group Status
 
@@ -41,7 +41,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 詳細情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
 
-![ 購入グループ完了スコアビジュアライゼーション ](./assets/buying-group-completion-score-chart.png){width="500"}
+![&#x200B; 購入グループ完了スコアビジュアライゼーション &#x200B;](./assets/buying-group-completion-score-chart.png){width="500"}
 
 ## 購買グループのエンゲージメントスコア分布
 
@@ -49,7 +49,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 詳細情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
 
-![ 購入グループエンゲージメントスコアのビジュアライゼーション ](./assets/buying-group-completion-score-chart.png){width="500"}
+![&#x200B; 購入グループエンゲージメントスコアのビジュアライゼーション &#x200B;](./assets/buying-group-completion-score-chart.png){width="500"}
 
 ## ソリューションに対する関心別の購買グループ
 
@@ -57,18 +57,18 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 詳細情報を表示するには、右上の「**...**」メニューアイコンをクリックします。 **ドリルスルー** または **詳細の表示** を選択します。
 
-![ 購入グループエンゲージメントスコアのビジュアライゼーション ](./assets/buying-group-by-solution-interest-chart.png){width="500"}
+![&#x200B; 購入グループエンゲージメントスコアのビジュアライゼーション &#x200B;](./assets/buying-group-by-solution-interest-chart.png){width="500"}
 
 ## データのフィルタリング
 
-左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用して表示データをフィルタリングします。
+左上の _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、次の属性のいずれかを使用して表示データをフィルタリングします。
 
 * 現在のステージ
 * 業界
 * 地域
 * ソリューションに対する関心
 
-![ 表示されたデータを属性でフィルタリング ](./assets/buying-group-overview-filters.png){width="500"}
+![&#x200B; 表示されたデータを属性でフィルタリング &#x200B;](./assets/buying-group-overview-filters.png){width="500"}
 
 データのフィルタリングに使用する各属性の値を選択し、「**[!UICONTROL 適用]**」をクリックします。
 
@@ -80,17 +80,17 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 個々のグループのスコアまたは分布を詳細に分析するには、「**[!UICONTROL ドリルスルー]**」を選択します。
 
-![ ドリルスルーしてグラフデータにアクセス ](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
+![&#x200B; ドリルスルーしてグラフデータにアクセス &#x200B;](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
 
-ダッシュボードに適用されたグローバルフィルターは引き継がれます。 左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、ドリルスルー表示の [ 属性フィルターの変更 ](#filter-the-data) をクリックします。
+ダッシュボードに適用されたグローバルフィルターは引き継がれます。 左上の _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、ドリルスルー表示の [&#x200B; 属性フィルターの変更 &#x200B;](#filter-the-data) をクリックします。
 
-右上にある _その他_ （**...**）メニューをクリックし、**[!UICONTROL その他を表示]** を選択して [ 拡張データを表示 ](#view-more) することができます。
+右上にある _その他_ （**...**）メニューをクリックし、**[!UICONTROL その他を表示]** を選択して [&#x200B; 拡張データを表示 &#x200B;](#view-more) することができます。
 
 ### [!UICONTROL &#x200B; 詳細を表示 &#x200B;]
 
 **[!UICONTROL さらに表示]** を選択すると、拡張されたデータとインサイトが表示されます。
 
-![ 拡張データの表示 ](./assets/buying-group-engagement-score-view-more.png){width="700" zoomable="yes"}
+![&#x200B; 拡張データの表示 &#x200B;](./assets/buying-group-engagement-score-view-more.png){width="700" zoomable="yes"}
 
 表示されるポップアップには、購買グループ配分の内訳を示すチャートおよびテーブルが含まれる。
 

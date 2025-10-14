@@ -15,13 +15,13 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer B2B Edition] は [!DNL Adobe Experience Manager Assets as a Cloud Service] と統合されているので、メールコンテンツでアセットを使用できます。 [!DNL Experience Manager Assets] と情報を交換することで、透明性を確保します。 [!DNL Adobe Experience Assets] への接続を設定してこの機能を有効にします。
 
-Adobe Experience Manager Cloud Managerはプログラム別に整理されており、各プログラムには複数の環境とリポジトリがあります（[ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 Adobe Journey Optimizer B2B editionでAdobe Experience Manager Assetsを設定する場合、デジタルアセットへのアクセスに使用する各リポジトリへの接続を設定します。
+Adobe Experience Manager Cloud Managerはプログラム別に整理されており、各プログラムには複数の環境とリポジトリがあります（[&#x200B; 詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}）。 Adobe Journey Optimizer B2B editionでAdobe Experience Manager Assetsを設定する場合、デジタルアセットへのアクセスに使用する各リポジトリへの接続を設定します。
 
 {{aem-assets-licensing-note}}
 
 ## 前提条件
 
-* 目的の環境のサービス資格情報をAEM ヘッドレス Developer Consoleで生成します（[ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
+* 目的の環境のサービス資格情報をAEM ヘッドレス Developer Consoleで生成します（[&#x200B; 詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}）。
 * 接続に必要な証明書を入手します。 ベストプラクティスとして、証明書の有効期限が切れるまで、少なくとも 6 か月は残っていることを確認します。 証明書は 365 日ごとに期限切れになります。
 * Adobe Journey Optimizer B2B editionでは、一度に 1 つのデジタルアセット管理ソースへのアクセスをサポートしています。 切り替える前に、必要なアセットがAdobe Experience Managerで使用可能であることを確認してください。
 
@@ -35,7 +35,7 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
 1. 中間パネルの **[!UICONTROL 0&rbrace;Assets&rbrace; をクリックします。]**
 
-   ![Assets設定スペースへのアクセス ](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
+   ![Assets設定スペースへのアクセス &#x200B;](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
 <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
 -->
@@ -43,13 +43,13 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
 1. 「_[!UICONTROL Adobe Experience Manager Assets]_」ボックス内で、「**[!UICONTROL リポジトリーを設定]** の横にある矢印をクリックし、リポジトリーを選択します。
 
-   ![AEM Assets リポジトリを選択 ](./assets/configure-assets-aem-choose-respository.png){width="500"}
+   ![AEM Assets リポジトリを選択 &#x200B;](./assets/configure-assets-aem-choose-respository.png){width="500"}
 
 1. **[!UICONTROL 証明書を追加]** をクリックし、ダイアログツールを使用してファイルをアップロードします。
 
    .json ファイルをダイアログ上にドラッグすることで、アップロードできます。 このリンクをクリックして、システムからファイルを探して選択することもできます。
 
-   ![ 証明書の JSON ファイルをアップロードする ](./assets/configuration-assets-aem-upload-cert.png){width="500"}
+   ![&#x200B; 証明書の JSON ファイルをアップロードする &#x200B;](./assets/configuration-assets-aem-upload-cert.png){width="500"}
 
    アップロード後、証明書が下部に表示されます。
 
@@ -63,7 +63,7 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
    設定されたリポジトリが、選択パネルの下のテーブルに表示されます。 手順 3～4 を繰り返して、別のリポジトリを追加できます。
 
-   ![ 設定済みのAEM アセットリポジトリを確認する ](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
+   ![&#x200B; 設定済みのAEM アセットリポジトリを確認する &#x200B;](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
 
 リポジトリの設定が完了すると、チームメンバーはコンテンツのオーサリング時に [!DNL Adobe Experience Manager Assets] を選択できます。
 
@@ -85,13 +85,13 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
 1. 証明書ファイルの省略記号（**...**）アイコンをクリックして、その証明書ファイルに対するアクションのオプションを表示します。
 
-   ![AEM アセットリポジトリーの証明書のオプションメニューにアクセスする ](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
+   ![AEM アセットリポジトリーの証明書のオプションメニューにアクセスする &#x200B;](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL 置換]**」を選択して、ファイルのアップロード用のダイアログを開きます。
 
 1. ダイアログ上にファイルをドラッグするか、リンクを使用して、ファイルをアップロードします。 ファイルのタイプが JSON であることを確認します。
 
-   ![ 代替のAEM Assets リポジトリ証明書 JSON ファイルをアップロードします ](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
+   ![&#x200B; 代替のAEM Assets リポジトリ証明書 JSON ファイルをアップロードします &#x200B;](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
 
 1. **[!UICONTROL 置換]** をクリックして、アップロードを確定します。
 
@@ -107,7 +107,7 @@ Adobe Experience Manager Cloud Managerはプログラム別に整理されてお
 
 1. **[!UICONTROL 表示]** を選択します。
 
-   ![ 接続されたAEM アセットリポジトリの証明書 JSON ファイルを表示する ](./assets/configuration-assets-aem-view-cert.png){width="600"}
+   ![&#x200B; 接続されたAEM アセットリポジトリの証明書 JSON ファイルを表示する &#x200B;](./assets/configuration-assets-aem-view-cert.png){width="600"}
 
 1. 「**[!UICONTROL 閉じる]**」をクリックして、「リポジトリを設定」ページに戻ります。
 

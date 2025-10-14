@@ -49,7 +49,7 @@ ht-degree: 9%
 >
 >この機能は現在、プライベートベータ版として利用でき、今後のリリースですべてのお客様に段階的に提供される予定です。
 >
->Adobe Journey Optimizer B2B editionで AI を利用した機能を使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer B2B editionで AI を利用した機能を使用するには、[&#x200B; ユーザー使用許諾契約 &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 
 定義済みのブランドは、クリエイティブチームが視覚的なコンテンツや書き込みコンテンツを作成する際に使用する _真実のソース_ を提供します。 これらのガイドラインがコンパイルされ、ブランドアセットが共有されると、チームメンバーや共同作業者は製品のオンブランドコンテンツを作成できます。 Journey Optimizer B2B editionでオンブランドコンテンツ作成を有効にするには、次のタスクを実行します。
 
@@ -61,11 +61,11 @@ ht-degree: 9%
 
 1. この情報を 1 つ以上のPDF ファイルにアセンブリします。
 
-1. PDF ファイルを使用して、Journey Optimizer B2B editionで [ ブランドを作成 ](./brands-manage-create.md#create-and-define-a-brand) します。
+1. PDF ファイルを使用して、Journey Optimizer B2B editionで [&#x200B; ブランドを作成 &#x200B;](./brands-manage-create.md#create-and-define-a-brand) します。
 
-1. 使用する準備が整ったら、[ ブランドを公開 ](./brands-manage-create.md#publish-the-brand) します。
+1. 使用する準備が整ったら、[&#x200B; ブランドを公開 &#x200B;](./brands-manage-create.md#publish-the-brand) します。
 
-1. ブランドを使用して [ メールコンテンツの調整 ](./brand-alignment.md) を行います。
+1. ブランドを使用して [&#x200B; メールコンテンツの調整 &#x200B;](./brand-alignment.md) を行います。
 <!-- 
 1. Use the brand to generate content. -->
 
@@ -75,7 +75,7 @@ ht-degree: 9%
 
 製品管理者は、Adobe Experience Cloudの **[!UICONTROL 権限]** UI を使用して **[!UICONTROL ブランドキットを管理]** または _AI アシスタントを有効にする_ リソース権限を割り当てることで、ブランド管理およびブランドの連携機能へのアクセスを有効にすることができます。
 
-1. 権限アプリで、「**[!UICONTROL 役割]**」タブに移動し、目的の [ 役割 ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"} を選択します。
+1. 権限アプリで、「**[!UICONTROL 役割]**」タブに移動し、目的の [&#x200B; 役割 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"} を選択します。
 
 1. 「**[!UICONTROL 編集]**」をクリックして、権限を変更します。
 
@@ -85,7 +85,7 @@ ht-degree: 9%
    >
    >**[!UICONTROL Ai アシスタントを有効にする]** 権限を持つユーザーは、**[!UICONTROL Brands]** ライブラリに読み取り専用でアクセスできます。
 
-   ![ ブランドアクセスのための AI アシスタント権限を追加 ](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
+   ![&#x200B; ブランドアクセスのための AI アシスタント権限を追加 &#x200B;](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックして、変更を適用します。
 
@@ -95,7 +95,7 @@ ht-degree: 9%
 
    * ユーザー名とメールアドレスを入力するか、リストから既存のユーザーを選択します。
 
-     ユーザーがまだ作成されていない場合は、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"} を参照してください。
+     ユーザーがまだ作成されていない場合は、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"} を参照してください。
 
    * 「**[!UICONTROL 保存]**」をクリックして、変更を適用します。
 

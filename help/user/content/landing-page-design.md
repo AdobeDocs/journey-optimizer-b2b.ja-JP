@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # ランディングページのデザイン
 
-[ ランディングページを作成 ](./landing-pages.md#create-a-landing-page) した後、ビジュアルデザインスペースを使用して、ページの構造コンポーネントとコンテンツコンポーネントをオーサリングします。
+[&#x200B; ランディングページを作成 &#x200B;](./landing-pages.md#create-a-landing-page) した後、ビジュアルデザインスペースを使用して、ページの構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#structure-content-landing-page}
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 キャンバスに 1 つ以上のコンテンツコンポーネントがある状態で、左側のナビゲーションツリーで **[!UICONTROL 本文]** コンポーネントを選択して、カスタム CSS エディターにアクセスします。
 
-![ 本文スタイルへのアクセス ](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+![&#x200B; 本文スタイルへのアクセス &#x200B;](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
 {{$include /help/_includes/content-design-custom-css.md}}
 
@@ -70,7 +70,7 @@ ht-degree: 3%
 
 ビジュアルデザインスペースの上部にある _[!UICONTROL その他…]_ メニューから、次の操作を実行できます。
 
-![ 「詳細」をクリックしてテンプレートアクションにアクセス ](./assets/landing-page-designer-more-menu.png){width="500"}
+![&#x200B; 「詳細」をクリックしてテンプレートアクションにアクセス &#x200B;](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL ランディングページをリセット]** – このオプションをクリックして、ビジュアルデザインキャンバスを空白のスレートにクリアし、ページコンテンツの作成を再開します。
 * **[!UICONTROL デザインを変更]** - _[!UICONTROL プライマリランディングページを作成]_ ホームページに戻ります。 ここから、別のテンプレートを選択してデザインプロセスを再開するか、空白のキャンバスでページをゼロからデザインするかを選択できます。

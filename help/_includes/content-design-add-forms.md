@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL コンテンツ]**」セクションで、「**[!UICONTROL フォーム]**」項目をドラッグし、ページデザインスペースの構造コンポーネントにドロップします。
 
-   ![ フォームコンポーネントをビジュアルデザインスペースにドラッグ ](../assets/content-design-shared/content-design-add-form.png){width="600"}
+   ![&#x200B; フォームコンポーネントをビジュアルデザインスペースにドラッグ &#x200B;](../assets/content-design-shared/content-design-add-form.png){width="600"}
 
    >[!TIP]
    >
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. コンポーネントツールバーの _フォーム_ アイコンをクリックするか、右側の **[!UICONTROL 埋め込みフォーム]** プロパティを使用して、公開されたフォームを選択します。
 
-   ![ 公開されたフォームを選択する ](../assets/content-design-shared/content-design-add-form-properties.png){width="600"}
+   ![&#x200B; 公開されたフォームを選択する &#x200B;](../assets/content-design-shared/content-design-add-form-properties.png){width="600"}
 
 1. フォームのデフォルトの **[!UICONTROL フォローアップタイプ]** を上書きする場合は、ページまたはテンプレートの要件に応じて設定を変更します。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
      >
      >フォームを使用してファイルをダウンロードする場合は、ホストされるファイルの URL を指定できます。 この設定では、「送信」ボタンはダウンロードボタンとして機能します。
 
-   ![ フォローアップ設定の変更 ](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+   ![&#x200B; フォローアップ設定の変更 &#x200B;](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 1. デバイスタイプごとにフォームの表示を制限する場合は、「**[!UICONTROL 表示オプション]**」設定を変更します。
 

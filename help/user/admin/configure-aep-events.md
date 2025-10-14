@@ -22,7 +22,7 @@ ht-degree: 2%
 
 1. AEP イベント定義を作成して公開します。
 
-2. アカウントジャーニーで、「_イベントをリッスン_」ノードおよび [AEP イベント定義を人物イベントとして選択 ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) を追加します。
+2. アカウントジャーニーで、「_イベントをリッスン_」ノードおよび [AEP イベント定義を人物イベントとして選択 &#x200B;](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) を追加します。
 
 各イベント定義には、次のExperience Platform入力が必要です。
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >必要なスキーマを確実に定義するために、エンジニアリングチームと調整します。 [XDM スキーマの作成 ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition){target="_blank"} は、データエンジニアが組織全体のユースケース要件に基づいて実行する複雑なプロセスです。
+  >必要なスキーマを確実に定義するために、エンジニアリングチームと調整します。 [XDM スキーマの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition){target="_blank"} は、データエンジニアが組織全体のユースケース要件に基づいて実行する複雑なプロセスです。
 
 * **_イベントタイプ_** - XDM ExperienceEventType （イベント定義ごとに最大 20）。
 
@@ -66,9 +66,9 @@ ht-degree: 2%
 
 1. 中間パネルの **[!UICONTROL イベント]** をクリックして、イベント定義のリストを表示します。
 
-   このページから、イベント定義 [ 作成 ](#create-an-event-definition)、[ 公開 ](#publish-an-event-defintion)、[ 編集 ](#edit-an-event-definition)、[ 削除 ](#delete-an-event-definition) を実行できます。
+   このページから、イベント定義 [&#x200B; 作成 &#x200B;](#create-an-event-definition)、[&#x200B; 公開 &#x200B;](#publish-an-event-defintion)、[&#x200B; 編集 &#x200B;](#edit-an-event-definition)、[&#x200B; 削除 &#x200B;](#delete-an-event-definition) を実行できます。
 
-   ![ 設定済みのイベント定義へのアクセス ](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
+   ![&#x200B; 設定済みのイベント定義へのアクセス &#x200B;](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
    テーブルは「_[!UICONTROL 変更済み]_ 列で並べ替えられ、最後に更新された定義がデフォルトで一番上に表示されます。<!-- Click the column title to change between ascending and descending.-->
 
@@ -84,13 +84,13 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 | 公開日 | イベント定義を公開すると、アカウントジャーニーで使用できるようになります。 詳細は変更できません。 使用可能なアクション：<br/><li>_イベントをリッスン_ ジャーニーノードで使用可能<li>ドラフトバージョンを作成<li>削除（使用中でない場合） |
 | 公開済み (ドラフトあり) | 公開済みのイベント定義からドラフトを作成する場合、公開されたバージョンはアカウントジャーニーで引き続き使用でき、ドラフトバージョンは変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、まだ実行されていないアカウントジャーニーのイベント定義が更新されます。 使用可能なアクション：<br/><li>すべての詳細を編集<li>ドラフトバージョンを公開<li>ドラフトバージョンを破棄<li>削除（使用中でない場合） |
 
-![ フラグメントステータスのライフサイクル ](../assets/status-lifecycle-diagram.png){zoomable="yes"}
+![&#x200B; フラグメントステータスのライフサイクル &#x200B;](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### イベント定義リストのフィルタリング
 
 名前でイベント定義を検索するには、検索バーに一致するテキスト文字列を入力します。
 
-![ 表示されるイベント定義のフィルタリング ](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
+![&#x200B; 表示されるイベント定義のフィルタリング &#x200B;](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
 ## イベント定義の作成
 
@@ -102,7 +102,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![ イベント定義の作成 ](./assets/configuration-events-create.png){width="600" zoomable="yes"}
+   ![&#x200B; イベント定義の作成 &#x200B;](./assets/configuration-events-create.png){width="600" zoomable="yes"}
 
 1. イベント定義に使用する **[!UICONTROL スキーマ]** を設定します。
 
@@ -112,17 +112,17 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
    * ダイアログで、エクスペリエンスイベントベースのスキーマのリストからスキーマを選択します。
    * 「**[!UICONTROL 選択]**」をクリックします。
 
-   ![ イベント定義のスキーマの選択 ](./assets/configuration-events-create-select-schema.png){width="600" zoomable="yes"}
+   ![&#x200B; イベント定義のスキーマの選択 &#x200B;](./assets/configuration-events-create-select-schema.png){width="600" zoomable="yes"}
 
 1. イベント定義に使用する **[!UICONTROL イベントタイプ]** を選択します。
 
-   選択する [ イベントタイプ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
+   選択する [&#x200B; イベントタイプ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
 
    * **[!UICONTROL イベントタイプを選択]** をクリックします。
    * ダイアログで、リストから 1 つ以上のイベントタイプを選択します（最大 20）。
    * 「**[!UICONTROL 選択]**」をクリックします。
 
-   ![ イベント定義のイベントタイプの選択 ](./assets/configuration-events-create-select-event-types.png){width="600" zoomable="yes"}
+   ![&#x200B; イベント定義のイベントタイプの選択 &#x200B;](./assets/configuration-events-create-select-event-types.png){width="600" zoomable="yes"}
 
 1. イベント定義に使用する **[!UICONTROL フィールド]** を選択します。
 
@@ -136,13 +136,13 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
    * ダイアログで、リストから 1 つ以上のフィールドを選択します（最大 20）。
    * 「**[!UICONTROL 選択]**」をクリックします。
 
-   ![ イベント定義用のフィールドを選択 ](./assets/configuration-events-create-select-fields.png){width="600" zoomable="yes"}
+   ![&#x200B; イベント定義用のフィールドを選択 &#x200B;](./assets/configuration-events-create-select-fields.png){width="600" zoomable="yes"}
 
 1. スキーマ、イベントタイプおよびフィールドが完成したら、「**[!UICONTROL 作成]**」をクリックします。
 
    作成時にはリストページが表示され、新しいイベントが _ドラフト_ ステータスでリストの上部に表示されます。
 
-   ![ 新しいドラフトイベント定義がページに表示されます ](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
+   ![&#x200B; 新しいドラフトイベント定義がページに表示されます &#x200B;](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
 ## イベント定義の公開
 
@@ -154,19 +154,19 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. _[!UICONTROL イベント定義]_ リストで、ドラフトイベント定義の名前をクリックして詳細ページを開きます。
 
-   ![ ドラフトイベント定義を開く ](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
+   ![&#x200B; ドラフトイベント定義を開く &#x200B;](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
 
-   必要に応じて、公開する前に設定を確認します。 要件を満たさない場合は [ ドラフトを編集 ](#edit-an-event-definition) できます。
+   必要に応じて、公開する前に設定を確認します。 要件を満たさない場合は [&#x200B; ドラフトを編集 &#x200B;](#edit-an-event-definition) できます。
 
 1. 右上の **[!UICONTROL 公開]** をクリックします。
 
 1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
 
-   ![ イベントを公開ダイアログ ](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![&#x200B; イベントを公開ダイアログ &#x200B;](./assets/configuration-events-publish-dialog.png){width="300"}
 
-   イベント定義のステータスが _公開済み_ に変わり、[ アカウントジャーニーで使用できる ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) ようになりました。
+   イベント定義のステータスが _公開済み_ に変わり、[&#x200B; アカウントジャーニーで使用できる &#x200B;](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) ようになりました。
 
-   ![ イベント定義のステータスがページで更新されます ](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
+   ![&#x200B; イベント定義のステータスがページで更新されます &#x200B;](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
 ## イベント定義の編集
 
@@ -180,7 +180,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
    * イベント定義が _公開済み_ ステータスの場合は、編集できません。 編集可能なドラフトバージョンを作成し、公開済みのバージョンと置き換えることができます。
    * イベント定義が _公開済み（ドラフト）_ ステータスの場合、ドラフトバージョンを変更できます（説明を編集し、イベントタイプとフィールドを追加します）。
 
-   ![ 新しいドラフトイベント定義がページに表示されます ](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
+   ![&#x200B; 新しいドラフトイベント定義がページに表示されます &#x200B;](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL イベント定義]_ リストページで、イベント定義名をクリックして開きます。
 
@@ -192,9 +192,9 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. 必要に応じて、イベント定義の詳細を変更します。
 
-   ![ ドラフトステータスのイベント定義の詳細 ](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
+   ![&#x200B; ドラフトステータスのイベント定義の詳細 &#x200B;](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
 
-   [ イベント定義の作成 ](#create-an-event-definition) に使用するのと同じガイドラインに従います。
+   [&#x200B; イベント定義の作成 &#x200B;](#create-an-event-definition) に使用するのと同じガイドラインに従います。
 
    変更内容は自動的にドラフトに保存されます。
 
@@ -208,11 +208,11 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. イベント定義を更新するには、右上の **[!UICONTROL ドラフトバージョンを作成]** をクリックします。
 
-   ![ 公開済みイベント定義の詳細 ](./assets/configuration-events-published-details.png){width="600" zoomable="yes"}
+   ![&#x200B; 公開済みイベント定義の詳細 &#x200B;](./assets/configuration-events-published-details.png){width="600" zoomable="yes"}
 
 1. 確認ダイアログで、「**[!UICONTROL ドラフトを作成]**」をクリックして、ドラフトバージョンを開きます。
 
-   ![ ドラフトバージョンを作成ダイアログ ](./assets/configuration-events-published-create-draft-dialog.png){width="300"}
+   ![&#x200B; ドラフトバージョンを作成ダイアログ &#x200B;](./assets/configuration-events-published-create-draft-dialog.png){width="300"}
 
    このアクションにより、ドラフトバージョンが作成されてリストページに戻ります。ここで、イベント定義のステータスは _公開済み（ドラフト）_ になります。
 
@@ -222,11 +222,11 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. 「**[!UICONTROL ドラフト]** バージョン」タブを選択します。
 
-   ![ ドラフトバージョンを選択して詳細を編集 ](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
+   ![&#x200B; ドラフトバージョンを選択して詳細を編集 &#x200B;](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、編集可能な詳細（**[!UICONTROL 説明]**、**[!UICONTROL イベントタイプ]**、**[!UICONTROL フィールド]**）を変更します。
 
-   [ イベント定義の作成 ](#create-an-event-definition) に使用するのと同じガイドラインに従います。
+   [&#x200B; イベント定義の作成 &#x200B;](#create-an-event-definition) に使用するのと同じガイドラインに従います。
 
    変更内容は自動的にドラフトに保存されます。
 
@@ -234,7 +234,7 @@ _[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 
 
 1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
 
-   ![ ドラフトを公開ダイアログ ](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![&#x200B; ドラフトを公開ダイアログ &#x200B;](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、既に使用中でまだ実行されていないアカウントジャーニーの場合はイベント定義が更新されます。
 
@@ -244,11 +244,11 @@ _公開済み（ドラフト）_ イベント定義を開くと、デフォル�
 
 1. 「**[!UICONTROL ドラフト]** バージョン」タブを選択します。
 
-   ![ ドラフトバージョンを選択して詳細を編集 ](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
+   ![&#x200B; ドラフトバージョンを選択して詳細を編集 &#x200B;](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、編集可能な詳細（**[!UICONTROL 説明]**、**[!UICONTROL イベントタイプ]**、**[!UICONTROL フィールド]**）を変更します。
 
-   [ イベント定義の作成 ](#create-an-event-definition) に使用するのと同じガイドラインに従います。
+   [&#x200B; イベント定義の作成 &#x200B;](#create-an-event-definition) に使用するのと同じガイドラインに従います。
 
    変更内容は自動的にドラフトに保存されます。
 
@@ -256,7 +256,7 @@ _公開済み（ドラフト）_ イベント定義を開くと、デフォル�
 
 1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
 
-   ![ ドラフトを公開ダイアログ ](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![&#x200B; ドラフトを公開ダイアログ &#x200B;](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、既に使用中でまだ実行されていないアカウントジャーニーの場合はイベント定義が更新されます。
 
@@ -274,11 +274,11 @@ _公開済み（ドラフト）_ イベント定義を開くと、デフォル�
 
 1. 中間パネルの **[!UICONTROL イベント]** をクリックして、イベント定義のリストを表示します。
 
-1. リストでイベント定義を見つけ、名前の右側にある _削除_ （![ 削除アイコン ](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックします。
+1. リストでイベント定義を見つけ、名前の右側にある _削除_ （![&#x200B; 削除アイコン &#x200B;](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックします。
 
 1. 確認ダイアログで、「**[!UICONTROL 削除]**」をクリックします。
 
-   ![ 確認してイベント定義を削除 ](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+   ![&#x200B; 確認してイベント定義を削除 &#x200B;](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
 
 ## 概要ビデオ
 

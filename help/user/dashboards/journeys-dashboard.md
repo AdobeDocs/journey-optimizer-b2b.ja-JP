@@ -17,7 +17,7 @@ ht-degree: 2%
 
 この概要は、公開済みアカウントジャーニーで使用でき、データがグラフとテーブルに入力され始めるまで約 4 時間かかります。
 
-![ジャーニーの概要 ](./assets/journey-overview.png){width="700" zoomable="yes"}
+![ジャーニーの概要 &#x200B;](./assets/journey-overview.png){width="700" zoomable="yes"}
 
 ## ジャーニー完了率の分布
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 詳細情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
 
-![ジャーニー完了率の配分 ](./assets/journey-completion-rate-distribution.png){width="500"}
+![ジャーニー完了率の配分 &#x200B;](./assets/journey-completion-rate-distribution.png){width="500"}
 
 ## エンゲージメントタイプ別ジャーニー
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 詳細情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
 
-![ジャーニー完了率の配分 ](./assets/journeys-by-engagement-type.png){width="500"}
+![ジャーニー完了率の配分 &#x200B;](./assets/journeys-by-engagement-type.png){width="500"}
 
 ## データの操作
 
@@ -43,15 +43,15 @@ ht-degree: 2%
 
 円グラフの場合は、「**[!UICONTROL ドリルスルー]**」を選択すると、データが詳細に分析されます。
 
-![ ドリルスルーしてグラフデータにアクセス ](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
+![&#x200B; ドリルスルーしてグラフデータにアクセス &#x200B;](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-右上にある _その他_ （**...**）メニューをクリックし、「**[!UICONTROL その他を表示]**」を選択して [ 拡張データを表示 ](#view-more) することができます。
+右上にある _その他_ （**...**）メニューをクリックし、「**[!UICONTROL その他を表示]**」を選択して [&#x200B; 拡張データを表示 &#x200B;](#view-more) することができます。
 
 ### [!UICONTROL &#x200B; 詳細を表示 &#x200B;]
 
 **[!UICONTROL さらに表示]** を選択すると、拡張されたデータとインサイトが表示されます。
 
-![ 拡張データの表示 ](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
+![&#x200B; 拡張データの表示 &#x200B;](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
 
 表示されるポップアップには、ジャーニーデータの分類を示すグラフとテーブルが含まれています。
 

@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # アカウントジャーニーノード
 
-[ アカウントジャーニーを作成 ](journey-overview.md#create-an-account-journey)、[ オーディエンスを追加 ](journey-overview.md#add-the-account-audience-for-your-journey) した後、ノードを使用してジャーニーを構築します。 ジャーニーマップはキャンバスを提供し、複数手順の B2B マーケティングのユースケースを作成できます。
+[&#x200B; アカウントジャーニーを作成 &#x200B;](journey-overview.md#create-an-account-journey)、[&#x200B; オーディエンスを追加 &#x200B;](journey-overview.md#add-the-account-audience-for-your-journey) した後、ノードを使用してジャーニーを構築します。 ジャーニーマップはキャンバスを提供し、複数手順の B2B マーケティングのユースケースを作成できます。
 
 様々なアクション、イベント、オーケストレーションのノードを複数手順のクロスチャネルシナリオとして組み合わせることで、アカウントジャーニーを構築します。 ジャーニーの各ノードは、論理パスに沿ったステップを表します。 次のノードタイプを使用して、アカウントジャーニーを構築します。
 

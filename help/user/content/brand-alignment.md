@@ -42,35 +42,35 @@ ht-degree: 23%
 >title="ロゴのスコア"
 >abstract="ロゴのスコア"
 
-ブランドの整合性評価およびスコアは、（選択されたブランドで定義された [ ガイドラインに準拠するコンテンツの作成、レビューおよび管理に役立ち ](./brands-manage-create.md#brand-definitions) す。 この機能を使用すると、メールキャンペーン全体のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保するだけでなく、コンテンツ公開前に品質チェックを行うことができます。
+ブランドの整合性評価およびスコアは、（選択されたブランドで定義された [&#x200B; ガイドラインに準拠するコンテンツの作成、レビューおよび管理に役立ち &#x200B;](./brands-manage-create.md#brand-definitions) す。 この機能を使用すると、メールキャンペーン全体のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保するだけでなく、コンテンツ公開前に品質チェックを行うことができます。
 
 >[!AVAILABILITY]
 >
 >この機能は現在、プライベートベータ版として利用でき、今後のリリースですべてのお客様に段階的に提供される予定です。
 >
->Adobe Journey Optimizer B2B editionで AI を利用した機能を使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer B2B editionで AI を利用した機能を使用するには、[&#x200B; ユーザー使用許諾契約 &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 >
->製品管理者がこれらの機能を有効にする方法については、[ ブランド関連の権限 ](./brands-overview.md#brand-related-permissions) を参照してください。
+>製品管理者がこれらの機能を有効にする方法については、[&#x200B; ブランド関連の権限 &#x200B;](./brands-overview.md#brand-related-permissions) を参照してください。
 
 ## ブランドの整合性の検証
 
 ブランドを適切に定義して公開したら、メールデザイン空間内でブランドの整合性スコアを直接評価して、コンテンツがブランドガイドラインに従っていることを確認します。
 
-1. メールコンテンツを作成したら、右側の _ブランド調整_ （![ ブランド調整アイコン ](../assets/do-not-localize/icon-brand-compliance.svg)）アイコンをクリックして、メールデザインスペースの _ブランド調整_ 右側のパネルを開きます。
+1. メールコンテンツを作成したら、右側の _ブランド調整_ （![&#x200B; ブランド調整アイコン &#x200B;](../assets/do-not-localize/icon-brand-compliance.svg)）アイコンをクリックして、メールデザインスペースの _ブランド調整_ 右側のパネルを開きます。
 
-   [ デフォルトブランド ](./brands-manage-create.md#default-brand) が自動的に選択されます。
+   [&#x200B; デフォルトブランド &#x200B;](./brands-manage-create.md#default-brand) が自動的に選択されます。
 
-   ![ ブランド調整ツールへのアクセス ](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+   ![&#x200B; ブランド調整ツールへのアクセス &#x200B;](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-   パネルの上部にある「_フルスクリーン_」（![ フルスクリーンアイコン ](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックすると、ブランド調整ツールがフルスクリーンモードで表示されます。
+   パネルの上部にある「_フルスクリーン_」（![&#x200B; フルスクリーンアイコン &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックすると、ブランド調整ツールがフルスクリーンモードで表示されます。
 
-1. 必要に応じて、「**[!UICONTROL ブランド]**」メニュー矢印 ![ 下矢印 ](../assets/do-not-localize/icon-down-menu.svg)）をクリックして、別の公開済みブランドを選択します。
+1. 必要に応じて、「**[!UICONTROL ブランド]**」メニュー矢印 ![&#x200B; 下矢印 &#x200B;](../assets/do-not-localize/icon-down-menu.svg)）をクリックして、別の公開済みブランドを選択します。
 
 1. **[!UICONTROL スコアを評価]** をクリックして、選択したブランドに対するコンテンツの整合性にスコアを付けます。
 
    選択したブランドのガイドラインに対してコンテンツが評価され、結果のスコアが表示されます。
 
-   ![ ブランドの整合性の評価スコア ](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
+   ![&#x200B; ブランドの整合性の評価スコア &#x200B;](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
 ## 評価のレビュー
 
@@ -81,9 +81,9 @@ ht-degree: 23%
 * 60～79 =公正 – 一部の重大な違反
 * 60 未満=悪い – 重大な違反には注意が必要
 
-評価結果をより詳細に確認すると、違反を特定し、カテゴリの整合性スコア（_高_、_Medium_、低 __ を向上させ、詳細を確認するのに役立ちます。 **[!UICONTROL 手書きスタイル]** または **[!UICONTROL ビジュアルコンテンツ]** の場合は、_展開_ （![ 展開矢印 ](../assets/do-not-localize/icon-expand-right.svg)）矢印をクリックして、評価の詳細を表示します。
+評価結果をより詳細に確認すると、違反を特定し、カテゴリの整合性スコア（_高_、_Medium_、低 __ を向上させ、詳細を確認するのに役立ちます。 **[!UICONTROL 手書きスタイル]** または **[!UICONTROL ビジュアルコンテンツ]** の場合は、_展開_ （![&#x200B; 展開矢印 &#x200B;](../assets/do-not-localize/icon-expand-right.svg)）矢印をクリックして、評価の詳細を表示します。
 
-![ ブランド整合性評価の詳細 ](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
+![&#x200B; ブランド整合性評価の詳細 &#x200B;](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
 
 フラグ付けされたガイドラインを選択して、特定のフィードバックと提案を表示します。
 

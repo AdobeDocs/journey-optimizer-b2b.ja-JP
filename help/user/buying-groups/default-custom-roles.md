@@ -21,7 +21,7 @@ Journey Optimizer B2B editionには、購買グループ用のロールテンプ
 
 1. _[!UICONTROL 購入グループ]_ ページで、「**[!UICONTROL 役割]**」タブを選択します。
 
-   ![ 「役割」タブ ](./assets/roles-tab.png){width="700" zoomable="yes"}
+   ![&#x200B; 「役割」タブ &#x200B;](./assets/roles-tab.png){width="700" zoomable="yes"}
 
    このタブには、既存のすべての役割の在庫リストが表示され、次の情報が列形式で表示されます。
 
@@ -51,7 +51,7 @@ Journey Optimizer B2B editionには、購買グループ用のロールテンプ
 
 1. ダイアログで、役割に一意の **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![ 役割を作成ダイアログ ](./assets/roles-create-dialog.png){width="400"}
+   ![&#x200B; 役割を作成ダイアログ &#x200B;](./assets/roles-create-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -59,4 +59,4 @@ Journey Optimizer B2B editionには、購買グループ用のロールテンプ
 
 _[!UICONTROL 役割]_ タブでカスタムの役割を管理できます。これには、役割の名前と説明の編集や、役割リストからの役割の削除が含まれます。 ステージモデル名の横にある _その他_ メニューアイコン（**...**）をクリックし、**[!UICONTROL 編集]** または **[!UICONTROL 削除]** を選択します。
 
-![ カスタムの役割の編集または削除 ](./assets/roles-more-menu.png){width="600"}
+![&#x200B; カスタムの役割の編集または削除 &#x200B;](./assets/roles-more-menu.png){width="600"}

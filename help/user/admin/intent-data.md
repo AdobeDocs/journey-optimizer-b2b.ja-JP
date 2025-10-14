@@ -18,9 +18,9 @@ Journey Optimizer B2B editionでは、インテント検出モデルが、リー
 * インテントのレベル – 既知のリード、アカウント、購入グループレベルで使用できます。
 * インテントシグナルのタイプ – キーワード、製品、ソリューション
 
-インテントデータは、[_インテリジェントダッシュボード_](../dashboards/intelligent-dashboard.md)、[_アカウントの詳細_ ページ ](../accounts/account-details.md)、[_購入グループの詳細_ ページ ](../buying-groups/buying-group-details.md)、および [_ユーザーの詳細_ ページ ](../accounts/person-details.md) で使用されます。
+インテントデータは、[_インテリジェントダッシュボード_](../dashboards/intelligent-dashboard.md)、[_アカウントの詳細_ ページ &#x200B;](../accounts/account-details.md)、[_購入グループの詳細_ ページ &#x200B;](../buying-groups/buying-group-details.md)、および [_ユーザーの詳細_ ページ &#x200B;](../accounts/person-details.md) で使用されます。
 
-![ インテントデータビジュアライゼーション ](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
+![&#x200B; インテントデータビジュアライゼーション &#x200B;](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## インテントマッピングデータの準備
 
@@ -40,7 +40,7 @@ Excel ファイルをダウンロードすると、マッピングデータを�
 
 1. ダイアログで、「**[!UICONTROL ファイルテンプレートをダウンロード]**」リンクをクリックします。
 
-   ![ インテントデータダウンロードテンプレートファイル ](./assets/intent-data-upload-files.png){width="500"}
+   ![&#x200B; インテントデータダウンロードテンプレートファイル &#x200B;](./assets/intent-data-upload-files.png){width="500"}
 
 1. **[!UICONTROL キャンセル]** をクリックします。
 
@@ -52,7 +52,7 @@ Excel ファイルをダウンロードすると、マッピングデータを�
    * _Journey Optimizer B2B&rbrace;、_ Marketo Engage _、_ Experience Manager _など、商品名に応じて各タブの名前を変更し_ す。
    * _B2B マーケティング_、_ブランド認識_、_リードエンゲージメント_ など、各タブの製品キーワードを追加します。
 
-   ![ カテゴリ スプレッドシート ](./assets/intent-category-spreadsheet.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリ スプレッドシート &#x200B;](./assets/intent-category-spreadsheet.png){width="600" zoomable="yes"}
 
 ## カテゴリファイルのアップロード
 
@@ -66,11 +66,11 @@ Excel ファイルをダウンロードすると、マッピングデータを�
 
    前処理を実行すると、類似のキーワードがクラスター化され、インテント検出が向上し、キーワードの希薄化が回避されます。 この前処理が完了するとすぐに（データに応じて最大 15 分）、パルス通知が表示されます。
 
-   ![ パルス通知 ](./assets/intent-data-upload-files-pre-process.png){width="500"}
+   ![&#x200B; パルス通知 &#x200B;](./assets/intent-data-upload-files-pre-process.png){width="500"}
 
    結果は、「インテントマッピング _ページに表示さ_ ます。
 
-   ![ 承認用にアップロードされたインテントカテゴリ ](./assets/intent-data-category-approve.png){width="600" zoomable="yes"}
+   ![&#x200B; 承認用にアップロードされたインテントカテゴリ &#x200B;](./assets/intent-data-category-approve.png){width="600" zoomable="yes"}
 
 ## カテゴリを承認または却下
 
@@ -84,4 +84,4 @@ Excel ファイルをダウンロードすると、マッピングデータを�
 
 別のカテゴリを追加すると、その分類が既存のカテゴリに影響を与える場合は、警告が表示されます。 カテゴリを承認または却下する場合は、この影響を考慮してください。 製品が複数のカテゴリで使用される場合、製品とキーワードのマッピングは、すべてのカテゴリで同じである必要があります。
 
-![ 既存のカテゴリへの影響のアラート ](./assets/intent-data-category-overlap.png){width="600" zoomable="yes"}
+![&#x200B; 既存のカテゴリへの影響のアラート &#x200B;](./assets/intent-data-category-overlap.png){width="600" zoomable="yes"}

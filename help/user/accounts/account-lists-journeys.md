@@ -17,23 +17,23 @@ ht-degree: 0%
 
 ## アカウントオーディエンスノード
 
-すべてのアカウントジャーニーは、[_アカウントオーディエンス_ ノード ](../journeys/account-audience-nodes.md) で開始します。 アカウントリストを使用するようにこのノードを設定すると、メンバーアカウントは実稼働（公開）時にジャーニーを移動します。
+すべてのアカウントジャーニーは、[_アカウントオーディエンス_ ノード &#x200B;](../journeys/account-audience-nodes.md) で開始します。 アカウントリストを使用するようにこのノードを設定すると、メンバーアカウントは実稼働（公開）時にジャーニーを移動します。
 
 1. 開始 **[!UICONTROL アカウントオーディエンス]** ノードの _アカウントリスト_ オプションを選択します。
 
-   ![ アカウントオーディエンスノードのアカウントリストオプションを選択 ](../journeys/assets/node-audience-account-list.png){width="500"}
+   ![&#x200B; アカウントオーディエンスノードのアカウントリストオプションを選択 &#x200B;](../journeys/assets/node-audience-account-list.png){width="500"}
 
 1. **[!UICONTROL アカウントリストを追加]** をクリックします。
 
 1. アカウントリストのチェックボックスを選択し、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![ アカウントオーディエンスノードのアカウントリストオプションを選択 ](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
+   ![&#x200B; アカウントオーディエンスノードのアカウントリストオプションを選択 &#x200B;](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
 
 ## アクションノードの作成 – アカウントに追加
 
 **_静的アカウントリストのみ_**
 
-アカウントジャーニー内で、[a _アクションを実行_ ノード ](../journeys/action-nodes.md) を使用して、アカウントを静的アカウントリストに追加します。
+アカウントジャーニー内で、[a _アクションを実行_ ノード &#x200B;](../journeys/action-nodes.md) を使用して、アカウントを静的アカウントリストに追加します。
 
 例えば、メールを送信するジャーニーパスがあり、一部のアカウントが応答アクションとして様々なアクションを実行する場合などです。 このアクティビティをジャーニーの選定ポイントと見なします。 選定を使用する場合、選定されたアカウントのフローが異なる別のジャーニーのオーディエンスとして使用されるアカウントリストに追加します。
 
@@ -45,17 +45,17 @@ ht-degree: 0%
 
 1. _[!UICONTROL アカウントに対するアクション]_ については、**[!UICONTROL アカウントリストに追加]** を選択します。
 
-   ![ 「アカウントに追加」リストを選択 ](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
+   ![&#x200B; 「アカウントに追加」リストを選択 &#x200B;](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
 1. **[!UICONTROL ライブ静的アカウントリストを選択]** については、アカウントを追加するアカウントリストを選択します。
 
-   ![ 「アカウントに追加」リストを選択 ](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
+   ![&#x200B; 「アカウントに追加」リストを選択 &#x200B;](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
 
 ## アクションノードの実行 – アカウントから削除
 
 **_静的アカウントリストのみ_**
 
-アカウントジャーニー内で、[a _アクションを実行_ ノード ](../journeys/action-nodes.md) を使用して、静的アカウントリストからアカウントを削除します。
+アカウントジャーニー内で、[a _アクションを実行_ ノード &#x200B;](../journeys/action-nodes.md) を使用して、静的アカウントリストからアカウントを削除します。
 
 例えば、メールを送信するジャーニーパスがあり、一部のアカウントが応答アクションとして様々なアクションを実行する場合などです。 このアクティビティをジャーニーの選定ポイントと見なします。 この選定では、選定に関するコミュニケーションが重複しないように、追加のメールを送信する別のジャーニーのオーディエンスとしてに使用されるアカウントリストから削除します。
 
@@ -67,17 +67,17 @@ ht-degree: 0%
 
 1. _[!UICONTROL アカウントに対するアクション]_ については、**[!UICONTROL アカウントリストから削除]** を選択します。
 
-   ![ 「アカウントに追加」リストを選択 ](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
+   ![&#x200B; 「アカウントに追加」リストを選択 &#x200B;](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
 1. **[!UICONTROL ライブ静的アカウントリストを選択]** については、アカウントを削除するアカウントリストを選択します。
 
-   ![ 「アカウントに追加」リストを選択 ](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
+   ![&#x200B; 「アカウントに追加」リストを選択 &#x200B;](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
 
 ## Marketo Engage プログラム – アカウントのメンバーリスト
 
 マーケターの場合、Journey Optimizer B2B editionのアカウントリストに含まれているユーザーに対しては、Marketo Engageのプログラムを抑制することができます。
 
-Journey Optimizer B2B editionに接続されたMarketo Engage インスタンスでは、スマートリストで _[!UICONTROL アカウントリストのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。 スマートリストについて詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} を参照してください。
+Journey Optimizer B2B editionに接続されたMarketo Engage インスタンスでは、スマートリストで _[!UICONTROL アカウントリストのメンバー]_ フィルターを使用し、キャンペーン戦略に従ってこれらのリードを特定することができます。 スマートリストについて詳しくは、[Marketo Engage ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} を参照してください。
 
 ### スマート・リストへのフィルタの追加
 
@@ -91,14 +91,14 @@ Journey Optimizer B2B editionに接続されたMarketo Engage インスタンス
 
    下向き矢印をクリックしてすべてのアカウントリストを表示するか、アカウントリスト名の一部を入力して必要なアカウントリストを見つけます。
 
-   ![ アカウントリストメンバーシップ用Marketo Engage スマートリストフィルター ](./assets/account-lists-marketo-engage-smart-list.png){width="800" zoomable="yes"}
+   ![&#x200B; アカウントリストメンバーシップ用Marketo Engage スマートリストフィルター &#x200B;](./assets/account-lists-marketo-engage-smart-list.png){width="800" zoomable="yes"}
 
 1. キャンペーンフローで、「**[!UICONTROL リストに追加]**」手順を追加し、Journey Optimizer B2B edition アカウントリストからユーザーを入力するリストを選択します。
 
-   フローにステップを追加する方法について詳しくは、Marketo Engage ドキュメントの _[スマートキャンペーンへのフローステップの追加 ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ を参照してください。
+   フローにステップを追加する方法について詳しくは、Marketo Engage ドキュメントの _[スマートキャンペーンへのフローステップの追加 &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ を参照してください。
 
 ### メンバーのレビュー
 
 フローを実行した後、リストに入力されたユーザーのリストを表示できます。 リストを開いて「人物」タブを選択します。
 
-![ アカウントリストから入力されたMarketo Engage キャンペーンリスト ](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
+![&#x200B; アカウントリストから入力されたMarketo Engage キャンペーンリスト &#x200B;](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
