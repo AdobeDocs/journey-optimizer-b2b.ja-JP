@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
 source-git-commit: e66d4fe77152ed4edb1c929fd1d38ac693e83ed2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
    + [AI アシスタントを使用](./ai-assistant/use-ai-assistant.md)
 + アカウントジャーニー {#account-journeys}
    + [概要](./journeys/journey-overview.md)
-   + [ジャーニー ビルド エージェント](./agents/journey-agent.md)
+   + [Journey Build Agent](./agents/journey-agent.md)
    + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
    + [ジャーニーノード](./journeys/journey-nodes.md)
    + ジャーニーノード {#journey-nodes}
@@ -48,7 +48,7 @@ ht-degree: 97%
    + [SMS オーサリング](./content/sms-authoring.md)
 + アカウント {#accounts}
    + [オーディエンス](./audiences/account-audience-overview.md)
-   + [Audience Agent](./agents/audience-agent-b2b.md)
+   + [Audience エージェント](./agents/audience-agent-b2b.md)
    + 購買グループ {#buying-groups}
       + [概要](./buying-groups/buying-groups-overview.md)
       + [ソリューションに対する関心](./buying-groups/solution-interests.md)
@@ -77,7 +77,7 @@ ht-degree: 97%
          + [コンテンツのシミュレート](./content/email-simulate-content.md)
          + [メールのレンダリングのテスト](./content/email-test-rendering.md)
          + [スパムレポート](./content/email-spam-report.md)
-      + [メールの共同作業](./content/email-collaboration-tools.md)
+      + [メールでの共同作業](./content/email-collaboration-tools.md)
    + アセット {#assets}
       + [概要](./content/assets-overview.md)
       + Marketo Engage アセット {#marketo-engage-dam}

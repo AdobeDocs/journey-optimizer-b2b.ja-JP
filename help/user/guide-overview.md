@@ -3,9 +3,9 @@ title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: Journey Optimizer B2B Edition の完全なドキュメント - オンボーディング、購買グループの作成、アカウントジャーニーの作成、コンテンツの管理に使用できるリソースを探索します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ Journey Optimizer B2B Edition アプリケーションとドキュメントの�
 
 >[!BEGINTABS]
 
->[!TAB  メールコンテンツの共同作業 ]
+>[!TAB メールコンテンツの共同作業]
 
-メールデザインスペースには、コメントと解決のためのコラボレーションツールが含まれており、マーケティングチームが [!DNL Journey Optimizer B2B Edition] 内で直接、メールアセットをシームレスにレビュー、ディスカッションおよび最終決定できるようになります。 ユーザーは、外部ツール（チャット、メールスレッド、スプレッドシートなど）でドラフトを共有する代わりに、メールデザイン空間内でコメントを作成し、編集を提案して、フィードバックを解決できます。 チームメンバーにタグを付けて、コメントの詳細を含むメールまたはパルス通知を受信するように設定できます。
+メールデザインスペースには、コメントと解決のための共同作業ツールが含まれており、マーケティングチームが [!DNL Journey Optimizer B2B Edition] 内で直接、メールアセットをシームレスにレビュー、議論および最終決定できるようになります。ユーザーは、外部ツール（チャット、メールスレッド、スプレッドシートなど）でドラフトを共有する代わりに、メールデザインスペース内でコメントを作成し、編集を提案して、フィードバックを解決できます。チームメンバーにタグを付けると、コメントの詳細が記載されたメール通知またはパルス通知を受信できます。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="メールコンテンツコラボレーションツールについて学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="メールコンテンツ共同作業ツールについて学ぶ"}
 
->[!TAB  ダークモードのメールデザイン ]
+>[!TAB ダークモードのメールデザイン]
 
-メールデザインスペースに _ダークモード_ プレビューと設定が含まれるようになりました。 ダークモードを使用すると、サポートされるメールクライアントまたはアプリで、テキスト、ボタン、その他の視覚的要素に対して、暗い背景と明るい色のメールを表示できます。 レンダリングのプレビュー、設定のカスタマイズ、アクセシビリティの確保およびメールクライアント間のテスト
+メールデザインスペースに&#x200B;_ダークモード_&#x200B;プレビューと設定が含まれるようになりました。ダークモードを使用すると、サポートしているメールクライアントとアプリで、メールの背景を暗くし、テキスト、ボタン、他の視覚的要素を明るい色で表示できます。レンダリングのプレビュー、設定のカスタマイズ、アクセシビリティの確保およびメールクライアント間のテスト。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="ダークモードのメールデザインについて学ぶ"}
 
@@ -137,7 +137,7 @@ B2B マーケティングストラテジストは、カスタム購買グルー�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">ドキュメント</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>
