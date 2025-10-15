@@ -3,8 +3,7 @@ title: Audience Agent B2B
 description: ジャーニーOptimizerB2B Edition のAudience Agent B2B は、インテント分析とペルソナマッピングを使用して、購入グループを作成し、B2B マーケティングワークフローを高速化します。
 feature: Audiences, AI Assistant
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 1%
@@ -19,7 +18,7 @@ ht-degree: 1%
 
 * **_AI を活用して購入グループを検出_** - AI、構造化された非構造化データ、統合ファーストパーティデータを使用して、購入グループの検出と作成を合理化します。
 
-![Audience Agent B2B （フルページモード） &#x200B;](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+![Audience Agent B2B （フルページモード） ](./assets/audience-agent-full.png){width="700" zoomable="yes"}
 
 ## Audience Agent機能
 
