@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: e66d4fe77152ed4edb1c929fd1d38ac693e83ed2
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: 461b4572199e127d29d9479b33fabd397c3617e1
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 99%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 100%
    + [アカウントジャーニーの概要](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [ガバナンス](./admin/governance.md)
+   + [ペルソナマッピング](./admin/persona-mapping.md)
    + [ユーザー管理](./admin/user-management.md)
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
