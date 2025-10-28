@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について - 新機能や製品の改善点に関する最新情報を逐次提供します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c8cf78c8e393121e325ffc8c7876c80902289d11
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '3078'
-ht-degree: 97%
+source-wordcount: '3384'
+ht-degree: 90%
 
 ---
 
@@ -17,6 +17,34 @@ Adobe Journey Optimizer B2B Edition では、新機能、既存機能の強化�
 Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネイティブに作成され、最新のイノベーションと改善点を継承しています。次の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/latest){target="_blank"}を参照してください。
 
 使用権限、パフォーマンスガードレール、制限事項について詳しくは、[製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}を参照してください。
+
+## 2025.10 リリースノート
+
+**デプロイメント日**：2025年10月31日（PT）
+
+| タイプ | 項目 | 説明 |
+| ---- | ---- | ----------- |
+| 機能 | モデルベースのカスタムスキーマ | モデルベースのクラスからカスタムスキーマを作成します。 |
+| 機能 | 宛先に対してアクティブ化 | 新しい _宛先に対してアクティブ化_ 会社アカウントのアクションを使用して、個人ではなく会社に対して直接アクティブ化します。 （このリリースの LinkedIn 社に限ります。） |
+| 機能 | ブランドテーマ | ブランドテーマを使用すると、技術に詳しくないユーザーでも、標準テンプレートの上にカスタムスタイルを追加することで、特定のブランドとデザイン言語に適合する再利用可能なコンテンツを作成できるようになりました。 [詳細情報](../content/brand-themes.md) |
+| 機能 | ペルソナマッピング | アカウントメンバーを、属性マッピングを使用して確立されたペルソナと結び付けます。 [詳細情報](../admin/persona-mapping.md) |
+| 機能強化 | グループ保守ジョブの購入 | 購買グループの保守ジョブ頻度は、毎週から毎日に更新されます。 |
+| 機能強化 | アカウントジャーニーの進行 | ジャーニーの進行に対して、アカウントのカウントとリストにアクセスするための _詳細情報_ リンクが表示されます。 |
+
+<!-- M1.5 changes
+| Enhancement | Buying group scoring | The Buying Group completeness score is improved, including the ability to customize how the score is calculated. | -->
+
+AI アシスタント インターフェイス内のJourney Optimizer B2B editionで、次のエージェンティック AI 機能が使用できるようになりました。
+
+| エージェント | 更新 | 説明 |
+| ----- | ------ | ----------- |
+| Account Qualification Agent | 新規 | AI アシスタントのAccount Qualification Agentを使用して、次のステージに向けて準備ができているアカウントを確認します。 このエージェントにより、価値の高いリードを表示し、選定ワークフローを自動化することで、セールス・チームのメンバーが適切なアカウントにフォーカスできるようになります。 [詳細情報](../agents/account-qualification-agent.md) |
+
+>[!NOTE]
+>
+>リリースの変更は、2025年10月31日（PT）にデプロイメントを開始し、各機能が段階的にロールアウトされます。機能および機能強化のリリース日は変更される場合があります。
+
+
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -34,6 +62,8 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | ---- | ---- | ----------- |
 | 機能 | メールコンテンツの共同作業 | メールアセットのコンテキストで Journey Optimizer B2B Edition ユーザにコメントしたり、Journey Optimizer B2B Edition ユーザと共同作業したりできるようになりました。チームメンバーにタグを付けると、コメントの詳細が記載されたメール通知を受信できます。通知は、パルス通知としても使用できます。 |
 | 機能 | メールデザインのダークモード | メールデザインスペースに、_ダークモード_&#x200B;に切り替える機能が追加されました。ダークモードでは、メールコンテンツをプレビューし、ダークモードでメールを表示する受信者専用のカスタム設定を定義できます。 |
+| 機能 | メール疲労重複排除 | メールの重複排除を有効にして、同じメールがジャーニー内の同じアドレスに複数回送信されないようにすることができるようになりました。 重複するアドレスは、そのメールアドレスを持つ最初のレコードがジャーニーを完了するまでブロックされます。 |
+| 機能 | Salesforceと Dynamics のセールスインサイト | 営業チームメンバーは、Salesforceまたは Dynamics の統合内で成熟購買グループと関連インサイトを表示して、新しいオポチュニティを特定できるようになりました。 購入グループの詳細（ステージ、スコア、関連メンバーなど）が含まれます。 |
 | 機能強化 | ジャーニー - ロールの人物数別にパスを分割 | アカウントノード別に分割パスを使用すると、1 つ以上の購買グループロールに属する人物数でアカウントをターゲットにできます。パスでは、役割の深度に基づいて、セールスアラートやその他のエンゲージメントに対する購買グループの準備を評価できます。[詳細情報](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 機能強化 | ジャーニー - イベントの顧客フィルター | 人物フィルターを使用して、人物イベントをリッスンします。これらのフィルターには、一致した購買グループの特定の役割をターゲットにする機能が含まれます。[詳細情報](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 

@@ -6,13 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: メールテーマ、再利用性、ブランドの連携、メールデザイン
-badge: label="ベータ版" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3086'
 ht-degree: 3%
 
 ---
@@ -32,7 +29,7 @@ ht-degree: 3%
 
 * 空のキャンバスからメールまたはメールテンプレートを作成する（_ゼロからデザイン_）場合、_テーマモード_ を選択して、ブランドとデザインに合った特定のスタイル設定を適用するテーマを使用してコンテンツの作成を開始できます。 _手動モード_ を選択した場合、メールまたはメールテンプレートのデザインをリセットしない限り、テーマを適用できません。
 
-* [&#x200B; フラグメント &#x200B;](./fragments.md) は、メールコンテンツの _テーマモード_ と _手動モード_ 間で相互互換性がありません。 また、テーマが適用されるメールコンテンツでフラグメントを使用するには、フラグメントを _テーマモード_ で作成する必要があります。
+* [ フラグメント ](./fragments.md) は、メールコンテンツの _テーマモード_ と _手動モード_ 間で相互互換性がありません。 また、テーマが適用されるメールコンテンツでフラグメントを使用するには、フラグメントを _テーマモード_ で作成する必要があります。
 
 * カスタムテーマに対する変更によって、そのテーマを既に使用しているすべてのメールまたはメールテンプレートに自動的にカスケードされるわけではありません。 それぞれのコンテンツを編集して、テーマを更新します。
 
@@ -47,27 +44,27 @@ ht-degree: 3%
 
 1. 次のいずれかの方法を使用して、テーマツールにアクセスします。
 
-   * [&#x200B; 新しいメールテンプレートを作成 &#x200B;](./email-templates.md#create-an-email-template)、「**[!UICONTROL メールテンプレートを編集]**」をクリックして _[!UICONTROL テンプレートのデザイン]_ ページを起動します。
+   * [ 新しいメールテンプレートを作成 ](./email-templates.md#create-an-email-template)、「**[!UICONTROL メールテンプレートを編集]**」をクリックして _[!UICONTROL テンプレートのデザイン]_ ページを起動します。
 
    * 「**[!UICONTROL ...」をクリックします。その他]** メールコンテンツデザインスペースの右上で、「**[!UICONTROL デザインを変更]**」を選択します。
 
-     ![&#x200B; デザインを変更する &#x200B;](./assets/email-change-design.png){width="700" zoomable="yes"}
+     ![ デザインを変更する ](./assets/email-change-design.png){width="700" zoomable="yes"}
 
      確認ダイアログで、「**[!UICONTROL テンプレートを変更]**」をクリックしてデザインページを開きます。
 
 1. デザインページで、「**[!UICONTROL テーマを作成または編集]**」を選択します。
 
-   ![&#x200B; テーマの作成または編集 &#x200B;](./assets/email-create-edit-themes.png){width="800" zoomable="yes"}
+   ![ テーマの作成または編集 ](./assets/email-create-edit-themes.png){width="800" zoomable="yes"}
 
 1. デフォルトのテーマを選択するか、任意のAdobe テーマを使用して、開始点として使用します。
 
    >[!NOTE]
    >
-   >カスタムテーマ（_[!UICONTROL マイテーマ]_）のいずれかを出発点として使用する場合は、[&#x200B; テーマを複製 &#x200B;](#delete-or-duplicate-a-theme) できます。また、[&#x200B; テーマを編集 &#x200B;](#edit-a-theme) するときにテーマ名を変更できます。
+   >カスタムテーマ（_[!UICONTROL マイテーマ]_）のいずれかを出発点として使用する場合は、[ テーマを複製 ](#delete-or-duplicate-a-theme) できます。また、[ テーマを編集 ](#edit-a-theme) するときにテーマ名を変更できます。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-   ![&#x200B; テーマを作成 – デフォルトのテーマを選択 &#x200B;](./assets/email-theme-create.png){width="750" zoomable="yes"}
+   ![ テーマを作成 – デフォルトのテーマを選択 ](./assets/email-theme-create.png){width="750" zoomable="yes"}
 
    _[!UICONTROL テーマを作成]_ ページは、開始テーマのすべてのタイプのテキスト、ボタンおよびコンテナの既存の要素を含むキャンバスを提供します。
 
@@ -81,13 +78,13 @@ ht-degree: 3%
    * [ディバイダー](#divider)
    * [グリッド](#grid)
 
-   新しいテーマ設定を定義すると、キャンバス上の視覚要素が変更されます。 結果が期待どおりでない場合は、右側のパネルの下部にある _取り消し_ （![&#x200B; 取り消しアイコン &#x200B;](../assets/do-not-localize/icon-design-themes-undo.png){width="16"}）アイコンをクリックします。 _やり直し_ （![&#x200B; やり直しアイコン &#x200B;](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）アイコンをクリックして、変更を再適用します。
+   新しいテーマ設定を定義すると、キャンバス上の視覚要素が変更されます。 結果が期待どおりでない場合は、右側のパネルの下部にある _取り消し_ （![ 取り消しアイコン ](../assets/do-not-localize/icon-design-themes-undo.png){width="16"}）アイコンをクリックします。 _やり直し_ （![ やり直しアイコン ](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）アイコンをクリックして、変更を再適用します。
 
 1. テーマの定義が完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
 1. 「**[!UICONTROL 閉じる]**」をクリックして _[!UICONTROL テーマを作成]_ ページに戻り、「**[!UICONTROL キャンセル]**」をクリックしてデザインページに戻ります。
 
-   その後、「**[!UICONTROL ゼロからデザイン]** を選択してビジュアルデザインスペースを開き、メールまたはテンプレートの [&#x200B; テーマを使用 &#x200B;](#use-your-theme-for-email-content-authoring) できます。
+   その後、「**[!UICONTROL ゼロからデザイン]** を選択してビジュアルデザインスペースを開き、メールまたはテンプレートの [ テーマを使用 ](#use-your-theme-for-email-content-authoring) できます。
 
 ### 一般設定
 
@@ -97,20 +94,20 @@ ht-degree: 3%
 
 * メールコンテンツ（本文）の **[!UICONTROL ビューポートの幅]** を調整します。 上下の矢印キーを使用して幅を増減するか、値をピクセル単位で入力します。
 
-![&#x200B; テーマの一般設定 &#x200B;](./assets/email-theme-general-settings.png){width="450"}
+![ テーマの一般設定 ](./assets/email-theme-general-settings.png){width="450"}
 <!--  and also export the current theme to [share it across sandboxes](../configuration/copy-objects-to-sandbox.md).-->
 
 ### 色
 
 「**[!UICONTROL カラー]**」タブを選択し、設定を使用してテーマのカラーパレットを定義します。
 
-![&#x200B; テーマの色の設定 &#x200B;](./assets/email-theme-colors-settings.png){width="450"}
+![ テーマの色の設定 ](./assets/email-theme-colors-settings.png){width="450"}
 
 * **[!UICONTROL 編集]** をクリックして、テーマのカラーを含むカラーパレットを表示します。
 
   テーマのカラースキームを使用したり、セットの各色を調整したりするには、**[!UICONTROL プリセット]** を選択します。 また、両方の組み合わせを使用することもできます。
 
-  ![&#x200B; テーマの色の設定 – プリセットの変更 &#x200B;](./assets/email-theme-colors-settings-preset.png){width="350"}
+  ![ テーマの色の設定 – プリセットの変更 ](./assets/email-theme-colors-settings-preset.png){width="350"}
 
   上部の選択したカラーの正方形に対して、既知のRGB、HSL、HSB、または 16 進数値を入力してカラーを設定できます。 または、カラースライダーとカラーフィールドを使用して、カラーを選択できます。
 
@@ -118,13 +115,13 @@ ht-degree: 3%
 
 * 「**[!UICONTROL バリアントを追加]**」をクリックして、_明_ モードや _暗_ モードなど、複数のカラーバリアントを作成します。各バリアントには、独自のカラーパレットとニュアンスのコントロールがあります。 最大 6 つのバリアントを使用できます。
 
-  各バリアントに対して、「_編集_ （![&#x200B; 編集アイコン &#x200B;](../assets/do-not-localize/icon-edit.svg)）」アイコンをクリックします。 デフォルトパレットまたは任意のカスタムカラーを使用できます。
+  各バリアントに対して、「_編集_ （![ 編集アイコン ](../assets/do-not-localize/icon-edit.svg)）」アイコンをクリックします。 デフォルトパレットまたは任意のカスタムカラーを使用できます。
 
-  ![&#x200B; テーマのカラー設定 – バリアントを編集 &#x200B;](./assets/email-theme-colors-settings-variant.png){width="450"}
+  ![ テーマのカラー設定 – バリアントを編集 ](./assets/email-theme-colors-settings-variant.png){width="450"}
 
   バリアントに対して変更する色ごとに、切り替えスイッチを左または右に移動して、無効または有効にします。 カラー設定を有効にするには、カラーの四角形をクリックしてカラーを選択します。
 
-  ![&#x200B; テーマカラー設定 – バリアントカラーセレクター &#x200B;](./assets/email-theme-colors-settings-variant-select.png){width="450"}
+  ![ テーマカラー設定 – バリアントカラーセレクター ](./assets/email-theme-colors-settings-variant-select.png){width="450"}
 
   +++バリアントのカラー設定
 
@@ -132,10 +129,10 @@ ht-degree: 3%
 
   | タイプ | 設定 | 説明 |
   | ---- | -------- | ----------- |
-  | [!UICONTROL &#x200B; 一般 &#x200B;] | ![&#x200B; バリアントの一般的なカラー設定 &#x200B;](./assets/email-theme-colors-settings-variant-general.png){width="300"} | これらの設定は、ボディ、構造物、コンテナ、背景、リンク、グリッド、および境界の色を決定します。 |
-  | [!UICONTROL &#x200B; 見出し &#x200B;] | ![&#x200B; バリアントの見出しカラー設定 &#x200B;](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | これらの設定は `Heading` の要素に適用され、6 つの見出しレベルのそれぞれにテキストと境界線の色を設定できます。 バリアントの色を設定する各見出しレベルを展開します。 |
-  | [!UICONTROL &#x200B; 段落 &#x200B;] | ![&#x200B; バリアントの段落カラー設定 &#x200B;](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | これらの設定は `Paragraph` 要素に適用され、3 つの段落タイプのそれぞれにテキストと境界線のカラーを設定できます。 バリアントの色を設定する各段落タイプを展開します。 |
-  | [!UICONTROL &#x200B; ボタン &#x200B;] | ![&#x200B; バリアントのボタンのカラー設定 &#x200B;](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | この設定はボタン要素に適用され、_プライマリ_、_セカンダリ_、&lbrace;3 次 _の 3 つのボタンプリセットのそれぞれに対して、塗りつぶしカラー、境界線のカラー、テキストカラーを_ 定できます。 |
+  | [!UICONTROL  一般 ] | ![ バリアントの一般的なカラー設定 ](./assets/email-theme-colors-settings-variant-general.png){width="300"} | これらの設定は、ボディ、構造物、コンテナ、背景、リンク、グリッド、および境界の色を決定します。 |
+  | [!UICONTROL  見出し ] | ![ バリアントの見出しカラー設定 ](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | これらの設定は `Heading` の要素に適用され、6 つの見出しレベルのそれぞれにテキストと境界線の色を設定できます。 バリアントの色を設定する各見出しレベルを展開します。 |
+  | [!UICONTROL  段落 ] | ![ バリアントの段落カラー設定 ](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | これらの設定は `Paragraph` 要素に適用され、3 つの段落タイプのそれぞれにテキストと境界線のカラーを設定できます。 バリアントの色を設定する各段落タイプを展開します。 |
+  | [!UICONTROL  ボタン ] | ![ バリアントのボタンのカラー設定 ](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | この設定はボタン要素に適用され、_プライマリ_、_セカンダリ_、{3 次 _の 3 つのボタンプリセットのそれぞれに対して、塗りつぶしカラー、境界線のカラー、テキストカラーを_ 定できます。 |
 
   +++
 
@@ -143,15 +140,15 @@ ht-degree: 3%
 
 「**[!UICONTROL テキスト設定]**」タブでは、テーマに使用するグローバルなフォントタイプ、スタイル、サイズを設定できます。 より詳細な制御を行うために、これらのパラメーターを見出しおよび段落タイプ用に編集することもできます。
 
-![&#x200B; テーマテキストの設定 &#x200B;](./assets/email-theme-text-settings.png){width="450"}
+![ テーマテキストの設定 ](./assets/email-theme-text-settings.png){width="450"}
 
 +++タイプ別テキスト設定
 
 | タイプ | 設定 | 説明 |
 | ---- | -------- | ----------- |
-| [!UICONTROL &#x200B; グローバル &#x200B;] | ![&#x200B; グローバルテキスト設定用のライブラリを選択 &#x200B;](./assets/email-theme-text-settings-global-library.png){width="300"} | **[!UICONTROL フォントライブラリ]** を _[!UICONTROL 標準]_ または _[!UICONTROL Google フォント]_ に設定します。 次に、使用するフォントファミリーを選択します。 見出しレベルと段落タイプに異なるテキストスタイルを設定しない限り、これらのグローバルテキスト設定は全体に適用されます。 |
-| [!UICONTROL &#x200B; 見出し &#x200B;] | ![H1 の見出しテキストスタイル &#x200B;](./assets/email-theme-text-settings-headings.png){width="300"} | 設定する見出しレベルに対して、**[!UICONTROL H1]**、**[!UICONTROL H2]** などを選択します。 **[!UICONTROL フォントライブラリ]** を _[!UICONTROL 標準]_ または _[!UICONTROL Google フォント]_ に設定します。 次に、フォントファミリー、サイズ、スタイルを選択します。 **[!UICONTROL テキストの配置]** （_左揃え_、_中央揃え_、_右揃え_、_両端揃え_ のいずれかを選択します。 |
-| [!UICONTROL &#x200B; 段落 &#x200B;] | ![&#x200B; タイプ P1 の段落テキストスタイル &#x200B;](./assets/email-theme-text-settings-headings.png){width="300"} | 設定する見出しレベルに対して、**[!UICONTROL P1]**、**[!UICONTROL HP]** などを選択します。 **[!UICONTROL フォントライブラリ]** を _[!UICONTROL 標準]_ または _[!UICONTROL Google フォント]_ に設定します。 次に、フォントファミリー、サイズ、スタイルを選択します。 必要に応じて **[!UICONTROL 線の高さ]** を調整します。 **[!UICONTROL テキストの配置]** （_左揃え_、_中央揃え_、_右揃え_、_両端揃え_ のいずれかを選択します。 |
+| [!UICONTROL  グローバル ] | ![ グローバルテキスト設定用のライブラリを選択 ](./assets/email-theme-text-settings-global-library.png){width="300"} | **[!UICONTROL フォントライブラリ]** を _[!UICONTROL 標準]_ または _[!UICONTROL Google フォント]_ に設定します。 次に、使用するフォントファミリーを選択します。 見出しレベルと段落タイプに異なるテキストスタイルを設定しない限り、これらのグローバルテキスト設定は全体に適用されます。 |
+| [!UICONTROL  見出し ] | ![H1 の見出しテキストスタイル ](./assets/email-theme-text-settings-headings.png){width="300"} | 設定する見出しレベルに対して、**[!UICONTROL H1]**、**[!UICONTROL H2]** などを選択します。 **[!UICONTROL フォントライブラリ]** を _[!UICONTROL 標準]_ または _[!UICONTROL Google フォント]_ に設定します。 次に、フォントファミリー、サイズ、スタイルを選択します。 **[!UICONTROL テキストの配置]** （_左揃え_、_中央揃え_、_右揃え_、_両端揃え_ のいずれかを選択します。 |
+| [!UICONTROL  段落 ] | ![ タイプ P1 の段落テキストスタイル ](./assets/email-theme-text-settings-headings.png){width="300"} | 設定する見出しレベルに対して、**[!UICONTROL P1]**、**[!UICONTROL HP]** などを選択します。 **[!UICONTROL フォントライブラリ]** を _[!UICONTROL 標準]_ または _[!UICONTROL Google フォント]_ に設定します。 次に、フォントファミリー、サイズ、スタイルを選択します。 必要に応じて **[!UICONTROL 線の高さ]** を調整します。 **[!UICONTROL テキストの配置]** （_左揃え_、_中央揃え_、_右揃え_、_両端揃え_ のいずれかを選択します。 |
 
 +++
 
@@ -159,15 +156,15 @@ ht-degree: 3%
 
 「**[!UICONTROL 間隔]**」タブでは、様々な要素タイプに合わせてパディングと余白を設定できます。 **[!UICONTROL タイプを選択]** には、コンテンツタイプを選択します。 次に、その要素タイプに適用できるパディング、余白、コーナー、境界線を設定します。
 
-![&#x200B; テーマの間隔と境界線の設定 &#x200B;](./assets/email-theme-spacing-border-settings.png){width="450"}
+![ テーマの間隔と境界線の設定 ](./assets/email-theme-spacing-border-settings.png){width="450"}
 
 +++間隔の設定
 
 | タイプ | 設定 | 説明 |
 | ---- | -------- | ----------- |
-| [!UICONTROL &#x200B; 余白 &#x200B;] | ![&#x200B; 余白の設定 &#x200B;](./assets/email-theme-spacing-settings-margins.png){width="300"} | _マージン_ アイコンを選択すると、CSS `margin` パラメーターを複製した設定が表示されます。このパラメーターは、コンポーネントの境界線の外側のスペースを制御し、他のコンポーネントや要素から分離します。 コンポーネントの周囲に隙間ができ、周囲のコンテンツの配置やレイアウトに影響します。 デザインのニーズに応じて、マージンの値をピクセル単位で設定します。 コンポーネントのすべての辺、上部のボタン、左右または各辺の余白を個別に設定できます。 _ロック_ アイコンと _ロック解除_ アイコンをクリックして、上下と左右のマージン値を同期または非同期にします。 |
-| [!UICONTROL &#x200B; 小漕ぎ &#x200B;] | ![&#x200B; パディングの設定 &#x200B;](./assets/email-theme-spacing-settings-paddings.png){width="300"} | _パディング_ アイコンを選択して、コンポーネント/要素のコンテンツとその境界線の間のスペースである CSS `padding` パラメーターをレプリケートする設定を表示します。 パディングには、コンテンツとコンポーネントの境界線との距離を制御するために使用できる内部間隔が用意されています。 デザインのニーズに応じて、パディング値をピクセル単位で設定します。 コンポーネントのすべての辺、上部ボタン、左右または各辺のパディングを個別に設定できます。 _ロック_ アイコンと _ロック解除_ アイコンをクリックして、上下および左右のパディング値を同期または同期解除します。 |
-| [!UICONTROL &#x200B; コーナー &#x200B;] | ![&#x200B; コーナー設定 &#x200B;](./assets/email-theme-spacing-settings-corners.png){width="300"} | 「_コーナー_」アイコンを選択すると、コンポーネントや要素のコーナーの半径を定義する CSS `border-radius` パラメーターを複製した設定が表示されます。 コーナーに必要なカーブに従って数値を設定します。 値が 0 （デフォルト）の場合、コーナーは 2 乗になります。 |
+| [!UICONTROL  余白 ] | ![ 余白の設定 ](./assets/email-theme-spacing-settings-margins.png){width="300"} | _マージン_ アイコンを選択すると、CSS `margin` パラメーターを複製した設定が表示されます。このパラメーターは、コンポーネントの境界線の外側のスペースを制御し、他のコンポーネントや要素から分離します。 コンポーネントの周囲に隙間ができ、周囲のコンテンツの配置やレイアウトに影響します。 デザインのニーズに応じて、マージンの値をピクセル単位で設定します。 コンポーネントのすべての辺、上部のボタン、左右または各辺の余白を個別に設定できます。 _ロック_ アイコンと _ロック解除_ アイコンをクリックして、上下と左右のマージン値を同期または非同期にします。 |
+| [!UICONTROL  小漕ぎ ] | ![ パディングの設定 ](./assets/email-theme-spacing-settings-paddings.png){width="300"} | _パディング_ アイコンを選択して、コンポーネント/要素のコンテンツとその境界線の間のスペースである CSS `padding` パラメーターをレプリケートする設定を表示します。 パディングには、コンテンツとコンポーネントの境界線との距離を制御するために使用できる内部間隔が用意されています。 デザインのニーズに応じて、パディング値をピクセル単位で設定します。 コンポーネントのすべての辺、上部ボタン、左右または各辺のパディングを個別に設定できます。 _ロック_ アイコンと _ロック解除_ アイコンをクリックして、上下および左右のパディング値を同期または同期解除します。 |
+| [!UICONTROL  コーナー ] | ![ コーナー設定 ](./assets/email-theme-spacing-settings-corners.png){width="300"} | 「_コーナー_」アイコンを選択すると、コンポーネントや要素のコーナーの半径を定義する CSS `border-radius` パラメーターを複製した設定が表示されます。 コーナーに必要なカーブに従って数値を設定します。 値が 0 （デフォルト）の場合、コーナーは 2 乗になります。 |
 
 +++
 
@@ -181,23 +178,23 @@ ht-degree: 3%
 
 * 境界線の表示場所を指定するには、それぞれの **[!UICONTROL 境界線の位置]** チェックボックスを選択します。
 
-![&#x200B; 境界線のスタイル &#x200B;](./assets/email-theme-spacing-settings-borders.png){width="250"}
+![ 境界線のスタイル ](./assets/email-theme-spacing-settings-borders.png){width="250"}
 
 +++
 
 ### ボタン
 
-**[!UICONTROL ボタン]** タブでは、境界線の半径（シェイプ）、テキスト、サイズなど、ボタン要素に対して色以外の様々な属性を設定できます。 3 つのボタンプリセット（_[!UICONTROL プライマリ]_、_[!UICONTROL セカンダリ]_、&lbrace;3 次 _[!UICONTROL ）をそれぞれ変]_ できます。
+**[!UICONTROL ボタン]** タブでは、境界線の半径（シェイプ）、テキスト、サイズなど、ボタン要素に対して色以外の様々な属性を設定できます。 3 つのボタンプリセット（_[!UICONTROL プライマリ]_、_[!UICONTROL セカンダリ]_、{3 次 _[!UICONTROL ）をそれぞれ変]_ できます。
 
-![&#x200B; テーマ ボタンの設定 &#x200B;](./assets/email-theme-buttons-settings.png){width="450"}
+![ テーマ ボタンの設定 ](./assets/email-theme-buttons-settings.png){width="450"}
 
 +++ボタン設定
 
 | タイプ | 設定 | 説明 |
 | ---- | -------- | ----------- |
-| [!UICONTROL テキスト] | ![&#x200B; ボタンテキストの設定 &#x200B;](./assets/email-theme-button-settings-text.png){width="300"} | **[!UICONTROL フォントライブラリ]** を _[!UICONTROL 標準]_ または _[!UICONTROL Google フォント]_ に設定します。 次に、フォントファミリー、サイズ、スタイルを選択します。 **[!UICONTROL テキストの配置]** （_左揃え_、_中央揃え_、_右揃え_、_両端揃え_ のいずれかを選択します。 |
-| [!UICONTROL &#x200B; 境界線 &#x200B;] | ![&#x200B; ボタンの境界線の設定 &#x200B;](./assets/email-theme-button-settings-border.png){width="300"} | **[!UICONTROL ボーダー]** トグルを右に切り替えて、ボタンのボーダー表示オプションを有効にし、デザイン条件に従って設定します。 ピクセル数を増減して **[!UICONTROL ボーダーのサイズ]** （ラインの幅）を設定します。 **[!UICONTROL 境界線スタイル]** を設定するには、標準 CSS `border-style` 値のリストから値（_実線_、_点線_、_破線_ を選択します。 |
-| [!UICONTROL &#x200B; サイズ &#x200B;] | ![&#x200B; ボタンのサイズ設定 &#x200B;](./assets/email-theme-button-settings-size.png){width="300"} | 「**[!UICONTROL 高さ]**」オプションでは、上向き矢印アイコンと下向き矢印アイコンをクリックしてピクセル数を増減します。 デフォルトは空の値（Auto）で、ボタンの内容に応じてボタンの高さのサイズを指定します。 **[!UICONTROL 幅]** には、切り替えスイッチを使用して幅をピクセルまたはパーセンテージで設定します。 幅のパーセンテージの場合は、スライダーを使用してパーセンテージの値を設定します。 割合は、ボタンを含むブロックのコンテンツボックス（パディングと境界線を除く）に基づいてボタンのサイズを決定します。 例えば、値が 50 の場合、ボタンの幅は、ボタンを含むブロックコンテンツの幅の 50% に設定されます。 ピクセルベースの幅の場合は、上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。 デフォルトは空の値（_Auto_）で、ボタンの内容に応じてボタンの幅をサイズ設定します。 |
+| [!UICONTROL テキスト] | ![ ボタンテキストの設定 ](./assets/email-theme-button-settings-text.png){width="300"} | **[!UICONTROL フォントライブラリ]** を _[!UICONTROL 標準]_ または _[!UICONTROL Google フォント]_ に設定します。 次に、フォントファミリー、サイズ、スタイルを選択します。 **[!UICONTROL テキストの配置]** （_左揃え_、_中央揃え_、_右揃え_、_両端揃え_ のいずれかを選択します。 |
+| [!UICONTROL  境界線 ] | ![ ボタンの境界線の設定 ](./assets/email-theme-button-settings-border.png){width="300"} | **[!UICONTROL ボーダー]** トグルを右に切り替えて、ボタンのボーダー表示オプションを有効にし、デザイン条件に従って設定します。 ピクセル数を増減して **[!UICONTROL ボーダーのサイズ]** （ラインの幅）を設定します。 **[!UICONTROL 境界線スタイル]** を設定するには、標準 CSS `border-style` 値のリストから値（_実線_、_点線_、_破線_ を選択します。 |
+| [!UICONTROL  サイズ ] | ![ ボタンのサイズ設定 ](./assets/email-theme-button-settings-size.png){width="300"} | 「**[!UICONTROL 高さ]**」オプションでは、上向き矢印アイコンと下向き矢印アイコンをクリックしてピクセル数を増減します。 デフォルトは空の値（Auto）で、ボタンの内容に応じてボタンの高さのサイズを指定します。 **[!UICONTROL 幅]** には、切り替えスイッチを使用して幅をピクセルまたはパーセンテージで設定します。 幅のパーセンテージの場合は、スライダーを使用してパーセンテージの値を設定します。 割合は、ボタンを含むブロックのコンテンツボックス（パディングと境界線を除く）に基づいてボタンのサイズを決定します。 例えば、値が 50 の場合、ボタンの幅は、ボタンを含むブロックコンテンツの幅の 50% に設定されます。 ピクセルベースの幅の場合は、上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。 デフォルトは空の値（_Auto_）で、ボタンの内容に応じてボタンの幅をサイズ設定します。 |
 
 +++
 
@@ -205,15 +202,15 @@ ht-degree: 3%
 
 「**[!UICONTROL ディバイダー]**」タブでは、ディバイダーコンポーネントの行のスタイル設定とコンテナ設定を行うことができます。
 
-![&#x200B; テーマ区切り設定 &#x200B;](./assets/email-theme-divider-settings.png){width="450"}
+![ テーマ区切り設定 ](./assets/email-theme-divider-settings.png){width="450"}
 
 +++ディバイダーの設定
 
 | タイプ | 設定 | 説明 |
 | ---- | -------- | ----------- |
-| [!UICONTROL Line] | ![&#x200B; ディバイダーの linesettings](./assets/email-theme-divider-settings-line.png){width="300"} | **[!UICONTROL 境界線スタイル]** を設定するには、標準 CSS `border-style` 値のリストから値（_実線_、_点線_、_破線_ を選択します。 |
-| [!UICONTROL &#x200B; コンテナのサイズ &#x200B;] | ![&#x200B; ディバイダーコンテナのサイズ設定 &#x200B;](./assets/email-theme-divider-settings-container-size.png){width="300"} | 「**[!UICONTROL 高さ]**」オプションで、上向き矢印アイコンと下向き矢印アイコンをクリックして、コンポーネントまたは要素のピクセル数を増減します。 デフォルトは空の値（自動）で、コンテンツに応じて高さのサイズを設定します（行のスタイル設定）。 **[!UICONTROL 幅]** には、切り替えスイッチを使用して幅をピクセルまたはパーセンテージで設定します。 幅のパーセンテージの場合は、スライダーを使用してパーセンテージの値を設定します。 パーセンテージは、含まれているブロックのコンテンツボックスに基づいて要素の幅を決定します。 例えば、値を 50 に設定すると、ディバイダーの幅は、その値を含むブロックコンテンツの幅の 50% に設定されます。 ピクセルベースの幅の場合は、上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。 デフォルトは空の値（_Auto_）で、コンテンツに応じてディバイダーの幅が調整されます。 |
-| [!UICONTROL 配置] | ![&#x200B; ディバイダーの位置揃えの設定 &#x200B;](./assets/email-theme-divider-settings-alignment.png){width="300"} | 含まれるブロック内の水平方向の配置を _左_、_中央_、または _右_ から選択します。 |
+| [!UICONTROL Line] | ![ ディバイダーの linesettings](./assets/email-theme-divider-settings-line.png){width="300"} | **[!UICONTROL 境界線スタイル]** を設定するには、標準 CSS `border-style` 値のリストから値（_実線_、_点線_、_破線_ を選択します。 |
+| [!UICONTROL  コンテナのサイズ ] | ![ ディバイダーコンテナのサイズ設定 ](./assets/email-theme-divider-settings-container-size.png){width="300"} | 「**[!UICONTROL 高さ]**」オプションで、上向き矢印アイコンと下向き矢印アイコンをクリックして、コンポーネントまたは要素のピクセル数を増減します。 デフォルトは空の値（自動）で、コンテンツに応じて高さのサイズを設定します（行のスタイル設定）。 **[!UICONTROL 幅]** には、切り替えスイッチを使用して幅をピクセルまたはパーセンテージで設定します。 幅のパーセンテージの場合は、スライダーを使用してパーセンテージの値を設定します。 パーセンテージは、含まれているブロックのコンテンツボックスに基づいて要素の幅を決定します。 例えば、値を 50 に設定すると、ディバイダーの幅は、その値を含むブロックコンテンツの幅の 50% に設定されます。 ピクセルベースの幅の場合は、上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。 デフォルトは空の値（_Auto_）で、コンテンツに応じてディバイダーの幅が調整されます。 |
+| [!UICONTROL 配置] | ![ ディバイダーの位置揃えの設定 ](./assets/email-theme-divider-settings-alignment.png){width="300"} | 含まれるブロック内の水平方向の配置を _左_、_中央_、または _右_ から選択します。 |
 
 +++
 
@@ -225,13 +222,13 @@ ht-degree: 3%
 
 * **[!UICONTROL 行のギャップ]** – の上下の矢印アイコンをクリックして、グリッド行のギャップのピクセル数を増減します。 または、フィールドに数値を入力できます。
 
-![&#x200B; テーマグリッドの設定 &#x200B;](./assets/email-theme-grid-settings.png){width="700" zoomable="yes"}
+![ テーマグリッドの設定 ](./assets/email-theme-grid-settings.png){width="700" zoomable="yes"}
 
 ## テーマの編集
 
 テーマの作成時に使用するのと同じワークフローおよびツールを使用して、テーマを編集できます。 違いは、「**[!UICONTROL マイテーマ]**」タブを選択し、変更するカスタムテーマを選択している点です。
 
-![&#x200B; テーマを編集 – 編集するカスタムテーマを選択します &#x200B;](./assets/email-theme-edit-selected.png){width="750" zoomable="yes"}
+![ テーマを編集 – 編集するカスタムテーマを選択します ](./assets/email-theme-edit-selected.png){width="750" zoomable="yes"}
 
 右側のパネルを使用して様々なタブ間を移動し、テーマの設定を変更します。
 
@@ -243,9 +240,9 @@ ht-degree: 3%
 * [ディバイダー](#divider)
 * [グリッド](#grid)
 
-![&#x200B; テーマを編集 – 編集するカスタムテーマを選択します &#x200B;](./assets/email-theme-edit-canvas.png){width="800" zoomable="yes"}
+![ テーマを編集 – 編集するカスタムテーマを選択します ](./assets/email-theme-edit-canvas.png){width="800" zoomable="yes"}
 
-設定を変更すると、表示される視覚要素が変わります。 キャンバス上の結果が目的どおりでない場合は、右側のパネルの下部にある _取り消し_ （![&#x200B; 取り消しアイコン &#x200B;](../assets/do-not-localize/icon-design-themes-undo.png){width="16"}）アイコンをクリックします。 _やり直し_ （![&#x200B; やり直しアイコン &#x200B;](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）アイコンをクリックして、変更を再適用します。
+設定を変更すると、表示される視覚要素が変わります。 キャンバス上の結果が目的どおりでない場合は、右側のパネルの下部にある _取り消し_ （![ 取り消しアイコン ](../assets/do-not-localize/icon-design-themes-undo.png){width="16"}）アイコンをクリックします。 _やり直し_ （![ やり直しアイコン ](../assets/do-not-localize/icon-design-themes-redo.png){width="16"}）アイコンをクリックして、変更を再適用します。
 
 テーマの変更が完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -259,13 +256,13 @@ ht-degree: 3%
 
 カスタムテーマのリストが多数ある場合は、「_検索_」フィールドとその他のフィルターを使用して、表示されるリストを減らします。 使用可能なテーマのリストを管理する際に、カスタムテーマの編集、削除または複製をいつでも行うことができます。
 
-![&#x200B; テーマの編集 – カスタムテーマのリストをフィルタリング &#x200B;](./assets/email-theme-edit-search.png){width="750" zoomable="yes"}
+![ テーマの編集 – カスタムテーマのリストをフィルタリング ](./assets/email-theme-edit-search.png){width="750" zoomable="yes"}
 
 ### テーマの編集
 
 1. 変更するテーマを選択し、右上の **[!UICONTROL 編集]** をクリックします。
 
-   ![&#x200B; テーマを編集 – 編集するカスタムテーマを選択します &#x200B;](./assets/email-theme-edit-selected.png){width="750" zoomable="yes"}
+   ![ テーマを編集 – 編集するカスタムテーマを選択します ](./assets/email-theme-edit-selected.png){width="750" zoomable="yes"}
 
 1. 右側のナビゲーションを使用して、様々なスタイル設定タブを使用し、テーマの設定を変更します。
 
@@ -277,7 +274,7 @@ ht-degree: 3%
    * [ディバイダー](#divider)
    * [グリッド](#grid)
 
-   ![&#x200B; テーマを編集 – 編集するカスタムテーマを選択します &#x200B;](./assets/email-theme-edit-canvas.png){width="800" zoomable="yes"}
+   ![ テーマを編集 – 編集するカスタムテーマを選択します ](./assets/email-theme-edit-canvas.png){width="800" zoomable="yes"}
 
    設定を変更すると、表示される視覚要素が変わります。 キャンバス上の結果が目的の結果でない場合は、右側のパネルの下部にある _取り消し_ アイコンをクリックできます。 _やり直し_ アイコンをクリックして、変更を再適用します。
 
@@ -291,9 +288,9 @@ ht-degree: 3%
 
 テーマを見つけたら、テーマカードの右下にある _その他メニュー_ （**...**）アイコンをクリックし、実行するアクションを選択します。
 
-![&#x200B; テーマを編集 – 編集するカスタムテーマを選択します &#x200B;](./assets/email-theme-edit-more-menu.png){width="220"}
+![ テーマを編集 – 編集するカスタムテーマを選択します ](./assets/email-theme-edit-more-menu.png){width="220"}
 
-* **[!UICONTROL 複製]** - テーマを複製するには、このアクションを選択します。 新しいテーマは、元のテーマの名前に _のコピー_ が追加されたものと同じです。 テーマを編集 [&#x200B; するときに名前を変更でき &#x200B;](#edit-a-theme) す。
+* **[!UICONTROL 複製]** - テーマを複製するには、このアクションを選択します。 新しいテーマは、元のテーマの名前に _のコピー_ が追加されたものと同じです。 テーマを編集 [ するときに名前を変更でき ](#edit-a-theme) す。
 
 * **[!UICONTROL 削除]** - カスタムテーマを削除する場合は、このアクションを選択します。 確認ダイアログで、「**[!UICONTROL 削除]**」をクリックします。
 
@@ -311,17 +308,17 @@ ht-degree: 3%
 
    * _[!UICONTROL ゼロからデザイン]_ オプションを使用し、**[!UICONTROL テーマを使用]** を選択して、事前定義済みのスタイル設定テーマから始めます。
 
-     ![&#x200B; メールの作成 – テーマを使用 &#x200B;](./assets/create-email-use-theme.png){width="450"}
+     ![ メールの作成 – テーマを使用 ](./assets/create-email-use-theme.png){width="450"}
 
      >[!IMPORTANT]
      >
      >_[!UICONTROL 手動スタイル設定]_ モードを選択した場合、テーマを適用するには、メールデザインをリセットする必要があります。
      >
-     >_[!UICONTROL テーマ]_ モードを選択した場合は、[&#x200B; テーマ &#x200B;](./fragments.md) モードでも作成された _フラグメント_ のみをメールコンテンツに追加できます。
+     >_[!UICONTROL テーマ]_ モードを選択した場合は、[ テーマ ](./fragments.md) モードでも作成された _フラグメント_ のみをメールコンテンツに追加できます。
 
-1. メールデザインスペースで、右側の _テーマ_ （![&#x200B; テーマアイコン &#x200B;](../assets/do-not-localize/icon-design-themes.svg)）アイコンをクリックします。
+1. メールデザインスペースで、右側の _テーマ_ （![ テーマアイコン ](../assets/do-not-localize/icon-design-themes.svg)）アイコンをクリックします。
 
-   ![&#x200B; メールデザインスペース – テーマアイコンを選択 &#x200B;](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
+   ![ メールデザインスペース – テーマアイコンを選択 ](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
 
    デフォルトのテーマ、またはテンプレートに適用されるテーマが表示されます。 このテーマのカラーバリエーションを切り替えることができます。
 
@@ -329,21 +326,21 @@ ht-degree: 3%
 
 1. **[!UICONTROL マイテーマ]** をクリックし、カスタムテーマを選択します。
 
-   ![&#x200B; メールデザインスペース – カスタムテーマを選択 &#x200B;](./assets/email-design-themes-select-custom.png){width="325"}
+   ![ メールデザインスペース – カスタムテーマを選択 ](./assets/email-design-themes-select-custom.png){width="325"}
 
 1. リストの外側をクリックします。
 
    新しく選択したカスタムテーマは、キャンバス内のすべてのメールコンポーネントにスタイルを適用します。 カラーバリエーションを切り替えることができます。
 
-1. 選択したコンポーネントのテーマスタイルを上書きする必要がある場合は、「_コンポーネントスタイルのロックを解除_」アイコン（![&#x200B; コンポーネントスタイルのロック解除アイコン &#x200B;](../assets/do-not-localize/icon-design-theme-unlock.svg)）をクリックします。
+1. 選択したコンポーネントのテーマスタイルを上書きする必要がある場合は、「_コンポーネントスタイルのロックを解除_」アイコン（![ コンポーネントスタイルのロック解除アイコン ](../assets/do-not-localize/icon-design-theme-unlock.svg)）をクリックします。
 
-   ![&#x200B; メールデザインスペース – コンポーネントのテーマスタイルのロックを解除 &#x200B;](./assets/email-design-themes-unlock-component.png){width="600" zoomable="yes"}
+   ![ メールデザインスペース – コンポーネントのテーマスタイルのロックを解除 ](./assets/email-design-themes-unlock-component.png){width="600" zoomable="yes"}
 
    確認ダイアログで、「**[!UICONTROL ロック解除]**」をクリックします。
 
    右パネルの「**[!UICONTROL スタイル]**」タブを選択し、コンポーネントの設定を変更します。
 
-   ![&#x200B; メールデザインスペース – コンポーネントのテーマスタイルのロックを解除 &#x200B;](./assets/email-design-themes-unlocked-component.png){width="600" zoomable="yes"}
+   ![ メールデザインスペース – コンポーネントのテーマスタイルのロックを解除 ](./assets/email-design-themes-unlocked-component.png){width="600" zoomable="yes"}
 
 ## メールコンテンツのテーマの変更
 
@@ -351,7 +348,7 @@ _テーマモード_ で作成されたメールまたはメールテンプレ�
 
 1. デザインスペースでメールまたはメールテンプレートを開きます。
 
-1. 右側の _テーマ_ （![&#x200B; テーマアイコン &#x200B;](../assets/do-not-localize/icon-design-themes.svg)）アイコンをクリックします。
+1. 右側の _テーマ_ （![ テーマアイコン ](../assets/do-not-localize/icon-design-themes.svg)）アイコンをクリックします。
 
    適用されたテーマが右側のパネルに表示されます。
 
