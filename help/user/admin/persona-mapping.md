@@ -39,13 +39,13 @@ Then based on what agent informed, users can create a template with those person
 
 1. 中間パネルで **[!UICONTROL ペルソナマッピング]** をクリックして、ペルソナのリストを表示します。
 
-   ![ 設定したペルソナへのアクセス ](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![&#x200B; 設定したペルソナへのアクセス &#x200B;](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   このページから、ペルソナを [ 作成 ](#create-an-engagement-score-model)、[ 編集 ](#change-the-engagement-weighting-settings) または [ 削除 ](#delete-a-persona) できます。
+   このページから、ペルソナを [&#x200B; 作成 &#x200B;](#create-an-engagement-score-model)、[&#x200B; 編集 &#x200B;](#change-the-engagement-weighting-settings) または [&#x200B; 削除 &#x200B;](#delete-a-persona) できます。
 
-   ペルソナマッピングリスト。 はテーブルとして整理され、最近更新されたペルソナが上部に表示されます（_[!UICONTROL 最終更新]_ 順）。 右上隅の _列設定_ （![ 列設定 ](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、列チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
+   ペルソナマッピングリスト。 はテーブルとして整理され、最近更新されたペルソナが上部に表示されます（_[!UICONTROL 最終更新]_ 順）。 右上隅の _列設定_ （![&#x200B; 列設定 &#x200B;](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、列チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
 
-![ ペルソナマッピングリストに表示する列 ](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+![&#x200B; ペルソナマッピングリストに表示する列 &#x200B;](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. ペルソナの詳細にアクセスするには、名前をクリックします。
 
@@ -72,9 +72,9 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
 * 検索バーにテキスト文字列を入力して、名前でペルソナに一致させます。
 
-  ![ 表示されるイベント定義のフィルタリング ](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
+  ![&#x200B; 表示されるイベント定義のフィルタリング &#x200B;](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* 左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されたリストを属性でフィルタリングします。
+* 左上の _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されたリストを属性でフィルタリングします。
 
 ## ペルソナを作成
 
@@ -92,9 +92,9 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
    * ダイアログで、マッピングする各属性のチェックボックスを選択します（最大 5 つ）。
 
-     右上隅の _列設定_ （![ 列設定 ](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックすると、表示されたテーブルをカスタマイズできます。
+     右上隅の _列設定_ （![&#x200B; 列設定 &#x200B;](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックすると、表示されたテーブルをカスタマイズできます。
 
-     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 また、左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)） アイコンをクリックして、タイプ、_標準_ または _カスタム_ で表示されるリストをフィルタリングすることもできます。
+     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 また、左上の _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)） アイコンをクリックして、タイプ、_標準_ または _カスタム_ で表示されるリストをフィルタリングすることもできます。
 
    * 「**[!UICONTROL 保存]**」をクリックします。
 
