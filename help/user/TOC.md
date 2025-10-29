@@ -1,7 +1,7 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 2b5e622974197c03a47bd60449aa902ecbae19fa
+source-git-commit: 43a987557e251b4d1015d3a615df626223aca574
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 98%
@@ -47,9 +47,9 @@ ht-degree: 98%
    + [カスタムパーソナライゼーショントークン](./content/personalization-my-tokens.md)
    + [SMS オーサリング](./content/sms-authoring.md)
 + アカウント {#accounts}
-   + [Account Qualification Agent](agents/account-qualification-agent.md)
    + [オーディエンス](./audiences/account-audience-overview.md)
    + [Audience エージェント](./agents/audience-agent-b2b.md)
+   + [Account Qualification Agent](agents/account-qualification-agent.md)
    + 購買グループ {#buying-groups}
       + [概要](./buying-groups/buying-groups-overview.md)
       + [ソリューションに対する関心](./buying-groups/solution-interests.md)
