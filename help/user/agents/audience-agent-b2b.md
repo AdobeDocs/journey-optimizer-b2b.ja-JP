@@ -18,14 +18,14 @@ ht-degree: 1%
 
 * **_AI を活用して購入グループを検出_**:AI、構造化された非構造化データおよび統合ファーストパーティデータを使用して、購入グループの検出と作成を合理化します。
 
-![ フルページモードでの B2B のAudience Agent](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+![&#x200B; フルページモードでの B2B のAudience Agent](./assets/audience-agent-full.png){width="700" zoomable="yes"}
 
 >[!PREREQUISITES]
 >
 >Audience Agent for B2B を使用するには、必要なデータ定義とマッピングがあります。<br/>
 >
->* [ インテントデータの分類/マッピング ](../admin/intent-data.md)
->* [XDM フィールド分類/マッピング ](#xdm-data-prerequisites)
+>* [&#x200B; インテントデータの分類/マッピング &#x200B;](../admin/intent-data.md)
+>* [XDM フィールド分類/マッピング &#x200B;](#xdm-data-prerequisites)
 
 ## B2B 機能のためのAudience Agent
 
@@ -433,7 +433,7 @@ Audience Agentは、Journey Optimizer B2B edition内で検出されたファー�
 1. ラベル付きアセット（イベントデータ）を訪問者行動（訪問ページ数）と組み合わせて、キーワード、製品および製品カテゴリレベルで訪問者の意図を決定し、意図を計算→ます
 1. 訪問者プロファイルレベルでのインテントスコアは、アカウントレベルで集計され、特定のキーワード、製品および製品カテゴリにおけるアカウントインテントを判断します > インテントアカウントの集計
 
-[ インテント分類の設定 ](../admin/intent-data.md) に加えて、次のフィールドが必要です。
+[&#x200B; インテント分類の設定 &#x200B;](../admin/intent-data.md) に加えて、次のフィールドが必要です。
 
 <table>
   <tbody>
