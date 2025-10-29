@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B editionの最新機能、機能強化、バグ修正について説明します。 新機能と製品の改善に関する最新情報を入手します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 4bf03f99f146454658422d5b1dac184a108c802b
+source-git-commit: 5a18826c9739bcf3ee86f995700d2a209e9b6ae1
 workflow-type: tm+mt
-source-wordcount: '3490'
-ht-degree: 87%
+source-wordcount: '3494'
+ht-degree: 86%
 
 ---
 
@@ -60,8 +60,8 @@ AI アシスタント インターフェイス内のJourney Optimizer B2B editio
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | メールコンテンツの共同作業 | メールアセットのコンテキストで Journey Optimizer B2B Edition ユーザにコメントしたり、Journey Optimizer B2B Edition ユーザと共同作業したりできるようになりました。チームメンバーにタグを付けると、コメントの詳細が記載されたメール通知を受信できます。通知は、パルス通知としても使用できます。 |
-| 機能 | メールデザインのダークモード | メールデザインスペースに、_ダークモード_&#x200B;に切り替える機能が追加されました。ダークモードでは、メールコンテンツをプレビューし、ダークモードでメールを表示する受信者専用のカスタム設定を定義できます。 |
+| 機能 | メールコンテンツの共同作業 | メールアセットのコンテキストで Journey Optimizer B2B Edition ユーザにコメントしたり、Journey Optimizer B2B Edition ユーザと共同作業したりできるようになりました。チームメンバーにタグを付けると、コメントの詳細が記載されたメール通知を受信できます。通知は、パルス通知としても使用できます。 [詳細情報](../content/email-collaboration-tools.md) |
+| 機能 | メールデザインのダークモード | メールデザインスペースに、_ダークモード_&#x200B;に切り替える機能が追加されました。ダークモードでは、メールのコンテンツをプレビューし、ダークモードでメールを表示する受信者に特別に表示されるカスタム設定を定義できます。 [詳細情報](../content/email-dark-mode.md) |
 | 機能強化 | ジャーニー - ロールの人物数別にパスを分割 | アカウントノード別に分割パスを使用すると、1 つ以上の購買グループロールに属する人物数でアカウントをターゲットにできます。パスでは、役割の深度に基づいて、セールスアラートやその他のエンゲージメントに対する購買グループの準備を評価できます。[詳細情報](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 機能強化 | ジャーニー - イベントの顧客フィルター | 人物フィルターを使用して、人物イベントをリッスンします。これらのフィルターには、一致した購買グループの特定の役割をターゲットにする機能が含まれます。[詳細情報](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
