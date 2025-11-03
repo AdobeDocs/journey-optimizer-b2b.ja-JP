@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **ブランドテーマの使用**
 
-組織がJourney Optimizer B2B editionで [ ブランドテーマ ](./brand-themes.md) を定義している場合は、入力としてブランドテーマを選択すると、生成された出力HTMLがブランドテーマパラメーターに従ってスタイル設定されます。 この入力により、背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイルが、生成されたテンプレートに適用されます。  ブランドテーマを使用すると、スタイル設定や書式設定のための追加のデザイン作業を排除し、最小限の編集作業で使用できるテンプレートを生成できます。
+組織がJourney Optimizer B2B editionで [&#x200B; ブランドテーマ &#x200B;](./brand-themes.md) を定義している場合は、入力としてブランドテーマを選択すると、生成された出力HTMLがブランドテーマパラメーターに従ってスタイル設定されます。 この入力により、背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイルが、生成されたテンプレートに適用されます。  ブランドテーマを使用すると、スタイル設定や書式設定のための追加のデザイン作業を排除し、最小限の編集作業で使用できるテンプレートを生成できます。
 
 >[!ENDSHADEBOX]
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. リストの上のヘッダーで、「**[!UICONTROL 画像をテンプレートに変換]**」をクリックします。
 
-   ![ メールテンプレートライブラリにアクセスし、画像からテンプレートを生成する ](./assets/email-template-convert-image-select.png){width="800" zoomable="yes"}
+   ![&#x200B; メールテンプレートライブラリにアクセスし、画像からテンプレートを生成する &#x200B;](./assets/email-template-convert-image-select.png){width="800" zoomable="yes"}
 
 1. ダイアログで、生成されたメールテンプレートに便利な **[!UICONTROL テンプレート名]** と **[!UICONTROL 説明]** （オプション）を入力します。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    ガイドラインを確認するには、**[!UICONTROL Adobe Experience Cloud Generative AI User Guidelines]** リンクをクリックします。
 
-   ![ 画像ファイルをメールテンプレートに変換するための完全なパラメーター ](./assets/email-template-convert-image-dialog.png){width="400" zoomable="yes"}
+   ![&#x200B; 画像ファイルをメールテンプレートに変換するための完全なパラメーター &#x200B;](./assets/email-template-convert-image-dialog.png){width="400" zoomable="yes"}
 
 1. **[!UICONTROL 変換]** をクリックします。
 
