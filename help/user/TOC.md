@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 43a987557e251b4d1015d3a615df626223aca574
+source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 99%
+source-wordcount: '338'
+ht-degree: 97%
 
 ---
 
@@ -90,6 +90,7 @@ ht-degree: 99%
       + メールテンプレート {#email-templates}
          + [概要](./content/email-templates.md)
          + [メールテンプレートオーサリング](./content/email-template-authoring.md)
+         + [画像をテンプレートに変換](./content/email-template-image-convert.md)
       + ランディングページテンプレート {#landing-page-templates}
          + [概要](./content/landing-page-templates.md)
          + [ランディングページテンプレートのデザイン](./content/landing-page-template-design.md)
