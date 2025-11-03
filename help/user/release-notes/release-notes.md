@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B editionの最新機能、機能強化、バグ修正について説明します。 新機能と製品の改善に関する最新情報を入手します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
+source-git-commit: 74633474e8d0af1e976d007d75bf4db9906fe7d2
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 85%
+source-wordcount: '3644'
+ht-degree: 81%
 
 ---
 
@@ -17,6 +17,16 @@ Adobe Journey Optimizer B2B Edition では、新機能、既存機能の強化�
 Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネイティブに作成され、最新のイノベーションと改善点を継承しています。次の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/latest){target="_blank"}を参照してください。
 
 使用権限、パフォーマンスガードレール、制限事項について詳しくは、[製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}を参照してください。
+
+## Agentic-AI 機能
+
+AI アシスタント インターフェイス内のJourney Optimizer B2B editionで、次のエージェンティック AI 機能が使用できるようになりました。
+
+| エージェント | 更新 | 説明 |
+| ----- | ------ | ----------- |
+| Journey Build Agent | 新規 | ジャーニービルドエージェントは、ジャーニーの分析、アイデア化、共同作成をリアルタイムで行うので、マーケターは迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。 [詳細情報](../agents/journey-agent.md) |
+| Audience エージェント | 新規 | Audience Agentは、構造化されたデータと非構造化データを使用して、購買グループを自動的に特定して構築します。 これにより、マーケターは適切な人物をより迅速かつ正確にターゲット設定することができます。 [詳細情報](../agents/audience-agent-b2b.md) |
+| Account Qualification Agent | 新規 | AI アシスタントのAccount Qualification Agentを使用して、次のステージに向けて準備ができているアカウントを確認します。 このエージェントにより、価値の高いリードを表示し、選定ワークフローを自動化することで、セールス・チームのメンバーが適切なアカウントにフォーカスできるようになります。 [詳細情報](../agents/account-qualification-agent.md) |
 
 ## 2025.10 リリースノート
 
@@ -36,15 +46,20 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | 機能強化 | グループ保守ジョブの購入 | 購買グループの保守ジョブ頻度は、毎週から毎日に更新されます。 |
 | 機能強化 | アカウントジャーニーの進行 | ジャーニーの進行に対して、アカウントのカウントとリストにアクセスするための _詳細情報_ リンクが表示されます。 |
 
-AI アシスタント インターフェイス内のJourney Optimizer B2B editionで、次のエージェンティック AI 機能が使用できるようになりました。
-
-| エージェント | 更新 | 説明 |
-| ----- | ------ | ----------- |
-| Account Qualification Agent | 新規 | AI アシスタントのAccount Qualification Agentを使用して、次のステージに向けて準備ができているアカウントを確認します。 このエージェントにより、価値の高いリードを表示し、選定ワークフローを自動化することで、セールス・チームのメンバーが適切なアカウントにフォーカスできるようになります。 [詳細情報](../agents/account-qualification-agent.md) |
-
 >[!NOTE]
 >
->リリースの変更は、2025年10月31日（PT）にデプロイメントを開始し、各機能が段階的にロールアウトされます。機能および機能強化のリリース日は変更される場合があります。
+>これらのリリースの変更は、2025 年 10 月 31 日（PT）にデプロイメントを開始し、各機能を段階的にロールアウトします。 機能および機能強化のリリース日は変更される場合があります。
+
+### アーキテクチャの簡素化
+
+Adobe Journey Optimizer B2B editionが、シンプルなアーキテクチャで利用できるようになりました。 この更新されたアーキテクチャにより、Journey Optimizer B2B editionとMarketo Engageは、同じシステムと同じデータストアにはなくなりました。 Journey Optimizer B2B editionは、Adobe Experience Platformからのみデータを受け取ります。 ただし、システムのプロビジョニングと設定には、引き続きMarketo Engageの使用権限と一部の設定機能が必要です。
+
+この更新されたアーキテクチャには、次のような複数のメリットがあります。
+
+* **データの統合とスケーリングが簡単**：更新されたプラットフォームは、カスタムオブジェクト、購入グループ、アカウントイベントなどの複雑なデータモデルをサポートしています。
+* **複数のAdobe Marketo Engage インスタンスの接続**：複数のAdobe Marketo Engage環境のデータを 1 か所で管理および統合します。
+* **データを安全に保つ**：高度なプライバシーとセキュリティ機能により、顧客情報を保護できます。
+* **今後構築されるもの**：この更新により、組織は継続的な改善とイノベーションに取り組むことができます。
 
 <!-- hold for later release 
 
@@ -66,16 +81,9 @@ AI アシスタント インターフェイス内のJourney Optimizer B2B editio
 | 機能強化 | ジャーニー - ロールの人物数別にパスを分割 | アカウントノード別に分割パスを使用すると、1 つ以上の購買グループロールに属する人物数でアカウントをターゲットにできます。パスでは、役割の深度に基づいて、セールスアラートやその他のエンゲージメントに対する購買グループの準備を評価できます。[詳細情報](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | 機能強化 | ジャーニー - イベントの顧客フィルター | 人物フィルターを使用して、人物イベントをリッスンします。これらのフィルターには、一致した購買グループの特定の役割をターゲットにする機能が含まれます。[詳細情報](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
-AI アシスタント インターフェイス内のJourney Optimizer B2B editionで、次のエージェンティック AI 機能が使用できるようになりました。
-
-| エージェント | 更新 | 説明 |
-| ----- | ------ | ----------- |
-| Journey Build Agent | 新規 | ジャーニービルドエージェントは、ジャーニーの分析、アイデア化、共同作成をリアルタイムで行うので、マーケターは迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。 [詳細情報](../agents/journey-agent.md) |
-| Audience エージェント | 新規 | Audience Agentは、構造化されたデータと非構造化データを使用して、購買グループを自動的に特定して構築します。 これにより、マーケターは適切な人物をより迅速かつ正確にターゲット設定することができます。 [詳細情報](../agents/audience-agent-b2b.md) |
-
 >[!NOTE]
 >
->リリースの変更は、2025年9月30日（PT）にデプロイメントを開始し、各機能が段階的にロールアウトされます。機能および機能強化のリリース日は変更される場合があります。
+>これらのリリースの変更は、2025 年 9 月 30 日（PT）にデプロイメントを開始し、各機能を段階的にロールアウトします。 機能および機能強化のリリース日は変更される場合があります。
 
 ## 2025.8 リリースノート
 
