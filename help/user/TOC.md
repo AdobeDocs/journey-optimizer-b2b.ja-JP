@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビ�
 source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 96%
    + [SMS オーサリング](./content/sms-authoring.md)
 + アカウント {#accounts}
    + [オーディエンス](./audiences/account-audience-overview.md)
-   + [Audience エージェント](./agents/audience-agent-b2b.md)
+   + [Audience Agent](./agents/audience-agent-b2b.md)
    + [Account Qualification Agent](agents/account-qualification-agent.md)
    + 購買グループ {#buying-groups}
       + [概要](./buying-groups/buying-groups-overview.md)
