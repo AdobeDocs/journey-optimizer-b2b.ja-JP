@@ -138,4 +138,4 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B editionの
 
 LinkedIn 広告オーディエンスなどの有料メディアチャネルを通じてアカウントメンバーと関わり、メンバーを獲得、育成し、セールスの対象として認定できます。 アカウントジャーニーで _アクションの実行_ ノードを使用し、様々なアカウントメンバーに最適な外部チャネルを通じて、アカウントの主要メンバーとのエンゲージメントを自動化します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448673/?captions=jpn&learn=on)
