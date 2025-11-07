@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Marketo In-CRM Insights は、Salesforceに統合される web ベースアプリケーションであり、Salesforce内から直接AJO B2B 購入グループにアクセスできるようにします。 これにより、エンゲージメントとセールスの可能性を高める機会を特定できます。
 
-CRM 内インサイトは、[Marketo Sales Insights パッケージ &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange) で利用できます。
+CRM 内インサイトは、[Marketo Sales Insights パッケージ &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange) で利用できます。
 
 ## CRM 内インサイトの使用
 
@@ -29,7 +29,7 @@ CRM 内インサイトは、アプリランチャーを通じてSalesforceで利
 購入グループが読み込まれ、使用可能になります。 データは、CRM 内インサイトを通じて読み取り専用です。
 
 >[!NOTE]
->In-CRM Insights にアクセスするには、ユーザーが [B2B Sales User](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role) 役割のメンバーである必要があります。
+>In-CRM Insights にアクセスするには、ユーザーが [B2B Sales User](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role) 役割のメンバーである必要があります。
 >
 
-購入グループを選択すると、Journey Optimizer B2B と同様に [&#x200B; グループの詳細 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) を参照できるようになりました。
+購入グループを選択すると、Journey Optimizer B2B と同様に [&#x200B; グループの詳細 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) を参照できるようになりました。
