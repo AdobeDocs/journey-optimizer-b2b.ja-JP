@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について説明します。新機能や製品の改善点に関する最新情報を常に提供します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
 ht-degree: 98%
@@ -26,7 +26,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | ----- | ------ | ----------- |
 | Journey Build Agent | 新規 | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。[詳細情報](../agents/journey-agent.md) |
 | Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。[詳細情報](../agents/audience-agent-b2b.md) |
-| Account Qualification Agent | 新規 | AI アシスタントの Account Qualification Agent を使用して、次のステージに進む準備が整ったアカウントを確認します。このエージェントにより、価値の高いリードを表示し、選定ワークフローを自動化することで、セールスチームメンバーが適切なアカウントに焦点を当てることができます。[詳細情報](../agents/account-qualification-agent.md) |
+| Account Qualification Agent | 新規 | AI アシスタントの Account Qualification Agent を使用して、次のステージに進む準備が整ったアカウントを確認します。このエージェントにより、価値の高いリードを表示し、選定ワークフローを自動化することで、セールスチームメンバーが適切なアカウントに焦点を当てることができます。[詳細情報](../agents/sales-qualifier.md) |
 
 ## 2025.10 リリースノート
 
@@ -35,7 +35,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
 | 機能 | リレーショナルデータモデル | アカウントジャーニー内のアカウントをフィルタリングしたり、メールコンテンツをパーソナライズしたりするには、B2B アカウントにリンクされているリレーショナルデータを活用します。このリレーショナルデータは、購入記録、イベント登録、ソフトウェアライセンス、サービスサブスクリプション、予約などの実際のビジネスエンティティを表すことができます。 |
-| 機能 | ジャーニーの宛先に対してアクティブ化 | 新しい&#x200B;_宛先に対してアクティブ化_&#x200B;会社アカウントアクションを使用して、個人ではなく会社に対して直接アクティブ化します（このリリースの LinkedIn の会社に限定されます。） [&#x200B; 詳細情報 &#x200B;](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| 機能 | ジャーニーの宛先に対してアクティブ化 | 新しい&#x200B;_宛先に対してアクティブ化_&#x200B;会社アカウントアクションを使用して、個人ではなく会社に対して直接アクティブ化します（このリリースの LinkedIn の会社に限定されます。） [ 詳細情報 ](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | 機能 | ブランドテーマ | ブランドテーマを使用すれば、技術ユーザー以外でも、標準テンプレートの上にカスタムスタイルを追加して、特定のブランドやデザイン言語に適合する再利用可能なコンテンツを作成できるようになりました。[詳細情報](../content/brand-themes.md) |
 | 機能 | メールテンプレート - 画像を HTML に変換 | JPG または PNG 画像ファイル形式で保存されたデザインファイルを使用して、メールテンプレートを自動的に生成できるようになりました。[詳細情報](../content/email-template-image-convert.md) |
 | 機能 | ペルソナマッピング | 属性マッピングを使用して、アカウントメンバーと確立されたペルソナを結び付けます。[詳細情報](../admin/persona-mapping.md) |

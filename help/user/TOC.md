@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 98%
+source-wordcount: '346'
+ht-degree: 97%
 
 ---
 
@@ -23,9 +23,12 @@ ht-degree: 98%
    + [AI アシスタントへのアクセスを有効にする](./ai-assistant/enable-ai-assistant-access.md)
    + [質問ガイダンス](./ai-assistant/question-guidance.md)
    + [AI アシスタントを使用](./ai-assistant/use-ai-assistant.md)
+   + エージェント {#ai-agents}
+      + [Audience Agent](./agents/audience-agent-b2b.md)
+      + [Journey Build Agent](./agents/journey-agent.md)
+      + [販売修飾子](./agents/sales-qualifier.md)
 + アカウントジャーニー {#account-journeys}
    + [概要](./journeys/journey-overview.md)
-   + [Journey Build Agent](./agents/journey-agent.md)
    + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
    + [ジャーニーノード](./journeys/journey-nodes.md)
    + ジャーニーノード {#journey-nodes}
@@ -48,8 +51,6 @@ ht-degree: 98%
    + [SMS オーサリング](./content/sms-authoring.md)
 + アカウント {#accounts}
    + [オーディエンス](./audiences/account-audience-overview.md)
-   + [Audience Agent](./agents/audience-agent-b2b.md)
-   + [Account Qualification Agent](agents/account-qualification-agent.md)
    + 購買グループ {#buying-groups}
       + [概要](./buying-groups/buying-groups-overview.md)
       + [ソリューションに対する関心](./buying-groups/solution-interests.md)
@@ -63,6 +64,7 @@ ht-degree: 98%
       + [アカウントの書き出し](./audiences/account-list-export.md)
       + [LinkedIn アカウントと一致するオーディエンス](./data/linkedin-account-matched-audiences.md)
       + [Marketo Engage の購買グループフィルター](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [CRM 内インサイト](./buying-groups/incrm-insights.md)
    + アカウントリスト {#account-lists}
       + [概要](./accounts/account-lists.md)
       + [ジャーニーとプログラムでの使用](./accounts/account-lists-journeys.md)
