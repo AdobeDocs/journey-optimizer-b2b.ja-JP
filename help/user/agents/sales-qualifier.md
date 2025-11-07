@@ -233,4 +233,4 @@ AI Assistant Chrome プラグインは、[Google Store](https://chromewebstore.g
 
 次のビデオでは、Sales Qualifier とAccount Qualification Agentの短いデモを示しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476562?captions=jpn)
