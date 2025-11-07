@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビ�
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [概要](./content/email-templates.md)
          + [メールテンプレートオーサリング](./content/email-template-authoring.md)
          + [画像をテンプレートに変換](./content/email-template-image-convert.md)
-      + ランディングページテンプレート（Beta） {#landing-page-templates}
+      + ランディングページテンプレート（ベータ版） {#landing-page-templates}
          + [概要](./content/landing-page-templates.md)
          + [ランディングページテンプレートのデザイン](./content/landing-page-template-design.md)
    + フラグメント {#visual-fragments}
