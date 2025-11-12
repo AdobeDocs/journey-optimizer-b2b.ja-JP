@@ -4,7 +4,7 @@ user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビ�
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 97%
       + [ソリューションに対する関心](./buying-groups/solution-interests.md)
       + [役割テンプレート](./buying-groups/buying-groups-role-templates.md)
       + [デフォルトおよびカスタムの役割](./buying-groups/default-custom-roles.md)
-      + 購入グループのスコアリング {#scoring}
+      + 購買グループのスコアリング {#scoring}
          + [エンゲージメントスコア](./buying-groups/engagement-scores.md)
          + [完全性スコア](./buying-groups/completeness-scores.md)
       + [購買グループステージ](./buying-groups/buying-group-stages.md)
