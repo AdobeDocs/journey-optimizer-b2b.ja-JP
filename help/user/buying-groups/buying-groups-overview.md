@@ -116,4 +116,4 @@ _[!UICONTROL 購買グループ]_&#x200B;ページは、次のタブで構成さ
 
 ## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452926/?captions=jpn&learn=on)
