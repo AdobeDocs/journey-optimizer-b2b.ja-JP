@@ -15,9 +15,9 @@ ht-degree: 44%
 
 # パーソナライゼーション構文 {#personalization-syntax}
 
-[!DNL Journey Optimizer B2B Edition] [ パーソナライゼーションエディター ](./personalization.md#personalization-editor) の式は、_Handlebars_ テンプレート構文に基づいています。 テンプレートと入力オブジェクトを使用して、HTML やその他のテキスト形式を生成します。Handlebars テンプレートは、Handlebars 式が埋め込まれた標準のテキストのように見えます。
+[!DNL Journey Optimizer B2B Edition] [&#x200B; パーソナライゼーションエディター &#x200B;](./personalization.md#personalization-editor) の式は、_Handlebars_ テンプレート構文に基づいています。 テンプレートと入力オブジェクトを使用して、HTML やその他のテキスト形式を生成します。Handlebars テンプレートは、Handlebars 式が埋め込まれた標準のテキストのように見えます。
 
-Handlebars とその仕組みについて詳しくは、[HandlebarsJS ドキュメント ](https://handlebarsjs.com/){target="_blank"} を参照してください。
+Handlebars とその仕組みについて詳しくは、[HandlebarsJS ドキュメント &#x200B;](https://handlebarsjs.com/){target="_blank"} を参照してください。
 
 ## 一般規則
 
@@ -34,7 +34,7 @@ Handlebars とその仕組みについて詳しくは、[HandlebarsJS ドキュ�
 
   >[!NOTE]
   >
-  >属性構造は、[Adobe Experience Platform XDM スキーマ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"} で定義されます。
+  >属性構造は、[Adobe Experience Platform XDM スキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"} で定義されます。
 
 * 識別子には、以下を除く任意の Unicode 文字を使用できます。
 
@@ -72,7 +72,7 @@ Handlebars ヘルパー関数は、パラメーターを追加できる単純な
 
 Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
 
-これらの関数について詳しくは、「[ ヘルパー関数 ](./personalization-helper-functions.md)」を参照してください。
+これらの関数について詳しくは、「[&#x200B; ヘルパー関数 &#x200B;](./personalization-helper-functions.md)」を参照してください。
 
 ## リテラル型 {#literal-types}
 

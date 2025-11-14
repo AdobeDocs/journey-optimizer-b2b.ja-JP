@@ -19,7 +19,7 @@ ht-degree: 44%
 
 >[!AVAILABILITY]
 >
->ヘルパー関数は、[ シンプルなアーキテクチャ ](../simplified-architecture.md) でプロビジョニングされた Journey Optimizer B2B edition環境で使用できます。
+>ヘルパー関数は、[&#x200B; シンプルなアーキテクチャ &#x200B;](../simplified-architecture.md) でプロビジョニングされた Journey Optimizer B2B edition環境で使用できます。
 
 ## 集計関数
 
@@ -975,9 +975,9 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 日付パターンが無効な場合、日付は ISO 標準形式にフォールバックします。
 >
-> [Oracle ドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) にまとめられている Java 日付書式設定関数を使用できます。
+> [Oracle ドキュメント &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) にまとめられている Java 日付書式設定関数を使用できます。
 >
-> [Oracle ドキュメントと ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) サポートされているロケール [ にまとめられている書式設定と有効なロケールを使用でき ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) す。
+> [Oracle ドキュメントと &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) サポートされているロケール [&#x200B; にまとめられている書式設定と有効なロケールを使用でき &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) す。
 
 **例**
 
@@ -1803,7 +1803,7 @@ template-part の評価トークンを変更するには、`with` ヘルパー�
 {%= formatNumber(number/double,string) %}: string
 ```
 
-[Oracle ドキュメントと ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) サポートされているロケールにまとめられている書式設定と有効なロケールを使用でき [ す ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+[Oracle ドキュメントと &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) サポートされているロケールにまとめられている書式設定と有効なロケールを使用でき [&#x200B; す &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **例**
 
@@ -2510,7 +2510,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ### 一致する {#matches}
 
-`matches` 関数を使用すると、文字列が特定の正規表現に一致することを判別できます。 正規表現のマッチングパターンについて詳しくは、[Oracleのドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) を参照してください。
+`matches` 関数を使用すると、文字列が特定の正規表現に一致することを判別できます。 正規表現のマッチングパターンについて詳しくは、[Oracleのドキュメント &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) を参照してください。
 
 +++構文
 
@@ -2674,7 +2674,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ### replaceAll {#replaceAll}
 
-`replaceAll` 関数を使用すると、正規表現式に一致するテキストのすべてのサブ文字列を、指定されたリテラル置換文字列に置き換えることができます。 正規表現には `\` と `+` の特別な処理があり、すべての正規表現はPQL エスケープ戦略に従います。 置換は、文字列の先頭から末尾に向かって行われます。例えば、文字列内の `aa` を `b` に置き換えると `aaa``ba` ではなく `ab` になります。
+`replaceAll` 関数を使用すると、正規表現式に一致するテキストのすべてのサブ文字列を、指定されたリテラル置換文字列に置き換えることができます。 正規表現には `\` と `+` の特別な処理があり、すべての正規表現はPQL エスケープ戦略に従います。 置換は、文字列の先頭から末尾に向かって行われます。例えば、文字列内の `aa` を `b` に置き換えると `aaa` `ba` ではなく `ab` になります。
 
 +++構文
 

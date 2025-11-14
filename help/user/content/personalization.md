@@ -38,11 +38,11 @@ Journey Optimizer B2B editionは、メッセージの処理時に、式をAdobe 
 
 * **システムトークン** – これらのトークンは、_日付_、_時間_、_購読解除リンク_ など、システムフィールドの値に基づいています。
 
-* **マイトークン** （ジャーニー用に定義された場合） – メールが存在するジャーニー用に定義された [ カスタムトークン ](./personalization-my-tokens.md)。
+* **マイトークン** （ジャーニー用に定義された場合） – メールが存在するジャーニー用に定義された [&#x200B; カスタムトークン &#x200B;](./personalization-my-tokens.md)。
 
 >[!NOTE]
 >
->XDM スキーマについて詳しくは、[Adobe Experience Platform データモデル（XDM）ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"} を参照してください。
+>XDM スキーマについて詳しくは、[Adobe Experience Platform データモデル（XDM）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"} を参照してください。
 
 ## パーソナライゼーションエディター
 
@@ -50,17 +50,17 @@ Journey Optimizer B2B editionは、メッセージの処理時に、式をAdobe 
 
 >[!NOTE]
 >
->パーソナライゼーションエディターの以下の情報は、[ シンプルなアーキテクチャ ](../simplified-architecture.md) でプロビジョニングされたJourney Optimizer B2B edition環境で使用できる変更内容を反映しています。
+>パーソナライゼーションエディターの以下の情報は、[&#x200B; シンプルなアーキテクチャ &#x200B;](../simplified-architecture.md) でプロビジョニングされたJourney Optimizer B2B edition環境で使用できる変更内容を反映しています。
 
-_パーソナライゼーションを追加_ （![ パーソナライゼーションアイコンを追加 ](../../assets/do-not-localize/icon-personalization-field.svg)）アイコンをクリックして、任意のフィールドまたはコンテンツコンポーネントでパーソナライゼーションを追加します。
+_パーソナライゼーションを追加_ （![&#x200B; パーソナライゼーションアイコンを追加 &#x200B;](../../assets/do-not-localize/icon-personalization-field.svg)）アイコンをクリックして、任意のフィールドまたはコンテンツコンポーネントでパーソナライゼーションを追加します。
 
-![Personalization エディター ](./assets/personalization-editor.png){width="800" zoomable="yes"}
+![Personalization エディター &#x200B;](./assets/personalization-editor.png){width="800" zoomable="yes"}
 
 パーソナライゼーショントークンまたはヘルパー関数を使用するには、左側のナビゲーションパネルでパーソナライゼーショントークンまたはヘルパー関数を見つけ、「**+**」をクリックして式に追加します。
 
 _その他メニュー_ （**...**）アイコン（_追加_ （**+**）アイコンの横）をクリックすると、各属性の詳細が表示され、使用頻度の高い属性を _お気に入り_ に追加できます。 お気に入りに追加した属性には、エディターの左側のナビゲーションにある **[!UICONTROL お気に入り]** メニューからアクセスできます。
 
-![Personalization エディター – トークンの詳細メニュー ](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
+![Personalization エディター – トークンの詳細メニュー &#x200B;](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
 <!-- >>[!NOTE]
 >
@@ -70,7 +70,7 @@ _その他メニュー_ （**...**）アイコン（_追加_ （**+**）アイ�
 
 式は、コンテンツに挿入する前に検証することをお勧めします。 エディターの下部にある「**[!UICONTROL 検証]**」をクリックして構文を確認し、エラーがないことを確認します。
 
-![Personalization エディターがコードを検証しました ](./assets/personalization-editor-validated.png){width="500"}
+![Personalization エディターがコードを検証しました &#x200B;](./assets/personalization-editor-validated.png){width="500"}
 
 式が完成し、エラーがなくなったら、「**[!UICONTROL 保存]**」をクリックします。
 
