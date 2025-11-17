@@ -1,11 +1,11 @@
 ---
 title: CRM 内インサイト
-description: Salesforce内で購入グループデータを直接確認し、セールスオポチュニティを最大限に活用できるようにします。
-feature: Buying Groups
+description: SalesforceのJourney Optimizer B2B edition購入グループに直接アクセスします。 営業チームメンバーは、エンゲージメントデータを表示し、CRM 内インサイトを使用して販売機会を特定できます。
+feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: fed4ffe06d645784dc3f2adc84c15906e9816507
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # CRM 内インサイト
 
-Marketo In-CRM Insights は、Salesforceに統合される web ベースアプリケーションであり、Salesforce内から直接AJO B2B 購入グループにアクセスできるようにします。 これにより、エンゲージメントとセールスの可能性を高める機会を特定できます。
+In-CRM Insights は、Salesforceに統合される web ベースアプリケーションであり、Salesforce内からJourney Optimizer B2B editionの購買グループに直接アクセスできます。 これにより、エンゲージメントとセールスの可能性を高める機会を特定できます。
 
-CRM 内インサイトは、[Marketo Sales Insights パッケージ &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange) で利用できます。
+CRM 内インサイトアプリケーションは、[Marketo Sales Insights パッケージ ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange) で利用できます。
 
 ## CRM 内インサイトの使用
 
-CRM 内インサイトは、アプリランチャーを通じてSalesforceで利用できます。
+In-CRM Insights アプリケーションは、アプリランチャーを通じてSalesforceで使用できます。
 
 1. Salesforceのアプリランチャーをクリックします。
 1. `Journey Optimizer B2B Edition` を選択または検索します。
-1. 開いたタブで、Adobeの資格情報を使用してログインします。
-1. ドロップダウンからアカウントジャーニーをホストするサンドボックスを選択します。
+1. 「表示」タブで、Adobeの資格情報を使用してログインします。
+1. アカウントジャーニーをホストするサンドボックスを選択します。
 
 購入グループが読み込まれ、使用可能になります。 データは、CRM 内インサイトを通じて読み取り専用です。
 
 >[!NOTE]
->In-CRM Insights にアクセスするには、ユーザーが [B2B Sales User](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role) 役割のメンバーである必要があります。
 >
+>In-CRM Insights にアクセスするには [](../admin/user-management.md#b2b-built-in-roles)B2B Sales User 製品ロールのメンバーシップが必要です。
 
-購入グループを選択すると、Journey Optimizer B2B と同様に [&#x200B; グループの詳細 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) を参照できるようになりました。
+購入グループを選択した後は、Journey Optimizer B2B editionと同様に [ グループの詳細 ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) を参照できます。

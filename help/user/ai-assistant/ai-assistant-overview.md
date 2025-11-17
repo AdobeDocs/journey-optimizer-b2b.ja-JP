@@ -5,32 +5,32 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1265'
 ht-degree: 6%
 
 ---
 
 # Journey Optimizer B2B editionの AI アシスタント
 
-Journey Optimizerの AI アシスタント B2B editionは、同じテクノロジ基盤である [Adobe Experience Platformの AI アシスタント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"} から作成されています。 これは、Adobe Journey Optimizer B2B editionでワークフローを高速化するために使用できる対話型エクスペリエンスです。 AI アシスタントを使用すると、製品の機能をより深く理解したり、問題をトラブルシューティングしたり、情報を検索してJourney Optimizer B2B editionの運用に関するインサイトを見つけたりできます。
+Journey Optimizerの AI アシスタント B2B editionは、同じテクノロジ基盤である [Adobe Experience Platformの AI アシスタント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"} から作成されています。 これは、Adobe Journey Optimizer B2B editionでワークフローを高速化するために使用できる対話型エクスペリエンスです。 AI アシスタントを使用すると、製品の機能をより深く理解したり、問題をトラブルシューティングしたり、情報を検索してJourney Optimizer B2B editionの運用に関するインサイトを見つけたりできます。
 
 >[!IMPORTANT]
 >
->Journey Optimizer B2B editionで AI アシスタントを使用するには、[&#x200B; ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) への同意が必要です。 この契約にはパブリックベータ版の契約も含まれているため、ベータ版の容量で展開する際に追加の AI アシスタント機能を使用できます。
+>Journey Optimizer B2B editionで AI アシスタントを使用するには、[ ユーザーガイドライン ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) への同意が必要です。 この契約にはパブリックベータ版の契約も含まれているため、ベータ版の容量で展開する際に追加の AI アシスタント機能を使用できます。
 
 +++ユーザー契約インターフェイスの表示
 
-![&#x200B; ユーザー使用許諾契約の最初のページ &#x200B;](./assets/user-agreement-1.png)
+![ ユーザー使用許諾契約の最初のページ ](./assets/user-agreement-1.png)
 
-![&#x200B; ユーザー契約書の最後のページ &#x200B;](./assets/user-agreement-2.png)
+![ ユーザー契約書の最後のページ ](./assets/user-agreement-2.png)
 
 +++
 
 ## Journey Optimizer B2B editionの AI アシスタント機能
 
-送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読み取れる回答に変換します。 この応答は、基になるデータの内部表現であり、_&#x200B;**_ナレッジグラフ_**&#x200B;_ とも呼ばれます。これは、特定の回答に関する概念、データ、メタデータの包括的な Web です。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
+送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読み取れる回答に変換します。 この応答は、基になるデータの内部表現であり、_**_ナレッジグラフ_**_ とも呼ばれます。これは、特定の回答に関する概念、データ、メタデータの包括的な Web です。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
 
 * Experience Leagueのドキュメント。
 * 運用上のアーティファクト（スキーマ、フィールド、オーディエンス、ジャーニーなど）。
@@ -60,7 +60,7 @@ _オペレーショナルインサイト_ とは、メタデータオブジェ�
 | ドメイン | サポートされるメタデータ | サポートされていないメタデータ |
 | --- | --- | --- |
 | 属性/フィールド | <li>属性名の検索 <li>属性 – スキーマの関係 <li>属性 – データセットの関係 <li>属性 – オーディエンスの関係 <li>属性 – 宛先の関係 | <li>属性クラス <li>監査 <li>非推奨ステータス <li>ラベル <li>属性に格納される値 |
-| アカウントオーディエンス <br><br>**_Note:_** AJO B2B AI Assistant はアカウントオーディエンスのオーディエンスの質問にのみ回答できますが、Experience Platform AI Assistant は人物オーディエンスの質問にのみ回答できます | <li>オーディエンス数 <li>オーディエンスタイプ（ストリーミングまたはバッチ） <li>作成日/変更日 <li>アクティベーションステータス <li>メンバー数 <li>オーディエンスを複製 <li>名前と ID 検索 | <li>オーディエンスの重複 <li>Audience Activation <li>監査 <li>作成/変更 <li>ラベル <li>会員選定の動き |
+| アカウントオーディエンス <br><br>**_Note:_** Journey Optimizer B2B edition コンテキストでは、AI アシスタントはアカウントオーディエンスのオーディエンスに関する質問にのみ回答できます。 Experience Platformのコンテキストでは、AI アシスタントは人物オーディエンスに対してのみ質問に答えることができます。 | <li>オーディエンス数 <li>オーディエンスタイプ（ストリーミングまたはバッチ） <li>作成日/変更日 <li>アクティベーションステータス <li>メンバー数 <li>オーディエンスを複製 <li>名前と ID 検索 | <li>オーディエンスの重複 <li>Audience Activation <li>監査 <li>作成/変更 <li>ラベル <li>会員選定の動き |
 | データフロー | <li>データフロー数 <li>データフローステータス <li>データフロー – データセットの関係 <li>データフロー – ソースの関係 | <li>作成/変更 <li>データフローバッチ関係 <li>プロファイル数の取り込み |
 | データセット | <li>データセット数 <li>プロファイル有効化ステータス <li>作成日/変更日 <li>データセット – スキーマの関係 <li>データセット – オーディエンスの関係 <li>データセット – 属性関係 <li>データセット – データフロー関係 <li>名前検索 <li>名前と ID 検索 | <li>監査 <li>作成者 <li>データセット – バッチ関係 <li>データセットの作成/変更 <li>データセットサイズ <li>プロファイル数 <li>行数 <li>値検索 |
 | 宛先 | <li>設定済みの宛先数 <li>宛先 – オーディエンスの関係 <li>宛先属性の関係 | <li>アカウント設定 <li>アカウント資格情報 <li>一意のプロファイルがアクティブ化されました |
@@ -92,7 +92,7 @@ Journey Optimizer B2B editionの AI アシスタントは、プライバシー�
 
 * AI アシスタントとやり取りするには、明示的な権限が必要です。
 
-   * 管理者は、[&#x200B; 権限 UI](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} と [Admin Console](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/browse){target="_blank"} を使用して権限を設定できます。
+   * 管理者は、[ 権限 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} と [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"} を使用して権限を設定できます。
 
    * 権限は粒度が細かく、サンドボックス管理者は、様々な質問カテゴリ（AI アシスタントを使用した製品のナレッジベースの質問または運用インサイトに関する質問）を実行できるユーザーを設定できます。
 

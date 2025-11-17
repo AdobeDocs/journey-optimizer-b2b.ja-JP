@@ -1,11 +1,11 @@
 ---
 title: 販売修飾子
-description: Sales Qualifier アプリケーションを使用して、ジャーニーを高速化し、維持する方法を説明します。
-feature: Account Journeys, AI Assistant
+description: Sales Qualifier による B2B 見込み客の選定とアウトリーチを自動化します。 AI を活用した研究、電子メールのドラフト作成、CRM の統合、BDR のエンゲージメントプランを提供します。
+feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 1%
 >この機能は現在、限定提供になっており、すべてのユーザーが利用できるわけではありません。
 >
 
-Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 Sales Qualifier は、チャネルをまたいで見込み客の選定、アウトリーチ、買い手のエンゲージメントワークフローを自動化し、手動の BDR 負荷を軽減し、企業 B2B 企業のパイプラインベロシティを加速させます。
+Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 Sales Qualifier は、チャネルをまたいで見込み客の選定、アウトリーチ、および買い手のエンゲージメントワークフローを自動化します。 これにより、手動の BDR の負荷を軽減し、企業 B2B 企業のパイプラインベロシティを加速させます。
 ブラウザーと電子メールプラグインを使用して、CRM または Outlook 内から直接ビジネスインテリジェンスにアクセスします。
 
-Sales Qualifier はAJO B2B に含まれていますが、AEP Experience Cloud内の別のアプリです。
+Sales Qualifier はJourney Optimizer B2B editionに含まれていますが、Experience Platform Experience Cloud内の別のアプリです。
 
-![Sales Qualifier ホーム・ページ &#x200B;](assets/home-screen.png)
+![Sales Qualifier ホーム・ページ ](assets/home-screen.png)
 
 ## Account Qualification Agent
 
-Account Qualification Agent（AQA）は、Sales Qualifier の中核です。 AQA は、AI を使用してアカウントを読み取り、次の手順に進む準備ができているアカウントを判断します。  調査、メールの作成、CRM の更新を支援します。
+Account Qualification Agent（AQA）は、Sales Qualifier の中核です。 AQA は、AI を使用してアカウントを読み取り、次の手順に進む準備ができているアカウントを判断します。 調査、メールの作成、CRM の更新を支援します。
 
 ![Account Qualification Agent](assets/acc-qualification-agent.png)
 
@@ -52,9 +52,9 @@ Adobe AI エージェントは _自然言語クエリ_ を使用します。つ�
 
 自然言語を使用すると、エージェントに次の操作を依頼できます。
 
-* 割り当てられた、まだエンゲージメントのないリードを表示する
-* 自律的なエンゲージメントに含まれないリードをすべて表示する
-* 購入グループ、最近のインテントシグナル、過去のエンゲージメントなど、`<company>` に関する詳細な概要を教えてください。
+* `Show me my assigned leads with no engagement yet`
+* `Show me all my leads that are not part of any autonomous engagement`
+* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
 
 どのアカウントとリードが最もアクティブであるかを即座に把握し、最も高い意図を示すことができるので、最も影響が大きい場所にエネルギーを集中させることができます。
 
@@ -66,24 +66,24 @@ Adobe AI エージェントは _自然言語クエリ_ を使用します。つ�
 
 ## 見込み客
 
-このウィンドウには、アクセス権のあるすべてのリードが一覧表示されます。 リードステータスや前回のアクティビティなどを簡単に確認できます。
+このウィンドウには、アクセス権のあるすべてのリードが一覧表示されます。 リードのステータスや最後のアクティビティなど、ものを簡単に確認できます。
 
-![&#x200B; すべてのリードは「リード」テーブルに表示されます &#x200B;](assets/prospects.png)
+![ すべてのリードは「リード」テーブルに表示されます ](assets/prospects.png)
 
-フィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](../assets/icon-filter.png) をクリックして、リードステータスでフィルターします。
+_フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/icon_filter-outline.svg) アイコンをクリックして、表示されたリストをリードステータスでフィルタリングします。
 
 ## エンゲージメントプラン
 
 このウィンドウには、定義済みのエンゲージメントプランの詳細が表示されます。
 
-![&#x200B; 事業計画 &#x200B;](assets/engagement-plans.png)
+![ 事業計画 ](assets/engagement-plans.png)
 
 新しい契約プランを作成するには、[**[!UICONTROL 契約プランの作成]**] をクリックします。
 
-1. 詳細ステージで、名前と説明（オプション）を入力します。 **[!UICONTROL 保存して続行]** をクリックします。
-1. 見込み客を選択ステージで、この計画に属するリードを選択します。
-1. ケイデンスを定義ステージで、プランのパラメーターを設定します。
-1. プレビューステージで、すべてが期待どおりに動作していることを確認します。
+1. _詳細_ ステージで、名前と説明（オプション）を入力します。 **[!UICONTROL 保存して続行]** をクリックします。
+1. _見込み客を選択_ ステージで、この計画に属するリードを選択します。
+1. _ケイデンスを定義_ ステージで、プランのパラメーターを設定します。
+1. _プレビュー_ ステージで、すべてが期待どおりに動作していることを確認します。
 
 ## E メール送信ボックス
 
@@ -97,9 +97,9 @@ Adobe AI エージェントは _自然言語クエリ_ を使用します。つ�
 
 このパネルには、すべてのチャットスレッドが表示されます。
 
-![&#x200B; チャットインボックス &#x200B;](assets/chat-inbox.png)
+![ チャットインボックス ](assets/chat-inbox.png)
 
-クライアントとやり取りできるだけでなく、連絡先の概要とスレッドの概要を確認できるので、スレッドのどこにいるのか素早く知ることができます。
+クライアントとやり取りし、連絡先とスレッドの概要を確認して、スレッドの現在の位置をすばやく把握できます。
 
 ## 統合
 
@@ -108,20 +108,20 @@ Adobe AI エージェントは _自然言語クエリ_ を使用します。つ�
 * をメールインボックスと統合して、関連する受信メールを追跡し、返信を生成できるようにします。
 * CRM データの読み取り、更新（Salesforce、Microsoft®Dynamics、ZoomInfo、Buildwidth など）。
 
-![Sales Qualifier Outlook の統合 &#x200B;](assets/outlook.png)
+![Sales Qualifier Outlook の統合 ](assets/outlook.png)
 
 ### 新しい統合の設定
 
 新しい統合を開始するには、右上の **[!UICONTROL 統合を作成]** をクリックします。
 
-![&#x200B; 統合の詳細 &#x200B;](assets/integration-details.png)
+![ 統合の詳細 ](assets/integration-details.png)
 
-ここでは、統合の URL を定義し、送信するペイロードを確立します。
+統合の URL を定義し、送信するペイロードを確立します。
 
 1. 統合の一意の名前と説明（オプション）を入力します。
 1. 「URL」フィールドに、統合サイトの統合認証エンドポイントを設定します。
 1. 「パス・パラメータ」で、HTTP メソッドを設定します。
-1. ヘッダーパラメーターで、送信する必要がある HTTP ヘッダーを設定します。 通常、送信され、content-type ヘッダーを必要とする JSON オブジェクト。
+1. ヘッダーパラメーターで、送信する必要がある HTTP ヘッダーを設定します。 一般に、送信される JSON オブジェクトであり、content-type ヘッダーが必要です。
 1. 「クエリー・パラメータ」で、必要なパラメータを設定します。
 1. 「認証」で、統合サイトのログイン情報を設定します。
 
@@ -130,27 +130,28 @@ Adobe AI エージェントは _自然言語クエリ_ を使用します。つ�
    * API キー
    * 基本認証
 
-1. 「ペイロード設定」セクションでスロットルとキャッシュの値を設定します。
-1. ペイロード設定で、鉛筆アイコンをクリックします。 ペイロードを貼り付けダイアログで、JSON ペイロードオブジェクトを貼り付けるか入力します。
-   * リクエストペイロード：統合サイトに送信するデータを含む JSON オブジェクト。
-   * 応答ペイロード：返されると想定されるデータ構造。
-1. [!UICONTROL &#x200B; 接続をテスト &#x200B;] をクリックして、設定が正しいことを確認します。
+1. 「**[!UICONTROL ペイロード設定]**」セクションで、スロットルとキャッシュの値を設定します。
+   * 鉛筆アイコンをクリックします。
+   * _ペイロードを貼り付け_ ダイアログで、JSON ペイロードオブジェクトを貼り付けるか、入力します。
+
+      * **[!UICONTROL リクエストペイロード]** – 統合サイトに送信するデータを含む JSON オブジェクト。
+      * **[!UICONTROL 応答ペイロード]** – 返されるデータ構造。
+
+1. **[!UICONTROL 接続をテスト]** をクリックして、設定が正しいことを確認します。
 
 接続設定が有効な場合は、「**[!UICONTROL ドラフトとして保存]**」をクリックします。
 
-メインの統合テーブルに戻ったら、統合を選択し、「**[!UICONTROL アクティブ化]**」をクリックして統合をライブにするか、「ドラフトとして保存 **[!UICONTROL をクリック]** します。
-
-
+メインの _[!UICONTROL 統合]_ テーブルに戻ったら、統合を選択し、**[!UICONTROL アクティブ化]** をクリックして、統合をライブにします。 有効にする準備ができていない場合は、「**[!UICONTROL ドラフトとして保存]** をクリックします。
 
 #### アクセスの管理
 
 ユーザーへのアクセスと、様々なユーザーグループで共有されるデータの種類を管理できます。
 
-**[!UICONTROL アクセスを管理]** をクリックして、アクセスを管理ダイアログを開きます。
+**[!UICONTROL アクセスを管理]** をクリックして _[!UICONTROL アクセスを管理]_ ダイアログを開きます。
 
-このダイアログには、組織で設定されたすべてのラベルが一覧表示されます。 この統合に適用するラベルを選択します。
+このダイアログには、組織に設定されているすべてのラベルが一覧表示されます。 この統合に適用するラベルを選択します。
 
-新しいラベルが必要な場合は、「**[!UICONTROL ラベルを作成]**」をクリックして、次の情報を入力します。
+新しいラベルが必要な場合は、**[!UICONTROL ラベルを作成]** をクリックし、ラベル情報を入力します。
 
 * 名前
 * わかりやすい名前
@@ -158,62 +159,51 @@ Adobe AI エージェントは _自然言語クエリ_ を使用します。つ�
 
 ## 代表的な設定
 
-ここで、個人情報、メールおよびカレンダーの設定、チャットの利用可否などの情報を入力します。
+代表設定では、個人の詳細情報、メールおよびカレンダー設定、チャットの利用可否など、自分自身に関する情報を指定します。
 
 ### 詳細
 
-「詳細」タブでは、自分自身に関する情報を入力できます。
+「**[!UICONTROL 詳細]**」タブでは、自分自身に関する情報を入力できます。
 
-![&#x200B; 販売修飾子の詳細設定 &#x200B;](assets/details.png)
+![ 販売修飾子の詳細設定 ](assets/details.png)
 
 ### メールの設定
 
-「メール設定」タブで、メール接続を設定します。
+「**[!UICONTROL メール設定]**」タブで、メール接続を設定します。
 
-![&#x200B; メールの設定 &#x200B;](assets/email-settings.png)
+![ メールの設定 ](assets/email-settings.png)
 
-#### メール接続
+* **[!UICONTROL メール接続]** - 「**[!UICONTROL 接続]**」をクリックし、Microsoftのログイン手順に従います。
 
-**[!UICONTROL 接続]** をクリックし、Microsoftのログイン手順に従います。
-
-#### 電子メールの署名
-
-自動生成されたメールで使用するメール署名を設定します。
+* **[!UICONTROL メール署名]** – 自動生成されたメールに使用するメール署名を設定します。
 
 ### カレンダー設定
 
-「カレンダー設定」タブで、タイムゾーンと空き時間を設定します。
+「**[!UICONTROL カレンダー設定]**」タブで、タイムゾーンと空き時間を設定します。
 
-![&#x200B; カレンダー設定 &#x200B;](assets/calendar-settings.png)
+![ カレンダー設定 ](assets/calendar-settings.png)
 
-#### カレンダー接続
+* **[!UICONTROL カレンダー接続]** - 「**[!UICONTROL 接続]**」をクリックし、Microsoftのログイン手順に従ってカレンダーを統合します。
 
-**[!UICONTROL 接続]** をクリックし、Microsoftのログイン手順に従ってカレンダーを統合します。
+* **[!UICONTROL ミーティング確認メール]** - クライアントがミーティングを確認すると、確認メールが返信として届きます。 これらの設定を使用して、メールの件名と本文を定義します。
 
-#### 会議確認メール
-
-クライアントが会議を確認すると、返信として確認メールが届きます。
-これらの設定を使用して、メールの件名と本文を定義します。
-
-#### 環境設定
-
-既定の会議の長さ、および連続して行う会議の間隔を設定します。
+* **[!UICONTROL 環境設定]** - デフォルトのミーティングの長さと、連続ミーティングの間隔を設定します。
 
 ### チャット設定
 
-このタブで、タイムゾーンライブチャットの利用可能時間を設定します。
+**[!UICONTROL チャット設定]** タブで、タイムゾーンライブチャットの利用可能性を設定します。
 
-![&#x200B; チャット設定 &#x200B;](assets/chat-settings.png)
+![ チャット設定 ](assets/chat-settings.png)
 
 ## 代表者の管理
 
-このパネルには、定義済みのすべての担当者とそのカレンダーステータスのテーブルが表示されます。
+_[!UICONTROL 代表者管理]_ パネルには、定義された代表者とそのカレンダーステータスが表示されます。
 
 ## ミーティングのパフォーマンス
 
 このパネルには、完了したミーティングに関する分析が表示されます。
 
-## Chrome プラグインのセットアップ
+## Chrome プラグインの設定
 
 AI Assistant Chrome プラグインは、[Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en) で入手できます。
 
@@ -225,7 +215,7 @@ AI Assistant Chrome プラグインは、[Google Store](https://chromewebstore.g
 * Microsoft Dynamicsと web アプリケーション
 * Google アプリケーション
 
-## 左側のナビゲーションバーを編集
+## 左側のナビゲーションバーの編集
 
 アプリケーションの左下にある「**[!UICONTROL 編集]**」をクリックして、ナビゲーションに表示するアイコンを制御します。 ドラッグ&amp;ドロップして必要に応じて並べ替えることもできます。
 
@@ -233,4 +223,4 @@ AI Assistant Chrome プラグインは、[Google Store](https://chromewebstore.g
 
 次のビデオでは、Sales Qualifier とAccount Qualification Agentの短いデモを示しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476562?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)

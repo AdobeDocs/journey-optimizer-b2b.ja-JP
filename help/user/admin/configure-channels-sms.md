@@ -4,9 +4,9 @@ description: Sinch、Twilio、Infobip などの SMS プロバイダーを API �
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '713'
 ht-degree: 6%
 
 ---
@@ -33,15 +33,15 @@ Adobe Journey Optimizer B2B editionで SMS チャネルを設定する前に、�
 
 1. 左側のナビゲーションで、「**[!UICONTROL 管理者]**」セクションを展開し、「**[!UICONTROL チャネル]**」をクリックします。
 
-   ![SMS API 資格情報の設定へのアクセス &#x200B;](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![SMS API 資格情報の設定へのアクセス ](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
 1. ナビゲーションパネルで、「**[!UICONTROL API 資格情報]**」を選択します。
 
    このページには、お使いのインスタンスで使用可能な API 設定が一覧表示されます。
 
-1. 必要に応じて、「_フィルター_」アイコン（![&#x200B; フィルターアイコンを表示/非表示 &#x200B;](../assets/do-not-localize/icon-filter.svg)）をクリックし、オプションを選択して、SMS サービスプロバイダーまたは作成者による設定済み API 資格情報のリストを表示します。
+1. 必要に応じて、「_フィルター_」アイコン（![ フィルターアイコンを表示/非表示 ](../assets/do-not-localize/icon-filter.svg)）をクリックし、オプションを選択して、SMS サービスプロバイダーまたは作成者による設定済み API 資格情報のリストを表示します。
 
-   ![&#x200B; フィルターアイコンをクリックして、API 資格情報のリストを絞り込みます &#x200B;](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
+   ![ フィルターアイコンをクリックして、API 資格情報のリストを絞り込みます ](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ## SMS サービスプロバイダーの新しい API 資格情報の作成
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer B2B editionで Sinch を SMS プロバイダーとして
 
 1. SMS API 資格情報を設定します。
 
-   ![Sinch SMS API 資格情報の設定 &#x200B;](./assets/config-sms-api-sinch.png){width="500"}
+   ![Sinch SMS API 資格情報の設定 ](./assets/config-sms-api-sinch.png){width="500"}
 
    * **[!UICONTROL SMS ベンダー]** - SMS プロバイダーとして「`Sinch`」を選択します。
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer B2B editionで Sinch を SMS プロバイダーとして
 
    * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]** - Sinch アカウントから API ページにアクセスします（資格情報は「SMS」タブで確認できます）。
 
-   Sinch アカウントでこの情報を見つける方法について詳しくは、[Sinch 開発者向けドキュメント &#x200B;](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials) を参照してください。
+   Sinch アカウントでこの情報を見つける方法について詳しくは、[Sinch 開発者向けドキュメント ](https://developers.sinch.com/docs/sms/getting-started) を参照してください。
 
 1. API 資格情報の設定の詳細が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer B2B editionで Twilio を SMS プロバイダーとし�
 
 1. SMS API 資格情報を設定します。
 
-   ![Twilio SMS API 資格情報の設定 &#x200B;](./assets/config-sms-api-twilio.png){width="500"}
+   ![Twilio SMS API 資格情報の設定 ](./assets/config-sms-api-twilio.png){width="500"}
 
    * **[!UICONTROL SMS ベンダー]** - SMS プロバイダーとして「`Twilio`」を選択します。
 
@@ -87,7 +87,7 @@ Adobe Journey Optimizer B2B editionで Twilio を SMS プロバイダーとし�
 
    * **[!UICONTROL アカウント SID]** および **[!UICONTROL 認証トークン]** - Twilio コンソールダッシュボードページの _アカウント情報_ パネルにアクセスして、資格情報を検索します。
 
-   Twilio アカウントでこの情報を見つける方法については、[Twilio ヘルプセンター &#x200B;](https://help.twilio.com/articles/14726256820123-What-is-a-Twilio-Account-SID-and-where-can-I-find-it-) を参照してください。
+   Twilio アカウントでこの情報を見つける方法については、[Twilio ヘルプセンター ](https://help.twilio.com/articles/14726256820123-What-is-a-Twilio-Account-SID-and-where-can-I-find-it-) を参照してください。
 
 1. API 資格情報の設定の詳細が完了したら、ページの右上にある「**[!UICONTROL 送信]**」をクリックします。
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer B2B editionで Infobip を SMS プロバイダーとし�
 
 1. SMS API 資格情報を設定します。
 
-   ![Infobip SMS API 資格情報の設定 &#x200B;](./assets/config-sms-api-infobip.png){width="500"}
+   ![Infobip SMS API 資格情報の設定 ](./assets/config-sms-api-infobip.png){width="500"}
 
    * **[!UICONTROL SMS ベンダー]** - SMS プロバイダーとして「`Infobip`」を選択します。
 
@@ -109,7 +109,7 @@ Adobe Journey Optimizer B2B editionで Infobip を SMS プロバイダーとし�
 
    * **[!UICONTROL API ベース URL]** および **[!UICONTROL API キー]** - Infobip アカウントの web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を検索します。
 
-   お使いの Infobip アカウントでこの情報を見つける方法の詳細については、[Infobip のドキュメント &#x200B;](https://www.infobip.com/docs/api/_blank) を参照してください。
+   お使いの Infobip アカウントでこの情報を見つける方法の詳細については、[Infobip のドキュメント ](https://www.infobip.com/docs/api/_blank) を参照してください。
 
 1. API 資格情報の設定の詳細が完了したら、ページの右上にある「**[!UICONTROL 送信]**」をクリックします。
 
