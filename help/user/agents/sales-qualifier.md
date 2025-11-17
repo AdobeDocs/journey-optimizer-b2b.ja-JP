@@ -22,7 +22,7 @@ Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimize
 
 Sales Qualifier はJourney Optimizer B2B editionに含まれていますが、Experience Platform Experience Cloud内の別のアプリです。
 
-![Sales Qualifier ホーム・ページ ](assets/home-screen.png)
+![Sales Qualifier ホーム・ページ &#x200B;](assets/home-screen.png)
 
 ## Account Qualification Agent
 
@@ -68,15 +68,15 @@ Adobe AI エージェントは _自然言語クエリ_ を使用します。つ�
 
 このウィンドウには、アクセス権のあるすべてのリードが一覧表示されます。 リードのステータスや最後のアクティビティなど、ものを簡単に確認できます。
 
-![ すべてのリードは「リード」テーブルに表示されます ](assets/prospects.png)
+![&#x200B; すべてのリードは「リード」テーブルに表示されます &#x200B;](assets/prospects.png)
 
-_フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/icon_filter-outline.svg) アイコンをクリックして、表示されたリストをリードステータスでフィルタリングします。
+_フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/do-not-localize/icon_filter-outline.svg) アイコンをクリックして、表示されたリストをリードステータスでフィルタリングします。
 
 ## エンゲージメントプラン
 
 このウィンドウには、定義済みのエンゲージメントプランの詳細が表示されます。
 
-![ 事業計画 ](assets/engagement-plans.png)
+![&#x200B; 事業計画 &#x200B;](assets/engagement-plans.png)
 
 新しい契約プランを作成するには、[**[!UICONTROL 契約プランの作成]**] をクリックします。
 
@@ -97,7 +97,7 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 
 このパネルには、すべてのチャットスレッドが表示されます。
 
-![ チャットインボックス ](assets/chat-inbox.png)
+![&#x200B; チャットインボックス &#x200B;](assets/chat-inbox.png)
 
 クライアントとやり取りし、連絡先とスレッドの概要を確認して、スレッドの現在の位置をすばやく把握できます。
 
@@ -108,13 +108,13 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 * をメールインボックスと統合して、関連する受信メールを追跡し、返信を生成できるようにします。
 * CRM データの読み取り、更新（Salesforce、Microsoft®Dynamics、ZoomInfo、Buildwidth など）。
 
-![Sales Qualifier Outlook の統合 ](assets/outlook.png)
+![Sales Qualifier Outlook の統合 &#x200B;](assets/outlook.png)
 
 ### 新しい統合の設定
 
 新しい統合を開始するには、右上の **[!UICONTROL 統合を作成]** をクリックします。
 
-![ 統合の詳細 ](assets/integration-details.png)
+![&#x200B; 統合の詳細 &#x200B;](assets/integration-details.png)
 
 統合の URL を定義し、送信するペイロードを確立します。
 
@@ -165,13 +165,13 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 
 「**[!UICONTROL 詳細]**」タブでは、自分自身に関する情報を入力できます。
 
-![ 販売修飾子の詳細設定 ](assets/details.png)
+![&#x200B; 販売修飾子の詳細設定 &#x200B;](assets/details.png)
 
 ### メールの設定
 
 「**[!UICONTROL メール設定]**」タブで、メール接続を設定します。
 
-![ メールの設定 ](assets/email-settings.png)
+![&#x200B; メールの設定 &#x200B;](assets/email-settings.png)
 
 * **[!UICONTROL メール接続]** - 「**[!UICONTROL 接続]**」をクリックし、Microsoftのログイン手順に従います。
 
@@ -181,7 +181,7 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 
 「**[!UICONTROL カレンダー設定]**」タブで、タイムゾーンと空き時間を設定します。
 
-![ カレンダー設定 ](assets/calendar-settings.png)
+![&#x200B; カレンダー設定 &#x200B;](assets/calendar-settings.png)
 
 * **[!UICONTROL カレンダー接続]** - 「**[!UICONTROL 接続]**」をクリックし、Microsoftのログイン手順に従ってカレンダーを統合します。
 
@@ -193,7 +193,7 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 
 **[!UICONTROL チャット設定]** タブで、タイムゾーンライブチャットの利用可能性を設定します。
 
-![ チャット設定 ](assets/chat-settings.png)
+![&#x200B; チャット設定 &#x200B;](assets/chat-settings.png)
 
 ## 代表者の管理
 

@@ -14,23 +14,23 @@ ht-degree: 6%
 
 # Journey Optimizer B2B editionの AI アシスタント
 
-Journey Optimizerの AI アシスタント B2B editionは、同じテクノロジ基盤である [Adobe Experience Platformの AI アシスタント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"} から作成されています。 これは、Adobe Journey Optimizer B2B editionでワークフローを高速化するために使用できる対話型エクスペリエンスです。 AI アシスタントを使用すると、製品の機能をより深く理解したり、問題をトラブルシューティングしたり、情報を検索してJourney Optimizer B2B editionの運用に関するインサイトを見つけたりできます。
+Journey Optimizerの AI アシスタント B2B editionは、同じテクノロジ基盤である [Adobe Experience Platformの AI アシスタント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"} から作成されています。 これは、Adobe Journey Optimizer B2B editionでワークフローを高速化するために使用できる対話型エクスペリエンスです。 AI アシスタントを使用すると、製品の機能をより深く理解したり、問題をトラブルシューティングしたり、情報を検索してJourney Optimizer B2B editionの運用に関するインサイトを見つけたりできます。
 
 >[!IMPORTANT]
 >
->Journey Optimizer B2B editionで AI アシスタントを使用するには、[ ユーザーガイドライン ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) への同意が必要です。 この契約にはパブリックベータ版の契約も含まれているため、ベータ版の容量で展開する際に追加の AI アシスタント機能を使用できます。
+>Journey Optimizer B2B editionで AI アシスタントを使用するには、[&#x200B; ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) への同意が必要です。 この契約にはパブリックベータ版の契約も含まれているため、ベータ版の容量で展開する際に追加の AI アシスタント機能を使用できます。
 
 +++ユーザー契約インターフェイスの表示
 
-![ ユーザー使用許諾契約の最初のページ ](./assets/user-agreement-1.png)
+![&#x200B; ユーザー使用許諾契約の最初のページ &#x200B;](./assets/user-agreement-1.png)
 
-![ ユーザー契約書の最後のページ ](./assets/user-agreement-2.png)
+![&#x200B; ユーザー契約書の最後のページ &#x200B;](./assets/user-agreement-2.png)
 
 +++
 
 ## Journey Optimizer B2B editionの AI アシスタント機能
 
-送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読み取れる回答に変換します。 この応答は、基になるデータの内部表現であり、_**_ナレッジグラフ_**_ とも呼ばれます。これは、特定の回答に関する概念、データ、メタデータの包括的な Web です。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
+送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読み取れる回答に変換します。 この応答は、基になるデータの内部表現であり、_&#x200B;**_ナレッジグラフ_**&#x200B;_ とも呼ばれます。これは、特定の回答に関する概念、データ、メタデータの包括的な Web です。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
 
 * Experience Leagueのドキュメント。
 * 運用上のアーティファクト（スキーマ、フィールド、オーディエンス、ジャーニーなど）。
@@ -92,7 +92,7 @@ Journey Optimizer B2B editionの AI アシスタントは、プライバシー�
 
 * AI アシスタントとやり取りするには、明示的な権限が必要です。
 
-   * 管理者は、[ 権限 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} と [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"} を使用して権限を設定できます。
+   * 管理者は、[&#x200B; 権限 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} と [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"} を使用して権限を設定できます。
 
    * 権限は粒度が細かく、サンドボックス管理者は、様々な質問カテゴリ（AI アシスタントを使用した製品のナレッジベースの質問または運用インサイトに関する質問）を実行できるユーザーを設定できます。
 
