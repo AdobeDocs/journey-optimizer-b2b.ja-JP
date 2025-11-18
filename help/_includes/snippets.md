@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->インテントデータは、Journey Optimizer B2B edition インスタンスに対して設定される場合に含まれます。 また、1 つ以上の公開済みジャーニー **または** 作成された購入グループが必要です。 インテント検出モデルの詳細と、キーワード、製品、カテゴリの送信方法については、[ インテント データ ](../user/admin/intent-data.md) を参照してください。
+>インテントデータは、Journey Optimizer B2B edition インスタンスに対して設定される場合に含まれます。 また、1 つ以上の公開済みジャーニー **または** 作成された購入グループが必要です。 インテント検出モデルの詳細と、キーワード、製品、カテゴリの送信方法については、[&#x200B; インテント データ &#x200B;](../user/admin/intent-data.md) を参照してください。
 
 ## AEM Assets ライセンスノート {#aem-assets-licensing-note}
 
@@ -35,7 +35,7 @@ ht-degree: 3%
    >
    >_[!UICONTROL n:n 列]_ コンポーネントを選択して、列数（3～10）を任意に定義します。 また、列の下に矢印を移動して、各列の幅を定義することもできます。
 
-   ![ 構造をキャンバスにドラッグして、設定を調整します ](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"}
+   ![&#x200B; 構造をキャンバスにドラッグして、設定を調整します &#x200B;](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"}
 
    各列のサイズを構造コンポーネントの全幅の 10% 未満にすることはできません。 削除できるのは空の列のみです。
 
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 1. 「**[!UICONTROL コンテンツ]**」セクションを展開し、必要な数の要素を 1 つ以上の構造コンポーネントに追加します。
 
-   ![ コンテンツ要素をキャンバスにドラッグして、設定を調整します ](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
+   ![&#x200B; コンテンツ要素をキャンバスにドラッグして、設定を調整します &#x200B;](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
    reference to the contents elements--->
 
@@ -59,9 +59,9 @@ ht-degree: 3%
 
    アセットを含むフォルダーをダブルクリックします。 項目を構造コンポーネントにドラッグ&amp;ドロップします。
 
-   ソースタイプのアセットの使用について詳しくは、[ コンテンツへのアセットの追加 ](../user/content/assets-overview.md#use-assets-for-content-authoring) を参照してください。
+   ソースタイプのアセットの使用について詳しくは、[&#x200B; コンテンツへのアセットの追加 &#x200B;](../user/content/assets-overview.md#use-assets-for-content-authoring) を参照してください。
 
-   ![Marketo Engage アセットをキャンバスにドラッグして、設定を調整します ](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
+   ![Marketo Engage アセットをキャンバスにドラッグして、設定を調整します &#x200B;](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
 ## コンテンツオーサリング – パーソナライゼーションステップ {#personalization-step}
 
@@ -81,21 +81,21 @@ ht-degree: 3%
 
 値に CSS 準拠の追加の属性を適用するには、**[!UICONTROL 詳細]** スタイル設定を使用します。 既存の属性の値を変更したり、新しい属性を追加したりできます。 スタイルは、親子コンポーネント（要素）の CSS 継承モデルを使用してコンポーネントに適用されます。
 
-表示される属性は、コンポーネントに対して現在定義されているスタイルを反映しています。 [CSS 定義 ](https://www.w3schools.com/CSSref/index.php){target="_blank"} に従って値を変更できます。 _追加_ （**+**）アイコンをクリックして、コンポーネントに新しいスタイル属性を追加します。
+表示される属性は、コンポーネントに対して現在定義されているスタイルを反映しています。 [CSS 定義 &#x200B;](https://www.w3schools.com/CSSref/index.php){target="_blank"} に従って値を変更できます。 _追加_ （**+**）アイコンをクリックして、コンポーネントに新しいスタイル属性を追加します。
 
-![ 詳細スタイル ](../assets/content-design-shared//content-components-styles-advanced.png){width="250"}
+![&#x200B; 詳細スタイル &#x200B;](../assets/content-design-shared//content-components-styles-advanced.png){width="250"}
 
 ## コンテンツコンポーネント – 水平方向の整列スタイル {#styles-alignment-h}
 
 「**[!UICONTROL 整列]**」セクションを展開し、使用する水平方向の整列（左、中央または右）を選択します。 このスタイルは標準の `text-align` CSS スタイルに変換され、コンポーネントを含むコンポーネント内でのコンポーネントの配置方法に影響します。
 
-![ 水平方向揃えスタイル ](../assets/content-design-shared/content-components-styles-alignment.png){width="250"}
+![&#x200B; 水平方向揃えスタイル &#x200B;](../assets/content-design-shared/content-components-styles-alignment.png){width="250"}
 
 ## コンテンツコンポーネント – 垂直方向の整列スタイル {#styles-alignment-v}
 
 **[!UICONTROL 配置]** セクションを展開し、使用する垂直方向の配置（上、中央、下）を選択します。 このスタイルは標準の `vertical-align` CSS スタイルに変換され、そのコンポーネント内の配置に影響します。
 
-![ 垂直方向揃えスタイル ](../assets/content-design-shared/content-components-styles-alignment-v.png){width="250"}
+![&#x200B; 垂直方向揃えスタイル &#x200B;](../assets/content-design-shared/content-components-styles-alignment-v.png){width="250"}
 
 ## コンテンツコンポーネント – 水平および垂直の整列スタイル {#styles-alignment-h-v}
 
@@ -103,7 +103,7 @@ ht-degree: 3%
 
 水平方向揃えは、標準 `text-align`CSS スタイルに変換され、左、中央または右から選択できます。 垂直方向の整列は、標準 `vertical-align` CSS スタイルに変換され、上、中央または下から選択できます。
 
-![HTML コンポーネントの整列スタイル ](../assets/content-design-shared/content-components-styles-alignment-h-v.png){width="300"}
+![HTML コンポーネントの整列スタイル &#x200B;](../assets/content-design-shared/content-components-styles-alignment-h-v.png){width="300"}
 
 ## コンテンツコンポーネント – 背景スタイル {#styles-background}
 
@@ -111,7 +111,7 @@ ht-degree: 3%
 
 チェックボックスを選択してカラーの四角形をクリックし、ピッカーからカラーを選択します。 色を選択するには、RGB、HSL、HSB、または 16 進数値を入力します。 または、カラースライダーとカラーフィールドを使用して、カラーを選択できます。
 
-![ 背景カラーピッカー ](../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
+![&#x200B; 背景カラーピッカー &#x200B;](../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
 ## コンテンツコンポーネント – 境界線のスタイル {#styles-border}
 
@@ -121,7 +121,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 境界線のカラー]** を設定するには、チェックボックスを選択し、カラーの四角形をクリックして、ピッカーから色を選択します。 色を選択するには、RGB、HSL、HSB、または 16 進数値を入力します。 または、カラースライダーとカラーフィールドを使用して、カラーを選択できます。
 
-   ![ 境界線のカラーピッカー ](../assets/content-design-shared/content-components-styles-border-color.png){width="300"}
+   ![&#x200B; 境界線のカラーピッカー &#x200B;](../assets/content-design-shared/content-components-styles-border-color.png){width="300"}
 
    * **[!UICONTROL 境界線のサイズ]** （線の幅）を設定するには、上向き矢印アイコンと下向き矢印アイコンをクリックしてピクセル数を増減します。
 
@@ -129,7 +129,7 @@ ht-degree: 3%
 
    * 境界線の表示場所を指定するには、それぞれの **[!UICONTROL 境界線の位置]** チェックボックスを選択します。
 
-   ![ 境界線のスタイル ](../assets/content-design-shared/content-components-styles-border.png){width="250"}
+   ![&#x200B; 境界線のスタイル &#x200B;](../assets/content-design-shared/content-components-styles-border.png){width="250"}
 
 1. **[!UICONTROL 境界半径]** には、コーナーに必要なカーブに従って数値を設定します。
 
@@ -143,17 +143,17 @@ ht-degree: 3%
 
 * **すべての辺** – すべての辺に適用する値を 1 つ設定するには、「**[!UICONTROL 各辺に異なるマージン]**」チェックボックスをオフにします。 上下の矢印アイコンをクリックして、ピクセル数を増減します。
 
-  ![ すべての辺に余白を設定 ](../assets/content-design-shared/content-components-styles-margin-all-sides.png){width="250"}
+  ![&#x200B; すべての辺に余白を設定 &#x200B;](../assets/content-design-shared/content-components-styles-margin-all-sides.png){width="250"}
 
 * **上下** – 上下の余白を同じ値に設定するには、上下の設定の間に _ロック_ アイコンを設定します。 の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
 
 * **左右** – 左右の余白を同じ値に設定するには、左右の設定の間に _ロック_ アイコンを設定します。 の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
 
-  ![ 上下および左右の余白の余白をロック ](../assets/content-design-shared/content-components-styles-margin-locked.png){width="250"}
+  ![&#x200B; 上下および左右の余白の余白をロック &#x200B;](../assets/content-design-shared/content-components-styles-margin-locked.png){width="250"}
 
 * **独立** – 各余白を独立した値に設定するには、「上」設定と「下」設定の間、および「左」と「右」の間に _ロック解除_ アイコンを設定します。 各設定で、の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
 
-  ![ 独立した余白の設定 ](../assets/content-design-shared/content-components-styles-margin-unlocked.png){width="250"}
+  ![&#x200B; 独立した余白の設定 &#x200B;](../assets/content-design-shared/content-components-styles-margin-unlocked.png){width="250"}
 
 ## コンテンツコンポーネント – パディングスタイル {#styles-padding}
 
@@ -163,17 +163,17 @@ ht-degree: 3%
 
 * **すべての辺** – すべての辺に適用する値を 1 つ設定するには、「**[!UICONTROL 各辺に異なるパディングを使用]**」チェックボックスをオフにします。 上下の矢印アイコンをクリックして、ピクセル数を増減します。
 
-  ![ すべての辺にパディングを設定 ](../assets/content-design-shared/content-components-styles-padding-all-sides.png){width="250"}
+  ![&#x200B; すべての辺にパディングを設定 &#x200B;](../assets/content-design-shared/content-components-styles-padding-all-sides.png){width="250"}
 
 * **上下** – 上下のパディングを同じ値に設定するには、上下の設定の間に _ロック_ アイコンを設定します。 の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
 
 * **左右** – 左右のパディングを同じ値に設定するには、左右の設定の間に _ロック_ アイコンを設定します。 の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
 
-  ![ 上下および左右の余白のパディングをロック ](../assets/content-design-shared/content-components-styles-padding-locked.png){width="250"}
+  ![&#x200B; 上下および左右の余白のパディングをロック &#x200B;](../assets/content-design-shared/content-components-styles-padding-locked.png){width="250"}
 
 * **独立** – 各辺のパディングを独立した値に設定するには、上部と下部の設定の間、および左と右の間に _ロック解除_ アイコンを設定します。 各設定で、の上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
 
-  ![ 独立したパディングを設定 ](../assets/content-design-shared/content-components-styles-padding-unlocked.png){width="250"}
+  ![&#x200B; 独立したパディングを設定 &#x200B;](../assets/content-design-shared/content-components-styles-padding-unlocked.png){width="250"}
 
 ## コンテンツコンポーネント – サイズスタイル {#styles-size}
 
@@ -185,11 +185,11 @@ ht-degree: 3%
 
    * 幅のパーセンテージの場合は、スライダーを使用してパーセンテージの値を設定します。 割合は、含まれるブロックのコンテンツボックス（パディングと境界線を除く）に基づいて要素のサイズを決定します。 例えば、値が 50 の場合、要素の幅は、その要素を含むブロックコンテンツの幅の 50% に設定されます。
 
-     ![ パーセンテージを使用した幅のスタイル ](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
+     ![&#x200B; パーセンテージを使用した幅のスタイル &#x200B;](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
 
    * ピクセルベースの幅の場合は、上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。 デフォルトは空の値（Auto）で、コンテンツに応じて要素の幅をサイズ設定します。
 
-     ![ ピクセルを使用した幅のスタイル ](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
+     ![&#x200B; ピクセルを使用した幅のスタイル &#x200B;](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
 
 ## コンテンツコンポーネント – テキストスタイル {#styles-text}
 
@@ -201,7 +201,7 @@ ht-degree: 3%
 
 * **[!UICONTROL 行の高さ]** – 上下の矢印アイコンをクリックして行の高さを増減するか、値を入力します。 入力した値には、小数を使用できます。
 
-  ![ テキストスタイル ](../assets/content-design-shared/content-components-styles-text.png){width="250"}
+  ![&#x200B; テキストスタイル &#x200B;](../assets/content-design-shared/content-components-styles-text.png){width="250"}
 
 * **[!UICONTROL テキストスタイル]** - テキストスタイルのアイコンとして、「_太字_」、「_斜体_」、「_下線_」または「_打ち消し線_ を選択します。
 
@@ -209,13 +209,13 @@ ht-degree: 3%
 
 * **[!UICONTROL フォントカラー]** - カラーの四角形をクリックして、ピッカーからフォントカラーを選択します。 色を選択するには、RGB、HSL、HSB、または 16 進数値を入力します。 または、カラースライダーとカラーフィールドを使用して、カラーを選択できます。
 
-  ![ フォントカラーピッカー ](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
+  ![&#x200B; フォントカラーピッカー &#x200B;](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
 ## コンテンツ – 画像の選択 – Marketo DAM {#me-dam}
 
 Journey Optimizer B2B edition ライブラリまたは接続された Market Engage インスタンスから画像アセットを参照して選択するには、このタイプを選択します。
 
-![ 使用可能な画像アセットの参照 ](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+![&#x200B; 使用可能な画像アセットの参照 &#x200B;](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
 ダイアログで、選択したリポジトリから画像を選択できます。 **[!UICONTROL 選択]** をクリックして、アセットを追加します。
 
@@ -225,11 +225,11 @@ Journey Optimizer B2B edition ライブラリまたは接続された Market Eng
 
 * 「_検索_」フィールドにテキストを入力し、表示される項目をフィルタリングしてアセット名が一致するかどうかを確認します。
 
-  ![ フィルターと検索フィールドを使用して、必要なアセットを見つける ](../user/content/assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+  ![&#x200B; フィルターと検索フィールドを使用して、必要なアセットを見つける &#x200B;](../user/content/assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
 ## コンテンツ – 画像の選択 – AEM Assets {#aem-assets-dam}
 
-このタイプを選択して、[ 設定済みの Experience Manage Assets リポジトリ ](../user/admin/configure-aem-repositories.md) から画像アセットを参照して選択します。
+このタイプを選択して、[&#x200B; 設定済みの Experience Manage Assets リポジトリ &#x200B;](../user/admin/configure-aem-repositories.md) から画像アセットを参照して選択します。
 
 _[!UICONTROL Assetsを選択]_ ダイアログで、必要なアセットを見つけるために使用可能なツールを使用して画像を選択し、「**[!UICONTROL 選択]**」をクリックします。
 
@@ -241,7 +241,7 @@ _[!UICONTROL Assetsを選択]_ ダイアログで、必要なアセットを見�
 
 * _並べ替え順序_ アイコンをクリックして、並べ替え順序を昇順と降順の間で変更します。
 
-  ![Assetsを選択ダイアログのツールを使用し、画像アセットを検索して選択します ](../user/content/assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+  ![Assetsを選択ダイアログのツールを使用し、画像アセットを検索して選択します &#x200B;](../user/content/assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
 
 * 「**[!UICONTROL 並べ替え基準]**」メニュー矢印をクリックして、並べ替え条件を **[!UICONTROL 名前]**、**[!UICONTROL サイズ]**、**[!UICONTROL 変更]** に変更します。
 
@@ -249,7 +249,7 @@ _[!UICONTROL Assetsを選択]_ ダイアログで、必要なアセットを見�
 
 * 「_検索_」フィールドにテキストを入力し、表示される項目をフィルタリングしてアセット名が一致するかどうかを確認します。
 
-  ![ フィルターと検索フィールドを使用してアセットを検索します ](../user/content/assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
+  ![&#x200B; フィルターと検索フィールドを使用してアセットを検索します &#x200B;](../user/content/assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
 ## コンテンツ – 画像のアップロード {#image-upload}
 
@@ -257,7 +257,7 @@ _[!UICONTROL Assetsを選択]_ ダイアログで、必要なアセットを見�
 
 _[!UICONTROL 画像をアップロード]_ ダイアログで、システムからファイルボックスにファイルをドラッグ&amp;ドロップします。 最大ファイルサイズは 100 MB です。
 
-![ に画像ファイルを読み込む ](../user/content/assets/email-designer-image-upload.png){width="450"}
+![&#x200B; に画像ファイルを読み込む &#x200B;](../user/content/assets/email-designer-image-upload.png){width="450"}
 
 選択した画像のファイル名がダイアログに表示されます。 アセットファイル名は（フォルダー間で）一意である必要があり、という名前のファイルが既に存在する場合は、メッセージが表示されます。 名前は最大 100 文字まで指定でき、特殊文字（`;`、`:`、`\`、`|` など）を含めることはできません。
 
@@ -267,11 +267,11 @@ _[!UICONTROL 画像をアップロード]_ ダイアログで、システムか�
 
 | アクティビティ名 | 説明 | エンゲージメントタイプ | 1 日あたりの最大頻度数 | 既定のモデル アクティビティの重み付け |
 | --- | --- | --- | --- | --- |
-| [!UICONTROL  出席イベント ] | メンバーがイベントに出席しました | イベント | 20 | 60 |
-| [!UICONTROL  電子メールのクリック ] | メンバーがメール内のリンクをクリックします | メール | 20 | 30 |
-| [!UICONTROL  電子メールの開封 ] | メンバーがメールを開きます | メール | 20 | 30 |
-| [!UICONTROL  フォームに入力 ] | メンバーが web ページ上のフォームに入力して送信します | Web | 20 | 40 |
+| [!UICONTROL &#x200B; 出席イベント &#x200B;] | メンバーがイベントに出席しました | イベント | 20 | 60 |
+| [!UICONTROL &#x200B; 電子メールのクリック &#x200B;] | メンバーがメール内のリンクをクリックします | メール | 20 | 30 |
+| [!UICONTROL &#x200B; 電子メールの開封 &#x200B;] | メンバーがメールを開きます | メール | 20 | 30 |
+| [!UICONTROL &#x200B; フォームに入力 &#x200B;] | メンバーが web ページ上のフォームに入力して送信します | Web | 20 | 40 |
 | [!UICONTROL 注目のアクション] | メンバーに注目のアクションがあります | キュレート | 20 | 60 |
-| [!UICONTROL  リンククリック数 ] | メンバーが web ページ上のリンクをクリックします | Web | 20 | 40 |
-| [!UICONTROL  ページビュー数 ] | メンバーが web ページを閲覧した場合 | Web | 20 | 40 |
-| [!UICONTROL  イベントの登録 ] | イベントに登録されているメンバー | イベント | 20 | 60 |
+| [!UICONTROL &#x200B; リンククリック数 &#x200B;] | メンバーが web ページ上のリンクをクリックします | Web | 20 | 40 |
+| [!UICONTROL &#x200B; ページビュー数 &#x200B;] | メンバーが web ページを閲覧した場合 | Web | 20 | 40 |
+| [!UICONTROL &#x200B; イベントの登録 &#x200B;] | イベントに登録されているメンバー | イベント | 20 | 60 |

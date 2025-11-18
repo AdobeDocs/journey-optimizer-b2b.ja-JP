@@ -25,7 +25,7 @@ ht-degree: 70%
 
 内部 Assets リポジトリは、[!DNL Journey Optimizer B2B Edition] サブスクリプションごとにデフォルトで提供されます。 つまり、connected [!DNL Adobe Marketo Engage] アセットファイルシステムに保存されている任意の画像アセットにアクセスできます。 このリポジトリは、アセットのアップロードやダウンロード機能を含むローカルアセットライブラリとして使用できます。また、これらのアセットをジャーニーコンテンツ内で使用することもできます。
 
-[Adobe Expressを使用してこれらのアセットを編集 ](./image-edit-adobe-express.md) し、それらをフォルダーに移動して、メール、テンプレート、フラグメントで使用できるように整理できます。
+[Adobe Expressを使用してこれらのアセットを編集 &#x200B;](./image-edit-adobe-express.md) し、それらをフォルダーに移動して、メール、テンプレート、フラグメントで使用できるように整理できます。
 
 サポートされているファイル形式：JPG、JPEG、GIF、PNG、EPS、SVG、RGB
 
@@ -69,11 +69,11 @@ ht-degree: 70%
 
 **[!UICONTROL アセットを選択]** をクリックしてアセットセレクターを開き、Journey Optimizer B2B edition アセットリポジトリから画像を選択できます。
 
-![ 画像アセットの選択 ](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
+![&#x200B; 画像アセットの選択 &#x200B;](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
 
 検索とフィルターを使用して、目的の画像アセットを見つけることができます。アセットを選択し、「**[!UICONTROL 選択]**」をクリックして、画像コンポーネントに使用します。
 
-内部画像アセットの使用について詳しくは、[ コンテンツでアセットを使用 ](./internal-image-assets.md#use-assets-in-your-content) を参照してください。
+内部画像アセットの使用について詳しくは、[&#x200B; コンテンツでアセットを使用 &#x200B;](./internal-image-assets.md#use-assets-in-your-content) を参照してください。
 
 >[!TAB Experience Manager Assets]
 
