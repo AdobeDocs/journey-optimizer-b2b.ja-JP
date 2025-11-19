@@ -4,7 +4,7 @@ description: アカウントおよび人物アクション用のアクション�
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 2%
@@ -174,7 +174,7 @@ Journey Optimizer B2B の人物ベースのアクションは、設定された�
 
 +++[!UICONTROL  データ値を変更 ]
 
-[ 人物プロファイル属性 ](../data/field-mapping.md#xdm-business-person-attributes) の値を変更するには、このアクションを使用します。 属性を選択して、新しい値を設定します。
+[ 人物プロファイル属性 ](../admin/field-mapping.md#xdm-business-person-attributes) の値を変更するには、このアクションを使用します。 属性を選択して、新しい値を設定します。
 
 ![ アクションの実行 – データ値の変更 ](./assets/node-action-change-data-value.png){width="300"}
 
