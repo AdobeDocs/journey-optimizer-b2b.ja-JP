@@ -4,7 +4,7 @@ description: パーソナライゼーション、リンク、同意管理を使�
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: aa79e0655737541f122801f28db73d9f31ebb2f7
+source-git-commit: 9a97682590d779c8b5f5b385efd912ee1f56ed31
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデバイスにテキストメッセージ（SMS）を送信できます。 SMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
 
-アカウントジャーニーの SMS メッセージを作成する前に、[SMS サービスプロバイダー &#x200B;](../admin/configure-channels-sms.md) が _[!UICONTROL Administrator]_ 設定から設定されていることを確認します。
+アカウントジャーニーの SMS メッセージを作成する前に、[SMS サービスプロバイダー ](../admin/configure-channels-sms.md) が _[!UICONTROL Administrator]_ 設定から設定されていることを確認します。
 
 ## アカウントジャーニーへの SMS アクションの追加
 
@@ -25,13 +25,13 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 
 1. _[!UICONTROL ユーザーに対するアクション]_ で、「**[!UICONTROL SMS を送信]**」を選択します。
 
-   ![&#x200B; アクションの実行 – SMS の送信 &#x200B;](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
+   ![ アクションの実行 – SMS の送信 ](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
 1. _[!UICONTROL アクションの実行]_ パネルの下部にある「**[!UICONTROL SMS の作成]**」をクリックします。
 
 1. ダイアログで、SMS メッセージの一意の **[!UICONTROL 名前]** を入力します。
 
-   ![&#x200B; 新しい SMS を作成ダイアログ &#x200B;](assets/create-new-sms.png){width="400"}
+   ![ 新しい SMS を作成ダイアログ ](assets/create-new-sms.png){width="400"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -49,13 +49,13 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 
 160 文字ごとに 1 つの SMS メッセージと見なされる最大 1,600 文字のメッセージを作成できます。
 
-![SMS メッセージを作成 &#x200B;](./assets/sms-message-compose.png){width="800" zoomable="yes"}
+![SMS メッセージを作成 ](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
 #### テキストメッセージのパーソナライズ
 
 1. パーソナライゼーショントークンを追加するメッセージ内の場所にカーソルを置きます。
 
-1. テキストメッセージボックスの右側にある _パーソナライズ_ アイコン（![&#x200B; パーソナライゼーションアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
+1. テキストメッセージボックスの右側にある _パーソナライズ_ アイコン（![ パーソナライゼーションアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
 
    ダイアログでは、アカウントトークン、人物トークン、システムトークンにアクセスできます。 標準トークンとカスタムトークンの両方が含まれています。 _検索_ バーを使用して必要なトークンを検索するか、フォルダーツリーを移動して任意のトークンを検索して選択できます。
 
@@ -63,11 +63,11 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 
    フォールバック（リードでフィールドが使用できない場合に表示されるデフォルト）付きのトークンを追加する場合は、_詳細_ アイコン（**...**）をクリックし、**[!UICONTROL フォールバックテキストで挿入]** を選択します。
 
-   ![&#x200B; 省略記号をクリックして、トークンのフォールバックを使用します &#x200B;](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
+   ![ 省略記号をクリックして、トークンのフォールバックを使用します ](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL フォールバック値を入力]_ ダイアログで、フォールバックとして表示されるテキストを入力して、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![&#x200B; トークンの代替テキストを入力します &#x200B;](./assets/sms-message-personalize-fallback-text.png){width="400"}
+   ![ トークンの代替テキストを入力します ](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. パーソナライゼーショントークンが配置されたら、「**[!UICONTROL 保存]**」をクリックして変更を保存し、メインの SMS オーサリングワークスペースに戻ります。
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 
 #### テキストメッセージへのリンク（URL）の追加
 
-1. メッセージテキストを入力したら、テキストメッセージボックスの右側にある _リンク_ アイコン（![&#x200B; リンクアイコン &#x200B;](../assets/do-not-localize/icon-link.svg)）をクリックします。
+1. メッセージテキストを入力したら、テキストメッセージボックスの右側にある _リンク_ アイコン（![ リンクアイコン ](../assets/do-not-localize/icon-link.svg)）をクリックします。
 
 1. リンクの **[!UICONTROL URL]** を入力します。
 <!--    
@@ -89,14 +89,14 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
 
    * **[!UICONTROL トラッキングを有効にする]** – このチェックボックスを選択すると、URL のトラッキングを有効にします（URL の _短縮_ が必要です）。 ランディングページの場合は、短縮 URL にMarketo Engage サブドメインを使用します。 短縮 URL 形式のサンプルが表示されます。 実際の URL は、SMS が受信者に送信されたときに作成されます。
 
-   * **[!UICONTROL mkt_tok を含める]** - ユーザーに対するアクティビティを追跡するには、このチェックボックスを選択します。
+   * **[!UICONTROL mkt_tok を含める]** - ユーザーに対するアクティビティを追跡するには、このチェックボックスを選択します。</br>
 
      >[!NOTE]
      >
      >トラッキングを許可するが無効にする _[!UICONTROL mkt_tok を含める]_ 場合、宛先 URL には、リダイレクト後の `mkt_tok` クエリ文字列パラメーターは含まれません。 このパラメーターは、Marketo Engage ランディングページおよびMunchkinで使用され、人物アクティビティ（メールの登録解除など）を確実にトラッキングします。 Web サイトでパラメーターが問題を引き起こしている場合以外は、このオプションを無効にしないでください。<br/>
-     >Web サイトでのMunchkin トラッキングコードの使用について詳しくは、[Marketo Engage ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"} を参照してください。
+     >Web サイトでのMunchkin トラッキングコードの使用について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"} を参照してください。
 
-   ![SMS メッセージのリンクを追加ダイアログ &#x200B;](./assets/sms-add-link-dialog.png){width="470"}
+   ![SMS メッセージのリンクを追加ダイアログ ](./assets/sms-add-link-dialog.png){width="470"}
 
 1. リンクオプションが完了したら、「**[!UICONTROL 追加]**」をクリックして変更を保存し、SMS メッセージに URL リンクを追加します。
 
@@ -111,13 +111,13 @@ Adobe Journey Optimizer B2B editionを使用すると、顧客のモバイルデ
    * ユーザーの同意が必要なプロモーションテキストメッセージには、`Marketing` を使用します。
    * 注文確認、パスワードリセット通知、配信情報など、非商用メッセージに `Transactional` を使用します。
 
-1. **[!UICONTROL SMS 設定]** については、事前定義済みの [SMS API 設定 &#x200B;](../admin/configure-channels-sms.md#create-new-api-credentials-for-an-sms-service-provider) の 1 つを選択します。
+1. **[!UICONTROL SMS 設定]** については、事前定義済みの [SMS API 設定 ](../admin/configure-channels-sms.md#create-new-api-credentials-for-an-sms-service-provider) の 1 つを選択します。
 
    この設定は、メッセージの配信に使用する SMS ゲートウェイ サービス プロバイダーおよびアカウントを決定します。
 
 1. コミュニケーションに使用する **[!UICONTROL 送信者番号]**&#x200B;を入力します。
 
-   ![SMS メッセージのプロパティ &#x200B;](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![SMS メッセージのプロパティ ](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    受信者番号は、常にExperience Platformの `profile.mobilePhone.number` フィールドにマッピングされます。
 
