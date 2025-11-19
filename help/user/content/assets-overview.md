@@ -4,10 +4,10 @@ description: メール、テンプレートおよびフラグメント用Journey
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 70%
+source-wordcount: '852'
+ht-degree: 60%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 70%
 
 内部 Assets リポジトリは、[!DNL Journey Optimizer B2B Edition] サブスクリプションごとにデフォルトで提供されます。 つまり、connected [!DNL Adobe Marketo Engage] アセットファイルシステムに保存されている任意の画像アセットにアクセスできます。 このリポジトリは、アセットのアップロードやダウンロード機能を含むローカルアセットライブラリとして使用できます。また、これらのアセットをジャーニーコンテンツ内で使用することもできます。
 
-[Adobe Expressを使用してこれらのアセットを編集 &#x200B;](./image-edit-adobe-express.md) し、それらをフォルダーに移動して、メール、テンプレート、フラグメントで使用できるように整理できます。
+[Adobe Expressを使用してこれらのアセットを編集 ](./image-edit-adobe-express.md) し、それらをフォルダーに移動して、メール、テンプレート、フラグメントで使用できるように整理できます。
 
 サポートされているファイル形式：JPG、JPEG、GIF、PNG、EPS、SVG、RGB
 
@@ -49,15 +49,15 @@ ht-degree: 70%
 
 画像コンポーネントの設定を編集する際や、キャンバス上で直接、画像ソースを選択できます。
 
-* **_画像コンポーネントの設定_** - ビジュアルデザインスペースで画像コンポーネントを選択すると、右側のパネルで設定を表示および編集できます。コンポーネントに表示される画像ファイルを追加または変更するには、ソースタイプを選択し、画像ファイルを選択します。
+* **_画像コンポーネントの設定_** - キャンバスで画像コンポーネントを選択すると、右側のパネルで設定を表示して編集できます。 コンポーネントに表示される画像ファイルを追加または変更するには、ソースタイプを選択し、画像ファイルを選択します。
 
   ![右側のパネルで画像コンポーネントの設定を編集](./assets/content-assets-image-settings.png){width="350"}
 
-* **_空のコンポーネント_** - ビジュアルデザインスペースで画像コンポーネントを追加すると、そのコンポーネントは空になり、ソースを選択して画像ファイルを選択するアクセスが簡単になります。
+* **_空のコンポーネント_** – 画像コンポーネントをキャンバスに追加すると、コンポーネントは空になり、ソースを選択して画像ファイルを選択するために簡単にアクセスできます。
 
   ![ソースを選択して、空の画像コンポーネントの画像ファイルを選択](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_画像コンポーネントツールバー_** - ビジュアルデザインスペースで画像コンポーネントを選択すると、ツールバーにより、ソースを選択して画像ファイルを選択するアクセスが簡単になります。
+* **_画像コンポーネントツールバー_** - キャンバスで画像コンポーネントを選択すると、ツールバーを使用してソースを簡単に選択し、画像ファイルを選択できます。
 
   ![ツールバーを使用し、ソースを選択して、画像コンポーネントの画像ファイルを選択](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
@@ -69,11 +69,11 @@ ht-degree: 70%
 
 **[!UICONTROL アセットを選択]** をクリックしてアセットセレクターを開き、Journey Optimizer B2B edition アセットリポジトリから画像を選択できます。
 
-![&#x200B; 画像アセットの選択 &#x200B;](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
+![ 画像アセットの選択 ](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
 
 検索とフィルターを使用して、目的の画像アセットを見つけることができます。アセットを選択し、「**[!UICONTROL 選択]**」をクリックして、画像コンポーネントに使用します。
 
-内部画像アセットの使用について詳しくは、[&#x200B; コンテンツでアセットを使用 &#x200B;](./internal-image-assets.md#use-assets-in-your-content) を参照してください。
+内部画像アセットの使用について詳しくは、[ コンテンツでアセットを使用 ](./internal-image-assets.md#use-assets-in-your-content) を参照してください。
 
 >[!TAB Experience Manager Assets]
 
