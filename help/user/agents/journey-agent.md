@@ -1,20 +1,20 @@
 ---
-title: B2Bジャーニー構築剤
+title: ジャーニー ビルド エージェント B2B
 description: AI を活用したジャーニービルドエージェントを使用して、堅牢なジャーニーをすばやく構築する方法を説明します
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# B2Bジャーニー構築剤
+# ジャーニー ビルド エージェント B2B
 
 ジャーニービルダーエージェント B2B は、自動化とデータ駆動型の推奨事項を通じて、ジャーニーの設計/作成、実行、最適化を支援する AI エージェントです。 B2B 用ジャーニービルダー Agent は、新しい B2B ジャーニーの作成を自動化し、実行に要する時間を短縮します。
 
-![ジャーニー ビルダ エージェント B2B プロンプト &#x200B;](assets/journey-agent-prompt.png)
+![ジャーニー ビルダ エージェント B2B プロンプト ](assets/journey-agent-prompt.png)
 
 Journey Optimizer B2B editionのJourney Agentは、現在、B2B マーケターが直面している主な課題の 3 つに取り組んでいます。
 
@@ -35,7 +35,7 @@ Journey Agentを使用するには、プロンプトウィンドウに、自然�
 
 「B2B ジャーニーを作成して、新しいパイプラインを開く可能性が最も高い関与したアカウントのロードショーに意思決定者を招待します。」
 
-![ジャーニー ビルダ エージェント B2B プロンプト &#x200B;](assets/journey-agent-tasks.png)
+![ジャーニー ビルダ エージェント B2B プロンプト ](assets/journey-agent-tasks.png)
 
 提供できる詳細が多いほど、返信は良くなります。 イベントや製品などを説明する既存のマーケティング資料がある場合は、それをプロンプトに貼り付けて、エージェントが目標をよりよく把握できるようにします。
 
