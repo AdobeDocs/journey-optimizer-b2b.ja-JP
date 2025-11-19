@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 96%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
    + [AI アシスタントを使用](./ai-assistant/use-ai-assistant.md)
    + エージェント {#ai-agents}
       + [Audience Agent](./agents/audience-agent-b2b.md)
-      + [Journey Build Agent](./agents/journey-agent.md)
+      + [ジャーニー ビルド エージェント B2B](./agents/journey-agent.md)
       + [販売修飾子](./agents/sales-qualifier.md)
 + アカウントジャーニー {#account-journeys}
    + [概要](./journeys/journey-overview.md)
@@ -68,7 +68,6 @@ ht-degree: 96%
    + アカウントリスト {#account-lists}
       + [概要](./accounts/account-lists.md)
       + [ジャーニーとプログラムでの使用](./accounts/account-lists-journeys.md)
-   + [XDM フィールド](./data/field-mapping.md)
    + セールスエクスペリエンス {#sales-experience}
       + [アカウントの詳細](./accounts/account-details.md)
       + [購買グループの詳細](./buying-groups/buying-group-details.md)
@@ -128,8 +127,11 @@ ht-degree: 96%
    + [アカウントジャーニーの概要](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [ガバナンス](./admin/governance.md)
+   + [Marketo アクションの設定](./admin/marketo-actions-connect.md)
    + [ペルソナマッピング](./admin/persona-mapping.md)
    + [ユーザー管理](./admin/user-management.md)
+   + [XDM フィールド](./admin/field-mapping.md)
+   + [XDM フィールドの選択](admin/xdm-field-management.md)
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
       + [SMS 設定](./admin/configure-channels-sms.md)
