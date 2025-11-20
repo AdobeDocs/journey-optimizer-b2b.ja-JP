@@ -17,7 +17,7 @@ ht-degree: 20%
 
 >[!TIP]
 >
->[Experience Platform XDM ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
+>[Experience Platform XDM ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
 
 >[!NOTE]
 >Data Mirrorおよびリレーショナルスキーマは、Adobe Journey Optimizer Orchestrated Campaigns のライセンス所有者が利用できます。 ライセンスとイネーブルメント機能に応じて、Customer Journey Analytics ユーザー向けの限定リリースとしても使用できます。 アクセスについては、Adobe担当者にお問い合わせください。 リレーショナルスキーマは、Adobe Journey Optimizer B2B editionの限定リリースとしても利用できます。
