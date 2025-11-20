@@ -39,13 +39,13 @@ Then based on what agent informed, users can create a template with those person
 
 1. 中間パネルで **[!UICONTROL ペルソナマッピング]** をクリックして、ペルソナのリストを表示します。
 
-   ![ 設定したペルソナへのアクセス ](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
+   ![&#x200B; 設定したペルソナへのアクセス &#x200B;](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   このページから、ペルソナを [ 作成 ](#create-a-persona)、[ 編集 ](#edit-a-persona) または [ 削除 ](#delete-a-persona) できます。
+   このページから、ペルソナを [&#x200B; 作成 &#x200B;](#create-a-persona)、[&#x200B; 編集 &#x200B;](#edit-a-persona) または [&#x200B; 削除 &#x200B;](#delete-a-persona) できます。
 
-   ペルソナマッピングリストはテーブル形式で整理され、最近更新されたペルソナが上部に表示されます（_[!UICONTROL 最終更新]_ 順）。 右上隅の _列設定_ （![ 列設定 ](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、列チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
+   ペルソナマッピングリストはテーブル形式で整理され、最近更新されたペルソナが上部に表示されます（_[!UICONTROL 最終更新]_ 順）。 右上隅の _列設定_ （![&#x200B; 列設定 &#x200B;](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、列チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
 
-![ ペルソナマッピングリストに表示する列 ](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+![&#x200B; ペルソナマッピングリストに表示する列 &#x200B;](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. ペルソナの詳細にアクセスするには、名前をクリックします。
 
@@ -70,7 +70,7 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
 必要なペルソナを見つけるには、検索バーにテキスト文字列を入力して、名前でペルソナを照合します。
 
-![ 表示されたペルソナマッピングのフィルタリング ](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
+![&#x200B; 表示されたペルソナマッピングのフィルタリング &#x200B;](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## ペルソナを作成
 
@@ -82,7 +82,7 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
 1. ペルソナの一意の **[!UICONTROL 名前]** と **[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![ ペルソナマッピングの作成 ](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+   ![&#x200B; ペルソナマッピングの作成 &#x200B;](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
 
 1. ペルソナの照合に使用する属性を選択します。
 
@@ -90,11 +90,11 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
    * ダイアログで、マッピングする各属性のチェックボックスを選択します（最大 5 つ）。
 
-     右上隅の _列設定_ （![ 列設定 ](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックすると、表示されたテーブルをカスタマイズできます。
+     右上隅の _列設定_ （![&#x200B; 列設定 &#x200B;](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックすると、表示されたテーブルをカスタマイズできます。
 
-     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 また、左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)） アイコンをクリックして、タイプ、_標準_ または _カスタム_ で表示されるリストをフィルタリングすることもできます。
+     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 また、左上の _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)） アイコンをクリックして、タイプ、_標準_ または _カスタム_ で表示されるリストをフィルタリングすることもできます。
 
-     ![ ペルソナ属性を選択ダイアログ ](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+     ![&#x200B; ペルソナ属性を選択ダイアログ &#x200B;](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
 
    * 「**[!UICONTROL 保存]**」をクリックします。
 
