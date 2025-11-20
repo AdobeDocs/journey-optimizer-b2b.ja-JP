@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: '365'
+ht-degree: 91%
 
 ---
 
@@ -130,8 +130,10 @@ ht-degree: 93%
    + [Marketo アクションの設定](./admin/marketo-actions-connect.md)
    + [ペルソナマッピング](./admin/persona-mapping.md)
    + [ユーザー管理](./admin/user-management.md)
-   + [XDM フィールド](./admin/field-mapping.md)
-   + [XDM フィールドの選択](admin/xdm-field-management.md)
+   + XDM フィールド管理 {#xdm-field-management}
+      + [XDM クラス](admin/xdm-field-management.md)
+      + [エクスペリエンスイベントとフィールド](./admin/configure-aep-events.md)
+      + [デフォルトの XDM フィールド](./admin/field-mapping.md)
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
       + [SMS 設定](./admin/configure-channels-sms.md)
@@ -139,7 +141,6 @@ ht-degree: 93%
       + [イベント収集用のデータストリーム設定](./data/aep-event-collection.md)
    + 設定 {#configurations}
       + [AEM Assets リポジトリ](./admin/configure-aem-repositories.md)
-      + [AEP イベント定義](./admin/configure-aep-events.md)
       + [インテントデータ](./admin/intent-data.md)
       + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
    + [アーキテクチャ設定の簡素化](simplified-architecture.md)

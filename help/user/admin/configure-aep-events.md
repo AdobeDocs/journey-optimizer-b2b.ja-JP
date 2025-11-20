@@ -1,285 +1,130 @@
 ---
-title: Experience Platform イベントの設定
-description: Experience Platform イベント定義を設定し、お客様の行動に基づいて、Journey Optimizer B2B editionでリアルタイムアカウントジャーニーをトリガーにします。
+title: エクスペリエンスイベントとフィールドを選択
+description: Experience Platformのイベントとフィールドを選択し、お客様の行動に基づいて、ジャーニーでリアルタイムの意思決定をトリガーにします。
 feature: Setup, Integrations
 role: Admin
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は現在ベータ版です"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 2%
+source-wordcount: '656'
+ht-degree: 0%
 
 ---
 
-# Experience Platform イベント定義の設定
+# エクスペリエンスイベントとフィールドを選択
 
-管理者は、Adobe Experience Platform（AEP）ベースのイベント定義を設定できます。これにより、マーケターは、[AEP Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} に反応するアカウントジャーニーを作成できます。
+管理者は、[AEPの特定のエクスペリエンスイベント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} およびエクスペリエンスイベントの和集合スキーマ内のそれらの関連フィールドを選択できます。 選択後、ユーザーは、これらのエクスペリエンスイベントをリッスンするように決定ルールを設定し、ほぼリアルタイムイベントデータに基づいて動的でターゲット設定されたキャンペーンアクションを有効にすることができます。
 
-![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
+<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
+ジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
 
-アカウントジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
+1. Journey Optimizer B2B edition設定での管理者 [AEP エクスペリエンスイベントとフィールドを追加する ](#add-an-event)。
 
-1. AEP イベント定義を作成して公開します。
+2. マーケターはジャーニーで _イベントをリッスン_ ノードおよび [ エクスペリエンスイベントを選択 ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) を追加します。
 
-2. アカウントジャーニーで、「_イベントをリッスン_」ノードおよび [AEP イベント定義を人物イベントとして選択 &#x200B;](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) を追加します。
+   * ノードで使用するイベントを選択します。
+   * 制約として使用するフィールドを選択します。
 
-各イベント定義には、次のExperience Platform入力が必要です。
+>[!BEGINSHADEBOX]
 
-* **_スキーマ_** - エクスペリエンスイベントデータ構造を定義する XDM スキーマ。 エクスペリエンスイベントに基づく必要があり、プロファイルを有効にする必要があります。
+## ガイドラインと制限事項
 
-  >[!NOTE]
-  >
-  >必要なスキーマを確実に定義するために、エンジニアリングチームと調整します。 [XDM スキーマの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition){target="_blank"} は、データエンジニアが組織全体のユースケース要件に基づいて実行する複雑なプロセスです。
+組織の目標を満たすイベントを選択する際は、次の点に注意してください。
 
-* **_イベントタイプ_** - XDM ExperienceEventType （イベント定義ごとに最大 20）。
+* イベントごとに最大 50 個、最大 100 個のフィールドを選択できます。
 
-* **_フィールド_** - スキーマに存在する XDM フィールド（イベント定義ごとに最大 20）
+* ジャーニーは、Web SDKや HTTP API などのExperience Platform ストリーミング機能を使用して取り込まれたエクスペリエンスイベントをリッスンできます。
 
-* **_名前_** - イベント定義の一意の名前。
+* エクスペリエンスイベントは、ジャーニー内で決定目的で使用できますが、保持されません。 したがって、Journey Optimizer B2B edition内でエクスペリエンスイベントの履歴レコードを利用することはできません。
 
-* **_説明_** - イベント定義の説明。
+* エクスペリエンスイベントを使用してジャーニーを公開する場合、さらにフィールドを追加できますが、以前に選択したフィールドを削除することはできません。
 
-## 制限とガードレール
+* 1 つのエクスペリエンスイベントを複数のジャーニーで参照することも、同じジャーニー内で複数回使用することもできます。
 
-組織の目標を達成するためにイベント定義を作成および管理する際は、次の点に注意してください。
+>[!ENDSHADEBOX]
 
-* Journey Optimizer B2B editionは、最大 50 個のイベント定義をサポートします。
-
-* アカウントジャーニーでは、Web SDKや HTTP API などのAEP ストリーミング機能を使用して取り込まれたAEP エクスペリエンスイベントをリッスンできます。
-
-* スキーマとイベントタイプのセットを組み合わせて使用できるのは、1 つのAEP イベント定義のみです。 スキーマ（例えば、`My Schema`）およびイベントタイプ（例えば、`Web Webpagedetails Page Views`）を使用してイベント定義を作成する場合、他のイベント定義では `My Schema` と `Web Webpagedetails Page Views` の組み合わせを使用できません。
-
-* 1 つのイベント定義を複数のアカウントジャーニーで使用できます。
-
-* AEP エクスペリエンスイベントは、アカウントジャーニー内で意思決定目的に使用できますが、保持されません。 したがって、Journey Optimizer B2B edition内では、AEP エクスペリエンスイベントの履歴レコードを活用できません。
-
-* _アクティビティの日付_ および _最小回数_ の制約はサポートされていません。
-
-* イベント定義を公開した後は、スキーマと名前を変更できません。 ただし、ドラフトバージョンを作成して再度公開することで、イベントタイプとフィールドを追加できます。
-
-* 公開済みジャーニーで使用されるイベント定義は削除できません。
-
-## イベント定義へのアクセスと管理
+## エクスペリエンスイベントの管理
 
 1. 左側のナビゲーションで **[!UICONTROL 管理]**/**[!UICONTROL 設定]** を選択します。
 
-1. 中間パネルの **[!UICONTROL イベント]** をクリックして、イベント定義のリストを表示します。
+1. 中間パネルで **[!UICONTROL XDM クラス]** をクリックし、「**[!UICONTROL イベント]**」タブをクリックして、使用可能なイベントのリストを表示します。
 
-   このページから、イベント定義 [&#x200B; 作成 &#x200B;](#create-an-event-definition)、[&#x200B; 公開 &#x200B;](#publish-an-event-defintion)、[&#x200B; 編集 &#x200B;](#edit-an-event-definition)、[&#x200B; 削除 &#x200B;](#delete-an-event-definition) を実行できます。
+   ![ 選択したエクスペリエンスイベントへのアクセス ](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   ![&#x200B; 設定済みのイベント定義へのアクセス &#x200B;](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
+   テーブルは _[!UICONTROL 最終更新]_ 列で並べ替えられ、デフォルトでは最近更新されたイベントが先頭に表示されます。
 
-   テーブルは「_[!UICONTROL 変更済み]_ 列で並べ替えられ、最後に更新された定義がデフォルトで一番上に表示されます。<!-- Click the column title to change between ascending and descending.-->
+   このページから、ジャーニーで使用するイベントを [ 選択 ](#add-an-event) および [ 編集 ](#edit-an-event) できます。
 
-1. イベント定義の詳細にアクセスするには、名前をクリックします。
+   選択したイベントの詳細にアクセスするには、イベント名をクリックします。
 
-### イベント定義のステータスとライフサイクル
+### イベントリストのフィルタリング
 
-_[!UICONTROL イベント定義]_ リストの **[!UICONTROL ステータス]** 列には、各定義の現在のステータスが示されます。 ステータスは、アカウントジャーニーで使用できる状態と、それに対して行える変更を決定します。
+「_[!UICONTROL 検索]_」フィールドにテキストを入力し、表示されるイベントをイベント名と一致するようにフィルタリングします。
 
-| ステータス | 説明 |
-| -------------------- | ----------- |
-| 下書き | イベント定義を作成すると、そのイベント定義はドラフトステータスになります。 アカウントジャーニーで使用するために公開するまで、このステータスのままになります。 使用可能なアクション：<br/><li>すべての詳細を編集<li>公開<li>削除 |
-| 公開日 | イベント定義を公開すると、アカウントジャーニーで使用できるようになります。 詳細は変更できません。 使用可能なアクション：<br/><li>_イベントをリッスン_ ジャーニーノードで使用可能<li>ドラフトバージョンを作成<li>削除（使用中でない場合） |
-| 公開済み (ドラフトあり) | 公開済みのイベント定義からドラフトを作成する場合、公開されたバージョンはアカウントジャーニーで引き続き使用でき、ドラフトバージョンは変更できます。 ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、まだ実行されていないアカウントジャーニーのイベント定義が更新されます。 使用可能なアクション：<br/><li>すべての詳細を編集<li>ドラフトバージョンを公開<li>ドラフトバージョンを破棄<li>削除（使用中でない場合） |
+![ 選択したイベントのリストを名前でフィルタリング ](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-![&#x200B; フラグメントステータスのライフサイクル &#x200B;](../assets/status-lifecycle-diagram.png){zoomable="yes"}
+### イベントを追加
 
-### イベント定義リストのフィルタリング
+ジャーニーの _イベントをリッスン_ ノードでエクスペリエンスイベントを使用できるようにするには、イベントとサポートされているフィールドを選択します。
 
-名前でイベント定義を検索するには、検索バーに一致するテキスト文字列を入力します。
+>[!NOTE]
+>
+>ベータ版リリースでは、リストからイベントを削除できません。 追加する各イベントが、組織での使用を目的としていることを確認してください。
 
-![&#x200B; 表示されるイベント定義のフィルタリング &#x200B;](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
+1. 右上で **[!UICONTROL エクスペリエンスイベントを選択]** をクリックします。
 
-## イベント定義の作成
+   イベントの詳細ページが表示されます。 このページから、イベントタイプとフィールドを選択できます。
 
-1. 左側のナビゲーションで **[!UICONTROL 管理]**/**[!UICONTROL 設定]** を選択します。
+   ![ 新しいイベントのイベントの詳細 ](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
 
-1. 中間パネルの **[!UICONTROL イベント]** をクリックして、イベント定義のリストを表示します。
-
-1. 右上の **[!UICONTROL イベントを作成]** をクリックします。
-
-1. **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を入力します。
-
-   ![&#x200B; イベント定義の作成 &#x200B;](./assets/configuration-events-create.png){width="600" zoomable="yes"}
-
-1. イベント定義に使用する **[!UICONTROL スキーマ]** を設定します。
-
-   選択するスキーマによって、定義に追加できるフィールドが決まります。 追加するフィールドは、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できます。
-
-   * **[!UICONTROL スキーマを選択]** をクリックします。
-   * ダイアログで、エクスペリエンスイベントベースのスキーマのリストからスキーマを選択します。
-   * 「**[!UICONTROL 選択]**」をクリックします。
-
-   ![&#x200B; イベント定義のスキーマの選択 &#x200B;](./assets/configuration-events-create-select-schema.png){width="600" zoomable="yes"}
-
-1. イベント定義に使用する **[!UICONTROL イベントタイプ]** を選択します。
-
-   選択する [&#x200B; イベントタイプ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} によって、アカウントジャーニーの _イベントをリッスン_ ノードの制約として使用できるイベントが決まります。
+1. イベントタイプを選択します。
 
    * **[!UICONTROL イベントタイプを選択]** をクリックします。
-   * ダイアログで、リストから 1 つ以上のイベントタイプを選択します（最大 20）。
+
+   * ダイアログで、イベントタイプを選択します。
+
+     「_[!UICONTROL 検索]_」フィールドを使用して、表示されたリストを名前でフィルタリングします。 **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、現在の選択を確認します。
+
+     ![ イベントタイプを選択ダイアログ ](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
+
    * 「**[!UICONTROL 選択]**」をクリックします。
 
-   ![&#x200B; イベント定義のイベントタイプの選択 &#x200B;](./assets/configuration-events-create-select-event-types.png){width="600" zoomable="yes"}
-
-1. イベント定義に使用する **[!UICONTROL フィールド]** を選択します。
-
-   選択するフィールドによって、アカウントジャーニーの _イベントをリッスン_ ノードにイベントを使用する場合に利用できる制約が決まります。
-
-   >[!NOTE]
-   >
-   >`eventType` フィールドは必須であり、自動的に選択されます。
+1. イベントタイプに対して 1 つ以上のフィールドを選択します。
 
    * **[!UICONTROL フィールドを選択]** をクリックします。
-   * ダイアログで、リストから 1 つ以上のフィールドを選択します（最大 20）。
+
+   * ダイアログで、一致するイベントの制約として使用するフィールドを選択します。
+
+     「_[!UICONTROL 検索]_」フィールドを使用して、表示されたリストを名前でフィルタリングします。 **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、現在の選択を確認します。
+
+     ![ フィールドの選択ダイアログ ](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
+
    * 「**[!UICONTROL 選択]**」をクリックします。
 
-   ![&#x200B; イベント定義用のフィールドを選択 &#x200B;](./assets/configuration-events-create-select-fields.png){width="600" zoomable="yes"}
+1. イベントの詳細ページで、「**[!UICONTROL 保存]**」をクリックします。
 
-1. スキーマ、イベントタイプおよびフィールドが完成したら、「**[!UICONTROL 作成]**」をクリックします。
+保存したイベントは、「_[!UICONTROL イベント]_」タブのリストに表示されます。
 
-   作成時にはリストページが表示され、新しいイベントが _ドラフト_ ステータスでリストの上部に表示されます。
+### イベントの編集
 
-   ![&#x200B; 新しいドラフトイベント定義がページに表示されます &#x200B;](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
+イベントの詳細を編集してフィールドを変更します。
 
-## イベント定義の公開
+1. イベント名をクリックするか、_詳細メニュー_ （**...**）アイコンをクリックして **[!UICONTROL 編集]** を選択します。
 
-ドラフトイベントの定義が完了し、ニーズに合っていることを確認したら、ドラフトイベントを公開できます。 公開されたイベント定義は、アカウントジャーニーで使用できます。 イベント定義を公開した後、変更が必要な場合は、ドラフトバージョンを作成できます。 ただし、スキーマは変更できません。また、追加できるのはイベントタイプとフィールドのみです（削除することはできません）。
+   ![[ その他 ] メニューアイコンをクリック ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. 左側のナビゲーションで **[!UICONTROL 管理]**/**[!UICONTROL 設定]** を選択します。
+1. 「**[!UICONTROL フィールドを編集]**」をクリックして、フィールドをさらに追加するか、_[!UICONTROL フィールドを選択]_ ダイアログでの既存の選択内容を削除します。
 
-1. 中間パネルの **[!UICONTROL イベント]** をクリックして、イベント定義のリストを表示します。
+1. 「**[!UICONTROL 選択]**」をクリックして選択内容を保存します。
 
-1. _[!UICONTROL イベント定義]_ リストで、ドラフトイベント定義の名前をクリックして詳細ページを開きます。
+### イベントの削除
 
-   ![&#x200B; ドラフトイベント定義を開く &#x200B;](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
-
-   必要に応じて、公開する前に設定を確認します。 要件を満たさない場合は [&#x200B; ドラフトを編集 &#x200B;](#edit-an-event-definition) できます。
-
-1. 右上の **[!UICONTROL 公開]** をクリックします。
-
-1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
-
-   ![&#x200B; イベントを公開ダイアログ &#x200B;](./assets/configuration-events-publish-dialog.png){width="300"}
-
-   イベント定義のステータスが _公開済み_ に変わり、[&#x200B; アカウントジャーニーで使用できる &#x200B;](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) ようになりました。
-
-   ![&#x200B; イベント定義のステータスがページで更新されます &#x200B;](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
-
-## イベント定義の編集
-
-1. 左側のナビゲーションで **[!UICONTROL 管理]**/**[!UICONTROL 設定]** を選択します。
-
-1. 中間パネルの **[!UICONTROL イベント]** をクリックして、イベント定義のリストを表示します。
-
-   イベント定義の編集は、現在のステータスに応じて異なります。
-
-   * イベント定義が _ドラフト_ ステータスの場合は、その詳細を任意に編集できます。
-   * イベント定義が _公開済み_ ステータスの場合は、編集できません。 編集可能なドラフトバージョンを作成し、公開済みのバージョンと置き換えることができます。
-   * イベント定義が _公開済み（ドラフト）_ ステータスの場合、ドラフトバージョンを変更できます（説明を編集し、イベントタイプとフィールドを追加します）。
-
-   ![&#x200B; 新しいドラフトイベント定義がページに表示されます &#x200B;](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
-
-1. _[!UICONTROL イベント定義]_ リストページで、イベント定義名をクリックして開きます。
-
-ステータスに応じて手順に従います。
-
->[!BEGINTABS]
-
->[!TAB ドラフト]
-
-1. 必要に応じて、イベント定義の詳細を変更します。
-
-   ![&#x200B; ドラフトステータスのイベント定義の詳細 &#x200B;](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
-
-   [&#x200B; イベント定義の作成 &#x200B;](#create-an-event-definition) に使用するのと同じガイドラインに従います。
-
-   変更内容は自動的にドラフトに保存されます。
-
-1. イベント定義が条件を満たしており、アカウントジャーニーで使用できるようにする場合は、「**[!UICONTROL 公開]**」をクリックします。
-
-1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
-
-   イベント定義のステータスが _公開済み_ に変わり、アカウントジャーニーで使用できるようになりました。
-
->[!TAB パブリッシュ済み]
-
-1. イベント定義を更新するには、右上の **[!UICONTROL ドラフトバージョンを作成]** をクリックします。
-
-   ![&#x200B; 公開済みイベント定義の詳細 &#x200B;](./assets/configuration-events-published-details.png){width="600" zoomable="yes"}
-
-1. 確認ダイアログで、「**[!UICONTROL ドラフトを作成]**」をクリックして、ドラフトバージョンを開きます。
-
-   ![&#x200B; ドラフトバージョンを作成ダイアログ &#x200B;](./assets/configuration-events-published-create-draft-dialog.png){width="300"}
-
-   このアクションにより、ドラフトバージョンが作成されてリストページに戻ります。ここで、イベント定義のステータスは _公開済み（ドラフト）_ になります。
-
-1. イベント定義名をクリックして開きます。
-
-   _公開済み（ドラフト付き）_ イベント定義の場合、_[!UICONTROL 公開済み]_ バージョンタブがデフォルトとして選択されます。
-
-1. 「**[!UICONTROL ドラフト]** バージョン」タブを選択します。
-
-   ![&#x200B; ドラフトバージョンを選択して詳細を編集 &#x200B;](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
-
-1. 必要に応じて、編集可能な詳細（**[!UICONTROL 説明]**、**[!UICONTROL イベントタイプ]**、**[!UICONTROL フィールド]**）を変更します。
-
-   [&#x200B; イベント定義の作成 &#x200B;](#create-an-event-definition) に使用するのと同じガイドラインに従います。
-
-   変更内容は自動的にドラフトに保存されます。
-
-1. ドラフトイベント定義が条件を満たしており、アカウントジャーニーで使用するために現在の公開済みバージョンを置き換える場合は、「**[!UICONTROL ドラフトを公開]**」をクリックします。
-
-1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
-
-   ![&#x200B; ドラフトを公開ダイアログ &#x200B;](./assets/configuration-events-publish-draft-dialog.png){width="300"}
-
-   ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、既に使用中でまだ実行されていないアカウントジャーニーの場合はイベント定義が更新されます。
-
->[!TAB  公開済み（ドラフト付き） ]
-
-_公開済み（ドラフト）_ イベント定義を開くと、デフォルトで _[!UICONTROL 公開済み]_ バージョンタブが選択されます。
-
-1. 「**[!UICONTROL ドラフト]** バージョン」タブを選択します。
-
-   ![&#x200B; ドラフトバージョンを選択して詳細を編集 &#x200B;](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
-
-1. 必要に応じて、編集可能な詳細（**[!UICONTROL 説明]**、**[!UICONTROL イベントタイプ]**、**[!UICONTROL フィールド]**）を変更します。
-
-   [&#x200B; イベント定義の作成 &#x200B;](#create-an-event-definition) に使用するのと同じガイドラインに従います。
-
-   変更内容は自動的にドラフトに保存されます。
-
-1. ドラフトイベント定義が条件を満たしており、アカウントジャーニーで使用するために現在の公開済みバージョンを置き換える場合は、「**[!UICONTROL ドラフトを公開]**」をクリックします。
-
-1. 確認ダイアログで、「**[!UICONTROL 公開]**」をクリックします。
-
-   ![&#x200B; ドラフトを公開ダイアログ &#x200B;](./assets/configuration-events-publish-draft-dialog.png){width="300"}
-
-   ドラフトバージョンを公開すると、現在の公開バージョンが置き換えられ、既に使用中でまだ実行されていないアカウントジャーニーの場合はイベント定義が更新されます。
-
->[!ENDTABS]
-
-## イベント定義の削除
-
-公開済みのアカウントジャーニーで使用されていないイベント定義は削除できます。
-
->[!CAUTION]
+>[!NOTE]
 >
->この操作は慎重に行ってください。 イベント定義の削除は元に戻すことができません。
+>この機能のBeta リリースでは、選択したイベントのリストからイベントを削除できません。 イベントの削除は GA リリースで予定されています。
 
-1. 左側のナビゲーションで **[!UICONTROL 管理]**/**[!UICONTROL 設定]** を選択します。
+<!-- ## Overview video
 
-1. 中間パネルの **[!UICONTROL イベント]** をクリックして、イベント定義のリストを表示します。
-
-1. リストでイベント定義を見つけ、名前の右側にある _削除_ （![&#x200B; 削除アイコン &#x200B;](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックします。
-
-1. 確認ダイアログで、「**[!UICONTROL 削除]**」をクリックします。
-
-   ![&#x200B; 確認してイベント定義を削除 &#x200B;](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
-
-## 概要ビデオ
-
->[!VIDEO](https://video.tv.adobe.com/v/3448684/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->

@@ -1,28 +1,27 @@
 ---
-title: XDM フィールド
+title: デフォルトの XDM フィールド
 description: Adobe Experience PlatformとJourney Optimizer B2B editionの間で同期されるデフォルトの属性フィールドを確認します。
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 20%
 
 ---
 
-# XDM フィールド
+# デフォルトの XDM フィールド
 
 アカウントオーディエンスデータは、XDM ビジネスアカウントと XDM ビジネスユーザーの両方のクラスに属性として保存されます。 Adobe Experience PlatformとJourney Optimizer B2B editionの間では、データは定期的に同期されます。 次のセクションでは、デフォルトの属性セットを示します。
 
 >[!TIP]
 >
->[Experience Platform XDM ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
+>[Experience Platform XDM ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} に記載されているように、XDM ビジネスアカウントユーザー関係クラスを使用することで、XDM ビジネスユーザーと XDM ビジネスアカウントのクラスを多対多の関係でモデル化できます。
 
 >[!NOTE]
->Data Mirrorおよびリレーショナルスキーマは、Adobe Journey Optimizer Orchestrated Campaigns のライセンス所有者が利用できます。 ライセンスとイネーブルメント機能に応じて、Customer Journey Analytics ユーザー向けの限定リリースとしても使用できます。 アクセスについては、Adobe担当者にお問い合わせください。 リレーショナルスキーマは、Adobe Journey Optimizer B2B editionの限定リリースとしても利用できます。
 >
-
+>Data Mirrorおよびリレーショナルスキーマは、Adobe Journey Optimizer Orchestrated Campaigns のライセンス所有者が利用できます。 ライセンスとイネーブルメント機能に応じて、Customer Journey Analytics ユーザー向けの限定リリースとしても使用できます。 アクセスについては、Adobe担当者にお問い合わせください。 リレーショナルスキーマは、Adobe Journey Optimizer B2B editionの限定リリースとしても利用できます。
 
 ## XDM ビジネスアカウント人物関係属性
 
@@ -89,7 +88,7 @@ ht-degree: 20%
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

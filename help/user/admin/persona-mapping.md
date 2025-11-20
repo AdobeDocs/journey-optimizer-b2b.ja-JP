@@ -3,9 +3,9 @@ title: ペルソナマッピング
 description: B2B マーケティングのペルソナマッピングを設定する方法を説明します。 Journey Optimizer B2B editionで人物属性をマッピングして、ロールテンプレートを作成し、購入グループのターゲティングを最適化します。
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -39,13 +39,13 @@ Then based on what agent informed, users can create a template with those person
 
 1. 中間パネルで **[!UICONTROL ペルソナマッピング]** をクリックして、ペルソナのリストを表示します。
 
-   ![&#x200B; 設定したペルソナへのアクセス &#x200B;](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![ 設定したペルソナへのアクセス ](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   このページから、ペルソナを [&#x200B; 作成 &#x200B;](#create-an-engagement-score-model)、[&#x200B; 編集 &#x200B;](#change-the-engagement-weighting-settings) または [&#x200B; 削除 &#x200B;](#delete-a-persona) できます。
+   このページから、ペルソナを [ 作成 ](#create-a-persona)、[ 編集 ](#edit-a-persona) または [ 削除 ](#delete-a-persona) できます。
 
-   ペルソナマッピングリスト。 はテーブルとして整理され、最近更新されたペルソナが上部に表示されます（_[!UICONTROL 最終更新]_ 順）。 右上隅の _列設定_ （![&#x200B; 列設定 &#x200B;](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、列チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
+   ペルソナマッピングリストはテーブル形式で整理され、最近更新されたペルソナが上部に表示されます（_[!UICONTROL 最終更新]_ 順）。 右上隅の _列設定_ （![ 列設定 ](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、列チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
 
-![&#x200B; ペルソナマッピングリストに表示する列 &#x200B;](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+![ ペルソナマッピングリストに表示する列 ](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. ペルソナの詳細にアクセスするには、名前をクリックします。
 
@@ -68,13 +68,9 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
 ### フィルタリングのリスト
 
-必要なペルソナを見つけるには、検索およびフィルタ ツールを使用します。
+必要なペルソナを見つけるには、検索バーにテキスト文字列を入力して、名前でペルソナを照合します。
 
-* 検索バーにテキスト文字列を入力して、名前でペルソナに一致させます。
-
-  ![&#x200B; 表示されるイベント定義のフィルタリング &#x200B;](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* 左上の _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されたリストを属性でフィルタリングします。
+![ 表示されたペルソナマッピングのフィルタリング ](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## ペルソナを作成
 
@@ -86,15 +82,19 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
 1. ペルソナの一意の **[!UICONTROL 名前]** と **[!UICONTROL 説明]** （オプション）を入力します。
 
+   ![ ペルソナマッピングの作成 ](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. ペルソナの照合に使用する属性を選択します。
 
    * **[!UICONTROL 人物属性を選択]** をクリックします。
 
    * ダイアログで、マッピングする各属性のチェックボックスを選択します（最大 5 つ）。
 
-     右上隅の _列設定_ （![&#x200B; 列設定 &#x200B;](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックすると、表示されたテーブルをカスタマイズできます。
+     右上隅の _列設定_ （![ 列設定 ](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックすると、表示されたテーブルをカスタマイズできます。
 
-     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 また、左上の _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)） アイコンをクリックして、タイプ、_標準_ または _カスタム_ で表示されるリストをフィルタリングすることもできます。
+     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 また、左上の _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)） アイコンをクリックして、タイプ、_標準_ または _カスタム_ で表示されるリストをフィルタリングすることもできます。
+
+     ![ ペルソナ属性を選択ダイアログ ](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
 
    * 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -104,11 +104,13 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
    値の代わりに、一致を識別するために使用できるプロンプトを追加することもできます。 例えば、
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
+1. 「**[!UICONTROL 送信]**」をクリックします。
 
 ## ペルソナを編集
 
 ペルソナ名をクリックしてアクセスし、ペルソナの詳細を編集します。
+
+名前や説明の変更、属性の追加、属性値の更新を行うことができます。 変更が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
 ## ペルソナを削除
 
