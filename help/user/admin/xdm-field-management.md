@@ -23,7 +23,7 @@ Adobe Experience Platform（AEP）スキーマには、通常、複雑な階層�
 XDM を理解し、データエンジニアや B2B 顧客データプラットフォーム（CDP）データモデリングの関係者と共同作業を行う管理者は、このページの手順を使用する必要があります。
 
 >[!NOTE]
->[&#x200B; リレーショナルスキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) は、限定リリースとして [!DNL Journey Optimizer B2B Edition] 用できます。 Data Mirrorおよびリレーショナルスキーマは、Journey Optimizer Orchestrated Campaigns のライセンス所有者が利用できます。 リレーショナルスキーマは、ライセンスと機能のイネーブルメントに応じて、Customer Journey Analytics ユーザー向けの限定リリースとしても利用できます。 アクセスについては、Adobe担当者にお問い合わせください。
+>[&#x200B; リレーショナルスキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/relational#) は、限定リリースとして [!DNL Journey Optimizer B2B Edition] 用できます。 Data Mirrorおよびリレーショナルスキーマは、Journey Optimizer Orchestrated Campaigns のライセンス所有者が利用できます。 リレーショナルスキーマは、ライセンスと機能のイネーブルメントに応じて、Customer Journey Analytics ユーザー向けの限定リリースとしても利用できます。 アクセスについては、Adobe担当者にお問い合わせください。
 
 ## XDM クラスへのアクセス
 

@@ -135,7 +135,7 @@ _イベントをリッスン_ ノードを追加して、イベントが発生�
 
 ### エクスペリエンスイベントをリッスン
 
-管理者は [Adobe Experience Platform（AEP）エクスペリエンスイベント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} を選択できます。これにより、マーケターは、イベントに反応するジャーニーをほぼリアルタイムで作成できます。 ジャーニーでのエクスペリエンスイベントの使用は、次の 2 つの手順で構成されます。
+管理者は [Adobe Experience Platform（AEP）エクスペリエンスイベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} を選択できます。これにより、マーケターは、イベントに反応するジャーニーをほぼリアルタイムで作成できます。 ジャーニーでのエクスペリエンスイベントの使用は、次の 2 つの手順で構成されます。
 
 1. 管理者 [&#x200B; イベントタイプと関心のあるフィールドを選択 &#x200B;](../admin/configure-aep-events.md#select-an-event) して、ジャーニーで使用できるようにします。
 
