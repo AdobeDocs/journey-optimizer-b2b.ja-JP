@@ -1,11 +1,11 @@
 ---
 title: CRM 内インサイト
-description: SalesforceのJourney Optimizer B2B edition購入グループに直接アクセスします。 営業チームメンバーは、エンゲージメントデータを表示し、CRM 内インサイトを使用して販売機会を特定できます。
+description: CRM 内のJourney Optimizer B2B edition購入グループに直接アクセスします。 営業チームメンバーは、エンゲージメントデータを表示し、CRM 内インサイトを使用して販売機会を特定できます。
 feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: b5173345f5dfb879b36726ca27e164d9a267dac4
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -13,34 +13,64 @@ ht-degree: 0%
 
 # CRM 内インサイト
 
-In-CRM Insights は、Salesforceに統合される web ベースアプリケーションであり、Salesforce内からJourney Optimizer B2B editionの購買グループに直接アクセスできます。 これにより、エンゲージメントとセールスの可能性を高める機会を特定できます。
+[!DNL In-CRM Insights] は、SalesforceおよびMicrosoft Dynamics 365 に統合される web ベースアプリケーションであり、CRM 内の [!DNL Journey Optimizer B2B Edition] 購入グループに直接アクセスできます。 販売データソースが統合されるので、エンゲージメントと販売の可能性を高める機会を特定しやすくなります。
 
-CRM 内インサイトアプリケーションは、[Marketo Sales Insights パッケージ &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange) で利用できます。
+[!DNL In-CRM Insights] アプリケーションは、[Marketo Sales Insights パッケージ ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange) で入手できます。
 
-## 権限
+## インストール
 
-アプリケーションにアクセスするには、ユーザーは **Sales Insights:ViewSales Insights** 権限を持つ役割のメンバーシップが必要です。
+インストールプロセスには次が含まれます。
 
-ユーザーのグループを InCRM-Insights に制限する場合は、次のガイドラインを使用して、InCRM-Insights 専用のカスタムの役割を作成します。
+* ユーザー権限とグループの設定
+* ソフトウェアパッケージのインストール
+* CRM を使用したログイン
 
-* **Sales Insights:View Sales Insights** 権限セットのみを持つカスタム役割を作成します。
-* 製品プロファイルを追加せずに、新規ユーザーグループを作成します。
-* 別のユーザーグループを作成してAEP製品プロファイルを追加するか、作成したユーザーグループに既存のAEP プロファイルを追加します。
-* 新しいユーザーグループを新しい役割に割り当て、新しいユーザーを新しいユーザーグループに追加します。
+### 権限の設定
 
-## CRM 内インサイトの使用
+ソフトウェアをインストールするユーザーには、Salesforce パッケージをインストールする権限が必要です。
 
-In-CRM Insights アプリケーションは、アプリランチャーを通じてSalesforceで使用できます。
+アプリケーションにアクセスするには、ユーザーは **Sales Insights:ViewSales Insights** 権限を持つ役割のメンバーシップである必要があります。
 
-1. Salesforceのアプリランチャーをクリックします。
-1. `Journey Optimizer B2B Edition` を選択または検索します。
-1. 「表示」タブで、Adobeの資格情報を使用してログインします。
-1. アカウントジャーニーをホストするサンドボックスを選択します。
+ユーザーを [!DNL In-CRM Insights] のみに制限する場合：
 
-購入グループが読み込まれ、使用可能になります。 データは、CRM 内インサイトを通じて読み取り専用です。
+1. [ カスタムの役割 ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) を作成し、**Sales Insights:View Sales Insights** 権限に割り当てます。
+1. 新規 [ ユーザーグループ ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group) を作成します。
+1. Experience Platform製品プロファイルをグループに追加します。
 
->[!NOTE]
->
->In-CRM Insights にアクセスするには [&#128279;](../admin/user-management.md#b2b-built-in-roles)B2B Sales User 製品ロールのメンバーシップが必要です。
+### パッケージのインストール
 
-購入グループを選択した後は、Journey Optimizer B2B editionと同様に [&#x200B; グループの詳細 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) を参照できます。
+CRM 内インサイトパッケージをインストールするには、SalesforceまたはMicrosoft Dynamicsの手順に従います。
+
+#### Salesforce
+
+1. [CRM 内インサイトインストーラーパッケージ ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce) をダウンロードします。
+1. ログインすると、パッケージのインストールページにリダイレクトされます。
+1. 「**[!UICONTROL すべてのユーザー用にインストール]**」オプションを選択し、「**[!UICONTROL インストール]**」をクリックします。
+
+   ![CRM 内インサイトパッケージのインストール ](assets/incrm-install-sf.png){width=500}
+
+1. ダイアログでサードパーティアクセスを承認し、「**[!UICONTROL 続行]**」をクリックします。
+1. インストールが完了したら、「**[!UICONTROL 完了]**」をクリックします。
+
+   現在は、**インストール済みパッケージ** ページにリストされ、**Journey Optimizer B2B edition** がアプリランチャーにリストされています。
+
+   ![Salesforce内で設定された CRM 内インサイト ](assets/in-crm-install-sf-done.png){width=800 zoomable="yes"}
+
+#### MS Dynamics
+
+1. [CRM 内インサイトインストーラーパッケージ ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics) をダウンロードします。
+1. [ 電源アプリのポータル ](https://make.powerapps.com/){target=_blank} に移動します。
+1. ログイン後、パッケージの環境を選択し、左のメニューから **[!UICONTROL ソリューション]** に移動します。
+1. **[!UICONTROL ソリューションをインポート]** をクリックします。
+1. を参照してインストーラーパッケージをアップロードし、「**[!UICONTROL 次へ]**」をクリックします。
+1. パッケージの詳細を確認し、「**[!UICONTROL 次へ]**」をクリックします。
+1. _環境変数_ の下で、値が `prod` に設定されていることを確認し（値は変更しないでください）、**[!UICONTROL 読み込み]** をクリックします。
+1. インストールが完了すると、**[!UICONTROL Journey Optimizer B2B edition]** / **[!UICONTROL 購入グループ]** が左側のナビゲーションバーに表示されます。
+
+   ![Microsoft Dynamicsで利用可能な CRM 内インサイト ](assets/incrm-ms-install-done.png){width=800 zoomable="yes"}
+
+## 購入グループを表示
+
+画面の指示に従って、Adobe アカウントにログインします。 購入グループが読み込まれ、表示できます。
+
+購入グループを選択したら、[ グループの詳細 ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) を参照できます。 これは、Journey Optimizer B2B editionに表示されるデータおよびインサイトと同じですが、データは [!DNL In-CRM Insights] を通じて読み取り専用です。
