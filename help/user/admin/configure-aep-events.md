@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # エクスペリエンスイベントとフィールドを選択
 
-管理者は、[AEPの特定のエクスペリエンスイベント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} およびエクスペリエンスイベントの和集合スキーマ内のそれらの関連フィールドを選択できます。 選択後、ユーザーは、これらのエクスペリエンスイベントをリッスンするように決定ルールを設定し、ほぼリアルタイムイベントデータに基づいて動的でターゲット設定されたキャンペーンアクションを有効にすることができます。
+管理者は、[AEPの特定のエクスペリエンスイベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} およびエクスペリエンスイベントの和集合スキーマ内のそれらの関連フィールドを選択できます。 選択後、ユーザーは、これらのエクスペリエンスイベントをリッスンするように決定ルールを設定し、ほぼリアルタイムイベントデータに基づいて動的でターゲット設定されたキャンペーンアクションを有効にすることができます。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 ジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
