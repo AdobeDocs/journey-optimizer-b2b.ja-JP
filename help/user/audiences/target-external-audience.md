@@ -106,5 +106,5 @@ Adobe Targetを通じて外部オーディエンスをアクティブ化する�
 
    ![Experience Platform – 宛先 – 宛先のアクティブ化 – レビュー &#x200B;](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-アクティブ化すると、[Adobe Target オーディエンスでオーディエンスを表示し &#x200B;](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}Adobe Target アクティビティで使用できます。
+アクティブ化すると、[Adobe Target オーディエンスでオーディエンスを表示し &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}Adobe Target アクティビティで使用できます。
 
