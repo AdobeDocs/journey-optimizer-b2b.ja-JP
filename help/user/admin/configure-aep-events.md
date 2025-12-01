@@ -15,14 +15,14 @@ ht-degree: 10%
 
 # エクスペリエンスイベントとフィールドを選択
 
-管理者は、[AEPの特定のエクスペリエンスイベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} およびエクスペリエンスイベントの和集合スキーマ内のそれらの関連フィールドを選択できます。 選択後、ユーザーは、これらのエクスペリエンスイベントをリッスンするように決定ルールを設定し、ほぼリアルタイムイベントデータに基づいて動的でターゲット設定されたキャンペーンアクションを有効にすることができます。
+管理者は、[AEPの特定のエクスペリエンスイベント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} およびエクスペリエンスイベントの和集合スキーマ内のそれらの関連フィールドを選択できます。 選択後、ユーザーは、これらのエクスペリエンスイベントをリッスンするように決定ルールを設定し、ほぼリアルタイムイベントデータに基づいて動的でターゲット設定されたキャンペーンアクションを有効にすることができます。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 ジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
 
-1. Journey Optimizer B2B edition設定での管理者 [AEP エクスペリエンスイベントとフィールドを追加する &#x200B;](#add-an-event)。
+1. Journey Optimizer B2B edition設定での管理者 [AEP エクスペリエンスイベントとフィールドを追加する ](#add-an-event)。
 
-2. マーケターはジャーニーで _イベントをリッスン_ ノードおよび [&#x200B; エクスペリエンスイベントを選択 &#x200B;](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) を追加します。
+2. マーケターはジャーニーで _イベントをリッスン_ ノードおよび [ エクスペリエンスイベントを選択 ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) を追加します。
 
    * ノードで使用するイベントを選択します。
    * 制約として使用するフィールドを選択します。
@@ -51,11 +51,11 @@ ht-degree: 10%
 
 1. 中間パネルで **[!UICONTROL XDM クラス]** をクリックし、「**[!UICONTROL イベント]**」タブをクリックして、使用可能なイベントのリストを表示します。
 
-   ![&#x200B; 選択したエクスペリエンスイベントへのアクセス &#x200B;](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
+   ![ 選択したエクスペリエンスイベントへのアクセス ](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
    テーブルは _[!UICONTROL 最終更新]_ 列で並べ替えられ、デフォルトでは最近更新されたイベントが先頭に表示されます。
 
-   このページから、ジャーニーで使用するイベントを [&#x200B; 選択 &#x200B;](#add-an-event) および [&#x200B; 編集 &#x200B;](#edit-an-event) できます。
+   このページから、ジャーニーで使用するイベントを [ 選択 ](#add-an-event) および [ 編集 ](#edit-an-event) できます。
 
    選択したイベントの詳細にアクセスするには、イベント名をクリックします。
 
@@ -63,7 +63,7 @@ ht-degree: 10%
 
 「_[!UICONTROL 検索]_」フィールドにテキストを入力し、表示されるイベントをイベント名と一致するようにフィルタリングします。
 
-![&#x200B; 選択したイベントのリストを名前でフィルタリング &#x200B;](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
+![ 選択したイベントのリストを名前でフィルタリング ](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
 ### イベントを追加
 
@@ -77,7 +77,7 @@ ht-degree: 10%
 
    イベントの詳細ページが表示されます。 このページから、イベントタイプとフィールドを選択できます。
 
-   ![&#x200B; 新しいイベントのイベントの詳細 &#x200B;](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
+   ![ 新しいイベントのイベントの詳細 ](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
 
 1. イベントタイプを選択します。
 
@@ -87,7 +87,7 @@ ht-degree: 10%
 
      「_[!UICONTROL 検索]_」フィールドを使用して、表示されたリストを名前でフィルタリングします。 **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、現在の選択を確認します。
 
-     ![&#x200B; イベントタイプを選択ダイアログ &#x200B;](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
+     ![ イベントタイプを選択ダイアログ ](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
 
    * 「**[!UICONTROL 選択]**」をクリックします。
 
@@ -99,7 +99,7 @@ ht-degree: 10%
 
      「_[!UICONTROL 検索]_」フィールドを使用して、表示されたリストを名前でフィルタリングします。 **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、現在の選択を確認します。
 
-     ![&#x200B; フィールドの選択ダイアログ &#x200B;](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
+     ![ フィールドの選択ダイアログ ](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
 
    * 「**[!UICONTROL 選択]**」をクリックします。
 
@@ -113,7 +113,7 @@ ht-degree: 10%
 
 1. イベント名をクリックするか、_詳細メニュー_ （**...**）アイコンをクリックして **[!UICONTROL 編集]** を選択します。
 
-   ![[ その他 ] メニューアイコンをクリック &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![[ その他 ] メニューアイコンをクリック ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. 「**[!UICONTROL フィールドを編集]**」をクリックして、フィールドをさらに追加するか、_[!UICONTROL フィールドを選択]_ ダイアログでの既存の選択内容を削除します。
 
@@ -127,7 +127,7 @@ ht-degree: 10%
 
 ## イベントとフィールド
 
-[!DNL Journey Optimizer B2B Edition] えば、特定の人物レベルのアクティビティは [!DNL Experience Platform] Experience イベントとして取り込まれます。 これらのイベントは、XDM エクスペリエンスイベントスキーマを使用し、ジャーニー固有のフィールドグループを含むシステムデータセットに保存されます。 他のエクスペリエンスイベントと同様に [!UICONTROL 0&rbrace;Journey Optimizer B2B edition&rbrace; でこれらのイベントを使用できます。]
+[!DNL Journey Optimizer B2B Edition] えば、特定の人物レベルのアクティビティは [!DNL Experience Platform] Experience イベントとして取り込まれます。 これらのイベントは、XDM エクスペリエンスイベントスキーマを使用し、ジャーニー固有のフィールドグループを含むシステムデータセットに保存されます。 他のエクスペリエンスイベントと同様に [!UICONTROL 0}Journey Optimizer B2B edition} でこれらのイベントを使用できます。]
 
 各イベントは、ジャーニー _イベントをリッスン）ノード（イベントに基づく決定_ で使用できる、定義済みのフィールドセットを公開します。 使用可能なイベントタイプとそのフィールドを確認し、これらのジャーニーノードで使用するイベントとフィールドを決定します。
 
@@ -464,4 +464,4 @@ ht-degree: 10%
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448684/?captions=jpn&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: ab6445c36e6287e04015b2b1f7dd9dd8cb8d1287
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 91%
+source-wordcount: '371'
+ht-degree: 88%
 
 ---
 
@@ -49,8 +49,11 @@ ht-degree: 91%
       + [販売アラートメール](./content/sales-alert-email.md)
    + [カスタムパーソナライゼーショントークン](./content/personalization-my-tokens.md)
    + [SMS オーサリング](./content/sms-authoring.md)
++ オーディエンス {#audiences}
+   + [Experience Platform オーディエンス](./audiences/account-audience-overview.md)
+   + [外部オーディエンスのターゲット設定](./audiences/target-external-audience.md)
+   + [LinkedIn アカウントでマッチしたオーディエンス](./data/linkedin-account-matched-audiences.md)
 + アカウント {#accounts}
-   + [オーディエンス](./audiences/account-audience-overview.md)
    + 購買グループ {#buying-groups}
       + [概要](./buying-groups/buying-groups-overview.md)
       + [ソリューションに対する関心](./buying-groups/solution-interests.md)
@@ -62,7 +65,6 @@ ht-degree: 91%
       + [購買グループステージ](./buying-groups/buying-group-stages.md)
       + [購買グループの作成](./buying-groups/buying-groups-create.md)
       + [アカウントの書き出し](./audiences/account-list-export.md)
-      + [LinkedIn アカウントと一致するオーディエンス](./data/linkedin-account-matched-audiences.md)
       + [Marketo Engage の購買グループフィルター](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
       + [CRM 内インサイト](./buying-groups/incrm-insights.md)
    + アカウントリスト {#account-lists}
