@@ -17,7 +17,7 @@ ht-degree: 12%
 
 この機能は、Experience Platform の宛先を活用して統合のいくつかの側面を管理します。データフローの上限は 10 個です。
 
-Journey Optimizer B2B editionからデータフローを開始する前に、一致したオーディエンスの [ （会社） LinkedIn 宛先コネクタのインスタンスが少なくとも 1 つ必要で ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Experience Platform アプリケーションに LinkedIn Campaign Manager アカウントが設定されている必要があります。
+Journey Optimizer B2B editionからデータフローを開始する前に、一致したオーディエンスの [&#x200B; （会社） LinkedIn 宛先コネクタのインスタンスが少なくとも 1 つ必要で &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Experience Platform アプリケーションに LinkedIn Campaign Manager アカウントが設定されている必要があります。
 
 ## 新しい LinkedIn アカウント接続を設定 {#linkedin-destination-setup}
 
@@ -36,17 +36,17 @@ Journey Optimizer B2B editionからデータフローを開始する前に、一
 
 1. コネクタカードで「_詳細_ （**...**）」アイコンをクリックし、「**[!UICONTROL 新しい宛先を設定]**」を選択します。
 
-   ![LinkedIn でマッチしたオーディエンスコネクタへの（会社）アクセス ](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![LinkedIn でマッチしたオーディエンスコネクタへの（会社）アクセス &#x200B;](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
 1. **[!UICONTROL 新規アカウント]** を選択し、「**[!UICONTROL 宛先に接続]**」をクリックします。
 
-   ![ 新しい LinkedIn アカウントを接続する ](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
+   ![&#x200B; 新しい LinkedIn アカウントを接続する &#x200B;](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. LinkedIn 資格情報を入力し、ログインします。
 
    認証後、LinkedIn アカウントはExperience Platformで宛先として接続されます。
 
-   ![ アカウント接続の確認が表示されます ](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+   ![&#x200B; アカウント接続の確認が表示されます &#x200B;](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
 
    >[!IMPORTANT]
    >
@@ -64,7 +64,7 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B editionの
 
 1. ダイアログで、名前と説明を更新します。
 
-   ![ 名前と説明を編集 ](./assets/destinations-linkedin-account-edit-details-dialog.png){width="500"}
+   ![&#x200B; 名前と説明を編集 &#x200B;](./assets/destinations-linkedin-account-edit-details-dialog.png){width="500"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -90,7 +90,7 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B editionの
 
    アカウント ID は、Campaign Manager UI のアカウント名で確認できます。
 
-   ![ データフローの詳細を追加 ](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
+   ![&#x200B; データフローの詳細を追加 &#x200B;](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL 購入グループフィルターを選択]** をクリックし、アカウントオーディエンスのパラメーターを定義します。
 
@@ -98,7 +98,7 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B editionの
    >
    >現時点では、データフローをアクティブ化した後にフィルターを編集することはできません。 データフローをアクティブ化する前に、作業内容を再度確認します。
 
-   ![ 購入グループに応じたアカウントオーディエンスフィルタリングの指定 ](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
+   ![&#x200B; 購入グループに応じたアカウントオーディエンスフィルタリングの指定 &#x200B;](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
 
    **[!UICONTROL エンゲージメントスコア]**&#x200B;の場合、演算子 `Between` は、パーセンテージ範囲と同様に包括的です。例えば、5.1 と 5 は、どちらも 5 と 6 の&#x200B;_間_&#x200B;にあります。
 
@@ -122,7 +122,7 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B editionの
 
 1. ジャーニーキャンバスで _アクションの実行_ ノードを選択した状態で、**[!UICONTROL アカウントに対するアクション]** を **[!UICONTROL 宛先に対してアクティブ化]** に設定します。
 
-   ![ジャーニー ノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 ](./assets/node-activate-destination.png){width="550" zoomable="yes"}
+   ![ジャーニー ノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 &#x200B;](./assets/node-activate-destination.png){width="550" zoomable="yes"}
 
 1. 右側のノードプロパティから、宛先を選択します。
 
@@ -130,19 +130,19 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B editionの
 
    * 既存の宛先がない場合、または新しい宛先を作成する場合は、「**[!UICONTROL 宛先を設定]**」をクリックします。
 
-     ![ジャーニーノード – アカウントに対するアクションの実行 – 宛先に対するアクティブ化 – 宛先の設定 ](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
+     ![ジャーニーノード – アカウントに対するアクションの実行 – 宛先に対するアクティブ化 – 宛先の設定 &#x200B;](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
 
      このアクションにより、宛先カタログページが新しいブラウザータブで開きます。
 
-   ![ジャーニー ノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 ](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+   ![ジャーニー ノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 &#x200B;](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
 
 1. ダイアログで、設定済みの LinkedIn の宛先を選択し、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![ジャーニーノード – アカウントに対するアクションの実行 – 宛先に対するアクティブ化 – 宛先を選択ダイアログ ](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+   ![ジャーニーノード – アカウントに対するアクションの実行 – 宛先に対するアクティブ化 – 宛先を選択ダイアログ &#x200B;](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
 1. 宛先でアクティブ化されたオーディエンスを識別するために使用される **[!UICONTROL オーディエンス名]** を入力します。
 
-   ![ジャーニー ノード – アカウントに対するアクションの実行 – 宛先に対するアクティブ化 – 設定完了 ](../journeys/assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
+   ![ジャーニー ノード – アカウントに対するアクションの実行 – 宛先に対するアクティブ化 – 設定完了 &#x200B;](../journeys/assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
 ## 有料メディアエンゲージメントの調整
 
