@@ -6,9 +6,9 @@ topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: 式, エディター, 開始, パーソナライゼーション
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+source-git-commit: 5063f9a924aef0a54b05e9bf223fc2d4898bc5a5
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -38,29 +38,31 @@ Journey Optimizer B2B editionは、メッセージの処理時に、式をAdobe 
 
 * **システムトークン** – これらのトークンは、_日付_、_時間_、_購読解除リンク_ など、システムフィールドの値に基づいています。
 
-* **マイトークン** （ジャーニー用に定義された場合） – メールが存在するジャーニー用に定義された [&#x200B; カスタムトークン &#x200B;](./personalization-my-tokens.md)。
+* **マイトークン** （ジャーニー用に定義された場合） – メールが存在するジャーニー用に定義された [ カスタムトークン ](./personalization-my-tokens.md)。
 
 >[!NOTE]
 >
->XDM スキーマについて詳しくは、[Adobe Experience Platform データモデル（XDM）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"} を参照してください。
+>XDM スキーマについて詳しくは、[Adobe Experience Platform データモデル（XDM）ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"} を参照してください。
 
 ## パーソナライゼーションエディター
 
 パーソナライゼーションエディターは、メールコンテンツでパーソナライゼーションを定義する必要があるすべてのコンテキストで使用できます。 エディターでは、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。
 
+_パーソナライゼーションを追加_ （![ パーソナライゼーションアイコンを追加 ](../../assets/do-not-localize/icon-personalization-field.svg)）アイコンをクリックして、任意のフィールドまたはコンテンツコンポーネントでパーソナライゼーションを追加します。
+
+![Personalization エディター ](./assets/personalization-editor.png){width="800" zoomable="yes"}
+
 >[!NOTE]
 >
->パーソナライゼーションエディターの以下の情報は、[&#x200B; シンプルなアーキテクチャ &#x200B;](../simplified-architecture.md) でプロビジョニングされたJourney Optimizer B2B edition環境で使用できる変更内容を反映しています。
+>パーソナライゼーションエディターに関する以下の情報は、[!DNL Journey Optimizer B2B Edition] シンプルなアーキテクチャ [ でプロビジョニングされた ](../simplified-architecture.md) 環境で使用できる変更を反映しています。
 
-_パーソナライゼーションを追加_ （![&#x200B; パーソナライゼーションアイコンを追加 &#x200B;](../../assets/do-not-localize/icon-personalization-field.svg)）アイコンをクリックして、任意のフィールドまたはコンテンツコンポーネントでパーソナライゼーションを追加します。
-
-![Personalization エディター &#x200B;](./assets/personalization-editor.png){width="800" zoomable="yes"}
+### トークンおよびヘルパー関数
 
 パーソナライゼーショントークンまたはヘルパー関数を使用するには、左側のナビゲーションパネルでパーソナライゼーショントークンまたはヘルパー関数を見つけ、「**+**」をクリックして式に追加します。
 
 _その他メニュー_ （**...**）アイコン（_追加_ （**+**）アイコンの横）をクリックすると、各属性の詳細が表示され、使用頻度の高い属性を _お気に入り_ に追加できます。 お気に入りに追加した属性には、エディターの左側のナビゲーションにある **[!UICONTROL お気に入り]** メニューからアクセスできます。
 
-![Personalization エディター – トークンの詳細メニュー &#x200B;](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
+![Personalization エディター – トークンの詳細メニュー ](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
 <!-- >>[!NOTE]
 >
@@ -70,9 +72,21 @@ _その他メニュー_ （**...**）アイコン（_追加_ （**+**）アイ�
 
 式は、コンテンツに挿入する前に検証することをお勧めします。 エディターの下部にある「**[!UICONTROL 検証]**」をクリックして構文を確認し、エラーがないことを確認します。
 
-![Personalization エディターがコードを検証しました &#x200B;](./assets/personalization-editor-validated.png){width="500"}
+![Personalization エディターがコードを検証しました ](./assets/personalization-editor-validated.png){width="500"}
 
 式が完成し、エラーがなくなったら、「**[!UICONTROL 保存]**」をクリックします。
+
+### カスタムデータセット
+
+電子メールのパーソナライゼーションには、リレーショナルスキーマ（モデルベースのクラス）を使用できます。 カスタムオブジェクトは _リレーショナルスキーマ_ 内で定義され、製品管理者は [ で ](../admin/xdm-field-management.md#relational-schemas) リレーショナルスキーマフィールドを設定 [!DNL Journey Optimizer B2B Edition] することができます。 これらのフィールドには、パーソナライゼーションエディターでアクセスできます。 アカウントタイプと 1 対多（1:M）の関係を持つカスタムオ <!-- (M1.5 Beta) or Person (M1.5 GA) --> ジェクトのみを使用できます。
+
+>[!IMPORTANT]
+>
+>スクリプト化されたパーソナライゼーションにカスタムオブジェクトを使用する前に、[Handlebar テンプレート言語 ](https://handlebarsjs.com/guide/)、[ パーソナライゼーション構文 ](./personalization-syntax.md)、および組み込みの [ ヘルパー関数 ](./personalization-helper-functions.md) を確認し、理解する必要があります。
+
+カスタムオブジェクトを使用してパーソナライゼーションを定義すると、**[!UICONTROL Personalization トークン（person/lead、account、system および My Tokens]** と **[!UICONTROL モデルベースのクラス]** （リレーショナルスキーマ）をまたいで、スクリプトでアクセス可能なオブジェクト内のすべての変数にアクセスできます。 モデルベースのクラスを選択した状態で、カスタムオブジェクトフォルダーをクリックするとフィールドを表示できます。 式に追加するフィールドごとに「**+**」をクリックします。
+
+![Personalization エディター – モデルベースのクラス – カスタム オブジェクト フィールドを追加 ](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
 
 <!-- ## Personalization experimentation {#playground}
 
@@ -82,18 +96,18 @@ This playground provides a simulated environment to write and test personalizati
 
 ![personalization playground](assets/playground.png)
 
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ajo-personalization){target="_blank"} 
+➡️ [Access the personalization playground](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"} 
 
 ## How-to videos{#video-perso}
 
 Learn how to use contextual event information from a journey to personalize a message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448127?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416419?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475953?captions=jpn&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12) -->
