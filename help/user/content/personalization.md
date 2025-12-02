@@ -102,12 +102,12 @@ This playground provides a simulated environment to write and test personalizati
 
 Learn how to use contextual event information from a journey to personalize a message.
 
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448127?captions=jpn&quality=12)
 
 Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
 
->[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416419?captions=jpn&quality=12)
 
 Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3475953?captions=jpn&quality=12) -->
