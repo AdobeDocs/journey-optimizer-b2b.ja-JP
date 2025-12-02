@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について説明します。新機能や製品の改善点に関する最新情報を常に提供します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
+source-git-commit: 4033d0eb711120d615851d614aa6abbcf07f6ea0
 workflow-type: tm+mt
-source-wordcount: '3729'
-ht-degree: 95%
+source-wordcount: '3778'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | ----- | ------ | ----------- |
 | Journey Build Agent | 新規 | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。[詳細情報](../agents/journey-agent.md) |
 | Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。[詳細情報](../agents/audience-agent-b2b.md) |
-| 販売修飾子 | 新規 | Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客の選定、アウトリーチ、購入者のエンゲージメントワークフローを自動化します [&#x200B; 詳細情報 &#x200B;](../agents/sales-qualifier.md)。 |
+| 販売修飾子 | 新規 | Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客の選定、アウトリーチ、購入者のエンゲージメントワークフローを自動化します [ 詳細情報 ](../agents/sales-qualifier.md)。 |
 
 ## 2025.10 リリースノート
 
@@ -39,6 +39,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | 機能 | メールテンプレート - 画像を HTML に変換 | JPG または PNG 画像ファイル形式で保存されたデザインファイルを使用して、メールテンプレートを自動的に生成できるようになりました。[詳細情報](../content/email-template-image-convert.md) |
 | 機能 | ペルソナマッピング | 属性マッピングを使用して、アカウントメンバーと確立されたペルソナを結び付けます。[詳細情報](../admin/persona-mapping.md) |
 | 機能 | Salesforce および Dynamics 向けセールスインサイト | セールスチームメンバーは、Salesforce または Dynamics の統合内で成熟した購買グループと関連インサイトを確認し、新しい機会を特定できるようになりました。購入グループの詳細（ステージ、スコア、関連メンバーなど）が含まれます。 [詳細情報](../buying-groups/incrm-insights.md) |
+| 機能 | [!DNL Adobe Target] へのオーディエンスの有効化 | アカウントジャーニーから外部の顧客オーディエンスにオーディエンスをアクティベートし、プッシュで [!DNL Adobe Target] るようになりました。 この統合を使用すると、[!DNL Target] で設計された web エクスペリエンスのジャーニーシーケンスを通じて認定されたオーディエンスを配信できます。 [詳細情報](../audiences/target-external-audience.md) |
 | 機能強化 | 購買グループの完全性のスコアリングの改善 | 完全性のスコアリング用のカスタマイズ可能な役割メンバーしきい値を使用して、購買グループが実際の意思決定を反映していることを確認できるようになりました。[詳細情報](../buying-groups/completeness-scores.md) |
 | 機能強化 | 購買グループメンテナンスジョブ | 購買グループメンテナンスジョブの頻度は、毎週から毎日に更新されます。 |
 | 機能強化 | アカウントジャーニーの進行状況 | 公開済みのジャーニーのステータスが&#x200B;_ライブ_、_新規エントリに対してクローズ済み_、_中止_&#x200B;または&#x200B;_終了_&#x200B;である場合は、ジャーニーマップを開いて、各ジャーニーノードのアカウントのリストを確認できます。 |
@@ -60,14 +61,14 @@ Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチ�
 
 >[!NOTE]
 >
->環境がこのアーキテクチャでプロビジョニングされている場合は、[&#x200B; 設定のガイドライン &#x200B;](../simplified-architecture.md) を確認してください。
+>環境がこのアーキテクチャでプロビジョニングされている場合は、[ 設定のガイドライン ](../simplified-architecture.md) を確認してください。
 
 シンプルなアーキテクチャにより、2025.10 リリースでは次の新機能と機能強化が提供されます。
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | リレーショナルデータモデル | B2B アカウントにリンクされたリレーショナルデータを活用して、アカウントジャーニー内のアカウントをフィルタリングしたり、メールコンテンツをパーソナライズしたりします。 このリレーショナルデータは、購入記録、イベント登録、ソフトウェアライセンス、サービスサブスクリプション、予約などの実際のビジネスエンティティを表すことができます。 |
-| 機能 | 複数の Marketo Engage のアクティブ化 | リモート Marketo Engage インスタンスへの接続を設定し、それらの接続を使用して、ジャーニー用のMarketo Engage アクションを設定します。 リストへのユーザーの追加や削除、リクエストキャンペーンへの人物の追加など、これらのアクションは、指定した Marketo Engage インスタンスに適用されます。 |
+| 機能 | リレーショナルデータモデル | B2B アカウントにリンクされたリレーショナルデータを活用して、アカウントジャーニー内のアカウントをフィルタリングしたり、メールコンテンツをパーソナライズしたりします。 このリレーショナルデータは、購入記録、イベント登録、ソフトウェアライセンス、サービス購読、予約などの実際のビジネスエンティティを表すことができます。 [詳細情報](../admin/xdm-field-management.md#relational-schemas) |
+| 機能 | 複数のMarketo Engage アクティベーション | リモート Marketo Engage インスタンスへの接続を設定し、それらの接続を使用して、ジャーニー用のMarketo Engage アクションを設定します。 リストへのユーザーの追加または削除やリクエストキャンペーンへのユーザーの追加など、これらのアクションは、指定されたMarketo Engage インスタンスに適用されます。 [詳細情報](../admin/marketo-actions-connect.md) |
 | 機能 | メール疲労の重複排除 | メールの重複排除を有効にして、ジャーニー内で同じアドレスに同じメールが複数回送信されるのを防げるようになりました。重複するアドレスは、そのメールアドレスを持つ最初のレコードがジャーニーを完了するまでブロックされます。 |
 | 機能強化 | 通信制限 | Marketo EngageとJourney Optimizer B2B editionの両方の通信制限の組み合わせが順守されるようになりました。 [詳細情報](../admin/configure-channels-emails.md#communication-limits) |
 

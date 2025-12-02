@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: Journey Optimizer B2B Edition の完全なドキュメント - オンボーディング、購買グループの作成、アカウントジャーニーの作成、コンテンツの管理に使用できるリソースを探索します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 69%
 
 ---
 
@@ -13,9 +13,35 @@ ht-degree: 100%
 
 ## 最新情報
 
-Journey Optimizer B2B Edition アプリケーションとドキュメントの最新の追加事項と機能強化のサンプルを以下に示します。
+[!DNL Journey Optimizer B2B Edition] アプリケーションとドキュメントに対する最新の追加機能および機能強化のサンプリングを次に示します。
 
 >[!BEGINTABS]
+
+>[!TAB AI エージェント ]
+
+[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} を使用すると、AI アシスタントのインターフェイスから専門のエージェントが自動的に呼び出され、適切な回答とインサイトを得ることができます。 Agent Orchestratorは、会話履歴を記憶しているので、コンテキストを繰り返すことなく自然に前の質問に基づいて構築でき、複数のエージェントからのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition] のコンテキストでは、特定の B2B タスクおよびドメイン用に専用のエージェントが 3 つあります。
+
+* [Audience Agent B2B](./agents/audience-agent-b2b.md)
+* [ジャーニー ビルド エージェント B2B](./agents/journey-agent.md)
+* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB  ブランドテーマ ]
+
+テーマを使用すると、非テクニカルデザイナーは、特定のブランドやスタイルに合わせた再利用可能なメールコンテンツデザインガイドラインを作成できます。 テーマを使用すると、マーケターは、視覚的に魅力的でブランドと一貫性のあるメールをより迅速かつ少ない労力で活用し、独自のデザインニーズに合わせて高度なカスタマイズオプションを提供できます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/brand-themes.md" tooltip="ブランドテーマについて学ぶ"}
+
+>[!TAB  ペルソナマッピング ]
+
+マーケターは、背景、責任、問題点、好ましいコミュニケーションチャネルなど、詳細なプロファイルを定義できます。 これらの定義を使用すると、管理者は、[!DNL Journey Optimizer B2B Edition] のユーザー属性に従ってペルソナを設定できるので、ロールテンプレートでは、これらのペルソナを取り込む合理化された一貫性のあるロール条件を使用できます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="ペルソナマッピングについて説明します"}
+
+>[!TAB CRM 内販売インサイト ]
+
+セールスチームメンバーは、Salesforce または Dynamics の統合内で成熟した購買グループと関連インサイトを確認し、新しい機会を特定できるようになりました。ステージ、スコア、関連メンバーなど、購買グループの詳細が含まれます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="CRM 内の販売インサイトについて学ぶ"}
 
 >[!TAB メールコンテンツの共同作業]
 
@@ -34,30 +60,6 @@ Journey Optimizer B2B Edition アプリケーションとドキュメントの�
 B2B マーケターは、ジャーニーの分割パスや購買グループを作成する役割テンプレートで、ユーザーレベルのエンゲージメントスコアをフィルターとして使用できるようになりました。このスコアとフィルタリングにより、購買グループのメンバーの正確なターゲティングが可能になり、進行中のエンゲージメントをパーソナライズできます。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="ユーザーエンゲージメントスコアとフィルタリングについて学ぶ"}
-
->[!TAB カスタム購買グループの役割]
-
-B2B マーケティングストラテジストは、カスタム購買グループの役割を使用して、購買グループの精度を拡張できるようになりました。デフォルトの 6 個の役割に加えて最大 20 個のカスタムの役割を作成し、購買グループ間で再利用します。アカウントジャーニー内で、独自の役割に合わせてメッセージをカスタマイズし、購買グループ全体の関連性とエンゲージメントを向上させます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="カスタム購買グループの役割について学ぶ"}
-
->[!TAB カスタムエンゲージメントスコアの重み付け]
-
-エンゲージメントスコアが最高値のアクティビティを反映するように、エンゲージメントアクティビティにカスタムの重み付けを割り当てます。購買意欲の高いシグナルを強調することで、チームは購入の可能性が高いアカウントをより適切に特定し、優先順位を付けることができます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="カスタムエンゲージメントスコアの重み付けについて学ぶ"}
-
->[!TAB カスタム CSS サポート]
-
-デザインスペースでメールやランディングページのコンテンツを作成する際に、独自のカスタム CSS を追加できるようになりました。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="カスタム CSS の使用について学ぶ"}
-
->[!TAB インテントキーワードマッピング]
-
-インテント検出モデルをアクティブ化および管理するために、スプレッドシートをアップロードしてインテントデータマッピングカテゴリを定義できるようになりました。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/admin/intent-data.md" tooltip="インテントキーワードマッピングの設定について学ぶ"}
 
 >[!ENDTABS]
 
@@ -123,11 +125,11 @@ B2B マーケティングストラテジストは、カスタム購買グルー�
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="コンテンツ管理"><br/>
-      <strong>コンテンツ管理</strong><br/><a href="./content/assets-overview.md">アセットの概要</a><br/><a href="./content/email-templates.md">メールテンプレート</a><br/><a href="./content/fragments.md">ビジュアルフラグメント</a><br/><a href="./content/conditional-content.md">条件付きコンテンツ</a>
+      <strong> コンテンツ管理 </strong><br/><a href="./content/assets-overview.md">Assetsの概要 </a><br/><a href="./content/email-templates.md"> メールテンプレート </a><br/><a href="./content/fragments.md"> ビジュアルフラグメント </a><br/><a href="./content/conditional-content.md"> 条件付きコンテンツ </a><br/><a href="./content/brand-themes.md"> ブランドテーマ </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="インサイトとダッシュボード"><br/>
-      <strong>インサイト</strong><br/><a href="./dashboards/intelligent-dashboard.md">インテリジェントダッシュボード</a><br/><a href="./dashboards/engagement-dashboard.md">エンゲージメントダッシュボード</a><br/><a href="./dashboards/buying-groups-dashboard.md">購買グループダッシュボード</a><br/><a href="./dashboards/journeys-dashboard.md">ジャーニーダッシュボード</a>
+      <strong> インサイト </strong><br/><a href="./dashboards/intelligent-dashboard.md"> インテリジェントダッシュボード </a><br/><a href="./dashboards/engagement-dashboard.md"> エンゲージメントダッシュボード </a><br/><a href="./dashboards/buying-groups-dashboard.md"> 購入グループダッシュボード </a><br/><a href="./dashboards/journeys-dashboard.md">ジャーニーダッシュボード </a><br/><a href="./buying-groups/incrm-insights.md">CRM 内インサイト </a>
     </td>
 
 </tr>
@@ -137,7 +139,7 @@ B2B マーケティングストラテジストは、カスタム購買グルー�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">ドキュメント</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>
