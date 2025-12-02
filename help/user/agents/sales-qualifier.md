@@ -22,13 +22,13 @@ Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimize
 
 営業修飾子は [!UICONTROL Journey Optimizer B2B edition] に含まれていますが、Experience Platform Experience Cloud内の個別のアプリです。
 
-![ 企業 B2B 向けの BDR 見込み客の選定とアウトリーチを自動化する Sales Qualifier ダッシュボード ](assets/home-screen.png)
+![&#x200B; 企業 B2B 向けの BDR 見込み客の選定とアウトリーチを自動化する Sales Qualifier ダッシュボード &#x200B;](assets/home-screen.png)
 
 ## Account Qualification Agent
 
 Account Qualification Agent（AQA）は、Sales Qualifier の中核です。 AQA は、AI を使用してアカウントを読み取り、次の手順に進む準備ができているアカウントを判断します。 調査、メールの作成、CRM の更新を支援します。
 
-![ 見込み客とアカウント調査のための、AI を活用したAccount Qualification Agent ダッシュボード ](assets/acc-qualification-agent.png)
+![&#x200B; 見込み客とアカウント調査のための、AI を活用したAccount Qualification Agent ダッシュボード &#x200B;](assets/acc-qualification-agent.png)
 
 * **見込み客調査**
 
@@ -68,15 +68,15 @@ Adobe AI エージェントは _自然言語クエリ_ を使用するので、�
 
 このウィンドウには、アクセス権のあるすべてのリードが一覧表示されます。 リードのステータスや最後のアクティビティなど、ものを簡単に確認できます。
 
-![ リードのステータスと見込み客管理の最後のアクティビティを表示するリード テーブル ](assets/prospects.png)
+![&#x200B; リードのステータスと見込み客管理の最後のアクティビティを表示するリード テーブル &#x200B;](assets/prospects.png)
 
-_フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/icon_filter-outline.svg) アイコンをクリックして、表示されたリストをリードステータスでフィルタリングします。
+_フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/do-not-localize/icon_filter-outline.svg) アイコンをクリックして、表示されたリストをリードステータスでフィルタリングします。
 
 ## エンゲージメントプラン
 
 このウィンドウには、定義済みのエンゲージメントプランの詳細が表示されます。
 
-![ プランの詳細、選択したリード、スケジュール設定を表示するエンゲージメントプランダッシュボード ](assets/engagement-plans.png)
+![&#x200B; プランの詳細、選択したリード、スケジュール設定を表示するエンゲージメントプランダッシュボード &#x200B;](assets/engagement-plans.png)
 
 新しい契約プランを作成するには、[**[!UICONTROL 契約プランの作成]**] をクリックします。
 
@@ -97,7 +97,7 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 
 このパネルには、すべてのチャットスレッドが表示されます。
 
-![ 連絡先とのチャットスレッドを示すパネルとセールスオートメーション向けのスレッドの概要 ](assets/chat-inbox.png)
+![&#x200B; 連絡先とのチャットスレッドを示すパネルとセールスオートメーション向けのスレッドの概要 &#x200B;](assets/chat-inbox.png)
 
 クライアントとやり取りし、連絡先とスレッドの概要を確認して、スレッドの現在の位置をすばやく把握できます。
 
@@ -108,13 +108,13 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 * をメールインボックスと統合して、関連する受信メールを追跡し、返信を生成できるようにします。
 * CRM データの読み取り、更新（Salesforce、Microsoft®Dynamics、ZoomInfo、BuiltWith など）。
 
-![ メールと連絡先の概要を示すMicrosoft Outlook との Sales Qualifier の統合 ](assets/outlook.png)
+![&#x200B; メールと連絡先の概要を示すMicrosoft Outlook との Sales Qualifier の統合 &#x200B;](assets/outlook.png)
 
 ### 新しい統合の設定
 
 新しい統合を開始するには、右上の **[!UICONTROL 統合を作成]** をクリックします。
 
-![URL、HTTP メソッド、ヘッダーおよび認証オプションを表示する統合設定フォーム ](assets/integration-details.png)
+![URL、HTTP メソッド、ヘッダーおよび認証オプションを表示する統合設定フォーム &#x200B;](assets/integration-details.png)
 
 統合の URL を定義し、送信するペイロードを確立します。
 
@@ -165,13 +165,13 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 
 「**[!UICONTROL 詳細]**」タブでは、自分自身に関する情報を入力できます。
 
-![ 代表者の個人情報、メールおよびチャットの利用可能設定を表示する「詳細」タブ ](assets/details.png)
+![&#x200B; 代表者の個人情報、メールおよびチャットの利用可能設定を表示する「詳細」タブ &#x200B;](assets/details.png)
 
 ### メールの設定
 
 「**[!UICONTROL メール設定]**」タブで、メール接続を設定します。
 
-![ メール接続オプションとメール署名設定を表示する「メール設定」タブ ](assets/email-settings.png)
+![&#x200B; メール接続オプションとメール署名設定を表示する「メール設定」タブ &#x200B;](assets/email-settings.png)
 
 * **[!UICONTROL メール接続]** - 「**[!UICONTROL 接続]**」をクリックし、Microsoftのログイン手順に従います。
 
@@ -181,7 +181,7 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 
 「**[!UICONTROL カレンダー設定]**」タブで、タイムゾーンと空き時間を設定します。
 
-![ タイムゾーンと空き時間のオプションを表示する「カレンダー設定」タブ ](assets/calendar-settings.png)
+![&#x200B; タイムゾーンと空き時間のオプションを表示する「カレンダー設定」タブ &#x200B;](assets/calendar-settings.png)
 
 * **[!UICONTROL カレンダー接続]** - 「**[!UICONTROL 接続]**」をクリックし、Microsoftのログイン手順に従ってカレンダーを統合します。
 
@@ -193,7 +193,7 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 
 **[!UICONTROL チャット設定]** タブで、タイムゾーンライブチャットの利用可能性を設定します。
 
-![ タイムゾーンとライブチャットの可用性を設定するための「チャット設定」タブ ](assets/chat-settings.png)
+![&#x200B; タイムゾーンとライブチャットの可用性を設定するための「チャット設定」タブ &#x200B;](assets/chat-settings.png)
 
 ## 代表者の管理
 
