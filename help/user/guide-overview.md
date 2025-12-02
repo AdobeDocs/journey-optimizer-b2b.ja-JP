@@ -2,24 +2,28 @@
 title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: Journey Optimizer B2B Edition の完全なドキュメント - オンボーディング、購買グループの作成、アカウントジャーニーの作成、コンテンツの管理に使用できるリソースを探索します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+source-git-commit: ae903f25327d7ac9d7b47e4b5f736a164b2d2d4b
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 69%
+source-wordcount: '803'
+ht-degree: 58%
 
 ---
 
 # Adobe Journey Optimizer B2B Edition ドキュメント
 
+[!DNL Adobe Journey Optimizer B2B Edition] は、マーケティングチームやセールスチームがアカウントベースのエクスペリエンスを調整し、カスタマーライフサイクル全体で特定の製品の購入グループを選定できるようにする、初めてのアプリケーションです。 AI を使用して、ターゲットアカウント内の購入グループを関与させ、選定します。これにより、チームがより高品質のパイプラインを生成し、より優れた獲得、拡張、保持戦略を設計するのに役立ちます。 また、販売チームとマーケティングチーム間でインサイトを共有できます。
+
+このドキュメントでは、アプリケーションの習得に関する情報を提供します。 マーケター、ビジネス開発担当者、データアナリスト、運用管理者向けに設計されています。
+
 ## 最新情報
 
-[!DNL Journey Optimizer B2B Edition] アプリケーションとドキュメントに対する最新の追加機能および機能強化のサンプリングを次に示します。
+[!DNL Journey Optimizer B2B Edition] アプリケーションとドキュメントで、最新の追加機能と機能強化に関するこのサンプリングを確認してください。
 
 >[!BEGINTABS]
 
 >[!TAB AI エージェント ]
 
-[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} を使用すると、AI アシスタントのインターフェイスから専門のエージェントが自動的に呼び出され、適切な回答とインサイトを得ることができます。 Agent Orchestratorは、会話履歴を記憶しているので、コンテキストを繰り返すことなく自然に前の質問に基づいて構築でき、複数のエージェントからのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition] のコンテキストでは、特定の B2B タスクおよびドメイン用に専用のエージェントが 3 つあります。
+[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} を使用すると、AI アシスタントのインターフェイスから専門のエージェントが自動的に呼び出され、適切な回答とインサイトを得ることができます。 Agent Orchestratorは、会話履歴を記憶しているので、コンテキストを繰り返すことなく自然に前の質問に基づいて構築でき、複数のエージェントからのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition] のコンテキストでは、特定の B2B タスクおよびドメイン用に専用のエージェントが 3 つあります。
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [ジャーニー ビルド エージェント B2B](./agents/journey-agent.md)
@@ -45,7 +49,7 @@ ht-degree: 69%
 
 >[!TAB メールコンテンツの共同作業]
 
-メールデザインスペースには、コメントと解決のための共同作業ツールが含まれており、マーケティングチームが [!DNL Journey Optimizer B2B Edition] 内で直接、メールアセットをシームレスにレビュー、議論および最終決定できるようになります。ユーザーは、外部ツール（チャット、メールスレッド、スプレッドシートなど）でドラフトを共有する代わりに、メールデザインスペース内でコメントを作成し、編集を提案して、フィードバックを解決できます。チームメンバーにタグを付けると、コメントの詳細が記載されたメール通知またはパルス通知を受信できます。
+メールデザインスペースには、フィードバックと解決のためのコラボレーションツールが含まれており、マーケティングチームがメールアセットを直接 [!DNL Journey Optimizer B2B Edition] 内でシームレスにレビュー、ディスカッションおよび最終決定できるようになります。 ユーザーは、外部ツール（チャット、メールスレッド、スプレッドシートなど）でドラフトを共有する代わりに、メールデザインスペース内でコメントを作成し、編集を提案して、フィードバックを解決できます。チームメンバーにタグを付けると、コメントの詳細が記載されたメール通知またはパルス通知を受信できます。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="メールコンテンツ共同作業ツールについて学ぶ"}
 
@@ -139,7 +143,7 @@ B2B マーケターは、ジャーニーの分割パスや購買グループを�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">ドキュメント</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>
