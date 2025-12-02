@@ -23,7 +23,7 @@ Adobe Experience Platform（AEP）スキーマには、通常、複雑な階層�
 XDM を理解し、データエンジニアや B2B 顧客データプラットフォーム（CDP）データモデリングの関係者と共同作業を行う管理者は、このページの手順を使用する必要があります。
 
 >[!NOTE]
->[&#x200B; リレーショナルスキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) は、限定提供リリースとして [!DNL Journey Optimizer B2B Edition] 用できます。 Data Mirrorおよびリレーショナルスキーマは、Journey Optimizer Orchestrated Campaigns のライセンス所有者が利用できます。 リレーショナルスキーマは、ライセンスと機能のイネーブルメントに応じて、Customer Journey Analytics ユーザー向けの限定リリースとしても利用できます。 アクセスについては、Adobe担当者にお問い合わせください。
+>[&#x200B; リレーショナルスキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/relational#) は、限定提供リリースとして [!DNL Journey Optimizer B2B Edition] 用できます。 Data Mirrorおよびリレーショナルスキーマは、Journey Optimizer Orchestrated Campaigns のライセンス所有者が利用できます。 リレーショナルスキーマは、ライセンスと機能のイネーブルメントに応じて、Customer Journey Analytics ユーザー向けの限定リリースとしても利用できます。 アクセスについては、Adobe担当者にお問い合わせください。
 
 ## XDM クラスへのアクセス
 
@@ -89,7 +89,7 @@ XDM を理解し、データエンジニアや B2B 顧客データプラット�
 
 #### 更新可能なフィールド
 
-更新可能なフィールドを設定する前に、カスタムデータセットに存在する必要があります。 カスタムデータセットワークフローの説明については、[&#x200B; データセットの作成とデータの取り込み &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} および **[!UICONTROL スキーマからデータセットを作成]** オプションの使用を参照してください。 このデータセットは、更新可能なフィールドを分離するために使用されます。 更新可能なすべてのフィールドは、このデータセットに含める必要があります。
+更新可能なフィールドを設定する前に、カスタムデータセットに存在する必要があります。 カスタムデータセットワークフローの説明については、[&#x200B; データセットの作成とデータの取り込み &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} および **[!UICONTROL スキーマからデータセットを作成]** オプションの使用を参照してください。 このデータセットは、更新可能なフィールドを分離するために使用されます。 更新可能なすべてのフィールドは、このデータセットに含める必要があります。
 
 個人プロファイル用のデータセットとビジネスアカウント用のデータセットを 1 つずつ作成します。 設定プロセス中に新しいデータセットをそれぞれ選択します。
 
