@@ -96,7 +96,7 @@ This playground provides a simulated environment to write and test personalizati
 
 ![personalization playground](assets/playground.png)
 
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"} 
+➡️ [Access the personalization playground](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ajo-personalization){target="_blank"} 
 
 ## How-to videos{#video-perso}
 
