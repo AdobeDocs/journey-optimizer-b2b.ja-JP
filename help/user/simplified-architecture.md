@@ -30,7 +30,7 @@ Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチ�
 
 ## 名前空間とスキーマ
 
-概要については、Experience Platform ドキュメントの [B2B 名前空間とスキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) を参照してください。
+概要については、Experience Platform ドキュメントの [B2B 名前空間とスキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) を参照してください。
 
 ### 環境セットアップ
 
@@ -40,9 +40,9 @@ B2B 名前空間とスキーマ自動生成ユーティリティをサポート�
 
 * 必要なヘッダーの値を収集する方法やサンプル API 呼び出しを読み取る方法など、Experience Platform API の使用方法については、[Experience Platform API の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-guide) ガイドを参照してください。
 
-* Experience Platform API の資格情報の生成方法について詳しくは、[Experience Platform API の認証とアクセス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication) に関するチュートリアルを参照してください。
+* Experience Platform API の資格情報の生成方法について詳しくは、[Experience Platform API の認証とアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication) に関するチュートリアルを参照してください。
 
-* Experience Platform API 用のPostmanの設定について詳しくは、[Adobe Experience PlatformのPostman](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman) を参照してください。
+* Experience Platform API 用のPostmanの設定について詳しくは、[Adobe Experience PlatformのPostman](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/postman) を参照してください。
 
 Experience Platform Developer Console とPostmanをセットアップすると、Postman環境に適切な環境値を適用できるようになります。
 
@@ -155,19 +155,19 @@ Journey Optimizer B2B edition UI では、アプリケーション全体で使�
 
 Journey Optimizer B2B editionからメールを送信するには、以下を設定する必要があります。  
 
-[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols)
+[https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols)
 
 ### トラッキングとメール配信のプロトコル
 
-1. [&#x200B; メールの DNS レコードの作成 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
+1. [&#x200B; メールの DNS レコードの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
 
-1. [SPF とDKIMの設定 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
+1. [SPF とDKIMの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
 
-1. [DMARCのセットアップ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
+1. [DMARCのセットアップ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
 
-1. [&#x200B; ドメインの MX レコードの設定 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
+1. [&#x200B; ドメインの MX レコードの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
 
-1. 許可リストに加える [&#x200B; 送信 IP アドレスの追加 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
+1. 許可リストに加える [&#x200B; 送信 IP アドレスの追加 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
 
 1. 専用 IP プールを共有する必要がある場合は、配信品質チームに連絡して、実現可能性と支援された設定について問い合わせてください。
 
@@ -175,9 +175,9 @@ Journey Optimizer B2B editionからメールを送信するには、以下を設
 
 シンプルなアーキテクチャでは、メールはMarketo Engage アプリケーションから設定されます。 メール関連の設定手順を完了します。
 
-* [https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps)
+* [https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps)
 
-* [https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
+* [https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
 
 ### 通信制限
 
@@ -189,7 +189,7 @@ Journey Optimizer B2B editionからメールを送信するには、以下を設
 
    グローバルルールセットが作成されていない場合は、通信の制限はありません。
 
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
+<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
 
 ### 共有コミュニケーションの制限
 
@@ -217,7 +217,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## SMS チャネルの設定
 
-詳しくは、[_SMS 設定_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms) を参照してください。
+詳しくは、[_SMS 設定_](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms) を参照してください。
 
 ## ジャーニーからのMarketo Engage アクション
 
@@ -247,7 +247,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## ユーザーのオンボーディング
 
-概要については、[User Management](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) ページを参照してください。
+概要については、[User Management](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/user-management) ページを参照してください。
 
 ### 既存のユーザーグループ
 
@@ -257,7 +257,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 1. 作成した製品プロファイルに既存のユーザーグループを追加します。
 
-プロファイルは、そのユーザーグループに既に割り当てられているすべての役割と権限を付与します。これらは、ユーザーがJourney Optimizer B2B editionにアクセスできるように既に設定されている必要があります。 ユーザーの一部のみが新しいアーキテクチャにアクセスする必要がある場合は、次に示す手順を実行します。 詳しくは、[&#x200B; 現在のドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) を参照してください。
+プロファイルは、そのユーザーグループに既に割り当てられているすべての役割と権限を付与します。これらは、ユーザーがJourney Optimizer B2B editionにアクセスできるように既に設定されている必要があります。 ユーザーの一部のみが新しいアーキテクチャにアクセスする必要がある場合は、次に示す手順を実行します。 詳しくは、[&#x200B; 現在のドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/user-management) を参照してください。
 
 ### ユーザーグループの新規作成
 
