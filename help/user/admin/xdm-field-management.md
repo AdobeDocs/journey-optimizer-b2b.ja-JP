@@ -24,7 +24,7 @@ XDM を理解し、データエンジニアや B2B 顧客データプラット�
 
 >[!NOTE]
 >
->XDM フィールド管理は、[ シンプルなアーキテクチャ ](../simplified-architecture.md) でプロビジョニングされたJourney Optimizer B2B edition環境で使用できます。
+>XDM フィールド管理は、[&#x200B; シンプルなアーキテクチャ &#x200B;](../simplified-architecture.md) でプロビジョニングされたJourney Optimizer B2B edition環境で使用できます。
 
 ## XDM クラスへのアクセス
 
@@ -34,7 +34,7 @@ XDM を理解し、データエンジニアや B2B 顧客データプラット�
 
    * 「**[!UICONTROL 標準]**」タブと「**[!UICONTROL リレーショナル]**」タブを使用して新しいフィールドを追加し、Journey Optimizer B2B editionで使用できるようにします。
 
-   * 「**イベント**」タブを使用して、ジャーニーイベントノードに使用する [ 特定のAEP エクスペリエンスイベントとその関連フィールドを選択 ](./configure-aep-events.md) します。
+   * 「**イベント**」タブを使用して、ジャーニーイベントノードに使用する [&#x200B; 特定のAEP エクスペリエンスイベントとその関連フィールドを選択 &#x200B;](./configure-aep-events.md) します。
 
 ## フィールドの選択
 
@@ -55,7 +55,7 @@ XDM を理解し、データエンジニアや B2B 顧客データプラット�
 * 管理されたフィールドは、ジャーニー、購入グループおよびパーソナライゼーション機能に表示されます。
 * 更新可能なフィールドは、_アカウントプロファイルを更新_ および _ユーザープロファイルを更新_ ジャーニーノードの制約として機能します。
 
-![XDM クラス設定を表示する「標準クラス」タブ ](assets/xdm-standard.png){width="600" zoomable="yes"}
+![XDM クラス設定を表示する「標準クラス」タブ &#x200B;](assets/xdm-standard.png){width="600" zoomable="yes"}
 
 このリストには、次の 2 つのクラスが含まれています。
 
@@ -70,7 +70,7 @@ XDM を理解し、データエンジニアや B2B 顧客データプラット�
 
 標準 XDM クラスの結合スキーマからフィールドを選択するには、クラス名をクリックして _管理フィールド_ 選択ダイアログを開くか、_詳細メニュー_ （**...**）アイコンをクリックして _[!UICONTROL 管理フィールド]_ と _[!UICONTROL 更新可能フィールド]_ の間から選択します。
 
-![ 「詳細」メニューアイコンをクリックして、管理フィールドと更新可能フィールドを選択します ](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
+![&#x200B; 「詳細」メニューアイコンをクリックして、管理フィールドと更新可能フィールドを選択します &#x200B;](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -84,20 +84,20 @@ XDM を理解し、データエンジニアや B2B 顧客データプラット�
 
    「_[!UICONTROL 検索]_」フィールドを使用して、表示されたリストを名前でフィルタリングします。 **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、現在の選択を確認します。
 
-   ![ 設定可能なフィールドオプションを表示する標準 XDM クラスの管理フィールド選択ダイアログ ](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
+   ![&#x200B; 設定可能なフィールドオプションを表示する標準 XDM クラスの管理フィールド選択ダイアログ &#x200B;](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックして、選択を確定します。
 
 #### 更新可能なフィールド
 
-更新可能なフィールドを設定する前に、カスタムデータセットに存在する必要があります。 カスタムデータセットワークフローの説明については、[ データセットの作成とデータの取り込み ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} および **[!UICONTROL スキーマからデータセットを作成]** オプションの使用を参照してください。 このデータセットは、更新可能なフィールドを分離するために使用されます。 更新可能なすべてのフィールドは、このデータセットに含める必要があります。
+更新可能なフィールドを設定する前に、カスタムデータセットに存在する必要があります。 カスタムデータセットワークフローの説明については、[&#x200B; データセットの作成とデータの取り込み &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} および **[!UICONTROL スキーマからデータセットを作成]** オプションの使用を参照してください。 このデータセットは、更新可能なフィールドを分離するために使用されます。 更新可能なすべてのフィールドは、このデータセットに含める必要があります。
 
 個人プロファイル用のデータセットとビジネスアカウント用のデータセットを 1 つずつ作成します。 設定プロセス中に新しいデータセットをそれぞれ選択します。
 
 1. **[!UICONTROL データセット]** については、作成した新しいデータソースを選択します。
 1. 選択したデータセットからフィールドを選択します。
 
-   ![XDM スキーマ設定のデータセットから更新可能なフィールドを選択するためのダイアログ ](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
+   ![XDM スキーマ設定のデータセットから更新可能なフィールドを選択するためのダイアログ &#x200B;](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックして変更を適用します。
 
@@ -105,11 +105,11 @@ XDM を理解し、データエンジニアや B2B 顧客データプラット�
 
 リレーショナルスキーマを使用すると、カスタムデータクラスを作成できます。 複数のデータセットにアクセスできるので、データのニーズに合わせてカスタマイズされたクラスを作成できます。 ジャーニーの決定とメールのパーソナライゼーションにおける購入、ライセンス、イベント登録など、ビジネスエンティティにリレーショナルスキーマを使用する。 1 つのスキーマにつき最大 50 個、最大 100 個のフィールドを選択できます。
 
-選択したフィールドを高度なメールパーソナライゼーションに使用する方法について詳しくは、[ コンテンツのパーソナライゼーション ](../content/personalization.md#custom-datasets) を参照してください。 journey decisioning （アカウントによるパスの分割）用に選択したフィールドを使用する方法について詳しくは、[ カスタムデータフィルタリング ](../journeys/split-merge-paths-nodes.md#custom-data-filtering) を参照してください。<!-- add link to split path by people in M 1.5 GA release -->
+選択したフィールドを高度なメールパーソナライゼーションに使用する方法について詳しくは、[&#x200B; コンテンツのパーソナライゼーション &#x200B;](../content/personalization.md#custom-datasets) を参照してください。 journey decisioning （アカウントによるパスの分割）用に選択したフィールドを使用する方法について詳しくは、[&#x200B; カスタムデータフィルタリング &#x200B;](../journeys/split-merge-paths-nodes.md#custom-data-filtering) を参照してください。<!-- add link to split path by people in M 1.5 GA release -->
 
 >[!NOTE]
 >
->[ リレーショナルスキーマ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) は、限定提供リリースとして [!DNL Journey Optimizer B2B Edition] 用できます。 Data Mirrorおよびリレーショナルスキーマは、ライセンス所有者 [!DNL Journey Optimizer Orchestrated Campaigns] 利用できます。 リレーショナルスキーマは、ライセンスと機能のイネーブルメントに応じて、[!DNL Customer Journey Analytics] ユーザー向けの限定リリースとしても利用できます。 アクセスについては、Adobe担当者にお問い合わせください。
+>[&#x200B; リレーショナルスキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) は、限定提供リリースとして [!DNL Journey Optimizer B2B Edition] 用できます。 Data Mirrorおよびリレーショナルスキーマは、ライセンス所有者 [!DNL Journey Optimizer Orchestrated Campaigns] 利用できます。 リレーショナルスキーマは、ライセンスと機能のイネーブルメントに応じて、[!DNL Customer Journey Analytics] ユーザー向けの限定リリースとしても利用できます。 アクセスについては、Adobe担当者にお問い合わせください。
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ XDM を理解し、データエンジニアや B2B 顧客データプラット�
 
 1. 「**[!UICONTROL リレーショナル]**」タブを選択して、スキーマを表示します。
 
-   ![Adobe Journey Optimizer B2B editionのビジネスエンティティフィールドを示す、スキーマエディターの「リレーショナルスキーマ」タブ ](assets/xdm-relational.png){width="600" zoomable="yes"}
+   ![Adobe Journey Optimizer B2B editionのビジネスエンティティフィールドを示す、スキーマエディターの「リレーショナルスキーマ」タブ &#x200B;](assets/xdm-relational.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL リレーショナル XDM スキーマを選択]**」をクリックします。
 
@@ -144,17 +144,17 @@ XDM を理解し、データエンジニアや B2B 顧客データプラット�
    >
    >このベータ版機能リリースでは、スキーマを選択した後にリストから削除することはできません。
 
-   ![ ダイアログでのリレーショナルスキーマの選択 ](./assets/xdm-classes-relational-select-schema-dialog.png){width="500" zoomable="yes"}
+   ![&#x200B; ダイアログでのリレーショナルスキーマの選択 &#x200B;](./assets/xdm-classes-relational-select-schema-dialog.png){width="500" zoomable="yes"}
 
 1. 名前空間を入力するか、デフォルトの名前空間を使用します。 「**[!UICONTROL 次へ]**」をクリックします。
 
    名前空間は 1 回だけ設定でき、このアクションを元に戻すことはできません。
 
-   ![ 名前空間を作成ダイアログのデフォルトの名前空間 ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![&#x200B; 名前空間を作成ダイアログのデフォルトの名前空間 &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. リレーショナルスキーマフィールドを確認します。
 
-   _情報_ ![ 情報アイコン ](../assets/do-not-localize/icon-info-light.svg) アイコンをクリックして、フィールドメタデータを表示します。
+   _情報_ ![&#x200B; 情報アイコン &#x200B;](../assets/do-not-localize/icon-info-light.svg) アイコンをクリックして、フィールドメタデータを表示します。
 
 1. ジャーニーおよびパーソナライゼーション用に有効にするフィールドを選択します。
 
@@ -166,6 +166,6 @@ XDM を理解し、データエンジニアや B2B 顧客データプラット�
 
    「_[!UICONTROL 検索]_」フィールドを使用して、表示されたリストを名前でフィルタリングします。 **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、現在の選択を確認します。
 
-   ![ ダイアログでリレーショナルスキーマのフィールドを選択 ](./assets/xdm-classes-relational-select-schema-fields.png){width="500" zoomable="yes"}
+   ![&#x200B; ダイアログでリレーショナルスキーマのフィールドを選択 &#x200B;](./assets/xdm-classes-relational-select-schema-fields.png){width="500" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
