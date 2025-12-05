@@ -67,13 +67,13 @@ B2B マーケターは、ジャーニーの分割パスや購買グループを�
 
 >[!ENDTABS]
 
-新機能と改善点の完全なリストについては、[ リリースノート ](../user/release-notes/release-notes.md) を参照してください。
+新機能と改善点の完全なリストについては、[&#x200B; リリースノート &#x200B;](../user/release-notes/release-notes.md) を参照してください。
 
 ## 調査を開始 {#section-explore}
 
 :::: landing-cards-container
 :::
-![ リストアイコン ](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![&#x200B; リストアイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新のリリースノート
 
@@ -93,7 +93,7 @@ Adobe Journey Optimizer B2B editionの最新のリリースノート、新機能
 :::
 
 :::
-![ 設定アイコン ](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![&#x200B; 設定アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 XDM フィールドの設定
 
@@ -109,8 +109,8 @@ XDM フィールドの設定
 
 パーソナライズされた顧客インタラクションのために、メール、SMS、その他のチャネルを設定および管理します。
 
-[ メールチャネルの設定 ](./admin/configure-channels-emails.md)
-[SMS チャネルの設定 ](./admin/configure-channels-sms.md)
+[&#x200B; メールチャネルの設定 &#x200B;](./admin/configure-channels-emails.md)
+[SMS チャネルの設定 &#x200B;](./admin/configure-channels-sms.md)
 :::
 
 :::
