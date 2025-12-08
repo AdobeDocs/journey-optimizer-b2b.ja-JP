@@ -105,8 +105,8 @@ XDM フィールドの設定
 
 パーソナライズされた顧客インタラクションのために、メール、SMS、その他のチャネルを設定および管理します。
 
-[ メールチャネルの設定 ](./admin/configure-channels-emails.md)
-[SMS チャネルの設定 ](./admin/configure-channels-sms.md)
+[&#x200B; メールチャネルの設定 &#x200B;](./admin/configure-channels-emails.md)
+[SMS チャネルの設定 &#x200B;](./admin/configure-channels-sms.md)
 :::
 
 :::
