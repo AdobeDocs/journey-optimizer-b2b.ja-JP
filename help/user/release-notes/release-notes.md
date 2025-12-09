@@ -3,9 +3,9 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について説明します。新機能や製品の改善点に関する最新情報を常に提供します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 4033d0eb711120d615851d614aa6abbcf07f6ea0
+source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
 workflow-type: tm+mt
-source-wordcount: '3778'
+source-wordcount: '3780'
 ht-degree: 92%
 
 ---
@@ -26,7 +26,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | ----- | ------ | ----------- |
 | Journey Build Agent | 新規 | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。[詳細情報](../agents/journey-agent.md) |
 | Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。[詳細情報](../agents/audience-agent-b2b.md) |
-| 販売修飾子 | 新規 | Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客の選定、アウトリーチ、購入者のエンゲージメントワークフローを自動化します [&#x200B; 詳細情報 &#x200B;](../agents/sales-qualifier.md)。 |
+| 販売修飾子 | 新規 | Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客の選定、アウトリーチ、購入者のエンゲージメントワークフローを自動化します [ 詳細情報 ](../agents/sales-qualifier.md)。 |
 
 ## 2025.10 リリースノート
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチ�
 
 >[!NOTE]
 >
->環境がこのアーキテクチャでプロビジョニングされている場合は、[&#x200B; 設定のガイドライン &#x200B;](../simplified-architecture.md) を確認してください。
+>環境がこのアーキテクチャでプロビジョニングされている場合は、[ 設定のガイドライン ](../simplified-architecture.md) を確認してください。
 
 シンプルなアーキテクチャにより、2025.10 リリースでは次の新機能と機能強化が提供されます。
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチ�
 | ---- | ---- | ----------- |
 | 機能 | リレーショナルデータモデル | B2B アカウントにリンクされたリレーショナルデータを活用して、アカウントジャーニー内のアカウントをフィルタリングしたり、メールコンテンツをパーソナライズしたりします。 このリレーショナルデータは、購入記録、イベント登録、ソフトウェアライセンス、サービス購読、予約などの実際のビジネスエンティティを表すことができます。 [詳細情報](../admin/xdm-field-management.md#relational-schemas) |
 | 機能 | 複数のMarketo Engage アクティベーション | リモート Marketo Engage インスタンスへの接続を設定し、それらの接続を使用して、ジャーニー用のMarketo Engage アクションを設定します。 リストへのユーザーの追加または削除やリクエストキャンペーンへのユーザーの追加など、これらのアクションは、指定されたMarketo Engage インスタンスに適用されます。 [詳細情報](../admin/marketo-actions-connect.md) |
-| 機能 | メール疲労の重複排除 | メールの重複排除を有効にして、ジャーニー内で同じアドレスに同じメールが複数回送信されるのを防げるようになりました。重複するアドレスは、そのメールアドレスを持つ最初のレコードがジャーニーを完了するまでブロックされます。 |
+| 機能 | メール疲労の重複排除 | メールの重複排除を有効にして、ジャーニー内で同じアドレスに同じメールが複数回送信されるのを防げるようになりました。重複するアドレスは、そのメールアドレスを持つ最初のレコードがジャーニーを完了するまでブロックされます。  [詳細情報](../content/email-deduplication.md) |
 | 機能強化 | 通信制限 | Marketo EngageとJourney Optimizer B2B editionの両方の通信制限の組み合わせが順守されるようになりました。 [詳細情報](../admin/configure-channels-emails.md#communication-limits) |
 
 <!-- There are additional functional changes with the simplified architecture:
