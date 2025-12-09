@@ -30,17 +30,17 @@ Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチ�
 
 ## 名前空間とスキーマ
 
-概要については、Experience Platform ドキュメントの [B2B 名前空間とスキーマ ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) を参照してください。
+概要については、Experience Platform ドキュメントの [B2B 名前空間とスキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) を参照してください。
 
 ### 環境セットアップ
 
 B2B 名前空間とスキーマ自動生成ユーティリティをサポートするために、Postman環境を設定します。
 
-* 名前空間およびスキーマ自動生成ユーティリティのコレクションと環境は、[GitHub リポジトリ ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) からダウンロードできます。
+* 名前空間およびスキーマ自動生成ユーティリティのコレクションと環境は、[GitHub リポジトリ &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) からダウンロードできます。
 
-* 必要なヘッダーの値を収集する方法やサンプル API 呼び出しを読み取る方法など、Experience Platform API の使用方法については、[Experience Platform API の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-guide) ガイドを参照してください。
+* 必要なヘッダーの値を収集する方法やサンプル API 呼び出しを読み取る方法など、Experience Platform API の使用方法については、[Experience Platform API の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-guide) ガイドを参照してください。
 
-* Experience Platform API の資格情報の生成方法について詳しくは、[Experience Platform API の認証とアクセス ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication) に関するチュートリアルを参照してください。
+* Experience Platform API の資格情報の生成方法について詳しくは、[Experience Platform API の認証とアクセス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication) に関するチュートリアルを参照してください。
 
 * Experience Platform API 用のPostmanの設定について詳しくは、[Adobe Experience PlatformのPostman](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman) を参照してください。
 
@@ -66,7 +66,7 @@ Journey Optimizer B2B edition UI では、アプリケーション全体で使�
 
 標準の XDM クラスのフィールドを定義するには、次の手順を使用します。
 
-1. **[!UICONTROL 管理 ]/[!UICONTROL  設定]** に移動します。
+1. **[!UICONTROL 管理 &#x200B;]/[!UICONTROL &#x200B; 設定]** に移動します。
 
 1. ナビゲーションパネルで、「**[!UICONTROL XDM クラス]**」を選択します。
 
@@ -136,11 +136,11 @@ Journey Optimizer B2B edition UI では、アプリケーション全体で使�
 >リレーショナルスキーマには、次の設定が必要です。
 >
 ><li>動作：レコード
-&gt; <li>セグメント化：有効
-&gt; <li>関係タイプ：多対 1
-&gt; <li>参照スキーマ：<a href="https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B アカウント - XDM ビジネスアカウントスキーマ </a>
-&gt; <li>必須フィールド：プライマリキー、外部キー、バージョン記述子
-&gt; <li>関連するデータセット：スキーマに定義およびマッピングされる
+>&gt; <li>セグメント化：有効
+>&gt; <li>関係タイプ：多対 1
+>&gt; <li>参照スキーマ：<a href="https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B アカウント - XDM ビジネスアカウントスキーマ </a>
+>&gt; <li>必須フィールド：プライマリキー、外部キー、バージョン記述子
+>&gt; <li>関連するデータセット：スキーマに定義およびマッピングされる
 
 ### イベント
 
@@ -164,15 +164,15 @@ Journey Optimizer B2B editionからメールを送信するには、以下を設
 
 ### トラッキングとメール配信のプロトコル
 
-1. [ メールの DNS レコードの作成 ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
+1. [&#x200B; メールの DNS レコードの作成 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
 
-1. [SPF とDKIMの設定 ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
+1. [SPF とDKIMの設定 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
 
-1. [DMARCのセットアップ ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
+1. [DMARCのセットアップ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
 
-1. [ ドメインの MX レコードの設定 ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
+1. [&#x200B; ドメインの MX レコードの設定 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
 
-1. 許可リストに加える [ 送信 IP アドレスの追加 ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
+1. 許可リストに加える [&#x200B; 送信 IP アドレスの追加 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
 
 1. 専用 IP プールを共有する必要がある場合は、配信品質チームに連絡して、実現可能性と支援された設定について問い合わせてください。
 
@@ -202,7 +202,7 @@ Journey Optimizer B2B editionからメールを送信するには、以下を設
 
 Journey Optimizer B2B edition インスタンスで設定された通信制限をMarketo Engage インスタンスで共有する場合は、Adobe サポートに連絡して設定をサポートを受けるか、サポートチケットを開きます。 エンジニアリングチームは必要に応じて、Journey Optimizer B2B editionと 1 つ以上のMarketo Engage インスタンスとの間で通信制限の共有を有効にすることができます。
 
-共有通信制限が有効な場合、Journey Optimizer B2B editionでルールを定義し、それらの制限の共有をMarketo Munchkin コードまで拡張することができます。 詳しくは、「通信の制限 [ を参照してください ](./admin/configure-channels-emails.md#communication-limits)
+共有通信制限が有効な場合、Journey Optimizer B2B editionでルールを定義し、それらの制限の共有をMarketo Munchkin コードまで拡張することができます。 詳しくは、「通信の制限 [&#x200B; を参照してください &#x200B;](./admin/configure-channels-emails.md#communication-limits)
 
 <!-- internal info only 
 
@@ -234,7 +234,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 これらの接続を設定するには、次の手順を実行します。
 
-1. **[!UICONTROL 管理 ]/[!UICONTROL  設定]** に移動します。
+1. **[!UICONTROL 管理 &#x200B;]/[!UICONTROL &#x200B; 設定]** に移動します。
 
 1. ナビゲーションパネルで、「**[!UICONTROL XDM クラス]**」を選択します。
 
@@ -262,7 +262,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 1. 作成した製品プロファイルに既存のユーザーグループを追加します。
 
-プロファイルは、そのユーザーグループに既に割り当てられているすべての役割と権限を付与します。これらは、ユーザーがJourney Optimizer B2B editionにアクセスできるように既に設定されている必要があります。 ユーザーの一部のみが新しいアーキテクチャにアクセスする必要がある場合は、次に示す手順を実行します。 詳しくは、[ 現在のドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) を参照してください。
+プロファイルは、そのユーザーグループに既に割り当てられているすべての役割と権限を付与します。これらは、ユーザーがJourney Optimizer B2B editionにアクセスできるように既に設定されている必要があります。 ユーザーの一部のみが新しいアーキテクチャにアクセスする必要がある場合は、次に示す手順を実行します。 詳しくは、[&#x200B; 現在のドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) を参照してください。
 
 ### ユーザーグループの新規作成
 
