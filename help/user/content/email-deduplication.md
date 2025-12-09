@@ -37,13 +37,13 @@ ht-degree: 1%
 
 1. ジャーニーワークスペースの右上隅にある **[!UICONTROL その他]** （**...**）をクリックします。
 
-   ![ メールの重複排除オプションを示す、詳細メニューが展開されたジャーニーワークスペース ](./assets/email-deduplication-more-menu.png){width="450"}
+   ![&#x200B; メールの重複排除オプションを示す、詳細メニューが展開されたジャーニーワークスペース &#x200B;](./assets/email-deduplication-more-menu.png){width="450"}
 
 1. **[!UICONTROL メールの重複排除]** を選択します。
 
 1. ダイアログで、「**[!UICONTROL メールの重複排除]**」チェックボックスを選択します。
 
-   ![ 切替スイッチが有効なメール重複排除ダイアログ ](./assets/email-deduplication-dialog.png){width="400"}
+   ![&#x200B; 切替スイッチが有効なメール重複排除ダイアログ &#x200B;](./assets/email-deduplication-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
