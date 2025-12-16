@@ -47,14 +47,14 @@ Adobe コミュニティのメンバーが新しいトピックを作成した�
 
 ## 内部コントリビューター
 
-Adobe製品チームのテクニカルライター、プログラムマネージャー、または開発者で技術記事の投稿または作成を担当している場合は、[ プライベートリポジトリ ](https://git.corp.adobe.com/AdobeDocs) を使用します。
+Adobe製品チームのテクニカルライター、プログラムマネージャー、または開発者で技術記事の投稿または作成を担当している場合は、[&#x200B; プライベートリポジトリ &#x200B;](https://git.corp.adobe.com/AdobeDocs) を使用します。
 
 ## トピックの形式設定
 
 このリポジトリの記事はすべて GitHub Flavored Markdown（GFM）を使用しています。マークダウンについて詳しくは、次を参照してください。
 
 * [マークダウンの基本](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
-* [GitHub ドキュメント ](https://docs.github.com/en)
+* [GitHub ドキュメント &#x200B;](https://docs.github.com/en)
 
 ## ラベル
 
