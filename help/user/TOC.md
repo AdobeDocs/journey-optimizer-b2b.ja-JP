@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '392'
+ht-degree: 80%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 84%
       + [待機](./journeys/wait-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
 + ジャーニーコンテンツ {#journey-content}
+   + [SMS チャネル](./content/sms-authoring.md)
    + メールチャネル {#email-channel}
       + [メールの追加](./content/add-email.md)
       + [メールオーサリング](./content/email-authoring.md)
@@ -48,8 +49,11 @@ ht-degree: 84%
       + [管理されたテンプレート](./content/email-authoring-governance.md)
       + [販売アラートメール](./content/sales-alert-email.md)
       + [メールの重複排除](./content/email-deduplication.md)
+   + Web チャンネル（Beta） {#web-channel}
+      + [概要](./content/web-experiences.md)
+      + [Web エクスペリエンスデザイン](./content/web-experience-design.md)
+      + [単一ページアプリケーション](./content/web-single-page-applications.md)
    + [カスタムパーソナライゼーショントークン](./content/personalization-my-tokens.md)
-   + [SMS オーサリング](./content/sms-authoring.md)
 + オーディエンス {#audiences}
    + [Experience Platform オーディエンス](./audiences/account-audience-overview.md)
    + [外部オーディエンスのターゲット設定](./audiences/target-external-audience.md)
@@ -127,7 +131,7 @@ ht-degree: 84%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
@@ -142,7 +146,8 @@ ht-degree: 84%
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
       + [SMS 設定](./admin/configure-channels-sms.md)
-      + [ランディングページ設定](./admin/landing-page-settings.md)
+      + [Web チャネル設定（Beta）](./admin/configure-channels-web.md)
+      + [ランディングページの設定（Beta）](./admin/landing-page-settings.md)
       + [イベント収集用のデータストリーム設定](./data/aep-event-collection.md)
    + 設定 {#configurations}
       + [AEM Assets リポジトリ](./admin/configure-aem-repositories.md)
