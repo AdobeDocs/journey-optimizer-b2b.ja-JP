@@ -294,4 +294,4 @@ Marketo Engageの [&#x200B; 静的リスト &#x200B;](https://experienceleague.a
 
 ## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443246/?captions=jpn&learn=on)
