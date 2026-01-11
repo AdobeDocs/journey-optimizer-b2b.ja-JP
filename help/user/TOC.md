@@ -131,7 +131,7 @@ ht-degree: 80%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}

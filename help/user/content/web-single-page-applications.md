@@ -78,7 +78,7 @@ SPA 用の web エクスペリエンスを作成する際は、次のベスト�
 
 ### ターゲット固有のビュー
 
-* [web チャネル設定 ](../admin/configure-channels-web.md) で、SPA ルーティング構造に合わせて URL マッチングルールを設定します。
+* [web チャネル設定 &#x200B;](../admin/configure-channels-web.md) で、SPA ルーティング構造に合わせて URL マッチングルールを設定します。
 
 * 変更を作成する際に、変更を適用するビューを指定します。
 
