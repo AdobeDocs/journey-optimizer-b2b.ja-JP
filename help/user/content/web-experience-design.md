@@ -23,7 +23,7 @@ Web エクスペリエンスをデザインする前に、次の要件が満た�
 
 * 製品管理者は、1 つ以上の web チャネルを設定して、web エクスペリエンスに含める URL （ページ）を定義しています。 詳しくは、「[Web チャネル設定 &#x200B;](../admin/configure-channels-web.md)」を参照してください。
 
-* Web サイトには、訪問者の特定とコンテンツ配信のために [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されています。 Adobe Experience Platform Web SDK バージョン 2.16 以降が必要です。
+* Web サイトには、訪問者の特定とコンテンツ配信のために [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されています。 Adobe Experience Platform Web SDK バージョン 2.16 以降が必要です。
 
 * ジャーニーで web エクスペリエンスを作成および管理するために必要な [&#x200B; 権限 &#x200B;](../admin/user-management.md#b2b-product-permissions) を持っている。
    * _[!UICONTROL キャンペーン]_/_[!UICONTROL キャンペーンの管理]_ - web パーソナライゼーションアクションノードを追加または更新するために必要です。
