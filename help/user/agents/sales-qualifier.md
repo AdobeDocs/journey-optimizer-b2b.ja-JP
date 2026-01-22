@@ -3,9 +3,9 @@ title: 販売修飾子
 description: Sales Qualifier による B2B 見込み客の選定とアウトリーチを自動化します。 AI を活用した研究、電子メールのドラフト作成、CRM の統合、BDR のエンゲージメントプランを提供します。
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
+source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -24,17 +24,17 @@ Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimize
 
 次のビデオでは、Sales Qualifier とAccount Qualification Agentの短いデモを示しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476562?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 営業修飾子は [!UICONTROL Journey Optimizer B2B edition] に含まれていますが、Experience Platform Experience Cloud内の個別のアプリです。
 
-![&#x200B; 企業 B2B 向けの BDR 見込み客の選定とアウトリーチを自動化する Sales Qualifier ダッシュボード &#x200B;](assets/home-screen.png)
+![ 企業 B2B 向けの BDR 見込み客の選定とアウトリーチを自動化する Sales Qualifier ダッシュボード ](assets/home-screen.png)
 
 ## Account Qualification Agent
 
 Account Qualification Agent（AQA）は、Sales Qualifier の中核です。 AQA は、AI を使用してアカウントを読み取り、次の手順に進む準備ができているアカウントを判断します。 調査、メールの作成、CRM の更新を支援します。
 
-![&#x200B; 見込み客とアカウント調査のための、AI を活用したAccount Qualification Agent ダッシュボード &#x200B;](assets/acc-qualification-agent.png)
+![ 見込み客とアカウント調査のための、AI を活用したAccount Qualification Agent ダッシュボード ](assets/acc-qualification-agent.png)
 
 * **見込み客調査**
 
@@ -74,15 +74,15 @@ Adobe AI エージェントは _自然言語クエリ_ を使用するので、�
 
 このウィンドウには、アクセス権のあるすべてのリードが一覧表示されます。 リードのステータスや最後のアクティビティなど、ものを簡単に確認できます。
 
-![&#x200B; リードのステータスと見込み客管理の最後のアクティビティを表示するリード テーブル &#x200B;](assets/prospects.png)
+![ リードのステータスと見込み客管理の最後のアクティビティを表示するリード テーブル ](assets/prospects.png)
 
-_フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/do-not-localize/icon_filter-outline.svg) アイコンをクリックして、表示されたリストをリードステータスでフィルタリングします。
+_フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/icon_filter-outline.svg) アイコンをクリックして、表示されたリストをリードステータスでフィルタリングします。
 
 ## エンゲージメントプラン
 
 このウィンドウには、定義済みのエンゲージメントプランの詳細が表示されます。
 
-![&#x200B; プランの詳細、選択したリード、スケジュール設定を表示するエンゲージメントプランダッシュボード &#x200B;](assets/engagement-plans.png)
+![ プランの詳細、選択したリード、スケジュール設定を表示するエンゲージメントプランダッシュボード ](assets/engagement-plans.png)
 
 新しい契約プランを作成するには、[**[!UICONTROL 契約プランの作成]**] をクリックします。
 
@@ -95,7 +95,7 @@ _フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/
 
 メールアウトボックスパネルには、送信したすべての自動メールが一覧表示されます。
 
-## 会議の予約
+## ミーティング予約
 
 このパネルには、自動化を通じて設定されたすべてのミーティングが表示されます。
 
@@ -103,7 +103,7 @@ _フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/
 
 このパネルには、すべてのチャットスレッドが表示されます。
 
-![&#x200B; 連絡先とのチャットスレッドを示すパネルとセールスオートメーション向けのスレッドの概要 &#x200B;](assets/chat-inbox.png)
+![ 連絡先とのチャットスレッドを示すパネルとセールスオートメーション向けのスレッドの概要 ](assets/chat-inbox.png)
 
 クライアントとやり取りし、連絡先とスレッドの概要を確認して、スレッドの現在の位置をすばやく把握できます。
 
@@ -114,13 +114,13 @@ _フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/
 * をメールインボックスと統合して、関連する受信メールを追跡し、返信を生成できるようにします。
 * CRM データの読み取り、更新（Salesforce、Microsoft®Dynamics、ZoomInfo、BuiltWith など）。
 
-![&#x200B; メールと連絡先の概要を示すMicrosoft Outlook との Sales Qualifier の統合 &#x200B;](assets/outlook.png)
+![ メールと連絡先の概要を示すMicrosoft Outlook との Sales Qualifier の統合 ](assets/outlook.png)
 
 ### 新しい統合の設定
 
 新しい統合を開始するには、右上の **[!UICONTROL 統合を作成]** をクリックします。
 
-![URL、HTTP メソッド、ヘッダーおよび認証オプションを表示する統合設定フォーム &#x200B;](assets/integration-details.png)
+![URL、HTTP メソッド、ヘッダーおよび認証オプションを表示する統合設定フォーム ](assets/integration-details.png)
 
 統合の URL を定義し、送信するペイロードを確立します。
 
@@ -171,13 +171,13 @@ _フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/
 
 「**[!UICONTROL 詳細]**」タブでは、自分自身に関する情報を入力できます。
 
-![&#x200B; 代表者の個人情報、メールおよびチャットの利用可能設定を表示する「詳細」タブ &#x200B;](assets/details.png)
+![ 代表者の個人情報、メールおよびチャットの利用可能設定を表示する「詳細」タブ ](assets/details.png)
 
 ### メールの設定
 
 「**[!UICONTROL メール設定]**」タブで、メール接続を設定します。
 
-![&#x200B; メール接続オプションとメール署名設定を表示する「メール設定」タブ &#x200B;](assets/email-settings.png)
+![ メール接続オプションとメール署名設定を表示する「メール設定」タブ ](assets/email-settings.png)
 
 * **[!UICONTROL メール接続]** - 「**[!UICONTROL 接続]**」をクリックし、Microsoftのログイン手順に従います。
 
@@ -187,7 +187,7 @@ _フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/
 
 「**[!UICONTROL カレンダー設定]**」タブで、タイムゾーンと空き時間を設定します。
 
-![&#x200B; タイムゾーンと空き時間のオプションを表示する「カレンダー設定」タブ &#x200B;](assets/calendar-settings.png)
+![ タイムゾーンと空き時間のオプションを表示する「カレンダー設定」タブ ](assets/calendar-settings.png)
 
 * **[!UICONTROL カレンダー接続]** - 「**[!UICONTROL 接続]**」をクリックし、Microsoftのログイン手順に従ってカレンダーを統合します。
 
@@ -199,7 +199,7 @@ _フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/
 
 **[!UICONTROL チャット設定]** タブで、タイムゾーンライブチャットの利用可能性を設定します。
 
-![&#x200B; タイムゾーンとライブチャットの可用性を設定するための「チャット設定」タブ &#x200B;](assets/chat-settings.png)
+![ タイムゾーンとライブチャットの可用性を設定するための「チャット設定」タブ ](assets/chat-settings.png)
 
 ## 代表者の管理
 
@@ -209,17 +209,18 @@ _[!UICONTROL 代表者管理]_ パネルには、定義された代表者とそ�
 
 このパネルには、完了したミーティングに関する分析が表示されます。
 
-## Chrome プラグインの設定
+<!-- SHPHR-24341 remove section 
+## Set up the Chrome plugin
 
-AI Assistant Chrome プラグインは、[Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en) で入手できます。
+The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
-プラグインをChromeにインストールすると、統合サイトで操作している際にAdobe ロゴが右中央に表示されます。
+When the plugin is installed in Chrome, the Adobe logo appears on the middle right when you are on an integrated site:
 
-* Adobe web アプリケーション
+* Adobe web applications
 * Salesforce
 * Outlook
-* Microsoft Dynamicsと web アプリケーション
-* Google アプリケーション
+* Microsoft Dynamics and web applications
+* Google applications -->
 
 ## 左側のナビゲーションバーの編集
 
