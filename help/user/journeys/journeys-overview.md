@@ -219,4 +219,4 @@ Journey Optimizer B2B editionでは、次の 2 つのジャーニータイプを
 
 ## アカウントジャーニーの概要ビデオ {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443208/?captions=jpn&learn=on)

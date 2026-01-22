@@ -165,4 +165,4 @@ _ジャーニーマップ_ は、ジャーニーワークスペースの中央�
 
 ## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443220/?captions=jpn&learn=on)
