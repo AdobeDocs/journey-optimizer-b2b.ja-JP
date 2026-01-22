@@ -20,7 +20,7 @@ Journey Optimizer B2B editionでは、次の 2 つのジャーニータイプを
 
 * **アカウントジャーニー** – 需要発生と購入グループの選定を合理化し、獲得、アップセル/クロスセル、保持の各プログラムに対するより適格な需要を推進します。 メール、SMS、イベントなどを通じて自動化されたエンゲージメントを使用して、各購買グループと、購買グループのメンバーに合わせてジャーニーを調整します。
 
-  ![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"}[ アカウントジャーニーの概要ビデオをご覧ください ](#overview-video)
+  ![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"}[&#x200B; アカウントジャーニーの概要ビデオをご覧ください &#x200B;](#overview-video)
 
 * **ユーザージャーニー** - （Beta）Experience Platformのオーディエンスとデータを使用してリードベースのマーケティングを調整します。 ユーザージャーニーを使用すると、B2B のユースケースに対応できるように、Adobe Campaign/B2C ツールチェーンのMarketo Engageや回避策にマーケティング運営が依存しなくなりました。
 
@@ -72,7 +72,7 @@ Journey Optimizer B2B editionでは、次の 2 つのジャーニータイプを
 
 リストの上部にある _検索_ ツールにテキストを入力して、表示されるリストを名前でフィルタリングします。
 
-![ 人物ジャーニーリストのフィルタリング ](./assets/person-journeys-list-search-filter.png){width="800" zoomable="yes"}
+![&#x200B; 人物ジャーニーリストのフィルタリング &#x200B;](./assets/person-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -84,18 +84,18 @@ Journey Optimizer B2B editionでは、次の 2 つのジャーニータイプを
 * [!UICONTROL ステータス]
 * [!UICONTROL 作成日]
 * [!UICONTROL 作成者]
-* [!UICONTROL  最終更新日 ]
+* [!UICONTROL &#x200B; 最終更新日 &#x200B;]
 * [!UICONTROL 最終更新者]
 * [!UICONTROL 公開日]
 * [!UICONTROL 公開者]
-* [!UICONTROL  開始日 ]
-* [!UICONTROL  終了日 ]
+* [!UICONTROL &#x200B; 開始日 &#x200B;]
+* [!UICONTROL &#x200B; 終了日 &#x200B;]
 
 列見出しをクリックすると、_[!UICONTROL ステータス]_、_[!UICONTROL 作成日]_ または _[!UICONTROL 最終更新]_ でリストを並べ替えることができます。
 
-テーブルに表示される列をカスタマイズ（表示/非表示）するには、右上隅にある _テーブルをカスタマイズ_ （![ テーブルをカスタマイズ ](../assets/do-not-localize/icon-column-settings.svg)）アイコンをクリックします。 ダイアログのチェックボックスをオンまたはオフにして、「**[!UICONTROL 適用]**」をクリックします。
+テーブルに表示される列をカスタマイズ（表示/非表示）するには、右上隅にある _テーブルをカスタマイズ_ （![&#x200B; テーブルをカスタマイズ &#x200B;](../assets/do-not-localize/icon-column-settings.svg)）アイコンをクリックします。 ダイアログのチェックボックスをオンまたはオフにして、「**[!UICONTROL 適用]**」をクリックします。
 
-![ ジャーニーリストに表示する列を選択 ](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
+![&#x200B; ジャーニーリストに表示する列を選択 &#x200B;](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
 ### ジャーニーステータス
 
@@ -103,11 +103,11 @@ Journey Optimizer B2B editionでは、次の 2 つのジャーニータイプを
 
 | ステータス | 説明 | 使用可能なアクション |
 | ------ | ----------- | ----------------- |
-| _**ドラフト**_ | 編集可能な非公開のジャーニー。 | <li>[公開](./create-publish-journey.md#publish-a-journey)<li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
-| _**ライブ**_ | ジャーニーが公開されると、ジャーニーのステータスが _ドラフト_ から _ライブ_ に変わります。 この状態では、編集できなくなります。 | <li>[複製](#duplicate-journey)<li>[新規エントリに対してクローズ](#close-to-new-entries) <li>[中止](#abort-journey) |
-| _**新規エントリに対してクローズ済み**_ | 上部のナビゲーションで「[!UICONTROL 新規エントリに対してクローズ]」をクリックすると、ジャーニーのステータスが&#x200B;_ライブ_&#x200B;から&#x200B;_新規エントリに対してクローズ済み_&#x200B;に変更されます。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
-| _**中止**_ | ジャーニーを中止すると、ジャーニーのステータスが&#x200B;_ライブ_&#x200B;または&#x200B;_新規エントリに対してクローズ済み_&#x200B;に変更されます。中止したジャーニーは再起動できません。 | <li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
-| _**終了**_ | ジャーニー内のすべてのアカウントまたは人物オーディエンスメンバーがジャーニーを完了すると、ステータスが _ライブ_ または _新しいエントリにクローズ済み_ から _完了_ に変わります。 | <li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
+| _&#x200B;**ドラフト**&#x200B;_ | 編集可能な非公開のジャーニー。 | <li>[公開](./create-publish-journey.md#publish-a-journey)<li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
+| _&#x200B;**ライブ**&#x200B;_ | ジャーニーが公開されると、ジャーニーのステータスが _ドラフト_ から _ライブ_ に変わります。 この状態では、編集できなくなります。 | <li>[複製](#duplicate-journey)<li>[新規エントリに対してクローズ](#close-to-new-entries) <li>[中止](#abort-journey) |
+| _&#x200B;**新規エントリに対してクローズ済み**&#x200B;_ | 上部のナビゲーションで「[!UICONTROL 新規エントリに対してクローズ]」をクリックすると、ジャーニーのステータスが&#x200B;_ライブ_&#x200B;から&#x200B;_新規エントリに対してクローズ済み_&#x200B;に変更されます。 | <li>[複製](#duplicate-journey) <li>[中止](#abort-journey) |
+| _&#x200B;**中止**&#x200B;_ | ジャーニーを中止すると、ジャーニーのステータスが&#x200B;_ライブ_&#x200B;または&#x200B;_新規エントリに対してクローズ済み_&#x200B;に変更されます。中止したジャーニーは再起動できません。 | <li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
+| _&#x200B;**終了**&#x200B;_ | ジャーニー内のすべてのアカウントまたは人物オーディエンスメンバーがジャーニーを完了すると、ステータスが _ライブ_ または _新しいエントリにクローズ済み_ から _完了_ に変わります。 | <li>[複製](#duplicate-journey) <li>[削除](#delete-journey) |
 
 ## ジャーニーマップ
 
@@ -119,9 +119,9 @@ Journey Optimizer B2B editionでは、次の 2 つのジャーニータイプを
 
 * ジャーニー名
 * ジャーニー名の編集ツール（![編集アイコン](../assets/do-not-localize/icon-edit.svg) 「_編集_」アイコン）
-* ジャーニーの [ ステータス ](#journey-status)
+* ジャーニーの [&#x200B; ステータス &#x200B;](#journey-status)
 
-ジャーニーマップから、[ ノードを追加 ](./create-publish-journey.md#add-a-node) および [ ジャーニーフローを定義 ](./create-publish-journey.md#add-and-delete-a-path) できます。
+ジャーニーマップから、[&#x200B; ノードを追加 &#x200B;](./create-publish-journey.md#add-a-node) および [&#x200B; ジャーニーフローを定義 &#x200B;](./create-publish-journey.md#add-and-delete-a-path) できます。
 
 ## ジャーニーアクション
 
