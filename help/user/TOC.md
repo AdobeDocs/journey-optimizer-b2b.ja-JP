@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
+source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 80%
+source-wordcount: '398'
+ht-degree: 79%
 
 ---
 
@@ -27,12 +27,13 @@ ht-degree: 80%
       + [Audience Agent](./agents/audience-agent-b2b.md)
       + [ジャーニー ビルド エージェント B2B](./agents/journey-agent.md)
       + [販売修飾子](./agents/sales-qualifier.md)
-+ アカウントジャーニー {#account-journeys}
-   + [概要](./journeys/journey-overview.md)
++ ジャーニー管理 {#journeys}
+   + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
    + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
    + [ジャーニーノード](./journeys/journey-nodes.md)
    + ジャーニーノード {#journey-nodes}
       + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
+      + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
       + [アクションの実行](./journeys/action-nodes.md)
       + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
       + [パスの分割と結合](./journeys/split-merge-paths-nodes.md)
@@ -131,7 +132,7 @@ ht-degree: 80%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}

@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について説明します。新機能や製品の改善点に関するアップデートを常に提供します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eabef3060f200d35c6914bc8fecfa8e0960d745d
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 91%
@@ -26,7 +26,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | ----- | ------ | ----------- |
 | Journey Build Agent | 新規 | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。[詳細情報](../agents/journey-agent.md) |
 | Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。[詳細情報](../agents/audience-agent-b2b.md) |
-| 販売修飾子 | 新規 | Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客の選定、アウトリーチ、購入者のエンゲージメントワークフローを自動化します [&#x200B; 詳細情報 &#x200B;](../agents/sales-qualifier.md)。 |
+| 販売修飾子 | 新規 | Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客の選定、アウトリーチ、購入者のエンゲージメントワークフローを自動化します [ 詳細情報 ](../agents/sales-qualifier.md)。 |
 
 ## 2025.10 リリースノート
 
@@ -63,7 +63,7 @@ Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチ�
 
 >[!NOTE]
 >
->環境がこのアーキテクチャでプロビジョニングされている場合は、[&#x200B; 設定のガイドライン &#x200B;](../simplified-architecture.md) を確認してください。
+>環境がこのアーキテクチャでプロビジョニングされている場合は、[ 設定のガイドライン ](../simplified-architecture.md) を確認してください。
 
 シンプルなアーキテクチャにより、2025.10 リリースでは次の新機能と機能強化が提供されます。
 
@@ -178,7 +178,7 @@ Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | アカウントジャーニーを複製 | アカウントジャーニーで複製アクションが使用できるようになりました。アカウントジャーニーの詳細を複製するか、フローとパス構造のシンプルなスケルトンのみを複製できます。<a href="../journeys/journey-overview.md#duplicate-journey">詳細情報</a> |
+| 機能 | アカウントジャーニーを複製 | アカウントジャーニーで複製アクションが使用できるようになりました。アカウントジャーニーの詳細を複製するか、フローとパス構造のシンプルなスケルトンのみを複製できます。<a href="../journeys/journeys-overview.md#duplicate-journey">詳細情報</a> |
 | 機能 | アカウントジャーニーのマイトークン | アカウントジャーニーに固有の値を持つカスタムトークンのセットを定義できるようになりました。このカスタムトークンのセットは&#x200B;_マイトークン_&#x200B;と呼ばれ、これらのカスタムトークンはすべて、ジャーニーメールのオーサリング時にパーソナライゼーション用に使用されます。<a href="../content/personalization-my-tokens.md">詳細情報</a> |
 | 機能 | 購買グループのステージを削除 | 購買グループステージモデルは、ドラフト状態または公開済みの状態の場合に削除できます。公開済み（ライブ）の場合は、ソリューションに対する関心に関連付けられていない場合にのみ削除できます。<a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">詳細情報</a> |
 | 機能強化 | ジャーニーノードの数 | ノードレベルでの公開済みジャーニーメンバーシップの数に対する表示が向上しました。_ジャーニーマップ_&#x200B;では、ノードに&#x200B;_[!UICONTROL 入力済み合計アカウント数]_&#x200B;が表示されます。アクションノードを選択すると、右側の詳細には&#x200B;_[!UICONTROL まだアクションが実行されていないアカウント]_&#x200B;も含まれます。_イベントをリッスン_&#x200B;ノードの詳細には、_[!UICONTROL このステップのアカウント]_&#x200B;が含まれます。この情報を使用して、ライブ、完了、中止の各ジャーニーでのアカウントの進行状況を検証します。 |
@@ -192,7 +192,7 @@ Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチ�
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
 | 機能 | カスタマイズ可能なフィールド - コンテンツフラグメント | ビジュアルフラグメントのデザイン中に、フラグメント内のコンポーネントのパラメーターを編集可能として指定できます。この機能により、メールまたはテンプレートの作成者は、必要に応じたカスタムフィールド値を指定できます。このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。<a href="../content/fragment-authoring.md#enable-fragment-customization">詳細情報</a> |
-| 機能 | ジャーニーの複製タイプ | アカウントジャーニーを複製する際に、Journey Optimizer B2B Edition で作成したメールと SMS メッセージを除く、ノードの詳細を含めることができます。代わりに、ノードの詳細と設定を除いた構造とパスフローのスケルトンコピーを作成できます。<a href="../journeys/journey-overview.md#duplicate-journey">詳細情報</a> |
+| 機能 | ジャーニーの複製タイプ | アカウントジャーニーを複製する際に、Journey Optimizer B2B Edition で作成したメールと SMS メッセージを除く、ノードの詳細を含めることができます。代わりに、ノードの詳細と設定を除いた構造とパスフローのスケルトンコピーを作成できます。<a href="../journeys/journeys-overview.md#duplicate-journey">詳細情報</a> |
 | 機能強化 | 4 個の追加のサンプルメールテンプレート | サンプルメールテンプレートライブラリには、再エンゲージメント、通知、育成、フィードバックコンテンツの例として、4 個の SecurFinacial テンプレートが含まれるようになりました。 |
 
 <!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->

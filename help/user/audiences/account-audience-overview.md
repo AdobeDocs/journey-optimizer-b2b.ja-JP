@@ -4,8 +4,8 @@ description: セグメント化を使用してアカウントオーディエン�
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: ht
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Journey Optimizer B2B Edition を使用すると、左側のナビゲーショ�
 
 ![アカウントオーディエンスへのアクセス](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
 
-## オーディエンスの作成
+## アカウントオーディエンスの作成
 
 アカウントのセグメント化を作成して、アカウントオーディエンスを定義します。Journey Optimizer B2B Edition アプリケーション内で直接アカウントのセグメント化を作成することも、[セグメントビルダー UI](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"} を使用することもできます。Journey Optimizer B2B Edition でアカウントのセグメント化を作成するために使用できる手順を以下に示します。
 
@@ -64,4 +64,4 @@ Journey Optimizer B2B Edition を使用すると、左側のナビゲーショ�
 
 1. 右上の「**[!UICONTROL 保存して閉じる]**」をクリックします。
 
-Journey Optimizer B2B Edition のアカウントオーディエンスをアクティベートするには、[アカウントジャーニーに追加](../journeys/journey-overview.md#add-the-account-audience-for-your-journey)して[ジャーニーを公開](../journeys/journey-overview.md)する必要があります。
+Journey Optimizer B2B Edition のアカウントオーディエンスをアクティベートするには、[アカウントジャーニーに追加](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey)して[ジャーニーを公開](../journeys/journeys-overview.md)する必要があります。

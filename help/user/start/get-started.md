@@ -4,7 +4,7 @@ description: 管理者およびマーケター向けオンボーディングガ�
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 93%
@@ -73,6 +73,6 @@ Adobe Journey Optimizer B2B Edition で取り扱う機能とツールは、チ�
 
    * ジャーニーマップでは、複数のステップのユースケースを作成し、条件を追加して、パーソナライズされたメッセージを送信します。
 
-[詳細情報](../journeys/journey-overview.md)
+[詳細情報](../journeys/journeys-overview.md)
 
 >[!ENDTABS]
