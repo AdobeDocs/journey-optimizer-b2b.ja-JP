@@ -24,7 +24,7 @@ Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimize
 
 次のビデオでは、Sales Qualifier とAccount Qualification Agentの短いデモを示しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476562?captions=jpn)
 
 営業修飾子は [!UICONTROL Journey Optimizer B2B edition] に含まれていますが、Experience Platform Experience Cloud内の個別のアプリです。
 
