@@ -3,10 +3,10 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について説明します。新機能や製品の改善点に関するアップデートを常に提供します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
 workflow-type: tm+mt
-source-wordcount: '3841'
-ht-degree: 91%
+source-wordcount: '4087'
+ht-degree: 86%
 
 ---
 
@@ -24,9 +24,29 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 
 | エージェント | 更新 | 説明 |
 | ----- | ------ | ----------- |
-| Journey Build Agent | 新規 | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。[詳細情報](../agents/journey-agent.md) |
+| Journey Build Agent | 新規および更新 | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。[詳細情報](../agents/journey-agent.md) |
 | Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。[詳細情報](../agents/audience-agent-b2b.md) |
-| 販売修飾子 | 新規 | Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客の選定、アウトリーチ、購入者のエンゲージメントワークフローを自動化します [&#x200B; 詳細情報 &#x200B;](../agents/sales-qualifier.md)。 |
+| 販売修飾子 | 新規 | Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客の選定、アウトリーチ、購入者のエンゲージメントワークフローを自動化します [ 詳細情報 ](../agents/sales-qualifier.md)。 |
+
+## 2026.1 リリースノート
+
+**デプロイメント日**：2025年2月3日（PT）
+
+| タイプ | 項目 | 説明 |
+| ---- | ---- | ----------- |
+| 機能 | ブランドキット | （Beta）Journey Optimizer B2B editionでブランドを定義し、クリエイティブチームが視覚的なコンテンツや書き込みコンテンツを作成する際に使用する情報源を提供します。 これらのガイドラインがコンパイルされ、ブランドアセットが共有されると、チームメンバーや共同作業者は製品のオンブランドコンテンツを作成できます。 |
+| 機能 | メールコンテンツ生成用のブランド | ブランドガイドラインを定義し、この情報を使用してメールコンテンツを生成できます。 この機能を使用すると、メールコンテンツを、ブランド固有のコピーライティングのガイドライン、スタイルおよびトーンと調整できます。 |
+| 機能強化 | ジャーニー&#x200B;_待機_ ノード – 詳細設定 | ジャーニーの _待機_ ノードで、終了日時を指定して、タイムゾーンを選択できるようになりました。 この機能強化により、ジャーニーオーケストレーションとキャンペーンのタイミングをより詳細に制御できます。 |
+| 機能強化 | 購買グループ フィルターのメンバー – が削除されました | _ユーザー別に分割パス_ ノードの場合、_[!UICONTROL 購入グループのメンバー]_ フィルターに _削除済み_ 制約が含まれるようになりました。 選択すると、フィルターに削除された購入グループメンバーを含めたり、除外したりできます。 また、Marketo Engageのスマートリストでもサポートされており、この新しい制約を _[!UICONTROL 購入グループのメンバー]_ フィルターで使用できます。 |
+| 機能強化 | メールデザイン – 複数レベルの箇条書き | メールコンテンツデザインのスペースツールで、サブ箇条書き（箇条書きレベル）がサポートされるようになりました。 |
+
+<!--
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
+| -->
+
+>[!NOTE]
+>
+>以下のリリースの変更は、2025年2月3日（PT）にデプロイメントを開始し、各機能が段階的にロールアウトされます。機能および機能強化のリリース日は変更される場合があります。
 
 ## 2025.10 リリースノート
 
@@ -63,7 +83,7 @@ Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチ�
 
 >[!NOTE]
 >
->環境がこのアーキテクチャでプロビジョニングされている場合は、[&#x200B; 設定のガイドライン &#x200B;](../simplified-architecture.md) を確認してください。
+>環境がこのアーキテクチャでプロビジョニングされている場合は、[ 設定のガイドライン ](../simplified-architecture.md) を確認してください。
 
 シンプルなアーキテクチャにより、2025.10 リリースでは次の新機能と機能強化が提供されます。
 
