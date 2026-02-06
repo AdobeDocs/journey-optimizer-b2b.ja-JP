@@ -3,7 +3,7 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について説明します。新機能や製品の改善点に関するアップデートを常に提供します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
+source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
 workflow-type: tm+mt
 source-wordcount: '4087'
 ht-degree: 86%
@@ -26,11 +26,11 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | ----- | ------ | ----------- |
 | Journey Build Agent | 新規および更新 | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。[詳細情報](../agents/journey-agent.md) |
 | Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。[詳細情報](../agents/audience-agent-b2b.md) |
-| 販売修飾子 | 新規 | Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客の選定、アウトリーチ、購入者のエンゲージメントワークフローを自動化します [&#x200B; 詳細情報 &#x200B;](../agents/sales-qualifier.md)。 |
+| 販売修飾子 | 新規 | Sales Qualifier は、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionの AI 駆動型アドオンアプリケーションで、事業開発担当者（BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客の選定、アウトリーチ、購入者のエンゲージメントワークフローを自動化します [ 詳細情報 ](../agents/sales-qualifier.md)。 |
 
 ## 2026.1 リリースノート
 
-**デプロイメント日**：2025年2月3日（PT）
+**デプロイメント日**：2026年2月3日（PT）
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
@@ -46,7 +46,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 
 >[!NOTE]
 >
->以下のリリースの変更は、2025年2月3日（PT）にデプロイメントを開始し、各機能が段階的にロールアウトされます。機能および機能強化のリリース日は変更される場合があります。
+>以下のリリースの変更は、2026年2月3日（PT）にデプロイメントを開始し、各機能が段階的にロールアウトされます。機能および機能強化のリリース日は変更される場合があります。
 
 ## 2025.10 リリースノート
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチ�
 
 >[!NOTE]
 >
->環境がこのアーキテクチャでプロビジョニングされている場合は、[&#x200B; 設定のガイドライン &#x200B;](../simplified-architecture.md) を確認してください。
+>環境がこのアーキテクチャでプロビジョニングされている場合は、[ 設定のガイドライン ](../simplified-architecture.md) を確認してください。
 
 シンプルなアーキテクチャにより、2025.10 リリースでは次の新機能と機能強化が提供されます。
 
