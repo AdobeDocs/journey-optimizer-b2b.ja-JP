@@ -4,9 +4,9 @@ description: Journey Optimizer B2B editionで、パーソナライズされた�
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1264'
 ht-degree: 13%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 条件付きコンテンツを使用すると、条件付きルールに基づいてメールコンテンツとフラグメントコンテンツを適応させることができます。 これらのルールは、プロファイル属性またはコンテキストイベントを使用して定義されます。 ルールビルダーで条件付きルールを作成し、アカウントジャーニーをまたいで再利用するのに保存できます。
 
-条件付きコンテンツをフラグメントとメールメッセージに追加するために、Adobe Journey Optimizerでは _条件_ ライブラリに保存されている条件付きルールを適用できます。 [&#x200B; アカウントジャーニーのメールコンテンツ &#x200B;](./email-authoring.md) または [&#x200B; ビジュアルフラグメント &#x200B;](./fragment-authoring.md) を作成する際に、ビジュアルデザインスペース内で条件付きルールを適用します。
+条件付きコンテンツをフラグメントとメールメッセージに追加するために、Adobe Journey Optimizerでは _条件_ ライブラリに保存されている条件付きルールを適用できます。 [ アカウントジャーニーのメールコンテンツ ](./email-authoring.md) または [ ビジュアルフラグメント ](./fragment-authoring.md) を作成する際に、ビジュアルデザインスペース内で条件付きルールを適用します。
 
 ## 条件付きコンテンツを追加 {#email-fragment-content}
 
@@ -35,45 +35,45 @@ ht-degree: 13%
 
    このコンポーネントは、条件付きコンポーネントとしてアクティブであることを示すために、オレンジで囲まれます。 **[!UICONTROL 条件付きコンテンツ]** パネルが、左側に _デフォルトバリアント_ と _バリアント - 1_ と共に表示されます。
 
-   ![&#x200B; テキストコンポーネントの条件付きコンテンツを有効にする &#x200B;](./assets/conditions-enable.png){width="700" zoomable="yes"}
+   ![ テキストコンポーネントの条件付きコンテンツを有効にする ](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
    デフォルトは、選択してアクティベートした元のコンテンツで、定義したバリアントの条件ルールに適合する条件ルールがない場合に適用されます。
 
    このパネルでは、条件付きルールを使用して、選択したコンテンツコンポーネントに複数のバリアントを定義できます。
 
-1. 最初のバリアント（_バリアント - 1_）にポインタを合わせ、「_条件を選択_」アイコン（![&#x200B; 条件アイコン &#x200B;](../assets/do-not-localize/icon-select-condition.svg)）をクリックします。
+1. 最初のバリアント（_バリアント - 1_）にポインタを合わせ、「_条件を選択_」アイコン（![ 条件アイコン ](../assets/do-not-localize/icon-select-condition.svg)）をクリックします。
 
-   ![&#x200B; バリアントの条件を選択 &#x200B;](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
+   ![ バリアントの条件を選択 ](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
    _[!UICONTROL 条件を選択]_ ダイアログが開き、条件ライブラリが表示されます。
 
    条件の詳細を表示して目的に合わせるには、_詳細メニュー_ アイコン（**...**）をクリックし、「**[!UICONTROL 情報を表示]**」を選択します。
 
-   ![&#x200B; 条件ライブラリアクセス条件の詳細 &#x200B;](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
+   ![ 条件ライブラリアクセス条件の詳細 ](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   必要な条件が存在しない場合は、「新規作成 [&#x200B; をクリックして &#x200B;](#create-condition) 条件付きルールを作成 **[!UICONTROL します]**。
+   必要な条件が存在しない場合は、「新規作成 [ をクリックして ](#create-condition) 条件付きルールを作成 **[!UICONTROL します]**。
 
 1. 条件付きルールを選択し、「**[!UICONTROL 選択]** をクリックして、バリアントに関連付けます。
 
    関連する条件を確認するには、バリアントの _その他メニュー_ アイコン（**...**）をクリックし、「**[!UICONTROL 条件を表示]**」を選択します。
 
-   ![&#x200B; バリアントに関連付けられた条件を表示 &#x200B;](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
+   ![ バリアントに関連付けられた条件を表示 ](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    右上の X をクリックして、ポップアップを閉じます。
 
-   ![&#x200B; 関連付けられた条件の詳細を表示 &#x200B;](./assets/conditions-info-popup.png){width="500"}
+   ![ 関連付けられた条件の詳細を表示 ](./assets/conditions-info-popup.png){width="500"}
 
 1. 読みやすくするために、バリアントの _その他メニュー_ アイコン（**...**）をクリックし、「名前を変更 **[!UICONTROL を選択して、バリアントの名前を変更し]** す。
 
    バリアントとその目的を識別するのに役立つ、バリアントにわかりやすい名前を入力します。
 
-   ![&#x200B; バリアントの名前を変更 &#x200B;](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
+   ![ バリアントの名前を変更 ](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. 左側のペインでバリアントを選択した状態で、条件が true の場合にメールメッセージに表示される方法を変更するように、コンポーネントを変更します。
 
    この例では、テキストコンポーネントのバリアントが、受信者の地域に基づいて異なる説明を使用しています。
 
-   ![&#x200B; バリアントのコンポーネントを変更 &#x200B;](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
+   ![ バリアントのコンポーネントを変更 ](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、「**[!UICONTROL バリアントを追加]**」をクリックして別のバリアントを定義します。
 
@@ -105,10 +105,10 @@ ht-degree: 13%
 | 条件タイプ | フィルター | 説明 |
 | -------------- | ------- | ----------- |
 | **アカウント** | アカウント属性 | アカウントプロファイルからの属性。次のものが含まれます。 <li>年間売上高</li><li>市区町村</li><li>国</li><li>従業員数</li><li>業界</li><li>名前</li><li>SIC コード</li><li>State</li> |
-| | [!UICONTROL &#x200B; 特殊フィルター &#x200B;] > [!UICONTROL &#x200B; 購入グループあり &#x200B;] | アカウントに購買グループのメンバーがいないか、メンバーがいません。 フィルターは、次の 1 つ以上の条件に照らして評価することもできます。 <li>ソリューションの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li> |
-| **顧客** | [!UICONTROL &#x200B; アクティビティ履歴 &#x200B;] > [!UICONTROL &#x200B; メール &#x200B;] | ジャーニーに関連付けられたメールアクティビティ： <li>[!UICONTROL &#x200B; メール内のクリックされたリンク &#x200B;]</li><li>メール開封済み</li><li>メール配信済み</li><li>メールを送信済み</li> これらの条件は、ジャーニーの前半で選択したメールメッセージを使用して評価されます。 |
-|  | [!UICONTROL &#x200B; 人物の属性 &#x200B;] | ユーザープロファイルからの属性。以下が含まれます。 <li>市区町村</li><li>国</li><li>生年月日</li><li>メールアドレス</li><li>メール無効</li><li>メール中断済み</li><li>名</li><li>推測される都道府県 / 地域</li><li>役職</li><li>姓</li><li>携帯電話番号</li><li>電話番号</li><li>郵便番号</li><li>ステート</li><li>登録解除</li><li>登録解除の理由</li> |
-| | [!UICONTROL &#x200B; 特殊フィルター &#x200B;] > [!UICONTROL &#x200B; 購買グループのメンバー &#x200B;] | 次の 1 つ以上の条件に照らして評価された、その人物は購買グループ・メンバーであるか、そうでないメンバーである： <li>ソリューションの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>役割</li> |
+| | [!UICONTROL  特殊フィルター ] > [!UICONTROL  購入グループあり ] | アカウントに購買グループのメンバーがいないか、メンバーがいません。 フィルターは、次の 1 つ以上の条件に照らして評価することもできます。 <li>ソリューションの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li> |
+| **顧客** | [!UICONTROL  アクティビティ履歴 ] > [!UICONTROL  メール ] | ジャーニーに関連付けられたメールアクティビティ： <li>[!UICONTROL  メール内のクリックされたリンク ]</li><li>メール開封済み</li><li>メール配信済み</li><li>メールを送信済み</li> これらの条件は、ジャーニーの前半で選択したメールメッセージを使用して評価されます。 |
+|  | [!UICONTROL  人物の属性 ] | ユーザープロファイルからの属性。以下が含まれます。 <li>市区町村</li><li>国</li><li>生年月日</li><li>メールアドレス</li><li>メール無効</li><li>メール中断済み</li><li>名</li><li>推測される都道府県 / 地域</li><li>役職</li><li>姓</li><li>携帯電話番号</li><li>電話番号</li><li>郵便番号</li><li>ステート</li><li>配信停止完了</li><li>登録解除の理由</li> |
+| | [!UICONTROL  特殊フィルター ] > [!UICONTROL  購買グループのメンバー ] | 次の 1 つ以上の条件に照らして評価された、その人物は購買グループ・メンバーであるか、そうでないメンバーである： <li>ソリューションの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>が削除されました</li><li>役割</li> |
 
 ### 条件付きルールの作成 {#create-condition}
 
@@ -124,13 +124,13 @@ ht-degree: 13%
    * **[!UICONTROL 人物条件]** – このタイプを選択すると、人物属性とコンテキストイベントを使用して条件付きルールを作成できます。
    * **[!UICONTROL アカウント条件]** - アカウント属性を使用して条件付きルールを作成する場合に選択します。
 
-   ![&#x200B; 作成する条件タイプを選択 &#x200B;](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
+   ![ 作成する条件タイプを選択 ](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、条件付きルールを作成します。
 
    ルールに含める属性またはイベントごとに、項目をルールキャンバスにドラッグ&amp;ドロップします。 フィルターを展開し、式を入力します。
 
-   ![&#x200B; 評価する式を入力 &#x200B;](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
+   ![ 評価する式を入力 ](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
 
    複数のフィルターを含める場合は、**[!UICONTROL フィルターロジック]** を設定します。
 
@@ -141,7 +141,7 @@ ht-degree: 13%
 
    別の重複条件を作成する代わりに再利用できるように、意味のある名前や、組織内の他のユーザーにとって役に立つ説明を使用します。
 
-   ![&#x200B; 条件付きルールの名前と説明を追加 &#x200B;](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
+   ![ 条件付きルールの名前と説明を追加 ](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
 
 1. 条件付きルールが完成したら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -155,7 +155,7 @@ ht-degree: 13%
 
    ルールビルダーでルールの複製が開きます。 複製を、作成するルールの出発点として使用します。
 
-   ![&#x200B; 重複するルールを使用して、必要なルールを作成する &#x200B;](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
+   ![ 重複するルールを使用して、必要なルールを作成する ](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
 
 1. ルールビルダーで、必要に応じて条件を変更、追加または削除します。
 
