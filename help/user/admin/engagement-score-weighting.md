@@ -13,13 +13,13 @@ ht-degree: 1%
 
 # カスタムエンゲージメントスコアの重み付けの設定
 
-[ 購入グループエンゲージメントスコア ](../buying-groups/engagement-scores.md) は、購入グループのメンバーに対して記録された様々なアクティビティを評価することで、エンゲージメントレベルを反映します。 カスタムスコアの重み付けを使用すると、マーケティングオペレーションチームは、アクティビティの重み付けに使用する独自のモデルを柔軟に定義できます。 カスタムスコアリングモデルは、セールスプロセスにおける購入意図を最も正確に伝える行動を優先することで、パイプラインをより正確に反映させます。
+[&#x200B; 購入グループエンゲージメントスコア &#x200B;](../buying-groups/engagement-scores.md) は、購入グループのメンバーに対して記録された様々なアクティビティを評価することで、エンゲージメントレベルを反映します。 カスタムスコアの重み付けを使用すると、マーケティングオペレーションチームは、アクティビティの重み付けに使用する独自のモデルを柔軟に定義できます。 カスタムスコアリングモデルは、セールスプロセスにおける購入意図を最も正確に伝える行動を優先することで、パイプラインをより正確に反映させます。
 
 管理者は、組織に対して複数のエンゲージメントスコアモデルを定義できますが、一度にアクティブ化できるモデルは 1 つだけです。 各エンゲージメントスコアリングアクティビティに適用される重み付けに応じて、スコアモデルを定義します。
 
 >[!PREREQUISITES]
 >
->エンゲージメントスコアの重み付けモデルを定義してアクティブ化するには、_[!UICONTROL B2B 管理者の設定の管理]_[ 製品権限 ](./user-management.md#b2b-product-permissions) が必要です。
+>エンゲージメントスコアの重み付けモデルを定義してアクティブ化するには、_[!UICONTROL B2B 管理者の設定の管理]_[&#x200B; 製品権限 &#x200B;](./user-management.md#b2b-product-permissions) が必要です。
 
 ## エンゲージメントスコアの重み付けモデルへのアクセス
 
@@ -29,15 +29,15 @@ _[!UICONTROL エンゲージメントスコアの重み付け]_ リストを開�
 
 1. 中間パネルの **[!UICONTROL エンゲージメントスコアの重み付け]** をクリックして、スコアリングモデルのリストを表示します。
 
-   このページから、エンゲージメントスコアモデルの [ 作成（複製） ](#create-an-engagement-score-model)、[ アクティブ化 ](#activate-a-score-model) および [ 編集 ](#change-the-engagement-weighting-settings) を実行できます。
+   このページから、エンゲージメントスコアモデルの [&#x200B; 作成（複製） &#x200B;](#create-an-engagement-score-model)、[&#x200B; アクティブ化 &#x200B;](#activate-a-score-model) および [&#x200B; 編集 &#x200B;](#change-the-engagement-weighting-settings) を実行できます。
 
-   ![ 定義済みのエンゲージメントスコアモデルへのアクセス ](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![&#x200B; 定義済みのエンゲージメントスコアモデルへのアクセス &#x200B;](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
    このリストには、最近更新されたモデルが上部に表示され（_[!UICONTROL 最終更新日]_ 順）、_[!UICONTROL 名前]_ で検索する機能が含まれています。
 
-   右上隅の _列設定_ （![ 列設定 ](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、列チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
+   右上隅の _列設定_ （![&#x200B; 列設定 &#x200B;](../assets/do-not-localize/icon-column-settings.svg)） アイコンをクリックし、列チェックボックスをオンまたはオフにすることで、表示されたテーブルをカスタマイズできます。
 
-   ![ エンゲージメントスコアの重み付けリストに表示する列 ](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   ![&#x200B; エンゲージメントスコアの重み付けリストに表示する列 &#x200B;](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. エンゲージメントスコアモデルの詳細にアクセスするには、名前をクリックします。
 
@@ -45,13 +45,13 @@ _[!UICONTROL エンゲージメントスコアの重み付け]_ リストを開�
 
 システムは、_アクティビティ重み付けモデル 1_ という名前の初期エンゲージメントスコアモデルを作成します。 モデルのステータスとエンゲージメントアクティビティは、[!DNL Journey Optimizer B2B Edition] 環境のデータアーキテクチャによって異なります。
 
-* **シンプルなアーキテクチャ** （Beta） – お使いの環境で [ シンプルなアーキテクチャ ](../simplified-architecture.md) を使用している場合、エンゲージメントアクティビティは標準およびカスタムのExperience Platform イベントに基づきます。 すべてのアクティビティの重みは、デフォルトで 0 です。
+* **シンプルなアーキテクチャ** （Beta） – お使いの環境で [&#x200B; シンプルなアーキテクチャ &#x200B;](../simplified-architecture.md) を使用している場合、エンゲージメントアクティビティは標準およびカスタムのExperience Platform イベントに基づきます。 すべてのアクティビティの重みは、デフォルトで 0 です。
 
-  ![ シンプル化されたアーキテクチャのデフォルトエンゲージメントスコアの重み付けモデル ](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
+  ![&#x200B; シンプル化されたアーキテクチャのデフォルトエンゲージメントスコアの重み付けモデル &#x200B;](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
 * **標準アーキテクチャ** – 環境で標準アーキテクチャを使用している場合、接続された [!DNL Marketo Engage] インスタンスがエンゲージメントアクティビティデータのソースになります。 カスタムバージョンを作成してアクティブ化するまで、デフォルトモデルはアクティブです。
 
-  ![ 標準アーキテクチャのデフォルトエンゲージメントスコアの重み付けモデル ](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
+  ![&#x200B; 標準アーキテクチャのデフォルトエンゲージメントスコアの重み付けモデル &#x200B;](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
 
 カスタムモデルをアクティブ化すると、アクティブなモデルのステータスが _アーカイブ済み_ に変わります。 デフォルトのエンゲージメントスコアモデルに戻す場合は、元のデフォルトモデルを複製してアクティベートするか、別のカスタムモデルの出発点として使用することができます。
 
@@ -59,7 +59,7 @@ _[!UICONTROL エンゲージメントスコアの重み付け]_ リストを開�
 
 今後アクティブ化しない場合は、ドラフトエンゲージメントスコアモデルを削除できます。 リストのドラフトスコアモデル名の横にある _その他メニュー_ （***...***）アイコンをクリックし、「**[!UICONTROL 削除]**」を選択します。
 
-![ ドラフトスコアモデルの削除 ](./assets/configuration-engagement-scoring-model-more-delete.png){width="350"}
+![&#x200B; ドラフトスコアモデルの削除 &#x200B;](./assets/configuration-engagement-scoring-model-more-delete.png){width="350"}
 
 確認ダイアログで、「**[!UICONTROL 削除]**」をクリックします。
 
@@ -69,15 +69,15 @@ _[!UICONTROL エンゲージメントスコアの重み付け]_ リストを開�
 
 1. モデル名をクリックしてモデルの詳細ページを開き、右上の「**[!UICONTROL 複製]** をクリックします。
 
-   ![ アクティブなモデルを複製 ](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
+   ![&#x200B; アクティブなモデルを複製 &#x200B;](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
 
    また、リスト内のスコアモデル名の横にある _その他メニュー_ （***...***）アイコンをクリックし、「複製 **[!UICONTROL を選択するこ]** もできます。
 
-   ![ 詳細メニューを使用して、アクティブなモデルを複製します ](./assets/configuration-engagement-scoring-model-more-duplicate.png){width="325"}
+   ![&#x200B; 詳細メニューを使用して、アクティブなモデルを複製します &#x200B;](./assets/configuration-engagement-scoring-model-more-duplicate.png){width="325"}
 
 1. _複製_ ダイアログで、複製したモデルに一意の名前を入力し、「**[!UICONTROL 複製]**」をクリックします。
 
-   ![ 確認してスコアモデルを複製 ](./assets/configuration-engagement-scoring-model-duplicate-dialog.png){width="500"}
+   ![&#x200B; 確認してスコアモデルを複製 &#x200B;](./assets/configuration-engagement-scoring-model-duplicate-dialog.png){width="500"}
 
    複製されたモデルは、「ドラフト _ステータスでリストに表示さ_ ます。 名前をクリックしてスコアモデルの詳細を開き、変更を加えます。
 
@@ -87,14 +87,14 @@ _[!UICONTROL エンゲージメントスコアの重み付け]_ リストを開�
 
 1. スコアモデルの詳細ページで、上部の **[!UICONTROL エンゲージメントの重み付けの設定]** をクリックします。
 
-   ![ エンゲージメントの重み付けの設定へのアクセス ](./assets/configuration-engagement-scoring-model-weight-settings-button.png){width="600" zoomable="yes"}
+   ![&#x200B; エンゲージメントの重み付けの設定へのアクセス &#x200B;](./assets/configuration-engagement-scoring-model-weight-settings-button.png){width="600" zoomable="yes"}
 
 1. 各ウェイト バンドに対して、必要に応じて名前または値を調整します。
 
    * 「_[!UICONTROL 重み付けバンド]_」フィールドの名前を変更します。
-   * 新しい値を入力します。**&amp;plus;** または **−** をクリックして、値を増減することもできます。
+   * 新しい値を入力します。**&plus;** または **−** をクリックして、値を増減することもできます。
 
-   ![ 差込み代の重み付けの設定 ](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
+   ![&#x200B; 差込み代の重み付けの設定 &#x200B;](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
 1. 必要に応じて、別の重み付けバンドを追加します。
 
@@ -102,7 +102,7 @@ _[!UICONTROL エンゲージメントスコアの重み付け]_ リストを開�
 
    名前を入力し、帯の値を設定します。 必ず一意の名前と値を使用してください。
 
-1. 重み付け帯を削除するには、重み付け帯行の _削除_ （![ 削除アイコン ](../assets/do-not-localize/icon-delete-outline.svg)） アイコンをクリックします。
+1. 重み付け帯を削除するには、重み付け帯行の _削除_ （![&#x200B; 削除アイコン &#x200B;](../assets/do-not-localize/icon-delete-outline.svg)） アイコンをクリックします。
 
 1. 変更が完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -141,7 +141,7 @@ _[!UICONTROL エンゲージメントスコアの重み付け]_ リストを開�
 
 リスト内の各アクティビティに対して、各アクティビティの発生に割り当てる値を設定します。 「**[!UICONTROL 重み付け]**」フィールドの下矢印をクリックし、差込み代の重み付け設定で定義されている重み付けバンドを選択します。
 
-![ アクティビティの重み付けを設定 ](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="600" zoomable="yes"}
+![&#x200B; アクティビティの重み付けを設定 &#x200B;](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="600" zoomable="yes"}
 
 エンゲージメントスコアの計算でアクティビティを使用しない場合は、重みをゼロ（0）値に設定します。
 
@@ -157,4 +157,4 @@ _[!UICONTROL エンゲージメントスコアの重み付け]_ リストを開�
 
 1. 確認ダイアログで、「**[!UICONTROL アクティベート]**」をクリックします。
 
-   ![ エンゲージメントスコアの重み付けの有効化の確認ダイアログ ](./assets/configuration-engagement-scoring-activate-dialog.png){width="400"}
+   ![&#x200B; エンゲージメントスコアの重み付けの有効化の確認ダイアログ &#x200B;](./assets/configuration-engagement-scoring-activate-dialog.png){width="400"}
