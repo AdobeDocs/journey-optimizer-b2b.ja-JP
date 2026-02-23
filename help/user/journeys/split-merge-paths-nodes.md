@@ -313,4 +313,4 @@ _結合パス_ ノードを追加して、ジャーニーの様々な _アカウ
 
 ## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443257/?captions=jpn&learn=on)
