@@ -91,7 +91,7 @@ Adobe Journey Optimizer B2B editionの最新のリリースノート、新機能
 :::
 
 :::
-![ 設定アイコン ](https://cdn.experienceleague.adobe.com/icons/gear.svg){width="25"}
+![&#x200B; 設定アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/gear.svg){width="25"}
 
 XDM フィールドの設定
 
@@ -107,8 +107,8 @@ XDM フィールドの設定
 
 パーソナライズされた顧客インタラクションのために、メール、SMS、その他のチャネルを設定および管理します。
 
-[ メールチャネルの設定 ](./admin/configure-channels-emails.md)
-[SMS チャネルの設定 ](./admin/configure-channels-sms.md)
+[&#x200B; メールチャネルの設定 &#x200B;](./admin/configure-channels-emails.md)
+[SMS チャネルの設定 &#x200B;](./admin/configure-channels-sms.md)
 :::
 
 :::
