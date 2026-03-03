@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 79%
+source-wordcount: '415'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 79%
    + [AI アシスタントへのアクセスを有効にする](./ai-assistant/enable-ai-assistant-access.md)
    + [質問ガイダンス](./ai-assistant/question-guidance.md)
    + [AI アシスタントを使用](./ai-assistant/use-ai-assistant.md)
+   + [コンテンツ用ジェネレーティブ AI](./ai-assistant/generative-ai-content.md)
    + エージェント {#ai-agents}
       + [Audience Agent](./agents/audience-agent-b2b.md)
       + [ジャーニー ビルド エージェント B2B](./agents/journey-agent.md)
@@ -116,6 +117,7 @@ ht-degree: 79%
    + ランディングページ（ベータ版） {#landing-pages}
       + [概要](./content/landing-pages.md)
       + [ランディングページのデザイン](./content/landing-page-design.md)
+      + [ランディングページコンテンツ用 AI アシスタント](./content/ai-assistant-landing-pages.md)
    + コンテンツデザインツール {#content-design}
       + [構造コンポーネント](./content/structure-components.md)
       + [コンテンツコンポーネント](./content/content-components.md)
@@ -133,7 +135,7 @@ ht-degree: 79%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
