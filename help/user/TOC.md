@@ -1,7 +1,7 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
+source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 76%
@@ -25,8 +25,8 @@ ht-degree: 76%
    + [AI アシスタントを使用](./ai-assistant/use-ai-assistant.md)
    + [コンテンツ用ジェネレーティブ AI](./ai-assistant/generative-ai-content.md)
    + エージェント {#ai-agents}
-      + [Audience Agent](./agents/audience-agent-b2b.md)
-      + [ジャーニー ビルド エージェント B2B](./agents/journey-agent.md)
+      + [Audience Agent B2B](./agents/audience-agent-b2b.md)
+      + [Journey Agent B2B](./agents/journey-agent.md)
       + [販売修飾子](./agents/sales-qualifier.md)
 + ジャーニー管理 {#journeys}
    + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
@@ -135,7 +135,7 @@ ht-degree: 76%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
