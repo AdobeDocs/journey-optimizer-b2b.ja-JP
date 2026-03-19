@@ -3,278 +3,355 @@ title: アーキテクチャ設定の簡素化
 description: シンプルなアーキテクチャでJourney Optimizer B2B editionを設定します。 XDM スキーマ、メール/SMS チャネル、Marketo Engage ジャーニーのアクション、ユーザーを設定します。
 feature: Setup, Administration
 role: Admin, Data Engineer
-hide: true
-hidefromtoc: true
-source-git-commit: 8f2cd2a657892b0f776b51776d3056946930df21
+exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
+source-git-commit: 38d1794ed30a34dbb34dfaec2d3088bc3a4680ac
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 6%
+source-wordcount: '884'
+ht-degree: 17%
 
 ---
 
 # アーキテクチャ設定の簡素化
 
-Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチャで使用できるようになりました。この更新されたアーキテクチャにより、同じシステムおよび同じデータストア上に Journey Optimizer B2B Edition と Marketo Engage が存在することはなくなりました。Journey Optimizer B2B Edition は、Adobe Experience Platform からのみデータを受信します。ただし、システムのプロビジョニングと設定には、引き続き Marketo Engage の使用権限と一部の設定機能に依存します。
+Adobe Journey Optimizer B2B Edition が、簡素化されたアーキテクチャで使用できるようになりました。 このアーキテクチャにより、Journey Optimizer B2B editionとMarketo Engageは、同じシステムと同じデータストアにはなくなりました。 Journey Optimizer B2B Edition は、Adobe Experience Platform からのみデータを受信します。 ただし、システムのプロビジョニングと設定には、Marketo Engageの使用権限と、メール配信などのバックエンド機能が引き続き使用されます。
 
-シンプルなアーキテクチャは、Adobe Journey Optimizer B2B editionの新機能を活用するための基盤となります。
+シンプルなアーキテクチャは、Journey Optimizer B2B editionの新機能を活用するための基盤となります。
 
-* **データの統合と拡張が簡単：** 新しいプラットフォームは、カスタムオブジェクト、購入グループ、アカウントイベントなどの複雑なデータモデルをサポートしています。 
+* **データの統合と拡張が簡単：** 新しいプラットフォームは、カスタムオブジェクト、購入グループ、アカウントイベントなどの複雑なデータモデルをサポートしています。
 
-* **複数のAdobe Marketo Engage インスタンスへの接続：** 複数のAdobe Marketo Engage環境のデータを 1 か所で管理および統合します。
+* **複数のAdobe Marketo Engage インスタンスへの接続：** 複数のMarketo Engage環境のデータを 1 か所で管理および統合します。
 
 * **データを安全に保持：** お客様の情報を保護するのに役立つ、高度なプライバシーとセキュリティ機能。 （_準備中_）
 
-* **将来を見据えて構築：** このアップグレードにより、継続的な改善とイノベーションに対応できます。 
+* **将来を見据えて構築：** このアップグレードにより、継続的な改善とイノベーションに対応できます。
 
 このアーキテクチャ用にプロビジョニングされた環境の場合は、次のガイドラインを設定に使用します。
 
-## 名前空間とスキーマ
-
-概要については、Experience Platform ドキュメントの [B2B 名前空間とスキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) を参照してください。
-
-### 環境セットアップ
-
-B2B 名前空間とスキーマ自動生成ユーティリティをサポートするために、Postman環境を設定します。
-
-* 名前空間およびスキーマ自動生成ユーティリティのコレクションと環境は、[GitHub リポジトリ &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) からダウンロードできます。
-
-* 必要なヘッダーの値を収集する方法やサンプル API 呼び出しを読み取る方法など、Experience Platform API の使用方法については、[Experience Platform API の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-guide) ガイドを参照してください。
-
-* Experience Platform API の資格情報の生成方法について詳しくは、[Experience Platform API の認証とアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication) に関するチュートリアルを参照してください。
-
-* Experience Platform API 用のPostmanの設定について詳しくは、[Adobe Experience PlatformのPostman](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/postman) を参照してください。
-
-Experience Platform Developer Console とPostmanをセットアップすると、Postman環境に適切な環境値を適用できるようになります。
-
-### スクリプトの実行
-
-Postman コレクションと環境の設定により、Postman インターフェイスを通じてスクリプトを実行できます。
-
-Postman インターフェイスで、自動生成ユーティリティのルートフォルダーを選択し、上部のヘッダーから **実行** を選択します。
-
-Runner インターフェイスが表示されたら、すべてのチェックボックスが選択されていることを確認してから、**名前空間とスキーマ自動生成ユーティリティを実行** を選択します。
-
-リクエストが成功すると、B2B に必要な名前空間とスキーマが作成されます。
-
-## XDM フィールドの選択
-
-Journey Optimizer B2B edition UI では、アプリケーション全体で使用できる XDM フィールドを管理できます。 これらのフィールドは、構築 **_ジャーニー_**、**_購入グループ_** または **_メールのパーソナライゼーション_** に関連するフィールドのみを公開することで、インスタンスを合理化するのに役立ちます。
-
-### XDM クラス
-
-#### 標準クラス
-
-標準の XDM クラスのフィールドを定義するには、次の手順を使用します。
-
-1. **[!UICONTROL 管理 &#x200B;]/[!UICONTROL &#x200B; 設定]** に移動します。
-
-1. ナビゲーションパネルで、「**[!UICONTROL XDM クラス]**」を選択します。
-
-1. **[!UICONTROL 標準]** タブを選択して、使用可能な XDM クラスを表示します。
-
-   * XDM 個人プロファイル
-
-   * XDM ビジネスアカウント
-
-#### 管理フィールド
-
-アプリケーション全体で使用できるフィールドを定義します。
-
-1. _詳細メニュー_ （**...**）アイコンをクリックし、**[!UICONTROL 管理フィールドを編集]** を選択します。
-
-1. 使用可能なフィールドのリストを確認します（フィールドメタデータの場合は _情報_ アイコンをクリック）。
-
-1. 含めるフィールドを選択し、不要なフィールドの選択を解除します。
-
-1. **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、選択を確認します。
-
-1. 「**[!UICONTROL 保存]**」をクリックします。
-
-#### 更新可能なフィールド
-
-**[!UICONTROL アカウントプロファイルを更新]** または **[!UICONTROL 人物プロファイルを更新]** ジャーニーアクションを通じて変更できるフィールドを選択します。
-
-1. _詳細メニュー_ （**...**）アイコンをクリックし、「**[!UICONTROL 更新可能なフィールドを編集]**」を選択します。
-
-1. **[!UICONTROL スキーマ]** を選択し、次に **[!UICONTROL データセット]** を選択します。
-
-   これらのスキーマとデータセットは、組織が提供します。
-
-   更新可能なフィールドのガードレール：
-
-   * スキーマ – スキーマには、XDM Individual Profile クラスのシステム定義のフィールド（`identityMap` や `personID` など）以外の必須フィールドを含めないでください。
-   * データセット – 別の目的で既に使用されているデータセットを選択しないでください。 ベストプラクティスとして、更新可能なフィールドを保存するための専用のデータセットを作成します。 XDM クラスごとに個別のデータセットを使用します。
-
-1. 更新可能なフィールドのリストを確認します（メタデータの場合は _情報_ アイコンをクリック）。
-
-   編集できるのは、管理フィールドのみです。
-
-1. ジャーニーから更新できるようにするフィールドを選択します。
-
-1. **[!UICONTROL 保存]**&#x200B;をクリックします。
-
-### リレーショナルスキーマ
-
-[journey decisioning](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/relational) および **_パーソナライゼーション_** で使用する **_リレーショナルスキーマ_** を選択します。 現在、これらのスキーマは、カスタムオブジェクトのユースケース向けです。 今後、リレーショナルスキーマは他のオブジェクトのユースケースにも使用できます。
-
-1. 「**[!UICONTROL リレーショナル]**」タブを選択します。
-
-1. 「**[!UICONTROL リレーショナル XDM クラスを選択]**」をクリックします。
-
-   現在、アカウントの多対 1 のカスタムオブジェクトのみがサポートされています。
-
-1. スキーマフィールドのリストを確認します（「_情報_ アイコンをクリックしてメタデータを表示）。
-
-1. 含めるフィールドを選択します。
-
-1. **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、選択を確認します。
-
-1. 「**[!UICONTROL 保存]**」をクリックします。
-
->[!NOTE]
->
->リレーショナルスキーマには、次の設定が必要です。
->
-><li>動作：レコード
->&gt; <li>セグメント化：有効
->&gt; <li>関係タイプ：多対 1
->&gt; <li>参照スキーマ：<a href="https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B アカウント - XDM ビジネスアカウントスキーマ </a>
->&gt; <li>必須フィールド：プライマリキー、外部キー、バージョン記述子
->&gt; <li>関連するデータセット：スキーマに定義およびマッピングされる
-
-### イベント
-
-**_journey decisioning_** で使用するエクスペリエンスイベントを選択します。
-
-1. 「**[!UICONTROL イベント]**」タブを選択します。
-
-1. **[!UICONTROL エクスペリエンスイベントを選択]** をクリックします。
-
-1. **[!UICONTROL イベントタイプを選択]** をクリックし、イベントタイプを選択して、**[!UICONTROL 選択]** をクリックします。
-
-1. 「**[!UICONTROL フィールドを選択]**」をクリックし、必要なフィールドを選択して、「**[!UICONTROL 選択]**」をクリックします。
-
-1. 「**[!UICONTROL 保存]**」をクリックします。
-
-## メール設定
-
-Journey Optimizer B2B editionからメールを送信するには、以下を設定する必要があります。  
-
-[https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols)
-
-### トラッキングとメール配信のプロトコル
-
-1. [&#x200B; メールの DNS レコードの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
-
-1. [SPF とDKIMの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
-
-1. [DMARCのセットアップ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
-
-1. [&#x200B; ドメインの MX レコードの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
-
-1. 許可リストに加える [&#x200B; 送信 IP アドレスの追加 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
-
-1. 専用 IP プールを共有する必要がある場合は、配信品質チームに連絡して、実現可能性と支援された設定について問い合わせてください。
-
-### メールチャネル設定
-
-シンプルなアーキテクチャでは、メールはMarketo Engage アプリケーションから設定されます。 メール関連の設定手順を完了します。
-
-* [https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps)
-
-* [https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
-
-### 通信制限
-
-1. 左側のナビゲーションで **[!UICONTROL 管理]**/**[!UICONTROL チャネル]** を選択します。
-
-1. ナビゲーションパネルで、「**[!UICONTROL 通信制限]**」を選択します。
-
-1. グローバル通信制限ルールセットを作成します（このルールセットは、デフォルトですべてのJourney Optimizer B2B edition インスタンスに作成されます）。
-
-   グローバルルールセットが作成されていない場合は、通信の制限はありません。
-
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
-
-### 共有コミュニケーションの制限
-
-新しいアーキテクチャ内では、Journey Optimizer B2B editionとMarketo Engageには、デフォルトで独立した通信制限があります。
-
-Journey Optimizer B2B edition インスタンスで設定された通信制限をMarketo Engage インスタンスで共有する場合は、Adobe サポートに連絡して設定をサポートを受けるか、サポートチケットを開きます。 エンジニアリングチームは必要に応じて、Journey Optimizer B2B editionと 1 つ以上のMarketo Engage インスタンスとの間で通信制限の共有を有効にすることができます。
-
-共有通信制限が有効な場合、Journey Optimizer B2B editionでルールを定義し、それらの制限の共有をMarketo Munchkin コードまで拡張することができます。 詳しくは、「通信の制限 [&#x200B; を参照してください &#x200B;](./admin/configure-channels-emails.md#communication-limits)
-
-<!-- internal info only 
-
-Currently, the shared communication limit in the Marketo Engage instance must be set up through an API call.
-
-For example, when:
-
-* The munchkinId of the Journey Optimizer B2B Edition instance is `JKL-567-MNO`.
-* The munchkinId of the Marketo Engage instance is `ABC-123-DEF` and it is in the SJ datacenter
-
-The API request should look similar to the following:
-
-```
-curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_munchkinId=ABC-123-DEF&featureName=Mktmail%20Config&paramName=ajoB2bMappingMunchkinId&dataType=string&value=JKL-567-MNO'
-```
+このチェックリストを使用すると、アーキテクチャをシンプル化した上でJourney Optimizer B2B editionを設定できます。
+
+## &#x200B;1. B2B 名前空間とスキーマの生成
+
+<table>
+<thead>
+<tr>
+<th colspan="2">タスク</th>
+<th>詳細と手順</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>環境設定：</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>GitHub から名前空間とスキーマの自動生成ユーティリティをダウンロードします。</td>
+<td><a href="./data/namespaces-schemas.md#set-up-the-auto-generation-utility">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>Experience Platform API 資格情報と必要なヘッダーを収集します。</td>
+<td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-guide">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>環境の値をPostman環境に適用します。</td>
+<td><a href="./data/namespaces-schemas.md#environment-values">詳細情報</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong>スクリプトを実行します。</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>Postmanで <em> 名前空間とスキーマ </em> 生成ユーティリティを実行し、名前空間とスキーマが作成されたことを確認します。</td>
+<td><a href="./data/namespaces-schemas.md#run-the-scripts">詳細情報</a></td>
+</tr>
+</tbody>
+</table>
+
+## &#x200B;2. XDM フィールドとイベントの設定
+
+<table>
+<thead>
+<tr>
+<th colspan="2">タスク</th>
+<th>詳細と手順</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong> 標準 XDM クラス </strong>:XDM 個人プロファイルと XDM ビジネスアカウントのクラスを設定します。</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>ジャーニー、購入グループおよびメールのパーソナライゼーション用に公開する管理フィールドを選択します。</td>
+<td><a href="./admin/xdm-field-management.md#standard-classes">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>スキーマの更新可能なフィールドを編集します。</td>
+<td><a href="./admin/xdm-field-management.md#updatable-fields">詳細情報</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong> リレーショナルスキーマ </strong>: リレーショナル XDM クラス（アカウントの多対 1 カスタムオブジェクト）を選択します。</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>スキーマに必要な設定値が含まれていることを確認します。</td>
+<td><a href="./admin/xdm-field-management.md#relational-schemas">詳細情報</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong> イベント </strong>:Experience Platformのイベントタイプとフィールドを設定します。</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>ジャーニー決定/分割パスでサポートされるフィールドを含んだExperience Platform イベントタイプを設定します。</td>
+<td><a href="./admin/configure-aep-events.md">詳細情報</a></td>
+</tr>
+</tbody>
+</table>
+
+## &#x200B;3. トラッキングと E メール配信の設定
+
+簡略化されたアーキテクチャで [!DNL Journey Optimizer B2B Edition] からメールを送信するには、添付された [!DNL Marketo Engage] 実稼動インスタンスと [!DNL Journey Optimizer B2B Edition] アプリで、メールのトラッキングと配信品質を設定します。
+
+<table>
+<thead>
+<tr>
+<th colspan="2">タスク</th>
+<th>詳細と手順</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">接続されたMarketo Engage インスタンスの <strong> 初期設定 </strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>DNS レコードのトラッキングリンク用の新しい CNAME の設定</td>
+<td><a href="./start/email-protocols.md#create-dns-records-for-landing-pages-and-email">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>接続されたMarketo Engage インスタンスのブランディングドメインの設定</td>
+<td><a href="./start/branding-domains.md">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>接続されたMarketo Engage インスタンスへのDKIMと SPF の設定</td>
+<td><a href="./start/email-protocols.md#set-up-spf-and-dkim">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>DMARC を設定</td>
+<td><a href="./start/email-protocols.md#set-up-dmarc">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>ドメインの MX レコードを設定</td>
+<td><a href="./start/email-protocols.md#set-up-mx-records-for-your-domain">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>許可リストに加えるへの送信 IP アドレスの追加</td>
+<td><a href="./start/email-protocols.md#outbound-ip-addresses">詳細情報</a></td>
+</tr>
+<tr>
+<td colspan="2">添付されたMarketo Engage インスタンスの <strong> メール設定 </strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><em>From Email</em> および <em>From Label</em> の設定（オプション）</td>
+<td><a href="./start/email-setup.md#from-email-and-label">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><em>HTMLの登録解除 </em> および <em> テキストの登録解除 </em> を設定します</td>
+<td><a href="./start/email-setup.md#unsubscribe-messaging">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><em>Web ページとして表示HTML</em> および <em>Web ページテキストとして表示 </em> を設定します</td>
+<td><a href="./start/email-setup.md#view-as-web-page">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><em> カスタム・オブジェクトの取得制限 </em> の構成</td>
+<td><a href="./start/email-setup.md#custom-object-retrieval-limits">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><em> カスタムヘッダーオプション </em> を設定する</td>
+<td><a href="./start/email-setup.md#custom-header-options">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><em> ボットアクティビティ </em> フィルタリングの設定</td>
+<td><a href="./start/email-setup.md#filter-email-bots">詳細情報</a></td>
+</tr>
+<tr>
+<td colspan="2">Journey Optimizer B2B editionの <strong> メールチャネル設定 </strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>Journey Optimizer B2B editionでの <em> 通信制限 </em> の設定</td>
+<td><a href="./admin/configure-channels-emails.md#communication-limits">詳細情報</a></td>
+</tr>
+</tbody>
+</table>
+
+<!-- TBD for later 
+
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Configure <em>Email CC Settings</em></td>
+<td>[Learn more](TBD)</td>
+</tr>
+
+<tr>
+<td colspan="2"><strong>Additional configurations</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Configure <em>Location Settings</em> for the attached Marketo Engage instance</td>
+<td>< [Learn more](TBD)</td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Define and configure which Binding Groups / IPs to move over</td>
+<td>[Learn more](TBD)</td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Test Email Send</td>
+<td>[Learn more](TBD)</td>
+</tr>
 -->
 
-## SMS チャネルの設定
+## &#x200B;4. 追加のコンテンツチャネルの設定
 
-詳しくは、[_SMS 設定_](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms) を参照してください。
+マーケターがジャーニーに他のチャネルを含めるのをサポートするには、追加のチャネルを設定します。
 
-## ジャーニーからのMarketo Engage アクション
+<table>
+<thead>
+<tr>
+<th colspan="2">タスク</th>
+<th>詳細と手順</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">Journey Optimizer B2B edition用の <strong>SMS</strong> チャネル設定。</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>サポートする各 SMS アカウントを設定します。</td>
+<td><a href="./admin/configure-channels-sms.md">詳細情報</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong> ランディングページ </strong> （Beta）Journey Optimizer B2B editionのチャネル設定。</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>ランディングページの設定を完了して、これらのページを作成および公開するマーケターをサポートします</td>
+<td><a href="./admin/landing-page-settings.md">詳細情報</a></td>
+</tr>
+<tr>
+<td colspan="2">Journey Optimizer B2B edition用の <strong>Web</strong> （Beta）チャネル設定</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>Adobe Experience Platform Web SDKをサポートするようにビジネス web サイトを設定します。</td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>コンテンツが配信される URL で web プロパティを追加します。</td>
+<td><a href="./admin/configure-channels-web.md">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>Web エクスペリエンス作成者に、Adobe Experience Cloud Visual Editing Helper ブラウザー拡張機能をインストールするように指示します。</td>
+<td><a href="./content/web-experiences.md#install-the-visual-editing-helper-extension">詳細情報</a></td>
+</tr>
+</tbody>
+</table>
 
-次のジャーニーアクションで使用するために、1 つ以上のリモート **_Marketo Engage_** インスタンスを設定できます。
+## &#x200B;5. ジャーニーアクションをサポートするMarketo Engage インスタンスの接続（オプション）
 
-* Marketo リストに追加
-* Marketo リストから削除
-* Marketo リクエストキャンペーンに追加
+Marketo EngageのキャンペーンやプログラムでJourney Optimizer B2B editionの機能を補完する予定がある場合は、Marketo Engage アクションのサポートを設定します。 これらのアクションにより、マーケティングチームは、Journey Optimizer B2B editionでの _アカウントベース_ のマーケティングと、Marketo Engageでの _リードベース_ のマーケティングの取り組みを調整できます。
 
-これらの接続を設定するには、次の手順を実行します。
+<table>
+<thead>
+<tr>
+<th colspan="2">タスク</th>
+<th>詳細と手順</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>Marketo Engage インスタンスごとに </strong> ジャーニーアクションをサポートします</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>Marketo Engage カスタムサービスの作成</td>
+<td><a href="./admin/marketo-actions-connect.md#create-the-marketo-engage-custom-service">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>Journey Optimizer B2B editionへの統合の追加</td>
+<td><a href="./admin/marketo-actions-connect.md#add-the-integration">詳細情報</a></td>
+</tr>
+</tbody>
+</table>
 
-1. **[!UICONTROL 管理 &#x200B;]/[!UICONTROL &#x200B; 設定]** に移動します。
+## &#x200B;6. ユーザーアクセスを有効にする
 
-1. ナビゲーションパネルで、「**[!UICONTROL XDM クラス]**」を選択します。
+プロビジョニングが完了すると、サンドボックスがバインドされ、初期設定タスクが完了します。チームとユーザーに対して、Journey Optimizer B2B editionとMarketo Engageのアクセスを設定します。
 
-1. 「**[!UICONTROL 統合]**」タブを選択します。
-
-1. **[!UICONTROL 接続を作成]** をクリックします。
-
-1. **[!UICONTROL 名前]** と **[!UICONTROL 説明]** を入力します。
-
-1. 一致する人物レコードの **[!UICONTROL ポリシーを更新]** を選択します。
-
-1. **[!UICONTROL Munchkin ID]**、**[!UICONTROL クライアント ID]**、**[!UICONTROL クライアントシークレット]** を入力し、**[!UICONTROL Marketoに接続]** をクリックします。
-
-1. 「**[!UICONTROL 作成]**」をクリックします。
-
-## ユーザーのオンボーディング
-
-概要については、[User Management](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/user-management) ページを参照してください。
-
-### 既存のユーザーグループ
-
-既存のJourney Optimizer B2B edition ユーザー全員が新しいアーキテクチャにアクセスする必要がある場合は、既存のJourney Optimizer B2B edition ユーザーグループを使用します。 システム管理者または製品管理者は、次の手順を実行できます。
-
-1. 専用のMarketo Engageで製品プロファイルを作成します。
-
-1. 作成した製品プロファイルに既存のユーザーグループを追加します。
-
-プロファイルは、そのユーザーグループに既に割り当てられているすべての役割と権限を付与します。これらは、ユーザーがJourney Optimizer B2B editionにアクセスできるように既に設定されている必要があります。 ユーザーの一部のみが新しいアーキテクチャにアクセスする必要がある場合は、次に示す手順を実行します。 詳しくは、[&#x200B; 現在のドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/user-management) を参照してください。
-
-### ユーザーグループの新規作成
-
-1. 専用のMarketo Engage インスタンスに製品プロファイルを作成します。
-1. 新規ユーザー用のユーザーグループを作成します。
-1. 必要な製品プロファイルを選択してユーザーグループに割り当てます。
-
-   * 作成したMarketo Engage プロファイル
-   * Adobe Experience Platform プロファイル
-      * AEP-Default-All-Users
-      * Adobe Experience Platform のデータ収集
-      * データ収集のすべてのアクセス
-
-1. ユーザーグループにユーザーを追加します。
-1. Experience PlatformのJourney Optimizer B2B editionの役割に新しいユーザーグループを追加します。
+<table>
+<thead>
+<tr>
+<th colspan="2">タスク</th>
+<th>詳細と手順</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong> 製品へのアクセスおよび権限の提供 </strong> ユーザーの場合</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>Adobe Admin ConsoleでMarketo Engage製品プロファイルを作成する（新しいMarketo Engage インスタンスのみ）</td>
+<td><a href="./admin/user-management.md#create-the-marketo-engage-product-profile">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>プロファイル用のユーザーグループの追加</td>
+<td><a href="./admin/user-management.md#add-a-user-group-for-the-profile">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>B2B ユーザーの役割の設定</td>
+<td><a href="./admin/user-management.md#b2b-built-in-roles">詳細情報</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td>役割にユーザーまたはグループを追加</td>
+<td><a href="./admin/user-management.md#add-users-to-a-role">詳細情報</a></td>
+</tr>
+</tbody>
+</table>

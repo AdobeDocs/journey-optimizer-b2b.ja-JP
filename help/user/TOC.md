@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 2e63606151c41a4fcdb632c367e3f41ca04c6ecb
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 76%
+source-wordcount: '423'
+ht-degree: 73%
 
 ---
 
@@ -15,9 +15,18 @@ ht-degree: 76%
 + [リリースノート](./release-notes/release-notes.md)
 + 基本を学ぶ {#get-started}
    + [Journey Optimizer B2B Edition の概要](about-journey-optimizer-b2b-edition.md)
+   + アーキテクチャを簡素化 {#simplified-architecture}
+      + [チェックリストを設定](./simplified-architecture.md)
+      + [名前空間とスキーマ](./data/namespaces-schemas.md)
+      + [XDM フィールドの選択](./admin/xdm-field-management.md)
+      + [エクスペリエンスイベントとフィールド](./admin/configure-aep-events.md)
+      + [ブランディングドメイン](./start/branding-domains.md)
+      + [メールトラッキングと配信](./start/email-protocols.md)
+      + [E メール設定](./start/email-setup.md)
+      + [Marketo Engage ジャーニーのアクション](./admin/marketo-actions-connect.md)
+      + [ユーザー管理](./admin/user-management.md)
+   + [ユーザーのオンボーディングガイダンス](./start/get-started.md)
    + [ログインとホームページ](home-page.md)
-   + [オンボーディングガイダンス](./start/get-started.md)
-   + [トラッキングとメールプロトコル](./start/email-protocols.md)
 + AI アシスタント {#ai-assistant}
    + [概要](./ai-assistant/ai-assistant-overview.md)
    + [AI アシスタントへのアクセスを有効にする](./ai-assistant/enable-ai-assistant-access.md)
@@ -61,6 +70,7 @@ ht-degree: 76%
    + [Experience Platform オーディエンス](./audiences/account-audience-overview.md)
    + [外部オーディエンスのターゲット設定](./audiences/target-external-audience.md)
    + [LinkedIn アカウントでマッチしたオーディエンス](./data/linkedin-account-matched-audiences.md)
+   + [デフォルトの XDM フィールド](./admin/field-mapping.md)
 + アカウント {#accounts}
    + 購買グループ {#buying-groups}
       + [概要](./buying-groups/buying-groups-overview.md)
@@ -135,18 +145,12 @@ ht-degree: 76%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [ガバナンス](./admin/governance.md)
-   + [Marketo アクションの設定](./admin/marketo-actions-connect.md)
    + [ペルソナマッピング](./admin/persona-mapping.md)
-   + [ユーザー管理](./admin/user-management.md)
-   + XDM フィールド管理 {#xdm-field-management}
-      + [XDM クラス](admin/xdm-field-management.md)
-      + [エクスペリエンスイベントとフィールド](./admin/configure-aep-events.md)
-      + [デフォルトの XDM フィールド](./admin/field-mapping.md)
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
       + [SMS 設定](./admin/configure-channels-sms.md)
@@ -157,4 +161,3 @@ ht-degree: 76%
       + [AEM Assets リポジトリ](./admin/configure-aem-repositories.md)
       + [インテントデータ](./admin/intent-data.md)
       + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
-   + [アーキテクチャ設定の簡素化](simplified-architecture.md)
