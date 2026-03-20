@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 2e63606151c41a4fcdb632c367e3f41ca04c6ecb
+source-git-commit: 7ebf73a1cb34143d20a49f5d1ba82568718e0ca4
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 73%
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 73%
       + [E メール設定](./start/email-setup.md)
       + [Marketo Engage ジャーニーのアクション](./admin/marketo-actions-connect.md)
       + [ユーザー管理](./admin/user-management.md)
-   + [ユーザーのオンボーディングガイダンス](./start/get-started.md)
+   + [ユーザーのオンボーディング](./start/get-started.md)
    + [ログインとホームページ](home-page.md)
 + AI アシスタント {#ai-assistant}
    + [概要](./ai-assistant/ai-assistant-overview.md)
@@ -145,7 +145,7 @@ ht-degree: 73%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
