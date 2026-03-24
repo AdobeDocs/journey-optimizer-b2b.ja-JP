@@ -224,4 +224,4 @@ _ジャーニーにエクスペリエンスイベントを含めるには&#x200B
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443235/?captions=jpn&learn=on) -->
