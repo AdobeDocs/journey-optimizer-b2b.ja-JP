@@ -135,7 +135,7 @@ ht-degree: 12%
 
 ### エクスペリエンスイベントをリッスンする
 
-管理者は[Adobe Experience Platform （AEP） Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}を選択できます。これにより、マーケターは、イベントにほぼリアルタイムで反応するアカウントと個人のジャーニーを作成できます。 ジャーニーでExperience Eventsを使用するには、次の2つの手順を実行します。
+管理者は[Adobe Experience Platform （AEP） Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}を選択できます。これにより、マーケターは、イベントにほぼリアルタイムで反応するアカウントと個人のジャーニーを作成できます。 ジャーニーでExperience Eventsを使用するには、次の2つの手順を実行します。
 
 1. 管理者[は、関心のあるイベントタイプとフィールド &#x200B;](../admin/configure-aep-events.md#select-an-event)を選択して、ジャーニーで使用できるようにします。
 
