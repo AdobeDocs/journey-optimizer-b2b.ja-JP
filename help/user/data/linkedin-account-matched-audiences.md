@@ -148,4 +148,4 @@ Starting with the 2025.10 release, use the _Activate to Destination_ action for 
 
 You can engage with account members through a paid media channel, such as LinkedIn Ad audiences, to acquire, nurture, and qualify them for Sales. Use a _Take an action_ node in an account journey to automate engagement with key members of an account through an external channel that is a best fit for different account members.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448673/?captions=jpn&learn=on)
