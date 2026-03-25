@@ -17,7 +17,7 @@ ht-degree: 14%
 
 この機能は、Experience Platform の宛先を活用して統合のいくつかの側面を管理します。 最大10個のデータフローがあります。
 
-Journey Optimizer B2B editionからデータフローを開始する前に、Experience Platform アプリケーションでLinkedIn Campaign Manager アカウントが設定された[ （Companies） LinkedIn Matched Audience destination connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}の少なくとも1つのインスタンスが必要です。
+Journey Optimizer B2B editionからデータフローを開始する前に、Experience Platform アプリケーションでLinkedIn Campaign Manager アカウントが設定された[&#x200B; （Companies） LinkedIn Matched Audience destination connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}の少なくとも1つのインスタンスが必要です。
 
 ## 新しい LinkedIn アカウント接続を設定 {#linkedin-destination-setup}
 
@@ -26,7 +26,7 @@ Journey Optimizer B2B editionからデータフローを開始する前に、Exp
 >title="LinkedIn の宛先の設定は必須です"
 >abstract="購買グループ別にフィルタリングされたアカウントを LinkedIn の宛先に送信し、潜在的な購買グループのメンバーに関与します。 フィルタリングされたアカウントの 10 個の異なるグループに対して、最大 10 個のデータフローを作成できます。 この機能の使用を開始するには、まず Linkedin の宛先を追加します。"
 
-1. Experience Platformで、左側のナビゲーションで&#x200B;**[!UICONTROL Connections]**} > **[!UICONTROL Destinations]**&#x200B;に移動し、「**[!UICONTROL カタログ]**」タブを選択します。
+1. Experience Platformで、左側のナビゲーションで&#x200B;**[!UICONTROL Connections]**&rbrace; > **[!UICONTROL Destinations]**&#x200B;に移動し、「**[!UICONTROL カタログ]**」タブを選択します。
 
 1. カタログで、**[!UICONTROL （Companies） LinkedIn Matched Audience]** コネクタを見つけます。
 
@@ -36,7 +36,7 @@ Journey Optimizer B2B editionからデータフローを開始する前に、Exp
 
 1. コネクタカードで、_詳細_ （**...**&#x200B;をクリックします。 アイコンをクリックし、**[!UICONTROL 新しい宛先を設定]**&#x200B;を選択します。
 
-   ![LinkedIn Matched Audience コネクタにアクセス ](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![LinkedIn Matched Audience コネクタにアクセス &#x200B;](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
 1. **[!UICONTROL 新しいアカウント]**&#x200B;を選択し、**[!UICONTROL 宛先]**&#x200B;に接続をクリックします。
 
@@ -46,11 +46,11 @@ Journey Optimizer B2B editionからデータフローを開始する前に、Exp
 
    認証後、LinkedIn アカウントはExperience Platformの宛先として接続されます。
 
-   ![ アカウント接続の確認が表示されます](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+   ![&#x200B; アカウント接続の確認が表示されます](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
 
    >[!IMPORTANT]
    >
-   >この時点で、**宛先の詳細&#x200B;]_を_[!UICONTROL 入力しないでください**。 接続だけが必要です。
+   >この時点で、**宛先の詳細&#x200B;_を_入力しないでください**。 接続だけが必要です。
 
 ## アカウント詳細の更新
 

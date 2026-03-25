@@ -31,25 +31,25 @@ Journey Optimizer B2B editionでは、ブランド定義やアセットを手動
 >
 ><br>
 >
->製品管理者がこれらの機能を有効にする方法について詳しくは、[ ブランド関連の権限](./brands-overview.md#brand-related-permissions)を参照してください。
+>製品管理者がこれらの機能を有効にする方法について詳しくは、[&#x200B; ブランド関連の権限](./brands-overview.md#brand-related-permissions)を参照してください。
 
 ## ブランドライブラリへのアクセス
 
 Adobe Journey Optimizer B2B editionのブランドキットにアクセスするには、左側のナビゲーションで「**[!UICONTROL コンテンツ管理]**」/「**[!UICONTROL ブランド]**」をクリックします。 このアクションを実行すると、作成したブランドがカードとして表示されるページが開きます。
 
-![ ブランドライブラリにアクセス ](./assets/brands-library.png){width="800" zoomable="yes"}
+![&#x200B; ブランドライブラリにアクセス &#x200B;](./assets/brands-library.png){width="800" zoomable="yes"}
 
-ブランドがまだ作成されていない場合は、最初のブランドを作成](#create-and-define-a-brand)するためのボタンが付いた1つのグラフィックが表示されます。[
+ブランドがまだ作成されていない場合は、最初のブランドを作成[&#128279;](#create-and-define-a-brand)するためのボタンが付いた1つのグラフィックが表示されます。
 
 ### ブランド管理のアクション
 
-各カードについて、_詳細メニュー_ （![詳細メニューアイコン ](../../assets/do-not-localize/icon-more-menu.svg)）アイコンをクリックし、ブランドのアクションを選択できます。
+各カードについて、_詳細メニュー_ （![詳細メニューアイコン &#x200B;](../../assets/do-not-localize/icon-more-menu.svg)）アイコンをクリックし、ブランドのアクションを選択できます。
 
 * **[!UICONTROL ブランドを表示]** - ブランドページを開き、定義を表示します。
-* **[!UICONTROL 既定のブランドとしてマーク]** （ライブのみ） - [ コンテンツの調整と生成のために、既定の](#default-brand)としてブランドをマークします。
+* **[!UICONTROL 既定のブランドとしてマーク]** （ライブのみ） - [&#x200B; コンテンツの調整と生成のために、既定の](#default-brand)としてブランドをマークします。
 * **[!UICONTROL 編集]** - ブランドページを開き、ブランドガイドライン、除外、および例を編集します。
 * **[!UICONTROL 複製]** - コピーを新しいドラフトブランドとして作成します。
-* **[!UICONTROL 公開]** （ドラフトのみ） - [ ブランドを公開](#publish-the-brand)して、コンテンツの調整と生成で使用できるようにします。
+* **[!UICONTROL 公開]** （ドラフトのみ） - [&#x200B; ブランドを公開](#publish-the-brand)して、コンテンツの調整と生成で使用できるようにします。
 * **[!UICONTROL 非公開]** （ライブのみ） – ブランドを非公開にして、コンテンツの調整と生成に使用しないようにします。
 * **[!UICONTROL 削除]** - ブランドライブラリからブランドを削除します。
 
@@ -196,9 +196,9 @@ Use the **[!UICONTROL About the brand]** tab to establish the core identity of y
 
    **[!UICONTROL コアブランド値]** カテゴリから、定義されたブランド値を確認し、必要に応じて調整します。
 
-   * 新しいコア値を定義するには、右側の「_追加_」（![追加アイコン ](../assets/do-not-localize/icon-add-components.svg)）アイコンをクリックし、詳細を入力します。
+   * 新しいコア値を定義するには、右側の「_追加_」（![追加アイコン &#x200B;](../assets/do-not-localize/icon-add-components.svg)）アイコンをクリックし、詳細を入力します。
 
-     ![ ブランドについて – 指針 – コア価値を追加](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
+     ![&#x200B; ブランドについて – 指針 – コア価値を追加](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
       * **[!UICONTROL 値]** - コアブランド値の名前を入力します。
 
@@ -208,11 +208,11 @@ Use the **[!UICONTROL About the brand]** tab to establish the core identity of y
 
       * **[!UICONTROL 表示]** – この値が実際のブランディングでどのように表現されるかの例を提供します。
 
-   * コア値を変更または削除するには、_編集_ （![編集アイコン ](../assets/do-not-localize/icon-edit.svg)）アイコンをクリックして、コアブランド値を更新または削除します。
+   * コア値を変更または削除するには、_編集_ （![編集アイコン &#x200B;](../assets/do-not-localize/icon-edit.svg)）アイコンをクリックして、コアブランド値を更新または削除します。
 
-     ![ ブランドについて – 指針 – コア値を編集](./assets/brands-about-guiding-principles-edit-core-values.png){width="500" zoomable="yes"}
+     ![&#x200B; ブランドについて – 指針 – コア値を編集](./assets/brands-about-guiding-principles-edit-core-values.png){width="500" zoomable="yes"}
 
-     詳細を変更し、**[!UICONTROL 更新]**&#x200B;をクリックします。 または、上部の&#x200B;_削除_ （![削除アイコン ](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックして、コア値を削除します。
+     詳細を変更し、**[!UICONTROL 更新]**&#x200B;をクリックします。 または、上部の&#x200B;_削除_ （![削除アイコン &#x200B;](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックして、コア値を削除します。
 
 1. 「**[!UICONTROL ブランドガイドライン文書]**」カテゴリで、ブランドガイドラインの生成に使用した文書を確認します。
 
@@ -221,9 +221,9 @@ Use the **[!UICONTROL About the brand]** tab to establish the core identity of y
    * **[!UICONTROL ガイドラインを再抽出]** – 現在のドキュメントを使用して抽出ジョブを実行するには、このアクションを選択します。
    * **[!UICONTROL 抽出用の参照を追加]** – このアクションを選択すると、別の文書をアップロードして抽出ジョブを実行できます。
 
-   ![ ブランドについて – ブランドガイドライン文書](./assets/brands-about-documents.png){width="600" zoomable="yes"}
+   ![&#x200B; ブランドについて – ブランドガイドライン文書](./assets/brands-about-documents.png){width="600" zoomable="yes"}
 
-[書き方](#writing-style)または[ ビジュアルコンテンツ ](#visual-content)のガイドライン、除外事項、および例を絞り込むか、[ ブランドを公開](#publish-the-brand)できます。
+[書き方](#writing-style)または[&#x200B; ビジュアルコンテンツ &#x200B;](#visual-content)のガイドライン、除外事項、および例を絞り込むか、[&#x200B; ブランドを公開](#publish-the-brand)できます。
 
 ### 文体 {#writing-style}
 
@@ -236,18 +236,18 @@ _[!UICONTROL 文体]_&#x200B;の定義は、コンテンツを記述するため
 
 「**[!UICONTROL 書き方]**」タブを選択し、各カテゴリを確認します。
 
-![ スタイル タブの作成](./assets/brands-writing-style-tab.png){width="600" zoomable="yes"}
+![&#x200B; スタイル タブの作成](./assets/brands-writing-style-tab.png){width="600" zoomable="yes"}
 
 | カテゴリ | サブカテゴリ | ガイドラインの例 | 除外の例 |
 |----------------------------|----------------|-----------------------|-----------------------|
-| [!UICONTROL  ブランドコミュニケーションスタイル ] | [!UICONTROL  ブランドパーソナリティ特性] | わかりやすくて、親しみやすい。 | 弱気な印象を与えない。 |
+| [!UICONTROL &#x200B; ブランドコミュニケーションスタイル &#x200B;] | [!UICONTROL &#x200B; ブランドパーソナリティ特性] | わかりやすくて、親しみやすい。 | 弱気な印象を与えない。 |
 |                            | [!UICONTROL 機械学習の書き込み] | 文章を短く、効果的なものにする。 | 過度に専門用語を使用しない。 |
-|                            | [!UICONTROL 状況トーン ] | 危機管理コミュニケーションではプロフェッショナルなトーンを維持する。 | サポートコミュニケーションで軽視しない。 |
-|                            | [!UICONTROL 単語の選択ガイドライン ] | _innovative_&#x200B;や&#x200B;_smart_&#x200B;などの単語を使用します。 | _安い_&#x200B;や&#x200B;_ハック_&#x200B;などの単語は避けます。 |
+|                            | [!UICONTROL 状況トーン &#x200B;] | 危機管理コミュニケーションではプロフェッショナルなトーンを維持する。 | サポートコミュニケーションで軽視しない。 |
+|                            | [!UICONTROL 単語の選択ガイドライン &#x200B;] | _innovative_&#x200B;や&#x200B;_smart_&#x200B;などの単語を使用します。 | _安い_&#x200B;や&#x200B;_ハック_&#x200B;などの単語は避けます。 |
 |                            | [!UICONTROL 言語標準] | 米国英語の慣例に従う。 | 英国と米国のスペルを混在させない。 |
-| [!UICONTROL  ブランドメッセージ標準] | [!UICONTROL  ブランドメッセージ標準] | 革新性と顧客第一のメッセージをハイライト表示する。 | 製品の機能を過度に約束しない。 |
+| [!UICONTROL &#x200B; ブランドメッセージ標準] | [!UICONTROL &#x200B; ブランドメッセージ標準] | 革新性と顧客第一のメッセージをハイライト表示する。 | 製品の機能を過度に約束しない。 |
 |                            | [!UICONTROL 件名の使用状況] | すべてのデジタルマーケティングアセットのロゴの下にタグラインを配置する。 | タグラインを変更または翻訳しない。 |
-|                            | [!UICONTROL  コアメッセージ ] | 生産性の向上など、主なメリットに関する声明を重視する。 | 無関係なバリューの提案を使用しない。 |
+|                            | [!UICONTROL &#x200B; コアメッセージ &#x200B;] | 生産性の向上など、主なメリットに関する声明を重視する。 | 無関係なバリューの提案を使用しない。 |
 |                            | [!UICONTROL 命名規則] | _ProScheduler_&#x200B;など、わかりやすい名前を使用します。 | 複雑な用語や特殊文字を使用しない。 |
 | [!UICONTROL 法的遵守基準] | [!UICONTROL 商標基準] | 常に ™ または ® 記号を使用する。 | 必要な場合は法的記号を省略しない。 |
 |                            | [!UICONTROL 著作権基準] | マーケティング資料に著作権通知を含める。 | 権限がない場合は、サードパーティのコンテンツを使用しない。 |
@@ -279,14 +279,14 @@ _[!UICONTROL ビジュアルコンテンツ]_&#x200B;の定義では、画像と
 
 「**[!UICONTROL ビジュアルコンテンツ]**」タブを選択し、各カテゴリを確認します。
 
-![ ビジュアルコンテンツタブ ](./assets/brands-visual-content-tab.png){width="600" zoomable="yes"}
+![&#x200B; ビジュアルコンテンツタブ &#x200B;](./assets/brands-visual-content-tab.png){width="600" zoomable="yes"}
 
 | カテゴリ | ガイドラインの例 | 除外の例 |
 |------------------------|---------------------|---------------------|
 | [!UICONTROL 写真基準] | 屋外撮影には自然光を使用する。 | 過度に編集された画像やピクセル化された画像を使用しない。 |
-| [!UICONTROL  イラスト基準] | 無駄のない、ミニマルなスタイルを使用する。 | 過度に複雑なイラストを使用しない。 |
-| [!UICONTROL  アイコン標準] | 一貫性のある 24 ピクセルのグリッドシステムを使用する。 | アイコンの寸法を混在させたり、異なる太さの線を使用したり、グリッドルールから逸脱したりしない。 |
-| [!UICONTROL 使用ガイドライン ] | 実際の顧客がプロフェッショナルな環境で製品を使用する様子を反映したライフスタイル画像を選択する。 | ブランドのトーンに矛盾する画像や、コンテキストから外れた画像を使用しない。 |
+| [!UICONTROL &#x200B; イラスト基準] | 無駄のない、ミニマルなスタイルを使用する。 | 過度に複雑なイラストを使用しない。 |
+| [!UICONTROL &#x200B; アイコン標準] | 一貫性のある 24 ピクセルのグリッドシステムを使用する。 | アイコンの寸法を混在させたり、異なる太さの線を使用したり、グリッドルールから逸脱したりしない。 |
+| [!UICONTROL 使用ガイドライン &#x200B;] | 実際の顧客がプロフェッショナルな環境で製品を使用する様子を反映したライフスタイル画像を選択する。 | ブランドのトーンに矛盾する画像や、コンテキストから外れた画像を使用しない。 |
 
 <!-- #### Styles
 
@@ -302,7 +302,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 正しいまたは正しくない使用方法を示す画像を追加するには、_[!UICONTROL ガイドラインを追加]_&#x200B;または&#x200B;_[!UICONTROL 除外を追加]_ ポップアップダイアログで&#x200B;**[!UICONTROL 例]**&#x200B;を選択します。 **[!UICONTROL 画像を選択]**&#x200B;をクリックして、システムから画像ファイルを選択します。 **[!UICONTROL 追加]**&#x200B;をクリックして画像をアップロードし、領域のサムネールを表示します。
 
-![ サンプル画像を追加](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
+![&#x200B; サンプル画像を追加](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
 
 ## 公開ブランドの編集
 

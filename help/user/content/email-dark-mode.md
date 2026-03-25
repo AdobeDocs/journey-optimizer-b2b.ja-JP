@@ -28,9 +28,9 @@ ht-degree: 17%
 
 _ダークモード_&#x200B;を使用すると、サポートメールクライアントまたはアプリで、テキスト、ボタン、その他のビジュアル要素の背景が暗く、色が明るいメールを表示できます。 このタイプのディスプレイは、目の疲れを軽減し、バッテリー寿命を節約し、低光量環境での読みやすさを向上させ、より快適な視聴体験を実現します。 主要なオペレーティングシステムやアプリでトレンドが高まる中、あらゆるユーザーに読みやすく視覚的に魅力的なコンテンツを提供することが、今日のメール設計における重要な検討事項となっています。
 
-![明るいテーマと暗いテーマの両方でのコンテンツレンダリングを示す明るいモードと暗いモードのコンセプトダイアグラム ](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
+![明るいテーマと暗いテーマの両方でのコンテンツレンダリングを示す明るいモードと暗いモードのコンセプトダイアグラム &#x200B;](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-ビジュアルデザイン空間で[!DNL Journey Optimizer B2B Edition]電子メールコンテンツ ](./email-authoring.md)を[作成すると、_**[!UICONTROL ダークモード]**_&#x200B;表示に切り替えることができます。 このビューでは、ダークモードが有効になっているメールクライアントをサポートするための特定のカスタム設定を定義することもできます。
+ビジュアルデザイン空間で[!DNL Journey Optimizer B2B Edition]電子メールコンテンツ [&#128279;](./email-authoring.md)を作成すると、_&#x200B;**[!UICONTROL ダークモード]**&#x200B;_&#x200B;表示に切り替えることができます。 このビューでは、ダークモードが有効になっているメールクライアントをサポートするための特定のカスタム設定を定義することもできます。
 
 ## メールクライアントの考慮事項
 
@@ -88,7 +88,7 @@ As you style your email content for dark mode in [!DNL Journey Optimizer B2B Edi
 
 * Use the [preview function](#preview-default-dark-mode) to review the default dark mode rendering for most supporting email clients.
 
-* If you want to override the default settings of supporting email clients, define and apply custom dark mode settings to your email content. [詳細情報 ](#define-custom-dark-mode)
+* If you want to override the default settings of supporting email clients, define and apply custom dark mode settings to your email content. [詳細情報 &#x200B;](#define-custom-dark-mode)
 
 ### デフォルトのダークモードのプレビュー {#preview-dark-mode}
 
@@ -162,13 +162,13 @@ _To define custom dark mode settings :_
 
 1. ダークモードの変更が完了したら、「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
 
-   ![ ダークモードのテスト用に「コンテンツをシミュレート」ボタンが強調表示された電子メールデザインキャンバス ](./assets/email-color-mode-dark-simulate-content.png){width="700" zoomable="yes"}
+   ![&#x200B; ダークモードのテスト用に「コンテンツをシミュレート」ボタンが強調表示された電子メールデザインキャンバス &#x200B;](./assets/email-color-mode-dark-simulate-content.png){width="700" zoomable="yes"}
 
-   プレビューツールと校正ツールを使用して、メールデザインをテストします。 詳しくは、[ メールコンテンツのプレビューとテスト ](./email-simulate-content.md)を参照してください。
+   プレビューツールと校正ツールを使用して、メールデザインをテストします。 詳しくは、[&#x200B; メールコンテンツのプレビューとテスト &#x200B;](./email-simulate-content.md)を参照してください。
 
 1. Litmus Enterprise アカウントをお持ちの場合は、「**[!UICONTROL メールをレンダリング]**」を選択して、Litmus内の様々なメールクライアントの最終的なダークモードのレンダリングを確認します。
 
-   詳しくは、[Litmusを使用したメールのレンダリングのテスト ](./email-test-rendering.md)を参照してください。
+   詳しくは、[Litmusを使用したメールのレンダリングのテスト &#x200B;](./email-test-rendering.md)を参照してください。
 
    >[!CAUTION]
    >
@@ -185,7 +185,7 @@ _To define custom dark mode settings :_
 | 画像とロゴの最適化 | チェックリスト：<ul><li>ロゴやアイコンを、透明な背景のPNG ファイルとして保存して、暗いモードで白いボックスが表示されないようにします。 <li>白色の背景または明るい背景がハードコードされた画像は回避します。 <li>透明度がオプションでない場合は、不自然な色の反転を防ぐために、デザインでは単色の背景に画像を配置します。 |
 | 背景を見る | チェックリスト：<ul><li>ライトモードとダークモードの両方で読みやすくするには、テキストと背景色の間に十分なコントラストを確保します。 <li>重要なコンテンツについては、背景色にのみ依存することは回避します。 一部のクライアントでは、ダークモードで背景色を上書きするので、重要な情報が表示されたままになります。 |
 | ダークモードでアクセスしやすいコンテンツをデザイン | チェックリスト：<ul><li>色覚異常のある人物でも簡単に区別できる色の組み合わせを使用します。 <li>明るい背景と暗い背景の両方に対してコントラストを確保するのに、ミッドトーンパレットを使用します。 <li>高コントラストでアクセスしやすい色の組み合わせを使用して、読みやすさを向上させ、[!DNL Web Content Accessibility Guidelines (WCAG)]標準を満たします。 [!DNL WebAIM Contrast Checker]などのツールを使用して、色のコントラストを検証します。 <li>読みやすさに影響する場合があるので、細いフォントは回避します。 ブランドに細いフォントが必要な場合は、ダークモードで太字にします。 <li>純粋な黒の上で純粋な白をスキップすると、目の緊張を引き起こす可能性があり、一部のメールクライアントでは自動的に反転する可能性があります。 <li>ダークモードがサポートされていない場合は、アクセスできるフォールバックスタイル設定を指定します。 |
-| ダークモード環境でのメールのテスト | チェックリスト：<ul><li>電子メールデザイン領域では、[ ダークモードのプレビュー](#preview-dark-mode)を使用します。このカラースキームを反転して、問題を早期に検出します。 <li>「[[!UICONTROL  メールをレンダリング ]](./email-test-rendering.md)」オプションを使用してLitmus Enterprise アカウントを使用し、主要なメールクライアント（Apple Mail、Gmail、Outlookなど）でデザインをシミュレートし、ダークモードでカラーや画像がどのように動作するかを確認します。 |
+| ダークモード環境でのメールのテスト | チェックリスト：<ul><li>電子メールデザイン領域では、[&#x200B; ダークモードのプレビュー](#preview-dark-mode)を使用します。このカラースキームを反転して、問題を早期に検出します。 <li>「[[!UICONTROL &#x200B; メールをレンダリング &#x200B;]](./email-test-rendering.md)」オプションを使用してLitmus Enterprise アカウントを使用し、主要なメールクライアント（Apple Mail、Gmail、Outlookなど）でデザインをシミュレートし、ダークモードでカラーや画像がどのように動作するかを確認します。 |
 
 <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
