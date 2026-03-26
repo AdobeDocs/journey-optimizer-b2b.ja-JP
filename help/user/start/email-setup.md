@@ -1,22 +1,23 @@
 ---
 title: メール設定
-description: プレースホルダー
+description: デフォルト、登録解除、web ビュー、ベロシティオブジェクトの制限、トラッキングヘッダー、ボットフィルタリングなど、Journey Optimizer B2B メール配信に使用するMarketo Engageのオプションを設定します。
 feature: Setup, Channels
 role: Admin
-source-git-commit: 55ffa7995a8d74d352a52f14bed5dd89d7d1c239
+exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+source-git-commit: 0a9cff812d0631a34a09cca059ffb8496248c2b4
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 6%
+source-wordcount: '1346'
+ht-degree: 83%
 
 ---
 
 # E メール設定
 
-添付されたMarketo Egage インスタンスで提供されるメール配信インフラストラクチャをサポートするには、次のメールオプションを設定します。 Marketo Engage製品管理者は、Marketo Engage インスタンスの **[!UICONTROL 管理者]** エリアに移動して **[!UICONTROL メール]** を選択することで、これらの設定を行うことができます。
+添付されたMarketo Engage インスタンスが提供するメール配信インフラストラクチャをサポートするには、次のメールオプションを設定します。 Marketo Engage製品管理者は、Marketo Engage インスタンスの **[!UICONTROL 管理者]** エリアに移動して **[!UICONTROL メール]** を選択することで、これらの設定を行うことができます。
 
 ## メールの設定
 
-添付されたMarketo Engage インスタンスに対してメールのデフォルト値を設定するには、マーケティング組織の使用状況を反映するように設定値を変更します。
+添付されたMarketo Engage インスタンスの電子メールのデフォルト値を設定するには、設定した値を変更して、マーケティング部門による使用状況を反映させます。
 
 ### 送信元のメールおよびラベル
 
@@ -30,7 +31,7 @@ ht-degree: 6%
 
 1. _[!UICONTROL 設定]_ パネルで **[!UICONTROL 送信元メール]** および **[!UICONTROL 送信元ラベル]** のデフォルト値を入力します。
 
-   ![&#x200B; メール設定 – 「送信元メール」および「送信元ラベル」のデフォルト値 &#x200B;](./assets/me-admin-email-settings-from.png){width="500"}
+   ![ メール設定 – 「送信元メール」および「送信元ラベル」のデフォルト値 ](./assets/me-admin-email-settings-from.png){width="500"}
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
@@ -46,7 +47,7 @@ ht-degree: 6%
    >
    >マーケターは、システムトークンを使用して、メール内の購読解除HTMLの位置を変更できます。
 
-   ![&#x200B; メール設定 – HTMLの登録を解除およびテキストの登録を解除のデフォルト値 &#x200B;](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
+   ![ メール設定 – HTMLの登録を解除およびテキストの登録を解除のデフォルト値 ](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
 
    >[!CAUTION]
    >
@@ -57,7 +58,7 @@ ht-degree: 6%
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
-デフォルトのシステムコンテンツに戻す必要がある場合は、次をコピーして貼り付けます。
+デフォルトのシステムコンテンツに戻す必要がある場合は、以下をコピー&amp;ペーストします。
 
 +++ システムのデフォルトの購読解除テキスト
 
@@ -70,13 +71,13 @@ ht-degree: 6%
 
 ### Web ページとして表示
 
-メールコンテンツの表示機能が制限されています（CSS に制限があり、JavaScriptやフォームはサポートされていません）。 マーケターは「web ページとして表示 _オプションを使用し、Marketo Munchkinを使用してメール受信者に cookie を適用できます_。 製品管理者は、マーケターがこのオプションを選択したときに入力されるデフォルトのHTMLとテキストを設定する必要があります。
+メールコンテンツの表示機能が制限されています（CSS に制限があり、JavaScriptやフォームはサポートされていません）。 マーケターは、_Web ページとして表示_ オプションを使用して、Marketo Munchkinを使用してメール受信者にCookieを適用できます。 製品管理者は、マーケターがこのオプションを選択したときに入力されるデフォルトのHTMLとテキストを設定する必要があります。
 
 1. 添付されたMarketo Engage インスタンスの **[!UICONTROL 管理者]** エリアに移動して、**[!UICONTROL メール]** を選択します。
 
 1. _[!UICONTROL 設定]_ パネルの **[!UICONTROL Web ページとして表示HTML]** および **[!UICONTROL Web ページテキストとして表示]** フィールドのコンテンツを、トーンとメッセージを反映するように変更します。
 
-   ![&#x200B; メール設定 – Web ページのHTMLとして表示および Web ページテキストとして表示のデフォルト値 &#x200B;](./assets/me-admin-email-settings-view-as-web-page.png){width="500"}
+   ![ メール設定 – Web ページのHTMLとして表示および Web ページテキストとして表示のデフォルト値 ](./assets/me-admin-email-settings-view-as-web-page.png){width="500"}
 
    >[!CAUTION]
    >
@@ -93,7 +94,7 @@ ht-degree: 6%
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
-デフォルトのシステムコンテンツに戻す必要がある場合は、次をコピーして貼り付けます。
+デフォルトのシステムコンテンツに戻す必要がある場合は、以下をコピー&amp;ペーストします。
 
 +++ システムのデフォルト Web ページのHTML
 
@@ -127,7 +128,7 @@ To view this email as a web page, go to the following address:
 1. _[!UICONTROL カスタム・オブジェクト取得制限]_ パネルまでスクロールし、**[!UICONTROL 親取得制限]** に新しい値を入力します
 フィールド。
 
-   ![Marketo Engage電子メール管理者 – カスタム オブジェクト取得の制限の既定値 &#x200B;](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
+   ![Marketo Engage電子メール管理者 – カスタム オブジェクト取得の制限の既定値 ](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
    10～100 の値がサポートされています。 _[!UICONTROL 子検索制限]_ は、1000 を親制限で割ることで自動的に設定されます。 例えば、親の制限を 50 に設定した場合、子の制限は 20 （1000 ÷ 50 = 20）と計算されます。
 
@@ -141,10 +142,10 @@ To view this email as a web page, go to the following address:
 
 1. _[!UICONTROL カスタムヘッダーオプション]_ パネルまでスクロールし、トラッキングリンクポリシーに従って設定を変更します。
 
-   ![Marketo Engageのメール管理者 – カスタム ヘッダーオプションの既定の設定 &#x200B;](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
+   ![Marketo Engageのメール管理者 – カスタム ヘッダーオプションの既定の設定 ](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
    * **[!UICONTROL 厳格なトランスポートセキュリティ]** – このオプションを有効に設定すると、トラッキングリンクは常に HTTPS で提供されます（SSL で保護されたトラッキングリンクを含むサブスクリプションでのみ設定する必要があります）。
-   * **[!UICONTROL Max-age]** – このフィールドでは、ブラウザーが HTTPS 経由でドメインにのみアクセスする必要がある時間を秒単位で指定する必須ディレクティブをサポートしています。
+   * **[!UICONTROL Max-age]** – このフィールドは、ブラウザーがHTTPS経由のドメインのみにアクセスすることを記憶する必要がある時間を秒単位で指定する必須ディレクティブをサポートしています。
    * **[!UICONTROL IncludeSubDomains]** – このオプションを使用すると、ホストのすべてのサブドメインに HSTS ポリシーを適用するディレクティブを含めることができます。
 
    >[!IMPORTANT]
@@ -157,8 +158,8 @@ To view this email as a web page, go to the following address:
 
 メール ボットアクティビティは、非ヒューマンインタラクション（NHI）とも呼ばれ、メール _開封数_ クリック数 _データを水増しし、エンゲージメント指標を歪め、イベントベースのジャーニー進行をトリガーする可能性が_ ります。 メールボットフィルタリングを使用して、クリックエンゲージメント指標とインサイトの整合性を維持します。 疑わしいボットアクティビティを識別する方法は 2 つあります。
 
-* _&#x200B;**[!UICONTROL IAB ボットリストとの一致]**&#x200B;_ - [&#x200B; インタラクティブ Advertising ビューロボットリスト &#x200B;](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} 内の任意のものと一致するアクティビティ（ユーザーエージェント/IP アドレス）はボットとしてマークされます。
-* _&#x200B;**[!UICONTROL 近接パターンと一致]**&#x200B;_ – 同時に（1 秒未満で）発生する 2 つ以上のアクティビティがボットとして識別されます。 比較時に考慮される属性は以下のとおりです。
+* _**[!UICONTROL IAB ボットリストとの一致]**_ - [ インタラクティブ Advertising ビューロボットリスト ](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} 内の任意のものと一致するアクティビティ（ユーザーエージェント/IP アドレス）はボットとしてマークされます。
+* _**[!UICONTROL 近接パターンと一致]**_ – 同時に（1 秒未満で）発生する 2 つ以上のアクティビティがボットとして識別されます。 比較時に考慮される属性は以下のとおりです。
    * リード ID（同じであること）
    * メールアセット（同じであること）
    * リンククリックまたはメール開封
@@ -174,7 +175,7 @@ To view this email as a web page, go to the following address:
 
 1. **[!UICONTROL ボットアクティビティ]** タブを選択します。
 
-   ![Marketo Engageのメール管理者 – 「ボットアクティビティ」タブ &#x200B;](./assets/me-admin-email-bot-activity.png){width="700" zoomable="yes"}
+   ![Marketo Engageのメール管理者 – 「ボットアクティビティ」タブ ](./assets/me-admin-email-bot-activity.png){width="700" zoomable="yes"}
 
    ボットアクティビティ識別パネルには、ボットアクティビティを識別するために使用できる 2 つのスライダーが表示されます。
 
@@ -184,15 +185,15 @@ To view this email as a web page, go to the following address:
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL &#x200B; ボットアクティビティをフィルター &#x200B;] を選択すると、誤ったアクティビティが排除されるので、メールの開封数とクリック数が減少する場合があります。
+   >[!UICONTROL  ボットアクティビティをフィルター ] を選択すると、誤ったアクティビティが排除されるので、メールの開封数とクリック数が減少する場合があります。
 
-   ![Marketo Engageのメール管理者 – ボットアクティビティ識別オプション &#x200B;](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
+   ![Marketo Engageのメール管理者 – ボットアクティビティ識別オプション ](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
 
-   _[!UICONTROL 近接パターンと一致]_ の場合は、**[!UICONTROL アクティビティ間の期間]** の秒数を設定することもできます（デフォルトは `0`、最大値は `3`）。
+   _[!UICONTROL 近接パターン]_&#x200B;と一致する場合は、**[!UICONTROL アクティビティ間の期間]**&#x200B;の秒数も設定できます（デフォルトは`0`、最大値は`3`）。
 
    >[!NOTE]
    >
-   >_アクティビティの間隔_ を `0` 秒に設定すると、Marketo Engageはまったく同じ秒数で発生するメールアクティビティを特定します。 指定した秒数以内に複数のメールアクティビティが発生した場合、そのアクティビティはボットアクティビティとして識別されます。
+   >_アクティビティ間の期間_&#x200B;が`0`秒に設定されている場合、Marketo Engageはその秒間に発生しているメールアクティビティを特定します。 指定された秒数の間に複数のメールアクティビティが発生した場合、そのアクティビティはボットアクティビティとして識別されます。
 
    どちらのフィルタリング方法も無効にするには、スライダーを左に切り替えます。 その場合も、データはリセットされません。
 
@@ -256,7 +257,6 @@ Adobeは、数百万の偽のエンゲージメントを生成する原因とな
 
 >[!NOTE]
 >
->すべての IP アドレスは、このリストに含まれる前に細心の注意を払って分析および調査され、最も重要で有害な IP のみがブロックされるようにします。
+>すべてのIP アドレスは、このリストに含まれる前に慎重に分析および精査され、最も重要で有害なIPのみがブロックされるようにします。
 
 +++
-
