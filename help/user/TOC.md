@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 7ebf73a1cb34143d20a49f5d1ba82568718e0ca4
+source-git-commit: 8113b0a7e081a95b45e46060502fe24263e63364
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 99%
 
 ---
@@ -47,13 +47,14 @@ ht-degree: 99%
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
       + [アクションの実行](./journeys/action-nodes.md)
       + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
-      + [パスの分割と結合](./journeys/split-merge-paths-nodes.md)
+      + [ パスの分割と結合](./journeys/split-merge-paths-nodes.md)
       + [待機](./journeys/wait-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
 + ジャーニーコンテンツ {#journey-content}
    + [SMS チャネル](./content/sms-authoring.md)
    + メールチャネル {#email-channel}
       + [メールの追加](./content/add-email.md)
+      + [送信時間の最適化](./content/email-send-time-optimization.md)
       + [メールオーサリング](./content/email-authoring.md)
       + [メールオーサリング用 AI アシスタント](./content/ai-assistant-emails.md)
       + [GenStudio ワークフロー](./content/genstudio-email-workflow.md)
@@ -145,7 +146,7 @@ ht-degree: 99%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
