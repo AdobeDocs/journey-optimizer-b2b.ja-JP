@@ -50,19 +50,19 @@ ht-degree: 26%
 >
 >Adobe Journey Optimizer B2B editionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 >
->製品管理者がこれらの機能を有効にする方法について詳しくは、[ ブランド関連の権限](./brands-overview.md#brand-related-permissions)を参照してください。
+>製品管理者がこれらの機能を有効にする方法について詳しくは、[&#x200B; ブランド関連の権限](./brands-overview.md#brand-related-permissions)を参照してください。
 
 ## ブランド調整の検証
 
 ブランドが明確に定義され、公開されたら、メールデザイン分野で直接ブランド調整スコアを評価して、コンテンツがブランドガイドラインに準拠していることを確認します。
 
-1. メールコンテンツを作成したら、右側の&#x200B;_ブランド調整_ （![ ブランド調整アイコン ](../assets/do-not-localize/icon-brand-compliance.svg)）アイコンをクリックして、メールデザインスペースの&#x200B;_ブランド調整_&#x200B;右側のパネルを開きます。
+1. メールコンテンツを作成したら、右側の&#x200B;_ブランド調整_ （![&#x200B; ブランド調整アイコン &#x200B;](../assets/do-not-localize/icon-brand-compliance.svg)）アイコンをクリックして、メールデザインスペースの&#x200B;_ブランド調整_&#x200B;右側のパネルを開きます。
 
-   [ デフォルトブランド ](./brands-manage-create.md#default-brand)が自動的に選択されます。
+   [&#x200B; デフォルトブランド &#x200B;](./brands-manage-create.md#default-brand)が自動的に選択されます。
 
-   ![ ブランド調整ツールにアクセス ](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+   ![&#x200B; ブランド調整ツールにアクセス &#x200B;](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-   パネルの上部にある&#x200B;_フルスクリーン_ （![ フルスクリーンアイコン ](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックすると、ブランドの整列ツールをフルスクリーンモードで表示できます。
+   パネルの上部にある&#x200B;_フルスクリーン_ （![&#x200B; フルスクリーンアイコン &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックすると、ブランドの整列ツールをフルスクリーンモードで表示できます。
 
 1. 必要に応じて、**[!UICONTROL ブランド]** メニューの矢印（![下向き矢印](../assets/do-not-localize/icon-down-menu.svg)）をクリックして、別の公開済みブランドを選択します。
 
@@ -70,7 +70,7 @@ ht-degree: 26%
 
    選択したブランドのガイドラインに照らしてコンテンツが評価され、結果のスコアが表示されます。
 
-   ![ ブランド調整評価スコア ](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
+   ![&#x200B; ブランド調整評価スコア &#x200B;](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
 ## 評価の確認
 
@@ -83,7 +83,7 @@ ht-degree: 26%
 
 評価結果をより詳細に確認することで、違反を特定し、カテゴリの整合性スコア （_高_、_Medium_、_低_）を向上させ、詳細を確認することができます。 **[!UICONTROL 書き込みスタイル]**&#x200B;または&#x200B;**[!UICONTROL ビジュアルコンテンツ]**&#x200B;の場合は、_展開_ （![展開の矢印](../assets/do-not-localize/icon-expand-right.svg)）矢印をクリックして、評価の詳細を表示します。
 
-![ ブランドの整合性の評価の詳細](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
+![&#x200B; ブランドの整合性の評価の詳細](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
 
 フラグ付けされたガイドラインを選択して、特定のフィードバックと提案を表示します。
 
