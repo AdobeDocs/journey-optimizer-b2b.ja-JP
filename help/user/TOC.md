@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 8113b0a7e081a95b45e46060502fe24263e63364
+source-git-commit: 74bfcc9cc2edae97133e54f076e43329c1399e5c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 99%
+source-wordcount: '429'
+ht-degree: 98%
 
 ---
 
@@ -47,11 +47,12 @@ ht-degree: 99%
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
       + [アクションの実行](./journeys/action-nodes.md)
       + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
-      + [&#x200B; パスの分割と結合](./journeys/split-merge-paths-nodes.md)
+      + [ パスの分割と結合](./journeys/split-merge-paths-nodes.md)
       + [待機](./journeys/wait-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
 + ジャーニーコンテンツ {#journey-content}
    + [SMS チャネル](./content/sms-authoring.md)
+   + [WhatsApp チャネル](./content/whatsapp-authoring.md)
    + メールチャネル {#email-channel}
       + [メールの追加](./content/add-email.md)
       + [送信時間の最適化](./content/email-send-time-optimization.md)
@@ -146,7 +147,7 @@ ht-degree: 99%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
@@ -155,6 +156,7 @@ ht-degree: 99%
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
       + [SMS 設定](./admin/configure-channels-sms.md)
+      + [WhatsApp設定](./admin/configure-channels-whatsapp.md)
       + [Web チャネル設定（Beta）](./admin/configure-channels-web.md)
       + [ランディングページの設定（Beta）](./admin/landing-page-settings.md)
       + [イベント収集用のデータストリーム設定](./data/aep-event-collection.md)
