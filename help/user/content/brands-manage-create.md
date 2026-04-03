@@ -3,15 +3,13 @@ title: コンテンツ生成と一貫性のためにブランドを作成する
 description: ドキュメントからの自動抽出や手作業による入力により、ブランドガイドラインを作成および管理できます。Journey Optimizer B2B editionで、一貫性のあるコンテンツのデフォルトブランドを設定できます。
 badge: label="ベータ版" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 18%
+source-wordcount: '2069'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +21,7 @@ Journey Optimizer B2B editionでは、ブランド定義やアセットを手動
 
 >[!AVAILABILITY]
 >
->この機能は現在、プライベートベータ版として利用可能で、今後のリリースですべてのお客様にプログレッシブな可用性が計画されています。
+>この機能は現在、パブリックベータ版として利用可能です。
 >
 ><br>
 >
@@ -31,41 +29,41 @@ Journey Optimizer B2B editionでは、ブランド定義やアセットを手動
 >
 ><br>
 >
->製品管理者がこれらの機能を有効にする方法について詳しくは、[&#x200B; ブランド関連の権限](./brands-overview.md#brand-related-permissions)を参照してください。
+>製品管理者がこれらの機能を有効にする方法について詳しくは、[ ブランド関連の権限](./brands-overview.md#brand-related-permissions)を参照してください。
 
 ## ブランドライブラリへのアクセス
 
-Adobe Journey Optimizer B2B editionのブランドキットにアクセスするには、左側のナビゲーションで「**[!UICONTROL コンテンツ管理]**」/「**[!UICONTROL ブランド]**」をクリックします。 このアクションを実行すると、作成したブランドがカードとして表示されるページが開きます。
+Adobe Journey Optimizer B2B editionのブランドキットにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL ブランド]**&#x200B;をクリックします。 このアクションを実行すると、作成したブランドがカードとして表示されるページが開きます。
 
-![&#x200B; ブランドライブラリにアクセス &#x200B;](./assets/brands-library.png){width="800" zoomable="yes"}
+![ ブランドライブラリにアクセス ](./assets/brands-library.png){width="800" zoomable="yes"}
 
-ブランドがまだ作成されていない場合は、最初のブランドを作成[&#128279;](#create-and-define-a-brand)するためのボタンが付いた1つのグラフィックが表示されます。
+まだブランドが作成されていない場合は、最初のブランドを作成[するためのボタン付きのグラフィックが1つ表示されます](#create-and-define-a-brand)。
 
 ### ブランド管理のアクション
 
-各カードについて、_詳細メニュー_ （![詳細メニューアイコン &#x200B;](../../assets/do-not-localize/icon-more-menu.svg)）アイコンをクリックし、ブランドのアクションを選択できます。
+各カードについて、_詳細メニュー_ （![詳細メニューアイコン ](../../assets/do-not-localize/icon-more-menu.svg)）アイコンをクリックし、ブランドのアクションを選択できます。
 
 * **[!UICONTROL ブランドを表示]** - ブランドページを開き、定義を表示します。
-* **[!UICONTROL 既定のブランドとしてマーク]** （ライブのみ） - [&#x200B; コンテンツの調整と生成のために、既定の](#default-brand)としてブランドをマークします。
-* **[!UICONTROL 編集]** - ブランドページを開き、ブランドガイドライン、除外、および例を編集します。
+* **[!UICONTROL 既定のブランドとしてマーク]** （ライブのみ） - [ コンテンツの調整と生成の既定の](#default-brand)としてブランドをマークします。
+* **[!UICONTROL 編集]** - ブランドページを開き、ブランドガイドライン、除外事項、および例を編集します。
 * **[!UICONTROL 複製]** - コピーを新しいドラフトブランドとして作成します。
-* **[!UICONTROL 公開]** （ドラフトのみ） - [&#x200B; ブランドを公開](#publish-the-brand)して、コンテンツの調整と生成で使用できるようにします。
+* **[!UICONTROL 公開]** （ドラフトのみ） - [ ブランド ](#publish-the-brand)を公開して、コンテンツの調整と生成で使用できるようにします。
 * **[!UICONTROL 非公開]** （ライブのみ） – ブランドを非公開にして、コンテンツの調整と生成に使用しないようにします。
 * **[!UICONTROL 削除]** - ブランドライブラリからブランドを削除します。
 
-![Access the More menu for the brand](./assets/brands-library-card-more-menu.png){width="440"}
+![ ブランドの詳細メニューにアクセス ](./assets/brands-library-card-more-menu.png){width="440"}
 
 ### Default brand
 
-You can designate a default brand to be automatically applied when generating content and calculating alignment scores during content creation. Only a published (_Live_) brand can be the default.
+コンテンツ作成時にコンテンツを生成し、整列スコアを計算する際に、自動的に適用されるデフォルトのブランドを指定できます。 既定値にできるのは、公開された（_Live_）ブランドのみです。
 
-In the Brands library, the default brand card is displayed with a flag.
+Brands ライブラリでは、デフォルトのブランドカードにフラグが表示されます。
 
-![Default brand flag](./assets/brands-default-flag.png){width="200"}
+![既定のブランド フラグ ](./assets/brands-default-flag.png){width="200"}
 
-You can set any published (_Live_) brand as the default brand. On the brand card, click the _More menu_ ( ![More menu icon](../../assets/do-not-localize/icon-more-menu.svg) ) icon and choose **[!UICONTROL Mark as default brand]**.
+公開した（_Live_）ブランドをデフォルトブランドとして設定できます。 ブランドカードで、_詳細メニュー_ （![詳細メニューアイコン ](../../assets/do-not-localize/icon-more-menu.svg)）アイコンをクリックし、**[!UICONTROL デフォルトのブランドとしてマーク]**&#x200B;を選択します。
 
-![Designate the default brand identity](./assets/brands-set-default.png){width="350"}
+![既定のブランド IDを指定](./assets/brands-set-default.png){width="350"}
 
 ## ブランドの作成と定義 {#create-brand}
 
@@ -74,131 +72,131 @@ You can set any published (_Live_) brand as the default brand. On the brand card
 >title="ブランドの作成"
 >abstract="ブランド名を入力し、ブランドガイドラインファイルをアップロードします。 このツールは重要な詳細を自動的に抽出するので、ブランドのアイデンティティを維持しやすくなります。"
 
-To create and define your brand guidelines, you can either enter the details or upload your brand guideline documents to use for automatic extraction.
+ブランドガイドラインを作成および定義するには、詳細を入力するか、ブランドガイドラインドキュメントをアップロードして、自動抽出に使用します。
 
-### Add the brand
+### ブランドを追加
 
-1. At the top-right of the _[!UICONTROL Brands]_ page, click **[!UICONTROL Create brand]**.
+1. _[!UICONTROL ブランド]_ ページの右上にある「**[!UICONTROL ブランドを作成]**」をクリックします。
 
 1. ブランドの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
 1. ファイルをドラッグ＆ドロップまたは選択し、ブランドガイドラインをアップロードして、関連するブランド情報を自動的に抽出します。
 
-   ![Define a new brand](./assets/brands-create-new.png){width="500"}
+   ![新しいブランドを定義](./assets/brands-create-new.png){width="500"}
 
    >[!NOTE]
    >
-   >If you don&#39;t have a document saved in PDF format, you can manually add the guidelines and upload individual visual assets after brand creation.
+   >PDF形式で保存したドキュメントがない場合は、ブランド作成後にガイドラインを手動で追加したり、個々のビジュアルアセットをアップロードしたりすることができます。
 
 1. 「**[!UICONTROL ブランドを作成]**」をクリックします。
 
-   If you include one or more files to create the brand, the information extraction process begins. It may take several minutes to complete.
+   1つ以上のファイルを含めてブランドを作成すると、情報抽出プロセスが開始されます。 完了までに数分かかる場合があります。
 
-   When the extraction process is complete, your content and visual creation standards are automatically populated.
+   抽出プロセスが完了すると、コンテンツとビジュアル作成基準が自動的に入力されます。
 
-   ![Initial brand guidelines from uploaded document](./assets/brands-create-new-page.png){width="700" zoomable="yes"}
+   ![ アップロードされたドキュメントからの最初のブランドガイドライン ](./assets/brands-create-new-page.png){width="700" zoomable="yes"}
 
-### Refine and update the brand guidelines
+### ブランドガイドラインの改善と更新
 
-1. Browse through the different tabs to adapt and define more detailed information as needed.
+1. 様々なタブを参照して、必要に応じて詳細情報を調整および定義します。
 
    * [!UICONTROL 概要]
 
-   * [[!UICONTROL About the brand]](#about-the-brand)
+   * [[!UICONTROL  ブランドについて]](#about-the-brand)
 
-   * [[!UICONTROL Writing style]](#writing-style)
+   * [[!UICONTROL 文体]](#writing-style)
 
-   * [[!UICONTROL Visual content]](#visual-content)
+   * [[!UICONTROL  ビジュアルコンテンツ ]](#visual-content)
 
-   If you included one or more documents when you created the brand, the information extraction process created definitions for the tabs and sections. The completeness depends on the scope and details included in any documents. As you review the result, you can change or remove any of the information.
+   ブランドの作成時に1つ以上のドキュメントを含めた場合、情報抽出プロセスによって、タブとセクションの定義が作成されます。 完全性は、ドキュメントに含まれる範囲と詳細によって異なります。 結果を確認すると、情報のいずれかを変更または削除できます。
 
-   From the  _More menu_ ( ![More menu icon](../../assets/do-not-localize/icon-more-menu.svg) ) for each tab or category, you can add documents to extract relevant brand information automatically. You can also clear the existing content.
+   各タブまたはカテゴリの&#x200B;_詳細メニュー_ （![詳細メニューアイコン ](../../assets/do-not-localize/icon-more-menu.svg)）から、ドキュメントを追加して、関連するブランド情報を自動的に抽出できます。 既存のコンテンツをクリアすることもできます。
 
-   ![Clear the section/category or add extraction reference](./assets/brands-sections-categories-more-menu.png){width="500" zoomable="yes"}
+   ![ セクション/カテゴリをクリアするか、抽出参照を追加](./assets/brands-sections-categories-more-menu.png){width="500" zoomable="yes"}
 
-   If you want to review the source for the extracted information in a sub-section, click the **[!UICONTROL View source]** link.
+   サブセクション内の抽出された情報のソースを確認する場合は、**[!UICONTROL ソースを表示]** リンクをクリックします。
 
-   ![View the brand content source](./assets/brands-view-source.png){width="700" zoomable="yes"}
+   ![ ブランドコンテンツソースを表示](./assets/brands-view-source.png){width="700" zoomable="yes"}
 
-1. In each details tab, review the categories and improve the brand by adding, removing, and changing your definitions.
+1. 各詳細タブで、カテゴリを確認し、定義を追加、削除、変更してブランドを改善します。
 
-   A sub-section labeled **[!UICONTROL Do&#39;s]** outlines the guidelines for the category. Use this area to add guideline descriptions and examples of the guidelines.
+   **[!UICONTROL Do&#39;s]**&#x200B;というラベルの付いたサブセクションは、カテゴリのガイドラインの概要を示しています。 この領域を使用して、ガイドラインの説明とガイドラインの例を追加します。
 
-   ![Defined guideline with examples](./assets/brands-guidelines-examples.png){width="500" zoomable="yes"}
+   ![例を使用したガイドラインの定義](./assets/brands-guidelines-examples.png){width="500" zoomable="yes"}
 
-   A sub-section labeled **[!UICONTROL Don&#39;ts]** outlines the exclusions. Use this area to add exclusion descriptions and examples of the exclusions.
+   **[!UICONTROL Don&#39;t]**&#x200B;というラベルの付いたサブセクションは、除外事項の概要を示しています。 この領域を使用して、除外の説明と除外の例を追加します。
 
-   ![Defined exclusions with examples](./assets/brands-exclusions-examples.png){width="500" zoomable="yes"}
+   ![例を使用した除外の定義](./assets/brands-exclusions-examples.png){width="500" zoomable="yes"}
 
-   * **Add a guideline or exclusion**.
+   * **ガイドラインまたは除外を追加**。
 
-     In the section where you want to add a guideline, click the _Add_ ( ![Add icon](../assets/do-not-localize/icon-add-components.svg) ) icon on the right. In the popup dialog, enter the guideline and select the checkboxes to designate the channels and elements for which the guideline applies. Then, click **[!UICONTROL Add]**.
+     ガイドラインを追加するセクションで、右側の&#x200B;_追加_ （![追加アイコン ](../assets/do-not-localize/icon-add-components.svg)）アイコンをクリックします。 ポップアップダイアログで、ガイドラインを入力し、チェックボックスを選択して、ガイドラインが適用されるチャネルと要素を指定します。 次に、**[!UICONTROL 追加]**&#x200B;をクリックします。
 
-     ![Add a guideline](./assets/brands-guideline-add.png){width="600" zoomable="yes"}
+     ![ ガイドラインを追加](./assets/brands-guideline-add.png){width="600" zoomable="yes"}
 
-   * **Change a guideline or exclusion**.
+   * **ガイドラインまたは除外を変更**。
 
-     In the section where you want to remove a guideline, click the guideline widget. In the popup dialog, change the content for the guideline and the selected checkboxes as needed. Then, click **[!UICONTROL Update]**.
+     ガイドラインを削除するセクションで、ガイドラインウィジェットをクリックします。 ポップアップダイアログで、必要に応じてガイドラインのコンテンツと選択したチェックボックスを変更します。 次に、**[!UICONTROL 更新]**&#x200B;をクリックします。
 
-     ![Change a guideline](./assets/brands-guideline-update.png){width="600" zoomable="yes"}
+     ![ ガイドラインの変更](./assets/brands-guideline-update.png){width="600" zoomable="yes"}
 
-   * **Remove a guideline or exclusion**.
+   * **ガイドラインまたは除外を削除**。
 
-     In the section where you want to remove a guideline, click the guideline widget. In the popup dialog, click the _Delete_  ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon at the top.
+     ガイドラインを削除するセクションで、ガイドラインウィジェットをクリックします。 ポップアップダイアログで、上部の&#x200B;_削除_ （![削除アイコン ](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックします。
 
-   * **Add or revise examples of your guidelines and exclusions**.
+   * **ガイドラインと除外事項の例を追加または修正**。
 
-     In the displayed example tile, click the _Edit_ ( ![Edit icon](../assets/do-not-localize/icon-edit.svg) ) icon to change the example, or click the _Delete_ ( ![Delete icon](../assets/do-not-localize/icon-delete.svg) ) icon to remove it.
+     表示された例タイルで、_編集_ （![編集アイコン ](../assets/do-not-localize/icon-edit.svg)）アイコンをクリックして例を変更するか、_削除_ （![削除アイコン ](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックして削除します。
 
-1. When you have everything defined, click **[!UICONTROL Save]**.
+1. すべてを定義したら、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   You can continue to make changes to the draft brand until you decide it is ready to publish.
+   公開の準備ができたと判断するまで、ドラフトブランドに変更を加え続けることができます。
 
-### Publish the brand
+### ブランドの公開
 
-When your brand includes a complete set of definitions and meets your requirements, click **[!UICONTROL Publish]** to make your brand guidelines available for content alignment and generation.
+ブランドに定義の完全なセットが含まれ、要件を満たしたら、**[!UICONTROL 公開]**&#x200B;をクリックして、ブランドガイドラインをコンテンツの調整と生成に利用できるようにします。
 
-Published brands are accessible from the **[!UICONTROL Brand]** option in the AI [brand alignment](./brand-alignment.md) and content generation tools. <!-- [Learn more about content generation](gs-generative.md) -->
+公開されたブランドは、AI [ ブランド調整](./brand-alignment.md)およびコンテンツ生成ツールの&#x200B;**[!UICONTROL ブランド]** オプションからアクセスできます。<!-- [Learn more about content generation](gs-generative.md) -->
 
-![Brand options for content](./assets/brand-menu-content-ai-tools.png){width="300"}
+![ コンテンツのブランドオプション ](./assets/brand-menu-content-ai-tools.png){width="300"}
 
-## Brand definitions
+## ブランド定義
 
-The brand definitions are organized into three categories, displayed as tabs. Select each tab to complete and update the brand guidelines.
+ブランド定義は3つのカテゴリに分けられ、タブとして表示されます。 各タブを選択してブランドガイドラインを完成させ、更新します。
 
 ### ブランドについて {#about-brand}
 
-Use the **[!UICONTROL About the brand]** tab to establish the core identity of your brand. This information outlines its purpose, personality, tagline, and other high-level attributes.
+「**[!UICONTROL ブランドについて]**」タブを使用して、ブランドのコア IDを確立します。 この情報には、目的、個性、キャッチフレーズなどの概要が記載されます。
 
-1. Add the foundational information for your brand in the **[!UICONTROL Key details]** category:
+1. ブランドの基本情報を&#x200B;**[!UICONTROL キーの詳細]** カテゴリに追加します。
 
-   * **[!UICONTROL Brand kit name]** - Update the brand name.
+   * **[!UICONTROL ブランドキット名]** - ブランド名を更新します。
 
-   * **[!UICONTROL When to use]** - Specify scenarios or contexts where this brand should be applied.
+   * **[!UICONTROL 使用するタイミング]** – このブランドを適用するシナリオまたはコンテキストを指定します。
 
-   * **[!UICONTROL Brand name]** - Enter the official name of the brand.
+   * **[!UICONTROL ブランド名]** - ブランドの正式な名前を入力します。
 
-   * **[!UICONTROL Description of this brand]** - Provide an overview of what this brand represents.
+   * **[!UICONTROL このブランドの説明]** – このブランドの概要を説明します。
 
-   * **[!UICONTROL Tagline (Default)]** - Add the primary tagline associated with the brand.
+   * **[!UICONTROL Tagline （Default）]** - ブランドに関連付けられているプライマリタグラインを追加します。
 
-   ![About the brand - Key details](./assets/brands-about-key-details.png){width="600" zoomable="yes"}
+   ![ ブランドについて – キーの詳細](./assets/brands-about-key-details.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL 基本原則]**&#x200B;カテゴリで、ブランドのコアとなる方向性と哲学を明確にします。
 
-   * **[!UICONTROL Mission]** - Detail the brand purpose.
+   * **[!UICONTROL ミッション]** - ブランドの目的を詳細に説明します。
 
-   * **[!UICONTROL Vision]** - Describe the long-term goal or desired future state.
+   * **[!UICONTROL ビジョン]** – 長期的な目標または望ましい将来の状態を記述します。
 
-   * **[!UICONTROL Market positioning]** - Explain how the brand is positioned in the market.
+   * **[!UICONTROL 市場でのポジショニング]** - ブランドが市場でどのように位置付けられているかを説明します。
 
-   ![About the brand - Guiding principles](./assets/brands-about-guiding-principles.png){width="600" zoomable="yes"}
+   ![ ブランドについて – 指針](./assets/brands-about-guiding-principles.png){width="600" zoomable="yes"}
 
-   **[!UICONTROL コアブランド値]** カテゴリから、定義されたブランド値を確認し、必要に応じて調整します。
+   **[!UICONTROL Core brand values]** カテゴリから、定義されたブランド値を確認し、必要に応じて調整します。
 
-   * 新しいコア値を定義するには、右側の「_追加_」（![追加アイコン &#x200B;](../assets/do-not-localize/icon-add-components.svg)）アイコンをクリックし、詳細を入力します。
+   * 新しいコア値を定義するには、右側の&#x200B;_追加_ （![追加アイコン ](../assets/do-not-localize/icon-add-components.svg)）アイコンをクリックし、詳細を入力します。
 
-     ![&#x200B; ブランドについて – 指針 – コア価値を追加](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
+     ![ ブランドについて – 指針 – コアバリューを追加する](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
       * **[!UICONTROL 値]** - コアブランド値の名前を入力します。
 
@@ -208,22 +206,22 @@ Use the **[!UICONTROL About the brand]** tab to establish the core identity of y
 
       * **[!UICONTROL 表示]** – この値が実際のブランディングでどのように表現されるかの例を提供します。
 
-   * コア値を変更または削除するには、_編集_ （![編集アイコン &#x200B;](../assets/do-not-localize/icon-edit.svg)）アイコンをクリックして、コアブランド値を更新または削除します。
+   * コア値を変更または削除するには、_編集_ （![編集アイコン ](../assets/do-not-localize/icon-edit.svg)）アイコンをクリックして、コアブランド値を更新または削除します。
 
-     ![&#x200B; ブランドについて – 指針 – コア値を編集](./assets/brands-about-guiding-principles-edit-core-values.png){width="500" zoomable="yes"}
+     ![ ブランドについて – 指針 – コアバリューの編集](./assets/brands-about-guiding-principles-edit-core-values.png){width="500" zoomable="yes"}
 
-     詳細を変更し、**[!UICONTROL 更新]**&#x200B;をクリックします。 または、上部の&#x200B;_削除_ （![削除アイコン &#x200B;](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックして、コア値を削除します。
+     詳細を変更して、**[!UICONTROL 更新]**&#x200B;をクリックします。 または、上部の&#x200B;_削除_ （![削除アイコン ](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックして、コア値を削除します。
 
-1. 「**[!UICONTROL ブランドガイドライン文書]**」カテゴリで、ブランドガイドラインの生成に使用した文書を確認します。
+1. **[!UICONTROL ブランドガイドラインのドキュメント]** カテゴリで、ブランドガイドラインの生成に使用したドキュメントを確認します。
 
    その他メニューアイコンをクリックし、アップロードした参照ドキュメントを使用してブランドガイドラインを更新するオプションを選択します。
 
    * **[!UICONTROL ガイドラインを再抽出]** – 現在のドキュメントを使用して抽出ジョブを実行するには、このアクションを選択します。
-   * **[!UICONTROL 抽出用の参照を追加]** – このアクションを選択すると、別の文書をアップロードして抽出ジョブを実行できます。
+   * **[!UICONTROL 抽出の参照を追加]** – 別の文書をアップロードして抽出ジョブを実行するには、このアクションを選択します。
 
-   ![&#x200B; ブランドについて – ブランドガイドライン文書](./assets/brands-about-documents.png){width="600" zoomable="yes"}
+   ![ ブランドについて – ブランドガイドライン文書](./assets/brands-about-documents.png){width="600" zoomable="yes"}
 
-[書き方](#writing-style)または[&#x200B; ビジュアルコンテンツ &#x200B;](#visual-content)のガイドライン、除外事項、および例を絞り込むか、[&#x200B; ブランドを公開](#publish-the-brand)できます。
+[書き方](#writing-style)または[ ビジュアルコンテンツ ](#visual-content)のガイドライン、除外、例を調整するか、ブランドを[公開](#publish-the-brand)できます。
 
 ### 文体 {#writing-style}
 
@@ -232,26 +230,26 @@ Use the **[!UICONTROL About the brand]** tab to establish the core identity of y
 >title="文体整合性スコア"
 >abstract="「文体」セクションで、言語、書式設定、構造の標準を定義することで、明確で一貫性のあるコンテンツを保証します。 整合性スコアは高から低までの評価で、コンテンツがこれらのガイドラインにどのくらい適切に準拠しているかを示し、改善が必要な領域を強調します。"
 
-_[!UICONTROL 文体]_&#x200B;の定義は、コンテンツを記述するための標準の概要を示し、すべてのマテリアルで明瞭性、一貫性、一貫性を維持するために、言語、書式設定、構造をどのように使用すべきかを詳しく説明しています。
+_[!UICONTROL 書き方]_&#x200B;の定義は、コンテンツを書く際の基準の概要を示し、すべてのマテリアルで明瞭性、一貫性、一貫性を維持するために、言語、書式設定、構造をどのように使用すべきかを詳しく説明します。
 
 「**[!UICONTROL 書き方]**」タブを選択し、各カテゴリを確認します。
 
-![&#x200B; スタイル タブの作成](./assets/brands-writing-style-tab.png){width="600" zoomable="yes"}
+![ スタイルのタブの作成](./assets/brands-writing-style-tab.png){width="600" zoomable="yes"}
 
 | カテゴリ | サブカテゴリ | ガイドラインの例 | 除外の例 |
 |----------------------------|----------------|-----------------------|-----------------------|
-| [!UICONTROL &#x200B; ブランドコミュニケーションスタイル &#x200B;] | [!UICONTROL &#x200B; ブランドパーソナリティ特性] | わかりやすくて、親しみやすい。 | 弱気な印象を与えない。 |
-|                            | [!UICONTROL 機械学習の書き込み] | 文章を短く、効果的なものにする。 | 過度に専門用語を使用しない。 |
-|                            | [!UICONTROL 状況トーン &#x200B;] | 危機管理コミュニケーションではプロフェッショナルなトーンを維持する。 | サポートコミュニケーションで軽視しない。 |
-|                            | [!UICONTROL 単語の選択ガイドライン &#x200B;] | _innovative_&#x200B;や&#x200B;_smart_&#x200B;などの単語を使用します。 | _安い_&#x200B;や&#x200B;_ハック_&#x200B;などの単語は避けます。 |
+| [!UICONTROL  ブランドコミュニケーションスタイル ] | [!UICONTROL  ブランドパーソナリティ特性] | わかりやすくて、親しみやすい。 | 弱気な印象を与えない。 |
+|                            | [!UICONTROL  メカニックの書き込み] | 文章を短く、効果的なものにする。 | 過度に専門用語を使用しない。 |
+|                            | [!UICONTROL 状況トーン ] | 危機管理コミュニケーションではプロフェッショナルなトーンを維持する。 | サポートコミュニケーションで軽視しない。 |
+|                            | [!UICONTROL 単語の選択ガイドライン ] | 「_innovative_」や「_smart_」などの単語を使用します。 | 「_cheap_」や「_hack_」などの単語は避けます。 |
 |                            | [!UICONTROL 言語標準] | 米国英語の慣例に従う。 | 英国と米国のスペルを混在させない。 |
-| [!UICONTROL &#x200B; ブランドメッセージ標準] | [!UICONTROL &#x200B; ブランドメッセージ標準] | 革新性と顧客第一のメッセージをハイライト表示する。 | 製品の機能を過度に約束しない。 |
-|                            | [!UICONTROL 件名の使用状況] | すべてのデジタルマーケティングアセットのロゴの下にタグラインを配置する。 | タグラインを変更または翻訳しない。 |
-|                            | [!UICONTROL &#x200B; コアメッセージ &#x200B;] | 生産性の向上など、主なメリットに関する声明を重視する。 | 無関係なバリューの提案を使用しない。 |
+| [!UICONTROL  ブランドメッセージ標準] | [!UICONTROL  ブランドメッセージ標準] | 革新性と顧客第一のメッセージをハイライト表示する。 | 製品の機能を過度に約束しない。 |
+|                            | [!UICONTROL  キャッチフレーズの使用状況] | すべてのデジタルマーケティングアセットのロゴの下にタグラインを配置する。 | タグラインを変更または翻訳しない。 |
+|                            | [!UICONTROL  コアメッセージ ] | 生産性の向上など、主なメリットに関する声明を重視する。 | 無関係なバリューの提案を使用しない。 |
 |                            | [!UICONTROL 命名規則] | _ProScheduler_&#x200B;など、わかりやすい名前を使用します。 | 複雑な用語や特殊文字を使用しない。 |
-| [!UICONTROL 法的遵守基準] | [!UICONTROL 商標基準] | 常に ™ または ® 記号を使用する。 | 必要な場合は法的記号を省略しない。 |
+| [!UICONTROL 法的コンプライアンス基準] | [!UICONTROL 商標基準] | 常に ™ または ® 記号を使用する。 | 必要な場合は法的記号を省略しない。 |
 |                            | [!UICONTROL 著作権基準] | マーケティング資料に著作権通知を含める。 | 権限がない場合は、サードパーティのコンテンツを使用しない。 |
-|                            | [!UICONTROL 免責基準] | デジタルアセットに免責事項を読みやすく表示する。 | 免責事項を非表示の領域に配置しない。 |
+|                            | [!UICONTROL 免責事項] | デジタルアセットに免責事項を読みやすく表示する。 | 免責事項を非表示の領域に配置しない。 |
 
 <!-- #### Preferred and avoided terms
 
@@ -279,14 +277,14 @@ _[!UICONTROL ビジュアルコンテンツ]_&#x200B;の定義では、画像と
 
 「**[!UICONTROL ビジュアルコンテンツ]**」タブを選択し、各カテゴリを確認します。
 
-![&#x200B; ビジュアルコンテンツタブ &#x200B;](./assets/brands-visual-content-tab.png){width="600" zoomable="yes"}
+![ ビジュアルコンテンツタブ ](./assets/brands-visual-content-tab.png){width="600" zoomable="yes"}
 
 | カテゴリ | ガイドラインの例 | 除外の例 |
 |------------------------|---------------------|---------------------|
 | [!UICONTROL 写真基準] | 屋外撮影には自然光を使用する。 | 過度に編集された画像やピクセル化された画像を使用しない。 |
-| [!UICONTROL &#x200B; イラスト基準] | 無駄のない、ミニマルなスタイルを使用する。 | 過度に複雑なイラストを使用しない。 |
-| [!UICONTROL &#x200B; アイコン標準] | 一貫性のある 24 ピクセルのグリッドシステムを使用する。 | アイコンの寸法を混在させたり、異なる太さの線を使用したり、グリッドルールから逸脱したりしない。 |
-| [!UICONTROL 使用ガイドライン &#x200B;] | 実際の顧客がプロフェッショナルな環境で製品を使用する様子を反映したライフスタイル画像を選択する。 | ブランドのトーンに矛盾する画像や、コンテキストから外れた画像を使用しない。 |
+| [!UICONTROL  イラスト基準] | 無駄のない、ミニマルなスタイルを使用する。 | 過度に複雑なイラストを使用しない。 |
+| [!UICONTROL  アイコン標準] | 一貫性のある 24 ピクセルのグリッドシステムを使用する。 | アイコンの寸法を混在させたり、異なる太さの線を使用したり、グリッドルールから逸脱したりしない。 |
+| [!UICONTROL 使用ガイドライン ] | 実際の顧客がプロフェッショナルな環境で製品を使用する様子を反映したライフスタイル画像を選択する。 | ブランドのトーンに矛盾する画像や、コンテキストから外れた画像を使用しない。 |
 
 <!-- #### Styles
 
@@ -300,9 +298,9 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 #### 画像例
 
-正しいまたは正しくない使用方法を示す画像を追加するには、_[!UICONTROL ガイドラインを追加]_&#x200B;または&#x200B;_[!UICONTROL 除外を追加]_ ポップアップダイアログで&#x200B;**[!UICONTROL 例]**&#x200B;を選択します。 **[!UICONTROL 画像を選択]**&#x200B;をクリックして、システムから画像ファイルを選択します。 **[!UICONTROL 追加]**&#x200B;をクリックして画像をアップロードし、領域のサムネールを表示します。
+正しいまたは正しくない使用方法を示す画像を追加するには、_[!UICONTROL ガイドラインを追加]_&#x200B;または&#x200B;_[!UICONTROL 除外を追加]_ ポップアップダイアログで&#x200B;**[!UICONTROL 例]**&#x200B;を選択します。 「**[!UICONTROL 画像を選択]**」をクリックして、システムから画像ファイルを選択します。 **[!UICONTROL 追加]**&#x200B;をクリックして画像をアップロードし、領域のサムネールを表示します。
 
-![&#x200B; サンプル画像を追加](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
+![ サンプル画像を追加](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
 
 ## 公開ブランドの編集
 
@@ -310,7 +308,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 1. ブランドページを開き、右上の「**[!UICONTROL ブランドを編集]**」をクリックします。
 
-1. 確認ダイアログで、「**[!UICONTROL ブランドを編集]**」をクリックします。
+1. 確認ダイアログで、**[!UICONTROL ブランドを編集]**&#x200B;をクリックします。
 
    このアクションは、ブランドのドラフトコピーを作成します。
 
@@ -324,4 +322,4 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    * [視覚的コンテンツ](#visual-content)
 
-1. ドラフトの更新を操作する際に&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックし、_ライブ_&#x200B;版を置き換える準備ができたら&#x200B;**[!UICONTROL 公開]**&#x200B;をクリックします。
+1. ドラフトの更新を操作する際に&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックし、_Live_ バージョンを置き換える準備ができたら&#x200B;**[!UICONTROL 公開]**&#x200B;をクリックします。
