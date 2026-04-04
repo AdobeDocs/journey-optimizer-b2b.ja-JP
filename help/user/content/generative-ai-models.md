@@ -20,7 +20,7 @@ ht-degree: 0%
 - Gemini 2.5 Flashを搭載した&#x200B;**[!UICONTROL パートナーモデル]**&#x200B;は、特定のユースケースに特化した機能を提供します。
 - **[!UICONTROL カスタムモデル]**&#x200B;は、自社のアセットでトレーニングし、自社が追加したブランド固有のモデルです。
 
-カスタムモデルについて詳しくは、[Adobe Firefly ドキュメント &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}を参照してください。
+カスタムモデルについて詳しくは、[Adobe Firefly ドキュメント &#x200B;](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}を参照してください。
 
 マーケターは、メールやランディングページのコンテンツ用の画像を生成する際に、有効な生成モデルのいずれかを選択できます。
 
@@ -70,7 +70,7 @@ _フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/
 
 1. **[!UICONTROL モデル ID]**&#x200B;を入力します。
 
-   モデル IDを見つけるには、Firefly web サイトにアクセスし、トレーニング済みモデルに移動します。 一意のIDは、公開後にモデルの管理セクションで使用できます。 詳しくは、[Firefly カスタムモデルのドキュメント &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}を参照してください。
+   モデル IDを見つけるには、Firefly web サイトにアクセスし、トレーニング済みモデルに移動します。 一意のIDは、公開後にモデルの管理セクションで使用できます。 詳しくは、[Firefly カスタムモデルのドキュメント &#x200B;](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}を参照してください。
 
 1. オプションで、**[!UICONTROL 説明]**&#x200B;を入力して、モデルとその意図された使用状況を特定します。
 
