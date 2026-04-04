@@ -20,7 +20,7 @@ ht-degree: 0%
 - Gemini 2.5 Flashを搭載した&#x200B;**[!UICONTROL パートナーモデル]**&#x200B;は、特定のユースケースに特化した機能を提供します。
 - **[!UICONTROL カスタムモデル]**&#x200B;は、自社のアセットでトレーニングし、自社が追加したブランド固有のモデルです。
 
-カスタムモデルについて詳しくは、[Adobe Firefly ドキュメント ](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}を参照してください。
+カスタムモデルについて詳しくは、[Adobe Firefly ドキュメント &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}を参照してください。
 
 マーケターは、メールやランディングページのコンテンツ用の画像を生成する際に、有効な生成モデルのいずれかを選択できます。
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 1. ページで、「**[!UICONTROL 生成モデル]**」タブを選択します。
 
-![生成モデルリストにアクセス ](./assets/brands-gen-models-list.png){width="800" zoomable="yes"}
+![生成モデルリストにアクセス &#x200B;](./assets/brands-gen-models-list.png){width="800" zoomable="yes"}
 
 ### リストをフィルタリングして検索します
 
-_フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/icon-react-filter.svg) アイコンをクリックして、フィルターメニューにアクセスします。 **[!UICONTROL Type]**&#x200B;または&#x200B;**[!UICONTROL Status]**&#x200B;でモデルをフィルタリングします。
+_フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../../assets/do-not-localize/icon-react-filter.svg) アイコンをクリックして、フィルターメニューにアクセスします。 **[!UICONTROL Type]**&#x200B;または&#x200B;**[!UICONTROL Status]**&#x200B;でモデルをフィルタリングします。
 
 ![生成モデルリストのフィルター](./assets/brands-gen-models-filter.png){width="700" zoomable="yes"}
 
@@ -44,11 +44,11 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 
 ### モデルのアクション
 
-リスト内のカスタムモデルの場合は、_詳細メニュー_ ![詳細メニューアイコン ](../../assets/do-not-localize/icon-more-menu.svg) アイコンをクリックします。 **[!UICONTROL 有効]**&#x200B;または&#x200B;**[!UICONTROL 無効]**&#x200B;を選択してモデルの可用性ステータスを変更するか、**[!UICONTROL 削除]**&#x200B;を選択してモデルをリストから削除できます。
+リスト内のカスタムモデルの場合は、_詳細メニュー_ ![詳細メニューアイコン &#x200B;](../../assets/do-not-localize/icon-more-menu.svg) アイコンをクリックします。 **[!UICONTROL 有効]**&#x200B;または&#x200B;**[!UICONTROL 無効]**&#x200B;を選択してモデルの可用性ステータスを変更するか、**[!UICONTROL 削除]**&#x200B;を選択してモデルをリストから削除できます。
 
 ![生成モデルリストのその他のメニュー](./assets/brands-gen-models-more-menu.png){width="450"}
 
-組み込みモデルの場合、_有効_ （![有効にするアイコン ](../../assets/do-not-localize/icon-enable.svg)）または&#x200B;_無効にする_ （![無効にするアイコン ](../../assets/do-not-localize/icon-disable.svg)）アイコンをクリックして、画像生成のモデルの可用性を変更します。
+組み込みモデルの場合、_有効_ （![有効にするアイコン &#x200B;](../../assets/do-not-localize/icon-enable.svg)）または&#x200B;_無効にする_ （![無効にするアイコン &#x200B;](../../assets/do-not-localize/icon-disable.svg)）アイコンをクリックして、画像生成のモデルの可用性を変更します。
 
 >[!NOTE]
 >
@@ -70,11 +70,11 @@ _フィルター_ ![ フィルターアイコン ](../../assets/do-not-localize/
 
 1. **[!UICONTROL モデル ID]**&#x200B;を入力します。
 
-   モデル IDを見つけるには、Firefly web サイトにアクセスし、トレーニング済みモデルに移動します。 一意のIDは、公開後にモデルの管理セクションで使用できます。 詳しくは、[Firefly カスタムモデルのドキュメント ](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}を参照してください。
+   モデル IDを見つけるには、Firefly web サイトにアクセスし、トレーニング済みモデルに移動します。 一意のIDは、公開後にモデルの管理セクションで使用できます。 詳しくは、[Firefly カスタムモデルのドキュメント &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}を参照してください。
 
 1. オプションで、**[!UICONTROL 説明]**&#x200B;を入力して、モデルとその意図された使用状況を特定します。
 
-   ![ モデルを追加 – 生成モデル ](./assets/brands-gen-models-add-model.png){width="550" zoomable="yes"}
+   ![&#x200B; モデルを追加 – 生成モデル &#x200B;](./assets/brands-gen-models-add-model.png){width="550" zoomable="yes"}
 
 1. 「**[!UICONTROL 接続をテスト]**」をクリックして、モデル設定を確認します。
 
