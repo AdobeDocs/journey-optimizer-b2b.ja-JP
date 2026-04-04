@@ -49,7 +49,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 ## 一般的なガイドラインと制限事項 {#general-guidelines-and-limitations}
 
-生成AI機能の使用には、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が適用されます。 メディア作成に生成AI ツールを使用する際の透明性に対するAdobeの取り組みにより、Adobeは、[!DNL Firefly]生成されたアセットがダウンロードまたはエクスポートされたときに含まれるコンテンツまたはプロジェクトに[&#x200B; コンテンツ資格情報](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}を適用します。
+生成AI機能の使用には、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が適用されます。 メディア作成に生成AI ツールを使用する際の透明性に対するAdobeの取り組みにより、Adobeは、[!DNL Firefly]生成されたアセットがダウンロードまたはエクスポートされたときに含まれるコンテンツまたはプロジェクトに[&#x200B; コンテンツ資格情報](https://helpx.adobe.com/jp/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}を適用します。
 
 [!DNL Journey Optimizer B2B Edition]のコンテンツに生成AIを使用する場合は、次の一般的なガイドラインを確認してください。
 
