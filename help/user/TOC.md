@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 74bfcc9cc2edae97133e54f076e43329c1399e5c
+source-git-commit: dc98267c16fa0818f4b4a751696441c3b51c5fd3
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 98%
+source-wordcount: '432'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 98%
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
       + [アクションの実行](./journeys/action-nodes.md)
       + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
-      + [&#x200B; パスの分割と結合](./journeys/split-merge-paths-nodes.md)
+      + [ パスの分割と結合](./journeys/split-merge-paths-nodes.md)
       + [待機](./journeys/wait-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
 + ジャーニーコンテンツ {#journey-content}
@@ -138,6 +138,7 @@ ht-degree: 98%
       + [概要](./content/brands-overview.md)
       + [管理と作成](./content/brands-manage-create.md)
       + [ブランド一致](./content/brand-alignment.md)
+      + [生成AI モデル](./content/generative-ai-models.md)
    + [ブランドテーマ](./content/brand-themes.md)
    + [条件付きコンテンツ](./content/conditional-content.md)
    + パーソナライゼーション {#personalization}
@@ -147,7 +148,7 @@ ht-degree: 98%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}

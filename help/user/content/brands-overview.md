@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '875'
 ht-degree: 12%
 
 ---
@@ -59,13 +59,13 @@ ht-degree: 12%
 
 1. この情報を1つ以上のPDF ファイルにアセンブリします。
 
-1. PDF ファイルを使用して、Journey Optimizer B2B editionで[&#x200B; ブランド &#x200B;](./brands-manage-create.md#create-and-define-a-brand)を作成します。
+1. PDF ファイルを使用して、Journey Optimizer B2B editionで[ ブランド ](./brands-manage-create.md#create-and-define-a-brand)を作成します。
 
-1. 使用する準備ができたら、[&#x200B; ブランドを公開します](./brands-manage-create.md#publish-the-brand)。
+1. 使用する準備ができたら、[ ブランドを公開します](./brands-manage-create.md#publish-the-brand)。
 
-1. ブランドを[&#x200B; メールコンテンツ調整](./brand-alignment.md)に使用します。
-<!-- 
-1. Use the brand to generate content. -->
+1. ブランドを[ メールコンテンツ調整](./brand-alignment.md)に使用します。
+
+1. ブランドを使用して[ メールコンテンツを生成](./ai-assistant-emails.md)。
 
 >[!BEGINSHADEBOX]
 
@@ -83,7 +83,7 @@ ht-degree: 12%
    >
    >**[!UICONTROL Ai アシスタントを有効にする]**&#x200B;権限は、**[!UICONTROL ブランド]** ライブラリへの読み取り専用アクセスを提供します。
 
-   ![&#x200B; ブランドへのアクセスに対するAI アシスタント権限を追加](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
+   ![ ブランドへのアクセスに対するAI アシスタント権限を追加](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL 保存]**&#x200B;をクリックして変更を適用します。
 
@@ -93,7 +93,7 @@ ht-degree: 12%
 
    * ユーザー名と電子メールアドレスを入力するか、リストから既存のユーザーを選択します。
 
-     ユーザーがまだ作成されていない場合は、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}を参照してください。
+     ユーザーがまだ作成されていない場合は、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}を参照してください。
 
    * **[!UICONTROL 保存]**&#x200B;をクリックして変更を適用します。
 
