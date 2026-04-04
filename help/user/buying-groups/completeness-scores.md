@@ -20,7 +20,7 @@ ht-degree: 9%
 
 完全性スコアとは、定義された役割をまたいで、購買グループに必要なメンバーがどの程度割り当てられているかを示す割合です。 これらのスコアは、役割テンプレートで設定した役割メンバーのしきい値と、購買グループの各役割に割り当てられた実際のメンバー数に基づいています。 結果として得られるスコアは、マーケターがセールス部門の準備状況を評価し、購買グループの構成のギャップを特定するのに役立ちます。 購買グループのメンバーシップが変更されると、スコア計算が自動的に実行されます。
 
-![購買グループの完全性スコア ](./assets/buying-group-details-page-completeness-scores.png){width="800" zoomable="yes"}
+![購買グループの完全性スコア &#x200B;](./assets/buying-group-details-page-completeness-scores.png){width="800" zoomable="yes"}
 
 完全性スコアには2種類あります。
 
@@ -71,7 +71,7 @@ The buying group completeness score is available to use for filtering in [journe
 >title="役割の完全性の計算"
 >abstract="役割の完全性スコアは、役割に割り当てられたメンバーの数に基づいてパーセンテージで計算されます。"
 
-Journey Optimizer B2B editionは、各購買グループの役割に対する完全性スコアをパーセントで計算します。 このスコアは、役割に割り当てられたメンバーの数に基づきます。一方、[完了にロールテンプレート ](./buying-groups-role-templates.md#change-the-completeness-score-settings)で必要な数です。
+Journey Optimizer B2B editionは、各購買グループの役割に対する完全性スコアをパーセントで計算します。 このスコアは、役割に割り当てられたメンバーの数に基づきます。一方、[完了にロールテンプレート &#x200B;](./buying-groups-role-templates.md#change-the-completeness-score-settings)で必要な数です。
 
 役割の完全性の計算は、ゼロから指定されたしきい値（メンバーが必要）までの間の線形パーセンテージです。
 
