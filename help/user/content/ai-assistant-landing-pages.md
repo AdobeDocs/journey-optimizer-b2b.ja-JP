@@ -32,7 +32,7 @@ ht-degree: 3%
 
 この機能の使用を開始する前に、[&#x200B; ガイドラインと制限事項](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 [!DNL Journey Optimizer B2B Edition]でAI機能を使用するには、[&#x200B; ユーザー契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。 詳しくは、アドビ担当者にお問い合わせください。
 
-メディア作成での生成AI ツールの使用に関する透明性を向上するというAdobeの取り組みにより、Adobeは、ダウンロードまたはエクスポート時にFirefly生成アセットを含むコンテンツまたはプロジェクトに[&#x200B; コンテンツ認証情報](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}を適用します。
+メディア作成での生成AI ツールの使用に関する透明性を向上するというAdobeの取り組みにより、Adobeは、ダウンロードまたはエクスポート時にFirefly生成アセットを含むコンテンツまたはプロジェクトに[&#x200B; コンテンツ認証情報](https://helpx.adobe.com/jp/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}を適用します。
 
 次の制限事項とガイドラインは、[!DNL Journey Optimizer B2B Edition]のランディングページコンテンツ生成に使用されるAI アシスタント機能に適用されます。
 
