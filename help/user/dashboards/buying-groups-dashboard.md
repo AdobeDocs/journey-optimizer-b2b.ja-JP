@@ -41,7 +41,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 詳細な情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
 
-![購買グループ完了スコアのビジュアライゼーション ](./assets/buying-group-completion-score-chart.png){width="500"}
+![購買グループ完了スコアのビジュアライゼーション &#x200B;](./assets/buying-group-completion-score-chart.png){width="500"}
 
 ## 購買グループのエンゲージメントスコア分布
 
@@ -49,7 +49,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 詳細な情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
 
-![購買グループのエンゲージメントスコアのビジュアライゼーション ](./assets/buying-group-engagement-score-chart.png){width="500"}
+![購買グループのエンゲージメントスコアのビジュアライゼーション &#x200B;](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## ソリューションに対する関心別の購買グループ
 
@@ -57,18 +57,18 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 詳細な情報を表示するには、右上の「**...**」メニューアイコンをクリックします。 **ドリルスルー**&#x200B;または&#x200B;**詳細を表示**&#x200B;を選択します。
 
-![購買グループのエンゲージメントスコアのビジュアライゼーション ](./assets/buying-group-by-solution-interest-chart.png){width="500"}
+![購買グループのエンゲージメントスコアのビジュアライゼーション &#x200B;](./assets/buying-group-by-solution-interest-chart.png){width="500"}
 
 ## データのフィルタリング
 
-左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、次のいずれかの属性を使用して、表示されたデータをフィルタリングします。
+左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、次のいずれかの属性を使用して、表示されたデータをフィルタリングします。
 
 * 現在のステージ
 * 業界
 * 地域
 * ソリューションに対する関心
 
-![表示されたデータを属性でフィルタリング ](./assets/buying-group-overview-filters.png){width="500"}
+![表示されたデータを属性でフィルタリング &#x200B;](./assets/buying-group-overview-filters.png){width="500"}
 
 データのフィルタリングに使用する各属性に対して値をいくつでも選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -76,13 +76,13 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 データにエンゲージするには、_詳細_ （**...**）を使用します 各グラフの右上にメニューがあります。
 
-### [!UICONTROL  ドリルスルー]
+### [!UICONTROL &#x200B; ドリルスルー]
 
 個々のグループスコアまたは分布を詳細に分析するには、**[!UICONTROL ドリルスルー]**&#x200B;を選択します。
 
-![ ドリルスルーしてグラフデータにアクセス ](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
+![&#x200B; ドリルスルーしてグラフデータにアクセス &#x200B;](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
 
-ダッシュボードに適用されたグローバルフィルターは引き継がれます。 左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、[ ドリルスルー表示の属性フィルター](#filter-the-data)を変更します。
+ダッシュボードに適用されたグローバルフィルターは引き継がれます。 左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、[&#x200B; ドリルスルー表示の属性フィルター](#filter-the-data)を変更します。
 
 _詳細_ （**...**）をクリックできます 右上のメニューで、**[!UICONTROL 詳細を表示]**&#x200B;から[拡張データを表示](#view-more)を選択します。
 
