@@ -15,23 +15,23 @@ ht-degree: 9%
 
 # コンテンツスコアリング {#content-scoring}
 
-コンテンツの評価とスコアリングは、選択したブランド ](./brands-manage-create.md#brand-definitions)および一般的な品質基準で定義されているガイドライン [に準拠するコンテンツを作成、レビュー、管理するのに役立ちます。 評価を実施することで、メール施策のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保し、コンテンツを公開する前に品質チェックを行うことができます。
+コンテンツの評価とスコアリングは、選択したブランド [&#128279;](./brands-manage-create.md#brand-definitions)および一般的な品質基準で定義されているガイドライン に準拠するコンテンツを作成、レビュー、管理するのに役立ちます。 評価を実施することで、メール施策のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保し、コンテンツを公開する前に品質チェックを行うことができます。
 
 >[!AVAILABILITY]
 >
 >Adobe Journey Optimizer B2B editionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 >
->製品管理者がこれらの機能を有効にする方法について詳しくは、[ ブランド関連の権限](./brands-overview.md#brand-related-permissions)を参照してください。
+>製品管理者がこれらの機能を有効にする方法について詳しくは、[&#x200B; ブランド関連の権限](./brands-overview.md#brand-related-permissions)を参照してください。
 
 ## 評価の実行
 
-1. メールコンテンツを作成したら、右側の&#x200B;_ブランド調整_ （![ ブランド調整アイコン ](../assets/do-not-localize/icon-brand-compliance.svg)）アイコンをクリックして、メールデザインスペースの&#x200B;_ブランド調整_&#x200B;右側のパネルを開きます。
+1. メールコンテンツを作成したら、右側の&#x200B;_ブランド調整_ （![&#x200B; ブランド調整アイコン &#x200B;](../assets/do-not-localize/icon-brand-compliance.svg)）アイコンをクリックして、メールデザインスペースの&#x200B;_ブランド調整_&#x200B;右側のパネルを開きます。
 
-   [ デフォルトブランド ](./brands-manage-create.md#default-brand)が自動的に選択されます。
+   [&#x200B; デフォルトブランド &#x200B;](./brands-manage-create.md#default-brand)が自動的に選択されます。
 
-   ![ ブランド調整ツールにアクセス ](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+   ![&#x200B; ブランド調整ツールにアクセス &#x200B;](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-   パネルの上部にある&#x200B;_フルスクリーン_ （![ フルスクリーンアイコン ](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックすると、ブランドの整列ツールをフルスクリーンモードで表示できます。
+   パネルの上部にある&#x200B;_フルスクリーン_ （![&#x200B; フルスクリーンアイコン &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックすると、ブランドの整列ツールをフルスクリーンモードで表示できます。
 
 1. 必要に応じて、**[!UICONTROL ブランド]** メニューの矢印（![下向き矢印](../assets/do-not-localize/icon-down-menu.svg)）をクリックして、別の公開済みブランドを選択します。
 
@@ -39,7 +39,7 @@ ht-degree: 9%
 
    選択したブランドのガイドラインに照らしてコンテンツが評価され、結果のスコアが表示されます。
 
-   ![右側のパネルの評価スコア ](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
+   ![右側のパネルの評価スコア &#x200B;](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
 ## ブランド整合性スコア {#brand-score}
 
@@ -85,13 +85,13 @@ ht-degree: 9%
 
 **[!UICONTROL 書き込みスタイル]**&#x200B;または&#x200B;**[!UICONTROL ビジュアルコンテンツ]**&#x200B;の場合は、_展開_ （![展開の矢印](../assets/do-not-localize/icon-expand-right.svg)）矢印をクリックして、評価の詳細を表示します。
 
-![ ブランドの整合性の評価の詳細](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
+![&#x200B; ブランドの整合性の評価の詳細](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
 
-各スコア insightの詳細を表示するには、_全画面_ （![全画面アイコンで詳細なインサイト ](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックします。
+各スコア insightの詳細を表示するには、_全画面_ （![全画面アイコンで詳細なインサイト &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックします。
 
 フラグ付けされたガイドラインを選択して、特定のフィードバックと提案を表示します。
 
-![ フルスクリーン表示でのブランドの整合性の評価の詳細](./assets/brands-alignment-evaluation-details-full-screen.png){width="700" zoomable="yes"}
+![&#x200B; フルスクリーン表示でのブランドの整合性の評価の詳細](./assets/brands-alignment-evaluation-details-full-screen.png){width="700" zoomable="yes"}
 
 コンテンツに変更を加え、「**[!UICONTROL スコアを再評価]**」をクリックして別の評価を実行し、改善された結果を確認できます。
 
@@ -110,7 +110,7 @@ ht-degree: 9%
 
 **[!UICONTROL コンテンツ品質]** セクションまでスクロールして、品質に関するインサイトと推奨事項を確認します。
 
-![ コンテンツ品質評価](./assets/content-scoring-quality-insights.png){width="600" zoomable="yes"}
+![&#x200B; コンテンツ品質評価](./assets/content-scoring-quality-insights.png){width="600" zoomable="yes"}
 
 フラグが設定されている項目を選択して、特定のフィードバックと改善に向けた実用的な提案を表示します。 スコアは、次のカテゴリに基づいています。
 
@@ -121,8 +121,8 @@ ht-degree: 9%
 * **[!UICONTROL コンテンツの一貫性]**：コンテンツがスムーズに流れ、トピックに沿ったものになります。
 * **[!UICONTROL 校正]**：スペル、文法、明瞭度の問題をチェックします。
 
-品質スコアの詳細を表示するには、_全画面_ （![全画面アイコンで詳細なインサイト ](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックします。
+品質スコアの詳細を表示するには、_全画面_ （![全画面アイコンで詳細なインサイト &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックします。
 
-![ コンテンツ品質評価の全画面表示](./assets/content-scoring-quality-full-screen.png){width="700" zoomable="yes"}
+![&#x200B; コンテンツ品質評価の全画面表示](./assets/content-scoring-quality-full-screen.png){width="700" zoomable="yes"}
 
 レコメンデーションにもとづいてコンテンツを編集し、読みやすさ、コンテンツの全体的な品質を高めることができます。 品質スコアを更新するには、変更を加えた後で「**[!UICONTROL スコアを再評価]**」をクリックします。
