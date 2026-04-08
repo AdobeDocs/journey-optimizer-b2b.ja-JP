@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
+source-git-commit: e770b40ebe15a9fe8addd2876d34a0f7800affd2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 96%
+source-wordcount: '439'
+ht-degree: 95%
 
 ---
 
@@ -47,8 +47,9 @@ ht-degree: 96%
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
       + [アクションの実行](./journeys/action-nodes.md)
       + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
-      + [&#x200B; パスの分割と結合](./journeys/split-merge-paths-nodes.md)
+      + [ パスの分割と結合](./journeys/split-merge-paths-nodes.md)
       + [待機](./journeys/wait-nodes.md)
+      + [外部ノード](./journeys/external-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
 + ジャーニーコンテンツ {#journey-content}
    + [SMS チャネル](./content/sms-authoring.md)
@@ -149,12 +150,17 @@ ht-degree: 96%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [ガバナンス](./admin/governance.md)
    + [ペルソナマッピング](./admin/persona-mapping.md)
+   + 設定 {#configurations}
+      + [AEM Assets リポジトリ](./admin/configure-aem-repositories.md)
+      + [インテントデータ](./admin/intent-data.md)
+      + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
+      + [外部アクション](./admin/configure-external-actions.md)
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
       + [SMS 設定](./admin/configure-channels-sms.md)
@@ -162,7 +168,3 @@ ht-degree: 96%
       + [Web チャネル設定（Beta）](./admin/configure-channels-web.md)
       + [ランディングページの設定（Beta）](./admin/landing-page-settings.md)
       + [イベント収集用のデータストリーム設定](./data/aep-event-collection.md)
-   + 設定 {#configurations}
-      + [AEM Assets リポジトリ](./admin/configure-aem-repositories.md)
-      + [インテントデータ](./admin/intent-data.md)
-      + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
