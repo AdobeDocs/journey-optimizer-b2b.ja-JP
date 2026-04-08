@@ -2,144 +2,145 @@
 title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: Journey Optimizer B2B Edition の完全なドキュメント - オンボーディング、購買グループの作成、アカウントジャーニーの作成、コンテンツの管理に使用できるリソースを探索します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 43%
+source-wordcount: '917'
+ht-degree: 26%
 
 ---
 
 # Adobe Journey Optimizer B2B Edition ドキュメント
 
-[!DNL Adobe Journey Optimizer B2B Edition] は、マーケティングチームやセールスチームがアカウントベースのエクスペリエンスを調整し、カスタマーライフサイクル全体で特定の製品の購入グループを選定できるようにする、初めてのアプリケーションです。 AI を使用して、ターゲットアカウント内の購入グループを関与させ、選定します。これにより、チームがより高品質のパイプラインを生成し、より優れた獲得、拡張、保持戦略を設計するのに役立ちます。 また、販売チームとマーケティングチーム間でインサイトを共有できます。
+[!DNL Adobe Journey Optimizer B2B Edition]は、マーケティング部門と営業部門がカスタマーライフサイクル全体にわたってアカウントベースのエクスペリエンスを調整し、特定製品の購買グループを選定できる初めてのアプリケーションです。 AIを活用して、ターゲットアカウント内の購買グループにエンゲージし、選定を行うことで、より質の高いパイプラインの生成や、より優れた獲得、拡大、維持戦略の策定に役立ちます。 また、営業部門とマーケティング部門のインサイトを共有することもできます。
 
-このドキュメントでは、アプリケーションの習得に関する情報を提供します。 マーケター、ビジネス開発担当者、データアナリスト、運用管理者向けに設計されています。
+このドキュメントでは、アプリケーションを習得するための情報を提供します。 マーケター、ビジネス開発担当者、データアナリスト、業務管理者向けに設計されています。
 
 ## 最新情報
 
-[!DNL Journey Optimizer B2B Edition] アプリケーションとドキュメントで、最新の追加機能と機能強化に関するこのサンプリングを確認してください。
+[!DNL Journey Optimizer B2B Edition] アプリケーションとドキュメントの最新の追加と機能強化のサンプルをご覧ください。
 
 >[!BEGINTABS]
 
 >[!TAB AI エージェント ]
 
-[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} を使用すると、AI アシスタントのインターフェイスから専門のエージェントが自動的に呼び出され、適切な回答とインサイトを得ることができます。 Agent Orchestratorは、会話履歴を記憶しているので、コンテキストを繰り返すことなく自然に前の質問に基づいて構築でき、複数のエージェントからのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition] のコンテキストでは、特定の B2B タスクおよびドメイン用に専用のエージェントが 3 つあります。
+[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}では、AI アシスタントのインターフェイスにより、専門の担当者が自動的に呼び出され、適切な回答とインサイトを入手できます。 Agent Orchestratorは、会話履歴を記憶するため、コンテキストを繰り返すことなく自然に以前の質問を作成でき、複数の担当者からのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition]のコンテキストでは、特定のB2B タスクとドメイン用に構築された3つのエージェントがあります。
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
 * [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
 
->[!TAB ジャーニーの再エントリ ]
+>[!TAB WhatsApp チャネル ]
 
-アカウントジャーニーワークフローを通じて、アカウント/人物を複数回送信できるようになりました。 再入力は、認定条件の再評価や再利用可能な育成ワークフローなど、複数のシナリオに対応します。 再入力設定を使用して、条件、制限、待機時間を設定し、アカウントが制御された方法でジャーニーに適合するようにします。
+開発者や製品管理者がMeta Business Manager アカウントとの統合を設定する場合、マーケターはMeta APIを使用して、アカウントジャーニーにWhatsApp メッセージをコンテンツチャネルとして含めることができます。 WhatsAppは、アカウントメンバーにジャーニーコンテンツを直接配信するための利用可能なチャネルとして、メールとSMSを統合しています。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="ジャーニーの再エントリについて学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="WhatsApp チャネルについて説明します"}
 
->[!TAB  ブランドテーマ ]
+>[!TAB 生成AI モデル ]
 
-テーマを使用すると、非テクニカルデザイナーは、特定のブランドやスタイルに合わせた再利用可能なメールコンテンツデザインガイドラインを作成できます。 テーマを使用すると、マーケターは、視覚的に魅力的でブランドと一貫性のあるメールをより迅速かつ少ない労力で活用し、独自のデザインニーズに合わせて高度なカスタマイズオプションを提供できます。
+メールデザイナーは、メールコンテンツ用の画像を生成する際に、標準[!DNL Firefly] モデル、ブランド固有のアセットでトレーニングされたカスタム [!DNL Firefly] モデル、承認済みのサードパーティ画像モデルから選択できるようになりました。 この選択範囲により、一般的なコンテンツのニーズから、ブランド化されたユースケースや特殊なユースケースまで、特定のデザインシナリオに適合するモデルをコントロールすることができます。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/brand-themes.md" tooltip="ブランドテーマについて学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="生成AI モデルの選択方法について詳しく見る"}
+
+>[!TAB 送信時間の最適化]
+
+対面ジャーニーの&#x200B;_メール送信_ アクションノードの場合、送信時間の最適化を使用してメール配信のタイミングをパーソナライズできるようになりました。 これにより、あらゆる顧客に同時に配信するのではなく、各顧客がエンゲージメントする可能性が最も高いタイミングを予測し、それに応じて配信をスケジュール配信できます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="送信時間の最適化について詳しく見る"}
+
+>[!TAB ジャーニー再入力]
+
+アカウントジャーニーワークフローを通じて、アカウント/人物を複数回送信できるようになりました。 再入力は、クオリフィケーション基準の再評価や再利用可能なナーチャリングワークフローなど、複数のシナリオに対応します。 再入力設定を使用して基準、制限、待機時間を設定し、アカウントが管理された方法でジャーニーに再評価されるようにします。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="ジャーニーの再入力について詳しく見る"}
+
+>[!TAB  ブランドのテーマ ]
+
+技術的な知識がなくても、特定のブランドやスタイルに合わせて、再利用可能なメールコンテンツのデザインガイドラインを作成できます。 マーケターは、テーマを活用することで、視覚的に魅力的でブランドに即した電子メールをより早く、より少ない労力で利用し、独自のデザインニーズに合わせた高度なカスタマイズオプションを利用できます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/content/brand-themes.md" tooltip="ブランドのテーマについて詳しく見る"}
 
 >[!TAB  ペルソナマッピング ]
 
-マーケターは、背景、責任、問題点、好ましいコミュニケーションチャネルなど、詳細なプロファイルを定義できます。 これらの定義を使用すると、管理者は、[!DNL Journey Optimizer B2B Edition] のユーザー属性に従ってペルソナを設定できるので、ロールテンプレートでは、これらのペルソナを取り込む合理化された一貫性のあるロール条件を使用できます。
+マーケターは、背景、責任、課題、好みのコミュニケーションチャネルなど、詳細なプロファイルを定義できます。 これらの定義を使用すると、管理者は[!DNL Journey Optimizer B2B Edition]のユーザー属性に従ってペルソナを設定できるため、ロールテンプレートはこれらのペルソナをキャプチャする合理化された一貫したロール条件を使用できます。
 
-[!BADGE 詳細情報]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="ペルソナマッピングについて説明します"}
-
->[!TAB CRM 内販売インサイト ]
-
-セールスチームメンバーは、Salesforce または Dynamics の統合内で成熟した購買グループと関連インサイトを確認し、新しい機会を特定できるようになりました。 ステージ、スコア、関連メンバーなど、購買グループの詳細が含まれます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="CRM 内の販売インサイトについて学ぶ"}
-
->[!TAB メールコンテンツの共同作業]
-
-メールデザインスペースには、フィードバックと解決のためのコラボレーションツールが含まれており、マーケティングチームがメールアセットを直接 [!DNL Journey Optimizer B2B Edition] 内でシームレスにレビュー、ディスカッションおよび最終決定できるようになります。 ユーザーは、外部ツール（チャット、メールスレッド、スプレッドシートなど）でドラフトを共有する代わりに、メールデザインスペース内でコメントを作成し、編集を提案して、フィードバックを解決できます。 チームメンバーにタグを付けると、コメントの詳細が記載されたメール通知またはパルス通知を受信できます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="メールコンテンツ共同作業ツールについて学ぶ"}
-
->[!TAB ダークモードのメールデザイン]
-
-メールデザインスペースに&#x200B;_ダークモード_&#x200B;プレビューと設定が含まれるようになりました。 ダークモードを使用すると、サポートしているメールクライアントとアプリで、メールの背景を暗くし、テキスト、ボタン、他の視覚的要素を明るい色で表示できます。 レンダリングのプレビュー、設定のカスタマイズ、アクセシビリティの確保およびメールクライアント間のテスト。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="ダークモードのメールデザインについて学ぶ"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="ペルソナマッピングについて詳しく見る"}
 
 >[!ENDTABS]
 
-## 調査を開始 {#section-explore}
+## さらに詳しく {#section-explore}
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新のリリースノート
 
-Adobe Journey Optimizer B2B editionの最新のリリースノート、新機能および改善点について説明します。
+Adobe Journey Optimizer B2B editionの最新のリリースノート、新機能、改善点を常に把握できます。
 
 [リリースノートを見る](./release-notes/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
-管理者およびマーケター向けのJourney Optimizer B2B edition オンボーディングガイダンスを確認します。
+Journey Optimizer B2B editionのオンボーディングガイダンス（管理者およびマーケター向け）をご確認ください。
 
 [基本を学ぶ](./start/get-started.md)
 :::
 
 :::
-![&#x200B; 設定アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja){width="25"}
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 XDM フィールドの設定
 
-システム設定を実装して、Adobe Journey Optimizer B2B editionで使用する XDM スキーマおよびフィールドをアクティブ化します。
+Adobe Journey Optimizer B2B editionで使用するXDM スキーマとフィールドをアクティブ化するためのシステム設定を実装します。
 
 [XDM フィールド管理の表示](./admin/xdm-field-management.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信チャネル
 
-パーソナライズされた顧客インタラクションのために、メール、SMS、その他のチャネルを設定および管理します。
+電子メール、SMS、WhatsAppなどのチャネルを設定、管理し、顧客とのパーソナライズされたインタラクションを実現します。
 
-[&#x200B; メールチャネルの設定 &#x200B;](./admin/configure-channels-emails.md)
-[SMS チャネルの設定 &#x200B;](./admin/configure-channels-sms.md)
+[電子メール チャネルの設定](./admin/configure-channels-emails.md)
+[SMS チャネルの設定](./admin/configure-channels-sms.md)
+[WhatsApp チャネルの設定](./admin/configure-channels-whatsapp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 アカウントジャーニーの作成
 
-パーソナライズされたアカウントジャーニーを設計、調整、管理および最適化します。
+パーソナライズされたアカウントジャーニーを設計、編成、管理、最適化。
 
 [ジャーニーを探索](./journeys/journeys-overview.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 購買グループについて
 
-効果的なターゲティングを実現するための購入グループの作成、管理および最適化に関する詳細なガイダンス。
+効果的なターゲティングのための購買グループの作成、管理、最適化に関する詳細なガイダンス。
 
-[購入グループについて説明します](./buying-groups/buying-groups-overview.md)
+[購買グループについてさらに詳しく](./buying-groups/buying-groups-overview.md)
 :::
 
 ::::
 
 <!-- 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
-Learn how to author and manage content for personalized customer experiences orchestarted through journeys.
+Learn how to author and manage content for personalized customer experiences orchestrated through journeys.
 
 [Explore Content Components](./content/content-components.md)
 ::: 
@@ -151,7 +152,7 @@ Learn how to author and manage content for personalized customer experiences orc
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
-## ドキュメントを参照
+## ドキュメントを見る
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -170,7 +171,7 @@ Learn how to author and manage content for personalized customer experiences orc
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="アカウントジャーニー"><br/>
-      <strong>アカウントジャーニー</strong><br/><a href="./journeys/journeys-overview.md">ジャーニーの概要</a><br/><a href="./journeys/journeys-overview.md#create-an-account-journey">アカウントジャーニーの作成</a><br/><a href="./journeys/journey-nodes.md">ジャーニーノード</a>
+      <strong>アカウントジャーニー</strong><br/><a href="./journeys/journeys-overview.md">ジャーニーの概要</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">アカウントジャーニーの作成</a><br/><a href="./journeys/journey-nodes.md">ジャーニーノード</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -180,11 +181,11 @@ Learn how to author and manage content for personalized customer experiences orc
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="コンテンツ管理"><br/>
-      <strong> コンテンツ管理 </strong><br/><a href="./content/assets-overview.md">Assetsの概要 </a><br/><a href="./content/email-templates.md"> メールテンプレート </a><br/><a href="./content/fragments.md"> ビジュアルフラグメント </a><br/><a href="./content/conditional-content.md"> 条件付きコンテンツ </a><br/><a href="./content/brand-themes.md"> ブランドテーマ </a>
+      <strong> コンテンツ管理</strong><br/><a href="./content/assets-overview.md">Assetsの概要</a><br/><a href="./content/email-templates.md"> メールテンプレート </a><br/><a href="./content/fragments.md"> ビジュアルフラグメント </a><br/><a href="./content/conditional-content.md">条件付きコンテンツ </a><br/><a href="./content/brand-themes.md"> ブランドテーマ </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="インサイトとダッシュボード"><br/>
-      <strong> インサイト </strong><br/><a href="./dashboards/intelligent-dashboard.md"> インテリジェントダッシュボード </a><br/><a href="./dashboards/engagement-dashboard.md"> エンゲージメントダッシュボード </a><br/><a href="./dashboards/buying-groups-dashboard.md"> 購入グループダッシュボード </a><br/><a href="./dashboards/journeys-dashboard.md">ジャーニーダッシュボード </a><br/><a href="./buying-groups/incrm-insights.md">CRM 内インサイト </a>
+      <strong> インサイト </strong><br/><a href="./dashboards/intelligent-dashboard.md"> インテリジェントダッシュボード </a><br/><a href="./dashboards/engagement-dashboard.md"> エンゲージメントダッシュボード </a><br/><a href="./dashboards/buying-groups-dashboard.md">購買グループダッシュボード </a><br/><a href="./dashboards/journeys-dashboard.md">ジャーニーダッシュボード </a><br/><a href="./buying-groups/incrm-insights.md">CRM内インサイト </a>
     </td>
 
 </tr>
@@ -192,17 +193,17 @@ Learn how to author and manage content for personalized customer experiences orc
 
 ## その他のリソース
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">ビデオとチュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<table style="table-layout:fixed">
+<tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> ビデオとチュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品の説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">ドキュメント</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>
+<a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank"> ドキュメント </a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者リソース </a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home" target="_blank">ドキュメント</a> - <a href="https://experienceleague.adobe.com/ja/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">開発者向けチュートリアル</a>
+<a href="https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home" target="_blank"> ドキュメント </a> - <a href="https://experienceleague.adobe.com/ja/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">開発者チュートリアル </a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/marketo/using/home" target="_blank">ユーザードキュメント</a> - <a href="https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/home" target="_blank">開発者向けドキュメント</a>
+<a href="https://experienceleague.adobe.com/ja/docs/marketo/using/home" target="_blank"> ユーザードキュメント </a> - <a href="https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/home" target="_blank">開発者ドキュメント </a>
 </td>
 </tr></table>
 
