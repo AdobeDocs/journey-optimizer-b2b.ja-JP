@@ -3,7 +3,7 @@ cloud: Experience Cloud
 solution: Journey Optimizer B2B Edition
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/journey-optimizer-b2b.en
+git-repo: https://github.com/AdobeDocs/journey-optimizer-b2b.ja-JP
 feature-set: Journey Optimizer B2B Edition
 landing-page-name: journey-optimizer-b2b
 landing-page-breadcrumb-title: Journey Optimizer B2B

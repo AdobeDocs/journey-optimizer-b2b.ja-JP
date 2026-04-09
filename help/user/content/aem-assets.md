@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->管理者は、Assetsにアクセスする必要があるユーザーを、Assets コンシューマーユーザーまたはAssets ユーザーの製品プロファイルに追加する必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理者は、Assetsにアクセスする必要があるユーザーを、Assets コンシューマーユーザーまたはAssets ユーザーの製品プロファイルに追加する必要があります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assetsの画像へのアクセス
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->現在、[!DNL Adobe Experience Manager Assets]の画像アセットのみが[!DNL Adobe Journey Optimizer B2B Edition]でサポートされています。 アセットの変更は、[!DNL Adobe Experience Manager Assets]中央リポジトリから行う必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>現在、[!DNL Adobe Experience Manager Assets]の画像アセットのみが[!DNL Adobe Journey Optimizer B2B Edition]でサポートされています。 アセットの変更は、[!DNL Adobe Experience Manager Assets]中央リポジトリから行う必要があります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 表示されたリポジトリを変更する
 
