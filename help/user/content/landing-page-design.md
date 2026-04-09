@@ -1,20 +1,20 @@
 ---
-title: ランディングページのデザイン
-description: ビジュアルツールを使用したランディングページの設計 – Journey Optimizer B2B editionで、アカウントジャーニー用のコンテンツコンポーネント、フォーム、カスタム CSS、パーソナライゼーションおよびデバイスプレビューを追加します。
+title: ランディングページデザイン
+description: ビジュアルツールを利用して、ランディングページをデザインできます。Journey Optimizer B2B editionなら、アカウントジャーニー用のコンテンツコンポーネントやフォーム、カスタム CSS、パーソナライゼーション、デバイスプレビューを追加できます。
 feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 3%
+source-wordcount: '387'
+ht-degree: 6%
 
 ---
 
 # ランディングページのデザイン
 
-[&#x200B; ランディングページを作成 &#x200B;](./landing-pages.md#create-a-landing-page) した後、ビジュアルデザインスペースを使用して、ページの構造コンポーネントとコンテンツコンポーネントをオーサリングします。
+[ ランディングページを作成した後](./landing-pages.md#create-a-landing-page)、ビジュアルデザインスペースを使用して、ページ内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#structure-content-landing-page}
 
@@ -22,11 +22,11 @@ ht-degree: 3%
 
 ### カスタム CSS を追加
 
-独自のカスタム CSS をランディングページデザインスペース内に直接追加できます。 カスタム CSS を使用して高度な特定のスタイル設定を適用し、コンテンツの外観をより柔軟に制御できます。 画像、ボタン、テキストなどのコンポーネントを含める前に、この最高レベルのスタイルを追加することをお勧めします。
+ランディングページのデザインスペース内で、独自のカスタム CSSを直接追加できます。 カスタム CSSを使用して、高度で特定のスタイルを適用し、コンテンツの外観をより柔軟に制御できます。 画像、ボタン、テキストなどのコンポーネントを含める前に、この最高レベルのスタイル設定を追加することをお勧めします。
 
-キャンバスに 1 つ以上のコンテンツコンポーネントがある状態で、左側のナビゲーションツリーで **[!UICONTROL 本文]** コンポーネントを選択して、カスタム CSS エディターにアクセスします。
+キャンバス内に少なくとも1つのコンテンツコンポーネントがある場合は、左側のナビゲーションツリーで&#x200B;**[!UICONTROL Body]** コンポーネントを選択して、カスタム CSS エディターにアクセスします。
 
-![&#x200B; 本文スタイルへのアクセス &#x200B;](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+![ ボディスタイルにアクセス ](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
 {{$include /help/_includes/content-design-custom-css.md}}
 
@@ -46,33 +46,33 @@ ht-degree: 3%
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-### リンクされた URL トラッキングを編集
+### リンクされたURL トラッキングを編集
 
 {{$include /help/_includes/content-design-links.md}}
 
-### 作業内容を保存します
+### 作品を保存
 
-**[!UICONTROL 保存]** をクリックすれば、いつでもドラフトランディングページを保存できます。
+いつでも&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックして、ドラフト ランディングページを保存します。
 
-引き続きドラフトページに編集を加えることができます。 ページを表示し、メールまたは SMS メッセージでのリンクに使用できるようにする準備ができたら、ページを公開できます。
+引き続きドラフトページを編集できます。 ページを表示し、電子メールまたはSMS メッセージでリンクできるようにする準備ができたら、ページを公開できます。
 
-### オプションを表示
+### 表示オプション
 
-ビジュアルデザインスペースで使用できる表示およびコンテンツの検証オプションを活用します。
+ビジュアルデザイン分野で利用可能な表示およびコンテンツ検証オプションを活用します。
 
 * プリセットのズームオプション全体でコンテンツをズームイン/ズームアウトします。
 
-* デスクトップ、モバイル、テキストのみ/プレーンテキストのいずれかでコンテンツの表示を切り替えます。
-   * _表示_ アイコンをクリックして、デバイス間でコンテンツをプレビューします。
-   * 標準提供のデバイスの 1 つを選択するか、カスタムサイズを入力してコンテンツをプレビューします。
+* デスクトップ、モバイル、またはテキストのみ/プレーンテキストのコンテンツ表示を切り替えます。
+   * デバイス間でコンテンツをプレビューするには、_表示_ アイコンをクリックします。
+   * すぐに使えるデバイスのいずれかを選択するか、カスタムディメンションを入力してコンテンツをプレビューします。
 
 ### 詳細オプション
 
-ビジュアルデザインスペースの上部にある _[!UICONTROL その他…]_ メニューから、次の操作を実行できます。
+ビジュアルデザインスペースの上部にある「_[!UICONTROL その他…]_」メニューから、次の操作を実行できます。
 
-![&#x200B; 「詳細」をクリックしてテンプレートアクションにアクセス &#x200B;](./assets/landing-page-designer-more-menu.png){width="500"}
+![詳細をクリックしてテンプレートアクションにアクセス ](./assets/landing-page-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL ランディングページをリセット]** – このオプションをクリックして、ビジュアルデザインキャンバスを空白のスレートにクリアし、ページコンテンツの作成を再開します。
-* **[!UICONTROL デザインを変更]** - _[!UICONTROL プライマリランディングページを作成]_ ホームページに戻ります。 ここから、別のテンプレートを選択してデザインプロセスを再開するか、空白のキャンバスでページをゼロからデザインするかを選択できます。
-<!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
-* **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式のローカルシステムにダウンロードします。
+* **[!UICONTROL ランディングページをリセット]** – このオプションをクリックすると、ビジュアルデザインキャンバスが空白のスレートに消去され、ページコンテンツの作成が再開されます。
+* **[!UICONTROL デザインを変更]** - _[!UICONTROL メインのランディングページの作成]_&#x200B;のホームページに戻ります。 そこから、別のテンプレートを選択してデザインプロセスを再開するか、空白のキャンバスでページをゼロからデザインするかを選択できます。
+<!-- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
+* **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式でローカルシステムにダウンロードします。

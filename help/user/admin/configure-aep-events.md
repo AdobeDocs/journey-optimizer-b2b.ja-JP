@@ -1,28 +1,28 @@
 ---
-title: エクスペリエンスイベントとフィールドを選択
-description: Experience Platformのイベントとフィールドを選択し、お客様の行動に基づいて、ジャーニーでリアルタイムの意思決定をトリガーにします。
+title: エクスペリエンスイベントとフィールドの選択
+description: Experience Platformのイベントとフィールドを選択して、顧客の行動にもとづいてジャーニー内でリアルタイムの意思決定をトリガーできます。
 feature: Setup, Integrations
 role: Admin
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は現在ベータ版です"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: cefd98099bf6524d1d559a47d502990852de1468
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 10%
+source-wordcount: '1477'
+ht-degree: 13%
 
 ---
 
-# エクスペリエンスイベントとフィールドを選択
+# エクスペリエンスイベントとフィールドの選択
 
-管理者は、[AEPの特定のエクスペリエンスイベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} およびエクスペリエンスイベントの和集合スキーマ内のそれらの関連フィールドを選択できます。 選択後、ユーザーは、これらのエクスペリエンスイベントをリッスンするように決定ルールを設定し、ほぼリアルタイムイベントデータに基づいて動的でターゲット設定されたキャンペーンアクションを有効にすることができます。
+管理者は、Experience Event結合スキーマ内で、特定の[AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}とその関連フィールドを選択できます。 選択後、ユーザーはそれらのエクスペリエンスイベントをリッスンするように決定ルールを設定して、ほぼリアルタイムのイベントデータにもとづいて、動的かつターゲットを絞ったキャンペーンアクションを有効にできます。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
-ジャーニーでAEP エクスペリエンスイベントを使用するには、次の 2 つの手順があります。
+ジャーニーでAEP エクスペリエンスイベントを使用するには、次の2 ステップのプロセスを実行します。
 
-1. Journey Optimizer B2B edition設定での管理者 [AEP エクスペリエンスイベントとフィールドを追加する &#x200B;](#add-an-event)。
+1. 管理者[は、Journey Optimizer B2B edition設定にAEP エクスペリエンスイベントとフィールド ](#add-an-event)を追加します。
 
-2. マーケターはジャーニーで _イベントをリッスン_ ノードおよび [&#x200B; エクスペリエンスイベントを選択 &#x200B;](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) を追加します。
+2. ジャーニーで、マーケターが&#x200B;_イベントをリッスン_ ノードを追加し、[ エクスペリエンスイベント ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)を選択します。
 
    * ノードで使用するイベントを選択します。
    * 制約として使用するフィールドを選択します。
@@ -31,111 +31,111 @@ ht-degree: 10%
 
 ## ガイドラインと制限事項
 
-組織の目標を満たすイベントを選択する際は、次の点に注意してください。
+自社の目標を達成するイベントを選択する際には、次の点に留意してください。
 
-* イベントごとに最大 50 個、最大 100 個のフィールドを選択できます。
+* 1つのイベントにつき、最大50件のイベントと100件のフィールドを選択できます。
 
-* ジャーニーは、Web SDKや HTTP API などのExperience Platform ストリーミング機能を使用して取り込まれたエクスペリエンスイベントをリッスンできます。
+* ジャーニーは、Web SDKやHTTP APIなどのExperience Platform ストリーミング機能を使用して取り込まれたエクスペリエンスイベントをリッスンできます。
 
-* エクスペリエンスイベントは、ジャーニー内で決定目的で使用できますが、保持されません。 したがって、Journey Optimizer B2B edition内でエクスペリエンスイベントの履歴レコードを利用することはできません。
+* エクスペリエンスイベントは、ジャーニー内の決定目的で使用できますが、保持されません。 そのため、Journey Optimizer B2B edition内のエクスペリエンスイベントの履歴を活用することはできません。
 
 * エクスペリエンスイベントを使用してジャーニーを公開する場合、さらにフィールドを追加できますが、以前に選択したフィールドを削除することはできません。
 
-* 1 つのエクスペリエンスイベントを複数のジャーニーで参照することも、同じジャーニー内で複数回使用することもできます。
+* 複数のジャーニーでエクスペリエンスイベントを参照するか、同じジャーニー内で1つ以上を使用できます。
 
 >[!ENDSHADEBOX]
 
 ## エクスペリエンスイベントの管理
 
-1. 左側のナビゲーションで **[!UICONTROL 管理]**/**[!UICONTROL 設定]** を選択します。
+1. 左側のナビゲーションで、**[!UICONTROL 管理]** > **[!UICONTROL 設定]**&#x200B;を選択します。
 
-1. 中間パネルで **[!UICONTROL XDM クラス]** をクリックし、「**[!UICONTROL イベント]**」タブをクリックして、使用可能なイベントのリストを表示します。
+1. 中間パネルの&#x200B;**[!UICONTROL XDM クラス]**&#x200B;をクリックし、**[!UICONTROL イベント]** タブをクリックして、使用可能なイベントのリストを表示します。
 
-   ![&#x200B; 選択したエクスペリエンスイベントへのアクセス &#x200B;](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
+   ![選択したエクスペリエンスイベントにアクセス ](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   テーブルは _[!UICONTROL 最終更新]_ 列で並べ替えられ、デフォルトでは最近更新されたイベントが先頭に表示されます。
+   テーブルは&#x200B;_[!UICONTROL 最終更新]_&#x200B;列で並べ替えられ、デフォルトでは最も最近更新されたイベントが先頭に表示されます。
 
-   このページから、ジャーニーで使用するイベントを [&#x200B; 選択 &#x200B;](#add-an-event) および [&#x200B; 編集 &#x200B;](#edit-an-event) できます。
+   このページから、ジャーニーで使用するイベントを[選択](#add-an-event)および[編集](#edit-an-event)できます。
 
    選択したイベントの詳細にアクセスするには、イベント名をクリックします。
 
 ### イベントリストのフィルタリング
 
-「_[!UICONTROL 検索]_」フィールドにテキストを入力し、表示されるイベントをイベント名と一致するようにフィルタリングします。
+_[!UICONTROL 検索]_ フィールドにテキストを入力して、イベント名と一致するイベントの表示をフィルタリングします。
 
-![&#x200B; 選択したイベントのリストを名前でフィルタリング &#x200B;](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
+![選択したイベントのリストを名前](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}でフィルタリング
 
-### イベントを追加
+### イベントの追加
 
-ジャーニーの _イベントをリッスン_ ノードでエクスペリエンスイベントを使用できるようにするには、イベントとサポートされているフィールドを選択します。
+ジャーニー内の&#x200B;_イベントをリッスンする_ ノードでエクスペリエンスイベントを使用できるようにするには、イベントとサポートされているフィールドを選択します。
 
 >[!NOTE]
 >
->ベータ版リリースでは、リストからイベントを削除できません。 追加する各イベントが、組織で使用するイベントであることを確認します。
+>ベータリリースでは、リストからイベントを削除することはできません。 追加する各イベントが、組織で使用するイベントであることを確認します。
 
-1. 右上で **[!UICONTROL エクスペリエンスイベントを選択]** をクリックします。
+1. 右上の「**[!UICONTROL エクスペリエンスイベントを選択]**」をクリックします。
 
-   イベントの詳細ページが表示されます。 このページから、イベントタイプとフィールドを選択できます。
+   イベント詳細ページが表示されます。 このページから、イベントタイプとフィールドを選択できます。
 
-   ![&#x200B; 新しいイベントのイベントの詳細 &#x200B;](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
+   ![新しいイベントのイベントの詳細](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
 
 1. イベントタイプを選択します。
 
-   * **[!UICONTROL イベントタイプを選択]** をクリックします。
+   * **[!UICONTROL イベントタイプを選択]**&#x200B;をクリックします。
 
    * ダイアログで、イベントタイプを選択します。
 
      「_[!UICONTROL 検索]_」フィールドを使用して、表示されたリストを名前でフィルタリングします。 **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、現在の選択を確認します。
 
-     ![&#x200B; イベントタイプを選択ダイアログ &#x200B;](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
+     ![ イベントタイプダイアログを選択](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
 
    * 「**[!UICONTROL 選択]**」をクリックします。
 
-1. イベントタイプに対して 1 つ以上のフィールドを選択します。
+1. イベントタイプの1つ以上のフィールドを選択します。
 
-   * **[!UICONTROL フィールドを選択]** をクリックします。
+   * **[!UICONTROL フィールドを選択]**&#x200B;をクリックします。
 
    * ダイアログで、一致するイベントの制約として使用するフィールドを選択します。
 
      「_[!UICONTROL 検索]_」フィールドを使用して、表示されたリストを名前でフィルタリングします。 **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、現在の選択を確認します。
 
-     ![&#x200B; フィールドの選択ダイアログ &#x200B;](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
+     ![ フィールドを選択ダイアログ ](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
 
    * 「**[!UICONTROL 選択]**」をクリックします。
 
-1. イベントの詳細ページで、「**[!UICONTROL 保存]**」をクリックします。
+1. イベントの詳細ページで、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-保存したイベントは、「_[!UICONTROL イベント]_」タブのリストに表示されます。
+保存されたイベントは、_[!UICONTROL イベント]_ タブのリストに表示されます。
 
 ### イベントの編集
 
-イベントの詳細を編集してフィールドを変更します。
+イベントの詳細を編集して、フィールドを変更します。
 
-1. イベント名をクリックするか、_詳細メニュー_ （**...**）アイコンをクリックして **[!UICONTROL 編集]** を選択します。
+1. イベント名をクリックするか、_詳細メニュー_ （**...**）アイコンをクリックして、**[!UICONTROL 編集]**&#x200B;を選択します。
 
-   ![[ その他 ] メニューアイコンをクリック &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![詳細メニューアイコンをクリック ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. 「**[!UICONTROL フィールドを編集]**」をクリックして、フィールドをさらに追加するか、_[!UICONTROL フィールドを選択]_ ダイアログでの既存の選択内容を削除します。
+1. **[!UICONTROL フィールドを編集]**&#x200B;をクリックして、_[!UICONTROL フィールドを選択]_ ダイアログでフィールドを追加するか、既存の選択範囲を削除します。
 
-1. 「**[!UICONTROL 選択]**」をクリックして選択内容を保存します。
+1. 「**[!UICONTROL 選択]**」をクリックして、選択内容を保存します。
 
 ### イベントの削除
 
 >[!NOTE]
 >
->この機能のBeta リリースでは、選択したイベントのリストからイベントを削除できません。 イベントの削除は GA リリースで予定されています。
+>この機能のBeta リリースでは、選択したイベントのリストからイベントを削除することはできません。 イベントの削除は、GA リリースで予定されています。
 
 ## イベントとフィールド
 
-[!DNL Journey Optimizer B2B Edition] えば、特定の人物レベルのアクティビティは [!DNL Experience Platform] Experience イベントとして取り込まれます。 これらのイベントは、XDM エクスペリエンスイベントスキーマを使用し、ジャーニー固有のフィールドグループを含むシステムデータセットに保存されます。 他のエクスペリエンスイベントと同様に [!UICONTROL 0&rbrace;Journey Optimizer B2B edition&rbrace; でこれらのイベントを使用できます。]
+[!DNL Journey Optimizer B2B Edition]の場合、特定の人物レベルのアクティビティは[!DNL Experience Platform]個のエクスペリエンスイベントとしてキャプチャされます。 これらのイベントは、XDM Experience Event スキーマを使用し、ジャーニー固有のフィールドグループを含むシステムデータセットに保存されます。 これらのイベントは、[!UICONTROL Journey Optimizer B2B edition]で他のエクスペリエンスイベントと同様に使用できます。
 
-各イベントは、ジャーニー _イベントをリッスン）ノード（イベントに基づく決定_ で使用できる、定義済みのフィールドセットを公開します。 使用可能なイベントタイプとそのフィールドを確認し、これらのジャーニーノードで使用するイベントとフィールドを決定します。
+各イベントは、ジャーニー&#x200B;_イベントのリッスン_ ノード（イベントに基づく決定）で使用できる、定義されたフィールドセットを公開します。 使用可能なイベントタイプとそのフィールドを確認して、これらのジャーニーノードで使用するイベントとフィールドを決定します。
 
 ### メール送信済み
 
-このイベントは、マーケティングメールが人物に送信されたタイミングを追跡します。
+このイベントは、マーケティングメールが個人に送信された日時を追跡します。
 
-イベントの種類：`directMarketing.emailSent`
+イベントタイプ：`directMarketing.emailSent`
 
 +++フィールド
 
@@ -146,24 +146,24 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | メールソース ID | `directMarketing.emailSent.mailingKey.sourceID` |
 | メールソースタイプ | `directMarketing.emailSent.mailingKey.sourceType` |
 | メールソースインスタンス ID | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
 | メールソースキー | `directMailing.emailSent.mailingKey.sourceKey` |
-| メーリング名 | `directMarketing.emailSent.mailingName` |
-| ジャーニーID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 郵送先名 | `directMarketing.emailSent.mailingName` |
+| ジャーニー ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ノード ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
 ### メール到着
 
-このイベントでは、ユーザーのメールサービスにメールが正常に配信されたタイミングを追跡します。
+このイベントは、メールがユーザーのメールサービスに正常に配信された時点を追跡します。
 
-イベントの種類：`directMarketing.emailDelivered `
+イベントタイプ：`directMarketing.emailDelivered `
 
 +++フィールド
 
@@ -174,24 +174,24 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | メーリングソース ID | `directMarketing.mailingKey.sourceID` |
 | メーリングソースタイプ | `directMarketing.mailingKey.sourceType` |
 | メーリングソースインスタンス ID | `directMarketing.mailingKey.sourceInstanceID` |
-| メーリングソースキー | `directMarketing.mailingKey.sourceKey` |
-| メーリング名 | `directMarketing.mailingName` |
-| ジャーニーID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 郵送元キー | `directMarketing.mailingKey.sourceKey` |
+| 郵送先名 | `directMarketing.mailingName` |
+| ジャーニー ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ノード ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
 ### メール開封済み
 
-このイベントは、人物がマーケティングメールを開封したタイミングを追跡します。
+このイベントは、オーディエンスがマーケティングメールを開封したタイミングを追跡します。
 
-イベントの種類：`directMarketing.emailOpened`
+イベントタイプ：`directMarketing.emailOpened`
 
 +++フィールド
 
@@ -202,28 +202,28 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | メーリングソース ID | `directMarketing.mailingKey.sourceID` |
 | メーリングソースタイプ | `directMarketing.mailingKey.sourceType` |
 | メーリングソースインスタンス ID | `directMarketing.mailingKey.sourceInstanceID` |
-| メーリングソースキー | `directMarketing.mailingKey.sourceKey` |
-| メーリング名 | `directMarketing.mailingName` |
+| 郵送元キー | `directMarketing.mailingKey.sourceKey` |
+| 郵送先名 | `directMarketing.mailingName` |
 | モバイルデバイスである | `device.isMobileDevice` |
 | デバイスモデル | `device.model` |
 | ユーザーエージェント | `environment.browserDetails.userAgent` |
 | オペレーティングシステム | `environment.operatingSystem` |
-| ジャーニーID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ジャーニー ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ノード ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
-### 電子メールのクリック
+### 電子メールのクリック数
 
-このイベントは、マーケティングメール内のリンクをユーザーがクリックした際にトラッキングします。
+このイベントは、オーディエンスがマーケティングメール内のリンクをクリックしたときに追跡されます。
 
-イベントの種類：`directMarketing.emailClicked`
+イベントタイプ：`directMarketing.emailClicked`
 
 +++フィールド
 
@@ -234,29 +234,29 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | メーリングソース ID | `directMarketing.mailingKey.sourceID` |
 | メーリングソースタイプ | `directMarketing.mailingKey.sourceType` |
 | メーリングソースインスタンス ID | `directMarketing.mailingKey.sourceInstanceID` |
-| メーリングソースキー | `directMarketing.mailingKey.sourceKey` |
-| メーリング名 | `directMarketing.mailingName` |
+| 郵送元キー | `directMarketing.mailingKey.sourceKey` |
+| 郵送先名 | `directMarketing.mailingName` |
 | リンク URL | `directMarketing.linkURL` |
 | モバイルデバイスである | `device.isMobileDevice` |
 | モデル | `device.model` |
 | ユーザーエージェント | `environment.browserDetails.userAgent` |
 | オペレーティングシステム | `environment.operatingSystem` |
-| ジャーニーID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ジャーニー ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ノード ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
 ### バウンスメール
 
-このイベントは、人物へのメールがバウンスしたタイミングを追跡します。
+このイベントは、個人へのメールがバウンスしたときに追跡されます。
 
-イベントの種類：`directMarketing.emailBounced`
+イベントタイプ：`directMarketing.emailBounced`
 
 +++フィールド
 
@@ -267,27 +267,27 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | メーリングソース ID | `directMarketing.mailingKey.sourceID` |
 | メーリングソースタイプ | `directMarketing.mailingKey.sourceType` |
 | メーリングソースインスタンス ID | `directMarketing.mailingKey.sourceInstanceID` |
-| メーリングソースキー | `directMarketing.mailingKey.sourceKey` |
-| メーリング名 | `directMarketing.mailingName` |
+| 郵送元キー | `directMarketing.mailingKey.sourceKey` |
+| 郵送先名 | `directMarketing.mailingName` |
 | メール | `directMarketing.email` |
 | 電子メールバウンスコード | `directMarketing.emailBouncedCode` |
 | 電子メールバウンスの詳細 | `directMarketing.emailBouncedDetails` |
-| ジャーニーID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ジャーニー ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ノード ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
 ### ソフトバウンスメール
 
-このイベントは、人物へのメールがソフトバウンスしたタイミングを追跡します。
+このイベントは、メールからユーザーへのソフトバウンスを追跡します。
 
-イベントの種類：`directMarketing.emailBouncedSoft`
+イベントタイプ：`directMarketing.emailBouncedSoft`
 
 +++フィールド
 
@@ -298,27 +298,27 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | メーリングソース ID | `directMarketing.mailingKey.sourceID` |
 | メーリングソースタイプ | `directMarketing.mailingKey.sourceType` |
 | メーリングソースインスタンス ID | `directMarketing.mailingKey.sourceInstanceID` |
-| メーリングソースキー | `directMarketing.mailingKey.sourceKey` |
-| メーリング名 | `directMarketing.mailingName` |
+| 郵送元キー | `directMarketing.mailingKey.sourceKey` |
+| 郵送先名 | `directMarketing.mailingName` |
 | メール | `directMarketing.email` |
 | 電子メールバウンスコード | `directMarketing.emailBouncedCode` |
 | 電子メールバウンスの詳細 | `directMarketing.emailBouncedDetails` |
-| ジャーニーID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ジャーニー ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ノード ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
-### メールの購読解除済み
+### メール購読解除
 
-このイベントは、ユーザーがマーケティングメールの購読を解除したタイミングを追跡します。
+このイベントは、オーディエンスがマーケティングメールの購読を解除したタイミングを追跡します。
 
-イベントの種類：`directMarketing.emailUnsubscribed `
+イベントタイプ：`directMarketing.emailUnsubscribed `
 
 +++フィールド
 
@@ -329,15 +329,15 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | メーリングソース ID | `directMarketing.mailingKey.sourceID` |
 | メーリングソースタイプ | `directMarketing.mailingKey.sourceType` |
 | メーリングソースインスタンス ID | `directMarketing.mailingKey.sourceInstanceID` |
-| メーリングソースキー | `directMarketing.mailingKey.sourceKey` |
-| メーリング名 | `directMarketing.mailingName` |
-| ジャーニーID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| 郵送元キー | `directMarketing.mailingKey.sourceKey` |
+| 郵送先名 | `directMarketing.mailingName` |
+| ジャーニー ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ノード ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -346,7 +346,7 @@ ht-degree: 10%
 
 このイベントタイプは、ヒットをページビューとしてマークするための標準的な方法です。
 
-イベントの種類：`web.webpagedetails.pageViews`
+イベントタイプ：`web.webpagedetails.pageViews`
 
 +++フィールド
 
@@ -357,27 +357,27 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | Web ページソース ID | `web.webPageDetails.webPageKey.sourceID` |
-| Web ページのソースタイプ | `web.webPageDetails.webPageKey.sourceType` |
+| web ページのソースタイプ | `web.webPageDetails.webPageKey.sourceType` |
 | Web ページソースインスタンス ID | `web.webPageDetails.webPageKey.sourceInstanceID` |
-| Web ページのソースキー | `web.webPageDetails.webPageKey.sourceKey` |
+| Web ページソースキー | `web.webPageDetails.webPageKey.sourceKey` |
 | Web ページ名 | `web.webPageDetails.name` |
-| Web ページ URL | `web.webPageDetails.URL` |
-| Web ページのクエリパラメーター | `web.webPageDetails.queryParameters` |
+| web ページ URL | `web.webPageDetails.URL` |
+| web ページクエリパラメーター | `web.webPageDetails.queryParameters` |
 | Web ページ ID | `web.webPageDetails.webPageID` |
 | ユーザーエージェント | `environment.browserDetails.userAgent` |
 | リファラー URL | `web.webReferrer.URL` |
 
 +++
 
-### フォームに入力済み
+### フォームに入力
 
-このイベントは、人物が web ページ上のフォームに入力したタイミングを追跡します。
+このイベントは、オーディエンスがweb ページのフォームに入力したときに追跡されます。
 
-イベントの種類：`web.formFilledOut`
+イベントタイプ：`web.formFilledOut`
 
 +++フィールド
 
@@ -388,27 +388,27 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | Web フォームソース ID | `web.fillOutForm.webFormKey.sourceID` |
-| Web フォームのソースタイプ | `web.fillOutForm.webFormKey.sourceType` |
+| Web フォームのソースの種類 | `web.fillOutForm.webFormKey.sourceType` |
 | Web フォームソースインスタンス ID | `web.fillOutForm.webFormKey.sourceInstanceID` |
 | Web フォームのソースキー | `web.fillOutForm.webFormKey.sourceKey` |
 | Web フォーム ID | `web.fillOutForm.webFormID` |
 | Web フォーム名 | `web.fillOutForm.webFormName` |
-| Web ページのクエリパラメーター | `web.webPageDetails.queryParameters` |
+| web ページクエリパラメーター | `web.webPageDetails.queryParameters` |
 | Web ページ ID | `web.webPageDetails.webPageID` |
 | ユーザーエージェント | `environment.browserDetails.userAgent` |
 | リファラー URL | `web.webReferrer.URL` |
 
 +++
 
-### Web リンククリック済み
+### Web リンクをクリックしました
 
-このイベントは、Web SDKがリンククリックを自動的に記録したことを示します。
+Web SDKがリンクのクリックを自動的に記録したことを示すイベント信号。
 
-イベントの種類：`web.webinteraction.linkClicks`
+イベントタイプ：`web.webinteraction.linkClicks`
 
 +++フィールド
 
@@ -419,16 +419,16 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | Web インタラクションソース ID | `web.webInteraction.webInteractionKey.sourceID` |
-| Web インタラクションソースタイプ | `web.webInteraction.webInteractionKey.sourceType` |
+| Web インタラクションのソースタイプ | `web.webInteraction.webInteractionKey.sourceType` |
 | Web インタラクションソースインスタンス ID | `web.webInteraction.webInteractionKey.sourceInstanceID` |
 | Web インタラクションソースキー | `web.webInteraction.webInteractionKey.sourceKey` |
 | Web インタラクションリンク ID | `web.webInteraction.linkID` |
 | Web インタラクションリンク URL | `web.webInteraction.linkURL` |
-| Web ページのクエリパラメーター | `web.webPageDetails.queryParameters` |
+| web ページクエリパラメーター | `web.webPageDetails.queryParameters` |
 | Web ページ ID | `web.webPageDetails.webPageID` |
 | ユーザーエージェント | `environment.browserDetails.userAgent` |
 | リファラー URL | `web.webReferrer.URL` |
@@ -437,9 +437,9 @@ ht-degree: 10%
 
 ### 注目のアクション
 
-このイベントは、ある人物にとって興味深い瞬間が録画された際にトラッキングします。
+このイベントは、興味深い瞬間が人のために記録されたときに追跡されます。
 
-イベントの種類：`leadOperation.interestingMoment `
+イベントタイプ：`leadOperation.interestingMoment `
 
 +++フィールド
 
@@ -450,18 +450,20 @@ ht-degree: 10%
 | タイムスタンプ | `timestamp` |
 | 顧客 ID | `personID` |
 | 人物ソース ID | `personKey.sourceID` |
-| 人物ソースタイプ | `personKey.sourceType` |
+| 人物のソースタイプ | `personKey.sourceType` |
 | 人物ソースインスタンス ID | `personKey.sourceInstanceID` |
 | 人物ソースキー | `personKey.sourceKey` |
 | モーメント日 | `leadOperation.interestingMoment.date` |
 | モーメントの説明 | `leadOperation.interestingMoment.description` |
 | モーメントソース | `leadOperation.interestingMoment.source` |
 | モーメントタイプ | `leadOperation.interestingMoment.type` |
-| ジャーニーID | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ジャーニー ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ノード ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
-<!-- ## Overview video
+<!--
+ ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448684/?captions=jpn&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
+-->
