@@ -19,7 +19,7 @@ ht-degree: 1%
 
 この概要は、公開されたアカウントジャーニーで利用でき、データがチャートとテーブルの入力を開始するのに約4時間かかります。
 
-![ アクティブなジャーニーの詳細にアクセス ](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+![&#x200B; アクティブなジャーニーの詳細にアクセス &#x200B;](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
 
 ## ジャーニー完了
 
@@ -72,7 +72,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 _[!UICONTROL ジャーニーステータス]_&#x200B;のグラフで、個々のアカウントのステータスを詳細に分析するには、**[!UICONTROL ドリルスルー]**&#x200B;を選択します。
 
-![ グラフデータのドリルスルー](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+![&#x200B; グラフデータのドリルスルー](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
 The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
 -->

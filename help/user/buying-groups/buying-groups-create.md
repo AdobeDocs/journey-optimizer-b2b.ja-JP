@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # 購買グループの作成
 
-購買グループを作成すると、[ ソリューションの関心](./solution-interests.md)を通じてアカウントジャーニーで使用できるようになります。
+購買グループを作成すると、[&#x200B; ソリューションの関心](./solution-interests.md)を通じてアカウントジャーニーで使用できるようになります。
 
 1. 左側のナビゲーションで、**[!UICONTROL 購買グループ]**&#x200B;をクリックします。
 
 1. _[!UICONTROL 購買グループ]_ ページで、ページの右上にある「**[!UICONTROL 購買グループを作成]**」をクリックします。
 
-   ![購買グループの作成をクリック ](./assets/buying-groups-create.png){width="700" zoomable="yes"}
+   ![購買グループの作成をクリック &#x200B;](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
 1. 各ページのプロンプトに従い、**[!UICONTROL 次へ]**&#x200B;をクリックして続行します。
 
-![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"} [ ハウツー動画を見る](#how-to-video)
+![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; ハウツー動画を見る](#how-to-video)
 
 ## ガイダンスページ
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
    _[!UICONTROL プロパティ]_&#x200B;の下で、購買グループの名前は、&lt; アカウント名>の&lt; ソリューションの関心名>として自動的に生成（読み取り専用）されます。
 
-   ![購買グループの作成をクリック ](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
+   ![購買グループの作成をクリック &#x200B;](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
 1. ソリューションの関心とアカウントオーディエンスを選択したら、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
@@ -48,13 +48,13 @@ ht-degree: 4%
 
 確認ダイアログには、購買グループのプロセスの概要と、完了までの推定時間が表示されます。 プロセスを確認して起動するには、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
-![購買グループの作成の確認ダイアログ ](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
+![購買グループの作成の確認ダイアログ &#x200B;](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
 ## 購買グループ作成ジョブ
 
 作成ジョブは、アカウントオーディエンスの新しいアカウントごとに購買グループを自動的に作成します。 「_[!UICONTROL ソリューションの関心]_」タブに移動すると、各ソリューションの関心に対して作成された作成ジョブの数が表示されます。 作成ジョブのリストを表示するには、**[!UICONTROL 購買グループ作成ジョブ]**&#x200B;列の番号をクリックします。
 
-![ ソリューションの関心別の購買グループのジョブ ](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
+![&#x200B; ソリューションの関心別の購買グループのジョブ &#x200B;](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 <!--
  Other buying group activities:
