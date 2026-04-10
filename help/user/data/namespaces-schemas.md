@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->- B2B スキーマが { リアルタイム顧客プロファイル ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} に適合するには、{0[Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home){target="_blank"} へのアクセス権が必要です。[
+>- B2B スキーマが [リアルタイム顧客プロファイル](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} に適合するには、[Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home){target="_blank"} へのアクセス権が必要です。
 >
 >- Experience Platform B2B エンティティは、[B2B 名前空間およびスキーマガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"} に概説されている標準的な関係を使用する必要があります。
 
