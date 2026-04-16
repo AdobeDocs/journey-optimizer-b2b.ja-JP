@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: e770b40ebe15a9fe8addd2876d34a0f7800affd2
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '438'
 ht-degree: 95%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 95%
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
       + [アクションの実行](./journeys/action-nodes.md)
       + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
-      + [&#x200B; パスの分割と結合](./journeys/split-merge-paths-nodes.md)
+      + [ パスの分割と結合](./journeys/split-merge-paths-nodes.md)
       + [待機](./journeys/wait-nodes.md)
       + [外部ノード](./journeys/external-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
@@ -100,7 +100,6 @@ ht-degree: 95%
 + コンテンツ管理 {#content-management}
    + メール {#emails}
       + [メールコンテンツの操作](./content/emails-list.md)
-      + [アクセシブルなコンテンツのデザイン](./content/email-accessible-content.md)
       + プレビューと検証 {#preview}
          + [コンテンツのシミュレート](./content/email-simulate-content.md)
          + [メールのレンダリングのテスト](./content/email-test-rendering.md)
@@ -143,6 +142,7 @@ ht-degree: 95%
    + [ブランドテーマ](./content/brand-themes.md)
    + [コンテンツの評価](./content/content-evaluation.md)
    + [条件付きコンテンツ](./content/conditional-content.md)
+   + [コンテンツへのアクセシビリティ](./content/accessible-content.md)
    + パーソナライゼーション {#personalization}
       + [概要](./content/personalization.md)
       + [パーソナライゼーション構文](./content/personalization-syntax.md)
@@ -150,7 +150,7 @@ ht-degree: 95%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
