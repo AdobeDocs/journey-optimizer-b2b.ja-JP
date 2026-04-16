@@ -24,11 +24,12 @@ ht-degree: 48%
 
 次の節では、[!DNL Journey Optimizer B2B Edition]でアクセス可能なコンテンツを設計するためのベストプラクティスの概要を説明します。 この情報は、すべての受信者がアクセスできるコンテンツを設計することに重点を置いています。これにより、障害のあるユーザーがメールメッセージやランディングページを読み、理解し、操作できるようになります。
  
+
 ## テキストの読みやすさの確保 {#text-readability}
 
 **[!UICONTROL テキスト]** コンポーネントの「**[!UICONTROL スタイル]**」タブを活用して、適切なカラーコントラストやシンプルなフォントを使用するなど、テキストが読みやすいようにします。 テキストコンポーネントのスタイル設定について詳しくは、[_コンテンツコンポーネント_](content-components.md#text)&#x200B;を参照してください
 
-フォント、サイズ、およびカラーオプションを表示する![ テキストコンポーネントスタイル タブ ](assets/accessible-text-styles.png){width="700" zoomable="yes"}
+フォント、サイズ、およびカラーオプションを表示する![&#x200B; テキストコンポーネントスタイル タブ &#x200B;](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 フォントとテキストについては、次のガイドラインに従います。
 
@@ -69,11 +70,11 @@ ht-degree: 48%
 
 例えば、背景を更新したり、余白、パディング、整列を変更して、コンテンツの視覚的なアクセシビリティを向上させることができます。
 
-![背景、余白、パディング、整列の設定を含むスタイルペイン ](assets/accessible-styles.png){width="700" zoomable="yes"}
+![背景、余白、パディング、整列の設定を含むスタイルペイン &#x200B;](assets/accessible-styles.png){width="700" zoomable="yes"}
 
 [!DNL Journey Optimizer B2B Edition]のビジュアルデザインツールを使用すると、様々なデバイスと画面サイズに合わせてデザインをプレビューし、最適化できます。 いつでも、**[!UICONTROL ライブビューに切り替える]**&#x200B;して、様々なデバイスサイズでコンテンツがどのようにレンダリングされるかを確認できます。
 
-デスクトップ、タブレット、モバイルのプレビューオプションを表示する![ ライブビュー切り替えスイッチ ](assets/accessible-live-view.png){width="700" zoomable="yes"}
+デスクトップ、タブレット、モバイルのプレビューオプションを表示する![&#x200B; ライブビュー切り替えスイッチ &#x200B;](assets/accessible-live-view.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
@@ -83,7 +84,7 @@ ht-degree: 48%
 
 **[!UICONTROL 画像]**&#x200B;コンポーネントを使用して、画像用の代替テキストを指定します。 画像コンポーネント設定について詳しくは、[_コンテンツコンポーネント_](content-components.md#image)&#x200B;を参照してください
 
-![代替テキストフィールドが強調表示された画像コンポーネント設定パネル ](assets/accessible-alt-text.png){width="700" zoomable="yes"}
+![代替テキストフィールドが強調表示された画像コンポーネント設定パネル &#x200B;](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
 デジタル製品の効果的な代替テキストを作成するには、次のガイドラインに従います。
 
@@ -93,9 +94,9 @@ ht-degree: 48%
 
 ## 読み取り可能な形式の使用 {#readable-format}
 
-ビジュアルデザイン分野では、関連する[構造](structure-components.md)と[ コンテンツ ](content-components.md) コンポーネントを使用して、すべての人がアクセスできる明確かつ論理的で簡潔な方法でコンテンツを整理します。 構造的継承のベストプラクティスを使用して、**[!UICONTROL スタイル]** ペインでオプションを設定します。
+ビジュアルデザイン分野では、関連する[構造](structure-components.md)と[&#x200B; コンテンツ &#x200B;](content-components.md) コンポーネントを使用して、すべての人がアクセスできる明確かつ論理的で簡潔な方法でコンテンツを整理します。 構造的継承のベストプラクティスを使用して、**[!UICONTROL スタイル]** ペインでオプションを設定します。
 
-![構造化レイアウトの構造とコンテンツコンポーネントを表示する電子メールデザインスペース ](assets/accessible-components.png){width="700" zoomable="yes"}
+![構造化レイアウトの構造とコンテンツコンポーネントを表示する電子メールデザインスペース &#x200B;](assets/accessible-components.png){width="700" zoomable="yes"}
 
 * 適切な見出し、段落、リスト、テーブルを含む、構造化されたセマンティック HTML を使用します。
 * コンテンツが左から右、上から下の論理的なフローに従っていることを確認します。
@@ -112,7 +113,7 @@ ht-degree: 48%
 * 能動態を使用して、文の構造をよりシンプルに保持します。
 * 一部の人が理解していないようなスラングや専門用語、地域用語は避けましょう。
 
-コンテンツの読みやすさを評価するには、Microsoft Wordで人気の[ フレッシュ読みやすさテスト ](https://support.microsoft.com/ja-jp/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}を使用します。 コンテンツの読みやすさを0～100のスケールで計算します。
+コンテンツの読みやすさを評価するには、Microsoft Wordで人気の[&#x200B; フレッシュ読みやすさテスト &#x200B;](https://support.microsoft.com/ja-jp/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}を使用します。 コンテンツの読みやすさを0～100のスケールで計算します。
 
 ## コンテンツのテスト {#test}
 
@@ -120,11 +121,11 @@ ht-degree: 48%
 
 * テストプロファイルを使用してコンテンツをプレビューします。
 
-* Litmusを活用した[ メールのレンダリング ](email-test-rendering.md) オプションを使用して、主要な電子メールクライアント（Apple Mail、Gmail、Outlook）でデザインをシミュレートし、テキスト、色、画像がコンテンツにアクセス可能かどうかを確認します。
+* Litmusを活用した[&#x200B; メールのレンダリング &#x200B;](email-test-rendering.md) オプションを使用して、主要な電子メールクライアント（Apple Mail、Gmail、Outlook）でデザインをシミュレートし、テキスト、色、画像がコンテンツにアクセス可能かどうかを確認します。
 
 * 実際のオーディエンスに送信する前に、コンテンツのレンダリングをテストする本配信前確認を送信します。
 
-![ テストプロファイルのプレビューオプションを備えたコンテンツシミュレーションインターフェイス ](assets/accessible-simulate.png){width="800" zoomable="yes"}
+![&#x200B; テストプロファイルのプレビューオプションを備えたコンテンツシミュレーションインターフェイス &#x200B;](assets/accessible-simulate.png){width="800" zoomable="yes"}
 
 より一貫性のある方法でコンテンツに確実にアクセスできるかどうかを確認するには、次のような外部ツールを使用します。
 
@@ -136,7 +137,7 @@ ht-degree: 48%
 
 ダークモードは、光に敏感なユーザーや視覚障害のあるユーザーの視覚的なアクセシビリティを強化し、視聴エクスペリエンスを向上させます。
 
-![ ダークモードの設定をデザイン ](assets/email-color-mode-dark-text-settings.png){width="700" zoomable="yes"}
+![&#x200B; ダークモードの設定をデザイン &#x200B;](assets/email-color-mode-dark-text-settings.png){width="700" zoomable="yes"}
 
 ダークモードのデザインでは、透明なPNG画像またはSVG画像を使用し、適切なメタタグとCSSを設定します。 ダークモードがサポートされていない場合は、アクセスできるフォールバックスタイル設定を指定します。 最後に、すべてのコンテンツとUI要素を明るいモードと暗いモードの両方でテストします。
 
@@ -254,7 +255,7 @@ HTML コンテンツでは、多くの場合、レイアウトにテーブルが
 
 デザインツールを使用して、コンテンツにリンクを追加し、ラベルを編集して、識別しやすく（表示しやすく）、説明的に（目的を明確に）表示します。 _ここ_&#x200B;や&#x200B;_詳細_&#x200B;などの曖昧なラベルは使用しないでください。
 
-![URL フィールドと説明ラベルオプションを表示するリンク設定パネル ](assets/accessible-link.png){width="700" zoomable="yes"}
+![URL フィールドと説明ラベルオプションを表示するリンク設定パネル &#x200B;](assets/accessible-link.png){width="700" zoomable="yes"}
 
 +++例 - 良いリンク（説明的）： 
 
