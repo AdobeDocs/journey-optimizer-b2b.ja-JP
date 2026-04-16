@@ -47,7 +47,7 @@ ht-degree: 94%
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
       + [アクションの実行](./journeys/action-nodes.md)
       + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
-      + [ パスの分割と結合](./journeys/split-merge-paths-nodes.md)
+      + [&#x200B; パスの分割と結合](./journeys/split-merge-paths-nodes.md)
       + [待機](./journeys/wait-nodes.md)
       + [外部ノード](./journeys/external-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
@@ -150,7 +150,7 @@ ht-degree: 94%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}

@@ -974,9 +974,9 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 日付パターンが無効な場合、日付はISO標準形式にフォールバックします。
 >
-> [Oracle ドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)に要約されているJava日付書式設定関数を使用できます。
+> [Oracle ドキュメント &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)に要約されているJava日付書式設定関数を使用できます。
 >
-> 書式設定と有効なロケールは、[Oracle ドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)および[ サポートされているロケール ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html)に要約されて使用できます。
+> 書式設定と有効なロケールは、[Oracle ドキュメント &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)および[&#x200B; サポートされているロケール &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html)に要約されて使用できます。
 
 **例**
 
@@ -1802,7 +1802,7 @@ Some edu specific content
 {%= formatNumber(number/double,string) %}: string
 ```
 
-書式設定と有効なロケールは、[Oracle ドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)および[ サポートされているロケール ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}に要約されて使用できます
+書式設定と有効なロケールは、[Oracle ドキュメント &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)および[&#x200B; サポートされているロケール &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}に要約されて使用できます
 
 **例**
 
@@ -2509,7 +2509,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ### 一致する {#matches}
 
-文字列が特定の正規表現に一致するかどうかを判断するには、`matches`関数を使用します。 正規表現でのパターンの一致について詳しくは、[Oracle ドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)を参照してください。
+文字列が特定の正規表現に一致するかどうかを判断するには、`matches`関数を使用します。 正規表現でのパターンの一致について詳しくは、[Oracle ドキュメント &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)を参照してください。
 
 +++構文
 

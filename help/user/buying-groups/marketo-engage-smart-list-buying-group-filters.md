@@ -30,7 +30,7 @@ ht-degree: 1%
 
 Journey Optimizer B2B Editionに接続されているMarketo Engage インスタンスでは、スマートリストの&#x200B;_[!UICONTROL 購買グループのメンバー]_ フィルターを使用して、キャンペーン戦略に従ってこれらのリードを識別できます。
 
-1. Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}でスマートリストを[作成した後、「**[!UICONTROL スマートリスト]**」タブを選択してフィルターエディターを開きます。
+1. Marketo Engage[&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}でスマートリストを作成した後、「**[!UICONTROL スマートリスト]**」タブを選択してフィルターエディターを開きます。
 
 1. 右側のフィルターリストで、リストを下にスクロールし、**[!UICONTROL 特殊フィルター]** フォルダーを展開します。
 
@@ -58,7 +58,7 @@ Journey Optimizer B2B Editionに接続されているMarketo Engage インスタ
 
      Journey Optimizer B2B Editionで定義されたソリューションの関心など、個別の項目の場合は、リストに1つ以上の項目を選択できます。
 
-     ![ リストから制約の値を選択](./assets/me-member-of-buying-group-filter-constraint-list.png){width="600" zoomable="yes"}
+     ![&#x200B; リストから制約の値を選択](./assets/me-member-of-buying-group-filter-constraint-list.png){width="600" zoomable="yes"}
 
      最初のものを選択し、もう一度セレクターをクリックして、_[!UICONTROL 複数値選択]_ ダイアログを開きます。
 
