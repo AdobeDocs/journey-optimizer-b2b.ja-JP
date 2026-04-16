@@ -280,7 +280,7 @@ Journey Optimizer B2B Editionの設定を完了するには、このチェック
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
 <td>Adobe Experience Platform Web SDKをサポートするようにビジネス web サイトを設定します。</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">詳細情報</a></td>
+<td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/js-overview">詳細情報</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>

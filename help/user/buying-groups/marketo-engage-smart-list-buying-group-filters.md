@@ -30,7 +30,7 @@ ht-degree: 1%
 
 Journey Optimizer B2B Editionに接続されているMarketo Engage インスタンスでは、スマートリストの&#x200B;_[!UICONTROL 購買グループのメンバー]_ フィルターを使用して、キャンペーン戦略に従ってこれらのリードを識別できます。
 
-1. Marketo Engage[&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}でスマートリストを作成した後、「**[!UICONTROL スマートリスト]**」タブを選択してフィルターエディターを開きます。
+1. Marketo Engage[&#128279;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}でスマートリストを作成した後、「**[!UICONTROL スマートリスト]**」タブを選択してフィルターエディターを開きます。
 
 1. 右側のフィルターリストで、リストを下にスクロールし、**[!UICONTROL 特殊フィルター]** フォルダーを展開します。
 
