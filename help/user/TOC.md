@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 95%
 + [リリースノート](./release-notes/release-notes.md)
 + 基本を学ぶ {#get-started}
    + [Journey Optimizer B2B Edition の概要](about-journey-optimizer-b2b-edition.md)
-   + アーキテクチャを簡素化 {#simplified-architecture}
-      + [チェックリストを設定](./simplified-architecture.md)
+   + 環境の設定 {#admin-setup}
+      + [チェックリストを設定](./setup-ultimate.md)
       + [名前空間とスキーマ](./data/namespaces-schemas.md)
       + [XDM フィールドの選択](./admin/xdm-field-management.md)
       + [エクスペリエンスイベントとフィールド](./admin/configure-aep-events.md)
@@ -47,7 +47,7 @@ ht-degree: 95%
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
       + [アクションの実行](./journeys/action-nodes.md)
       + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
-      + [&#x200B; パスの分割と結合](./journeys/split-merge-paths-nodes.md)
+      + [ パスの分割と結合](./journeys/split-merge-paths-nodes.md)
       + [待機](./journeys/wait-nodes.md)
       + [外部ノード](./journeys/external-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
@@ -150,7 +150,7 @@ ht-degree: 95%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
