@@ -88,7 +88,7 @@ Adobe Journey Optimizer B2B Editionの最新のリリースノート、新機能
 Journey Optimizer B2B editionのオンボーディングガイダンス（管理者およびマーケター向け）をご確認ください。
 
 [管理者](./setup-ultimate.md)
-[ ユーザー](./start/get-started.md)
+[&#x200B; ユーザー](./start/get-started.md)
 :::
 
 :::

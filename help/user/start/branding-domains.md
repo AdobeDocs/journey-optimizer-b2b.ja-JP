@@ -31,7 +31,7 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 
 >[!PREREQUISITES]
 >
->UI でドメインを編集または追加する前に、[Adobeが提供するMarketo Engage ドメインに CNAME をマッピング ](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} する必要があります。
+>UI でドメインを編集または追加する前に、[Adobeが提供するMarketo Engage ドメインに CNAME をマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} する必要があります。
 >
 >ドメインを追加すると、システムは、以前に手動で作成された可能性のある既存の SSL をチェックします。 この検証が発生した場合は、SSL作成を選択せずにドメインを作成し、別の手順で接続します。
 
@@ -41,7 +41,7 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 
 1. **[!UICONTROL ブランディングドメイン]** パネルまでスクロールします。
 
-   ![ 管理者のメールのブランディングドメインパネル。デフォルトドメインを表示します ](./assets/me-admin-email-branding-domains.png){width="700" zoomable="yes"}
+   ![&#x200B; 管理者のメールのブランディングドメインパネル。デフォルトドメインを表示します &#x200B;](./assets/me-admin-email-branding-domains.png){width="700" zoomable="yes"}
 
    このリストには、Marketo Engage インスタンスのデフォルトドメインが表示されます。
 
@@ -55,17 +55,17 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 
 1. _[!UICONTROL ブランディングドメイン]_ パネルで、汎用ドメインを選択し、上部の **[!UICONTROL 編集]** をクリックします。
 
-   ![ 汎用ドメインが選択されたブランディングドメインパネル ](./assets/me-admin-email-branding-domains-edit-default.png){width="500"}
+   ![&#x200B; 汎用ドメインが選択されたブランディングドメインパネル &#x200B;](./assets/me-admin-email-branding-domains-edit-default.png){width="500"}
 
 1. _[!UICONTROL ブランディングドメインを編集]_ ダイアログの **[!UICONTROL ドメイン]** フィールドに、デフォルトドメインの名前を入力します。
 
-   ![ ブランディングドメインを編集ダイアログ ](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
+   ![&#x200B; ブランディングドメインを編集ダイアログ &#x200B;](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
 1. Marketo Engage インスタンスに複数のワークスペースを定義している場合は、「**[!UICONTROL 次へ]**」をクリックします。
 
    更新したプライマリドメインを適用する各ワークスペースを選択します。
 
-   ![ プライマリドメインのワークスペースを選択してブランディングドメインを編集ダイアログ ](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
+   ![&#x200B; プライマリドメインのワークスペースを選択してブランディングドメインを編集ダイアログ &#x200B;](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -81,25 +81,25 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 
 1. _[!UICONTROL ブランディングドメイン]_ パネルで、上部の **[!UICONTROL 追加]** をクリックします。
 
-   ![ 上部に「追加」ボタンがあるブランディングドメインパネル ](assets/me-admin-email-branding-domains-add.png){width="500"}
+   ![&#x200B; 上部に「追加」ボタンがあるブランディングドメインパネル &#x200B;](assets/me-admin-email-branding-domains-add.png){width="500"}
 
 1. _[!UICONTROL 新しいブランディングドメイン]_ ダイアログで、「**[!UICONTROL ドメイン]**」フィールドにブランディングドメインの名前を入力します。
 
 1. （オプション）「**[!UICONTROL SSL 証明書を生成]**」チェックボックスをオンにして、ドメインの SSL を自動的に生成します。
 
-   ![ 新しいブランディングドメインダイアログ ](assets/me-admin-email-branding-domains-add-name.png){width="400"}
+   ![&#x200B; 新しいブランディングドメインダイアログ &#x200B;](assets/me-admin-email-branding-domains-add-name.png){width="400"}
 
    必要に応じて使用可能な場合は、「_プライマリドメインを作成_」チェックボックスをオンにすることもできます。
 
    >[!NOTE]
    >
-   >**_カスタム SSL_**：カスタム SSL が必要な場合は、[ サポートチケット ](https://experienceleague.adobe.com/en/support){target="_blank"} を送信できます。 SSL 作成にチェックボックスを使用しないでください。
+   >**_カスタム SSL_**：カスタム SSL が必要な場合は、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/en/support){target="_blank"} を送信できます。 SSL 作成にチェックボックスを使用しないでください。
 
 1. Marketo Engage インスタンスに複数のワークスペースを定義している場合は、「**[!UICONTROL 次へ]**」をクリックします。
 
    必要に応じて、新しいドメインをプライマリドメインとして適用するワークスペースをそれぞれ選択します。
 
-   ![ プライマリドメインを適用するためのワークスペースを選択できる新しいブランディングドメインダイアログ ](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+   ![&#x200B; プライマリドメインを適用するためのワークスペースを選択できる新しいブランディングドメインダイアログ &#x200B;](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -111,11 +111,11 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 
 1. _[!UICONTROL ブランディングドメイン]_ パネルで、ドメイン行を選択し、「**[!UICONTROL SSL を追加]**」をクリックします。
 
-   ![ 上部に「SSL を追加」を表示したブランディングドメインパネル ](./assets/me-admin-email-branding-domain-add-ssl.png){width="500"}
+   ![&#x200B; 上部に「SSL を追加」を表示したブランディングドメインパネル &#x200B;](./assets/me-admin-email-branding-domain-add-ssl.png){width="500"}
 
 1. ダイアログで、「**[!UICONTROL 確認]**」をクリックします。
 
-   ![SSL 証明書を生成の確認ダイアログ ](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
+   ![SSL 証明書を生成の確認ダイアログ &#x200B;](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
 
 ## エラーメッセージ
 
