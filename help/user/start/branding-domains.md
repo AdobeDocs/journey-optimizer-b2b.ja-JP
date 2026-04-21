@@ -93,7 +93,7 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 
    >[!NOTE]
    >
-   >**_カスタム SSL_**：カスタム SSL が必要な場合は、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/en/support){target="_blank"} を送信できます。 SSL 作成にチェックボックスを使用しないでください。
+   >**_カスタム SSL_**：カスタム SSL が必要な場合は、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/ja/support){target="_blank"} を送信できます。 SSL 作成にチェックボックスを使用しないでください。
 
 1. Marketo Engage インスタンスに複数のワークスペースを定義している場合は、「**[!UICONTROL 次へ]**」をクリックします。
 
