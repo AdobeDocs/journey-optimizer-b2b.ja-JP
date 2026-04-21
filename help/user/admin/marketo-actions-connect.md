@@ -15,7 +15,7 @@ ht-degree: 92%
 
 Marketo Engage アクションは _人物ベース_ のアクションであり、Journey Optimizer B2B editionとMarketo Engageの _リードベース_ マーケティング活動の間で _アカウントベース_ のマーケティングオーケストレーションを調整できます。 これらのアクションを使用して、静的なリストメンバーシップを調整し、キャンペーンにユーザーを配置します。
 
-Marketo Engageのジャーニーアクションを使用するには、管理者はまず、認証に必要な資格情報を提供する [&#x200B; カスタムサービス &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} をMarketo Engageで作成します。 次に、Journey Optimizer B2B editionの製品管理者は、資格情報を使用してMarketo Engageへの接続を作成します。 その後、Journey Optimizer B2B Edition ユーザーは接続を参照して、Marketo Engageのアクションを対面およびアカウントジャーニーで設定できます。
+Marketo Engageのジャーニーアクションを使用するには、管理者はまず、認証に必要な資格情報を提供する [&#x200B; カスタムサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} をMarketo Engageで作成します。 次に、Journey Optimizer B2B editionの製品管理者は、資格情報を使用してMarketo Engageへの接続を作成します。 その後、Journey Optimizer B2B Edition ユーザーは接続を参照して、Marketo Engageのアクションを対面およびアカウントジャーニーで設定できます。
 
 * [!UICONTROL Marketo リストに追加 &#x200B;]
 * [!UICONTROL Marketoリストから削除 &#x200B;]
@@ -39,7 +39,7 @@ Marketo Engageのジャーニーアクションを使用するには、管理者
    * クライアント ID
    * クライアント秘密鍵
 
-リストやキャンペーンなどのアセットのMarketo Engage Workspace の表示は、[&#x200B; カスタムサービスで割り当てられるロール権限 &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"} によって制御されます。 マーケターは、1 つのジャーニー内で同じ接続を複数回使用し、同じジャーニー内で異なるMarketo Engage接続を使用できます。
+リストやキャンペーンなどのアセットのMarketo Engage Workspace の表示は、[&#x200B; カスタムサービスで割り当てられるロール権限 &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"} によって制御されます。 マーケターは、1 つのジャーニー内で同じ接続を複数回使用し、同じジャーニー内で異なるMarketo Engage接続を使用できます。
 
 ### 統合の追加
 
