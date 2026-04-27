@@ -1,11 +1,11 @@
 ---
 title: ジャーニーノード
-description: Journey Optimizer B2B editionなら、アクション、イベント、オーケストレーションノード（オーディエンス、待機、分割、結合）を利用して、クロスチャネルマーケティング向けのジャーニーを構築できます。
+description: Journey Optimizer B2B Editionのクロスチャネルマーケティング用に、アクションノード、イベントノード、オーケストレーションノード（オーディエンス、待機、分割、結合）でジャーニーを構築できます。
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 12%
@@ -19,7 +19,7 @@ ht-degree: 12%
 オーディエンスノードは、自動的にジャーニーの最初のノードになります。
 
 * [アカウントオーディエンス](./account-audience-nodes.md)
-* [人物オーディエンス &#x200B;](./person-audience-nodes.md) （Beta）
+* [人物オーディエンス ](./person-audience-nodes.md) （Beta）
 
 さまざまなアクションノード、イベントノード、オーケストレーションノードを組み合わせて、マルチステップのクロスチャネルシナリオとしてジャーニーを構築できます。 ジャーニーの各ノードは、論理パスに沿ったステップを表します。 アカウントジャーニーを構築するには、次のノードタイプを使用します。
 
