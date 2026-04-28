@@ -41,13 +41,13 @@ ht-degree: 93%
    + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
    + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
    + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
+   + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
    + ジャーニーノード {#journey-nodes}
       + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
       + [アクションの実行](./journeys/action-nodes.md)
       + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
-      + [ パスの分割と結合](./journeys/split-merge-paths-nodes.md)
+      + [&#x200B; パスの分割と結合](./journeys/split-merge-paths-nodes.md)
       + [待機](./journeys/wait-nodes.md)
       + [外部ノード](./journeys/external-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
@@ -150,7 +150,7 @@ ht-degree: 93%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
@@ -167,4 +167,4 @@ ht-degree: 93%
       + [WhatsApp設定](./admin/configure-channels-whatsapp.md)
       + [Web チャネル設定（Beta）](./admin/configure-channels-web.md)
       + [ランディングページの設定（Beta）](./admin/landing-page-settings.md)
-      + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+      + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
