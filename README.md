@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # アーカイブ
 
-このリポジトリは<https://github.com/Adobe-Enterprise-Docs/journey-optimizer-b2b.en>に移行されました。
+このリポジトリは<https://github.com/Adobe-Enterprise-Docs/journey-optimizer-b2b.ja-JP>に移行されました。
