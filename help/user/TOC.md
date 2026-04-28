@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 94%
    + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
    + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
    + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-   + [ジャーニーノード](./journeys/journey-nodes.md)
+   + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
    + ジャーニーノード {#journey-nodes}
       + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
       + [アクションの実行](./journeys/action-nodes.md)
       + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
-      + [&#x200B; パスの分割と結合](./journeys/split-merge-paths-nodes.md)
+      + [ パスの分割と結合](./journeys/split-merge-paths-nodes.md)
       + [待機](./journeys/wait-nodes.md)
       + [外部ノード](./journeys/external-nodes.md)
    + [ジャーニーの詳細](./journeys/journey-details.md)
@@ -119,7 +119,7 @@ ht-degree: 94%
          + [HTMLの高度な編集機能](./content/email-template-advanced-html.md)
          + [画像をテンプレートに変換](./content/email-template-image-convert.md)
       + ランディングページテンプレート（ベータ版） {#landing-page-templates}
-         + [概要](./content/landing-page-templates.md)
+         + {hide-from-toc}[概要](./content/landing-page-templates.md)
          + [ランディングページテンプレートのデザイン](./content/landing-page-template-design.md)
    + フラグメント {#visual-fragments}
       + [概要](./content/fragments.md)
@@ -150,7 +150,7 @@ ht-degree: 94%
 + インテリジェントダッシュボード {#dashboards}
    + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
-   + [Web エンゲージメントダッシュボード &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [Web エンゲージメントダッシュボード ](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
    + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
@@ -167,4 +167,4 @@ ht-degree: 94%
       + [WhatsApp設定](./admin/configure-channels-whatsapp.md)
       + [Web チャネル設定（Beta）](./admin/configure-channels-web.md)
       + [ランディングページの設定（Beta）](./admin/landing-page-settings.md)
-      + [イベント収集用のデータストリーム設定](./data/aep-event-collection.md)
+      + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
