@@ -1,13 +1,12 @@
 ---
 title: イベント収集用のデータストリーム設定
-description: Experience Platform Web SDKでJourney Optimizer B2B Edition ランディングページのデータ収集を有効にするためのデータストリームの設定方法について説明します。
+description: Experience Platform Web SDKでJourney Optimizer B2B edition ランディングページのデータ収集を有効にするためのデータストリームの設定方法について説明します。
 feature: Setup, Landing Pages
 role: Admin
 hide: true
-hidefromtoc: true
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 94391fe5-2cdf-4a40-8c92-049227bed788
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 60%
