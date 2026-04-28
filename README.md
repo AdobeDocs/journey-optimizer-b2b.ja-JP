@@ -1,64 +1,10 @@
 ---
-source-git-commit: 14ce84c26dc292c33479ca60841dafd1ab20db53
+source-git-commit: 5d3eaab43f5e88c64742c1514f25cf691a4dc03f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 49%
+source-wordcount: '7'
+ht-degree: 0%
 
 ---
-# 記事の投稿
+# アーカイブ
 
-コミュニティからの投稿や、ドキュメントチーム以外のAdobe社員からの投稿を歓迎します。
-
-## アドビオープンソース行動規範
-
-このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md)または [.NET Foundation 行動規範](https://dotnetfoundation.org/about/policies/code-of-conduct)を採用しています。詳しくは、[投稿](contributing.md)の記事を参照してください。
-
-## アドビコンテンツへの投稿方法
-
-**Adobeの従業員でない場合**、外部のコミュニティ投稿を送信できます。 コミュニティの投稿は、内部システムに読み込まれ、編集されてパブリックリポジトリに結合されます。 パブリックリポジトリは、その後、最新の変更内容と同期され、プライベートリポジトリに結合されます。
-
-**アドビスタッフの場合**&#x200B;は、プライベート [Adobe GitHub リポジトリ](https://git.corp.adobe.com/AdobeDocs/)に直接投稿できます。詳しくは、アドビスタッフ向けの Adobe Experience League オーサリングガイドを参照してください。
-
-## 外部コントリビューター
-
-### 軽微な変更
-
-マイナーな更新を投稿しようとしている場合：
-
-1. 編集するトピックに移動します。
-1. _このコンテンツは役に立ちましたか？ブラウザーウィンドウの下部にあるバナー_、「**詳細なフィードバックオプション**」をクリックします。
-1. 「**編集の提案**」をクリックし、GitHub UI で変更内容を含むプルリクエスト（PR）を送信します。
-
-   詳しくは、一般的な[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction)を参照してください。
-
-このリポジトリのドキュメントおよびコード例について送信した軽微な修正または説明には、アドビの利用条件が適用されます。
-
-### コミュニティからの大きな変更または新規トピック
-
-Adobe コミュニティのメンバーが新しいトピックを作成したり、大きな変更を送信したりする場合は、該当する Git リポジトリーの「**イシュー**」タブを使用してイシューを送信します。 新しいイシューは、ドキュメントチームとの会話を開始します。 プランに同意したら、Adobe ライターと協力してリビジョンを公開します。
-
-**注意：** ドキュメントおよびコード例に大幅な変更を加えたプルリクエストを送信すると、プルリクエストにはオンライン貢献使用許諾契約（CLA）の送信を求めるメッセージが表示されます。 チームメンバーがプルリクエストをレビューするには、このオンラインフォームに入力する必要があります。
-
-### ツール
-
-コミュニティの投稿者は、GitHub UI を使用して、基本的な編集をしたり、リポジトリをフォークしたりして、大きな貢献をすることができます。
-
-詳しくは、[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction)を参照してください。
-
-## 内部コントリビューター
-
-Adobe製品チームのテクニカルライター、プログラムマネージャー、または開発者で技術記事の投稿または作成を担当している場合は、[&#x200B; プライベートリポジトリ &#x200B;](https://git.corp.adobe.com/AdobeDocs) を使用します。
-
-## トピックの形式設定
-
-このリポジトリの記事はすべて GitHub Flavored Markdown（GFM）を使用しています。マークダウンについて詳しくは、次を参照してください。
-
-* [マークダウンの基本](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
-* [GitHub ドキュメント &#x200B;](https://docs.github.com/en)
-
-## ラベル
-
-パブリックリポジトリでは、アドビがプル要求のワークフローを管理したり、プル要求の状況を投稿者が把握できるようにしたりするために、プル要求に自動ラベルが割り当てられます。
-
-* **Change sent to author**：保留中のプル要求について作成者に通知されました。
-* **結合準備完了**：プルリクエストレビューチームによるレビューの準備が整いました。
+このリポジトリは<https://github.com/Adobe-Enterprise-Docs/journey-optimizer-b2b.en>に移行されました。
