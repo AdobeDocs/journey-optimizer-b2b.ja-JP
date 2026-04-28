@@ -35,7 +35,7 @@ Adobe Experience Manager Cloud Managerはプログラムに整理されており
 
 1. 中間パネルの&#x200B;**[!UICONTROL Assets]**&#x200B;をクリックします。
 
-   ![Assetsの設定スペースにアクセス ](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
+   ![Assetsの設定スペースにアクセス &#x200B;](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
    <!-- The default digital asset management option is configured as `Adobe Marketo Engage`. -->
    ここから、各AEM環境リポジトリへの接続を1つずつ設定できます。
@@ -48,7 +48,7 @@ Adobe Experience Manager Cloud Managerはプログラムに整理されており
 
    .json ファイルをダイアログにドラッグしてアップロードできます。 リンクをクリックして、システムからファイルを見つけて選択することもできます。
 
-   ![証明書JSON ファイルをアップロード ](./assets/configuration-assets-aem-upload-cert.png){width="500"}
+   ![証明書JSON ファイルをアップロード &#x200B;](./assets/configuration-assets-aem-upload-cert.png){width="500"}
 
    アップロード後、証明書が下部に表示されます。
 
@@ -84,13 +84,13 @@ Adobe Experience Manager Cloud Managerはプログラムに整理されており
 
 1. 省略記号（**...**）をクリックします 証明書ファイルのアイコンをクリックすると、そのファイルに対するアクションのオプションが表示されます。
 
-   ![AEM アセットリポジトリ証明書のオプションメニューにアクセス ](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
+   ![AEM アセットリポジトリ証明書のオプションメニューにアクセス &#x200B;](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
 
 1. ファイルのアップロード用ダイアログを開くには、**[!UICONTROL 置換]**&#x200B;を選択します。
 
 1. ファイルをダイアログにドラッグするか、リンクを使用してアップロードします。 ファイルがJSON タイプであることを確認します。
 
-   ![置き換え用のAEM assets リポジトリ証明書JSON ファイルをアップロード ](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
+   ![置き換え用のAEM assets リポジトリ証明書JSON ファイルをアップロード &#x200B;](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
 
 1. 「**[!UICONTROL 置換]**」をクリックして、アップロードを確定します。
 
