@@ -1,6 +1,6 @@
 ---
 title: コンテンツの生成と一貫性にブランドを活用
-description: 一貫性のあるコンテンツ制作のためのブランドガイドラインを策定する – Journey Optimizer B2B Editionでビジュアルアイデンティティ、メッセージの整合性、ブランドボイスを維持します。
+description: 一貫性のあるコンテンツ制作のためのブランドガイドラインを定義します。Journey Optimizer B2B editionなら、ビジュアルアイデンティティ、メッセージの整合性、ブランドボイスを維持できます。
 badge: label="ベータ版" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -47,55 +47,55 @@ ht-degree: 12%
 >
 >この機能は現在、パブリックベータ版として利用可能です。
 >
->Adobe Journey Optimizer B2B EditionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer B2B editionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 
-定義されたブランドは、クリエイティブチームがビジュアルまたは書面のコンテンツを作成する際に使用する&#x200B;_信頼できる唯一の情報源_&#x200B;を提供します。 When these guidelines are compiled and the brand assets are shared, any team member or collaborator can create on-brand content for your product. To enable on-brand content creation in Journey Optimizer B2B Edition, complete these tasks:
+定義されたブランドは、クリエイティブチームがビジュアルまたは書面のコンテンツを作成する際に使用する&#x200B;_信頼できる唯一の情報源_&#x200B;を提供します。 これらのガイドラインをまとめ、ブランドアセットを共有すれば、チームメンバーや共同作業者であれば誰でもブランドに即したコンテンツを制作できます。 Journey Optimizer B2B editionでブランドに即したコンテンツ制作を可能にするには、次のタスクを実行します。
 
-1. Prepare your brand definition.
+1. ブランド定義の準備。
 
-   * High-level brand characteristics
+   * 高レベルのブランド特性
    * 文体
-   * Visual elements
+   * ビジュアル要素
 
-1. Assemble this information in one or more PDF files.
+1. この情報を1つ以上のPDF ファイルにアセンブリします。
 
-1. Use the PDF file to [create the brand](./brands-manage-create.md#create-and-define-a-brand) in Journey Optimizer B2B Edition.
+1. PDF ファイルを使用して、Journey Optimizer B2B editionで[ ブランド ](./brands-manage-create.md#create-and-define-a-brand)を作成します。
 
-1. When it is ready for use, [publish the brand](./brands-manage-create.md#publish-the-brand).
+1. 使用する準備ができたら、[ ブランドを公開します](./brands-manage-create.md#publish-the-brand)。
 
-1. Use the brand for [email content alignment](./content-evaluation.md#brand-alignment-score).
+1. ブランドを[ メールコンテンツ調整](./content-evaluation.md#brand-alignment-score)に使用します。
 <!-- 
 1. Use the brand to generate content. 
 -->
 
 >[!BEGINSHADEBOX]
 
-## Brand-related permissions
+## ブランド関連の権限
 
-Product administrators can enable access to the brand management and brand alignment features by assigning the **[!UICONTROL Manage brand kit]** or **[!UICONTROL Enable AI assistant]** resource permissions through the _Permissions_ UI in Adobe Experience Cloud.
+製品管理者は、Adobe Experience Cloudの&#x200B;_権限_ UIを通じて&#x200B;**[!UICONTROL ブランドキットの管理]**&#x200B;または&#x200B;**[!UICONTROL AI アシスタントの有効化]**&#x200B;のリソース権限を割り当てることで、ブランド管理およびブランド調整機能へのアクセスを有効にできます。
 
-1. In the Permissions app, go to the **[!UICONTROL Roles]** tab and select the desired [role](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. 権限アプリで、「**[!UICONTROL 役割]**」タブに移動し、目的の[役割](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}を選択します。
 
 1. 「**[!UICONTROL 編集]**」をクリックして、権限を変更します。
 
-1. Add the **[!UICONTROL AI Assistant]** resource, then select **[!UICONTROL Manage brand kit]** or **[!UICONTROL Enable Ai assistant]**
+1. **[!UICONTROL AI アシスタント]** リソースを追加し、**[!UICONTROL ブランドキットの管理]**&#x200B;または&#x200B;**[!UICONTROL Ai アシスタントの有効化]**&#x200B;を選択します
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Enable Ai assistant]** permission provides read-only access to the **[!UICONTROL Brands]** library.
+   >**[!UICONTROL Ai アシスタントを有効にする]**&#x200B;権限は、**[!UICONTROL ブランド]** ライブラリへの読み取り専用アクセスを提供します。
 
-   ![Add AI Assitant permission for brands access](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
+   ![ ブランドへのアクセスに対するAI アシスタント権限を追加](./assets/brands-aep-permissions.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Save]** to apply the changes.
+1. **[!UICONTROL 保存]**&#x200B;をクリックして変更を適用します。
 
-   Permissions are automatically updated for any users that are already assigned to the role.
+   権限は、既に役割に割り当てられているユーザーに対して自動的に更新されます。
 
-1. To assign this role to new users, select the **[!UICONTROL Users]** tab within the _[!UICONTROL Roles]_ dashboard and click **[!UICONTROL Add User]**.
+1. この役割を新しいユーザーに割り当てるには、_[!UICONTROL 役割]_ ダッシュボード内の&#x200B;**[!UICONTROL ユーザー]** タブを選択し、**[!UICONTROL ユーザーを追加]**&#x200B;をクリックします。
 
-   * Enter the user name and email address, or choose an existing user from the list.
+   * ユーザー名と電子メールアドレスを入力するか、リストから既存のユーザーを選択します。
 
-     If the user is not yet created, refer to the [Experience Platform documentation](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     ユーザーがまだ作成されていない場合は、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}を参照してください。
 
-   * Click **[!UICONTROL Save]** to apply the changes.
+   * **[!UICONTROL 保存]**&#x200B;をクリックして変更を適用します。
 
 >[!ENDSHADEBOX]
