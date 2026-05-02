@@ -1,6 +1,6 @@
 ---
 title: メールコンテンツのダークモード
-description: Journey Optimizer B2B Editionのダークモードのメールデザインについて説明します。 レンダリングのプレビュー、設定のカスタマイズ、アクセシビリティの確保およびメールクライアント間のテスト。
+description: Journey Optimizer B2B editionのダークモードのメールデザインについて説明します。 レンダリングのプレビュー、設定のカスタマイズ、アクセシビリティの確保およびメールクライアント間のテスト。
 feature: Email Authoring
 topic: Content Management
 role: User

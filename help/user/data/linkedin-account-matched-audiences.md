@@ -11,13 +11,13 @@ ht-degree: 14%
 
 ---
 
-# LinkedIn Account Matched audiences
+# LinkedIn アカウントでマッチしたオーディエンス
 
-[!DNL Journey Optimizer B2B Edition]は、アカウントに一致するオーディエンスを通じてLinkedIn広告オーディエンスを生成する機能を提供しており、購買グループの空の役割を埋めるために設計されています。 一連の購買グループフィルターを定義することで、LinkedIn の一致するオーディエンスを維持し、購買グループのパラメーターに一致する見込み客をターゲットにすることができます。 _アクションを実行_ ノードからアカウントジャーニーからオーディエンスをアクティブ化することもできます。
+[!DNL Journey Optimizer B2B Edition]は、アカウントに一致するオーディエンスを通じてLinkedIn広告オーディエンスを生成する機能を提供しており、購買グループの空の役割を埋めるのに役立つように設計されています。 一連の購買グループフィルターを定義することで、LinkedIn の一致するオーディエンスを維持し、購買グループのパラメーターに一致する見込み客をターゲットにすることができます。 _アクションを実行_ ノードからアカウントジャーニーからオーディエンスをアクティブ化することもできます。
 
 この機能は、Experience Platform の宛先を活用して統合のいくつかの側面を管理します。 最大10個のデータフローがあります。
 
-Journey Optimizer B2B editionからデータフローを開始する前に、Experience Platform アプリケーションでLinkedIn Campaign Manager アカウントが設定された[&#x200B; （Companies） LinkedIn Matched Audience destination connector](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}の少なくとも1つのインスタンスが必要です。
+Journey Optimizer B2B editionからデータフローを開始する前に、Experience Platform アプリケーションで設定されたLinkedIn Campaign Manager アカウントを持つ[&#x200B; （Companies） LinkedIn Matched Audience宛先コネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}の少なくとも1つのインスタンスが必要です。
 
 ## 新しい LinkedIn アカウント接続を設定 {#linkedin-destination-setup}
 
@@ -26,7 +26,7 @@ Journey Optimizer B2B editionからデータフローを開始する前に、Exp
 >title="LinkedIn の宛先の設定は必須です"
 >abstract="購買グループ別にフィルタリングされたアカウントを LinkedIn の宛先に送信し、潜在的な購買グループのメンバーに関与します。 フィルタリングされたアカウントの 10 個の異なるグループに対して、最大 10 個のデータフローを作成できます。 この機能の使用を開始するには、まず Linkedin の宛先を追加します。"
 
-1. Experience Platformで、左側のナビゲーションで&#x200B;**[!UICONTROL Connections]**&rbrace; > **[!UICONTROL Destinations]**&#x200B;に移動し、「**[!UICONTROL カタログ]**」タブを選択します。
+1. Experience Platformで、左側のナビゲーションで&#x200B;**[!UICONTROL Connections]** > **[!UICONTROL Destinations]**&#x200B;に移動し、「**[!UICONTROL カタログ]**」タブを選択します。
 
 1. カタログで、**[!UICONTROL （Companies） LinkedIn Matched Audience]** コネクタを見つけます。
 
@@ -34,11 +34,11 @@ Journey Optimizer B2B editionからデータフローを開始する前に、Exp
    >
    >検索ボックスに`LinkedIn`と入力すると、コネクタをすばやく見つけることができます。
 
-1. コネクタカードで、_詳細_ （**...**&#x200B;をクリックします。 アイコンをクリックし、**[!UICONTROL 新しい宛先を設定]**&#x200B;を選択します。
+1. コネクタカードで、_詳細_ （**...**）をクリックします アイコンをクリックし、**[!UICONTROL 新しい宛先を設定]**&#x200B;を選択します。
 
-   ![LinkedIn Matched Audience コネクタにアクセス &#x200B;](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![LinkedIn Matched Audience コネクタに（企業）アクセス &#x200B;](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. **[!UICONTROL 新しいアカウント]**&#x200B;を選択し、**[!UICONTROL 宛先]**&#x200B;に接続をクリックします。
+1. **[!UICONTROL 新しいアカウント]**&#x200B;を選択し、**[!UICONTROL 宛先に接続]**&#x200B;をクリックします。
 
    ![新しいLinkedIn アカウントを接続](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
@@ -50,102 +50,102 @@ Journey Optimizer B2B editionからデータフローを開始する前に、Exp
 
    >[!IMPORTANT]
    >
-   >この時点で、**宛先の詳細&#x200B;_を_入力しないでください**。 接続だけが必要です。
+   >この時点で、**は&#x200B;_[!UICONTROL 宛先の詳細]_&#x200B;を入力しません**。 接続だけが必要です。
 
 ## アカウント詳細の更新
 
 LinkedIn アカウントの名前と説明は、Journey Optimizer B2B editionの購買グループに表示されます。 この情報を更新して、購買グループを扱うマーケターが容易に特定できるようにすることがベストプラクティスです。 アカウントの詳細は、Experience PlatformまたはJourney Optimizer B2B edition UIで変更できます。
 
-1. Go to **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** in the left navigation and select the **[!UICONTROL Accounts]** tab.
+1. 左側のナビゲーションで&#x200B;**[!UICONTROL 接続]** > **[!UICONTROL 宛先]**&#x200B;に移動し、**[!UICONTROL アカウント]** タブを選択します。
 
-1. For the new account that you created, click the _More_ (**...**) menu and choose **[!UICONTROL Edit details]**.
+1. 作成した新しいアカウントの場合、_詳細_ （**...**）をクリックします メニューから&#x200B;**[!UICONTROL 詳細を編集]**&#x200B;を選択します。
 
    ![アカウントの詳細を編集](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
 
-1. In the dialog, update the name and description.
+1. ダイアログで、名前と説明を更新します。
 
-   ![Edit the name and description](./assets/destinations-linkedin-account-edit-details-dialog.png){width="500"}
+   ![名前と説明を編集](./assets/destinations-linkedin-account-edit-details-dialog.png){width="500"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## Activate the account for buying groups
+## 購買グループのアカウントをアクティブ化
 
 >[!NOTE]
 >
->If you already have ten dataflows, you cannot create another. If you are at the maximum, delete one in Experience Platform before you create a new one in Journey Optimizer B2B Edition.
+>既に10個のデータフローがある場合、別のデータフローを作成することはできません。 上限を設定している場合は、Journey Optimizer B2B editionで新しい値を作成する前に、Experience Platformで値を削除します。
 
 1. Journey Optimizer B2B Edition で、左側のナビゲーションにある&#x200B;**[!UICONTROL アカウント]**／**[!UICONTROL 購買グループ]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL 参照]**」タブを選択します。
 
-1. Click **[!UICONTROL Activate to LinkedIn Destination]** at the top right.
+1. 右上の「**[!UICONTROL LinkedIn Destination]**&#x200B;にアクティベート」をクリックします。
 
    ![アカウントの詳細を編集](./assets/activate-linkedin-destination.png){width="800" zoomable="yes"}
 
-1. Give the dataflow a descriptive name and description (optional).
+1. データフローにわかりやすい名前と説明を付けます（オプション）。
 
-   After you save it, the name that you specify for the dataflow is prepended with _AJOB2B_ to aid in identifying the dataflow in Experience Platform.
+   データフローを保存すると、データフローに指定した名前の先頭に&#x200B;_AJOB2B_&#x200B;が付き、Experience Platformでのデータフローの識別に役立ちます。
 
-1. Enter the [Account ID of your LinkedIn Campaign Manager Account](https://www.linkedin.com/help/lms/answer/a424270).
+1. LinkedIn Campaign Manager アカウント [&#128279;](https://www.linkedin.com/help/lms/answer/a424270)の アカウント IDを入力します。
 
-   You can find your Account ID by your Account Name in the Campaign Manager UI.
+   アカウント IDは、Campaign Manager UIのアカウント名で確認できます。
 
-   ![Add the dataflow details](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
+   ![&#x200B; データフローの詳細を追加](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Select buying group filters]** and define the parameters of your account audience.
+1. 「**[!UICONTROL 購買グループフィルターを選択]**」をクリックし、アカウントオーディエンスのパラメーターを定義します。
 
    >[!IMPORTANT]
    >
-   >At this time, filters cannot be edited after the dataflow is activated. Double-check your work before you activate the dataflow.
+   >現時点では、データフローがアクティブ化された後にフィルターを編集することはできません。 データフローをアクティブ化する前に、作業を再確認します。
 
-   ![Specify the account audience filtering according to buying groups](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
+   ![購買グループに応じてアカウントオーディエンスフィルタリングを指定](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
 
    **[!UICONTROL エンゲージメントスコア]**&#x200B;の場合、演算子 `Between` は、パーセンテージ範囲と同様に包括的です。 例えば、5.1 と 5 は、どちらも 5 と 6 の&#x200B;_間_&#x200B;にあります。
 
-   Empty conditions are treated like `Is Any`.
+   空の条件は`Is Any`のように扱われます。
 
-   Click **[!UICONTROL Save]** to add the specified filters.
+   **[!UICONTROL 保存]**&#x200B;をクリックして、指定したフィルターを追加します。
 
-1. Click **[!UICONTROL Select LinkedIn destination]** and choose the configured LinkedIn destination that you want to use.
+1. 「**[!UICONTROL LinkedInの宛先]**&#x200B;を選択」をクリックし、使用する設定済みのLinkedInの宛先を選択します。
 
-   Upon activation, this setting creates the dataflow using the destination configuration and a corresponding virtual segment.
+   この設定は、アクティブ化すると、宛先設定と対応する仮想セグメントを使用してデータフローを作成します。
 
-1. Double-check your settings and click **[!UICONTROL Activate]** at the top right.
+1. 設定を再確認し、右上の「**[!UICONTROL アクティブ化]**」をクリックします。
 
-   Click **[!UICONTROL Activate]** again in the confirmation dialog.
+   確認ダイアログで「**[!UICONTROL アクティブ化]**」をもう一度クリックします。
 
-   A banner is displayed with a link to your dataflows menu in Experience Platform so that you can check the dataflow record.
+   Experience Platformのデータフローメニューへのリンクがバナーに表示され、データフローレコードを確認できます。
 
-## Activate an audience from an account journey
+## アカウントジャーニーからオーディエンスをアクティブ化
 
-Starting with the 2025.10 release, use the _Activate to Destination_ action for accounts to activate accounts to a LinkedIn destination directly from your journey. Use the action for a LinkedIn destination to streamline campaign execution by eliminating multi-system handoffs and reducing latency. For example, as a marketer, you can automatically activate high-intent accounts to LinkedIn for retargeting when key buying roles are missing, or re-engage dormant accounts based on inactivity filters.
+2025.10 リリース以降、_宛先に対してアクティブ化_ アクションを使用して、アカウントをジャーニーから直接LinkedIn宛先に対してアクティブ化します。 LinkedInの宛先に対してアクションを使用すると、マルチシステムのハンドオフを排除し、待ち時間を短縮して、キャンペーンの実行を効率化できます。 たとえば、マーケターは、主要な購買役割が欠けている場合はリターゲティングのために、インテント率の高いアカウントをLinkedInで自動的に活用したり、非アクティブなフィルターにもとづいて休眠アカウントをリエンゲージしたりできます。
 
-1. With the _Take an action_ node selected in the journey canvas, set the **[!UICONTROL Action on accounts]** to **[!UICONTROL Activate to destination]**.
+1. ジャーニーキャンバスで「_アクションを実行_」ノードを選択した状態で、「**[!UICONTROL アカウントに対するアクション]**」を「**[!UICONTROL 宛先に対するアクティブ化]**」に設定します。
 
-   ![Journey node - take an action on accounts - activate to destination](./assets/node-activate-destination.png){width="550" zoomable="yes"}
+   ![ジャーニーノード – アカウントに対してアクションを実行 – アクティベート先](./assets/node-activate-destination.png){width="550" zoomable="yes"}
 
-1. From the node properties on the right, choose the destination.
+1. 右側のノードプロパティから、宛先を選択します。
 
-   * If there are one or more destinations created, you can click **[!UICONTROL Select destination]** to choose an existing destination.
+   * 1つ以上の宛先が作成されている場合は、**[!UICONTROL 宛先を選択]**&#x200B;をクリックして、既存の宛先を選択できます。
 
-   * If there are no existing destinations, or you want to create a new destination, click **[!UICONTROL Set up destination]**.
+   * 既存の宛先がない場合、または新しい宛先を作成する場合は、**[!UICONTROL 宛先の設定]**&#x200B;をクリックします。
 
-     ![Journey node - take an action on accounts - activate to destination - set up destination](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
+     ![ジャーニーノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 – 宛先を設定](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
 
-     This action opens the the Destinations catalog page in a new browser tab.
+     このアクションは、新しいブラウザータブで宛先カタログページを開きます。
 
-   ![Journey node - take an action on accounts - activate to destination](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+   ![ジャーニーノード – アカウントに対してアクションを実行 – アクティベート先](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
 
-1. In the dialog, select the configured LinkedIn destination and click **[!UICONTROL Save]**.
+1. ダイアログで、設定したLinkedInの宛先を選択し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   ![Journey node - take an action on accounts - activate to destination - select destination dialog](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+   ![ジャーニーノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 – 宛先を選択ダイアログ &#x200B;](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
-1. Enter the **[!UICONTROL Audience name]** that is used to identify the activated audience in the destination.
+1. 宛先でアクティブ化されたオーディエンスを識別するために使用される&#x200B;**[!UICONTROL オーディエンス名]**&#x200B;を入力します。
 
-   ![Journey node - take an action on accounts - activate to destination - completed settings](../journeys/assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
+   ![ジャーニーノード – アカウントに対してアクションを実行 – アクティベート先 – 完了した設定](../journeys/assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
-## Orchestrate paid media engagement
+## 有料メディアエンゲージメントのオーケストレーション
 
-You can engage with account members through a paid media channel, such as LinkedIn Ad audiences, to acquire, nurture, and qualify them for Sales. Use a _Take an action_ node in an account journey to automate engagement with key members of an account through an external channel that is a best fit for different account members.
+LinkedIn広告オーディエンスなどの有料メディアチャネルを通じてアカウントメンバーとエンゲージし、獲得、育成をおこない、セールスにつなげることができます。 アカウントジャーニーで&#x200B;_アクション_ ノードを使用して、様々なアカウントメンバーに最適な外部チャネルを通じて、アカウントの主要メンバーとのエンゲージメントを自動化します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3448673/?captions=jpn&learn=on)
