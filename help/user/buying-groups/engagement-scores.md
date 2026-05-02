@@ -26,19 +26,19 @@ ht-degree: 30%
 
   購買グループのエンゲージメントスコアは、[購買グループの詳細](./buying-group-details.md) ページに表示されます。 また、インテリジェントダッシュボードで最もエンゲージメントの高い購買グループを表示することもできます。
 
-  ![最もエンゲージ率の高い購買グループ ](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
+  ![最もエンゲージ率の高い購買グループ &#x200B;](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
 
 * **人物エンゲージメントスコア** – 人物エンゲージメントスコアは、個々の購買グループメンバーのアクティビティに基づいています。
 
-  購買グループの各メンバーに対する人物エンゲージメントスコアは、購買グループの詳細ページ [_[!UICONTROL  メンバー&#x200B;]_タブ ](./buying-group-details.md#buying-group-members)に表示されます。 これらのスコアは、最もエンゲージメントの高いメンバーや重複する連絡先情報を含むページやダッシュボードにも表示されます。
+  購買グループの各メンバーに対する人物エンゲージメントスコアは、購買グループの詳細ページ [_[!UICONTROL &#x200B; メンバー&#x200B;]_&#x200B;タブ &#x200B;](./buying-group-details.md#buying-group-members)に表示されます。 これらのスコアは、最もエンゲージメントの高いメンバーや重複する連絡先情報を含むページやダッシュボードにも表示されます。
 
   ![最もエンゲージ率の高い購買グループのメンバー](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-人物エンゲージメントスコアは、[ ロールテンプレート ](./buying-groups-role-templates.md#add-the-template-roles)および[ ジャーニースプリットパスによる人物ノード ](../journeys/split-merge-paths-nodes.md#people-path-filters)でのフィルタリングに使用できる属性です。
+人物エンゲージメントスコアは、[&#x200B; ロールテンプレート &#x200B;](./buying-groups-role-templates.md#add-the-template-roles)および[&#x200B; ジャーニースプリットパスによる人物ノード &#x200B;](../journeys/split-merge-paths-nodes.md#people-path-filters)でのフィルタリングに使用できる属性です。
 
-![設定されたイベント定義にアクセス ](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
+![設定されたイベント定義にアクセス &#x200B;](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -105,7 +105,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->エンゲージメントスコアアクティビティは、個人のMarketo Engage アクティビティログに記録されます。 このログには、接続されているMarketo Engage インスタンスからアクセスできます。 詳しくは、Marketo Engage ドキュメントの「[ ユーザーのアクティビティログを探す](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}」を参照してください。
+>エンゲージメントスコアアクティビティは、個人のMarketo Engage アクティビティログに記録されます。 このログには、接続されているMarketo Engage インスタンスからアクセスできます。 詳しくは、Marketo Engage ドキュメントの「[&#x200B; ユーザーのアクティビティログを探す](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}」を参照してください。
 
 ## 役割テンプレートの重み付け {#engagement-score-weighting}
 
@@ -114,7 +114,7 @@ ht-degree: 30%
 >title="エンゲージメントスコアの役割別重み付け"
 >abstract="役割別重み付けを使用して、エンゲージメントスコアの計算をカスタマイズします。"
 
-ユーザーは、[役割テンプレート ](./buying-groups-role-templates.md)の各役割に&#x200B;_重み付け_&#x200B;を割り当てて、役割に異なる重みを割り当てることができます。
+ユーザーは、[役割テンプレート &#x200B;](./buying-groups-role-templates.md)の各役割に&#x200B;_重み付け_&#x200B;を割り当てて、役割に異なる重みを割り当てることができます。
 
 ![役割テンプレートの各役割に重み付けを設定](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
