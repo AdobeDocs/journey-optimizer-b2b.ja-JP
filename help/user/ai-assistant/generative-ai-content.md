@@ -9,7 +9,7 @@ exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2506'
-ht-degree: 32%
+ht-degree: 38%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
->title="AIによるコンテンツ生成"
->abstract="レイアウトを作成したら、[!DNL Journey Optimizer B2B Edition]の生成AI ツールを使用してコンテンツを強化できます。 この機能は、説明プロンプトに従ってコンテンツを微調整することで、パーソナライゼーションとコンテンツ改善のプロセスを簡素化します。"
+>title="AI コンテンツ生成"
+>abstract="レイアウトを作成したら、[!DNL Journey Optimizer B2B Edition] の生成 AI ツールを使用してコンテンツを強化できます。 この機能を使用すると、説明的なプロンプトに従ってコンテンツを微調整することで、パーソナライゼーションとコンテンツ改善のプロセスが簡素化されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="参照コンテンツ"
->abstract="_参照コンテンツ_&#x200B;を使用して、生成AIの追加のコンテキストを[!DNL Journey Optimizer B2B Edition]に提供するコンテンツを含むアセットファイルをアップロードするか、以前にアップロードしたファイルを選択します。 このオプションを選択すると、生成されたコンテンツの品質と関連性を高めるために必要なすべての素材が使用可能になります。"
+>abstract="_参照コンテンツ_&#x200B;を使用して、[!DNL Journey Optimizer B2B Edition] の生成 AI に追加のコンテキストを提供するコンテンツを含むアセットファイルをアップロードするか、以前にアップロードしたファイルを選択します。 このオプションにより、生成されるコンテンツの品質と関連性を高めるために必要なすべての資料が使用できるようになります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
->title="Adobeの生成AIに関する用語"
->abstract="この機能へアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインへの同意が必要です。 この機能の出力を確認して正確性を確認し、ユースケースに適していることを確認します。"
+>title="Adobe 生成 AI の用語"
+>abstract="この機能へアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインへの同意が必要です。 この機能からの出力が正確であるかどうかを見直し、ユースケースに適していることを確認します。"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成 AI ユーザーガイドライン"
 
 Microsoft Azure OpenAIとAdobe Fireflyを活用した[!DNL Adobe Journey Optimizer B2B Edition]のコンテンツ生成AIは、テキストや画像に対する先見的なコンテンツのバリエーション提案を提供します。 さまざまなメインタイトルや画像を試して、コンテンツの効果を最適化しましょう。
@@ -62,12 +62,12 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 * バリエーションを選択する際には、サムアップ、サムダウン、またはフラグアイコンを使用して、問題のある出力を必ず報告してください。
 
-## 生成AIのベストプラクティスを確認 {#generative-ai-prompting-guide}
+## 生成 AI のプロンプトのベストプラクティス {#generative-ai-prompting-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai_content_prompt"
->title="プロンプトガイダンス"
->abstract="コンバージョン率が高く、ブランドに即したマーケティングコンテンツを生成する効果的なプロンプトを作成する方法について、[!DNL Journey Optimizer B2B Edition]のドキュメントをご覧ください。"
+>title="プロンプトのガイダンス"
+>abstract="高いコンバージョン率につながる、ブランドに即したマーケティングコンテンツを生成する効果的なプロンプトの作成方法について詳しくは、[!DNL Journey Optimizer B2B Edition] ドキュメントを参照してください。"
 
 このガイドは、リクエストの構成や意図の明確化を図り、AIがブランドガイドライン、オーディエンスのニーズ、キャンペーン目標に沿ったメッセージを生成することを支援します。
 
