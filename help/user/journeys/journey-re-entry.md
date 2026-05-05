@@ -5,9 +5,16 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-source-git-commit: 585f98370f6741a5f4854beedd14a69c3a663f3c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: bb44a295784fbdeab2583cf7c759b15c0808d7d5
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: 419
 ht-degree: 9%
 
 ---
@@ -38,7 +45,7 @@ _アカウントジャーニーのみ_
 
    この機能を有効にすると、タイミング、遅延、制限のオプションが表示されます。
 
-   有効な機能を持つ![ジャーニー再入力ダイアログ &#x200B;](./assets/journey-re-entry-dialog-enabled.png){width="450"}
+   有効な機能を持つ![ジャーニー再入力ダイアログ ](./assets/journey-re-entry-dialog-enabled.png){width="450"}
 
 1. **[!UICONTROL 再エントリのタイミング]**&#x200B;で、待機の計算方法を選択します。
 
@@ -60,7 +67,7 @@ _アカウントジャーニーのみ_
 
 ## アカウントの進捗状況とアクティビティ
 
-公開されたアカウントジャーニーの場合、ジャーニーマップには、ジャーニーノードの[&#x200B; アカウントの進行状況](./journeys-overview.md#review-account-progression)が表示されます。 マップ上の各ノードには、そのノードに到達するアカウント数が表示されます。ライブジャーニーの場合は、現在そのノードにいるアカウント数が表示されます。 アカウントがジャーニーに再入力するたびに、別々のエントリとしてカウントされます。
+公開されたアカウントジャーニーの場合、ジャーニーマップには、ジャーニーノードの[ アカウントの進行状況](./journeys-overview.md#review-account-progression)が表示されます。 マップ上の各ノードには、そのノードに到達するアカウント数が表示されます。ライブジャーニーの場合は、現在そのノードにいるアカウント数が表示されます。 アカウントがジャーニーに再入力するたびに、別々のエントリとしてカウントされます。
 
 <!-- 
 You can see how many times accounts have entered the journey. ?? 

@@ -1,124 +1,131 @@
 ---
 title: AI アシスタントを使用
-description: AI アシスタントに製品に関する知識の質問をしたり、Journey Optimizer B2B editionのジャーニー、オーディエンス、購買グループに関する運用上のインサイトを得たりします。
+description: Journey Optimizer B2B editionのAI アシスタントに製品ナレッジの質問をおこない、ジャーニー、オーディエンス、購買グループに関する運用上のインサイトを獲得できます。
 feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 1%
+source-wordcount: 971
+ht-degree: 2%
 
 ---
 
-# Journey Optimizer B2B editionでの AI アシスタントの使用
+# Journey Optimizer B2B editionのAI アシスタントを活用して
 
-Journey Optimizer B2B editionで AI アシスタントを使用すると、商品のコンセプトを理解し、商品の機能をすばやくナビゲートして学び、お使いの環境の運用に関するインサイトを得ることができます。 また、Adobe Experience Cloud全体の複数の製品でも使用できます。
+Journey Optimizer B2B editionのAI アシスタントは、製品コンセプトを理解し、製品の機能をすばやく操作して学習し、自社のビジネス環境に関する運用上のインサイトを得るためのユーザーインターフェイス機能です。 Adobe Adobe Experience Cloudの各製品でも利用できます。
 
 >[!IMPORTANT]
 >
->AI アシスタントを使用するには、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインの契約が必要です。 この契約および使用ガイドラインについて詳しくは、[Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) を参照してください。
+>AI アシスタントを使用するには、Adobe Experience Cloud生成AI ユーザーガイドラインに関する契約書が必要です。 この契約書と使用ガイドラインについて詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)を参照してください。
 
-AI アシスタントにアクセスするには、ヘッダーのアイコンをクリックします。 AI アシスタントが右側のパネルに開きます。
+AI アシスタントにアクセスするには、ヘッダーのアイコンをクリックします。 右側のパネルにAI アシスタントが表示されます。
 
-![&#x200B; アイコンをクリックして AI アシスタントにアクセスする &#x200B;](./assets/ai-assistant-icon-displayed.png){width="420"}
+![AI アシスタントにアクセスするには、アイコンをクリックしてください](./assets/ai-assistant-icon-displayed.png){width="420"}
 
-AI アシスタントのインターフェイスが表示され、すぐに開始するための情報が表示されます。 「_アイデアを使って使い始める_ で提供されているオプションを使用して、次のような質問やコマンドに回答できます。
+AI アシスタントインターフェイスが表示され、すぐに利用を開始するための情報が提供されます。 _アイデアで提供されるオプションを使用して、次のような質問やコマンドに答えることができます。_
 
-* どのジャーニーが公開されましたか？
-* 作成されたソリューションの関心
-* Journey Optimizer B2B editionの主なメリットを教えてください。
+* どのジャーニーが公開されたか？
+* 作成されたソリューションの関心？
+* Journey Optimizer B2B editionの主な利点を教えてください。
 
-Adobe Journey Optimizer B2B editionでは、AI アシスタントは次のユースケースをサポートします。
+Adobe Journey Optimizer B2B editionでは、AI アシスタントは次のユースケースをサポートしています。
 
-## 製品に関する知識の質問
+## 製品知識に関する質問
 
-製品ナレッジの質問は、Journey Optimizer B2B editionの概念とハウツー情報に関するものです。 製品に関する知識に関する質問の例を次に示します。
+製品情報に関する質問では、Journey Optimizer B2B editionのコンセプトとハウツー情報について説明します。 製品知識に関する質問の例には、次のようなものがあります。
 
-* SMS プロバイダーアカウントの設定方法
+* SMS プロバイダーのアカウントを設定するにはどうすればよいですか？
 * ジャーニーでメールを送信するにはどうすればよいですか？
 * メールコンテンツをパーソナライズするにはどうすればよいですか？
 
-製品に関する質問を行うには、パネルの下部にあるフィールドに製品を入力し、Enter キーを押します。 例えば、ジャーニーで購入グループの使用方法を学ぶ必要がある場合です。 この場合、_ジャーニーで購入グループを使用するにはどうすればよいですか？_ 質問を送信すると、AI アシスタントはナレッジ ベースに問い合わせ、数秒で回答をコンパイルします。
+製品に質問するには、パネルの下部にあるフィールドに製品を入力し、Enter キーを押します。 例えば、ジャーニーで購買グループの使用方法を学習する必要がある場合。 この場合、_ジャーニーで購買グループを使用するにはどうすればよいですか？_&#x200B;と入力します 質問を送信すると、AI アシスタントはナレッジベースに質問し、数秒で回答を収集します。
 
-![&#x200B; テキストボックスに質問を入力 &#x200B;](./assets/ai-assistant-ask-question.png){width="420"}
+![ テキストボックスに質問を入力](./assets/ai-assistant-ask-question.png){width="420"}
 
-+++回答の例を表示
++++回答の例を見る
 
-![&#x200B; テキストボックスに質問を入力 &#x200B;](./assets/ai-assistant-product-answer.png){width="420"}
+![ テキストボックスに質問を入力](./assets/ai-assistant-product-answer.png){width="420"}
 
 +++
 
 ## 運用上のインサイトに関する質問
 
-オペレーショナルインサイトの質問は、組織のサンドボックス内のジャーニーオブジェクトに関するものです。 アカウントオーディエンス、アカウントジャーニー、ソリューションの関心、購入グループテンプレートなど、運用上のアーティファクトに関する質問をすることができます。 オペレーショナルインサイトの質問またはプロンプトの例を次に示します。
+運用インサイトの質問では、組織のサンドボックス内のジャーニーオブジェクトについて質問します。 アカウントオーディエンス、アカウントジャーニー、ソリューションへの興味、購買グループテンプレートなど、運用上のアーティファクトに関する質問をすることができます。 運用上のインサイトの質問やプロンプトの例には、次のようなものがあります。
 
-* Adobe Journey Optimizer B2B editionには、ライブジャーニーがいくつありますか？
+* Adobe Journey Optimizer B2B editionには何件のライブジャーニーがありますか？
 * スケジュールされたすべてのジャーニーのリストを提示してください。
-* 過去 7 日間に作成されたジャーニーの数
+* 過去7日間に作成されたジャーニーの数？
 
-AI アシスタントが運用インサイトに関する質問に十分な回答を提供するには、アクティブなサンドボックスにいる必要があります。
+AI アシスタントが運用上のインサイトに関する質問に十分な回答を提供できるように、アクティブなサンドボックスに入っている必要があります。
 
 >[!NOTE]
 >
->AI アシスタントのオペレーショナルインサイト質問でサポートされる唯一のAdobe Journey Optimizer B2B edition オブジェクトは、[&#x200B; オペレーショナルインサイトドメインテーブル &#x200B;](./ai-assistant-overview.md#operational-insights) に一覧表示されます。 現在アクセスしているサンドボックスのデータにのみアクセスできます。
+>AI アシスタントの運用上のインサイトに関する質問でサポートされているAdobe Journey Optimizer B2B edition オブジェクトは、[運用上のインサイト ドメイン テーブル ](./ai-assistant-overview.md#operational-insights)に記載されています。 現在のサンドボックスのデータにのみアクセスできます。
 
-運用インサイトに関する質問をするには、パネルの下部にあるフィールドに質問を入力し、Enter キーを押します。 例えば、サンドボックスのオーディエンスについて知りたい場合などです。 この場合、「オーディエンスの数は _と入力します。_。  AI アシスタントは、サンドボックス内のオーディエンスの数と、それによって回答がどのように計算されたかを説明します。 次の応答例では、AI アシスタントには、UI でオーディエンスにアクセスするためのリンクと、オーディエンス数の識別に要した手順の概要が示されています。
+運用上のインサイトに関する質問をするには、パネルの下部にあるフィールドに入力し、Enter キーを押します。 例えば、サンドボックスのオーディエンスについて知りたい場合。 この場合、_オーディエンスの数は？_&#x200B;と入力します。  AI アシスタントは、サンドボックス内のオーディエンスの数と、そのオーディエンスが回答をどのように計算したかの説明を提供します。 次の応答の例では、AI アシスタントがUIのオーディエンスにアクセスするためのリンクを提供し、オーディエンス数を特定するために実行した手順の概要を示します。
 
-![&#x200B; オーディエンス数に対する AI アシスタントの応答 &#x200B;](./assets/ai-assistant-insights-answer.png){width="420"}
+![ オーディエンス数に対するAI アシスタントの応答](./assets/ai-assistant-insights-answer.png){width="420"}
 
-最初の問い合わせに従うには、「サイズで上位 5 件をリスト _などのアーティファクトのリストを要求し_ す。 AI アシスタントは、クエリ内の上位 5 つの項目とそれに対応する ID を含むテーブルを返します。 _ダウンロード_ （![&#x200B; ダウンロードアイコン &#x200B;](../assets/do-not-localize/icon-download.svg)）アイコンをクリックして、テーブルを CSV ファイルとしてダウンロードします。
+最初の質問に従って、アーティファクトのリスト（_サイズ別の上位5つをリスト_&#x200B;など）を求めることができます。 AI アシスタントは、クエリの上位5つの項目と、対応するIDを含むテーブルを返します。 _ダウンロード_ （![ ダウンロードアイコン ](../assets/do-not-localize/icon-download.svg)）アイコンをクリックして、テーブルをCSV ファイルとしてダウンロードします。
 
-![&#x200B; ライブジャーニーのリストに対する AI アシスタントの応答 &#x200B;](./assets/ai-assistant-artifacts-query.png){width="420"}
+ライブジャーニーのリストに対する![AI アシスタントの応答](./assets/ai-assistant-artifacts-query.png){width="420"}
 
-AI アシスタントでテーブル全体を表示するには、_最大化_ （![&#x200B; 最大化アイコン &#x200B;](../assets/do-not-localize/icon-maximize.svg)） アイコンをクリックします。 展開されたテーブル表示で、「**[!UICONTROL CSV をダウンロード]**」をクリックして、情報を CSV ファイルとして保存します。
+AI アシスタントでテーブル全体を表示するには、_最大化_ （![最大化アイコン ](../assets/do-not-localize/icon-maximize.svg)）アイコンをクリックします。 拡張されたテーブルビューで、**[!UICONTROL CSVをダウンロード]**&#x200B;をクリックして、情報をCSV ファイルとして保存します。
 
-![&#x200B; ライブジャーニーのリストに対する AI アシスタントの応答 &#x200B;](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
+ライブジャーニーのリストに対する![AI アシスタントの応答](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 
-## 応答の検証
+## 応答を確認
 
-AI アシスタントには、応答を検証および検証するために使用できるツールが含まれています。
+AI アシスタントには、回答の検証や検証に使用できるツールが含まれています。
 
-### 製品ナレッジソース
+### 製品知識のソース
 
-製品に関する質問への回答を受け取ったら、「**[!UICONTROL ソースを表示]**」を選択して、AI アシスタントの回答の生成に使用される製品ナレッジソースの引用を表示します。
+製品の質問に対する回答を受け取ったら、**[!UICONTROL ソースを表示]**&#x200B;を選択して、AI アシスタントの回答の生成に使用された製品ナレッジソースの引用を表示します。
 
-AI アシスタントには、初期応答を裏付けるドキュメントへのリンクが用意されています。 また、応答に脚注を追加して、リンクされたドキュメントソースを参照する回答の特定の部分を示します。
+AI アシスタントは、最初の応答を裏付けるドキュメントへのリンクを提供します。 また、応答に脚注を追加して、リンクされたドキュメントソースを参照する回答の特定の部分を示します。
 
-![AI アシスタントのクエリの結果 &#x200B;](./assets/ai-assistant-product-answer-sources.png){width="420"}
+![AI アシスタント クエリの結果](./assets/ai-assistant-product-answer-sources.png){width="420"}
 
-### オペレーショナルインサイトソース
+### 運用上のインサイトのソース
 
-オペレーショナルインサイトに関する質問への回答を受け取ったら、「**[!UICONTROL ソースを表示]**」をクリックし、「**[!UICONTROL ソースクエリを表示]**」を選択します。
+運用上のインサイトに関する質問の応答を受け取ったら、**[!UICONTROL ソースを表示]**&#x200B;をクリックし、**[!UICONTROL ソースクエリを表示]**&#x200B;を選択します。
 
-AI Assistant が提供する SQL クエリを使用して、運用インサイトの質問に関連する各応答を検証できます。 運用上のインサイトに関する質問で問い合わせられた場合、AI アシスタントは SQL クエリを提供し、回答の計算に要したプロセスを検証するために使用できます。 このソースクエリは検証目的でのみ使用され、クエリサービスではサポートされていません。
+AI アシスタントが提供するSQL クエリを使用して、運用上のインサイトに関する質問に関連する各応答を検証できます。 運用上のインサイトに関する質問でクエリを実行すると、AI アシスタントは、回答の計算に要したプロセスの検証に使用できるSQL クエリを提供します。 このソースクエリは検証目的でのみ使用され、クエリサービスではサポートされていません。
 
-![AI アシスタントのクエリの結果 &#x200B;](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
+![AI アシスタント クエリの結果](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
 ## フィードバックの提供
 
-応答の有用性と品質を評価するには、_サムアップ_ （![&#x200B; サムアップ &#x200B;](../assets/do-not-localize/icon-thumb-up.svg)）アイコンまたは _サムダウン_ （![&#x200B; サムダウン &#x200B;](../assets/do-not-localize/icon-thumb-down.svg)）アイコンを使用します。 経験に応じて簡単な調査フォームに入力し、「**[!UICONTROL 送信]**」をクリックします。 入力した情報は、AI アシスタントの改善に使用されます。
+_親指を上げる_ （![親指を上げる](../assets/do-not-localize/icon-thumb-up.svg)）または&#x200B;_親指を下げる_ （![親指を下げる](../assets/do-not-localize/icon-thumb-down.svg)）アイコンを使用して、応答の有用性と品質を評価します。 ご自身の経験に合わせて簡単なアンケートフォームに記入し、**[!UICONTROL 送信]**&#x200B;をクリックしてください。 提供された情報は、AI アシスタントの改善に使用されます。
 
-応答内に問題のあることに気付いた場合は、「_フラグ_」（![&#x200B; フラグアイコン &#x200B;](../assets/do-not-localize/icon-flag.svg)）アイコンをクリックします。 フォームを使用して問題を説明し、「**[!UICONTROL 送信]**」をクリックして問題を報告します。
+応答に問題があることに気付いた場合は、_フラグ_ （![ フラグアイコン ](../assets/do-not-localize/icon-flag.svg)）アイコンをクリックします。 フォームを使用して問題を説明し、**[!UICONTROL 送信]**&#x200B;をクリックして問題を報告します。
 
-![AI アシスタントの応答 – フィードバックアイコン &#x200B;](./assets/ai-assistant-response-feedback-icons.png){width="420"}
+![AI アシスタントの応答 – フィードバックアイコン ](./assets/ai-assistant-response-feedback-icons.png){width="420"}
 
 +++フォームの表示
 
 >[!BEGINTABS]
 
->[!TAB  親指を上げる ]
+>[!TAB  サムアップ ]
 
-![AI アシスタントの回答 – ポジティブフィードバックフォームを確認します &#x200B;](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
+![AI アシスタントの応答 – 肯定的なフィードバックフォームを親指で示す](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
 
->[!TAB  親指を下へ ]
+>[!TAB 親指を下げる]
 
-![AI アシスタントの回答 – ネガティブフィードバックフォームの経験値が減少しました &#x200B;](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
+![AI アシスタントの応答 – マイナスフィードバックフォームがダウンしました](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
 
 >[!TAB フラグ]
 
-![AI アシスタントの応答 – フラグ問題フィードバックフォーム &#x200B;](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"}
+![AI アシスタントの応答 – 問題フィードバックフォームにフラグを付ける](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
 

@@ -1,79 +1,86 @@
 ---
 title: アセット
-description: メール、テンプレートおよびフラグメント用Journey Optimizer B2B editionおよびAEM Assetsの画像アセットの管理
+description: Journey Optimizer B2B editionとAEM Assetsから、電子メール、テンプレート、フラグメント用の画像アセットを管理できます。
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:17:01.501Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 60%
+source-wordcount: 867
+ht-degree: 61%
 
 ---
 
 # アセット
 
-[!DNL Adobe Journey Optimizer B2B Edition] では、アセットは通常、アカウントジャーニーをサポートするコンテンツを設計する際に使用される画像です。これらの画像をメール、メールテンプレートおよびフラグメント内でアセットセレクターから、またはビジュアルデザインスペース内のシンプルなドラッグ&amp;ドロップインターフェイスから使用できます。
+[!DNL Adobe Journey Optimizer B2B Edition] では、アセットは通常、アカウントジャーニーをサポートするコンテンツを設計する際に使用される画像です。 これらの画像は、メール、メールテンプレート、アセットセレクターのフラグメント、またはビジュアルデザイン空間でのシンプルなドラッグ&amp;ドロップインターフェイスで使用できます。
 
-[!DNL Journey Optimizer B2B Edition] を使用すると、デザイナーやマーケターは内部 [!DNL Journey Optimizer B2B Edition] アセットリポジトリーと [!DNL Adobe Experience Manager Assets as a Cloud Service] の 2 種類のアセットライブラリにアクセスできます。 組み込みリポジトリのみを使用するか、両方のライブラリタイプを同時に（所有している [!DNL Experience Manager Assets] ライセンスに基づいて）使用できます。
+[!DNL Journey Optimizer B2B Edition]では、デザイナーとマーケターは、内部[!DNL Journey Optimizer B2B Edition] アセットリポジトリと[!DNL Adobe Experience Manager Assets as a Cloud Service]の2種類のアセットライブラリにアクセスできます。 組み込みリポジトリのみを使用するか、両方のライブラリタイプを同時に使用できます（使用している[!DNL Experience Manager Assets] ライセンスに基づいて）。
 
 ## アセット管理
 
-[!DNL Adobe Experience Manager as a Cloud Services] のプロビジョニングを行い、[!DNL Journey Optimizer B2B Edition] でアセットソースとして設定されている場合、のユーザーアカウントに必要な権限があれば、両方のリポジトリタイプにアクセスできます。 これらのリポジトリは個別に存在し、同期していません。どちらのソースからも画像を使用できます。
+[!DNL Adobe Experience Manager as a Cloud Services]でプロビジョニングされ、[!DNL Journey Optimizer B2B Edition]でアセットソースとして設定されている場合、ユーザーアカウントに必要な権限がある場合、両方のリポジトリタイプにアクセスできます。 これらのリポジトリは個別に存在し、同期していません。 どちらのソースからも画像を使用できます。
 
 ### 内部アセット
 
-内部 Assets リポジトリは、[!DNL Journey Optimizer B2B Edition] サブスクリプションごとにデフォルトで提供されます。 つまり、connected [!DNL Adobe Marketo Engage] アセットファイルシステムに保存されている任意の画像アセットにアクセスできます。 このリポジトリは、アセットのアップロードやダウンロード機能を含むローカルアセットライブラリとして使用できます。また、これらのアセットをジャーニーコンテンツ内で使用することもできます。
+内部アセットリポジトリは、デフォルトで[!DNL Journey Optimizer B2B Edition] サブスクリプションごとに提供されます。 つまり、接続された[!DNL Adobe Marketo Engage] アセット ファイル システムに保存されているいずれかの画像アセットにアクセスできます。 このリポジトリは、アセットのアップロードやダウンロード機能を含むローカルアセットライブラリとして使用できます。 また、これらのアセットをジャーニーコンテンツ内で使用することもできます。
 
-[Adobe Expressを使用してこれらのアセットを編集 &#x200B;](./image-edit-adobe-express.md) し、それらをフォルダーに移動して、メール、テンプレート、フラグメントで使用できるように整理できます。
+Adobe Express](./image-edit-adobe-express.md)を使用してこれらのアセットを[編集し、フォルダーに移動して、電子メール、テンプレート、フラグメントで使用できるようにアセットを整理できます。
 
 サポートされているファイル形式：JPG、JPEG、GIF、PNG、EPS、SVG、RGB
 
 ### Adobe Experience Manager Assets as a Cloud Service
 
-[!DNL Adobe Experience Manager Assets] を使用してマーケティングワークフローとクリエイティブワークフローを統合します。[!DNL Journey Optimizer B2B Edition] とネイティブに統合されているので、Assets as a Cloud Service に簡単にアクセスして、デジタルアセットを検出および使用できます。メッセージの入力に使用できるアセットの Assets リポジトリへのアクセスを提供します。
+[!DNL Adobe Experience Manager Assets] を使用してマーケティングワークフローとクリエイティブワークフローを統合します。 [!DNL Journey Optimizer B2B Edition] とネイティブに統合されているので、Assets as a Cloud Service に簡単にアクセスして、デジタルアセットを検出および使用できます。 メッセージの入力に使用できるアセットの Assets リポジトリへのアクセスを提供します。
 
-[!DNL Adobe Journey Optimizer B2B Edition] は、[!DNL Adobe Experience Manager Assets as a Cloud Service] に接続して、クリエイティブシステムを拡張し、エクスペリエンス配信にデジタルアセットを統合する一元的なアセット管理を行うことができます。[!DNL Adobe Experience Manager Assets as a Cloud Service] は、効率的なデジタルアセット管理と Dynamic Media 操作の使いやすいクラウドソリューションを提供します。人工知能や機械学習などの高度な機能がシームレスに組み込まれています。
+[!DNL Adobe Journey Optimizer B2B Edition] は、[!DNL Adobe Experience Manager Assets as a Cloud Service] に接続して、クリエイティブシステムを拡張し、エクスペリエンス配信にデジタルアセットを統合する一元的なアセット管理を行うことができます。 [!DNL Adobe Experience Manager Assets as a Cloud Service] は、効率的なデジタルアセット管理と Dynamic Media 操作の使いやすいクラウドソリューションを提供します。 人工知能や機械学習などの高度な機能がシームレスに組み込まれています。
 
 詳しくは、[Adobe Experience Manager Assets as a Cloud Service ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}を参照してください。
 
 {{aem-assets-licensing-note}}
 
-コンテンツデザインの左側のナビゲーションにある **[!UICONTROL Experience Manager Assets]** 項目から、[!DNL Journey Optimizer B2B Edition] 内で [!DNL Adobe Experience Manager Assets] に直接アクセスします。また、メール、メールテンプレート、ビジュアルフラグメントコンテンツを設計する際に、アセットとフォルダーにアクセスすることもできます。
+コンテンツデザインの左側のナビゲーションにある **[!UICONTROL Experience Manager Assets]** 項目から、[!DNL Journey Optimizer B2B Edition] 内で [!DNL Adobe Experience Manager Assets] に直接アクセスします。 また、メール、メールテンプレート、ビジュアルフラグメントコンテンツを設計する際に、アセットとフォルダーにアクセスすることもできます。
 
 現在、Adobe Journey Optimizer B2B Edition では、Adobe Experience Manager Assets の画像のみを使用できます。
 
 ## コンテンツオーサリングへのアセットの使用
 
-メール、メールテンプレート、ビジュアルフラグメントを作成する際にアセットを使用します。ビジュアルコンテンツエディターを使用すると、接続されたアセットリポジトリ内の画像にアクセスできます。Experience Manager Assets as a Cloud Serviceのサブスクリプションもある場合は、どちらのソースからも画像アセットを選択できます。 また、画像アセットをアップロードして、内部のアセットリポジトリに配置することもできます。
+メール、メールテンプレート、ビジュアルフラグメントを作成する際にアセットを使用します。 ビジュアルコンテンツエディターを使用すると、接続されたアセットリポジトリ内の画像にアクセスできます。 Experience Manager Assets as a Cloud Serviceのサブスクリプションをお持ちの場合は、いずれかのソースから画像アセットを選択できます。 画像アセットをアップロードして、内部アセットリポジトリに配置することもできます。
 
 画像コンポーネントの設定を編集する際や、キャンバス上で直接、画像ソースを選択できます。
 
-* **_画像コンポーネントの設定_** - キャンバスで画像コンポーネントを選択すると、右側のパネルで設定を表示して編集できます。 コンポーネントに表示される画像ファイルを追加または変更するには、ソースタイプを選択し、画像ファイルを選択します。
+* **_画像コンポーネント設定_** - キャンバスで画像コンポーネントを選択している場合、右側のパネルで設定を表示および編集できます。 コンポーネントに表示される画像ファイルを追加または変更するには、ソースタイプを選択し、画像ファイルを選択します。
 
   ![右側のパネルで画像コンポーネントの設定を編集](./assets/content-assets-image-settings.png){width="350"}
 
-* **_空のコンポーネント_** – 画像コンポーネントをキャンバスに追加すると、コンポーネントは空になり、ソースを選択して画像ファイルを選択するために簡単にアクセスできます。
+* **_空のコンポーネント_** - キャンバスに画像コンポーネントを追加すると、そのコンポーネントは空になり、ソースを選択して画像ファイルを選択するための簡単なアクセスが提供されます。
 
   ![ソースを選択して、空の画像コンポーネントの画像ファイルを選択](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_画像コンポーネントツールバー_** - キャンバスで画像コンポーネントを選択すると、ツールバーを使用してソースを簡単に選択し、画像ファイルを選択できます。
+* **_画像コンポーネントツールバー_** - キャンバスで画像コンポーネントを選択している場合、ツールバーから簡単にソースを選択して画像ファイルを選択できます。
 
   ![ツールバーを使用し、ソースを選択して、画像コンポーネントの画像ファイルを選択](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-画像アセットのソースに応じて、コンテンツを作成する際に画像アセットを追加できます。また、構造コンポーネントの背景設定で画像アセットを選択することもできます。
+画像アセットのソースに応じて、コンテンツを作成する際に画像アセットを追加できます。 また、構造コンポーネントの背景設定で画像アセットを選択することもできます。
 
 >[!BEGINTABS]
 
->[!TAB  アセットの選択 ]
+>[!TAB  アセットを選択]
 
-**[!UICONTROL アセットを選択]** をクリックしてアセットセレクターを開き、Journey Optimizer B2B edition アセットリポジトリから画像を選択できます。
+「**[!UICONTROL アセットを選択]**」をクリックしてアセットセレクターを開き、Journey Optimizer B2B edition アセットリポジトリから画像を選択できます。
 
-![&#x200B; 画像アセットの選択 &#x200B;](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
+![画像アセットを選択](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
 
-検索とフィルターを使用して、目的の画像アセットを見つけることができます。アセットを選択し、「**[!UICONTROL 選択]**」をクリックして、画像コンポーネントに使用します。
+検索とフィルターを使用して、目的の画像アセットを見つけることができます。 アセットを選択し、「**[!UICONTROL 選択]**」をクリックして、画像コンポーネントに使用します。
 
-内部画像アセットの使用について詳しくは、[&#x200B; コンテンツでアセットを使用 &#x200B;](./internal-image-assets.md#use-assets-in-your-content) を参照してください。
+内部画像アセットの使用について詳しくは、[ コンテンツでアセットを使用する](./internal-image-assets.md#use-assets-in-your-content)を参照してください。
 
 >[!TAB Experience Manager Assets]
 
@@ -81,7 +88,7 @@ ht-degree: 60%
 
 ![AEM Assets リポジトリから画像アセットを選択](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
 
-検索とフィルターを使用して、目的の画像アセットを見つけることができます。アセットを選択し、「**[!UICONTROL 選択]**」をクリックして、画像コンポーネントに使用します。
+検索とフィルターを使用して、目的の画像アセットを見つけることができます。 アセットを選択し、「**[!UICONTROL 選択]**」をクリックして、画像コンポーネントに使用します。
 
 [!DNL Experience Manager Assets] の画像ファイルの使用について詳しくは、[AEM Assets 画像へのアクセス](./aem-assets.md#access-aem-assets-images)を参照してください。
 
@@ -91,6 +98,6 @@ ht-degree: 60%
 
 ![アセットとして読み込む独自の画像ファイルを選択](./assets/content-assets-image-import-file-selected.png){width="450" zoomable="yes"}
 
-ファイルをドラッグ＆ドロップするか、ファイルシステムから選択したら、「**[!UICONTROL 読み込み]**」をクリックします。読み込まれたアセットは、[!DNL Journey Optimizer B2B Edition] アセットリポジトリ内に保存されます。
+ファイルをドラッグ＆ドロップするか、ファイルシステムから選択したら、「**[!UICONTROL 読み込み]**」をクリックします。 読み込まれたアセットは、[!DNL Journey Optimizer B2B Edition] アセットリポジトリ内に保存されます。
 
 >[!ENDTABS]

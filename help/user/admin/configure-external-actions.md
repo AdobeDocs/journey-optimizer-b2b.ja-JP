@@ -3,9 +3,15 @@ title: 外部アクションの設定
 description: 開発者、管理者、およびマーケターが連携して、アカウントジャーニーでJourney Optimizer B2B editionと外部サービスを接続する外部アクションを実装、設定、使用する方法について説明します。
 feature: Setup, Integrations
 role: Admin, Developer
-source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
+exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: 907
 ht-degree: 1%
 
 ---
@@ -31,15 +37,15 @@ ht-degree: 1%
 | ---- | ---- | ---- |
 | 1 | 開発者 | [外部サービスを実装して公開](#implement-service) |
 | 2 | 管理者 | [Journey Optimizer B2B editionでアクションを設定](#configure-action) |
-| 3 | マーケター | [&#x200B; アカウントジャーニーに外部ノードを追加](#add-journey-node) |
+| 3 | マーケター | [ アカウントジャーニーに外部ノードを追加](#add-journey-node) |
 
 ## 外部サービスの実装 {#implement-service}
 
-開発者は、[Adobe Journey Optimizer B2B editionの外部アクションサービスプロバイダーインターフェイス &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)に準拠した公開Web サービスを作成して公開する必要があります。
+開発者は、[Adobe Journey Optimizer B2B editionの外部アクションサービスプロバイダーインターフェイス ](https://developer.adobe.com/journey-optimizer-b2b-apis/)に準拠した公開Web サービスを作成して公開する必要があります。
 
 >[!NOTE]
 >
->コールバック関数にはベアラートークンが必要です。 これを取得するには、IMS組織用にAdobe Developer Console[&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)でOAuth サーバー間の資格情報を設定します。
+>コールバック関数にはベアラートークンが必要です。 これを取得するには、IMS組織用にAdobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)で[OAuth サーバー間の資格情報を設定します。
 
 サービスが公開されたら、OpenAPI仕様のURLと認証情報を、アクションの設定を担当する製品管理者に提供します。
 
@@ -57,13 +63,13 @@ ht-degree: 1%
 
 1. 中間パネルで「**[!UICONTROL 外部アクション]**」をクリックします。
 
-   ![外部アクション設定スペースにアクセス &#x200B;](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
+   ![外部アクション設定スペースにアクセス ](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
 1. 右上の「**[!UICONTROL アクションを作成]**」をクリックします。
 
 1. 外部サービスのOpenAPI仕様のURLを入力し、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
-   ![&#x200B; サービス URLを入力](./assets/configuration-external-actions-create-url.png){width="500"}
+   ![ サービス URLを入力](./assets/configuration-external-actions-create-url.png){width="500"}
 
    >[!NOTE]
    >
@@ -99,8 +105,8 @@ ht-degree: 1%
 
    * **[!UICONTROL アクションの種類]** （_静的_） – サポートされているジャーニーノードの種類：
 
-      * [!UICONTROL 外部アクション &#x200B;] （`enableSplitPath` = false）
-      * [!UICONTROL 外部アクション分割パス &#x200B;] （`enableSplitPath` = true）
+      * [!UICONTROL 外部アクション ] （`enableSplitPath` = false）
+      * [!UICONTROL 外部アクション分割パス ] （`enableSplitPath` = true）
 
      アクション設定の作成後にアクションタイプを変更することはできません。
 
@@ -108,17 +114,17 @@ ht-degree: 1%
 
    * **[!UICONTROL ジャーニーコンテキスト]** （_静的_） – リクエストで送信されたオーディエンスデータの範囲（`supportedEntityType`）:
 
-      * [!UICONTROL &#x200B; アカウント &#x200B;] - アカウントのみを送信
+      * [!UICONTROL  アカウント ] - アカウントのみを送信
 
       * [!UICONTROL 人物] – 人物のみを送信
 
-      * [!UICONTROL &#x200B; アカウントのユーザー] - アカウントおよびアカウント関連のユーザーを送信します
+      * [!UICONTROL  アカウントのユーザー] - アカウントおよびアカウント関連のユーザーを送信します
 
-   * **[!UICONTROL 送信フィールド]** - テーブル内の各フィールドを[XDM フィールド &#x200B;](../admin/xdm-field-management.md)にマッピングします。 これらのフィールドは、リクエスト本文で外部サービスに送信されます。 サービス定義プロパティ：`invocationPayloadDef.accountFields`、`invocationPayloadDef.fields`。
+   * **[!UICONTROL 送信フィールド]** - テーブル内の各フィールドを[XDM フィールド ](../admin/xdm-field-management.md)にマッピングします。 これらのフィールドは、リクエスト本文で外部サービスに送信されます。 サービス定義プロパティ：`invocationPayloadDef.accountFields`、`invocationPayloadDef.fields`。
 
-   ![外部アクション送信フィールドのマッピング &#x200B;](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+   ![外部アクション送信フィールドのマッピング ](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 受信フィールド]** - テーブル内の各フィールドを[更新可能なXDM フィールド &#x200B;](../admin/xdm-field-management.md#updatable-fields)にマッピングします。 これらのフィールドは、外部サービス応答から入力されます。 サービス定義プロパティ：`callbackPayloadDef.accountFields`、`callbackPayloadDef.fields`。 作成後に更新可能。
+   * **[!UICONTROL 受信フィールド]** - テーブル内の各フィールドを[更新可能なXDM フィールド ](../admin/xdm-field-management.md#updatable-fields)にマッピングします。 これらのフィールドは、外部サービス応答から入力されます。 サービス定義プロパティ：`callbackPayloadDef.accountFields`、`callbackPayloadDef.fields`。 作成後に更新可能。
 
    * **[!UICONTROL ヘッダーパラメーター]** - リクエストでHTTP ヘッダーとして渡す各行の値を入力します。 サービス定義プロパティ：`invocationPayloadDef.headers`。
 
@@ -134,4 +140,4 @@ ht-degree: 1%
 
 ## ジャーニーへの外部ノードの追加 {#add-journey-node}
 
-アクションがアクティブ化されると、マーケターは&#x200B;_[!UICONTROL 外部アクション]_&#x200B;または&#x200B;_[!UICONTROL 外部分割パス]_ ノードを任意のアカウントジャーニーに追加できます。 アカウントジャーニーキャンバスでこれらのノードを追加および使用する方法について詳しくは、[外部ノード &#x200B;](../journeys/external-nodes.md)を参照してください。
+アクションがアクティブ化されると、マーケターは&#x200B;_[!UICONTROL 外部アクション]_&#x200B;または&#x200B;_[!UICONTROL 外部分割パス]_ ノードを任意のアカウントジャーニーに追加できます。 アカウントジャーニーキャンバスでこれらのノードを追加および使用する方法について詳しくは、[外部ノード ](../journeys/external-nodes.md)を参照してください。

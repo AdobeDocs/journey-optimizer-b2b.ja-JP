@@ -4,9 +4,16 @@ description: コンテンツ編集でAEM Assetsの画像にアクセスして利
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: d09181b5-a36a-43de-ba01-36641440bc43
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:38:14.175Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: 592
 ht-degree: 2%
 
 ---
@@ -23,17 +30,17 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->管理者は、Assetsにアクセスする必要があるユーザーを、Assets コンシューマーユーザーまたはAssets ユーザーの製品プロファイルに追加する必要があります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>管理者は、Assetsにアクセスする必要があるユーザーを、Assets コンシューマーユーザーまたはAssets ユーザーの製品プロファイルに追加する必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assetsの画像へのアクセス
 
-コンテンツデザイン領域で、左側のサイドバーにある&#x200B;_[!UICONTROL Experience Manager Assets]_ （![Experience Manager Assets アイコン &#x200B;](../../assets/do-not-localize/icon-assets-aem.svg)）アイコンをクリックします。 これにより、ツールパネルが、選択したリポジトリ内の使用可能なアセットのリストに変更されます。
+コンテンツデザイン領域で、左側のサイドバーにある&#x200B;_[!UICONTROL Experience Manager Assets]_ （![Experience Manager Assets アイコン ](../../assets/do-not-localize/icon-assets-aem.svg)）アイコンをクリックします。 これにより、ツールパネルが、選択したリポジトリ内の使用可能なアセットのリストに変更されます。
 
 ![Assets セレクターアイコンをクリックして、画像アセットにアクセスします](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->現在、[!DNL Adobe Experience Manager Assets]の画像アセットのみが[!DNL Adobe Journey Optimizer B2B Edition]でサポートされています。 アセットの変更は、[!DNL Adobe Experience Manager Assets]中央リポジトリから行う必要があります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>現在、[!DNL Adobe Experience Manager Assets]の画像アセットのみが[!DNL Adobe Journey Optimizer B2B Edition]でサポートされています。 アセットの変更は、[!DNL Adobe Experience Manager Assets]中央リポジトリから行う必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### 表示されたリポジトリを変更する
 
@@ -49,7 +56,7 @@ ht-degree: 2%
 
 1. 画像のサムネールをドラッグし、新しい画像コンポーネントを追加する場所にキャンバスにドロップします。
 
-   ![画像アセットをドラッグ&amp;ドロップ &#x200B;](./assets/content-drag-drop-image-aem-assets.png){width="700" zoomable="yes"}
+   ![画像アセットをドラッグ&amp;ドロップ ](./assets/content-drag-drop-image-aem-assets.png){width="700" zoomable="yes"}
 
 ## 画像の検索と選択
 
@@ -75,7 +82,7 @@ ht-degree: 2%
 
    * 検索フィールドにテキストを入力して、アセット名に一致するアセットの表示アイテムをフィルタリングします。
 
-   ![&#x200B; フィルターと検索フィールドを使用してアセットを検索](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
+   ![ フィルターと検索フィールドを使用してアセットを検索](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 選択]**」をクリックします。
 <!--

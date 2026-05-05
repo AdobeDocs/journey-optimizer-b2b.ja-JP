@@ -1,14 +1,20 @@
 ---
-title: AI アシスタントのアクセスを有効にする
-description: 権限 UI を使用して、ユーザーに AI アシスタントの権限を付与し、Journey Optimizer B2B editionでのアクセスを有効にします。
+title: AI アシスタントへのアクセスを有効にする
+description: 権限UIを通じてユーザーにAI アシスタント権限を付与し、Journey Optimizer B2B editionでのアクセスを有効にします。
 feature: AI Assistant
 role: Admin
 level: Beginner
 exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
-source-git-commit: ce6c6b26865f1e5b02b95f3700d79234fbf9f500
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 3%
+source-wordcount: 341
+ht-degree: 6%
 
 ---
 
@@ -16,37 +22,37 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->AI アシスタントへのアクセス権を取得するには、まず追加の法的条項に同意する必要があることを知らせるメッセージが権限 UI に表示された場合は、Adobe アカウントチームに連絡してガイダンスを求めてください。
+>権限UIで、AI アシスタントへのアクセスを取得するための追加の法的条件に最初に同意する必要があることを通知するメッセージが表示された場合は、Adobe アカウントチームに連絡してガイダンスを入手してください。
 
-次のパラメーターは、Journey Optimizer B2B editionの AI アシスタントへのアクセスを制御します。
+次のパラメーターは、Journey Optimizer B2B editionのAI アシスタントへのアクセスを管理します。
 
-* **アプリケーションにアクセス：** Adobe Journey Optimizer B2B editionで AI アシスタントにアクセスできます。
+* **アプリケーションにアクセス：** Adobe Journey Optimizer B2B editionのAI アシスタントにアクセスできます。
 
-* **権限：** [&#x200B; 権限 UI](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を使用して、組織の AI アシスタントへのアクセスを許可または取り消します。 AI アシスタントを使用するには、特定のユーザーが _[!UICONTROL AI アシスタントを有効にする]_ および _[!UICONTROL 操作インサイトを表示]_ 権限で設定された役割に属している必要があります。
+* **権限：** [権限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}を使用して、組織内のAI アシスタントへのアクセス権を付与または取り消します。 AI アシスタントを使用するには、特定のユーザーが&#x200B;_[!UICONTROL AI アシスタントを有効にする]_&#x200B;および&#x200B;_[!UICONTROL 操作インサイトを表示]_&#x200B;権限で設定された役割に属している必要があります。
 
-管理者は、次の操作を実行できます。
+管理者は、次のことができます。
 
-* 特定の役割に **[!UICONTROL AI アシスタントを有効にする]** 権限を追加し、その役割にユーザーを追加します。 この権限により、組織内のユーザーが AI アシスタントにアクセスできるようになります。
+* 特定の役割に&#x200B;**[!UICONTROL AI アシスタントを有効にする]**&#x200B;権限を追加し、その役割にユーザーを追加します。 この権限は、組織内のユーザーにAI アシスタントへのアクセス権を提供します。
 
-* **[!UICONTROL オペレーショナルインサイトの表示]** 権限を特定の役割に追加し、その役割にユーザーを追加します。 この権限を持つユーザーは、AI アシスタントの操作インサイト機能を使用できます。
+* 特定の役割に&#x200B;**[!UICONTROL 運用上のインサイトの表示]**&#x200B;権限を追加し、その役割にユーザーを追加します。 この権限により、ユーザーはAI アシスタントの運用インサイト機能を使用できます。
 
-![AI アシスタントの権限の割り当て &#x200B;](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
+![AI アシスタント権限の割り当て](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-権限 UI を使用して、Journey Optimizer B2B editionで AI アシスタントを使用する権限を付与します。 Experience Platformおよびその他のExperience Cloud アプリケーションでの AI アシスタントへのアクセスについて詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access){target="_blank"} を参照してください。
+権限UIを使用して、Journey Optimizer B2B editionでAI アシスタントを使用する権限を付与します。 Experience Platformおよびその他のExperience Cloud アプリケーションでのAI アシスタントへのアクセスについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}を参照してください。
 
-必要な権限を持っているユーザーは、使用しているアプリケーションの上部ヘッダーにある _AI アシスタント_ アイコンを選択して、AI アシスタントにアクセスできます。
+ユーザーが必要な権限を持っている場合は、使用しているアプリケーションの上部ヘッダーにある「_AI Assistant_」アイコンを選択して、AI Assistantにアクセスできます。
 
-![&#x200B; アプリケーションヘッダーの AI アシスタント アイコン &#x200B;](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}
+![ アプリケーションヘッダーのAI アシスタントアイコン ](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}
 
 ## AI アシスタントのアクセスの概要ビデオ
 
-組織とユーザーに AI アシスタントへのアクセスを設定する方法については、次のビデオをご覧ください。
+組織とユーザーに対してAI アシスタントへのアクセスを設定する方法については、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475920/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
 
 ## 次の手順
 
-ユーザーが AI アシスタントにアクセスできるようになると、ワークフロー中にこの機能を使用できます。 次のドキュメントを参照してください。
+ユーザーがAI アシスタントにアクセスできるようになると、ワークフロー中にこの機能を使用できるようになります。 次のドキュメントを参照してください。
 
 * [質問ガイダンス](./question-guidance.md)
 * [AI アシスタントを使用](./use-ai-assistant.md)
