@@ -45,8 +45,8 @@ ht-degree: 2%
 
 ユーザーを[!DNL In-CRM Insights]のみに制限する場合：
 
-1. [&#x200B; カスタム役割](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)を作成し、**セールスインサイト：セールスインサイトの表示**&#x200B;権限を割り当てます。
-1. 新しい[&#x200B; ユーザーグループ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)を作成します。
+1. [&#x200B; カスタム役割](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)を作成し、**セールスインサイト：セールスインサイトの表示**&#x200B;権限を割り当てます。
+1. 新しい[&#x200B; ユーザーグループ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)を作成します。
 1. グループにExperience Platform製品プロファイルを追加します。
 
 ### パッケージのインストール
@@ -85,4 +85,4 @@ In-CRM Insights パッケージをインストールするには、Salesforceま
 
 画面の指示に従って、Adobe アカウントにログインします。 購買グループが読み込まれ、表示できます。
 
-購買グループを選択した後、[&#x200B; グループの詳細](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)を参照できます。 これは、Journey Optimizer B2B editionに表示されるデータとインサイトと同じですが、データは[!DNL In-CRM Insights]を通じて読み取り専用です。
+購買グループを選択した後、[&#x200B; グループの詳細](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)を参照できます。 これは、Journey Optimizer B2B editionに表示されるデータとインサイトと同じですが、データは[!DNL In-CRM Insights]を通じて読み取り専用です。

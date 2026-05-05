@@ -105,7 +105,7 @@ JOURNEY OPTIMIZER B2B editionのAI アシスタントは、プライバシー、
 
 * AI アシスタントを利用するには、明示的な許可が必要です。
 
-   * 管理者は、[権限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}と[Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}を使用して権限を設定できます。
+   * 管理者は、[権限UI](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}と[Admin Console](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/browse){target="_blank"}を使用して権限を設定できます。
 
    * 権限は詳細で、サンドボックス管理者は、様々な質問カテゴリ（AI アシスタントによる製品知識ベースの質問や運用上のインサイトに関する質問）に対して質問できるユーザーを設定できます。
 

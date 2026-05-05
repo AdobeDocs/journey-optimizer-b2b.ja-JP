@@ -35,7 +35,7 @@ ht-degree: 6%
 
 * **アプリケーションにアクセス：** Adobe Journey Optimizer B2B editionのAI アシスタントにアクセスできます。
 
-* **権限：** [権限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}を使用して、組織内のAI アシスタントへのアクセス権を付与または取り消します。 AI アシスタントを使用するには、特定のユーザーが&#x200B;_[!UICONTROL AI アシスタントを有効にする]_&#x200B;および&#x200B;_[!UICONTROL 操作インサイトを表示]_&#x200B;権限で設定された役割に属している必要があります。
+* **権限：** [権限UI](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}を使用して、組織内のAI アシスタントへのアクセス権を付与または取り消します。 AI アシスタントを使用するには、特定のユーザーが&#x200B;_[!UICONTROL AI アシスタントを有効にする]_&#x200B;および&#x200B;_[!UICONTROL 操作インサイトを表示]_&#x200B;権限で設定された役割に属している必要があります。
 
 管理者は、次のことができます。
 
@@ -45,7 +45,7 @@ ht-degree: 6%
 
 ![AI アシスタント権限の割り当て](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-権限UIを使用して、Journey Optimizer B2B editionでAI アシスタントを使用する権限を付与します。 Experience Platformおよびその他のExperience Cloud アプリケーションでのAI アシスタントへのアクセスについて詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}を参照してください。
+権限UIを使用して、Journey Optimizer B2B editionでAI アシスタントを使用する権限を付与します。 Experience Platformおよびその他のExperience Cloud アプリケーションでのAI アシスタントへのアクセスについて詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access){target="_blank"}を参照してください。
 
 ユーザーが必要な権限を持っている場合は、使用しているアプリケーションの上部ヘッダーにある「_AI Assistant_」アイコンを選択して、AI Assistantにアクセスできます。
 
