@@ -5,12 +5,20 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: '2026-03-30T22:15:18.544Z'
 source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
@@ -21,9 +29,9 @@ ht-degree: 1%
 
 # フォームのデザイン
 
-[ フォームを作成](./forms.md#create-forms)すると、ビジュアルデザインスペースでドラフトが開き、デフォルトの基本フォーム定義が表示されます。 右側の&#x200B;_[!UICONTROL 概要]_ パネルで、**[!UICONTROL フォームを編集]**&#x200B;をクリックし、ビジュアルデザインスペースを使用して、フォームのスタイルとフィールドコンポーネントを定義します。
+[&#x200B; フォームを作成](./forms.md#create-forms)すると、ビジュアルデザインスペースでドラフトが開き、デフォルトの基本フォーム定義が表示されます。 右側の&#x200B;_[!UICONTROL 概要]_ パネルで、**[!UICONTROL フォームを編集]**&#x200B;をクリックし、ビジュアルデザインスペースを使用して、フォームのスタイルとフィールドコンポーネントを定義します。
 
-![ フォームライブラリにアクセス ](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+![&#x200B; フォームライブラリにアクセス &#x200B;](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
 ## フィールド
 
@@ -39,15 +47,15 @@ ht-degree: 1%
 
 1. 左側の&#x200B;_[!UICONTROL コンポーネント]_ パネルで、**[!UICONTROL フィールド]** コンテンツコンポーネントをドラッグして、キャンバスにドロップします。
 
-   ![ フォームにフィールドコンポーネントを追加](./assets/form-content-add-field.png){width="700" zoomable="yes"}
+   ![&#x200B; フォームにフィールドコンポーネントを追加](./assets/form-content-add-field.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL フィールド属性を選択]**&#x200B;をクリックします。
 
 1. _[!UICONTROL フィールド属性を選択]_ ダイアログで、フィールドに使用する人物プロファイル属性のチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-   [XDM ビジネススキーマ ](../admin/field-mapping.md#xdm-business-person-attributes)は、使用可能な属性を決定します。  Journey Optimizer B2B edition インスタンスに定義されているすべてのカスタムフィールドも使用できます。 検索テキストボックスを使用してリストを名前でフィルタリングするか、フィルターアイコンをクリックしてスキーマ/データタイプでリストをフィルタリングします。
+   [XDM ビジネススキーマ &#x200B;](../admin/field-mapping.md#xdm-business-person-attributes)は、使用可能な属性を決定します。  Journey Optimizer B2B edition インスタンスに定義されているすべてのカスタムフィールドも使用できます。 検索テキストボックスを使用してリストを名前でフィルタリングするか、フィルターアイコンをクリックしてスキーマ/データタイプでリストをフィルタリングします。
 
-   ![ フォームにフィールドコンポーネントを追加](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+   ![&#x200B; フォームにフィールドコンポーネントを追加](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
 
    キャンバスでは、選択した属性のデフォルトのフィールドラベルがキャンバスに入力されます。 右側のパネルに&#x200B;**[!UICONTROL フィールドの詳細]**&#x200B;が表示されます。
 
@@ -100,7 +108,7 @@ ht-degree: 1%
 
    * **入力マスクを有効にする** – 入力マスクを使用して訪問者からの入力を制限するには、チェックボックスを選択します。 例えば、訪問者に特定の形式の電話番号を入力してもらうとします。 ダイアログで、任意の数字に`9`、任意の文字に`a`、どちらか一方に`*`を使用してマスクを入力します。 「保存」をクリックして、指定した入力マスクを有効にします。
 
-     ![ フィールドの入力マスクを定義](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}
+     ![&#x200B; フィールドの入力マスクを定義](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}
 
 ### フィールドのスタイル設定を変更 {#field-styling}
 
@@ -108,15 +116,15 @@ ht-degree: 1%
 
 * **[!UICONTROL 背景]** - フィールドに背景色を適用するには、チェックボックスを選択します。 白はデフォルトの色です。 **[!UICONTROL 背景色]**&#x200B;正方形をクリックしてポップアップカラーピッカーを開き、フィールドの背景色を選択します。
 
-  ![ フォームフィールドの背景スタイルを設定](./assets/form-field-styles-background-color.png){width="600" zoomable="yes"}
+  ![&#x200B; フォームフィールドの背景スタイルを設定](./assets/form-field-styles-background-color.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL ラベル]** - ラベルのスタイル設定により、フィールドの横に表示されるテキストの視覚的特性が制御されます。 フィールドに関連する上部またはサイドラベルの表示を選択します。 フォントサイズ、行の高さ、テキストスタイル、テキストの整列を設定できます。 **[!UICONTROL フォントカラー]**&#x200B;正方形をクリックしてポップアップカラーピッカーを開き、ラベルテキストのカラーを選択します。
 
-  ![ フォームフィールドのラベルスタイルを設定](./assets/form-field-styles-label.png){width="600" zoomable="yes"}
+  ![&#x200B; フォームフィールドのラベルスタイルを設定](./assets/form-field-styles-label.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL 境界線]** - **[!UICONTROL 境界線カラー]**&#x200B;正方形をクリックしてポップアップカラーピッカーを開き、境界線の色を選択します。 フィールドの境界線（色と線幅を含む）を定義できます。 表示されているフィールドの境界線を削除するには、チェックボックスをオフにします。 角の境界線のサイズ（ピクセル幅）、スタイル、および半径の設定を変更することもできます。
 
-  ![ フォームフィールドの境界線スタイルを設定](./assets/form-field-styles-border.png){width="600" zoomable="yes"}
+  ![&#x200B; フォームフィールドの境界線スタイルを設定](./assets/form-field-styles-border.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL サイズ]** - サイズ設定を選択して、フィールドの表示幅を決定します。 _[!UICONTROL 全幅]_、_[!UICONTROL 半幅]_、または&#x200B;_[!UICONTROL 自動]_&#x200B;を選択します。
 
@@ -124,7 +132,7 @@ ht-degree: 1%
 
 * **[!UICONTROL パディング]** - フィールドの周囲にパディング（ピクセル単位）を設定します。 4つの辺すべてで同じ余白を設定するか、「**[!UICONTROL 各辺に異なる余白]**」チェックボックスを選択して、水平余白と垂直余白を別々に設定できます。
 
-  ![ フォームフィールドのサイズ、余白、パディングスタイルを設定](./assets/form-field-styles-size-margin-padding.png){width="600" zoomable="yes"}
+  ![&#x200B; フォームフィールドのサイズ、余白、パディングスタイルを設定](./assets/form-field-styles-size-margin-padding.png){width="600" zoomable="yes"}
 
 ### フィールドを並べ替え {#field-reorder}
 
@@ -132,15 +140,15 @@ ht-degree: 1%
 
 構造コンポーネントをフォームに追加し、フィールドを列に移動してグループ化し、レイアウトを変更します。 選択した列コンポーネントの左端にある&#x200B;_移動_ ツールをクリックし、フォーム内の新しい場所にドラッグします。
 
-![ フォーム内のフィールドを移動し、グループ化とレイアウトに構造コンポーネントを使用](./assets/form-field-move-tool.png){width="500"}
+![&#x200B; フォーム内のフィールドを移動し、グループ化とレイアウトに構造コンポーネントを使用](./assets/form-field-move-tool.png){width="500"}
 
 ### フィールドの削除または複製 {#field-delete-duplicate}
 
-ツールバーまたは右側のパネルの&#x200B;_削除_ アイコン（![削除アイコン ](../assets/do-not-localize/icon-delete.svg)）をクリックして、選択したフィールドを削除します。 確認ダイアログで、「**[!UICONTROL 削除]**」をクリックします。
+ツールバーまたは右側のパネルの&#x200B;_削除_ アイコン（![削除アイコン &#x200B;](../assets/do-not-localize/icon-delete.svg)）をクリックして、選択したフィールドを削除します。 確認ダイアログで、「**[!UICONTROL 削除]**」をクリックします。
 
-ツールバーまたは右側のパネルの&#x200B;_重複_ アイコン（![重複アイコン ](../assets/do-not-localize/icon-duplicate.svg)）をクリックして、選択したフィールドを複製します。 新しいフィールドは、元のフィールドのすぐ下に表示されます。 「**[!UICONTROL フィールド属性を選択]**」をクリックして、フィールドの属性を設定します。 必要に応じて、フィールドタイプ、詳細、スタイルを設定します。
+ツールバーまたは右側のパネルの&#x200B;_重複_ アイコン（![重複アイコン &#x200B;](../assets/do-not-localize/icon-duplicate.svg)）をクリックして、選択したフィールドを複製します。 新しいフィールドは、元のフィールドのすぐ下に表示されます。 「**[!UICONTROL フィールド属性を選択]**」をクリックして、フィールドの属性を設定します。 必要に応じて、フィールドタイプ、詳細、スタイルを設定します。
 
-![ フォームフィールドのアイコンを削除して複製](./assets/form-field-delete-duplicate.png){width="600" zoomable="yes"}
+![&#x200B; フォームフィールドのアイコンを削除して複製](./assets/form-field-delete-duplicate.png){width="600" zoomable="yes"}
 
 ## 「送信」ボタン
 
@@ -150,7 +158,7 @@ ht-degree: 1%
 
 右側のパネルに「_[!UICONTROL コンテンツ]_」タブが表示されたら、「**[!UICONTROL ボタンのテキスト]**」フィールドのテキストを変更します。 ボタンのサイズは、テキストの長さに合わせて調整されます。
 
-![ フォーム内のボタンのテキストを変更](./assets//form-field-button-text.png){width="600" zoomable="yes"}
+![&#x200B; フォーム内のボタンのテキストを変更](./assets//form-field-button-text.png){width="600" zoomable="yes"}
 
 ### 送信ボタンのスタイル設定 {#button-styles}
 
@@ -158,7 +166,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 背景]** - ボタンの背景色を適用するには、チェックボックスを選択します。 青はデフォルトの色です。 **[!UICONTROL 背景色]**&#x200B;正方形をクリックしてポップアップカラーピッカーを開き、ボタンの背景色を選択します。
 
-  ![ フォームボタンの背景スタイルを設定](./assets/form-button-styles-background-color.png){width="600" zoomable="yes"}
+  ![&#x200B; フォームボタンの背景スタイルを設定](./assets/form-button-styles-background-color.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL ラベル]** - ラベルのスタイル設定により、ボタン内のテキストの視覚的特徴が制御されます。 フォントサイズ、行の高さ、テキストスタイル、テキストの整列を設定できます。 **[!UICONTROL フォントカラー]**&#x200B;正方形をクリックしてポップアップカラーピッカーを開き、ラベルテキストのカラーを選択します。
 
@@ -166,7 +174,7 @@ ht-degree: 1%
 
 * **[!UICONTROL サイズ]** - ボタンの表示幅を決定するサイズ設定を選択します。 _[!UICONTROL 全幅]_、_[!UICONTROL 半幅]_、または&#x200B;_[!UICONTROL 自動]_&#x200B;を選択します。 パディングは、サイズと整列の設定に従って調整されます。
 
-  ![ フォームボタンのラベル、境界線、サイズのスタイルを設定](./assets/form-button-styles-label-border-size.png){width="600" zoomable="yes"}
+  ![&#x200B; フォームボタンのラベル、境界線、サイズのスタイルを設定](./assets/form-button-styles-label-border-size.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL ボタンの整列]** - ボタンの&#x200B;_半幅_&#x200B;または&#x200B;_自動_ サイズを選択すると、整列は左、右、または中央に設定されます。 パディングは、サイズと整列の設定に従って調整されます。
 
@@ -174,13 +182,13 @@ ht-degree: 1%
 
 * **[!UICONTROL パディング]** - フィールドの周囲にパディング（ピクセル単位）を設定します。 4つの辺すべてで同じ余白を設定するか、「**[!UICONTROL 各辺に異なる余白]**」チェックボックスを選択して、水平余白と垂直余白を別々に設定できます。 サイズと整列の設定を変更すると、パディングが調整されます。
 
-  ![ フォームボタンの整列、余白、パディングスタイルを設定](./assets/form-button-styles-alignment-margin-padding.png){width="600" zoomable="yes"}
+  ![&#x200B; フォームボタンの整列、余白、パディングスタイルを設定](./assets/form-button-styles-alignment-margin-padding.png){width="600" zoomable="yes"}
 
 ## フォームのスタイル {#form-styling}
 
 構造コンポーネントまたはフォームコンポーネントの外側をクリックすると、フォーム領域のスタイルを変更できます。 フォームコンポーネント（フィールドとボタン）は、フィールドまたはボタン/フッターレベルで他のスタイルが定義されていない限り、トップレベルのスタイルを定義した&#x200B;_本文_&#x200B;のスタイルを継承します。
 
-![ フォーム本文のトップレベルのスタイルを設定](./assets/form-body-styles.png){width="600" zoomable="yes"}
+![&#x200B; フォーム本文のトップレベルのスタイルを設定](./assets/form-body-styles.png){width="600" zoomable="yes"}
 
 ### CSS スタイル
 
@@ -190,7 +198,7 @@ _フォームのカスタム CSSを定義するには&#x200B;:_
 
 1. 右側のパネルの「**[!UICONTROL CSSを表示]**」をクリックして、CSS コードを確認します。
 
-   ![ フォームの背景色を設定](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
+   ![&#x200B; フォームの背景色を設定](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
 
 1. スクロールウィンドウでCSS コードを選択し、クリップボードにコピーします。
 
@@ -202,7 +210,7 @@ _フォームのカスタム CSSを定義するには&#x200B;:_
 
 1. ウィンドウにCSS コードを貼り付けます。
 
-   ![ フォームの背景色を設定](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
+   ![&#x200B; フォームの背景色を設定](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
 
    このウィンドウでペーストしたテキストを編集できます。
 
@@ -216,7 +224,7 @@ _フォームのカスタム CSSを定義するには&#x200B;:_
 
 * **[!UICONTROL ビューポートの背景]** - チェックボックスを選択して、すべてのフォームコンポーネントに背景色を適用します。 デフォルトはカラーなし（外部背景から継承）。 カラー正方形をクリックしてポップアップカラーピッカーを開き、フォーム構造コンポーネントのカラーを選択します。
 
-  ![ フォームの背景色を設定](./assets/form-body-styles-background-colors.png){width="600" zoomable="yes"}
+  ![&#x200B; フォームの背景色を設定](./assets/form-body-styles-background-colors.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL テキスト]** - フォームフィールドのラベル、ヒント、プレースホルダーテキストに影響するフォームの&#x200B;**[!UICONTROL フォントファミリー]**&#x200B;を選択します。 デフォルトの送信ボタンのテキストにも影響します。
 
@@ -224,4 +232,4 @@ _フォームのカスタム CSSを定義するには&#x200B;:_
 
 * **[!UICONTROL 余白]** - フォームコンポーネントの周囲の余白（ピクセル単位）を設定します。 4つの側面すべてで同じマージンを設定するか、「**[!UICONTROL 各側面に異なるマージン]**」チェックボックスを選択して、水平方向と垂直方向のマージンを別々に設定できます。
 
-  ![ フォームのテキスト、サイズ、余白を設定](./assets/form-body-styles-text-size-margin.png){width="600" zoomable="yes"}
+  ![&#x200B; フォームのテキスト、サイズ、余白を設定](./assets/form-body-styles-text-size-margin.png){width="600" zoomable="yes"}

@@ -5,11 +5,18 @@ feature: Setup, Channels
 role: Admin
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: '2026-03-27T23:15:46.632Z'
 source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
@@ -20,7 +27,7 @@ ht-degree: 6%
 
 # web チャネル設定
 
-Web設定は、コンテンツが配信されるURLによって識別されるweb プロパティです。 1つのページ URLまたは複数のページを一致させることで、web エクスペリエンスが1つまたは複数のweb ページに変更を適用できるようにします。 これらの設定は、マーケターがジャーニー](../content/web-experiences.md#create-a-web-experience)に[web パーソナライゼーションアクションノードを追加し、キャンペーンの[ エクスペリエンスの変更](../content/web-experience-design.md)をデザインするために必要です。
+Web設定は、コンテンツが配信されるURLによって識別されるweb プロパティです。 1つのページ URLまたは複数のページを一致させることで、web エクスペリエンスが1つまたは複数のweb ページに変更を適用できるようにします。 これらの設定は、マーケターがジャーニー[&#128279;](../content/web-experiences.md#create-a-web-experience)にweb パーソナライゼーションアクションノードを追加し、キャンペーンの[&#x200B; エクスペリエンスの変更](../content/web-experience-design.md)をデザインするために必要です。
 
 >[!BEGINSHADEBOX]
 
@@ -41,7 +48,7 @@ Journey Optimizer B2B editionのweb チャネル設定には、次の[権限](..
 
 1. ナビゲーションパネルの&#x200B;_[!UICONTROL Web]_&#x200B;で、**[!UICONTROL チャネル設定]**&#x200B;を選択します。
 
-   ![Web チャネル設定にアクセス ](./assets/config-web-channels.png){width="800" zoomable="yes"}
+   ![Web チャネル設定にアクセス &#x200B;](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
 1. 右上の「**[!UICONTROL チャネル設定を作成]**」をクリックします。
 
@@ -57,7 +64,7 @@ Journey Optimizer B2B editionのweb チャネル設定には、次の[権限](..
 
      ![単一ページ web チャネル設定のページ URLの選択](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL ページ一致ルール]** – 同じルールに一致する複数のURLをターゲットにするには、[ ページ一致ルール ](#build-a-pages-matching-rule)を作成し、**[!UICONTROL デフォルトのオーサリングおよびプレビューURL]**&#x200B;を入力します。
+   * **[!UICONTROL ページ一致ルール]** – 同じルールに一致する複数のURLをターゲットにするには、[&#x200B; ページ一致ルール &#x200B;](#build-a-pages-matching-rule)を作成し、**[!UICONTROL デフォルトのオーサリングおよびプレビューURL]**&#x200B;を入力します。
 
 1. 「**[!UICONTROL 送信]**」をクリックして変更を保存します。
 
@@ -67,13 +74,13 @@ Web チャネルがジャーニーで使用されるとすぐに、_アクティ
 
 ## ルールに一致するページ {#pages-matching-rule}
 
-Web設定を作成する際に、ルール ]_に一致する_[!UICONTROL  ページを作成して、同じルールに一致する複数のURLをターゲットにすることができます。 これらのルールにより、複数のページに同じコンテンツ変更を適用できます。
+Web設定を作成する際に、ルール _に一致する_ ページを作成して、同じルールに一致する複数のURLをターゲットにすることができます。 これらのルールにより、複数のページに同じコンテンツ変更を適用できます。
 
 例えば、web サイト全体でヒーローバナーに変更を適用したり、すべての製品ページに表示されるトップ画像を追加したりすることができます。
 
 ### ルールの作成
 
-1. Web チャネル設定](#create-a-web-channel-configuration)を[作成する場合は、**[!UICONTROL 一致するルール]**&#x200B;のページを選択します。
+1. Web チャネル設定[&#128279;](#create-a-web-channel-configuration)を作成する場合は、**[!UICONTROL 一致するルール]**&#x200B;のページを選択します。
 
 1. 各セクションの異なる演算子を使用して、**[!UICONTROL ドメイン]**&#x200B;および&#x200B;**[!UICONTROL ページ]** フィールドの条件を定義し、ルールを構築します。
 
@@ -86,7 +93,7 @@ Web設定を作成する際に、ルール ]_に一致する_[!UICONTROL  ペー
    | [!UICONTROL 次と等しい] | ドメインの完全一致。 | |
    | [!UICONTROL が]で始まります | 入力した文字列で始まるすべてのドメイン（サブドメインを含む）と一致します。 | `Starts with: dev`は、`dev.example.com`、`dev.products.example.com`、`developer.example.com`など、`dev`で始まるすべてのドメインとサブドメインに一致します |
    | [!UICONTROL が]で終了 | 入力された文字列で終わるすべてのドメイン（サブドメインを含む）と一致します。 | `Ends with: example.com`は、`stage.example.com`、`prod.example.com`、`myexample.com`など、`example.com`で終わるすべてのドメインとサブドメインに一致します |
-   | [!UICONTROL 一致するワイルドカード ] | 文字列の中央にワイルドカード一致（`dev.*.example.com`など）を定義できます。 検証ルールでは、演算子が&#x200B;_ワイルドカードに一致する_&#x200B;場合、値に1つだけのワイルドカード（アスタリスク）が含まれている必要があります。 | `Wildcard matching: dev.*.example.com`は、`dev.products.example.com`、`dev.mytest.products.example.com`、`dev.blog.example.com`などのドメインに一致します |
+   | [!UICONTROL 一致するワイルドカード &#x200B;] | 文字列の中央にワイルドカード一致（`dev.*.example.com`など）を定義できます。 検証ルールでは、演算子が&#x200B;_ワイルドカードに一致する_&#x200B;場合、値に1つだけのワイルドカード（アスタリスク）が含まれている必要があります。 | `Wildcard matching: dev.*.example.com`は、`dev.products.example.com`、`dev.mytest.products.example.com`、`dev.blog.example.com`などのドメインに一致します |
    | [!UICONTROL Any] | すべてのドメインに一致します。 ドメイン間で特定のパスをテストする場合に便利です。 | |
 
    +++
@@ -101,7 +108,7 @@ Web設定を作成する際に、ルール ]_に一致する_[!UICONTROL  ペー
    | [!UICONTROL が]で始まります | 文字列で始まるすべてのパス（サブパスを含む）と一致します。 | |
    | [!UICONTROL が]で終了 | 文字列で終わるすべてのパス（サブパスを含む）と一致します。 | |
    | [!UICONTROL Any] | すべてのパスに一致します。 これは、1つまたは複数のドメインのすべてのパスをターゲットにする場合に便利です。 | |
-   | [!UICONTROL 一致するワイルドカード ] | パス内の内部ワイルドカード（`/products/*/detail`など）を定義できます。 パスコンポーネント内のワイルドカード文字`*`は、最初の`/`文字までの任意の文字シーケンスと一致します。  `/*/`は、任意の文字シーケンス（サブパスを含む）と一致します。 | `Wildcard matching: /products/*/detail`は、`example.com/products/yoga/detail`、`example.com/products/surf/detail`、`example.com/products/tennis/detail`、`example.com/products/yoga/pants/detail`などのパスに一致します |
+   | [!UICONTROL 一致するワイルドカード &#x200B;] | パス内の内部ワイルドカード（`/products/*/detail`など）を定義できます。 パスコンポーネント内のワイルドカード文字`*`は、最初の`/`文字までの任意の文字シーケンスと一致します。  `/*/`は、任意の文字シーケンス（サブパスを含む）と一致します。 | `Wildcard matching: /products/*/detail`は、`example.com/products/yoga/detail`、`example.com/products/surf/detail`、`example.com/products/tennis/detail`、`example.com/products/yoga/pants/detail`などのパスに一致します |
    | [!UICONTROL 次を含む] | 値は`*mystring*`などのワイルドカードに変換され、文字シーケンスを含むすべてのパスに一致します。 | `Contains: product`は、`example.com/products`、`example.com/yoga/perfproduct`、`example.com/surf/productdescription`、`example.com/home/product/page`など、文字列`product`を含むすべてのパスに一致します |
 
    +++
@@ -120,7 +127,7 @@ Web設定を作成する際に、ルール ]_に一致する_[!UICONTROL  ペー
 
      _[!UICONTROL 除外]_&#x200B;は、定義されたルールに一致するページの1つをターゲットにしない場合に便利です。 例えば、`lumasecure`を含むが、ブログページ（`bodea.com/blogs/lumasecure/latest-release`など）を除外するすべての`bodea.com` ページをターゲットにできます。
 
-   除外](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}のルールに一致する![ ページ
+   除外![&#128279;](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}のルールに一致する ページ
 
 1. **[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を入力します。
 

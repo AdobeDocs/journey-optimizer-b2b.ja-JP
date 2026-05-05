@@ -4,11 +4,17 @@ description: マーケター向けオンボーディングガイド - Journey Op
 role: User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: da3860b0-d637-47df-bef0-273751180266id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: '2026-03-30T23:05:00.531Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
@@ -21,7 +27,7 @@ ht-degree: 95%
 
 Adobe Journey Optimizer B2B Edition で取り扱う機能とツールは、チーム内での役割によって異なります。 組織に基づいて、管理者は複数のタイプのユーザーを定義し、ユーザーの権限に応じて特定の機能に対するアクセス権をユーザーに付与できます。
 
-管理者が [ 設定タスク ](../setup-ultimate.md) を完了したら、この情報を一般的なユーザーのオンボーディングに使用します。
+管理者が [&#x200B; 設定タスク &#x200B;](../setup-ultimate.md) を完了したら、この情報を一般的なユーザーのオンボーディングに使用します。
 
 >[!TIP]
 >

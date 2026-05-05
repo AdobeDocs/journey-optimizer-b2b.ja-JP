@@ -7,11 +7,17 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子メール、重複排除、ジャーニー、重複
 exl-id: 93107acd-1cb2-4316-acfc-e32ab1e065ae
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-03-30T22:08:16.582Z'
 source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
@@ -50,7 +56,7 @@ ht-degree: 1%
 
 1. ダイアログで、「**[!UICONTROL 電子メールの重複排除]**」チェックボックスを選択します。
 
-   ![切り替えが有効になっているメール重複排除ダイアログ ](./assets/email-deduplication-dialog.png){width="400"}
+   ![切り替えが有効になっているメール重複排除ダイアログ &#x200B;](./assets/email-deduplication-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
