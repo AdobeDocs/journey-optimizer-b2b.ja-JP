@@ -3,9 +3,23 @@ title: メール送信時間の最適化
 description: Adobe Journey Optimizerの送信時間最適化（STO）機能により、カスタマージャーニーにおける電子メール配信をパーソナライズできます。 STOを有効にしてエンゲージメントを向上させる方法について説明します。
 feature: Person Journeys, Channels
 role: User
-source-git-commit: 55cfcd3b4ee777ee8945ea9a1cd1429625ee61c3
+exl-id: a0423bdc-f2ad-450b-9dc6-b9f2f7a1ef8c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: 483
 ht-degree: 0%
 
 ---

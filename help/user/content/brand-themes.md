@@ -7,9 +7,23 @@ role: User
 level: Beginner, Intermediate
 keywords: メールのテーマ，ブランドの統一，メールのデザイン
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: a509712a-4df0-4095-9c79-78116d8e3311
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+autotag-review: '2026-03-30T21:49:24.359Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: 3107
 ht-degree: 3%
 
 ---

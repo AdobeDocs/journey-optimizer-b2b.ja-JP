@@ -7,9 +7,26 @@ level: Intermediate
 role: User
 badge: label="限定提供" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+autotag-review: '2026-03-30T22:24:40.416Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: 862
 ht-degree: 16%
 
 ---

@@ -3,9 +3,20 @@ title: WhatsApp オーサリング
 description: Journey Optimizer B2B editionの承認済みMetaテンプレート、パーソナライゼーショントークン、配信設定を使用して、アカウントジャーニー用のWhatsApp メッセージを作成できます。
 feature: Content, Channels, Account Journeys
 role: User
-source-git-commit: a9077a4fb5c90166433204d7a0a124f4f2e5ab92
+exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: 813
 ht-degree: 21%
 
 ---

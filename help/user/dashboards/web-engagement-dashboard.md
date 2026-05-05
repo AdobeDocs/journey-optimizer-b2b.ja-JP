@@ -5,9 +5,23 @@ feature: Dashboards, Landing Pages
 level: Beginner
 role: User
 exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
-source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+autotag-review: '2026-03-30T22:41:52.137Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: 526
 ht-degree: 15%
 
 ---

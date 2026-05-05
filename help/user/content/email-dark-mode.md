@@ -7,9 +7,23 @@ role: User
 level: Beginner, Intermediate
 keywords: ダークモード、メール、カラー、デザイン
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-source-git-commit: 781a1043d2da8fb8e2eb14936dea209bd2ff0f2e
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+autotag-review: '2026-03-30T22:06:55.168Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: 1606
 ht-degree: 20%
 
 ---

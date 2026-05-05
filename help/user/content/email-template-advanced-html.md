@@ -1,13 +1,24 @@
 ---
 title: 電子メールテンプレートデザイン用の高度なHTML モード
-description: 高度なHTML モードを使用すると、Journey Optimizer B2B Editionの電子メールデザインスペースで電子メールテンプレートコンテンツの生のHTML ソースを直接表示および編集できます。
+description: 高度なHTML モードを使用すると、Journey Optimizer B2B editionの電子メールデザインスペースで、電子メールテンプレートコンテンツの生のHTML ソースを直接表示および編集できます。
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: 583
 ht-degree: 0%
 
 ---

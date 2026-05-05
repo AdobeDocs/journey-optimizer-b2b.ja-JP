@@ -4,9 +4,22 @@ description: Sinch、Twilio、InfobipなどのSMS プロバイダーにAPI資格
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2:
+  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
+autotag-review: '2026-03-27T22:56:54.661Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: 747
 ht-degree: 5%
 
 ---
