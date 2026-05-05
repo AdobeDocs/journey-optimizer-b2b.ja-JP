@@ -196,4 +196,4 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
 ## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448650/?captions=jpn&learn=on)

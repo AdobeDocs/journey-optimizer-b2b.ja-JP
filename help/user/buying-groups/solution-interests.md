@@ -115,4 +115,4 @@ _[!UICONTROL ソリューションの関心]_ タブの&#x200B;**[!UICONTROL 購
 
 ## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450114/?captions=jpn&learn=on)

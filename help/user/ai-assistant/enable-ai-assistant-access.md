@@ -55,7 +55,7 @@ ht-degree: 6%
 
 組織とユーザーに対してAI アシスタントへのアクセスを設定する方法については、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475920/?captions=jpn&learn=on)
 
 ## 次の手順
 
