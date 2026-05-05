@@ -1,8 +1,10 @@
 ---
 title: ユーザーのアクセスと権限
-description: Experience Cloud Admin Consoleを使用したユーザーアクセスの管理 – ユーザーグループの作成、製品プロファイルの割り当ておよびJourney Optimizer B2B editionの役割ベースの権限の設定を行います。
+description: Adobe Admin Consoleでユーザーアクセスを管理する：Journey Optimizer B2B editionでユーザーグループを作成し、製品プロファイルを割り当て、ロールベースの権限を設定します。
 feature: Setup, Permissions
 roles: Admin
+level: Beginner
+solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -13,10 +15,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: '2026-03-27T22:47:43.575Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 167c521b2fe4cef706825266b3127c11178bb334
 workflow-type: tm+mt
-source-wordcount: 2178
-ht-degree: 90%
+source-wordcount: 2267
+ht-degree: 83%
 
 ---
 
@@ -95,7 +97,7 @@ Marketo Engage内のこれらの権限の管理について詳しくは、Market
 
 >[!TIP]
 >
->既存のJourney Optimizer B2B edition ユーザーをMarketo Engageに追加する場合は、ユーザーグループの作成手順をスキップし、既存のユーザーグループを開いてMarketo Engage製品プロファイルを追加するだけです。
+>既存のJourney Optimizer B2B edition ユーザーをMarketo Engageに追加する場合は、ユーザーグループの作成をスキップし、Marketo Engage製品プロファイルを既存のユーザーグループに追加できます。
 
 ユーザーグループを使用して権限を管理する方法について詳しくは、Admin Console ドキュメントの [&#x200B; ユーザーグループの管理 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target="_blank"} を参照してください。
 
@@ -110,21 +112,6 @@ Marketo Engage内のこれらの権限の管理について詳しくは、Market
 1. 右上で **[!UICONTROL 新規ユーザーグループ]** をクリックします。
 
 1. _B2B ユーザー_ のようにユーザーグループの名前を入力し、「**[!UICONTROL 保存]**」をクリックします。
-
-1. 作成したユーザーグループをクリックします。
-
-1. 「**[!UICONTROL 割り当てられた製品プロファイル]**」タブを選択し、「**[!UICONTROL プロファイルを割り当て]**」をクリックします。
-
-1. 「**+**」をクリックして、次の製品の各インスタンスを追加します。
-
-   * [!UICONTROL Marketo Engage]
-   * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Adobe Experience Platform Data Collection - Default Data Collection All Access]
-   * [!UICONTROL Adobe Experience Platform - デフォルトの実稼動環境のすべてのアクセス &#x200B;]
-
-   ![Admin Console - ユーザーグループ – 商品を追加 &#x200B;](./assets/admin-console-user-group-add-products.png){width="550" zoomable="yes"}
-
-1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## 新しいグループにユーザーを追加 {#add-users}
 
@@ -150,9 +137,32 @@ Marketo Engage内のこれらの権限の管理について詳しくは、Market
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
+## 製品プロファイルの割り当て {#assign-profile}
+
+>[!IMPORTANT]
+>
+>ユーザーグループを設定する場合は、製品プロファイルをグループに割り当てる前に、必ずグループにユーザーを追加してください。 製品プロファイルを空のユーザーグループに割り当て、その後ユーザーを追加しても、アクセス権が正しく反映されません。 権限を確実に適用するには、まずユーザーグループにメンバーを入力してから、製品プロファイルを割り当てます。
+
+![管理者の役割の要件](../../assets/do-not-localize/icon-admin-user.svg){width="30"}製品管理者は、次の手順を実行できます。
+
+1. ユーザーを追加したユーザーグループをクリックします。
+
+1. 「**[!UICONTROL 割り当てられた製品プロファイル]**」タブを選択し、「**[!UICONTROL プロファイルを割り当て]**」をクリックします。
+
+1. 「**+**」をクリックして、次の製品の各インスタンスを追加します。
+
+   * [!UICONTROL Marketo Engage]
+   * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
+   * [!UICONTROL Adobe Experience Platform Data Collection - Default Data Collection All Access]
+   * [!UICONTROL Adobe Experience Platform - デフォルトの実稼動環境のすべてのアクセス &#x200B;]
+
+   ![Admin Console - ユーザーグループ – 商品を追加 &#x200B;](./assets/admin-console-user-group-add-products.png){width="550" zoomable="yes"}
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
 ## 製品権限の役割の編集 {#edit-roles-for-product-permissions}
 
-権限は、製品プロファイルに割り当てる許可を定義できる単一の権利です。 各権限は、Journey Optimizer B2B editionのさまざまな機能やオブジェクトに相当する、ジャーニーや購入グループなどの機能の下に収集されます。
+権限は、製品プロファイルに割り当てる許可を定義できる単一の権利です。 各権限は、Journey Optimizer B2B editionの機能を表す、ジャーニーや購買グループなどの機能の下にグループ化されます。
 
 Adobe Experience Platformの _権限_ 領域では、管理者は、ユーザーの役割とアクセスポリシーを定義して、製品アプリケーション内の機能とオブジェクトのアクセス権限を管理できます。 このアプリでは、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたサンドボックスとユーザーを管理することもできます。
 
@@ -173,7 +183,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 | B2B ジャーニー | B2B ジャーニーの権限を設定、管理、表示、公開します。 これらの権限には、アカウントと人物のアクション、イベントリスナー、分割パスが含まれます。 | <li>B2B アカウントジャーニーの管理 |
 | Journey Optimizer ルール | 頻度ルール（通信制限）へのアクセスと設定。 これらの権限は、製品管理者に限定する必要があります。 | <li>頻度ルールの表示 <li>頻度ルールの管理 |
 
-### B2B の組み込みの役割
+### B2B の組み込みの役割 {#b2b-built-in-roles}
 
 組織がJourney Optimizer B2B edition製品をプロビジョニングしている場合、Experience Platformには、製品の機能へのアクセスを管理するために使用できる、組み込みの（デフォルトの）一連の役割が含まれています。
 
@@ -184,7 +194,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 | B2B システム管理者 | <li>B2B チャネル設定の管理 <li>B2B 管理設定の管理 |
 | B2B セールスユーザー | <li>B2B エンゲージメントダッシュボードの表示 <li>B2B購買グループの表示 <li>CRM 内インサイトへのアクセス |
 
-### 役割の権限の編集
+### 役割の権限の編集 {#edit-role-permissions}
 
 組み込みの役割またはカスタムの役割の場合は、いつでも権限を追加または削除できます。 デフォルトまたはカスタムの役割を変更すると、その役割に割り当てられたすべてのユーザーに影響します。
 
@@ -220,17 +230,17 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
 1. 「B2B ジャーニー」リソースの _追加_ アイコン（**+**）をクリックします。
 
-   ![Experience Platform – 役割の編集 &#x200B;](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
+   ![Experience Platform - B2B ジャーニー リソースがChannel Manager ロールに追加されました](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL B2B ジャーニー]_ 権限カードで、「**[!UICONTROL B2B アカウントのジャーニーを管理]**」を選択します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![Experience Platform – 役割の編集 &#x200B;](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+   ![Experience Platform - Channel Manager ロールに対するB2B ジャーニー権限が保存されました](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 閉じる]**」をクリックして詳細ページに戻ります。
 
-### 役割にユーザーを追加
+### 役割にユーザーを追加 {#add-users-to-a-role}
 
 ![&#x200B; 管理者の役割の要件 &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
 
@@ -252,7 +262,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
 1. 追加するすべてのユーザーを選択したら、「**[!UICONTROL 保存]**」をクリックします。
 
-### 役割へのユーザーグループの追加
+### 役割へのユーザーグループの追加 {#add-user-groups-to-a-role}
 
 ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/jp/enterprise/using/users.html){target="_blank"}を参照してください。
 
@@ -276,7 +286,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
 1. 追加するすべてのグループを選択したら、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-## カスタムの役割の作成
+## カスタムの役割の作成 {#create-a-custom-role}
 
 ![&#x200B; 管理者の役割の要件 &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
 
@@ -318,8 +328,10 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
 1. **[!UICONTROL グループを追加]** をクリックします。
 
-   ![Experience Platform – 新しい役割のプロファイルを追加 &#x200B;](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform - カスタムロールのユーザーグループを選択](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
 1. Admin Consoleで以前に作成したユーザーグループの横にあるチェックボックスをオンにします。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
+カスタムロールが設定され、割り当てられたグループのユーザーは、選択したJourney Optimizer B2B edition機能にアクセスできるようになりました。
