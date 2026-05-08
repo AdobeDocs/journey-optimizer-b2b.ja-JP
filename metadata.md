@@ -5,7 +5,7 @@ product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/journey-optimizer-b2b.en
+git-repo: https://github.com/AdobeDocs/journey-optimizer-b2b.ja-JP
 feature-set: Journey Optimizer B2B Edition
 landing-page-name: journey-optimizer-b2b
 landing-page-breadcrumb-title: Journey Optimizer B2B
