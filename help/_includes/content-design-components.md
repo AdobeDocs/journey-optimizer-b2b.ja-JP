@@ -1,9 +1,9 @@
 ---
 title: コンテンツオーサリング – コンポーネント
 description: コンテンツオーサリングでのコンポーネントとコンテンツ要素の使用に関する節を再利用しました
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 6ff0d61295d46bfc0706e522ff870d99fc48e70d
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,10 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL コンテンツ]**」セクションを展開し、必要な数のコンテンツコンポーネントを1つ以上の構造コンポーネントに追加します。
 
-   ![&#x200B; コンテンツ要素をキャンバスにドラッグして、設定を調整します](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
-&lt;!--
-各要素の完全な参照がある場合のコンテンツ要素への参照。
+   ![ コンテンツ要素をキャンバスにドラッグして、設定を調整します](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
+   <!--
+   reference to the contents elements when we have a completed reference for each.
    -->
 
 1. 必要に応じて、_[!UICONTROL 設定]_&#x200B;または&#x200B;_[!UICONTROL スタイル]_ タブで、各コンポーネントに対して追加のカスタマイズを行うことができます。
