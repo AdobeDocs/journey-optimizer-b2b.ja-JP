@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL コンテンツ]**」セクションを展開し、必要な数のコンテンツコンポーネントを1つ以上の構造コンポーネントに追加します。
 
-   ![ コンテンツ要素をキャンバスにドラッグして、設定を調整します](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
+   ![&#x200B; コンテンツ要素をキャンバスにドラッグして、設定を調整します](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
    <!--
    reference to the contents elements when we have a completed reference for each.
