@@ -13,14 +13,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-autotag-review: '2026-03-30T21:45:20.382Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+autotag-review: 2026-03-30T21:45:20.382Z
+TQID: https://experienceleague.adobe.com/qHzxSCz9m5JzAbc6g0v2y5m4nXs7O2-TALzA-PjA3GE
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 281
 ht-degree: 4%
 
 ---
-
 
 # 購買グループの作成
 

@@ -4,13 +4,11 @@ description: Journey Optimizer B2B editionなら、ビジュアルデザイン�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-autotag-review: '2026-03-30T22:30:02.360Z'
+autotag-review: 2026-03-30T22:30:02.360Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -18,7 +16,8 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
+TQID: https://experienceleague.adobe.com/Z8Qz12J8H5p5QsGz5VI0TeKCvLkvbu9gjDE1xEB9VdQ
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 3%

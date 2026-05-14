@@ -7,13 +7,11 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-autotag-review: '2026-03-30T22:00:50.379Z'
+autotag-review: 2026-03-30T22:00:50.379Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
@@ -22,7 +20,8 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+TQID: https://experienceleague.adobe.com/79OalHOVUw0jEO-mFXa76-sQFE36zguoBwpmdg0TUB4
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 4930
 ht-degree: 48%
