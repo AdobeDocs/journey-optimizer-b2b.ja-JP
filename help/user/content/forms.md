@@ -9,16 +9,15 @@ product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-autotag-review: '2026-03-30T22:51:56.324Z'
-source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
+autotag-review: 2026-03-30T22:51:56.324Z
+TQID: https://experienceleague.adobe.com/ooUYR3UcoePXYZx3KYMN9jgSXPdkOjEDYZE6-0vDock
+source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
 workflow-type: tm+mt
 source-wordcount: 2374
 ht-degree: 1%
@@ -273,7 +272,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
    下書きバージョンのフォームコンテンツのプレビューが表示され、フォームの詳細が右側に表示されます。
 
-   ![&#x200B; ドラフトからバージョンを編集](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
+   ![&#x200B; フォームドラフトバージョンを編集](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
 1. 右側の&#x200B;_[!UICONTROL 概要]_ ペインで「**[!UICONTROL フォームを編集]**」をクリックし、必要に応じてビジュアルデザインツールを使用します。
 
