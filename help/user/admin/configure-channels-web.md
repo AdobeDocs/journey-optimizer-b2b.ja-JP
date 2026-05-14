@@ -32,7 +32,7 @@ Web設定は、コンテンツが配信されるURLによって識別されるwe
 
 **前提条件**
 
-Web チャネルを使用するには、訪問者の特定とコンテンツ配信のために[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されている必要があります。 Adobe Experience Platform Web SDKのバージョンが2.16以降であることを確認します。
+Web チャネルを使用するには、訪問者の特定とコンテンツ配信のために[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されている必要があります。 Adobe Experience Platform Web SDKのバージョンが2.16以降であることを確認します。
 
 Journey Optimizer B2B editionのweb チャネル設定には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
 
