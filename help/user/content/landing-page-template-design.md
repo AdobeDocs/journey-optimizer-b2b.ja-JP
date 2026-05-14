@@ -5,21 +5,14 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: '2026-03-30T22:22:17.743Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: 2026-03-30T22:22:17.743Z
+TQID: https://experienceleague.adobe.com/XlNcjTTWblzkxOISNEvzdI--xHz-sZiFUqsO3ferXTM
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 353
 ht-degree: 7%
@@ -28,7 +21,7 @@ ht-degree: 7%
 
 # ランディングページテンプレートのデザイン
 
-[&#x200B; ランディングページテンプレートを作成した後](./landing-page-templates.md#create-a-landing-page-template)、ビジュアルデザインスペースを使用して、ページテンプレート内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。
+[ ランディングページテンプレートを作成した後](./landing-page-templates.md#create-a-landing-page-template)、ビジュアルデザインスペースを使用して、ページテンプレート内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#structure-content-landing-page}
 
@@ -40,7 +33,7 @@ ht-degree: 7%
 
 キャンバス内に少なくとも1つのコンテンツコンポーネントがある場合は、左側のナビゲーションツリーで&#x200B;**[!UICONTROL Body]** コンポーネントを選択して、カスタム CSS エディターにアクセスします。
 
-![&#x200B; ボディスタイルにアクセス &#x200B;](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+![ ボディスタイルにアクセス ](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
 {{$include /help/_includes/content-design-custom-css.md}}
 
@@ -85,7 +78,7 @@ You can continue to make edits to the draft page template. When you are ready to
 
 ビジュアルデザインスペースの上部にある「_[!UICONTROL その他…]_」メニューから、次の操作を実行できます。
 
-![詳細をクリックしてテンプレートアクションにアクセス &#x200B;](./assets/landing-page-designer-more-menu.png){width="500"}
+![詳細をクリックしてテンプレートアクションにアクセス ](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL ランディングページをリセット]** – このオプションをクリックすると、ビジュアルデザインキャンバスが空白のスレートに消去され、ページコンテンツの作成が再開されます。
 * **[!UICONTROL デザインを変更]** - _[!UICONTROL メインのランディングページの作成]_&#x200B;のホームページに戻ります。 そこから、別のテンプレートを選択してデザインプロセスを再開するか、空白のキャンバスでページをゼロからデザインするかを選択できます。
