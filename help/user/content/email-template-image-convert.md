@@ -3,11 +3,16 @@ title: 画像をメールテンプレートに変換
 description: Journey Optimizer B2B editionを使用して、画像ファイルをHTMLのメールテンプレートに変換します。 PNG/JPEGファイルをアップロードすれば、再利用可能な電子メールコンテンツを自動的に生成できます。
 feature: Email Authoring, Content
 exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:06:11.745Z
 TQID: https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -27,7 +32,7 @@ ht-degree: 0%
 
 **ブランドテーマの使用**
 
-Journey Optimizer B2B editionで[ ブランドテーマ ](./brand-themes.md)が定義されている場合、生成された出力HTMLがブランドテーマのパラメーターに従ってスタイル設定されるように、ブランドテーマを入力として選択できます。 この入力では、生成されたテンプレートに背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイル設定が適用されます。  ブランドテーマを使用することで、スタイルやフォーマットのための追加のデザイン作業を排除し、最小限の編集ですぐに使用できるテンプレートを作成できます。
+Journey Optimizer B2B editionで[&#x200B; ブランドテーマ &#x200B;](./brand-themes.md)が定義されている場合、生成された出力HTMLがブランドテーマのパラメーターに従ってスタイル設定されるように、ブランドテーマを入力として選択できます。 この入力では、生成されたテンプレートに背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイル設定が適用されます。  ブランドテーマを使用することで、スタイルやフォーマットのための追加のデザイン作業を排除し、最小限の編集ですぐに使用できるテンプレートを作成できます。
 
 >[!ENDSHADEBOX]
 

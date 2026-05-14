@@ -4,11 +4,18 @@ description: メール配信プロトコルを設定 - Journey Optimizer B2B Edi
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -221,7 +228,7 @@ DMARC の整列には、次の 2 つのタイプがあります。
 
 **Journey Optimizer B2B editionへの専用IPの移行**
 
-専用 IP がある場合は、既存のJourney Optimizer インスタンスと同じリージョンに新しいMarketo Engage B2B edition インスタンスを作成する必要があります。 新しいインスタンスが別の地域にある場合、既存の IP を共有することはできません。 リージョンが一致する場合は、[Adobe サポート ](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support){target="_blank"} でチケットを開いて、既存の IP およびバインディンググループを新しいインスタンスで共有するようにリクエストします。 Marketo Engageのプレフィックス（Munchkin ID）と新しいJourney Optimizer B2B editionのプレフィックス（Munchkin ID）を指定します。
+専用 IP がある場合は、既存のJourney Optimizer インスタンスと同じリージョンに新しいMarketo Engage B2B edition インスタンスを作成する必要があります。 新しいインスタンスが別の地域にある場合、既存の IP を共有することはできません。 リージョンが一致する場合は、[Adobe サポート &#x200B;](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support){target="_blank"} でチケットを開いて、既存の IP およびバインディンググループを新しいインスタンスで共有するようにリクエストします。 Marketo Engageのプレフィックス（Munchkin ID）と新しいJourney Optimizer B2B editionのプレフィックス（Munchkin ID）を指定します。
 
 このリクエストを行うと、Adobeは、既存のMarketo Engage インスタンスと同じ IP、バインディンググループおよび設定済みの Return-Path ドメインをレプリケートします。 Marketo Engage インスタンスとJourney Optimizer B2B edition インスタンス間でIPが共有されている場合、それらのIPを同時に使用します。
 
