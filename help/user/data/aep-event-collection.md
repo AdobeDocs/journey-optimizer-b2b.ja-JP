@@ -19,14 +19,14 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 autotag-review: 2026-03-30T22:50:51.165Z
 TQID: https://experienceleague.adobe.com/uKN47g2pGEhEv9QV0bbUkI-utUt7DZ0OPnvvG-Y9uKk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8be440c86b32a582891f0f30cae259e23028d336
 workflow-type: tm+mt
 source-wordcount: 61
 ht-degree: 60%
 
 ---
 
-# イベント収集用のデータストリーム設定 {#aep-datstreams}
+# イベント収集用のデータストリーム設定 {#aep-datastreams}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_subdomain_datastream_id"
