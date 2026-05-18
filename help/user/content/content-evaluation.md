@@ -18,7 +18,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 755
-ht-degree: 9%
+ht-degree: 16%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="ブランド整合性スコア"
->abstract="ブランド調整スコアは、コンテンツがブランドガイドラインにどの程度適合しているかを測定し、色、フォント、ロゴ、イメージ、文体の一貫性を確保します。"
+>abstract="ブランド一致スコアは、コンテンツがブランドのガイドラインにどの程度準拠しているかを測定し、色、フォント、ロゴ、画像、文体の一貫性を確保します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"
@@ -104,12 +104,12 @@ ht-degree: 9%
 
 コンテンツに変更を加え、「**[!UICONTROL スコアを再評価]**」をクリックして別の評価を実行し、改善された結果を確認できます。
 
-## コンテンツ品質スコア {#quality-score}
+## コンテンツ品質のスコア {#quality-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_quality_score_overview"
->title="コンテンツの品質"
->abstract="一般的なコンテンツの品質を評価して、読みやすさ、コンテンツの包括性、有効性に関する潜在的な問題を特定します。 品質評価は、ブランドガイドラインに依存しません。"
+>title="コンテンツ品質"
+>abstract="一般的なコンテンツ品質を評価して、読みやすさ、コンテンツのまとまり、有効性に関する潜在的な問題を特定します。 品質評価は、ブランドガイドラインに依存しません。"
 
 >[!NOTE]
 >

@@ -19,7 +19,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 1491
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -61,7 +61,7 @@ WhatsApp メッセージを送信する前に、Journey Optimizer B2B edition環
 次のタスクを実行します。
 
 1. [WhatsApp API資格情報の作成](#create-whatsapp-api-credentials)
-1. [WhatsApp Webhookの追加](#configure-webhooks)
+1. [WhatsApp Webhook を追加](#configure-webhooks)
 1. [WhatsApp チャネル設定の作成](#create-channel-configuration)
 
 ### WhatsApp API 資格情報の作成
@@ -133,17 +133,17 @@ do we have advanced logs? How are they enabled?
 
 +++
 
-### WhatsApp Webhookの追加 {#configure-webhooks}
+### WhatsApp Webhook を追加 {#configure-webhooks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="インバウンドキーワードカテゴリ"
->abstract="<b>オプトイン</b>：ユーザーが登録すると、定義済みの自動応答が送信されます。 <br/><b>オプトアウト</b>：ユーザーが登録解除すると、定義済みの自動応答が送信されます。 <br/><b>ヘルプ</b>：ユーザーがヘルプまたはサポートをリクエストした際に、定義済みの自動応答が送信されます。 <br/><b>Default</b>: キーワードが一致しない場合にフォールバック自動応答を送信します。"
+>abstract="<b>オプトイン</b>：ユーザーが登録すると、定義済みの自動応答が送信されます。 <br/><b>オプトアウト</b>：ユーザーが登録解除すると、定義済みの自動応答が送信されます。 <br/><b>ヘルプ</b>：ユーザーがヘルプまたはサポートをリクエストした際に、定義済みの自動応答が送信されます。 <br/><b>デフォルト</b>：一致するキーワードがない場合に、フォールバック自動応答が送信されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
 >title="キーワードの入力"
->abstract="ユーザーがテキスト入力した内容に基づいて特定の自動応答をトリガーするキーワードを定義できます。 キーワードは大文字と小文字を区別しません（stopとSTOPは同じように扱われます）。"
+>abstract="ユーザーがテキスト入力した内容に基づいて特定の自動応答をトリガーするキーワードを定義できます。 キーワードでは、大文字と小文字は区別されません（stop と STOP は同じように処理されます）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-webhook-url"
