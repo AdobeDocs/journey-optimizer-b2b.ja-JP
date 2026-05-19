@@ -20,9 +20,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: 1522
 ht-degree: 13%
 
 ---
@@ -32,6 +32,11 @@ ht-degree: 13%
 管理者は、Experience Event結合スキーマ内で、特定の[AEP Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}とその関連フィールドを選択できます。 選択後、ユーザーはそれらのエクスペリエンスイベントをリッスンするように決定ルールを設定して、ほぼリアルタイムのイベントデータにもとづいて、動的かつターゲットを絞ったキャンペーンアクションを有効にできます。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
+
+>[!PREREQUISITES]
+>
+>Journey Optimizer B2B editionでExperience Eventsとフィールドを使用するには、プロファイル対応のExperience Event スキーマが必要です。 詳しくは、Experience Platform チュートリアルの「[&#x200B; リアルタイム顧客プロファイルを有効にする](https://experienceleague.adobe.com/ja/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}」を参照してください。
+
 ジャーニーでAEP エクスペリエンスイベントを使用するには、次の2 ステップのプロセスを実行します。
 
 1. 管理者[は、Journey Optimizer B2B edition設定にAEP エクスペリエンスイベントとフィールド &#x200B;](#add-an-event)を追加します。
