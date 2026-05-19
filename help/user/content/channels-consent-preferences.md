@@ -5,12 +5,21 @@ feature: Setup, Channels
 role: Admin, User
 autotag-review: '2026-05-19T16:18:37.228Z'
 TQID: 'https://experienceleague.adobe.com/-c0dJnpfiIcj0B5gViyEQ7E1Ws0BwP864OLF003rOjw'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
 source-wordcount: 413
@@ -20,13 +29,13 @@ ht-degree: 2%
 
 # チャネルメッセージにおける同意
 
-Adobe Journey Optimizer B2B editionは、Adobe Experience Platform XDM プロファイルに保存されている1人あたりの同意設定を読み取り、アプリの[ ガバナンス管理](../admin/governance.md)の一環として、メッセージ配信時に適用します。 チャネルをオプトアウトしたユーザーは、コンテンツがチャネルまたは下流のメッセージプロバイダーから送信される前に、配信から除外されます。
+Adobe Journey Optimizer B2B editionは、Adobe Experience Platform XDM プロファイルに保存されている1人あたりの同意設定を読み取り、アプリの[&#x200B; ガバナンス管理](../admin/governance.md)の一環として、メッセージ配信時に適用します。 チャネルをオプトアウトしたユーザーは、コンテンツがチャネルまたは下流のメッセージプロバイダーから送信される前に、配信から除外されます。
 
 次の節では、サポートされている各チャネルについて、Journey Optimizer B2B editionがメッセージ送信時の同意をどのように評価するかを説明します。
 
 ## メール {#email}
 
-Journey Optimizer B2B editionは、[ メールチャネル ](../admin/configure-channels-emails.md)でメッセージを送信する際に、メール同意に対して次のXDM属性を評価します。
+Journey Optimizer B2B editionは、[&#x200B; メールチャネル &#x200B;](../admin/configure-channels-emails.md)でメッセージを送信する際に、メール同意に対して次のXDM属性を評価します。
 
 | XDM 属性 | `y` | `n` | 値なし |
 | --- | --- | --- | --- |
@@ -39,7 +48,7 @@ Journey Optimizer B2B editionは、[ メールチャネル ](../admin/configure-
 
 ## SMS {#sms}
 
-Journey Optimizer B2B editionは、[SMS チャネル ](../admin/configure-channels-sms.md)を介してメッセージを送信する際に、SMS同意に対して次のXDM属性を評価します。
+Journey Optimizer B2B editionは、[SMS チャネル &#x200B;](../admin/configure-channels-sms.md)を介してメッセージを送信する際に、SMS同意に対して次のXDM属性を評価します。
 
 | XDM 属性 | `y` | `n` | 値なし |
 | --- | --- | --- | --- |
@@ -56,7 +65,7 @@ SMSの同意については、次の点に注意してください。
 
 ## WhatsApp {#whatsapp}
 
-Journey Optimizer B2B editionは、設定された[WhatsApp チャネル ](../admin/configure-channels-whatsapp.md)を通じてメッセージを送信する際に、WhatsApp同意に対して次のXDM属性を評価します。
+Journey Optimizer B2B editionは、設定された[WhatsApp チャネル &#x200B;](../admin/configure-channels-whatsapp.md)を通じてメッセージを送信する際に、WhatsApp同意に対して次のXDM属性を評価します。
 
 | XDM 属性 | `y` | `n` | 値なし |
 | --- | --- | --- | --- |
