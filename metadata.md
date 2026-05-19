@@ -1,7 +1,8 @@
 ---
 cloud: Experience Cloud
 solution: Journey Optimizer B2B Edition
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 usetq: true
 type: Documentation
 mini-toc-levels: 2
