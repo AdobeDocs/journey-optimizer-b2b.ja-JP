@@ -17,7 +17,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
 source-wordcount: 2037
 ht-degree: 3%
@@ -53,7 +53,7 @@ ht-degree: 3%
 >
 >2025.10 リリースでは、_[!UICONTROL Account Change Data Value]_ アクションは推奨されません。 _[!UICONTROL アカウントプロファイルを更新]_&#x200B;すると、Journey Optimizer B2B editionでこの操作が置き換えられます。<br/>
 >
->管理者は、_[!UICONTROL XDM クラス]_ > _[!UICONTROL 標準クラス]_&#x200B;のフィールドを更新することで、XDM ビジネスアカウントの使用可能な属性を設定できます。 詳しくは、[標準クラス &#x200B;](../admin/xdm-field-management.md#standard-classes)を参照してください。
+>管理者は、_[!UICONTROL XDM設定]_/_[!UICONTROL 標準クラス]_&#x200B;のフィールドを更新することで、XDM ビジネスアカウントで使用可能な属性を設定できます。 詳しくは、[標準クラス &#x200B;](../admin/xdm-field-management.md#standard-classes)を参照してください。
 
 ### アカウントベースのアクションの追加
 
@@ -272,7 +272,7 @@ _既存のオーディエンスを使用するには&#x200B;:_
 >
 >現在のJourney Optimizer B2B edition リリースの&#x200B;_[!UICONTROL Change Data Value]_ アクションに代わって、_[!UICONTROL 人物プロファイルを更新]_&#x200B;します。<br/>
 >
->管理者は、_[!UICONTROL XDM クラス]_ > [!UICONTROL 標準クラス &#x200B;]のフィールドを更新することで、XDM個人プロファイルの使用可能な属性を設定できます。 詳しくは、[標準クラス &#x200B;](../admin/xdm-field-management.md#standard-classes)を参照してください。
+>管理者は、_[!UICONTROL XDM設定]_ > [!UICONTROL 標準クラス &#x200B;]のフィールドを更新することで、XDM個人プロファイルで使用可能な属性を設定できます。 詳しくは、[標準クラス &#x200B;](../admin/xdm-field-management.md#standard-classes)を参照してください。
 
 +++
 

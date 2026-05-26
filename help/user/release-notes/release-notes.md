@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: b52b85ffa6f81bc05ebde6d9171c85a65802e616
+source-git-commit: 4582cce8bf46ca36c09c830a9a965da1d56b840a
 workflow-type: tm+mt
-source-wordcount: 5096
+source-wordcount: 5092
 ht-degree: 67%
 
 ---
@@ -245,8 +245,8 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | 機能 | アカウントリスト | 業界、場所、会社の規模など、定義した条件で重点顧客をターゲットにする静的または動的アカウントリストを作成できるようになりました。 <a href="../accounts/account-lists.md">詳細情報</a> |
 | 機能 | アカウントリストのジャーニーオーケストレーション | ジャーニーアクションノードを使用して、静的アカウントリストのアカウントを追加および削除します。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">詳細情報</a> |
 | 機能強化 | Marketo Engage でジャーニーメンバーシップをフィルタリング | ジャーニーオーディエンスに Adobe Journey Optimizer B2B Edition アカウントリストを使用し、Marketo Engage スマートリストで&#x200B;_アカウントリストのメンバー_&#x200B;フィルターを使用します。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">詳細情報</a> |
-| 機能 | 非アクティブフィルター | メールの非アクティビティ、注目のアクション、データ値の変更、訪問済みの web ページなど、Marketo Engage キャンペーンとプログラム内の非アクティビティに基づいてジャーニーを調整します。 <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">詳細情報</a> |
-| 機能強化 | 訪問済みの web ページフィルター | Marketo Engage キャンペーンとプログラムに関連付けられた訪問済みの web ページのアクティビティに基づいてジャーニーを調整します。 <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">詳細情報</a> |
+| 機能 | 非アクティブフィルター | メールの非アクティビティ、注目のアクション、データ値の変更、訪問済みの web ページなど、Marketo Engage キャンペーンとプログラム内の非アクティビティに基づいてジャーニーを調整します。 |
+| 機能強化 | 訪問済みの web ページフィルター | Marketo Engage キャンペーンとプログラムに関連付けられた訪問済みの web ページのアクティビティに基づいてジャーニーを調整します。 |
 | 機能強化 | メールリスト | アクティブなメールとドラフトのメールのグローバルリストを表示し、関連するアカウントジャーニー全体でメールを検索、確認、更新します。 <a href="../content/emails-list.md">詳細情報</a> |
 
 ## 2025.3 リリースノート {#rel-2025-3}

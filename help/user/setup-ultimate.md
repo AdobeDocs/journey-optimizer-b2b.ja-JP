@@ -21,10 +21,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
 source-wordcount: 853
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -104,7 +104,7 @@ Journey Optimizer B2B editionの設定を完了するには、このチェック
 </thead>
 <tbody>
 <tr>
-<td colspan="2"><strong> 標準 XDM クラス </strong>:XDM 個人プロファイルと XDM ビジネスアカウントのクラスを設定します。</td>
+<td colspan="2"><strong>標準XDM設定</strong>: XDM個人プロファイルとXDM ビジネスアカウントスキーマを設定します。</td>
 <td></td>
 </tr>
 <tr>
@@ -118,7 +118,7 @@ Journey Optimizer B2B editionの設定を完了するには、このチェック
 <td><a href="./admin/xdm-field-management.md#updatable-fields">詳細情報</a></td>
 </tr>
 <tr>
-<td colspan="2"><strong> リレーショナルスキーマ </strong>: リレーショナル XDM クラス（アカウントの多対 1 カスタムオブジェクト）を選択します。</td>
+<td colspan="2"><strong> リレーショナルスキーマ </strong>: リレーショナル XDM フィールドを選択します（アカウント多対一のカスタムオブジェクト）。</td>
 <td></td>
 </tr>
 <tr>

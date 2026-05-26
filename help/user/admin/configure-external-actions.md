@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -76,9 +76,7 @@ ht-degree: 1%
 
    ![&#x200B; サービス URLを入力](./assets/configuration-external-actions-create-url.png){width="500"}
 
-   >[!NOTE]
-   >
-   >このステップを成功させるには、外部サービスをライブで到達可能にする必要があります。
+   このステップを成功させるには、外部サービスがライブで到達可能である必要があります。 検証エラーがある場合、ダイアログには、エラーを説明するメッセージと、そのエラーを解決するための提案が表示されます。 詳しくは、[_トラブルシューティング_](#troubleshooting)&#x200B;を参照してください。
 
 1. URLが正常に解決したら、**[!UICONTROL サービスの詳細]**&#x200B;を確認します。
 
@@ -127,7 +125,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 送信フィールド]** - テーブル内の各フィールドを[XDM フィールド &#x200B;](../admin/xdm-field-management.md)にマッピングします。 これらのフィールドは、リクエスト本文で外部サービスに送信されます。 サービス定義プロパティ：`invocationPayloadDef.accountFields`、`invocationPayloadDef.fields`。
 
-   ![外部アクション送信フィールドのマッピング &#x200B;](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+     ![外部アクション送信フィールドのマッピング &#x200B;](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL 受信フィールド]** - テーブル内の各フィールドを[更新可能なXDM フィールド &#x200B;](../admin/xdm-field-management.md#updatable-fields)にマッピングします。 これらのフィールドは、外部サービス応答から入力されます。 サービス定義プロパティ：`callbackPayloadDef.accountFields`、`callbackPayloadDef.fields`。 作成後に更新可能。
 
@@ -137,11 +135,50 @@ ht-degree: 1%
 
    * **[!UICONTROL グローバル属性]** - リクエスト本文に静的フィールドとして含める各行の値を入力します。 サービス定義プロパティ：`invocationPayloadDef.globalAttributes`。
 
-   ![外部アクション ヘッダーのパラメーター、タイムアウト、およびグローバル属性](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
+     ![外部アクション ヘッダーのパラメーター、タイムアウト、およびグローバル属性](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
 
 1. _戻る矢印_&#x200B;をクリックしてリストに戻り、アクションを&#x200B;_ドラフト_&#x200B;状態に保ちます。
 
    または、**[!UICONTROL アクティブ化]**&#x200B;をクリックして、アクション設定を&#x200B;_アクティブ_&#x200B;状態に変更します。 設定された外部アクションは、アカウントジャーニーで使用できるようにするためにアクティブである必要があります。
+
+### トラブルシューティング {#troubleshooting}
+
+外部サービスのOpenAPI仕様にURLを入力し、**[!UICONTROL Create]**&#x200B;をクリックすると、システムはサービスの検証を実行します。 エラーが発生すると、ダイアログにエラーを説明するメッセージが表示されます。
+
+![外部アクション URL サービス検証エラーメッセージ &#x200B;](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>次の多くのエラーを解決するには、公開Web サービスを作成および公開した開発者と協力する必要があります。
+
+#### 検証エラーの詳細
+
+| 表示されるエラー | なぜそうなったのか | 今後の施策 |
+|---|---|---|
+| `This URL is already used by another external action` | この仕様URLは、既に組織内の別のアクションに登録されています。 | 別の仕様URLを使用するか、既に使用している既存のアクションを削除します。 |
+| `An action with this name already exists` | スペックの`info.title`は、既に存在するアクションと一致します | スペックの`info.title` フィールドのタイトルをユニークなものに変更します。 |
+| `Duplicate operation ID found in the specification` | スペック内の2つ以上の操作が同じ`operationId`を共有しています。 | すべての操作に一意の`operationId`を付与します。 |
+| `Field in the specification exceeds the maximum allowed length` | スペックのテキストフィールド（タイトルや説明など）が長すぎます。 | フラグが設定されているフィールドを短くします。 |
+| `The entity type value is invalid` | エンティティ型のAdobe固有の`x-`拡張機能に認識されない値があります | エンティティの種類をサポートされている値に修正します。 有効なオプションについては、[開発者ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
+| `The provided document is not a valid OpenAPI specification` | 仕様は構造的に解析できません。 | OpenAPI 3.0 スキーマに対して仕様を検証し、問題を修正します。 |
+| `Required OpenAPI field is missing` | 標準のOpenAPI必須フィールドがありません（`info`または`paths`など）。 | 見つからないフィールドを追加します。 |
+| `Required endpoint is missing from the specification` | Adobe Journey Optimizer B2B editionに必要なエンドポイントが、仕様で定義されていません。 | 必要なエンドポイントを追加します。 エンドポイントが必要な場合は、[開発者ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
+| `Required extension field is missing` | 必要なAdobe `x-`拡張機能フィールドがスペックにありません。 | ドキュメントの説明に従って、不足している拡張機能フィールドを追加します。 |
+| `Security schemes are missing from the specification` | 仕様には`components`で定義された`securitySchemes`がありません。 | 少なくとも1つのセキュリティスキームを定義します。 |
+| `Multiple authentication types are not supported` | 仕様で複数の認証スキームが定義されています。 | 1つの認証タイプを使用するようにスペックを更新します。 |
+| `The authentication type is not supported` | 使用したセキュリティスキームの種類（`oauth2`や`openIdConnect`など）はサポートされていません。 | サポートされている認証タイプに切り替えます。 サポートされているオプションについては、開発者ドキュメントを参照してください。 |
+| `The OpenAPI version is not supported` | 仕様レベルでのバージョンの不一致 | OpenAPI 3.0.xを使用するように仕様を更新します。 |
+| `An unexpected error occurred` | 仕様に未分類の問題が見つかりました。 | スペックに異常がないか確認し、再度試してください。 エラーが解決しない場合は、サポートにお問い合わせください。 |
+
+<!--
+## Errors you'll see if something goes wrong with the request itself
+
+This error appears below the URL field (not in the alert banner) and means there was a network problem or an unexpected server response — not a problem with your URL or spec.
+
+| What you'll see | Why it happened | What to do |
+|---|---|---|
+| `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
+-->
 
 ## ジャーニーへの外部ノードの追加 {#add-journey-node}
 

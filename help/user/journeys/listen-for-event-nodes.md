@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1844
+source-wordcount: 1879
 ht-degree: 12%
 
 ---
@@ -66,6 +66,10 @@ ht-degree: 12%
 
 アカウントジャーニーでは、人物アクティビティによってトリガーされたイベントに従って、ジャーニー内でアカウントを前進させたい場合、人物に基づいてイベントをリッスンできます。 人物の属性に応じてイベントをフィルタリングすることもできます。
 
+>[!TIP]
+>
+>ジャーニーにエントリした&#x200B;_前_&#x200B;に発生したエクスペリエンスイベントに基づいてユーザーをルーティングするには（以前の電子メールのクリックやweb インタラクションなど）、[&#x200B; パスをユーザー](./split-merge-paths-nodes.md#experience-event-history-filtering) ノードで分割する[!UICONTROL &#x200B; イベント履歴] フィルターを使用します。
+
 ### イベントと制約
 
 | 入力タイプ | イベント | 制約 |
@@ -91,7 +95,7 @@ ht-degree: 12%
 | [!UICONTROL &#x200B; アクティビティ履歴] > [!UICONTROL &#x200B; データ値が変更されました] | 選択した人物属性に対して、値の変更が発生しました。 次の変更タイプがあります。 <li>新しい値<li>前回の値<li>理由<li>ソース<li>アクティビティの日付<li>分 回数<!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL &#x200B; アクティビティ履歴] > [!UICONTROL 興味深い瞬間がありました] | 関連するMarketo Engage インスタンスで定義される、興味深いモーメントアクティビティ。 制約事項は次のとおりです。 <li>マイルストーン<li>メール<li>Web <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL &#x200B; アクティビティ履歴] > [!UICONTROL 訪問したweb ページ &#x200B;] | 関連するMarketo Engage インスタンスによって管理される1つ以上のweb ページのweb ページアクティビティ。 制約事項は次のとおりです。 <li>Web ページ （必須）<li>アクティビティの日付<li>クライアント IP アドレス <li>クエリ文字列 <li>参照元 <li>ユーザーエージェント <li>検索エンジン <li>検索クエリ <li>パーソナライズ URL <li>トークン <li>ブラウザー <li>プラットフォーム <li>デバイス <li>分 回数<!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
-| [!UICONTROL 人物の属性] | 人物プロファイルの属性（以下を含む）: <li>市町村 <li>国 <li>生年月日 <li>メールアドレス <li>メール無効 <li>メール中断済み <li>名 <li>推測される都道府県 / 地域<li>役職 <li>姓 <li>携帯電話番号 <li>人物エンゲージメントスコア <li>電話番号 <li>郵便番号 <li>状態 <li>配信停止完了 <li>登録解除の理由 |
+| [!UICONTROL 人物の属性] | 人物プロファイルの属性（以下を含む）: <li>市町村 <li>国 <li>生年月日 <li>メールアドレス <li>メール無効 <li>メール中断済み <li>名 <li>推測される都道府県 / 地域<li>役職 <li>姓 <li>携帯電話番号 <li>人物エンゲージメントスコア <li>電話番号 <li>郵便番号 <li>都道府県 <li>配信停止完了 <li>登録解除の理由 |
 | [!UICONTROL 特殊フィルター] > [!UICONTROL 購買グループのメンバー] | 個人が購買グループのメンバーであるか、またはメンバーでない場合は、次の基準の1つ以上に対して評価されます。 <li>ソリューションへの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>が削除されました</li><li>役割</li> |
 | [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; リストのメンバー] | ユーザーは、1つ以上のMarketo Engage リストのメンバーであるか、またはメンバーではありません。 |
 | [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; プログラムのメンバー] | ユーザーは、1つ以上のMarketo Engage プログラムのメンバーであるか、メンバーではありません。 |
@@ -145,7 +149,7 @@ ht-degree: 12%
 
 1. ジャーニーマップで、イベントが発生したときに実行する次のノードを追加します。
 
-### エクスペリエンスイベントをリッスンする
+### エクスペリエンスイベントをリッスンする {#listen-for-an-experience-event}
 
 管理者は[Adobe Experience Platform （AEP） Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}を選択できます。これにより、マーケターは、イベントにほぼリアルタイムで反応するアカウントと個人のジャーニーを作成できます。 ジャーニーでExperience Eventsを使用するには、次の2つの手順を実行します。
 
