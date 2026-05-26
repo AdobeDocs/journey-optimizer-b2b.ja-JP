@@ -8,20 +8,13 @@ level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
 autotag-review: 2026-03-30T22:00:50.379Z
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e0eb8757-182f-49f3-94a4-1587d16f5094
 TQID: https://experienceleague.adobe.com/79OalHOVUw0jEO-mFXa76-sQFE36zguoBwpmdg0TUB4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: cb8dacee0c668c8048193fb0d4ee38d742a38f71
 workflow-type: tm+mt
 source-wordcount: 4930
 ht-degree: 48%
@@ -988,9 +981,9 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 日付パターンが無効な場合、日付はISO標準形式にフォールバックします。
 >
-> [Oracle ドキュメント &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)に要約されているJava日付書式設定関数を使用できます。
+> [Oracle ドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)に要約されているJava日付書式設定関数を使用できます。
 >
-> 書式設定と有効なロケールは、[Oracle ドキュメント &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)および[&#x200B; サポートされているロケール &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html)に要約されて使用できます。
+> 書式設定と有効なロケールは、[Oracle ドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)および[ サポートされているロケール ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html)に要約されて使用できます。
 
 **例**
 
@@ -1572,7 +1565,7 @@ Some edu specific content
 
 `each` ヘルパーを使用して、配列を繰り返します。
 
-ヘルパー構造は```{{#each ArrayName}}``` YourContent `{{/each}}`です
+ヘルパー構造は`{{#each ArrayName}}` YourContent `{{/each}}`です
 
 ブロック内のキーワード `this`を使用して、個々の配列項目を参照できます。 配列の要素のインデックスをレンダリングするには、`{{@index}}`を使用します。
 
@@ -1816,7 +1809,7 @@ Some edu specific content
 {%= formatNumber(number/double,string) %}: string
 ```
 
-書式設定と有効なロケールは、[Oracle ドキュメント &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)および[&#x200B; サポートされているロケール &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}に要約されて使用できます
+書式設定と有効なロケールは、[Oracle ドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)および[ サポートされているロケール ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}に要約されて使用できます
 
 **例**
 
@@ -2523,7 +2516,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ### 一致する {#matches}
 
-文字列が特定の正規表現に一致するかどうかを判断するには、`matches`関数を使用します。 正規表現でのパターンの一致について詳しくは、[Oracle ドキュメント &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)を参照してください。
+文字列が特定の正規表現に一致するかどうかを判断するには、`matches`関数を使用します。 正規表現でのパターンの一致について詳しくは、[Oracle ドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)を参照してください。
 
 +++構文
 
