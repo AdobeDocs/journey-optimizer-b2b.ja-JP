@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
 workflow-type: tm+mt
-source-wordcount: 131
-ht-degree: 12%
+source-wordcount: 134
+ht-degree: 14%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 12%
 * [アクションの実行](./action-nodes.md)
 * [イベントのリッスン](./listen-for-event-nodes.md)
 * [パスを分割](./split-merge-paths-nodes.md)
+* [次に最適なパス](./next-best-path-node.md)
 * [待機](./wait-nodes.md)
 * [パスを結合](./split-merge-paths-nodes.md)
 * [外部](./external-nodes.md)
