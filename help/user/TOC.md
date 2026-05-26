@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: be0691812325bd9dfeed9365cfb09a609c308a3a
+source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 93%
+source-wordcount: '442'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 93%
    + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
    + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
    + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
+   + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
    + ジャーニーノード {#journey-nodes}
       + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
@@ -154,7 +154,7 @@ ht-degree: 93%
    + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
    + [web エンゲージメントダッシュボード](./dashboards/web-engagement-dashboard.md)
    + [購入グループダッシュボード](./dashboards/buying-groups-dashboard.md)
-   + [アカウントジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
+   + [ジャーニーダッシュボード](./dashboards/journeys-dashboard.md)
 + 管理 {#admin}
    + [ガバナンス](./admin/governance.md)
    + [ペルソナマッピング](./admin/persona-mapping.md)
@@ -163,7 +163,7 @@ ht-degree: 93%
       + [インテントデータ](./admin/intent-data.md)
       + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
       + [外部アクション](./admin/configure-external-actions.md)
-      + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+      + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
       + [SMS 設定](./admin/configure-channels-sms.md)
