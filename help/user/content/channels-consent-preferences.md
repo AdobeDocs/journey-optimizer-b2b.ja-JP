@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cba977f62f3d2a83bcf2487a8ec612b76a655954
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 412
+source-wordcount: 424
 ht-degree: 2%
 
 ---
@@ -45,6 +45,8 @@ Journey Optimizer B2B editionは、[&#x200B; メールチャネル &#x200B;](../
 
 * メールを世界中からオプトアウトした人は、業務用とマークされたメールを受け取ることができます。
 * サブスクリプションレベルの環境設定はサポートされていません。
+
+送信された電子メールの購読解除アクティビティを確認するには、[電子メールパフォーマンスレポート &#x200B;](../dashboards/email-performance-dashboard.md)を参照してください。
 
 ## SMS {#sms}
 
