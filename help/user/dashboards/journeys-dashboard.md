@@ -6,29 +6,22 @@ role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
 autotag-review: '2026-05-21T21:07:43.367Z'
 TQID: 'https://experienceleague.adobe.com/u-zKjTHRErQFQCHxuft-gJiiiE5a1oJUIZfziasvcHs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a1947a16cde3ba625027b794cd370a0143238e36
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
 workflow-type: tm+mt
-source-wordcount: 432
+source-wordcount: 449
 ht-degree: 2%
 
 ---
 
 # ジャーニー概要ダッシュボード
 
-[&#x200B; アカウントと個人のジャーニー](../journeys/journeys-overview.md)の概要ダッシュボードには、アクティブなジャーニーの包括的なスナップショットが表示されます。 円グラフと棒グラフは、入力とエンゲージメントのアクティビティを分類および定量化することで、主要な配信とエンゲージメント指標を通じてメールとSMS チャネルの効果を評価することができます。
+[ アカウントまたは個人のジャーニー](../journeys/journeys-overview.md)の概要ダッシュボードには、アクティブなジャーニーの包括的なスナップショットが表示されます。 円グラフと棒グラフは、入力とエンゲージメントのアクティビティを分類および定量化することで、主要な配信とエンゲージメント指標を通じてメールとSMS チャネルの効果を評価することができます。 電子メール固有の配信およびエンゲージメントデータのクロスジャーニー表示については、[電子メールパフォーマンスレポート ](email-performance-dashboard.md)を参照してください。
 
 この概要は公開されたジャーニーで利用でき、データがチャートとテーブルの入力を開始するのに約4時間かかります。
 
@@ -38,7 +31,7 @@ ht-degree: 2%
 
 左側のナビゲーションで、**[!UICONTROL ジャーニー管理]**&#x200B;を展開し、**[!UICONTROL アカウントジャーニー]**&#x200B;をクリックします。 デフォルトで表示されない場合は、**[!UICONTROL 概要]** タブを選択します。
 
-![&#x200B; アカウントジャーニーの概要](./assets/journey-overview-account.png){width="800" zoomable="yes"}
+![ アカウントジャーニーの概要](./assets/journey-overview-account.png){width="800" zoomable="yes"}
 
 >[!TAB  ユーザージャーニー（Beta） ]
 
@@ -46,7 +39,7 @@ ht-degree: 2%
 
 左側のナビゲーションで、**[!UICONTROL ジャーニー管理]**&#x200B;を展開し、**[!UICONTROL 人物ジャーニー]**&#x200B;をクリックします。 デフォルトで表示されない場合は、**[!UICONTROL 概要]** タブを選択します。
 
-![&#x200B; ユーザージャーニーの概要](./assets/journey-overview-person.png){width="800" zoomable="yes"}
+![ ユーザージャーニーの概要](./assets/journey-overview-person.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -70,11 +63,11 @@ ht-degree: 2%
 
 データを使用するには、各グラフの右上にある&#x200B;**...** メニューを使用します。
 
-### [!UICONTROL &#x200B; ドリルスルー] {#drill-through}
+### [!UICONTROL  ドリルスルー] {#drill-through}
 
 円グラフで、データの詳細な分析を行うには、**[!UICONTROL ドリルスルー]**&#x200B;を選択します。
 
-![&#x200B; グラフデータにアクセスするには、「ドリルスルー」を選択します](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
+![ グラフデータにアクセスするには、「ドリルスルー」を選択します](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
 _詳細_ （**...**）をクリックできます 右上のメニューで、**[!UICONTROL 詳細を表示]**&#x200B;から[拡張データを表示](#view-more)を選択します。
 
