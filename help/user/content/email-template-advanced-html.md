@@ -5,11 +5,16 @@ feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -35,7 +40,7 @@ We don't have the code editor at this point
 
 ## 重要な制限事項
 
-[電子メールテンプレートのオーサリング ](./email-template-authoring.md)に高度なHTML モードを使用する前に、次の制限事項を理解していることを確認してください。
+[電子メールテンプレートのオーサリング &#x200B;](./email-template-authoring.md)に高度なHTML モードを使用する前に、次の制限事項を理解していることを確認してください。
 
 * **検証なし** — HTML エディターは、構文の確認やレイアウトの検証を行いません。 保存する前に、コードを注意深く確認してください。
 
@@ -49,11 +54,11 @@ We don't have the code editor at this point
 
 高度なHTML モードは、電子メールテンプレートがカンバスに読み込まれている場合、ビジュアルデザインスペースの上部にあるツールバーからアクセスできます。
 
-1. 電子メールテンプレート ](./email-templates.md#create-an-email-template)を開くか[作成し、デザインスペースを開いてコンテンツを編集します。
+1. 電子メールテンプレート [&#128279;](./email-templates.md#create-an-email-template)を開くか作成し、デザインスペースを開いてコンテンツを編集します。
 
-1. デザインスペースで、ツールバーの&#x200B;_[!UICONTROL HTML]_ （![HTML アイコン ](../assets/do-not-localize/icon-code.svg)）アイコンをクリックします。
+1. デザインスペースで、ツールバーの&#x200B;_[!UICONTROL HTML]_ （![HTML アイコン &#x200B;](../assets/do-not-localize/icon-code.svg)）アイコンをクリックします。
 
-   ![電子メールテンプレートデザインスペースツールバーのHTML アイコンをクリック ](./assets/email-template-advanced-html-mode-toolbar.png){width="750" zoomable="yes"}
+   ![電子メールテンプレートデザインスペースツールバーのHTML アイコンをクリック &#x200B;](./assets/email-template-advanced-html-mode-toolbar.png){width="750" zoomable="yes"}
 
    初めて高度なHTML モードを開く場合（または1か月以上経過した場合）、警告メッセージが表示されます。 情報を確認し、**[!UICONTROL OK]**&#x200B;をクリックして続行します。
 
@@ -66,11 +71,11 @@ We don't have the code editor at this point
    _高度なHTML モード_&#x200B;では、メールテンプレートコンテンツの完全なHTML ソースに直接アクセスできます。
 
    * 生のHTML マークアップの任意の部分を表示および変更します。
-   * 高度な[ パーソナライゼーション式](./personalization.md)を直接ソースに挿入します。
-   * 式の構文を使用して[条件付きコンテンツ ](./conditional-content.md) ロジックを追加します。
+   * 高度な[&#x200B; パーソナライゼーション式](./personalization.md)を直接ソースに挿入します。
+   * 式の構文を使用して[条件付きコンテンツ &#x200B;](./conditional-content.md) ロジックを追加します。
    * ビジュアルエディターのコントロールでは使用できない、カスタムのHTML属性、トラッキングタグ、その他のマークアップを追加します。
 
-   ![電子メールコンテンツの生のHTML ソースを使用した高度なHTML モード ](./assets/email-template-advanced-html-mode.png){width="800" zoomable="yes"}
+   ![電子メールコンテンツの生のHTML ソースを使用した高度なHTML モード &#x200B;](./assets/email-template-advanced-html-mode.png){width="800" zoomable="yes"}
 
    >[!IMPORTANT]
    >
@@ -80,8 +85,8 @@ We don't have the code editor at this point
 
    高度なHTML モードで右上の&#x200B;**[!UICONTROL 保存]**&#x200B;または&#x200B;**[!UICONTROL 保存して閉じる]**&#x200B;をクリックすると、テンプレートを保存してデザインスペースを終了する前に、高度なHTML モードから切り替える必要があることを知らせる警告ダイアログが表示されます。
 
-   ![高度なHTML モードで保存が無効になっている警告ダイアログ ](./assets/email-template-advanced-html-save-disabled-alert.png){width="500"}
+   ![高度なHTML モードで保存が無効になっている警告ダイアログ &#x200B;](./assets/email-template-advanced-html-save-disabled-alert.png){width="500"}
 
-1. ツールバーの&#x200B;_[!UICONTROL デスクトップ]_ （![ デスクトップアイコン ](../assets/do-not-localize/icon-desktop-spectrum-1.svg)）アイコンをクリックして、高度なHTML モード（HTML ソースビュー）からビジュアルデザインキャンバスに切り替えます。
+1. ツールバーの&#x200B;_[!UICONTROL デスクトップ]_ （![&#x200B; デスクトップアイコン &#x200B;](../assets/do-not-localize/icon-desktop-spectrum-1.svg)）アイコンをクリックして、高度なHTML モード（HTML ソースビュー）からビジュアルデザインキャンバスに切り替えます。
 
    ビューを切り替えると、編集内容は保持されます。
