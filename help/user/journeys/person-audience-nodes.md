@@ -5,18 +5,11 @@ feature: Audiences
 role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -28,13 +21,13 @@ ht-degree: 1%
 
 # 人物オーディエンスジャーニーノード
 
-_人物オーディエンス_ ノードは、ジャーニーにエントリする人物プロファイルを指定します。 ユーザーのジャーニー[を作成する場合、ジャーニーは常に、入力を定義するユーザーのオーディエンスノードから始まります。 &#x200B;](./create-publish-journey.md#create-a-journey)個人オーディエンスノードには、CDP セグメントまたはイベントベースのメンバーシップという2つのオーディエンス入力タイプのいずれかを設定できます。 セグメントおよびイベントベースのオーディエンス定義は組み合わせることはできません。
+_人物オーディエンス_ ノードは、ジャーニーにエントリする人物プロファイルを指定します。 ユーザーのジャーニー[を作成する場合、ジャーニーは常に、入力を定義するユーザーのオーディエンスノードから始まります。 ](./create-publish-journey.md#create-a-journey)個人オーディエンスノードには、CDP セグメントまたはイベントベースのメンバーシップという2つのオーディエンス入力タイプのいずれかを設定できます。 セグメントおよびイベントベースのオーディエンス定義は組み合わせることはできません。
 
 人物オーディエンスジャーニーノードには、次のいずれかの入力オプションを使用します。
 
-* **プロファイルオーディエンス** - CDPで定義されたセグメントオーディエンスを使用します。 オーディエンスに適格なすべてのプロファイルが、ジャーニーのメンバーとして追加されます。 セグメントの新しい適格プロファイルは、毎日の[&#x200B; プロファイル取り込み](#profile-ingestion) タスク中にジャーニーに追加されます。 プロファイルがセグメントに適格でなくなった場合、そのプロファイルはジャーニーから&#x200B;**_not_**&#x200B;削除されます。
+* **プロファイルオーディエンス** - CDPで定義されたセグメントオーディエンスを使用します。 オーディエンスに適格なすべてのプロファイルが、ジャーニーのメンバーとして追加されます。 セグメントの新しい適格プロファイルは、毎日の[ プロファイル取り込み](#profile-ingestion) タスク中にジャーニーに追加されます。 プロファイルがセグメントに適格でなくなった場合、そのプロファイルはジャーニーから&#x200B;**_not_**&#x200B;削除されます。
 
-* **イベントオーディエンス** – 選定イベントを使用してオーディエンスを定義します。 これらのイベントはノード設定で定義され、管理設定[&#128279;](../admin/configure-aep-events.md)で設定されたXDM イベントを使用する必要があります。 イベントベースのオーディエンスメンバーシップでは、最大10個のイベントがサポートされます。 プロファイルは、プロファイルが取る最初のマッチングイベントの直後にジャーニーの対象となります。
+* **イベントオーディエンス** – 選定イベントを使用してオーディエンスを定義します。 これらのイベントはノード設定で定義され、管理設定](../admin/configure-aep-events.md)で設定された[XDM イベントを使用する必要があります。 イベントベースのオーディエンスメンバーシップでは、最大10個のイベントがサポートされます。 プロファイルは、プロファイルが取る最初のマッチングイベントの直後にジャーニーの対象となります。
 
   >[!NOTE]
   >
@@ -58,7 +51,7 @@ Journey Optimizer B2B editionでは、夜間のオーディエンス取り込み
 
    このアクションは、右側にノードプロパティを表示します。
 
-   ![人物オーディエンスジャーニーノード &#x200B;](./assets/person-journey-person-audience-node.png){width="700" zoomable="yes"}
+   ![人物オーディエンスジャーニーノード ](./assets/person-journey-person-audience-node.png){width="700" zoomable="yes"}
 
 1. ジャーニーにエントリするユーザーの入力タイプを選択します。
 
@@ -68,7 +61,7 @@ Journey Optimizer B2B editionでは、夜間のオーディエンス取り込み
 
      _[!UICONTROL オーディエンスを追加]_ ダイアログで、以前に作成したオーディエンスセグメントを選択します。 次に、**[!UICONTROL オーディエンスを追加]**&#x200B;をクリックします。
 
-     ![&#x200B; ノードのプロファイルオーディエンスを選択](./assets/node-person-audience-add-audience-dialog.png){width="700" zoomable="yes"}
+     ![ ノードのプロファイルオーディエンスを選択](./assets/node-person-audience-add-audience-dialog.png){width="700" zoomable="yes"}
 
    * **[!UICONTROL イベントオーディエンス]**
 
@@ -80,4 +73,4 @@ Journey Optimizer B2B editionでは、夜間のオーディエンス取り込み
 
      イベント条件が定義されたら、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-     ジャーニーでサポートされるイベントの設定について詳しくは、[&#x200B; エクスペリエンスイベントの管理](../admin/configure-aep-events.md#manage-experience-events)を参照してください。
+     ジャーニーでサポートされるイベントの設定について詳しくは、[ エクスペリエンスイベントの管理](../admin/configure-aep-events.md#manage-experience-events)を参照してください。
