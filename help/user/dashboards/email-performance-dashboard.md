@@ -5,19 +5,12 @@ feature: Dashboards, Reporting
 role: User
 autotag-review: '2026-05-21T15:04:51.176Z'
 TQID: 'https://experienceleague.adobe.com/hA63o9-2-atw0kRNFeEu6H449WmZ59CjL3uiVS7nEcA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
 source-wordcount: 833
@@ -27,24 +20,24 @@ ht-degree: 5%
 
 # メールパフォーマンスレポート
 
-**電子メールパフォーマンス** レポートでは、Adobe Journey Optimizer B2B editionのすべてのジャーニーに関する電子メールアクティビティの統一されたビューをマーケターに提供します。 送信、配信、エンゲージメント、オプトアウトの指標を集約できます。 生数と計算率の両方を明らかにすることで、キャンペーンの成果を監視し、メールのパフォーマンスを比較し、配信品質やエンゲージメントの問題を一目で特定することができます。 電子メールとSMS チャネルのジャーニーレベルの指標については、[&#x200B; アカウントジャーニーダッシュボード &#x200B;](./journeys-dashboard.md)を参照してください。
+**電子メールパフォーマンス** レポートでは、Adobe Journey Optimizer B2B editionのすべてのジャーニーに関する電子メールアクティビティの統一されたビューをマーケターに提供します。 送信、配信、エンゲージメント、オプトアウトの指標を集約できます。 生数と計算率の両方を明らかにすることで、キャンペーンの成果を監視し、メールのパフォーマンスを比較し、配信品質やエンゲージメントの問題を一目で特定することができます。 電子メールとSMS チャネルのジャーニーレベルの指標については、[ アカウントジャーニーダッシュボード ](./journeys-dashboard.md)を参照してください。
 
 ## レポートを読む
 
 1. 左側のナビゲーションで、**[!UICONTROL ダッシュボード]**&#x200B;を選択します。
 1. レポートダッシュボードの上部にある「**[!UICONTROL メールパフォーマンス]**」タブを選択します。
 
-![電子メールパフォーマンスレポート &#x200B;](./assets/email-performance-dashboard.png){width="800" zoomable="yes"}
+![電子メールパフォーマンスレポート ](./assets/email-performance-dashboard.png){width="800" zoomable="yes"}
 
 ## データのフィルタリング
 
-左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、サポートされている2つのフィルタータイプを使用してデータ表示をフィルタリングします。 これらのフィルターは、すべてのパネルに同時に適用されます。
+左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、サポートされている2つのフィルタータイプを使用してデータ表示をフィルタリングします。 これらのフィルターは、すべてのパネルに同時に適用されます。
 
 * **[!UICONTROL ジャーニー]** - レポートをフィルタリングして、選択した1つ以上のジャーニーのデータを表示します。 このフィルターを使用して、キャンペーンやプログラムにとって重要なジャーニーのパフォーマンスを分離します。
 
 * **日付範囲** – すべての指標を、指定した時間枠内に送信された電子メールに制限します。 プリセット範囲とカスタム日付選択をサポートします。 日付範囲セレクターは、ダッシュボードの右上隅にあります。
 
-![&#x200B; フィルターダイアログのジャーニーおよび日付範囲フィルター](./assets/email-performance-filters.png){width="500"}
+![ フィルターダイアログのジャーニーおよび日付範囲フィルター](./assets/email-performance-filters.png){width="500"}
 
 フィルターダイアログでフィルターを変更する場合は、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -83,7 +76,7 @@ ht-degree: 5%
 
 | 列 | 説明 |
 |--------|-------------|
-| メール名 | ジャーニーで設定された[電子メールアセット &#x200B;](../content/add-email.md)の名前。 |
+| メール名 | ジャーニーで設定された[電子メールアセット ](../content/add-email.md)の名前。 |
 | 送信済み | 選択した日付範囲内での、この電子メールの合計送信数。 |
 | 配信済み | 受信者メールサーバーに正常に配信されたメールの数。 |
 | 配信% | 配信済÷の割合。 |
@@ -112,7 +105,7 @@ ht-degree: 5%
 1. メールパフォーマンスパネルの右上隅にある「**...**」メニューアイコンをクリックし、**[!UICONTROL 詳細を表示]**&#x200B;を選択します。
 1. メニューから「**[!UICONTROL CSVをダウンロード]**」をクリックします。
 
-   ![詳細データを表示してCSVをダウンロード &#x200B;](./assets/email-performance-data-export.png){width="700" zoomable="yes"}
+   ![詳細データを表示してCSVをダウンロード ](./assets/email-performance-data-export.png){width="700" zoomable="yes"}
 
    ファイルは、ブラウザーのデフォルトのダウンロード場所に自動的にダウンロードされます。
 
