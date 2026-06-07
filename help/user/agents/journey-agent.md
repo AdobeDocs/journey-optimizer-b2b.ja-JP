@@ -6,12 +6,22 @@ role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
 autotag-review: '2026-06-05T16:42:46.785Z'
 TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 1165
@@ -23,7 +33,7 @@ ht-degree: 0%
 
 Journey Agent B2Bは、Adobe Journey Optimizer B2B editionのAI アシスタントであり、自然言語を通じてB2B ジャーニーを設計、実行、最適化、モニタリングするのに役立ちます。 自動化、データ主導のレコメンデーション、リアルタイムのオブザーバビリティを組み合わせることで、カスタマージャーニーの構築と管理に必要な時間と複雑さを削減します。
 
-![Journey Agent B2B プロンプト ](./assets/journey-agent-prompt.png)
+![Journey Agent B2B プロンプト &#x200B;](./assets/journey-agent-prompt.png)
 
 Journey Agent B2Bでは、B2B ジャーニーのライフサイクルのさまざまな側面に焦点を当てた、一連のAI スキルを提供します。 現在利用可能なスキルは次のとおりです。
 
@@ -51,7 +61,7 @@ Journey Agent ビルドスキルを使用するには、プロンプトウィン
 
 「B2B ジャーニーを構築し、意思決定者を、新しいパイプラインを開く可能性が最も高いエンゲージメントの高いアカウントのロードショーに招待する」。
 
-![ ビルドスキルのジャーニーエージェント B2B プロンプト ](./assets/journey-agent-tasks.png)
+![&#x200B; ビルドスキルのジャーニーエージェント B2B プロンプト &#x200B;](./assets/journey-agent-tasks.png)
 
 より詳細な情報を提供すれば、より的確な回答を得られます。 イベントや製品などを説明する既存のマーケティング資料がある場合は、それをプロンプトに貼り付けることで、担当者は目標をより深く理解できます。
 

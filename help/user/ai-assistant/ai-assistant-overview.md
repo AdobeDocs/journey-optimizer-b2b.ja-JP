@@ -7,12 +7,20 @@ level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 1300
@@ -22,23 +30,23 @@ ht-degree: 9%
 
 # JOURNEY OPTIMIZER B2B editionのAI アシスタント
 
-JOURNEY OPTIMIZER B2B editionのAI アシスタントは、[Adobe Experience PlatformのAI アシスタント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}と同じテクノロジ基盤から作成されています。 Adobe Journey Optimizer B2B editionなら、対話型エクスペリエンスを利用して、ワークフローを高速化できます。 AI アシスタントを使用すれば、製品の能力に関する理解を深め、問題をトラブルシューティングし、情報を検索して、Journey Optimizer B2B editionの運用に関するインサイトを獲得できます。
+JOURNEY OPTIMIZER B2B editionのAI アシスタントは、[Adobe Experience PlatformのAI アシスタント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}と同じテクノロジ基盤から作成されています。 Adobe Journey Optimizer B2B editionなら、対話型エクスペリエンスを利用して、ワークフローを高速化できます。 AI アシスタントを使用すれば、製品の能力に関する理解を深め、問題をトラブルシューティングし、情報を検索して、Journey Optimizer B2B editionの運用に関するインサイトを獲得できます。
 
 >[!IMPORTANT]
 >
->Journey Optimizer B2B editionでAI アシスタントを使用するには、[ ユーザーガイドライン ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}への同意が必要です。 この契約書にはパブリックベータ版の契約書も含まれているため、追加のAI アシスタント機能をベータ版の機能で展開する際に使用できます。
+>Journey Optimizer B2B editionでAI アシスタントを使用するには、[&#x200B; ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}への同意が必要です。 この契約書にはパブリックベータ版の契約書も含まれているため、追加のAI アシスタント機能をベータ版の機能で展開する際に使用できます。
 
 +++ユーザー契約書インターフェイスの表示
 
-![ ユーザー契約書の最初のページ。](./assets/user-agreement-1.png)
+![&#x200B; ユーザー契約書の最初のページ。](./assets/user-agreement-1.png)
 
-![ ユーザー契約書の最後のページ。](./assets/user-agreement-2.png)
+![&#x200B; ユーザー契約書の最後のページ。](./assets/user-agreement-2.png)
 
 +++
 
 ## JOURNEY OPTIMIZER B2B editionのAI アシスタント機能
 
-送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読みやすい回答に変換します。 この応答は、基礎となるデータを内部表現したもので、_**_ナレッジグラフ_**_&#x200B;とも呼ばれます。これは、特定の回答に対する概念、データ、メタデータを包括的に集めたものです。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
+送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読みやすい回答に変換します。 この応答は、基礎となるデータを内部表現したもので、_&#x200B;**_ナレッジグラフ_**&#x200B;_&#x200B;とも呼ばれます。これは、特定の回答に対する概念、データ、メタデータを包括的に集めたものです。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
 
 * Experience Leagueのドキュメント。
 * スキーマ、フィールド、オーディエンス、ジャーニーなどの運用上のアーティファクト。
