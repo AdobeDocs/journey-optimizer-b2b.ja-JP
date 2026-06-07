@@ -16,16 +16,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1879
+source-wordcount: 1880
 ht-degree: 12%
 
 ---
 
 # イベントのリッスン
 
-イベントが発生したときにオーディエンスをジャーニーの次のステップに進めるために、_イベントをリッスン_ ノードを追加します。
+イベントが発生したときにオーディエンスをジャーニーの次のステップに進めるには、「_イベントをリッスン_」ノードを追加します。
 
 ![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [概要動画を見る](#overview-video)
 
@@ -68,34 +68,34 @@ ht-degree: 12%
 
 >[!TIP]
 >
->ジャーニーにエントリした&#x200B;_前_&#x200B;に発生したエクスペリエンスイベントに基づいてユーザーをルーティングするには（以前の電子メールのクリックやweb インタラクションなど）、[&#x200B; パスをユーザー](./split-merge-paths-nodes.md#experience-event-history-filtering) ノードで分割する[!UICONTROL &#x200B; イベント履歴] フィルターを使用します。
+>エクスペリエンスイベントは、ジャーニーに参加する&#x200B;_前_&#x200B;のユーザーに発生する可能性があります（以前のメールのクリックやweb インタラクションなど）。 これらのイベントに基づいてユーザーをルーティングするには、[&#x200B; パスをユーザー](./split-merge-paths-nodes.md#experience-event-history-filtering) ノードで分割する[!UICONTROL &#x200B; イベント履歴] フィルターを使用します。
 
 ### イベントと制約
 
 | 入力タイプ | イベント | 制約 |
 | ---------- | ----- | ----------- |
 | Journey Optimizer B2B | [!UICONTROL 購買グループに割り当て] | ソリューションの関心<br/><br/>追加の制約（オプション）: <li>役割</li><li>アクティビティの日付</li><br/> タイムアウト （オプション） |
-| | [!UICONTROL 電子メール内のリンクをクリック &#x200B;] | 電子メール <br/><br/>追加の制約（オプション）: <li>リンク</li><li>リンク ID</li><li>モバイルデバイスである</li><li>デバイス</li><li>プラットフォーム</li><li>ブラウザー</li><li>予測コンテンツ</li><li>ボットアクティビティ</li><li>ボットアクティビティパターン</li><li>ブラウザー</li><li>アクティビティの日付</li><li>分 回数</li><br/> タイムアウト （オプション） |
-| | [!UICONTROL SMSのリンクをクリック &#x200B;] | 電子メール <br/><br/>追加の制約（オプション）: <li>リンク</li><li>デバイス</li><li>プラットフォーム</li><li>アクティビティの日付</li><li>分 回数</li><br/> タイムアウト （オプション） |
+| | [!UICONTROL 電子メール内のリンクをクリック &#x200B;] | 電子メール <br/><br/>追加の制約（オプション）: <li>リンク</li><li>リンク ID</li><li>モバイルデバイスである</li><li>デバイス</li><li>Platform</li><li>ブラウザー</li><li>予測コンテンツ</li><li>ボットアクティビティ</li><li>ボットアクティビティパターン</li><li>ブラウザー</li><li>アクティビティの日付</li><li>分 回数</li><br/> タイムアウト （オプション） |
+| | [!UICONTROL SMSのリンクをクリック &#x200B;] | 電子メール <br/><br/>追加の制約（オプション）: <li>リンク</li><li>デバイス</li><li>Platform</li><li>アクティビティの日付</li><li>分 回数</li><br/> タイムアウト （オプション） |
 | | [!UICONTROL &#x200B; データ値の変更] | 人物の属性<br/><br/>追加の制約（オプション）: <li>新しい値</li><li>前回の値</li><li>理由</li><li>ソース</li><li>アクティビティの日付</li><li>分 回数</li><br/> タイムアウト （オプション） |
-| | [!UICONTROL 電子メールを開く] | 電子メール <br/><br/>追加の制約（オプション）: <li>リンク</li><li>リンク ID</li><li>モバイルデバイスである</li><li>デバイス</li><li>プラットフォーム</li><li>ブラウザー</li><li>予測コンテンツ</li><li>ボットアクティビティ</li><li>ボットアクティビティパターン</li><li>ブラウザー</li><li>アクティビティの日付</li><li>分 回数</li><br/> タイムアウト （オプション） |
+| | [!UICONTROL 電子メールを開く] | 電子メール <br/><br/>追加の制約（オプション）: <li>リンク</li><li>リンク ID</li><li>モバイルデバイスである</li><li>デバイス</li><li>Platform</li><li>ブラウザー</li><li>予測コンテンツ</li><li>ボットアクティビティ</li><li>ボットアクティビティパターン</li><li>ブラウザー</li><li>アクティビティの日付</li><li>分 回数</li><br/> タイムアウト （オプション） |
 | | [!UICONTROL 購買グループから削除されました] | ソリューションの関心<br/> アクティビティの日付（オプション） <br/> タイムアウト（オプション） |
 | | [!UICONTROL &#x200B; スコアが変更されました] | スコア名<br/><br/>追加の制約（オプション）:<li>変更</li><li>新規スコア</li><li>緊急度</li><li>優先度</li><li>相対スコア</li><li>相対的緊急度</li><li>アクティビティの日付</li><li>分 回数</li><br/> タイムアウト （オプション） |
 | | [!UICONTROL SMS バウンス &#x200B;] | SMS メッセージ <br/><br/>追加の制約（オプション）: <li>アクティビティの日付</li><li>最小回数</li><br/> タイムアウト （オプション） |
-| Marketo Engage | [!UICONTROL Web ページへの訪問] | Web ページ <br/>一致する1つ以上のMarketo Engage ページを選択します。 <br/><br/>追加の制約（オプション）: <li>クエリ文字列</li><li>クライアント IP アドレス</li><li>参照元</li><li>ユーザ エージェント</li><li>検索エンジン</li><li>検索クエリ</li><li>トークン</li><li>ブラウザー</li><li>プラットフォーム</li><li>デバイス</li><li>アクティビティの日付</li> |
-| | [!UICONTROL &#x200B; フォームに入力] | フォーム <br/>一致する1つ以上のMarketo Engage フォームを選択します。 <br/><br/>追加の制約（オプション）: <li>アクティビティの日付</li><li>クエリ文字列</li><li>クライアント IP アドレス</li><li>参照元</li><li>ユーザーエージェント</li><li>プラットフォーム</li><li>デバイス</li><br/> タイムアウト （オプション） |
+| Marketo Engage | [!UICONTROL Web ページへの訪問] | Web ページ <br/>一致する1つ以上のMarketo Engage ページを選択します。 <br/><br/>追加の制約（オプション）: <li>クエリ文字列</li><li>クライアント IP アドレス</li><li>リファラー</li><li>ユーザーエージェント</li><li>検索エンジン</li><li>検索クエリ</li><li>トークン</li><li>ブラウザー</li><li>Platform</li><li>デバイス</li><li>アクティビティの日付</li> |
+| | [!UICONTROL &#x200B; フォームに入力] | フォーム <br/>一致する1つ以上のMarketo Engage フォームを選択します。 <br/><br/>追加の制約（オプション）: <li>アクティビティの日付</li><li>クエリ文字列</li><li>クライアント IP アドレス</li><li>リファラー</li><li>ユーザーエージェント</li><li>Platform</li><li>デバイス</li><br/> タイムアウト （オプション） |
 | Adobe Experience Platform | [!UICONTROL &#x200B; イベント定義] | イベントタイプ <br/><br/>追加の制約（オプション）: <li>フィールド</li> <br/>追加の制約（サポートされていません）: <li>アクティビティの日付</li><li>分 回数</li><br/> タイムアウト （オプション） |
 
 ### 人物イベントフィルター
 
 | フィルター | 説明 |
 | ------------ | ----------- |
-| [!UICONTROL &#x200B; アクティビティ履歴] > [!UICONTROL 電子メール &#x200B;] | ジャーニーの前の段階で選択した1つ以上のメールメッセージを使用して評価される条件に基づいて、メールアクティビティを実行します。 <li>[!UICONTROL 電子メール内のリンクをクリック &#x200B;] <li>メール開封済み <li>メールで配信されました <li>さんがメール <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).-->を送信しました |
+| [!UICONTROL &#x200B; アクティビティ履歴] > [!UICONTROL 電子メール &#x200B;] | ジャーニーの前の段階で選択した1つ以上のメールメッセージを使用して評価される条件に基づいて、メールアクティビティを実行します。 <li>[!UICONTROL 電子メール内のリンクをクリック &#x200B;] <li>メールを開封済み <li>メールで配信されました <li>さんがメール <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).-->を送信しました |
 | [!UICONTROL &#x200B; アクティビティ履歴] > [!UICONTROL SMS メッセージ &#x200B;] | ジャーニーの前の段階で選択した1つ以上のSMS メッセージを使用して評価される条件に基づくSMS アクティビティ： <li>[!UICONTROL SMSでリンクをクリック &#x200B;] <li>[!UICONTROL SMS バウンス &#x200B;] <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). --> |
 | [!UICONTROL &#x200B; アクティビティ履歴] > [!UICONTROL &#x200B; データ値が変更されました] | 選択した人物属性に対して、値の変更が発生しました。 次の変更タイプがあります。 <li>新しい値<li>前回の値<li>理由<li>ソース<li>アクティビティの日付<li>分 回数<!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL &#x200B; アクティビティ履歴] > [!UICONTROL 興味深い瞬間がありました] | 関連するMarketo Engage インスタンスで定義される、興味深いモーメントアクティビティ。 制約事項は次のとおりです。 <li>マイルストーン<li>メール<li>Web <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
-| [!UICONTROL &#x200B; アクティビティ履歴] > [!UICONTROL 訪問したweb ページ &#x200B;] | 関連するMarketo Engage インスタンスによって管理される1つ以上のweb ページのweb ページアクティビティ。 制約事項は次のとおりです。 <li>Web ページ （必須）<li>アクティビティの日付<li>クライアント IP アドレス <li>クエリ文字列 <li>参照元 <li>ユーザーエージェント <li>検索エンジン <li>検索クエリ <li>パーソナライズ URL <li>トークン <li>ブラウザー <li>プラットフォーム <li>デバイス <li>分 回数<!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
-| [!UICONTROL 人物の属性] | 人物プロファイルの属性（以下を含む）: <li>市町村 <li>国 <li>生年月日 <li>メールアドレス <li>メール無効 <li>メール中断済み <li>名 <li>推測される都道府県 / 地域<li>役職 <li>姓 <li>携帯電話番号 <li>人物エンゲージメントスコア <li>電話番号 <li>郵便番号 <li>都道府県 <li>購読解除完了 <li>登録解除の理由 |
+| [!UICONTROL &#x200B; アクティビティ履歴] > [!UICONTROL 訪問したweb ページ &#x200B;] | 関連するMarketo Engage インスタンスによって管理される1つ以上のweb ページのweb ページアクティビティ。 制約事項は次のとおりです。 <li>Web ページ （必須）<li>アクティビティの日付<li>クライアント IP アドレス <li>クエリ文字列 <li>参照元 <li>ユーザーエージェント <li>検索エンジン <li>検索クエリ <li>パーソナライズ URL <li>トークン <li>ブラウザー <li>Platform <li>デバイス <li>分 回数<!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
+| [!UICONTROL 人物の属性] | 人物プロファイルの属性（以下を含む）: <li>市区町村 <li>国 <li>生年月日 <li>メールアドレス <li>メール無効 <li>メール中断済み <li>名 <li>推測される都道府県 / 地域<li>役職 <li>姓 <li>携帯電話番号 <li>人物エンゲージメントスコア <li>電話番号 <li>郵便番号 <li>都道府県 <li>配信停止完了 <li>登録解除の理由 |
 | [!UICONTROL 特殊フィルター] > [!UICONTROL 購買グループのメンバー] | 個人が購買グループのメンバーであるか、またはメンバーでない場合は、次の基準の1つ以上に対して評価されます。 <li>ソリューションへの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>が削除されました</li><li>役割</li> |
 | [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; リストのメンバー] | ユーザーは、1つ以上のMarketo Engage リストのメンバーであるか、またはメンバーではありません。 |
 | [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; プログラムのメンバー] | ユーザーは、1つ以上のMarketo Engage プログラムのメンバーであるか、メンバーではありません。 |
@@ -139,7 +139,7 @@ ht-degree: 12%
 
      ![&#x200B; エクスペリエンスイベントをリッスン &#x200B;](./assets/node-listen-events-people-me-event-edit-dialog.png){width="700" zoomable="yes"}
 
-     この操作を繰り返して、必要に応じてフィールドの制約を追加できます。
+     必要に応じてフィールドの制約を追加するには、この操作を繰り返します。
 
    * 必要に応じて、「**[!UICONTROL フィルター]**」タブを選択して、イベント [&#128279;](#add-a-filter-to-the-people-event)のフィルターを追加します。
 
@@ -211,7 +211,7 @@ _ジャーニーにエクスペリエンスイベントを含めるには&#x200B
 
    ![&#x200B; ユーザーによるイベントノードのリッスン – イベントを編集するための「フィルター」タブを選択](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
-1. イベントの人物をターゲットにする1つ以上のフィルターを追加します。
+1. イベントの人物をターゲットにするには、1つ以上のフィルターを追加します。
 
    * 左側のナビゲーションから[人物フィルター](#people-event-filters)のいずれかをドラッグ&amp;ドロップして、一致の定義を完了します。
 
@@ -219,7 +219,7 @@ _ジャーニーにエクスペリエンスイベントを含めるには&#x200B
      >
      >Experience Platformのアカウントオーディエンススキーマでカスタム人物フィールドを定義している場合、これらのフィールドは&#x200B;**[!UICONTROL 属性]**&#x200B;でも使用でき、フィルターで人物属性として使用できます。
 
-   * 上部の&#x200B;**[!UICONTROL フィルターロジック]**&#x200B;を適用して、フィルタリングを微調整します。 すべてのフィルターまたは任意のフィルターを一致させます。
+   * 上部の&#x200B;**[!UICONTROL フィルターロジック]**&#x200B;を適用して、フィルタリングを絞り込みます。 すべてのフィルターまたは任意のフィルターを一致させることができます。
 
      ![&#x200B; イベント定義で使用される人物フィルター](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 

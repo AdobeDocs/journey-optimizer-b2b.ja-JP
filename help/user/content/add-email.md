@@ -17,9 +17,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1399
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Adobe Journey Optimizer B2B editionを使用して、アカウントジャーニ
 
    * **[!UICONTROL Adobe Marketo Engageからメールを選択]**&#x200B;して、Marketo Engageで事前作成済みのメールのいずれかを使用し、ジャーニーの一部として送信します。
 
-     接続されたMarket Engage インスタンスで使用可能なワークスペースが複数ある場合は、ワークスペースを選択します。 次に、ジャーニーノードに送信する承認済みメールを選択します。
+     接続されたMarketo Engage インスタンスで複数のワークスペースを使用できる場合は、ワークスペースを選択します。 次に、ジャーニーノードに送信する承認済みメールを選択します。
 
      ![Marketo Engage電子メールを選択](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -138,7 +138,7 @@ Adobe Journey Optimizer B2B editionを使用して、アカウントジャーニ
      >
      >マーケティングスタイルのメールメッセージには、オプトアウトリンクを含める必要がありますが、これはトランザクションメッセージには必要ありません。
 
-   * `Text version of HTML is empty`: HTML コンテンツを表示できない場合に使用するメール本文のテキスト版を定義することを忘れないでください。
+   * `Text version of HTML is empty`: HTML コンテンツを表示できない場合に使用するメール本文のテキストバージョンを定義します。
 
    * `Empty link is present in email body`：電子メール内のすべてのリンクが正しいことを確認してください。
 

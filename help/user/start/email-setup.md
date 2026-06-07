@@ -22,10 +22,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 74%
+source-wordcount: 1321
+ht-degree: 70%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 74%
 
 ### メッセージの登録解除
 
-運用以外のマーケティングメールの場合は、登録解除テキストとリンクが下部に追加されます。 製品管理者は、マーケターがメールを運用可能としてマークしない場合に入力されるデフォルトのHTMLとテキストを設定する必要があります。
+運用以外のマーケティングメールの場合は、登録解除テキストとリンクが下部に追加されます。 製品管理者は、マーケターがメールを運用中としてマークしない場合に入力されるデフォルトのHTMLとテキストを設定します。
 
 1. 添付されたMarketo Engage インスタンスの **[!UICONTROL 管理者]** エリアに移動して、**[!UICONTROL メール]** を選択します。
 
@@ -89,7 +89,7 @@ ht-degree: 74%
 
 ### Web ページとして表示
 
-メールコンテンツの表示機能が制限されています（CSS に制限があり、JavaScriptやフォームはサポートされていません）。 マーケターは、_Web ページとして表示_ オプションを使用して、Marketo Munchkinを使用してメール受信者にCookieを適用できます。 製品管理者は、マーケターがこのオプションを選択したときに入力されるデフォルトのHTMLとテキストを設定する必要があります。
+メールコンテンツの表示機能が制限されています（CSS に制限があり、JavaScriptやフォームはサポートされていません）。 マーケターは、_Web ページとして表示_ オプションを使用して、Marketo Munchkinを使用してメール受信者にCookieを適用できます。 製品管理者は、マーケターがこのオプションを選択したときに入力されるデフォルトのHTMLとテキストを設定します。
 
 1. 添付されたMarketo Engage インスタンスの **[!UICONTROL 管理者]** エリアに移動して、**[!UICONTROL メール]** を選択します。
 
@@ -163,7 +163,7 @@ To view this email as a web page, go to the following address:
    ![Marketo Engageのメール管理者 – カスタム ヘッダーオプションの既定の設定 &#x200B;](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL 厳格なトランスポート セキュリティ]** – このオプションを&#x200B;_有効_&#x200B;に設定して、トラッキングリンクが常にHTTPS経由で提供されるようにします。 SSLで保護されたトラッキングリンクを持つサブスクリプションでのみ有効にします。
-   * **[!UICONTROL Max-age]** – このフィールドは、ブラウザーがHTTPS経由のドメインのみにアクセスすることを記憶する必要がある時間を秒単位で指定する必須ディレクティブをサポートしています。
+   * **[!UICONTROL Max-age]** – このフィールドは、ブラウザーがHTTPS経由でドメインのみにアクセスすることを記憶する時間を秒単位で指定する必須ディレクティブをサポートしています。
    * **[!UICONTROL IncludeSubDomains]** – このオプションを使用すると、ホストのすべてのサブドメインに HSTS ポリシーを適用するディレクティブを含めることができます。
 
    >[!IMPORTANT]

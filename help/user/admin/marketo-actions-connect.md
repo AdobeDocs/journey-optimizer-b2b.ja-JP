@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 81%
+ht-degree: 75%
 
 ---
 
@@ -86,6 +86,6 @@ Marketo Engageのジャーニーアクションを使用するには、管理者
 >
 >ジャーニーから実行されたMarketo Engage アクションは、接続されたMarketo Engage インスタンスのREST API制限には適用されません。
 
-完了した統合により、Marketo Engageのアクションは、ノードのプロパティの **アクション on:** から使用できます。
+統合が完了すると、Marketo Engage アクションは、:_&#x200B;**の**&#x200B;_Actionsからノードプロパティで利用できるようになります。
 
 ![Marketo アクションリスト &#x200B;](assets/marketo-actions-list.png){width="800" zoomable="yes"}

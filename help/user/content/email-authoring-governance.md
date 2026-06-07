@@ -15,9 +15,9 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:35:16.900Z
 TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 273
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 コンテンツデザイナーは、メールテンプレートの作成時に[&#x200B; ガバナンス（_コンテンツロック_） &#x200B;](./template-content-governance.md)を有効にできます。 ガバナンス機能を使用すると、アカウントジャーニーで使用する際に変更できないデザインの部分を指定できます。 [保存済みのテンプレート &#x200B;](./email-authoring.md#select-a-template)を選択して電子メールを作成すると、ビジュアルデザインスペースにテンプレートが読み込まれ、電子メールのベースとして使用できるようになります。
 
-テンプレートでガバナンスが有効になっている場合、右側のプロパティパネルにアラートが表示されます。 キャンバスの上部にある「**[!UICONTROL 編集可能な領域をハイライト表示]**」をオンにすると、ジャーニーで使用できるコンポーネントとコンテンツ要素を確認できます。
+テンプレートでガバナンスが有効になっている場合、右側のプロパティパネルにアラートが表示されます。 キャンバスの上部にある「**[!UICONTROL 編集可能な領域をハイライト表示]**」を選択して、ジャーニーで使用できるコンポーネントとコンテンツ要素を確認します。
 
 ![管理されたテンプレートで編集可能な領域を表示](./assets/email-designer-governed-highlight.png){width="800" zoomable="yes"}
 

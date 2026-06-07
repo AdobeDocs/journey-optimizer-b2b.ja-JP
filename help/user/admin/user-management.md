@@ -16,10 +16,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 2267
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 83%
 1. Journey Optimizer B2B editionの権限を使用して、[&#x200B; 組み込みの役割を編集 &#x200B;](#edit-roles-for-product-permissions) または [&#x200B; カスタムの役割を作成 &#x200B;](#create-a-custom-role) します。
 1. 役割への [&#x200B; ユーザー &#x200B;](#add-users) または [&#x200B; グループ &#x200B;](#add-user-groups-to-a-role) の追加
 
-管理者は、Adobeの製品ライセンスとユーザーを一元的に管理する場所であるAdobe Admin Consoleで、これらのタスクを実行できます。 Admin Consoleでは、様々な個別のソリューション内ではなく、1 か所でユーザーを作成および管理できます。 機能と性能について詳しくは、[Admin Consoleの概要 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を参照してください。
+管理者は、Adobeの製品ライセンスとユーザーを一元的に管理する場所であるAdobe Admin Consoleで、これらのタスクを実行できます。 Admin Consoleでは、様々な個別のソリューション内ではなく、1 か所でユーザーを作成および管理できます。 その機能と機能について詳しくは、[Admin Consoleの概要](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) ページを参照してください。
 
 ## Admin Console へのアクセス
 
@@ -317,7 +317,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
 1. B2B 製品の権限を追加します。
 
-   役割に必要な製品機能を決定するには [&#128279;](#b2b-product-permissions)B2B 製品の権限のリストを参照してください。
+   役割に必要な製品機能を決定するには、[B2B製品権限](#b2b-product-permissions)のリストを参照してください。
 
    左側の _[!UICONTROL リソース]_ リストで、**[!UICONTROL B2B]** 項目を見つけ、_追加_ （**+**）アイコンをクリックして、役割に対して有効にする各属性を追加します。
 

@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1014
-ht-degree: 89%
+source-wordcount: 1015
+ht-degree: 83%
 
 ---
 
@@ -29,15 +29,15 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 
 * これは、一般的なリンクを、メールのハイパーリンクにおける独自のブランディングに置き換えます。
 * アカウントのリードがリンクをクリックすると、このカスタムドメインを通じてリダイレクトされるので、パフォーマンスのトラッキングが可能になると同時に、メールフィルターでは妥当に見えます。
-* 複数のブランドがある場合、異なるビジネスユニットやブランドをサポートするように追加のブランディングドメインを設定できます。
+* 複数のブランドがある場合、さまざまな事業部やブランドをサポートするために、追加のブランドドメインを設定できます。
 
 >[!BEGINSHADEBOX]
 
 **トラッキングリンクの一意の CNAME**
 
-メールトラッキングリンクは、接続されたMarketo Engage インスタンスに対して新しく、一意である必要があります。 既存の（実稼動）Marketo Engage インスタンスを指すトラッキングリンク用の既存のCNAMEがある場合、変更せずに再利用することはできません。
+メールトラッキングリンクは、接続されたMarketo Engage インスタンスに対して新しく、一意である必要があります。 既存の（実稼動用）Marketo Engage インスタンスを指すトラッキングリンク用の既存のCNAMEがある場合は、再利用する前に変更が必要です。
 
-実稼動Marketo Engageのインスタンスと接続されたインスタンスの間でリターンパスドメインのブランディングを共有できますが、これはバックエンドの変更です。 サポートチケットを開き、Marketo Engage プレフィックス（Munchkin ID）と新しいJourney Optimizer B2B edition プレフィックス（Munchkin ID）を指定して、共通のリターンパスドメインのブランディングをリクエストします。
+実稼動Marketo Engage インスタンスとアタッチされたインスタンスの間でreturn-path ドメインブランディングを共有できますが、この変更はバックエンドの変更です。 サポートチケットを開き、Marketo Engage プレフィックス（Munchkin ID）と新しいJourney Optimizer B2B edition プレフィックス（Munchkin ID）を指定して、共通のリターンパスドメインのブランディングをリクエストします。
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 >
 >UI でドメインを編集または追加する前に、[Adobeが提供するMarketo Engage ドメインに CNAME をマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} する必要があります。
 >
->ドメインを追加すると、システムは、以前に手動で作成された可能性のある既存の SSL をチェックします。 この検証が発生した場合は、SSL作成を選択せずにドメインを作成し、別の手順で接続します。
+>ドメインを追加する際に、システムは事前に手動で作成された既存のSSLをチェックします。 この検証が発生した場合は、SSL作成を選択せずにドメインを作成し、別の手順で接続します。
 
 ## Marketo Engageのブランディングドメインへのアクセス
 
