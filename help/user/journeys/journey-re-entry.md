@@ -5,12 +5,18 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
@@ -21,7 +27,7 @@ ht-degree: 9%
 
 # ジャーニーの再入場
 
-_**アカウントジャーニーのみ**_
+_&#x200B;**アカウントジャーニーのみ**&#x200B;_
 
 アカウントジャーニーの再入力を有効にすると、アカウントが同じジャーニーを再入力できるタイミングと頻度を制御できます。 再入力設定を使用して基準、制限、待機時間を設定し、アカウントが管理された方法でジャーニーに再評価されるようにします。
 
@@ -45,7 +51,7 @@ _**アカウントジャーニーのみ**_
 
    この機能を有効にすると、タイミング、遅延、制限のオプションが表示されます。
 
-   有効な機能を持つ![ジャーニー再入力ダイアログ ](./assets/journey-re-entry-dialog-enabled.png){width="450"}
+   有効な機能を持つ![ジャーニー再入力ダイアログ &#x200B;](./assets/journey-re-entry-dialog-enabled.png){width="450"}
 
 1. **[!UICONTROL 再エントリのタイミング]**&#x200B;で、待機の計算方法を選択します。
 
@@ -67,7 +73,7 @@ _**アカウントジャーニーのみ**_
 
 ## アカウントの進捗状況とアクティビティ
 
-公開されたアカウントジャーニーの場合、ジャーニーマップには、ジャーニーノードの[ アカウントの進行状況](./journeys-overview.md#review-account-progression)が表示されます。 マップ上の各ノードには、そのノードに到達するアカウント数が表示されます。ライブジャーニーの場合は、現在そのノードにいるアカウント数が表示されます。 アカウントがジャーニーに再入力するたびに、別々のエントリとしてカウントされます。
+公開されたアカウントジャーニーの場合、ジャーニーマップには、ジャーニーノードの[&#x200B; アカウントの進行状況](./journeys-overview.md#review-account-progression)が表示されます。 マップ上の各ノードには、そのノードに到達するアカウント数が表示されます。ライブジャーニーの場合は、現在そのノードにいるアカウント数が表示されます。 アカウントがジャーニーに再入力するたびに、別々のエントリとしてカウントされます。
 
 <!-- 
 You can see how many times accounts have entered the journey. ?? 
