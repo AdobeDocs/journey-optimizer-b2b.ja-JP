@@ -1,7 +1,7 @@
 ---
 title: コンテンツ作成 – フォームの追加
 description: ランディングページおよびテンプレートでのフォームの追加に関する節を再利用
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 目次]** セクションの下で、**[!UICONTROL フォーム]**&#x200B;項目をドラッグして、ページデザインスペースの構造コンポーネントにドロップします。
 
-   ![&#x200B; フォームコンポーネントをビジュアルデザインスペースにドラッグします](../assets/content-design-shared/content-design-add-form.png){width="600"}
+   ![ フォームコンポーネントをビジュアルデザインスペースにドラッグします](../assets/content-design-shared/content-design-add-form.png){width="600"}
 
    >[!TIP]
    >
@@ -40,7 +40,7 @@ ht-degree: 0%
      >
      >フォームを使用してファイルをダウンロードする場合は、ホストされているファイルのURLを指定できます。 この設定では、送信ボタンはダウンロードボタンとして機能します。
 
-   ![&#x200B; フォローアップ設定の変更](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+   ![ フォローアップ設定の変更](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 1. デバイスの種類ごとにフォームの表示を制限する場合は、**[!UICONTROL 表示オプション]**&#x200B;設定を変更します。
 

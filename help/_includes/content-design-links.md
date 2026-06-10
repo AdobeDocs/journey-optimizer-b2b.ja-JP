@@ -1,19 +1,15 @@
 ---
-title: コンテンツオーサリング – リンクトラッキング
-description: コンテンツオーサリング用のリンクトラッキングの編集に関する再利用された節
-source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+title: コンテンツ作成 – リンクトラッキング
+description: コンテンツオーサリングのリンクトラッキングの編集に関する節を再利用しました
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
-# コンテンツオーサリング – リンクトラッキング
+# コンテンツ作成 – リンクトラッキング
 
-1. 左側の _[!UICONTROL リンク]_ アイコン（![&#x200B; リンクを表示アイコン &#x200B;](../assets/do-not-localize/icon-links.svg)）をクリックすると、追跡するコンテンツ内のすべてのリンク済み URL が表示されます。
+リンクトラッキングパネルには、コンテンツ内の各URLを簡単に見つけることができる一元的なビューが用意されています。 左側の&#x200B;_[!UICONTROL リンク]_ アイコン（![ リンクを表示アイコン ](../assets/do-not-localize/icon-links.svg)）をクリックすると、コンテンツ内のすべてのリンク URLが表示されます。 テキストコンポーネント、ボタンコンポーネント、画像コンポーネント内のリンクです。
 
-1. 必要に応じて、_編集_ （![&#x200B; 編集アイコン &#x200B;](../user/assets/do-not-localize/icon-edit.svg)）アイコンをクリックし、**[!UICONTROL トラッキングタイプ]** または **[!UICONTROL ラベル]** を変更します。
-
-   リンクに _タグ_ を追加することもできます。
-
-![&#x200B; リンクトラッキングにアクセスするには、編集アイコンをクリック &#x200B;](../assets/content-design-shared/visual-designer-links.png){width="500"}
+リストされたコンテンツリンクのトラッキングを定義するには、_編集_ （![編集アイコン ](../user/assets/do-not-localize/icon-edit.svg)）アイコンをクリックし、**[!UICONTROL トラッキングタイプ]**&#x200B;または&#x200B;**[!UICONTROL ラベル]**&#x200B;を変更します。

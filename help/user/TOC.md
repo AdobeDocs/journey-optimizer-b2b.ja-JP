@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
+source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 92%
+source-wordcount: '449'
+ht-degree: 89%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 92%
    + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
    + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
    + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
+   + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
    + ジャーニーノード {#journey-nodes}
       + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
@@ -76,6 +76,7 @@ ht-degree: 92%
    + [外部オーディエンスのターゲット設定](./audiences/target-external-audience.md)
    + [LinkedIn アカウントでマッチしたオーディエンス](./data/linkedin-account-matched-audiences.md)
    + [デフォルトの XDM フィールド](./admin/field-mapping.md)
+   + [プロファイルのテスト](./audiences/test-profiles.md)
 + アカウント {#accounts}
    + 購買グループ {#buying-groups}
       + [概要](./buying-groups/buying-groups-overview.md)
@@ -121,16 +122,17 @@ ht-degree: 92%
          + [HTMLの高度な編集機能](./content/email-template-advanced-html.md)
          + [画像をテンプレートに変換](./content/email-template-image-convert.md)
       + ランディングページテンプレート（ベータ版） {#landing-page-templates}
-         + {hide-from-toc}[概要](./content/landing-page-templates.md)
+         + [概要](./content/landing-page-templates.md)
          + [ランディングページテンプレートのデザイン](./content/landing-page-template-design.md)
    + フラグメント {#visual-fragments}
       + [概要](./content/fragments.md)
       + [フラグメントオーサリング](./content/fragment-authoring.md)
-   + フォーム（ベータ版） {#forms}
+   + フォーム {#forms}
       + [概要](./content/forms.md)
       + [フォームのデザイン](./content/form-design.md)
-   + ランディングページ（ベータ版） {#landing-pages}
+   + ランディングページ {#landing-pages}
       + [概要](./content/landing-pages.md)
+      + [作成と公開](./content/landing-pages-create-publish.md)
       + [ランディングページのデザイン](./content/landing-page-design.md)
       + [ランディングページコンテンツ用 AI アシスタント](./content/ai-assistant-landing-pages.md)
    + コンテンツデザインツール {#content-design}
@@ -164,10 +166,11 @@ ht-degree: 92%
       + [インテントデータ](./admin/intent-data.md)
       + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
       + [外部アクション](./admin/configure-external-actions.md)
-      + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+      + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
       + [SMS 設定](./admin/configure-channels-sms.md)
       + [WhatsApp設定](./admin/configure-channels-whatsapp.md)
       + [Web チャネル設定（Beta）](./admin/configure-channels-web.md)
-      + [ランディングページの設定（Beta）](./admin/landing-page-settings.md)
+      + [ランディングページ設定](./admin/configure-channels-landing-pages.md)
+      + [Forms設定](./admin/configure-channels-forms.md)

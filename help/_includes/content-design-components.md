@@ -1,10 +1,10 @@
 ---
 title: コンテンツオーサリング – コンポーネント
 description: コンテンツオーサリングでのコンポーネントとコンテンツ要素の使用に関する節を再利用しました
-source-git-commit: 6ff0d61295d46bfc0706e522ff870d99fc48e70d
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,19 @@ ht-degree: 0%
 
    各列のサイズは、構造コンポーネントの全幅の10%未満にすることはできません。 削除できるのは空の列のみです。
 
+   これらのコンポーネントの使用と書式設定について詳しくは、_[構造コンポーネント](../user/content/structure-components.md)_&#x200B;を参照してください。
+
 1. 「**[!UICONTROL コンテンツ]**」セクションを展開し、必要な数のコンテンツコンポーネントを1つ以上の構造コンポーネントに追加します。
 
-   ![&#x200B; コンテンツ要素をキャンバスにドラッグして、設定を調整します](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
+   ![ コンテンツ要素をキャンバスにドラッグして、設定を調整します](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
-   <!--
-   reference to the contents elements when we have a completed reference for each.
-   -->
+   * [コンテナ](../user/content/content-components.md#container)
+   * [ボタン](../user/content/content-components.md#button)
+   * [テキスト](../user/content/content-components.md#text)
+   * [ディバイダー](../user/content/content-components.md#divider)
+   * [Image](../user/content/content-components.md#image)
+   * [ソーシャル](../user/content/content-components.md#social)
+   * [ フォーム ](../user/content/content-components.md#form) （ランディングページのみ）
 
 1. 必要に応じて、_[!UICONTROL 設定]_&#x200B;または&#x200B;_[!UICONTROL スタイル]_ タブで、各コンポーネントに対して追加のカスタマイズを行うことができます。
 
