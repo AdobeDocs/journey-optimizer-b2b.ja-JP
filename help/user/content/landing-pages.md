@@ -6,12 +6,18 @@ role: User
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
 autotag-review: '2026-05-27T16:16:24.088Z'
 TQID: 'https://experienceleague.adobe.com/zAr9SwPBHxU50gD1ZRdJQo3M-qL-BEO6R1UYq7hSG-8'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 1637
@@ -35,10 +41,10 @@ ht-degree: 2%
 
 ジャーニーオーディエンスのメンバーが特定のリンクをクリックしたときに、定義されたweb ページに誘導するには、Journey Optimizer B2B editionでランディングページを作成します。
 
-1. [ ページを作成](./landing-pages-create-publish.md) - プリセットを選択し、プライマリページを設定し、必要なサブページを追加します。
-1. [ ランディングページのコンテンツをデザイン ](./landing-page-design.md) - ドラッグ&amp;ドロップ操作のビジュアルデザインコンポーネントを使用してページコンテンツを作成します。
-1. [ ランディングページをテストして公開する](./landing-pages-create-publish.md) - ページをプレビューし、フォームの動作をテストしてから、公開して公開します。
-1. [ ジャーニーからページにリンク ](#link-to-a-landing-page) – 受信者がアクセスできるように、ランディングページのURLをメール、SMS、またはジャーニーアクションに追加します。
+1. [&#x200B; ページを作成](./landing-pages-create-publish.md) - プリセットを選択し、プライマリページを設定し、必要なサブページを追加します。
+1. [&#x200B; ランディングページのコンテンツをデザイン &#x200B;](./landing-page-design.md) - ドラッグ&amp;ドロップ操作のビジュアルデザインコンポーネントを使用してページコンテンツを作成します。
+1. [&#x200B; ランディングページをテストして公開する](./landing-pages-create-publish.md) - ページをプレビューし、フォームの動作をテストしてから、公開して公開します。
+1. [&#x200B; ジャーニーからページにリンク &#x200B;](#link-to-a-landing-page) – 受信者がアクセスできるように、ランディングページのURLをメール、SMS、またはジャーニーアクションに追加します。
 
 例えば、ランディングページを作成およびデザインして、オーディエンスをオンライン情報に誘導できます。 このページには、コミュニケーションの受信をオプトインまたはオプトアウトできるフォームが含まれます。 また、ニュースレターなどの定期的なコミュニケーションに登録することもできます。
 
@@ -48,13 +54,13 @@ ht-degree: 2%
 
 Journey Optimizer B2B editionのランディングページにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL ランディングページ]**&#x200B;をクリックします。 このアクションは、インスタンスで作成されたすべてのランディングページのリストを表示します。
 
-![ ランディングページライブラリへのアクセス ](./assets/landing-pages-list.png){width="800" zoomable="yes"}
+![&#x200B; ランディングページライブラリへのアクセス &#x200B;](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
 リストは、_[!UICONTROL 変更済み]_&#x200B;列に従って並べ替えられ、最も最近更新された項目が上部に表示されます。 列のタイトルをクリックして、昇順と降順を変更します。
 
 ### ランディングページリストのフィルター
 
-ランディングページを名前で検索するには、検索バーにテキスト文字列を入力して一致を検索します。 _フィルター_ アイコン （![ フィルターの表示または非表示アイコン ](../assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
+ランディングページを名前で検索するには、検索バーにテキスト文字列を入力して一致を検索します。 _フィルター_ アイコン （![&#x200B; フィルターの表示または非表示アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
 
 ![表示されるランディングページをフィルター](./assets/landing-pages-list-filtered.png){width="700" zoomable="yes"}
 
@@ -78,7 +84,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 | 公開日 | ランディングページを公開すると、ランディングページはJourney Optimizer B2B edition インスタンスでホストされ、メールまたはSMS メッセージのコンテンツでリンクできるようになります。 使用可能なアクション：<br/><ul><li>名前または説明を編集<li>リンク URLを編集<li>メールまたはSMS メッセージのコンテンツにリンクを追加する<li>ドラフトバージョンを作成<li>複製<li>削除 |
 | 公開済み下書きあり | 公開されたランディングページからドラフトを作成すると、公開されたバージョンは残り、ドラフトコンテンツはビジュアルデザイン空間で変更できます。 ドラフトバージョンを公開すると、現在の公開済みバージョンが置き換えられ、コンテンツはホストされているページで更新されます。 使用可能なアクション：<br/><ul><li>名前または説明を編集<li>リンク URLを編集<li>メールまたはSMS メッセージのコンテンツにリンクを追加する<li>ビジュアルデザインスペースでのドラフトバージョンの編集<li>ドラフトバージョンを公開<li>複製<li>削除（両方のバージョンを削除）<li>ドラフトを破棄（公開済みステータスに戻る） |
 
-![ ランディングページのステータスのライフサイクル ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+![&#x200B; ランディングページのステータスのライフサイクル &#x200B;](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ## ランディングページの編集
 
@@ -98,7 +104,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 名前や説明などの詳細を変更します。
 
-   ![ ドラフトステータスを持つランディングページの詳細](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
+   ![&#x200B; ドラフトステータスを持つランディングページの詳細](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
 1. ビジュアルデザインスペースのコンテンツを変更するには、**[!UICONTROL ランディングページを編集]**&#x200B;をクリックします。
 
@@ -128,7 +134,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    ダイアログで「**[!UICONTROL ドラフトバージョンを作成]**」をクリックして、ビジュアルデザインスペースでドラフトバージョンを開きます。
 
-   ![下書きバージョンの作成ダイアログ ](./assets/landing-page-create-draft-version.png){width="300"}
+   ![下書きバージョンの作成ダイアログ &#x200B;](./assets/landing-page-create-draft-version.png){width="300"}
 
    必要に応じて、ビジュアルデザインツールを使用します。
 
@@ -148,7 +154,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 ランディングページを開くと、ドラフトバージョンが表示されます。 プレビュースペースの上部にあるタブを使用すると、公開バージョンとドラフトバージョンの表示を切り替えることができます。 下書きのアクションと詳細が右側に表示されます。
 
-![ ランディングページのドラフトバージョンのプレビューと詳細](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
+![&#x200B; ランディングページのドラフトバージョンのプレビューと詳細](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
 
 コンテンツを更新するには：
 
@@ -175,7 +181,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 * _[!UICONTROL ランディングページ]_&#x200B;のリスト ページで、_詳細_ アイコン （**...**）をクリックします ランディングページ名の横にある「**[!UICONTROL 複製]**」を選択します。
 * ランディングページの詳細ページの右上にある「**[!UICONTROL 」をクリックします…詳細]**&#x200B;を選択し、**[!UICONTROL 複製]**&#x200B;を選択します。
 
-![ ランディングページを複製](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
+![&#x200B; ランディングページを複製](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
 
 ダイアログで、便利な名前（一意）と説明（オプション）を入力します。 「**[!UICONTROL 複製]**」をクリックして、アクションを完了します。
 
@@ -192,7 +198,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 このアクションを実行すると、確認ダイアログが開きます。 「**[!UICONTROL キャンセル]**」をクリックするか、「**[!UICONTROL 削除]**」をクリックして削除を確認することで、プロセスを中止できます。
 
-![ ランディングページダイアログの削除](./assets/landing-page-delete-dialog.png){width="400"}
+![&#x200B; ランディングページダイアログの削除](./assets/landing-page-delete-dialog.png){width="400"}
 
 ## ランディングページへのリンク
 
@@ -204,13 +210,13 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. **[!UICONTROL Type]** オプションで、**[!UICONTROL ランディングページ]**&#x200B;を選択します。
 
-   ![ ランディングページのリンクオプション ](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+   ![&#x200B; ランディングページのリンクオプション &#x200B;](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
 
-1. **[!UICONTROL ランディングページ]** オプションで、_ページを選択_ アイコン （![ リンクを表示アイコン ](/help/assets/do-not-localize/icon-landing-page-select.svg)）をクリックします。
+1. **[!UICONTROL ランディングページ]** オプションで、_ページを選択_ アイコン （![&#x200B; リンクを表示アイコン &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg)）をクリックします。
 
 1. ランディングページを選択ダイアログで、**[!UICONTROL ランディングページソース]**&#x200B;を&#x200B;**[!UICONTROL Journey Optimizer B2B edition]**&#x200B;として設定し、公開されたページのリストからランディングページのチェックボックスをオンにして、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-   ![ ランディングページのリンクオプション ](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+   ![&#x200B; ランディングページのリンクオプション &#x200B;](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL ターゲット]**」オプションで、リンクターゲットの動作を選択します。
 

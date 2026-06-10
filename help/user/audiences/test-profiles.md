@@ -6,11 +6,17 @@ role: Admin
 level: Intermediate
 autotag-review: '2026-05-29T18:38:56.987Z'
 TQID: 'https://experienceleague.adobe.com/7HMk9y8XhI6ONurF341d46oxkWj8dgnUdnWTylUu4pw'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
 workflow-type: tm+mt
 source-wordcount: 843
@@ -20,7 +26,7 @@ ht-degree: 29%
 
 # プロファイルのテスト {#test-profiles}
 
-Journey Optimizer B2B editionでランディングページのコンテンツ ](../content/landing-pages-create-publish.md#test-landing-page)をプレビューおよびテストするには、テストプロファイルが必要です。 [スキーマの作成、データセットの作成、CSV ファイルのアップロードを行うことで、一連のテストプロファイルを定義できます。
+Journey Optimizer B2B editionでランディングページのコンテンツ [&#128279;](../content/landing-pages-create-publish.md#test-landing-page)をプレビューおよびテストするには、テストプロファイルが必要です。 スキーマの作成、データセットの作成、CSV ファイルのアップロードを行うことで、一連のテストプロファイルを定義できます。
 
 <!--
 >[!NOTE]
@@ -51,7 +57,7 @@ Journey Optimizer B2B editionでランディングページのコンテンツ ](
 
 1. スキーマの名前（必須）と説明（オプション）を入力し、**[!UICONTROL 終了]**&#x200B;をクリックします。
 
-   ![ スキーマの名前と説明を追加](./assets/create-schema-name-description.png){width="700" zoomable="yes"}
+   ![&#x200B; スキーマの名前と説明を追加](./assets/create-schema-name-description.png){width="700" zoomable="yes"}
 
    スキーマ構造が表示され、左側に&#x200B;_[!UICONTROL コンポジション]_ パネルが表示されます。
 
@@ -81,7 +87,7 @@ Journey Optimizer B2B editionでランディングページのコンテンツ ](
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-スキーマ作成について詳しくは、[XDM ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}を参照してください。
+スキーマ作成について詳しくは、[XDM ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}を参照してください。
 
 >[!IMPORTANT]
 >
@@ -95,7 +101,7 @@ Journey Optimizer B2B editionでランディングページのコンテンツ ](
 
 ## データセットの作成 {#create-dataset}
 
-スキーマを作成したら、プロファイルの読み込みに使用するデータセットを作成します。 データセットの作成について詳しくは、[ カタログサービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
+スキーマを作成したら、プロファイルの読み込みに使用するデータセットを作成します。 データセットの作成について詳しくは、[&#x200B; カタログサービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
 1. 左側のナビゲーションの&#x200B;_[!UICONTROL データ管理]_&#x200B;で、**[!UICONTROL データセット]**&#x200B;を選択します。
 
@@ -145,7 +151,7 @@ Journey Optimizer B2B editionでランディングページのコンテンツ ](
 
    ファイルのアップロードが完了したら、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 
-   ![ ファイルのアップロードとサンプルデータ ](./assets/aep-workflows-data-map-file-upload.png){width="700" zoomable="yes"}
+   ![&#x200B; ファイルのアップロードとサンプルデータ &#x200B;](./assets/aep-workflows-data-map-file-upload.png){width="700" zoomable="yes"}
 
 1. ソース CSV フィールドをスキーマフィールドにマッピングし、「**[!UICONTROL 終了]**」をクリックします。
 
@@ -157,11 +163,11 @@ Journey Optimizer B2B editionでランディングページのコンテンツ ](
 
    ![インポートされたテストプロファイルを示すデータセットのプレビュー](./assets/aep-workflows-data-preview-test.png){width="700" zoomable="yes"}
 
-   その後、テストプロファイルを使用して、ランディングページのコンテンツを[ テストできます](../content/landing-pages-create-publish.md#test-landing-page)。
+   その後、テストプロファイルを使用して、ランディングページのコンテンツを[&#x200B; テストできます](../content/landing-pages-create-publish.md#test-landing-page)。
 
 >[!NOTE]
 >
->CSV データの読み込みについて詳しくは、[ データ取り込みドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials){target="_blank"}を参照してください。
+>CSV データの読み込みについて詳しくは、[&#x200B; データ取り込みドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials){target="_blank"}を参照してください。
 
 <!--
 ## Create test profiles using API calls {#create-test-profiles-api}

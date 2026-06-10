@@ -26,7 +26,7 @@ ht-degree: 2%
 
 1. 「**[!UICONTROL コンテンツ]**」セクションを展開し、必要な数のコンテンツコンポーネントを1つ以上の構造コンポーネントに追加します。
 
-   ![ コンテンツ要素をキャンバスにドラッグして、設定を調整します](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
+   ![&#x200B; コンテンツ要素をキャンバスにドラッグして、設定を調整します](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
    * [コンテナ](../user/content/content-components.md#container)
    * [ボタン](../user/content/content-components.md#button)
@@ -34,7 +34,7 @@ ht-degree: 2%
    * [ディバイダー](../user/content/content-components.md#divider)
    * [Image](../user/content/content-components.md#image)
    * [ソーシャル](../user/content/content-components.md#social)
-   * [ フォーム ](../user/content/content-components.md#form) （ランディングページのみ）
+   * [&#x200B; フォーム &#x200B;](../user/content/content-components.md#form) （ランディングページのみ）
 
 1. 必要に応じて、_[!UICONTROL 設定]_&#x200B;または&#x200B;_[!UICONTROL スタイル]_ タブで、各コンポーネントに対して追加のカスタマイズを行うことができます。
 

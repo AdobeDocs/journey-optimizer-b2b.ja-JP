@@ -6,12 +6,20 @@ role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
 autotag-review: '2026-05-27T16:13:22.974Z'
 TQID: 'https://experienceleague.adobe.com/WqMj4DVOmUd3s-r-n9bSyRjXSGS8sDWMFNh5wfOiE2Y'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
 source-wordcount: 391
@@ -21,7 +29,7 @@ ht-degree: 6%
 
 # フラグメントオーサリング
 
-[ フラグメントを作成した後](./fragments.md#create-fragments)、ビジュアルデザインスペースを使用して、フラグメント内の構造とコンテンツコンポーネントをオーサリングします。
+[&#x200B; フラグメントを作成した後](./fragments.md#create-fragments)、ビジュアルデザインスペースを使用して、フラグメント内の構造とコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#design-fragment}
 
@@ -47,7 +55,7 @@ ht-degree: 6%
 
 ## フラグメントのカスタマイズの有効化
 
-作成者が[電子メール ](./email-authoring.md#content-authoring---use-visual-fragments)または[電子メールテンプレート ](./email-template-authoring.md#content-authoring---use-visual-fragments)にフラグメントを追加すると、フラグメントコンテンツはデフォルトでロックされます。 公開されたフラグメントに対する変更は、フラグメントが使用されるすべてのコンテンツアセットに自動的に反映されます。 フラグメント内のコンポーネントのパラメーターを編集可能として指定すると、メールまたはテンプレート作成者は、ニーズに固有のカスタムフィールド値を指定できます。 このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。
+作成者が[電子メール &#x200B;](./email-authoring.md#content-authoring---use-visual-fragments)または[電子メールテンプレート &#x200B;](./email-template-authoring.md#content-authoring---use-visual-fragments)にフラグメントを追加すると、フラグメントコンテンツはデフォルトでロックされます。 公開されたフラグメントに対する変更は、フラグメントが使用されるすべてのコンテンツアセットに自動的に反映されます。 フラグメント内のコンポーネントのパラメーターを編集可能として指定すると、メールまたはテンプレート作成者は、ニーズに固有のカスタムフィールド値を指定できます。 このカスタマイズフラグは、画像、テキストおよびボタンのビジュアルコンポーネントに制限されます。
 
 例えば、クリック可能なボタンを含む再利用可能なバナーをデザインする場合、ボタンのURL パラメーターを編集可能として指定できます。 メール作成者は、メールキャンペーンに特化したURLを使用できます。 これらのカスタマイズ可能なフィールドを利用することで、マーケターは、まったく新しいコンテンツブロックを作成したり、継承された更新を元のフラグメントから中断したりすることなく、再利用可能なコンテンツを管理し、パーソナライズすることができます。
 
@@ -57,7 +65,7 @@ ht-degree: 6%
 
 1. 「**[!UICONTROL 編集を有効にする]**」オプションの切替スイッチをクリックし、編集可能なフィールドを設定します。
 
-   ![ フラグメント画像コンポーネントの編集可能フィールドを有効にする](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
+   ![&#x200B; フラグメント画像コンポーネントの編集可能フィールドを有効にする](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 
    表示されるフィールドのカスタマイズを有効にできます。これは、コンポーネントタイプとフラグメントで定義されたパラメーターに依存します。
 
