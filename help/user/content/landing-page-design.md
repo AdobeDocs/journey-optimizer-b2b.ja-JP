@@ -3,7 +3,6 @@ title: ランディングページデザイン
 description: ビジュアルツールを利用して、ランディングページをデザインできます。Journey Optimizer B2B editionなら、アカウントジャーニー用のコンテンツコンポーネントやフォーム、カスタム CSS、パーソナライゼーション、デバイスプレビューを追加できます。
 feature: Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -19,16 +18,16 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:18:56.836Z
 TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 6%
+source-wordcount: 411
+ht-degree: 3%
 
 ---
 
 # ランディングページのデザイン
 
-[&#x200B; ランディングページを作成した後](./landing-pages.md#create-a-landing-page)、ビジュアルデザインスペースを使用して、ページ内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。
+[&#x200B; ランディングページを作成した後](./landing-pages-create-publish.md#create-landing-page)、ビジュアルデザインスペースを使用して、ページ内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#structure-content-landing-page}
 
@@ -64,6 +63,18 @@ ht-degree: 6%
 
 {{$include /help/_includes/content-design-links.md}}
 
+![編集アイコンをクリックしてリンク追跡にアクセス &#x200B;](./assets/landing-page-link-tracking.png){width="400"}
+
+**[!UICONTROL トラッキングタイプ]**&#x200B;を使用して、リンクのトラッキングを制御します。
+
+* **[!UICONTROL トラッキング済み]** - リンク URLでトラッキングをアクティブ化します。
+<!-- 
+* External Opt-out - Considers the link URL as an opt-out or unsubscription URL.
+
+* Mirror page - Considers the link URL as a mirror page URL.
+-->
+* **[!UICONTROL なし]** - リンク URLのトラッキングをアクティブ化しません。
+
 ### 作品を保存
 
 いつでも&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックして、ドラフト ランディングページを保存します。
@@ -84,7 +95,7 @@ ht-degree: 6%
 
 ビジュアルデザインスペースの上部にある「_[!UICONTROL その他…]_」メニューから、次の操作を実行できます。
 
-![詳細をクリックしてテンプレートアクションにアクセス &#x200B;](./assets/landing-page-designer-more-menu.png){width="500"}
+![詳細をクリックしてランディングページのアクションにアクセス &#x200B;](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL ランディングページをリセット]** – このオプションをクリックすると、ビジュアルデザインキャンバスが空白のスレートに消去され、ページコンテンツの作成が再開されます。
 * **[!UICONTROL デザインを変更]** - _[!UICONTROL メインのランディングページの作成]_&#x200B;のホームページに戻ります。 そこから、別のテンプレートを選択してデザインプロセスを再開するか、空白のキャンバスでページをゼロからデザインするかを選択できます。

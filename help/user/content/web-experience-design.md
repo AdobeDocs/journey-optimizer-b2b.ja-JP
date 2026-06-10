@@ -5,22 +5,24 @@ feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
+autotag-review: '2026-05-27T16:20:57.090Z'
+TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-04-29T23:47:13.174Z
-TQID: https://experienceleague.adobe.com/8L1-UpqqSPlLqMwUpwOgOMT4cDzc55tua87M8-X1dKk
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
 source-wordcount: 2339
 ht-degree: 8%

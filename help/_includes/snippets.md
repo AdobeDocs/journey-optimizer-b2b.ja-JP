@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用するフィーチャーまたはページに注意するために、再利用されたメモとビジュアル要素
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2343'
 ht-degree: 5%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud ServiceおよびDynamic Media ライセンスのライセンスは、統合の前提条件です。 [Dynamic Media withOpen API](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}が有効になっていることを確認します。 統合は、_配信層_&#x200B;のリポジトリに制限されています。 _オーサー層_&#x200B;を使用し、それを変換する場合は、Adobe Experience Manager サポートにお問い合わせください。<br/>
->ビジュアルコンテンツをデザインする際に、契約と設定に応じて、Adobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
+>AEM Assets as a Cloud ServiceおよびDynamic Media ライセンスのライセンスは、統合の前提条件です。[Dynamic Media withOpen API](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}が有効になっていることを確認します。統合は、_配信層_&#x200B;のリポジトリに制限されています。_オーサー層_&#x200B;を使用し、それを変換する場合は、Adobe Experience Manager サポートにお問い合わせください。<br/>
+>契約と設定に応じて、ビジュアルコンテンツをデザインする際に、Adobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
 
 ## コンテンツオーサリング – コンポーネント – 構造ステップ {#structures-step}
 
@@ -141,7 +141,7 @@ ht-degree: 5%
 
 「_[!UICONTROL スタイル]_」タブが選択された右側のパネルで、**[!UICONTROL マージン]** セクションを展開し、構造コンポーネント内のマージン間隔のオプションを設定します。 このスタイルは、コンポーネントの境界線の外側のスペースに制御するCSS `margin` パラメーターを複製し、他のコンポーネントから分離します。 コンポーネントの周囲にギャップを作成して、コンポーネントの位置と周囲のコンテンツのレイアウトに影響を与えます。
 
-デザインのニーズに応じて、余白の値をピクセル単位で設定します。 コンポーネントのすべての辺、上端、左右、または各辺のマージンを個別に設定できます。
+デザインのニーズに応じて、余白の値をピクセル単位で設定します。 すべての辺、上下、左右、またはコンポーネントの各辺の余白を個別に設定できます。
 
 * **すべての辺** – すべての辺に適用する値を1つ設定するには、**[!UICONTROL 各辺の異なる余白]** チェックボックスをオフにします。 上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
 
@@ -161,7 +161,7 @@ ht-degree: 5%
 
 「_[!UICONTROL スタイル]_」タブが選択された右側のパネルで、**[!UICONTROL パディング]** セクションを展開し、構造コンポーネント内のパディングのオプションを設定します。 このスタイルは、コンポーネントのコンテンツと境界線の間のスペースであるCSS `padding` パラメーターを複製します。 パディングには、コンテンツとコンポーネントの境界線の間の距離を制御するために使用できる内部間隔が用意されています。
 
-デザインのニーズに応じて、パディング値をピクセル単位で設定します。 コンポーネントのすべての側面、上部下部、左右側面、または各側面に対して、それぞれ個別にパディングを設定できます。
+デザインのニーズに応じて、パディング値をピクセル単位で設定します。 コンポーネントのすべての辺、上下、左右、または各辺のパディングを個別に設定できます。
 
 * **すべての辺** – すべての辺に適用する1つの値を設定するには、**[!UICONTROL 各辺に対する異なるパディング]** チェックボックスをオフにします。 上向き矢印アイコンと下向き矢印アイコンをクリックして、ピクセル数を増減します。
 

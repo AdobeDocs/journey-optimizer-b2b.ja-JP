@@ -1,7 +1,7 @@
 ---
 title: コンテンツ作成 – フォームの追加
 description: ランディングページおよびテンプレートでのフォームの追加に関する節を再利用
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%

@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: 1381
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 7%
 
    * **[!UICONTROL 手動スタイル設定]** – このオプションを選択すると、_手動モード_&#x200B;で電子メールを作成できます。 このモードでは、空白のカンバスに追加するすべての構造およびコンテンツコンポーネントのスタイル設定を手動で設定します。
 
-1. [構造とコンテンツ &#x200B;](./email-authoring.md#add-structure-and-content)をテンプレートに追加します。
+1. [構造とコンテンツ &#x200B;](./email-authoring.md#structure-content)をテンプレートに追加します。
 
 1. [&#x200B; リンクのレビューと更新](#preview-and-edit-linked-urls)。
 
@@ -141,6 +141,20 @@ ht-degree: 7%
 ### リンクされたURL トラッキングを編集
 
 {{$include /help/_includes/content-design-links.md}}
+
+![編集アイコンをクリックしてリンク追跡にアクセス &#x200B;](./assets/email-link-tracking.png){width="400"}
+
+メール配信システム（Marketo Engage経由）は、送信時に一意のトラッキングリダイレクトを使用して、HTML メール内のすべてのURLを自動的にラップします。 **[!UICONTROL トラッキングタイプ]**&#x200B;を使用して、リンクのトラッキングを制御します。
+
+* **[!UICONTROL トークンなしで追跡]** - システムはクリックを登録しますが、ユーザーがweb ページで次に行うことを追跡します。 これは、mkt_tokを正しく処理しない可能性のあるサードパーティシステムを扱う場合など、特定の技術的な場合に重要になる可能性があります。 ただし、後続のweb トラッキングは制限されています。
+
+* **[!UICONTROL mkt-tokでトラッキング]** - トラッキングトークン（mkt_tok）を使用して、Munchkinを通じて後続のweb アクティビティをトラッキングします。 受信者がリンクをクリックすると、アクティビティログに&#x200B;_クリックメール_ イベントが登録され、そのアクティビティが安全に追跡され、Cookieが適用されて今後のサイトインタラクションが監視されます。
+
+* **[!UICONTROL トラッキングしない]** - システムは、リンクに関連付けられたアクティビティを追跡しません。 この情報は、表示先ページで URL パラメーターをサポートしていないためにページリンクエラーになる場合などに役立ちます。
+
+  >[!NOTE]
+  >
+  >メールが365日前に送信され、過去180日間に誰もそのリンクをクリックしなかった場合、システムはデータベースからURLへのルートをプルーニングします。 この削除により、リンクが壊れます。 リンクを永続的にしたい場合は、トラッキングを無効にする必要があります。
 
 ### ダークモードのスタイル設定の適用
 
