@@ -172,7 +172,7 @@ Journey Optimizer B2B editionでランディングページのコンテンツ [&
 <!--
 ## Create test profiles using API calls {#create-test-profiles-api}
 
-You can also create test profiles via API calls. Learn more in [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
+You can also create test profiles via API calls. Learn more in [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}.
 
 You must use a Profile schema that contains the **[!UICONTROL Profile test details]** field group. The `testProfile` flag is part of this field group.
 When creating a profile, make sure you pass the value: `testProfile = true`.
