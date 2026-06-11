@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 06b214f486571275d723e7a67fdf352263990b79
 workflow-type: tm+mt
-source-wordcount: 2542
+source-wordcount: 2541
 ht-degree: 3%
 
 ---
@@ -152,7 +152,7 @@ _&#x200B;**ユーザー別の分割パスの仕組み**&#x200B;_
 | [!UICONTROL &#x200B; カスタムオブジェクト &#x200B;] >に`<custom object>`があります | [!BADGE Beta]{type=Informative tooltip="Betaの機能"}この人物には、リレーショナルスキーマレコードがないか、またはリレーショナルスキーマレコードがありません。 また、[XDM リレーショナルスキーマ &#x200B;](../admin/xdm-field-management.md#relational-schemas)で設定されているように、選択したカスタムオブジェクトの条件に対して評価することもできます。 （[&#x200B; カスタムデータフィルタリング &#x200B;](#custom-data-filtering)を参照） |
 | [!UICONTROL &#x200B; イベント履歴] | ジャーニーのエントリ前に発生したエクスペリエンスイベントに基づいて人物を分割します。 フォルダーを展開して、[管理者 / XDM イベント設定](../admin/configure-aep-events.md)で設定されたすべてのイベントタイプを表示し、フィルターとして追加するイベントタイプを1つ選択します。 制約には、選択したイベントのフィールド、オーディエンスがジャーニーにエントリした時点から遡ったルックバックタイムウィンドウ、オプションの最小回数などが含まれます。 |
 | [!UICONTROL 人物の属性] | [人物プロファイル &#x200B;](../admin/field-mapping.md#xdm-business-person-attributes)の属性（以下を含む）: <li>市区町村 <li>国 <li>メールアドレス <li>メール無効 <li>メール中断済み <li>名 <li>推測される都道府県 / 地域 <li>役職 <li>姓 <li>携帯電話番号 <li>人物エンゲージメントスコア <li>電話番号 <li>郵便番号 <li>都道府県 |
-| [!UICONTROL 特殊フィルター] > [!UICONTROL 購買グループのメンバー] | （非推奨）人物が購買グループメンバーであるか、または購買グループメンバーでない場合、次の1つ以上の基準に照らして評価されます。 <li>ソリューションへの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>が削除されました</li><li>役割</li> |
+| [!UICONTROL 特殊フィルター] > [!UICONTROL 購買グループのメンバー] | 個人が購買グループのメンバーであるか、またはメンバーでない場合は、次の基準の1つ以上に対して評価されます。 <li>ソリューションへの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>が削除されました</li><li>役割</li> |
 | [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; リストのメンバー] | （非推奨）人物は、1つ以上の[!DNL Marketo Engage] リストのメンバーであるか、メンバーではありません。 |
 | [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; プログラムのメンバー] | （非推奨）人物は、1つ以上の[!DNL Marketo Engage] プログラムのメンバーであるか、メンバーではありません。 |
 
