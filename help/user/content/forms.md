@@ -103,7 +103,7 @@ Journey Optimizer B2B editionで再利用可能なフォームの作成を開始
 >id="ajo-b2b_lp_form_preset"
 >title="プリセットを選択"
 >abstract="使用する接続を含む事前定義済みプリセットと、フォームの事前定義済みデータセットを選択します。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="フォームプリセットを作成"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="フォームプリセットを作成"
 
 Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL Forms]_ リストページの右上にある「**[!UICONTROL フォームを作成]**」をクリックします。
 
