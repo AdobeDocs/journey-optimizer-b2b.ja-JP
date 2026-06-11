@@ -18,10 +18,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
 workflow-type: tm+mt
-source-wordcount: 2466
-ht-degree: 1%
+source-wordcount: 2504
+ht-degree: 2%
 
 ---
 
@@ -98,6 +98,12 @@ Journey Optimizer B2B editionで再利用可能なフォームの作成を開始
   ランディングページを訪問した既知の顧客に対して、フォームのバイパスを許可すると、コンテンツに直接アクセスできるようになります。 フォームをバイパスすると、より合理的な訪問者エクスペリエンスが得られます。
 
 ### 新しいフォームを追加 {#new-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_lp_form_preset"
+>title="プリセットを選択"
+>abstract="使用する接続を含む事前定義済みプリセットと、フォームの事前定義済みデータセットを選択します。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="フォームプリセットを作成"
 
 Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL Forms]_ リストページの右上にある「**[!UICONTROL フォームを作成]**」をクリックします。
 
