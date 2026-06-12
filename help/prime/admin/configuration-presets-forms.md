@@ -18,7 +18,7 @@ ht-degree: 23%
 
 ## 前提条件
 
-Web フォームを使用するには、Adobe Experience Platformで1つ以上の&#x200B;_&#x200B;**HTTP API ストリーミング接続**&#x200B;_&#x200B;を定義する必要があります。 使用する各接続が次の要件を満たしていることを確認します。
+Web フォームを使用するには、Adobe Experience Platformで1つ以上の&#x200B;_**HTTP API ストリーミング接続**_&#x200B;を定義する必要があります。 使用する各接続が次の要件を満たしていることを確認します。
 
 * データ型はXDMに設定する必要があります（Raw データではありません）
 * 認証は無効にする必要があります（認証されていない接続）
@@ -90,7 +90,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    >[!NOTE]
    >
-   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に 1 つのデータセットを選択できます。 フォームデータの保存にシステムデータセットを使用することはできません。
+   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に 1 つのデータセットを選択できます。 フォームデータの保存にシステムデータセットを使用することはできません。
 
    データセットのチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
