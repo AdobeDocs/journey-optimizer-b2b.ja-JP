@@ -18,10 +18,10 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 2362
-ht-degree: 80%
+source-wordcount: 2333
+ht-degree: 81%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer B2B editionは、添付されたMarketo Engage インス
 
 ## ランディングページとメールの DNS レコードを作成
 
-CNAME レコードを接続すると、マーケターは、トラフィックとコンバージョンを向上させる一貫性のあるブランドで、メール、ランディングページ、ブログの web バージョンをホストできます。 マーケティングに焦点を当てた web アセットをホストするために、Marketo Engage のルートドメインホストに CNAME を追加することを強くお勧めします。 Marketo Engageを通じて送信されるメールに含まれるトラッキングリンクのCNAME レコードを計画および実装するには、マーケティング部門と連携して管理者として作業します。
+CNAME レコードを接続すると、マーケターは、トラフィックとコンバージョンを向上させる一貫性のあるブランドで、メール、ランディングページ、ブログの web バージョンをホストできます。 マーケティングに焦点を当てた web アセットをホストするために、Marketo Engage のルートドメインホストに CNAME を追加することを強くお勧めします。
 
 2つのCNAME レコードを計画して実装するには、管理者としてマーケティング部門と協力します。 1 つ目はランディングページの URL です。この場合、ランディングページは、Adobe Marketo Engage（実際のホスト）ではなく、ドメインを反映した URL で表示されます。 2 つ目は、Marketo Engage経由で送信されるメールに含まれるトラッキングリンクの場合です。
 

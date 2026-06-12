@@ -21,16 +21,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 848
 ht-degree: 74%
 
 ---
 
 # チェックリストを設定
 
-Adobe Journey Optimizer B2B editionは、Adobe Experience Platform上に構築されています。 この実装では、Journey Optimizer B2B editionとMarketo Engageは同じシステムまたは同じデータストア上にありません。 Journey Optimizer B2B editionは、Adobe Experience Platformからデータを受け取ります。 ただし、システムのプロビジョニングと設定には、Marketo Engageの使用権限と、メール配信などのバックエンド機能が引き続き使用されます。
+Adobe Journey Optimizer B2B editionは、Adobe Experience Platform上に構築されています。 この実装では、Journey Optimizer B2B editionとMarketo Engageは同じシステムまたは同じデータストア上にありません。 Journey Optimizer B2B editionは、Experience Platformからデータを受け取ります。 ただし、システムのプロビジョニングと設定には、Marketo Engageの使用権限と、メール配信などのバックエンド機能が引き続き使用されます。
 
 <!-- 
 >>[!NOTE]
