@@ -4,11 +4,19 @@ description: コンテンツ編集でAEM Assetsの画像にアクセスして利
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: d09181b5-a36a-43de-ba01-36641440bc43
-feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: da3860b0-d637-47df-bef0-273751180266
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:38:14.175Z
 TQID: https://experienceleague.adobe.com/xcGhfHeUuvmdsUws17Kpb7w3HmM7LaB3C633HiicmJ0
 source-git-commit: dd3d59696cbef03ac7b69ef32cdd0c2d6dc0fb6e
@@ -34,7 +42,7 @@ ht-degree: 2%
 
 ## AEM Assetsの画像へのアクセス
 
-コンテンツデザイン領域で、左側のサイドバーにある&#x200B;_[!UICONTROL Experience Manager Assets]_ （![Experience Manager Assets アイコン ](../../assets/do-not-localize/icon-assets-aem.svg)）アイコンをクリックします。 これにより、ツールパネルが、選択したリポジトリ内の使用可能なアセットのリストに変更されます。
+コンテンツデザイン領域で、左側のサイドバーにある&#x200B;_[!UICONTROL Experience Manager Assets]_ （![Experience Manager Assets アイコン &#x200B;](../../assets/do-not-localize/icon-assets-aem.svg)）アイコンをクリックします。 これにより、ツールパネルが、選択したリポジトリ内の使用可能なアセットのリストに変更されます。
 
 ![Assets セレクターアイコンをクリックして、画像アセットにアクセスします](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
@@ -56,7 +64,7 @@ ht-degree: 2%
 
 1. 画像のサムネールをドラッグし、新しい画像コンポーネントを追加する場所にキャンバスにドロップします。
 
-   ![画像アセットをドラッグ&amp;ドロップ ](./assets/content-drag-drop-image-aem-assets.png){width="700" zoomable="yes"}
+   ![画像アセットをドラッグ&amp;ドロップ &#x200B;](./assets/content-drag-drop-image-aem-assets.png){width="700" zoomable="yes"}
 
 ## 画像の検索と選択
 
@@ -82,7 +90,7 @@ ht-degree: 2%
 
    * 検索フィールドにテキストを入力して、アセット名に一致するアセットの表示アイテムをフィルタリングします。
 
-   ![ フィルターと検索フィールドを使用してアセットを検索](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
+   ![&#x200B; フィルターと検索フィールドを使用してアセットを検索](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 選択]**」をクリックします。
 <!--

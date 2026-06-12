@@ -54,7 +54,7 @@ Email designers can now select from standard [!DNL Firefly] models, custom [!DNL
 Journey Optimizer B2B Primeオンボーディングガイダンス（管理者およびマーケター向け）をご確認ください。
 
 [管理者](./start/setup-prime.md)
-[ ユーザー](./start/get-started.md)
+[&#x200B; ユーザー](./start/get-started.md)
 :::
 
 :::
