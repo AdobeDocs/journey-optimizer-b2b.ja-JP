@@ -4,25 +4,14 @@ description: デフォルト、登録解除、web ビュー、ベロシティオ
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: f467931a-9b22-4ca8-869f-adfbd64061ceid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 1321
 ht-degree: 70%
@@ -49,7 +38,7 @@ ht-degree: 70%
 
 1. _[!UICONTROL 設定]_ パネルで **[!UICONTROL 送信元メール]** および **[!UICONTROL 送信元ラベル]** のデフォルト値を入力します。
 
-   ![&#x200B; メール設定 – 「送信元メール」および「送信元ラベル」のデフォルト値 &#x200B;](./assets/me-admin-email-settings-from.png){width="500"}
+   ![ メール設定 – 「送信元メール」および「送信元ラベル」のデフォルト値 ](./assets/me-admin-email-settings-from.png){width="500"}
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
@@ -65,7 +54,7 @@ ht-degree: 70%
    >
    >マーケターは、システムトークンを使用して、メール内の購読解除HTMLの位置を変更できます。
 
-   ![&#x200B; メール設定 – HTMLの登録を解除およびテキストの登録を解除のデフォルト値 &#x200B;](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
+   ![ メール設定 – HTMLの登録を解除およびテキストの登録を解除のデフォルト値 ](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
 
    >[!CAUTION]
    >
@@ -95,7 +84,7 @@ ht-degree: 70%
 
 1. _[!UICONTROL 設定]_ パネルの **[!UICONTROL Web ページとして表示HTML]** および **[!UICONTROL Web ページテキストとして表示]** フィールドのコンテンツを、トーンとメッセージを反映するように変更します。
 
-   ![&#x200B; メール設定 – Web ページのHTMLとして表示および Web ページテキストとして表示のデフォルト値 &#x200B;](./assets/me-admin-email-settings-view-as-web-page.png){width="500"}
+   ![ メール設定 – Web ページのHTMLとして表示および Web ページテキストとして表示のデフォルト値 ](./assets/me-admin-email-settings-view-as-web-page.png){width="500"}
 
    >[!CAUTION]
    >
@@ -146,7 +135,7 @@ To view this email as a web page, go to the following address:
 1. _[!UICONTROL カスタムオブジェクト検索制限]_ パネルまでスクロールし、**[!UICONTROL 親検索制限に新しい値を入力します]**
 フィールド。
 
-   ![Marketo Engage電子メール管理者 – カスタム オブジェクト取得の制限の既定値 &#x200B;](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
+   ![Marketo Engage電子メール管理者 – カスタム オブジェクト取得の制限の既定値 ](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
    10～100 の値がサポートされています。 システムは、1000を親制限で割って、_[!UICONTROL 子検索制限]_&#x200B;を自動的に設定します。 例えば、親の制限を 50 に設定した場合、子の制限は 20 （1000 ÷ 50 = 20）と計算されます。
 
@@ -160,7 +149,7 @@ To view this email as a web page, go to the following address:
 
 1. _[!UICONTROL カスタムヘッダーオプション]_ パネルまでスクロールし、トラッキングリンクポリシーに従って設定を変更します。
 
-   ![Marketo Engageのメール管理者 – カスタム ヘッダーオプションの既定の設定 &#x200B;](./assets/me-admin-email-custom-header-options.png){width="500"}
+   ![Marketo Engageのメール管理者 – カスタム ヘッダーオプションの既定の設定 ](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL 厳格なトランスポート セキュリティ]** – このオプションを&#x200B;_有効_&#x200B;に設定して、トラッキングリンクが常にHTTPS経由で提供されるようにします。 SSLで保護されたトラッキングリンクを持つサブスクリプションでのみ有効にします。
    * **[!UICONTROL Max-age]** – このフィールドは、ブラウザーがHTTPS経由でドメインのみにアクセスすることを記憶する時間を秒単位で指定する必須ディレクティブをサポートしています。
@@ -176,8 +165,8 @@ To view this email as a web page, go to the following address:
 
 メール ボットアクティビティは、非ヒューマンインタラクション（NHI）とも呼ばれ、メール _開封数_ クリック数 _データを水増しし、エンゲージメント指標を歪め、イベントベースのジャーニー進行をトリガーする可能性が_ ります。 メールボットフィルタリングを使用して、クリックエンゲージメント指標とインサイトの整合性を維持します。 疑わしいボットアクティビティを識別する方法は 2 つあります。
 
-* _&#x200B;**[!UICONTROL IAB ボットリストとの一致]**&#x200B;_ - [&#x200B; インタラクティブ Advertising ビューロボットリスト &#x200B;](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} 内の任意のものと一致するアクティビティ（ユーザーエージェント/IP アドレス）はボットとしてマークされます。
-* _&#x200B;**[!UICONTROL 近接パターンと一致]**&#x200B;_ – 同時に（1 秒未満で）発生する 2 つ以上のアクティビティがボットとして識別されます。 比較時に考慮される属性は以下のとおりです。
+* _**[!UICONTROL IAB ボットリストとの一致]**_ - [ インタラクティブ Advertising ビューロボットリスト ](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} 内の任意のものと一致するアクティビティ（ユーザーエージェント/IP アドレス）はボットとしてマークされます。
+* _**[!UICONTROL 近接パターンと一致]**_ – 同時に（1 秒未満で）発生する 2 つ以上のアクティビティがボットとして識別されます。 比較時に考慮される属性は以下のとおりです。
    * リード ID（同じであること）
    * メールアセット（同じであること）
    * リンククリックまたはメール開封
@@ -193,7 +182,7 @@ To view this email as a web page, go to the following address:
 
 1. **[!UICONTROL ボットアクティビティ]** タブを選択します。
 
-   ![Marketo Engageのメール管理者 – 「ボットアクティビティ」タブ &#x200B;](./assets/me-admin-email-bot-activity.png){width="700" zoomable="yes"}
+   ![Marketo Engageのメール管理者 – 「ボットアクティビティ」タブ ](./assets/me-admin-email-bot-activity.png){width="700" zoomable="yes"}
 
    ボットアクティビティ識別パネルには、ボットアクティビティを識別するために使用できる 2 つのスライダーが表示されます。
 
@@ -203,9 +192,9 @@ To view this email as a web page, go to the following address:
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL &#x200B; ボットアクティビティをフィルター &#x200B;] を選択すると、誤ったアクティビティが排除されるので、メールの開封数とクリック数が減少する場合があります。
+   >[!UICONTROL  ボットアクティビティをフィルター ] を選択すると、誤ったアクティビティが排除されるので、メールの開封数とクリック数が減少する場合があります。
 
-   ![Marketo Engageのメール管理者 – ボットアクティビティ識別オプション &#x200B;](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
+   ![Marketo Engageのメール管理者 – ボットアクティビティ識別オプション ](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
 
    _[!UICONTROL 近接パターン]_&#x200B;と一致する場合は、**[!UICONTROL アクティビティ間の期間]**&#x200B;の秒数も設定できます（デフォルトは`0`、最大値は`3`）。
 
