@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 2476
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="AI コンテンツ生成"
->abstract="レイアウトを作成したら、[!DNL Journey Optimizer B2B Edition]の生成AI ツールを使用してコンテンツを強化します。 この機能は、プロンプトに基づいてコンテンツを微調整することで、パーソナライゼーションとコンテンツの改善を簡素化します。"
+>abstract="レイアウトを作成したら、[!DNL Journey Optimizer B2B Edition] の生成 AI ツールを使用してコンテンツを強化できます。 この機能を使用すると、プロンプトに基づいてコンテンツを微調整することで、パーソナライゼーションとコンテンツ改善が簡素化されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="参照コンテンツ"
->abstract="_参照コンテンツ_&#x200B;を使用して、[!DNL Journey Optimizer B2B Edition]で生成AIのコンテキストを提供するアセットファイルをアップロードまたは選択します。 これにより、生成されたコンテンツの品質と関連性を高めるための素材を利用できるようになります。"
+>abstract="_参照コンテンツ_&#x200B;を使用して、[!DNL Journey Optimizer B2B Edition] の生成 AI のコンテキストを提供するアセットファイルをアップロードまたは選択します。 これにより、生成されるコンテンツの品質と関連性を高めるための資料が使用できるようになります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe 生成 AI の用語"
->abstract="この機能にアクセスするには、Adobe Experience Cloud生成AI ユーザーガイドラインに同意する必要があります。 この機能からの出力が正確であるかどうかを見直し、ユースケースに適していることを確認します。"
+>abstract="この機能にアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。 この機能からの出力が正確であるかどうかを見直し、ユースケースに適していることを確認します。"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成 AI ユーザーガイドライン"
 
 Microsoft Azure OpenAIとAdobe Fireflyを活用した[!DNL Adobe Journey Optimizer B2B Edition]のコンテンツ生成AIは、テキストや画像に対する先見的なコンテンツのバリエーション提案を提供します。 さまざまなメインタイトルや画像を試して、コンテンツの効果を最適化しましょう。
