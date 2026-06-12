@@ -19,7 +19,7 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:38:14.175Z
 TQID: https://experienceleague.adobe.com/xcGhfHeUuvmdsUws17Kpb7w3HmM7LaB3C633HiicmJ0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: dd3d59696cbef03ac7b69ef32cdd0c2d6dc0fb6e
 workflow-type: tm+mt
 source-wordcount: 592
 ht-degree: 2%
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 To import files to Assets as a Cloud Service, you first need to browse or create the folder to be used for storage. You can then import an asset and add it to your email content. After assets are uploaded, you can [use the image assets as you author content](./assets-overview.md#add-assets-to-your-content).
 
-1. While authoring your content in the email designer, drag an image element into the canvas. 
+1. While authoring your content in the email design space, drag an image element into the canvas. 
 
    The properties on the right reflect the image element selection. 
 

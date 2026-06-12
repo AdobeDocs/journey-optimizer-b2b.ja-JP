@@ -1,21 +1,21 @@
 ---
-user-guide-title: Journey Optimizer B2B エディションのドキュメント
-user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
+user-guide-title: Journey Optimizer B2B Ultimateのドキュメント
+user-guide-description: Adobe Journey Optimizer B2B edition Ultimateについて学び、組み込みの生成AIと業界をリードする自動化を活用して、アカウントと購買グループのジャーニーを調整する方法について学びましょう。
+source-git-commit: b686ab778c1640cc76f098aa18b8f2bdb1e24a32
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 89%
+source-wordcount: '450'
+ht-degree: 79%
 
 ---
 
 
-# Journey Optimizer B2B Edition ユーザーガイド {#user}
+# Journey Optimizer B2B Ultimateユーザーガイド {#user}
 
-+ [Adobe Journey Optimizer B2B Edition ドキュメント](guide-overview.md)
++ [Adobe Journey Optimizer B2B Ultimateのドキュメント](guide-overview.md)
 + [リリースノート](./release-notes/release-notes.md)
 + 基本を学ぶ {#get-started}
    + [Journey Optimizer B2B Edition の概要](about-journey-optimizer-b2b-edition.md)
-   + 環境の設定 {#admin-setup}
+   + Ultimateの設定 {#ultimate}
       + [チェックリストを設定](./setup-ultimate.md)
       + [名前空間とスキーマ](./data/namespaces-schemas.md)
       + [XDM フィールドの選択](./admin/xdm-field-management.md)
