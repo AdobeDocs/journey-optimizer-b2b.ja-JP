@@ -1,0 +1,78 @@
+---
+user-guide-title: Journey Optimizer B2B Primeのドキュメント
+user-guide-description: Adobe Journey Optimizer B2B edition Primeとその使用方法について説明します。
+source-git-commit: 8971313434bffc57472c11a3879b683a50686db9
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 37%
+
+---
+
+
+# Journey Optimizer B2B Primeユーザーガイド {#prime}
+
++ [Adobe Journey Optimizer B2B Primeのドキュメント](guide-overview.md)
++ [設定](./start/setup-prime.md)
++ [ホームとインサイト](./home-insights/home-insights.md)
++ マーケティング管理 {#marketing-management}
+   + {hide-from-toc}[概要](./marketing/marketing-management.md)
+   + [プログラム](./marketing/programs.md)
+   + [顧客ジャーニー](./marketing/person-journeys.md)
+   + ジャーニーノード {#journey-nodes}
+      + [ノードの概要](./marketing/person-journey-nodes.md)
+      + [アクションの実行](./marketing/action-nodes.md)
+      + [イベントのリッスン](./marketing/listen-for-event-nodes.md)
+      + [待機](./marketing/wait-nodes.md)
+      + [パスの分割と結合](./marketing/split-merge-paths-nodes.md)
+      + [次に最適なパス](./marketing/next-best-path.md)
++ [エージェント](./agents/agents.md)
++ オーディエンス {#audiences}
+   + [オーディエンス管理](./audiences/audience-management.md)
+   + [動的なオーディエンス選定](./audiences/dynamic-audience-qualification.md)
+   + [イベントベースのオーディエンス](./audiences/event-based-audiences.md)
++ コンテンツ {#content}
+   + [メール](./content/email-authoring.md)
+   + テンプレート {#templates}
+      + [テンプレートの概要](./content/templates.md)
+      + [テンプレートの作成](./content/templates-create.md)
+      + [コンテンツのロック](./content/template-content-locking.md)
+   + [ランディングページ](./content/landing-pages.md)
+   + [フォーム](./content/forms.md)
++ {hide-from-toc}[販売修飾子](./sales-qualifier/sales-qualifier.md)
++ {hide-from-toc}[Brand Concierge](./brand-concierge/brand-concierge.md)
++ 管理 {#admin}
+   + {hide-from-toc}[管理](./admin/admin.md)
+   + チャネル {#channels}
+      + [メールの到達性とチャネル設定](./admin/configuration-email-deliverability.md)
+      + [SMS チャネル設定](./admin/configuration-channels-sms.md)
+      + [Web チャネル設定](./admin/configuration-channels-web.md)
+      + [WhatsApp チャネル設定](./admin/configuration-channels-whatsapp.md)
+      + [ランディングページの設定](./admin/configuration-presets-landing-pages.md)
+      + [フォームプリセット設定](./admin/configuration-presets-forms.md)
+
+<!--
+   + Business rules
+   + Program types
+-->
+
+<!-- 
++ AI Assistant {#ai-assistant}
+    + [Overview](./ai-assistant/ai-assistant-overview.md)
+    + [Enable AI Assistant access](./ai-assistant/enable-ai-assistant-access.md)
+    + [Question guidance](./ai-assistant/question-guidance.md)
+    + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
+    + [Generative AI for content](./ai-assistant/generative-ai-content.md)
+    + Agents {#agents}
+       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
+       + [Journey Agent B2B](./agents/journey-agent.md)
+       + [Account Qualification](./agents/sales-qualifier.md)
+
++ [Data and connections](./data/data.md)
+   + Destinations
+
+For Content
+   + {hide-from-toc} Assets
+   + {hide-from-toc} Fragments
+   + {hide-from-toc} Forms
+   + {hide-from-toc} Landing pages
+-->
