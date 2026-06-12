@@ -2,9 +2,15 @@
 title: メールテンプレート
 description: フォルダーを使用してテンプレートを整理する方法など、Journey Optimizer B2B Primeでメールテンプレートにアクセスして管理する方法について説明します。
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、限定的なベータ版リリースの一部です。"
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+autotag-review: '2026-06-12T22:56:19.345Z'
+TQID: 'https://experienceleague.adobe.com/TTr-0Pm7Jb0LLCHt6hZb8mkXdeC7PUqteYVDuyanfs0'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 485
 ht-degree: 2%
 
 ---
@@ -75,4 +81,4 @@ ht-degree: 2%
 
 ## メールでのテンプレートの使用 {#use-in-journey}
 
-ジャーニーで電子メールを作成する場合、**[!UICONTROL デザインテンプレートを選択]** セクションでは、保存されたテンプレートまたはサンプルテンプレートから選択できます。 テンプレートのサムネールをクリックしてプレビューし、**[!UICONTROL このテンプレートを使用]**&#x200B;をクリックして適用します。 ワークフロー全体については、[電子メールオーサリング &#x200B;](email-authoring.md#templates)を参照してください。
+ジャーニーで電子メールを作成する場合、**[!UICONTROL デザインテンプレートを選択]** セクションでは、保存されたテンプレートまたはサンプルテンプレートから選択できます。 テンプレートのサムネールをクリックしてプレビューし、**[!UICONTROL このテンプレートを使用]**&#x200B;をクリックして適用します。 ワークフロー全体については、[電子メールオーサリング ](email-authoring.md#templates)を参照してください。

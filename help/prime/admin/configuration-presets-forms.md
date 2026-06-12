@@ -1,9 +1,15 @@
 ---
 title: Formsの設定
 description: プレースホルダー
-source-git-commit: 5e8485347364930b1176c0d18f1ac221c91dae30
+autotag-review: '2026-06-12T22:44:42.084Z'
+TQID: 'https://experienceleague.adobe.com/aJKRaYBEdieyIUsuszVy4g2LANEVLQP9aQfhhrKOhx0'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: 538
 ht-degree: 23%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 23%
 
 ## 前提条件
 
-Web フォームを使用するには、Adobe Experience Platformで1つ以上の&#x200B;_&#x200B;**HTTP API ストリーミング接続**&#x200B;_&#x200B;を定義する必要があります。 使用する各接続が次の要件を満たしていることを確認します。
+Web フォームを使用するには、Adobe Experience Platformで1つ以上の&#x200B;_**HTTP API ストリーミング接続**_&#x200B;を定義する必要があります。 使用する各接続が次の要件を満たしていることを確認します。
 
 * データ型はXDMに設定する必要があります（Raw データではありません）
 * 認証は無効にする必要があります（認証されていない接続）
@@ -90,7 +96,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    >[!NOTE]
    >
-   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に 1 つのデータセットを選択できます。 フォームデータの保存にシステムデータセットを使用することはできません。
+   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に 1 つのデータセットを選択できます。 フォームデータの保存にシステムデータセットを使用することはできません。
 
    データセットのチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 

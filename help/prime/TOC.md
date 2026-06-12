@@ -1,10 +1,11 @@
 ---
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B edition Primeとその使用方法について説明します。
-source-git-commit: 8971313434bffc57472c11a3879b683a50686db9
+hide: true
+source-git-commit: b806577e0eeb57445809e33076a0c30689ecb5ab
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 37%
+source-wordcount: '114'
+ht-degree: 40%
 
 ---
 
@@ -31,11 +32,13 @@ ht-degree: 37%
    + [動的なオーディエンス選定](./audiences/dynamic-audience-qualification.md)
    + [イベントベースのオーディエンス](./audiences/event-based-audiences.md)
 + コンテンツ {#content}
-   + [メール](./content/email-authoring.md)
+   + メール {#emails}
+      + [メールオーサリング](./content/email-authoring.md)
+      + [ダークモードのデザイン](./content/email-dark-mode.md)
    + テンプレート {#templates}
-      + [テンプレートの概要](./content/templates.md)
+      + [概要](./content/templates.md)
       + [テンプレートの作成](./content/templates-create.md)
-      + [コンテンツのロック](./content/template-content-locking.md)
+      + [コンテンツガバナンス](./content/template-content-governance.md)
    + [ランディングページ](./content/landing-pages.md)
    + [フォーム](./content/forms.md)
 + {hide-from-toc}[販売修飾子](./sales-qualifier/sales-qualifier.md)
