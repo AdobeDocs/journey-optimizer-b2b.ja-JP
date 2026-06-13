@@ -3,10 +3,16 @@ title: ランディングページ
 description: 個人向けジャーニーのランディングページを作成、デザイン、公開します。Journey Optimizer B2B Primeでは、ゼロから作成、HTMLをインポートして、フォームを追加、コンテンツをパーソナライズし、メールからリンクできます。
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 90d0cdfd37de3ee961cac64db3da87a042a26697
 workflow-type: tm+mt
 source-wordcount: 1461
@@ -42,6 +48,7 @@ For example, you can create and design landing pages to direct your users to onl
 
 You can create, personalize, and preview landing pages in the visual design space.
 -->
+
 ## ランディングページへのアクセスと管理
 
 Journey Optimizer B2B Primeのランディングページにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL ランディングページ]**&#x200B;をクリックします。 このアクションは、インスタンスで作成されたすべてのランディングページのリストを表示します。
