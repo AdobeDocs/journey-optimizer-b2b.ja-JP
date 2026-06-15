@@ -15,10 +15,10 @@ subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 23%
+source-wordcount: 541
+ht-degree: 22%
 
 ---
 
@@ -65,7 +65,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
    * _ターゲット接続_ - データが保存または使用される場所。
    * _Source フロー_ - ソース接続からExperience Platformにデータを移動するパイプライン。 マッピング、変換、検証を処理します。
 
-## フォームプリセットを作成
+## フォームプリセットを作成 {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -96,7 +96,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    この接続は、web ビューアがフォームを送信するときにデータを送信するために使用されるストリーミングエンドポイントです。 必要なストリーミング接続がリストに表示されない場合は、要件が満たされていることを確認します。
 
-1. 「_データセットを選択_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) -->」アイコンをクリックして、データセットをフォームにリンクします。
+1. _データセットを選択_ （![&#x200B; データセットを選択アイコン &#x200B;](../../user/assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、データセットをフォームにリンクします。
 
    データセットは、フォームの応答が保存され、反映される場所です。 特定のデータセットを検索するためのテキスト文字列を入力するか、リストから選択できます。
 
@@ -104,7 +104,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    >[!NOTE]
    >
-   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に 1 つのデータセットを選択できます。 フォームデータの保存にシステムデータセットを使用することはできません。
+   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に1つのデータセットを選択できます。 フォームデータの保存にシステムデータセットを使用することはできません。
 
    データセットのチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 

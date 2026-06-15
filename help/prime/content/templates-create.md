@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 1%
@@ -41,7 +41,8 @@ ht-degree: 1%
    >
    >このBeta リリースでは、メールテンプレートのみがサポートされています。
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. 「**[!UICONTROL 作成]**」をクリックして、電子メールデザインスペースを開きます。
 
 1. 「**[!UICONTROL メール本文を編集]**」をクリックして、コンテンツデザインスペースにアクセスします。
@@ -99,7 +100,8 @@ ht-degree: 1%
 1. **[!UICONTROL テンプレート名]**&#x200B;とオプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 1. **[!UICONTROL Channel]**&#x200B;を電子メールに設定します。
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!--  Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
 ### テンプレートコンテンツの生成
