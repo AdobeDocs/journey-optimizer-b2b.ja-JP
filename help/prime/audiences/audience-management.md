@@ -12,16 +12,14 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: c844cb4fb520f802c18a9988461c39106000b778
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: 474
 ht-degree: 4%
 
 ---
 
 # オーディエンス管理
-
-AJO B2B Primeでは、オーディエンスはどのように再生されますか？
 
 マーケティング管理ハブで、右側のナビゲーションの&#x200B;**[!UICONTROL 人物リスト]**&#x200B;をクリックします。
 
@@ -74,9 +72,9 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## ユーザーリストの作成
 
 
-新しい動的リストまたは静的リストを作成するには：
+動的リストまたは静的リストを作成するには：
 
-1. _[!UICONTROL 人物リスト]_ ページの右上にある「**リストを作成**」をクリックします。
+1. _[!UICONTROL 人物リスト]_ ページの右上にある「**[!UICONTROL リストを作成]**」をクリックします。
 1. リストの&#x200B;**[!UICONTROL 親]**&#x200B;としてプログラムを選択します。
 1. リストに&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 1. 次にリスト **[!UICONTROL 種類]**&#x200B;を選択します。
@@ -93,6 +91,10 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## 静的リスト
 
 静的リストメンバーシップは、ユーザーの属性とアクティビティを参照するシンプルなフィルターによって定義されます。 メンバーシップは、手動でメンバーを選定または選定しない限り、変更されません。
+
+>[!NOTE]
+>
+>静的リストフィルター定義は、リストにメンバーを追加またはリストから削除する場合に1回だけ適用されます。 定義されたフィルターは、その後は使用できません。 フィルターを使用して一貫したオーディエンス定義を維持する場合は、代わりに動的リストを使用します。
 
 ### メンバーを追加
 

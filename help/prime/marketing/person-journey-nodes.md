@@ -1,7 +1,7 @@
 ---
-title: ジャーニーノードを追加
-description: 個人ジャーニーノードのプレースホルダーページ。
-autotag-review: '2026-06-12T23:02:52.147Z'
+title: 人物ジャーニーノード
+description: Journey Optimizer B2B edition Primeの個人ジャーニーノード（オーディエンス、アクション、イベント、待機、パス分割、AIを活用した次善のパスルーティング）について説明します。
+autotag-review: '2026-06-16T21:21:16.531Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -13,187 +13,79 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
+source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: 356
 ht-degree: 2%
 
 ---
 
-# ジャーニーノードの追加
+# 人物ジャーニーノード
 
 個人ジャーニーを作成したら、オーディエンスを追加し、ノードを使用してジャーニーを構築します。 ジャーニーマップでは、マルチステップのB2B マーケティングのユースケースを構築できるキャンバスを提供します。
 
-_[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャーニーの最初のノードになります。 オーディエンスを選択したら、さまざまなアクション、イベント、決定ノードを組み合わせて、マルチステップのクロスチャネルシナリオとしてジャーニーを構築します。 ジャーニーの各ノードは、論理パスに沿ったステップを表します。
+_[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャーニーの最初のノードになります。 オーディエンスを選択したら、さまざまなアクションノード、イベントノード、決定ノードを組み合わせて、マルチステップのクロスチャネルシナリオとしてジャーニーを構築します。 ジャーニーの各ノードは、論理パスに沿ったステップを表します。
 
-## 人物オーディエンスノード
+:::: landing-cards-container
 
-人物オーディエンスノードは、ジャーニーにエントリする人物レコードを指定します。 個人ジャーニーを作成する場合、ジャーニーは常に、その入力を定義する個人オーディエンスノードから始まります。
+:::
+![人物オーディエンスノード &#x200B;](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
 
-1. ノードをクリックして選択します。
-1. 右側のノードプロパティパネルで、人物オーディエンスジャーニーノードに次のいずれかの入力オプションを使用します。
+人物オーディエンスノード
 
-   * **[!UICONTROL 動的リスト]** – 動的なルールベースの人物リストを使用します。 リストルールは、ジャーニー実行時に評価され、ジャーニーのメンバーが選定されます。 後で動的リストの資格を失ったユーザーは、ジャーニーから削除されません。
+ジャーニーは常に個人オーディエンスノードから始まります。 静的または動的な人物リストを使用して入力オーディエンスを設定し、ジャーニーにエントリする人物プロファイルを定義します。
 
-   * **[!UICONTROL 静的リスト]** - ジャーニーのメンバーとして人物の静的リストを使用します。 現在のリストメンバーシップは、ジャーニー実行時に評価され、ジャーニーのメンバーが選定されます。 後で静的リストから削除されたユーザーは、ジャーニーから削除されません。
+[オーディエンスノードについて説明します](./person-audience-node.md)
+:::
 
-## 人物アクションノード
+:::
+![&#x200B; アクションノード &#x200B;](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
-個人ジャーニーでは、ノードパス上のすべてのユーザーに変更を適用する場合に、人物に対するアクションを使用します。 アカウントジャーニーの場合、このノードタイプは、分割パス内でユーザーが使用することも、アカウントが分割パス内で使用することもできます。
+アクションノード
 
-### アクションと制約
+メールの送信やデータ値属性の更新など、パス上のすべてのユーザーに変更を適用します。
 
-| アクション | 制約事項 |
-| ------ | ---------- |
-| **[!UICONTROL 電子メールを送信]** | <li>メールを作成 <li>配信時間の最適化（オプション） |
-| **[!UICONTROL データ値の変更]** | <li>人物属性を選択 <li>新しい値を設定 |
+[アクションノードについて詳しく見る](./action-nodes.md)
+:::
 
-### アクションノードの追加 {#add-an-action-node}
+:::
+![&#x200B; イベントノード &#x200B;](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
-1. ジャーニーマップに移動します。
+イベントノード
 
-1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL アクションを実行]**&#x200B;を選択します。
+電子メールを開封したり、データ値が変更されたりするなど、特定のアクティビティやデータの変更が発生した場合、次のジャーニーステップに進むことができます。
 
-1. 右側のノードプロパティで、リストからアクションを選択し、アクションの値を設定します。
+[イベントノードについて説明します](./listen-for-event-nodes.md)
+:::
 
-<!-- ![Person journey node - take an action](./assets/node-take-action-people.png){width="700" zoomable="yes"} -->
+:::
+![待機ノード &#x200B;](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
-+++[!UICONTROL 電子メールを送信]
+待機ノード
 
-このアクションを使用してメールを送信します。 ノードのメールを作成した後、メールデザインスペースでメールメッセージをデザイン、パーソナライズ、プレビューできます（[&#x200B; メールオーサリング &#x200B;](../content/email-authoring.md)を参照）。
+ジャーニーの進行を、設定された期間または特定の日時まで一時停止してから、次のステップに移動します。
 
-<!-- ![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"} -->
+[待機ノードについて説明します](./wait-nodes.md)
+:::
 
-[送信時間の最適化](../marketing/email-send-time-optimization.md)を使用して、各プロファイルがエンゲージする可能性が最も高いタイミングを予測し、メール配信のタイミングをパーソナライズできます。
+:::
+![&#x200B; パス ノードの分割と結合](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
-<!--
->[!NOTE]
->
->You can use email deduplication in account journeys to ensure that the same email is not sent multiple times to the same email address within a journey. For more information, see [Email deduplication](../content/email-deduplication.md).
--->
+パスノードの分割と結合
 
-+++
+条件にもとづいて顧客を個別のパスにセグメンテーションし、パスごとに異なるアクションやイベントを適用して、パスをマージすることでジャーニーを継続します。
 
-+++[!UICONTROL &#x200B; データ値の変更]
+[パスの分割と結合ノードについて説明します](./split-merge-paths-nodes.md)
+:::
 
-このアクションを使用して、データベース内の人物プロファイル属性の値を変更します。 属性を選択し、新しい値を設定します。
+:::
+![次善のパスノード &#x200B;](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ja)
 
-<!-- ![Take an action - Update person profile](./assets/node-action-update-person-profile.png){width="300"} -->
+次善のパスノード
 
-+++
+AIを活用した意思決定により、一人ひとりを最も関連性の高い経路に導きます。 意図を自然言語で説明し、プロファイルコンテキスト、エンゲージメント履歴、アカウントデータをシステムで評価して、ルーティングの決定を下します。
 
-## イベントノード
+[次善のパスノードについて説明します](./next-best-path.md)
+:::
 
-イベントが発生したときにオーディエンスをジャーニーの次のステップに進めるために、_イベントをリッスン_ ノードを追加します。
-
-### 人物イベントフィルター
-
-| フィルター | 説明 |
-| ------- | ----------- |
-| アクティビティ履歴/メール | 選択した1つ以上のメールメッセージを使用して評価される条件に基づくメールアクティビティ： <li>メール内リンクをクリックした <li>メールを開封済み |
-| アクティビティ履歴/変更されたデータ値 | 選択した人物属性に対して、値の変更が発生しました。 次の変更タイプがあります。 <li>新しい値 <li>前回の値 <li>理由 <li>ソース <li>アクティビティの日付 <li> 分 回数 |
-
-### イベントノードの追加
-
-1. ジャーニーマップに移動します。
-
-1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL イベントをリッスン]**&#x200B;を選択します。
-
-1. 右側のノードプロパティで、イベントタイプに「**[!UICONTROL 人]**」を選択します。
-
-   <!-- ![Journey node - listen to events on people](./assets/node-listen-events-people.png){width="700" zoomable="yes"} -->
-
-1. リストからイベントを選択します。
-
-1. 「**[!UICONTROL イベントを編集]**」をクリックし、イベントの詳細を定義します。
-
->[!NOTE]
->
->イベントノードのリッスンのタイムアウト機能は現在機能せず、後のフェーズで有効になります。
-
-## パス ノードの分割
-
-分割ノードを使用して、定義した条件に従ってユーザーをセグメント化します。 条件に従ってオーディエンスリストのパスを作成し、セグメントのアクションノードとイベントノードで各パスを定義し、パスを組み合わせてジャーニーを続行します。
-
-「パスを分割」ノードは、人物フィルターに基づいて、1つ以上のセグメント化されたパスを定義します。
-
-<!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
-
-
-_&#x200B;**ユーザー別の分割パスの仕組み**&#x200B;_
-
-* 各パスの評価は上から下まで行われます。 人が最初と2番目のパスに一致した場合、最初のパスに沿ってのみ進みます。
-* ノードは、_その他のユーザー_ パスの定義をサポートしています。このパスでは、定義されたセグメントまたはパスのいずれかに一致しないユーザーのアクションまたはイベントを追加できます。
-
-### 一致するフィルター
-
-ノードに定義する各パスに対して、次のフィルタータイプを使用して、1つ以上の条件に従ってユーザーを照合します。
-
-* アクティビティ履歴 – 次に関連するユーザーのアクティビティに応じてパスを定義できます。
-
-   * メールメッセージ
-   * データ値の変更
-
-* 人物属性 – 国、役職、リストメンバーシップなど、人物の属性に応じて条件を定義します。
-
-### 分割パスノードの追加
-
-<!--
->[!NOTE]
->
->When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
--->
-
-1. ジャーニーマップに移動します。
-
-1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL パスを分割]**」を選択します。
-
-   <!-- ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"} -->
-
-1. _[!UICONTROL パス 1]_&#x200B;に適用できる条件を定義するには、「**[!UICONTROL 条件を適用]**」をクリックします。
-
-1. 条件エディターで、分割パスを定義する1つ以上のフィルターを追加します。
-
-   * 左側のナビゲーションから人物フィルターのいずれかをドラッグ&amp;ドロップして、一致定義を完了します。
-
-   * 上部の&#x200B;**[!UICONTROL フィルターロジック]**&#x200B;を適用して、条件を微調整します。 すべての条件または1つの条件を一致させます。
-
-     <!-- ![Split path node - conditions person filter logic](./assets/node-split-conditions-people.png){width="700" zoomable="yes"} -->
-
-   * 「**[!UICONTROL 完了]**」をクリックします。
-
-1. パスをさらに追加するには、**[!UICONTROL パスを追加]**&#x200B;をクリックし、前の手順を繰り返して、パスに適用できる条件を追加します。
-
-   これらの条件に基づいて各パスにラベルを付けることも、デフォルトのラベルを使用することもできます。
-
-1. 必要に応じて、分割する優先度に従ってパスを並べ替えます。
-
-   パスのフィルタリングは、トップダウンの順序で評価されます。 各人は一致する最初のパスに沿って進みます。
-
-   各パスカードの右上にある上下の矢印をクリックして、パスのリストで上下に移動します。
-
-   <!-- ![Split path node - reorder paths](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"} -->
-
-1. 定義されたパスと一致しないユーザーのデフォルトパスを追加するには、**[!UICONTROL その他のユーザー]** オプションを有効にします。
-
-   このオプションが有効になっていない場合、定義されたセグメント/パスに一致しないユーザーは分割を超えて、ジャーニーの次のステップに進みます。
-
-各パスに条件を定義している場合は、パス上のユーザーに適用するアクションノードまたはイベントノードを追加できます。
-
-## パス ノードを結合
-
-1. ジャーニーマップに移動し、2つ以上のパスがある分割パスノードを見つけます。
-
-   各パスには、各パス上のアクションとイベントの組み合わせが必要です。
-
-1. これらのパスの最後にあるプラス（**+**）アイコンをクリックし、表示されたオプションから「**[!UICONTROL パスを結合]**」を選択します。
-
-   <!-- ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"} -->
-
-1. 右側のノードプロパティで、結合するパスを選択します。
-
-   <!-- ![Journey node - merge paths](./assets/node-merge-select-paths.png){width="600" zoomable="yes"} -->
-
-   この時点で、パスが結合され、選択したパスのユーザーが単一のパスに結合され、ジャーニーを進み続けることができます。
-
-1. 必要に応じて、結合パスのノードプロパティに戻り、削除するパスのチェックボックスをオフにすることで、パスを結合できます。
+::::

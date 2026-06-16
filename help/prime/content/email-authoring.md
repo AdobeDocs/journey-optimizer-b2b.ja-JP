@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
+source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
 workflow-type: tm+mt
 source-wordcount: 2789
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 >
 >サブドメイン、認証、IP プール、および電子メールチャネル設定の管理者による設定については、[電子メールの配信品質とチャネル設定](../admin/configuration-email-deliverability.md)を参照してください。
 
-[!DNL Journey Optimizer B2B Prime]では、すべての電子メールは、ジャーニー内の&#x200B;_[!UICONTROL 電子メールを送信]_ アクションに関連付けられます。 ジャーニーの設計から電子メールの定義に至るまでのワークフロー全体が、ひとつの連続的な体験で実現されます。 [&#x200B; ユーザーのジャーニーに&#x200B;_電子メールを送信_ ノード &#x200B;](../marketing/person-journey-nodes.md#add-an-action-node)を追加する場合、「**[!UICONTROL 電子メールを作成]**」をクリックして、電子メールコンテンツのデザインプロセスを開始します。
+[!DNL Journey Optimizer B2B Prime]では、すべての電子メールは、ジャーニー内の&#x200B;_[!UICONTROL 電子メールを送信]_ アクションに関連付けられます。 ジャーニーの設計から電子メールの定義に至るまでのワークフロー全体が、ひとつの連続的な体験で実現されます。 [&#x200B; ユーザーのジャーニーに&#x200B;_電子メールを送信_ ノード &#x200B;](../marketing/action-nodes.md#add-an-action-node)を追加する場合、「**[!UICONTROL 電子メールを作成]**」をクリックして、電子メールコンテンツのデザインプロセスを開始します。
 
 このアクションにより、メールデザインスペースが起動し、次のオプションからメールのデザイン方法を選択できます。
 

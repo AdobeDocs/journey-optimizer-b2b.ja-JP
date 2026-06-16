@@ -13,22 +13,20 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
 workflow-type: tm+mt
-source-wordcount: 152
-ht-degree: 2%
+source-wordcount: 149
+ht-degree: 1%
 
 ---
 
 # マーケティング管理
 
-マーケティング管理のホームページ：
-
-ジャーニーハブ
+Marketing Hub
 
 プログラムとフォルダー
 ユーザージャーニー
-アカウントジャーニー
+アカウントジャーニー（後）
 Arbitration Console
 
 ## ジャーニーハブ
