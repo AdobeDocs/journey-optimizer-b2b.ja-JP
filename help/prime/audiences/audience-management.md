@@ -3,10 +3,15 @@ title: オーディエンス管理
 description: オーディエンスのプレースホルダーページ。
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c844cb4fb520f802c18a9988461c39106000b778
 workflow-type: tm+mt
 source-wordcount: 474
@@ -18,7 +23,7 @@ ht-degree: 4%
 
 マーケティング管理ハブで、右側のナビゲーションの&#x200B;**[!UICONTROL 人物リスト]**&#x200B;をクリックします。
 
-![ ユーザーリストにアクセスしてオーディエンスを管理](./assets/people-lists.png){width="800" zoomable="yes"}
+![&#x200B; ユーザーリストにアクセスしてオーディエンスを管理](./assets/people-lists.png){width="800" zoomable="yes"}
 
 ページには2つのタブがあり、**[!UICONTROL 動的リスト]**&#x200B;と&#x200B;**[!UICONTROL 静的リスト]**&#x200B;を表示および管理できます。 タブをクリックして、各タイプ間でリストビューを切り替えます。
 

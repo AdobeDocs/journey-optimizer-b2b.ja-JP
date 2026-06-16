@@ -3,10 +3,16 @@ title: アクションノードを作成
 description: プレースホルダー
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
 workflow-type: tm+mt
 source-wordcount: 197
@@ -37,7 +43,7 @@ ht-degree: 2%
 
 +++[!UICONTROL 電子メールを送信]
 
-このアクションを使用してメールを送信します。 ノードのメールを作成した後、メールデザインスペースでメールメッセージをデザイン、パーソナライズ、プレビューできます（[ メールオーサリング ](../content/email-authoring.md)を参照）。
+このアクションを使用してメールを送信します。 ノードのメールを作成した後、メールデザインスペースでメールメッセージをデザイン、パーソナライズ、プレビューできます（[&#x200B; メールオーサリング &#x200B;](../content/email-authoring.md)を参照）。
 
 <!-- ![Take an action - Send email](./assets/node-action-send-email-from-marketo.png){width="300"} -->
 
@@ -51,7 +57,7 @@ ht-degree: 2%
 
 +++
 
-+++[!UICONTROL  データ値の変更]
++++[!UICONTROL &#x200B; データ値の変更]
 
 このアクションを使用して、データベース内の人物プロファイル属性の値を変更します。 属性を選択し、新しい値を設定します。
 
