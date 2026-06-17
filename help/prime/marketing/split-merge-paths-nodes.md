@@ -1,6 +1,6 @@
 ---
 title: パスの分割と結合ノード
-description: プレースホルダー
+description: 対面ジャーニーで分割および結合パスノードを使用して、定義された条件に基づいて個別のパスにユーザーをセグメント化し、ダウンストリームの共通ポイントでユーザーを再結合する方法を説明します。
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
 product_v2:
@@ -13,16 +13,16 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 658
 ht-degree: 0%
 
 ---
 
 # パスノードの分割と結合
 
-
+個人ジャーニーで「パスを分割」ノードと「結合」ノードを使用して、定義した条件に基づいて個人を個別のパスにセグメント化し、それらのパスを統合してジャーニーを続行できるようにします。 分割パスを使用すると、特定のオーディエンスセグメントに合わせてアクションやイベントをカスタマイズできます。また、結合パスを使用すると、下流の共通ポイントでそれらのセグメントを再結合できます。
 
 ## パス ノードの分割
 
@@ -31,7 +31,6 @@ ht-degree: 0%
 「パスを分割」ノードは、人物フィルターに基づいて、1つ以上のセグメント化されたパスを定義します。
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
-
 
 _&#x200B;**ユーザー別の分割パスの仕組み**&#x200B;_
 
@@ -51,17 +50,11 @@ _&#x200B;**ユーザー別の分割パスの仕組み**&#x200B;_
 
 ### 分割パスノードの追加
 
-<!--
->[!NOTE]
->
->When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
--->
-
-1. ジャーニーマップに移動します。
+1. ジャーニーキャンバスに移動します。
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL パスを分割]**」を選択します。
 
-   <!-- ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"} -->
+   ![&#x200B; ジャーニーパスの追加アイコンをクリック &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. _[!UICONTROL パス 1]_&#x200B;に適用できる条件を定義するには、「**[!UICONTROL 条件を適用]**」をクリックします。
 
@@ -95,13 +88,11 @@ _&#x200B;**ユーザー別の分割パスの仕組み**&#x200B;_
 
 ## パス ノードを結合
 
-1. ジャーニーマップに移動し、2つ以上のパスがある分割パスノードを見つけます。
+1. ジャーニーキャンバスに移動し、2つ以上のパスを持つ分割パスノードを見つけます。
 
    各パスには、各パス上のアクションとイベントの組み合わせが必要です。
 
 1. これらのパスの最後にあるプラス（**+**）アイコンをクリックし、表示されたオプションから「**[!UICONTROL パスを結合]**」を選択します。
-
-   <!-- ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"} -->
 
 1. 右側のノードプロパティで、結合するパスを選択します。
 

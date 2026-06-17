@@ -1,6 +1,6 @@
 ---
 title: イベントノードをリッスン
-description: プレースホルダー
+description: Journey Optimizer B2B edition Primeのイベントノードのリッスンを設定 – イベントトリガーを設定し、オプションのフィルターを適用して、アクティビティやデータの変更が発生したときにユーザーに通知します。
 autotag-review: '2026-06-12T23:00:36.531Z'
 TQID: 'https://experienceleague.adobe.com/SBEfrrIKSCnO5x1tGXQTz1EZryH0IKhQx4tuqVn78FI'
 product_v2:
@@ -14,10 +14,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
 workflow-type: tm+mt
-source-wordcount: 165
-ht-degree: 11%
+source-wordcount: 233
+ht-degree: 8%
 
 ---
 
@@ -25,27 +25,55 @@ ht-degree: 11%
 
 イベントが発生したときにオーディエンスをジャーニーの次のステップに進めるために、_イベントをリッスン_ ノードを追加します。
 
-## 人物イベントフィルター
+## イベントトリガー {#event-triggers}
+
+PMからリストを取得
+
+## イベントフィルター {#event-filters}
+
+PMから更新リストを取得
 
 | フィルター | 説明 |
 | ------- | ----------- |
 | アクティビティ履歴/メール | 選択した1つ以上のメールメッセージを使用して評価される条件に基づくメールアクティビティ： <li>メール内リンクをクリックした <li>メールを開封済み |
 | アクティビティ履歴/変更されたデータ値 | 選択した人物属性に対して、値の変更が発生しました。 次の変更タイプがあります。 <li>新しい値 <li>前回の値 <li>理由 <li>ソース <li>アクティビティの日付 <li> 分 回数 |
 
-## イベントノードの追加
+## イベントノードの追加 {#add-event-node}
 
-1. ジャーニーマップに移動します。
+1. ジャーニーキャンバスに移動します。
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL イベントをリッスン]**&#x200B;を選択します。
 
-1. 右側のノードプロパティで、イベントタイプに「**[!UICONTROL 人]**」を選択します。
+   ![&#x200B; ジャーニーパスの追加アイコンをクリック &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
-   <!-- ![Journey node - listen to events on people](./assets/node-listen-events-people.png){width="700" zoomable="yes"} -->
+1. 右側のノードプロパティで、**[!UICONTROL イベント条件を追加]**&#x200B;をクリックします。
 
-1. リストからイベントを選択します。
+1. _[!UICONTROL イベントを編集]_ ダイアログで、イベントをトリガーに追加します。
+
+   ![&#x200B; イベントを編集 – イベントトリガー](./assets/edit-event-triggers.png){width="600" zoomable="yes"}
+
+1. （オプション）ダイアログで「**[!UICONTROL フィルター]**」タブを選択し、トリガーのフィルター条件を追加します。
 
 1. 「**[!UICONTROL イベントを編集]**」をクリックし、イベントの詳細を定義します。
 
+   ![&#x200B; イベントを編集 – イベントフィルタリング &#x200B;](./assets/edit-event-filters.png){width="600" zoomable="yes"}
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+<!--
+1. If needed, set the **[!UICONTROL Timeout]** option to limit the time period to listen for the event.
+
+   >[!NOTE]
+   >
+   >The journey ends after a timeout unless you define a timeout path, where you can add other nodes.
+
+   Enable the **[!UICONTROL Timeout]** option and select the duration for which the journey waits for an event to occur before it times out.
+
+   You can choose to end the path here or take a different course of action by setting another path. To create a new path in the journey where you can add actions and events applicable to accounts when the event does not occur, select the **[!UICONTROL Set timeout path]** check box.
+
+   ![Journey event node - set timeout path](../../user/journeys/assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
+-->
+
 >[!NOTE]
 >
->イベントノードのリッスンのタイムアウト機能は現在機能せず、後のフェーズで有効になります。
+>イベントノードの「リッスン」のタイムアウト機能は現在機能しません。 後のリリースに向けて計画されています。
