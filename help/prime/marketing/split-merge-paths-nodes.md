@@ -3,10 +3,16 @@ title: パスの分割と結合ノード
 description: 対面ジャーニーで分割および結合パスノードを使用して、定義された条件に基づいて個別のパスにユーザーをセグメント化し、ダウンストリームの共通ポイントでユーザーを再結合する方法を説明します。
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 658
@@ -26,7 +32,7 @@ ht-degree: 0%
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**ユーザー別の分割パスの仕組み**_
+_&#x200B;**ユーザー別の分割パスの仕組み**&#x200B;_
 
 * 各パスの評価は上から下まで行われます。 人が最初と2番目のパスに一致した場合、最初のパスに沿ってのみ進みます。
 * ノードは、_その他のユーザー_ パスの定義をサポートしています。このパスでは、定義されたセグメントまたはパスのいずれかに一致しないユーザーのアクションまたはイベントを追加できます。
@@ -48,7 +54,7 @@ _**ユーザー別の分割パスの仕組み**_
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL パスを分割]**」を選択します。
 
-   ![ ジャーニーパスの追加アイコンをクリック ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![&#x200B; ジャーニーパスの追加アイコンをクリック &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. _[!UICONTROL パス 1]_&#x200B;に適用できる条件を定義するには、「**[!UICONTROL 条件を適用]**」をクリックします。
 

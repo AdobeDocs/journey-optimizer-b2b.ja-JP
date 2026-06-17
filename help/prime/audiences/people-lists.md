@@ -3,10 +3,15 @@ title: ユーザーリスト
 description: ルールベースの選定を含む動的リストや、固定メンバーシップを持つ静的リストなど、Journey Optimizer B2B Primeでユーザーリストを作成および管理する方法について説明します。
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
 workflow-type: tm+mt
 source-wordcount: 856
@@ -24,14 +29,14 @@ ht-degree: 2%
 
 1. **[!UICONTROL マーケティング]**&#x200B;のリソースリストの右側で、**[!UICONTROL 人物リスト]**&#x200B;を選択します。
 
-   ![ ユーザーリストにアクセスしてオーディエンスを管理](./assets/people-lists.png){width="800" zoomable="yes"}
+   ![&#x200B; ユーザーリストにアクセスしてオーディエンスを管理](./assets/people-lists.png){width="800" zoomable="yes"}
 
 ページには2つのタブがあり、**[!UICONTROL 動的リスト]**&#x200B;と&#x200B;**[!UICONTROL 静的リスト]**&#x200B;を表示および管理できます。 タブをクリックして、各タイプ間でリストビューを切り替えます。
 
 リストの上部にある&#x200B;_検索_ ツールにテキストを入力すると、表示されるリストを名前でフィルタリングできます。 リストツールを使用して、表示されるリストをカスタマイズします。
 
-* 表示される列を制御するには、「_テーブルをカスタマイズ_」（「![ テーブルアイコン ](../../assets/do-not-localize/icon-falco-customize-table.svg)」）アイコンをクリックします。
-* _列をリセット_ （![列幅をリセット アイコン ](../../assets/do-not-localize/icon-falco-reset-columns.svg)）アイコンをクリックして、列幅をリセットします。
+* 表示される列を制御するには、「_テーブルをカスタマイズ_」（「![&#x200B; テーブルアイコン &#x200B;](../../assets/do-not-localize/icon-falco-customize-table.svg)」）アイコンをクリックします。
+* _列をリセット_ （![列幅をリセット アイコン &#x200B;](../../assets/do-not-localize/icon-falco-reset-columns.svg)）アイコンをクリックして、列幅をリセットします。
 
 このスペースから、次のこともできます。
 
@@ -87,7 +92,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
    * **[!UICONTROL 静的]** - メンバーシップは、リストの作成時に評価された修飾フィルターによって決定されます。レコードを手動で選定または選定しない限り、リストメンバーシップは更新されません。
 ***[!UICONTROL Dynamic]** - メンバーシップは、適格なフィルターによって動的に決定されます。リストのメンバーシップが自動的に更新されます。
 
-   ![人物リストの作成ダイアログ ](./assets/people-list-create-dialog.png){width="450"}
+   ![人物リストの作成ダイアログ &#x200B;](./assets/people-list-create-dialog.png){width="450"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -164,11 +169,11 @@ So far, activating to a destination is the only thing that they are used for tha
 
 1. 宛先に対してアクティブ化する静的リストを探します。
 
-1. 静的リスト名の横にある「_アクティブ化_」（「![ テーブルアイコンをカスタマイズ ](../../assets/do-not-localize/icon-falco-activate-dest.svg)」）アイコンをクリックします。
+1. 静的リスト名の横にある「_アクティブ化_」（「![&#x200B; テーブルアイコンをカスタマイズ &#x200B;](../../assets/do-not-localize/icon-falco-activate-dest.svg)」）アイコンをクリックします。
 
 1. 設定済みの宛先接続のチェックボックスをオンにします。
 
-   ![ アクティブ化に使用できる設定済みの宛先](./assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+   ![&#x200B; アクティブ化に使用できる設定済みの宛先](./assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -211,6 +216,6 @@ So far, activating to a destination is the only thing that they are used for tha
 
    デフォルトでは、ダイアログには元のリストの名前に`_copy`が追加されて使用されます。 必要に応じて、リストに別の一意の名前を入力します。
 
-   ![ リストを複製ダイアログ ](./assets/people-list-duplicate-dialog.png){width="375"}
+   ![&#x200B; リストを複製ダイアログ &#x200B;](./assets/people-list-duplicate-dialog.png){width="375"}
 
 1. 「**[!UICONTROL 複製]**」をクリックします。

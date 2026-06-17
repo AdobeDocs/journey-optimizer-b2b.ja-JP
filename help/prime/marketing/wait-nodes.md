@@ -3,10 +3,15 @@ title: 待機ノード
 description: Journey Optimizer B2B edition Primeで待機ノードを設定する – ジャーニーの進行を、期間、日付、または高度な日時のスケジューリングで一時停止します。
 autotag-review: '2026-06-12T23:04:57.946Z'
 TQID: 'https://experienceleague.adobe.com/XTJRC-qc9xKVYuwAGgDpA97sPJinNGe7OCvATFfwXFU'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
 workflow-type: tm+mt
 source-wordcount: 690
@@ -29,7 +34,7 @@ ht-degree: 0%
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL 待機]**&#x200B;を選択します。
 
-   ![ ジャーニーパスの追加アイコンをクリック ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![&#x200B; ジャーニーパスの追加アイコンをクリック &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. ジャーニーがパス内の次のノードに進むまでの待機時間を設定するには、右側のノードプロパティを使用して&#x200B;**[!UICONTROL Type]**&#x200B;を設定します。
 
@@ -40,11 +45,11 @@ ht-degree: 0%
 
 ## 高度な待機設定 {#advanced-wait-settings}
 
-「****&#x200B;で終了する必要があります」オプションを有効にして、_高度な待機ステップ_&#x200B;を設定し、メッセージが最適なタイミングでユーザーやアカウントのメンバーに確実に届くようにします。 この設定により、個人またはアカウントが待機ステップを終了し、ジャーニーの次のノードに進むタイミングを正確に制御できます。 特定の曜日や時間帯にアクションを実行するように、入場から離脱までの固定時間や日数を設定するのではなく、スケジュールを設定することができます。
+「**&#x200B;**&#x200B;で終了する必要があります」オプションを有効にして、_高度な待機ステップ_&#x200B;を設定し、メッセージが最適なタイミングでユーザーやアカウントのメンバーに確実に届くようにします。 この設定により、個人またはアカウントが待機ステップを終了し、ジャーニーの次のノードに進むタイミングを正確に制御できます。 特定の曜日や時間帯にアクションを実行するように、入場から離脱までの固定時間や日数を設定するのではなく、スケジュールを設定することができます。
 
 _高度な待機ステップ_&#x200B;を使用すると、個人またはアカウントが終了する&#x200B;**_タイミングを定義できます。その時間は単純ではありません。_**
 
-![ジャーニーノード – 高度な待機ステップ ](./assets/wait-node-advanced.png){width="500"}
+![ジャーニーノード – 高度な待機ステップ &#x200B;](./assets/wait-node-advanced.png){width="500"}
 
 ### 待機タイプ {#wait-types}
 
