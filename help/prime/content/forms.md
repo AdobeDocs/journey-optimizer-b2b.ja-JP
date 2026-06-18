@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-source-git-commit: 7bad3c48217ccf026756819fa6d9525ef5d8925a
+source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
 workflow-type: tm+mt
 source-wordcount: 2281
 ht-degree: 2%
@@ -31,7 +31,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 >
 
 <!-- 
->Form creation in Journey Optimizer B2B Edition requires the following [permissions](../admin/user-management.md#b2b-product-permissions):
+>Form creation in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.

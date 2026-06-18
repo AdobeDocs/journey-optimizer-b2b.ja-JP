@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 880
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 新しいテンプレートを作成する {#build-new}
 
-1. **[!UICONTROL コンテンツ管理]** > **[!UICONTROL テンプレート]**&#x200B;に移動します。
+1. 左側のナビゲーションで、**[!UICONTROL コンテンツ管理]**&#x200B;を展開し、**[!UICONTROL テンプレート]**&#x200B;を選択します。
 1. 「**[!UICONTROL テンプレートを作成]**」をクリックします。
 1. **[!UICONTROL テンプレート名]**&#x200B;とオプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 1. テンプレートの&#x200B;**[!UICONTROL チャネル]** （タイプ）を設定します。

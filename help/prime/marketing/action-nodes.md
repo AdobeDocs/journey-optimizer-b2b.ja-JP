@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1d0093ad5298593d291372d838794fe8cab5f646
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 3%
@@ -155,7 +155,7 @@ Marketo Engageの静的リストからユーザーを削除するには、この
 
 ![&#x200B; アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="450"}
 
-電子メールを作成したり、既存の電子メールを編集したり、AIによってパーソナライズされた電子メールを使用したりできます。 電子メールの作成と編集について詳しくは、[電子メールオーサリング &#x200B;](../content/email-authoring.md)を参照してください。
+電子メールを作成したり、既存の電子メールを編集したり、AIによってパーソナライズされた電子メールを使用したりできます。 電子メールの作成と編集について詳しくは、[電子メールチャネル &#x200B;](../marketing/email-channel.md)を参照してください。
 
 [送信時間の最適化](../marketing/email-send-time-optimization.md)を使用して、各プロファイルがエンゲージする可能性が最も高いタイミングを予測し、メール配信のタイミングをパーソナライズできます。
 
