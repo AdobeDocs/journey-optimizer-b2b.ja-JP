@@ -3,9 +3,15 @@ title: フォーム
 description: Journey Optimizer B2B Primeなら、ビジネスデータ収集用の再利用可能なフォームを作成、管理できます。フィールドをデザインし、サンキューページを設定して公開し、使用状況を追跡できます。
 autotag-review: '2026-06-12T22:53:03.357Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
 workflow-type: tm+mt
 source-wordcount: 2281
@@ -54,13 +60,13 @@ Journey Optimizer B2B editionのフォームにアクセスするには、左側
 
 ### フォームリストのフィルタリング {#filter-list}
 
-名前でフォームを検索するには、検索バーにテキスト文字列を入力して一致を検索します。 _フィルター_ アイコン （![ フィルターの表示または非表示アイコン ](../../user/assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
+名前でフォームを検索するには、検索バーにテキスト文字列を入力して一致を検索します。 _フィルター_ アイコン （![&#x200B; フィルターの表示または非表示アイコン &#x200B;](../../user/assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
 
 <!-- ![Filter the displayed forms](./assets/forms-list-filtered.png){width="700" zoomable="yes"} -->
 
 ### 列表示のカスタマイズ {#column-display}
 
-右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![ テーブルをカスタマイズ アイコン ](../../user/assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。
+右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](../../user/assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。
 
 ダイアログで、表示する列を選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -118,7 +124,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
    <!-- ![Create form dialog](./assets/forms-create-dialog.png){width="400"} -->
 
-1. **[!UICONTROL プリセット]**&#x200B;の場合、_データを選択_ （![ データアイコンを選択](../../user/assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、設定されたフォームプリセットをフォームにリンクします。
+1. **[!UICONTROL プリセット]**&#x200B;の場合、_データを選択_ （![&#x200B; データアイコンを選択](../../user/assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、設定されたフォームプリセットをフォームにリンクします。
 
    プリセットによって、フォームの応答の保存場所と反射場所が決まります。 特定のプリセットを検索するためのテキスト文字列を入力するか、リストから選択できます。
 
@@ -325,7 +331,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 ## ランディングページまたはテンプレートへのフォームの追加 {#insert-forms}
 
-Formsは再利用を目的として設計されており、[ ランディングページ ](./landing-pages.md)をデザインするときに挿入できます。
+Formsは再利用を目的として設計されており、[&#x200B; ランディングページ &#x200B;](./landing-pages.md)をデザインするときに挿入できます。
 
 <!-- or [landing page template](./landing-page-templates.md). -->
 

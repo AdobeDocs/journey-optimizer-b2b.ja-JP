@@ -5,10 +5,17 @@ feature: Email Authoring, Account Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
 source-wordcount: 881
@@ -22,7 +29,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->初めてメールを送信する場合は、[ メールチャネルと配信品質](../admin/configuration-email-deliverability.md)が設定されていることを確認してください。
+>初めてメールを送信する場合は、[&#x200B; メールチャネルと配信品質](../admin/configuration-email-deliverability.md)が設定されていることを確認してください。
 
 ## メールチャネルの概要 {#overview}
 
@@ -55,7 +62,7 @@ ht-degree: 4%
 
 1. 右側のノードプロパティで、アクションを&#x200B;**[!UICONTROL メールを送信]**&#x200B;に設定します。
 
-   ![ アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="450"}
+   ![&#x200B; アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="450"}
 
 1. メールのソースを選択：
 
@@ -81,7 +88,7 @@ ht-degree: 4%
 
 1. （オプション）ビジネスルールでルールセットを選択して、メールアクションにキャッピングルールを適用します。
 
-[送信時間最適化オプション ](./email-send-time-optimization.md)を使用して、過去の開封率とクリック率に基づいて、メッセージを送信する最適な時間を予測し、エンゲージメントを最大化できます。 方法の詳細情報
+[送信時間最適化オプション &#x200B;](./email-send-time-optimization.md)を使用して、過去の開封率とクリック率に基づいて、メッセージを送信する最適な時間を予測し、エンゲージメントを最大化できます。 方法の詳細情報
 
 「コンテンツを編集」ボタンを選択し、電子メールDesignerを使用して必要に応じてコンテンツを作成します。
 
