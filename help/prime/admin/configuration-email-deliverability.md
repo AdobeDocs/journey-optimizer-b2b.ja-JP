@@ -3,10 +3,17 @@ title: メールの配信性とチャネル設定
 description: Journey Optimizer B2B Primeのサブドメインデリゲーション、DMARC、SPF、DKIM、IP プール、メールチャネルの設定を行います。
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 3095
@@ -18,7 +25,7 @@ ht-degree: 1%
 
 次の情報は、マーケターとメール作成者をサポートするように送信インフラストラクチャを設定する管理者向けです。 配信品質の機能、役割、権限、サブドメイン、認証、IP プール、チャネル設定の設定方法について説明します。
 
-電子メールデザイン領域での電子メールの作成と電子メールコンテンツのオーサリングについて詳しくは、[電子メールオーサリング ](../content/email-authoring.md)を参照してください。
+電子メールデザイン領域での電子メールの作成と電子メールコンテンツのオーサリングについて詳しくは、[電子メールオーサリング &#x200B;](../content/email-authoring.md)を参照してください。
 
 ## 主要概念 {#key-concepts}
 
