@@ -105,7 +105,7 @@ Journey Optimizer B2B editionで再利用可能なフォームの作成を開始
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL Forms]_ リストページの右上にある「**[!UICONTROL フォームを作成]**」をクリックします。
