@@ -1,7 +1,7 @@
 ---
 title: ユーザーのアクセスと権限
 description: Adobe Admin Consoleでユーザーアクセスを管理する：Journey Optimizer B2B edition Primeでユーザーグループを作成し、製品プロファイルを割り当て、ロールベースの権限を設定します。
-source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 70%
@@ -305,3 +305,4 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 カスタムロールが設定され、割り当てられたグループのユーザーは、選択したJourney Optimizer B2B edition機能にアクセスできるようになりました。
+<!-- -->
