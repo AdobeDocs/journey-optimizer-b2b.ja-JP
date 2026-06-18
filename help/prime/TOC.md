@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B edition Primeとその使用方法について説明します。
 hide: true
-source-git-commit: f471a870b1e54b4588317d495eb7f7625051ac65
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 42%
+source-wordcount: '131'
+ht-degree: 45%
 
 ---
 
@@ -30,17 +30,19 @@ ht-degree: 42%
       + [待機](./marketing/wait-nodes.md)
       + [パスの分割と結合](./marketing/split-merge-paths-nodes.md)
       + [次に最適なパス](./marketing/next-best-path.md)
-   + [メール送信時間の最適化](./marketing/email-send-time-optimization.md)
+   + メールチャネル {#email-channel}
+      + [概要](./marketing/email-channel.md)
+      + [メール送信時間の最適化](./marketing/email-send-time-optimization.md)
+      + [メールオーサリング](./content/email-authoring.md)
+      + [ ダークモードのデザイン ](./content/email-dark-mode.md)
+   + [WhatsApp チャネル](./content/whatsapp-authoring.md)
 + オーディエンス {#audiences}
    + [ユーザーリスト](./audiences/people-lists.md)
    + [宛先](./audiences/destinations.md)
    + [動的なオーディエンス選定](./audiences/dynamic-audience-qualification.md)
    + [イベントベースのオーディエンス](./audiences/event-based-audiences.md)
 + コンテンツ {#content}
-   + メール {#emails}
-      + [メールオーサリング](./content/email-authoring.md)
-      + [ダークモードのデザイン](./content/email-dark-mode.md)
-   + [WhatsApp メッセージ](./content/whatsapp-authoring.md)
+   + [アセット](./content/digital-asset-management.md)
    + テンプレート {#templates}
       + [概要](./content/templates.md)
       + [テンプレートの作成](./content/templates-create.md)
