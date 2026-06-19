@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B edition Primeとその使用方法について説明します。
 hide: true
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 45%
+ht-degree: 44%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 45%
 + 開始する {#start}
    + [チェックリストを設定](./start/setup-prime.md)
    + [ユーザー管理](./start/user-management.md)
+   + [メールの配信品質](./start/email-deliverability.md)
 + [ホームとインサイト](./home-insights/home-insights.md)
 + [エージェント](./agents/agents.md)
 + マーケティング管理 {#marketing-management}
@@ -33,7 +34,7 @@ ht-degree: 45%
    + メールチャネル {#email-channel}
       + [概要](./marketing/email-channel.md)
       + [メール送信時間の最適化](./marketing/email-send-time-optimization.md)
-      + [メールオーサリング](./content/email-authoring.md)
+      + [コンテンツのオーサリング](./content/email-authoring.md)
       + [&#x200B; ダークモードのデザイン &#x200B;](./content/email-dark-mode.md)
    + [WhatsApp チャネル](./content/whatsapp-authoring.md)
 + オーディエンス {#audiences}
@@ -54,9 +55,9 @@ ht-degree: 45%
 + 管理 {#admin}
    + {hide-from-toc}[管理](./admin/admin.md)
    + チャネル {#channels}
-      + [メールの到達性とチャネル設定](./admin/configuration-email-deliverability.md)
-      + [SMS チャネル設定](./admin/configuration-channels-sms.md)
-      + [Web チャネル設定](./admin/configuration-channels-web.md)
+      + [メールチャネル設定](./admin/email-channel-configuration.md)
+      + {hide-from-toc}[SMS チャネル設定](./admin/configuration-channels-sms.md)
+      + {hide-from-toc}[Web チャネル設定](./admin/configuration-channels-web.md)
       + [WhatsApp チャネル設定](./admin/configuration-channels-whatsapp.md)
       + [ランディングページの設定](./admin/configuration-presets-landing-pages.md)
       + [フォームプリセット設定](./admin/configuration-presets-forms.md)

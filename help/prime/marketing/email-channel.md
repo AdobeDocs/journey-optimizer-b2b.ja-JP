@@ -1,7 +1,8 @@
 ---
-title: メールチャネル
-description: アカウントジャーニーへのメールアクションノードの追加 – 新しいメールを作成するか、既存のMarketo Engage メールを使用して、Journey Optimizer B2B editionでターゲットを絞ったコミュニケーションを行います。
-feature: Email Authoring, Account Journeys
+title: ジャーニーへのメールの追加
+description: Journey Optimizer B2B Primeでは、個人のジャーニーにメールアクションノードを追加し、ターゲットを絞ったコミュニケーションのための新しいメールを作成します。
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、限定的なベータ版リリースの一部です。"
+feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
@@ -16,36 +17,44 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 4%
+source-wordcount: 1037
+ht-degree: 1%
 
 ---
 
-# メールチャネル
+# ジャーニーへのメールの追加
 
-[!DNL Adobe Journey Optimizer B2B Prime]では、最新のエンタープライズ向けメール作成および配信エクスペリエンスをB2B マーケターに提供しています。 このリリースでは、再設計された電子メールデザインツールと、包括的な電子メール配信品質コントロールが導入されます。
+[!DNL Adobe Journey Optimizer B2B Prime]では、最新のエンタープライズ向けメール作成および配信エクスペリエンスをB2B マーケターに提供しています。
 
 >[!NOTE]
 >
->初めてメールを送信する場合は、[&#x200B; メールチャネルと配信品質](../admin/configuration-email-deliverability.md)が設定されていることを確認してください。
+>初めて電子メールを送信する場合は、[電子メールの配信品質](../start/email-deliverability.md)と必要な[電子メールチャネル &#x200B;](../admin/email-channel-configuration.md)が設定されていることを確認してください。
 
-## メールチャネルの概要 {#overview}
+<!-- 
+* **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
+* **Email deliverability controls** - Set up your email deliverability channel, including subdomain delegation (Fully Delegated and CNAME methods), DMARC, SPF/DKIM auto-configuration, and shared IP pool support.
+* **Send Email action** - From a journey, add a _Send email_ action node, including personalization using profile attributes (Handlebars syntax).
+* **Visual drag-and-drop email design tools** -  Design your email content with structures, content components, themes, dark-mode support, and reusable visual fragments.
+* **Marketo Design Studio assets** — Choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas.
+* **Reusable templates and fragments** — Save common headers, footers, CTAs, and full email layouts and reuse them across journeys.
+* **Role-Based Access Control (RBAC)** — Apply granular permissions for creating, editing, approving, and sending email. 
+-->
 
-* **電子メールチャネル設定** – 送信者ID、返信動作、マーケティングとトランザクションメッセージの種類、トラッキングを管理します。
-* **メール配信品質コントロール** - サブドメインデリゲーション（完全委任およびCNAME メソッド）、DMARC、SPF/DKIMの自動設定、および共有IP プールのサポートを含む、メール配信品質チャネルを設定します。
-* **メール送信アクション** - ジャーニーから、プロファイル属性を使用したパーソナライゼーション（Handlebars構文）を含む&#x200B;_メール送信_ アクションノードを追加します。
-* **視覚的なドラッグ&amp;ドロップ操作のメールデザインツール** – 構造、コンテンツコンポーネント、テーマ、ダークモードのサポート、再利用可能なビジュアルフラグメントを使用して、メールコンテンツをデザインできます。
-* **Marketo Design Studio assets** — Marketo Engage アセットライブラリの1回限りのコピーから、電子メールキャンバス内で直接画像とアセットを選択します。
-* **再利用可能なテンプレートとフラグメント** – 共通のヘッダー、フッター、CTA、メール全体のレイアウトを保存し、ジャーニーをまたいで再利用できます。
-* **役割ベースのアクセス制御（RBAC）** – 電子メールの作成、編集、承認、および送信に対する詳細な権限を適用します。
+## 現在の制限事項 {#limitations}
+
+* **テストプロファイル、コンテンツのシミュレート、プルーフの送信**&#x200B;は、このリリースでは使用できません。 LitmusのレンダリングとSpamAssassin ベースのスパムレポートは、一般提供のロードマップに掲載されています。
+* **アカウントレベルのパーソナライゼーションとカスタムオブジェクトデータ**&#x200B;は、このリリースでは使用できません。 プロファイル属性の利用：
+* 既存のMarketo Engage テンプレートの&#x200B;**Velocity-to-Handlebars自動移行**&#x200B;は、一般公開されます。
+* **電子メールに関するコメントと共同作業** （インラインコメント、@mentions、リクエストとレビューのワークフロー）は、今後のリリースで出荷されます。
+* **AEM Assets、AEM コンテンツフラグメント、Adobe Express**&#x200B;の統合は、_迅速フォローアップ_&#x200B;のロードマップに含まれています。
 
 ## 主要概念 {#key-concepts}
 
 個人ジャーニーのメールを作成し、メールコンテンツをオーサリングする前に、次の概念を確認します。
 
-| 概念 | [!DNL Journey Optimizer B2B Prime] Prime内 |
+| 概念 | [!DNL Adobe Journey Optimizer B2B Prime]内 |
 | ------- | ---------------------- |
 | **_電子メールデザインスペース_** | メールコンテンツの作成に使用されるビジュアルキャンバスとデザインツール。 ドラッグ&amp;ドロップ操作のレイアウトコンポーネント、テンプレート、フラグメント、テーマ、パーソナライゼーションエディターが含まれます。 |
 | **_テンプレート_** | 新しいメールの作成に使用できる、再利用可能なメールレイアウト。 これは、Adobeが提供するビルトインサンプルテンプレートまたはチームが作成したカスタムビルトインテンプレートのいずれかです。 |
@@ -56,68 +65,67 @@ ht-degree: 4%
 
 ## ジャーニーからのメールの追加
 
-ジャーニーから電子メールを送信するには、_アクションを実行_ ノードを追加し、電子メールを送信するように設定します。
+ジャーニーから電子メールを送信するには、[&#x200B; アクションを実行&#x200B;_ノード_&#x200B;を追加し、電子メールを送信するように設定します](action-nodes.md#add-an-action-node)。
 
 1. ジャーニーキャンバスで、**+** アイコンをクリックし、**[!UICONTROL アクションを実行]**&#x200B;を選択します。
 
 1. 右側のノードプロパティで、アクションを&#x200B;**[!UICONTROL メールを送信]**&#x200B;に設定します。
 
-   ![&#x200B; アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="450"}
+   ![&#x200B; アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="500"}
 
 1. メールのソースを選択：
 
    * **電子メールの作成/編集** – 電子メールデザイン領域で、件名、送信者情報、電子メール本文を含む電子メールコンテンツを定義するには、このオプションを選択します。
 
-   * **[!UICONTROL AIでパーソナライズされた電子メールを使用]** - AIで生成された電子メールを電子メールデザイン空間で調整するには、このオプションを選択します。 これらのメールは、AIを活用して受信トレイを最適化されており、オファーやCTAにおいて、顧客の要約と回答が反映されています。
+   * **[!UICONTROL AIでパーソナライズされた電子メールを使用する]** - （_Betaでは利用できません_）電子メールデザインスペースでAIで生成された電子メールを絞り込むには、このオプションを選択します。 これらのメールは、AIを活用して受信トレイを最適化されており、オファーやCTAにおいて、顧客の要約と回答が反映されています。
 
 1. 「**[!UICONTROL メールを作成]**」をクリックします。
 
 1. _[!UICONTROL メール作成]_ ダイアログで、一意の&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
+   ![電子メールダイアログの作成](./assets/email-channel-create-email-dialog.png){width="400"}
+
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-## メールプロパティとアクションを定義
+オプションの[送信時間の最適化](email-send-time-optimization.md)では、電子メールの作成後にジャーニーアクションノードを設定します。
 
-1. ジャーニーキャンバスで「_[!UICONTROL メールを送信]_」ノードを選択した状態で、右側のノードプロパティの「**[!UICONTROL メールを編集]**」をクリックします。
+## メールプロパティとアクションを定義 {#define-email-properties}
 
-<!-- Staging environment broken -->
+「_[!UICONTROL メールを送信]_」ノードのメールを作成すると、メールページが開きます。 右側のノードプロパティで「**[!UICONTROL メールを編集]**」をクリックすると、メールの作成後にこのページにアクセスすることもできます。
 
-電子メールと&#x200B;**[!UICONTROL 件名]**&#x200B;の。
+1. （オプション）「**[!UICONTROL プロパティ]**」タブに、電子メール用に取得する記述情報を入力します。
 
-これにより、**[!UICONTROL アクション]** タブが開き、使用するメール設定を選択または作成できます。
+1. 「**[!UICONTROL アクション]**」タブを選択し、メールの機能設定を完了します。
 
-1. （オプション）ビジネスルールでルールセットを選択して、メールアクションにキャッピングルールを適用します。
+   * **[!UICONTROL 電子メール]** – 使用する&#x200B;**[!UICONTROL 電子メールチャネル設定]**&#x200B;を選択または作成します。
 
-[送信時間最適化オプション &#x200B;](./email-send-time-optimization.md)を使用して、過去の開封率とクリック率に基づいて、メッセージを送信する最適な時間を予測し、エンゲージメントを最大化できます。 方法の詳細情報
+     これは、送信者ID、返信先アドレス、サブドメイン、IP プール、メールタイプ（マーケティングまたはトランザクション）、トラッキングを定義する、再利用可能なメール配信設定のセットです。 _表示_ アイコンをクリックして、選択した設定の設定を確認します。
 
-「コンテンツを編集」ボタンを選択し、電子メールDesignerを使用して必要に応じてコンテンツを作成します。
+     管理者は、[電子メールチャネル設定](../admin/email-channel-configuration.md)で設定を作成します。
 
-ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。
+   * **[!UICONTROL ビジネスルール]** - （オプション） ルールセットを選択して、メールアクションにキャッピングルールを適用します。
 
-ジャーニーの作成、設定、公開方法について詳しくは、このページを参照してください。
+   * **[!UICONTROL アクションの追跡]** – 電子メールで追跡するアクションのチェックボックスをオンにします。
 
+   ![電子メールチャネル – 「アクション」タブ &#x200B;](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
-### メール設定の定義 {#email-settings}
+1. 「**[!UICONTROL コンテンツを編集]**」をクリックするか、「**[!UICONTROL コンテンツ]**」タブを選択します。
 
-ノード概要パネルの「**[!UICONTROL 詳細]**」タブで設定を構成します。
+1. 電子メールの件名フィールドに表示する&#x200B;**[!UICONTROL 件名]** テキストを入力します。
 
-| 設定 | 説明 |
-| ------- | ----------- |
-| **[!UICONTROL 送信者名]** | メールヘッダーに表示される送信者名。 パーソナライゼーショントークンをサポートしています。 |
-| **[!UICONTROL 電子メールから]** | 送信者のメールアドレス： チャネル設定からのデフォルト。 パーソナライゼーションの促進： |
-| **[!UICONTROL 返信先アドレス]** | 受信者から返信を受信するアドレス。 パーソナライゼーションの促進： |
-| **[!UICONTROL 件名]** | Email subject line. 作成時に入力した値から編集可能です。 |
-| **[!UICONTROL ブランディングドメイン]** | ブランド固有の送信に使用されるドメイン。 |
-| **[!UICONTROL 専用IP]** | 配信品質を追跡するための特定のIP アドレス。 |
-| **[!UICONTROL 運用電子メール]** | 有効にすると、オプトアウトと登録解除の抑制が回避されます。 正当な運用上のメッセージにのみ使用します。 |
-| **[!UICONTROL Web ページとしてビューを含める]** | メールコンテンツのweb ページリンクを生成します。 |
-| **[!UICONTROL 開封トラッキングを無効にする]** | メールの開封状況の追跡を防止します。 |
-| **[!UICONTROL プリヘッダー]** | 受信トレイのプレビューで、件名の後に表示される短い概要テキスト。 |
-| **[!UICONTROL CC アドレス]** | コピーを受信するには、最大25個のリードまたは会社のメールフィールドを追加します。 |
+   _パーソナライズ_ アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../../user/assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。
+
+1. （オプション）公開プロセス中にメール HTMLのサイズを小さくするには、「**[!UICONTROL HTML サイズを最適化]**」チェックボックスをオンにします。
+
+   これにより、100 KBを超えるメッセージを切り捨てるGmailなどのクライアントでのメールクリッピングを防ぐことができます。 詳しくは、[_電子メールのHTML サイズの最適化_](#optimize-html-size)&#x200B;を参照してください。
+
+1. **[!UICONTROL メール本文を編集]**&#x200B;をクリックしてビジュアルデザインツールにアクセスし、[&#x200B; コンテンツの作成を開始](../content/email-authoring.md)します。
+
+   または、**[!UICONTROL コードエディター]**&#x200B;をクリックして、プレーンHTMLで独自のコンテンツをコーディングすることもできます。 既存のHTMLをメールデザインに再利用する場合は、それをコピーしてエディターに貼り付けることができます。
 
 ### アラートの確認 {#alerts}
 
-[!DNL Journey Optimizer B2B Prime]は、メールエディターの右上隅に問題を表示します。 ジャーニーをアクティブ化する前にすべてのエラーを解決します。警告は推奨事項のみです。
+[!DNL Adobe Journey Optimizer B2B Prime]は、メールページの右上隅に問題を表示します。 ジャーニーをアクティブ化する前に、すべてのエラーを解決します。 警告は推奨事項のみです。
 
 **エラー** （ジャーニーのアクティブ化を防止）:
 
@@ -131,3 +139,62 @@ ht-degree: 4%
 * HTMLのテキストバージョンが空です
 * 空のリンクが検出されました
 * 電子メールが100 Kを超えています
+
+## メールHTMLサイズの最適化 {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_email_minification"
+>title="HTMLのサイズを小さくする"
+>abstract="このオプションを有効にすると、不要な空白、インデント、必須ではないコメントを削除して、公開中にメール HTMLを圧縮できます。 これにより、100 KBを超えるメッセージを切り捨てるGmailなどのクライアントでのメールクリッピングを防ぐことができます。"
+
+[!DNL Journey Optimizer B2B Prime]を使用すると、不要な空白、インデント、必須ではないコメントを削除して、公開プロセス中にメール HTMLのバージョンを圧縮できます。 HTMLのサイズを小さくすると、次のことが可能になります。
+
+* **電子メールクリッピング**&#x200B;を避けます。Gmailなどの一部のクライアントでは、100 KBを超えるメッセージが切り捨てられ、受信者が完全なコンテンツを表示できなくなります。
+* 受信者の受信トレイに&#x200B;**メールの読み込み時間**&#x200B;を短縮します。
+* **配信品質**&#x200B;を向上させ、帯域幅の使用を減らします。
+
+この最適化は自動的に適用されません。_[!UICONTROL コンテンツ]_ タブで有効にする必要があります。
+
+<!-- ![](assets/email-optimize-html-size.png) -->
+
+>[!IMPORTANT]
+>
+> HTML サイズの縮小は、公開時にのみ適用されます。
+
+最適化はメールクライアントセーフです。
+
+* MSO/Outlookの条件付きコメントが保持されます。
+* 実際のコンテンツ、画像、動画に変更を加えることはありません。
+
+>[!NOTE]
+>
+>メールサイズの削減は、メールの元のHTML構造によって異なります。 コンテンツが既にコンパクトになっている場合や、メールペイロードが非常に大きい場合、削減は最小限に抑えられ、すべての場合でクリッピングが完全に妨げられないことがあります。
+
+<!-- 
+Proof and simulate workflows are not available in this release. See [Current limitations](#limitations).
+
+### Test HTML size optimization {#optimize-html-proof}
+
+If you have enabled the [HTML size optimization](#optimize-html-size) option, you can evaluate its impact before publishing when sending proofs. Follow the following steps.
+
+1. In the email design space, click the _Issues_ icon on the top right. If the rendered email size exceeds 100 KB, a message is displayed to warn you that this may cause truncation in some email clients.
+
+1. Click **[!UICONTROL Simulate content]**.
+
+1. To test the optimized version, click the **[!UICONTROL Send proof]** button and select the **[!UICONTROL Optimize HTML size]** option. This will send a proof with the reduced HTML size to your test recipients.
+
+    >[!NOTE]
+    >
+    >This setting is independent from the email editor — the proof reflects what you select in the proof, regardless of whether the option is enabled or disabled in the email itself.
+
+1. Select the test recipients and click **[!UICONTROL Send proof]**.
+
+1. Back in the **[!UICONTROL Simulate]** screen, click the **[!UICONTROL View Proof]** button.
+
+1. Click the _Information_ icon next to the status of the proof.
+
+   The optimization details are displayed in a pop-up window, including the original HTML size, the optimized HTML size, and the size reduction percentage.
+    
+    Use this information to validate the optimized output and confirm the email stays within the recommended 100 KB threshold before publishing.
+
+-->
