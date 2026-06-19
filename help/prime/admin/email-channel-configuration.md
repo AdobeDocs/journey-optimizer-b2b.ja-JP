@@ -6,10 +6,17 @@ feature: Administration
 role: Admin
 autotag-review: '2026-06-19T18:24:06.835Z'
 TQID: 'https://experienceleague.adobe.com/LPzFkOpxHN0Fd5MnhBq2pAU8UubDjrjp2upyeO0t-eM'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
 source-wordcount: 636
@@ -19,7 +26,7 @@ ht-degree: 1%
 
 # メールチャネル設定
 
-チャネル設定とは、送信者ID、サブドメイン、IP プール、トラッキングの設定を結びつける中心的なオブジェクトのことです。 ジャーニーのメールアクションは、チャネル設定を参照して、メッセージの送信方法を把握します。 設定を作成する前に、[ サブドメインのデリゲーションとIP プールの設定](../start/email-deliverability.md)を完了してください。
+チャネル設定とは、送信者ID、サブドメイン、IP プール、トラッキングの設定を結びつける中心的なオブジェクトのことです。 ジャーニーのメールアクションは、チャネル設定を参照して、メッセージの送信方法を把握します。 設定を作成する前に、[&#x200B; サブドメインのデリゲーションとIP プールの設定](../start/email-deliverability.md)を完了してください。
 
 * **チャネル：**&#x200B;電子メール。
 * **メールの種類：** マーケティングまたはトランザクション。 この設定は、抑制ルールが適用されるかどうかを決定します（マーケティング部門が適用します。トランザクションメッセージは、デフォルトでスパム苦情の抑制を回避し、正当なトランザクションメッセージを表示します）。
@@ -33,8 +40,8 @@ ht-degree: 1%
 
 >[!PREREQUISITES]
 >
->* 少なくとも1つの[ サブドメイン ](../start/email-deliverability.md#subdomain-delegation)をデリゲートしてアクティブにする必要があります。
->* 少なくとも1つの[IP プール ](../start/email-deliverability.md#ip-pools)を組織に割り当てる必要があります。
+>* 少なくとも1つの[&#x200B; サブドメイン &#x200B;](../start/email-deliverability.md#subdomain-delegation)をデリゲートしてアクティブにする必要があります。
+>* 少なくとも1つの[IP プール &#x200B;](../start/email-deliverability.md#ip-pools)を組織に割り当てる必要があります。
 >* 管理者の役割が必要です。
 >* [現在の制限事項](../start/email-deliverability.md#limitations)を確認する – 専用のIP プールはBetaでは利用できません。
 
@@ -79,7 +86,7 @@ ht-degree: 1%
 >
 >チャネル設定の削除は永続的です。 アクティブなジャーニーが参照する設定は削除できません。 最初にすべてのメールアクションを削除または再割り当てします。
 
-設定を削除するには、まず、[ ジャーニーにメールを追加](../marketing/email-channel.md#define-email-properties)で設定を参照するすべてのメールアクションを削除または更新します。 [!DNL Journey Optimizer B2B Prime]は、アクティブなジャーニーで現在使用されている設定を削除しません。
+設定を削除するには、まず、[&#x200B; ジャーニーにメールを追加](../marketing/email-channel.md#define-email-properties)で設定を参照するすべてのメールアクションを削除または更新します。 [!DNL Journey Optimizer B2B Prime]は、アクティブなジャーニーで現在使用されている設定を削除しません。
 
 ## 複数のチャネル設定 {#multiple-channel-configurations}
 
