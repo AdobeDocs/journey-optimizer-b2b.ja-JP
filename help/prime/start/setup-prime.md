@@ -14,7 +14,7 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 55%
@@ -42,22 +42,22 @@ ht-degree: 55%
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
 <td>Adobe Admin ConsoleでMarketo Engage製品プロファイルを作成する（新しいMarketo Engage インスタンスのみ）</td>
 <td><a href="./user-management.md#create-profile">詳細情報</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
 <td>プロファイル用のユーザーグループの追加</td>
 <td><a href="./user-management.md#add-user-group">詳細情報</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
 <td>B2B ユーザーの役割の設定</td>
 <td><a href="./user-management.md#edit-roles-for-product-permissions">詳細情報</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
 <td>役割にユーザーまたはグループを追加</td>
 <td><a href="./user-management.md#add-users-to-a-role">詳細情報</a></td>
 </tr>
@@ -81,26 +81,25 @@ ht-degree: 55%
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
 <td>Adobeへのサブドメインのデリゲート</td>
 <td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">完全に委任</a>または<a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
 <td>サブドメインのDMARCの設定</td>
 <td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">詳細情報</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
 <td>IP プールの確認と割り当て</td>
 <td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">詳細情報</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
 <td>メールチャネル設定の作成</td>
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">詳細</a></td>
 </tr>
 </tbody>
 </table>
-<!-- -->
 

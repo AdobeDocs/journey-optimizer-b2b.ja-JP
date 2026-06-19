@@ -14,7 +14,7 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 3095
 ht-degree: 1%
@@ -368,4 +368,3 @@ IP プールは、メールの送信に使用されるIP アドレスの名前�
 | **Subdomain delegation** | Granting Adobe authority over a portion of your domain (a subdomain) for sending email. |
 
 -->
-<!-- -->
