@@ -1,10 +1,10 @@
 ---
 title: コンテンツのオーサリング - HTMLのインポート
 description: HTML コンテンツオーサリングからの読み込みに関する節を再利用しました
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 27%
+source-wordcount: '139'
+ht-degree: 28%
 
 ---
 
@@ -21,6 +21,6 @@ ht-degree: 27%
 
 _HTML コンテンツを含むファイルを読み込むには&#x200B;:_
 
-1. _[!UICONTROL テンプレートのデザイン]_ ホームページから、**[!UICONTROL HTMLの読み込み]** オプションを選択します。
+1. デザインホームページから、「**[!UICONTROL HTMLを読み込み]**」オプションを選択します。
 
 1. HTML コンテンツを含んだ HTML または .zip ファイルをドラッグ＆ドロップし、「**[!UICONTROL 読み込み]**」をクリックします。

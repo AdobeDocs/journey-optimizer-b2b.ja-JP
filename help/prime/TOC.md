@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B edition Primeとその使用方法について説明します。
 hide: true
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 44%
+source-wordcount: '141'
+ht-degree: 48%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 44%
       + [概要](./marketing/email-channel.md)
       + [メール送信時間の最適化](./marketing/email-send-time-optimization.md)
       + [コンテンツのオーサリング](./content/email-authoring.md)
-      + [&#x200B; ダークモードのデザイン &#x200B;](./content/email-dark-mode.md)
+      + [ ダークモードのデザイン ](./content/email-dark-mode.md)
    + [WhatsApp チャネル](./content/whatsapp-authoring.md)
 + オーディエンス {#audiences}
    + [ユーザーリスト](./audiences/people-lists.md)
@@ -50,6 +50,11 @@ ht-degree: 44%
       + [コンテンツガバナンス](./content/template-content-governance.md)
    + [ランディングページ](./content/landing-pages.md)
    + [フォーム](./content/forms.md)
+   + コンテンツデザインツール {#content-design}
+      + [構造コンポーネント](./content/structure-components.md)
+      + [コンテンツコンポーネント](./content/content-components.md)
+      + [カスタム CSS](./content/design-custom-css.md)
+   + [パーソナライズ機能](./content/personalization-expressions.md)
 + {hide-from-toc}[販売修飾子](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc}[Brand Concierge](./brand-concierge/brand-concierge.md)
 + 管理 {#admin}
