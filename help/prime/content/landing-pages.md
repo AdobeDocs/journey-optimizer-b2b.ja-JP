@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2180
+source-wordcount: 2164
 ht-degree: 6%
 
 ---
@@ -30,12 +30,12 @@ ht-degree: 6%
 * コミュニケーションを送信する前に同意を収集し、オプトインまたはオプトアウト時に確認メールを送信します。
 * ランディングページでフォームを使用して、プロファイルデータ（プログレッシブプロファイリング、嗜好、登録、類似のシナリオ）を取得または更新します。
 * ジャーニーオーケストレーションに合わせて設計された、キャンペーン固有の情報に人物を誘導します。
-* Journey Optimizer B2B Primeの外部ページを構築することなく、専用のweb フォームにオーディエンスをリダイレクトできます。
+* [!DNL Journey Optimizer B2B Prime]以外の外部ページを作成せずに、ユーザーを専用のweb フォームにリダイレクトします。
 
 <!-- 
 ## Landing page workflow
 
-To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
+To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]: 
 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
@@ -51,7 +51,7 @@ You can create, personalize, and preview landing pages in the visual design spac
 
 ## ランディングページへのアクセスと管理 {#access-manage-landing-pages}
 
-Journey Optimizer B2B Primeのランディングページにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL ランディングページ]**&#x200B;をクリックします。 このアクションは、インスタンスで作成されたすべてのランディングページのリストを表示します。
+[!DNL Journey Optimizer B2B Prime]のランディングページにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL ランディングページ]**&#x200B;をクリックします。 このアクションは、インスタンスで作成されたすべてのランディングページのリストを表示します。
 
 リストは、_[!UICONTROL 変更済み]_&#x200B;列に従って並べ替えられ、最も最近更新された項目が上部に表示されます。 列のタイトルをクリックして、昇順と降順を変更します。
 
@@ -78,7 +78,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 | ステータス | 説明 |
 | -------------------- | ----------- |
 | 下書き | ランディングページを作成する場合、そのランディングページはドラフトステータスになります。 ビジュアルコンテンツを定義または編集し、ホストされたページとして公開するまで、このステータスのままになります。 使用可能なアクション：<br/><ul><li>名前または説明を編集</li><li>リンク URLを編集</li><li>ビジュアルデザイン空間での編集</li><li>公開</li><li>複製</li><li>削除</li></ul> |
-| 公開日 | ランディングページを公開すると、ランディングページはJourney Optimizer B2B Prime インスタンスでホストされ、メールまたはSMS メッセージのコンテンツでリンクできるようになります。 使用可能なアクション：<br/><ul><li>名前または説明を編集</li><li>リンク URLを編集</li><li>メールまたはSMS メッセージのコンテンツにリンクを追加する</li><li>ドラフトバージョンを作成</li><li>複製</li><li>削除</li></ul> |
+| 公開日 | ランディングページを公開すると、ランディングページは[!DNL Journey Optimizer B2B Prime] インスタンスでホストされ、メールまたはSMS メッセージのコンテンツでリンクできるようになります。 使用可能なアクション：<br/><ul><li>名前または説明を編集</li><li>リンク URLを編集</li><li>メールまたはSMS メッセージのコンテンツにリンクを追加する</li><li>ドラフトバージョンを作成</li><li>複製</li><li>削除</li></ul> |
 | 公開済み下書きあり | 公開されたランディングページからドラフトを作成すると、公開されたバージョンは残り、ドラフトコンテンツはビジュアルデザイン空間で変更できます。 ドラフトバージョンを公開すると、現在の公開済みバージョンが置き換えられ、コンテンツはホストされているページで更新されます。 使用可能なアクション：<br/><ul><li>名前または説明を編集</li><li>リンク URLを編集</li><li>メールまたはSMS メッセージのコンテンツにリンクを追加する</li><li>ビジュアルデザインスペースでのドラフトバージョンの編集</li><li>ドラフトバージョンを公開</li><li>複製</li><li>削除（両方のバージョンを削除）</li><li>ドラフトを破棄（公開済みステータスに戻る）</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
@@ -175,7 +175,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >title="ランディングページのプレビューとテスト"
 >abstract="ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してページをプレビューします。"
 
-ランディングページの設定とコンテンツが定義されている場合は、テストプロファイルを使用してページをプレビューできます。 [&#x200B; パーソナライズされたコンテンツ &#x200B;](email-authoring.md#personalization)を挿入した場合、テストプロファイルデータを使用して、このコンテンツがランディングページにどのように表示されるかを確認できます。
+ランディングページの設定とコンテンツが定義されている場合は、テストプロファイルを使用してページをプレビューできます。 [&#x200B; パーソナライズされたコンテンツ &#x200B;](email-authoring.md#personalize-content)を挿入した場合、テストプロファイルデータを使用して、このコンテンツがランディングページにどのように表示されるかを確認できます。
 
 >[!PREREQUISITES]
 >
@@ -299,7 +299,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 ## ランディングページへのリンク {#link-to-landing-page}
 
-電子メール、フラグメント、ページコンテンツを制作するマーケターまたはクリエイターは、Journey Optimizer B2B Prime インスタンスで作成された公開（ライブ）ランディングページへのリンクを埋め込むことができます。
+電子メール、フラグメント、ページコンテンツを作成するマーケターまたはクリエイティブは、[!DNL Journey Optimizer B2B Prime] インスタンスで作成された公開（ライブ）ランディングページへのリンクを埋め込むことができます。
 
 1. フラグメント、電子メール、ランディングページ、またはテンプレートのビジュアルデザインスペースで作業する際に、リンクのテキストの抜粋、ボタンコンポーネント、または画像コンポーネントを選択します。
 
