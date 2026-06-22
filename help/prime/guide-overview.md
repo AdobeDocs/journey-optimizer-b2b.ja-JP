@@ -3,10 +3,16 @@ title: Adobe Journey Optimizer B2B Primeのドキュメント
 description: Adobe Journey Optimizer B2B Primeの詳細ドキュメント – オンボーディングに役立つガイドをご覧ください。
 autotag-review: '2026-06-12T22:37:55.790Z'
 TQID: 'https://experienceleague.adobe.com/qIeIKMJLaBkBTuh7qpwer-2MTRlzrELRVtYFzAIcdjw'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: f467931a-9b22-4ca8-869f-adfbd64061ce
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 6bfe5d2e2fbcfcf8004922acfa4b7181d5a0ab8e
 workflow-type: tm+mt
 source-wordcount: 91
@@ -46,7 +52,7 @@ Email designers can now select from standard [!DNL Firefly] models, custom [!DNL
 Journey Optimizer B2B Primeオンボーディングガイダンス（管理者およびマーケター向け）をご確認ください。
 
 [管理者](./start/setup-prime.md)
-[ ユーザー](./start/get-started.md)
+[&#x200B; ユーザー](./start/get-started.md)
 :::
 
 :::
