@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 1656
+source-wordcount: 1633
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 5%
 >title="構造コンポーネントについて"
 >abstract="構造コンポーネントは、テンプレートの構造のデザイン作成に使用できるレイアウト要素です。"
 
-ビジュアルデザイン空間で&#x200B;_構造コンポーネント_&#x200B;を使用して、コンテンツの構造を定義します。 シンプルなドラッグ&amp;ドロップ操作で構造要素を追加、移動することで、コンテンツレイアウトの形状をすばやく定義できます。 それぞれの構造コンポーネントは水平方向のスペースにまたがり、それらを積み重ねて垂直方向にレイアウトを構築できます。 各コンポーネントを列に分割して必要な各コンテンツブロックを作成し、その中に[&#x200B; コンテンツコンポーネント &#x200B;](./content-components.md)を追加してレイアウトに入力します。
+ビジュアルデザイン空間で&#x200B;_構造コンポーネント_&#x200B;を使用して、コンテンツの構造を定義します。 シンプルなドラッグ&amp;ドロップ操作で構造要素を追加、移動することで、コンテンツレイアウトの形状をすばやく定義できます。 それぞれの構造コンポーネントは水平方向のスペースにまたがり、それらを積み重ねて垂直方向にレイアウトを構築できます。<!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## 構造ライブラリ {#structure-library}
 

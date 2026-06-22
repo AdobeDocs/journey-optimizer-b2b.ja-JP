@@ -16,9 +16,9 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: 2820
 ht-degree: 7%
 
 ---
@@ -45,7 +45,9 @@ ht-degree: 7%
 >title="コンテンツコンポーネントについて"
 >abstract="コンテンツコンポーネントは、テンプレートのデザイン作成に使用できる空のコンテンツプレースホルダーです。"
 
-メール、ランディングページ、テンプレート、ビジュアルフラグメントのコンテンツをデザインする場合は、[!UICONTROL &#x200B; コンテンツコンポーネント &#x200B;]を使用してビジュアルデザイン要素を追加します。 レイアウトを定義する1つ以上の[構造コンポーネント &#x200B;](./structure-components.md)内に、必要な数のコンテンツコンポーネントを追加できます。
+メール、ランディングページ、テンプレート、ビジュアルフラグメントのコンテンツをデザインする場合は、[!UICONTROL &#x200B; コンテンツコンポーネント &#x200B;]を使用してビジュアルデザイン要素を追加します。
+
+<!-- You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout. -->
 
 ## コンテンツライブラリ
 
