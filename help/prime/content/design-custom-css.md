@@ -16,13 +16,14 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
+source-git-commit: 68ce728130c78df150ba3041859dcb593a9a709b
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: 573
 ht-degree: 9%
 
 ---
 
+# コンテンツにカスタム CSSを追加する
 
 電子メールやランディングページのデザインスペース内に、独自のカスタム CSSを直接追加できます。 カスタム CSSを使用して、高度で特定のスタイルを適用し、コンテンツの外観をより柔軟に制御できます。
 
