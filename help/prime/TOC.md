@@ -1,11 +1,11 @@
 ---
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
-user-guide-description: Adobe Journey Optimizer B2B edition Primeとその使用方法について説明します。
+user-guide-description: Adobe Journey Optimizer B2B Primeとその使用方法について説明します。
 hide: true
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+source-git-commit: 6bfe5d2e2fbcfcf8004922acfa4b7181d5a0ab8e
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 48%
+source-wordcount: '131'
+ht-degree: 51%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 48%
       + [概要](./marketing/email-channel.md)
       + [メール送信時間の最適化](./marketing/email-send-time-optimization.md)
       + [コンテンツのオーサリング](./content/email-authoring.md)
-      + [&#x200B; ダークモードのデザイン &#x200B;](./content/email-dark-mode.md)
+      + [ ダークモードのデザイン ](./content/email-dark-mode.md)
    + [WhatsApp チャネル](./content/whatsapp-authoring.md)
 + オーディエンス {#audiences}
    + [ユーザーリスト](./audiences/people-lists.md)
@@ -56,13 +56,9 @@ ht-degree: 48%
       + [コンテンツコンポーネント](./content/content-components.md)
       + [カスタム CSS](./content/design-custom-css.md)
 + {hide-from-toc}[販売修飾子](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[Brand Concierge](./brand-concierge/brand-concierge.md)
 + 管理 {#admin}
-   + {hide-from-toc}[管理](./admin/admin.md)
    + チャネル {#channels}
       + [メールチャネル設定](./admin/email-channel-configuration.md)
-      + {hide-from-toc}[SMS チャネル設定](./admin/configuration-channels-sms.md)
-      + {hide-from-toc}[Web チャネル設定](./admin/configuration-channels-web.md)
       + [WhatsApp チャネル設定](./admin/configuration-channels-whatsapp.md)
       + [ランディングページの設定](./admin/configuration-presets-landing-pages.md)
       + [フォームプリセット設定](./admin/configuration-presets-forms.md)
