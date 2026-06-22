@@ -35,7 +35,7 @@ ht-degree: 47%
       + [概要](./marketing/email-channel.md)
       + [メール送信時間の最適化](./marketing/email-send-time-optimization.md)
       + [コンテンツのオーサリング](./content/email-authoring.md)
-      + [ ダークモードのデザイン ](./content/email-dark-mode.md)
+      + [&#x200B; ダークモードのデザイン &#x200B;](./content/email-dark-mode.md)
    + [WhatsApp チャネル](./content/whatsapp-authoring.md)
 + オーディエンス {#audiences}
    + [ユーザーリスト](./audiences/people-lists.md)
