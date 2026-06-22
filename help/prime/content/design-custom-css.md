@@ -3,6 +3,7 @@ title: コンテンツのカスタム CSSの追加
 description: Journey Optimizer B2B Primeの標準コンポーネントに加えて、メールやランディングページにカスタム CSSを追加し、高度なスタイル設定や正確なデザイン制御を実現します。
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、限定的なベータ版リリースの一部です。"
 autotag-review: '2026-06-19T22:00:56.704Z'
 TQID: 'https://experienceleague.adobe.com/z0vACEVhY2WZcSgeO3Kbx7ceSNsf4Se3DZut36xnN4E'
 product_v2:
@@ -15,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 567
 ht-degree: 9%
 
 ---
@@ -200,7 +201,7 @@ body {
 
 メールやランディングページのデザイン空間にコンテンツを読み込んでカスタム CSSを使用する場合は、次の点を考慮してください。
 
-* CSSを含む外部HTML コンテンツを読み込む場合、<!-- unless converting that content, -->互換性モード に入力され、[!UICONTROL CSS スタイル &#x200B;] セクションは使用できません。
+* CSSを含む外部のHTML コンテンツを読み込む場合、[!UICONTROL 互換性モード &#x200B;]に設定され、[!UICONTROL CSS スタイル &#x200B;] セクションは使用できません。
 
 * [!UICONTROL &#x200B; カスタム CSS]を追加オプションを使用して、最初に電子メールまたはランディングページのデザインスペースで作成されたコンテンツを読み込む場合、適用されたCSSは同じオプションから表示され、編集可能になります。
 
