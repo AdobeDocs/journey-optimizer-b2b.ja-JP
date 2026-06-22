@@ -16,9 +16,9 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
+source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
 workflow-type: tm+mt
-source-wordcount: 2820
+source-wordcount: 2840
 ht-degree: 7%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 7%
 
 メール、ランディングページ、テンプレート、ビジュアルフラグメントのコンテンツをデザインする場合は、[!UICONTROL &#x200B; コンテンツコンポーネント &#x200B;]を使用してビジュアルデザイン要素を追加します。
 
-<!-- You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout. -->
+レイアウトを定義する1つ以上の[構造コンポーネント &#x200B;](./structure-components.md)内に、必要な数のコンテンツコンポーネントを追加できます。
 
 ## コンテンツライブラリ
 
