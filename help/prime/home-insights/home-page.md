@@ -4,10 +4,16 @@ description: Journey Optimizer B2B Primeのホームページを使用して、A
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 autotag-review: '2026-06-22T21:23:50.355Z'
 TQID: 'https://experienceleague.adobe.com/EEbVyM9Z-y1vdw2wVmE4qw3eSbP9tE36I-kSE8Ng6wU'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
 source-wordcount: 374
@@ -19,7 +25,7 @@ ht-degree: 6%
 
 _ホーム_ ページは、Adobe Journey Optimizer B2B Primeの起動パッドです。 左側のナビゲーションの上部にある「_ホーム_」アイコンを選択して開きます。 **ようこそ[name]様、今日から何を作れますか？** ワンクリックでアイデアからアクションへと導くように設計されています。
 
-![ ホームページ ](./assets/home-page.png){width="800" zoomable="yes"}
+![&#x200B; ホームページ &#x200B;](./assets/home-page.png){width="800" zoomable="yes"}
 
 ## 入力ボックス
 
