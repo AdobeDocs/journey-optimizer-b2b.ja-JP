@@ -1,6 +1,7 @@
 ---
 title: 販売修飾子
 description: Journey Optimizer B2B PrimeのSales Qualifierでは、BDR向けに、AIによる見込み顧客の絞り込み、アウトバウンドワークフロー、CRM統合、タスク、プロファイル設定を提供します。
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 autotag-review: '2026-06-22T18:49:11.199Z'
 TQID: 'https://experienceleague.adobe.com/pfm5edN0IqvzhCaQIVC43i0Mwckmc6UVkUAC5eGrF4Y'
 product_v2:
@@ -20,9 +21,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a3ed5ce067dab46abccd3dbe584e073449394393
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: 4575
+source-wordcount: 4585
 ht-degree: 1%
 
 ---

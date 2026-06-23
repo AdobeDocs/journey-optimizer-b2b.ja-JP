@@ -1,9 +1,24 @@
 ---
 title: ユーザーのアクセスと権限
 description: Adobe Admin Consoleでユーザーアクセスを管理する：Journey Optimizer B2B edition Primeでユーザーグループを作成し、製品プロファイルを割り当て、ロールベースの権限を設定します。
-source-git-commit: f1449f734b5d93dc9bd4d7b4c1292a50cbc338b7
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
+autotag-review: '2026-06-22T20:31:37.404Z'
+TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: 1729
 ht-degree: 70%
 
 ---

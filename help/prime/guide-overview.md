@@ -1,6 +1,7 @@
 ---
 title: Adobe Journey Optimizer B2B Primeのドキュメント
 description: Adobe Journey Optimizer B2B Primeの詳細ドキュメント – オンボーディングに役立つガイドをご覧ください。
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 autotag-review: '2026-06-12T22:37:55.790Z'
 TQID: 'https://experienceleague.adobe.com/qIeIKMJLaBkBTuh7qpwer-2MTRlzrELRVtYFzAIcdjw'
 product_v2:
@@ -13,16 +14,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6bfe5d2e2fbcfcf8004922acfa4b7181d5a0ab8e
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: 91
-ht-degree: 23%
+source-wordcount: 103
+ht-degree: 30%
 
 ---
 
 # Adobe Journey Optimizer B2B Primeのドキュメント
 
-[!DNL Adobe Journey Optimizer B2B Prime]は
+[!DNL Adobe Journey Optimizer B2B Prime]は？
 
 <!--
 ## What's new
@@ -40,7 +41,7 @@ Email designers can now select from standard [!DNL Firefly] models, custom [!DNL
 >[!ENDTABS]
 -->
 
-## さらに詳しく {#section-explore}
+## 製品機能の詳細 {#section-explore}
 
 :::: landing-cards-container
 
