@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 1034
-ht-degree: 26%
+ht-degree: 38%
 
 ---
 
@@ -36,18 +36,18 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_subdomain_lp_header"
->title="ランディングページのサブドメインをデリゲート"
+>title="ランディングページのサブドメインのデリゲート"
 >abstract="ランディングページで使用するサブドメインを設定します。 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_subdomain_lp"
->title="ランディングページのサブドメインをデリゲート"
+>title="ランディングページのサブドメインのデリゲート"
 >abstract="ランディングページプリセットを作成する前に、ランディングページサブドメインを設定する必要があります。 既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_config_lp_subdomain"
 >title="ランディングページプリセットの作成"
->abstract="ランディングページプリセットを作成するには、サブドメイン名リストから選択するランディングページサブドメインが少なくとも1つ設定されていることを確認します。"
+>abstract="ランディングページプリセットを作成するには、サブドメイン名リストから選択するように、少なくとも 1 つの設定済みランディングページサブドメインがあることを確認します。"
 
 設定されたランディングページのサブドメインを確認するには、**[!UICONTROL 管理]** > **[!UICONTROL チャネル]**&#x200B;に移動します。 ナビゲーションパネルの&#x200B;_[!UICONTROL ランディングページ]_&#x200B;で、**[!UICONTROL ランディングページサブドメイン]**&#x200B;を選択します。
 
@@ -121,7 +121,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_lp_subdomain_dns"
 >title="一致する DNS レコードを生成"
->abstract="新しいランディングページサブドメインを設定するには、Journey Optimizer B2B インターフェイスに表示されているAdobe ネームサーバー情報をコピーし、ドメインホスティングソリューションに貼り付けて、一致するDNS レコードを生成する必要があります。 チェックが成功すると、サブドメインを使用してランディングページプリセットを作成する準備が整います。"
+>abstract="新しいランディングページのサブドメインを設定するには、Journey Optimizer B2B インターフェイスに表示されるアドビのネームサーバー情報をコピーし、ドメインホストソリューションに貼り付けて、一致する DNS レコードを生成する必要があります。 チェックが正常に完了すると、ランディングページプリセットの作成にサブドメインを使用する準備が整います。"
 
 1. **[!UICONTROL ランディングページサブドメインの設定]**&#x200B;をクリックします。
 
@@ -221,7 +221,7 @@ _To add a landing page subdomain:_
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_config_lp_subdomain_header"
 >title="ランディングページプリセットの作成"
->abstract="ランディングページを作成し、Journey Optimizer B2B editionを通じて活用するには、使用するサブドメインを含むランディングページプリセットを作成する必要があります。"
+>abstract="ランディングページを構築して Journey Optimizer B2B Edition 全体で利用するには、使用するサブドメインを含むランディングページプリセットを作成する必要があります。"
 
 マーケターが[&#x200B; ランディングページ &#x200B;](../content/landing-pages-create-publish.md#create-landing-page)を作成する場合、ランディングページを作成して[!DNL Journey Optimizer B2B Edition]を通じて活用するには、ランディングページプリセットを選択する必要があります。 プリセットには、ランディングページに使用するサブドメインが含まれています。
 

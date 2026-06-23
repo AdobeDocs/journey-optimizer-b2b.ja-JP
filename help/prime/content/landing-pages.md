@@ -16,7 +16,7 @@ role_v2:
 source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -136,12 +136,12 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_primary_page"
 >title="プライマリページ設定の定義"
->abstract="電子メールやweb サイトなどのランディングページのリンクを受信者がクリックするとすぐに表示されるプライマリページを定義します。"
+>abstract="メールや web サイトなどで、受信者がランディングページのリンクをクリックした際にすぐに表示されるプライマリページを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_access_settings"
 >title="ランディングページ URL の定義"
->abstract="このセクションでは、一意のランディングページ URL を定義します。 URLの最初の部分では、選択したプリセットの一部として、ランディングページサブドメインを以前に設定している必要があります。"
+>abstract="このセクションでは、一意のランディングページ URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページのサブドメインを事前に設定する必要があります。"
 
 プライマリページとは、電子メールやweb サイトなどのランディングページのリンクを受信者がクリックすると、すぐに表示されるページのことです。
 

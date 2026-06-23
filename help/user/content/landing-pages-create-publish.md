@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -84,12 +84,12 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_primary_page"
 >title="プライマリページ設定の定義"
->abstract="電子メールやweb サイトなどのランディングページのリンクを受信者がクリックするとすぐに表示されるプライマリページを定義します。"
+>abstract="メールや web サイトなどで、受信者がランディングページのリンクをクリックした際にすぐに表示されるプライマリページを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
 >title="ランディングページ URL の定義"
->abstract="このセクションでは、一意のランディングページ URL を定義します。 URLの最初の部分では、選択したプリセットの一部として、ランディングページサブドメインを以前に設定している必要があります。"
+>abstract="このセクションでは、一意のランディングページ URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページのサブドメインを事前に設定する必要があります。"
 
 1. ニーズに応じて&#x200B;**[!UICONTROL ページ名]**&#x200B;を変更します。デフォルトでは&#x200B;_プライマリページ_&#x200B;です。
 
