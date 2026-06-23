@@ -3,20 +3,14 @@ title: ランディングページ
 description: 個人向けジャーニーのランディングページを作成、デザイン、公開します。Journey Optimizer B2B Primeでは、ゼロから作成、HTMLをインポートして、フォームを追加、コンテンツをパーソナライズし、メールからリンクできます。
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -57,7 +51,7 @@ You can create, personalize, and preview landing pages in the visual design spac
 
 ### ランディングページリストのフィルター {#filter-list}
 
-ランディングページを名前で検索するには、検索バーにテキスト文字列を入力して一致を検索します。 _フィルター_ アイコン （![&#x200B; フィルターの表示または非表示アイコン &#x200B;](../../user/assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
+ランディングページを名前で検索するには、検索バーにテキスト文字列を入力して一致を検索します。 _フィルター_ アイコン （![ フィルターの表示または非表示アイコン ](../../user/assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
 
 ![表示されるランディングページをフィルター](./assets/landing-pages-list-filtered.png){width="800" zoomable="yes"}
 
@@ -90,13 +84,13 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >title="ランディングページの定義と設定"
 >abstract="ランディングページを作成するには、プリセットを選択し、プライマリページとサブページを設定してから、公開する前にページをテストする必要があります。"
 
-特定のリンクをクリックしたときに、定義されたweb ページにジャーニーオーディエンスのメンバーを誘導するには、[!DNL Journey Optimizer B2B Prime]にランディングページを作成します。 プリセットを選択し、プライマリページとサブページを設定し、[&#x200B; ページをテスト &#x200B;](#test-landing-page)して公開します。
+特定のリンクをクリックしたときに、定義されたweb ページにジャーニーオーディエンスのメンバーを誘導するには、[!DNL Journey Optimizer B2B Prime]にランディングページを作成します。 プリセットを選択し、プライマリページとサブページを設定し、[ ページをテスト ](#test-landing-page)して公開します。
 
 >[!IMPORTANT]
 >
->最初のランディングページを作成する前に、ランディングページの設定を完了します。 これには、ランディングページをホストするサブドメインを設定したり、サブドメインやその他のチャネル設定を指定する少なくとも1つのプリセットを定義したりすることが含まれます。 ランディングページの作成時にプリセットを選択します。 管理者の設定については、[&#x200B; ランディングページ設定](../admin/configuration-presets-landing-pages.md)を参照してください。
+>最初のランディングページを作成する前に、ランディングページの設定を完了します。 これには、ランディングページをホストするサブドメインを設定したり、サブドメインやその他のチャネル設定を指定する少なくとも1つのプリセットを定義したりすることが含まれます。 ランディングページの作成時にプリセットを選択します。 管理者の設定については、[ ランディングページ設定](../admin/configuration-presets-landing-pages.md)を参照してください。
 >
->データキャプチャのユースケースの場合は、ランディングページに埋め込む前に[&#x200B; フォーム &#x200B;](./forms.md)を作成します。
+>データキャプチャのユースケースの場合は、ランディングページに埋め込む前に[ フォーム ](./forms.md)を作成します。
 
 ランディングページを作成するには、次の手順に従います。
 
@@ -115,7 +109,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. **[!UICONTROL プリセット]**&#x200B;を選択します。
 
-   管理者[は、ランディングページに使用するサブドメインやその他の設定を定義するために、ランディングページプリセット &#x200B;](../admin/configuration-presets-landing-pages.md#lp-presets)を作成します。 プリセットを選択し、**[!UICONTROL プリセットを表示]**&#x200B;をクリックして設定を確認し、ランディングページの要件に一致することを確認します。
+   管理者[は、ランディングページに使用するサブドメインやその他の設定を定義するために、ランディングページプリセット ](../admin/configuration-presets-landing-pages.md#lp-presets)を作成します。 プリセットを選択し、**[!UICONTROL プリセットを表示]**&#x200B;をクリックして設定を確認し、ランディングページの要件に一致することを確認します。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -125,23 +119,23 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    ランディングページごとに最大2つのサブページを追加できます。
 
-プライマリページとサブページを設定およびデザインしたら、ランディングページを公開する前に[&#x200B; テスト &#x200B;](#test-landing-page)します。
+プライマリページとサブページを設定およびデザインしたら、ランディングページを公開する前に[ テスト ](#test-landing-page)します。
 
 >[!CAUTION]
 >
->ランディングページが公開されている場合でも、定義されたURLをweb ブラウザーにコピー&amp;ペーストして、ランディングページにアクセスすることはできません。 [&#x200B; ランディングページのテスト &#x200B;](#test-landing-page)の説明に従って、プレビュー関数を使用してページをテストします。
+>ランディングページが公開されている場合でも、定義されたURLをweb ブラウザーにコピー&amp;ペーストして、ランディングページにアクセスすることはできません。 [ ランディングページのテスト ](#test-landing-page)の説明に従って、プレビュー関数を使用してページをテストします。
 
 ## プライマリページの設定 {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_primary_page"
 >title="プライマリページ設定の定義"
->abstract="電子メールやweb サイトなどのランディングページのリンクを受信者がクリックするとすぐに表示されるプライマリページを定義します。"
+>abstract="メールや web サイトなどで、受信者がランディングページのリンクをクリックした際にすぐに表示されるプライマリページを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_access_settings"
 >title="ランディングページ URL の定義"
->abstract="このセクションでは、一意のランディングページ URL を定義します。 URLの最初の部分では、選択したプリセットの一部として、ランディングページサブドメインを以前に設定している必要があります。"
+>abstract="このセクションでは、一意のランディングページ URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページのサブドメインを事前に設定する必要があります。"
 
 プライマリページとは、電子メールやweb サイトなどのランディングページのリンクを受信者がクリックすると、すぐに表示されるページのことです。
 
@@ -151,13 +145,13 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. ページ URLの終了部分を定義します。
 
-   選択したプリセットによって、URLの最初の部分が決まります。 管理者は、プリセットの一部として[&#x200B; ランディングページサブドメイン &#x200B;](../admin/configuration-presets-landing-pages.md#lp-subdomains)を設定します。
+   選択したプリセットによって、URLの最初の部分が決まります。 管理者は、プリセットの一部として[ ランディングページサブドメイン ](../admin/configuration-presets-landing-pages.md#lp-subdomains)を設定します。
 
    >[!CAUTION]
    >
    >ランディングページの URL は一意にする必要があります。
    >
-   >ランディングページが公開されている場合でも、このURLをweb ブラウザーにコピー&amp;ペーストしてランディングページにアクセスすることはできません。 [&#x200B; ランディングページのテスト &#x200B;](#test-landing-page)の説明に従って、プレビュー関数を使用してテストします。
+   >ランディングページが公開されている場合でも、このURLをweb ブラウザーにコピー&amp;ペーストしてランディングページにアクセスすることはできません。 [ ランディングページのテスト ](#test-landing-page)の説明に従って、プレビュー関数を使用してテストします。
 
 1. 匿名のランディングページが必要な場合は、**[!UICONTROL 特定のユーザーを要求]** オプションを無効にします。
 
@@ -175,7 +169,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 >title="ランディングページのプレビューとテスト"
 >abstract="ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してページをプレビューします。"
 
-ランディングページの設定とコンテンツが定義されている場合は、テストプロファイルを使用してページをプレビューできます。 [&#x200B; パーソナライズされたコンテンツ &#x200B;](email-authoring.md#personalize-content)を挿入した場合、テストプロファイルデータを使用して、このコンテンツがランディングページにどのように表示されるかを確認できます。
+ランディングページの設定とコンテンツが定義されている場合は、テストプロファイルを使用してページをプレビューできます。 [ パーソナライズされたコンテンツ ](email-authoring.md#personalize-content)を挿入した場合、テストプロファイルデータを使用して、このコンテンツがランディングページにどのように表示されるかを確認できます。
 
 >[!PREREQUISITES]
 >
@@ -193,7 +187,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    +++テストプロファイルの追加
 
-   **[!UICONTROL ID名前空間]**&#x200B;の場合、_選択_ アイコン （![選択アイコン &#x200B;](../../user/assets/do-not-localize/icon-select-data.svg)）をクリックし、プロファイルのテストに使用する`Email`名前空間を選択します。
+   **[!UICONTROL ID名前空間]**&#x200B;の場合、_選択_ アイコン （![選択アイコン ](../../user/assets/do-not-localize/icon-select-data.svg)）をクリックし、プロファイルのテストに使用する`Email`名前空間を選択します。
 
    「**[!UICONTROL ID値]**」フィールドに、テストプロファイルを識別する電子メールアドレスを入力し、**[!UICONTROL プロファイルを追加]**&#x200B;をクリックします。 これを繰り返して複数のプロファイルを追加できます。
 
@@ -309,7 +303,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
    <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"} -->
 
-1. **[!UICONTROL ランディングページ]** オプションで、_ページを選択_ アイコン （![&#x200B; リンクを表示アイコン &#x200B;](../../user/assets/do-not-localize/icon-landing-page-select.svg)）をクリックします。
+1. **[!UICONTROL ランディングページ]** オプションで、_ページを選択_ アイコン （![ リンクを表示アイコン ](../../user/assets/do-not-localize/icon-landing-page-select.svg)）をクリックします。
 
 1. ランディングページを選択ダイアログで、**[!UICONTROL ランディングページソース]**&#x200B;を&#x200B;**[!UICONTROL Journey Optimizer B2B edition]**&#x200B;として設定し、公開されたページのリストからランディングページのチェックボックスをオンにして、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
