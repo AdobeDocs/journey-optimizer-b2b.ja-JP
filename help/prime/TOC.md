@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Primeとその使用方法について説明します。
 hide: true
-source-git-commit: 6bfe5d2e2fbcfcf8004922acfa4b7181d5a0ab8e
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -17,10 +17,11 @@ ht-degree: 51%
    + [チェックリストを設定](./start/setup-prime.md)
    + [ユーザー管理](./start/user-management.md)
    + [メールの配信品質](./start/email-deliverability.md)
-+ [ホームとインサイト](./home-insights/home-insights.md)
-+ [エージェント](./agents/agents.md)
++ [ホームページ](./home-insights/home-page.md)
++ [チャットインターフェイス](./agents/chat-interface.md)
++ [販売修飾子](./sales-qualifier/sales-qualifier.md)
 + マーケティング管理 {#marketing-management}
-   + {hide-from-toc}[概要](./marketing/marketing-management.md)
+   + [概要](./marketing/marketing-management.md)
    + [プログラム](./marketing/programs.md)
    + [顧客ジャーニー](./marketing/person-journeys.md)
    + ジャーニーノード {#journey-nodes}
@@ -35,7 +36,7 @@ ht-degree: 51%
       + [概要](./marketing/email-channel.md)
       + [メール送信時間の最適化](./marketing/email-send-time-optimization.md)
       + [コンテンツのオーサリング](./content/email-authoring.md)
-      + [&#x200B; ダークモードのデザイン &#x200B;](./content/email-dark-mode.md)
+      + [ ダークモードのデザイン ](./content/email-dark-mode.md)
    + [WhatsApp チャネル](./content/whatsapp-authoring.md)
 + オーディエンス {#audiences}
    + [ユーザーリスト](./audiences/people-lists.md)
@@ -55,7 +56,6 @@ ht-degree: 51%
       + [構造コンポーネント](./content/structure-components.md)
       + [コンテンツコンポーネント](./content/content-components.md)
       + [カスタム CSS](./content/design-custom-css.md)
-+ {hide-from-toc}[販売修飾子](./sales-qualifier/sales-qualifier.md)
 + 管理 {#admin}
    + チャネル {#channels}
       + [メールチャネル設定](./admin/email-channel-configuration.md)
