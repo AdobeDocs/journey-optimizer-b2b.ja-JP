@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Primeとその使用方法について説明します。
 hide: true
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 53%
+source-wordcount: '138'
+ht-degree: 52%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 53%
 + [販売修飾子](./sales-qualifier/sales-qualifier.md)
 + マーケティング管理 {#marketing-management}
    + [概要](./marketing/marketing-management.md)
-   + [プログラム](./marketing/programs.md)
+   + プログラム {#programs}
+      + [概要](./marketing/programs.md)
+      + [パーソナライゼーション用のカスタムトークン](./marketing/personalization-my-tokens.md)
    + [顧客ジャーニー](./marketing/person-journeys.md)
    + ジャーニーノード {#journey-nodes}
       + [ノードの概要](./marketing/person-journey-nodes.md)
@@ -36,7 +38,7 @@ ht-degree: 53%
       + [概要](./marketing/email-channel.md)
       + [メール送信時間の最適化](./marketing/email-send-time-optimization.md)
       + [コンテンツのオーサリング](./content/email-authoring.md)
-      + [&#x200B; ダークモードのデザイン &#x200B;](./content/email-dark-mode.md)
+      + [ダークモードのデザイン](./content/email-dark-mode.md)
    + [WhatsApp チャネル](./content/whatsapp-authoring.md)
 + オーディエンス {#audiences}
    + [ユーザーリスト](./audiences/people-lists.md)
@@ -62,10 +64,10 @@ ht-degree: 53%
       + [WhatsApp チャネル設定](./admin/configuration-channels-whatsapp.md)
       + [ランディングページの設定](./admin/configuration-presets-landing-pages.md)
       + [フォームプリセット設定](./admin/configuration-presets-forms.md)
+   + [プログラムタイプ](./admin/program-types.md)
 
 <!--
    + Business rules
-   + Program types
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
