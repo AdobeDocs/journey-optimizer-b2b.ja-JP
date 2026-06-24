@@ -14,9 +14,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
 workflow-type: tm+mt
-source-wordcount: 668
+source-wordcount: 670
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ _&#x200B;**ユーザー別の分割パスの仕組み**&#x200B;_
    * メールメッセージ
    * データ値の変更
 
-* 人物属性 – 国、役職、リストメンバーシップなど、人物の属性に応じて条件を定義します。
+* 人物属性 – 国、役職、派生ペルソナ、リストメンバーシップなど、人物の属性に応じて条件を定義します。
 
 ### 分割パスノードの追加
 
