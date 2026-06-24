@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Primeとその使用方法について説明します。
 hide: true
-source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
+source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 52%
+source-wordcount: '145'
+ht-degree: 48%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 52%
       + [概要](./marketing/programs.md)
       + [パーソナライゼーション用のカスタムトークン](./marketing/personalization-my-tokens.md)
    + [顧客ジャーニー](./marketing/person-journeys.md)
-   + ジャーニーノード {#journey-nodes}
+   + ジャーニーキャンバスとノード {#journey-nodes}
       + [ノードの概要](./marketing/person-journey-nodes.md)
       + [顧客オーディエンス](./marketing/person-audience-node.md)
       + [アクションの実行](./marketing/action-nodes.md)
@@ -43,6 +43,7 @@ ht-degree: 52%
 + オーディエンス {#audiences}
    + [ユーザーリスト](./audiences/people-lists.md)
    + [イベントベースのオーディエンス](./audiences/event-based-audiences.md)
+   + [人物エンゲージメントスコア](./audiences/engagement-scores.md)
    + [派生ペルソナ](./audiences/personas.md)
    + [宛先](./audiences/destinations.md)
    + [動的なオーディエンス選定](./audiences/dynamic-audience-qualification.md)
