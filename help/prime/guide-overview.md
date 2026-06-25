@@ -1,6 +1,6 @@
 ---
 title: Adobe Journey Optimizer B2B Primeのドキュメント
-description: Adobe Journey Optimizer B2B Primeの詳細ドキュメント – オンボーディングに役立つガイドをご覧ください。
+description: Adobe Journey Optimizer B2B Primeのドキュメントをご確認ください。オンボーディング、AIを活用したマーケティングオートメーション、人物ジャーニー、オーディエンス管理など、様々なリソースで活用できます。
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 autotag-review: '2026-06-12T22:37:55.790Z'
 TQID: 'https://experienceleague.adobe.com/qIeIKMJLaBkBTuh7qpwer-2MTRlzrELRVtYFzAIcdjw'
@@ -14,34 +14,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 103
-ht-degree: 30%
+source-wordcount: 257
+ht-degree: 20%
 
 ---
 
 # Adobe Journey Optimizer B2B Primeのドキュメント
 
-[!DNL Adobe Journey Optimizer B2B Prime]は？
+[!DNL Adobe Journey Optimizer B2B Prime]は、マーケターやビジネス開発担当者がプログラムを計画し、パーソナライズされた人物ジャーニーを編成して、見込み客を選定できるようにする、AIを活用したマーケティングオートメーションソリューションです。 会話型AIを利用して、電子メールやWhatsAppのチャネルをまたいでキャンペーン施策を構築し、オーディエンスを管理して、コンテンツを配信できます。
 
-<!--
-## What's new
-
-Review this sampling of the latest additions and enhancements in the [!DNL Journey Optimizer B2B Prime] application and documentation. 
-
->[!BEGINTABS]
-
->[!TAB Generative AI models]
-
-Email designers can now select from standard [!DNL Firefly] models, custom [!DNL Firefly] models trained on brand-specific assets, and approved third-party image models when generating images for email content. This selection gives teams control over which model fits their specific design scenario, from general content needs to branded or specialized use cases.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Learn about generative AI model selection"}
-
->[!ENDTABS]
--->
-
-## 製品機能の詳細 {#section-explore}
+## Adobe Experience Manager Sitesの主な機能 {#section-explore}
 
 :::: landing-cards-container
 
@@ -50,84 +34,107 @@ Email designers can now select from standard [!DNL Firefly] models, custom [!DNL
 
 基本を学ぶ
 
-Journey Optimizer B2B Primeオンボーディングガイダンス（管理者およびマーケター向け）をご確認ください。
+最初のセットアップと設定を完了してから、アプリケーションを操作してホームページを使用する方法を説明します。
 
-[管理者](./start/setup-prime.md)
-[&#x200B; ユーザー](./start/get-started.md)
+[管理者の設定](./start/setup-prime.md)
+[&#x200B; ホームページ &#x200B;](./home-insights/home-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ja)
+
+AI アシスタント
+
+エージェント型AIのスキルを活用して、プログラムのプランニング、ジャーニーの構築、オーディエンスの管理、コンテンツの制作で自然言語を活用できます。
+
+[&#x200B; チャットインターフェイス](./agents/chat-interface.md)
+[利用可能なスキル &#x200B;](./agents/skills.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+
+販売修飾子
+
+AIで見込み顧客を選定し、アウトバウンドワークフローを実行し、CRM タスクをBDR アクティビティと連携させます。
+
+[Sales Qualifierについて詳しく見る](./sales-qualifier/sales-qualifier.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
-ジャーニーの作成
+マーケティング管理
 
-パーソナライズされたジャーニーを設計、編成、管理、最適化。
+キャンペーンをプログラムに整理し、マルチチャネルコンテンツでカスタマージャーニーをデザインし、カスタムトークンでパーソナライズできます。
 
-[ジャーニーを探索](./marketing/person-journeys.md)
+[&#x200B; マーケティングの概要](./marketing/marketing-management.md)
+[&#x200B; ユーザージャーニー](./marketing/person-journeys.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
 
-動的なオーディエンス
+オーディエンス
 
-プロファイルの属性や行動にもとづいて、自動的に更新される人物リストを作成して管理します。
+人物リストを作成および管理し、イベントベースのオーディエンスを定義し、ペルソナベースのスコアリングでエンゲージメントを追跡します。
 
-[動的オーディエンスについて詳しく見る](./audiences/dynamic-audience-qualification.md)
+[人のリスト](./audiences/people-lists.md)
+[&#x200B; エンゲージメントスコア &#x200B;](./audiences/engagement-scores.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ja)
+
+コンテンツ
+
+メールやWhatsApp メッセージの作成、テンプレートやアセットの管理、ランディングページやフォームの作成、パーソナライゼーションの適用が可能です。
+
+[&#x200B; メール作成](./content/email-authoring.md)
+[&#x200B; テンプレート &#x200B;](./content/templates.md)
 :::
 
 ::::
 
-<!--
-## Overview demo
-
-Discover the components of a buying group and understand the basics of building an account journey.
-
->[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
-
-## Explore the documentation
+## ドキュメントを見る
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Get started"><br/>
-      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Onboarding guidance</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI Assistant</a>
+      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="基本を学ぶ"><br/>
+      <strong>使い始める</strong><br/><a href="./start/setup-prime.md"> チェックリストの設定</a><br/><a href="./start/user-management.md"> ユーザー管理</a><br/><a href="./start/email-deliverability.md">電子メールの配信品質</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
+      <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="AI アシスタント"><br/>
+      <strong>AI アシスタント </strong><br/><a href="./agents/chat-interface.md"> チャット インターフェイス </a><br/><a href="./agents/skills.md"> スキル </a><br/><a href="./agents/program-from-brief.md">概要からプログラムを作成</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Buying groups"><br/>
-      <strong>Buying groups</strong><br/><a href="./buying-groups/buying-groups-overview.md">Buying groups overview</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Role templates</a><br/><a href="./buying-groups/solution-interests.md">Solution interests</a><br/><a href="./buying-groups/buying-groups-create.md">Create buying groups</a>
-    </td>
-    <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Journeys"><br/>
-      <strong>Journeys</strong><br/><a href="./journeys/journeys-overview.md">Person journeys overview</a><br/><a href="./marketing/person-journeys.md">Create a person journey</a><br/><a href="./marketing/person-journey-nodes.md">Journey nodes</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="マーケティング管理"><br/>
+      <strong> マーケティング管理</strong><br/><a href="./marketing/programs.md"> プログラム </a><br/><a href="./marketing/person-journeys.md"> ユーザージャーニー</a><br/><a href="./marketing/email-channel.md"> メールチャネル </a><br/><a href="./content/whatsapp-authoring.md">WhatsApp チャネル </a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Journey content"><br/>
-      <strong>Journey content</strong><br/><a href="./content/add-email.md">Email channel</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio email experiences</a><br/><a href="./content/sales-alert-email.md">Sales alert email</a><br/><a href="./content/sms-authoring.md">SMS channel</a>
-    </td>
-        <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content management"><br/>
-      <strong>Content management</strong><br/><a href="./content/assets-overview.md">Assets overview</a><br/><a href="./content/email-templates.md">Email templates</a><br/><a href="./content/fragments.md">Visual fragments</a><br/><a href="./content/conditional-content.md">Conditional content</a><br/><a href="./content/brand-themes.md">Brand themes</a>
+      <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="オーディエンス"><br/>
+      <strong> オーディエンス </strong><br/><a href="./audiences/people-lists.md">人物リスト </a><br/><a href="./audiences/event-based-audiences.md"> イベントベースのオーディエンス </a><br/><a href="./audiences/engagement-scores.md"> エンゲージメントスコア </a><br/><a href="./audiences/personas.md">派生ペルソナ </a><br/><a href="./audiences/destinations.md">宛先</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insights and dashboards"><br/>
-      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligent dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./buying-groups/incrm-insights.md">In-CRM Insights</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="コンテンツ"><br/>
+      <strong> コンテンツ </strong><br/><a href="./content/email-authoring.md">電子メールオーサリング </a><br/><a href="./content/templates.md"> テンプレート </a><br/><a href="./content/landing-pages.md"> ランディングページ </a><br/><a href="./content/forms.md">Forms</a><br/><a href="./content/personalization-expressions.md">Personalization</a>
     </td>
-
+    <td>
+      <img src="../assets/do-not-localize/icon-configure.svg" width="35px" alt="管理"><br/>
+      <strong>管理</strong><br/><a href="./admin/email-channel-configuration.md">電子メール設定</a><br/><a href="./admin/configuration-channels-whatsapp.md">WhatsApp設定</a><br/><a href="./admin/program-types.md"> プログラムの種類</a>
+    </td>
   </tr>
 </table>
 
+<!-- >
 ## Additional resources
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a>
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>

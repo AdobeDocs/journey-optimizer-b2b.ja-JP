@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 1910
+source-wordcount: 1918
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 1%
 1. [各サブドメインでDMARC、SPF、DKIM レコード &#x200B;](#dmarc-spf-dkim)を設定します。
 1. [&#x200B; サブドメインのメール送信に使用するIP プール &#x200B;](#ip-pools)を確認します。
 1. [&#x200B; サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
+
+![Journey Optimizer B2B Primeのメール配信品質の設定](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
 
 >[!TIP]
 >

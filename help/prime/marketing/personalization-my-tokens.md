@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 641
 ht-degree: 5%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 5%
 カスタムトークンをメールに追加すると、メールは`{{my.TokenName}}`と表示されます。 例えば、今後のウェビナーに関連するメールコンテンツを管理するために、`{{my.EventDate}}`または`{{my.WebinarSpeaker}}`個のトークンを作成できます。
 
 プログラムまたはフォルダーに固有の&#x200B;_マイトークン_&#x200B;に加えて、任意の標準（組み込み）トークンをパーソナライゼーションに使用できます。
+
+>[!NOTE]
+>
+>_マイトークン_&#x200B;は、現在、このBeta リリースのPersonalization エディターで有効になっていません。
 
 ## アクセストークン
 
