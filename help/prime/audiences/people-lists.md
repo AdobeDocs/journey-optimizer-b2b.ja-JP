@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1fa72c956678cddcecd1b50a13c42ef9eada05fc
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
 source-wordcount: 862
 ht-degree: 3%
@@ -48,7 +48,7 @@ ht-degree: 3%
 <!--
 ## Audience Hub
 
-The AI Audience Hub is a centralized, AI-driven starting point for all audience-related capabilities across AJO B2B. It is designed to accelerate first-time user success while progressively unlocking advanced intelligence, insights, and control for returning and power users.
+The AI Audience Hub is a centralized, AI-driven starting point for all audience-related capabilities across [!DNL Adobe Journey Optimizer B2B Prime]. It is designed to accelerate first-time user success while progressively unlocking advanced intelligence, insights, and control for returning and power users.
 
 The Hub acts as:
 
