@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 332
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 [!DNL Adobe Journey Optimizer B2B Prime]では、_イベントベースのオーディエンス_&#x200B;が、[!DNL Marketo Engage]のアクティビティが発生したときに、ほぼリアルタイムでライブ [人のジャーニー](../marketing/person-journeys.md)にオーディエンスメンバーを追加できます。 イベントベースのオーディエンスは、ジャーニーキャンバスのオーディエンスノードで設定します。
 
-* 対象となるイベントとして、1つ以上のMarketo アクティビティ（標準またはカスタム）を選択します。
+* 対象となるイベントとして、1つ以上の[!DNL Marketo Engage] アクティビティ（標準またはカスタム）を選択します。
 * オプションで、個人プロファイルフィルター（業界、地域、ライフサイクルステージなど）を追加して、入力できる個人を絞り込みます。
 * オプションで、アクティビティ属性の制約（特定のフォーム、URL、プログラムなど）を定義して、各アクティビティの出現箇所を絞り込みます。
 
