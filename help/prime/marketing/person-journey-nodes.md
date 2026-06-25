@@ -29,7 +29,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja) -->
 
 人物オーディエンスノード
 
@@ -39,7 +39,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja) -->
 
 アクションノード
 
@@ -49,7 +49,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja) -->
 
 イベントノード
 
@@ -59,7 +59,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja) -->
 
 待機ノード
 
@@ -69,7 +69,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja) -->
 
 パスノードの分割と結合
 
@@ -79,7 +79,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ja) -->
 
 次善のパスノード
 
