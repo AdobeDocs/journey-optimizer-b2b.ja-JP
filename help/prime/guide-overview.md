@@ -30,7 +30,7 @@ ht-degree: 20%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 基本を学ぶ
 
@@ -41,7 +41,7 @@ ht-degree: 20%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ja)
 
 AI アシスタント
 
@@ -52,7 +52,7 @@ AI アシスタント
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 販売修飾子
 
@@ -62,7 +62,7 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 マーケティング管理
 
@@ -73,7 +73,7 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
 
 オーディエンス
 
@@ -84,7 +84,7 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ja)
 
 コンテンツ
 
@@ -134,15 +134,15 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
+<a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
+<a href="https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/ja/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
+<a href="https://experienceleague.adobe.com/ja/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
 </td>
 </tr></table>
 
