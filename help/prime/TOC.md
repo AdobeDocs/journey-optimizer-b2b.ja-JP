@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Primeとその使用方法について説明します。
 hide: true
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 7ad94f63f181d3e51c00c9629f3b2347c0eba04f
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 48%
+source-wordcount: '157'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 48%
    + [チャットインターフェイス](./agents/chat-interface.md)
    + [スキル](./agents/skills.md)
    + [概要からプログラムを作成](./agents/program-from-brief.md)
+   + [プログラム用オーディエンスの作成](./agents/audience-creation.md)
+   + [カスタムスコアリングモデルの作成](./agents/lead-scoring-model.md)
 + [販売修飾子](./sales-qualifier/sales-qualifier.md)
 + マーケティング管理 {#marketing-management}
    + [概要](./marketing/marketing-management.md)

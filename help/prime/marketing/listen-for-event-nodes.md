@@ -3,21 +3,14 @@ title: イベントノードをリッスン
 description: Journey Optimizer B2B edition Primeのイベントノードのリッスンを設定 – イベントトリガーを設定し、オプションのフィルターを適用して、アクティビティやデータの変更が発生したときにユーザーに通知します。
 autotag-review: '2026-06-12T23:00:36.531Z'
 TQID: 'https://experienceleague.adobe.com/SBEfrrIKSCnO5x1tGXQTz1EZryH0IKhQx4tuqVn78FI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d0031543-532c-4a26-8f90-01af2b91e6d0
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d0031543-532c-4a26-8f90-01af2b91e6d0id: ba367494-9862-4596-bd6f-299c7e10a46bid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 8%
+source-wordcount: 357
+ht-degree: 5%
 
 ---
 
@@ -27,11 +20,17 @@ ht-degree: 8%
 
 ## イベントトリガー {#event-triggers}
 
-PMからリストを取得
+次のような[!DNL Marketo Engage] アクティビティに関するトリガーを作成できます。
+
+* フォームへの入力 – 人物がランディングページで[!DNL Marketo Engage] フォームを送信するとアクティベートされます。
+* Web ページへの訪問 – リードがトラッキング対象のWeb ページを表示するとアクティベートされます（正確なURLを指定するか、ワイルドカードを使用できます）。
+* クリックリンク – マーケティングメール内の追跡されたリンクがクリックされたときにアクティベートされます。
+* データ値の変更 – 特定のフィールド（リードステータス、スコア、業界など）が個人のレコードで更新されたときにアクティベートされます。
+* Campaignはリクエスト済み – APIまたはWebhook統合によく使用され、別のプログラムまたはweb サービスが呼び出すと、このトリガーがキャンペーンを開始します。
+* スコアが変更された場合 – 個人のリードスコアが一定のしきい値を超えて増加または減少した場合に発生します。
+* モバイルプッシュタップ – モバイルマーケティングスマートキャンペーンで、プッシュ通知がデバイス上でやり取りされたときに発生します。
 
 ## イベントフィルター {#event-filters}
-
-PMから更新リストを取得
 
 | フィルター | 説明 |
 | ------- | ----------- |
@@ -44,19 +43,19 @@ PMから更新リストを取得
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL イベントをリッスン]**&#x200B;を選択します。
 
-   ![&#x200B; ジャーニーパスの追加アイコンをクリック &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![ ジャーニーパスの追加アイコンをクリック ](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. 右側のノードプロパティで、**[!UICONTROL イベント条件を追加]**&#x200B;をクリックします。
 
 1. _[!UICONTROL イベントを編集]_ ダイアログで、イベントをトリガーに追加します。
 
-   ![&#x200B; イベントを編集 – イベントトリガー](./assets/edit-event-triggers.png){width="600" zoomable="yes"}
+   ![ イベントを編集 – イベントトリガー](./assets/edit-event-triggers.png){width="600" zoomable="yes"}
 
 1. （オプション）ダイアログで「**[!UICONTROL フィルター]**」タブを選択し、トリガーのフィルター条件を追加します。
 
 1. 「**[!UICONTROL イベントを編集]**」をクリックし、イベントの詳細を定義します。
 
-   ![&#x200B; イベントを編集 – イベントフィルタリング &#x200B;](./assets/edit-event-filters.png){width="600" zoomable="yes"}
+   ![ イベントを編集 – イベントフィルタリング ](./assets/edit-event-filters.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
