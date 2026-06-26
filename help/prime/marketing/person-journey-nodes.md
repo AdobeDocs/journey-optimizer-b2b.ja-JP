@@ -13,10 +13,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 9711cdf8f172523a32d8b64f0597d5ee14e7722b
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 2%
+source-wordcount: 320
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::: landing-cards-container
 
 :::
-![人物オーディエンスノード &#x200B;](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja) -->
 
 人物オーディエンスノード
 
@@ -39,7 +39,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-![&#x200B; アクションノード &#x200B;](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja) -->
 
 アクションノード
 
@@ -49,7 +49,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-![&#x200B; イベントノード &#x200B;](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja) —>
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja) -->
 
 イベントノード
 
@@ -59,7 +59,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-![待機ノード &#x200B;](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja) -->
 
 待機ノード
 
@@ -69,7 +69,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-![&#x200B; パス ノードの分割と結合](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja) -->
 
 パスノードの分割と結合
 
@@ -79,7 +79,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-![次善のパスノード &#x200B;](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ja)
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ja) -->
 
 次善のパスノード
 

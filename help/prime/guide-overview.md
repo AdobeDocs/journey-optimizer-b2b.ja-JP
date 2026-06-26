@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 1940cd62ab63243382637c1e60bb4df02ba2d56e
 workflow-type: tm+mt
-source-wordcount: 494
-ht-degree: 12%
+source-wordcount: 505
+ht-degree: 10%
 
 ---
 
@@ -36,9 +36,8 @@ ht-degree: 12%
 
 最初のセットアップと設定を完了してから、アプリケーションを操作してホームページを使用する方法を説明します。
 
-[管理者の設定](./start/setup-prime.md)
-
-[ホームページ](./home-insights/home-page.md)
+[管理者設定](./start/setup-prime.md) <br/>
+[&#x200B; ホームページ &#x200B;](./home-insights/home-page.md)
 :::
 
 :::
@@ -48,9 +47,8 @@ AI アシスタント
 
 エージェント型AIのスキルを活用して、プログラムのプランニング、ジャーニーの構築、オーディエンスの管理、コンテンツの制作で自然言語を活用できます。
 
-[チャットインターフェイス](./agents/chat-interface.md)
-
-[利用可能なスキル](./agents/skills.md)
+[&#x200B; チャットインターフェイス &#x200B;](./agents/chat-interface.md) <br/>
+[利用可能なスキル &#x200B;](./agents/skills.md)
 :::
 
 :::
@@ -70,9 +68,8 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
 
 キャンペーンをプログラムに整理し、マルチチャネルコンテンツでカスタマージャーニーをデザインし、カスタムトークンでパーソナライズできます。
 
-[マーケティングの概要](./marketing/marketing-management.md)
-
-[顧客ジャーニー](./marketing/person-journeys.md)
+[&#x200B; マーケティングの概要](./marketing/marketing-management.md) <br/>
+[&#x200B; ユーザージャーニー](./marketing/person-journeys.md)
 :::
 
 :::
@@ -82,9 +79,8 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
 
 人物リストを作成および管理し、イベントベースのオーディエンスを定義し、ペルソナベースのスコアリングでエンゲージメントを追跡します。
 
-[ユーザーリスト](./audiences/people-lists.md)
-
-[エンゲージメントスコア](./audiences/engagement-scores.md)
+[&#x200B; ユーザーリスト &#x200B;](./audiences/people-lists.md) <br/>
+[&#x200B; エンゲージメントスコア &#x200B;](./audiences/engagement-scores.md)
 :::
 
 :::
@@ -94,11 +90,9 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
 
 メールやWhatsApp メッセージの作成、テンプレートやアセットの管理、ランディングページやフォームの作成、パーソナライゼーションの適用が可能です。
 
-[メールオーサリング](./content/email-authoring.md)
-
-[テンプレート](./content/templates.md)
-
-[ランディングページ](./content/landing-pages.md)
+[電子メールオーサリング &#x200B;](./content/email-authoring.md) <br/>
+[&#x200B; テンプレート &#x200B;](./content/templates.md) <br/>
+[&#x200B; ランディングページ &#x200B;](./content/landing-pages.md)
 :::
 
 ::::
@@ -113,7 +107,7 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="AI アシスタント"><br/>
-      <strong>AI アシスタント </strong><br/><a href="./agents/chat-interface.md"> チャット インターフェイス </a><br/><a href="./agents/skills.md"> スキル </a><br/><a href="./agents/program-from-brief.md">概要からプログラムを作成</a>
+      <strong>AI アシスタント </strong><br/><a href="./agents/chat-interface.md"> チャットインターフェイス </a><br/><a href="./agents/skills.md"> スキル </a><br/><a href="./agents/program-from-brief.md">概要からプログラムを作成</a><br/><a href="./agents/audience-creation.md"> プログラムのオーディエンスを作成</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="マーケティング管理"><br/>
