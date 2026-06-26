@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 4%
@@ -41,3 +41,4 @@ _ジャーニーオーディエンスを設定するには&#x200B;:_
    * **[!UICONTROL 動的リスト]** – 動的なルールベースの人物リストを使用します。 リストルールは、ジャーニー実行時に評価され、ジャーニーのメンバーが選定されます。 後で動的リストの資格を失ったユーザーは、ジャーニーから削除されません。 _[動的リスト](../audiences/people-lists.md#dynamic-lists)_&#x200B;を参照してください。
 
    * **[!UICONTROL イベントオーディエンス]** - イベントオーディエンスを使用すると、条件を満たすイベントに基づいてジャーニーオーディエンスを定義できます。 イベント条件による人物プロファイルフィルタリングとトリガージャーニー入力を使用して、オーディエンスメンバーを定義します。 _[イベントベースのオーディエンス](../audiences/event-based-audiences.md)_&#x200B;を参照してください。
+
