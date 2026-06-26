@@ -15,7 +15,7 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
 source-wordcount: 1920
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ## 現在の制限事項 {#limitations}
 
-* サブドメインのデリゲーション用の&#x200B;**カスタム デリゲーション メソッド**&#x200B;はまだ使用できません。完全委任またはCNAMEを使用してください。 カスタム委任は、GA リリースを対象としています。
+* サブドメインのデリゲーション用の&#x200B;**カスタム デリゲーション メソッド**&#x200B;はまだ使用できません。 完全委任またはCNAMEを使用します。 カスタム委任は、GA リリースを対象としています。
 * **専用IP プール**&#x200B;は、Betaでは利用できません。 共有IP プールは唯一のオプションです。 専用IPは、IP ウォームアッププランニングやPTR レコード管理など、GAに搭載されます。
 
 ## 主要概念 {#key-concepts}

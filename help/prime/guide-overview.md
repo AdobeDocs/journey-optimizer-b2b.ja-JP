@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
-source-wordcount: 259
-ht-degree: 20%
+source-wordcount: 494
+ht-degree: 12%
 
 ---
 
@@ -37,7 +37,8 @@ ht-degree: 20%
 最初のセットアップと設定を完了してから、アプリケーションを操作してホームページを使用する方法を説明します。
 
 [管理者の設定](./start/setup-prime.md)
-[&#x200B; ホームページ &#x200B;](./home-insights/home-page.md)
+
+[ホームページ](./home-insights/home-page.md)
 :::
 
 :::
@@ -47,8 +48,9 @@ AI アシスタント
 
 エージェント型AIのスキルを活用して、プログラムのプランニング、ジャーニーの構築、オーディエンスの管理、コンテンツの制作で自然言語を活用できます。
 
-[&#x200B; チャットインターフェイス](./agents/chat-interface.md)
-[利用可能なスキル &#x200B;](./agents/skills.md)
+[チャットインターフェイス](./agents/chat-interface.md)
+
+[利用可能なスキル](./agents/skills.md)
 :::
 
 :::
@@ -68,8 +70,9 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
 
 キャンペーンをプログラムに整理し、マルチチャネルコンテンツでカスタマージャーニーをデザインし、カスタムトークンでパーソナライズできます。
 
-[&#x200B; マーケティングの概要](./marketing/marketing-management.md)
-[&#x200B; ユーザージャーニー](./marketing/person-journeys.md)
+[マーケティングの概要](./marketing/marketing-management.md)
+
+[顧客ジャーニー](./marketing/person-journeys.md)
 :::
 
 :::
@@ -79,8 +82,9 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
 
 人物リストを作成および管理し、イベントベースのオーディエンスを定義し、ペルソナベースのスコアリングでエンゲージメントを追跡します。
 
-[人のリスト](./audiences/people-lists.md)
-[&#x200B; エンゲージメントスコア &#x200B;](./audiences/engagement-scores.md)
+[ユーザーリスト](./audiences/people-lists.md)
+
+[エンゲージメントスコア](./audiences/engagement-scores.md)
 :::
 
 :::
@@ -90,9 +94,11 @@ AIで見込み顧客を選定し、アウトバウンドワークフローを実
 
 メールやWhatsApp メッセージの作成、テンプレートやアセットの管理、ランディングページやフォームの作成、パーソナライゼーションの適用が可能です。
 
-[&#x200B; メール作成](./content/email-authoring.md)
-[&#x200B; テンプレート](./content/templates.md)
-[&#x200B; ランディングページ &#x200B;](./content/landing-pages.md)
+[メールオーサリング](./content/email-authoring.md)
+
+[テンプレート](./content/templates.md)
+
+[ランディングページ](./content/landing-pages.md)
 :::
 
 ::::
