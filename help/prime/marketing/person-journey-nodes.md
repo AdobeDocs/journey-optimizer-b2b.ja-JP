@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9711cdf8f172523a32d8b64f0597d5ee14e7722b
+source-git-commit: c260820ff5e4ce44759bb9c74aef877dfc6267b8
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 0%
@@ -89,4 +89,3 @@ AIを活用した意思決定により、一人ひとりを最も関連性の高
 :::
 
 ::::
-
