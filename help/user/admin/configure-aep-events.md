@@ -19,16 +19,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: 1632
 ht-degree: 12%
 
 ---
 
 # エクスペリエンスイベントとフィールドの選択
 
-管理者は、Experience Event結合スキーマ内で、特定の[AEP Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}とその関連フィールドを選択できます。 選択後、ユーザーはそれらのエクスペリエンスイベントをリッスンするように決定ルールを設定して、ほぼリアルタイムのイベントデータにもとづいて、動的かつターゲットを絞ったキャンペーンアクションを有効にできます。
+管理者は、Experience Event結合スキーマ内の特定のAdobe Experience Platform（AEP） [Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}とその関連フィールドを選択できます。 選択後、ユーザーはそれらのエクスペリエンスイベントをリッスンするように決定ルールを設定して、ほぼリアルタイムのイベントデータにもとづいて、動的かつターゲットを絞ったキャンペーンアクションを有効にできます。
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
@@ -36,7 +36,7 @@ ht-degree: 12%
 >
 >Journey Optimizer B2B editionでExperience Eventsとフィールドを使用するには、プロファイル対応のExperience Event スキーマが必要です。 詳しくは、Experience Platform チュートリアルの「[&#x200B; リアルタイム顧客プロファイルを有効にする](https://experienceleague.adobe.com/ja/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}」を参照してください。
 
-ジャーニーでAEP エクスペリエンスイベントを使用するには、次の2 ステップのプロセスを実行します。
+ジャーニーでAEP Experience Eventsを使用するには、次の2つの手順を実行します。
 
 1. 管理者[は、Journey Optimizer B2B edition設定にAEP Experience Eventsとフィールド &#x200B;](#add-an-event)を追加します。
 
@@ -66,6 +66,10 @@ ht-degree: 12%
 >[!ENDSHADEBOX]
 
 ## エクスペリエンスイベントの管理 {#manage-experience-events}
+
+>[!NOTE]
+>
+>_[!UICONTROL Standard]_、[!UICONTROL Relational]、または[!UICONTROL Events]のXDM フィールドを選択する場合、基本的なデータ型（文字列、整数、double、ブール値）のみがサポートされます。 配列とオブジェクトは使用できません。
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]** > **[!UICONTROL 設定]**&#x200B;を選択します。
 
