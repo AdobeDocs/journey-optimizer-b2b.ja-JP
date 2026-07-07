@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
+source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 12%
@@ -63,13 +63,13 @@ ht-degree: 12%
 
 * 複数のジャーニーでエクスペリエンスイベントを参照するか、同じジャーニーで複数回使用できます。
 
+>[!NOTE]
+>
+>_[!UICONTROL Standard]_、_[!UICONTROL Relational]_、または&#x200B;_[!UICONTROL Events]_&#x200B;のXDM フィールドを選択する場合、基本的なデータ型（文字列、整数、double、ブール値）のみがサポートされます。 配列とオブジェクトは使用できません。
+
 >[!ENDSHADEBOX]
 
 ## エクスペリエンスイベントの管理 {#manage-experience-events}
-
->[!NOTE]
->
->_[!UICONTROL Standard]_、[!UICONTROL Relational]、または[!UICONTROL Events]のXDM フィールドを選択する場合、基本的なデータ型（文字列、整数、double、ブール値）のみがサポートされます。 配列とオブジェクトは使用できません。
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]** > **[!UICONTROL 設定]**&#x200B;を選択します。
 
