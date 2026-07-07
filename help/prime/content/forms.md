@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5905973b2fc677d6e6d9a24ac68691237c837037
+source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -261,7 +261,6 @@ Add to context help when available
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    「**[!UICONTROL 保存して閉じる]**」をクリックして、フォームの詳細に戻ります。
