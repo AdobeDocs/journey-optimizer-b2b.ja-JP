@@ -19,16 +19,16 @@ role_v2:
 source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1548
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# 人物エンゲージメントスコア {#engagement-scores}
+# ユーザーエンゲージメントスコア {#engagement-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_person_engagement_score"
->title="人物エンゲージメントスコア"
->abstract="人物エンゲージメントスコアは、最近の行動にもとづいて、リードごとのエンゲージメントのレベルを反映します。"
+>title="ユーザーエンゲージメントスコア"
+>abstract="ユーザーエンゲージメントスコアは、最近のアクティビティに基づいて、個々のリードのエンゲージメントのレベルを反映します。"
 
 個人エンゲージメントスコアとは、個々のリードのエンゲージメントレベルを反映した数値です。 スコアは、個人が実行するアクティビティに基づいており、各アクティビティタイプには重み付けされた値が適用されます。 スコアは、インスタンス（テナント）内で正規化されるので、一貫性のある比較が可能になり、実用的なインサイトを可能にします。
 

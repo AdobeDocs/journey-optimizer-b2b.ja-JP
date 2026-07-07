@@ -17,7 +17,7 @@ role_v2:
 source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
->title="Scoring Studio"
->abstract="Scoring Studioのスキルを使用して、AI アシスタントのチャットインターフェイスで独自のリードスコアリングモデルを作成、設定、公開できます。"
+>title="スコアリングスタジオ"
+>abstract="スコアリングスタジオスキルを使用し、AI アシスタントのチャットインターフェイスを通じて、カスタムリードスコアリングモデルの作成、設定、公開を行います。"
 
 [!DNL Adobe Journey Optimizer B2B Prime]の&#x200B;[_Scoring Studio_ スキル &#x200B;](./skills.md#scoring-signals)は、リードスコアリングモデルを作成、設定、公開できるAI ネイティブのリードスコアリングソリューションを提供します。 エージェント駆動型ワークフローとビジュアル UIを組み合わせたこのスタジオでは、[AI アシスタント チャット インターフェイス &#x200B;](./chat-interface.md)の自然言語プロンプトを使用するか、UI コントロールと直接やり取りすることで、スコアリングモデルを構築できます。
 
