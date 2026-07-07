@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 289
 ht-degree: 2%
@@ -123,3 +123,4 @@ This method not working for Beta
 The activation is created and the static list data is exported to the destination according to the defined schedule.
 
 -->
+
