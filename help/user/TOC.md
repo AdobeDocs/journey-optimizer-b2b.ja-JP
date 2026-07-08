@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: dc6942ca34b730ce4104e588ec198ce7a4ec7cea
+source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 87%
+source-wordcount: '451'
+ht-degree: 86%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 87%
    + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
    + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
    + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
+   + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
    + ジャーニーノード {#journey-nodes}
       + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
       + [人物オーディエンス （Beta）](./journeys/person-audience-nodes.md)
@@ -65,6 +65,7 @@ ht-degree: 87%
       + [管理されたテンプレート](./content/email-authoring-governance.md)
       + [販売アラートメール](./content/sales-alert-email.md)
       + [メールの重複排除](./content/email-deduplication.md)
+      + {hide-from-toc}[電子メールトラッキング ](./content/email-tracking-manage.md)
    + Web チャンネル（Beta） {#web-channel}
       + [概要](./content/web-experiences.md)
       + [Web エクスペリエンスデザイン](./content/web-experience-design.md)
@@ -166,7 +167,7 @@ ht-degree: 87%
       + [インテントデータ](./admin/intent-data.md)
       + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
       + [外部アクション](./admin/configure-external-actions.md)
-      + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+      + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
    + チャネル {#channels}
       + [メール設定](./admin/configure-channels-emails.md)
       + [SMS 設定](./admin/configure-channels-sms.md)

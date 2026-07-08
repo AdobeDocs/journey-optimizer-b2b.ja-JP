@@ -1,0 +1,102 @@
+---
+title: 電子メールの開封トラッキングを管理
+description: 個々の電子メールに対して電子メールの開封トラッキングを無効にするか、担当者のトラッキング設定をキャプチャし、分割パスを使用してトラッキングとトラッキング以外の電子メールのバリエーションを送信します。
+feature: Account Journeys, Channels
+topic: Content Management
+role: User
+level: Beginner, Intermediate
+autotag-review: '2026-07-08T00:02:50.497Z'
+TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+workflow-type: tm+mt
+source-wordcount: 712
+ht-degree: 0%
+
+---
+
+# 電子メールの開封トラッキングを管理
+
+お客様の組織は、該当する法域のガイダンスと法律に基づいて独自のコンプライアンス義務を決定する責任がありますが、次の[!DNL Journey Optimizer B2B Edition]機能を使用してコンプライアンス活動をサポートできます。
+
+個々の電子メールに対して開封トラッキングを無効にしたり、Adobe Experience Platformで各個人のトラッキング環境設定を取得したり、分割パスを使用して、トラッキング対象とトラッキング以外の電子メールのバリエーションにユーザーをルーティングしたりできます。
+
+## 1通のメールのトラッキングを無効にする {#disable-tracking-single-email}
+
+このオプションは、特定の電子メールを受信したユーザーに関係なく、開封済みのアクティビティを報告しない場合に使用します。
+
+1. 右側のジャーニーノードのプロパティで、メールを開きます。
+
+1. メールプロパティで、「**[!UICONTROL 開封トラッキングを無効にする]**」チェックボックスを選択します。
+
+   ![電子メールの開封トラッキングを無効にする](./assets/email-tracking-disable-all.png){width="500" zoomable="yes"}
+
+   電子メールプロパティの完全なリストについては、[電子メール設定の定義](./add-email.md#define-the-email-settings)を参照してください。
+
+## トラッキング設定で利用者をセグメンテーション {#segment-people-tracking-preference}
+
+各ユーザーに電子メールの開封率を追跡させるかどうかを指定する場合は、その設定をAdobe Experience Platform（AEP）のユーザー属性として取得します。 このフィールドを[ ランディングページフォーム ](./forms.md)で使用すると、連絡先がメール開封トラッキングをオプトアウトする機会を得ることができます。 その後、ジャーニーで&#x200B;_パスを分割_ ノードを使用して、トラッキングとトラッキング以外のユーザーを様々なメールバリエーションにルーティングできます。 これにより、すべての人に対してオープンなトラッキングを無効にすることなく、個々のオプトアウトを尊重することができます。
+
+このワークフローは、次の3つの部分で構成されています。
+
+1. [AEPで環境設定をトラッキングするためのカスタムフィールドを追加し](#add-custom-field-tracking-preference)、フォームリンクを使用してオプトアウトコミュニケーションを送信します。
+1. [ ジャーニー内のオプトアウト ](#add-split-path-tracking)を追跡するための分割パスを追加します。
+1. [各パスに対して、トラッキングとトラッキング以外のメールのバリエーション ](#configure-tracking-and-non-tracking-email-variants)を設定します。
+
+### トラッキング環境設定のカスタムフィールドを追加 {#add-custom-field-tracking-preference}
+
+>[!NOTE]
+>
+>カスタム XDM フィールドの追加とマッピングは、Adobe Experience Platformの管理タスクです。 AEPの管理者またはデータエンジニアリングチームと協力して、この手順を完了します。
+
+1. AEPで、B2B Person プロファイルに使用するスキーマを開きます（例：_B2B Person_）。
+
+1. テナント IDで、組織の同意管理フィールドのフィールドグループを見つけるか、作成します（例：`consents`）。
+
+1. フィールド グループにフィールドを追加します。例えば、`emailTracking`という名前のブール型フィールドを使用して、ユーザーがトラッキングを開くことに同意したかどうかを表します。
+
+1. フィールド名と表示名を入力し、タイプを設定してフィールドグループに割り当て、**[!UICONTROL 適用]**&#x200B;をクリックします。
+
+1. 「**[!UICONTROL 保存]**」をクリックして、スキーマの変更を保存します。
+
+   ![AEP スキーマ同意フィールドグループにemailTracking フィールドを追加](./assets/email-tracking-xdm-field-aep-schema.png){width="800" zoomable="yes"}
+
+1. [XDM フィールド管理](../admin/xdm-field-management.md#managed-fields)の[!UICONTROL XDM Individual Profile] クラスの&#x200B;_Managed field_&#x200B;として選択して、[!DNL Journey Optimizer B2B Edition]でフィールドを利用できるようにします。
+
+   ![XDM フィールド管理の管理フィールドとしてemailTrackingを選択](./assets/email-tracking-xdm-field-select.png){width="450"}
+
+   これにより、フィールドをスプリットパスノードの条件として使用できるようになります。
+
+### オプトアウトを追跡するための分割パスの追加 {#add-split-path-tracking}
+
+ジャーニーに&#x200B;[_人ごとにパスを分割_ ノード ](../journeys/split-merge-paths-nodes.md#split-paths-by-people)し、各トラッキング設定値のパスを定義します。
+
+1. **[!UICONTROL パスを分割]** ノードを追加し、分割に&#x200B;**[!UICONTROL 人]**&#x200B;を選択します。
+
+1. 最初のパスでは、カスタムトラッキング環境設定フィールドを使用して条件を適用し（例：`emailTracking` is `true`）、オープントラッキングを許可するユーザーを特定します。
+
+   ![ パスを分割する条件 – メールトラッキングフィールドをtrueとして追加](./assets/email-tracking-condition-true.png){width="700" zoomable="yes"}
+
+1. 2つ目のパスを追加し、トラッキングをオプトアウトしたユーザーを識別するために逆条件（`emailTracking` is `false`）を適用します。
+
+   パスの追加、条件の適用、パスの並べ替えについての一般的な手順については、[人物ノードによる分割パスの追加](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node)を参照してください。
+
+   ![ パスをユーザー別に分割 – 条件のオンとオフを追跡する電子メール ](./assets/email-tracking-split-paths.png){width="500" zoomable="yes"}
+
+### トラッキングとトラッキング以外のメールのバリエーションを設定する {#configure-tracking-and-non-tracking-email-variants}
+
+各パスに[_[!UICONTROL  メール送信&#x200B;]_アクションノード ](./add-email.md)を追加して、すべてのユーザーがトラッキング設定に一致するメールバリアントを受信できるようにします。
+
+1. トラッキングが有効なパスで、**[!UICONTROL メールを送信]** アクションを追加し、通常どおりメールを選択または作成します。メールのプロパティで&#x200B;**[!UICONTROL 開封トラッキングを無効にする]**&#x200B;がクリアされたままになります。
+
+1. オプトアウトパスで、同じ電子メールまたは重複した電子メールを使用して&#x200B;**[!UICONTROL 電子メールを送信]** アクションを追加し、右側の電子メールプロパティで「**[!UICONTROL 開封トラッキングを無効にする]**」チェックボックスを選択します。
+
+   ![ パスをトラッキングするための電子メール – オープン トラッキングを無効にする](./assets/email-tracking-disable.png){width="600" zoomable="yes"}
+
+1. [ジャーニーを公開します](../journeys/create-publish-journey.md#publish-a-journey)。
+
+   ユーザーは、トラッキング環境設定フィールドの値に一致するメールバリエーションに自動的にルーティングされ、ユーザーが設定に加えた更新は、次回ジャーニーにエントリしたときに反映されます。
