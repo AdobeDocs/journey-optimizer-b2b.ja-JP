@@ -21,18 +21,26 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # 電子メールの開封トラッキングを管理
 
-お客様の組織は、該当する法域のガイダンスと法律に基づいて独自のコンプライアンス義務を決定する責任がありますが、次の[!DNL Journey Optimizer B2B Edition]機能を使用してコンプライアンス活動をサポートできます。
-
 個々の電子メールに対して開封トラッキングを無効にしたり、Adobe Experience Platformで各個人のトラッキング環境設定を取得したり、分割パスを使用して、トラッキング対象とトラッキング以外の電子メールのバリエーションにユーザーをルーティングしたりできます。
+
+>[!BEGINSHADEBOX &quot;電子メールトラッキングピクセルに関するCNIL ガイダンス&quot;]
+
+2026年4月14日、*Commission Nationale de l&#39;Informatique et des Libertés* （CNIL）は、メール内でのトラッキングピクセルの使用に関する[の推奨事項](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)を公開しました。 このガイダンスでは、同意が必要なタイミングを明確にし、メールのピクセル追跡における適切な同意管理の重要性を強調しています。 このポリシーは、フランスに拠点を置く購読者にメールを配信するエンティティの送信方法に影響を与える可能性があります。
+
+電子メールトラッキングピクセルは、電子メールのHTMLに埋め込まれた1x1の透明画像です。 受信者のメールクライアントがその画像を読み込むと、ピクセルはタイムスタンプ、デバイスの種類、メールクライアント、場合によってはIP アドレスなどのデータを記録するサーバーにping送信し、おおよその場所を確認します。 その後、そのログは受信者のレコードに関連付けられ、マーケターはメールが開封されたかどうかを確認できます。
+
+ここで説明する[!UICONTROL Journey Optimizer B2B edition]製品の機能は、適切に設定および操作され、コンプライアンスに準拠した実装をサポートできるビルディングブロックです。 各顧客は、適用法に基づく義務を決定し、遵守する責任があります。
+
+>[!ENDSHADEBOX]
 
 ## 1通のメールのトラッキングを無効にする {#disable-tracking-single-email}
 
