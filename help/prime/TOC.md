@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Primeとその使用方法について説明します。
 hide: true
-source-git-commit: 7ad94f63f181d3e51c00c9629f3b2347c0eba04f
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 46%
+source-wordcount: '160'
+ht-degree: 51%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 46%
 + オーディエンス {#audiences}
    + [ユーザーリスト](./audiences/people-lists.md)
    + [イベントベースのオーディエンス](./audiences/event-based-audiences.md)
-   + [人物エンゲージメントスコア](./audiences/engagement-scores.md)
+   + [ユーザーエンゲージメントスコア](./audiences/engagement-scores.md)
    + [派生ペルソナ](./audiences/personas.md)
    + [宛先](./audiences/destinations.md)
 + コンテンツ {#content}
@@ -58,7 +58,9 @@ ht-degree: 46%
       + [テンプレートの作成](./content/templates-create.md)
       + [コンテンツガバナンス](./content/template-content-governance.md)
    + [ランディングページ](./content/landing-pages.md)
-   + [フォーム](./content/forms.md)
+   + フォーム {#forms}
+      + [概要](./content/forms.md)
+      + [フォームのデザイン](./content/form-design.md)
    + [パーソナライズ機能](./content/personalization-expressions.md)
    + コンテンツデザインツール {#content-design}
       + [構造コンポーネント](./content/structure-components.md)
