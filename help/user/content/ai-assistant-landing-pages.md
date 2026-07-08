@@ -22,14 +22,14 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: 2690
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# ランディングページコンテンツ用AI アシスタント {#generative-full-content}
+# ランディングページコンテンツ用 AI アシスタント {#generative-full-content}
 
 [!DNL Adobe Journey Optimizer B2B Edition]のランディングページコンテンツ用AI アシスタントは、AdobeのAIを活用したコンテンツ生成機能を使用し、マーケターがプロフェッショナルでブランド一貫性のあるランディングページコンテンツを作成する方法に革命をもたらします。 高度な生成AI モデルとブランドガイドラインの詳細な把握により、AI アシスタントは、パーソナライズされた魅力的なコンテンツを自動的に生成します。 マーケティング目標を使用し、ブランドのスタイル、レイアウト、トーンなどに合わせてコンテンツを最適化します。 AI アシスタントを利用すれば、施策やプログラムの制作と実施をより直感的かつシンプルで、手間のかからないものにできます。 この機能をワークフローに追加することで、時間を節約し、効率を向上させ、より良い結果を導くことができます。
 
