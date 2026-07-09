@@ -15,10 +15,10 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 0f264f00c8018324abf1d409ddc381c6dcc9c08a
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 12%
+source-wordcount: 261
+ht-degree: 11%
 
 ---
 
@@ -51,6 +51,16 @@ ht-degree: 12%
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="タスクのチェックボックス"/></td>
 <td>Admin Consoleでのユーザーグループの追加</td>
 <td><a href="./user-management.md#add-user-group">ユーザーグループを追加</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="タスクのチェックボックス"/></td>
+<td>Admin Consoleのユーザーグループに製品プロファイルを割り当てます</td>
+<td><a href="./user-management.md#assign-profile">製品プロファイルの割り当て</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="タスクのチェックボックス"/></td>
+<td>Admin Consoleのユーザーグループにユーザーを追加する</td>
+<td><a href="./user-management.md#add-users">ユーザの追加</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="タスクのチェックボックス"/></td>
