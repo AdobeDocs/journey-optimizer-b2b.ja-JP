@@ -14,9 +14,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 415cfd2d9bdeee87364fa8935bc8a2a8259174ba
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1601
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 ## ランディングページへのアクセスと管理 {#access-manage-landing-pages}
 
-[!DNL Journey Optimizer B2B Prime]のランディングページにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL ランディングページ]**&#x200B;をクリックします。 このアクションは、インスタンスで作成されたすべてのランディングページのリストを表示します。
+[!DNL Journey Optimizer B2B Prime]のランディングページにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL コンテンツ管理]**&#x200B;を展開します。 次に、**[!UICONTROL ランディングページ]**&#x200B;を選択します。 このアクションは、インスタンスで作成されたすべてのランディングページのリストを表示します。
 
 ![&#x200B; ランディングページライブラリへのアクセス &#x200B;](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
