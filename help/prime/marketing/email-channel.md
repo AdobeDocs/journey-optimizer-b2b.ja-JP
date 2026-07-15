@@ -6,10 +6,17 @@ feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
 source-wordcount: 1060
@@ -23,7 +30,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->初めて電子メールを送信する場合は、[電子メールの配信品質](../start/email-deliverability.md)と必要な[電子メールチャネル ](../admin/email-channel-configuration.md)が設定されていることを確認してください。
+>初めて電子メールを送信する場合は、[電子メールの配信品質](../start/email-deliverability.md)と必要な[電子メールチャネル &#x200B;](../admin/email-channel-configuration.md)が設定されていることを確認してください。
 
 <!-- 
 * **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
@@ -58,13 +65,13 @@ ht-degree: 7%
 
 ## ジャーニーからのメールの追加
 
-ジャーニーから電子メールを送信するには、[ アクションを実行&#x200B;_ノード_&#x200B;を追加し、電子メールを送信するように設定します](action-nodes.md#add-an-action-node)。
+ジャーニーから電子メールを送信するには、[&#x200B; アクションを実行&#x200B;_ノード_&#x200B;を追加し、電子メールを送信するように設定します](action-nodes.md#add-an-action-node)。
 
 1. ジャーニーキャンバスで、**+** アイコンをクリックし、**[!UICONTROL アクションを実行]**&#x200B;を選択します。
 
 1. 右側のノードプロパティで、アクションを&#x200B;**[!UICONTROL メールを送信]**&#x200B;に設定します。
 
-   ![ アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="500"}
+   ![&#x200B; アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="500"}
 
 1. メールのソースを選択：
 
@@ -102,19 +109,19 @@ ht-degree: 7%
 
    * **[!UICONTROL アクションの追跡]** – 電子メールで追跡するアクションのチェックボックスをオンにします。
 
-   ![電子メールチャネル – 「アクション」タブ ](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
+   ![電子メールチャネル – 「アクション」タブ &#x200B;](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL コンテンツを編集]**」をクリックするか、「**[!UICONTROL コンテンツ]**」タブを選択します。
 
 1. 電子メールの件名フィールドに表示する&#x200B;**[!UICONTROL 件名]** テキストを入力します。
 
-   _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../../user/assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。
+   _パーソナライズ_ アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../../user/assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。
 
 1. （オプション）公開プロセス中にメール HTMLのサイズを小さくするには、「**[!UICONTROL HTML サイズを最適化]**」チェックボックスをオンにします。
 
    これにより、100 KB を超えるメッセージを切り捨てる Gmail などのクライアントでのメールクリッピングを防ぐことができます。 詳しくは、[_電子メールのHTML サイズの最適化_](#optimize-html-size)&#x200B;を参照してください。
 
-1. **[!UICONTROL メール本文を編集]**&#x200B;をクリックしてビジュアルデザインツールにアクセスし、[ コンテンツの作成を開始](../content/email-authoring.md)します。
+1. **[!UICONTROL メール本文を編集]**&#x200B;をクリックしてビジュアルデザインツールにアクセスし、[&#x200B; コンテンツの作成を開始](../content/email-authoring.md)します。
 
    または、**[!UICONTROL コードエディター]**&#x200B;をクリックして、プレーンHTMLで独自のコンテンツをコーディングすることもできます。 既存のHTMLをメールデザインに再利用する場合は、それをコピーしてエディターに貼り付けることができます。
 
