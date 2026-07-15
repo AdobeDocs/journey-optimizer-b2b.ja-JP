@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Primeとその使用方法について説明します。
 hide: true
-source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
+source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '179'
 ht-degree: 56%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 56%
    + [WhatsApp チャネル](./content/whatsapp-authoring.md)
 + オーディエンス {#audiences}
    + [ユーザーリスト](./audiences/people-lists.md)
+   + [顧客の詳細](./audiences/person-details.md)
    + [イベントベースのオーディエンス](./audiences/event-based-audiences.md)
    + [ユーザーエンゲージメントスコア](./audiences/engagement-scores.md)
    + [派生ペルソナ](./audiences/personas.md)
