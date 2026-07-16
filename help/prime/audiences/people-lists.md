@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 891
 ht-degree: 3%
 
 ---
@@ -90,8 +90,8 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 1. 次にリスト **[!UICONTROL 種類]**&#x200B;を選択します。
 
-   * **[!UICONTROL 静的]** - メンバーシップは、リストの作成時に評価された修飾フィルターによって決定されます。レコードを手動で選定または選定しない限り、リストメンバーシップは更新されません。
-***[!UICONTROL Dynamic]** - メンバーシップは、適格なフィルターによって動的に決定されます。リストのメンバーシップが自動的に更新されます。
+   * **[!UICONTROL 静的]** - メンバーシップは、リストの作成時に評価された修飾フィルターによって決定されます。 レコードを手動で選定または選定しない限り、リストメンバーシップは更新されません。
+***[!UICONTROL Dynamic]** - メンバーシップは、適格なフィルターによって動的に決定されます。 リストのメンバーシップが自動的に更新されます。
 
    ![人物リストの作成ダイアログ &#x200B;](./assets/people-list-create-dialog.png){width="450"}
 
@@ -203,7 +203,7 @@ So far, activating to a destination is the only thing that they are used for tha
 
    短期間の後、適格なメンバーがリストに表示されます。
 
-概要と最近のアクティビティを表示できるリードプロファイルの詳細ページを開くには、リスト内の人物の名前をクリックします。
+概要と最近のアクティビティを表示できる[人物の詳細](./person-details.md) ページを開くには、リスト内の人物の名前をクリックします。
 
 ### 動的リストの複製
 
