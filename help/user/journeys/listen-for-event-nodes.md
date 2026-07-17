@@ -155,7 +155,7 @@ ht-degree: 13%
 
 >[!PREREQUISITES]
 >
->管理者は[Adobe Experience Platform （AEP） Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}を設定します。これにより、マーケターは、イベントにほぼリアルタイムで反応するアカウントと個人のジャーニーを作成できます。
+>管理者は[Adobe Experience Platform （AEP） Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}を設定します。これにより、マーケターは、イベントにほぼリアルタイムで反応するアカウントと個人のジャーニーを作成できます。
 >
 >Experience Eventsをジャーニーで利用できるようにするには、製品管理者が最初に[関心のあるイベントタイプとフィールド &#x200B;](../admin/configure-aep-events.md#add-an-event)を[!DNL Journey Optimizer B2B Edition]に追加する必要があります。
 
