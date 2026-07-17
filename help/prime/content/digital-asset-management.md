@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: fac47361b0a597e26ca31b0901634fc00f20ae61
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 18%
+source-wordcount: 746
+ht-degree: 19%
 
 ---
 
@@ -29,11 +29,15 @@ ht-degree: 18%
 
 サポートされているファイル形式：JPG、JPEG、GIF、PNG、EPS、SVG、RGB
 
+<!--
+
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+
+-->
+
 >[!NOTE]
 >
->このBeta リリースでは、Marketo Engage アセットライブラリの1回限りのコピーから、画像とアセットをメールキャンバス内で直接選択できます。 最初のコピーの後にMarketo Engageでアセットを変更すると、**not**&#x200B;が[!DNL Journey Optimizer B2B Prime]に反映されます。
->
->追加の画像アセットは、_[!UICONTROL Assets]_ ライブラリまたはコンテンツデザインスペースからアップロードできます。 これらのアップロードされたアセットは、[!DNL Journey Optimizer B2B Prime] インスタンスでのみ使用できます。
+>画像アセットは、_[!UICONTROL Assets]_ ライブラリまたはコンテンツデザインスペースからアップロードできます。 これらのアップロードされたアセットは、[!DNL Journey Optimizer B2B Prime] インスタンスでのみ使用できます。
 >
 >外部システムからのアセットの読み込みと、事前入力されたアセットライブラリへのアクセスはまだ利用できません。 今後のリリースには、既存システムからのアセットのインポート、フォルダーサポート、拡張されたアセット管理機能が含まれる予定です。
 

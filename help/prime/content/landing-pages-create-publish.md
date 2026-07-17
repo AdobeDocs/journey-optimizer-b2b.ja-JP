@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 15%
+source-wordcount: 1562
+ht-degree: 16%
 
 ---
 
@@ -162,7 +162,22 @@ _プライマリページ設定を定義するには&#x200B;:_
 
 ### HTML の読み込み {#import-html}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+読み込むコンテンツは次のとおりです。
+
+* スタイルシートが組み込まれたHTML ファイル
+* HTML ファイル、スタイルシート（.css）および画像を含む.zip ファイル
+
+  >[!NOTE]
+  >
+  >.zip ファイル構造に制限はありません。 ただし、.zip フォルダーのツリー構造に合わせて、相対参照を指定する必要があります。 画像は常に[&#x200B; アセットリポジトリ &#x200B;](./digital-asset-management.md)にアップロードされます。
+
+_HTML コンテンツを含むファイルを読み込むには&#x200B;:_
+
+1. デザインホームページから、「**[!UICONTROL HTMLを読み込み]**」オプションを選択します。
+
+1. HTML コンテンツを含んだ HTML または .zip ファイルをドラッグ＆ドロップし、「**[!UICONTROL 読み込み]**」をクリックします。
 
 ![zip ファイルにHTML コンテンツを読み込む](../../user/content/assets/templates-import-zip-file.png){width="500"}
 
@@ -170,7 +185,7 @@ _プライマリページ設定を定義するには&#x200B;:_
 >
 >`<table>` タグを HTML ファイルの最初のレイヤーとして使用すると、上部レイヤータグの背景や幅の設定などのスタイルが失われる可能性があります。
 
-ビジュアルデザイン機能を利用して、インポートしたコンテンツを必要に応じてパーソナライズできます。
+ビジュアルデザインツールを使用して、インポートしたコンテンツを必要に応じてパーソナライズできます。
 
 ## アラートの確認 {#check-alerts}
 
