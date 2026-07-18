@@ -13,9 +13,9 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1433
 ht-degree: 20%
 
 ---
@@ -105,7 +105,7 @@ _新しいユーザーのジャーニーを構築するには&#x200B;:_
 
 * 「_編集_」アイコン（![編集アイコン &#x200B;](../../assets/do-not-localize/icon-react-edit.svg)）をクリックして、ジャーニー名または説明情報を変更します。
 * 「**[!UICONTROL ジャーニー設定]**」をクリックして、ジャーニーの開始と繰り返しを変更します。
-* **[!UICONTROL をクリック…ジャーニーアクションを適用する場合、またはトラフィック制御と再エントリを有効/無効にする場合は]**&#x200B;を超えます。
+* **をクリック…ジャーニーアクションを適用するか、[&#x200B; ジャーニートラフィック制御](./journey-traffic-control.md)を有効/無効にして再エントリするにはさらに**&#x200B;個の操作が必要です。
 * すべてのエラーが解決され、ジャーニーをアクティブ化する場合は、**[!UICONTROL 公開]**&#x200B;をクリックします。
 
 ### ジャーニーのデザイン {#journey-design}
