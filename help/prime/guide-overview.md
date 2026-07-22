@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 966789b4ea702ab057da6dec419f6128b1d0c093
+source-git-commit: 62dd893ae6ef8351f6fc7d9301bc3bd1a722b2ed
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 5%
+source-wordcount: 190
+ht-degree: 13%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 5%
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="/help/prime/setup-prime.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="/help/prime/start/setup-prime.md"><img src="../assets/learn-more.svg"></a></td>
     <td align="center"><a href="/help/prime/home-insights/home-page.md"><img src="../assets/learn-more.svg"></a></td>
     <td align="center"><a href="/help/prime/agents/chat-interface.md"><img src="../assets/learn-more.svg"></a></td>
     <td align="center"><a href="/help/prime/marketing/marketing-management.md"><img src="../assets/learn-more.svg"></a></td>

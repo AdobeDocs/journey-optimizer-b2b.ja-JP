@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
 workflow-type: tm+mt
-source-wordcount: 2031
+source-wordcount: 2190
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
-## アカウントアクション
+## アカウントアクション {#account-actions}
 
 アカウントジャーニーで、ノードパス上のアカウントの一部であるすべてのユーザーに変更を適用する場合は、アカウントに対するアクションを使用します。
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 >
 >2025.10 リリースでは、_[!UICONTROL Account Change Data Value]_ アクションは推奨されません。 _[!UICONTROL アカウントプロファイルを更新]_&#x200B;すると、Journey Optimizer B2B editionでこの操作が置き換えられます。<br/>
 >
->管理者は、_[!UICONTROL XDM設定]_/_[!UICONTROL 標準クラス]_&#x200B;のフィールドを更新することで、XDM ビジネスアカウントで使用可能な属性を設定できます。 詳しくは、[標準クラス &#x200B;](../admin/xdm-field-management.md#standard-classes)を参照してください。
+>管理者は、_[!UICONTROL XDM設定]_/_[!UICONTROL 標準クラス]_&#x200B;のフィールドを更新することで、XDM ビジネスアカウントで使用可能な属性を設定できます。 詳しくは、[標準スキーマ &#x200B;](../admin/xdm-field-management.md#standard-schemas)を参照してください。
 
 ### アカウントベースのアクションの追加
 
@@ -73,13 +73,11 @@ ht-degree: 3%
 
 ### LinkedInの宛先に対してアクティブ化
 
-アカウントに対して&#x200B;_宛先に対してアクティブ化_ アクションを使用すると、ジャーニーから直接Experience Platform宛先にアカウントをアクティブ化できます。 このアクションを使用すると、購買グループのフィルター、エンゲージメントスコア、その他の基準にもとづいて、適格なアカウントを、サポートされている宛先の一致したオーディエンスにプッシュできます。 It
+_宛先に対してアクティブ化_ アクションを使用して、ジャーニーから直接Experience Platform宛先にアカウントをアクティブ化します。 このアクションを使用すると、購買グループのフィルター、エンゲージメントスコア、その他の基準にもとづいて、適格なアカウントを、サポートされている宛先の一致したオーディエンスにプッシュできます。
 
 2025.10 リリース以降、**_LinkedIn_**&#x200B;が最初にサポートされる宛先タイプです。 LinkedInの宛先に対してアクションを使用すると、マルチシステムのハンドオフを排除し、待ち時間を短縮して、キャンペーンの実行を効率化できます。 たとえば、マーケターは、主要な購買役割が欠けている場合はリターゲティングのために、インテント率の高いアカウントをLinkedInで自動的に活用したり、非アクティブなフィルターにもとづいて休眠アカウントをリエンゲージしたりできます。
 
 LinkedIn宛先にアカウントが一致するオーディエンスを使用する方法について詳しくは、[LinkedIn Account Matched Audiences](../data/linkedin-account-matched-audiences.md)を参照してください。
-
-+++ LinkedInの宛先にアカウントのアクティベーションを設定
 
 1. ジャーニーキャンバスで「_アクションを実行_」ノードを選択した状態で、「**[!UICONTROL アカウントに対するアクション]**」を「**[!UICONTROL 宛先に対するアクティブ化]**」に設定します。
 
@@ -89,17 +87,15 @@ LinkedIn宛先にアカウントが一致するオーディエンスを使用す
 
 1. ダイアログで、設定したLinkedInの宛先を選択し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-![ジャーニーノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 – 宛先を選択ダイアログ &#x200B;](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+   ![ジャーニーノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 – 宛先を選択ダイアログ &#x200B;](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
 1. 宛先でアクティブ化されたオーディエンスを識別するために使用される&#x200B;**[!UICONTROL オーディエンス名]**&#x200B;を入力します。
 
    ![ジャーニーノード – アカウントに対してアクションを実行 – アクティベート先 – 完了した設定](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
-+++
-
 >[!ENDSHADEBOX]
 
-## 顧客のアクション
+## 顧客のアクション {#people-actions}
 
 アカウントまたは個人のジャーニーで、ノードパス上のすべてのユーザーに変更を適用する場合は、ユーザーに対するアクションを使用します。 アカウントジャーニーの場合、このノードタイプは、_パスをユーザーで分割_&#x200B;または&#x200B;_パスをアカウントで分割_&#x200B;内で使用できます。
 
@@ -107,7 +103,8 @@ LinkedIn宛先にアカウントが一致するオーディエンスを使用す
 
 | コンテキスト | アクション | ジャーニータイプ | 制約 |
 | ------- | ------ | ------------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL 外部顧客オーディエンスに追加] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>外部の顧客オーディエンスを選択 |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL &#x200B; ユーザーを（他の）ジャーニーに追加] | <li>アカウントジャーニー（人物に対するアクション） <li>ユーザージャーニー | <li>ライブ顧客ジャーニーを選択 |
+| | [!UICONTROL 外部顧客オーディエンスに追加] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>外部の顧客オーディエンスを選択 |
 | | [!UICONTROL 購買グループに割り当て] | <li>アカウントジャーニー | <li>ソリューションに対する関心を選択 <li>役割を選択 |
 | | [!UICONTROL &#x200B; スコアの変更] | <li>アカウントジャーニー | <li>スコア名 <li>スコアの変更 |
 | | [!UICONTROL 興味深い瞬間] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>タイプ <li>説明 |
@@ -133,15 +130,25 @@ LinkedIn宛先にアカウントが一致するオーディエンスを使用す
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL アクションを実行]**&#x200B;を選択します。
 
-1. 右側のノードプロパティで、アクションに「**[!UICONTROL 人物]**」を選択します。
+1. （_アカウントジャーニーのみ_）右側のノードプロパティで、アクションコンテキストに「**[!UICONTROL 人]**」を選択します。
 
 1. リストからアクションを選択し、アクションの値を設定します。
 
-![ジャーニーノード – ユーザーに対してアクションを実行](./assets/node-take-action-people.png){width="700" zoomable="yes"}
+   ![ジャーニーノード – ユーザーに対してアクションを実行](./assets/node-take-action-people.png){width="700" zoomable="yes"}
 
 ### Journey Optimizer B2B アクション
 
 Journey Optimizer B2Bの人物ベースのアクションは、設定されたチャネルを通じたコミュニケーションを管理し、購買グループやアカウント内の人物の分類を管理するように設計されています。 ジャーニーは、個人プロファイルを持つ適格なアカウントがノードに到達したときにアクションを適用します。
+
++++[!UICONTROL 他のジャーニーにユーザーを追加]
+
+このアクションを使用して、個人プロファイルをライブの個人ジャーニーに追加します。 ユーザーがアクションノードに入ると、システムはユーザーを指定されたユーザージャーニーのオーディエンスメンバーとして追加します。
+
+「**[!UICONTROL ライブ人物ジャーニーを選択]**」セレクターを使用して、人物プロファイルを追加する人物ジャーニーを指定します。 フィールドにテキストを入力して、リストをフィルタリングできます。
+
+![&#x200B; アクションを実行 – （その他）ジャーニーにユーザーを追加](./assets/node-action-add-to-person-journey.png){width="300"}
+
++++
 
 +++[!UICONTROL 外部顧客オーディエンスに追加]
 
@@ -232,9 +239,19 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 +++
 
++++[!UICONTROL ジャーニーからユーザーを削除]
+
+このアクションを使用して、個人ジャーニーから個人プロファイルを削除します。 ユーザーがアクションノードに入ると、システムは、指定されたユーザージャーニーのオーディエンスメンバーとしてそれらを削除します。
+
+**[!UICONTROL 人物ジャーニーを選択]** セレクターを使用して、人物プロファイルを削除する人物ジャーニーを指定します。 フィールドにテキストを入力して、リストをフィルタリングできます。
+
+![&#x200B; アクションを実行 – ジャーニーからユーザーを削除](./assets/node-action-remove-from-person-journey.png){width="300"}
+
++++
+
 +++[!UICONTROL 電子メールを送信]
 
-このアクションを使用してメールを送信します。 ノードの電子メール [&#128279;](../content/add-email.md#add-an-email-to-your-journey)を[&#128279;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email)作成した後、電子メールデザインスペースで電子メールメッセージをデザイン、パーソナライズ、プレビューできます（[電子メールオーサリング &#x200B;](../content/email-authoring.md){target="_blank"}を参照）。 Marketo Engageから電子メールを送信することもできます。 Marketo Engage ワークスペースを選択し、送信するメールを選択します。
+このアクションを使用してメールを送信します。 ノードの電子メール [&#128279;](../content/add-email.md#add-an-email-action-node-in-a-journey)を[&#128279;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email)作成した後、電子メールデザインスペースで電子メールメッセージをデザイン、パーソナライズ、プレビューできます（[電子メールオーサリング &#x200B;](../content/email-authoring.md){target="_blank"}を参照）。 Marketo Engageから電子メールを送信することもできます。 Marketo Engage ワークスペースを選択し、送信するメールを選択します。
 
 ![&#x200B; アクションを実行 – メールを送信](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -272,7 +289,7 @@ _既存のオーディエンスを使用するには&#x200B;:_
 >
 >現在のJourney Optimizer B2B edition リリースの&#x200B;_[!UICONTROL Change Data Value]_ アクションに代わって、_[!UICONTROL 人物プロファイルを更新]_&#x200B;します。<br/>
 >
->管理者は、_[!UICONTROL XDM設定]_ > [!UICONTROL 標準クラス &#x200B;]のフィールドを更新することで、XDM個人プロファイルで使用可能な属性を設定できます。 詳しくは、[標準クラス &#x200B;](../admin/xdm-field-management.md#standard-classes)を参照してください。
+>管理者は、_[!UICONTROL XDM設定]_ > [!UICONTROL 標準クラス &#x200B;]のフィールドを更新することで、XDM個人プロファイルで使用可能な属性を設定できます。 詳しくは、[標準スキーマ &#x200B;](../admin/xdm-field-management.md#standard-schemas)を参照してください。
 
 +++
 
