@@ -2,10 +2,10 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Primeとその使用方法について説明します。
 hide: true
-source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
+source-git-commit: 120afb1109e550fc65c2fc5a01680f2d7d2e2345
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 56%
+source-wordcount: '184'
+ht-degree: 55%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 56%
   + [概要からプログラムを作成](./agents/program-from-brief.md)
   + [プログラム用オーディエンスの作成](./agents/audience-creation.md)
   + [カスタムスコアリングモデルの作成](./agents/lead-scoring-model.md)
++ [AIを活用した意思決定](./agents/ai-decisioning.md)
 + マーケティング管理 {#marketing-management}
   + [概要](./marketing/marketing-management.md)
   + プログラム {#programs}
@@ -34,7 +35,7 @@ ht-degree: 56%
     + [ノードの概要](./marketing/person-journey-nodes.md)
     + [顧客オーディエンス](./marketing/person-audience-node.md)
     + [アクションの実行](./marketing/action-nodes.md)
-    + [イベントのリッスン](./marketing/listen-for-event-nodes.md)
+    + [イベントをリッスン](./marketing/listen-for-event-nodes.md)
     + [待機](./marketing/wait-nodes.md)
     + [パスの分割と結合](./marketing/split-merge-paths-nodes.md)
     + [次に最適なパス](./marketing/next-best-path.md)
