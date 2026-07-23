@@ -3,10 +3,18 @@ title: AIを活用した意思決定
 description: Journey Optimizer B2B PrimeのAIを利用した意思決定について解説します。ジャーニーのトラフィック制御を支えるインテリジェンスレイヤーであり、次善のパス、送信時間の最適化など、静的なルールを成果に基づく自動化に置き換える機能を備えています。
 autotag-review: '2026-07-23T00:13:49.629Z'
 TQID: 'https://experienceleague.adobe.com/vAu9C6Erjr-0TIJ18jQnR209Ed2xfLl9P3Nq2fPTs9c'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4eeid: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 120afb1109e550fc65c2fc5a01680f2d7d2e2345
 workflow-type: tm+mt
 source-wordcount: 814
@@ -28,7 +36,7 @@ AIを活用した意思決定は、次の機能で構成されています。
 | 機能 | 決定するもの |
 |---|---|
 | [ジャーニートラフィック制御](../marketing/journey-traffic-control.md) | 現在どのジャーニーに属すべきかを判断できます。 個人が複数のジャーニーに適格である場合、ジャーニートラフィック制御は、もはや適合しないパスに顧客を残すのではなく、プロファイルや行動が変更された瞬間に顧客を再ルーティングします。 |
-| [次善のパス ](../marketing/next-best-path.md) | ジャーニー内の個人に最適なパス。 フィルター条件をハードコーディングするのではなく、自然言語で意図を記述し、各訪問者を最適なパスにタイミングよく誘導します。 |
+| [次善のパス &#x200B;](../marketing/next-best-path.md) | ジャーニー内の個人に最適なパス。 フィルター条件をハードコーディングするのではなく、自然言語で意図を記述し、各訪問者を最適なパスにタイミングよく誘導します。 |
 | [送信時間の最適化](../marketing/email-send-time-optimization.md) | 全員に決まったスケジュールではなく、過去のエンゲージメントにもとづいて、各受信者に最適な送信ウィンドウ。 |
 | コンテキストコンテンツ | コンテンツ概要から自動的に生成された、パーソナライズされた電子メールのバリエーション。ジャーニー内の単一のパーソナライズされたメールアセットとして使用できます。 _近日公開予定。_ |
 | [Brand Concierge](https://experienceleague.adobe.com/ja/docs/brand-concierge/content/home){target="_blank"} | チャットやライブアシストなど、リアルタイムの会話型ルーティングと対応。 Brand Conciergeには、追加の製品使用権限が必要です。 |
@@ -37,9 +45,9 @@ AIを活用した意思決定は、次の機能で構成されています。
 
 ## パスと次善のパスの分割 {#split-paths-next-best-path}
 
-[ パスの分割](../marketing/split-merge-paths-nodes.md)を使用すると、明示的なフィルター条件でジャーニーブランチを定義できます。スコアが閾値を超える場合は、あるパスにユーザーを送信し、それ以外の場合は別のパスに送信します。 このルールベースのロジックは正確で完全に監査可能ですが、新しい条件ごとに新しいブランチが必要です。
+[&#x200B; パスの分割](../marketing/split-merge-paths-nodes.md)を使用すると、明示的なフィルター条件でジャーニーブランチを定義できます。スコアが閾値を超える場合は、あるパスにユーザーを送信し、それ以外の場合は別のパスに送信します。 このルールベースのロジックは正確で完全に監査可能ですが、新しい条件ごとに新しいブランチが必要です。
 
-[次善のパス ](../marketing/next-best-path.md) ノードは、同じ問題に対してAIによる意思決定を適用します。 このモデルでは、しきい値を固定するのではなく、エンゲージメント、ペルソナ、製品の関心度、funnelのステージを同時に評価し、各個人に対する最適な結果を予測して、最適なパスを自動的に選択します。
+[次善のパス &#x200B;](../marketing/next-best-path.md) ノードは、同じ問題に対してAIによる意思決定を適用します。 このモデルでは、しきい値を固定するのではなく、エンゲージメント、ペルソナ、製品の関心度、funnelのステージを同時に評価し、各個人に対する最適な結果を予測して、最適なパスを自動的に選択します。
 
 ## データ入力 {#data-inputs}
 
