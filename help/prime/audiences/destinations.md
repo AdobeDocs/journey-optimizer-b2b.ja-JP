@@ -4,10 +4,17 @@ description: 必要な権限、サポートされている宛先、Journey Optim
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 autotag-review: '2026-06-17T18:30:02.442Z'
 TQID: 'https://experienceleague.adobe.com/xO1p-VvIfv1KB77g0l2-fFRHQ0w2hy97vnG1QHpMw8c'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
 source-wordcount: 655
@@ -17,7 +24,7 @@ ht-degree: 9%
 
 # 宛先
 
-宛先は、[静的な人物リスト ](./people-lists.md#static-lists)を[!DNL Journey Optimizer B2B Prime]から外部の広告またはソーシャルプラットフォーム（LinkedIn キャンペーンオーディエンス、Google Customer Match オーディエンス、Facebook カスタムオーディエンスなど）に送信できる事前定義済みの統合です。 宛先に静的リストをアクティベートすると、メンバーシップが同期されます。ユーザーがリストに追加されたりリストから削除されたりすると、それに応じて宛先オーディエンスに追加されたり、オーディエンスがフィードするキャンペーンから削除されたりします。
+宛先は、[静的な人物リスト &#x200B;](./people-lists.md#static-lists)を[!DNL Journey Optimizer B2B Prime]から外部の広告またはソーシャルプラットフォーム（LinkedIn キャンペーンオーディエンス、Google Customer Match オーディエンス、Facebook カスタムオーディエンスなど）に送信できる事前定義済みの統合です。 宛先に静的リストをアクティベートすると、メンバーシップが同期されます。ユーザーがリストに追加されたりリストから削除されたりすると、それに応じて宛先オーディエンスに追加されたり、オーディエンスがフィードするキャンペーンから削除されたりします。
 
 接続された宛先に対してユーザーをアクティブ化するには、次の2つの方法があります。
 
@@ -58,7 +65,7 @@ ht-degree: 9%
 * **[!UICONTROL Facebook カスタムオーディエンス]** （ソーシャル）
 * **[!UICONTROL LinkedIn Matched Audience]** （Social）
 
-![使用可能なコネクタタイプにアクセス ](./assets/destinations-catalog.png){width="800" zoomable="yes"}
+![使用可能なコネクタタイプにアクセス &#x200B;](./assets/destinations-catalog.png){width="800" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -80,7 +87,7 @@ ht-degree: 9%
 
    >[!IMPORTANT]
    >
-   >この時点で、**は&#x200B;_[!UICONTROL 宛先の詳細]_を入力しません**。 接続だけが必要です。
+   >この時点で、**は&#x200B;_[!UICONTROL 宛先の詳細]_&#x200B;を入力しません**。 接続だけが必要です。
 
 1. 人物の属性と宛先に必要なフィールドの間の必須フィールドマッピングを完了します。
 
