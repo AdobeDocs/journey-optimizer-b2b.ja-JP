@@ -13,10 +13,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
+source-git-commit: f57eec2bd5c00d508d83b6ecb872162edb35094c
 workflow-type: tm+mt
-source-wordcount: 891
-ht-degree: 3%
+source-wordcount: 1157
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 [!DNL Adobe Journey Optimizer B2B Prime]では、人物リストはターゲティングおよび人物ジャーニーのエントリ用の個人レベルのオーディエンスコンテナであり、ルールベースのライブ選定の動的リストと、固定またはジャーニーで管理されるメンバーシップの静的リストが含まれています。
 
-## ユーザーリストへのアクセスと参照 {#access-and-browse}
+## ユーザーリストへのアクセスと参照 {#access-browse}
 
 1. 左側のナビゲーションで、**[!UICONTROL マーケティング管理]**&#x200B;を展開します。
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 
    ![&#x200B; ユーザーリストにアクセスしてオーディエンスを管理](./assets/people-lists.png){width="800" zoomable="yes"}
 
-ページには2つのタブがあり、**[!UICONTROL 動的リスト]**&#x200B;と&#x200B;**[!UICONTROL 静的リスト]**&#x200B;を表示および管理できます。 タブをクリックして、各タイプ間でリストビューを切り替えます。
+ページには、**[!UICONTROL 動的リスト]**&#x200B;と&#x200B;**[!UICONTROL 静的リスト]**&#x200B;を表示および管理できる2つのタブがあります。 タブをクリックして、2つのタイプ間でリストビューを切り替えます。
 
 リストの上部にある&#x200B;_検索_ ツールにテキストを入力すると、表示されるリストを名前でフィルタリングできます。 リストツールを使用して、表示されるリストをカスタマイズします。
 
@@ -86,12 +86,12 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 1. ダイアログで、リストの&#x200B;**[!UICONTROL 親]**&#x200B;としてプログラムを選択します。
 
-1. リストに&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
+1. リストに「**[!UICONTROL 名前]**」（必須）と「**[!UICONTROL 説明]**」（オプション）を入力します。
 
-1. 次にリスト **[!UICONTROL 種類]**&#x200B;を選択します。
+1. リスト **[!UICONTROL 種類]**&#x200B;を選択してください：
 
-   * **[!UICONTROL 静的]** - メンバーシップは、リストの作成時に評価された修飾フィルターによって決定されます。 レコードを手動で選定または選定しない限り、リストメンバーシップは更新されません。
-***[!UICONTROL Dynamic]** - メンバーシップは、適格なフィルターによって動的に決定されます。 リストのメンバーシップが自動的に更新されます。
+   * [**[!UICONTROL 静的]**](#static-lists) - メンバーシップは、リストの作成時に評価された修飾フィルターによって決定されます。 レコードを手動で選定または選定しない限り、リストメンバーシップは更新されません。
+   * [**[!UICONTROL 動的]**](#dynamic-lists) - メンバーシップは、適格なフィルターによって動的に決定されます。 リストのメンバーシップが自動的に更新されます。
 
    ![人物リストの作成ダイアログ &#x200B;](./assets/people-list-create-dialog.png){width="450"}
 
@@ -101,13 +101,13 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 >
 >削除と複製は、現在、このBeta リリースのユーザーリストではサポートされていません。
 
-## 静的リスト {#static-list}
+## 静的リスト {#static-lists}
 
 静的リストメンバーシップは、ユーザーの属性とアクティビティを参照するシンプルなフィルターによって定義されます。 メンバーシップは、手動でメンバーを選定または選定しない限り、変更されません。
 
 >[!NOTE]
 >
->静的リストフィルター定義は、リストにメンバーを追加またはリストから削除する場合に1回だけ適用されます。 定義されたフィルターは、その後は使用できません。 フィルターを使用して一貫したオーディエンス定義を維持する場合は、代わりに動的リストを使用します。
+>静的リストフィルター定義は、リストにメンバーを追加またはリストから削除する場合にのみ適用されます。 定義されたフィルターは、その後は使用できません。 フィルターを使用して一貫したオーディエンス定義を維持する場合は、代わりに動的リストを使用します。
 
 <!--
 What internet says about Marketo static lists -- which of these is also true in AJO B2B Prime?
@@ -133,23 +133,31 @@ So far, activating to a destination is the only thing that they are used for tha
    * 顧客属性
    * ジャーニーメンバーシップなどの特別なフィルター
 
+   追加する各フィルターについて、**[!UICONTROL 制約を追加]**&#x200B;をクリックして、フィルターの一致する条件を調整します。
+
+   ![静的リストにユーザーを追加するための制約を含むフィルターを追加](./assets/people-list-static-add-people-filters.png){width="700" zoomable="yes"}
+
 1. 変更を保存するには、**[!UICONTROL 完了]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL メンバー]**」タブを選択します。
 
    短期間の後、適格なメンバーがリストに表示されます。
 
+   静的リスト ![&#128279;](./assets/people-list-static-members.png){width="700" zoomable="yes"}の メンバー
+
 ### メンバーを削除 {#static-list-remove-members}
 
 1. 静的リストを開き、右上の「**[!UICONTROL 人を削除]**」をクリックします。
 
-1. ダイアログで、除外するメンバーに一致するフィルターを追加します。
+1. _[!UICONTROL 人物を削除]_ ダイアログで、除外するメンバーに一致するフィルターを追加します。
+
+   ![静的リストからユーザーを削除するフィルターを追加](./assets/people-list-static-members-remove-people-filters.png){width="700" zoomable="yes"}
 
 1. 変更を保存するには、**[!UICONTROL 完了]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL メンバー]**」タブを選択します。
 
-   一定期間が経過すると、失格となった会員はリストから除外されます。
+   しばらくすると、失格のメンバーはリストから離れます。
 
 ### 宛先に対してアクティブ化 {#static-list-activate}
 
@@ -166,11 +174,21 @@ So far, activating to a destination is the only thing that they are used for tha
 * マーケターは、CSVを繰り返し書き出すことや手動でアップロードすることを避けます。
 * ジャーニーは、継続的なオーケストレーションのために、オーディエンスを時間をかけて更新できます。
 
+>[!PREREQUISITES]
+>
+>静的リストを宛先に対してアクティブ化するには、まず、[!DNL Journey Optimizer B2B Prime] サンドボックスに1つ以上の[設定された宛先](./destinations.md)が必要です。
+
 1. 「**[!UICONTROL 静的リスト]**」タブを選択します。
 
 1. 宛先に対してアクティブ化する静的リストを探します。
 
-1. 静的リスト名の横にある「_アクティブ化_」（「![&#x200B; テーブルアイコンをカスタマイズ &#x200B;](../../assets/do-not-localize/icon-falco-activate-dest.svg)」）アイコンをクリックします。
+1. リストの横にある&#x200B;_詳細メニュー_ （**...**）アイコンをクリックし、**[!UICONTROL 宛先にアクティベート]**&#x200B;を選択します。
+
+   ![静的リストのその他のメニューにアクセス &#x200B;](./assets/people-lists-static-more-menu.png){width="450"}
+
+   静的リストを開き、右上の&#x200B;_[!UICONTROL More]_ メニューを使用することもできます。
+
+   <!-- which UI is it?  _Activate_ ( ![Customize table icon](../../assets/do-not-localize/icon-falco-activate-dest.svg) ) icon next to the static list name. -->
 
 1. 設定済みの宛先接続のチェックボックスをオンにします。
 
@@ -178,15 +196,33 @@ So far, activating to a destination is the only thing that they are used for tha
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
+1. 「**[!UICONTROL アクティブ化]**」をクリックして、_[!UICONTROL 宛先にリストをアクティブ化]_ ダイアログでアクティブ化を確認します。
+
+アクティブ化が完了すると、確認が表示されます（_宛先がアクティブ化されました。_） 宛先は、リストの「**[!UICONTROL 宛先]**」タブに「**[!UICONTROL アクティブ]**」としてリストされます。 静的リストは、一度に複数の宛先にアクティベートできます。メンバーシップは、そのすべてに同期されます。
+
+静的リストがアクティブ化されている宛先を確認するには、リストを開いて「**[!UICONTROL 宛先]**」タブを選択します。 デフォルトでは、新しいリストには宛先が接続されていません。
+
+#### 宛先の非アクティブ化 {#deactivate-destination}
+
+1. 静的リストを開き、「**[!UICONTROL 宛先]**」タブを選択します。
+
+1. 削除する宛先の行にある&#x200B;_マイナス_ （**-**）アイコンをクリックします。
+
+1. 「_[!UICONTROL 宛先を非アクティブ化]_」ダイアログで確認します。
+
+非アクティブ化すると、宛先がリストから削除されます。 リスト内の人物も、接続された宛先オーディエンスから削除されます。
+
 ## 動的リスト {#dynamic-lists}
 
 動的リストメンバーシップは、ユーザーの属性とアクティビティを参照するシンプルなフィルターを使用して定義されます。 メンバーシップは、フィルターロジックに従ってリードのクオリフィケーションを行い、クオリフィケーションを行うことで自動的に維持されます。
 
-### メンバーシップルールの設定
+### メンバーシップルールの設定 {#set-membership-rules}
 
 1. 動的リストを開き、「**[!UICONTROL ルール]**」タブを選択します。
 
 1. 「**[!UICONTROL ルールを編集]**」をクリックします。
+
+   ![動的な人物リストを作成するためのルールにアクセス &#x200B;](./assets/people-list-dynamic-rules-edit.png){width="550" zoomable="yes"}
 
 1. ダイアログで、左からフィルターをドラッグ&amp;ドロップして、リードのクオリフィケーションのルールを定義します。
 
@@ -197,21 +233,27 @@ So far, activating to a destination is the only thing that they are used for tha
    * 顧客属性
    * ジャーニーメンバーシップなどの特別なフィルター
 
+   追加する各フィルターについて、**[!UICONTROL 制約を追加]**&#x200B;をクリックして、フィルターの一致する条件を調整します。
+
+   ![制約を含むフィルターを追加して、動的リストに入力します](./assets/people-list-dynamic-rules-edit-filters.png){width="700" zoomable="yes"}
+
 1. 変更を保存するには、**[!UICONTROL 完了]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL メンバー]**」タブを選択します。
 
    短期間の後、適格なメンバーがリストに表示されます。
 
-概要と最近のアクティビティを表示できる[人物の詳細](./person-details.md) ページを開くには、リスト内の人物の名前をクリックします。
+   ![動的リスト用に生成されたメンバー](./assets/people-list-dynamic-rules-members.png){width="700" zoomable="yes"}
 
-### 動的リストの複製
+   概要と最近のアクティビティを表示できる[人物の詳細](./person-details.md) ページを開くには、リスト内の人物の名前をクリックします。
+
+### 動的リストの複製 {#duplicate-dynamic-list}
 
 動的リストの場合、重複アクションはクローン関数に似ています。 この関数を使用して、メンバーシップフィルターを複製し、別のプログラムに追加します。
 
-1. _[!UICONTROL 動的リスト]_ タブで、複製するリストの横にある&#x200B;_複製_ （**...**）アイコンをクリックします。
+1. _[!UICONTROL 動的リスト]_ タブで、リストの横にある&#x200B;_詳細メニュー_ （**...**）アイコンをクリックし、**[!UICONTROL 複製]**&#x200B;を選択します。
 
-1. ダイアログで、複製されたジャーニーの&#x200B;**[!UICONTROL 親]** プログラムを選択します。
+1. ダイアログで、複製されたリストの&#x200B;**[!UICONTROL 親]** プログラムを選択します。
 
 1. 一意の&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力してください。
 
