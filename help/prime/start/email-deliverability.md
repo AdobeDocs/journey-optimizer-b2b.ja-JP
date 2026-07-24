@@ -4,10 +4,17 @@ description: Journey Optimizer B2B Primeのサブドメインデリゲーショ�
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、限定的なベータ版リリースの一部です。"
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 782df5bc56a54840cd06c08d7cd27885ba90c220
 workflow-type: tm+mt
 source-wordcount: 2516
@@ -20,17 +27,17 @@ ht-degree: 1%
 次の情報は、マーケターとメールコンテンツ作成者をサポートするように送信インフラストラクチャを設定する管理者向けです。 配信品質の機能と、サブドメイン、認証、IP プールの設定方法について説明します。 メールチャネルについて詳しくは、次のトピックを参照してください。
 
 * 電子メールチャネルの設定 – [電子メールチャネル設定](../admin/email-channel-configuration.md)
-* メールの作成 – [ ジャーニーにメールを追加](../marketing/email-channel.md)
-* 電子メールコンテンツのデザイン - [電子メールコンテンツのオーサリング ](../content/email-authoring.md)
+* メールの作成 – [&#x200B; ジャーニーにメールを追加](../marketing/email-channel.md)
+* 電子メールコンテンツのデザイン - [電子メールコンテンツのオーサリング &#x200B;](../content/email-authoring.md)
 
 [!DNL Adobe Journey Optimizer B2B Prime]の電子メールの配信品質は、電子メールメッセージが迷惑メールフォルダーではなく受信者の受信トレイに届き、ISP （インターネットサービスプロバイダー）によってブロックされないように支援する、一連のインフラストラクチャと認証設定です。
 
 管理者が設定した次の構成要素を、通常は次の順序で使用します。
 
-1. [1つ以上のサブドメイン ](#subdomain-delegation)をAdobeにデリゲートします。
-1. [各サブドメインでDMARC、SPF、DKIM レコード ](#dmarc-spf-dkim)を設定します。
-1. [ サブドメインのメール送信に使用するIP プール ](#ip-pools)を確認します。
-1. [ サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
+1. [1つ以上のサブドメイン &#x200B;](#subdomain-delegation)をAdobeにデリゲートします。
+1. [各サブドメインでDMARC、SPF、DKIM レコード &#x200B;](#dmarc-spf-dkim)を設定します。
+1. [&#x200B; サブドメインのメール送信に使用するIP プール &#x200B;](#ip-pools)を確認します。
+1. [&#x200B; サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
 
 ![Journey Optimizer B2B Primeのメール配信品質の設定](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
 
