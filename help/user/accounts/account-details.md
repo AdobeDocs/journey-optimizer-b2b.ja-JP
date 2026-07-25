@@ -1,6 +1,6 @@
 ---
 title: アカウントの詳細
-description: Journey Optimizer B2B editionが提供するAIによる概要、インテント検出、連絡先のカバー範囲の分析、メールコミュニケーションにより、アカウントのインサイトを確認できます。
+description: Journey Optimizer B2B editionは、AIによる要約の生成、意図の検出、連絡先のカバー範囲の分析、メールコミュニケーションにより、アカウントのインサイトを表示します。
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: 641
-ht-degree: 6%
+source-wordcount: 642
+ht-degree: 7%
 
 ---
 
@@ -71,7 +71,7 @@ Journey Optimizer B2B editionでは、インテント検出モデルは、アカ
 * アカウント
 * 役職
 * 購買グループ
-* 人物エンゲージメントスコア
+* ユーザーエンゲージメントスコア
 * 前回のアクティビティ
 * 詳細
 

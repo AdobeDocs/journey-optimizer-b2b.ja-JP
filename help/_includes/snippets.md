@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用するフィーチャーまたはページに注意するために、再利用されたメモとビジュアル要素
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2355'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->インテントデータは、Journey Optimizer B2B edition インスタンス用に設定されている場合に含まれます。 また、購買グループを作成した1つ以上の公開されたジャーニー&#x200B;**または**&#x200B;が必要です。 インテント検出モデルと、キーワード、製品、およびカテゴリを送信する方法について詳しくは、[&#x200B; インテント データ &#x200B;](../user/admin/intent-data.md)を参照してください。
+>インテントデータは、Journey Optimizer B2B edition インスタンス用に設定されている場合に含まれます。 また、購買グループを作成した1つ以上の公開されたジャーニー&#x200B;**または**&#x200B;が必要です。 インテント検出モデルと、キーワード、製品、およびカテゴリを送信する方法について詳しくは、[&#x200B; インテント データ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)を参照してください。
 
 ## AEM Assetsのライセンスノート {#aem-assets-licensing-note}
 
@@ -185,13 +185,13 @@ ht-degree: 5%
 
 * **[!UICONTROL 幅]** - トグルを使用して、幅をピクセルまたはパーセント単位で設定します。
 
-   * パーセンテージ幅の場合は、スライダーを使用してパーセンテージ値を設定します。 パーセンテージは、含まれるブロックのコンテンツボックスに基づいてエレメントのサイズを決定します。このボックスでは、パディングと境界線は除外されます。 例えば、値が50の場合、要素の幅は、含まれるブロックコンテンツの幅の50%に設定されます。
+  * パーセンテージ幅の場合は、スライダーを使用してパーセンテージ値を設定します。 パーセンテージは、含まれるブロックのコンテンツボックスに基づいてエレメントのサイズを決定します。このボックスでは、パディングと境界線は除外されます。 例えば、値が50の場合、要素の幅は、含まれるブロックコンテンツの幅の50%に設定されます。
 
-     ![&#x200B; パーセンテージを使用した幅スタイル &#x200B;](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
+    ![&#x200B; パーセンテージを使用した幅スタイル &#x200B;](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
 
-   * ピクセルベースの幅の場合は、上下の矢印アイコンをクリックして、ピクセル数を増減します。 空の値（Auto）がデフォルトで、要素の幅を内容に応じてサイズ調整します。
+  * ピクセルベースの幅の場合は、上下の矢印アイコンをクリックして、ピクセル数を増減します。 空の値（Auto）がデフォルトで、要素の幅を内容に応じてサイズ調整します。
 
-     ![&#x200B; ピクセルを使用した幅スタイル &#x200B;](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
+    ![&#x200B; ピクセルを使用した幅スタイル &#x200B;](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
 
 ## コンテンツコンポーネント – テキストスタイル {#styles-text}
 

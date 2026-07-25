@@ -1,6 +1,6 @@
 ---
 title: 顧客の詳細
-description: Journey Optimizer B2B editionのAIによる概要、エンゲージメントスコア、アクティビティの追跡、購買グループメンバーの意図の検出により、人物のインサイトを表示できます。
+description: Journey Optimizer B2B editionでは、AIが生成した概要、エンゲージメントスコア、アクティビティの追跡、購買グループメンバーの意図の検出により、人物のインサイトを表示できます。
 feature: Account Insights
 role: User
 exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
@@ -15,9 +15,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:21:27.328Z
 TQID: https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: 300
 ht-degree: 7%
 
 ---
