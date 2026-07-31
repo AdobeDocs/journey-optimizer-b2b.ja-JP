@@ -1,25 +1,17 @@
 ---
 title: ユーザーのアクセスと権限
 description: Adobe Admin Consoleでユーザーアクセスを管理する：Journey Optimizer B2B Primeで、ユーザーグループを作成し、製品プロファイルを割り当て、ロールベースの権限を設定します。
-badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、限定的なベータ版リリースの一部です。"
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-  - id: bd42eee1-e206-4826-91ea-88dc726d858e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b5c78cc54f46f47809b80bb6df1066f0f35c52e8
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: f6df9def-cdf7-4728-9ec8-3f65716828c7id: bd42eee1-e206-4826-91ea-88dc726d858e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: a2fcdae381cba44c7f1458be3e851628e7e11b26
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 58%
+source-wordcount: 2294
+ht-degree: 46%
 
 ---
 
@@ -27,16 +19,16 @@ ht-degree: 58%
 
 プロビジョニングが完了し、サンドボックスがバインドされたら、次の手順を実行して、チームとユーザーに[!DNL Journey Optimizer B2B Prime] アクセスを提供します。
 
-1. [Admin Consoleで [!DNL Journey Optimizer B2B Edition] 製品プロファイル &#x200B;](#create-profile)を作成します（1回限り/初期設定のみ）。
-1. Admin Consoleで [&#x200B; ユーザーグループを追加 &#x200B;](#add-user-group) します。
-1. [製品プロファイル &#x200B;](#assign-profile)をAdmin Consoleのユーザーグループに割り当てます。
-1. [Admin Consoleの新しいグループ &#x200B;](#add-users)にユーザーを追加します。
-1. [&#x200B; ビルトインロールを編集](#edit-role-permissions)または[Adobe Experience Platformで[!DNL Journey Optimizer B2B Edition]権限を持つカスタムロール &#x200B;](#create-a-custom-role)を作成します。
-1. [Adobe Experience Platformのロールにユーザー](#add-users-to-a-role)または[&#x200B; グループ &#x200B;](#add-user-groups-to-a-role)を追加します。
+1. [Admin Consoleで [!DNL Journey Optimizer B2B Edition] 製品プロファイル ](#create-profile)を作成します（1回限り/初期設定のみ）。
+1. Admin Consoleで [ ユーザーグループを追加 ](#add-user-group) します。
+1. [製品プロファイル ](#assign-profile)をAdmin Consoleのユーザーグループに割り当てます。
+1. [Admin Consoleの新しいグループ ](#add-users)にユーザーを追加します。
+1. [ ビルトインロールを編集](#edit-role-permissions)または[Adobe Experience Platformで[!DNL Journey Optimizer B2B Edition]権限を持つカスタムロール ](#create-a-custom-role)を作成します。
+1. [Adobe Experience Platformのロールにユーザー](#add-users-to-a-role)または[ グループ ](#add-user-groups-to-a-role)を追加します。
 
 ## 製品プロファイルの設定 {#config-profile}
 
-管理者は、Adobeの製品ライセンスとユーザーを一元的に管理する場所であるAdobe Admin Consoleで、これらのタスクを実行できます。 Admin Consoleでは、様々な個別のソリューション内ではなく、1 か所でユーザーを作成および管理できます。 その機能と機能について詳しくは、[Admin Consoleの概要](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html) ページを参照してください。
+管理者は、Adobeの製品ライセンスとユーザーを一元的に管理する場所であるAdobe Admin Consoleで、これらのタスクを実行できます。 Admin Consoleでは、様々な個別のソリューション内ではなく、1 か所でユーザーを作成および管理できます。 その機能と機能について詳しくは、[Admin Consoleの概要](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html) ページを参照してください。
 
 ### Admin Console へのアクセス {#admin-console}
 
@@ -60,7 +52,7 @@ Admin Consoleを使用してチーム内のユーザーを管理する前に、A
 
 1. **[!UICONTROL ユーザー]** カードから _[!UICONTROL 管理者]_ を選択して、自分がシステム管理者であることを確認します。
 
-   ![Admin Consoleの概要 – 「管理者」をクリック &#x200B;](./assets/admin-console-overview-administrators.png){width="800" zoomable="yes"}
+   ![Admin Consoleの概要 – 「管理者」をクリック ](./assets/admin-console-overview-administrators.png){width="800" zoomable="yes"}
 
 1. Adobe IDのメールアドレス、ユーザー名、名、姓を入力して検索します。
 
@@ -72,7 +64,7 @@ Admin Consoleを使用してチーム内のユーザーを管理する前に、A
 
 Adobe ソリューションに対するアクセス権をユーザーに付与する場合、必ずしも完全なアクセス権を付与する必要はありません。 製品プロファイルを使用すると、ソリューションごとに独自のユーザー権限を設定できます。 Admin Consoleを使用して製品プロファイルを割り当てます。
 
-ユーザーの使用権限に製品プロファイルを使用する方法について詳しくは、Admin Console ドキュメントの [_エンタープライズユーザーの製品プロファイルの管理_](https://helpx.adobe.com/jp/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} を参照してください。
+ユーザーの使用権限に製品プロファイルを使用する方法について詳しくは、Admin Console ドキュメントの [_エンタープライズユーザーの製品プロファイルの管理_](https://helpx.adobe.com/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} を参照してください。
 
 ![管理者の役割の要件](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者または[!DNL Experience Platform]製品管理者は、[https://adminconsole.adobe.com](https://adminconsole.adobe.com)から次の手順を実行できます。
 
@@ -80,7 +72,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 1. プロファイルを追加する[!DNL Journey Optimizer B2B Edition] インスタンスを開き、**[!UICONTROL 新しいプロファイル]**&#x200B;をクリックします。
 
-   ![Experience Platform - ユーザーグループ &#x200B;](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}の製品プロファイル
+   ![Experience Platform - ユーザーグループ ](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}の製品プロファイル
 
 1. 製品プロファイル名（「_B2B ユーザー_」など）を入力します。
 
@@ -90,7 +82,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 ユーザーグループは、共有された一連の権限を付与されたユーザーのコレクションです。 ユーザーグループのユーザーを追加または削除できます。 グループの権限は、グループ内のユーザーが変更されても、同じままです。
 
-ユーザーグループを使用して権限を管理する方法について詳しくは、Admin Console ドキュメントの [&#x200B; ユーザーグループの管理 &#x200B;](https://helpx.adobe.com/jp/business/enterprise/manage-users/user-groups.html){target="_blank"} を参照してください。
+ユーザーグループを使用して権限を管理する方法について詳しくは、Admin Console ドキュメントの [ ユーザーグループの管理 ](https://helpx.adobe.com/business/enterprise/manage-users/user-groups.html){target="_blank"} を参照してください。
 
 ![管理者の役割の要件](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は、[https://adminconsole.adobe.com](https://adminconsole.adobe.com)から次の手順を実行できます。
 
@@ -114,18 +106,18 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 1. 「**+**」をクリックして、次の製品の各インスタンスを追加します。
 
-   * [!UICONTROL Adobe Journey Optimizer B2B edition - ユーザープロファイル &#x200B;]
+   * [!UICONTROL Adobe Journey Optimizer B2B edition - ユーザープロファイル ]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
    * [!UICONTROL Adobe Experience Platform Data Collection - Default Data Collection All Access]
-   * [!UICONTROL Adobe Experience Platform - デフォルトの実稼動環境のすべてのアクセス &#x200B;]
+   * [!UICONTROL Adobe Experience Platform - デフォルトの実稼動環境のすべてのアクセス ]
 
-   ![管理コンソール – ユーザーグループ &#x200B;](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}の製品プロファイル
+   ![管理コンソール – ユーザーグループ ](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}の製品プロファイル
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ### 新しいグループにユーザーを追加 {#add-users}
 
-ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/jp/business/enterprise/manage-users/users.html){target="_blank"}を参照してください。
+ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"}を参照してください。
 
 ![管理者の役割の要件](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者または製品管理者は、[https://adminconsole.adobe.com](https://adminconsole.adobe.com)から次の手順を実行できます。 製品管理者は、組織に既に存在するユーザーのみを追加できます。
 
@@ -157,11 +149,11 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 ## 製品の権限の割り当て {#assign-product-permissions}
 
-権限は、製品プロファイルに割り当てる許可を定義できる単一の権利です。 各権限は、ジャーニーや購買グループなどの機能の下にグループ化され、[!DNL Journey Optimizer B2B Prime]の機能を表します。
+権限は、製品プロファイルに割り当てる許可を定義できる単一の権利です。 各権限は、個人のジャーニーやコンテンツなどの機能の下にグループ化され、[!DNL Journey Optimizer B2B Prime]の機能を表します。
 
 Adobe Experience Platformの _権限_ 領域では、管理者は、ユーザーの役割とアクセスポリシーを定義して、製品アプリケーション内の機能とオブジェクトのアクセス権限を管理できます。 このアプリでは、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたサンドボックスとユーザーを管理することもできます。
 
-Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [&#x200B; ロールの権限の管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
+Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [ ロールの権限の管理 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
 
 1. [experience.adobe.com](https://experienceleague.adobe.com/ja) に移動します。
 
@@ -171,24 +163,53 @@ Experience Platformのロール権限について詳しくは、Experience Platf
    >
    >_[!UICONTROL 権限]_ が表示されない場合は、「**[!UICONTROL すべて表示]**」をクリックし、使用可能なアプリケーションから選択する必要がある場合があります。
 
-   ![Experience Platform - アクセス許可 &#x200B;](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Experience Platform - アクセス許可 ](./assets/aep-permissions.png){width="700" zoomable="yes"}
+
+### 権限 {#permissions}
+
+次の権限は、[!DNL Journey Optimizer B2B Prime]のチャネル設定、コンテンツ管理、およびユーザーのジャーニー機能へのアクセスを制御します。
+
+| カテゴリ | 権限 | 説明 |
+| -------- | ----------- | ---------- |
+| B2B チャネル設定 | B2B メール設定の表示 | メール設定（サブドメイン、PTR レコード、IP プール、抑制リスト、シードリスト、IP ウォームアッププラン）を表示します。 |
+| | B2B メール設定の管理 | メール設定（サブドメイン、PTR レコード、IP プール、抑制リスト、シードリスト、IP ウォームアッププラン）を設定します。 これらの設定は、ユーザーがメールを送信する前に必要です。 |
+| | B2B チャネル設定の管理 | 左側のナビゲーションおよびすべてのチャネル設定操作の&#x200B;_チャネル_ メニュー項目にアクセスします。 |
+| | B2B WhatsApp プリセットの管理 | WhatsApp メッセージプリセットと関連するSMS設定を作成、表示、削除します。 |
+| B2B ジャーニー | B2B人物ジャーニーの管理 | _人物ジャーニー_ リストとすべての人物ジャーニー操作にアクセスします。 |
+| B2B Assets | コンテンツテンプレートを表示 | コンテンツテンプレートのリストと詳細を表示します。 |
+| | B2B テンプレートの管理 | コンテンツテンプレートを作成、編集、削除します。 |
+| | B2B フラグメントの表示 | コンテンツフラグメントのリストと詳細を表示します。 |
+| | B2B フラグメントの管理 | コンテンツフラグメントを作成、編集、削除します。 |
+| | B2B フラグメントの公開 | テンプレート、メール、ランディングページで使用するコンテンツフラグメントを公開します。 |
+| | B2B Assetsを見る | Assets ライブラリとアセットファイルの詳細を表示します。 |
+| | B2B Assetsの管理 | アセットファイルを作成、編集、削除します。 |
+| | B2B メールの表示 | 電子メールメッセージの表示。 |
+| | B2B メールの管理 | メールメッセージの作成、編集、削除。 |
+| | B2B メッセージ書き出しの管理 | 「メール」セクションでメッセージレポートを書き出します。 |
+| Journey Optimizer ライブラリ | B2B ライブラリアイテムの管理 | ライブラリに保存されたエクスプレッションを追加および削除します。 |
+| データガバナンス | B2B削除使用ラベルの管理 | データセットとスキーマに適用されたデータ使用ラベル（DULE）を表示、作成、削除します。 |
+| サンドボックス管理 | B2B パッケージの管理 | サンドボックスパッケージを作成、書き出し、読み込み、コピー、削除します。 |
+
+[!DNL Journey Optimizer B2B Prime]の外部宛先のサポートを提供するには、次の権限が必要です。
+
+| カテゴリ | 権限 | 説明 |
+| -------- | ----------- | ---------- |
+| ダッシュボード | 標準ダッシュボードを表示 | _プロファイル_、_宛先_、_セグメント_ ダッシュボードへの表示専用アクセス。 左側のナビゲーションの&#x200B;_ダッシュボード_&#x200B;と「_ダッシュボード_ インベントリと統合」タブへのアクセスも有効にします。 |
+| | 標準ダッシュボードの管理 | Data Warehouse にないカスタム属性の追加。 |
+| 宛先 | 宛先の表示 | _カタログ_ タブで利用可能な宛先を表示し、_参照_ タブで認証済みの宛先を表示するための表示専用アクセス権。 |
+| | 宛先の管理 | 宛先の接続と宛先アカウントを表示、作成、削除します。 |
+| | 宛先のアクティブ化 | アクティブな配信先へのデータのアクティベーション。 この関数にアクセスするには、_宛先の表示_&#x200B;または&#x200B;_宛先の管理_&#x200B;も必要です。 |
+| | マッピングなしでセグメントをアクティブ化 | マッピング手順を表示せずに、既存の宛先にオーディエンスをアクティベートできます。 ユーザーは、アクティベーションワークフローでオーディエンスを追加および削除できますが、マッピングされた属性や ID を追加または削除することはできません。 この関数にアクセスするには、_宛先を表示_&#x200B;権限も必要です。 |
+| | データセット宛先の管理とアクティブ化 | データセットのエクスポートフローを表示、作成、編集、無効化したり、アクティブなデータセットにデータをアクティベートしたりできます。 この関数にアクセスするには、_宛先を表示_&#x200B;権限も必要です。 |
+| | 宛先オーサリング | Adobe Experience Platform Destination SDKを使用して宛先を作成する機能。 |
+| データガバナンス | データ使用ポリシーの表示 | 組織に属するデータ使用ポリシーの表示専用アクセス。 |
+| | データ使用ポリシーの管理 | データ使用ポリシーの表示、作成、編集、削除。 |
+| データ取り込み | ソースの表示 | _カタログ_ タブの利用可能なソースと&#x200B;_参照_ タブの認証済みソースへの表示専用アクセス。 |
+| | ソースの管理 | ソースの表示、作成、編集、および無効化。 |
+| プロファイル管理 | プロファイル設定の表示 | すべてのプロファイル設定への表示専用アクセス。 |
+| | プロファイル設定の管理 | すべてのプロファイル設定を表示および編集します。 |
 
 <!--
-
-### B2B product permissions {#b2b-product-permissions}
-
-The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
-
-| Category | Description | Permissions |
-| -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments <li>Manage B2B Emails |
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups <li>Manage B2B Solution Interests <li>Manage B2B Role Templates <li>Manage B2B Stages <li>View B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
-| B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
-| Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
@@ -223,13 +244,13 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
 1. 詳細ページで、右上の **[!UICONTROL 編集]** をクリックします。
 
-   ![Experience Platform – 役割の編集 &#x200B;](./assets/aep-permissions-role-prime-edit.png){width="800" zoomable="yes"}
+   ![Experience Platform – 役割の編集 ](./assets/aep-permissions-role-prime-edit.png){width="800" zoomable="yes"}
 
    役割エディターの&#x200B;_[!UICONTROL リソース]_ メニューには、Experience Cloud - Platformを利用したアプリケーションに適用されるリソースのリストが表示されます。
 
 1. [!DNL Journey Optimizer B2B Prime] アクセス用にプロビジョニングされたサンドボックス （`<Marketo subscription prefix>Prime`）を選択します。
 
-   ![Experience Platform – 新しい役割用のサンドボックスを追加する &#x200B;](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
+   ![Experience Platform – 新しい役割用のサンドボックスを追加する ](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
 
 1. 各B2B リソースの&#x200B;_Add_ アイコン （**+**）をクリックします。
 
@@ -253,7 +274,7 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
 1. **[!UICONTROL ユーザーを追加]** をクリックします。
 
-   ![Experience Platform - ロールにユーザーを追加 &#x200B;](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
+   ![Experience Platform - ロールにユーザーを追加 ](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
 
 1. _[!UICONTROL ユーザーを追加]_ ダイアログで、役割に追加するユーザーを見つけて選択します。
 
@@ -261,13 +282,13 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
    * 各ユーザーのチェックボックスを選択します。
 
-   ![Experience Platform - ユーザーを追加ダイアログ &#x200B;](../../user/admin/assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
+   ![Experience Platform - ユーザーを追加ダイアログ ](../../user/admin/assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
 
 1. 追加するすべてのユーザーを選択したら、「**[!UICONTROL 保存]**」をクリックします。
 
 ### 役割へのユーザーグループの追加 {#add-user-groups-to-a-role}
 
-ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/jp/business/enterprise/manage-users/users.html){target="_blank"}を参照してください。
+ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"}を参照してください。
 
 ![管理者の役割の要件](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはExperience Platform管理者は、次の手順を実行できます。
 
@@ -285,7 +306,7 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
    * 各ユーザーグループのチェックボックスを選択します。
 
-   ![Experience Platform - グループを追加ダイアログ &#x200B;](../../user/admin/assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
+   ![Experience Platform - グループを追加ダイアログ ](../../user/admin/assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
 1. 追加するすべてのグループを選択したら、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
@@ -301,15 +322,15 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
 1. [!DNL Journey Optimizer B2B Prime] アクセス用にプロビジョニングされたサンドボックス （`<Marketo subscription prefix>Prime`）を選択します。
 
-   ![Experience Platform – 新しい役割用のサンドボックスを追加する &#x200B;](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
+   ![Experience Platform – 新しい役割用のサンドボックスを追加する ](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
 
 1. B2B 製品の権限を追加します。
 
-   <!-- To determine which product capabilities that you want for the role, refer to the list of [B2B product permissions](#b2b-product-permissions). -->
+   役割に必要な製品機能を決定するには、[製品権限](#permissions)のリストを参照してください。
 
    左側の&#x200B;_[!UICONTROL リソース]_ リストで、B2B アイテムを見つけ、_追加_ （**+**）アイコンをクリックして、役割に対して有効にする各属性を追加します。
 
-   検索ツールに _B2B_ と入力して、B2B 製品の権限のリストをフィルタリングできます。
+   検索ツールに&#x200B;_B2B_&#x200B;と入力すると、多くのB2B製品権限のリストをフィルタリングできます。
 
    ![Experience Platform - B2B権限](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
