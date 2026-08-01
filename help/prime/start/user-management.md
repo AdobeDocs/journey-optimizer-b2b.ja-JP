@@ -1,7 +1,7 @@
 ---
 title: ユーザーのアクセスと権限
 description: Adobe Admin Consoleでユーザーアクセスを管理する：Journey Optimizer B2B Primeで、ユーザーグループを作成し、製品プロファイルを割り当て、ロールベースの権限を設定します。
-badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、限定的なベータ版リリースの一部です。"
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
 product_v2:
@@ -16,10 +16,10 @@ subfeature_v2:
   - id: bd42eee1-e206-4826-91ea-88dc726d858e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b5c78cc54f46f47809b80bb6df1066f0f35c52e8
+source-git-commit: a2fcdae381cba44c7f1458be3e851628e7e11b26
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 58%
+source-wordcount: 2294
+ht-degree: 46%
 
 ---
 
@@ -157,7 +157,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 ## 製品の権限の割り当て {#assign-product-permissions}
 
-権限は、製品プロファイルに割り当てる許可を定義できる単一の権利です。 各権限は、ジャーニーや購買グループなどの機能の下にグループ化され、[!DNL Journey Optimizer B2B Prime]の機能を表します。
+権限は、製品プロファイルに割り当てる許可を定義できる単一の権利です。 各権限は、個人のジャーニーやコンテンツなどの機能の下にグループ化され、[!DNL Journey Optimizer B2B Prime]の機能を表します。
 
 Adobe Experience Platformの _権限_ 領域では、管理者は、ユーザーの役割とアクセスポリシーを定義して、製品アプリケーション内の機能とオブジェクトのアクセス権限を管理できます。 このアプリでは、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたサンドボックスとユーザーを管理することもできます。
 
@@ -173,22 +173,51 @@ Experience Platformのロール権限について詳しくは、Experience Platf
 
    ![Experience Platform - アクセス許可 &#x200B;](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-<!--
+### 権限 {#permissions}
 
-### B2B product permissions {#b2b-product-permissions}
+次の権限は、[!DNL Journey Optimizer B2B Prime]のチャネル設定、コンテンツ管理、およびユーザーのジャーニー機能へのアクセスを制御します。
 
-The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
-
-| Category | Description | Permissions |
+| カテゴリ | 権限 | 説明 |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments <li>Manage B2B Emails |
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups <li>Manage B2B Solution Interests <li>Manage B2B Role Templates <li>Manage B2B Stages <li>View B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
-| B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
-| Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
+| B2B チャネル設定 | B2B メール設定の表示 | メール設定（サブドメイン、PTR レコード、IP プール、抑制リスト、シードリスト、IP ウォームアッププラン）を表示します。 |
+| | B2B メール設定の管理 | メール設定（サブドメイン、PTR レコード、IP プール、抑制リスト、シードリスト、IP ウォームアッププラン）を設定します。 これらの設定は、ユーザーがメールを送信する前に必要です。 |
+| | B2B チャネル設定の管理 | 左側のナビゲーションおよびすべてのチャネル設定操作の&#x200B;_チャネル_ メニュー項目にアクセスします。 |
+| | B2B WhatsApp プリセットの管理 | WhatsApp メッセージプリセットと関連するSMS設定を作成、表示、削除します。 |
+| B2B ジャーニー | B2B人物ジャーニーの管理 | _人物ジャーニー_ リストとすべての人物ジャーニー操作にアクセスします。 |
+| B2B Assets | コンテンツテンプレートを表示 | コンテンツテンプレートのリストと詳細を表示します。 |
+| | B2B テンプレートの管理 | コンテンツテンプレートを作成、編集、削除します。 |
+| | B2B フラグメントの表示 | コンテンツフラグメントのリストと詳細を表示します。 |
+| | B2B フラグメントの管理 | コンテンツフラグメントを作成、編集、削除します。 |
+| | B2B フラグメントの公開 | テンプレート、メール、ランディングページで使用するコンテンツフラグメントを公開します。 |
+| | B2B Assetsを見る | Assets ライブラリとアセットファイルの詳細を表示します。 |
+| | B2B Assetsの管理 | アセットファイルを作成、編集、削除します。 |
+| | B2B メールの表示 | 電子メールメッセージの表示。 |
+| | B2B メールの管理 | メールメッセージの作成、編集、削除。 |
+| | B2B メッセージ書き出しの管理 | 「メール」セクションでメッセージレポートを書き出します。 |
+| Journey Optimizer ライブラリ | B2B ライブラリアイテムの管理 | ライブラリに保存されたエクスプレッションを追加および削除します。 |
+| データガバナンス | B2B削除使用ラベルの管理 | データセットとスキーマに適用されたデータ使用ラベル（DULE）を表示、作成、削除します。 |
+| サンドボックス管理 | B2B パッケージの管理 | サンドボックスパッケージを作成、書き出し、読み込み、コピー、削除します。 |
+
+[!DNL Journey Optimizer B2B Prime]の外部宛先のサポートを提供するには、次の権限が必要です。
+
+| カテゴリ | 権限 | 説明 |
+| -------- | ----------- | ---------- |
+| ダッシュボード | 標準ダッシュボードを表示 | _プロファイル_、_宛先_、_セグメント_ ダッシュボードへの表示専用アクセス。 左側のナビゲーションの&#x200B;_ダッシュボード_&#x200B;と「_ダッシュボード_ インベントリと統合」タブへのアクセスも有効にします。 |
+| | 標準ダッシュボードの管理 | Data Warehouse にないカスタム属性の追加。 |
+| 宛先 | 宛先の表示 | _カタログ_ タブで利用可能な宛先を表示し、_参照_ タブで認証済みの宛先を表示するための表示専用アクセス権。 |
+| | 宛先の管理 | 宛先の接続と宛先アカウントを表示、作成、削除します。 |
+| | 宛先のアクティブ化 | アクティブな配信先へのデータのアクティベーション。 この関数にアクセスするには、_宛先の表示_&#x200B;または&#x200B;_宛先の管理_&#x200B;も必要です。 |
+| | マッピングなしでセグメントをアクティブ化 | マッピング手順を表示せずに、既存の宛先にオーディエンスをアクティベートできます。 ユーザーは、アクティベーションワークフローでオーディエンスを追加および削除できますが、マッピングされた属性や ID を追加または削除することはできません。 この関数にアクセスするには、_宛先を表示_&#x200B;権限も必要です。 |
+| | データセット宛先の管理とアクティブ化 | データセットのエクスポートフローを表示、作成、編集、無効化したり、アクティブなデータセットにデータをアクティベートしたりできます。 この関数にアクセスするには、_宛先を表示_&#x200B;権限も必要です。 |
+| | 宛先オーサリング | Adobe Experience Platform Destination SDKを使用して宛先を作成する機能。 |
+| データガバナンス | データ使用ポリシーの表示 | 組織に属するデータ使用ポリシーの表示専用アクセス。 |
+| | データ使用ポリシーの管理 | データ使用ポリシーの表示、作成、編集、削除。 |
+| データ取り込み | ソースの表示 | _カタログ_ タブの利用可能なソースと&#x200B;_参照_ タブの認証済みソースへの表示専用アクセス。 |
+| | ソースの管理 | ソースの表示、作成、編集、および無効化。 |
+| プロファイル管理 | プロファイル設定の表示 | すべてのプロファイル設定への表示専用アクセス。 |
+| | プロファイル設定の管理 | すべてのプロファイル設定を表示および編集します。 |
+
+<!--
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
@@ -305,11 +334,11 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
 1. B2B 製品の権限を追加します。
 
-   <!-- To determine which product capabilities that you want for the role, refer to the list of [B2B product permissions](#b2b-product-permissions). -->
+   役割に必要な製品機能を決定するには、[製品権限](#permissions)のリストを参照してください。
 
    左側の&#x200B;_[!UICONTROL リソース]_ リストで、B2B アイテムを見つけ、_追加_ （**+**）アイコンをクリックして、役割に対して有効にする各属性を追加します。
 
-   検索ツールに _B2B_ と入力して、B2B 製品の権限のリストをフィルタリングできます。
+   検索ツールに&#x200B;_B2B_&#x200B;と入力すると、多くのB2B製品権限のリストをフィルタリングできます。
 
    ![Experience Platform - B2B権限](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
