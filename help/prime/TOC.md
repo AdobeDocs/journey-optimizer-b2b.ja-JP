@@ -2,9 +2,9 @@
 user-guide-title: Journey Optimizer B2B Primeのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Primeとその使用方法について説明します。
 hide: true
-source-git-commit: 120afb1109e550fc65c2fc5a01680f2d7d2e2345
+source-git-commit: e009878c46054b6df033ced369423b32cdaa89cf
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '187'
 ht-degree: 55%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 55%
 # Journey Optimizer B2B Primeユーザーガイド {#prime}
 
 + [Adobe Journey Optimizer B2B Primeのドキュメント](guide-overview.md)
-+ 開始する {#start}
++ 基本を学ぶ {#start}
   + [チェックリストを設定](./start/setup-prime.md)
   + [ユーザー管理](./start/user-management.md)
   + [メールの配信品質](./start/email-deliverability.md)
@@ -54,7 +54,9 @@ ht-degree: 55%
   + [派生ペルソナ](./audiences/personas.md)
   + [宛先](./audiences/destinations.md)
 + コンテンツ {#content}
-  + [アセット](./content/digital-asset-management.md)
+  + アセット {#assets}
+    + [概要](./content/digital-asset-management.md)
+    + [Content Credentials](./content/content-credentials.md)
   + テンプレート {#templates}
     + [概要](./content/templates.md)
     + [テンプレートの作成](./content/templates-create.md)
