@@ -5,10 +5,18 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
 source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
@@ -26,16 +34,16 @@ ht-degree: 12%
 
 >[!PREREQUISITES]
 >
->Journey Optimizer B2B editionでExperience Eventsとフィールドを使用するには、プロファイル対応のExperience Event スキーマが必要です。 詳しくは、Experience Platform チュートリアルの「[ リアルタイム顧客プロファイルを有効にする](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}」を参照してください。
+>Journey Optimizer B2B editionでExperience Eventsとフィールドを使用するには、プロファイル対応のExperience Event スキーマが必要です。 詳しくは、Experience Platform チュートリアルの「[&#x200B; リアルタイム顧客プロファイルを有効にする](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}」を参照してください。
 
 ジャーニーでAEP Experience Eventsを使用するには、次の2つの手順を実行します。
 
-1. 管理者[は、Journey Optimizer B2B edition設定にAEP Experience Eventsとフィールド ](#add-an-event)を追加します。
+1. 管理者[は、Journey Optimizer B2B edition設定にAEP Experience Eventsとフィールド &#x200B;](#add-an-event)を追加します。
 
 1. ジャーニーでは、マーケターは設定されたイベントを2つの方法のいずれかで使用します。
 
    * _Listen for an event_ ノードを追加し、[は、ジャーニー中のリアルタイムのイベントアクティビティに基づいて、トリガージャーニーの進行状況にExperience Event](../journeys/listen-for-event-nodes.md#experience-events-account-people)を選択します。
-   * _パスを人物_ ノードで分割し、**[!UICONTROL イベント履歴]** フォルダーからイベント ](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)で[ フィルターへのパスを設定します。
+   * _パスを人物_ ノードで分割し、**[!UICONTROL イベント履歴]** フォルダーからイベント [&#128279;](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)で フィルターへのパスを設定します。
 
 >[!BEGINSHADEBOX]
 
@@ -67,7 +75,7 @@ ht-degree: 12%
 
 1. 中間パネルの「**[!UICONTROL XDM設定]**」をクリックし、「**[!UICONTROL イベント]**」タブをクリックして、使用可能なイベントのリストを表示します。
 
-   ![選択したエクスペリエンスイベントにアクセス ](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
+   ![選択したエクスペリエンスイベントにアクセス &#x200B;](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
    リストは、_[!UICONTROL 最終更新]_&#x200B;列に従って表示され、デフォルトでは最も最近更新されたイベントが上部に表示されます。
 
@@ -99,7 +107,7 @@ _[!UICONTROL 検索]_ フィールドにテキストを入力して、イベン�
 
      「_[!UICONTROL 検索]_」フィールドを使用して、表示されたリストを名前でフィルタリングします。 **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、現在の選択を確認します。
 
-     ![ イベントタイプダイアログを選択](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
+     ![&#x200B; イベントタイプダイアログを選択](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
 
    * 「**[!UICONTROL 選択]**」をクリックします。
 
@@ -111,7 +119,7 @@ _[!UICONTROL 検索]_ フィールドにテキストを入力して、イベン�
 
      「_[!UICONTROL 検索]_」フィールドを使用して、表示されたリストを名前でフィルタリングします。 **[!UICONTROL 選択したフィールドのみを表示]** スライダーを使用して、現在の選択を確認します。
 
-     ![ フィールドを選択ダイアログ ](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
+     ![&#x200B; フィールドを選択ダイアログ &#x200B;](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
 
    * 「**[!UICONTROL 選択]**」をクリックします。
 
@@ -125,7 +133,7 @@ _[!UICONTROL 検索]_ フィールドにテキストを入力して、イベン�
 
 1. イベント名をクリックするか、_詳細メニュー_ （**...**）アイコンをクリックして、**[!UICONTROL 編集]**&#x200B;を選択します。
 
-   ![詳細メニューアイコンをクリック ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![詳細メニューアイコンをクリック &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. 「**[!UICONTROL フィールドを編集]**」をクリックして、_[!UICONTROL フィールドを選択]_ ダイアログを開き、さらにフィールドを追加します。
 
@@ -141,7 +149,7 @@ _[!UICONTROL 検索]_ フィールドにテキストを入力して、イベン�
 
 1. 確認ダイアログで、**[!UICONTROL 削除]**&#x200B;をクリックします。
 
-   ![ イベントの削除を確認](./assets/configurations-xdm-events-remove.png){width="500" zoomable="yes"}
+   ![&#x200B; イベントの削除を確認](./assets/configurations-xdm-events-remove.png){width="500" zoomable="yes"}
 
 ## イベントとフィールド {#events-and-fields}
 

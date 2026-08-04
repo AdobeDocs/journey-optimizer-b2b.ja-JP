@@ -4,11 +4,18 @@ description: セグメント化を使用してアカウントオーディエン�
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-03-30T19:50:18.033Z
 TQID: https://experienceleague.adobe.com/JvPzSX83WY7Edws8IMHseCSwqFR4Ro-jy-UO-WvRgDc
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
@@ -41,7 +48,7 @@ Journey Optimizer B2B Edition を使用すると、左側のナビゲーショ�
 
 ## アカウントオーディエンスの作成
 
-アカウントセグメントを作成して、アカウントオーディエンスを定義します。 Journey Optimizer B2B edition アプリケーション内で直接アカウントセグメントを作成するか、[ セグメントビルダーUI](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}を使用できます。 Journey Optimizer B2B editionでアカウントセグメントを作成する手順は、次のとおりです。
+アカウントセグメントを作成して、アカウントオーディエンスを定義します。 Journey Optimizer B2B edition アプリケーション内で直接アカウントセグメントを作成するか、[&#x200B; セグメントビルダーUI](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}を使用できます。 Journey Optimizer B2B editionでアカウントセグメントを作成する手順は、次のとおりです。
 
 1. 左側のナビゲーションで、**[!UICONTROL アカウント]**／**[!UICONTROL オーディエンス]**&#x200B;を選択します。
 
@@ -66,7 +73,7 @@ Journey Optimizer B2B Edition を使用すると、左側のナビゲーショ�
    >
    >アカウントレコードの `Account Name` 属性には、アカウントジャーニーに含める値が含まれている必要があります。 この属性が空（null）の場合、アカウントレコードは除外されます。<br/>
    >空でないアカウント名を持つアカウントのみが含まれるようにするには、**[!UICONTROL アカウント名]**&#x200B;属性を追加し、一致条件として&#x200B;_[!UICONTROL exists]_&#x200B;を選択します。<br/>
-   >![ アカウント名属性が存在します](./assets/audience-segment-builder-account-name-exists.png){width="600"}
+   >![&#x200B; アカウント名属性が存在します](./assets/audience-segment-builder-account-name-exists.png){width="600"}
    ><br/>アカウント名にカスタム属性を使用している場合は、_[!UICONTROL アカウント名]_&#x200B;の代わりにカスタム属性名を使用します。
 
 1. 右上の「**[!UICONTROL 保存して閉じる]**」をクリックします。

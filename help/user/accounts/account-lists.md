@@ -4,11 +4,19 @@ description: Journey Optimizer B2B editionでは、ターゲットジャーニ�
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
@@ -23,9 +31,9 @@ ht-degree: 2%
 Journey Optimizer B2B editionでは、アカウントリストは、マーケターがターゲットジャーニーオーケストレーションに使用できる名前付きアカウントのコレクションです。 アカウントリストでは、業界、所在地、企業規模などの定義された基準にもとづいて、名前付きアカウントをターゲティングできます。 アカウントリストには、次の2種類があります。
 
 * **静的** – 静的なアカウントリストでは、アカウントを追加するとリストが変更されます。 現在のアカウントデータに基づいてリストに入力するフィルターセットを適用するか、アカウントジャーニーを通じてアカウントを追加および削除することで、アカウントを手動で追加できます。
-* **動的** – 動的アカウントリストを使用すると、リストを自動的にキュレートするためのフィルターセットを定義できます。 このフィルターセットを使用して、アカウント情報の変更に応じてアカウントを追加および削除します。 このリスト管理は、Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}での[ オーディエンスセグメンテーションに似ています。
+* **動的** – 動的アカウントリストを使用すると、リストを自動的にキュレートするためのフィルターセットを定義できます。 このフィルターセットを使用して、アカウント情報の変更に応じてアカウントを追加および削除します。 このリスト管理は、Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}での オーディエンスセグメンテーションに似ています。
 
-アカウントリストが&#x200B;_ライブ_ （公開）状態の場合、アカウントジャーニーおよびMarketo Engage プログラム ](./account-lists-journeys.md)で[使用できます。
+アカウントリストが&#x200B;_ライブ_ （公開）状態の場合、アカウントジャーニーおよびMarketo Engage プログラム [&#128279;](./account-lists-journeys.md)で使用できます。
 
 ![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 
@@ -55,7 +63,7 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
 ![アカウントジャーニーリストに表示する列を選択](./assets/account-lists-list-columns.png){width="300"}
 
-アカウントリストの説明を表示するには、名前の横にある&#x200B;_情報_ （![情報アイコン ](../assets/do-not-localize/icon-info.svg)）アイコンをクリックします。
+アカウントリストの説明を表示するには、名前の横にある&#x200B;_情報_ （![情報アイコン &#x200B;](../assets/do-not-localize/icon-info.svg)）アイコンをクリックします。
 
 ## アカウントリストの作成
 
@@ -63,13 +71,13 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
 1. _[!UICONTROL アカウントリスト]_ ページで、ページの右上にある「**[!UICONTROL アカウントリストを作成]**」をクリックします。
 
-   ![ 「アカウントリストを作成」をクリック ](./assets/account-lists-create.png){width="700" zoomable="yes"}
+   ![&#x200B; 「アカウントリストを作成」をクリック &#x200B;](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL アカウントリストを作成]_ ダイアログで、一意の&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
 1. アカウントリストの&#x200B;_[!UICONTROL タイプ]_、**[!UICONTROL 静的]**&#x200B;または&#x200B;**[!UICONTROL 動的]**&#x200B;を選択します。
 
-   ![ アカウントリストの静的または動的を選択](./assets/account-list-create-dialog.png){width="380"}
+   ![&#x200B; アカウントリストの静的または動的を選択](./assets/account-list-create-dialog.png){width="380"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -89,11 +97,11 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
 >[!NOTE]
 >
->アカウントリストを空として開始する場合は、フィルターを選択せずにアカウントリストを公開します。 アカウントジャーニーアクションを通じてメンバーを追加する予定がある場合は、空のリストから開始すると便利です（[ アクションノードを取得 – アカウントに追加](../journeys/action-nodes.md#account-action-constraints)を参照）。
+>アカウントリストを空として開始する場合は、フィルターを選択せずにアカウントリストを公開します。 アカウントジャーニーアクションを通じてメンバーを追加する予定がある場合は、空のリストから開始すると便利です（[&#x200B; アクションノードを取得 – アカウントに追加](../journeys/action-nodes.md#account-action-constraints)を参照）。
 
 1. 「**[!UICONTROL アカウントを追加]**」をクリックします。
 
-   ![ アカウントフィルターを追加してリスト ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}に入力します
+   ![&#x200B; アカウントフィルターを追加してリスト &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}に入力します
 
    この関数には、空のリストページまたは右上にアクセスできます。
 
@@ -105,11 +113,11 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
    * 一致評価の定義を完了します。
    * 含めるフィルターごとに、これらのアクションを繰り返します。
 
-     ![ アカウントリスト ](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}に入力するフィルターを追加
+     ![&#x200B; アカウントリスト &#x200B;](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}に入力するフィルターを追加
 
    * 上部の&#x200B;**[!UICONTROL フィルターロジック]**&#x200B;を適用して、条件を微調整できます。 すべての属性条件または任意の条件を一致させるように選択できます。
 
-     ![ アカウントリストフィルターロジック ](./assets/account-lists-filter-logic.png){width="450"}
+     ![&#x200B; アカウントリストフィルターロジック &#x200B;](./assets/account-lists-filter-logic.png){width="450"}
 
 1. フィルターセットとロジックが完了したら、**[!UICONTROL アカウントの設定]**&#x200B;をクリックします。
 
@@ -123,7 +131,7 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
 1. 「**[!UICONTROL フィルターを選択]**」をクリックします。
 
-   ![ リストの動的な入力に使用するフィルターを選択](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
+   ![&#x200B; リストの動的な入力に使用するフィルターを選択](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL フィルターでアカウントを追加]_ ダイアログで、**[!UICONTROL アカウントフィルター]** メニューを使用して、フィルターセットの作成に使用する属性と特殊フィルターを追加します。
 
@@ -133,15 +141,15 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
    * 一致評価の定義を完了します。
    * 含めるフィルターごとに、これらのアクションを繰り返します。
 
-     ![ アカウントリスト ](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}に入力するフィルターを追加
+     ![&#x200B; アカウントリスト &#x200B;](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}に入力するフィルターを追加
 
    * 上部の&#x200B;**[!UICONTROL フィルターロジック]**&#x200B;を適用することで、条件を微調整できます。 すべての属性条件または任意の条件を一致させるように選択できます。
 
-     ![ アカウントリストフィルターロジック ](./assets/account-lists-filter-logic.png){width="450"}
+     ![&#x200B; アカウントリストフィルターロジック &#x200B;](./assets/account-lists-filter-logic.png){width="450"}
 
 1. フィルターセットとロジックが完了したら、**[!UICONTROL 完了]**&#x200B;をクリックします。
 
-   フィルターセットに満足している場合は、[ リストを公開](#publish-an-account-list)に進み、アカウントジャーニーの最初の[ アカウントオーディエンスノード ](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)で使用できるようにします。
+   フィルターセットに満足している場合は、[&#x200B; リストを公開](#publish-an-account-list)に進み、アカウントジャーニーの最初の[&#x200B; アカウントオーディエンスノード &#x200B;](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)で使用できるようにします。
 
    >[!NOTE]
    >
@@ -167,7 +175,7 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
    ![静的アカウントリストの公開を確認](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-静的アカウントリストのステータスが&#x200B;_[!UICONTROL ライブ]_&#x200B;に変更され、アカウントジャーニー](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)で[使用できるようになります。
+静的アカウントリストのステータスが&#x200B;_[!UICONTROL ライブ]_&#x200B;に変更され、アカウントジャーニー[&#128279;](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)で使用できるようになります。
 
 >[!TAB 動的アカウントリスト ]
 
@@ -181,7 +189,7 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 
    ![動的アカウントリストの公開を確認](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-動的アカウントリストのステータスが&#x200B;_[!UICONTROL ライブ]_&#x200B;に変更され、アカウントジャーニー](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)で[使用できるようになります。
+動的アカウントリストのステータスが&#x200B;_[!UICONTROL ライブ]_&#x200B;に変更され、アカウントジャーニー[&#128279;](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node)で使用できるようになります。
 
 >[!ENDTABS]
 

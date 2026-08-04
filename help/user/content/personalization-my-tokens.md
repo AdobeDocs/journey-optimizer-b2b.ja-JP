@@ -6,12 +6,18 @@ role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
 autotag-review: '2026-05-27T16:17:44.938Z'
 TQID: 'https://experienceleague.adobe.com/Jhx5DqeSOi5oTIyBNXw04RagSUFiNx-OPig-vTdFWfU'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 606
@@ -21,7 +27,7 @@ ht-degree: 2%
 
 # メールパーソナライゼーション用のカスタムトークン
 
-コンテンツパーソナライゼーションでは、コンテンツアーティファクトが生成されたときに入力されるプレースホルダーまたは変数としてトークンを使用します。 標準のパーソナライズトークンは、メール、ランディングページ、フラグメント、テンプレートで利用できます。 また、アカウントジャーニーに固有の値を持つカスタムトークンのセットを定義することもできます。 この一連のカスタムトークンは&#x200B;_マイトークン_&#x200B;と呼ばれ、[ ジャーニーメールのオーサリング ](./email-authoring.md#personalize-content)時に、これらのカスタムトークンのいずれかをパーソナライゼーションに使用できます。
+コンテンツパーソナライゼーションでは、コンテンツアーティファクトが生成されたときに入力されるプレースホルダーまたは変数としてトークンを使用します。 標準のパーソナライズトークンは、メール、ランディングページ、フラグメント、テンプレートで利用できます。 また、アカウントジャーニーに固有の値を持つカスタムトークンのセットを定義することもできます。 この一連のカスタムトークンは&#x200B;_マイトークン_&#x200B;と呼ばれ、[&#x200B; ジャーニーメールのオーサリング &#x200B;](./email-authoring.md#personalize-content)時に、これらのカスタムトークンのいずれかをパーソナライゼーションに使用できます。
 
 アカウントジャーニーに固有の&#x200B;_マイトークン_&#x200B;に加えて、任意の標準（組み込み）トークンをメールのパーソナライゼーションに使用できます。
 
@@ -41,7 +47,7 @@ _アカウントジャーニーのカスタムトークンにアクセスする�
 
    _マイトークン_ ページには、ジャーニーに定義されているすべてのカスタムトークンが一覧表示されます。
 
-   ![自分のトークン ](./assets/my-tokens-list-page.png){width="700" zoomable="yes"}
+   ![自分のトークン &#x200B;](./assets/my-tokens-list-page.png){width="700" zoomable="yes"}
 
 ### トークンの作成
 
@@ -53,7 +59,7 @@ _アカウントジャーニーのカスタムトークンにアクセスする�
 
 1. ダイアログで、トークンの&#x200B;**[!UICONTROL Name]**&#x200B;と&#x200B;**[!UICONTROL Value]**&#x200B;を入力します。
 
-   ![ テキストトークンの名前と値を入力](./assets/my-tokens-create-text-token-dialog.png){width="400"}
+   ![&#x200B; テキストトークンの名前と値を入力](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
    トークン名にはスペースや特殊文字を使用できません。 `EventType`などのキャメルケースを使用して、簡単に識別できるマルチワード名を使用できます。
 
@@ -69,11 +75,11 @@ _アカウントジャーニーのカスタムトークンにアクセスする�
 
 1. _[!UICONTROL マイトークン]_ ページで、_詳細アクション_ アイコン （**...**）をクリックします トークン名の横にある「**[!UICONTROL 編集]**」を選択します。
 
-   ![ トークンその他のアクションメニュー](./assets/my-tokens-more-actions.png){width="430"}
+   ![&#x200B; トークンその他のアクションメニュー](./assets/my-tokens-more-actions.png){width="430"}
 
 1. ダイアログで、ジャーニーの必要に応じて&#x200B;**[!UICONTROL Name]**&#x200B;と&#x200B;**[!UICONTROL Value]**&#x200B;を変更します。
 
-   ![ トークンの名前と値を変更](./assets/my-tokens-edit-text-token-dialog.png){width="400"}
+   ![&#x200B; トークンの名前と値を変更](./assets/my-tokens-edit-text-token-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 編集]**」をクリックします。
 
@@ -89,9 +95,9 @@ _アカウントジャーニーのカスタムトークンにアクセスする�
 
 アカウントジャーニーのメールコンテンツをオーサリングする場合、ビジュアルデザイン空間でパーソナライゼーションツールを使用する場合、_マイトークン_ リストのトークンのいずれかを使用できます。
 
-1. テキストコンポーネントを選択し、ツールバーの「_パーソナライゼーションを追加_」（![ パーソナライゼーションを追加アイコン ](../../assets/do-not-localize/icon-personalization-field.svg)）アイコンをクリックします。
+1. テキストコンポーネントを選択し、ツールバーの「_パーソナライゼーションを追加_」（![&#x200B; パーソナライゼーションを追加アイコン &#x200B;](../../assets/do-not-localize/icon-personalization-field.svg)）アイコンをクリックします。
 
-   ![ パーソナライゼーションを追加アイコンをクリック ](./assets/email-personalize-text.png){width="600"}
+   ![&#x200B; パーソナライゼーションを追加アイコンをクリック &#x200B;](./assets/email-personalize-text.png){width="600"}
 
    この操作を実行すると、_Personalizationを編集_ ダイアログが開きます。 このダイアログには、アカウントジャーニーにカスタムトークンが定義されている場合、_[!UICONTROL Personalization トークン]_ ライブラリに&#x200B;_[!UICONTROL マイトークン]_ フォルダーが含まれます。
 
@@ -99,6 +105,6 @@ _アカウントジャーニーのカスタムトークンにアクセスする�
 
    必要に応じて、任意の静的テキストを追加できます。
 
-   ![ マイトークンを使用してパーソナライズされたテキストを作成](./assets/personalization-edit-dialog-my-tokens.png){width="700" zoomable="yes"}
+   ![&#x200B; マイトークンを使用してパーソナライズされたテキストを作成](./assets/personalization-edit-dialog-my-tokens.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。

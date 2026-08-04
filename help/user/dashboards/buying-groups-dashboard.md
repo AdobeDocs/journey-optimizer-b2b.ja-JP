@@ -4,11 +4,17 @@ description: 購買グループの進捗状況を完了スコア、エンゲー�
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:45:21.856Z
 TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
@@ -49,7 +55,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 詳細な情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
 
-![購買グループ完了スコアのビジュアライゼーション ](./assets/buying-group-completion-score-chart.png){width="500"}
+![購買グループ完了スコアのビジュアライゼーション &#x200B;](./assets/buying-group-completion-score-chart.png){width="500"}
 
 ## 購買グループのエンゲージメントスコア分布
 
@@ -57,7 +63,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 詳細な情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
 
-![購買グループのエンゲージメントスコアのビジュアライゼーション ](./assets/buying-group-engagement-score-chart.png){width="500"}
+![購買グループのエンゲージメントスコアのビジュアライゼーション &#x200B;](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## ソリューションへの興味別の購買グループ
 
@@ -65,18 +71,18 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 詳細な情報を表示するには、右上の「**...**」メニューアイコンをクリックします。 **ドリルスルー**&#x200B;または&#x200B;**詳細を表示**&#x200B;を選択します。
 
-![購買グループのエンゲージメントスコアのビジュアライゼーション ](./assets/buying-group-by-solution-interest-chart.png){width="500"}
+![購買グループのエンゲージメントスコアのビジュアライゼーション &#x200B;](./assets/buying-group-by-solution-interest-chart.png){width="500"}
 
 ## データのフィルタリング
 
-左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、次のいずれかの属性を使用して、表示されたデータをフィルタリングします。
+左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、次のいずれかの属性を使用して、表示されたデータをフィルタリングします。
 
 * 現在のステージ
 * 業界
 * 地域
 * ソリューションに対する関心
 
-![表示されたデータを属性でフィルタリング ](./assets/buying-group-overview-filters.png){width="500"}
+![表示されたデータを属性でフィルタリング &#x200B;](./assets/buying-group-overview-filters.png){width="500"}
 
 データのフィルタリングに使用する各属性の値をいくつでも選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -84,13 +90,13 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 データにエンゲージするには、_詳細_ （**...**）を使用します 各グラフの右上にメニューがあります。
 
-### [!UICONTROL  ドリルスルー]
+### [!UICONTROL &#x200B; ドリルスルー]
 
 個々のグループスコアまたは分布を詳細に分析するには、**[!UICONTROL ドリルスルー]**&#x200B;を選択します。
 
-![ ドリルスルーしてグラフデータにアクセス ](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
+![&#x200B; ドリルスルーしてグラフデータにアクセス &#x200B;](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
 
-ダッシュボードに適用されたグローバルフィルターは引き継がれます。 左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、[ ドリルスルー表示の属性フィルター](#filter-the-data)を変更します。
+ダッシュボードに適用されたグローバルフィルターは引き継がれます。 左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、[&#x200B; ドリルスルー表示の属性フィルター](#filter-the-data)を変更します。
 
 _詳細_ （**...**）をクリックできます 右上のメニューで、**[!UICONTROL 詳細を表示]**&#x200B;から[拡張データを表示](#view-more)を選択します。
 

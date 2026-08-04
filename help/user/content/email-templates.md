@@ -4,11 +4,17 @@ description: ゼロから再利用可能なメールテンプレートの作成�
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:17:40.055Z
 TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
@@ -34,7 +40,7 @@ ht-degree: 4%
 
 ![電子メールテンプレートライブラリにアクセスし、名前と日付で絞り込む](./assets/templates-list-search-filter.png){width="800" zoomable="yes"}
 
-右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![ テーブルをカスタマイズ アイコン ](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。 表示する列を選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
+右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。 表示する列を選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
 表示されたテンプレートのリストから、次の節で説明するアクションを実行できます。
 
@@ -68,13 +74,13 @@ _[!UICONTROL テンプレートをデザイン]_ ページが開き、テンプ�
 
    * **[!UICONTROL テーマを使用]** – 電子メールテンプレートを&#x200B;_テーマモード_&#x200B;で作成するには、このオプションを選択します。 このモードでは、定義済みのブランドテーマを使用して、コンテンツのオーサリングプロセスを効率化し、定義された標準に合わせてデザインを調整できます。
 
-   ![ メールの作成 – テーマの使用](./assets/create-email-use-theme.png){width="450"}
+   ![&#x200B; メールの作成 – テーマの使用](./assets/create-email-use-theme.png){width="450"}
 
    * **[!UICONTROL 手動スタイル設定]** – 電子メールテンプレートを&#x200B;_手動モード_&#x200B;で作成するには、このオプションを選択します。 このモードでは、空白のカンバスに追加するすべての構造およびコンテンツコンポーネントのスタイル設定を手動で設定します。
 
 1. （_テーマモード_&#x200B;のみ）テーマを適用します。
 
-   メールデザインスペースで、右側の&#x200B;_テーマ_ （![ テーマアイコン ](../assets/do-not-localize/icon-design-themes.svg)）アイコンをクリックします。
+   メールデザインスペースで、右側の&#x200B;_テーマ_ （![&#x200B; テーマアイコン &#x200B;](../assets/do-not-localize/icon-design-themes.svg)）アイコンをクリックします。
 
    ![電子メールデザインスペース – テーマアイコンが選択されました](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
 
@@ -84,7 +90,7 @@ _[!UICONTROL テンプレートをデザイン]_ ページが開き、テンプ�
 
    リストの外側をクリックすると、選択したテーマによってスタイルが適用されます。 カラーバリエーションを切り替えることができます。
 
-1. [構造とコンテンツ ](./email-authoring.md#structure-content)をテンプレートに追加します。
+1. [構造とコンテンツ &#x200B;](./email-authoring.md#structure-content)をテンプレートに追加します。
 
    適用されたテーマがある場合、追加されたコンポーネントは、テーマで定義されたスタイルを自動的に継承します。
 
@@ -149,7 +155,7 @@ Journey Optimizer B2B editionの電子メールは、ジャーニー内に埋め
 
 * 右側のメールテンプレートの詳細から、**[!UICONTROL 詳細]**&#x200B;を展開し、**[!UICONTROL 複製]**&#x200B;をクリックします。
 
-  ![詳細をクリックして削除および重複アクションにアクセス ](./assets/template-details-more-menu.png){width="400"}
+  ![詳細をクリックして削除および重複アクションにアクセス &#x200B;](./assets/template-details-more-menu.png){width="400"}
 
 * _[!UICONTROL メールテンプレート]_&#x200B;のリストページで、省略記号（。..）をクリックします。 テンプレートの横にある「**[!UICONTROL 複製]**」を選択します。
 
@@ -164,7 +170,7 @@ Journey Optimizer B2B editionの電子メールは、ジャーニー内に埋め
 * 右側のテンプレートの詳細から、**[!UICONTROL 詳細]**&#x200B;を展開し、**[!UICONTROL 削除]**&#x200B;をクリックします。
 * _[!UICONTROL メールテンプレート]_&#x200B;のリストページで、省略記号（。..）をクリックします。 テンプレートの横にある「**[!UICONTROL 削除]**」を選択します。
 
-  ![ クリック ...をクリックして、アクションの複製と削除にアクセスします](./assets/templates-list-more-menu.png){width="500"}
+  ![&#x200B; クリック ...をクリックして、アクションの複製と削除にアクセスします](./assets/templates-list-more-menu.png){width="500"}
 
 このアクションを実行すると、確認ダイアログが開きます。 「**[!UICONTROL キャンセル]**」をクリックするか、「**[!UICONTROL 削除]**」をクリックして削除を確認することで、プロセスを中止できます。
 
@@ -172,7 +178,7 @@ Journey Optimizer B2B editionの電子メールは、ジャーニー内に埋め
 
 メールテンプレートのリストページで、左側のチェックボックスを選択して、一度に複数のテンプレートを選択します。 複数のテンプレートを選択すると、下部にバナーが表示されます。
 
-![選択したテンプレートの数と削除アイコン ](./assets/templates-multi-select-banner.png){width="600"}がバナーに表示されます
+![選択したテンプレートの数と削除アイコン &#x200B;](./assets/templates-multi-select-banner.png){width="600"}がバナーに表示されます
 
 **[!UICONTROL 削除]** – 一度に最大20個のテンプレートを削除できます。 確認ダイアログでは、アクションを中止したり、テンプレートの削除を確認したりできます。
 
