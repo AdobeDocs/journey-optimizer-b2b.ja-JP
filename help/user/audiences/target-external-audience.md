@@ -4,27 +4,17 @@ description: アカウントジャーニーを通じて [!DNL Adobe Target] に�
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -35,11 +25,11 @@ ht-degree: 2%
 Adobe Targetを通じて外部オーディエンスをアクティブ化するには、次の2つの手順を実行します。
 
 1. ジャーニーから[外部顧客オーディエンスに追加](#add-to-customer-external-audience-from-a-journey)。
-2. [外部オーディエンス &#x200B;](#activate-the-external-audience-to-target-as-a-destination)を[!DNL Target]の宛先としてExperience Platformでアクティブ化します。
+2. [外部オーディエンス ](#activate-the-external-audience-to-target-as-a-destination)を[!DNL Target]の宛先としてExperience Platformでアクティブ化します。
 
 ## ジャーニーから顧客外部オーディエンスに追加
 
-ジャーニーで、[&#x200B; アクションを追加&#x200B;_アクションを実行_ ノード &#x200B;](../journeys/action-nodes.md)して、_[!UICONTROL 外部顧客オーディエンスに追加]_ アクションを実行します。 通常、アクションは、イベントや以前のアクションなど、何らかのトリガーの結果として発生させたいものです。 ジャーニーは、個人プロファイルを持つ適格なアカウントがノードに到達したときにアクションを実行します。
+ジャーニーで、[ アクションを追加&#x200B;_アクションを実行_ ノード ](../journeys/action-nodes.md)して、_[!UICONTROL 外部顧客オーディエンスに追加]_ アクションを実行します。 アクションは通常、イベントや以前のアクションなどのトリガーの結果です。 ジャーニーは、個人プロファイルを持つ適格なアカウントがノードに到達したときにアクションを実行します。
 
 >[!NOTE]
 >
@@ -53,9 +43,9 @@ Adobe Targetを通じて外部オーディエンスをアクティブ化する�
 
 1. 右側のノードプロパティから、外部オーディエンスを設定します。
 
-   * 既に1つ以上の外部オーディエンスが作成されている場合は、**[!UICONTROL 既存の]**&#x200B;を選択し、[使用するオーディエンスを選択します](#choose-an-external-audience)。
+   * 既に1つ以上の外部オーディエンスが作成されている場合は、**[!UICONTROL 既存の]**&#x200B;を選択し、[使用するオーディエンスを選択します](#select-an-external-audience)。
 
-   * ノードに使用するオーディエンス [&#128279;](#create-an-external-audience)を作成する場合は、**[!UICONTROL 新規作成]**&#x200B;を選択します。
+   * ノードに使用するオーディエンス ](#create-an-external-audience)を[作成する場合は、**[!UICONTROL 新規作成]**&#x200B;を選択します。
 
 ### 外部オーディエンスの作成
 
@@ -65,7 +55,7 @@ Adobe Targetを通じて外部オーディエンスをアクティブ化する�
 
 1. ダイアログで、新しいオーディエンスの&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![外部顧客オーディエンスの作成ダイアログ &#x200B;](./assets/create-external-customer-audience-dialog.png){width="400"}
+   ![外部顧客オーディエンスの作成ダイアログ ](./assets/create-external-customer-audience-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -81,13 +71,13 @@ Adobe Targetを通じて外部オーディエンスをアクティブ化する�
 
    「_検索_」フィールドにテキストを入力すると、オーディエンス名に一致する項目の表示をフィルタリングできます。
 
-   ![人物に対するアクションを実行 – 外部の顧客オーディエンスに追加 – オーディエンスを追加ダイアログ &#x200B;](./assets/add-audience-dialog.png){width="700" zoomable="yes"}
+   ![人物に対するアクションを実行 – 外部の顧客オーディエンスに追加 – オーディエンスを追加ダイアログ ](./assets/add-audience-dialog.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL オーディエンスを追加]**」をクリックします。
 
 ## 外部オーディエンスをTargetの宛先としてアクティブ化する
 
-外部オーディエンスをAdobe Targetにアクティベートするには、[!DNL Adobe Target]を[!DNL Real-time Customer Data Platform (RTCDP)]の宛先として設定している必要があります。 この設定について詳しくは、[RTCDPのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/destinations/target/configure-the-target-destination){target="_blank"}を参照してください。
+外部オーディエンスをAdobe Targetにアクティベートするには、[!DNL Adobe Target]を[!DNL Real-time Customer Data Platform (RTCDP)]の宛先として設定している必要があります。 この設定について詳しくは、[RTCDPのドキュメント ](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/destinations/target/configure-the-target-destination){target="_blank"}を参照してください。
 
 >[!IMPORTANT]
 >
@@ -97,7 +87,7 @@ Adobe Targetを通じて外部オーディエンスをアクティブ化する�
 
 >[!BEGINSHADEBOX]
 
-![AEP権限アイコン &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg)この手順では、割り当てられたユーザーロールに対する次の権限が必要です。
+![AEP権限アイコン ](../../assets/do-not-localize/icon_permissions-outline.svg)この手順では、割り当てられたユーザーロールに対する次の権限が必要です。
 
 * **[!UICONTROL Experience Platform]** - _[!UICONTROL 宛先]_ リソース：`Activate Destinations`、`Manage and Activate Dataset Destination`、および`View Destination`
 * **[!DNL Target]** - `Approver`
@@ -124,4 +114,4 @@ Adobe Targetを通じて外部オーディエンスをアクティブ化する�
 
    ![Experience Platform – 宛先 – 宛先をアクティブ化 – レビュー](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-アクティブ化すると、[Adobe Target オーディエンス &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}のオーディエンスが表示され、Adobe Target アクティビティで使用できます。
+アクティブ化すると、[Adobe Target Audiences](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}でオーディエンスを確認し、Adobe Target アクティビティで使用できます。

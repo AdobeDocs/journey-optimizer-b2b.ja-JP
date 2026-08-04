@@ -3,21 +3,14 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について説明します。 新機能や製品の改善点に関するアップデートを常に提供します。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 5351
 ht-degree: 64%
@@ -165,7 +158,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 
 ### 更新されたアーキテクチャ
 
-更新されたアーキテクチャでは、Journey Optimizer B2B editionとMarketo Engageは同じシステムと同じデータストア上にありません。 Journey Optimizer B2B editionは、Adobe Experience Platformからデータを受け取ります。 ただし、システムのプロビジョニングと設定には、引き続き Marketo Engage の使用権限と一部の設定機能に依存します。
+更新されたアーキテクチャでは、Journey Optimizer B2B editionとMarketo Engageは同じシステムとデータストア上にありません。 Journey Optimizer B2B editionは、Adobe Experience Platformからデータを受け取ります。 ただし、システムのプロビジョニングと設定には、引き続き Marketo Engage の使用権限と一部の設定機能に依存します。
 
 >[!NOTE]
 >
@@ -176,11 +169,11 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 * **データを簡単に統合および拡大・縮小**：更新されたプラットフォームは、カスタムオブジェクト、購買グループ、アカウントイベントなどの複雑なデータモデルをサポートします。
 * **複数の Adobe Marketo Engage インスタンスを接続**：複数の Adobe Marketo Engage 環境のデータを 1 か所で管理および統合します。
 * **データを安全に保持**：高度なプライバシーとセキュリティ機能により、顧客情報を保護できます。
-* **今後に向けて作成**：この更新により、組織は継続的な改善とイノベーションに取り組むことができます。
+* **長期的な拡張性を念頭に設計**：このアップデートにより、継続的な改善とイノベーションの準備が整います。
 
 >[!NOTE]
 >
->設定ガイダンスについては、[設定チェックリスト &#x200B;](../setup-ultimate.md)を参照してください。
+>設定ガイダンスについては、[設定チェックリスト ](../setup-ultimate.md)を参照してください。
 
 更新されたアーキテクチャを使用した2025.10 リリースでは、次の新機能と機能強化が利用可能です。
 
@@ -203,7 +196,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | 機能 | メールコンテンツの共同作業 | マーケティング部門は、メールアセットのコンテキストで、Journey Optimizer B2B editionの仲間のユーザーにコメントを付けて共同作業を行うことができます。 チームメンバーにコメントの詳細を記載したメール通知を送信して、タグを付けることができます。 通知は、パルス通知としても利用できます。 [詳細情報](../content/email-collaboration-tools.md) |
 | 機能 | メールデザインのダークモード | メールデザインスペースに、_ダークモード_&#x200B;に切り替える機能が追加されました。 ダークモードでは、メールコンテンツをプレビューし、ダークモードでメールを表示する受信者専用にカスタム設定を定義できます。 [詳細情報](../content/email-dark-mode.md) |
 | 機能強化 | ジャーニー - ロールの人物数別にパスを分割 | アカウントノード別に分割パスを使用すると、1 つ以上の購買グループロールに属する人物数でアカウントをターゲットにできます。 パスでは、役割の深度に基づいて、セールスアラートやその他のエンゲージメントに対する購買グループの準備を評価できます。 [詳細情報](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts) |
-| 機能強化 | ジャーニー - イベントの顧客フィルター | 人物フィルターを使用して、人物イベントをリッスンします。 これらのフィルターには、一致した購買グループの特定の役割をターゲットにする機能が含まれます。 [詳細情報](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+| 機能強化 | ジャーニー - イベントの顧客フィルター | 人物フィルターを使用して、人物イベントをリッスンします。 これらのフィルターには、一致した購買グループの特定の役割をターゲットにする機能が含まれます。 [詳細情報](../journeys/listen-for-event-nodes.md#filters-people-event) |
 
 >[!NOTE]
 >
@@ -252,7 +245,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | ---- | ---- | ----------- |
 | 機能 | Litmus を使用したメールテスト | [Litmus Enterprise アカウント](https://www.litmus.com/email-testing){target="_blank"}を使用して、Journey Optimizer B2B Edition で選定した一般的なメールクライアントのメールのレンダリングをプレビューできるようになりました。 この統合により、すべてのメールのインボックスで、メールコンテンツが適切に表示され、設計どおりに機能します。 [詳細情報](../content/email-test-rendering.md) |
 | 機能強化 | メールの複製 | ジャーニーノードにメールを追加する際に、既存のメールを複製できるようになりました。 複製したメールの設定やコンテンツを変更するか、そのままにしておきます。  [詳細情報](../content/add-email.md#add-an-email-to-your-journey) |
-| 機能強化 | メールのハンドルバートークン形式 | メールコンテンツのパーソナライゼーショントークンで、ハンドルバースクリプトと完全に互換性のある更新済み形式が使用されるようになりました。 この形式では、_キャメルケース_&#x200B;またはアンダースコアを使用し、スペースを排除します。 [詳細情報](../content/email-authoring.md#content-authoring---personalization) |
+| 機能強化 | メールのハンドルバートークン形式 | メールコンテンツのパーソナライゼーショントークンで、ハンドルバースクリプトと完全に互換性のある更新済み形式が使用されるようになりました。 この形式では、_キャメルケース_&#x200B;またはアンダースコアを使用し、スペースを排除します。 [詳細情報](../content/email-authoring.md#personalize-content) |
 | 機能強化 | リストの合計数の表示 | _[!UICONTROL ソリューションに対する関心]_&#x200B;および&#x200B;_[!UICONTROL アカウントジャーニー]_&#x200B;リストページが強化され、検索バーの横に合計数が表示されます。 |
 
 ## 2025.4 リリースノート {#rel-2025-4}
@@ -281,7 +274,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | 機能 | アカウントジャーニーを複製 | アカウントジャーニーで複製アクションが使用できるようになりました。 アカウントジャーニーの詳細を複製するか、フローとパス構造のシンプルなスケルトンのみを複製できます。 <a href="../journeys/journeys-overview.md#duplicate-journey">詳細情報</a> |
 | 機能 | アカウントジャーニーのマイトークン | アカウントジャーニーに固有の値を持つカスタムトークンのセットを定義できるようになりました。 このカスタムトークンのセットは&#x200B;_マイトークン_&#x200B;と呼ばれ、これらのカスタムトークンはすべて、ジャーニーメールのオーサリング時にパーソナライゼーション用に使用されます。 <a href="../content/personalization-my-tokens.md">詳細情報</a> |
 | 機能 | 購買グループのステージを削除 | 購買グループステージモデルは、ドラフト状態または公開済みの状態の場合に削除できます。 公開済み（ライブ）の場合は、ソリューションに対する関心に関連付けられていない場合にのみ削除できます。 <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">詳細情報</a> |
-| 機能強化 | ジャーニーノードの数 | ノードレベルでの公開済みジャーニーメンバーシップの数に対する表示が向上しました。 _ジャーニーマップ_&#x200B;では、ノードに&#x200B;_[!UICONTROL 入力済み合計アカウント数]_&#x200B;が表示されます。 マーケターがアクションノードを選択すると、右側の詳細には、_に対してまだアクションを実行していない_ アカウントも含まれます。 _イベントをリッスン_&#x200B;ノードの詳細には、_[!UICONTROL このステップのアカウント]_&#x200B;が含まれます。 この情報は、ライブジャーニー、完了ジャーニー、中断ジャーニーのアカウントの進行状況を検証するのに役立ちます。 |
+| 機能強化 | ジャーニーノードの数 | ノードレベルでの公開済みジャーニーメンバーシップの数に対する表示が向上しました。 _ジャーニーマップ_&#x200B;では、ノードに&#x200B;_[!UICONTROL 入力済み合計アカウント数]_&#x200B;が表示されます。 マーケターがアクションノードを選択すると、右側の詳細には、]_に対してまだアクションを実行していない_[!UICONTROL  アカウントも含まれます。 _イベントをリッスン_&#x200B;ノードの詳細には、_[!UICONTROL このステップのアカウント]_&#x200B;が含まれます。 この情報は、ライブジャーニー、完了ジャーニー、中断ジャーニーのアカウントの進行状況を検証するのに役立ちます。 |
 
 ## 2025.2 リリースノート {#rel-2025-2}
 

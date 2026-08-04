@@ -5,26 +5,20 @@ feature: Assets, Content
 role: User
 autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad794b50f6c6f3b59e853e99f7983136ee098e18
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: edb796d131c2b058215b73519b845125432d84f8
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: 916
 ht-degree: 0%
 
 ---
 
 # Content Credentials
 
-マーケティング部門は、コンテンツの透明性、AIによる情報開示、アセットの改ざん防止にこれまで以上に懸念しています。 AdobeのContent Authenticity Initiative（CAI）は、[Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) （C2PA）技術標準に準拠したツールを構築しています。 暗号化された改ざんされやすいメタデータである&#x200B;_Content Credentials_&#x200B;は、視聴者がコンテンツの系統を理解し、ブランドアセットの整合性を確保するのに役立ちます。 こうした情報には、次のものが含まれます。
+マーケティング部門は、コンテンツの透明性、AIによる情報開示、アセットの改ざん防止にこれまで以上に懸念しています。 AdobeのContent Authenticity Initiative（CAI）は、[Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) （C2PA）技術標準に準拠したツールを構築しています。 _Content Credentials_&#x200B;は、暗号化された改ざん防止のメタデータのセットで、視聴者がコンテンツの系統を理解し、ブランドアセットの整合性を確保するのに役立ちます。 こうした情報には、次のものが含まれます。
 
 * 発行者または署名者 – アセットを認証または署名するためにデジタル署名を発行したエンティティまたは会社に関する情報。
 * 発行日 – Content Credentialがアセットに適用された日付。
@@ -34,7 +28,7 @@ ht-degree: 0%
 * AI ツールの使用 – 生成AIを使用してアセットを編集または作成した場合、使用するモデルの名前が含まれる場合があります。
 * その他の関連情報 – アセットの履歴に関するより多くのコンテキストを提供するために、追加のデータも含まれる場合があります。
 
-アセット履歴の詳細については、Adobe Content Authenticity [&#x200B; インスペクションツール &#x200B;](https://contentauthenticity.adobe.com/inspect)を使用してください。
+アセット履歴の詳細については、Adobe Content Authenticity [ インスペクションツール ](https://contentauthenticity.adobe.com/inspect)を使用してください。
 
 Content Credentialsは画像ファイルで保持されます。 生成AIで生成または編集された画像が[!DNL Adobe Journey Optimizer B2B Edition]にアップロードされるか、またはから書き出されると、そのContent Credentialsは保持されます。
 
@@ -49,7 +43,7 @@ Content Credentialsは画像ファイルで保持されます。 生成AIで生�
 メールまたはWhatsApp メッセージに画像を含めると、配信された画像のContent Credentialsも保持されます。
 
 * **電子メール** - _電子メールを送信_ ジャーニーアクションを使用する場合、_Assets_ ライブラリから電子メールコンテンツに画像を追加します。 電子メールが配信されると、受信者はメッセージから画像をダウンロードでき、Content Credentialsはそのまま維持されます。
-* **WhatsApp** - Meta ビジネス アカウントのWhatsApp メッセージ テンプレートに画像を追加します。 独自のシステムから直接追加するか、_Assets_ ライブラリから画像ファイルをダウンロードできます。 _WhatsAppを送信_ ジャーニーアクションにテンプレートを使用します。 WhatsApp メッセージが配信されると、受信者はメッセージから画像をダウンロードでき、Content Credentialsはそのまま残ります。
+* **WhatsApp** - Meta Business アカウントのWhatsApp メッセージテンプレートに画像を追加します。 独自のシステムから直接追加するか、_Assets_ ライブラリから画像ファイルをダウンロードできます。 _WhatsAppを送信_ ジャーニーアクションにテンプレートを使用します。 WhatsApp メッセージが配信されると、受信者はメッセージから画像をダウンロードでき、Content Credentialsはそのまま残ります。
 
 >[!ENDSHADEBOX]
 

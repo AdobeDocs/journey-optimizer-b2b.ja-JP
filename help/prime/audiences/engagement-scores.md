@@ -4,21 +4,13 @@ description: Journey Optimizer B2B edition Primeで、重み付けされたア�
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: 1533
 ht-degree: 8%
 
 ---
@@ -30,15 +22,15 @@ ht-degree: 8%
 >title="ユーザーエンゲージメントスコア"
 >abstract="ユーザーエンゲージメントスコアは、最近のアクティビティに基づいて、個々のリードのエンゲージメントのレベルを反映します。"
 
-個人エンゲージメントスコアとは、個々のリードのエンゲージメントレベルを反映した数値です。 スコアは、個人が実行するアクティビティに基づいており、各アクティビティタイプには重み付けされた値が適用されます。 スコアは、インスタンス（テナント）内で正規化されるので、一貫性のある比較が可能になり、実用的なインサイトを可能にします。
+個人エンゲージメントスコアとは、個々のリードのエンゲージメントレベルを反映した数値です。 スコアは、個人が実行するアクティビティに基づいています。各アクティビティタイプには、重み付けされた値が格納されています。 スコアは、インスタンス（テナント）内で正規化されるので、一貫性のある比較が可能になり、実用的なインサイトを可能にします。
 
 スコア計算は毎日実行されます。 過去30日以内にエンゲージメントに重み付けされたアクティビティが、スコアに影響を与えます。 この30日間のローリングウィンドウでは、古いアクティビティの発生回数は期限切れになり、スコアは時間の経過とともに減少する可能性があります（スコア減衰）。 表示されるスコアは丸められます（例えば、スコア 75.89999は76と表示されます）。
 
 エンゲージメントスコアデータは、**[!UICONTROL レポート]**&#x200B;から入手できます。
 
-![人物エンゲージメントスコアレポートデータ &#x200B;](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
+![人物エンゲージメントスコアレポートデータ ](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-人物エンゲージメントスコアは、人物リストおよび人物ジャーニー内の分割パスノードで[&#x200B; フィルター条件](#engagement-score-filter)として使用できる属性です。
+人物エンゲージメントスコアは、人物ジャーニーの人物リストおよび分割パスノードで[ フィルター条件](#engagement-score-filter)として使用できる属性です。
 
 ## エンゲージメントスコアリングに使用されるアクティビティ {#activities}
 
@@ -69,7 +61,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->エンゲージメントスコアアクティビティは、個人のMarketo Engage アクティビティログに記録されます。 このログには、関連付けられているMarketo Engage インスタンスからアクセスできます。 詳しくは、Marketo Engage ドキュメントの「[&#x200B; ユーザーのアクティビティログを探す](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}」を参照してください。
+>エンゲージメントスコアアクティビティは、個人のMarketo Engage アクティビティログに記録されます。 このログには、関連付けられているMarketo Engage インスタンスからアクセスできます。 詳しくは、Marketo Engage ドキュメントの「[ ユーザーのアクティビティログを探す](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}」を参照してください。
 
 ## スコアリングロジック {#scoring-logic}
 
@@ -89,11 +81,11 @@ ht-degree: 8%
 
 1. アクティビティタイプごとの日々のアクティビティを合計し、関連する重みを掛け、ルックバックウィンドウですべての日の結果を合計することで、生のエンゲージメントスコアを計算します。
 
-1. 外れ値の影響を減らすことによって分散を安定させるために、_電力変換_ （平方根）を適用します。
+1. 外れ値の影響を減らして分散を安定させるには、_電力変換_ （平方根）を適用します。
 
    この変換により、歪みが軽減され、データのパターンがより直線的になります。
 
-1. スコアが0 ～ 100の範囲を完全に使用するように、_スケール正規化_&#x200B;変換を適用します。
+1. スコアが0から100までの範囲を完全に使用するように、_スケール正規化_&#x200B;変換を適用します。
 
 ## エンゲージメントスコアでフィルタリング {#engagement-score-filter}
 
@@ -103,9 +95,9 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 
 ### ユーザーリスト {#people-lists}
 
-[静的人物リスト &#x200B;](./people-lists.md#static-list)からメンバーを追加または削除する場合、または[動的な人物リスト &#x200B;](./people-lists.md#dynamic-lists)のメンバーシップルールを定義する場合、人物エンゲージメントスコアでフィルタリングして、属性がスコアリング条件に一致するすべての人物をターゲットにすることができます。
+[静的な人物リスト ](./people-lists.md#static-lists)のメンバーを管理する場合、または[動的な人物リスト ](./people-lists.md#dynamic-lists)のルールを定義する場合、人物エンゲージメントスコアでフィルタリングして、条件に一致する人物をターゲットにすることができます。
 
-![人物リストの人物エンゲージメントスコアのフィルタリング &#x200B;](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
+![人物リストの人物エンゲージメントスコアのフィルタリング ](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
 **静的リスト – メンバーを追加**
 
@@ -133,9 +125,9 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 
 ### 顧客ジャーニー {#person-journeys}
 
-[_分割パス_ ノード &#x200B;](../marketing/split-merge-paths-nodes.md)で個人ジャーニーのセグメント化を設定する場合、個人プロファイルフィルターとして個人エンゲージメントスコアを使用して、ジャーニーパスに入るユーザーを制御できます。
+[_分割パス_ ノード ](../marketing/split-merge-paths-nodes.md)で個人ジャーニーのセグメント化を設定する場合、個人プロファイルフィルターとして個人エンゲージメントスコアを使用して、ジャーニーパスに入るユーザーを制御できます。
 
-![分割パス条件の人物エンゲージメントフィルタリング &#x200B;](./assets/engagement-score-filter-split-path.png){width="700" zoomable="yes"}
+![分割パス条件の人物エンゲージメントフィルタリング ](./assets/engagement-score-filter-split-path.png){width="700" zoomable="yes"}
 
 1. ジャーニーキャンバスの「**[!UICONTROL パスを分割]**」ノードをクリックします。
 
@@ -149,9 +141,9 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 
 ## エンゲージメントスコアの重み付けを設定 {#configure-weighting}
 
-[!DNL Journey Optimizer B2B Prime]では、[AI アシスタント チャット インターフェイス &#x200B;](../agents/chat-interface.md)から直接エンゲージメントスコアの重み付けを設定できます。
+[!DNL Journey Optimizer B2B Prime]では、[AI アシスタント チャット インターフェイス ](../agents/chat-interface.md)から直接エンゲージメントスコアの重み付けを設定できます。
 
-エンゲージメントスコアモデル、重み付けバンド、アクティビティの重みづけの背景については、[&#x200B; カスタムエンゲージメントスコアの重み付けの設定](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)を参照してください。
+エンゲージメントスコアモデル、重み付けバンド、アクティビティの重みづけの背景については、[ カスタムエンゲージメントスコアの重み付けの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)を参照してください。
 
 1. 画面（チャットアイコン）の左側から&#x200B;**[!UICONTROL AI アシスタント]** チャットパネルを開きます。
 
@@ -161,7 +153,7 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 
    `/`を入力すると、使用可能なスラッシュコマンドとスキルのリストがAI アシスタントに表示されます。 エンゲージメント設定コマンドは、エンゲージメントスコアの重み付けページに直接ルーティングします。
 
-   ![AI アシスタントのエンゲージメント設定スキルにアクセス &#x200B;](./assets/engagement-score-weighting-ai-assistant-skill.png){width="700" zoomable="yes"}
+   ![AI アシスタントのエンゲージメント設定スキルにアクセス ](./assets/engagement-score-weighting-ai-assistant-skill.png){width="700" zoomable="yes"}
 
 1. _送信_ （上向き矢印）アイコンをクリックするか、Enter キーを押します。
 
@@ -179,7 +171,7 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 | **最終更新日** | 最新の保存タイムスタンプ |
 | **最終更新者** | 最後に変更を保存したユーザー |
 
-![&#x200B; エンゲージメントスコアの重み付けモデル &#x200B;](./assets/engagement-score-weighting-ai-assistant-config.png){width="700" zoomable="yes"}
+![ エンゲージメントスコアの重み付けモデル ](./assets/engagement-score-weighting-ai-assistant-config.png){width="700" zoomable="yes"}
 
 任意の時点で、アクティブにできるのは&#x200B;**one** モデルのみです。 現在アクティブなモデルは、すべてのエンゲージメントスコア計算に適用されます。
 
@@ -193,7 +185,7 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 * アクティビティリストをフィルタリングする&#x200B;_検索_ フィールド
 * **[!UICONTROL エンゲージメントアクティビティ]**、**[!UICONTROL 重み付け]**、**[!UICONTROL 最終更新日]**、**[!UICONTROL 最終更新日]**&#x200B;列を含む完全なアクティビティテーブル
 
-![&#x200B; エンゲージメントスコア重み付けモデルの詳細](./assets/engagement-score-activity-weighting-model.png){width="700" zoomable="yes"}
+![ エンゲージメントスコア重み付けモデルの詳細](./assets/engagement-score-activity-weighting-model.png){width="700" zoomable="yes"}
 
 アーカイブされたモデルの場合、**[!UICONTROL 削除]**&#x200B;と&#x200B;**[!UICONTROL 重複]**&#x200B;が右上に表示されます。 ドラフトモデルの場合は、**[!UICONTROL Activate]**&#x200B;も表示されます。
 
@@ -205,13 +197,13 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 
 1. アクティビティテーブルで、更新するエンゲージメントアクティビティを見つけます。
 
-1. アクティビティの&#x200B;**[!UICONTROL 重み付け]**&#x200B;下向き矢印をクリックし、適切な重み付けバンド（`Important`、`Trivial`、`Minor`、`Normal`、`Vital`など）を選択します。
+1. アクティビティの&#x200B;**[!UICONTROL 重み付け]**&#x200B;下向き矢印をクリックし、適切な重み付けバンドを選択します（例：`Important`、`Trivial`、`Minor`、`Normal`、および`Vital`）。
 
    変更は自動的に保存されます。明示的な「保存」アクションは必要ありません。
 
 >[!NOTE]
 >
->アクティブまたはアーカイブされたモデルを編集するには、そのモデルを複製して新しいドラフトモデルを作成し、複製したモデルを編集してアクティブ化します。 アクティブなモデルをインプレースで編集することはできません。
+>アクティブなモデルまたはアーカイブされたモデルを編集するには、そのモデルを複製して新しいドラフトモデルを作成し、複製したモデルを編集してアクティブにします。 アクティブなモデルをインプレースで編集することはできません。
 
 ### ドラフトモデルのアクティベート {#activate-weighting-model}
 
