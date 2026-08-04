@@ -226,4 +226,4 @@ _ライブ_、_新規エントリに対してクローズ_、_中断_、_完了_
 
 ## アカウントジャーニーの概要ビデオ {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443208/?captions=jpn&learn=on)
