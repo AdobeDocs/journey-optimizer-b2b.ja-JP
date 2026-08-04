@@ -49,7 +49,7 @@ web エクスペリエンスを作成する前に、次の要件を満たして�
 
 * 製品管理者は、web エクスペリエンスに含めるURL （ページ）を定義するために1つ以上のweb チャネルを設定しています。 詳しくは、[Web チャネル設定](../admin/configure-channels-web.md)を参照してください。
 
-* Web サイトには、訪問者の特定とコンテンツ配信のために[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されています。 Adobe Experience Platform Web SDKのバージョンが2.16以降であることを確認します。
+* Web サイトには、訪問者の特定とコンテンツ配信のために[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されています。 Adobe Experience Platform Web SDKのバージョンが2.16以降であることを確認します。
 
 * ジャーニーでweb エクスペリエンスを作成および管理するために必要な[権限](../admin/user-management.md#b2b-product-permissions)があります。
   * _[!UICONTROL キャンペーン]_ > _[!UICONTROL キャンペーンを管理]_ - web パーソナライゼーションアクションノードを追加または更新するために必要です。
@@ -212,9 +212,9 @@ Web エクスペリエンス配信を有効にするには、次の設定を定�
 
 * Adobe Experience Platformで、_[!UICONTROL Active-On-Edge結合ポリシー]_ オプションが有効になっている結合ポリシーが1つあることを確認します。
 
-  Experience Platformの顧客/プロファイル/結合ポリシーメニューでポリシーを選択します。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Experience Platformの顧客/プロファイル/結合ポリシーメニューでポリシーを選択します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Journey Optimizer B2B editionのインバウンドチャネルでは、この結合ポリシーを使用して、インバウンド web エクスペリエンスをエッジ上で正しくアクティブ化および公開します。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
+  Journey Optimizer B2B editionのインバウンドチャネルでは、この結合ポリシーを使用して、インバウンド web エクスペリエンスをエッジ上で正しくアクティブ化および公開します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### トラブルシューティング
 
