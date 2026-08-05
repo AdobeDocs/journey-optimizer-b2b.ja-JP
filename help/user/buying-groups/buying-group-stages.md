@@ -17,9 +17,9 @@ topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2326
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 購買グループのステージは、商談を顧客にコンバージョンする過程における購買グループの進捗状況を追跡するように設計されています。 この機能を使用して、購買グループの進捗状況を追跡し、購買グループメンバーに対する次善のアクションを特定します。
 
-単一のステージングモデル内のステージを定義し、複数のステージとそれらの間の移行フローを定義します。 ライフサイクルにエントリするために、1つ以上のステージが指定されます。 このモデルでは非線形の進行も可能で、ステージ Aからステージ B、C、Dなど、あるステージから別のステージへの移行を指定できます。購入や署名済みの契約など、1つのステージを成功ステージとして指定する必要があります。 別の段階を失敗段階として指定することは、別の段階（別のベンダーから競合製品を購入した場合など）はオプションです。 [&#x200B; インテリジェントダッシュボード &#x200B;](../dashboards/intelligent-dashboard.md)を通じてこれらのステージを監視し、購買グループがセールスオポチュニティを完了するか、オポチュニティを顧客にコンバージョンする方法を示します。
+単一のステージングモデル内のステージを定義し、複数のステージとそれらの間の移行フローを定義します。 ライフサイクルにエントリするために、1つ以上のステージが指定されます。 このモデルでは、ステージ Aからステージ B、C、Dまで、非線形の進行が可能です。1つのステージを、購入や署名済みの契約など、成功ステージとして指定する必要があります。 別の段階（拒否された契約や別のベンダーからの競合ソリューションの購入など）を失敗ステージとして指定するには、オプションです。 [&#x200B; インテリジェントダッシュボード &#x200B;](../dashboards/intelligent-dashboard.md)を通じてこれらのステージを監視し、購買グループがセールスオポチュニティを完了するか、オポチュニティを顧客にコンバージョンする方法を示します。
 
 ![購買グループのステージの例](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 * トランジションフローの定義
 * 入口と目的地の段階の指定
 
-1つのモデルのみがサポートされているため、Journey Optimizer B2B editionで作成して公開する前に、マーケティング部門と営業部門の間で連携して、自社に最適なモデルを計画することが重要です。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+1つのモデルのみがサポートされています。最適なモデルを計画するには、Journey Optimizer B2B editionでモデルを作成して公開する前に、マーケティング部門および営業部門と協力してください。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 購買グループのステージモデルを作成すると、自動的に&#x200B;_ドラフト_ ステータスになり、削除または名前の変更はできません。 ステージを定義し、ステージ間の移行フローを設定すると、このステータスのままになります。 モデルが公開済み（_ライブ_）状態の場合、変更できません。
 
@@ -118,11 +118,11 @@ ht-degree: 2%
 
 1. 配信先ではないステージごとに、フローの次に来る1つ以上のステージ（トランジション）を定義します。
 
-   宛先でないステージはすべて、少なくとも1つの&#x200B;**[!UICONTROL 許可された]**&#x200B;へのトランジット ステージを選択している必要があります。 それ以外の場合、モデルロジックは無効であり、アカウントはその段階で&#x200B;_スタック_&#x200B;になり、成功または失敗に進む方法はありません。
+   宛先でないステージはすべて、少なくとも1つの&#x200B;**[!UICONTROL 許可された]**&#x200B;へのトランジット ステージを選択している必要があります。 そうでなければ、モデルロジックは無効であり、アカウントはその段階にとどまり、成功や失敗に至る方法はありません。
 
    ![宛先以外のステージ間の移行を設定](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
-   オプションで、失敗ステージからの移行を指定できます。 例えば、_応答なし_&#x200B;という名前のステージを失敗ステージとして指定できます。 ただし、休眠中のアカウントが再アクティブ化されたケースを特定する可能性のあるトランジションとして、_Resurgence_&#x200B;という名前のステージも指定します。
+   オプションで、失敗ステージからの移行を指定できます。 例えば、_応答なし_&#x200B;という名前のステージを失敗ステージとして指定します。 ただし、休眠中のアカウントが再アクティブ化されたケースを特定する可能性のあるトランジションとして、_Resurgence_&#x200B;という名前のステージも指定します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -227,7 +227,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 「_[!UICONTROL ソリューションへの関心]_」タブを選択します。
 
-1. 次のいずれかの方法を使用してソリューションの関心を開き、編集するソリューションの関心のプロパティを開きます。
+1. 次のいずれかの方法を使用して、編集するソリューションの関心のプロパティを開きます。
 
    * ソリューションの関心の名前をクリックします。
    * 省略記号（**...**）をクリックします その横にある「**[!UICONTROL 編集]**」を選択します。
@@ -246,7 +246,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### パスを分割
 
-[&#x200B; スプリットパスノード &#x200B;](../journeys/journey-nodes.md#split-paths)を使用すると、購買グループの段階に応じて、アカウントレベルまたは人物レベルでフィルタリングできます。 例えば、購買グループメンバーによってパスを分割する際に、パス条件として購買グループステージを追加します。
+[&#x200B; スプリットパスノード &#x200B;](../journeys/split-merge-paths-nodes.md#split-paths)を使用すると、購買グループの段階に応じて、アカウントレベルまたは人物レベルでフィルタリングできます。 例えば、購買グループメンバーによってパスを分割する際に、パス条件として購買グループステージを追加します。
 
 >[!BEGINTABS]
 
@@ -264,7 +264,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    ![&#x200B; パスを分割ノード – 条件を追加](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. 条件エディターで、購買グループフィルターを追加して、分割パスを定義します。
+1. 分割パスを定義するには、条件エディターで購買グループフィルターを追加します。
 
    * 左側では、下部の&#x200B;**[!UICONTROL 特殊フィルター]**&#x200B;を展開し、**[!UICONTROL 購入グループ]**&#x200B;属性をフィルターワークスペースにドラッグします。
 
@@ -298,7 +298,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
    ![&#x200B; パスを分割ノード – 条件を追加](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. 条件エディターで、購買グループフィルターを追加して、分割パスを定義します。
+1. 分割パスを定義するには、条件エディターで購買グループフィルターを追加します。
 
    * 左側では、下部の&#x200B;**[!UICONTROL 特殊フィルター]**&#x200B;を展開し、**[!UICONTROL 購買グループのメンバー]**&#x200B;属性をフィルターワークスペースにドラッグします。
 
@@ -320,7 +320,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ### 購買グループステージのアカウントアクションの更新
 
-[&#x200B; アカウントアクションノード &#x200B;](../journeys/journey-nodes.md#add-an-account-action)を使用して、購買グループのステージを更新できます。 このノードの定義には、ソリューションへの関心の選択と購買グループの新しいステージの定義が含まれます。
+[&#x200B; アカウントアクションノード &#x200B;](../journeys/action-nodes.md#add-an-account-based-action)を使用して、購買グループのステージを更新できます。 このノードの定義には、ソリューションへの関心の選択と購買グループの新しいステージの定義が含まれます。
 
 >[!NOTE]
 >
@@ -334,7 +334,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 1. 右側のノードプロパティで、アクションに「**[!UICONTROL アカウント]**」を選択します。
 
-1. 購買グループステージを更新するアクションを定義します。
+1. 購買グループのステージを更新するには、アクションを定義します。
 
    * **[!UICONTROL アカウントに対するアクション]**&#x200B;で、**[!UICONTROL 購買グループステージの更新]**&#x200B;を選択します。
 

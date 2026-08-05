@@ -18,10 +18,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 577
-ht-degree: 7%
+source-wordcount: 574
+ht-degree: 8%
 
 ---
 
@@ -36,11 +36,11 @@ _コンテンツをシミュレート_&#x200B;機能を使用して、メール�
 
 >[!IMPORTANT]
 >
->エラーがある場合は、メールをプレビューできません。 _アラート_&#x200B;を確認して、プレビュー機能をブロックしているエラーがないことを確認します。 警告によってプレビューがブロックされることはありませんが、メール配信をトリガーするジャーニーを公開する前に、警告に対応する必要があります。
+>エラーがある場合は、メールをプレビューできません。 プレビュー機能をブロックするエラーがないことを確認するには、_アラート_&#x200B;を確認してください。 警告はプレビューをブロックしませんが、メール配信をトリガーするジャーニーを公開する前に、プレビューをブロックします。
 
 ## メールのプレビューを表示
 
-レンダリングプレビューには、[電子メールデザインスペース &#x200B;](./email-authoring.md)から、または[電子メールリスト &#x200B;](./emails-list.md#edit-emails)から電子メールを開いたときに&#x200B;_[!UICONTROL 概要]_&#x200B;からアクセスできます。
+レンダリングプレビューには、[電子メールデザインスペース &#x200B;](./email-authoring.md)から、または[電子メールリスト &#x200B;](./emails-list.md#open-and-edit-emails)から電子メールを開いたときに&#x200B;_[!UICONTROL 概要]_&#x200B;からアクセスできます。
 
 1. 上部の「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
 

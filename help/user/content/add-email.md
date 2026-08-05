@@ -17,7 +17,7 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1399
 ht-degree: 0%
@@ -54,17 +54,17 @@ Adobe Journey Optimizer B2B editionを使用して、アカウントジャーニ
 
      空のキャンバスまたは電子メールテンプレートを使用して電子メールを作成する場合は、_[!UICONTROL 新しい電子メール]_ オプションを使用します。
 
-      1. ダイアログで、**[!UICONTROL 新しい電子メール]**&#x200B;を選択します。
+     1. ダイアログで、**[!UICONTROL 新しい電子メール]**&#x200B;を選択します。
 
-      1. 電子メール用に一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 件名]**&#x200B;を入力します。
+     1. 電子メール用に一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 件名]**&#x200B;を入力します。
 
-         ![新しい電子メールダイアログの作成 – 新しい電子メール &#x200B;](assets/create-new-email.png){width="400"}
+        ![新しい電子メールダイアログの作成 – 新しい電子メール &#x200B;](assets/create-new-email.png){width="400"}
 
-      1. 「**[!UICONTROL 作成]**」をクリックします。
+     1. 「**[!UICONTROL 作成]**」をクリックします。
 
-         メールコンテンツページの&#x200B;_[!UICONTROL 電子メールプロパティ]_ セクションでは、_[!UICONTROL 電子メールから]_&#x200B;および&#x200B;_[!UICONTROL 住所への返信]_ フィールドが既に設定されています。 _[!UICONTROL 差出人名]_&#x200B;および&#x200B;_[!UICONTROL 説明]_ （オプション）フィールドに値を入力できます。
+        メールコンテンツページの&#x200B;_[!UICONTROL 電子メールプロパティ]_ セクションでは、_[!UICONTROL 電子メールから]_&#x200B;および&#x200B;_[!UICONTROL 住所への返信]_ フィールドが既に設定されています。 _[!UICONTROL 差出人名]_&#x200B;および&#x200B;_[!UICONTROL 説明]_ （オプション）フィールドに値を入力できます。
 
-      1. 「**[!UICONTROL メールを編集]**」をクリックして、メール [設定](#define-the-email-settings)を定義し、[&#x200B; コンテンツ &#x200B;](./email-authoring.md)をデザインします。
+     1. 「**[!UICONTROL メールを編集]**」をクリックして、メール [設定](#define-the-email-settings)を定義し、[&#x200B; コンテンツ &#x200B;](./email-authoring.md)をデザインします。
 
      +++
 
@@ -72,25 +72,25 @@ Adobe Journey Optimizer B2B editionを使用して、アカウントジャーニ
 
      現在のジャーニーまたは別のジャーニーの既存のメールを使用してメールを作成する場合は、_[!UICONTROL 既存のメールを複製]_ オプションを使用します。 ジャーニーノードの目的に応じて、重複したメールに変更を加えることができます。
 
-      1. _[!UICONTROL 新しい電子メールを作成]_ ダイアログで、**[!UICONTROL 既存の電子メールを複製]**&#x200B;を選択します。
+     1. _[!UICONTROL 新しい電子メールを作成]_ ダイアログで、**[!UICONTROL 既存の電子メールを複製]**&#x200B;を選択します。
 
-      1. **[!UICONTROL 既存の電子メールを複製]**&#x200B;するには、_選択_ アイコン （![選択アイコン &#x200B;](../assets/do-not-localize/icon-email-select.svg)）をクリックし、複製してジャーニーノードに使用する電子メールを選択します。
+     1. **[!UICONTROL 既存の電子メールを複製]**&#x200B;するには、_選択_ アイコン （![選択アイコン &#x200B;](../assets/do-not-localize/icon-email-select.svg)）をクリックし、複製してジャーニーノードに使用する電子メールを選択します。
 
-         検索フィールドにメール名と一致するテキスト文字列を入力することで、メールのリストをフィルタリングできます。
+        検索フィールドにメール名と一致するテキスト文字列を入力することで、メールのリストをフィルタリングできます。
 
-         ![&#x200B; メールを選択](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+        ![&#x200B; メールを選択](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-         複製する電子メールのチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
+        複製する電子メールのチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-      1. 電子メール用に一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 件名]**&#x200B;を入力します。
+     1. 電子メール用に一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 件名]**&#x200B;を入力します。
 
-         ![新しい電子メールダイアログを作成 – 既存の電子メールを複製](assets/create-new-email-duplicate.png){width="400"}
+        ![新しい電子メールダイアログを作成 – 既存の電子メールを複製](assets/create-new-email-duplicate.png){width="400"}
 
-      1. 「**[!UICONTROL 作成]**」をクリックします。
+     1. 「**[!UICONTROL 作成]**」をクリックします。
 
-         メールコンテンツページの&#x200B;_[!UICONTROL 電子メールプロパティ]_ セクションでは、_[!UICONTROL 電子メールから]_&#x200B;および&#x200B;_[!UICONTROL 住所への返信]_ フィールドが既に設定されています。 _[!UICONTROL 差出人名]_&#x200B;および&#x200B;_[!UICONTROL 説明]_ （オプション）フィールドに値を入力できます。
+        メールコンテンツページの&#x200B;_[!UICONTROL 電子メールプロパティ]_ セクションでは、_[!UICONTROL 電子メールから]_&#x200B;および&#x200B;_[!UICONTROL 住所への返信]_ フィールドが既に設定されています。 _[!UICONTROL 差出人名]_&#x200B;および&#x200B;_[!UICONTROL 説明]_ （オプション）フィールドに値を入力できます。
 
-      1. 必要に応じて、**[!UICONTROL 電子メールを編集]**&#x200B;をクリックして、電子メール [設定](#define-the-email-settings)と[&#x200B; コンテンツ &#x200B;](./email-authoring.md)を変更します。
+     1. 必要に応じて、**[!UICONTROL 電子メールを編集]**&#x200B;をクリックして、電子メール [設定](#define-the-email-settings)と[&#x200B; コンテンツ &#x200B;](./email-authoring.md)を変更します。
 
      +++
 
@@ -118,7 +118,7 @@ Adobe Journey Optimizer B2B editionを使用して、アカウントジャーニ
 | [!UICONTROL 専用IP] | 複数の専用IP アドレスが定義されている場合は、メールの送信に使用する専用IP アドレスを選択します。 プログラムに特定の専用IPを使用すると、配信品質をより詳細に追跡および監視し、配信指標の変更に迅速に対応できます。 接続されたMarketo Engage インスタンス用の専用IPの追加について詳しくは、[Marketo Engage ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}を参照してください。 |
 | [!UICONTROL 運用電子メール &#x200B;] | 電子メールを運用中に指定する場合は、チェックボックスをオンにします。 運用メールは、オプトアウト/登録解除リスト、およびコミュニケーション制限から除外されます。 受信者が電子メールメッセージを迷惑メール（SPAM）と見なせない場合にのみ、このオプションを選択します。 |
 | [!UICONTROL Web ページとしてビューを含める] | チェックボックスを選択して、メールメッセージのコンテンツから生成されるweb ページへのリンクを含めます。 メールメッセージの機能は、web ページよりも限定的であるため、JavaScript、拡張CSS、フォームで役立ちます。 リンクの生成に使用するテキストは、[電子メールチャネル配信設定](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL web ページとして表示HTML]、および[!UICONTROL web ページとして表示]）で設定されています。 |
-| [!UICONTROL 開封トラッキングを無効にする] | 電子メールの開封状況を追跡しない場合は、チェックボックスをオンにします。 この機能を無効にすると、電子メールの開封数は、一意のユーザーが電子メールを開いたときにのみ増加します。 メール本文コンテンツをデザインする際に、[&#x200B; メールコンテンツリンクトラッキングを管理](./email-authoring.md#content-authoring---link-tracking)できます。 |
+| [!UICONTROL 開封トラッキングを無効にする] | 電子メールの開封状況を追跡しない場合は、チェックボックスをオンにします。 この機能を無効にすると、電子メールの開封数は、一意のユーザーが電子メールを開いたときにのみ増加します。 メール本文コンテンツをデザインする際に、[&#x200B; メールコンテンツリンクトラッキングを管理](./email-authoring.md#edit-linked-url-tracking)できます。 |
 | [!UICONTROL &#x200B; プリヘッダー] | プリヘッダーを含めるには、このチェックボックスをオンにします。 プリヘッダーは、一部のメールクライアントで件名の後に表示される短い要約テキストです。 通常は、メールの短い要約を提供し、通常は1文です。 フィールド <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->に概要テキストを入力します。 |
 | [!UICONTROL CC アドレスとして使用されるフィールド &#x200B;] | 使用可能な場合は、`Email`型を使用してMarketo Engageで設定されているリードまたは会社のフィールドを25個まで選択します。 |
 
@@ -132,22 +132,22 @@ Adobe Journey Optimizer B2B editionを使用して、アカウントジャーニ
 
 * 推奨事項とベストプラクティスに関する&#x200B;**_警告_**&#x200B;は、次のとおりです。
 
-   * `The opt-out link is not present in the email body`：購読解除リンクをメール本文に追加することはベストプラクティスです。
+  * `The opt-out link is not present in the email body`：購読解除リンクをメール本文に追加することはベストプラクティスです。
 
-     >[!NOTE]
-     >
-     >マーケティングスタイルのメールメッセージには、オプトアウトリンクを含める必要がありますが、これはトランザクションメッセージには必要ありません。
+    >[!NOTE]
+    >
+    >マーケティングスタイルのメールメッセージには、オプトアウトリンクを含める必要がありますが、これはトランザクションメッセージには必要ありません。
 
-   * `Text version of HTML is empty`: HTML コンテンツを表示できない場合に使用するメール本文のテキストバージョンを定義します。
+  * `Text version of HTML is empty`: HTML コンテンツを表示できない場合に使用するメール本文のテキストバージョンを定義します。
 
-   * `Empty link is present in email body`：電子メール内のすべてのリンクが正しいことを確認してください。
+  * `Empty link is present in email body`：電子メール内のすべてのリンクが正しいことを確認してください。
 
-   * `Email size has exceeded the limit of 100KB`：最適な配信を行うには、電子メールのサイズが100 KBを超えないようにしてください。
+  * `Email size has exceeded the limit of 100KB`：最適な配信を行うには、電子メールのサイズが100 KBを超えないようにしてください。
 
 * 解決されない限り、ジャーニー/キャンペーンのテストまたはアクティブ化を妨げる&#x200B;**_エラー_**&#x200B;が発生します。例えば、次のようになります。
 
-   * `From name is empty`：電子メール _送信者_ フィールド （必須）が定義されていません。
+  * `From name is empty`：電子メール _送信者_ フィールド （必須）が定義されていません。
 
-   * `The subject line is missing`：電子メールの件名（必須）が定義されていません。
+  * `The subject line is missing`：電子メールの件名（必須）が定義されていません。
 
-   * `The email version of the message is empty`：電子メール コンテンツが定義されていません。
+  * `The email version of the message is empty`：電子メール コンテンツが定義されていません。

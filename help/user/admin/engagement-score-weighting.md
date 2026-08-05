@@ -16,9 +16,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1298
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 中間パネルの&#x200B;**[!UICONTROL エンゲージメントスコアの重み付け]**&#x200B;をクリックして、スコアリングモデルのリストを表示します。
 
-   このページから、[&#x200B; エンゲージメントスコアモデルを作成（複製） &#x200B;](#create-an-engagement-score-model)、[&#x200B; アクティブ化](#activate-a-score-model)、[編集](#change-the-engagement-weighting-settings)できます。
+   このページから、[&#x200B; エンゲージメントスコアモデルを作成（複製） &#x200B;](#create-a-custom-engagement-scoring-model)、[&#x200B; アクティブ化](#activate-a-score-model)、[編集](#change-the-engagement-weighting-settings)できます。
 
    ![定義済みのエンゲージメントスコアモデルにアクセス &#x200B;](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
@@ -93,7 +93,7 @@ _アクティビティの重み付けモデル 1_&#x200B;という名前の初�
 
 ### エンゲージメントの重み付けの設定の変更
 
-重み付け設定は、モデル内の各アクティビティに割り当てることができるバンドを定義します。 ブランドは、エンゲージメントを評価するための組織の戦略を反映するように変更できます。 例えば、通常のアクティビティに高い値を割り当てる場合、_標準_&#x200B;の重み付けバンドを65に調整できます。 または、_標準_&#x200B;から&#x200B;_重要_&#x200B;までのアクティビティをキャプチャするように設計された重み付けバンドを追加できます。 この場合、バンドを追加して&#x200B;_Significant_&#x200B;としてラベル付けし、ウェイト バンドの値を75に割り当てることができます。
+重み付け設定は、モデル内の各アクティビティに割り当てることができるバンドを定義します。 エンゲージメントを評価する組織の戦略を反映させるために、バンドを変更します。 例えば、通常のアクティビティに高い値を割り当てる場合は、_標準_&#x200B;の重み付けバンドを65の値に調整します。 または、_標準_&#x200B;から&#x200B;_重要_&#x200B;までのアクティビティをキャプチャするように設計された重み付けバンドを追加できます。 この場合、バンドを追加し、_Significant_&#x200B;としてラベル付けし、ウェイト バンドの値を75に割り当てます。
 
 1. スコアモデルの詳細ページで、上部の「**[!UICONTROL エンゲージメントの重み設定]**」をクリックします。
 
@@ -161,7 +161,7 @@ Experience Platform イベントのデフォルトモデルには、Experience P
 
 ドラフトスコアモデルをアクティブ化すると、現在アクティブなモデルが置き換えられます。 現在アクティブなモデルは自動的にアーカイブされます。
 
-1. ドラフトスコアモデルを開いて、詳細ページを表示します。
+1. 詳細ページを表示するには、ドラフトスコアモデルを開きます。
 
 1. 「**[!UICONTROL アクティベート]**」をクリックします。
 

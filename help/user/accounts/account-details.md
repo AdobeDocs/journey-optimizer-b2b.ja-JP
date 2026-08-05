@@ -15,16 +15,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 640
 ht-degree: 7%
 
 ---
 
 # アカウントの詳細
 
-Journey Optimizer B2B editionの任意の場所からアカウント名をクリックすると、_アカウントの詳細_ ページが表示されます。 このページでは、生成AIの概要など、アカウントに関する有用な情報を提供します。 アカウントに関連付けられた連絡先に対して実行できる[&#x200B; アクション &#x200B;](#account-actions)もあります。
+Journey Optimizer B2B editionの任意の場所からアカウント名をクリックすると、_アカウントの詳細_ ページが表示されます。 このページでは、生成AIの概要など、アカウントに関する情報を提供します。 アカウントに関連付けられた連絡先に対して実行できる[&#x200B; アクション &#x200B;](#send-email)もあります。
 
 ![&#x200B; アカウントの詳細にアクセス &#x200B;](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Journey Optimizer B2B editionでは、インテント検出モデルは、アカ
 
 ![&#x200B; アカウント連絡先のカバー範囲](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-「_[!UICONTROL 連絡先のカバー範囲]_」セクションには、ソリューションへの関心に関連付けられた特定の役割を持つアカウントの連絡先の数が表示されます。 役割とソリューションへの関心の割り当ては、購買グループの役割テンプレートに基づいています。 セルをクリックすると、次の詳細が表示されます。
+「_[!UICONTROL 連絡先のカバー範囲]_」セクションには、ソリューションの関心に関連付けられた特定の役割を持つアカウントの連絡先の数が表示されます。 役割とソリューションへの関心の割り当ては、購買グループの役割テンプレートに基づいています。 セルをクリックすると、次の詳細が表示されます。
 
 * 説明、次の形式：_x人がz ソリューションの関心に対してyの役割を持っています_
 * 列
@@ -91,7 +91,7 @@ Journey Optimizer B2B editionでは、インテント検出モデルは、アカ
 * アカウント
 * ソリューションに対する関心
 
-連絡先名の横にある&#x200B;_情報_ （![情報アイコン &#x200B;](../assets/do-not-localize/icon-info.svg)）をクリックすると、次の詳細を含むテーブルが表示されます。
+連絡先名の横にある&#x200B;_情報_ （![情報アイコン &#x200B;](../assets/do-not-localize/icon-info.svg)）アイコンをクリックすると、次の詳細を含むテーブルが表示されます。
 
 * 購買グループ （名前をクリックして[購買グループの詳細](../buying-groups/buying-group-details.md)を開きます）
 * 役割

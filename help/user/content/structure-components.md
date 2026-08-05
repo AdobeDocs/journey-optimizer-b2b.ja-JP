@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: 1625
 ht-degree: 7%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 7%
 >title="構造コンポーネントについて"
 >abstract="構造コンポーネントは、テンプレートの構造のデザイン作成に使用できるレイアウト要素です。"
 
-ビジュアルデザイン空間で&#x200B;_構造コンポーネント_&#x200B;を使用して、コンテンツの構造を定義します。 シンプルなドラッグ&amp;ドロップ操作で構造要素を追加、移動することで、コンテンツレイアウトの形状をすばやく定義できます。 それぞれの構造コンポーネントは水平方向のスペースにまたがり、それらを積み重ねて垂直方向にレイアウトを構築できます。 各コンポーネントを列に分けて、必要な各コンテンツブロックを作成します。
+ビジュアルデザイン空間で&#x200B;_構造コンポーネント_&#x200B;を使用して、コンテンツの構造を定義します。 シンプルなドラッグ&amp;ドロップ操作で構造要素を追加および移動することで、コンテンツレイアウトの構造をすばやく定義できます。 それぞれの構造コンポーネントは水平方向のスペースにまたがり、それらを積み重ねて垂直方向にレイアウトを構築できます。 必要な各コンテンツブロックを作成するには、各コンポーネントを列に分割します。
 
 ## 構造ライブラリ
 
@@ -60,9 +60,9 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 | ![1:3列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3列左] | 1:3の比率を使用してスペースの幅を埋める2列のコンテナ。 第1の（左）列は幅の4分の1を占め、第2の（右）列は残りの3分の4を占める。 |
 | ![2:1列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1列右] | 2:1の比率を使用してスペースの幅を埋める2列のコンテナ。 最初の（左）列は幅の3分の2を占め、2番目の（右）列は残りの3分の1を占めます。 |
 | ![2:2列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2列] | 2:2の比率を使用してスペースの幅を埋める2列のコンテナ。 左右の列の幅は同じです。 |
-| ![3:1列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1列右] | スペースの幅を埋めるために3:1の比率を使用する2列のコンテナ。 最初の（左）列は幅の4分の3 （75%）を占め、2番目の（右）列は残りの4分の1 （25%）を占めます。 |
-| ![3:3列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3列] | 3:3の比率を使用してスペースの幅を埋める3列のコンテナ。 3つの列はすべて幅が同じです。 |
-| ![4:4列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4列] | 4:4の比率を使用してスペースの幅を埋める4列のコンテナ。 4つの列はすべて幅が同じです。 |
+| ![3:1列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1列右] | 3:1の比率を使用してスペースの幅を埋める2列のコンテナ。 最初の（左）列は幅の4分の3 （75%）を占め、2番目の（右）列は残りの4分の1 （25%）を占めます。 |
+| ![3:3列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3列] | 3:3の比率を使用してスペースの幅を埋める3列コンテナ。 3つの列はすべて幅が同じです。 |
+| ![4:4列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4列] | スペースの幅を埋めるために4:4の比率を使用する4列のコンテナ。 4つの列はすべて幅が同じです。 |
 | ![n:n列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n列] | 定義した列に従ってスペースを埋める、カスタマイズ可能な列構造。 列数（2から10の間）を設定し、各列の幅を個別に設定します。 [詳細情報](#change-nn-columns) |
 
 ## 構造コンポーネントを追加
@@ -127,9 +127,9 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
 ![背景カラーピッカー](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL 背景画像]
+#### [!UICONTROL 背景画像] {#background-image}
 
-切り替えセレクターを移動して、背景画像の設定を有効にします。
+背景画像の設定を有効にするには、切り替えセレクターを移動します。
 
 ![背景画像設定](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -159,7 +159,7 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
 ### その他のスタイル
 
-その他の構造コンポーネントスタイルを適用して、メールメッセージまたはランディングページでの表示を調整できます。
+メールメッセージまたはランディングページでの表示を調整するには、他の構造コンポーネントスタイルを適用できます。
 
 +++境界
 
@@ -209,7 +209,7 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
 ### 列スタイル
 
-カンバスで列を選択した状態で、その列に適用するスタイルを設定できます。
+その列に適用するスタイルを設定するには、カンバスで列を選択します。
 
 +++背景
 
@@ -217,7 +217,7 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
   ![背景カラーピッカー](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-* **[!UICONTROL 背景画像]** - トグルセレクターを移動して、背景画像設定を有効にします。
+* **[!UICONTROL 背景画像]** – 背景画像設定を有効にするには、切り替えセレクターを移動します。
 
   ![背景画像設定](./assets/structure-components-background-image-settings.png){width="250"}
 

@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 7%
@@ -32,12 +32,12 @@ ht-degree: 7%
 
 # web エクスペリエンス
 
-Adobe Journey Optimizer B2B editionのweb チャネルなら、web サイト上でパーソナライズされたエクスペリエンスを直接構築し、有意義な方法で顧客とつながることができます。 この機能では、パーソナライズされたコンテンツによるエンゲージメントを強化し、メールやSMSなどの他のチャネルとシームレスに統合するために使用できる、柔軟性の高いツールセットを提供します。
+Adobe Journey Optimizer B2B editionのweb チャネルでは、web サイト上で直接パーソナライズされたエクスペリエンスを構築し、有意義な方法で顧客とつながることができます。 この機能では、パーソナライズされたコンテンツによるエンゲージメントを強化し、メールやSMSなどの他のチャネルとシームレスに統合するために使用できる、柔軟性の高いツールセットを提供します。
 
 web エクスペリエンスでは、次のことが可能になります。
 
 * ターゲットを絞ったweb サイト訪問者に、パーソナライズされたコンテンツ修正を提供したい
-* アカウント属性を使用して、バナー、テキスト、画像、ボタンなどのweb サイト要素をカスタマイズできます
+* アカウント属性で、バナー、テキスト、画像、ボタンなどのweb サイト要素をカスタマイズ
 * URL マッチングルールを使用して、特定のページをターゲティングしたり、複数のページに変更を適用したりできます
 * エンゲージメントを追跡し、web パーソナライゼーションの効果を監視できます
 
@@ -52,9 +52,9 @@ web エクスペリエンスを作成する前に、次の要件を満たして�
 * Web サイトには、訪問者の特定とコンテンツ配信のために[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されています。 Adobe Experience Platform Web SDKのバージョンが2.16以降であることを確認します。
 
 * ジャーニーでweb エクスペリエンスを作成および管理するために必要な[権限](../admin/user-management.md#b2b-product-permissions)があります。
-   * _[!UICONTROL キャンペーン]_ > _[!UICONTROL キャンペーンを管理]_ - web パーソナライゼーションアクションノードを追加または更新するために必要です。
-   * _[!UICONTROL キャンペーン]_ > _[!UICONTROL キャンペーンを表示]_ - Web パーソナライゼーションアクションノードの詳細を表示するには必須です。
-   * _[!UICONTROL キャンペーン]_ > _[!UICONTROL キャンペーンの承認と公開]_ - 1つ以上のWeb パーソナライゼーションアクションノードを持つジャーニーを公開するために必要です。
+  * _[!UICONTROL キャンペーン]_ > _[!UICONTROL キャンペーンを管理]_ - web パーソナライゼーションアクションノードを追加または更新するために必要です。
+  * _[!UICONTROL キャンペーン]_ > _[!UICONTROL キャンペーンを表示]_ - Web パーソナライゼーションアクションノードの詳細を表示するには必須です。
+  * _[!UICONTROL キャンペーン]_ > _[!UICONTROL キャンペーンの承認と公開]_ - 1つ以上のWeb パーソナライゼーションアクションノードを持つジャーニーを公開するために必要です。
 
 * Web ブラウザー用にAdobe Experience Cloud [Visual Editing Helper ブラウザー拡張機能](#install-the-visual-editing-helper-extension)がインストールされています。 この拡張機能は、Journey Optimizer B2B edition コンテンツデザイン領域でweb ページを確実に開き、オーサリングおよびプレビューするために必要です。
 
@@ -134,7 +134,7 @@ Web エクスペリエンス用Journey Optimizer B2B edition ビジュアルエ�
 
 1. 右側のパネルで、web エクスペリエンスの定義および管理方法に応じてweb エクスペリエンスのプロパティを設定します。
 
-   * **[!UICONTROL ビジュアルエディター]** - web エクスペリエンスの変更デザインの[&#x200B; ビジュアルエディターと非ビジュアルエディター](./web-experience-design.md#web-design-tools)を切り替えます。
+   * **[!UICONTROL ビジュアルエディター]** - web エクスペリエンスの変更デザインの[&#x200B; ビジュアルエディターと非ビジュアルエディター](./web-experience-design.md#web-experience-editors)を切り替えます。
    * **[!UICONTROL 訪問者のリダイレクト]** – このオプションを有効にすると、「コンテンツ」タブで新しいバリエーションをオーサリングするのではなく、[訪問者を別の既存のURL](#redirect-to-url)にリダイレクトできます。
 
    ![&#x200B; ビジュアルエディターとリダイレクト URLのプロパティを切り替え](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}

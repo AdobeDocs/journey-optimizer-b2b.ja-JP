@@ -18,10 +18,10 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-03-30T19:50:18.033Z
 TQID: https://experienceleague.adobe.com/JvPzSX83WY7Edws8IMHseCSwqFR4Ro-jy-UO-WvRgDc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 92%
+source-wordcount: 600
+ht-degree: 74%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 92%
 
 ## アカウントオーディエンスワークフロー
 
-Journey Optimizer B2B Edition は、宛先カタログに表示されない Experience Platform（AEP）の宛先と考えることができます。 アカウントオーディエンスを Journey Optimizer B2B Edition にアクティベートするには、次の手順に従います。
+Journey Optimizer B2B editionは、宛先カタログに表示されないExperience Platform（AEP）の宛先として機能します。 アカウントオーディエンスを Journey Optimizer B2B Edition にアクティベートするには、次の手順に従います。
 
 1. AEP でデータのスキーマを作成します。
 1. データを AEP に取り込みます。
@@ -48,7 +48,7 @@ Journey Optimizer B2B Edition を使用すると、左側のナビゲーショ�
 
 ## アカウントオーディエンスの作成
 
-アカウントのセグメント化を作成して、アカウントオーディエンスを定義します。 Journey Optimizer B2B Edition アプリケーション内で直接アカウントのセグメント化を作成することも、[セグメントビルダー UI](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"} を使用することもできます。 Journey Optimizer B2B Edition でアカウントのセグメント化を作成するために使用できる手順を以下に示します。
+アカウントセグメントを作成して、アカウントオーディエンスを定義します。 Journey Optimizer B2B edition アプリケーション内で直接アカウントセグメントを作成するか、[&#x200B; セグメントビルダーUI](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}を使用できます。 Journey Optimizer B2B editionでアカウントセグメントを作成する手順は、次のとおりです。
 
 1. 左側のナビゲーションで、**[!UICONTROL アカウント]**／**[!UICONTROL オーディエンス]**&#x200B;を選択します。
 
@@ -56,7 +56,7 @@ Journey Optimizer B2B Edition を使用すると、左側のナビゲーショ�
 
 1. セグメント定義を作成します。
 
-   アカウントの属性とオーディエンスは、左側のナビゲーションバーに表示されます。 「_[!UICONTROL 属性]_」タブでは、Platform で作成された属性とカスタム属性の両方を追加できます。 各属性をドラッグして、セグメントのロジックを作成します。
+   アカウントの属性とオーディエンスは、左側のナビゲーションバーに表示されます。 「_[!UICONTROL 属性]_」タブでは、Platform で作成された属性とカスタム属性の両方を追加できます。 セグメントのロジックを作成するには、各属性をドラッグします。
 
    >[!TIP]
    >
@@ -64,7 +64,7 @@ Journey Optimizer B2B Edition を使用すると、左側のナビゲーショ�
    >
    >「_[!UICONTROL オーディエンス]_」タブでは、独自のアカウントオーディエンスを作成する際に、以前に作成した人物ベースのオーディエンスを追加して作成できます。
 
-   次の例では、`Country Code`、`Revenue Amount`、`Market segment` を使用して作成されたオーディエンスを定義します。 英語でのクエリは、「I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M.」となります。
+   次の例では、`Country Code`、`Revenue Amount`、`Market segment`を使用して作成されたオーディエンスを定義します。 英語のクエリは、「収益が100万ドルを超える財務セグメントのすべての米国アカウントが必要です」です。
 
    ![account audience segment builderの例](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
@@ -78,4 +78,4 @@ Journey Optimizer B2B Edition を使用すると、左側のナビゲーショ�
 
 1. 右上の「**[!UICONTROL 保存して閉じる]**」をクリックします。
 
-Journey Optimizer B2B Edition のアカウントオーディエンスをアクティベートするには、[アカウントジャーニーに追加](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey)して[ジャーニーを公開](../journeys/journeys-overview.md)する必要があります。
+Journey Optimizer B2B Edition のアカウントオーディエンスをアクティベートするには、[アカウントジャーニーに追加](../journeys/account-audience-nodes.md)して[ジャーニーを公開](../journeys/journeys-overview.md)する必要があります。

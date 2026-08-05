@@ -21,10 +21,10 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Targetを通じて外部オーディエンスをアクティブ化する�
 
 ## ジャーニーから顧客外部オーディエンスに追加
 
-ジャーニーで、[&#x200B; アクションを追加&#x200B;_アクションを実行_ ノード &#x200B;](../journeys/action-nodes.md)して、_[!UICONTROL 外部顧客オーディエンスに追加]_ アクションを実行します。 通常、アクションは、イベントや以前のアクションなど、何らかのトリガーの結果として発生させたいものです。 ジャーニーは、個人プロファイルを持つ適格なアカウントがノードに到達したときにアクションを実行します。
+ジャーニーで、[&#x200B; アクションを追加&#x200B;_アクションを実行_ ノード &#x200B;](../journeys/action-nodes.md)して、_[!UICONTROL 外部顧客オーディエンスに追加]_ アクションを実行します。 アクションは通常、イベントや以前のアクションなどのトリガーの結果です。 ジャーニーは、個人プロファイルを持つ適格なアカウントがノードに到達したときにアクションを実行します。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Adobe Targetを通じて外部オーディエンスをアクティブ化する�
 
 1. 右側のノードプロパティから、外部オーディエンスを設定します。
 
-   * 既に1つ以上の外部オーディエンスが作成されている場合は、**[!UICONTROL 既存の]**&#x200B;を選択し、[使用するオーディエンスを選択します](#choose-an-external-audience)。
+   * 既に1つ以上の外部オーディエンスが作成されている場合は、**[!UICONTROL 既存の]**&#x200B;を選択し、[使用するオーディエンスを選択します](#select-an-external-audience)。
 
    * ノードに使用するオーディエンス [&#128279;](#create-an-external-audience)を作成する場合は、**[!UICONTROL 新規作成]**&#x200B;を選択します。
 
@@ -124,4 +124,4 @@ Adobe Targetを通じて外部オーディエンスをアクティブ化する�
 
    ![Experience Platform – 宛先 – 宛先をアクティブ化 – レビュー](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-アクティブ化すると、[Adobe Target オーディエンス &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}のオーディエンスが表示され、Adobe Target アクティビティで使用できます。
+アクティブ化すると、[Adobe Target Audiences](https://experienceleague.adobe.com/ja/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"}でオーディエンスを確認し、Adobe Target アクティビティで使用できます。

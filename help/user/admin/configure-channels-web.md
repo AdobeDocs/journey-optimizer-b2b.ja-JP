@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1077
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ Journey Optimizer B2B editionのweb チャネル設定には、次の[権限](..
 
    >[!NOTE]
    >
-   >名前は文字（A ～ Z）で始める必要があり、英数字のみを含めることができます。 アンダースコア `_`、ドット `.`、ハイフン `-`文字も使用できます。
+   >名前は文字（A ～ Z）で始める必要があり、英数字のみを含めることができます。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
 1. 「**[!UICONTROL Web 設定]**」セクションで、次のいずれかのオプションを選択します。
 
@@ -63,7 +63,7 @@ Journey Optimizer B2B editionのweb チャネル設定には、次の[権限](..
 
      ![単一ページ web チャネル設定のページ URLの選択](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL ページ一致ルール]** – 同じルールに一致する複数のURLをターゲットにするには、[&#x200B; ページ一致ルール &#x200B;](#build-a-pages-matching-rule)を作成し、**[!UICONTROL デフォルトのオーサリングおよびプレビューURL]**&#x200B;を入力します。
+   * **[!UICONTROL ページ一致ルール]** – 同じルールに一致する複数のURLをターゲットにするには、[&#x200B; ページ一致ルール &#x200B;](#build-a-rule)を作成し、**[!UICONTROL デフォルトのオーサリングおよびプレビューURL]**&#x200B;を入力します。
 
 1. 「**[!UICONTROL 送信]**」をクリックして変更を保存します。
 
@@ -75,7 +75,7 @@ Web チャネルがジャーニーで使用されるとすぐに、_アクティ
 
 Web設定を作成する際に、ルール _に一致する_ ページを作成して、同じルールに一致する複数のURLをターゲットにすることができます。 これらのルールにより、複数のページに同じコンテンツ変更を適用できます。
 
-例えば、web サイト全体でヒーローバナーに変更を適用したり、すべての製品ページに表示されるトップ画像を追加したりすることができます。
+例えば、web サイト全体でヒーローバナーに変更を適用したり、すべての製品ページに表示されるトップ画像を追加したりします。
 
 ### ルールの作成
 
@@ -122,9 +122,9 @@ Web設定を作成する際に、ルール _に一致する_ ページを作成�
 
    * 異なるルール間で&#x200B;**[!UICONTROL Or]**&#x200B;または&#x200B;**[!UICONTROL Exclude]**&#x200B;演算子を使用します。
 
-     _[!UICONTROL または]_&#x200B;は、複数のルールを定義するための既定の演算子であり、一致させる複数の条件定義を追加するのに便利です。
+     _[!UICONTROL Or]_ [!UICONTROL Or]演算子は、複数のルールを定義するための既定の演算子であり、一致させる複数の条件定義を追加するのに便利です。
 
-     _[!UICONTROL 除外]_&#x200B;は、定義されたルールに一致するページの1つをターゲットにしない場合に便利です。 例えば、`lumasecure`を含むが、ブログページ（`bodea.com/blogs/lumasecure/latest-release`など）を除外するすべての`bodea.com` ページをターゲットにできます。
+     _[!UICONTROL Exclude]_ [!UICONTROL Exclude]演算子は、定義されたルールに一致するページの1つをターゲットにしない場合に便利です。 例えば、`lumasecure`を含むが、ブログページ（`bodea.com/blogs/lumasecure/latest-release`など）を除外するすべての`bodea.com` ページをターゲットにできます。
 
    除外![&#128279;](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}のルールに一致する ページ
 
@@ -144,7 +144,7 @@ Web設定を作成する際に、ルール _に一致する_ ページを作成�
 
 1. 複製されたweb チャネルの名前をクリックして、パラメーターを編集します。
 
-   * ルールの目的または項目に一致するように、名前と説明を変更します。
+   * ルールの目的または項目に一致させるには、名前と説明を変更します。
    * 必要に応じて、単一ページのURLを変更します。
    * 必要に応じて、ルールに一致するページを変更します。
 

@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
+source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 12%
@@ -42,7 +42,7 @@ ht-degree: 12%
 
 1. ジャーニーでは、マーケターは設定されたイベントを2つの方法のいずれかで使用します。
 
-   * _Listen for an event_ ノードを追加し、[は、ジャーニー中のリアルタイムのイベントアクティビティに基づいて、トリガージャーニーの進行状況にExperience Event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event)を選択します。
+   * _Listen for an event_ ノードを追加し、[は、ジャーニー中のリアルタイムのイベントアクティビティに基づいて、トリガージャーニーの進行状況にExperience Event](../journeys/listen-for-event-nodes.md#experience-events-account-people)を選択します。
    * _パスを人物_ ノードで分割し、**[!UICONTROL イベント履歴]** フォルダーからイベント [&#128279;](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering)で フィルターへのパスを設定します。
 
 >[!BEGINSHADEBOX]

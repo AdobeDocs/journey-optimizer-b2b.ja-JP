@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 789
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 # 購買グループの詳細
 
-Journey Optimizer B2B editionの任意の場所から購買グループ名をクリックすると、購買グループの詳細が表示されます。 この概要では、生成AIの概要など、購買グループに関する有用な情報を提供します。 アカウントに関連付けられた連絡先に対して実行できる[&#x200B; アクション &#x200B;](#buying-group-actions)もあります。
+Journey Optimizer B2B editionの任意の場所から購買グループ名をクリックすると、購買グループの詳細が表示されます。 この概要では、生成AIの概要など、購買グループに関する有用な情報を提供します。 アカウントに関連付けられた連絡先に対して実行できる[&#x200B; アクション &#x200B;](#members-tab)もあります。
 
 ![購買グループの詳細にアクセス &#x200B;](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
@@ -67,7 +67,7 @@ Journey Optimizer B2B editionの任意の場所から購買グループ名をク
 
 ### インテントデータ
 
-Journey Optimizer B2B editionでは、インテント検出モデルにより、購買グループメンバーのアクティビティにもとづいて、十分な信頼性で関心のあるソリューションや製品を予測できます。 購買グループのメンバーの意図は、製品に興味を持つ可能性と解釈できます。
+Journey Optimizer B2B editionでは、インテント検出モデルは、購買グループメンバーのアクティビティに基づいて、十分な信頼性で関心のあるソリューション/製品を予測します。 購買グループのメンバーの意図は、製品に興味を持つ可能性と解釈できます。
 
 {{intent-data-note}}
 

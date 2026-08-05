@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:45:21.856Z
 TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 594
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 3%
 * **データの引き継ぎ**: マーケティング部門は&#x200B;_ready_&#x200B;のターゲットデータを特定し、CSV形式で営業部門がアクセスできるようにします。 
 * **販売承認**：営業担当者が手動でレビューし、_ready_&#x200B;のターゲットをパイプラインに組み込みます。
 
-このダッシュボードにアクセスするには、左側のナビゲーションで「**[!UICONTROL アカウント]**」を展開し、**[!UICONTROL 購買グループ]**」を選択します。 デフォルトで表示されない場合は、**[!UICONTROL 概要]** タブを選択します。
+このダッシュボードにアクセスするには、左側のナビゲーションで「**[!UICONTROL アカウント]**」を展開し、**[!UICONTROL 購買グループ]**」を選択します。 デフォルトでシステムに表示されない場合は、**[!UICONTROL 概要]** タブを選択します。
 
 ![購買グループの概要](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -51,7 +51,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## 購買グループの完了スコア分布
 
-このビジュアライゼーションは、完了スコアに基づく購買グループの分布を示しており、4つの異なるスコアバンドに分類されています。 中央の図は購買グループの総数を表し、全体的な進捗状況を素早く示しています。 セグメント化された色は、各スコア範囲内の購買グループの割合を示しているので、完了傾向を一目で把握できます。
+このビジュアライゼーションは、完了スコアに基づく購買グループの分布を示しており、4つの異なるスコアバンドに分類されています。 中央の図は購買グループの総数を表し、全体的な進捗状況の概要を示しています。 セグメント化された色は、各スコア範囲内の購買グループの割合を示しているので、完了傾向を一目で把握できます。
 
 詳細な情報を表示するには、右上の「**...**」メニューアイコンをクリックします。
 
@@ -65,7 +65,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ![購買グループのエンゲージメントスコアのビジュアライゼーション &#x200B;](./assets/buying-group-engagement-score-chart.png){width="500"}
 
-## ソリューションに対する関心別の購買グループ
+## ソリューションへの興味別の購買グループ
 
 このビジュアライゼーションは、ソリューションへの関心ごとに購買グループの分布を示しており、最も関心を生み出すソリューションを特定するのに役立ちます。 各バーは特定のソリューションを表し、その長さは、その関心に関連する購買グループの数を示しています。 この棒グラフは、ソリューションの需要動向を明確かつ即座に把握するのに役立ちます。
 
@@ -84,7 +84,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ![表示されたデータを属性でフィルタリング &#x200B;](./assets/buying-group-overview-filters.png){width="500"}
 
-データのフィルタリングに使用する各属性に対して値をいくつでも選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
+データのフィルタリングに使用する各属性の値をいくつでも選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
 ## データの活用
 
@@ -100,7 +100,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 _詳細_ （**...**）をクリックできます 右上のメニューで、**[!UICONTROL 詳細を表示]**&#x200B;から[拡張データを表示](#view-more)を選択します。
 
-### [!UICONTROL 詳細を表示]
+### [!UICONTROL 詳細を表示] {#view-more}
 
 詳細データとインサイトを表示するには、**[!UICONTROL 詳細を表示]**&#x200B;を選択します。
 
