@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
 workflow-type: tm+mt
-source-wordcount: 5351
-ht-degree: 64%
+source-wordcount: 5552
+ht-degree: 62%
 
 ---
 
@@ -32,13 +32,31 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 使用権限、パフォーマンスガードレール、制限事項について詳しくは、[製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}を参照してください。
 
+## 2026.8 リリースノート {#rel-2026-8}
+
+**デプロイメント日**: 2026年8月14日
+
+| タイプ | 項目 | 説明 |
+| ---- | ---- | ----------- |
+| 機能 | 人物リスト | 静的および動的な人物リストが使用できるようになりました。これにより、デモグラフィック属性やエクスペリエンスイベント履歴など、定義された条件でプロファイルをターゲティングできます。 |
+| 機能 | _バリアント分割パス_ ジャーニーノード | （以前はアカウントジャーニーのベータ版）マーケターは、定義された割合に基づいて、アカウントまたは人物を異なるジャーニーパスに割り当てることで、アカウントまたは人物のジャーニー内のバリエーションをテストできるようになりました。 |
+| 機能強化 | ジャーニー再入力 – 人物ジャーニー | 個人ジャーニーで、ジャーニーの再入力のサポートが利用可能になりました。 |
+| 機能強化 | イベントトリガーとフィルターをリッスンする – アカウントジャーニー | _Listen for event_ ノードでの複数のトリガーとフィルターのサポートが、アカウントジャーニーで利用できるようになりました。 |
+| 機能強化 | 外部分割パスノード – 人物ジャーニー | _外部分割パス_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 |
+| 機能強化 | 外部アクションノード – 人物ジャーニー | _外部アクション_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 |
+| 機能強化 | AEP リレーションデータセット | 新しいリレーショナルデータセットが、既存のデータセットとともにAEP サンドボックスに表示されるようになりました。 |
+
+>[!NOTE]
+>
+>これらのリリースの変更は、2026年8月14日（PT）にデプロイメントが開始され、各機能の段階的なロールアウトと機能強化が行われます。 機能および機能強化のリリース日は変更される場合があります。
+
 ## 2026.6 リリースノート {#rel-2026-6}
 
 **デプロイメント日**: 2026年7月10日
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | _パスを分割_ ジャーニーノード – バリアント | （Beta） マーケターは、定義された割合に基づいて、アカウントまたは人物を異なるジャーニーパスに割り当てることで、ジャーニー内のバリエーションをテストできるようになりました。 [詳細情報](../journeys/variant-split-paths-nodes.md) |
+| 機能 | _バリエーション分割パス_ ジャーニーノード – アカウントジャーニー | （Beta） マーケターは、定義された割合に基づいて、アカウントまたは人物を異なるジャーニーパスに割り当てることで、ジャーニー内のバリエーションをテストできるようになりました。 [詳細情報](../journeys/variant-split-paths-nodes.md) |
 | 機能強化 | _イベントをリッスンする_ ジャーニーノード | 対面ジャーニーでは、イベントリスナーノードを複数のイベントで設定してトリガーできるようになりました。 最初の選定イベントは、ジャーニーのレコードを前進させます。 （今後のリリースに向けたアカウントジャーニーの計画的なサポート） [詳細情報](../journeys/listen-for-event-nodes.md#person-journeys) |
 | 機能強化 | _イベントをリッスンする_ ジャーニーノード | 人物/人物イベントの「_[!UICONTROL フィルター]_」タブが、単一のアクションセレクターからルールビルダーインターフェイスに変更されました。 これにより、設定されたExperience Eventsを使用した複数のアクティビティ設定のサポートが提供されます。 [詳細情報](../journeys/listen-for-event-nodes.md#filters-people-event) |
 | 機能強化 | _アクションを実行_ ジャーニーノード | アカウントジャーニーの人物コンテキストと、人物ジャーニーから追加アクションを使用できるようになりました：_人物ジャーニーに追加_&#x200B;および&#x200B;_人物ジャーニーから削除_。 [詳細情報](../journeys/action-nodes.md#people-actions) |
@@ -46,12 +64,6 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 >[!NOTE]
 >
 >これらのリリースの変更は、2026年7月10日（PT）にデプロイメントが開始され、各機能の段階的なロールアウトと機能強化が行われます。 機能および機能強化のリリース日は変更される場合があります。
-
-<!-- 
-Add for 2026.8 release
-| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
-| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
--->
 
 ## 2026.5 リリースノート {#rel-2026-5}
 
@@ -165,7 +177,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 
 ### 更新されたアーキテクチャ
 
-更新されたアーキテクチャでは、Journey Optimizer B2B editionとMarketo Engageは同じシステムとデータストア上にありません。 Journey Optimizer B2B editionは、Adobe Experience Platformからデータを受け取ります。 ただし、システムのプロビジョニングと設定には、引き続き Marketo Engage の使用権限と一部の設定機能に依存します。
+更新されたアーキテクチャにより、Journey Optimizer B2B editionとMarketo Engageは、同じシステムとデータストア上に存在しなくなりました。 Journey Optimizer B2B editionは、Adobe Experience Platformからデータを受け取ります。 ただし、システムのプロビジョニングと設定には、引き続き Marketo Engage の使用権限と一部の設定機能に依存します。
 
 >[!NOTE]
 >
@@ -176,7 +188,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 * **データを簡単に統合および拡大・縮小**：更新されたプラットフォームは、カスタムオブジェクト、購買グループ、アカウントイベントなどの複雑なデータモデルをサポートします。
 * **複数の Adobe Marketo Engage インスタンスを接続**：複数の Adobe Marketo Engage 環境のデータを 1 か所で管理および統合します。
 * **データを安全に保持**：高度なプライバシーとセキュリティ機能により、顧客情報を保護できます。
-* **長期的な拡張性を念頭に設計**：このアップデートにより、継続的な改善とイノベーションの準備が整います。
+* **長期的なスケーラビリティを念頭に置いて設計された**：このアップデートにより、継続的な改善とイノベーションの準備が整います。
 
 >[!NOTE]
 >
