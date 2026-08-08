@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 6%
 左側のナビゲーションの&#x200B;**[!UICONTROL ジャーニー管理]**&#x200B;で、作成するジャーニータイプを選択します。
 
 * **[!UICONTROL アカウントジャーニー]**
-* **[!UICONTROL ユーザージャーニー]** （Beta）
+* **[!UICONTROL ユーザージャーニー]**
 
 _新しいジャーニーを追加するには&#x200B;:_
 
@@ -50,7 +50,7 @@ _新しいジャーニーを追加するには&#x200B;:_
 
 +++
 
-+++ユーザージャーニー（Beta）
++++ユーザージャーニー
 
 1. ページの右上にある「**[!UICONTROL ジャーニーを作成]**」をクリックします。
 
@@ -72,7 +72,7 @@ _ジャーニーマップ_&#x200B;は、ジャーニーワークスペースの�
 アカウントジャーニーを作成してオーディエンスを追加したら、ノードを使用してジャーニーを設計します。 ジャーニーマップにはキャンバスが用意されており、次のノードタイプを使用してマルチステップ B2B マーケティングのユースケースを構築し、アカウントジャーニーを構築することができます。
 
 * [アクションの実行](./action-nodes.md)
-* [イベントのリッスン](./listen-for-event-nodes.md)
+* [イベントをリッスン](./listen-for-event-nodes.md)
 * [パスを分割](./split-merge-paths-nodes.md)
 * [バリアント分割パス](./variant-split-paths-nodes.md)
 * [次に最適なパス](./next-best-path-node.md)

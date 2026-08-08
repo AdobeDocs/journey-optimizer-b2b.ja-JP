@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 136
-ht-degree: 16%
+source-wordcount: 135
+ht-degree: 18%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 16%
 オーディエンスノードは、自動的にジャーニーの最初のノードになります。
 
 * [アカウントオーディエンス](./account-audience-nodes.md)
-* [人物オーディエンス &#x200B;](./person-audience-nodes.md) （Beta）
+* [顧客オーディエンス](./person-audience-nodes.md)
 
 さまざまなアクションノード、イベントノード、オーケストレーションノードを組み合わせて、マルチステップのクロスチャネルシナリオを構築できます。 ジャーニーの各ノードは、論理パスに沿ったステップを表します。 アカウントジャーニーを構築するには、次のノードタイプを使用します。
 
 * [アクションの実行](./action-nodes.md)
-* [イベントのリッスン](./listen-for-event-nodes.md)
+* [イベントをリッスン](./listen-for-event-nodes.md)
 * [パスを分割](./split-merge-paths-nodes.md)
 * [バリアント分割パス](./variant-split-paths-nodes.md)
 * [次に最適なパス](./next-best-path-node.md)
