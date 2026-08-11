@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 47%
 
 ---
@@ -175,7 +175,7 @@ ht-degree: 47%
 
 **例**
 
-次の操作は、在庫製品と製品価格を検索して、製品の総価値を算出します。
+次の操作は、製品の在庫数と価格の積を求めて、その製品の総価値を算出します。
 
 ```sql
 {%= product.inventory * product.price %}
@@ -339,7 +339,7 @@ ht-degree: 47%
 
 **例**
 
-次の操作は、最も金額が高い注文の上位 5 件のうち最初の項目を返します。 `topN` 関数の詳細については、[配列の最初の `n`](#first-n)の節を参照してください 。
+次の操作は、価格が最も高い注文の上位 5 件のうち先頭の 1 件を返します。 `topN` 関数の詳細については、[配列の最初の `n`](#first-n)の節を参照してください 。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -526,7 +526,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ### スーパーセットの {#superset}
 
-`supersetOf`関数を使用して、特定の配列（配列A）が別の配列（配列B）のスーパーセットであるかどうかを判断します。 つまり、その配列 Aには配列 B のすべての要素が含まれます。
+`supersetOf`関数を使用して、特定の配列（配列A）が別の配列（配列B）のスーパーセットであるかどうかを判断します。 つまり、配列 A には配列 B のすべての要素が含まれているということです。
 
 +++構文
 
@@ -684,7 +684,7 @@ The following operation gets the value of the identity map for the key `example@
 
 **例**
 
-currentDate = 2025-01-07T12:17:10.720122+05:30（アジア／コルカタ）
+currentDate = 2025-01-07T12:17:10.720122+05:30 （アジア/コルカタ）
 
 * 入力：`{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * 出力：`5`
@@ -703,7 +703,7 @@ currentDate = 2025-01-07T12:17:10.720122+05:30（アジア／コルカタ）
 
 **例**
 
-currentDate = 2025-01-07T12:22:46.993748+05:30（アジア／コルカタ）
+currentDate = 2025-01-07T12:22:46.993748+05:30 （Asia/Kolkata）
 
 * 入力：`{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * 出力：`12`
@@ -968,14 +968,14 @@ The following operation gets all the values for the map `identityMap`.
 
 | パターン | 意味 | 例（`2023-12-31T10:15:30Z` の場合） |
 |---------|---------|--------------------------------------|
-| `y` | 暦年（標準年） | `2023` |
+| `y` | カレンダー年（暦年） | `2023` |
 | `Y` | 週ベースの年（ISO 8601）。 年の境界によって異なる場合があります。 | `2024` （2023年12月31日、2024年の最初の週の秋） |
 | `M` | 年間通算月（1～12 または `Jan`、`January` のようなテキスト） | `12` または `Dec` |
 | `m` | 分（時間）（0～59） | `15` |
 | `d` | 月間通算日（1～31） | `31` |
 | `D` | 年間通算日（1～366） | `365` |
 
-#### 日付をロケールサポートの形式にします {#format-date-locale}
+#### ロケール対応で日付をフォーマットします {#format-date-locale}
 
 `formatDate`関数を使用して、日付時刻の値を、目的のロケールなど、対応する言語に依存する表現に書式設定できます。 形式は、有効なJava `DateTimeFormat` パターンである必要があります。
 
@@ -1158,7 +1158,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfDay {#truncate-day}
 
-`truncateToStartOfDay`関数を使用して、時刻が00:00の日の先頭に設定することで、指定された日時を変更します。
+`truncateToStartOfDay`関数を使用して、指定された日時を00:00の時刻で日の先頭に設定して変更します。
 
 +++構文
 
@@ -1175,7 +1175,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfQuarter {#truncate-quarter}
 
-`truncateToStartOfQuarter`関数を使用すると、00:00の時点で日時を四半期の最初の日（1月1日、4月1日、7月1日、10月1日など）に切り捨てることができます。
+`truncateToStartOfQuarter`関数を使用すると、00:00に日時を四半期の最初の日（1月1日、4月1日、7月1日、10月1日など）に切り捨てることができます。
 
 +++構文
 
@@ -1468,8 +1468,8 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 ### if （条件） {#if-function}
 
-`if` ヘルパーは、条件付きブロックを定義するために使用されます。
-式の評価がtrueを返した場合、ブロックはレンダリングされ、そうでない場合はスキップされます。
+`if` ヘルパーを使用して、条件ブロックを定義します。
+式の評価結果が true の場合、ブロックはレンダリングされます。true でない場合はスキップされます。
 
 +++構文
 
@@ -1478,7 +1478,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-`if` ヘルパーに続いて、`else` ステートメントを入力して、同じ条件がfalseの場合に実行するコードブロックを指定できます。
+`if` ヘルパーの後に、`else` ステートメントを入れて、その条件の結果が false の場合に実行するコードのブロックを指定することもできます。
 `elseif` ステートメントは、最初のステートメントがfalseを返すかどうかをテストするための新しい条件を指定します。
 
 
@@ -1597,7 +1597,7 @@ Some edu specific content
 
 **例**
 
-ユーザーが買い物かごに入れた商品のリストをレンダリングする。
+ユーザが買い物かごに入れた商品のリストをレンダリングします。
 
 ```sql
 {{#each profile.products as |product|}}
@@ -1708,7 +1708,7 @@ Some edu specific content
 
 >[!IMPORTANT]
 >
->アクションごとのキーと値のペアには 2 kb の上限があります。 2Kb の制限を超えた場合、メッセージは引き続き配信されますが、キーと値のペアのいずれかが切り捨てられる場合があります。
+>アクションごとのキーと値のペアには 2KB の上限があります。 2Kb の制限を超えた場合、メッセージは引き続き配信されますが、キーと値のペアのいずれかが切り捨てられる場合があります。
 
 **例**
 
@@ -1811,7 +1811,7 @@ Some edu specific content
 
 `formatNumber`関数を使用して、任意の数値を言語依存の表現に書式設定します。
 
-ロケールを表す数値および文字列を受け入れて、目的のロケールで書式設定された数値の文字列を返します。
+数値とロケールを表す文字列を受け取り、指定したロケールで書式設定された数値の文字列を返します。
 
 +++構文
 
@@ -2269,7 +2269,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次のクエリは、個人のメールアドレスのメールドメインを抽出します。
+次のクエリは、個人のメールアドレスのドメインを抽出します。
 
 ```sql
 {%= extractEmailDomain(profile.personalEmail.address) %}
@@ -2414,7 +2414,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次の関数は、プロファイルの携帯電話番号が空の場合、「true」を返します。 それ以外の場合は、`false`が返されます。
+次の関数は、プロファイルの携帯電話番号が空でない場合、「true」を返します。 それ以外の場合は、`false`が返されます。
 
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
@@ -2492,7 +2492,7 @@ doesNotEndWith(person.emailAddress,".com")
 | 引数 | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
-| `{STRING_2}` | 最初の文字列列と照合される式です。 式の作成に使用できる特殊文字として、`%` と `_` の 2 つがサポートされています。 <ul><li>`%` は、0 個以上の文字を表すために使用されます。</li><li>`_` は、1 文字を表すために使用されます。</li></ul> |
+| `{STRING_2}` | 最初の文字列と照合される式です。 式の作成に使用できる特殊文字として、`%` と `_` の 2 つがサポートされています。 <ul><li>`%` は、0 個以上の文字を表すために使用されます。</li><li>`_` は、1 文字を表すために使用されます。</li></ul> |
 
 **例**
 
@@ -2649,7 +2649,7 @@ doesNotEndWith(person.emailAddress,".com")
 | 引数 | 説明 |
 | --------- | ----------- |
 | `{STRING}` | チェックの実行対象となる文字列です。 |
-| `{EXPRESSION}` | 最初の文字列列と照合する正規表現です。 |
+| `{EXPRESSION}` | 最初の文字列と照合する正規表現です。 |
 | `{GROUP}` | 照合する式のグループです。 |
 
 **例**
