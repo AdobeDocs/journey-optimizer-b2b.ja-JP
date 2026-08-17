@@ -6,20 +6,15 @@ roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 171518509dc161d236663cde399b3fcc02408f18
 workflow-type: tm+mt
-source-wordcount: 2267
-ht-degree: 81%
+source-wordcount: 2348
+ht-degree: 77%
 
 ---
 
@@ -27,10 +22,10 @@ ht-degree: 81%
 
 プロビジョニングが完了し、サンドボックスがバインドされたら、次の手順を使用して、チームとユーザーにAdobe Journey Optimizer B2B editionへのアクセス権を付与します。
 
-1. Admin Consoleで [Marketo Engage製品プロファイルを作成 &#x200B;](#marketo-engage-profile) （新しいMarketo Engage インスタンスのみ）。
-1. Admin Consoleで [&#x200B; ユーザーグループを追加 &#x200B;](#add-user-group) します。
-1. Journey Optimizer B2B editionの権限を使用して、[&#x200B; 組み込みの役割を編集 &#x200B;](#edit-roles-for-product-permissions) または [&#x200B; カスタムの役割を作成 &#x200B;](#create-a-custom-role) します。
-1. 役割への [&#x200B; ユーザー &#x200B;](#add-users) または [&#x200B; グループ &#x200B;](#add-user-groups-to-a-role) の追加
+1. Admin Consoleで [Marketo Engage製品プロファイルを作成 ](#marketo-engage-profile) （新しいMarketo Engage インスタンスのみ）。
+1. Admin Consoleで [ ユーザーグループを追加 ](#add-user-group) します。
+1. Journey Optimizer B2B editionの権限を使用して、[ 組み込みの役割を編集 ](#edit-roles-for-product-permissions) または [ カスタムの役割を作成 ](#create-a-custom-role) します。
+1. 役割への [ ユーザー ](#add-users) または [ グループ ](#add-user-groups-to-a-role) の追加
 
 管理者は、Adobeの製品ライセンスとユーザーを一元的に管理する場所であるAdobe Admin Consoleで、これらのタスクを実行できます。 Admin Consoleでは、様々な個別のソリューション内ではなく、1 か所でユーザーを作成および管理できます。 その機能と機能について詳しくは、[Admin Consoleの概要](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) ページを参照してください。
 
@@ -38,9 +33,9 @@ ht-degree: 81%
 
 Admin Consoleを使用してチーム内のユーザーを管理する前に、Admin Consoleにアクセスでき、適切な権限を持っていることを確認する必要があります。
 
-1. システム管理者は、オンボーディングプロセスの一環としてAdobeから複数のメールを受信する必要があります。
+1. システム管理者は、オンボーディングプロセスの一環として Adobe から複数のメールを受信します。
 
-   アクセス権が付与された組織名に関する情報を記載したお知らせメールを探します。
+   アクセス権が付与された組織名に関する情報が記載されたウェルカムメールを探します。
 
 1. お知らせメールの **[!UICONTROL 使用を開始]** リンクをクリックして、Admin Consoleに移動します。
 
@@ -56,15 +51,15 @@ Admin Consoleを使用してチーム内のユーザーを管理する前に、A
 
 1. **[!UICONTROL ユーザー]** カードから _[!UICONTROL 管理者]_ を選択して、自分がシステム管理者であることを確認します。
 
-   ![Admin Consoleの概要 – 「管理者」をクリック &#x200B;](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
+   ![Admin Consoleの概要 – 「管理者」をクリック ](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
 
 1. Adobe IDのメールアドレス、ユーザー名、名、姓を入力して検索します。
 
-   * アクセス権が正しく設定されている場合、検索はレコードを返します。
+   * アクセス権が正しく設定されている場合、検索結果に自分のレコードが表示されます。
 
    * **[!UICONTROL 管理者の役割]** 列の値に `System` が表示されている場合、自分（または表示されているユーザー）がシステム管理者であることがわかります。
 
-## Marketo Engage製品プロファイルの作成 {#marketo-engage-profile}
+## Marketo Engage 製品プロファイルを作成する {#marketo-engage-profile}
 
 Adobe ソリューションに対するアクセス権をユーザーに付与する場合、必ずしも完全なアクセス権を付与する必要はありません。 製品プロファイルを使用すると、ソリューションごとに独自のユーザー権限を設定できます。 Admin Consoleを使用して製品プロファイルを割り当てます。
 
@@ -72,13 +67,13 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 >[!BEGINSHADEBOX]
 
-ユーザーをMarketo Engage製品プロファイルに追加すると、その後、Marketo Engage サブスクリプションのデフォルトワークスペース内の _標準ユーザー_ ロールに追加されます。 このロールは、そのワークスペース内のMarketo Engageに対するすべての標準的な権限を付与します。 現在、すべてのJourney Optimizer B2B edition ユーザーは、Marketo Engage ユーザーである必要があります。 Marketo Engage管理者は、_標準ユーザー_ ロールの権限をアップデートするか、より制限の厳しい権限を持つ別のMarketo Engage ユーザーロールにユーザーを移動することで、アクセスを制限できます。
+ユーザーをMarketo Engage製品プロファイルに追加すると、その後、Marketo Engage サブスクリプションのデフォルトワークスペース内の _標準ユーザー_ ロールに追加されます。 このロールは、そのワークスペース内のMarketo Engageに対するすべての標準的な権限を付与します。 現在、すべての Adobe Journey Optimizer B2B Edition ユーザは、Marketo Engage ユーザである必要があります。 Marketo Engage管理者は、_標準ユーザー_ ロールの権限をアップデートするか、より制限の厳しい権限を持つ別のMarketo Engage ユーザーロールにユーザーを移動することで、アクセスを制限できます。
 
-Marketo Engage内のこれらの権限の管理について詳しくは、Marketo Engage ドキュメントの [&#x200B; ユーザーの役割と権限の管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} を参照してください。
+Marketo Engage内のこれらの権限の管理について詳しくは、Marketo Engage ドキュメントの [ ユーザーの役割と権限の管理 ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
-![&#x200B; 管理者の役割の要件 &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはMarketo Engageの製品管理者は、次の手順を実行できます。
+![ 管理者の役割の要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはMarketo Engageの製品管理者は、次の手順を実行できます。
 
 1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com) にログインします。
 
@@ -86,7 +81,7 @@ Marketo Engage内のこれらの権限の管理について詳しくは、Market
 
 1. プロファイルを追加するMarketo Engage インスタンスを開き、「**[!UICONTROL 新規プロファイル]**」をクリックします。
 
-   ![Admin Console - Marketo Engage インスタンス – 新規プロファイル &#x200B;](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
+   ![Admin Console - Marketo Engage インスタンス – 新規プロファイル ](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
 1. 製品プロファイル名（「_B2B ユーザー_」など）を入力します。
 
@@ -100,9 +95,9 @@ Marketo Engage内のこれらの権限の管理について詳しくは、Market
 >
 >既存のJourney Optimizer B2B edition ユーザーをMarketo Engageに追加する場合は、ユーザーグループの作成をスキップし、Marketo Engage製品プロファイルを既存のユーザーグループに追加できます。
 
-ユーザーグループを使用して権限を管理する方法について詳しくは、Admin Console ドキュメントの [&#x200B; ユーザーグループの管理 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target="_blank"} を参照してください。
+ユーザーグループを使用して権限を管理する方法について詳しくは、Admin Console ドキュメントの [ ユーザーグループの管理 ](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target="_blank"} を参照してください。
 
-![&#x200B; 管理者の役割の要件 &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は、次の手順を実行できます。
+![ 管理者の役割の要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は、次の手順を実行できます。
 
 1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com) にログインします。
 
@@ -118,7 +113,7 @@ Marketo Engage内のこれらの権限の管理について詳しくは、Market
 
 ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/jp/enterprise/using/users.html){target="_blank"}を参照してください。
 
-![&#x200B; 管理者の役割の要件 &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者または製品管理者は、次の手順を実行できます。 製品管理者は、組織に既に存在するユーザーのみを追加できます。
+![ 管理者の役割の要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者または製品管理者は、次の手順を実行できます。 製品管理者は、組織に既に存在するユーザーのみを追加できます。
 
 1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com) に移動します。
 
@@ -155,42 +150,42 @@ Marketo Engage内のこれらの権限の管理について詳しくは、Market
    * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
    * [!UICONTROL Adobe Experience Platform Data Collection - Default Data Collection All Access]
-   * [!UICONTROL Adobe Experience Platform - デフォルトの実稼動環境のすべてのアクセス &#x200B;]
+   * [!UICONTROL Adobe Experience Platform - デフォルトの実稼動環境のすべてのアクセス ]
 
-   ![Admin Console - ユーザーグループ – 商品を追加 &#x200B;](./assets/admin-console-user-group-add-products.png){width="550" zoomable="yes"}
+   ![Admin Console - ユーザーグループ – 商品を追加 ](./assets/admin-console-user-group-add-products.png){width="550" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## 製品権限の役割の編集 {#edit-roles-for-product-permissions}
+## 製品権限用のロールを編集 {#edit-roles-for-product-permissions}
 
 権限は、製品プロファイルに割り当てる許可を定義できる単一の権利です。 各権限は、Journey Optimizer B2B editionの機能を表す、ジャーニーや購買グループなどの機能の下にグループ化されます。
 
 Adobe Experience Platformの _権限_ 領域では、管理者は、ユーザーの役割とアクセスポリシーを定義して、製品アプリケーション内の機能とオブジェクトのアクセス権限を管理できます。 このアプリでは、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたサンドボックスとユーザーを管理することもできます。
 
-Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [&#x200B; ロールの権限の管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
+Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [ ロールの権限の管理 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
 
 ### B2B 製品の権限 {#b2b-product-permissions}
 
-Journey Optimizer B2B editionの機能へのアクセスには、次の権限が適用されます。
+Journey Optimizer B2B Edition の機能へのアクセスには、次の権限が適用されます。
 
 | カテゴリ | 説明 | 権限 |
 | -------- | ----------- | ---------- |
 | B2B アカウントリスト | B2B アカウントリストの権限を設定、管理、表示および公開します。 これらの権限には、アカウントリストに対するアカウントの追加、削除、インポート、削除などのアクションが含まれます。 | <li>B2B アカウントリストの管理 |
 | B2B 管理設定 | B2B 管理設定の権限を設定、管理、表示します。 これらの権限には、デジタルアセット管理接続、アセットリポジトリー、イベントが含まれます。 | <li>B2B 管理設定の管理 |
-| B2B Assets | B2B アセットの権限を設定、管理、表示します。 これらの権限には、メール、SMS、ランディングページ、フラグメント、テンプレート、画像が含まれます。 | <li>B2B Assetsの管理 <li>B2B テンプレートの管理 <li>B2B フラグメントの管理 <li>B2B メールの管理 |
-| B2B 購入グループ | B2B 購入グループの権限を設定、管理および表示します。 これらの権限には、ソリューションの関心、役割テンプレート、購入グループステータスが含まれます。 | <li>B2B 購入グループの管理 <li>B2B ソリューションへの関心の管理 <li>B2B役割テンプレートの管理 <li>B2B ステージの管理 <li>B2B購買グループの表示 |
-| B2B チャネル設定 | B2B チャネル設定の権限を設定、管理、表示します。 これらの権限には、通信制限、API 資格情報、セキュリティ設定の設定が含まれます。 | <li>B2B チャネル設定の管理 |
-| B2B ダッシュボード | B2B ダッシュボードの権限の設定と表示。 これらの権限には、アカウントエンゲージメント、購入グループステージ、急増するアカウント、連絡先の対象範囲が含まれます。 | <li>B2B エンゲージメントダッシュボードの表示 |
-| B2B ジャーニー | B2B ジャーニーの権限を設定、管理、表示、公開します。 これらの権限には、アカウントと人物のアクション、イベントリスナー、分割パスが含まれます。 | <li>B2B アカウントジャーニーの管理 |
+| B2B Assets | B2B アセットの権限を設定、管理、表示します。 これらの権限には、電子メール、ランディングページ、フォーム、フラグメント、テンプレート、画像などが含まれます。 | <li>B2B Assetsの管理 <li>B2B テンプレートの管理 <li>B2B フラグメントの管理 <li>B2B メールの管理 <li>B2B テンプレートの表示 <li>B2B フラグメントの表示 <li>B2B フラグメントの公開 <li>B2B Assetsを見る <li>B2B メールの表示 <li>B2B メッセージ書き出しの管理 <li>B2B ランディングページを見る <li>B2B ランディングページの管理 <li>B2B ランディングページの公開 <li>B2B Formsを見る <li>B2B Formsの管理 <li>B2B Formsの公開 |
+| B2B 購入グループ | B2B 購入グループの権限を設定、管理および表示します。 これらの権限には、ソリューションの興味、ロールテンプレート、購買グループのステータスが含まれます。 | <li>B2B 購買グループの管理 <li>B2B ソリューションへの関心の管理 <li>B2B役割テンプレートの管理 <li>B2B ステージの管理 <li>B2B購買グループの表示 |
+| B2B チャネル設定 | B2B チャネル設定の権限を設定、管理、表示します。 これらの権限には、通信制限、API 資格情報、セキュリティ設定の設定が含まれます。 | <li>B2B チャネル設定の管理 <li>B2B メール設定の表示 <li>B2B メール設定の管理 <li>B2B WhatsApp プリセットの管理 <li>B2B ランディングページ設定の管理 <li>B2B Formsプリセットの表示 <li>B2B Forms プリセットの管理 <li>B2B Forms プリセットの公開 <li>B2B Web エクスペリエンスの構築 <li>B2B WhatsApp設定の管理 |
+| B2B ダッシュボード | B2B ダッシュボードの権限の設定と表示。 これらの権限には、アカウントエンゲージメント、購買グループステージ、急増中のアカウント、取引先責任者の対象範囲が含まれます。 | <li>B2B エンゲージメントダッシュボードの表示 |
+| B2B ジャーニー | B2B ジャーニーの権限を設定、管理、表示、公開します。 これらの権限には、アカウントと人物のアクション、イベントリスナー、分割パスが含まれます。 | <li>B2B アカウントジャーニーの管理 <li>B2B人物ジャーニーの管理 |
 | Journey Optimizer ルール | 頻度ルール（通信制限）へのアクセスと設定。 これらの権限は、製品管理者に限定する必要があります。 | <li>頻度ルールの表示 <li>頻度ルールの管理 |
 
 ### B2B の組み込みの役割 {#b2b-built-in-roles}
 
-組織がJourney Optimizer B2B edition製品をプロビジョニングしている場合、Experience Platformには、製品の機能へのアクセスを管理するために使用できる、組み込みの（デフォルトの）一連の役割が含まれています。
+組織で Journey Optimizer B2B Edition 製品がプロビジョニングされている場合、Adobe Experience Platform には、製品の機能へのアクセスを管理するために使用できるビルトイン（デフォルト）のロールセットが含まれています。
 
 | 役割 | 権限 |
 | ---- | ----------- |
-| B2B ジャーニーマネージャー | <li>B2B ジャーニーの管理 <li>B2B 購入グループの管理 <li>B2B アカウントリストの管理 <li>B2B エンゲージメントダッシュボードの表示 <li>B2B インサイトダッシュボードの表示 |
+| B2B ジャーニーマネージャー | <li>B2B ジャーニーの管理 <li>B2B 購買グループの管理 <li>B2B アカウントリストの管理 <li>B2B エンゲージメントダッシュボードの表示 <li>B2B インサイトダッシュボードの表示 |
 | B2B チャネルマネージャー | <li>B2B Assetsの管理 <li>B2B テンプレートの管理 <li>B2B フラグメントの管理 |
 | B2B システム管理者 | <li>B2B チャネル設定の管理 <li>B2B 管理設定の管理 |
 | B2B セールスユーザー | <li>B2B エンゲージメントダッシュボードの表示 <li>B2B購買グループの表示 <li>CRM 内インサイトへのアクセス |
@@ -215,7 +210,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
    >
    >_[!UICONTROL 権限]_ が表示されない場合は、「**[!UICONTROL すべて表示]**」をクリックし、使用可能なアプリケーションから選択する必要がある場合があります。
 
-   ![Experience Platform - アクセス許可 &#x200B;](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Experience Platform - アクセス許可 ](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 1. 左側のナビゲーションで「**[!UICONTROL 役割]**」を選択します。
 
@@ -223,7 +218,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
 1. 詳細ページで、右上の **[!UICONTROL 編集]** をクリックします。
 
-   ![Experience Platform – 役割の編集 &#x200B;](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform – 役割の編集 ](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
    ロールエディターの _[!UICONTROL リソース]_ メニューには、Experience Cloud - Platform を利用したアプリケーション製品に適用されるリソースのリストが表示されます。
 
@@ -243,7 +238,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
 ### 役割にユーザーを追加 {#add-users-to-a-role}
 
-![&#x200B; 管理者の役割の要件 &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
+![ 管理者の役割の要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
 
 1. 役割の詳細を開き、「**[!UICONTROL ユーザー]**」タブを選択します。
 
@@ -251,7 +246,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
 1. **[!UICONTROL ユーザーを追加]** をクリックします。
 
-   ![Experience Platform - ロールにユーザーを追加 &#x200B;](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
+   ![Experience Platform - ロールにユーザーを追加 ](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL ユーザーを追加]_ ダイアログで、役割に追加するユーザーを見つけて選択します。
 
@@ -259,7 +254,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
    * 各ユーザーのチェックボックスを選択します。
 
-   ![Experience Platform - ユーザーを追加ダイアログ &#x200B;](./assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
+   ![Experience Platform - ユーザーを追加ダイアログ ](./assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
 
 1. 追加するすべてのユーザーを選択したら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -267,7 +262,7 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
 ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/jp/enterprise/using/users.html){target="_blank"}を参照してください。
 
-![&#x200B; 管理者の役割の要件 &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
+![ 管理者の役割の要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
 
 1. 役割の詳細を開き、「**[!UICONTROL ユーザーグループ]**」タブを選択します。
 
@@ -283,13 +278,13 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
    * 各ユーザーグループのチェックボックスを選択します。
 
-   ![Experience Platform - グループを追加ダイアログ &#x200B;](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
+   ![Experience Platform - グループを追加ダイアログ ](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
 1. 追加するすべてのグループを選択したら、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-## カスタムの役割の作成 {#create-a-custom-role}
+## カスタムのロールを作成 {#create-a-custom-role}
 
-![&#x200B; 管理者の役割の要件 &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
+![ 管理者の役割の要件 ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはAEPの製品管理者は、次の手順を実行できます。
 
 1. 左側のナビゲーションで「**[!UICONTROL 役割]**」を選択し、「**[!UICONTROL 役割を作成]**」を選択します。
 
@@ -299,21 +294,21 @@ Journey Optimizer B2B editionの機能へのアクセスには、次の権限が
 
 1. サンドボックスを選択します
 
-   ![Experience Platform – 新しい役割用のサンドボックスを追加する &#x200B;](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+   ![Experience Platform – 新しい役割用のサンドボックスを追加する ](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
 1. プロファイル権限を追加します。
 
    * 左側の _[!UICONTROL リソース]_ リストで「**[!UICONTROL プロファイル管理]**」項目を見つけ、「_追加_ （**+**）」アイコンをクリックして属性を追加します。
 
    * 属性に次の権限を追加します。
-      * [!UICONTROL &#x200B; セグメントの表示 &#x200B;]
-      * [!UICONTROL &#x200B; セグメントの管理 &#x200B;]
-      * [!UICONTROL &#x200B; プロファイルの表示 &#x200B;]
-      * [!UICONTROL &#x200B; プロファイルの管理 &#x200B;]
-      * [!UICONTROL B2B プロファイルの表示 &#x200B;]
-      * [!UICONTROL B2B プロファイルの管理 &#x200B;]
+     * [!UICONTROL  セグメントの表示 ]
+     * [!UICONTROL  セグメントの管理 ]
+     * [!UICONTROL  プロファイルの表示 ]
+     * [!UICONTROL  プロファイルの管理 ]
+     * [!UICONTROL B2B プロファイルの表示 ]
+     * [!UICONTROL B2B プロファイルの管理 ]
 
-   ![Experience Platform – 新しい役割のプロファイルを追加 &#x200B;](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
+   ![Experience Platform – 新しい役割のプロファイルを追加 ](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 
 1. B2B 製品の権限を追加します。
 
