@@ -4,11 +4,21 @@ description: AI アシスタントを使用してメールコンテンツを生�
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
 source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
@@ -30,7 +40,7 @@ ht-degree: 1%
 
 ## ガイドラインと制限事項
 
-この機能の使用を開始する前に、[ ガイドラインと制限事項](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 [!DNL Journey Optimizer B2B Edition]でAI機能を使用するには、[ ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。 詳しくは、アドビ担当者にお問い合わせください。
+この機能の使用を開始する前に、[&#x200B; ガイドラインと制限事項](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 [!DNL Journey Optimizer B2B Edition]でAI機能を使用するには、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。 詳しくは、アドビ担当者にお問い合わせください。
 
 Adobeは、透明性を高めるために、ダウンロードまたは書き出し時に[content credentials](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}をFirefly生成アセットに適用します。
 
@@ -50,7 +60,7 @@ Adobeは、透明性を高めるために、ダウンロードまたは書き出
 
 生成AI モデルに明確に定義されたプロンプトを使用し、正確に解釈。 提供するマーケティング目標/プロンプトは、生成されるコンテンツの品質に影響します。
 
-![ プロンプトフィールド ](./assets/gen-ai-prompt.png){width="320"}
+![&#x200B; プロンプトフィールド &#x200B;](./assets/gen-ai-prompt.png){width="320"}
 
 効果的なプロンプトの作成について詳しくは、_[プロンプトのベストプラクティス](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;を参照してください。
 
@@ -58,9 +68,9 @@ Adobeは、透明性を高めるために、ダウンロードまたは書き出
 
 #### プロンプトライブラリ
 
-効果的なプロンプトは、可能な限り優れたコンテンツを制作するために不可欠です。 プロンプトの作成をサポートする場合は、_プロンプトライブラリ_ ![ プロンプトライブラリアイコン ](../assets/do-not-localize/icon-library.svg) アイコンをクリックして、目的に応じて整理されたプロンプトアイデアのライブラリにアクセスします。 検索フィールドにテキストを入力して、キーワード文字列に基づいてプロンプトを検索します。
+効果的なプロンプトは、可能な限り優れたコンテンツを制作するために不可欠です。 プロンプトの作成をサポートする場合は、_プロンプトライブラリ_ ![&#x200B; プロンプトライブラリアイコン &#x200B;](../assets/do-not-localize/icon-library.svg) アイコンをクリックして、目的に応じて整理されたプロンプトアイデアのライブラリにアクセスします。 検索フィールドにテキストを入力して、キーワード文字列に基づいてプロンプトを検索します。
 
-![AI アシスタント – プロンプトライブラリにアクセス ](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
+![AI アシスタント – プロンプトライブラリにアクセス &#x200B;](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
 目的の目標を最もよく反映するプロンプトを選択し、**[!UICONTROL このプロンプトを試す]**&#x200B;をクリックします。 _[!UICONTROL プロンプト]_ フィールドで、プレースホルダー（`[Key Feature/Information]`など）を、ブランド、オファー、キャンペーン、ユースケースを指定する値に置き換えます。
 
@@ -80,12 +90,12 @@ Adobeは、透明性を高めるために、ダウンロードまたは書き出
   | 実務担当者 | 使いやすさ<br/>製品の機能と特徴<br/>製品の互換性<br/>製品の統合のしやすさ |
   | チャンピオン | 教育コンテンツ <br/> リーダーシップコンテンツ <br/> ユーザー事例 |
 
-* **[!UICONTROL マーケティングジャーニーステージ]** - メッセージのターゲティングに使用する[購買グループステージ ](../buying-groups/buying-group-stages.md)を選択します。
+* **[!UICONTROL マーケティングジャーニーステージ]** - メッセージのターゲティングに使用する[購買グループステージ &#x200B;](../buying-groups/buying-group-stages.md)を選択します。
 * **[!UICONTROL コミュニケーション戦略]** – 生成したテキストに最適なコミュニケーション スタイルを選択します。
 * **[!UICONTROL 言語]** – 生成されたコンテンツの言語を選択します。
 * **[!UICONTROL トーン]** - オーディエンスの心に響くトーン。 例えば、有益な情報、遊び心、説得力のあるメッセージに調整できます。
 
-![購買グループ、マーケティングジャーニーの段階、コミュニケーション戦略、言語、トーンオプションを示すテキスト設定パネル ](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
+![購買グループ、マーケティングジャーニーの段階、コミュニケーション戦略、言語、トーンオプションを示すテキスト設定パネル &#x200B;](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
 左向き矢印をクリックして、メインの&#x200B;_[!UICONTROL 設定]_&#x200B;に戻ります。
 
@@ -93,7 +103,7 @@ Adobeは、透明性を高めるために、ダウンロードまたは書き出
 
 生成されたコンテンツに画像を含めるには、右側のパネルで&#x200B;**[!UICONTROL 画像設定]**&#x200B;を展開し、オプションを設定します。
 
-AI ]**を使用して画像を生成する**[!UICONTROL  オプションは、デフォルトで無効になっています。 この機能を有効にし、次のオプションを設定して、生成された画像を提案されたコンテンツのバリエーションに含めます。
+AI **を使用して画像を生成する** オプションは、デフォルトで無効になっています。 この機能を有効にし、次のオプションを設定して、生成された画像を提案されたコンテンツのバリエーションに含めます。
 
 * **[!UICONTROL 生成モデル]**：すぐに使用できるAdobe提供モデル、特殊機能のパートナーモデル、ブランドアセットでトレーニングされた設定済みのカスタムモデルから選択します。 生成モデルについて詳しくは、_[ブランドの整合のための生成AI モデル](generative-ai-models.md)_&#x200B;を参照してください。
 * **[!UICONTROL 縦横比]**：画像コンポーネントを選択すると、この設定によってアセットの幅と高さが決まります。 16:9、4:3、3:2、1:1などの一般的な比率から選択するか、カスタム比率を入力します。
@@ -103,7 +113,7 @@ AI ]**を使用して画像を生成する**[!UICONTROL  オプションは、�
 * **[!UICONTROL 照明]**：画像に使用される照明スタイル。雰囲気を形成し、特定の要素を強調します。
 * **[!UICONTROL コンポジション]**：画像のフレーム内の要素の配置。
 
-生成モデル、コンテンツタイプ、視覚的な強度、カラーとトーン、照明、コンポジションのオプションを表示する![画像設定パネル ](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+生成モデル、コンテンツタイプ、視覚的な強度、カラーとトーン、照明、コンポジションのオプションを表示する![画像設定パネル &#x200B;](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 左向き矢印をクリックして、メインの&#x200B;_[!UICONTROL 設定]_&#x200B;に戻ります。
 
@@ -113,7 +123,7 @@ AI ]**を使用して画像を生成する**[!UICONTROL  オプションは、�
 
 **[!UICONTROL 参照コンテンツ]**&#x200B;の設定から、**[!UICONTROL ファイルをアップロード]**&#x200B;をクリックして、追加のコンテキストに使用するコンテンツを含むアセットを追加します。
 
-![参照コンテンツに使用するファイルをアップロード ](./assets/gen-ai-reference-content-upload.png){width="350" zoomable="yes"}
+![参照コンテンツに使用するファイルをアップロード &#x200B;](./assets/gen-ai-reference-content-upload.png){width="350" zoomable="yes"}
 
 アップロードするファイルは、PDF、JPEG、PNG、またはZIP ファイル（サポートされているファイル形式を含む）の形式にすることができます。 アップロードされたブランドアセットの最大サイズは50 MBです。 大きなファイルや多数の画像は機能しますが、処理時間が長くなります。
 
@@ -123,7 +133,7 @@ AI ]**を使用して画像を生成する**[!UICONTROL  オプションは、�
 
 ## AI アシスタントで電子メールプロパティを生成
 
-アカウントジャーニーに[ メールアクション ](./add-email.md#add-an-email-action-node-in-a-journey)を追加する場合、メールの送信に使用するメールプロパティのセットを定義します。 AI アシスタントは、電子メール **_件名_**&#x200B;および&#x200B;**_プリヘッダー_**&#x200B;の推奨コンテンツを生成することで、より優れた電子メールエンゲージメントを実現するのに役立ちます。
+アカウントジャーニーに[&#x200B; メールアクション &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey)を追加する場合、メールの送信に使用するメールプロパティのセットを定義します。 AI アシスタントは、電子メール **_件名_**&#x200B;および&#x200B;**_プリヘッダー_**&#x200B;の推奨コンテンツを生成することで、より優れた電子メールエンゲージメントを実現するのに役立ちます。
 
 ジャーニーから電子メールを作成するか、ジャーニーノードから既存の電子メールを開くと、電子メールプレビューページが表示され、右側に&#x200B;_[!UICONTROL 電子メールプロパティ]_&#x200B;が表示されます。 「_[!UICONTROL 概要]_」タブでは、AI アシスタントのコンテンツ生成ツールを使用して、件名、プリヘッダー、またはその両方を生成できます。
 
@@ -135,30 +145,30 @@ AI ]**を使用して画像を生成する**[!UICONTROL  オプションは、�
 
 1. 「_詳細_」タブが選択された&#x200B;_概要_ パネルで、**[!UICONTROL 件名]** フィールドまでスクロールします。
 
-1. フィールドの右側にあるAI アシスタント アイコン（![AI アシスタント アクセス アイコン ](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}）をクリックします。
+1. フィールドの右側にあるAI アシスタント アイコン（![AI アシスタント アクセス アイコン &#x200B;](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}）をクリックします。
 
-   ![電子メールの件名に対するAI アシスタントへのアクセス ](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
+   ![電子メールの件名に対するAI アシスタントへのアクセス &#x200B;](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
    _[!UICONTROL 件名を生成]_ ダイアログが開き、メールの件名の生成設定が表示されます。
 
 1. （必須）「**[!UICONTROL プロンプト]**」フィールドに、生成する内容の説明を入力します。
 
-   効果的なプロンプトの作成に関するヘルプが必要な場合は、[ プロンプトライブラリ ](#prompt-library)を使用してください。
+   効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompt-library)を使用してください。
 
 1. （オプション）プリヘッダーを生成するための追加の入力を提供するには、コンテンツガイダンス設定を完了します。
 
-   * [**[!UICONTROL  テキスト設定]**](#text-settings) – 生成されたテキストコンテンツのガイダンスを提供します。
-   * [**[!UICONTROL  コンテンツを参照]**](#reference-content) - コンテンツ生成のソースとなるコンテンツアセットを指定します。
+   * [**[!UICONTROL &#x200B; テキスト設定]**](#text-settings) – 生成されたテキストコンテンツのガイダンスを提供します。
+   * [**[!UICONTROL &#x200B; コンテンツを参照]**](#reference-content) - コンテンツ生成のソースとなるコンテンツアセットを指定します。
 
 1. プロンプトと設定の準備ができたら、**[!UICONTROL 生成]**&#x200B;をクリックします。
 
    生成されたバリエーションがダイアログに表示されます。
 
-   ![AI アシスタント – メールの件名に生成されたバリエーション ](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
+   ![AI アシスタント – メールの件名に生成されたバリエーション &#x200B;](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
 
 1. AI アシスタントパネルをスクロールし、生成されたバリエーションを参照して、どのバリエーションが最適かを判断します。
 
-   生成されたバリエーションに対して[ フィードバック ](#submit-variation-feedback)を送信するには、_サムズアップ_、_サムズダウン_、または&#x200B;_フラグ_ アイコンをクリックし、フィードバックを最もよく要約する理由を選択します。
+   生成されたバリエーションに対して[&#x200B; フィードバック &#x200B;](#submit-variation-feedback)を送信するには、_サムズアップ_、_サムズダウン_、または&#x200B;_フラグ_ アイコンをクリックし、フィードバックを最もよく要約する理由を選択します。
 
 1. 追加のカスタマイズ機能にアクセスするには、「**[!UICONTROL 調整]**」オプションをクリックします。
 
@@ -182,28 +192,28 @@ AI ]**を使用して画像を生成する**[!UICONTROL  オプションは、�
 
 1. 「_詳細_」タブが選択された&#x200B;_概要_ パネルで、下にスクロールして「**[!UICONTROL プリヘッダー]**」チェックボックスを選択します。
 
-   ![ メールプリヘッダーのAI アシスタントへのアクセス ](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
+   ![&#x200B; メールプリヘッダーのAI アシスタントへのアクセス &#x200B;](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
 
    「_[!UICONTROL プリヘッダーを生成]_」ダイアログが開き、メールプリヘッダーの生成設定が表示されます。
 
 1. （必須）「**[!UICONTROL プロンプト]**」フィールドに、生成する内容の説明を入力します。
 
-   効果的なプロンプトの作成に関するヘルプが必要な場合は、[ プロンプトライブラリ ](#prompt-library)を使用してください。
+   効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompt-library)を使用してください。
 
 1. （オプション）プリヘッダーを生成するための追加の入力を提供するには、コンテンツガイダンス設定を完了します。
 
-   * [**[!UICONTROL  テキスト設定]**](#text-settings) – 生成されたテキストコンテンツのガイダンスを提供します。
-   * [**[!UICONTROL  コンテンツを参照]**](#reference-content) - コンテンツ生成のソースとなるコンテンツアセットを指定します。
+   * [**[!UICONTROL &#x200B; テキスト設定]**](#text-settings) – 生成されたテキストコンテンツのガイダンスを提供します。
+   * [**[!UICONTROL &#x200B; コンテンツを参照]**](#reference-content) - コンテンツ生成のソースとなるコンテンツアセットを指定します。
 
 1. プロンプトと設定の準備ができたら、**[!UICONTROL 生成]**&#x200B;をクリックします。
 
    生成されたバリエーションがダイアログに表示されます。
 
-   ![AI アシスタント – メールプリヘッダーで生成されたバリエーション ](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
+   ![AI アシスタント – メールプリヘッダーで生成されたバリエーション &#x200B;](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
 
 1. AI アシスタントパネルをスクロールし、生成されたバリエーションを参照して、どのバリエーションが最適かを判断します。
 
-   生成されたバリエーションに対して[ フィードバック ](#submit-variation-feedback)を送信するには、_サムズアップ_、_サムズダウン_、または&#x200B;_フラグ_ アイコンをクリックし、フィードバックを最もよく要約する理由を選択します。
+   生成されたバリエーションに対して[&#x200B; フィードバック &#x200B;](#submit-variation-feedback)を送信するには、_サムズアップ_、_サムズダウン_、または&#x200B;_フラグ_ アイコンをクリックし、フィードバックを最もよく要約する理由を選択します。
 
 1. 追加のカスタマイズ機能にアクセスするには、「**[!UICONTROL 調整]**」オプションをクリックします。
 
@@ -225,9 +235,9 @@ AI ]**を使用して画像を生成する**[!UICONTROL  オプションは、�
 
 ## AI アシスタントでメール本文のコンテンツを生成 {#generative-ai-email-design}
 
-[ メールを作成してパーソナライズした後](./email-authoring.md)、生成AIを活用した[!DNL Journey Optimizer B2B Edition]のAI アシスタントを使用して、メール本文のコンテンツを改善します。
+[&#x200B; メールを作成してパーソナライズした後](./email-authoring.md)、生成AIを活用した[!DNL Journey Optimizer B2B Edition]のAI アシスタントを使用して、メール本文のコンテンツを改善します。
 
-メールデザインの分野では、AI アシスタントを利用して、メール本文、ターゲットを絞ったテキストコンテンツ、オーディエンスの共感を呼ぶ画像を生成することで、配信の効果を最適化することができます。 メールキャンペーンのこの最適化は、より優れたエンゲージメントを生み出すように設計されています。 _AI アシスタント_ （![AI アシスタント メニューのトグル ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}）を選択すると、現在のコンテンツ選択で使用できるコンテンツ生成ツールが表示されます。
+メールデザインの分野では、AI アシスタントを利用して、メール本文、ターゲットを絞ったテキストコンテンツ、オーディエンスの共感を呼ぶ画像を生成することで、配信の効果を最適化することができます。 メールキャンペーンのこの最適化は、より優れたエンゲージメントを生み出すように設計されています。 _AI アシスタント_ （![AI アシスタント メニューのトグル &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}）を選択すると、現在のコンテンツ選択で使用できるコンテンツ生成ツールが表示されます。
 
 ![電子メールデザインスペースのAI アシスタント切り替え](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -247,19 +257,19 @@ AI ]**を使用して画像を生成する**[!UICONTROL  オプションは、�
 
    メールテンプレートの使用について詳しくは、_[テンプレートの選択](./email-authoring.md#select-a-template)_&#x200B;を参照してください。
 
-1. メールデザイン領域で、右側のアイコン（![AI アシスタントメニュートグル ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}）をクリックして、AI アシスタントメニューにアクセスします。
+1. メールデザイン領域で、右側のアイコン（![AI アシスタントメニュートグル &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}）をクリックして、AI アシスタントメニューにアクセスします。
 
    右側のAI アシスタント設定は、_メールの生成_&#x200B;を反映しています。
 
-   ![AI アシスタント – メールコンテンツを生成するためのプロンプトライブラリ ](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
+   ![AI アシスタント – メールコンテンツを生成するためのプロンプトライブラリ &#x200B;](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL ブランド]**&#x200B;を選択して、AIで生成されたコンテンツがブランドの仕様に沿っていることを確認します。
 
-   公開されたブランドがない場合は、**[!UICONTROL ブランドを作成]**&#x200B;をクリックして、[再利用可能なブランドガイドライン ](./brands-overview.md)を定義します。
+   公開されたブランドがない場合は、**[!UICONTROL ブランドを作成]**&#x200B;をクリックして、[再利用可能なブランドガイドライン &#x200B;](./brands-overview.md)を定義します。
 
 1. 「**[!UICONTROL プロンプト]**」フィールドに、生成する内容の説明を入力します。
 
-   効果的なプロンプトの作成に関するヘルプが必要な場合は、[ プロンプトライブラリ ](#prompt-library)を使用してください。
+   効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompt-library)を使用してください。
 
    >[!TIP]
    >
@@ -267,15 +277,15 @@ AI ]**を使用して画像を生成する**[!UICONTROL  オプションは、�
 
 1. 生成されたコンテンツを調整するには、コンテンツガイダンスの設定を完了します。
 
-   * [**[!UICONTROL  テキスト設定]**](#text-settings) – 生成されたテキストコンテンツのガイダンスを提供します。
+   * [**[!UICONTROL &#x200B; テキスト設定]**](#text-settings) – 生成されたテキストコンテンツのガイダンスを提供します。
    * [**[!UICONTROL 画像設定]**](#image-settings) – 生成されたコンテンツに画像を含める場合は、画像生成を有効にし、ガイダンスを提供します。
-   * [**[!UICONTROL  コンテンツを参照]**](#reference-content) - コンテンツ生成のソースとなるコンテンツアセットを指定します。
+   * [**[!UICONTROL &#x200B; コンテンツを参照]**](#reference-content) - コンテンツ生成のソースとなるコンテンツアセットを指定します。
 
 1. プロンプトと設定の準備ができたら、**[!UICONTROL 生成]**&#x200B;をクリックします。
 
    生成されたバリエーションは、右側のパネルに表示されます。
 
-1. 生成されたバリエーションを参照するか、_フルスクリーン_ （![ フルスクリーンアイコン ](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックして、_[!UICONTROL メールを生成]_ ダイアログを開きます。
+1. 生成されたバリエーションを参照するか、_フルスクリーン_ （![&#x200B; フルスクリーンアイコン &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックして、_[!UICONTROL メールを生成]_ ダイアログを開きます。
 
    このダイアログには、バリエーションを比較したり、テキストを調整したり、コンテンツ設定を参照したり（必要に応じて）、バリエーションを再生成したりするための追加スペースが用意されています。
 
@@ -305,23 +315,23 @@ AI アシスタントを使用して、既存のメールのテキストコン�
 
    ![AI アシスタント – テキスト設定](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   効果的なプロンプトの作成に関するヘルプが必要な場合は、[ プロンプトライブラリ ](#prompt-library)を使用してください。
+   効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompt-library)を使用してください。
 
 1. 生成されたコンテンツを調整するには、コンテンツガイダンスの設定を完了します。
 
-   * [**[!UICONTROL  テキスト設定]**](#text-settings) – 生成されたテキストコンテンツのガイダンスを提供します。
+   * [**[!UICONTROL &#x200B; テキスト設定]**](#text-settings) – 生成されたテキストコンテンツのガイダンスを提供します。
 
-   * [**[!UICONTROL  コンテンツを参照]**](#reference-content) - コンテンツ生成のソースとなるコンテンツアセットを指定します。
+   * [**[!UICONTROL &#x200B; コンテンツを参照]**](#reference-content) - コンテンツ生成のソースとなるコンテンツアセットを指定します。
 
 1. プロンプトと設定の準備ができたら、**[!UICONTROL 生成]**&#x200B;をクリックします。
 
-1. 生成されたバリエーションを参照するか、_全画面_ （![全画面アイコン ](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックして、_[!UICONTROL テキストを生成]_ ダイアログを開きます。
+1. 生成されたバリエーションを参照するか、_全画面_ （![全画面アイコン &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックして、_[!UICONTROL テキストを生成]_ ダイアログを開きます。
 
    このダイアログには、バリエーションを比較したり、テキストを調整したり、コンテンツ設定を参照したり（必要に応じて）、バリエーションを再生成したりするための追加スペースが用意されています。
 
    また、バリエーションを微調整するには、微調整アクションを適用し、生成されたバリエーションのフィードバックを送信します。 バリエーションの調整とフィードバックについて詳しくは、_[プレビューとコンテンツの調整](#preview-and-refine-the-content)_&#x200B;を参照してください。
 
-   ![ テキストのバリエーションと絞り込みオプションのAI アシスタント プレビュー](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
+   ![&#x200B; テキストのバリエーションと絞り込みオプションのAI アシスタント プレビュー](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
 1. 必要なコンテンツがある場合は、**[!UICONTROL 選択]**&#x200B;をクリックして、テキストを選択したバリエーションに置き換え、電子メールデザインスペースに戻ります。
 
@@ -345,13 +355,13 @@ AI アシスタントを使用して、既存のメールの画像コンテン�
 
    ![AI アシスタント – 画像コンポーネントのプロンプトを入力](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   効果的なプロンプトの作成に関するヘルプが必要な場合は、[ プロンプトライブラリ ](#prompt-library)を使用してください。
+   効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompt-library)を使用してください。
 
 1. 生成されたコンテンツを調整するには、コンテンツガイダンスの設定を完了します。
 
    * [**[!UICONTROL 画像設定]**](#image-settings) – 生成されたコンテンツに画像を含める場合は、画像生成を有効にし、ガイダンス設定を使用します。
 
-   * [**[!UICONTROL  コンテンツを参照]**](#reference-content) - コンテンツ生成のソースとなるコンテンツアセットを指定します。
+   * [**[!UICONTROL &#x200B; コンテンツを参照]**](#reference-content) - コンテンツ生成のソースとなるコンテンツアセットを指定します。
 
 1. プロンプトと設定に問題がなければ、**[!UICONTROL 生成]**&#x200B;をクリックします。
 
@@ -361,15 +371,15 @@ AI アシスタントを使用して、既存のメールの画像コンテン�
    >
    >参照コンテンツに画像がない場合、または入力プロンプトに関連する画像がない場合、出力は空になります。
 
-1. 生成されたバリエーションを参照するか、_フルスクリーン_ （![ フルスクリーンアイコン ](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックして、_[!UICONTROL 画像を生成]_ ダイアログを開きます。
+1. 生成されたバリエーションを参照するか、_フルスクリーン_ （![&#x200B; フルスクリーンアイコン &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックして、_[!UICONTROL 画像を生成]_ ダイアログを開きます。
 
    このダイアログには、バリエーションを比較したり、画像を調整したり、コンテンツ設定を参照したり（必要に応じて）、バリエーションを再生成したりするための追加スペースが用意されています。
 
-   バリエーションを選択し、**[!UICONTROL 類似を生成]**&#x200B;をクリックして、選択したバリエーションに類似する追加の画像を生成できます。 または、**[!UICONTROL Adobe Expressで編集]**&#x200B;をクリックして、独自の画像を変更します。 Adobe Expressを使用して画像を調整する方法について詳しくは、[Adobe Expressでのクイックアクション ](./image-edit-adobe-express.md#quick-actions-in-adobe-express)を参照してください。
+   バリエーションを選択し、**[!UICONTROL 類似を生成]**&#x200B;をクリックして、選択したバリエーションに類似する追加の画像を生成できます。 または、**[!UICONTROL Adobe Expressで編集]**&#x200B;をクリックして、独自の画像を変更します。 Adobe Expressを使用して画像を調整する方法について詳しくは、[Adobe Expressでのクイックアクション &#x200B;](./image-edit-adobe-express.md#quick-actions-in-adobe-express)を参照してください。
 
-   ![ テキストのバリエーションと絞り込みオプションのAI アシスタント プレビュー](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
+   ![&#x200B; テキストのバリエーションと絞り込みオプションのAI アシスタント プレビュー](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
 
-   生成されたバリエーションに対して[ フィードバック ](#submit-variation-feedback)を送信することもできます。
+   生成されたバリエーションに対して[&#x200B; フィードバック &#x200B;](#submit-variation-feedback)を送信することもできます。
 
 1. 必要な画像をハイライト表示し、**[!UICONTROL 選択]**&#x200B;をクリックして、画像またはプレースホルダーを選択したアイテムに置き換え、電子メールデザインスペースに戻ります。
 
@@ -385,9 +395,9 @@ AI アシスタントを使用して、既存のメールの画像コンテン�
 
 1. 最初のコンテンツ生成後、**[!UICONTROL バリエーション]**&#x200B;を参照します。
 
-1. 目標に最適なバリエーションを特定し、_フルスクリーン_ （![ フルスクリーンアイコン ](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックして、選択したバリエーションをより深く表示します。
+1. 目標に最適なバリエーションを特定し、_フルスクリーン_ （![&#x200B; フルスクリーンアイコン &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックして、選択したバリエーションをより深く表示します。
 
-   ![ プレビューダイアログにアクセス ](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+   ![&#x200B; プレビューダイアログにアクセス &#x200B;](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 1. 選択したバリエーションに問題がなければ、**[!UICONTROL 選択]**&#x200B;をクリックしてキャンバスに適用します。
 
@@ -411,7 +421,7 @@ AI アシスタントを使用して、既存のメールの画像コンテン�
 
 <!-- is this option coming back? * **[!UICONTROL Use as reference content]** - Select this option to use the variant as the reference content for generating other results. -->
 
-![ コンテンツの絞り込みのオプションを表示するメニューの絞り込み](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+![&#x200B; コンテンツの絞り込みのオプションを表示するメニューの絞り込み](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 ### バリエーションのフィードバックを送信
 
@@ -423,8 +433,8 @@ _サムズアップ_、_サムズダウン_、または&#x200B;_フラグ_ ア�
 
 <!-- Are we surfacing scoring here in the future, or will it be a separate post-creation task? 1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand. -->
 
-ブランドの整合性の評価とスコアリングは、メール施策をまたいでトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保し、コンテンツを公開する前に品質チェックとして役立ちます。 メールコンテンツが完了したら、右側の&#x200B;_ブランド調整_ （![ ブランド調整アイコン ](../assets/do-not-localize/icon-brand-compliance.svg)）アイコンをクリックして、メールデザインスペースの&#x200B;_ブランド調整_&#x200B;右側のパネルを開きます。
+ブランドの整合性の評価とスコアリングは、メール施策をまたいでトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保し、コンテンツを公開する前に品質チェックとして役立ちます。 メールコンテンツが完了したら、右側の&#x200B;_ブランド調整_ （![&#x200B; ブランド調整アイコン &#x200B;](../assets/do-not-localize/icon-brand-compliance.svg)）アイコンをクリックして、メールデザインスペースの&#x200B;_ブランド調整_&#x200B;右側のパネルを開きます。
 
-![ ブランド調整スコアリングツールにアクセス ](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+![&#x200B; ブランド調整スコアリングツールにアクセス &#x200B;](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
 詳細については、[_ブランドの整合性スコア_](./content-evaluation.md#brand-alignment-score)&#x200B;を参照してください
