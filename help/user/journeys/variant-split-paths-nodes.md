@@ -7,11 +7,17 @@ role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 autotag-review: '2026-08-17T19:14:54.674Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 source-git-commit: b9abc88d05d5863ad57a19118fb905c394dbc76e
 workflow-type: tm+mt
 source-wordcount: 2018
@@ -52,7 +58,7 @@ _[分割パス](./split-merge-paths-nodes.md)_&#x200B;と&#x200B;_バリアン�
 
 ## アカウントジャーニー {#account-journeys}
 
-アカウントジャーニーの場合、配信アルゴリズムは[ クォータベースのランダム割り当て](#account-journeys--quota-based-random-assignment)を使用します。 このアルゴリズムは&#x200B;**_決定論的ではありません_**：同じアカウントがジャーニーに入るか再び入るたびに、同じアカウントを別のパスに割り当てることができます。 パスの割り当ては、評価時の現在の割り当て量の状態によって異なり、固定アカウントプロパティには依存しません。
+アカウントジャーニーの場合、配信アルゴリズムは[&#x200B; クォータベースのランダム割り当て](#account-journeys--quota-based-random-assignment)を使用します。 このアルゴリズムは&#x200B;**_決定論的ではありません_**：同じアカウントがジャーニーに入るか再び入るたびに、同じアカウントを別のパスに割り当てることができます。 パスの割り当ては、評価時の現在の割り当て量の状態によって異なり、固定アカウントプロパティには依存しません。
 
 ### アカウントで分割 {#split-by-account}
 
@@ -97,7 +103,7 @@ _[分割パス](./split-merge-paths-nodes.md)_&#x200B;と&#x200B;_バリアン�
 >
 >**ユーザージャーニーのバリアントの分割は、A/B テストと実験に適しています。**
 >
->再入力での割り当ては決定論的で一貫性があるため、対面ジャーニーのバリアント分割パスは、同じ人物が同じエクスペリエンスを一貫して受け取る必要がある、制御された実験をサポートします。 ジャーニーがライブになった後に、[ ジャーニーの詳細](./journey-details.md) ビューを使用して、パス間の配布を監視します。
+>再入力での割り当ては決定論的で一貫性があるため、対面ジャーニーのバリアント分割パスは、同じ人物が同じエクスペリエンスを一貫して受け取る必要がある、制御された実験をサポートします。 ジャーニーがライブになった後に、[&#x200B; ジャーニーの詳細](./journey-details.md) ビューを使用して、パス間の配布を監視します。
 
 ## 分布アルゴリズム
 
@@ -159,7 +165,7 @@ _[分割パス](./split-merge-paths-nodes.md)_&#x200B;と&#x200B;_バリアン�
 
 1. パスの&#x200B;_Add_ （**+**）アイコンをクリックし、**[!UICONTROL バリアント分割パス]**&#x200B;を選択します。
 
-   ![ ジャーニーノードを追加 – バリアント分割パス ](./assets/node-variant-split-paths-add.png){width="300" zoomable="no"}
+   ![&#x200B; ジャーニーノードを追加 – バリアント分割パス &#x200B;](./assets/node-variant-split-paths-add.png){width="300" zoomable="no"}
 
    ジャーニーマップでは、ノードには2つのデフォルトのパスがあります。
 
@@ -167,23 +173,23 @@ _[分割パス](./split-merge-paths-nodes.md)_&#x200B;と&#x200B;_バリアン�
 
    _[!UICONTROL People]_ タイプを使用している場合、_バリアント分割パスを閉じる_ ノードが自動的に挿入され、グループ化された分割が閉じられます。
 
-   ![ジャーニーキャンバス – 自動挿入された閉じるノード ](./assets/node-variant-split-paths-people-canvas.png){width="700" zoomable="yes"}を持つユーザーによってバリアントが分割されました
+   ![ジャーニーキャンバス – 自動挿入された閉じるノード &#x200B;](./assets/node-variant-split-paths-people-canvas.png){width="700" zoomable="yes"}を持つユーザーによってバリアントが分割されました
 
 1. 各パスの&#x200B;**[!UICONTROL Label]**&#x200B;を確認または更新します。
 
    パスラベルは、ジャーニーキャンバス上でエッジラベルとして表示され、ジャーニー分析でパスを区別するのに役立ちます。
 
-   ![ バリアント分割パス ノード – パス名設定](./assets/node-variant-split-paths-names.png){width="600" zoomable="yes"}
+   ![&#x200B; バリアント分割パス ノード – パス名設定](./assets/node-variant-split-paths-names.png){width="600" zoomable="yes"}
 
 1. 各パスの&#x200B;**[!UICONTROL パーセンテージ]**&#x200B;を設定します。
 
    値は1 ～ 99の整数である必要があります。
 
-   ![ バリアント分割パス ノード – パスのパーセンテージ設定](./assets/node-variant-split-paths-config.png){width="500" zoomable="yes"}
+   ![&#x200B; バリアント分割パス ノード – パスのパーセンテージ設定](./assets/node-variant-split-paths-config.png){width="500" zoomable="yes"}
 
    実行中の合計インジケーターには、すべてのパスのパーセンテージの合計が表示されます。 ジャーニーを公開するには、合計が正確に100%である必要があります。 合計が100%に等しくない場合は、エラー状態が表示されます。
 
-   ![ バリアント分割パス ノード – 合計が100%に等しくない場合の検証エラー](./assets/node-variant-split-paths-validation-error.png){width="500" zoomable="yes"}
+   ![&#x200B; バリアント分割パス ノード – 合計が100%に等しくない場合の検証エラー](./assets/node-variant-split-paths-validation-error.png){width="500" zoomable="yes"}
 
    すべてのパスに均等に配分するには、「**[!UICONTROL 均等に配分]**」をクリックします。 均等な配分を計算し、端数処理を調整することで、合計が100%になるようにします。
 
@@ -191,7 +197,7 @@ _[分割パス](./split-merge-paths-nodes.md)_&#x200B;と&#x200B;_バリアン�
 
    ノードは最大20個のパスをサポートします。 パスをさらに追加する場合は、合計が100%になるように&#x200B;_[!UICONTROL パーセンテージ]_&#x200B;を調整します。
 
-   パスを削除するには、パスカードの「_削除_」（![削除アイコン ](../assets/do-not-localize/icon-delete-outline.svg)）アイコンをクリックします。 パスは、少なくとも2つのパスが残っている場合にのみ削除できます。
+   パスを削除するには、パスカードの「_削除_」（![削除アイコン &#x200B;](../assets/do-not-localize/icon-delete-outline.svg)）アイコンをクリックします。 パスは、少なくとも2つのパスが残っている場合にのみ削除できます。
 
    次のルールは、バリアント分割パス設定に適用されます。 違反はジャーニーの公開をブロックします。
 
