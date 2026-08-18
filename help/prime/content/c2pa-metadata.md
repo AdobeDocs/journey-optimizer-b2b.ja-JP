@@ -6,10 +6,17 @@ role: User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、限定的なベータ版リリースの一部です。"
 autotag-review: '2026-07-31T22:31:06.899Z'
 TQID: 'https://experienceleague.adobe.com/fBPnAmupve3xMSw5fZPQBDTUfr-rwiH2-R3wbKvox-E'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c8402946-ff35-44c5-ab98-74c1bba0975f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
 workflow-type: tm+mt
 source-wordcount: 559
@@ -29,7 +36,7 @@ ht-degree: 1%
 * 使用されているAI ツール：アセットの作成に生成AIを使用した場合、使用されているモデルの名前を含めることができます。
 * その他の関連情報 – アセットの履歴に関するより多くのコンテキストを提供するのに役立つ追加データも含まれています。
 
-アセット履歴の詳細については、Adobe Content Authenticity [ インスペクションツール ](https://contentauthenticity.adobe.com/inspect)を使用してください。
+アセット履歴の詳細については、Adobe Content Authenticity [&#x200B; インスペクションツール &#x200B;](https://contentauthenticity.adobe.com/inspect)を使用してください。
 
 C2PA メタデータは画像ファイルに保持されます。 生成AIで生成または編集された画像が[!DNL Adobe Journey Optimizer B2B Prime]にアップロードされるか、またはから書き出されると、そのC2PA メタデータが保持されます。
 
