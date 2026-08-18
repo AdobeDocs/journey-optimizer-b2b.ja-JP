@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+source-git-commit: eec5558d6065501576a91097182201726020213c
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 19%
+source-wordcount: 1515
+ht-degree: 13%
 
 ---
 
@@ -34,13 +34,13 @@ Journey Optimizer B2B editionの![WhatsApp タスク フロー](./assets/whatsap
 WhatsApp チャネルを設定する前に、次のことを確認してください。
 
 * [Meta Business Manager アカウント](https://business.facebook.com/)
-* [確認済みの送信者名と電話番号を持つWhatsApp ビジネスアカウント](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [確認済みの送信者名と電話番号を持つWhatsApp ビジネスアカウント](https://developers.facebook.com/documentation/business-messaging/whatsapp/whatsapp-business-accounts)
 * [適切な権限を持つMeta ユーザー認証トークン](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-* [WhatsApp ビジネスアカウントの承認済みメッセージテンプレート](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [WhatsApp ビジネスアカウントの承認済みメッセージテンプレート](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/overview)
 
 >[!IMPORTANT]
 >
->WhatsApp メッセージングサービスの使用には、Metaの利用条件が適用されます。 Journey Optimizer B2B editionを通じてWhatsApp メッセージにアクセスすることにより、お客様は[Meta WhatsApp Business ポリシー](https://www.whatsapp.com/legal/business-policy/)を確認し、遵守することに同意したものとみなされます。
+>WhatsApp メッセージングサービスの使用には、Metaの利用条件が適用されます。 Journey Optimizer B2B editionを通じてWhatsApp メッセージにアクセスすることにより、お客様は[Meta WhatsApp Business ポリシー](https://whatsappbusiness.com/policy/)を確認し、遵守することに同意したものとみなされます。
 
 ## 制限事項 {#limitations}
 
@@ -50,7 +50,7 @@ WhatsApp チャネルを設定する前に、次のことを確認してくだ�
 
 * 自動応答メッセージまたは事前定義された応答メッセージは、まだサポートされていません。
 
-* 2025年4月より、Metaは、米国の電話番号（+1のダイヤル コードと米国のエリアコードで構成される番号）を持つWhatsApp ユーザーに対するすべてのマーケティングテンプレートメッセージの配信を一時的に停止しました。 [詳しくは、Meta ドキュメント &#x200B;](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)を参照してください。
+* 2025年4月以降、Metaは、米国の電話番号（+1のダイヤル コードと米国の市外局番）を使用して、WhatsApp ユーザーへのマーケティングテンプレートメッセージを一時停止しました。 [詳しくは、Meta ドキュメント &#x200B;](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)を参照してください。
 
 * ネイティブ統合機能では、サードパーティのビジネスサービスプロバイダー（BSP）との統合は許可されていません。
 
@@ -97,15 +97,15 @@ WhatsApp メッセージを送信する前に、Journey Optimizer B2B edition環
    電話番号の設定は自動的に入力されます。
 
    * **品質評価** – 過去24時間以内に送信されたメッセージに対する顧客からのフィードバックを反映します。
-      * 緑色：高品質
-      * 黄色：中品質
-      * 赤色：低品質
+     * 緑色：高品質
+     * 黄色：中品質
+     * 赤色：低品質
 
      詳しくは、Meta ドキュメントの&#x200B;[_品質評価_](https://www.facebook.com/business/help/766346674749731#)を参照してください。
 
    * **スループット** – 電話番号がメッセージを送信できる割合を示します。
 
-1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
+1. API資格情報の設定が完了したら、**[!UICONTROL 送信]**&#x200B;をクリックします。
 
 _[!UICONTROL 送信]_&#x200B;をクリックすると、資格情報はすぐに検証および保存され、_[!UICONTROL API資格情報]_&#x200B;の一覧ページにリダイレクトされます。
 
@@ -115,14 +115,16 @@ _[!UICONTROL 送信]_&#x200B;をクリックすると、資格情報はすぐに
 
 WhatsApp API 資格情報の設定時に HTTP 500 エラーが発生した場合は、次のトラブルシューティング手順に従います。
 
-1. Adobeの使用権限を確認する – 組織に&#x200B;_cjm_ whatsapp_の使用権限がプロビジョニングされていることを確認します。 この使用権限がないと、WhatsApp チャネルを設定できません。
+1. Adobeの使用権限を確認する – 組織に&#x200B;_cjm_ whatsapp_の使用権限がプロビジョニングされていることを確認します。
+
+   この使用権限がないと、WhatsApp チャネルを設定できません。
 
 1. ビジネスアカウントフィールドの検証 – すべての必須フィールドが正しいことを確認します。
 
    * API トークン – 適切な権限[&#128279;](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)を持つ有効なMeta アクセストークンである必要があります。
    * Business Account ID - [Meta Business Account ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)と正確に一致する必要があります。
 
-1. 資格情報を外部でテストする – Meta APIを使用して資格情報を直接検証し、問題が資格情報に関するものであるか、Journey Optimizer B2B editionの資格情報処理に関するものであるかを確認します。
+1. 資格情報を外部でテストする – 問題が資格情報またはJourney Optimizer B2B editionの資格情報の処理を伴うかどうかを確認するには、Meta APIを使用して資格情報を確認します。
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -138,7 +140,7 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="インバウンドキーワードカテゴリ"
->abstract="<b>オプトイン</b>：ユーザーが登録すると、定義済みの自動応答が送信されます。 <br/><b>オプトアウト</b>：ユーザーが登録解除すると、定義済みの自動応答が送信されます。 <br/><b>ヘルプ</b>：ユーザーがヘルプまたはサポートをリクエストした際に、定義済みの自動応答が送信されます。 <br/><b>デフォルト</b>：一致するキーワードがない場合に、フォールバック自動応答が送信されます。"
+>abstract="<b> オプトイン </b>：サブスクリプションの自動応答を送信します。 <br/><b> オプトアウト </b>：購読解除の自動応答を送信します。 <br/><b> ヘルプ </b>: ヘルプ リクエストに対する自動応答を送信します。 <br/><b>Default</b>：一致しないキーワードに対するフォールバック自動応答を送信します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
@@ -155,11 +157,21 @@ do we have advanced logs? How are they enabled?
 >title="トークンの検証"
 >abstract="検証プロセス中にコールバック URL を確認および検証するのに Meta がエコーバックするトークン。"
 
+>[!BEGINSHADEBOX]
+
+![AEP権限アイコン &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、割り当てられたユーザーロールに対する次の[権限がExperience Platform](./user-management.md#b2b-product-permissions)で必要です。
+
+* **[!UICONTROL B2B チャネル設定]** - `Manage B2B Channels`
+* **[!UICONTROL B2B チャネル設定]** - `Manage B2B WhatsApp Settings`
+* **[!UICONTROL B2B チャネル設定]** - `Manage B2B WhatsApp Presets`
+
+>[!ENDSHADEBOX]
+
 Webhookを使用すると、Journey Optimizer B2B editionは、WhatsApp Business アカウントからインバウンドメッセージ、同意応答、配信通知を受け取ることができます。 Webhookを設定して、適切な同意管理とメッセージ追跡を確保します。
 
 >[!NOTE]
 >
->オプトインまたはオプトアウトのキーワードが指定されていない場合、標準の同意メッセージは有効になりません。
+>標準的な同意メッセージでは、指定したオプトインキーワードまたはオプトアウトキーワードが必要です。
 
 WhatsApp API資格情報が正常に作成されたら、webhookを設定できます。
 
@@ -174,8 +186,8 @@ WhatsApp API資格情報が正常に作成されたら、webhookを設定でき�
 1. **[!UICONTROL インバウンドキーワードカテゴリ]**&#x200B;で、キーワードと返信メッセージを定義するカテゴリを選択します。
 
    * **[!UICONTROL オプトイン]** - WhatsApp メッセージを受信するには、ユーザーが積極的に同意する必要があります。多くの場合、Web サイトまたはアプリのフォームを通じて管理されます。
-   * **[!UICONTROL オプトアウト]** - `Stop`や`No Message`などのフレーズをリッスンするようにWebhookを設定して、ユーザーをオプトアウトとして自動的にマークします。
-   * **[!UICONTROL ヘルプ]** - ユーザーが`HELP` （または`Unknown`などの類似キーワード）を送信するタイミングを自動システムで検出し、サービスの指示などの特定の情報を含む自動的に返信できるようにします。
+   * **[!UICONTROL オプトアウト]** - ユーザーを自動的にオプトアウトとしてマークするには、`Stop`や`No Message`などのフレーズをリッスンするようにWebhookを設定します。
+   * **[!UICONTROL ヘルプ]** - ユーザーが`HELP` （または`Unknown`などの類似キーワード）を送信するタイミングを自動システムで検出し、サービスの指示などの自動方法で特定の情報を返信できるようにします。
    * **[!UICONTROL Default]** – 特定のキーワードに一致しない受信メッセージを処理します。 これは、Adobe Experience Platform データセットでトラッキングイベント（開封数や配信レポートなど）を有効にするフォールバックカテゴリとして機能します。
 
    キーワードカテゴリを選択すると、デフォルトのキーワードが入力されます。
@@ -209,6 +221,16 @@ Webhookが送信されたら、トークンとURL値を取得し、Metaに登録
 1. [Meta for Developers ポータル &#x200B;](https://developers.facebook.com/)で、WhatsApp アプリケーション設定に移動し、コピーした値を使用してWebhookを設定します。
 
 ### チャネル設定の作成 {#create-channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+![AEP権限アイコン &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、割り当てられたユーザーロールに対する次の[権限がExperience Platform](./user-management.md#b2b-product-permissions)で必要です。
+
+* **[!UICONTROL B2B チャネル設定]** - `Manage B2B Channels`
+* **[!UICONTROL B2B チャネル設定]** - `Manage B2B WhatsApp Settings`
+* **[!UICONTROL B2B チャネル設定]** - `Manage B2B WhatsApp Presets`
+
+>[!ENDSHADEBOX]
 
 チャネル設定では、ジャーニーアクションノードからWhatsApp メッセージを送信する際に使用される配信設定を定義します。
 

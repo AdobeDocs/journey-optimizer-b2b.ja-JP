@@ -21,7 +21,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
 workflow-type: tm+mt
 source-wordcount: 3582
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 この新機能により、メール全体を生成するためのプロンプトベースのコンテンツ生成や、メール構造コンポーネント内でターゲットを絞ったコンテンツ生成が可能になります。 画像の場合、新しい画像アセットを生成したり、入力ブランドアセット内の画像カタログ内からレコメンデーションを生成したりできます。 また、この機能を利用して、最適な件名とプリヘッダーを生成し、メールの開封率に影響を与えることもできます。
 
->[!IMPORTANT]
+>[!PREREQUISITES]
 >
 >Adobe Journey Optimizer B2B editionでこれらの機能にアクセスするには、_[!UICONTROL AI アシスタント]_ > _[!UICONTROL コンテンツを生成]_&#x200B;権限が必要です。 製品管理者が機能の権限を付与する方法について詳しくは、[製品権限の役割を編集](../admin/user-management.md#edit-roles-for-product-permissions)を参照してください。
 

@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa687e409812e70b80c366b7c9bb0274a7a179f7
+source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
 workflow-type: tm+mt
-source-wordcount: 5580
+source-wordcount: 5599
 ht-degree: 62%
 
 ---
@@ -39,13 +39,14 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
 | 機能 | 顧客ジャーニー | （以前のBeta、一般公開に向けた早期デプロイメント）Experience Platform Audiencesとデータを使用して、リードベースマーケティングをオーケストレーションするジャーニーを作成できるようになりました。 [詳細情報](../journeys/journeys-overview.md) |
-| 機能 | 人物リスト | 静的および動的な人物リストが使用できるようになりました。これにより、デモグラフィック属性やエクスペリエンスイベント履歴など、定義された条件でプロファイルをターゲティングできます。 |
-| 機能 | _バリアント分割パス_ ジャーニーノード | （以前のAdobe Betaアカウントジャーニー版）マーケターは、定義された割合に基づいて、アカウントまたは人物を異なるジャーニーパスに割り当てることで、アカウントまたは人物のジャーニー内のバリエーションをテストできるようになりました。 |
+| 機能 | ユーザーリスト | デモグラフィック属性やエクスペリエンスイベント履歴など、定義された条件でプロファイルをターゲティングできるように、静的および動的な人物リストを使用できるようになりました。 |
+| 機能 | _バリアント分割パス_ ジャーニーノード | （以前のAdobe Betaアカウントジャーニー版）マーケターは、定義された割合に基づいて、アカウントまたは人物を異なるジャーニーパスに割り当てることで、アカウントまたは人物のジャーニー内のバリエーションをテストできるようになりました。 [詳細情報](../journeys/variant-split-paths-nodes.md) |
 | 機能強化 | ジャーニー再入力 – 人物ジャーニー | 個人ジャーニーで、ジャーニーの再入力のサポートが利用可能になりました。 |
 | 機能強化 | イベントトリガーとフィルターをリッスンする – アカウントジャーニー | _Listen for event_ ノードでの複数のトリガーとフィルターのサポートが、アカウントジャーニーで利用できるようになりました。 |
 | 機能強化 | 外部分割パスノード – 人物ジャーニー | _外部分割パス_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 |
 | 機能強化 | 外部アクションノード – 人物ジャーニー | _外部アクション_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 |
-| 機能強化 | AEP リレーションデータセット | 新しいリレーショナルデータセットが、既存のデータセットとともにAEP サンドボックスに表示されるようになりました。 |
+| 機能強化 | AEPのリレーショナルデータセット | 新しいリレーショナルデータセットが、既存のデータセットとともにAEP サンドボックスに表示されるようになりました。 |
+| 機能強化 | 製品権限 – WhatsApp チャネル | 製品管理者は、_[!UICONTROL B2B チャネル設定]_&#x200B;に対して`Manage B2B WhatsApp Settings`および`Manage B2B WhatsApp Presets`権限を設定できるようになりました。 |
 
 >[!NOTE]
 >
@@ -152,7 +153,7 @@ AI アシスタントインターフェイス内の Journey Optimizer B2B Editio
 | ----- | ------ | ----------- |
 | Journey Build Agent | 新規および更新済み | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。 [詳細情報](../agents/journey-agent.md) |
 | Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。 これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。 [詳細情報](../agents/audience-agent-b2b.md) |
-| 販売修飾子 | 新規 | Sales Qualifierは、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionへのAI駆動のアドオンアプリケーションで、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客のクオリフィケーション、アウトリーチ、バイヤーのエンゲージメントワークフローを自動化できます。 [詳細情報](../agents/sales-qualifier.md) |
+| 販売修飾子 | 新規 | Sales Qualifierは、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionへのAI駆動型アドオンアプリケーションで、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客のクオリフィケーション、アウトリーチ、バイヤーのエンゲージメントワークフローを自動化できます。 [詳細情報](../agents/sales-qualifier.md) |
 
 ## 2025.10 リリースノート {#rel-2025-10}
 
