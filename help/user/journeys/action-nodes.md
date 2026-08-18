@@ -4,22 +4,16 @@ description: アカウントと人物のアクションに対するアクショ�
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2319
 ht-degree: 3%
 
 ---
@@ -38,14 +32,15 @@ ht-degree: 3%
 
 | アクション | 制約 |
 | ------ | ----------- |
-| [!UICONTROL &#x200B; アカウントの注目のアクション &#x200B;] | 種類（電子メール、マイルストーン、またはweb） <br/>説明（オプション） |
+| [!UICONTROL  アカウントの注目のアクション ] | 種類（電子メール、マイルストーン、またはweb） <br/>説明（オプション） |
 | [!UICONTROL 宛先に対してアクティブ化] | 宛先を選択 |
-| [!UICONTROL &#x200B; アカウントを（その他）ジャーニーに追加] | ライブアカウントジャーニーの選択 |
-| [!UICONTROL &#x200B; アカウントリストに追加] | ライブの静的アカウントリストを選択 |
-| [!UICONTROL &#x200B; アカウントをジャーニーから削除] | ライブアカウントジャーニーの選択 |
-| [!UICONTROL &#x200B; アカウントリストから削除] | ライブ静的アカウントリストの選択 |
+| [!UICONTROL  アカウントを（その他）ジャーニーに追加] | ライブアカウントジャーニーの選択 |
+| [!UICONTROL  アカウントリストに追加] | ライブの静的アカウントリストを選択 |
+| [!UICONTROL 宛先から非アクティブ化] | 既存の仮想オーディエンスを選択<br/>宛先を選択 |
+| [!UICONTROL  アカウントをジャーニーから削除] | ライブアカウントジャーニーの選択 |
+| [!UICONTROL  アカウントリストから削除] | ライブ静的アカウントリストの選択 |
 | [!UICONTROL 販売アラートを送信] | ソリューションの関心を選択<br/> メールの送信先 |
-| [!UICONTROL &#x200B; アカウントプロファイルの更新] | 属性を選択<br/>新しい値 |
+| [!UICONTROL  アカウントプロファイルの更新] | 属性を選択<br/>新しい値 |
 | [!UICONTROL 購買グループステージの更新] | ソリューションの関心を選択<br/>購買グループのステージを選択 |
 | [!UICONTROL 購買グループの状態を更新] | ソリューションの関心を選択<br/> ステータス （必須、最大50文字） |
 
@@ -53,7 +48,7 @@ ht-degree: 3%
 >
 >2025.10 リリースでは、_[!UICONTROL Account Change Data Value]_ アクションは推奨されません。 _[!UICONTROL アカウントプロファイルを更新]_&#x200B;すると、Journey Optimizer B2B editionでこの操作が置き換えられます。<br/>
 >
->管理者は、_[!UICONTROL XDM設定]_/_[!UICONTROL 標準クラス]_&#x200B;のフィールドを更新することで、XDM ビジネスアカウントで使用可能な属性を設定できます。 詳しくは、[標準スキーマ &#x200B;](../admin/xdm-field-management.md#standard-schemas)を参照してください。
+>管理者は、_[!UICONTROL XDM設定]_/_[!UICONTROL 標準クラス]_&#x200B;のフィールドを更新することで、XDM ビジネスアカウントで使用可能な属性を設定できます。 詳しくは、[標準スキーマ ](../admin/xdm-field-management.md#standard-schemas)を参照してください。
 
 ### アカウントベースのアクションの追加
 
@@ -61,7 +56,7 @@ ht-degree: 3%
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL アクションを実行]**&#x200B;を選択します。
 
-   ![&#x200B; ジャーニーノードを追加 – アクションを実行](./assets/add-node-action.png){width="400"}
+   ![ ジャーニーノードを追加 – アクションを実行](./assets/add-node-action.png){width="400"}
 
 1. 右側のノードプロパティで、アクションに「**[!UICONTROL アカウント]**」を選択します。
 
@@ -71,13 +66,19 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-### LinkedInの宛先に対してアクティブ化
+### 宛先に対してアクティブ化または非アクティブ化 {#activate-deactivate-destination}
 
 _宛先に対してアクティブ化_ アクションを使用して、ジャーニーから直接Experience Platform宛先にアカウントをアクティブ化します。 このアクションを使用すると、購買グループのフィルター、エンゲージメントスコア、その他の基準にもとづいて、適格なアカウントを、サポートされている宛先の一致したオーディエンスにプッシュできます。
 
-2025.10 リリース以降、**_LinkedIn_**&#x200B;が最初にサポートされる宛先タイプです。 LinkedInの宛先に対してアクションを使用すると、マルチシステムのハンドオフを排除し、待ち時間を短縮して、キャンペーンの実行を効率化できます。 たとえば、マーケターは、主要な購買役割が欠けている場合はリターゲティングのために、インテント率の高いアカウントをLinkedInで自動的に活用したり、非アクティブなフィルターにもとづいて休眠アカウントをリエンゲージしたりできます。
+このアクションを、同じジャーニーの後半で&#x200B;_宛先から非アクティブ化_ アクションと組み合わせることで、アカウントがコンバージョンした後または資格を失った後にターゲティングアカウントを停止できます。
 
-LinkedIn宛先にアカウントが一致するオーディエンスを使用する方法について詳しくは、[LinkedIn Account Matched Audiences](../data/linkedin-account-matched-audiences.md)を参照してください。
+>[!NOTE]
+>
+>2025.10 リリース以降、**_LinkedIn_**&#x200B;が最初にサポートされる宛先タイプです。 LinkedInの宛先に対してアクションを使用すると、マルチシステムのハンドオフを排除し、待ち時間を短縮して、キャンペーンの実行を効率化できます。 たとえば、マーケターは、主要な購買役割が欠けている場合はリターゲティングのために、インテント率の高いアカウントをLinkedInで自動的に活用したり、非アクティブなフィルターにもとづいて休眠アカウントをリエンゲージしたりできます。
+>
+>LinkedIn宛先にアカウントが一致するオーディエンスを使用する方法について詳しくは、[LinkedIn Account Matched Audiences](../data/linkedin-account-matched-audiences.md)を参照してください。
+
+_宛先ノードにアクティブ化を追加するには&#x200B;:_
 
 1. ジャーニーキャンバスで「_アクションを実行_」ノードを選択した状態で、「**[!UICONTROL アカウントに対するアクション]**」を「**[!UICONTROL 宛先に対するアクティブ化]**」に設定します。
 
@@ -87,28 +88,40 @@ LinkedIn宛先にアカウントが一致するオーディエンスを使用す
 
 1. ダイアログで、設定したLinkedInの宛先を選択し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   ![ジャーニーノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 – 宛先を選択ダイアログ &#x200B;](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+   ![ジャーニーノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 – 宛先を選択ダイアログ ](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
 1. 宛先でアクティブ化されたオーディエンスを識別するために使用される&#x200B;**[!UICONTROL オーディエンス名]**&#x200B;を入力します。
 
    ![ジャーニーノード – アカウントに対してアクションを実行 – アクティベート先 – 完了した設定](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
+宛先ノードから非アクティブ化を追加するには（_T） :_
+
+1. ジャーニーキャンバスで「_アクションを実行_」ノードを選択した状態で、「**[!UICONTROL アカウントに対するアクション]**」を「**[!UICONTROL 宛先から非アクティブ化]**」に設定します。
+
+   ![ジャーニーノード – アカウントに対してアクションを実行 – デスティネーション メニューから非アクティブ化](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
+
+1. **[!UICONTROL 仮想オーディエンス]**&#x200B;で、**[!UICONTROL 既存の仮想オーディエンス]**&#x200B;を選択し、宛先から削除するアカウントの仮想オーディエンスを選択します。
+
+1. **[!UICONTROL 宛先からアクティベート解除]**&#x200B;で、**[!UICONTROL 宛先を選択]**&#x200B;をクリックし、アカウントを削除する宛先を選択します。
+
+   宛先&#x200B;_ノードから_&#x200B;非アクティブ化を設定すると、選択した仮想オーディエンスと宛先が表示されます。
+
 >[!ENDSHADEBOX]
 
 ## 顧客のアクション {#people-actions}
 
-アカウントまたは個人のジャーニーで、ノードパス上のすべてのユーザーに変更を適用する場合は、ユーザーに対するアクションを使用します。 アカウントジャーニーの場合、このノードタイプは、_パスをユーザーで分割_&#x200B;または&#x200B;_パスをアカウントで分割_&#x200B;内で使用できます。
+アカウントまたは個人のジャーニーで、ノードパス上のすべてのユーザーに変更を適用する場合は、ユーザーに対するアクションを使用します。 アカウントジャーニーの場合、このノードタイプは、_パスをユーザーで分割_&#x200B;または&#x200B;_パスをアカウントで分割_ ノード内で使用できます。
 
 ### アクションと制約 {#people-action-constraints}
 
 | コンテキスト | アクション | ジャーニータイプ | 制約 |
 | ------- | ------ | ------------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL &#x200B; ユーザーを（他の）ジャーニーに追加] | <li>アカウントジャーニー（人物に対するアクション） <li>ユーザージャーニー | <li>ライブ顧客ジャーニーを選択 |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL  ユーザーを（他の）ジャーニーに追加] | <li>アカウントジャーニー（人物に対するアクション） <li>ユーザージャーニー | <li>ライブ顧客ジャーニーを選択 |
 | | [!UICONTROL 外部顧客オーディエンスに追加] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>外部の顧客オーディエンスを選択 |
 | | [!UICONTROL 購買グループに割り当て] | <li>アカウントジャーニー | <li>ソリューションに対する関心を選択 <li>役割を選択 |
-| | [!UICONTROL &#x200B; スコアの変更] | <li>アカウントジャーニー | <li>スコア名 <li>スコアの変更 |
+| | [!UICONTROL  スコアの変更] | <li>アカウントジャーニー | <li>スコア名 <li>スコアの変更 |
 | | [!UICONTROL 興味深い瞬間] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>タイプ <li>説明 |
-| | [!UICONTROL web エクスペリエンスのパーソナライズ &#x200B;] （Beta） | <li>アカウントジャーニー | <li>web エクスペリエンスの作成/編集 |
+| | [!UICONTROL web エクスペリエンスのパーソナライズ ] （Beta） | <li>アカウントジャーニー | <li>web エクスペリエンスの作成/編集 |
 | | [!UICONTROL 購買グループから削除] | <li>アカウントジャーニー | <li>ソリューションに対する関心を選択 |
 | | [!UICONTROL 電子メールを送信] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>メールを作成 <li>配信時間の最適化（オプション、個人ジャーニーのみ） |
 | | [!UICONTROL SMSを送信] | <li>アカウントジャーニー | <li>SMS を作成 |
@@ -146,7 +159,7 @@ Journey Optimizer B2Bの人物ベースのアクションは、設定された�
 
 「**[!UICONTROL ライブ人物ジャーニーを選択]**」セレクターを使用して、人物プロファイルを追加する人物ジャーニーを指定します。 フィールドにテキストを入力して、リストをフィルタリングできます。
 
-![&#x200B; アクションを実行 – （その他）ジャーニーにユーザーを追加](./assets/node-action-add-to-person-journey.png){width="300"}
+![ アクションを実行 – （その他）ジャーニーにユーザーを追加](./assets/node-action-add-to-person-journey.png){width="300"}
 
 +++
 
@@ -158,16 +171,16 @@ Journey Optimizer B2Bの人物ベースのアクションは、設定された�
 >
 >人物プロファイルを持つ適格なアカウントが、公開されたジャーニーで&#x200B;_外部カスタマーオーディエンスに追加_ ノードに到達すると、それらのプロファイルが外部オーディエンスに入力されるまでに最大48時間かかる場合があります。
 
-![&#x200B; アクションを実行 – 外部の顧客オーディエンスに追加](./assets/node-action-add-to-external-audience-options.png){width="300"}
+![ アクションを実行 – 外部の顧客オーディエンスに追加](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
 この人物ベースのアクションを選択すると、新しい外部オーディエンスを作成したり、既存の外部オーディエンスのリストから選択したりできます。
 
 * 既存のオーディエンスの場合、[!DNL Journey Optimizer B2B Edition]でのみ作成された外部顧客オーディエンスから選択できます。
-* オーディエンスを作成し、このジャーニーアクションに使用する場合は、宛先を接続してください。 詳しくは、[!DNL Experience Platform] ドキュメントの[新しい宛先接続の作成](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}および[&#x200B; アクティベーションの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}を参照してください。
+* オーディエンスを作成し、このジャーニーアクションに使用する場合は、宛先を接続してください。 詳しくは、[!DNL Experience Platform] ドキュメントの[新しい宛先接続の作成](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}および[ アクティベーションの概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}を参照してください。
 
-![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [有料メディアオーケストレーションのビデオ概要を見る](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
+![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"} [有料メディアオーケストレーションのビデオ概要を見る](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
-2025.10 リリース以降では、[!DNL Adobe Target]宛先など、[!DNL Experience Platform]で作成された外部オーディエンスを通じてオーケストレーションすることもできます。 このオーディエンス統合について詳しくは、[Adobe Target外部オーディエンス &#x200B;](../audiences/target-external-audience.md)を参照してください。
+2025.10 リリース以降では、[!DNL Adobe Target]宛先など、[!DNL Experience Platform]で作成された外部オーディエンスを通じてオーケストレーションすることもできます。 このオーディエンス統合について詳しくは、[Adobe Target外部オーディエンス ](../audiences/target-external-audience.md)を参照してください。
 
 _外部オーディエンスを作成するには&#x200B;:_
 
@@ -201,17 +214,17 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 +++[!UICONTROL 購買グループに割り当て]
 
-このアクションを使用して、選択したソリューションの関心と役割に基づいて[購買グループ &#x200B;](../buying-groups/buying-groups-overview.md)に人物プロファイルを追加します。
+このアクションを使用して、選択したソリューションの関心と役割に基づいて[購買グループ ](../buying-groups/buying-groups-overview.md)に人物プロファイルを追加します。
 
-![&#x200B; アクションを実行 – 購買グループに追加](./assets/node-action-add-to-buying-group.png){width="300"}
+![ アクションを実行 – 購買グループに追加](./assets/node-action-add-to-buying-group.png){width="300"}
 
 +++
 
-+++[!UICONTROL &#x200B; スコアの変更]
++++[!UICONTROL  スコアの変更]
 
-このアクションを使用して、Marketo Engageの人物スコアを変更します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+このアクションを使用して、Marketo Engageの人物スコアを変更します。 [詳細情報](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
-![&#x200B; アクションを実行 – スコアの変更](./assets/node-action-change-score.png){width="300"}
+![ アクションを実行 – スコアの変更](./assets/node-action-change-score.png){width="300"}
 
 +++
 
@@ -219,23 +232,23 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 このアクションを使用して、人々にとって興味深い瞬間を記録します。 タイプ（メール、マイルストーン、またはWeb）を選択し、説明を追加します（オプション）。
 
-![&#x200B; アクションを実行 – 興味深い瞬間](./assets/node-action-person-interesting-moment.png){width="300"}
+![ アクションを実行 – 興味深い瞬間](./assets/node-action-person-interesting-moment.png){width="300"}
 
 +++
 
-+++[!UICONTROL web エクスペリエンスのパーソナライズ &#x200B;] （Beta）
++++[!UICONTROL web エクスペリエンスのパーソナライズ ] （Beta）
 
-このアクションを使用すると、web サイトで直接[&#x200B; パーソナライズされたエクスペリエンス &#x200B;](../content/web-experiences.md)を作成できます。 web チャネル機能は、カスタマイズされたweb コンテンツでエンゲージメントを強化するために使用できる柔軟なツールキットを提供します。
+このアクションを使用すると、web サイトで直接[ パーソナライズされたエクスペリエンス ](../content/web-experiences.md)を作成できます。 web チャネル機能は、カスタマイズされたweb コンテンツでエンゲージメントを強化するために使用できる柔軟なツールキットを提供します。
 
-![&#x200B; アクションを実行 – web エクスペリエンスをパーソナライズ &#x200B;](./assets/node-action-person-personalize-web-experience.png){width="300"}
+![ アクションを実行 – web エクスペリエンスをパーソナライズ ](./assets/node-action-person-personalize-web-experience.png){width="300"}
 
 +++
 
 +++[!UICONTROL 購買グループから削除]
 
-このアクションを使用して、選択したソリューションの関心に基づいて[購買グループ &#x200B;](../buying-groups/buying-groups-overview.md)から人物プロファイルを削除します。
+このアクションを使用して、選択したソリューションの関心に基づいて[購買グループ ](../buying-groups/buying-groups-overview.md)から人物プロファイルを削除します。
 
-![&#x200B; アクションを実行 – 購買グループに追加](./assets/node-action-remove-from-buying-group.png){width="300"}
+![ アクションを実行 – 購買グループに追加](./assets/node-action-remove-from-buying-group.png){width="300"}
 
 +++
 
@@ -245,15 +258,15 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 **[!UICONTROL 人物ジャーニーを選択]** セレクターを使用して、人物プロファイルを削除する人物ジャーニーを指定します。 フィールドにテキストを入力して、リストをフィルタリングできます。
 
-![&#x200B; アクションを実行 – ジャーニーからユーザーを削除](./assets/node-action-remove-from-person-journey.png){width="300"}
+![ アクションを実行 – ジャーニーからユーザーを削除](./assets/node-action-remove-from-person-journey.png){width="300"}
 
 +++
 
 +++[!UICONTROL 電子メールを送信]
 
-このアクションを使用してメールを送信します。 ノードの電子メール [&#128279;](../content/add-email.md#add-an-email-action-node-in-a-journey)を[&#128279;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email)作成した後、電子メールデザインスペースで電子メールメッセージをデザイン、パーソナライズ、プレビューできます（[電子メールオーサリング &#x200B;](../content/email-authoring.md){target="_blank"}を参照）。 Marketo Engageから電子メールを送信することもできます。 Marketo Engage ワークスペースを選択し、送信するメールを選択します。
+このアクションを使用してメールを送信します。 ノードの電子メール ](../content/add-email.md#add-an-email-action-node-in-a-journey)を[作成した後、電子メールデザインスペースで電子メールメッセージをデザイン、パーソナライズ、プレビューできます（[電子メールオーサリング ](../content/email-authoring.md)を参照）。 Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}から[電子メールを送信することもできます。 Marketo Engage ワークスペースを選択し、送信するメールを選択します。
 
-![&#x200B; アクションを実行 – メールを送信](./assets/node-action-send-email-from-marketo.png){width="300"}
+![ アクションを実行 – メールを送信](./assets/node-action-send-email-from-marketo.png){width="300"}
 
 個人のジャーニーについては、[送信時間の最適化](../content/email-send-time-optimization.md)を使用して、各プロファイルがエンゲージする可能性が最も高いタイミングを予測し、メール配信のタイミングをパーソナライズします。
 
@@ -265,17 +278,17 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 +++[!UICONTROL SMSを送信]
 
-このアクションを使用して、SMS メッセージを送信します。 ビジュアルデザイン空間でSMS メッセージを作成、パーソナライズ、プレビューできます（[SMS オーサリング &#x200B;](../content/sms-authoring.md)を参照）。
+このアクションを使用して、SMS メッセージを送信します。 ビジュアルデザイン空間でSMS メッセージを作成、パーソナライズ、プレビューできます（[SMS オーサリング ](../content/sms-authoring.md)を参照）。
 
-![&#x200B; アクションを実行 – SMSを送信](./assets/node-action-send-sms.png){width="300"}
+![ アクションを実行 – SMSを送信](./assets/node-action-send-sms.png){width="300"}
 
 +++
 
 +++[!UICONTROL WhatsAppを送信]
 
-このアクションを使用して、WhatsApp メッセージを送信します。 ビジュアルデザイン空間でWhatsApp メッセージを作成、パーソナライズ、プレビューできます（[WhatsApp オーサリング &#x200B;](../content/whatsapp-authoring.md)を参照）。
+このアクションを使用して、WhatsApp メッセージを送信します。 ビジュアルデザイン空間でWhatsApp メッセージを作成、パーソナライズ、プレビューできます（[WhatsApp オーサリング ](../content/whatsapp-authoring.md)を参照）。
 
-![&#x200B; アクションを実行 – WhatsAppを送信](./assets/node-action-send-whatsapp.png){width="300"}
+![ アクションを実行 – WhatsAppを送信](./assets/node-action-send-whatsapp.png){width="300"}
 
 +++
 
@@ -283,19 +296,19 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 このアクションを使用して、[人物プロファイル属性](../admin/field-mapping.md#xdm-business-person-attributes)の値を変更します。 属性を選択し、新しい値を設定します。
 
-![&#x200B; アクションを実行 – 人物プロファイルを更新](./assets/node-action-update-person-profile.png){width="300"}
+![ アクションを実行 – 人物プロファイルを更新](./assets/node-action-update-person-profile.png){width="300"}
 
 >[!NOTE]
 >
->現在のJourney Optimizer B2B edition リリースの&#x200B;_[!UICONTROL Change Data Value]_ アクションに代わって、_[!UICONTROL 人物プロファイルを更新]_&#x200B;します。<br/>
+>現在のJourney Optimizer B2B edition リリースの&#x200B;_[!UICONTROL Change Data Value]_ アクションに代わって、_[!UICONTROL 人物プロファイルを更新]_ アクションが実行されます。<br/>
 >
->管理者は、_[!UICONTROL XDM設定]_ > [!UICONTROL 標準クラス &#x200B;]のフィールドを更新することで、XDM個人プロファイルで使用可能な属性を設定できます。 詳しくは、[標準スキーマ &#x200B;](../admin/xdm-field-management.md#standard-schemas)を参照してください。
+>管理者は、_[!UICONTROL XDM設定]_ > [!UICONTROL 標準クラス ]のフィールドを更新することで、XDM個人プロファイルで使用可能な属性を設定できます。 詳しくは、[標準スキーマ ](../admin/xdm-field-management.md#standard-schemas)を参照してください。
 
 +++
 
 ### Marketo Engage アクション
 
-Marketo Engageのピープルベースのアクションは、Journey Optimizer B2B editionのアカウントベースドマーケティングのオーケストレーションと、Marketo Engageのリードベースのマーケティング施策を連携するように設計されています。 これらのアクションを使用して、リストメンバーシップを調整し、キャンペーンをリクエストします。
+[!DNL Marketo Engage]人ベースのアクションは、[!DNL Journey Optimizer B2B Edition]のAccount-Based Marketing オーケストレーションとMarketo Engageのリードベースのマーケティング活動を調整するように設計されています。 これらのアクションを使用して、リストメンバーシップを調整し、キャンペーンをリクエストします。
 
 >[!NOTE]
 >
@@ -305,34 +318,34 @@ Marketo Engageのピープルベースのアクションは、Journey Optimizer 
 
 +++[!UICONTROL Marketo リクエストキャンペーンに追加]
 
-このアクションを使用して、接続されたMarketo Engage インスタンスの[&#x200B; リクエストキャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}に人物プロファイルを追加します。
+このアクションを使用して、接続されたMarketo Engage インスタンスの[ リクエストキャンペーン ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}に人物プロファイルを追加します。
 
 まず、接続されているMarketo Engage インスタンスを選択します。 次に、リクエストキャンペーン名を選択します。
 
-![&#x200B; アクションを実行 – Marketo Engage リクエストキャンペーンに追加](./assets/node-action-add-to-request-campaign-options.png){width="300"}
+![ アクションを実行 – Marketo Engage リクエストキャンペーンに追加](./assets/node-action-add-to-request-campaign-options.png){width="300"}
 
 +++
 
 +++[!UICONTROL Marketo リストに追加]
 
-このアクションを使用して、接続されたMarketo Engage インスタンスの[静的リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}にユーザーを追加します。
+このアクションを使用して、接続されたMarketo Engage インスタンスの[静的リスト ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}にユーザーを追加します。
 
 まず、接続されているMarketo Engage インスタンスを選択します。 次に、リスト名を選択します。
 
-![&#x200B; アクションを実行 – Marketo リストに追加](./assets/node-action-add-to-list-options.png){width="300"}
+![ アクションを実行 – Marketo リストに追加](./assets/node-action-add-to-list-options.png){width="300"}
 
 +++
 
 +++[!UICONTROL Marketo リストから削除]
 
-Marketo Engageの[静的リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}からユーザーを削除するには、この操作を使用します。
+Marketo Engageの[静的リスト ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}からユーザーを削除するには、この操作を使用します。
 
 まず、接続されているMarketo Engage インスタンスを選択します。 次に、リスト名を選択します。
 
-![&#x200B; アクションを実行 – Marketo リストから削除](./assets/node-action-remove-from-list-options.png){width="300"}
+![ アクションを実行 – Marketo リストから削除](./assets/node-action-remove-from-list-options.png){width="300"}
 
 +++
 
 ## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3443246/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
