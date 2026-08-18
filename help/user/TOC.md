@@ -1,7 +1,7 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 85%
@@ -32,7 +32,7 @@ ht-degree: 85%
   + [AI アシスタントへのアクセスを有効にする](./ai-assistant/enable-ai-assistant-access.md)
   + [質問ガイダンス](./ai-assistant/question-guidance.md)
   + [AI アシスタントを使用](./ai-assistant/use-ai-assistant.md)
-  + [コンテンツ用ジェネレーティブ AI](./ai-assistant/generative-ai-content.md)
+  + [コンテンツ向け生成 AI](./ai-assistant/generative-ai-content.md)
   + エージェント {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
     + [Journey Agent B2B](./agents/journey-agent.md)
@@ -41,7 +41,7 @@ ht-degree: 85%
   + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
   + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
   + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
   + ジャーニーノード {#journey-nodes}
     + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
     + [顧客オーディエンス](./journeys/person-audience-nodes.md)
@@ -104,7 +104,7 @@ ht-degree: 85%
     + [CRM リンク](./accounts/crm-linking.md)
 + コンテンツ管理 {#content-management}
   + メール {#emails}
-    + [メールコンテンツの操作](./content/emails-list.md)
+    + [メールコンテンツを扱う](./content/emails-list.md)
     + プレビューと検証 {#preview}
       + [コンテンツのシミュレート](./content/email-simulate-content.md)
       + [メールのレンダリングのテスト](./content/email-test-rendering.md)
@@ -112,18 +112,18 @@ ht-degree: 85%
     + [メールでの共同作業](./content/email-collaboration-tools.md)
   + アセット {#assets}
     + [概要](./content/assets-overview.md)
-    + [Content Credentials](./content/content-credentials.md)
+    + [C2PA メタデータ](./content/c2pa-metadata.md)
     + 内部アセット {#internal-dam}
       + [内部アセットの操作](./content/internal-image-assets.md)
       + [Adobe Express を使用した画像の編集](./content/image-edit-adobe-express.md)
-    + [Experience Manager 画像アセット](./content/aem-assets.md)
+    + [Adobe Experience Manager 画像アセット](./content/aem-assets.md)
   + テンプレート {#templates}
     + [コンテンツガバナンス](./content/template-content-governance.md)
     + メールテンプレート {#email-templates}
       + [概要](./content/email-templates.md)
       + [メールテンプレートオーサリング](./content/email-template-authoring.md)
       + [HTMLの高度な編集機能](./content/email-template-advanced-html.md)
-      + [画像をテンプレートに変換](./content/email-template-image-convert.md)
+      + [画像をテンプレートへの変換](./content/email-template-image-convert.md)
     + ランディングページテンプレート（ベータ版） {#landing-page-templates}
       + [概要](./content/landing-page-templates.md)
       + [ランディングページテンプレートのデザイン](./content/landing-page-template-design.md)
@@ -170,7 +170,7 @@ ht-degree: 85%
     + [インテントデータ](./admin/intent-data.md)
     + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
     + [外部アクション](./admin/configure-external-actions.md)
-    + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+    + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
   + チャネル {#channels}
     + [メール設定](./admin/configure-channels-emails.md)
     + [SMS 設定](./admin/configure-channels-sms.md)
