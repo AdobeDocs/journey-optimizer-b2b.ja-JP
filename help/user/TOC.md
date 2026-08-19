@@ -1,17 +1,17 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
 
-# Journey Optimizer B2B Ultimateユーザーガイド {#user}
+# Journey Optimizer B2B Edition ユーザーガイド {#user}
 
-+ [Adobe Journey Optimizer B2B Ultimateのドキュメント](guide-overview.md)
++ [Adobe Journey Optimizer B2B Edition ドキュメント](guide-overview.md)
 + [リリースノート](./release-notes/release-notes.md)
 + 基本を学ぶ {#get-started}
   + [Journey Optimizer B2B Edition の概要](about-journey-optimizer-b2b-edition.md)
@@ -41,7 +41,7 @@ ht-degree: 85%
   + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
   + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
   + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
   + ジャーニーノード {#journey-nodes}
     + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
     + [顧客オーディエンス](./journeys/person-audience-nodes.md)
@@ -170,7 +170,7 @@ ht-degree: 85%
     + [インテントデータ](./admin/intent-data.md)
     + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
     + [外部アクション](./admin/configure-external-actions.md)
-    + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+    + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
   + チャネル {#channels}
     + [メール設定](./admin/configure-channels-emails.md)
     + [SMS 設定](./admin/configure-channels-sms.md)
