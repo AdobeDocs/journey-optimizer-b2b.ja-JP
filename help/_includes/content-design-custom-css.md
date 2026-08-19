@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL 保存]**」をクリックして、カスタム CSSを保存します。
 
-   カスタムスタイルシートが既存のコンテンツに適用されます。 必要に応じてカスタム CSSが適用されていることを確認できます。 スタイルシート アプリケーションを変更および調整する方法について詳しくは、[ トラブルシューティング ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting)を参照してください。
+   カスタムスタイルシートが既存のコンテンツに適用されます。 必要に応じてカスタム CSSが適用されていることを確認できます。 スタイルシート アプリケーションを変更および調整する方法について詳しくは、[&#x200B; トラブルシューティング &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting)を参照してください。
 
 >[!NOTE]
 >
