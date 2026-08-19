@@ -16,7 +16,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->インテントデータは、Journey Optimizer B2B edition インスタンス用に設定されている場合に含まれます。 また、購買グループを作成した1つ以上の公開されたジャーニー&#x200B;**または**&#x200B;が必要です。 インテント検出モデルと、キーワード、製品、およびカテゴリを送信する方法について詳しくは、[&#x200B; インテント データ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)を参照してください。
+>インテントデータは、Journey Optimizer B2B edition インスタンス用に設定されている場合に含まれます。 また、購買グループを作成した1つ以上の公開されたジャーニー&#x200B;**または**&#x200B;が必要です。 インテント検出モデルと、キーワード、製品、およびカテゴリを送信する方法について詳しくは、[&#x200B; インテント データ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/configurations/intent-data)を参照してください。
 
 ## AEM Assetsのライセンスノート {#aem-assets-licensing-note}
 
@@ -231,7 +231,7 @@ Journey Optimizer B2B edition ライブラリまたは接続されたMarket Enga
 
 ## Content - image selection - AEM Assets {#aem-assets-dam}
 
-このタイプを選択すると、[設定されたExperience Manager Assets リポジトリ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories)から画像アセットを参照して選択できます。
+このタイプを選択すると、[設定されたExperience Manager Assets リポジトリ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories)から画像アセットを参照して選択できます。
 
 「_[!UICONTROL Assetsを選択]_」ダイアログで、使用可能なツールを使用して画像を選択し、必要なアセットを見つけて「**[!UICONTROL 選択]**」をクリックします。
 

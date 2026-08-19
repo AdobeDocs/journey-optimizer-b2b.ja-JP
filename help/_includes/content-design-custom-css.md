@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. エディターにCSS コードを入力します。
 
-   カスタム CSSが有効であり、適切な構文に従っていることを確認します。 入力したCSSが無効な場合は、エラーメッセージが表示され、CSSを保存できません。 詳しくは、[CSS validity](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity)を参照してください。
+   カスタム CSSが有効であり、適切な構文に従っていることを確認します。 入力したCSSが無効な場合は、エラーメッセージが表示され、CSSを保存できません。 詳しくは、[CSS validity](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity)を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、カスタム CSSを保存します。
 
-   カスタムスタイルシートが既存のコンテンツに適用されます。 必要に応じてカスタム CSSが適用されていることを確認できます。 スタイルシート アプリケーションを変更および調整する方法について詳しくは、[&#x200B; トラブルシューティング &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting)を参照してください。
+   カスタムスタイルシートが既存のコンテンツに適用されます。 必要に応じてカスタム CSSが適用されていることを確認できます。 スタイルシート アプリケーションを変更および調整する方法について詳しくは、[&#x200B; トラブルシューティング &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting)を参照してください。
 
 >[!NOTE]
 >

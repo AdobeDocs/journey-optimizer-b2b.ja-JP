@@ -24,4 +24,4 @@ ht-degree: 4%
 
   ![&#x200B; ソースライブラリからアセットを選択](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-ソースタイプのアセットの使用について詳しくは、[&#x200B; コンテンツのオーサリングにアセットを使用](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring)を参照してください。
+ソースタイプのアセットの使用について詳しくは、[&#x200B; コンテンツのオーサリングにアセットを使用](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring)を参照してください。

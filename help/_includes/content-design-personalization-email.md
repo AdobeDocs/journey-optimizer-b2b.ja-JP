@@ -14,7 +14,7 @@ Journey Optimizer B2B editionでは、インラインのシンプルな構文を
 
 例えば、パーソナライゼーション式を`Hello {{lead.firstName}} {{lead.lastName}}`として追加できます。 コンテンツを処理する場合、Journey Optimizer B2B editionは、エクスプレッションをExperience Platform データベースに含まれるデータに置き換えます。 最初の例は&#x200B;_Hello John Doe_&#x200B;です。
 
-Journey Optimizer B2B editionでのパーソナライゼーションツールの使用について詳しくは、[&#x200B; コンテンツパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/personalization/personalization)を参照してください。
+Journey Optimizer B2B editionでのパーソナライゼーションツールの使用について詳しくは、[&#x200B; コンテンツパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/content-management/personalization/personalization)を参照してください。
 
 >[!NOTE]
 >
