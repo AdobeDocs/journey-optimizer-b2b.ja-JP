@@ -2,20 +2,15 @@
 title: C2PA メタデータ
 description: Adobe Journey Optimizer B2B editionが、生成AI ツールで生成または編集された画像にC2PA メタデータを自動的に適用する仕組みと、これがコンテンツにもたらす意味をご紹介します。
 feature: Assets, Content
+hide: true
 role: User
 autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c1e8e03ccd6f2d132ca1bc1a27c0d9ea18dcdcac
 workflow-type: tm+mt
 source-wordcount: 913
 ht-degree: 0%
@@ -34,7 +29,7 @@ ht-degree: 0%
 * AI ツールの使用 – 生成AIを使用してアセットを編集または作成した場合、使用するモデルの名前が含まれる場合があります。
 * その他の関連情報 – アセットの履歴に関するより多くのコンテキストを提供するために、追加のデータも含まれる場合があります。
 
-アセット履歴の詳細については、Adobe Content Authenticity [&#x200B; インスペクションツール &#x200B;](https://contentauthenticity.adobe.com/inspect)を使用してください。
+アセット履歴の詳細については、Adobe Content Authenticity [ インスペクションツール ](https://contentauthenticity.adobe.com/inspect)を使用してください。
 
 C2PA メタデータは画像ファイルに保持されます。 生成AIで生成または編集された画像が[!DNL Adobe Journey Optimizer B2B Edition]にアップロードされるか、またはから書き出されると、そのC2PA メタデータが保持されます。
 
