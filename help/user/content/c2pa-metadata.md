@@ -2,6 +2,7 @@
 title: C2PA メタデータ
 description: Adobe Journey Optimizer B2B editionが、生成AI ツールで生成または編集された画像にC2PA メタデータを自動的に適用する仕組みと、これがコンテンツにもたらす意味をご紹介します。
 feature: Assets, Content
+hide: true
 role: User
 autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
@@ -15,7 +16,7 @@ subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
+source-git-commit: c1e8e03ccd6f2d132ca1bc1a27c0d9ea18dcdcac
 workflow-type: tm+mt
 source-wordcount: 913
 ht-degree: 0%

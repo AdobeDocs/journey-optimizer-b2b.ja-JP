@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: 1380
 ht-degree: 5%
@@ -34,7 +34,7 @@ ht-degree: 5%
 
 このアクションにより、電子メールデザインツールが起動し、次のオプションから電子メールのデザイン方法を選択できます。
 
-* ビジュアルデザインインターフェイスを使用して[&#x200B; メールをゼロからデザイン &#x200B;](#design-your-email-from-scratch)。
+* ビジュアルデザインインターフェイスを使用して[&#x200B; メールをゼロからデザイン &#x200B;](#design-from-scratch)。
 
 * ファイルまたは .zip フォルダーから[既存の HTML コンテンツを読み込み](#import-existing-html-content)ます。
 
@@ -62,7 +62,7 @@ ht-degree: 5%
 
 1. [&#x200B; リンクのレビューと更新](#edit-linked-url-tracking)。
 
-1. [電子メールをテスト &#x200B;](#check-and-test-the-email)。
+1. [電子メールをテスト &#x200B;](#email-testing)。
 
 <!--
  If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.

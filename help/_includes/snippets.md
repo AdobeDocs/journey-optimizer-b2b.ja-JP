@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用するフィーチャーまたはページに注意するために、再利用されたメモとビジュアル要素
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2430'
 ht-degree: 5%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->AEM Assets as a Cloud ServiceおよびDynamic Media ライセンスのライセンスは、統合の前提条件です。[Dynamic Media withOpen API](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}が有効になっていることを確認します。統合は、_配信層_&#x200B;のリポジトリに制限されています。_オーサー層_&#x200B;を使用し、それを変換する場合は、Adobe Experience Manager サポートにお問い合わせください。<br/>
->契約と設定に応じて、ビジュアルコンテンツをデザインする際に、Adobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
+>AEM Assets as a Cloud ServiceおよびDynamic Media ライセンスのライセンスは、統合の前提条件です。 [Dynamic Media withOpen API](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}が有効になっていることを確認します。 統合は、_配信層_&#x200B;のリポジトリに制限されています。 _オーサー層_&#x200B;を使用し、それを変換する場合は、Adobe Experience Manager サポートにお問い合わせください。<br/>
+>ビジュアルコンテンツをデザインする際に、契約と設定に応じて、Adobe Experience Manager Assets as a Cloud ServiceにAdobe Journey Optimizer B2B editionから直接アクセスできます。
 
 ## コンテンツオーサリング – コンポーネント – 構造ステップ {#structures-step}
 
@@ -231,7 +231,7 @@ Journey Optimizer B2B edition ライブラリまたは接続されたMarket Enga
 
 ## Content - image selection - AEM Assets {#aem-assets-dam}
 
-このタイプを選択すると、[設定されたExperience Manager Assets リポジトリ &#x200B;](../user/admin/configure-aem-repositories.md)から画像アセットを参照して選択できます。
+このタイプを選択すると、[設定されたExperience Manager Assets リポジトリ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories)から画像アセットを参照して選択できます。
 
 「_[!UICONTROL Assetsを選択]_」ダイアログで、使用可能なツールを使用して画像を選択し、必要なアセットを見つけて「**[!UICONTROL 選択]**」をクリックします。
 
