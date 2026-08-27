@@ -50,7 +50,7 @@ Adobe Journey Optimizer B2B editionのチャットインターフェイスは、
 
 Sales Qualifierは、Journey Optimizer B2B editionのAIを利用したアプリケーションです。 Account Qualification Agentを実装し、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 Sales Qualifierは、見込み顧客の絞り込み、アウトリーチ、バイヤーへのエンゲージメントワークフローをチャネルをまたいで自動化します。 B2B企業は、手作業のBDR負荷を軽減し、パイプラインを高速化することで、パイプラインを高速化できます。
 
-詳しくは、[Sales Qualifier ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}を参照してください。
+詳しくは、[Sales Qualifier ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -118,7 +118,7 @@ JOURNEY OPTIMIZER B2B editionのAI アシスタントは、プライバシー、
 
 * AI アシスタントを利用するには、明示的な許可が必要です。
 
-  * 管理者は、[権限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}と[Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}を使用して権限を設定できます。
+  * 管理者は、[権限UI](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}と[Admin Console](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/browse){target="_blank"}を使用して権限を設定できます。
 
   * 権限は詳細で、サンドボックス管理者は、様々な質問カテゴリ（AI アシスタントによる製品知識ベースの質問や運用上のインサイトに関する質問）に対して質問できるユーザーを設定できます。
 
