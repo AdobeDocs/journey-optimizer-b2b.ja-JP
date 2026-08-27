@@ -4,10 +4,16 @@ description: Journey Optimizer B2B PrimeのAI アシスタントチャットパ�
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 autotag-review: '2026-06-12T22:46:23.441Z'
 TQID: 'https://experienceleague.adobe.com/XyBLmqv63kNBcw-Jo4hKvUKIn2la7kac7-kTbNEU5aE'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a30218bb-f80a-4410-8ac4-b039e99a15b4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
 source-wordcount: 955
@@ -39,7 +45,7 @@ ht-degree: 2%
 
 Sales Qualifierは、Journey Optimizer B2B Primeで利用できるAIを活用したアプリケーションです。 Account Qualification Agentを実装し、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 Sales Qualifierは、見込み顧客の絞り込み、アウトリーチ、バイヤーへのエンゲージメントワークフローをチャネルをまたいで自動化します。 B2B企業は、手作業のBDR負荷を軽減し、パイプラインを高速化することで、パイプラインを高速化できます。
 
-詳しくは、[Sales Qualifier ドキュメント ](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}を参照してください。
+詳しくは、[Sales Qualifier ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
