@@ -8,10 +8,10 @@ product_v2:
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 915
-ht-degree: 26%
+source-wordcount: 1163
+ht-degree: 34%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 26%
 
 >[!BEGINTABS]
 
->[!TAB AI エージェント ]
+>[!TAB AI エージェント]
 
 [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}では、AI アシスタントのインターフェイスにより、専門の担当者が自動的に呼び出され、適切な回答とインサイトを入手できます。 Agent Orchestratorは、会話履歴を記憶するため、コンテキストを繰り返すことなく自然に以前の質問を作成でき、複数の担当者からのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition]のコンテキストでは、特定のB2B タスクとドメイン用に構築された3つのエージェントがあります。
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
-* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+* [Account Qualification Agent](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"}
 
 >[!TAB WhatsApp チャネル ]
 
@@ -155,7 +155,7 @@ Learn how to author and manage content for personalized customer experiences orc
 
 ## 概要デモ
 
-購買グループのコンポーネントと、アカウントジャーニーの作成の基本について説明します。
+購買グループのコンポーネントを確認し、アカウントジャーニーを作成するための基本を理解します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 

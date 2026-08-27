@@ -14,10 +14,10 @@ subfeature_v2:
   - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 1%
+source-wordcount: 955
+ht-degree: 2%
 
 ---
 
@@ -38,6 +38,16 @@ ht-degree: 1%
 
 * メッセージを追加し、**Enter**&#x200B;を押して送信します（**Shift+Enter**&#x200B;が改行を挿入）。
 * _添付_ アイコンを使用してファイルを添付します（サポートされている形式：`.txt`、`.md`、`.csv`、`.json`、`.xlsx`、`.docx`、`.pdf`）。 CSVおよびスプレッドシートのアップロードを使用して、リードのインポートを開始します。
+
+>[!BEGINSHADEBOX]
+
+## 販売修飾子
+
+Sales Qualifierは、Journey Optimizer B2B Primeで利用できるAIを活用したアプリケーションです。 Account Qualification Agentを実装し、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 Sales Qualifierは、見込み顧客の絞り込み、アウトリーチ、バイヤーへのエンゲージメントワークフローをチャネルをまたいで自動化します。 B2B企業は、手作業のBDR負荷を軽減し、パイプラインを高速化することで、パイプラインを高速化できます。
+
+詳しくは、[Sales Qualifier ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"}を参照してください。
+
+>[!ENDSHADEBOX]
 
 ## AI アシスタントに質問
 
