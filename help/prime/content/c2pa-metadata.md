@@ -17,9 +17,9 @@ subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
+source-git-commit: d0e408a3684289460bae729577870fc698c70a60
 workflow-type: tm+mt
-source-wordcount: 559
+source-wordcount: 598
 ht-degree: 1%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 1%
 アセット履歴の詳細については、Adobe Content Authenticity [&#x200B; インスペクションツール &#x200B;](https://contentauthenticity.adobe.com/inspect)を使用してください。
 
 C2PA メタデータは画像ファイルに保持されます。 生成AIで生成または編集された画像が[!DNL Adobe Journey Optimizer B2B Prime]にアップロードされるか、またはから書き出されると、そのC2PA メタデータが保持されます。
+
+Adobe CX Enterprise アプリケーション全体でC2PA メタデータを自動的に添付する方法について詳しくは、CX Enterprise ガイドのAI ガイドの&#x200B;[_生成AI コンテンツの透明性_](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}を参照してください。
 
 >[!NOTE]
 >

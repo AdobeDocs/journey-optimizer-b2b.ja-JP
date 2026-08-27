@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
+source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
 workflow-type: tm+mt
-source-wordcount: 5599
-ht-degree: 62%
+source-wordcount: 5628
+ht-degree: 61%
 
 ---
 
@@ -41,6 +41,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | 機能 | 顧客ジャーニー | （以前のBeta、一般公開に向けた早期デプロイメント）Experience Platform Audiencesとデータを使用して、リードベースマーケティングをオーケストレーションするジャーニーを作成できるようになりました。 [詳細情報](../journeys/journeys-overview.md) |
 | 機能 | ユーザーリスト | デモグラフィック属性やエクスペリエンスイベント履歴など、定義された条件でプロファイルをターゲティングできるように、静的および動的な人物リストを使用できるようになりました。 |
 | 機能 | _バリアント分割パス_ ジャーニーノード | （以前のAdobe Betaアカウントジャーニー版）マーケターは、定義された割合に基づいて、アカウントまたは人物を異なるジャーニーパスに割り当てることで、アカウントまたは人物のジャーニー内のバリエーションをテストできるようになりました。 [詳細情報](../journeys/variant-split-paths-nodes.md) |
+| 機能 | C2PA メタデータ | 生成AI ツールで生成または編集された画像は、C2PA メタデータで自動的に署名されるようになりました。これにより、コンテンツの透明性とAI開示要件を満たすことができます。 [詳細情報](../content/c2pa-metadata.md) |
 | 機能強化 | ジャーニー再入力 – 人物ジャーニー | 個人ジャーニーで、ジャーニーの再入力のサポートが利用可能になりました。 |
 | 機能強化 | イベントトリガーとフィルターをリッスンする – アカウントジャーニー | _Listen for event_ ノードでの複数のトリガーとフィルターのサポートが、アカウントジャーニーで利用できるようになりました。 |
 | 機能強化 | 外部分割パスノード – 人物ジャーニー | _外部分割パス_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 |
