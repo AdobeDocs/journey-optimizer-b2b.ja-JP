@@ -106,7 +106,7 @@ Journey Optimizer B2B edition環境内で複数のブランドをサポートす
 
    >[!NOTE]
    >
-   >**_カスタム SSL_**：カスタム SSL が必要な場合は、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/en/support){target="_blank"} を送信できます。 SSL 作成にチェックボックスを使用しないでください。
+   >**_カスタム SSL_**：カスタム SSL が必要な場合は、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/ja/support){target="_blank"} を送信できます。 SSL 作成にチェックボックスを使用しないでください。
 
 <!-- 
 1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
