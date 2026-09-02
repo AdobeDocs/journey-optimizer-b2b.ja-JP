@@ -5,22 +5,16 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 574
+source-wordcount: 568
 ht-degree: 8%
 
 ---
@@ -38,13 +32,13 @@ _コンテンツをシミュレート_&#x200B;機能を使用して、メール�
 >
 >エラーがある場合は、メールをプレビューできません。 プレビュー機能をブロックするエラーがないことを確認するには、_アラート_&#x200B;を確認してください。 警告はプレビューをブロックしませんが、メール配信をトリガーするジャーニーを公開する前に、プレビューをブロックします。
 
-## メールのプレビューを表示
+## メールのプレビューを表示 {#display-preview}
 
-レンダリングプレビューには、[電子メールデザインスペース &#x200B;](./email-authoring.md)から、または[電子メールリスト &#x200B;](./emails-list.md#open-and-edit-emails)から電子メールを開いたときに&#x200B;_[!UICONTROL 概要]_&#x200B;からアクセスできます。
+レンダリングプレビューには、[電子メールデザインスペース ](./email-authoring.md)から、または[電子メールリスト ](./emails-list.md#open-and-edit-emails)から電子メールを開いたときに&#x200B;_[!UICONTROL 概要]_&#x200B;からアクセスできます。
 
 1. 上部の「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
 
-   ![&#x200B; コンテンツをシミュレート &#x200B;](assets/email-simulate-content.png){width="800" zoomable="yes"}をクリック
+   ![ コンテンツをシミュレート ](assets/email-simulate-content.png){width="800" zoomable="yes"}をクリック
 
    >[!NOTE]
    >
@@ -54,31 +48,31 @@ _コンテンツをシミュレート_&#x200B;機能を使用して、メール�
 
    コンテンツプレビューでは、選択した人物プロファイルに従って、パーソナライズされた要素が入力されます。
 
-   ![&#x200B; シミュレーションをレンダリングする人物プロファイルを選択](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
+   ![ シミュレーションをレンダリングする人物プロファイルを選択](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   左側の&#x200B;_[!UICONTROL 人物]_ リストが空の場合は、接続されたMarketo Engage インスタンスの連絡先を使用して[人物](#add-people-to-the-profiles-list)を追加します。
+   左側の&#x200B;_[!UICONTROL 人物]_ リストが空の場合は、連絡先を使用して[人物](#add-people)を追加します。
 
    >[!TIP]
    >
    >また、[Litmus テストレンダリング統合](./email-test-rendering.md)を使用して、一般的なデスクトップ、モバイル、およびweb ベースのクライアントでのメールメッセージのレンダリングを確認することもできます。
 
-## 表示オプションの調整
+## 表示オプションの調整 {#display-options}
 
 表示ツールを使用して、デバイスの種類またはズームレベルに応じてプレビューを変更します。
 
-* _デスクトップ_ （![&#x200B; デスクトップ表示アイコン &#x200B;](../../assets/do-not-localize/icon-device-desktop.svg)）アイコンを選択して、デスクトップのスタイルと縦横比を使用してプレビューを表示します。
-* _モバイル_ （![&#x200B; モバイル表示アイコン &#x200B;](../../assets/do-not-localize/icon-device-mobile.svg)）アイコンを選択して、モバイルデバイスのスタイルと縦横比を使用してプレビューを表示します。
+* _デスクトップ_ （![ デスクトップ表示アイコン ](../../assets/do-not-localize/icon-device-desktop.svg)）アイコンを選択して、デスクトップのスタイルと縦横比を使用してプレビューを表示します。
+* _モバイル_ （![ モバイル表示アイコン ](../../assets/do-not-localize/icon-device-mobile.svg)）アイコンを選択して、モバイルデバイスのスタイルと縦横比を使用してプレビューを表示します。
 * _ズームレベル_&#x200B;矢印をクリックし、ズーム率を選択して、ズームレベルに応じてコンテンツがどのように変化するかを確認します。
 
-![&#x200B; プレビュー表示を調整](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
+![ プレビュー表示を調整](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
 
-## 配達確認の送信
+## 配達確認の送信 {#send-proofs}
 
 プルーフとは、チームメンバーがメールメッセージをレビューしてからオーディエンスのメンバーに送信できるようにする、配信されたテストメッセージのことです。 プルーフの受信者は、メッセージのレンダリング、コンテンツ、パーソナライゼーション設定、設定を確認できます。 選択したテストプロファイルを使用してプルーフを送信できます。
 
 1. 右上の「**[!UICONTROL プルーフを送信]**」をクリックします。
 
-   ![&#x200B; プルーフを送信をクリック &#x200B;](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![ プルーフを送信をクリック ](assets/email-simulate-content-preview-send-proof.png){width="500"}
 
 1. _プルーフを送信_ ページで、最初の受信者の電子メールアドレスを入力します。
 
@@ -92,18 +86,18 @@ _コンテンツをシミュレート_&#x200B;機能を使用して、メール�
 
 1. 「**[!UICONTROL 配達確認を送信]**」をクリックします。
 
-## プロファイルリストへのユーザーの追加
+## プロファイルリストへのユーザーの追加 {#add-people}
 
 1. _[!UICONTROL ユーザー]_&#x200B;のリストの上部にある「**[!UICONTROL ユーザーを追加]**」をクリックします。
 
-   ![&#x200B; プレビュー表示を調整](assets/email-simulate-content-add-people.png){width="500"}
+   ![ プレビュー表示を調整](assets/email-simulate-content-add-people.png){width="500"}
 
 1. _[!UICONTROL テスト用にユーザーを追加]_ ダイアログで、連絡先の完全な電子メールアドレスを入力します。
 
-   複数の連絡先を追加するには、複数のアドレスをコンマで区切って入力します。
+   複数の連絡先を追加するには、アドレスをコンマで区切って入力します。
 
 1. テストプロファイルのリストに追加する、一致した各連絡先のチェックボックスを選択します。
 
-   ![&#x200B; プレビュー表示を調整](assets/email-simulate-content-add-people-addresses.png){width="700" zoomable="yes"}
+   ![ プレビュー表示を調整](assets/email-simulate-content-add-people-addresses.png){width="700" zoomable="yes"}
 
 1. 右上の「**[!UICONTROL 追加]**」をクリックします。
