@@ -6,12 +6,22 @@ role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
 source-wordcount: 1207
@@ -35,11 +45,11 @@ Adobe Journey Optimizer B2B editionを使用すると、モバイルデバイス
 
 _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を行うと、アカウントジャーニーでテキストメッセージ配信を設定できます。
 
-1. ターゲット ]_の_[!UICONTROL  アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
+1. ターゲット _の_ アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
 
 1. _[!UICONTROL 人物に対するアクション]_&#x200B;で、**[!UICONTROL SMSを送信]**&#x200B;を選択します。
 
-   ![ アクションを実行 – SMSを送信](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
+   ![&#x200B; アクションを実行 – SMSを送信](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
 1. _[!UICONTROL アクションを実行]_ パネルの下部にある「**[!UICONTROL SMSを作成]**」をクリックします。
 
@@ -63,7 +73,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. パーソナライゼーショントークンを追加するメッセージ内の場所にカーソルを置きます。
 
-1. テキストメッセージボックスの右側にある「_パーソナライズ_」アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
+1. テキストメッセージボックスの右側にある「_パーソナライズ_」アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
 
    このダイアログでは、アカウントトークン、人物トークン、システムトークンにアクセスできます。 標準トークンとカスタムトークンの両方が含まれています。 _検索_ バーを使用して必要なトークンを検索するか、フォルダーツリー内を移動してトークンのいずれかを検索して選択できます。
 
@@ -75,7 +85,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. _[!UICONTROL フォールバック値を入力]_ ダイアログで、フォールバックとして表示されるテキストを入力し、**[!UICONTROL 追加]**&#x200B;をクリックします。
 
-   ![ トークンのフォールバックテキストを入力](./assets/sms-message-personalize-fallback-text.png){width="450"}
+   ![&#x200B; トークンのフォールバックテキストを入力](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. パーソナライゼーショントークンを配置したら、**[!UICONTROL 保存]**&#x200B;をクリックして変更を保存し、メインのSMS オーサリングワークスペースに戻ります。
 
@@ -83,7 +93,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 #### テキストメッセージへのリンク（URL）の追加 {#add-links}
 
-1. メッセージテキストを入力したら、テキストメッセージボックスの右側にある&#x200B;_リンク_ アイコン（![ リンクアイコン ](../assets/do-not-localize/icon-link.svg)）をクリックします。
+1. メッセージテキストを入力したら、テキストメッセージボックスの右側にある&#x200B;_リンク_ アイコン（![&#x200B; リンクアイコン &#x200B;](../assets/do-not-localize/icon-link.svg)）をクリックします。
 
 1. リンクの&#x200B;**[!UICONTROL URL]**&#x200B;を入力してください。
 
@@ -109,7 +119,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 -->
 
-![SMS メッセージのリンクを追加ダイアログ ](./assets/sms-add-link-dialog.png){width="470"}
+![SMS メッセージのリンクを追加ダイアログ &#x200B;](./assets/sms-add-link-dialog.png){width="470"}
 
 1. リンクオプションが完了したら、**[!UICONTROL 追加]**&#x200B;をクリックして変更を保存し、SMS メッセージにURL リンクを追加します。
 
@@ -130,7 +140,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. 通信に使用する&#x200B;**[!UICONTROL 送信者番号]**&#x200B;を入力します。
 
-   ![SMS メッセージのプロパティ ](./assets/sms-properties.png){width="500" zoomable="yes"}
+   ![SMS メッセージのプロパティ &#x200B;](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    受信者番号は、常にExperience Platformの`profile.mobilePhone.number` フィールドにマッピングされます。
 
