@@ -4,22 +4,17 @@ description: Journey Optimizer B2B editionとAEM Assetsから、電子メール�
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:17:01.501Z
 TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 61%
+source-wordcount: 848
+ht-degree: 62%
 
 ---
 
@@ -35,15 +30,15 @@ ht-degree: 61%
 
 ### 内部アセット
 
-内部アセットリポジトリは、デフォルトで[!DNL Journey Optimizer B2B Edition] サブスクリプションごとに提供されます。 つまり、接続された[!DNL Adobe Marketo Engage] アセット ファイル システムに保存されているいずれかの画像アセットにアクセスできます。 このリポジトリは、アセットのアップロードやダウンロード機能を含むローカルアセットライブラリとして使用できます。 また、これらのアセットをジャーニーコンテンツ内で使用することもできます。
+内部アセットリポジトリは、デフォルトで[!DNL Journey Optimizer B2B Edition] サブスクリプションごとに提供されます。 このリポジトリは、アセットのアップロードやダウンロードする機能を含むローカルアセットライブラリとして使用できます。 また、これらのアセットをジャーニーコンテンツ内で使用することもできます。
 
-Adobe Express[&#128279;](./image-edit-adobe-express.md)を使用してこれらのアセットを編集し、フォルダーに移動して、電子メール、テンプレート、フラグメントで使用できるようにアセットを整理できます。
+Adobe Express](./image-edit-adobe-express.md)を使用してこれらのアセットを[編集し、フォルダーに移動して、電子メール、テンプレート、フラグメントで使用できるようにアセットを整理できます。
 
 サポートされているファイル形式：JPG、JPEG、GIF、PNG、EPS、SVG、RGB
 
 ### Adobe Experience Manager Assets as a Cloud Service
 
-[!DNL Adobe Experience Manager Assets] を使用してマーケティングワークフローとクリエイティブワークフローを統合します。 [!DNL Journey Optimizer B2B Edition] とネイティブに統合されているので、Assets as a Cloud Service に簡単にアクセスして、デジタルアセットを検出および使用できます。 メッセージの入力に使用できるアセットの Assets リポジトリへのアクセスを提供します。
+[!DNL Adobe Experience Manager Assets] を使用してマーケティングワークフローとクリエイティブワークフローを統合します。 [!DNL Journey Optimizer B2B Edition] とネイティブに統合されているので、Assets as a Cloud Service に簡単にアクセスして、デジタルアセットを検出および使用できます。 メッセージに挿入して使用できるアセットを格納した Assets リポジトリへのアクセスを提供します。
 
 [!DNL Adobe Journey Optimizer B2B Edition] は、[!DNL Adobe Experience Manager Assets as a Cloud Service] に接続して、クリエイティブシステムを拡張し、エクスペリエンス配信にデジタルアセットを統合する一元的なアセット管理を行うことができます。 [!DNL Adobe Experience Manager Assets as a Cloud Service] は、効率的なデジタルアセット管理と Dynamic Media 操作の使いやすいクラウドソリューションを提供します。 人工知能や機械学習などの高度な機能がシームレスに組み込まれています。
 
@@ -55,7 +50,7 @@ Adobe Express[&#128279;](./image-edit-adobe-express.md)を使用してこれら�
 
 現在、Adobe Journey Optimizer B2B Edition では、Adobe Experience Manager Assets の画像のみを使用できます。
 
-## コンテンツオーサリングへのアセットの使用
+## コンテンツのオーサリングでアセットを使用
 
 メール、メールテンプレート、ビジュアルフラグメントを作成する際にアセットを使用します。 ビジュアルコンテンツエディターを使用すると、接続されたアセットリポジトリ内の画像にアクセスできます。 Experience Manager Assets as a Cloud Serviceのサブスクリプションをお持ちの場合は、いずれかのソースから画像アセットを選択できます。 画像アセットをアップロードして、内部アセットリポジトリに配置することもできます。
 
@@ -85,7 +80,7 @@ Adobe Express[&#128279;](./image-edit-adobe-express.md)を使用してこれら�
 
 検索とフィルターを使用して、目的の画像アセットを見つけることができます。 アセットを選択し、「**[!UICONTROL 選択]**」をクリックして、画像コンポーネントに使用します。
 
-内部画像アセットの使用について詳しくは、[&#x200B; コンテンツでアセットを使用する](./internal-image-assets.md#use-assets-in-your-content)を参照してください。
+内部画像アセットの使用について詳しくは、[ コンテンツでアセットを使用する](./internal-image-assets.md#use-assets-in-your-content)を参照してください。
 
 >[!TAB Experience Manager Assets]
 
