@@ -3,21 +3,14 @@ title: Journey Optimizer B2B Edition リリースノート
 description: Adobe Journey Optimizer B2B Edition の最新機能、機能強化、バグ修正について説明します。 新機能や製品の改善点に関する最新情報を常に把握できるようにします。
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
 source-wordcount: 5633
 ht-degree: 61%
@@ -154,7 +147,7 @@ Journey Optimizer B2B editionでは、チャットインターフェイス内で
 | ----- | ------ | ----------- |
 | Journey Build Agent | 新規および更新済み | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。 [詳細情報](../agents/journey-agent.md) |
 | Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。 これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。 [詳細情報](../agents/audience-agent-b2b.md) |
-| 販売修飾子 | 新規 | Sales Qualifierは、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionへのAI駆動型アドオンアプリケーションで、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客のクオリフィケーション、アウトリーチ、バイヤーのエンゲージメントワークフローを自動化できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"} |
+| 販売修飾子 | 新規 | Sales Qualifierは、Account Qualification Agentを含むAdobe Journey Optimizer B2B editionへのAI駆動型アドオンアプリケーションで、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客のクオリフィケーション、アウトリーチ、バイヤーのエンゲージメントワークフローを自動化できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 リリースノート {#rel-2025-10}
 
@@ -195,7 +188,7 @@ Journey Optimizer B2B editionでは、チャットインターフェイス内で
 
 >[!NOTE]
 >
->設定ガイダンスについては、[設定チェックリスト &#x200B;](../setup-ultimate.md)を参照してください。
+>設定ガイダンスについては、[設定チェックリスト ](../setup-ultimate.md)を参照してください。
 
 更新されたアーキテクチャを使用した2025.10 リリースでは、次の新機能と機能強化が利用可能です。
 
@@ -296,7 +289,7 @@ Journey Optimizer B2B editionでは、チャットインターフェイス内で
 | 機能 | アカウントジャーニーを複製 | アカウントジャーニーで複製アクションが使用できるようになりました。 アカウントジャーニーの詳細を複製するか、フローとパス構造のシンプルなスケルトンのみを複製できます。 <a href="../journeys/journeys-overview.md#duplicate-journey">詳細情報</a> |
 | 機能 | アカウントジャーニーのマイトークン | アカウントジャーニーに固有の値を持つカスタムトークンのセットを定義できるようになりました。 このカスタムトークンのセットは&#x200B;_マイトークン_&#x200B;と呼ばれ、これらのカスタムトークンはすべて、ジャーニーメールのオーサリング時にパーソナライゼーション用に使用されます。 <a href="../content/personalization-my-tokens.md">詳細情報</a> |
 | 機能 | 購買グループのステージを削除 | 購買グループステージモデルは、ドラフト状態または公開済みの状態の場合に削除できます。 公開済み（ライブ）の場合は、ソリューションインタレストに関連付けられていない場合にのみ削除できます。 <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">詳細情報</a> |
-| 機能強化 | ジャーニーノードの数 | ノードレベルでの公開済みジャーニーメンバーシップの数に対する表示が向上しました。 _ジャーニーマップ_&#x200B;では、ノードに&#x200B;_[!UICONTROL 入力済み合計アカウント数]_&#x200B;が表示されます。 マーケターがアクションノードを選択すると、右側の詳細には、_に対してまだアクションを実行していない_ アカウントも含まれます。 _イベントをリッスン_&#x200B;ノードの詳細には、_[!UICONTROL このステップのアカウント]_&#x200B;が含まれます。 この情報は、ライブジャーニー、完了ジャーニー、中断ジャーニーのアカウントの進行状況を検証するのに役立ちます。 |
+| 機能強化 | ジャーニーノードの数 | ノードレベルでの公開済みジャーニーメンバーシップの数に対する表示が向上しました。 _ジャーニーマップ_&#x200B;では、ノードに&#x200B;_[!UICONTROL 入力済み合計アカウント数]_&#x200B;が表示されます。 マーケターがアクションノードを選択すると、右側の詳細には、]_に対してまだアクションを実行していない_[!UICONTROL  アカウントも含まれます。 _イベントをリッスン_&#x200B;ノードの詳細には、_[!UICONTROL このステップのアカウント]_&#x200B;が含まれます。 この情報は、ライブジャーニー、完了ジャーニー、中断ジャーニーのアカウントの進行状況を検証するのに役立ちます。 |
 
 ## 2025.2 リリースノート {#rel-2025-2}
 
@@ -328,7 +321,7 @@ Journey Optimizer B2B editionでは、チャットインターフェイス内で
 | 機能 | Adobe Express の画像編集 | Adobe Express クイックアクションを使用すると、画像に簡単な編集（切り抜きやサイズ変更など）を加え、コンテンツの外観をより洗練されたものにすることができます。 <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">詳細情報</a>  <p>より包括的なデザインツールセットを実現することを目的に、この統合により、Journey Optimizer B2B Edition への完全な Adobe Express ライセンスが有効になります。 この設定により、ローカルアセットワークスペース内で完全な Adobe Express ユーザーインターフェイスにアクセスできるようになります。 <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">詳細情報</a> |
 | 機能 | 購買グループの役割のインテントフィルター | インテントキーワードを送信すると、インテント検出モデルは、リードのアクティビティに基づいて、十分な確度で興味のあるソリューション／製品を予測します。 <a href="../admin/intent-data.md">詳細情報</a> <p>このインテントデータは、購買グループの役割条件を定義するのに使用できます。<a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">詳細情報</a> |
 | 機能強化 | ジャーニーでの Marketo Engage イベントのサポート | _イベントのリッスン_ ジャーニーノードで、人物レベルで2つのMarketo Engage イベントがサポートされるようになりました：_訪問web ページ_&#x200B;と&#x200B;_フォームの入力_。 <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">詳細情報</a> |
-| 機能強化 | Marketo Engage スマートリストの購買グループフィルター | Marketo Engage で購買グループフィルターを使用してスマートリストを表示および作成します。 これらの追加されたフィルターを使用すると、Journey Optimizer B2B Edition 内のアカウントジャーニーから、Marketo Engage キャンペーンおよびプログラムをまたいで購買グループメンバーを抑制したり、含めたりすることができます。 <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">詳細情報</a> |
+| 機能強化 | Marketo Engage スマートリストの購買グループフィルター | Marketo Engage で購買グループフィルターを使用してスマートリストを表示および作成します。 これらの追加されたフィルターを使用すると、Journey Optimizer B2B Edition 内のアカウントジャーニーから、Marketo Engage キャンペーンおよびプログラムをまたいで購買グループメンバーを抑制したり、含めたりすることができます。 _非推奨の機能_ |
 | 機能強化 | ジャーニーとロールで使用する Marketo Engage リストメンバーシップフィルター | Journey Optimizer B2B では、ジャーニーアクティビティの重複を排除することを目的に、_人物でパスを分割_&#x200B;ノードの条件として Marketo Engage リストのメンバーシップを確認します。 <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">詳細情報</a> <p> 購買グループの役割テンプレートの場合は、役割の条件としてリストメンバーシップを使用します。 <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">詳細情報</a> |
 | 機能強化 | エンゲージメントの概要ダッシュボード | このダッシュボードは、エンゲージメントの包括的なビューを提供するよう更新されています。 スナップショットの円グラフと、時間の経過と共にトレンドを示す折れ線グラフを通じて、アカウントと個々のインタラクションのリアルタイムの指標が表示されます。 <a href="../dashboards/engagement-dashboard.md">詳細情報</a> |
 
