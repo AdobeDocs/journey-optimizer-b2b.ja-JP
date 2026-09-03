@@ -176,7 +176,7 @@ Journey Optimizer B2Bの人物ベースのアクションは、設定された�
 この人物ベースのアクションを選択すると、新しい外部オーディエンスを作成したり、既存の外部オーディエンスのリストから選択したりできます。
 
 * 既存のオーディエンスの場合、[!DNL Journey Optimizer B2B Edition]でのみ作成された外部顧客オーディエンスから選択できます。
-* オーディエンスを作成し、このジャーニーアクションに使用する場合は、宛先を接続してください。 詳しくは、[!DNL Experience Platform] ドキュメントの[新しい宛先接続の作成](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}および[&#x200B; アクティベーションの概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}を参照してください。
+* オーディエンスを作成し、このジャーニーアクションに使用する場合は、宛先を接続してください。 詳しくは、[!DNL Experience Platform] ドキュメントの[新しい宛先接続の作成](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}および[&#x200B; アクティベーションの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"}を参照してください。
 
 ![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [有料メディアオーケストレーションのビデオ概要を見る](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -310,7 +310,7 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 +++[!UICONTROL Marketo リクエストキャンペーンに追加]
 
-このアクションを使用して、接続されたMarketo Engage インスタンスの[&#x200B; リクエストキャンペーン &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}に人物プロファイルを追加します。
+このアクションを使用して、接続されたMarketo Engage インスタンスの[&#x200B; リクエストキャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"}に人物プロファイルを追加します。
 
 まず、接続されているMarketo Engage インスタンスを選択します。 次に、リクエストキャンペーン名を選択します。
 
@@ -320,7 +320,7 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 +++[!UICONTROL Marketo リストに追加]
 
-このアクションを使用して、接続されたMarketo Engage インスタンスの[静的リスト &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}にユーザーを追加します。
+このアクションを使用して、接続されたMarketo Engage インスタンスの[静的リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}にユーザーを追加します。
 
 まず、接続されているMarketo Engage インスタンスを選択します。 次に、リスト名を選択します。
 
@@ -330,7 +330,7 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 +++[!UICONTROL Marketo リストから削除]
 
-Marketo Engageの[静的リスト &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}からユーザーを削除するには、この操作を使用します。
+Marketo Engageの[静的リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"}からユーザーを削除するには、この操作を使用します。
 
 まず、接続されているMarketo Engage インスタンスを選択します。 次に、リスト名を選択します。
 
