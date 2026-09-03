@@ -6,26 +6,16 @@ role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 1207
-ht-degree: 5%
+source-wordcount: 1251
+ht-degree: 4%
 
 ---
 
@@ -45,11 +35,11 @@ Adobe Journey Optimizer B2B editionを使用すると、モバイルデバイス
 
 _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を行うと、アカウントジャーニーでテキストメッセージ配信を設定できます。
 
-1. ターゲット _の_ アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
+1. ターゲット ]_の_[!UICONTROL  アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
 
 1. _[!UICONTROL 人物に対するアクション]_&#x200B;で、**[!UICONTROL SMSを送信]**&#x200B;を選択します。
 
-   ![&#x200B; アクションを実行 – SMSを送信](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
+   ![ アクションを実行 – SMSを送信](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
 1. _[!UICONTROL アクションを実行]_ パネルの下部にある「**[!UICONTROL SMSを作成]**」をクリックします。
 
@@ -73,7 +63,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. パーソナライゼーショントークンを追加するメッセージ内の場所にカーソルを置きます。
 
-1. テキストメッセージボックスの右側にある「_パーソナライズ_」アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
+1. テキストメッセージボックスの右側にある「_パーソナライズ_」アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
 
    このダイアログでは、アカウントトークン、人物トークン、システムトークンにアクセスできます。 標準トークンとカスタムトークンの両方が含まれています。 _検索_ バーを使用して必要なトークンを検索するか、フォルダーツリー内を移動してトークンのいずれかを検索して選択できます。
 
@@ -85,7 +75,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. _[!UICONTROL フォールバック値を入力]_ ダイアログで、フォールバックとして表示されるテキストを入力し、**[!UICONTROL 追加]**&#x200B;をクリックします。
 
-   ![&#x200B; トークンのフォールバックテキストを入力](./assets/sms-message-personalize-fallback-text.png){width="450"}
+   ![ トークンのフォールバックテキストを入力](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. パーソナライゼーショントークンを配置したら、**[!UICONTROL 保存]**&#x200B;をクリックして変更を保存し、メインのSMS オーサリングワークスペースに戻ります。
 
@@ -93,35 +83,31 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 #### テキストメッセージへのリンク（URL）の追加 {#add-links}
 
-1. メッセージテキストを入力したら、テキストメッセージボックスの右側にある&#x200B;_リンク_ アイコン（![&#x200B; リンクアイコン &#x200B;](../assets/do-not-localize/icon-link.svg)）をクリックします。
-
-1. リンクの&#x200B;**[!UICONTROL URL]**&#x200B;を入力してください。
-
+1. メッセージテキストを入力したら、テキストメッセージボックスの右側にある&#x200B;_リンク_ アイコン（![ リンクアイコン ](../assets/do-not-localize/icon-link.svg)）をクリックします。
 
 1. ダイアログで、リンクするURLのタイプを選択します。
 
    * **[!UICONTROL ランディングページ]** – 公開されているランディングページのいずれかを選択するには、このオプションを選択します。
 
-   * **[!UICONTROL 外部URL]** – このタイプは、テキストボックスに入力した外部URLです。
+   * **[!UICONTROL 外部URL]** – 外部URLをリンクするには、このオプションを選択します。 リンクの&#x200B;**[!UICONTROL URL]**&#x200B;を入力してください。
+
+     ![SMS メッセージのリンクを追加ダイアログ ](./assets/sms-add-link-dialog.png){width="470"}
+
+1. （オプション）トラッキングオプションを設定します。
+
+   * **[!UICONTROL リンクトラッキングを有効にする]** – このチェックボックスを選択してトラッキングを有効にします。これには、_URLの短縮_&#x200B;が必要です。 短縮URL形式のサンプルが表示されます。 実際のURLは、SMSが受信者に送信されたときに作成されます。
+
+   * **[!UICONTROL リードトラッキングを有効にする]** - ユーザーに対するアクティビティを追跡するには、このチェックボックスを選択します。</br>
 
 <!--
-
-1. If you choose to use a Marketo Engage landing page, set the tracking options.
-
-   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
-
-   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
-
       >[!NOTE] 
       >
-      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
-      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+      >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
 
-![SMS メッセージのリンクを追加ダイアログ &#x200B;](./assets/sms-add-link-dialog.png){width="470"}
-
-1. リンクオプションが完了したら、**[!UICONTROL 追加]**&#x200B;をクリックして変更を保存し、SMS メッセージにURL リンクを追加します。
+1. リンクオプションが完了したら、**[!UICONTROL 追加]**&#x200B;をクリックして、SMS メッセージにURL リンクを追加します。
 
 ### SMS プロパティの設定 {#sms-properties}
 
@@ -140,7 +126,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. 通信に使用する&#x200B;**[!UICONTROL 送信者番号]**&#x200B;を入力します。
 
-   ![SMS メッセージのプロパティ &#x200B;](./assets/sms-properties.png){width="500" zoomable="yes"}
+   ![SMS メッセージのプロパティ ](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    受信者番号は、常にExperience Platformの`profile.mobilePhone.number` フィールドにマッピングされます。
 
