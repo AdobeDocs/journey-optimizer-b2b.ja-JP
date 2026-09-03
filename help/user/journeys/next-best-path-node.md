@@ -5,12 +5,18 @@ feature: Account Journeys, AI Assistant
 role: User
 autotag-review: '2026-05-20T18:52:08.227Z'
 TQID: 'https://experienceleague.adobe.com/idPaG-ZNnNwJjN8yVC3Ay1FZ2XPgtQgrSMNIus4fReI'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
 source-wordcount: 1913
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 # 次善のパスノード
 
-_次善のパス_ ノードは、AIによる分割パス決定をジャーニーキャンバスに直接取り込みます。 [分割パス ](./split-merge-paths-nodes.md) ノードでフィルター条件を設定する代わりに、自然言語で意図を記述し、各ユーザーに最も関連性の高いパスをシステムに判断させます。
+_次善のパス_ ノードは、AIによる分割パス決定をジャーニーキャンバスに直接取り込みます。 [分割パス &#x200B;](./split-merge-paths-nodes.md) ノードでフィルター条件を設定する代わりに、自然言語で意図を記述し、各ユーザーに最も関連性の高いパスをシステムに判断させます。
 
 >[!NOTE]
 >
@@ -45,11 +51,11 @@ AIは、入力を組み合わせて、定義されたパスプロンプトに対
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL 次善のパス]**&#x200B;を選択します。
 
-   ![ ジャーニーノードの追加 – 次善のパス ](./assets/add-node-next-best-path.png){width="350" zoomable="no"}
+   ![&#x200B; ジャーニーノードの追加 – 次善のパス &#x200B;](./assets/add-node-next-best-path.png){width="350" zoomable="no"}
 
    ノードがキャンバスに追加され、AI分割設定パネルが右側に表示されます。 1つのパスとデフォルトの&#x200B;_その他_&#x200B;のパスから始まり、定義されたパスのどれにも該当しないユーザーをルーティングします。
 
-   ![次善のパスノード ](./assets/node-next-best-path-new.png){width="500"}
+   ![次善のパスノード &#x200B;](./assets/node-next-best-path-new.png){width="500"}
 
 ## パスの設定 {#configure-paths}
 
@@ -57,7 +63,7 @@ AIは、入力を組み合わせて、定義されたパスプロンプトに対
 
 1. ノードに含める追加パスごとに「**[!UICONTROL パスを追加]**」をクリックします。
 
-   パスを削除するには、パスカードの&#x200B;_削除_ （![削除アイコン ](../assets/do-not-localize/icon-delete-outline.svg)）アイコンをクリックします。
+   パスを削除するには、パスカードの&#x200B;_削除_ （![削除アイコン &#x200B;](../assets/do-not-localize/icon-delete-outline.svg)）アイコンをクリックします。
 
 1. 右側のパネルの各パスカードについて：
 
@@ -261,9 +267,9 @@ _会計四半期の過去30日間に評価段階のアクティビティが急�
 
 ### シミュレーションの実行 {#run-simulation}
 
-1. 次の最適なパスノードを選択し、右側のパネルの上部にある「_シミュレート_」（![ シミュレーションアイコン ](../../assets/do-not-localize/icon-simulate-outline.svg)）アイコンをクリックします。
+1. 次の最適なパスノードを選択し、右側のパネルの上部にある「_シミュレート_」（![&#x200B; シミュレーションアイコン &#x200B;](../../assets/do-not-localize/icon-simulate-outline.svg)）アイコンをクリックします。
 
-   ![次善のパス – シミュレーションアイコンをクリック ](./assets/node-next-best-path-simulate-select.png){width="500"}
+   ![次善のパス – シミュレーションアイコンをクリック &#x200B;](./assets/node-next-best-path-simulate-select.png){width="500"}
 
 1. ダイアログで、シミュレーションに使用するオーディエンスを選択します。
 
@@ -317,4 +323,4 @@ _会計四半期の過去30日間に評価段階のアクティビティが急�
 * 各パス割り当ての信頼性スコア
 * パスレベルおよびプロファイルレベルの推論。個々のプロファイルの詳細を拡張できます
 
-ライブ結果は、ジャーニーコンソールおよびAI ハブの[ジャーニーオブザーバビリティ スキル ](../agents/journey-agent.md#journey-observability-skill)からも確認できます。
+ライブ結果は、ジャーニーコンソールおよびAI ハブの[ジャーニーオブザーバビリティ スキル &#x200B;](../agents/journey-agent.md#journey-observability-skill)からも確認できます。
