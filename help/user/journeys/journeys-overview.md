@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1312
+source-wordcount: 1308
 ht-degree: 46%
 
 ---
@@ -172,7 +172,7 @@ Journey Optimizer B2B editionでは、次の2種類のジャーニーをサポ�
 
 1. 複製の&#x200B;**[!UICONTROL タイプ]**&#x200B;を選択します。
 
-   * **[!UICONTROL 部分的なコンテンツの複製]** - 作成したメールや SMS メッセージを除く、ジャーニー内のすべてをコピーするには、このタイプを使用します。 Marketo Engage のメールまたは SMS メッセージを参照するノードは、完全にそのまま残ります。
+   * **[!UICONTROL 部分的なコンテンツの複製]** - 作成したメールや SMS メッセージを除く、ジャーニー内のすべてをコピーするには、このタイプを使用します。 SMS メッセージを参照するノードは完全に無傷です。
 
    * **[!UICONTROL 詳細なしで複製]** – このタイプを使用して、ノード構造とパスのみをコピーします。 すべてのノード設定とパス条件は未定義（デフォルト）なので、異なるオーディエンス、アクション、パスセグメント設定で基本フローを再度使用できます。 すべての&#x200B;_待機_&#x200B;ノードは、デフォルトの 5 日間を使用します。
 

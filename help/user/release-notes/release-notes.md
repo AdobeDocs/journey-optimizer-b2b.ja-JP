@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -162,7 +162,7 @@ Journey Optimizer B2B editionでは、チャットインターフェイス内で
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | ジャーニーから宛先へのアクティブ化 | 新しい&#x200B;_宛先に対してアクティブ化_&#x200B;会社アカウントアクションを使用して、個人ではなく会社に対して直接アクティブ化します （このリリースではLinkedIn企業に限定されます）。 [詳細情報](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| 機能 | ジャーニーから宛先へのアクティブ化 | 新しい&#x200B;_宛先に対してアクティブ化_&#x200B;会社アカウントアクションを使用して、個人ではなく会社に対して直接アクティブ化します （このリリースではLinkedIn企業に限定されます）。 [詳細情報](../journeys/action-nodes.md#activate-deactivate-destination) |
 | 機能 | ブランドテーマ | ブランドテーマを使用すれば、技術者以外のユーザでも、標準テンプレートにカスタムスタイルを追加することで、特定のブランドやデザイン言語に適合する再利用可能なコンテンツを作成できるようになりました。 [詳細情報](../content/brand-themes.md) |
 | 機能 | メールテンプレート - 画像を HTML に変換する | JPG または PNG 画像ファイル形式で保存されたデザインファイルを使用して、メールテンプレートを自動的に生成できるようになりました。 [詳細情報](../content/email-template-image-convert.md) |
 | 機能 | ペルソナマッピング | 属性マッピングを使用して、アカウントメンバーと確立されたペルソナを結び付けます。 [詳細情報](../admin/persona-mapping.md) |
@@ -254,7 +254,7 @@ Journey Optimizer B2B editionでは、チャットインターフェイス内で
 | 機能 | CRM 内から詳細ページへのアクセス | Salesforce や Microsoft Dynamics などの顧客関係管理（CRM）ツールで、アカウント、連絡先、リードの Journey Optimizer B2B Edition の詳細ページへのダイレクトリンクを設定できるようになりました。 [詳細情報](../accounts/crm-linking.md) |
 | 機能 | コンテンツデザインのカスタム CSS サポート | デザインスペースでメールやランディングページのコンテンツを作成する際に、独自のカスタム CSS を追加できるようになりました。 [詳細情報](../content/design-custom-css.md) |
 | 機能 | インテントキーワードマッピングの設定 | インテント検出モデルをアクティブ化して管理するために、管理者はスプレッドシートをアップロードしてインテントデータマッピングカテゴリを定義できるようになりました。 [詳細情報](../admin/intent-data.md) |
-| 機能強化 | メール概要からコンテンツをシミュレート | メールリストからメールを開く際に、メールの概要（詳細とプロパティ）から&#x200B;_コンテンツをシミュレート_&#x200B;ツールにアクセスできるようになりました。 このアクセス権は、メールデザインスペースへのアクセスとは別に付与されます。 [詳細情報](../content/email-simulate-content.md#display-the-email-preview) |
+| 機能強化 | メール概要からコンテンツをシミュレート | メールリストからメールを開く際に、メールの概要（詳細とプロパティ）から&#x200B;_コンテンツをシミュレート_&#x200B;ツールにアクセスできるようになりました。 このアクセス権は、メールデザインスペースへのアクセスとは別に付与されます。 [詳細情報](../content/email-simulate-content.md#display-preview) |
 | 機能強化 | ロールテンプレートリストの合計数の表示 | _[!UICONTROL アカウントジャーニー]_&#x200B;リストページが強化され、検索バーの横に合計数が表示されます。 |
 
 ## 2025.5 リリースノート {#rel-2025-5}
@@ -280,7 +280,7 @@ Journey Optimizer B2B editionでは、チャットインターフェイス内で
 | ---- | ---- | ----------- |
 | 機能 | アカウントリスト | 業界、所在地、会社の規模など、定義した条件に基づいて重点顧客をターゲットにするための静的または動的アカウントリストを作成できるようになりました。 <a href="../accounts/account-lists.md">詳細情報</a> |
 | 機能 | アカウントリストのジャーニーオーケストレーション | ジャーニーアクションノードを使用して、静的アカウントリストのアカウントを追加および削除します。 <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">詳細情報</a> |
-| 機能強化 | Marketo Engage でジャーニーメンバーシップをフィルタリング | ジャーニーオーディエンスに Adobe Journey Optimizer B2B Edition アカウントリストを使用し、Marketo Engage スマートリストで&#x200B;_アカウントリストのメンバー_&#x200B;フィルターを使用します。 <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">詳細情報</a> |
+| 機能強化 | Marketo Engage でのジャーニーメンバーシップのフィルター | ジャーニーオーディエンスに Adobe Journey Optimizer B2B Edition アカウントリストを使用し、Marketo Engage スマートリストで&#x200B;_アカウントリストのメンバー_&#x200B;フィルターを使用します。 |
 | 機能 | 非アクティブフィルター | メールの非アクティビティ、注目のアクション、データ値の変更、訪問済みの web ページなど、Marketo Engage キャンペーンとプログラム内の非アクティビティに基づいてジャーニーを調整します。 |
 | 機能強化 | 訪問済みの web ページフィルター | Marketo Engage キャンペーンとプログラムに関連付けられた訪問済みの web ページのアクティビティに基づいてジャーニーを調整します。 |
 | 機能強化 | メールリスト | アクティブなメールとドラフトのメールのグローバルリストを表示し、関連するアカウントジャーニー全体でメールを検索、確認、更新します。 <a href="../content/emails-list.md">詳細情報</a> |

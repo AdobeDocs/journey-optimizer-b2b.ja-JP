@@ -17,10 +17,10 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 3074
-ht-degree: 7%
+source-wordcount: 2658
+ht-degree: 8%
 
 ---
 
@@ -564,51 +564,23 @@ HTML コンポーネントの場合、右側のパネルで、HTML コンポー�
 
 [&#x200B; アセットソースタイプ &#x200B;](./assets-overview.md)を選択し、画像ファイルを選択します。
 
-* **[!UICONTROL Marketo Engage Assets]** – このタイプを選択すると、Journey Optimizer B2B edition ライブラリまたは接続されているMarketo Engage インスタンスから画像アセットを参照して選択できます。
++++[!UICONTROL &#x200B; アセットを選択]
 
-  ![使用可能な画像アセットを参照](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+{{internal-dam}}
 
-  ダイアログから、選択したリポジトリから画像を選択できます。 「**[!UICONTROL 選択]**」をクリックして、アセットを追加します。
++++
 
-  必要なアセットを見つけるのに役立つツールがあります。
++++[!UICONTROL メディアを読み込み]
 
-  * 左上の&#x200B;_フィルター_ アイコンをクリックして、条件に従って表示される項目をフィルタリングします。
+{{image-upload}}
 
-  * 「_検索_」フィールドにテキストを入力して、アセット名に一致する表示アイテムをフィルタリングします。
++++
 
-    ![&#x200B; フィルターと検索フィールドを使用して、必要なアセットを見つけます](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
++++[!UICONTROL Experience Manager Assets]
 
-* **[!UICONTROL Experience Manager Assets]** – このタイプを選択すると、[設定されたExperience Manager Assets リポジトリ &#x200B;](../admin/configure-aem-repositories.md)から画像アセットを参照して選択できます。
+{{aem-assets-dam}}
 
-  「_[!UICONTROL Assetsを選択]_」ダイアログで、使用可能なツールを使用して画像を選択し、必要なアセットを見つけて「**[!UICONTROL 選択]**」をクリックします。
-
-  * 右上の&#x200B;**[!UICONTROL リポジトリ]**&#x200B;を変更します。
-
-  * 右上の&#x200B;**[!UICONTROL アセットの管理]**&#x200B;をクリックして、別のブラウザータブでAssets リポジトリを開き、AEM Assets管理ツールを使用します。
-
-  * 右上の&#x200B;_表示タイプ_ セレクターをクリックして、表示を&#x200B;**[!UICONTROL リストビュー]**、**[!UICONTROL グリッドビュー]**、**[!UICONTROL ギャラリービュー]**、または&#x200B;**[!UICONTROL ウォーターフォールビュー]**&#x200B;に変更します。
-
-  * 「_並べ替え順序_」アイコンをクリックして、並べ替え順序を昇順と降順で変更します。
-
-    ![Assetsを選択ダイアログのツールを使用して、画像アセットを検索して選択する](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
-
-  * 「**[!UICONTROL 並べ替え]**」メニューの矢印をクリックして、並べ替え条件を&#x200B;**[!UICONTROL 名前]**、**[!UICONTROL サイズ]**、または&#x200B;**[!UICONTROL 変更]**&#x200B;に変更します。
-
-  * 左上の&#x200B;_フィルター_ アイコンをクリックして、条件に従って表示される項目をフィルタリングします。
-
-  * 「_検索_」フィールドにテキストを入力して、アセット名に一致する表示アイテムをフィルタリングします。
-
-  ![&#x200B; フィルターと検索フィールドを使用してアセットを検索](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
-
-* **[!UICONTROL メディアの読み込み]** – このタイプを選択して、システムからファイルを選択し、Journey Optimizer B2B edition アセットライブラリに読み込みます。
-
-  _[!UICONTROL 画像をアップロード]_ ダイアログで、システムからファイルをファイル ボックスにドラッグ&amp;ドロップします。 最大ファイルサイズは100 MBです。
-
-  ![画像ファイルを](./assets/email-designer-image-upload.png){width="450"}にインポートします
-
-  選択した画像のファイル名がダイアログに表示されます。 アセットファイル名は（フォルダー間で）一意である必要があり、名前のファイルが既に存在する場合は、メッセージが表示されます。 名前の最大文字数は100文字です。特殊文字（`;`、`:`、`\`、`|`など）を含めることはできません。
-
-  「**[!UICONTROL 読み込み]**」をクリックします。
++++
 
 右側のパネルで、画像のタイトルと代替テキストを追加できます。
 
@@ -705,7 +677,7 @@ _ソーシャル_ コンポーネントを使用して、ソーシャルメデ�
 ソーシャルメディアタイプを選択した状態で、そのタイプのオプションを設定します。
 
 * **[!UICONTROL URL]** - ソーシャルメディアのグラフィックまたはアイコンにリンクするソーシャルメディア URLを入力します。
-* **[!UICONTROL Source]** - デフォルトではなく独自の画像を使用する場合は、画像アセットを選択します。 接続されているMarketo Engage アセットリポジトリ、Experience Manager Assets リポジトリ（設定されている場合）から画像を選択するか、システムから画像ファイルを読み込むことができます。 画像アセットの選択と読み込みについて詳しくは、[画像コンポーネント情報](#add-the-image-asset)を参照してください。
+* **[!UICONTROL Source]** - デフォルトではなく独自の画像を使用する場合は、画像アセットを選択するか、システムから画像ファイルを読み込みます。 画像アセットの選択と読み込みについて詳しくは、[画像コンポーネント情報](#add-the-image-asset)を参照してください。
 * **[!UICONTROL 代替テキスト]** – 表示される画像の代替テキストを入力します。
 
   ![選択したソーシャルメディアの種類の設定](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -758,8 +730,6 @@ _ソーシャル_ コンポーネントには、次のスタイルオプショ�
 
 ### フォーム（ランディングページのみ） {#form}
 
-[!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Betaの機能"}
-
 _Form_ コンポーネントを使用して、公開したフォームをランディングページまたはランディングページテンプレートに追加します。 フォームの作成と公開について詳しくは、[Forms](./forms.md)を参照してください。
 
 1. コンポーネントツールバーの&#x200B;_Form_ ツールをクリックするか、右側の&#x200B;**[!UICONTROL 埋め込みフォーム]** プロパティを使用して、公開されたフォームを選択します。
@@ -772,7 +742,7 @@ _Form_ コンポーネントを使用して、公開したフォームをラン�
 
    * **[!UICONTROL ページを維持]** - フォームの送信時に訪問者を同じページに維持するには、このオプションを選択します。
 
-   * **[!UICONTROL ランディングページ]** - フォローアップとして任意のJourney Optimizer B2B editionまたはMarketo Engage ランディングページを選択するには、このオプションを選択します。
+   * **[!UICONTROL ランディングページ]** - フォローアップとして任意のJourney Optimizer B2B edition ランディングページを選択するには、このオプションを選択します。
 
    * **[!UICONTROL 外部URL]** – 任意のURLをフォローアップページとして指定するには、このオプションを選択します。 訪問者がフォームを送信すると、ブラウザーは指定されたURLを読み込みます。
 

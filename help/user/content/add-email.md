@@ -1,6 +1,6 @@
 ---
 title: ジャーニーにメールを追加
-description: アカウントジャーニーへのメールアクションノードの追加 – 新しいメールを作成するか、既存のMarketo Engage メールを使用して、Journey Optimizer B2B editionでターゲットを絞ったコミュニケーションを行います。
+description: ジャーニーの「メールを送信」アクションノードの場合は、新しいメールを作成するか、既存のメールを複製して、Journey Optimizer B2B editionのターゲットコミュニケーションに使用します。
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
@@ -17,92 +17,66 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1399
+source-wordcount: 1042
 ht-degree: 0%
 
 ---
 
 # ジャーニーにメールを追加
 
-Adobe Journey Optimizer B2B editionを使用して、アカウントジャーニーを通じて顧客にメールメッセージを送信します。 メールデザイン分野では、メッセージの作成、パーソナライズ、プレビューを選択できます。 または、接続済みのMarketo Engage インスタンスで既に定義されているメールを送信することもできます。 電子メールがジャーニーでライブになった後、[電子メールパフォーマンスレポート &#x200B;](../dashboards/email-performance-dashboard.md)で、送信、配信、エンゲージメントを監視します。
+Adobe Journey Optimizer B2B editionを使用して、アカウントジャーニーを通じて顧客にメールメッセージを送信します。 メールデザイン分野では、メッセージの作成、パーソナライズ、プレビューを選択できます。 電子メールがジャーニーでライブになった後、[電子メールパフォーマンスレポート &#x200B;](../dashboards/email-performance-dashboard.md)で、送信、配信、エンゲージメントを監視します。
 
 >[!NOTE]
 >
->初めてメールを送信する場合は、Adobe Marketo Engage内からメールチャネルが設定されていることを確認します。 詳しくは、[&#x200B; トラッキングとメール配信のプロトコル &#x200B;](../start/email-protocols.md)を参照してください。
+>初めてメールを送信する場合は、メールチャネルが設定されていることを確認します。 詳しくは、[&#x200B; トラッキングとメール配信のプロトコル &#x200B;](../start/email-protocols.md)を参照してください。
 >
 >配信時にメールの同意設定がどのように評価されるかについて詳しくは、[同意設定](./channels-consent-preferences.md)を参照してください。
 
-## ジャーニーへのメールアクションノードの追加
+## メール送信アクションノードの追加 {#send-email-node}
 
 ジャーニーでメール配信を設定するには、_[!UICONTROL アクションを実行]_ ノード [&#128279;](../journeys/action-nodes.md)を追加し、次の操作を行います。
 
-1. ターゲット _の_ アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
+1. _（アカウントジャーニーのみ）_ _ターゲットの_ アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
 
-1. ユーザー&#x200B;_に対する_ アクションの場合は、**[!UICONTROL メールを送信]**&#x200B;を選択します。
+1. アクションの場合は、**[!UICONTROL 電子メールを送信]**&#x200B;を選択します。
 
-1. _[!UICONTROL 電子メールソース]_&#x200B;で、送信する電子メールの送信方法を選択します。
+1. 「**[!UICONTROL メールを作成]**」をクリックします。
 
-   ![&#x200B; アクションを実行 – メールを送信](assets/journey-node-send-email.png){width="700" zoomable="yes"}
+   ![&#x200B; アクションを実行 – メールを送信](assets/journey-node-send-email.png){width="500"}
 
-   * Journey Optimizer B2B editionで電子メールをネイティブに作成するには、**[!UICONTROL 新しい電子メールを作成]**&#x200B;を選択します。
+1. _新しい電子メールを作成_ ダイアログで、新しい電子メールコンテンツアセットを作成するか、既存の電子メールコンテンツアセットを複製するかを選択します。
 
-     このオプションを使用すると、Journey Optimizer B2B editionで電子メールコンテンツをネイティブに管理できます。 「**[!UICONTROL メールを作成]**」をクリックして、_メールを新規作成_ ダイアログを開きます。 新しいメールコンテンツアセットを作成するか、既存のメールコンテンツアセットを複製できます。
+   * 空のキャンバスまたは電子メールテンプレートを使用して電子メールを作成する場合は、**[!UICONTROL 新しい電子メール]** オプションを選択します。
 
-     +++新規メール
+     ![新しい電子メールダイアログの作成 – 新しい電子メール &#x200B;](assets/create-new-email.png){width="400"}
 
-     空のキャンバスまたは電子メールテンプレートを使用して電子メールを作成する場合は、_[!UICONTROL 新しい電子メール]_ オプションを使用します。
+     * 電子メール用に一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 件名]**&#x200B;を入力します。
 
-     1. ダイアログで、**[!UICONTROL 新しい電子メール]**&#x200B;を選択します。
+     * 「**[!UICONTROL 作成]**」をクリックします。
 
-     1. 電子メール用に一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 件名]**&#x200B;を入力します。
+   * 現在のジャーニーまたは別のジャーニーの既存のメールを使用してメールを作成する場合は、「**[!UICONTROL 既存のメールを複製]**」オプションを選択します。
 
-        ![新しい電子メールダイアログの作成 – 新しい電子メール &#x200B;](assets/create-new-email.png){width="400"}
+     ジャーニーノードの目的に応じて、重複したメールに変更を加えることができます。
 
-     1. 「**[!UICONTROL 作成]**」をクリックします。
+     * **[!UICONTROL 既存の電子メールを複製]**&#x200B;するには、_選択_ アイコン （![選択アイコン &#x200B;](../assets/do-not-localize/icon-email-select.svg)）をクリックし、複製してジャーニーノードに使用する電子メールを選択します。
 
-        メールコンテンツページの&#x200B;_[!UICONTROL 電子メールプロパティ]_ セクションでは、_[!UICONTROL 電子メールから]_&#x200B;および&#x200B;_[!UICONTROL 住所への返信]_ フィールドが既に設定されています。 _[!UICONTROL 差出人名]_&#x200B;および&#x200B;_[!UICONTROL 説明]_ （オプション）フィールドに値を入力できます。
+       検索フィールドにメール名と一致するテキスト文字列を入力することで、メールのリストをフィルタリングできます。 複製する電子メールのチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-     1. 「**[!UICONTROL メールを編集]**」をクリックして、メール [設定](#define-the-email-settings)を定義し、[&#x200B; コンテンツ &#x200B;](./email-authoring.md)をデザインします。
+       ![&#x200B; メールを選択](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-     +++
+     * 電子メール用に一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 件名]**&#x200B;を入力します。
 
-     +++既存のメールを複製
+       ![新しい電子メールダイアログを作成 – 既存の電子メールを複製](assets/create-new-email-duplicate.png){width="400"}
 
-     現在のジャーニーまたは別のジャーニーの既存のメールを使用してメールを作成する場合は、_[!UICONTROL 既存のメールを複製]_ オプションを使用します。 ジャーニーノードの目的に応じて、重複したメールに変更を加えることができます。
+     * 「**[!UICONTROL 作成]**」をクリックします。
 
-     1. _[!UICONTROL 新しい電子メールを作成]_ ダイアログで、**[!UICONTROL 既存の電子メールを複製]**&#x200B;を選択します。
+1. 「**[!UICONTROL メールを編集]**」をクリックして、メール [設定](#email-settings)と[&#x200B; コンテンツ &#x200B;](./email-authoring.md)を定義します。
 
-     1. **[!UICONTROL 既存の電子メールを複製]**&#x200B;するには、_選択_ アイコン （![選択アイコン &#x200B;](../assets/do-not-localize/icon-email-select.svg)）をクリックし、複製してジャーニーノードに使用する電子メールを選択します。
+   ![&#x200B; メールジャーニーノードを送信 – メールを編集](assets/journey-node-send-email-edit-email.png){width="500"}
 
-        検索フィールドにメール名と一致するテキスト文字列を入力することで、メールのリストをフィルタリングできます。
-
-        ![&#x200B; メールを選択](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
-
-        複製する電子メールのチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
-
-     1. 電子メール用に一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 件名]**&#x200B;を入力します。
-
-        ![新しい電子メールダイアログを作成 – 既存の電子メールを複製](assets/create-new-email-duplicate.png){width="400"}
-
-     1. 「**[!UICONTROL 作成]**」をクリックします。
-
-        メールコンテンツページの&#x200B;_[!UICONTROL 電子メールプロパティ]_ セクションでは、_[!UICONTROL 電子メールから]_&#x200B;および&#x200B;_[!UICONTROL 住所への返信]_ フィールドが既に設定されています。 _[!UICONTROL 差出人名]_&#x200B;および&#x200B;_[!UICONTROL 説明]_ （オプション）フィールドに値を入力できます。
-
-     1. 必要に応じて、**[!UICONTROL 電子メールを編集]**&#x200B;をクリックして、電子メール [設定](#define-the-email-settings)と[&#x200B; コンテンツ &#x200B;](./email-authoring.md)を変更します。
-
-     +++
-
-   * **[!UICONTROL Adobe Marketo Engageからメールを選択]**&#x200B;して、Marketo Engageで事前作成済みのメールのいずれかを使用し、ジャーニーの一部として送信します。
-
-     接続されたMarketo Engage インスタンスで複数のワークスペースを使用できる場合は、ワークスペースを選択します。 次に、ジャーニーノードに送信する承認済みメールを選択します。
-
-     ![Marketo Engage電子メールを選択](./assets/email-select-marketo.png){width="500" zoomable="yes"}
-
-     このオプションを使用すると、ノードが設定され、メールコンテンツはジャーニーでさらに定義する必要がありません。
-
-## メール設定の定義
+## メール設定の定義 {#email-settings}
 
 右側の&#x200B;_概要_ パネルで「**[!UICONTROL 詳細]**」タブを選択した状態で、一番下までスクロールして電子メール設定を表示および定義します。
 
@@ -115,20 +89,24 @@ Adobe Journey Optimizer B2B editionを使用して、アカウントジャーニ
 | [!UICONTROL 返信先アドレス &#x200B;] | メールヘッダーで使用される送信者アドレス。 デフォルト値は、[&#x200B; メールチャネル配信設定](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL &#x200B; ラベルから]）から入力されます。 受信者が返信機能を使用する場合に入力する電子メールアドレスを入力します（送信者アドレスと異なるか、同じである可能性があります）。 _パーソナライズ_ アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。 |
 | [!UICONTROL 件名] | メールの件名フィールドに表示されるテキスト。 デフォルト値は、_[!UICONTROL 新規電子メールを作成]_ ダイアログで入力したテキストから入力されます。 必要に応じてテキストを変更できます。 _パーソナライズ_ アイコン （![&#x200B; パーソナライズ アイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーション トークンを使用します。<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL &#x200B; ブランディングドメイン &#x200B;] | システムで複数の[&#x200B; ブランドドメイン &#x200B;](../admin/configure-channels-emails.md#branding-domains)が定義されている場合は、メールの送信に使用するブランドドメインを選択します。 特定のブランドドメインを使用し、企業全体ではなく自社から配信されたと思われるメールを送信します。 これにより、企業との信頼関係を構築し、メール体験をパーソナライズして、開封率と応答率を向上させることができます。 |
-| [!UICONTROL 専用IP] | 複数の専用IP アドレスが定義されている場合は、メールの送信に使用する専用IP アドレスを選択します。 プログラムに特定の専用IPを使用すると、配信品質をより詳細に追跡および監視し、配信指標の変更に迅速に対応できます。 接続されたMarketo Engage インスタンス用の専用IPの追加について詳しくは、[Marketo Engage ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}を参照してください。 |
 | [!UICONTROL 運用電子メール &#x200B;] | 電子メールを運用中に指定する場合は、チェックボックスをオンにします。 運用メールは、オプトアウト/登録解除リスト、およびコミュニケーション制限から除外されます。 受信者が電子メールメッセージを迷惑メール（SPAM）と見なせない場合にのみ、このオプションを選択します。 |
 | [!UICONTROL Web ページとしてビューを含める] | チェックボックスを選択して、メールメッセージのコンテンツから生成されるweb ページへのリンクを含めます。 メールメッセージの機能は、web ページよりも限定的であるため、JavaScript、拡張CSS、フォームで役立ちます。 リンクの生成に使用するテキストは、[電子メールチャネル配信設定](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL web ページとして表示HTML]、および[!UICONTROL web ページとして表示]）で設定されています。 |
 | [!UICONTROL 開封トラッキングを無効にする] | 電子メールの開封状況を追跡しない場合は、チェックボックスをオンにします。 この機能を無効にすると、電子メールの開封数は、一意のユーザーが電子メールを開いたときにのみ増加します。 メール本文コンテンツをデザインする際に、[&#x200B; メールコンテンツリンクトラッキングを管理](./email-authoring.md#edit-linked-url-tracking)できます。 |
 | [!UICONTROL &#x200B; プリヘッダー] | プリヘッダーを含めるには、このチェックボックスをオンにします。 プリヘッダーは、一部のメールクライアントで件名の後に表示される短い要約テキストです。 通常は、メールの短い要約を提供し、通常は1文です。 フィールド <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->に概要テキストを入力します。 |
-| [!UICONTROL CC アドレスとして使用されるフィールド &#x200B;] | 使用可能な場合は、`Email`型を使用してMarketo Engageで設定されているリードまたは会社のフィールドを25個まで選択します。 |
 
-## アラートの確認
+<!-- 
+Removed, but may reappear elsewhere
+| [!UICONTROL Dedicated IP] | If you have more than one dedicated IP addresses defined, select a dedicated IP address to use for sending the email. When you use a specific dedicated IP for your programs, you can track and monitor deliverability more closely and respond quickly to any changes in your delivery metrics. For more information about adding a dedicated IP for the connected Marketo Engage instance, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}.|
+| [!UICONTROL Fields used as CC addresses] | If available, select up to 25 Lead or Company fields that are set up in Marketo Engage using the `Email` type.  |
+-->
 
-メールメッセージのコンテンツをデザインする際に、キー設定が見つからない場合は、インターフェイス（ページの右上）にアラートが表示されます。 このボタンが表示されない場合、検出された問題はありません。
+## アラートの確認 {#check-alerts}
+
+メールの設定とコンテンツを定義すると、キー設定が見つからない場合にアラートがインターフェイス（ページの右上）に表示されます。 このボタンが表示されない場合、検出された問題はありません。
 
 ![電子メールアラート &#x200B;](./assets/email-alerts.png){width="600" zoomable="yes"}
 
-2種類のアラートを検出できます。
+アラートには、次の2種類があります。
 
 * 推奨事項とベストプラクティスに関する&#x200B;**_警告_**&#x200B;は、次のとおりです。
 

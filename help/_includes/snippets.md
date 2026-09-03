@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用するフィーチャーまたはページに注意するために、再利用されたメモとビジュアル要素
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 5%
 
 ---
@@ -213,9 +213,9 @@ ht-degree: 5%
 
   ![&#x200B; フォントカラーピッカー](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## Content - image selection - Marketo DAM {#me-dam}
+## コンテンツ – 画像選択 – 内部DAM {#internal-dam}
 
-Journey Optimizer B2B edition ライブラリまたは接続されたMarket Engage インスタンスから画像アセットを参照して選択するには、このタイプを選択します。
+Journey Optimizer B2B edition ライブラリから画像アセットを参照して選択するには、このタイプを選択します。
 
 ![使用可能な画像アセットを参照](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

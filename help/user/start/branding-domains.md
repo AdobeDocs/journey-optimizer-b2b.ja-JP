@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 80%
+source-wordcount: 913
+ht-degree: 75%
 
 ---
 
@@ -27,17 +27,15 @@ ht-degree: 80%
 
 Marketo Engageのブランディングドメインは、リンクの書き換えとメールのクリック数の追跡に使用されるカスタムサブドメイン（`links.yourcompany.com` など）で、汎用ドメインではなくブランドが反映されていることを確認します。 各ブランディングドメインは、クリック追跡ドメインとして機能し、メールおよびランディングページのリンクをドメインと照合して、配信品質と信頼を強化します。
 
-* これは、一般的なリンクを、メールのハイパーリンクにおける独自のブランディングに置き換えます。
-* アカウントのリードがリンクをクリックすると、このカスタムドメインを通じてリダイレクトされるので、パフォーマンスのトラッキングが可能になると同時に、メールフィルターでは妥当に見えます。
+* メール内のハイパーリンクにある汎用的なリンクを、自社ブランドのリンクに置き換えます。
+* リードがリンクをクリックすると、このカスタムドメインを通じてリダイレクトされ、メールフィルターでは正当と思われながらパフォーマンスの追跡が可能になります。
 * 複数のブランドがある場合、さまざまな事業部やブランドをサポートするために、追加のブランドドメインを設定できます。
 
 >[!BEGINSHADEBOX]
 
 **トラッキングリンクの一意の CNAME**
 
-メールトラッキングリンクは、接続されたMarketo Engage インスタンスに対して新しく、一意である必要があります。 既存の（実稼動用）Marketo Engage インスタンスを指すトラッキングリンク用の既存のCNAMEがある場合は、再利用する前に変更が必要です。
-
-実稼動Marketo Engage インスタンスとアタッチされたインスタンスの間でreturn-path ドメインブランディングを共有できますが、この変更はバックエンドの変更です。 サポートチケットを開き、Marketo Engage プレフィックス（Munchkin ID）と新しいJourney Optimizer B2B edition プレフィックス（Munchkin ID）を指定して、共通のリターンパスドメインのブランディングをリクエストします。
+メールトラッキングリンクは、接続されたMarketo Engage インスタンスに対して新しく、一意である必要があります。 実稼動Marketo Engage インスタンスとアタッチされたインスタンスの間でreturn-path ドメインブランディングを共有できますが、この変更は内部システムの変更です。 サポートチケットを開き、Marketo Engage プレフィックス（Munchkin ID）と新しい Journey Optimizer B2B Edition プレフィックス（Munchkin ID）を指定して、共有のリターンパスドメインのブランディングをリクエストします。
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +43,7 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 >
 >UI でドメインを編集または追加する前に、[Adobeが提供するMarketo Engage ドメインに CNAME をマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} する必要があります。
 >
->ドメインを追加する際に、システムは事前に手動で作成された既存のSSLをチェックします。 この検証が発生した場合は、SSL作成を選択せずにドメインを作成し、別の手順で接続します。
+>ドメインを追加する際に、システムは、以前に手動で作成した既存のSSLをチェックします。 この検証が発生した場合は、SSL作成を選択せずにドメインを作成し、別の手順で接続します。
 
 ## Marketo Engageのブランディングドメインへのアクセス
 
@@ -73,17 +71,20 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 
    ![&#x200B; ブランディングドメインを編集ダイアログ &#x200B;](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
-1. Marketo Engage インスタンスに複数のワークスペースを定義している場合は、「**[!UICONTROL 次へ]**」をクリックします。
+<!--
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   更新したプライマリドメインを適用する各ワークスペースを選択します。
+   Select each of the workspaces where you want to apply the updated primary domain.
 
-   ![&#x200B; プライマリドメインのワークスペースを選択してブランディングドメインを編集ダイアログ &#x200B;](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
+   ![Edit Branding Domain dialog with workspace selection for primary domain](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+-->
 
-## 追加ドメインの定義
+1. **[!UICONTROL 次へ]** をクリックしてから **[!UICONTROL 保存]** をクリックします。
 
-デフォルトドメインを編集した後、別のブランドドメインを追加して、Journey Optimizer B2B edition環境内の複数のブランドをサポートできます。各ブランドには、独自のトラッキングリンクがあります。 ドメインを追加する場合、次のオプションがあります。
+## 追加ドメインを定義する
+
+Journey Optimizer B2B edition環境内で複数のブランドをサポートするために、それぞれのブランドのトラッキングリンクを使用するには、デフォルトドメインを編集した後に別のブランドドメインを追加します。 ドメインを追加する場合、次のオプションがあります。
 
 >* _プライマリドメインを作成_：これをワークスペースのプライマリドメインにします。 このオプションを選択すると、既存の未送信メールはすべてデフォルトのプライマリドメインに設定され、新しく作成されたすべてのメールは自動的にこのプライマリドメインにデフォルト設定されます。 マーケターは、必要に応じて別のブランディングドメインを選択できます。
 >
@@ -97,7 +98,7 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 
 1. _[!UICONTROL 新しいブランディングドメイン]_ ダイアログで、「**[!UICONTROL ドメイン]**」フィールドにブランディングドメインの名前を入力します。
 
-1. （オプション）「**[!UICONTROL SSL 証明書を生成]**」チェックボックスをオンにして、ドメインの SSL を自動的に生成します。
+1. （オプション）「**[!UICONTROL SSL証明書を生成]**」チェックボックスを選択して、ドメインのSSLを自動的に生成します。
 
    ![&#x200B; 新しいブランディングドメインダイアログ &#x200B;](assets/me-admin-email-branding-domains-add-name.png){width="400"}
 
@@ -107,17 +108,19 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
    >
    >**_カスタム SSL_**：カスタム SSL が必要な場合は、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/ja/support){target="_blank"} を送信できます。 SSL 作成にチェックボックスを使用しないでください。
 
-1. Marketo Engage インスタンスに複数のワークスペースを定義している場合は、「**[!UICONTROL 次へ]**」をクリックします。
+<!-- 
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   必要に応じて、新しいドメインをプライマリドメインとして適用するワークスペースをそれぞれ選択します。
+   If needed, select each of the workspaces where you want to apply the new domain as the primary domain.
 
-   ![&#x200B; プライマリドメインを適用するためのワークスペースを選択できる新しいブランディングドメインダイアログ &#x200B;](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+    ![New Branding Domain dialog with workspace selection for applying the primary domain](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+-->
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. **[!UICONTROL 次へ]** をクリックしてから **[!UICONTROL 保存]** をクリックします。
 
 ## 既存のブランディングドメインの SSL の編集
 
-既存のドメインで SSL を有効にするには、次の手順に従います。
+既存のドメインのSSLを有効にするには、次の手順に従います。
 
 1. _[!UICONTROL 管理者]_ エリアから、「**[!UICONTROL メール]**」を選択します。
 
@@ -133,12 +136,12 @@ Marketo Engageのブランディングドメインは、リンクの書き換え
 
 | エラー | 詳細 |
 | ----- | ------- |
-| `Domain already exists.` | 同じ名前のドメインが既に存在します。 |
+| `Domain already exists.` | 同じ名前のドメインが既に存在します。&#x200B; |
 | `Domain is not mapped to the default domain.` | カスタムドメインがデフォルトのドメインに正しくマッピングされていません。 ドメインマッピング設定を確認し、DNS 設定が正しいデフォルトドメインを指していることを確認します。 |
-| `SSL certificates could not be issued due to unsupported CAA records. Request your IT to update your CAA records.` | CAA レコードが最新ではありません。 Adobeの管理による SSL 証明書を使用している場合、CAA レコードを、ベンダーが推奨する証明書に更新する必要があります。 |
+| `SSL certificates could not be issued due to unsupported CAA records. Request your IT to update your CAA records.` | CAA レコードが最新ではありません。 Adobe 管理の SSL 証明書を使用している場合、CAA レコードをベンダーが推奨する証明書に更新する必要があります。 |
 | `SSL certificate has already been issued.` | このカスタムドメインには、SSL 証明書が既に存在します。 証明書の有効期限が切れているか、証明書を再発行する必要がない限り、これ以上の操作は必要ありません。 |
 | `The default domain was not found. Please contact Support for assistance.` | デフォルトのドメインを見つけようとした際に問題が発生しました。 トリガー調査については、Adobe サポートにお問い合わせください。 |
-| `Unexpected error encountered while creating a domain. Please contact Support for assistance.` | 予期しないエラーが発生しました。 ログとエラーの詳細を収集し、問題をAdobe サポートにエスカレーションします。 |
+| `Unexpected error encountered while creating a domain. Please contact Support for assistance.` | 予期しないエラーが発生しました。 ログとエラーの詳細を収集し、その問題を Adobe サポートにエスカレーションします。 |
 
 ## ブランディングドメインの削除
 

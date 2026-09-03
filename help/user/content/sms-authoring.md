@@ -22,10 +22,10 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1306
-ht-degree: 4%
+source-wordcount: 1207
+ht-degree: 5%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer B2B editionを使用すると、モバイルデバイス
 >
 >業界標準や規制に従って、すべてのSMS マーケティングメッセージには、受信者が簡単に購読を解除できる方法が含まれている必要があります。 SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。 あらゆる標準的なオプトインキーワードとオプトアウトキーワードに対応しています。 さらに、SMS サービスプロバイダーアカウントに設定されたカスタムキーワードは、サポートされ、尊重されます。 配信時にSMSの同意設定がどのように評価されるかについて詳しくは、[同意設定](./channels-consent-preferences.md)を参照してください。
 
-## アカウントジャーニーでのSMS アクションの追加
+## アカウントジャーニーでのSMS アクションの追加 {#add-action}
 
 _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を行うと、アカウントジャーニーでテキストメッセージ配信を設定できます。
 
@@ -61,7 +61,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
    _ジャーニーマップ_&#x200B;が開き、メッセージを作成し、メッセージを送信するためのSMS プロパティを設定できます。
 
-### SMS メッセージの作成
+### SMS メッセージの作成 {#create-message}
 
 **[!UICONTROL メッセージ]** フィールドに送信するテキストを入力します。
 
@@ -69,7 +69,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 ![SMS メッセージの作成](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-#### テキストメッセージのパーソナライズ
+#### テキストメッセージのパーソナライズ {#personalize}
 
 1. パーソナライゼーショントークンを追加するメッセージ内の場所にカーソルを置きます。
 
@@ -91,36 +91,39 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
    必要に応じて、トークンを使用してメッセージを引き続き編集できます。
 
-#### テキストメッセージへのリンク（URL）の追加
+#### テキストメッセージへのリンク（URL）の追加 {#add-links}
 
 1. メッセージテキストを入力したら、テキストメッセージボックスの右側にある&#x200B;_リンク_ アイコン（![&#x200B; リンクアイコン &#x200B;](../assets/do-not-localize/icon-link.svg)）をクリックします。
 
 1. リンクの&#x200B;**[!UICONTROL URL]**&#x200B;を入力してください。
 
+
+1. ダイアログで、リンクするURLのタイプを選択します。
+
+   * **[!UICONTROL ランディングページ]** – 公開されているランディングページのいずれかを選択するには、このオプションを選択します。
+
+   * **[!UICONTROL 外部URL]** – このタイプは、テキストボックスに入力した外部URLです。
+
 <!--
-1. In the dialog, choose the type of URLs to link:
 
-   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
+1. If you choose to use a Marketo Engage landing page, set the tracking options.
 
-   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. 
+   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
+
+   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
+
+      >[!NOTE] 
+      >
+      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+
 -->
 
-1. Marketo Engageのランディングページを使用する場合は、トラッキングオプションを設定します。
-
-   * **[!UICONTROL トラッキングを有効にする]** – このチェックボックスを選択してトラッキングを有効にします。これには、_URLの短縮_&#x200B;が必要です。 ランディングページの場合は、短縮URLにMarketo Engage サブドメインを使用します。 短縮URL形式のサンプルが表示されます。 実際のURLは、SMSが受信者に送信されたときに作成されます。
-
-   * **[!UICONTROL mkt_tok]**&#x200B;を含める – ユーザーに対するアクティビティを追跡するには、このチェックボックスを選択します。</br>
-
-     >[!NOTE]
-     >
-     >トラッキングを許可し、_[!UICONTROL Include mkt_tok]_&#x200B;を無効にすると、リダイレクト後に宛先URLに`mkt_tok` クエリ文字列パラメーターが含まれなくなります。このパラメーターは、Marketo EngageのランディングページおよびMunchkinで使用され、人物のアクティビティ（メールの購読解除など）を追跡するために使用されます。 パラメーターがweb サイトで問題を引き起こさない限り、このオプションを無効にしないでください。<br/>
-     >Web サイトでのMunchkin トラッキングコードの使用について詳しくは、[Marketo Engage ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}を参照してください。
-
-   ![SMS メッセージのリンクを追加ダイアログ &#x200B;](./assets/sms-add-link-dialog.png){width="470"}
+![SMS メッセージのリンクを追加ダイアログ &#x200B;](./assets/sms-add-link-dialog.png){width="470"}
 
 1. リンクオプションが完了したら、**[!UICONTROL 追加]**&#x200B;をクリックして変更を保存し、SMS メッセージにURL リンクを追加します。
 
-### SMS プロパティの設定
+### SMS プロパティの設定 {#sms-properties}
 
 1. 「_[!UICONTROL SMS プロパティ]_」セクションに、メッセージの&#x200B;**[!UICONTROL 名前]** （必須、100文字の最大値）と&#x200B;**[!UICONTROL 説明]** （オプション、300文字の最大値）を入力します。
 
@@ -160,7 +163,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. _コンテンツをシミュレート_ ページを使用して、テストプロファイルに使用するリードを管理します。
 
-   表示されたリストでは、Marketo Engage リードデータベースから任意のリード（一度に最大10件）を検索して追加できます。
+   表示されたリストで、任意のリードを検索して追加できます（一度に最大10件のリード）。
 
    検索するには、電子メールアドレス全体を入力し、_Enter_&#x200B;を押します。 対応するリードプロファイルが選択用に表示されます。
 
@@ -178,9 +181,9 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. _[!UICONTROL コンテンツのシミュレート]_ ページを終了してSMS オーサリングワークスペースに戻るには、右上の&#x200B;**[!UICONTROL 閉じる]**&#x200B;をクリックします。
 
-## SMS同意管理
+## SMS同意管理 {#consent-management}
 
-受信者に、ブランドからのコミュニケーションの受信を登録解除する機能を提供し、この選択を尊重することが法的要件です。 これらの規制を遵守しないと、企業に法的リスクが生じます。 この機能は、受信者に一方的なコミュニケーションを送信することを避けるのに役立ちます。これにより、受信者はメッセージをスパムとしてマークし、レピュテーションを損なう可能性があります。
+受信者に、ブランドからのコミュニケーションの受信を登録解除する機能を提供し、この選択を尊重することが法的要件です。 これらの規制を遵守しないと、企業に法的リスクが生じます。 この機能は、受信者に未承諾のコミュニケーションを送信するのを避けるのに役立ちます。 これにより、迷惑メールとしてマークしたり、レピュテーションを損なったりすることを防ぐことができます。
 
 このオプションを指定すると、SMS受信者はオプトインキーワードとオプトアウトキーワードで返信できます。 標準のオプトインキーワードとオプトアウトキーワードはすべて、SMS サービスプロバイダーで設定されているカスタムキーワードと同様に、サポートおよび尊重されます。 購読解除すると、プロファイルは今後のマーケティングメッセージのオーディエンスから自動的に削除されます。
 
@@ -188,4 +191,4 @@ Journey Optimizer B2B editionでは、次のロジックを使用してSMS メ�
 
 * デフォルトでは、リードが自社からのコミュニケーションの受信をオプトアウトした場合、対応するプロファイルは後続のSMS配信から除外されます
 
-* このリード同意は、様々なソース（AEPやSMS サービスプロバイダーなど）から取得され、Journey Optimizer B2B editionに同期されます。 現在、インスタンスレベルでは、リードごとに1つの同意状態のみがサポートされています（リード「John Doe」は、インスタンス内のすべてのプロモーション SMSに購読または購読解除されています）。 現在、ブランドレベル/個人サブスクリプションリストレベルの同意に対するダブルオプトインはサポートしていません。
+* このリードの同意は、様々なソース（AEPやSMS サービスプロバイダーなど）から取得され、Journey Optimizer B2B editionに同期されます。 現在、インスタンスレベルでは、リードごとに1つの同意状態のみがサポートされています（リード「John Doe」は、インスタンス内のすべてのプロモーション SMSに購読または購読解除されています）。 現在、ブランドレベル/個人サブスクリプションリストレベルの同意に対するダブルオプトインはサポートしていません。

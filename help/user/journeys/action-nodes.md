@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 2319
+source-wordcount: 2193
 ht-degree: 3%
 
 ---
@@ -137,12 +137,6 @@ _宛先ノードにアクティブ化を追加するには&#x200B;:_
 | | [!UICONTROL Marketo リストに追加] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>外部Marketo接続の名前 <li>リスト名 |
 | | [!UICONTROL Marketo リストから削除] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>外部Marketo接続の名前 <li>リスト名 |
 
->[!NOTE]
->
->2025.10 リリースでは、_[!UICONTROL Change People Partition in Marketo Engage]_&#x200B;および&#x200B;_[!UICONTROL Change Score]_ アクションは廃止され、Journey Optimizer B2B editionでは使用できなくなりました。<br/>
->
->2025.10 リリースでは、_[!UICONTROL Change Data Value]_ アクションは推奨されません。 現在のJourney Optimizer B2B edition リリースでは、_[!UICONTROL 人物プロファイルの更新]_&#x200B;に置き換えられています。
-
 ### 人物ベースのアクションの追加
 
 1. ジャーニーマップに移動します。
@@ -226,14 +220,6 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 +++
 
-+++[!UICONTROL &#x200B; スコアの変更]
-
-このアクションを使用して、Marketo Engageの人物スコアを変更します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
-
-![&#x200B; アクションを実行 – スコアの変更](./assets/node-action-change-score.png){width="300"}
-
-+++
-
 +++[!UICONTROL 興味深い瞬間]
 
 このアクションを使用して、人々にとって興味深い瞬間を記録します。 タイプ（メール、マイルストーン、またはWeb）を選択し、説明を追加します（オプション）。
@@ -254,7 +240,7 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 このアクションを使用して、選択したソリューションの関心に基づいて[購買グループ &#x200B;](../buying-groups/buying-groups-overview.md)から人物プロファイルを削除します。
 
-![&#x200B; アクションを実行 – 購買グループに追加](./assets/node-action-remove-from-buying-group.png){width="300"}
+![&#x200B; アクションを実行 – 購買グループから削除](./assets/node-action-remove-from-buying-group.png){width="300"}
 
 +++
 
@@ -270,9 +256,9 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 +++[!UICONTROL 電子メールを送信]
 
-このアクションを使用してメールを送信します。 ノードの電子メール [&#128279;](../content/add-email.md#add-an-email-action-node-in-a-journey)を[&#128279;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email)作成した後、電子メールデザインスペースで電子メールメッセージをデザイン、パーソナライズ、プレビューできます（[電子メールオーサリング &#x200B;](../content/email-authoring.md){target="_blank"}を参照）。 Marketo Engageから電子メールを送信することもできます。 Marketo Engage ワークスペースを選択し、送信するメールを選択します。
+このアクションを使用してメールを送信します。 ノードの電子メール [&#128279;](../content/add-email.md#send-email-node)を作成した後、電子メールデザインスペースで電子メールメッセージをデザイン、パーソナライズ、プレビューできます（[電子メールオーサリング &#x200B;](../content/email-authoring.md)を参照）。
 
-![&#x200B; アクションを実行 – メールを送信](./assets/node-action-send-email-from-marketo.png){width="300"}
+![&#x200B; アクションを実行 – メールを送信](./assets/node-action-send-email.png){width="300"}
 
 個人のジャーニーについては、[送信時間の最適化](../content/email-send-time-optimization.md)を使用して、各プロファイルがエンゲージする可能性が最も高いタイミングを予測し、メール配信のタイミングをパーソナライズします。
 
@@ -308,7 +294,7 @@ _既存のオーディエンスを使用するには&#x200B;:_
 >
 >現在のJourney Optimizer B2B edition リリースの&#x200B;_[!UICONTROL Change Data Value]_ アクションに代わって、_[!UICONTROL 人物プロファイルを更新]_ アクションが実行されます。<br/>
 >
->管理者は、_[!UICONTROL XDM設定]_ > [!UICONTROL 標準クラス &#x200B;]のフィールドを更新することで、XDM個人プロファイルで使用可能な属性を設定できます。 詳しくは、[標準スキーマ &#x200B;](../admin/xdm-field-management.md#standard-schemas)を参照してください。
+>管理者は、_[!UICONTROL XDM設定]_ > _[!UICONTROL 標準クラス]_&#x200B;のフィールドを更新することで、XDM個人プロファイルで使用可能な属性を設定できます。 詳しくは、[標準スキーマ &#x200B;](../admin/xdm-field-management.md#standard-schemas)を参照してください。
 
 +++
 
@@ -318,7 +304,7 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 >[!NOTE]
 >
->Marketo Engage アクションには、1つ以上の外部Marketo Engage インスタンスとの設定済み統合が必要です。 この設定について詳しくは、「[_Marketo Engage接続をアクティブ化してアクションをサポートする_](../admin/marketo-actions-connect.md)」を参照してください。
+>Marketo Engage アクションには、1つ以上の外部Marketo Engage インスタンスとの設定済み統合が必要です。 この設定について詳しくは、[_Marketo Engage接続をアクティブ化してアクションをサポートする_](../admin/marketo-actions-connect.md)&#x200B;を参照してください。
 
 たとえば、Journey Optimizer B2B editionの購買グループの一部である人に対して、Marketo Engageでキャンペーンを抑制します。 この場合、ソリューションの関心に特化した静的リストをMarketo Engageで作成できます。 次に、購買グループによる分割パスで、ジャーニーノードから「_Marketo リストに追加_」アクションを使用します。 このアクションは、購買グループのメンバーを、接続されたMarketo Engage インスタンスの特定の静的リストに追加します。 次に、ソリューションの関心度に焦点を当てた静的リストをMarketo Engageのスマートリストフィルターに使用します。
 

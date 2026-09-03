@@ -18,22 +18,18 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 2333
-ht-degree: 81%
+source-wordcount: 2303
+ht-degree: 79%
 
 ---
 
 # E メールトラッキングと配信の設定
 
-Adobe Journey Optimizer B2B editionは、添付されたMarketo Engage インスタンスのメールチャネル機能とイベントトラッキングを活用します。 一部の組織では、ファイアウォールやプロキシサーバーの設定を制限しています。 これらの組織でメール配信が期待どおりに機能するように、システム管理者は特定のドメインとIP アドレス範囲を許可リストに追加する必要があります。
+Adobe Journey Optimizer B2B Edition は、接続された Marketo Engage インスタンスのメールチャネル機能とイベントトラッキングを活用します。 一部の組織では、ファイアウォールやプロキシサーバーの設定を制限しています。 これらの組織でメール配信が期待どおりに機能することを確認するには、システム管理者が特定のドメインとIP アドレス範囲を契約許可リストに追加する必要があります。
 
->[!NOTE]
->
->既にConnected Marketo Engage インスタンスを使用してマーケティング業務を実行している場合は、これらのプロトコルと設定は既に有効になっています。
-
-すべてのMarketo Engage リソースとweb ソケットを有効にするには、次のドメイン（アスタリスクを含む）が許可リストに追加されていることを確認します。
+すべての Marketo Engage リソースと web ソケットを有効にするには、次のドメイン（アスタリスクを含む）が許可リストに追加されていることを確認します。
 
 * `*.experience.adobe.com`
 * `*.adobe.net`
@@ -47,19 +43,19 @@ Adobe Journey Optimizer B2B editionは、添付されたMarketo Engage インス
 1. [SPF と DKIM を設定](#set-up-spf-and-dkim)
 1. [DMARC を設定](#set-up-dmarc)
 1. [ドメインの MX レコードを設定](#set-up-mx-records-for-your-domain)
-1. [許可リストへの送信IP アドレスの追加](#outbound-ip-addresses)
+1. [アウトバウンド IP アドレスを許可リストに追加](#outbound-ip-addresses)
 
 >[!NOTE]
 >
->メール配信品質サービスおよびコンサルティングは、Adobeとは別の有料サービスです。 Journey Optimizer B2B edition インスタンスの配信品質チームのサポートが必要な、または必要な場合は、そのインスタンスのメール配信品質サービスパッケージ（Essentials、Enhanced、または Plus）のいずれかを購入する必要があります。 この設定は、既存のMarketo Engage インスタンス上の配信品質パッケージとは独立しています。 配信品質サービスは、組織ごとではなく、インスタンスごとに付加されます。 両方のインスタンスで配信品質をサポートするには、2 つの異なる配信品質サービスパッケージが必要です。 Journey Optimizer B2B edition用に新しい IP がプロビジョニングされるたびに、IP ウォーミングと継続的な配信品質のサポートに、新しい配信品質サービスパッケージが必要になります。
+>メール配信品質サービスおよびコンサルティングは、アドビが提供する個別の有料サービスです。 Journey Optimizer B2B Edition インスタンスの配信品質チームによるサポートが必要、または希望される場合は、そのインスタンス向けのメール配信品質サービスパッケージ（Essentials、Enhanced、Plus のいずれか）を購入する必要があります。 この設定は、既存のMarketo Engage インスタンス上の配信品質パッケージとは独立しています。 配信品質サービスは、組織ごとではなく、インスタンスごとに付加されます。 両方のインスタンスで配信品質をサポートするには、2 つの個別の配信品質サービスパッケージが必要です。 Journey Optimizer B2B edition用に新しい IP がプロビジョニングされるたびに、IP ウォーミングと継続的な配信品質のサポートに、新しい配信品質サービスパッケージが必要になります。
 
 ## ランディングページとメールの DNS レコードを作成
 
-CNAME レコードを接続すると、マーケターは、トラフィックとコンバージョンを向上させる一貫性のあるブランドで、メール、ランディングページ、ブログの web バージョンをホストできます。 マーケティングに焦点を当てた web アセットをホストするために、Marketo Engage のルートドメインホストに CNAME を追加することを強くお勧めします。
+CNAME レコードを設定することで、マーケターはweb バージョンの電子メール、ランディングページ、ブログを、トラフィックとコンバージョンを向上させる一貫したブランディングでホスティングできます。 マーケティングに焦点を当てた web アセットをホストするために、Marketo Engage のルートドメインホストに CNAME を追加することを強くお勧めします。
 
-2つのCNAME レコードを計画して実装するには、管理者としてマーケティング部門と協力します。 1 つ目はランディングページの URL です。この場合、ランディングページは、Adobe Marketo Engage（実際のホスト）ではなく、ドメインを反映した URL で表示されます。 2 つ目は、Marketo Engage経由で送信されるメールに含まれるトラッキングリンクの場合です。
+2つのCNAME レコードを計画して実装するには、管理者としてマーケティング部門と協力します。 1 つ目はランディングページ用の URL 向けの CNAME レコードで、ランディングページが Adobe Marketo Engage（実際のホスト）ではなく、自社のドメインを反映した URL で表示されるようにします。 2 つ目は、Marketo Engage 経由で送信されるメールに含まれるトラッキングリンク用です。
 
-### ランディングページの CNAME の追加
+### ランディングページ用 CNAME を追加する
 
 ランディングページの CNAME を DNS レコードに追加して、`[YourLandingPageCNAME]` がランディングページに割り当てられた一意のアカウント文字列を指すようにします。 ドメイン登録機関のサイトにログインし、ランディングページの CNAME とアカウント文字列を入力します。 このエントリには通常、次の 3 つのフィールドが含まれます。
 
@@ -67,7 +63,7 @@ CNAME レコードを接続すると、マーケターは、トラフィック�
 * タイプ：CNAME
 * ポイント先：`[MunchkinID].mktoweb.com` を入力します
 
-### メールトラッキングリンク用の CNAME の追加
+### メールトラッキングリンク用の CNAME を追加する
 
 `[YourEmailCNAME]` が、Marketo Engage で割り当てられたデフォルトのトラッキングリンクである `[MktoTrackingLink]` を指すように、次の形式でメール CNAME を追加します。
 
@@ -91,7 +87,7 @@ SSL 証明書のプロビジョニングのプロセスを開始するには、[
 
 マーケティングチームは、DNS リソースレコードに追加する DKIM（Domain Keys Identified Mail）情報を提供する必要があります。 DKIMとSPF （Sender Policy Framework）を設定するには、次の手順に従い、更新されたときにマーケティング部門に通知します。
 
-実稼動Marketo Engage インスタンスと、接続されたJourney Optimizer B2B edition インスタンスに同じDKIM設定を使用できます。 アタッチされたインスタンスで、Marketo Engage インスタンスとまったく同じドメインを作成します。 セレクターと暗号化の値が一致する必要はありません。 ドメインがJourney Optimizer B2B edition インスタンスに追加されたら、Adobe サポートチケットを開いて、DKIM設定をMarketo Engage インスタンスから新しいインスタンスに共有するようにリクエストします。 Marketo Engageのプレフィックス（Munchkin ID）と新しいJourney Optimizer B2B editionのプレフィックス（Munchkin ID）を指定します。
+本番 Marketo Engage インスタンスと、接続された Journey Optimizer B2B Edition インスタンスに同じ DKIM 設定を使用できます。 アタッチされたインスタンスで、Marketo Engage インスタンスとまったく同じドメインを作成します。 セレクターと暗号化の値が一致する必要はありません。 ドメインが Journey Optimizer B2B Edition インスタンスに追加されたら、アドビサポートにチケットを登録して、DKIM 設定を Marketo Engage インスタンスから新しいインスタンスに共有するよう依頼します。 Marketo Engage の接頭辞（Munchkin ID）と、新しい Journey Optimizer B2B Edition の接頭辞（Munchkin ID）を指定します。
 
 1. SPF を設定するには、DNS エントリに次の行を追加します。
 
@@ -120,7 +116,7 @@ SSL 証明書のプロビジョニングのプロセスを開始するには、[
 
 ## DMARC を設定
 
-DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、組織がドメインを不正使用から保護するのに役立つ認証プロトコルです。 SPF や DKIM などの既存の認証プロトコルを拡張し、ドメインで認証エラーが発生した場合に実行するアクションを受信者サーバーに通知します。 DMARCはオプションですが、ブランドと評判の保護に役立つため、強くお勧めします。 Google や Yahoo などの大手プロバイダーは、2024年2月から一括送信者に対して DMARC の使用の義務付けを開始しました。
+DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、組織がドメインを不正使用から保護するのに役立つ認証プロトコルです。 SPF や DKIM などの既存の認証プロトコルを拡張し、ドメインで認証エラーが発生した場合に実行するアクションを受信者サーバーに通知します。 DMARCはオプションですが、ブランドと評判の保護に役立つため、お勧めします。 Google や Yahoo などの大手プロバイダーは、2024年2月から一括送信者に対して DMARC の使用の義務付けを開始しました。
 
 DMARC が機能するには、次の DNS TXT レコードの 1 つ以上が必要です。
 
@@ -137,7 +133,7 @@ DMARC が機能するには、次の DNS TXT レコードの 1 つ以上が必�
 
 DMARC レポートを受け取った場合は、次の操作を行います。
 
-1. `p=none` を使用して、受信したフィードバックとレポートを分析します。 レポートでは、認証に失敗したメッセージに対して何もアクションを実行せず、送信者にメールレポートを送信するよう受信者に指示します。
+1. `p=none` を使用して、受信したフィードバックとレポートを分析します。 レポートは、認証に失敗したメッセージに対してアクションを実行しないように受信者に指示し、送信者にメールレポートを送信します。
 
    * 正当なメッセージが認証に失敗した場合は、SPF／DKIM の問題を確認して修正します。
 
@@ -151,7 +147,7 @@ DMARC レポートを受け取った場合は、次の操作を行います。
 
 1. `p=quarantine` レベルでのメッセージの動作に満足している場合は、ポリシーを（`p=reject`）に調整できます。
 
-   拒否ポリシーは、認証に失敗したドメインのすべてのメールを拒否（バウンス）するように受信者に指示します。 このポリシーを有効にすると、ドメインによって 100％認証されたことが確認されたメールのみがインボックスに配置されます。
+   却下ポリシーは、認証に失敗したドメインのすべてのメールを却下（バウンス）するように受信者に指示します。 このポリシーを有効にすると、ドメインによって 100％認証されたことが確認されたメールのみがインボックスに配置されます。
 
    >[!CAUTION]
    >
@@ -199,26 +195,26 @@ DMARC の整列には、次の 2 つのタイプがあります。
 
   DKIMとの連携により、送信者がドメインからメールを送信する権限を持っているかどうかを検証し、メール送信中にコンテンツが変更されていないことを確認できます。 DKIM 整列の DMARC を実装するには：
 
-   * メッセージの MAIL FROM ドメインに対して DKIM を設定します。 Marketo Engage ドキュメントの[手順](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}に従います。
+  * メッセージの MAIL FROM ドメインに対して DKIM を設定します。 Marketo Engage ドキュメントの[手順](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}に従います。
 
-   * DKIM MAIL FROM ドメインに対して DMARC を設定します。
-
-  >[!NOTE]
-  >
-  >Marketo Engage では DKIM 整列をお勧めします。
-
-* **SPF**（Sender Policy Framework）整列：`From:` ヘッダーのドメインを Return-Path: ヘッダーのドメインと一致させる必要があります。 両方の DNS ドメインが同じ場合、SPF は一致（整列）し、合格の結果が返されます。 SPF 整列の DMARC を実装するには：
-
-   * ブランドの Return-Path ドメインを設定します。
-
-      * 適切な SPF レコードを設定します。
-      * メールの送信元となるデータセンターのデフォルトの MX を指すように MX レコードを変更します
-
-   * ブランドの Return-Path ドメインに対して DMARC を設定します。
+  * DKIM MAIL FROM ドメインに対して DMARC を設定します。
 
   >[!NOTE]
   >
-  >Strict SPF 整列は Marketo ではサポートされておらず、推奨されてもいません。
+  >Marketo Engage では DKIM アラインメントをお勧めします。
+
+* **SPF**（Sender Policy Framework）整列：`From:` ヘッダーのドメインを Return-Path: ヘッダーのドメインと一致させる必要があります。 両方の DNS ドメインが同じ場合、SPF が一致（整合）し、合格の結果が返されます。 SPF アラインメントの DMARC を実装するには：
+
+  * ブランドの Return-Path ドメインを設定します。
+
+    * 適切な SPF レコードを設定します。
+    * メールの送信元のデータセンターのデフォルトのMXに戻すには、MX レコードを変更します。
+
+  * ブランドの Return-Path ドメインに対して DMARC を設定します。
+
+  >[!NOTE]
+  >
+  >Strict SPF アラインメントは Marketo Engage ではサポートされておらず、推奨もされません。
 
 ### 専用 IP および共有プール
 
@@ -228,15 +224,15 @@ DMARC の整列には、次の 2 つのタイプがあります。
 
 **Journey Optimizer B2B editionへの専用IPの移行**
 
-専用 IP がある場合は、既存のJourney Optimizer インスタンスと同じリージョンに新しいMarketo Engage B2B edition インスタンスを作成する必要があります。 新しいインスタンスが別の地域にある場合、既存の IP を共有することはできません。 リージョンが一致する場合は、[Adobe サポート &#x200B;](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support){target="_blank"}でチケットを開き、既存のIP グループとバインディング グループを新しいインスタンスと共有するようにリクエストします。 Marketo Engageのプレフィックス（Munchkin ID）と新しいJourney Optimizer B2B editionのプレフィックス（Munchkin ID）を指定します。
+専用 IP がある場合は、新しい Journey Optimizer B2B Edition インスタンスを、既存の Marketo Engage インスタンスと同じ地域に作成する必要があります。 新しいインスタンスが別の地域にある場合、既存の IP を共有することはできません。 リージョンが一致する場合は、[Adobe サポート &#x200B;](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support){target="_blank"}でチケットを開き、既存のIP グループとバインディング グループを新しいインスタンスと共有するようにリクエストします。 Marketo Engage の接頭辞（Munchkin ID）と、新しい Journey Optimizer B2B Edition の接頭辞（Munchkin ID）を指定します。
 
-このリクエストを行うと、Adobeは、既存のMarketo Engage インスタンスと同じ IP、バインディンググループおよび設定済みの Return-Path ドメインをレプリケートします。 Marketo Engage インスタンスとJourney Optimizer B2B edition インスタンス間でIPが共有されている場合、それらのIPを同時に使用します。
+このリクエストを行うと、Adobe は、既存の Marketo Engage インスタンスと同じ IP、バインディンググループ、および設定済みの Return-Path ドメインをレプリケートします。 Marketo Engage インスタンスとJourney Optimizer B2B edition インスタンス間でIPが共有されている場合、両方のインスタンスが同時に使用されます。
 
 >[!ENDSHADEBOX]
 
-信頼できる IP は、月間 75,000 未満の送信を行う低ボリュームユーザー向けに予約されている共有 IP プールで、専用 IP の対象にはなりません。 また、これらのユーザーは、ベストプラクティスの要件も満たす必要があります。
+信頼済みIPは、1か月あたり75,000 ドル未満で送信するボリュームの少ないユーザー向けに予約された、専用IPの要件を満たさないIPの共有プールです。 また、これらのユーザーは、ベストプラクティスの要件も満たす必要があります。
 
-* IP の共有プールを使用して Marketo Engage 経由でメールを送信する場合は、[信頼できる IP 送信範囲プログラムに申し込む](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}ことで、信頼できる IP の対象であるかどうかを確認できます。 Marketo Engage の信頼できる IP から送信する場合は、ブランドの Return-Path が含まれます。 このプログラムに対して承認された場合は、アドビサポートに連絡して、ブランドの Return-Path を設定してください。
+* IP の共有プールを使用して Marketo Engage 経由でメールを送信する場合は、[信頼できる IP 送信範囲プログラムに申し込む](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}ことで、信頼できる IP の対象であるかどうかを確認できます。 Marketo Engage の信頼できる IP から送信する場合は、ブランドの Return-Path が含まれます。 このプログラムの承認を受けた場合は、アドビサポートに連絡してブランディングした return-path を設定してください。
 
 * 毎月 100,000 件を超えるメッセージを送信し、共有 IP を使用して Marketo Engage 経由でメールを送信する場合は、アドビのアカウントチーム（担当のアカウントマネージャー）に連絡して専用 IP を購入してください。
 
@@ -244,11 +240,11 @@ DMARC の整列には、次の 2 つのタイプがあります。
 
 ## ドメインの MX レコードを設定
 
-MX レコードを使用すると、メールの送信元のドメインに対するメールを受信して、返信や自動返信を処理できます。 会社ドメインから送信する場合は、既に設定されている可能性があります。 そうでない場合は、通常、会社ドメインの MX レコードにマッピングするように設定できます。
+MX レコードを使用すると、メールの送信元のドメインに対するメールを受信して、返信や自動返信を処理できます。 会社ドメインから送信する場合は、既に設定されている可能性があります。 そうでない場合は、企業ドメインのMX レコードにマッピングするように設定します。
 
 ## アウトバウンド IP アドレス
 
-Marketo Engageは、ユーザーに代わってインターネットサーバーへのアウトバウンド接続を行います。 IT部門や一部のパートナー/ベンダーは、許可リストを使用して、サーバーへのアクセスを制限する場合があります。 その場合は、Marketo Engageの送信IP アドレスブロックを提供して、許可リストに追加します。
+Marketo Engageは、ユーザーに代わってインターネットサーバーへのアウトバウンド接続を行います。 IT部門や一部のパートナーやベンダーは、サーバーへのアクセスを制限するために許可リストを使用しています。 その場合は、Marketo Engageのアウトバウンド IP アドレスブロックを提供して、その許可リストに追加します。
 
 <!--
 Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
