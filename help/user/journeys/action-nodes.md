@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 2193
+source-wordcount: 2184
 ht-degree: 3%
 
 ---
@@ -125,7 +125,6 @@ _宛先ノードにアクティブ化を追加するには&#x200B;:_
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL &#x200B; ユーザーを（他の）ジャーニーに追加] | <li>アカウントジャーニー（人物に対するアクション） <li>ユーザージャーニー | <li>ライブ顧客ジャーニーを選択 |
 | | [!UICONTROL 外部顧客オーディエンスに追加] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>外部の顧客オーディエンスを選択 |
 | | [!UICONTROL 購買グループに割り当て] | <li>アカウントジャーニー | <li>ソリューションに対する関心を選択 <li>役割を選択 |
-| | [!UICONTROL &#x200B; スコアの変更] | <li>アカウントジャーニー | <li>スコア名 <li>スコアの変更 |
 | | [!UICONTROL 興味深い瞬間] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>タイプ <li>説明 |
 | | [!UICONTROL web エクスペリエンスのパーソナライズ &#x200B;] （Beta） | <li>アカウントジャーニー | <li>web エクスペリエンスの作成/編集 |
 | | [!UICONTROL 購買グループから削除] | <li>アカウントジャーニー | <li>ソリューションに対する関心を選択 |

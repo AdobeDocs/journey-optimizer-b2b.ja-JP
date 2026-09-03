@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1339
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
@@ -33,13 +33,9 @@ Journey Optimizer B2B editionでは、アカウントリストは、マーケタ
 * **静的** – 静的なアカウントリストでは、アカウントを追加するとリストが変更されます。 現在のアカウントデータに基づいてリストに入力するフィルターセットを適用するか、アカウントジャーニーを通じてアカウントを追加および削除することで、アカウントを手動で追加できます。
 * **動的** – 動的アカウントリストを使用すると、リストを自動的にキュレートするためのフィルターセットを定義できます。 このフィルターセットを使用して、アカウント情報の変更に応じてアカウントを追加および削除します。 このリスト管理は、Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}での オーディエンスセグメンテーションに似ています。
 
-アカウントリストが&#x200B;_ライブ_ （公開）状態の場合、アカウントジャーニーおよびMarketo Engage プログラム [&#128279;](./account-lists-journeys.md)で使用できます。
+アカウントリストが&#x200B;_ライブ_ （公開）状態の場合、アカウントジャーニー[&#128279;](./account-lists-journeys.md)で使用できます。
 
 ![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
-
->[!NOTE]
->
->アカウントリスト Adobe Marketo Engageのアカウントデータを利用して、アカウントセグメントとリストを作成できます。 つまり、Adobe Experience PlatformのアカウントセグメントがMarketo Engageにアクティブに同期されていない場合、そのExperience Platform セグメントのアカウントはJourney Optimizer B2B edition アカウントリストで使用できない可能性があります。 その後、Marketo Engageに同期されたExperience Platform セグメントのアカウントの人物のみが、個人メンバーシップ数とトリガーイベントに含まれます。
 
 ## アカウントリストへのアクセスと参照
 

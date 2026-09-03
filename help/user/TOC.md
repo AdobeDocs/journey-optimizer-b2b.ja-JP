@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '450'
 ht-degree: 85%
 
 ---
@@ -91,7 +91,6 @@ ht-degree: 85%
     + [購買グループステージ](./buying-groups/buying-group-stages.md)
     + [購買グループの作成](./buying-groups/buying-groups-create.md)
     + [アカウントの書き出し](./audiences/account-list-export.md)
-    + [Marketo Engage の購買グループフィルター](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
     + [CRM 内インサイト](./buying-groups/incrm-insights.md)
   + アカウントリスト {#account-lists}
     + [概要](./accounts/account-lists.md)

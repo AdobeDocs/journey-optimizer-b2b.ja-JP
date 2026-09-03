@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -156,23 +156,6 @@ B2B市場では、通常、複数の個人が購入決定を行います。 こ�
    複数の役割が定義された![役割テンプレート &#x200B;](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
    変更は、_ドラフト_&#x200B;のステータスで自動保存されます。 役割テンプレートを公開する準備ができていない場合は、ページ上部の左（後ろ）矢印をクリックして、_[!UICONTROL 役割テンプレート]_ リストに戻ります。
-
->[!BEGINSHADEBOX &quot;Marketo Engage リスト メンバーシップ&quot;]
-
-Marketo Engageでは、_スマートキャンペーン_&#x200B;がプログラムのメンバーシップをチェックして、リードが重複するメールを受信せず、同時に複数のメールストリームのメンバーでないことを確認します。 Journey Optimizer B2Bでは、ロールテンプレートの条件としてMarketo Engage リストメンバーシップを確認して、購買グループメンバーシップとジャーニーアクティビティの重複を排除するのに役立ちます。
-
-リストのメンバーシップを役割の条件として使用するには、**[!UICONTROL 特殊フィルター]**&#x200B;を展開し、**[!UICONTROL リストのメンバー]**&#x200B;条件をフィルタースペースにドラッグします。 1つ以上のMarketo Engage リストのメンバーシップを評価するには、フィルター定義を入力します。
-
-Marketo Engage リスト メンバーシップの![役割テンプレート条件](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**機能の非推奨化**
->
->現在のJourney Optimizer B2B edition リリースでは、Marketo Engage インスタンスのリストまたはプログラムメンバーシップに基づくフィルタリングはサポートされなくなりました。
-
->[!ENDSHADEBOX]
 
 ### 完全性スコア設定の変更 {#change-the-completeness-score-settings}
 

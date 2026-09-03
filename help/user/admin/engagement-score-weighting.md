@@ -16,9 +16,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1257
 ht-degree: 0%
 
 ---
@@ -58,10 +58,6 @@ ht-degree: 0%
 _アクティビティの重み付けモデル 1_&#x200B;という名前の初期エンゲージメントスコアモデルが作成されます。 エンゲージメントアクティビティは、標準およびカスタムのExperience Platform イベントに基づいています。 すべてのアクティビティの重みは、デフォルトでは0です。
 
 ![Experience Platform イベントのデフォルトのエンゲージメントスコアの重み付けモデル &#x200B;](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
-
-<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
-
-<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 カスタムモデルをアクティブ化すると、アクティブなモデルは&#x200B;_アーカイブ_ ステータスに変わります。 デフォルトのエンゲージメントスコアモデルに戻す場合は、元のデフォルトモデルを複製してからアクティブにするか、別のカスタムモデルの出発点として使用します。
 
@@ -138,14 +134,6 @@ Experience Platform イベントのデフォルトモデルには、Experience P
 </td>
 </tbody>
 </table>
-
-+++
-
-+++標準アーキテクチャのアクティビティ
-
-標準アーキテクチャのデフォルトモデルには、関連付けられたデフォルトの重みを持つ[!DNL Marketo Engage]個のトラッキングされたアクティビティが含まれます。 このモデルを複製すると、ニーズに応じて重み付けを変更できます。 1日の最大頻度は変更できません。
-
-{{engagement-activities-me}}
 
 +++
 

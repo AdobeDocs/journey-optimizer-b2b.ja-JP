@@ -17,10 +17,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T21:43:47.624Z
 TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
-ht-degree: 30%
+source-wordcount: 1229
+ht-degree: 29%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 30%
 
 購買グループのスコアリングは&#x200B;_トリガーベース_&#x200B;ではありません。 購買グループのすべてのメンバーのアクティビティを評価し、スコアを再計算する日々のプロセスです。 アクティビティでは、_重み付け_&#x200B;を使用して、アクティブな重み付けモデルに従って購買グループのスコアリングを通知します。これにより、各アクティビティの重み付け方法が決定されます。
 
-各アクティビティの 1 日あたりのフリークエンシーキャップは 20 です。 購買グループのメンバーが1日に20回以上同じアクティビティを実行した場合、アクティビティのカウントは20に制限されます。
+各アクティビティの 1 日あたりのフリークエンシーキャップは 20 回です。 購買グループのメンバーが1日に20回以上同じアクティビティを実行した場合、アクティビティのカウントは20に制限されます。
 
 | アクティビティ名 | 説明 | エンゲージメントタイプ | 1 日あたりの最大頻度数 | 既定のモデル アクティビティの重み付け |
 |---------------|-------------|-----------------|---------------------------|-------------------------------|
@@ -115,10 +115,6 @@ ht-degree: 30%
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
 -->
-
->[!NOTE]
->
->エンゲージメントスコアアクティビティは、個人のMarketo Engage アクティビティログに記録されます。 このログには、接続されているMarketo Engage インスタンスからアクセスできます。 詳しくは、Marketo Engage ドキュメントの「[&#x200B; ユーザーのアクティビティログを探す](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}」を参照してください。
 
 ## 役割テンプレートの重み付け {#engagement-score-weighting}
 
@@ -178,7 +174,7 @@ _[!UICONTROL 非常に重要]_、_[!UICONTROL 重要]_、_[!UICONTROL 標準]_&#
 
 最終的なエンゲージメントスコアは、各役割スコアの重み付けを適用して計算されます。
 
-| 役割 | 役割の合計スコア | 役割の重み付け ％ | スコア X の重み付け ％ |
+| 役割 | 役割の合計スコア | 役割の重み付け ％ | スコア × 重み付け％ |
 |-------------- |---------------- |------------- |---------------- |
 | 意思決定者 | 52 | 41.67％ | 21.67 |
 | 影響者 | 28 | 33.33％ | 9.33 |
