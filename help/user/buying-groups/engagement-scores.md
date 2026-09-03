@@ -4,11 +4,17 @@ description: Journey Optimizer B2B editionの重み付けアクティビティ�
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T21:43:47.624Z
 TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
 source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
@@ -33,19 +39,19 @@ ht-degree: 29%
 
   購買グループのエンゲージメントスコアは、[購買グループの詳細](./buying-group-details.md) ページに表示されます。 また、インテリジェントダッシュボードで最もエンゲージメントの高い購買グループを表示することもできます。
 
-  ![最もエンゲージ率の高い購買グループ ](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
+  ![最もエンゲージ率の高い購買グループ &#x200B;](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
 
 * **人物エンゲージメントスコア** – 人物エンゲージメントスコアは、個々の購買グループメンバーのアクティビティに基づいています。
 
-  購買グループの各メンバーに対する人物エンゲージメントスコアは、購買グループの詳細ページ [_[!UICONTROL  メンバー&#x200B;]_タブ ](./buying-group-details.md#buying-group-members)に表示されます。 これらのスコアは、最もエンゲージメントの高いメンバーや重複する連絡先情報を含むページやダッシュボードにも表示されます。
+  購買グループの各メンバーに対する人物エンゲージメントスコアは、購買グループの詳細ページ [_[!UICONTROL &#x200B; メンバー&#x200B;]_&#x200B;タブ &#x200B;](./buying-group-details.md#buying-group-members)に表示されます。 これらのスコアは、最もエンゲージメントの高いメンバーや重複する連絡先情報を含むページやダッシュボードにも表示されます。
 
   ![最もエンゲージ率の高い購買グループのメンバー](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-人物エンゲージメントスコアは、[ ロールテンプレート ](./buying-groups-role-templates.md#add-the-template-roles)および[ ジャーニースプリットパスによる人物ノード ](../journeys/split-merge-paths-nodes.md#people-path-filters)でのフィルタリングに使用できる属性です。
+人物エンゲージメントスコアは、[&#x200B; ロールテンプレート &#x200B;](./buying-groups-role-templates.md#add-the-template-roles)および[&#x200B; ジャーニースプリットパスによる人物ノード &#x200B;](../journeys/split-merge-paths-nodes.md#people-path-filters)でのフィルタリングに使用できる属性です。
 
-![設定されたイベント定義にアクセス ](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
+![設定されたイベント定義にアクセス &#x200B;](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +123,7 @@ ht-degree: 29%
 >title="エンゲージメントスコアの役割別重み付け"
 >abstract="役割別重み付けを使用して、エンゲージメントスコアの計算をカスタマイズします。"
 
-ユーザーは、[役割テンプレート ](./buying-groups-role-templates.md)の各役割に&#x200B;_重み付け_&#x200B;を割り当てて、役割に異なる重みを割り当てることができます。
+ユーザーは、[役割テンプレート &#x200B;](./buying-groups-role-templates.md)の各役割に&#x200B;_重み付け_&#x200B;を割り当てて、役割に異なる重みを割り当てることができます。
 
 ![役割テンプレートの各役割に重み付けを設定](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
