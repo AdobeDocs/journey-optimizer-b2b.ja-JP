@@ -223,4 +223,4 @@ B2B市場では、通常、複数の個人が購入決定を行います。 こ�
 
 ## 概要動画 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453298/?captions=jpn&learn=on)
