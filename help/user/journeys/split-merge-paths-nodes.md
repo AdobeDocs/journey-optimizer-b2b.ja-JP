@@ -288,4 +288,4 @@ _[!UICONTROL 特殊フィルター]_ セクション内には、購買グルー�
 
 ## 概要動画 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443257/?captions=jpn&learn=on)
