@@ -6,11 +6,18 @@ role: User
 exl-id: fc0d6baa-d2e9-4a28-9d78-c74b99282ec1
 autotag-review: '2026-08-05T21:23:02.338Z'
 TQID: 'https://experienceleague.adobe.com/SM3jr1AuPhUHuSHFUpf35omVUPOdubXbOrC8ZnJYdWE'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
 source-wordcount: 860
@@ -24,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->マーケターがジャーニーでこれらのノードを追加および実装するには、管理者が[外部アクション ](../admin/configure-external-actions.md)を設定してアクティブにする必要があります。
+>マーケターがジャーニーでこれらのノードを追加および実装するには、管理者が[外部アクション &#x200B;](../admin/configure-external-actions.md)を設定してアクティブにする必要があります。
 
 外部アクションノードタイプは2つあります。
 
@@ -41,7 +48,7 @@ _外部アクション_ ノードは、外部サービスを呼び出し、応�
 
    ![外部アクションノードを追加](./assets/node-external-action.png){width="400"}
 
-1. （アカウントジャーニーのみ）右側のノードプロパティで、外部アクションの&#x200B;]**コンテキストに**[!UICONTROL  アクションを設定します。
+1. （アカウントジャーニーのみ）右側のノードプロパティで、外部アクションの&#x200B;**コンテキストに** アクションを設定します。
 
    * ノードパス上のアカウントの一部であるすべてのユーザーに外部アクションを適用する場合は、**[!UICONTROL アカウント]**&#x200B;を選択します。
    * ノードパスのすべてのユーザーに変更を適用する場合は、**[!UICONTROL ユーザー]**&#x200B;を選択します。
@@ -96,4 +103,4 @@ _外部アクション_ ノードは、外部サービスを呼び出し、応�
 
    _[!UICONTROL タイムアウトまたはエラー]_ パスが自動的に作成されます。 （サービスで設定された）タイムアウト期間が応答を受け取る前に経過した場合、アカウントまたは人物はこのパスに進みます。 エラー応答を受け取った場合も同様です。 これらのシナリオを処理するには、ジャーニーノードをこのパスに追加するか、ジャーニーがオーディエンスメンバーに対して終了します。
 
-1. _アカウントで分割_&#x200B;するために必要に応じて2つ以上のパスを組み合わせるには、[ パスを結合ノード ](./split-merge-paths-nodes.md#merge-paths)を追加できます。
+1. _アカウントで分割_&#x200B;するために必要に応じて2つ以上のパスを組み合わせるには、[&#x200B; パスを結合ノード &#x200B;](./split-merge-paths-nodes.md#merge-paths)を追加できます。
