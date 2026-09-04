@@ -3,10 +3,14 @@ title: プライバシー管理
 description: Journey Optimizer B2B editionでGDPRやCCPAなどのプライバシー規制に準拠し、Adobe Privacy Serviceを使用してリクエストを送信する方法をご紹介します。
 feature: Setup, Permissions
 role: Admin
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
 workflow-type: tm+mt
 source-wordcount: 634
@@ -43,7 +47,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-![権限アイコン ](../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、[!DNL Privacy Service]製品プロファイルと、Experience Platform](./user-management.md)で割り当てられたユーザーロールに対する次の[権限が必要です。
+![権限アイコン &#x200B;](../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、[!DNL Privacy Service]製品プロファイルと、Experience Platform[&#128279;](./user-management.md)で割り当てられたユーザーロールに対する次の権限が必要です。
 
 * **[!UICONTROL Privacy Service権限]** - `Privacy Read Permission`および`Privacy Write Permission`
 * **[!UICONTROL データガバナンス]** - `View Privacy Console`
@@ -56,7 +60,7 @@ ht-degree: 2%
 
 右上の「**[!UICONTROL 規制タイプ]**」オプションを使用して、ジョブを管理またはリクエストを送信する規制の表示ページを変更します。
 
-![ プライバシー要求ジョブ、規制タイプを選択](./assets/privacy-requests.png){width="800" zoomable="yes"}
+![&#x200B; プライバシー要求ジョブ、規制タイプを選択](./assets/privacy-requests.png){width="800" zoomable="yes"}
 
 ### リクエストを送信 {#submit-a-request}
 
@@ -93,7 +97,7 @@ ht-degree: 2%
 
 ### API リクエスト {#api-requests}
 
-[!DNL Privacy Service] APIを使用してプライバシーリクエストを送信することもできます。 一般的なAPIの参照については、[Privacy Service API ドキュメント ](https://developer.adobe.com/experience-platform-apis/references/privacy-service){target="_blank"}を参照してください。
+[!DNL Privacy Service] APIを使用してプライバシーリクエストを送信することもできます。 一般的なAPIの参照については、[Privacy Service API ドキュメント &#x200B;](https://developer.adobe.com/experience-platform-apis/references/privacy-service){target="_blank"}を参照してください。
 
 >[!PREREQUISITES]
 >
@@ -111,7 +115,7 @@ ht-degree: 2%
 | `users.action` | `access` または `delete` |
 | `users.userIDs.namespace` | `Email` |
 | `include` | `marketo`を使用して[!DNL Journey Optimizer B2B Edition]と[!DNL Marketo Engage] データの両方を含める |
-| `regulation` | 例：`ccpa` <br/>一部のレギュレーション値に状態の略語が含まれるように変更されています（例：`ucpa_ut_usa`）。 古い値は、移行期間でも有効です。 これらの値に対する統合を構築する前に、現在のリストについては、[ プライバシー規制の概要](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}を参照してください。 |
+| `regulation` | 例：`ccpa` <br/>一部のレギュレーション値に状態の略語が含まれるように変更されています（例：`ucpa_ut_usa`）。 古い値は、移行期間でも有効です。 これらの値に対する統合を構築する前に、現在のリストについては、[&#x200B; プライバシー規制の概要](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}を参照してください。 |
 
 次の例では、[!DNL Journey Optimizer B2B Edition] データを含むGDPR削除要求を送信します。
 
