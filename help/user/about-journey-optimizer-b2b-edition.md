@@ -3,11 +3,16 @@ title: Adobe Journey Optimizer B2B Edition の概要
 description: Adobe Journey Optimizer B2B Edition について - B2B マーケティング向けの購買グループ、AI インサイトおよび Experience Platform 統合を使用してアカウントジャーニーを調整します。
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 autotag-review: 2026-04-29T23:21:13.339Z
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 TQID: https://experienceleague.adobe.com/L58cK4MP-S-8U9fFiXU2qZn4HCieNzjoOaSRCLkyanI
 source-git-commit: 8d2fc3ebc7df1674ac9af441679228a9e19d8d5a
 workflow-type: tm+mt
@@ -32,7 +37,7 @@ Adobe Journey Optimizer B2B editionは、Real-Time CDP B2Bを含むAdobe Experie
 
 ジャーニーアクションをサポートするために、実稼動インスタンスを含む既存の1つ以上のMarketo Engage インスタンスを接続することもできます。 ジャーニーのアクションにより、マーケターは、Journey Optimizer B2B editionのアカウントベースのジャーニーを、リストへの人物の追加やリクエストキャンペーンなどのMarketo Engageのリードベースのキャンペーンと連携させることができます。 [Marketo Engage インスタンスの接続に関する詳細情報](./admin/marketo-actions-connect.md)。
 
-![ アカウントおよびユーザーオーディエンスの信頼できる唯一の情報源としてAdobe Experience Platformに接続されたJourney Optimizer B2B editionを示す高レベルのデータアーキテクチャ、使用権限とバックエンドサービスを提供する専用のMarketo Engage インスタンス、およびジャーニーアクションの実行に使用されるオプションの実稼動Marketo Engage インスタンス ](./assets/high-level-data-architecture.png){zoomable="yes"}。
+![&#x200B; アカウントおよびユーザーオーディエンスの信頼できる唯一の情報源としてAdobe Experience Platformに接続されたJourney Optimizer B2B editionを示す高レベルのデータアーキテクチャ、使用権限とバックエンドサービスを提供する専用のMarketo Engage インスタンス、およびジャーニーアクションの実行に使用されるオプションの実稼動Marketo Engage インスタンス &#x200B;](./assets/high-level-data-architecture.png){zoomable="yes"}。
 
 >[!NOTE]
 >
@@ -40,7 +45,7 @@ Adobe Journey Optimizer B2B editionは、Real-Time CDP B2Bを含むAdobe Experie
 
 ### サブスクリプションモデル
 
-Experience Platform サンドボックスと専用のMarketo Engage インスタンスを組み合わせると、Journey Optimizer B2B edition サブスクリプションが定義されます。 この専用インスタンスは、実稼動のMarketo Engage インスタンスとは別のもので、アカウントジャーニーデータを保存するのではなく、使用権限とバックエンドサービスをサポートするために存在します。 [ セットアップの詳細](./setup-ultimate.md)を見る。
+Experience Platform サンドボックスと専用のMarketo Engage インスタンスを組み合わせると、Journey Optimizer B2B edition サブスクリプションが定義されます。 この専用インスタンスは、実稼動のMarketo Engage インスタンスとは別のもので、アカウントジャーニーデータを保存するのではなく、使用権限とバックエンドサービスをサポートするために存在します。 [&#x200B; セットアップの詳細](./setup-ultimate.md)を見る。
 
 Experience Platformでは、接続されたMarketo EngageインスタンスとCRM システムからのデータを一元的に把握できます。 統合データを活用してジャーニーを構築、実行します。
 
