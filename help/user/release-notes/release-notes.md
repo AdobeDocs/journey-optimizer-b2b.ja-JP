@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: d8425054daea287d21419911158908035c1314f6
 workflow-type: tm+mt
-source-wordcount: 5633
+source-wordcount: 5637
 ht-degree: 61%
 
 ---
@@ -44,8 +44,8 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | 機能 | C2PA メタデータ | 生成AI ツールで生成または編集された画像は、C2PA メタデータで自動的に署名されるようになりました。これにより、コンテンツの透明性とAI開示要件を満たすことができます。 [詳細情報](../content/c2pa-metadata.md) |
 | 機能強化 | ジャーニー再入力 – 人物ジャーニー | 個人ジャーニーで、ジャーニーの再入力のサポートが利用可能になりました。 |
 | 機能強化 | イベントトリガーとフィルターをリッスンする – アカウントジャーニー | _Listen for event_ ノードでの複数のトリガーとフィルターのサポートが、アカウントジャーニーで利用できるようになりました。 |
-| 機能強化 | 外部分割パスノード – 人物ジャーニー | _外部分割パス_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 |
-| 機能強化 | 外部アクションノード – 人物ジャーニー | _外部アクション_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 |
+| 機能強化 | 外部分割パスノード – 人物ジャーニー | _外部分割パス_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 [詳細情報](../journeys/external-nodes.md#external-action) |
+| 機能強化 | 外部アクションノード – 人物ジャーニー | _外部アクション_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 [詳細情報](../journeys/external-nodes.md#external-split-paths) |
 | 機能強化 | AEPのリレーショナルデータセット | 新しいリレーショナルデータセットが、既存のデータセットとともにAEP サンドボックスに表示されるようになりました。 |
 | 機能強化 | 製品権限 – WhatsApp チャネル | 製品管理者は、_[!UICONTROL B2B チャネル設定]_&#x200B;に対して`Manage B2B WhatsApp Settings`および`Manage B2B WhatsApp Presets`権限を設定できるようになりました。 |
 
