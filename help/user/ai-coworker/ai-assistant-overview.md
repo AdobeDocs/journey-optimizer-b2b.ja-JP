@@ -7,12 +7,20 @@ level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 1385
@@ -22,17 +30,17 @@ ht-degree: 9%
 
 # JOURNEY OPTIMIZER B2B editionのAI機能
 
-Adobe Journey Optimizer B2B editionのチャットインターフェイスは、[Adobe Experience PlatformのAI アシスタント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}と同じテクノロジ基盤を利用しています。 Journey Optimizer B2B editionなら、対話型エクスペリエンスを利用して、ワークフローを高速化できます。 チャットインターフェイスを利用すれば、製品の能力に関する理解を深め、問題をトラブルシューティングし、情報を検索して、Journey Optimizer B2B editionの運用に関するインサイトを得ることができます。 このインターフェイスを使用して、[Journey Agent](../agents/journey-agent.md)および[Audience Agent](../agents/audience-agent-b2b.md)を呼び出すこともできます。
+Adobe Journey Optimizer B2B editionのチャットインターフェイスは、[Adobe Experience PlatformのAI アシスタント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}と同じテクノロジ基盤を利用しています。 Journey Optimizer B2B editionなら、対話型エクスペリエンスを利用して、ワークフローを高速化できます。 チャットインターフェイスを利用すれば、製品の能力に関する理解を深め、問題をトラブルシューティングし、情報を検索して、Journey Optimizer B2B editionの運用に関するインサイトを得ることができます。 このインターフェイスを使用して、[Journey Agent](../agents/journey-agent.md)および[Audience Agent](../agents/audience-agent-b2b.md)を呼び出すこともできます。
 
 >[!IMPORTANT]
 >
->Journey Optimizer B2B editionでAI アシスタントを使用するには、[ ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意が必要です。 この契約書には、公開ベータ版の契約書も含まれているため、追加のAI アシスタント機能をロールアウト時に使用できます。
+>Journey Optimizer B2B editionでAI アシスタントを使用するには、[&#x200B; ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意が必要です。 この契約書には、公開ベータ版の契約書も含まれているため、追加のAI アシスタント機能をロールアウト時に使用できます。
 
 +++ユーザー契約書インターフェイスの表示
 
-![ ユーザー契約書の最初のページ。](./assets/user-agreement-1.png)
+![&#x200B; ユーザー契約書の最初のページ。](./assets/user-agreement-1.png)
 
-![ ユーザー契約書の最後のページ。](./assets/user-agreement-2.png)
+![&#x200B; ユーザー契約書の最後のページ。](./assets/user-agreement-2.png)
 
 +++
 
@@ -42,13 +50,13 @@ Adobe Journey Optimizer B2B editionのチャットインターフェイスは、
 
 Sales Qualifierは、Journey Optimizer B2B editionのAIを利用したアプリケーションです。 Account Qualification Agentを実装し、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 Sales Qualifierは、見込み顧客の絞り込み、アウトリーチ、バイヤーへのエンゲージメントワークフローをチャネルをまたいで自動化します。 B2B企業は、手作業のBDR負荷を軽減し、パイプラインを高速化することで、パイプラインを高速化できます。
 
-詳しくは、[Sales Qualifier ドキュメント ](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"}を参照してください。
+詳しくは、[Sales Qualifier ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 ## JOURNEY OPTIMIZER B2B editionのAI アシスタント機能
 
-送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読みやすい回答に変換します。 この応答は、基礎となるデータ _**ナレッジグラフ**_&#x200B;の内部表現であり、特定の回答に対する概念、データ、メタデータの包括的なコレクションを提供します。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
+送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読みやすい回答に変換します。 この応答は、基礎となるデータ _&#x200B;**ナレッジグラフ**&#x200B;_&#x200B;の内部表現であり、特定の回答に対する概念、データ、メタデータの包括的なコレクションを提供します。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
 
 * このトピックに関するAdobe Experience Leagueの。
 * スキーマ、フィールド、オーディエンス、ジャーニーなどの運用上のアーティファクト。

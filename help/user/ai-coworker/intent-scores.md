@@ -5,12 +5,20 @@ feature: Dashboards, Intent, Intelligent Insights
 role: User
 autotag-review: '2026-09-11T14:56:32.307Z'
 TQID: 'https://experienceleague.adobe.com/ajtUdNKafSoE1BC08imOpyflpDeAsXaQ3tdlbeYT6NU'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-subfeature_v2: id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2:
+  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
 source-wordcount: 1445
@@ -23,9 +31,9 @@ ht-degree: 0%
 
 インテントスコアは、キーワード、製品、製品のカテゴリーに、ある人物やアカウントがどの程度関心を持っているのかを測定します。 Adobe Journey Optimizer B2B editionは、マシンラーニングを利用してスコアを計算し、手作業によるルールや固定小数点法ではなく、意味の類似性を測定します。 各スコアは0から1に正規化され、スコアが高いほどインテントが強いことを示します。
 
-コンテンツの関連性は約12時間ごとに更新され、インテントスコアは毎日再計算されます。 スコアは、キーワードから商品、人物からアカウントまでを集計します。 インテントスコアは、[ インテリジェントダッシュボード ](../dashboards/intelligent-dashboard.md)、および[ アカウントの詳細](../accounts/account-details.md)、[_購買グループの詳細_ ページ ](../buying-groups/buying-group-details.md)、および[人物の詳細](../accounts/person-details.md) ページ全体に表示されます。
+コンテンツの関連性は約12時間ごとに更新され、インテントスコアは毎日再計算されます。 スコアは、キーワードから商品、人物からアカウントまでを集計します。 インテントスコアは、[&#x200B; インテリジェントダッシュボード &#x200B;](../dashboards/intelligent-dashboard.md)、および[&#x200B; アカウントの詳細](../accounts/account-details.md)、[_購買グループの詳細_ ページ &#x200B;](../buying-groups/buying-group-details.md)、および[人物の詳細](../accounts/person-details.md) ページ全体に表示されます。
 
-![ インテントデータビジュアライゼーション ](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
+![&#x200B; インテントデータビジュアライゼーション &#x200B;](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 以下のセクションでは、インテントスコアリングの背後にあるコアコンセプト、スコアを最新の状態に保つ継続的なプロセス、各スコアの背後にある計算ロジック、設定できる設定について説明します。
 
@@ -43,7 +51,7 @@ ht-degree: 0%
 
 分類法、意図を測定するキーワード、製品、カテゴリーは、設定なしで使用できます。
 
-分類マッピングは、_[!UICONTROL インテント マッピング]_ ページでいつでも確認および更新できます。 分類の設定プロセスについては、[ インテントデータ ](../admin/intent-data.md)を参照してください。
+分類マッピングは、_[!UICONTROL インテント マッピング]_ ページでいつでも確認および更新できます。 分類の設定プロセスについては、[&#x200B; インテントデータ &#x200B;](../admin/intent-data.md)を参照してください。
 
 ### コンテンツの適切さ {#content-relevance}
 
@@ -55,7 +63,7 @@ Journey Optimizer B2B editionでは、コンテンツと分類法を意味の数
 
 継続的なプロセスにより、生のエンゲージメントを完了したインテントスコアに変換します。 各ステージは、前のステージで生み出された内容に基づいています。
 
-![ エンゲージメント獲得、コンテンツ抽出、関連性スコアリング、日々のインテント計算、スコア配信の5つのスコアリングステージのフローチャート。](./assets/intent-scores-pipeline.svg){width="700"}
+![&#x200B; エンゲージメント獲得、コンテンツ抽出、関連性スコアリング、日々のインテント計算、スコア配信の5つのスコアリングステージのフローチャート。](./assets/intent-scores-pipeline.svg){width="700"}
 
 ### エンゲージメント獲得 {#engagement-capture}
 
@@ -151,7 +159,7 @@ Journey Optimizer B2B editionでは、コンテンツと分類法を意味の数
 
 スコアリングロジックのほとんどは、信頼性の高い、比較可能な結果を長期的に維持できるように修正されています。 製品管理者は、要件に合わせて2つの設定をカスタマイズできます。
 
-* **アクティビティの重み付け** - インテントスコアに大きな影響を与えるには、デモリクエストや価格ページ訪問など、価値の高いアクティビティの重み付けを増やします。 アクティビティを完全に除外するには、その重みをゼロに設定します。これは、意図に貢献しない購読解除などのアクションに役立ちます。 インテント計算のアクティビティの重み付けでは、[ エンゲージメントスコア ](../buying-groups/engagement-scores.md)も駆動するのと同じ重み付けモデルを使用します。 アクティビティの重みを変更するには、[_エンゲージメントスコアの重み付けを設定_](../admin/engagement-score-weighting.md)&#x200B;するを参照してください。
+* **アクティビティの重み付け** - インテントスコアに大きな影響を与えるには、デモリクエストや価格ページ訪問など、価値の高いアクティビティの重み付けを増やします。 アクティビティを完全に除外するには、その重みをゼロに設定します。これは、意図に貢献しない購読解除などのアクションに役立ちます。 インテント計算のアクティビティの重み付けでは、[&#x200B; エンゲージメントスコア &#x200B;](../buying-groups/engagement-scores.md)も駆動するのと同じ重み付けモデルを使用します。 アクティビティの重みを変更するには、[_エンゲージメントスコアの重み付けを設定_](../admin/engagement-score-weighting.md)&#x200B;するを参照してください。
 
 * **分類マッピング** - スコアリングに基づくキーワード、製品、およびカテゴリを使用できます。 _[!UICONTROL インテント マッピング]_ ページでいつでも確認して更新できます。 設定プロセスについては、[_インテントデータ_](../admin/intent-data.md)&#x200B;を参照してください。
 

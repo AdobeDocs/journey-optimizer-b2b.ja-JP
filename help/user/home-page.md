@@ -4,10 +4,15 @@ description: Journey Optimizer B2B Edition にアクセスし、パーソナラ�
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
 source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
@@ -34,7 +39,7 @@ Adobe Experience Platform にログインし、Adobe Journey Optimizer B2B Editi
 
 ![Journey Optimizer B2B Edition ホームページ](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition には、_**マーケター**_&#x200B;と&#x200B;_**管理者**_&#x200B;という 2 つの主要なユーザーペルソナがあります。 各ペルソナには、成熟度（新規または高度）に応じた固有のホームページがあります。 ページのコンテンツは、各ペルソナが必要とする情報と次に実行するアクションに基づいています。
+Journey Optimizer B2B Edition には、_&#x200B;**マーケター**&#x200B;_&#x200B;と&#x200B;_&#x200B;**管理者**&#x200B;_&#x200B;という 2 つの主要なユーザーペルソナがあります。 各ペルソナには、成熟度（新規または高度）に応じた固有のホームページがあります。 ページのコンテンツは、各ペルソナが必要とする情報と次に実行するアクションに基づいています。
 
 * **マーケター - 新規ユーザー** - 新規ユーザー向けの&#x200B;_マーケター_&#x200B;ホームページは、Journey Optimizer B2B とその機能に慣れるのに役立ちます。 新しいマーケター向けのガイドを利用して、システムの細かな違いを理解し、B2B マーケティング戦略や施策の開発を効率的に行うことができます。
 * **マーケター - 高度なユーザー** - 高度なマーケター向けの&#x200B;_マーケター_&#x200B;ホームページには、現在のイニシアチブの進行状況、推奨される次のアクションが表示され、関連セクションにクイックアクセスできます。

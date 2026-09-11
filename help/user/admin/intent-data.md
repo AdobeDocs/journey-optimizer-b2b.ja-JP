@@ -4,10 +4,16 @@ description: キーワードマッピングを使用してインテントデー�
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
 source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
@@ -23,7 +29,7 @@ ht-degree: 1%
 
 インテントスコアの計算について詳しくは、[_インテントスコア_](../ai-coworker/intent-scores.md)&#x200B;を参照してください。
 
-インテントデータは、[_インテリジェントダッシュボード_](../dashboards/intelligent-dashboard.md)、[_アカウントの詳細_ ページ ](../accounts/account-details.md)、[_購買グループの詳細_ ページ ](../buying-groups/buying-group-details.md)および&#x200B;[_人物の詳細_ ページ ](../accounts/person-details.md)で使用されます。
+インテントデータは、[_インテリジェントダッシュボード_](../dashboards/intelligent-dashboard.md)、[_アカウントの詳細_ ページ &#x200B;](../accounts/account-details.md)、[_購買グループの詳細_ ページ &#x200B;](../buying-groups/buying-group-details.md)および&#x200B;[_人物の詳細_ ページ &#x200B;](../accounts/person-details.md)で使用されます。
 
 ## インテントマッピングデータの準備
 
@@ -43,7 +49,7 @@ ht-degree: 1%
 
 1. ダイアログで、**[!UICONTROL ファイルテンプレートをダウンロード]** リンクをクリックします。
 
-   ![ インテント データのダウンロード テンプレート ファイル ](./assets/intent-data-upload-files.png){width="500"}
+   ![&#x200B; インテント データのダウンロード テンプレート ファイル &#x200B;](./assets/intent-data-upload-files.png){width="500"}
 
 1. 「**[!UICONTROL キャンセル]**」をクリックします。
 
@@ -55,7 +61,7 @@ ht-degree: 1%
    * _Journey Optimizer B2B_、_Marketo Engage_、_Experience Manager_&#x200B;など、製品名に従って各タブの名前を変更します。
    * _B2B Marketing_、_ブランド認知度_、_リードエンゲージメント_&#x200B;など、各タブの製品キーワードを追加します。
 
-   ![ カテゴリースプレッドシート ](./assets/intent-category-spreadsheet.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリースプレッドシート &#x200B;](./assets/intent-category-spreadsheet.png){width="600" zoomable="yes"}
 
 ## カテゴリファイルのアップロード
 
@@ -69,7 +75,7 @@ ht-degree: 1%
 
    前処理を実行して類似のキーワードをクラスタリングすることで、意図の検出を向上させ、キーワードの希薄化を回避します。 この前処理が完了するとすぐにパルス通知が表示されます（データに応じて最大15分）。
 
-   ![ パルス通知](./assets/intent-data-upload-files-pre-process.png){width="500"}
+   ![&#x200B; パルス通知](./assets/intent-data-upload-files-pre-process.png){width="500"}
 
    結果は、_インテント マッピング_ ページに表示されます。
 
