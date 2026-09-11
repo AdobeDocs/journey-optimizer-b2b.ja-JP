@@ -29,7 +29,7 @@ ht-degree: 34%
 
 >[!TAB AI エージェント]
 
-[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}では、AI アシスタントのインターフェイスにより、専門の担当者が自動的に呼び出され、適切な回答とインサイトを入手できます。 Agent Orchestratorは、会話履歴を記憶するため、コンテキストを繰り返すことなく自然に以前の質問を作成でき、複数の担当者からのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition]のコンテキストでは、特定のB2B タスクとドメイン用に構築された3つのエージェントがあります。
+[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}では、AI アシスタントのインターフェイスにより、専門の担当者が自動的に呼び出され、適切な回答とインサイトを入手できます。 Agent Orchestratorは、会話履歴を記憶するため、コンテキストを繰り返すことなく自然に以前の質問を作成でき、複数の担当者からのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition]のコンテキストでは、特定のB2B タスクとドメイン用に構築された3つのエージェントがあります。
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
@@ -77,7 +77,7 @@ ht-degree: 34%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 最新のリリースノート
 
@@ -87,7 +87,7 @@ Adobe Journey Optimizer B2B editionの最新のリリースノート、新機能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 基本を学ぶ
 
@@ -98,7 +98,7 @@ Journey Optimizer B2B editionのオンボーディングガイダンス（管理
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 XDM フィールドの設定
 
@@ -108,7 +108,7 @@ Adobe Journey Optimizer B2B editionで使用するXDM スキーマとフィー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 通信チャネル
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizer B2B editionで使用するXDM スキーマとフィー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 ジャーニーの作成
 
@@ -130,7 +130,7 @@ Adobe Journey Optimizer B2B editionで使用するXDM スキーマとフィー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
 
 購買グループについて
 
@@ -143,7 +143,7 @@ Adobe Journey Optimizer B2B editionで使用するXDM スキーマとフィー�
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ja)
 
 Design Content
 
@@ -203,7 +203,7 @@ Learn how to author and manage content for personalized customer experiences orc
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> ビデオとチュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品の説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> ビデオとチュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品の説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank"> ドキュメント </a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者リソース </a>
