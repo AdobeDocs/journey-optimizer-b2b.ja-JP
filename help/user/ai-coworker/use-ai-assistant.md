@@ -4,23 +4,17 @@ description: Journey Optimizer B2B editionのAI アシスタントに製品ナ�
 feature: AI Assistant
 role: User
 level: Beginner
+nudge: true
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 autotag-review: '2026-06-05T16:09:10.773Z'
 TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
 workflow-type: tm+mt
 source-wordcount: 954
 ht-degree: 2%
@@ -33,7 +27,7 @@ Journey Optimizer B2B editionでは、AI アシスタントのチャットイン
 
 >[!IMPORTANT]
 >
->AI アシスタントを使用するには、Adobe Experience Cloud生成AI ユーザーガイドラインに関する契約書が必要です。 この契約書と使用ガイドラインについて詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)を参照してください。
+>AI アシスタントを使用するには、Adobe Experience Cloud生成AI ユーザーガイドラインに関する契約書が必要です。 この契約書と使用ガイドラインについて詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)を参照してください。
 
 チャットインターフェイスにアクセスするには、ヘッダーのアイコンをクリックします。
 
@@ -57,11 +51,11 @@ Adobe Journey Optimizer B2B editionでは、AI アシスタントは次のユー
 
 製品に質問するには、パネルの下部にあるフィールドに製品を入力し、Enter キーを押します。 例えば、ジャーニーで購買グループの使用方法を学習する必要がある場合。 この場合、_ジャーニーで購買グループを使用するにはどうすればよいですか？_&#x200B;と入力します 質問を送信すると、AI アシスタントはナレッジベースに質問し、数秒以内に回答を生成します。
 
-![&#x200B; テキストボックスに質問を入力](./assets/ai-assistant-ask-question.png){width="420"}
+![ テキストボックスに質問を入力](./assets/ai-assistant-ask-question.png){width="420"}
 
 +++回答の例を見る
 
-![&#x200B; テキストボックスに質問を入力](./assets/ai-assistant-product-answer.png){width="420"}
+![ テキストボックスに質問を入力](./assets/ai-assistant-product-answer.png){width="420"}
 
 +++
 
@@ -77,17 +71,17 @@ AI アシスタントが運用上のインサイトに関する質問に十分�
 
 >[!NOTE]
 >
->AI アシスタントの運用上のインサイトに関する質問でサポートされているAdobe Journey Optimizer B2B edition オブジェクトは、[運用上のインサイト ドメイン テーブル &#x200B;](./ai-assistant-overview.md#operational-insights)に記載されています。 現在のサンドボックスのデータにのみアクセスできます。
+>AI アシスタントの運用上のインサイトに関する質問でサポートされているAdobe Journey Optimizer B2B edition オブジェクトは、[運用上のインサイト ドメイン テーブル ](./ai-assistant-overview.md#operational-insights)に記載されています。 現在のサンドボックスのデータにのみアクセスできます。
 
 運用上のインサイトに関する質問をするには、パネルの下部にあるフィールドに入力し、Enter キーを押します。 例えば、サンドボックスのオーディエンスについて知りたい場合。 この場合、_オーディエンスの数は？_&#x200B;と入力します。  AI アシスタントは、サンドボックス内のオーディエンスの数と、そのオーディエンスが回答をどのように計算したかの説明を提供します。 次の応答の例では、AI アシスタントがUIのオーディエンスにアクセスするためのリンクを提供し、オーディエンス数を特定するために実行した手順の概要を示します。
 
-![&#x200B; オーディエンス数に対するAI アシスタントの応答](./assets/ai-assistant-insights-answer.png){width="420"}
+![ オーディエンス数に対するAI アシスタントの応答](./assets/ai-assistant-insights-answer.png){width="420"}
 
-最初の質問に従って、アーティファクトのリスト（_サイズ別の上位5つをリスト_&#x200B;など）を求めることができます。 AI アシスタントは、クエリの上位5つの項目と、対応するIDを含むテーブルを返します。 _ダウンロード_ （![&#x200B; ダウンロードアイコン &#x200B;](../assets/do-not-localize/icon-download.svg)）アイコンをクリックして、テーブルをCSV ファイルとしてダウンロードします。
+最初の質問に従って、アーティファクトのリスト（_サイズ別の上位5つをリスト_&#x200B;など）を求めることができます。 AI アシスタントは、クエリの上位5つの項目と、対応するIDを含むテーブルを返します。 _ダウンロード_ （![ ダウンロードアイコン ](../assets/do-not-localize/icon-download.svg)）アイコンをクリックして、テーブルをCSV ファイルとしてダウンロードします。
 
 ライブジャーニーのリストに対する![AI アシスタントの応答](./assets/ai-assistant-artifacts-query.png){width="420"}
 
-AI アシスタントでテーブル全体を表示するには、_最大化_ （![最大化アイコン &#x200B;](../assets/do-not-localize/icon-maximize.svg)）アイコンをクリックします。 拡張されたテーブルビューで、**[!UICONTROL CSVをダウンロード]**&#x200B;をクリックして、情報をCSV ファイルとして保存します。
+AI アシスタントでテーブル全体を表示するには、_最大化_ （![最大化アイコン ](../assets/do-not-localize/icon-maximize.svg)）アイコンをクリックします。 拡張されたテーブルビューで、**[!UICONTROL CSVをダウンロード]**&#x200B;をクリックして、情報をCSV ファイルとして保存します。
 
 ライブジャーニーのリストに対する![AI アシスタントの応答](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 
@@ -115,9 +109,9 @@ AI アシスタントが提供するSQL クエリを使用して、運用上の�
 
 _肯定的な評価_ （![親指が上がり](../assets/do-not-localize/icon-thumb-up.svg)）または&#x200B;_否定的な評価_ （![親指が下がり](../assets/do-not-localize/icon-thumb-down.svg)）アイコンを使用して、応答の有用性と品質を評価します。 ご自身の経験に合わせて簡単なアンケートフォームに記入し、**[!UICONTROL 送信]**&#x200B;をクリックしてください。 提供された情報は、AI アシスタントの改善に使用されます。
 
-応答に問題があることに気付いた場合は、_フラグ_ （![&#x200B; フラグアイコン &#x200B;](../assets/do-not-localize/icon-flag.svg)）アイコンをクリックします。 フォームを使用して問題を説明し、**[!UICONTROL 送信]**&#x200B;をクリックして問題を報告します。
+応答に問題があることに気付いた場合は、_フラグ_ （![ フラグアイコン ](../assets/do-not-localize/icon-flag.svg)）アイコンをクリックします。 フォームを使用して問題を説明し、**[!UICONTROL 送信]**&#x200B;をクリックして問題を報告します。
 
-![AI アシスタントの応答 – フィードバックアイコン &#x200B;](./assets/ai-assistant-response-feedback-icons.png){width="420"}
+![AI アシスタントの応答 – フィードバックアイコン ](./assets/ai-assistant-response-feedback-icons.png){width="420"}
 
 +++フォームの表示
 
