@@ -3,12 +3,10 @@ title: Adobe Journey Optimizer B2B Edition ドキュメント
 description: Journey Optimizer B2B Edition の完全なドキュメント - オンボーディング、購買グループの作成、アカウントジャーニーの作成、コンテンツの管理に使用できるリソースを探索します。
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 autotag-review: 2026-03-27T22:18:45.397Z
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 1163
 ht-degree: 34%
@@ -29,7 +27,7 @@ ht-degree: 34%
 
 >[!TAB AI エージェント]
 
-[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}では、AI アシスタントのインターフェイスにより、専門の担当者が自動的に呼び出され、適切な回答とインサイトを入手できます。 Agent Orchestratorは、会話履歴を記憶するため、コンテキストを繰り返すことなく自然に以前の質問を作成でき、複数の担当者からのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition]のコンテキストでは、特定のB2B タスクとドメイン用に構築された3つのエージェントがあります。
+[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}では、AI アシスタントのインターフェイスにより、専門の担当者が自動的に呼び出され、適切な回答とインサイトを入手できます。 Agent Orchestratorは、会話履歴を記憶するため、コンテキストを繰り返すことなく自然に以前の質問を作成でき、複数の担当者からのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition]のコンテキストでは、特定のB2B タスクとドメイン用に構築された3つのエージェントがあります。
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
@@ -77,7 +75,7 @@ ht-degree: 34%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新のリリースノート
 
@@ -87,18 +85,18 @@ Adobe Journey Optimizer B2B editionの最新のリリースノート、新機能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
 Journey Optimizer B2B editionのオンボーディングガイダンス（管理者およびマーケター向け）をご確認ください。
 
 [管理者](./setup-ultimate.md)
-[&#x200B; ユーザー](./start/get-started.md)
+[ ユーザー](./start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 XDM フィールドの設定
 
@@ -108,7 +106,7 @@ Adobe Journey Optimizer B2B editionで使用するXDM スキーマとフィー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信チャネル
 
@@ -120,7 +118,7 @@ Adobe Journey Optimizer B2B editionで使用するXDM スキーマとフィー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ジャーニーの作成
 
@@ -130,7 +128,7 @@ Adobe Journey Optimizer B2B editionで使用するXDM スキーマとフィー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 購買グループについて
 
@@ -143,7 +141,7 @@ Adobe Journey Optimizer B2B editionで使用するXDM スキーマとフィー�
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -165,7 +163,7 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="基本を学ぶ"><br/>
-      <strong>基本を学ぶ</strong><br/><a href="home-page.md">ログインとホームページ</a><br/><a href="./start/get-started.md">オンボーディングガイダンス</a><br/><a href="./ai-assistant/ai-assistant-overview.md">AI アシスタント</a>
+      <strong>基本を学ぶ</strong><br/><a href="home-page.md">ログインとホームページ</a><br/><a href="./start/get-started.md">オンボーディングガイダンス</a><br/><a href="./ai-coworker/ai-assistant-overview.md">AI アシスタント</a>
     </td>
     <!--
     <td>
@@ -203,7 +201,7 @@ Learn how to author and manage content for personalized customer experiences orc
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> ビデオとチュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品の説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> ビデオとチュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品の説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank"> ドキュメント </a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者リソース </a>
