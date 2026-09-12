@@ -9,23 +9,12 @@ nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 autotag-review: '2026-06-05T16:07:36.688Z'
 TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
 workflow-type: tm+mt
 source-wordcount: 2476
@@ -66,11 +55,11 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 コンテンツ生成用のAI アシスタントツールは、次のアセットタイプでサポートされています。
 
 * [メール](../content/ai-assistant-emails.md)
-* [!BADGE Beta] [&#x200B; ランディングページ &#x200B;](../content/ai-assistant-landing-pages.md)
+* [!BADGE Beta] [ ランディングページ ](../content/ai-assistant-landing-pages.md)
 
 ## 一般的なガイドラインと制限事項 {#general-guidelines-and-limitations}
 
-生成AI機能の使用には、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が適用されます。 メディア作成に生成AI ツールを使用する際の透明性に対するAdobeの取り組みにより、Adobeは、[!DNL Firefly]生成されたアセットがダウンロードまたはエクスポートされたときに含まれるコンテンツまたはプロジェクトに[&#x200B; コンテンツ資格情報](https://helpx.adobe.com/jp/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}を適用します。
+生成AI機能の使用には、[Adobe Experience Cloud生成AI ユーザーガイドライン ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が適用されます。 メディア作成に生成AI ツールを使用する際の透明性に対するAdobeの取り組みにより、Adobeは、[!DNL Firefly]生成されたアセットがダウンロードまたはエクスポートされたときに含まれるコンテンツまたはプロジェクトに[ コンテンツ資格情報](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}を適用します。
 
 [!DNL Journey Optimizer B2B Edition]のコンテンツに生成AIを使用する場合は、次の一般的なガイドラインを確認してください。
 
@@ -189,19 +178,19 @@ AI アシスタントが目標に合わせてカスタマイズされた高品�
 
 コンテンツを生成する前に、次の点を確認します。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **目標をクリア**: アクション、製品/サービス、値、およびコンテキストを明確に示します。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **目標をクリア**: アクション、製品/サービス、値、およびコンテキストを明確に示します。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **定義されたターゲットオーディエンス**：デモグラフィック、役割、またはセグメントを指定します。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **定義されたターゲットオーディエンス**：デモグラフィック、役割、またはセグメントを指定します。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **コンテンツの種類の調整**：目的は、選択したチャネルまたは形式と一致します。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **コンテンツの種類の調整**：目的は、選択したチャネルまたは形式と一致します。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **選択を確認**：トーン、戦略、ロケールが選択されています。プロンプトに含めないでください。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **選択を確認**：トーン、戦略、ロケールが選択されています。プロンプトに含めないでください。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **ドキュメントの焦点が指定されています**：参照するコンテンツまたはセクションをハイライト表示します。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **ドキュメントの焦点が指定されています**：参照するコンテンツまたはセクションをハイライト表示します。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **ブランドが適用されました**：適切なブランドガイドラインが選択されています。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **ブランドが適用されました**：適切なブランドガイドラインが選択されています。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **現実的な範囲**: レイアウトの変更、スタイル設定、構造的な編集のリクエストを避けます。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **現実的な範囲**: レイアウトの変更、スタイル設定、構造的な編集のリクエストを避けます。
 
 ### 効果的なマーケティング目標 {#marketing-objectives}
 
@@ -209,19 +198,19 @@ AI アシスタントが目標に合わせてカスタマイズされた高品�
 
 **優れた目標の例：**
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「新しいAIを活用した分析ダッシュボードの30日間無料体験版のサインアップを促進する」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「新しいAIを活用した分析ダッシュボードの30日間無料体験版のサインアップを促進する」
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「3月15日に予定されている「クラウドコストを40%削減」に関するB2B ウェビナーのリードを生成する」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「3月15日に予定されている「クラウドコストを40%削減」に関するB2B ウェビナーのリードを生成する」
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「プレミアム購読の期間限定25%割引を12月25日まで宣伝する」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「プレミアム購読の期間限定25%割引を12月25日まで宣伝する」
 
 **回避すべき例：**
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「製品を宣伝する」（曖昧すぎる）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「製品を宣伝する」（曖昧すぎる）
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「人物を契約にサインさせる」 （値が不明確）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「人物を契約にサインさせる」 （値が不明確）
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「新機能に関する電子メール」（目的に欠ける）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「新機能に関する電子メール」（目的に欠ける）
 
 #### 目標の構造化
 
@@ -229,19 +218,19 @@ AI アシスタントが目標に合わせてカスタマイズされた高品�
 
 **優れた目標の例：**
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「新しいモバイルアプリをダウンロードして、ユーザーが環境に配慮したパーソナライズされたレコメンデーションを使用して、持続可能な生活習慣を追跡するのに役立ててください」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「新しいモバイルアプリをダウンロードして、ユーザーが環境に配慮したパーソナライズされたレコメンデーションを使用して、持続可能な生活習慣を追跡するのに役立ててください」
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「マーケター向けの高度なデータ視覚化技術に関する専用ワークショップへの登録を促進する」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「マーケター向けの高度なデータ視覚化技術に関する専用ワークショップへの登録を促進する」
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「週に5時間以上節約できる革新的なAI ライティングアシスタントを紹介する製品発売イベントへの参加を促す」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「週に5時間以上節約できる革新的なAI ライティングアシスタントを紹介する製品発売イベントへの参加を促す」
 
 **回避すべき例：**
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「新しいアプリを発表」（値の提案とコンテキストが欠落）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「新しいアプリを発表」（値の提案とコンテキストが欠落）
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「ワークショップへの登録を促す」（参加者とメリットに関する具体的な情報が不足している）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「ワークショップへの登録を促す」（参加者とメリットに関する具体的な情報が不足している）
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「プロモートイベント」（明確なアクション、値、または緊急性はありません）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「プロモートイベント」（明確なアクション、値、または緊急性はありません）
 
 #### チャネルタイプ別プロンプトの例 {#channel-type-practices}
 
@@ -407,11 +396,11 @@ AI アシスタントが目標に合わせてカスタマイズされた高品�
 
 参照コンテンツファイルは、生成されたコンテンツを具体的かつ正確な詳細で強化する、事実にもとづく情報を提供します。 製品パンフレットやホワイトペーパーなどのドキュメントをアップロードする場合は、焦点が合っている部分を含めるようにプロンプトを変更します。
 
-* **&#x200B;**&#x200B;_「製品パンフレットを使用します」_&#x200B;**の代わりに**&#x200B;_「高度なセキュリティ機能とコンプライアンス認定、特に SOC 2 コンプライアンスとデータ暗号化に焦点を当てます」を使用する必要があります_
+* ****_「製品パンフレットを使用します」_**の代わりに**_「高度なセキュリティ機能とコンプライアンス認定、特に SOC 2 コンプライアンスとデータ暗号化に焦点を当てます」を使用する必要があります_
 
-* **&#x200B;**&#x200B;_「ケーススタディを参照します」_&#x200B;**の代わりに**&#x200B;_「医療クライアントの ROI 結果、特に地域医療センターにおける 40％のコスト削減を強調します」を使用する必要があります_
+* ****_「ケーススタディを参照します」_**の代わりに**_「医療クライアントの ROI 結果、特に地域医療センターにおける 40％のコスト削減を強調します」を使用する必要があります_
 
-* **&#x200B;**&#x200B;_「技術的な詳細を含めます」_&#x200B;**の代わりに**&#x200B;_「REST API エンドポイントと 99.9％の稼働率 SLA に焦点を当て、API 統合機能と開発者のメリットを強調します」を使用する必要があります_
+* ****_「技術的な詳細を含めます」_**の代わりに**_「REST API エンドポイントと 99.9％の稼働率 SLA に焦点を当て、API 統合機能と開発者のメリットを強調します」を使用する必要があります_
 
 ### コンテンツの改善
 
