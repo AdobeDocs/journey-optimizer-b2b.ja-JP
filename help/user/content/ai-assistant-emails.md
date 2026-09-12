@@ -21,7 +21,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 3582
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 ## ガイドラインと制限事項
 
-この機能の使用を開始する前に、[&#x200B; ガイドラインと制限事項](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 [!DNL Journey Optimizer B2B Edition]でAI機能を使用するには、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。 詳しくは、アドビ担当者にお問い合わせください。
+この機能の使用を開始する前に、[&#x200B; ガイドラインと制限事項](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 [!DNL Journey Optimizer B2B Edition]でAI機能を使用するには、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。 詳しくは、アドビ担当者にお問い合わせください。
 
 Adobeは、透明性を高めるために、ダウンロードまたは書き出し時に[content credentials](https://helpx.adobe.com/jp/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}をFirefly生成アセットに適用します。
 
@@ -62,7 +62,7 @@ Adobeは、透明性を高めるために、ダウンロードまたは書き出
 
 ![&#x200B; プロンプトフィールド &#x200B;](./assets/gen-ai-prompt.png){width="320"}
 
-効果的なプロンプトの作成について詳しくは、_[プロンプトのベストプラクティス](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;を参照してください。
+効果的なプロンプトの作成について詳しくは、_[プロンプトのベストプラクティス](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;を参照してください。
 
 >[!BEGINSHADEBOX]
 
@@ -119,7 +119,7 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 ### 参照コンテンツ
 
-参照コンテンツアセットをアップロードして、正確でブランドに即したコンテンツを生成します。 そうでない場合、生成コンテンツは公開されている情報に基づきます。 参照コンテンツは、コンテンツ生成と画像レコメンデーションのソースとして機能します。 ガイドラインとベストプラクティスについては、_[最適化された参照コンテンツ](../ai-assistant/generative-ai-content.md#reference-content)_&#x200B;を参照してください。
+参照コンテンツアセットをアップロードして、正確でブランドに即したコンテンツを生成します。 そうでない場合、生成コンテンツは公開されている情報に基づきます。 参照コンテンツは、コンテンツ生成と画像レコメンデーションのソースとして機能します。 ガイドラインとベストプラクティスについては、_[最適化された参照コンテンツ](../ai-coworker/generative-ai-content.md#reference-content)_&#x200B;を参照してください。
 
 **[!UICONTROL 参照コンテンツ]**&#x200B;の設定から、**[!UICONTROL ファイルをアップロード]**&#x200B;をクリックして、追加のコンテキストに使用するコンテンツを含むアセットを追加します。
 
@@ -273,7 +273,7 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
    >[!TIP]
    >
-   >生成されたコンテンツのプロンプトを初めて作成する場合は、_[プロンプトのベストプラクティス](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;を確認してください。
+   >生成されたコンテンツのプロンプトを初めて作成する場合は、_[プロンプトのベストプラクティス](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;を確認してください。
 
 1. 生成されたコンテンツを調整するには、コンテンツガイダンスの設定を完了します。
 

@@ -4,6 +4,7 @@ description: Journey Optimizer B2B editionのAI アシスタントに製品ナ�
 feature: AI Assistant
 role: User
 level: Beginner
+nudge: true
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 autotag-review: '2026-06-05T16:09:10.773Z'
 TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
@@ -20,7 +21,7 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
+source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
 workflow-type: tm+mt
 source-wordcount: 954
 ht-degree: 2%

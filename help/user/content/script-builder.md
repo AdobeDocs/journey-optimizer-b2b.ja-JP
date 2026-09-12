@@ -19,10 +19,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0004f8fba0c3d4ae89063418e4d3ef8fea22b0c3
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: 1074
-ht-degree: 2%
+source-wordcount: 1077
+ht-degree: 3%
 
 ---
 
@@ -44,9 +44,9 @@ _Script Builder_&#x200B;は、[!DNL Adobe Journey Optimizer B2B Edition]電子�
 
 >[!IMPORTANT]
 >
->Script Builderへのユーザーのアクセスは、[!DNL Journey Optimizer B2B Edition]の他の生成AI機能と同じ権限で制御されます。 機能の権限の付与について詳しくは、[AI アシスタントへのアクセスの有効化](../ai-assistant/enable-ai-assistant-access.md)を参照してください。
+>Script Builderへのユーザーのアクセスは、[!DNL Journey Optimizer B2B Edition]の他の生成AI機能と同じ権限で制御されます。 機能の権限の付与について詳しくは、[AI アシスタントへのアクセスの有効化](../ai-coworker/enable-ai-assistant-access.md)を参照してください。
 
-Script Builderを使用する前に、[!DNL Journey Optimizer B2B Edition]の生成AI機能に適用される[&#x200B; ガイドラインと制限事項](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 AI機能を使用する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。
+Script Builderを使用する前に、[!DNL Journey Optimizer B2B Edition]の生成AI機能に適用される[&#x200B; ガイドラインと制限事項](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 AI機能を使用する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。
 
 [!DNL Journey Optimizer B2B Edition]でサポートされている[Handlebars テンプレート言語](https://handlebarsjs.com/guide/){target="_blank"}、[&#x200B; パーソナライゼーション構文](./personalization-syntax.md)、および[&#x200B; ヘルパー関数](./personalization-helper-functions.md)を理解します。 Script Builderは有効なハンドルバーを生成しますが、構文を理解すると、出力を確実にレビューおよび編集できます。
 

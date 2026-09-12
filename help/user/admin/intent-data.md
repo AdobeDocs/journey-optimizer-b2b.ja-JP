@@ -1,5 +1,5 @@
 ---
-title: インテントデータ
+title: インテントデータの設定
 description: キーワードマッピングを使用してインテントデータを設定し、Journey Optimizer B2B editionのアカウントベースドマーケティングに対する顧客の関心と購買シグナルを予測します。
 feature: Setup, Intent, Account Insights
 roles: Admin
@@ -16,23 +16,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 578
 ht-degree: 1%
 
 ---
 
-# インテントデータ
+# インテントデータ設定
 
-Journey Optimizer B2B editionでは、インテント検出モデルにより、リードのアクティビティにもとづいて、十分な信頼性で関心のあるソリューションや製品を予測できます。 また、タグ付けされたコンテンツとともに、他のアカウントの共同メンバーのアクティビティも活用します。 人の意図は、製品に興味を持つ可能性として解釈できます。
+[!DNL Adobe Journey Optimizer B2B Edition]では、インテント検出モデルは、リードのアクティビティに基づいて、十分な信頼性で関心のあるソリューション/製品を予測します。 また、タグ付けされたコンテンツとともに、他のアカウントの共同メンバーのアクティビティも活用します。 人の意図は、製品に興味を持つ可能性として解釈できます。
 
-* 意図のレベル – 既知のリード、アカウント、購買グループのレベルで利用可能。
-* インテントシグナルの種類 – キーワード、製品、ソリューション
+インテントスコアの計算について詳しくは、[_インテントスコア_](../ai-coworker/intent-scores.md)&#x200B;を参照してください。
 
 インテントデータは、[_インテリジェントダッシュボード_](../dashboards/intelligent-dashboard.md)、[_アカウントの詳細_ ページ &#x200B;](../accounts/account-details.md)、[_購買グループの詳細_ ページ &#x200B;](../buying-groups/buying-group-details.md)および&#x200B;[_人物の詳細_ ページ &#x200B;](../accounts/person-details.md)で使用されます。
-
-![&#x200B; インテントデータビジュアライゼーション &#x200B;](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## インテントマッピングデータの準備
 

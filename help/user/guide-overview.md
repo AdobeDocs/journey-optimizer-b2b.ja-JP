@@ -8,7 +8,7 @@ product_v2:
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 1163
 ht-degree: 34%
@@ -165,7 +165,7 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="基本を学ぶ"><br/>
-      <strong>基本を学ぶ</strong><br/><a href="home-page.md">ログインとホームページ</a><br/><a href="./start/get-started.md">オンボーディングガイダンス</a><br/><a href="./ai-assistant/ai-assistant-overview.md">AI アシスタント</a>
+      <strong>基本を学ぶ</strong><br/><a href="home-page.md">ログインとホームページ</a><br/><a href="./start/get-started.md">オンボーディングガイダンス</a><br/><a href="./ai-coworker/ai-assistant-overview.md">AI アシスタント</a>
     </td>
     <!--
     <td>
