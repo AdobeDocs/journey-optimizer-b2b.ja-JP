@@ -6,23 +6,29 @@ autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+    internal-label: Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1528'
 ht-degree: 1%
-
 ---
-
 # 次善のパスノード
 
 Journey Optimizer B2B Primeでは、*次善のパス* ノードにより、AIを活用したスプリットパス決定がジャーニーキャンバスに直接行われます。 [分割パス &#x200B;](./split-merge-paths-nodes.md) ノードでフィルター条件を設定する代わりに、自然言語で意図を記述し、各ユーザーに最も関連性の高いパスをシステムに判断させます。
@@ -84,9 +90,9 @@ B2B購入では、プロファイルは購買担当者のひとつに見える�
 
      **例では、3つのパスの分割を求めるプロンプトが表示されます：**
 
-      * *パス 1 – 人事部長：* タレントマネジメントと従業員体験コンテンツに最も関与する可能性が高い人事部長の役割の人物を特定します。
-      * *パス 2 – 技術評価者：*&#x200B;製品アーキテクチャ、統合、実装コンテンツに関与する可能性が最も高い技術的関係者を特定します。
-      * *パス 3 - ビジネス意思決定者：* ROI、ビジネス成果、ケーススタディのコンテンツに最も関与する可能性の高いビジネス関係者を特定します。
+     * *パス 1 – 人事部長：* タレントマネジメントと従業員体験コンテンツに最も関与する可能性が高い人事部長の役割の人物を特定します。
+     * *パス 2 – 技術評価者：*&#x200B;製品アーキテクチャ、統合、実装コンテンツに関与する可能性が最も高い技術的関係者を特定します。
+     * *パス 3 - ビジネス意思決定者：* ROI、ビジネス成果、ケーススタディのコンテンツに最も関与する可能性の高いビジネス関係者を特定します。
 
 1. 必要に応じて、パスを並べ替えて、一致する優先順位を設定します。
 
