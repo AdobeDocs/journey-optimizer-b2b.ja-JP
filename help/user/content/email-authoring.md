@@ -1,50 +1,55 @@
 ---
 title: メールメッセージの作成
-description: ビジュアルデザインツール、HTMLのインポート、テンプレートを使用して、メールを作成できます。Journey Optimizer B2B editionでは、AI アシスタントによるコンテンツ生成、カスタム CSS、パーソナライゼーションを利用できます。
+description: ビジュアルデザインツール、HTMLのインポート、テンプレートを使用して、Journey Optimizer B2B editionでコンテンツ生成、カスタム CSS、パーソナライゼーションを活用して、メールを作成できます。
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1380
+source-wordcount: '1371'
 ht-degree: 5%
-
 ---
-
 # メールメッセージの作成
 
-ジャーニーアクションノード [&#128279;](./add-email.md)にメールアセットを追加した後、メールメッセージのコンテンツを定義できます。
+ジャーニーアクションノード ](./add-email.md)にメールアセットを[追加した後、メールメッセージのコンテンツを定義できます。
 
 右側のパネルの「_[!UICONTROL 詳細]_」タブの「**[!UICONTROL メールコンテンツを編集]**」をクリックします。
 
-![&#x200B; 「メールコンテンツを編集」をクリック &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![ 「メールコンテンツを編集」をクリック ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 このアクションにより、電子メールデザインツールが起動し、次のオプションから電子メールのデザイン方法を選択できます。
 
-* ビジュアルデザインインターフェイスを使用して[&#x200B; メールをゼロからデザイン &#x200B;](#design-from-scratch)。
+* ビジュアルデザインインターフェイスを使用して[ メールをゼロからデザイン ](#design-from-scratch)。
 
 * ファイルまたは .zip フォルダーから[既存の HTML コンテンツを読み込み](#import-existing-html-content)ます。
 
-* [&#x200B; ビルトインまたはカスタムのメールテンプレートのリストから既存のテンプレート &#x200B;](#select-a-template)を選択します。
+* [ ビルトインまたはカスタムのメールテンプレートのリストから既存のテンプレート ](#select-a-template)を選択します。
 
 メールコンテンツを作成してパーソナライズした後、コンテンツを書き出して検証または後で使用できます。 「**[!UICONTROL HTMLを書き出し]**」をクリックして、コンテンツをHTMLとアセットを含む.zip ファイルとして保存します。
 
 >[!TIP]
 >
->生成AIを活用したAdobe Journey Optimizer B2B editionのAI アシスタントを利用すれば、コンテンツを改善できます。 AI アシスタントを利用すれば、電子メール全体やターゲットを絞ったテキストコンテンツを生成し、オーディエンスの共感を呼ぶ画像に関するレコメンデーションを提供することで、配信の効果を最適化することができます。 [詳細情報](./ai-assistant-emails.md)
+>コンテンツ生成ツールを使用して、コンテンツを改善します。 これらのツールは、電子メール全体やターゲットを絞ったテキストコンテンツを生成し、オーディエンスに関連する画像にレコメンデーションを提供することで、配信の効果を最適化するのに役立ちます。 [詳細情報](./generate-content-emails.md)
 
 ## メールをゼロからデザイン {#design-from-scratch}
 
@@ -58,11 +63,11 @@ ht-degree: 5%
 
    * **[!UICONTROL 手動スタイル設定]** – このオプションを選択すると、_手動モード_&#x200B;で電子メールを作成できます。 このモードでは、空白のカンバスに追加するすべての構造およびコンテンツコンポーネントのスタイル設定を手動で設定します。
 
-1. [構造とコンテンツ &#x200B;](./email-authoring.md#structure-content)をテンプレートに追加します。
+1. [構造とコンテンツ ](./email-authoring.md#structure-content)をテンプレートに追加します。
 
-1. [&#x200B; リンクのレビューと更新](#edit-linked-url-tracking)。
+1. [ リンクのレビューと更新](#edit-linked-url-tracking)。
 
-1. [電子メールをテスト &#x200B;](#email-testing)。
+1. [電子メールをテスト ](#email-testing)。
 
 <!--
  If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
@@ -106,9 +111,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->メールメッセージがロックされたコンテンツ [&#128279;](./template-content-governance.md)を含む テンプレートを使用してデザインされている場合、コンテンツにカスタム CSSを追加することはできません。 ボタンのラベルが&#x200B;**[!UICONTROL カスタム CSS を表示]**&#x200B;に変わり、コンテンツに既に存在するカスタム CSS は読み取り専用になります。
+>メールメッセージがロックされたコンテンツ ](./template-content-governance.md)を含む[ テンプレートを使用してデザインされている場合、コンテンツにカスタム CSSを追加することはできません。 ボタンのラベルが&#x200B;**[!UICONTROL カスタム CSS を表示]**&#x200B;に変わり、コンテンツに既に存在するカスタム CSS は読み取り専用になります。
 
-![&#x200B; ボディスタイルにアクセス &#x200B;](./assets/email-body-styles.png){width="800" zoomable="yes"}
+![ ボディスタイルにアクセス ](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
 {{$include /help/_includes/content-design-custom-css.md}}
 
@@ -136,13 +141,13 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->_[!UICONTROL マイトークン]_&#x200B;がアカウントジャーニーに定義されている場合は、メールコンテンツにこれらのジャーニー固有のトークンを使用することもできます。 詳しくは、[電子メールのパーソナライゼーション用カスタムトークン &#x200B;](./personalization-my-tokens.md)を参照してください。
+>_[!UICONTROL マイトークン]_&#x200B;がアカウントジャーニーに定義されている場合は、メールコンテンツにこれらのジャーニー固有のトークンを使用することもできます。 詳しくは、[電子メールのパーソナライゼーション用カスタムトークン ](./personalization-my-tokens.md)を参照してください。
 
 ### リンクされたURL トラッキングを編集
 
 {{$include /help/_includes/content-design-links.md}}
 
-![編集アイコンをクリックしてリンク追跡にアクセス &#x200B;](./assets/email-link-tracking.png){width="400"}
+![編集アイコンをクリックしてリンク追跡にアクセス ](./assets/email-link-tracking.png){width="400"}
 
 メール配信システム（Marketo Engage経由）は、送信時に一意のトラッキングリダイレクトを使用して、HTML メール内のすべてのURLを自動的にラップします。 **[!UICONTROL トラッキングタイプ]**&#x200B;を使用して、リンクのトラッキングを制御します。
 
@@ -158,11 +163,11 @@ ht-degree: 5%
 
 ### ダークモードのスタイル設定の適用
 
-_ダークモード_&#x200B;を使用して、電子メールクライアントでダークテーマの電子メール表示を確認します。 ダークモードまたはテーマを使用すると、サポートメールクライアントまたはアプリで、テキスト、ボタン、その他のビジュアル要素の背景が暗く、色が明るいメールを表示できます。 デザインキャンバスの右上で、セレクターを&#x200B;_ダークモード_ （![&#x200B; ダークモードアイコン &#x200B;](../assets/do-not-localize/icon-content-dark-mode.svg)）に変更します。 次に、ダークテーマが有効になっている場合に、サポートするメールクライアントが表示に使用する特定のカスタム設定をプレビューして定義します。
+_ダークモード_&#x200B;を使用して、電子メールクライアントでダークテーマの電子メール表示を確認します。 ダークモードまたはテーマを使用すると、サポートメールクライアントまたはアプリで、テキスト、ボタン、その他のビジュアル要素の背景が暗く、色が明るいメールを表示できます。 デザインキャンバスの右上で、セレクターを&#x200B;_ダークモード_ （![ ダークモードアイコン ](../assets/do-not-localize/icon-content-dark-mode.svg)）に変更します。 次に、ダークテーマが有効になっている場合に、サポートするメールクライアントが表示に使用する特定のカスタム設定をプレビューして定義します。
 
-![&#x200B; ダークモードのセレクターと、ダークモードで表示される電子メールコンテンツを示す電子メールデザインキャンバス &#x200B;](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+![ ダークモードのセレクターと、ダークモードで表示される電子メールコンテンツを示す電子メールデザインキャンバス ](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
 
-ダークモードのスタイル設定とベストプラクティスについて詳しくは、[&#x200B; メールコンテンツのダークモード &#x200B;](./email-dark-mode.md)を参照してください。
+ダークモードのスタイル設定とベストプラクティスについて詳しくは、[ メールコンテンツのダークモード ](./email-dark-mode.md)を参照してください。
 
 ### 表示オプション
 
@@ -178,11 +183,11 @@ _ダークモード_&#x200B;を使用して、電子メールクライアント�
 
 ビジュアルデザインスペースの上部にある「_[!UICONTROL その他…]_」メニューから、次の操作を実行できます。
 
-![詳細をクリックしてテンプレートアクションにアクセス &#x200B;](./assets/email-designer-more-menu.png){width="500"}
+![詳細をクリックしてテンプレートアクションにアクセス ](./assets/email-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL メールをリセット]** – このオプションをクリックして、メールデザインキャンバスをクリアし、コンテンツの作成を再開します。
 * **[!UICONTROL フラグメントとして保存]** – 電子メールのすべてまたは一部をフラグメントとして保存し、複数の電子メールまたは電子メールテンプレートで再利用できます。 フラグメントの名前と説明を指定し、使用可能なフラグメントのリストに保存します。
-* **[!UICONTROL デザインを変更]** - _メールをデザイン_ ページに戻ります。 そこから、別のテンプレートを選択してデザインプロセスを再起動できます。 また、空白のキャンバス（_クラシックモード_）を使用するか、[&#x200B; ブランドテーマ &#x200B;](./brand-themes.md) （_テーマモード_）を使用して、コンテンツをゼロからデザインすることもできます。
+* **[!UICONTROL デザインを変更]** - _メールをデザイン_ ページに戻ります。 そこから、別のテンプレートを選択してデザインプロセスを再起動できます。 また、空白のキャンバス（_クラシックモード_）を使用するか、[ ブランドテーマ ](./brand-themes.md) （_テーマモード_）を使用して、コンテンツをゼロからデザインすることもできます。
 * **[!UICONTROL コンテンツテンプレートとして保存]** – 複数のメールまたはメールテンプレートで再利用するメールテンプレートとしてメール本文を保存します。 テンプレートの名前と説明を入力し、保存したメールテンプレートのリストに保存します。
 * **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式でローカルシステムにダウンロードします。
 
@@ -190,7 +195,7 @@ _ダークモード_&#x200B;を使用して、電子メールクライアント�
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューを表示し、プルーフを送信し、デスクトップとモバイルの縦横比でのレンダリングを確認できます。 パーソナライズされたコンテンツを挿入した場合は、テストプロファイルデータを使用して、このコンテンツがメッセージにどのように表示されるかをプレビューできます。
 
-メールコンテンツを[&#x200B; プレビュー](./email-simulate-content.md)するには、**[!UICONTROL コンテンツをシミュレート]**&#x200B;をクリックし、テストプロファイルを選択して、人物プロファイルデータを使用してメッセージを確認します。
+メールコンテンツを[ プレビュー](./email-simulate-content.md)するには、**[!UICONTROL コンテンツをシミュレート]**&#x200B;をクリックし、テストプロファイルを選択して、人物プロファイルデータを使用してメッセージを確認します。
 
 ![電子メールコンテンツをシミュレートして、デザインを確認する](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
