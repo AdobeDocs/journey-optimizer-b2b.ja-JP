@@ -1,13 +1,11 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 86%
-
+source-wordcount: '448'
+ht-degree: 84%
 ---
-
 
 # Journey Optimizer B2B Edition ユーザーガイド {#user}
 
@@ -32,7 +30,6 @@ ht-degree: 86%
   + [AI アシスタントへのアクセスを有効にする](./ai-coworker/enable-ai-assistant-access.md)
   + [質問ガイダンス](./ai-coworker/question-guidance.md)
   + [チャットインターフェイス](./ai-coworker/use-ai-assistant.md)
-  + [コンテンツ向け生成 AI](./ai-coworker/generative-ai-content.md)
   + [インテントスコア](./ai-coworker/intent-scores.md)
   + エージェント {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
@@ -67,7 +64,7 @@ ht-degree: 86%
     + [メールの追加](./content/add-email.md)
     + [送信時間の最適化](./content/email-send-time-optimization.md)
     + [メールオーサリング](./content/email-authoring.md)
-    + [メールオーサリング用 AI アシスタント](./content/ai-assistant-emails.md)
+    + [メールコンテンツの生成](./content/generate-content-emails.md)
     + [GenStudio ワークフロー](./content/genstudio-email-workflow.md)
     + [メールデザインのダークモード](./content/email-dark-mode.md)
     + [管理されたテンプレート](./content/email-authoring-governance.md)
@@ -143,7 +140,7 @@ ht-degree: 86%
     + [概要](./content/landing-pages.md)
     + [作成と公開](./content/landing-pages-create-publish.md)
     + [ランディングページのデザイン](./content/landing-page-design.md)
-    + [ランディングページコンテンツ用 AI アシスタント](./content/ai-assistant-landing-pages.md)
+    + [ランディングページコンテンツの生成](./content/generate-content-landing-pages.md)
   + コンテンツデザインツール {#content-design}
     + [構造コンポーネント](./content/structure-components.md)
     + [コンテンツコンポーネント](./content/content-components.md)
@@ -153,6 +150,7 @@ ht-degree: 86%
     + [管理と作成](./content/brands-manage-create.md)
     + [生成AI モデル](./content/generative-ai-models.md)
   + [ブランドテーマ](./content/brand-themes.md)
+  + [コンテンツ向け生成 AI](./content/generative-ai-content.md)
   + [コンテンツの評価](./content/content-evaluation.md)
   + [条件付きコンテンツ](./content/conditional-content.md)
   + [コンテンツへのアクセシビリティ](./content/accessible-content.md)

@@ -1,38 +1,44 @@
 ---
-title: コンテンツ用ジェネレーティブ AI
-description: プロンプトのベストプラクティスなど、生成AIを活用して、パーソナライズされたメールやランディングページを [!DNL Journey Optimizer B2B Edition]で作成する方法を説明します。
-feature: AI Assistant, Generative AI, Content
+title: コンテンツ向け生成 AI
+description: '[!DNL Journey Optimizer B2B Edition]の生成AIを使用して、プロンプトのベストプラクティスを含む、パーソナライズされたメールとランディングページを作成する方法を説明します。'
+feature: Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
 nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-autotag-review: '2026-06-05T16:07:36.688Z'
-TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
+autotag-review: '2026-08-06T18:42:03.734Z'
+TQID: 'https://experienceleague.adobe.com/oqAvHYWEVJQVQDOPWcZHuxlTmKJqAKtRp71pfbYcgys'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Content management
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
+    internal-label: Accessibility
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2476
-ht-degree: 37%
-
+source-wordcount: '2430'
+ht-degree: 32%
 ---
-
 # コンテンツ用ジェネレーティブ AI {#generative-ai-content}
 
 >[!CONTEXTUALHELP]
@@ -49,9 +55,9 @@ ht-degree: 37%
 >id="ajo_b2b_ai-generation-start"
 >title="Adobe 生成 AI の用語"
 >abstract="この機能にアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。 この機能からの出力が正確であるかどうかを見直し、ユースケースに適していることを確認します。"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成 AI ユーザーガイドライン"
+>additional-url="https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成 AI ユーザーガイドライン"
 
-Microsoft Azure OpenAIとAdobe Fireflyを活用した[!DNL Adobe Journey Optimizer B2B Edition]のコンテンツ生成AIは、テキストや画像に対する先見的なコンテンツのバリエーション提案を提供します。 さまざまなメインタイトルや画像を試して、コンテンツの効果を最適化しましょう。
+Microsoft Azure OpenAIとAdobe Fireflyを活用した[!DNL Adobe Journey Optimizer B2B Edition]のコンテンツ生成AIは、テキストや画像に対する先見的なコンテンツのバリエーション提案を提供します。 さまざまなメインタイトルや画像を試して、コンテンツの効果を向上できます。
 
 [!DNL Journey Optimizer B2B Edition]のコンテンツ作成に生成AI機能を使用して、Adobeの生成AI機能を活用します。 電子メール、SMS メッセージ、ランディングページ用にパーソナライズされたテキストやビジュアルを作成できます。 キャンペーンの構築やアセットの改善に役立つ機能は、時間を節約しながらコンテンツとブランドガイドラインを連携させるのに役立ちます。
 
@@ -63,18 +69,18 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 >
 >[!DNL Journey Optimizer B2B Edition]でこれらの機能にアクセスするには、_[!UICONTROL AI アシスタント]_ > _[!UICONTROL コンテンツを生成]_&#x200B;権限が必要です。 製品管理者が機能の権限を付与する方法について詳しくは、[製品権限の役割を編集](../admin/user-management.md#edit-roles-for-product-permissions)を参照してください。
 
-コンテンツ生成用のAI アシスタントツールは、次のアセットタイプでサポートされています。
+コンテンツ生成ツールは、次のアセットタイプでサポートされています。
 
-* [メール](../content/ai-assistant-emails.md)
-* [!BADGE Beta] [&#x200B; ランディングページ &#x200B;](../content/ai-assistant-landing-pages.md)
+* [メール](./generate-content-emails.md)
+* [!BADGE Beta] [&#x200B; ランディングページ &#x200B;](./generate-content-landing-pages.md)
 
 ## 一般的なガイドラインと制限事項 {#general-guidelines-and-limitations}
 
-生成AI機能の使用には、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が適用されます。 メディア作成に生成AI ツールを使用する際の透明性に対するAdobeの取り組みにより、Adobeは、[!DNL Firefly]生成されたアセットがダウンロードまたはエクスポートされたときに含まれるコンテンツまたはプロジェクトに[&#x200B; コンテンツ資格情報](https://helpx.adobe.com/jp/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}を適用します。
+生成AI機能の使用には、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}が適用されます。 メディア作成に生成AI ツールを使用する際の透明性に対するAdobeの取り組みにより、Adobeは、[!DNL Firefly]生成されたアセットがダウンロードまたはエクスポートされたときに含まれるコンテンツまたはプロジェクトに[C2PA メタデータ &#x200B;](./c2pa-metadata.md)を適用します。
 
 [!DNL Journey Optimizer B2B Edition]のコンテンツに生成AIを使用する場合は、次の一般的なガイドラインを確認してください。
 
-* 生成AI モデルに明確に定義されたプロンプトを使用し、正確に解釈。 提供するマーケティング目標やプロンプトは、生成されるコンテンツの品質に大きく影響します。
+* 生成AI モデルに明確に定義されたプロンプトを使用し、正確に解釈。 提供するマーケティング目標やプロンプトが、生成されるコンテンツの品質に影響します。
 
 * コンテンツ参照ファイルをアップロードすることで、ブランドに即した正確なコンテンツを作成できます。 それ以外の場合は、公開されている情報に基づいてコンテンツが行われます。 アップロードされたコンテンツは、PDF、JPEG、PNG、またはZIP （サポートされているファイル形式を含む）のファイル形式にすることができます。 アップロードされたファイルの最大サイズは50 MBです。 大きなファイルや多数の画像は機能しますが、処理時間が長くなります。
 
@@ -91,7 +97,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 このガイドは、リクエストの構成や意図の明確化を図り、AIがブランドガイドライン、オーディエンスのニーズ、キャンペーン目標に沿ったメッセージを生成することを支援します。
 
-AI アシスタントが目標に合わせてカスタマイズされた高品質でブランドに即したマーケティングコンテンツを生成できるようにする効果的なプロンプトを書き込む方法について説明します。
+目的に合わせてカスタマイズされた高品質でブランドに即したマーケティングコンテンツを作成するための効果的なプロンプトの書き方を説明します。
 
 ### CO-STAR フレームワークの使用 {#costar-framework}
 
@@ -324,7 +330,7 @@ AI アシスタントが目標に合わせてカスタマイズされた高品�
 
 #### 新しいコンテンツの作成
 
-この戦略は、マーケティング施策の立ち上げ、新しいソリューションの発表、コミュニケーションの更新/刷新を行う場合に適用します。 これにより、メッセージを強力なものにし、目標に沿ったものにできます。
+この戦略は、マーケティング施策の立ち上げ、新しいソリューションの発表、コミュニケーションの更新/刷新を行う場合に適用します。 これにより、メッセージが効果的で、目標に沿ったものになります。
 
 **プロンプトの方法** ➤ 新しいコンテンツを作成する際は、既存のコンテンツを参照せずにマーケティング目標に焦点を当てます。
 
@@ -342,7 +348,7 @@ AI アシスタントが目標に合わせてカスタマイズされた高品�
 >
 >詳細、要約、簡略化などの標準的な変更の場合は、カスタムプロンプトを記述する代わりに&#x200B;**_調整_**&#x200B;を選択します。
 
-現在のマーケティング施策を更新、更新、調整する必要がある場合は、変更プロンプトを使用できます。 この方法では、増分的な改善がサポートされるので、ゼロから開始することなく、メッセージの関連性を維持できます。
+現在のマーケティング施策を更新、更新、調整する必要がある場合は、変更プロンプトを使用できます。 この方法は段階的な改善をサポートし、プロセスを再開することなく、メッセージが関連性を維持できるようにします。
 
 **プロンプトの方法** ➤ 既存のコンテンツを変更する際は、変更する内容と変更方法を明確に指定します。
 
@@ -356,7 +362,7 @@ AI アシスタントが目標に合わせてカスタマイズされた高品�
 
 ## 詳細テキスト設定 {#text-settings}
 
-明確で整形式のプロンプトを使用することに加えて、AI アシスタントコンテンツツールのテキスト設定には、生成された出力の最適化に使用できるテキスト設定が含まれています。
+明確で整形式のプロンプトを使用することに加えて、テキスト設定を使用して生成された出力を最適化します。
 
 >[!TIP]
 >
@@ -405,21 +411,21 @@ AI アシスタントが目標に合わせてカスタマイズされた高品�
 >
 >「**[!UICONTROL コンテンツを参照]**」メニューを通じてアセットを既にアップロードしている場合、プロンプトでアセットを参照する必要はありません。 選択したドキュメントが自動的に使用されます。
 
-参照コンテンツファイルは、生成されたコンテンツを具体的かつ正確な詳細で強化する、事実にもとづく情報を提供します。 製品パンフレットやホワイトペーパーなどのドキュメントをアップロードする場合は、焦点が合っている部分を含めるようにプロンプトを変更します。
+参照コンテンツファイルは、生成されたコンテンツを具体的かつ正確な詳細で強化する、事実にもとづく情報を提供します。 フォーカスのある部分を含めるには、製品パンフレットやホワイトペーパーなどのドキュメントをアップロードするときにプロンプトを変更します。
 
-* **&#x200B;**&#x200B;_「製品パンフレットを使用します」_&#x200B;**の代わりに**&#x200B;_「高度なセキュリティ機能とコンプライアンス認定、特に SOC 2 コンプライアンスとデータ暗号化に焦点を当てます」を使用する必要があります_
+* **代わりに** _「製品パンフレットを使用」_ **使用** _「高度なセキュリティ機能とコンプライアンス認証、特にSOC 2 コンプライアンスとデータ暗号化に焦点を当てる」_
 
-* **&#x200B;**&#x200B;_「ケーススタディを参照します」_&#x200B;**の代わりに**&#x200B;_「医療クライアントの ROI 結果、特に地域医療センターにおける 40％のコスト削減を強調します」を使用する必要があります_
+* **代わりに** _「ケーススタディを参照」_ **使用** _「ヘルスケアのクライアントからのROI結果、特に地域医療センターでの40%のコスト削減を強調」_
 
-* **&#x200B;**&#x200B;_「技術的な詳細を含めます」_&#x200B;**の代わりに**&#x200B;_「REST API エンドポイントと 99.9％の稼働率 SLA に焦点を当て、API 統合機能と開発者のメリットを強調します」を使用する必要があります_
+* **の代わりに** _「技術的な詳細を含める」_ **use** _「REST API エンドポイントと99.9%の稼働率SLAに焦点を当て、API統合機能と開発者のメリットを強調する」_
 
 ### コンテンツの改善
 
 コンテンツを生成したら、**_[!UICONTROL 調整]_**&#x200B;機能を使用して繰り返し処理を行い、次のオプションで強化します。
 
-* **[!UICONTROL 詳しく説明]** - AI アシスタントは、特定のトピックを拡大するのに役立ち、より深い理解とエンゲージメントのために追加の詳細を提供します。
+* **[!UICONTROL 詳しく説明]** – 特定のトピックについて詳しく説明し、より深い理解とエンゲージメントのために追加の詳細を提供します。
 
-* **[!UICONTROL 概要]** – 長い情報を使用すると、ページビューアが過負荷になる可能性があります。 AI アシスタントを使用して、重要なポイントを明確かつ簡潔な概要に要約し、注意を引いてさらに読むよう促します。
+* **[!UICONTROL 要約]** – 長い情報で読者が過負荷になる可能性があります。 このモデルでは、重要なポイントを簡潔で明確な要約にまとめ、注目を集め、さらに読むように促します。
 
 * **[!UICONTROL 言い換え]** - メッセージの意味を維持しながら、メッセージを書き換えます。 このオプションを使用すると、コアメッセージを変更せずに、代替表現を生成したり、フローを改善したり、フレーズを調整したりできます。
 

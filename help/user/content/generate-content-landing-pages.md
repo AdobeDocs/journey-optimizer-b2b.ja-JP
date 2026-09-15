@@ -1,37 +1,45 @@
 ---
-title: ランディングページコンテンツ用AI アシスタント
-description: AI アシスタントを使用してランディングページコンテンツを生成する – Journey Optimizer B2B editionで、リファレンスアセットと購買グループの役割のターゲティング機能を使用して、ページのテキストと画像を作成します。
+title: ランディングページコンテンツの生成
+description: ランディングページコンテンツの生成 – Journey Optimizer B2B editionで、リファレンスアセットと購買グループの役割のターゲティングを使用して、ページテキストや画像を作成できます。
 feature: Generative AI, Landing Pages, Content
 topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
+autotag-review: '2026-08-06T18:46:13.525Z'
+TQID: 'https://experienceleague.adobe.com/TopyHYvXF86q4VFnuV2lDP007QpQJbnRWweZioXa7d0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+    internal-label: Content production
+source-git-commit: d8451ab306de70decd11909676d6d9aaf667d466
 workflow-type: tm+mt
-source-wordcount: 2626
+source-wordcount: '2599'
 ht-degree: 1%
-
 ---
+# ランディングページコンテンツの生成
 
-# ランディングページコンテンツ用 AI アシスタント {#generative-full-content}
-
-[!DNL Adobe Journey Optimizer B2B Edition]のランディングページコンテンツ用AI アシスタントは、AdobeのAIを活用したコンテンツ生成機能を使用し、マーケターがプロフェッショナルでブランド一貫性のあるランディングページコンテンツを作成する方法に革命をもたらします。 高度な生成AI モデルとブランドガイドラインの詳細な把握により、AI アシスタントは、パーソナライズされた魅力的なコンテンツを自動的に生成します。 マーケティング目標を使用し、ブランドのスタイル、レイアウト、トーンなどに合わせてコンテンツを最適化します。 AI アシスタントを利用すれば、施策やプログラムの制作と実行をより直感的かつシンプルで、効率的におこなえます。 この機能をワークフローに追加することで、時間を節約し、効率を向上させ、より良い結果を導くことができます。
+Microsoft Azure OpenAIとAdobe Fireflyを活用した[!DNL Adobe Journey Optimizer B2B Edition]のランディングページコンテンツ用の生成AIは、マーケターがプロフェッショナルでブランド一貫性のあるランディングページコンテンツを作成する方法に革命をもたらします。 さまざまなメインタイトルや画像を試して、コンテンツの効果を最適化しましょう。 高度な生成AI モデルとブランドガイドラインの詳細な理解により、これらのツールはパーソナライズされた魅力的なコンテンツを自動的に生成できます。 Adobe GenStudioの生成AI ツールを利用すれば、キャンペーンやプログラムの制作と実行をより直感的かつシンプルで、効率的におこなえます。 この機能をワークフローに追加することで、時間を節約し、効率を向上させ、より良い結果を導くことができます。
 
 テキストと画像の両方を含む、ランディングページ用の包括的なコンテンツエクスペリエンスを生成できます。 この堅牢な機能により、オーディエンスとつながる魅力的でブランドに即したコンテンツを作成できます。
 
@@ -45,11 +53,11 @@ ht-degree: 1%
 
 ## ガイドラインと制限事項
 
-この機能の使用を開始する前に、[&#x200B; ガイドラインと制限事項](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 [!DNL Journey Optimizer B2B Edition]でAI機能を使用するには、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。 詳しくは、アドビ担当者にお問い合わせください。
+この機能の使用を開始する前に、[&#x200B; ガイドラインと制限事項](./generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 [!DNL Journey Optimizer B2B Edition]でAI機能を使用するには、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。 詳しくは、アドビ担当者にお問い合わせください。
 
 生成AIの透明性を高めるために、Adobeでは、ダウンロードまたはエクスポート時に[&#x200B; コンテンツ認証情報](https://helpx.adobe.com/jp/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"}をFirefly生成アセットに適用します。
 
-次の制限事項とガイドラインは、[!DNL Journey Optimizer B2B Edition]のランディングページコンテンツ生成に使用されるAI アシスタント機能に適用されます。
+次の制限事項とガイドラインは、[!DNL Journey Optimizer B2B Edition]のランディングページに使用されるコンテンツ生成機能に適用されます。
 
 * サポートされている言語は英語のみです。
 * 生成されたコンテンツは正確ではない可能性があります。Adobeのエンジニアがモデルを改良できるように、フィードバックを共有してください。
@@ -59,7 +67,7 @@ ht-degree: 1%
 
 ## コンテンツ生成のための入力と設定
 
-ランディングページまたはページ内の選択したコンポーネントの完全なコンテンツを生成できます。 AI アシスタントを使用する場合は、テキストと画像の入力、プロンプト、参照コンテンツ、設定を指定します。
+ランディングページまたはページ内の選択したコンポーネントの完全なコンテンツを生成できます。 これらのツールを使用する場合は、入力、プロンプト、参照コンテンツ、およびテキストと画像の設定を指定します。
 
 ### プロンプト
 
@@ -67,7 +75,7 @@ ht-degree: 1%
 
 ![&#x200B; プロンプトフィールド &#x200B;](./assets/gen-ai-prompt.png){width="320"}
 
-効果的なプロンプトの作成について詳しくは、_[プロンプトのベストプラクティス](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;を参照してください。
+効果的なプロンプトの作成について詳しくは、_[プロンプトのベストプラクティス](./generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;を参照してください。
 
 >[!BEGINSHADEBOX]
 
@@ -75,7 +83,7 @@ ht-degree: 1%
 
 効果的なプロンプトは、可能な限り優れたコンテンツを制作するために不可欠です。 プロンプトの作成をサポートする場合は、_プロンプトライブラリ_ ![&#x200B; プロンプトライブラリアイコン &#x200B;](../assets/do-not-localize/icon-library.svg) アイコンをクリックして、目的に応じて整理されたプロンプトアイデアのライブラリにアクセスします。 検索フィールドにテキストを入力して、キーワード文字列に基づいてプロンプトを検索します。
 
-![AI アシスタント – プロンプトライブラリにアクセス &#x200B;](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
+![&#x200B; コンテンツを生成 – プロンプトライブラリにアクセス &#x200B;](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
 目的の目標を最もよく反映するプロンプトを選択し、**[!UICONTROL このプロンプトを試す]**&#x200B;をクリックします。 _[!UICONTROL プロンプト]_ フィールドで、プレースホルダー（`[Key Feature/Information]`など）をブランド、オファー、キャンペーン、ユースケースの詳細に置き換えます。
 
@@ -115,7 +123,7 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 ### 参照コンテンツ
 
-参照コンテンツアセットをアップロードして、正確でブランドに即したコンテンツを生成します。 そうでない場合、生成コンテンツは公開されている情報に基づきます。 参照コンテンツは、コンテンツ生成と画像レコメンデーションのソースとして機能します。 ガイドラインとベストプラクティスについては、_[最適化された参照コンテンツ](../ai-coworker/generative-ai-content.md#reference-content)_&#x200B;を参照してください。
+参照コンテンツアセットをアップロードして、正確でブランドに即したコンテンツを生成します。 そうでない場合、生成コンテンツは公開されている情報に基づきます。 参照コンテンツは、コンテンツ生成と画像レコメンデーションのソースとして機能します。 ガイドラインとベストプラクティスについては、_[最適化された参照コンテンツ](./generative-ai-content.md#reference-content)_&#x200B;を参照してください。
 
 **[!UICONTROL 参照コンテンツ]**&#x200B;の設定から、**[!UICONTROL ファイルをアップロード]**&#x200B;をクリックして、追加のコンテキストに使用するコンテンツを含むアセットを追加します。
 
@@ -129,7 +137,7 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 ## 生成AI ツールの使用 {#gen-ai-tools}
 
-コンテンツの生成を開始するには、ランディングページのコンテンツエディターを開き、右側のパネルの外側のパネルにある生成AI ツールにアクセスします。 _AI アシスタント_ （![AI アシスタント コンテンツトグル &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}）を選択して、現在のコンテンツ選択で使用できるコンテンツ生成ツールを表示します。
+コンテンツの生成を開始するには、ランディングページのコンテンツエディターを開き、右側のパネルの外側のパネルにある生成AI ツールにアクセスします。 「_コンテンツを生成_」（「![&#x200B; コンテンツ用コンテンツを生成」トグル &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}）を選択すると、現在のコンテンツ選択で使用できるコンテンツ生成ツールが表示されます。
 
 使用するランディングページコンテンツ生成のタイプに応じて、次の手順を実行します。
 
@@ -147,11 +155,11 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
    ランディングページテンプレートの使用について詳しくは、_[テンプレートの選択](./landing-pages-create-publish.md#select-template)_&#x200B;を参照してください。
 
-1. 右側のパネルの外側パネルで、_AI アシスタント_ （![&#x200B; コンテンツ用AI アシスタント切り替え](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}）アイコンを選択します。
+1. 右側のパネルの外側パネルで、「_コンテンツを生成_」（![&#x200B; コンテンツの生成toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}）アイコンを選択します。
 
-   ![&#x200B; ランディングページデザインスペースのAI アシスタント切り替え](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
+   ![&#x200B; ランディングページデザインスペースでコンテンツ生成トグル &#x200B;](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
 
-   右側のAI アシスタント設定には、ランディングページ全体の生成設定が反映されています。
+   右側の設定は、ランディングページ全体の生成設定を反映しています。
 
 1. （Beta） **[!UICONTROL ブランド]**&#x200B;を選択して、AIで生成されたコンテンツがブランドの仕様に準拠していることを確認します。
 
@@ -161,11 +169,9 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
    効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompts)を使用してください。
 
-   ![AI アシスタント – ランディングページコンテンツを生成するためのプロンプトライブラリ &#x200B;](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
-
    >[!TIP]
    >
-   >生成されたコンテンツのプロンプトを初めて作成する場合は、_[プロンプトのベストプラクティス](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;を確認してください。
+   >生成されたコンテンツのプロンプトを初めて作成する場合は、_[プロンプトのベストプラクティス](./generative-ai-content.md#generative-ai-prompting-guide)_&#x200B;を確認してください。
 
 1. 生成されたコンテンツを調整するには、コンテンツガイダンスの設定を完了します。
 
@@ -175,7 +181,7 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 1. プロンプトと設定の準備ができたら、**[!UICONTROL 生成]**&#x200B;をクリックします。
 
-1. AI アシスタントパネルで下にスクロールし、生成されたバリエーションを参照して、最も適したバリエーションを決定します。
+1. コンテンツを生成パネルで下にスクロールし、生成されたバリエーションを参照して、最も適したバリエーションを決定します。
 
    * _フルスクリーン_ （![&#x200B; フルスクリーンアイコン &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックして、_[!UICONTROL ランディングページを生成]_ ダイアログを開きます
 
@@ -193,9 +199,9 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 1. ランディングページデザインスペースで、_テキスト_ コンポーネントを選択して、特定のコンテンツをターゲットにします。
 
-1. 右側のパネルの外側パネルで、_AI アシスタント_ （![&#x200B; コンテンツ用AI アシスタント切り替え](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}）アイコンを選択します。
+1. 右側のパネルの外側パネルで、「_コンテンツを生成_」（![&#x200B; コンテンツの生成toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}）アイコンを選択します。
 
-   ![&#x200B; ランディングページデザインスペースのAI アシスタント切り替え](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![&#x200B; ランディングページデザインスペースでコンテンツ生成トグル – テキストコンポーネントが選択されました](./assets/gen-ai-landing-page-text-ai-panel.png){width="600" zoomable="yes"}
 
    右側の設定は、テキストコンポーネントのコンテンツ生成設定を反映しています。
 
@@ -204,8 +210,6 @@ AI **を使用して画像を生成する** オプションは、デフォルト
    公開されたブランドがない場合は、**[!UICONTROL ブランドを作成]**&#x200B;をクリックして[再利用可能なブランドガイドラインを定義](./brands-overview.md)します。
 
 1. 「**[!UICONTROL プロンプト]**」フィールドに、生成する内容の説明を入力します。
-
-   ![AI アシスタント – テキスト設定](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
    効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompts)を使用してください。
 
@@ -217,7 +221,7 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 1. プロンプトと設定の準備ができたら、**[!UICONTROL 生成]**&#x200B;をクリックします。
 
-1. AI アシスタントパネルで下にスクロールし、生成されたバリエーションを閲覧して、どのバリエーションが最適かを判断します。
+1. コンテンツを生成パネルで下にスクロールし、生成されたバリエーションを参照して、どのバリエーションが最適かを判断します。
 
    * _全画面_ （![全画面アイコン &#x200B;](../assets/do-not-localize/icon-full-screen.svg)）アイコンをクリックして、_[!UICONTROL テキストを生成]_ ダイアログを開きます
 
@@ -235,19 +239,17 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 1. ランディングページデザインスペースで、_画像_ コンポーネントを選択して、特定のコンテンツをターゲットにします。
 
-1. 右側のパネルの外側パネルで、_AI アシスタント_ （![&#x200B; コンテンツ用AI アシスタント切り替え](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}）アイコンを選択します。
+1. 右側のパネルの外側パネルで、「_コンテンツを生成_」（![&#x200B; コンテンツの生成toggle](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}）アイコンを選択します。
 
-   ![&#x200B; ランディングページデザインスペースのAI アシスタント切り替え](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![&#x200B; ランディングページデザインスペースでコンテンツ生成トグル – 選択した画像コンポーネント &#x200B;](./assets/gen-ai-landing-page-image-ai-panel.png){width="600" zoomable="yes"}
 
-   右側のAI アシスタント設定は、画像コンポーネントの生成設定を反映しています。
+   右側の設定は、画像コンポーネントの生成設定を反映しています。
 
 1. （Beta） **[!UICONTROL ブランド]**&#x200B;を選択して、AIで生成されたコンテンツがブランドの仕様に準拠していることを確認します。
 
    公開されたブランドがない場合は、**[!UICONTROL ブランドを作成]**&#x200B;をクリックして[再利用可能なブランドガイドラインを定義](./brands-overview.md)します。
 
 1. 「**[!UICONTROL プロンプト]**」フィールドに、必要な内容の説明を入力します。
-
-   ![AI アシスタント – テキスト設定](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
    効果的なプロンプトの作成に関するヘルプが必要な場合は、[&#x200B; プロンプトライブラリ &#x200B;](#prompts)を使用してください。
 
@@ -259,7 +261,7 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 1. プロンプトと設定に問題がなければ、**[!UICONTROL 生成]**&#x200B;をクリックします。
 
-   AI アシスタントがリクエストを処理し、プロンプトやその他の入力にもとづいて最適な画像を生成します。
+   「コンテンツを生成」では、リクエストが処理され、プロンプトやその他の入力にもとづいて最適な画像が生成されます。
 
    >[!IMPORTANT]
    >
@@ -271,7 +273,7 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
    バリエーションを選択し、**[!UICONTROL 類似を生成]**&#x200B;をクリックして、選択したバリエーションに類似する追加の画像を生成できます。 または、**[!UICONTROL Adobe Expressで編集]**&#x200B;をクリックして、独自の画像を変更します。 Adobe Expressを使用して画像を調整する方法について詳しくは、[Adobe Expressでのクイックアクション &#x200B;](./image-edit-adobe-express.md#quick-actions-in-adobe-express)を参照してください。
 
-   ![&#x200B; テキストのバリエーションと絞り込みオプションのAI アシスタント プレビュー](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
+   ![&#x200B; テキストのバリエーションと絞り込みオプションのコンテンツプレビューを生成](./assets/email-designer-generate-content-image-refine.png){width="700" zoomable="yes"}
 
    生成されたバリエーションに対して[&#x200B; フィードバック &#x200B;](#submit-variation-feedback)を送信することもできます。
 
@@ -283,7 +285,7 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 ## プレビューとコンテンツの改善 {#refine-finalize}
 
-コンテンツのバリエーションを生成した後は、結果を微調整して、確実に要件を満たすことができます。 ブランドの整合性を確認し、トーンと言語を調整して、レビュー可能なドラフト用にコンテンツを準備します。 また、AI アシスタントのトレーニングや今後の成果物の改善に役立つ、バリエーションのフィードバックを送信することもできます。
+コンテンツのバリエーションを生成した後は、結果を微調整して、確実に要件を満たすことができます。 ブランドの整合性を確認し、トーンと言語を調整して、レビュー可能なドラフト用にコンテンツを準備します。 また、生成AI ツールのトレーニングや、今後の成果物の向上に役立つ、バリエーションのフィードバックを送信することもできます。
 
 ### 全画面表示を開く
 
@@ -299,9 +301,9 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 「**[!UICONTROL 調整]**」オプションをクリックして、ランディングページとテキストのバリエーションに関する追加のカスタマイズ機能にアクセスします。
 
-* **[!UICONTROL 詳しく説明]** - AI アシスタントは、特定のトピックを拡大するのに役立ち、より深い理解とエンゲージメントのために追加の詳細を提供します。
+* **[!UICONTROL 詳しく説明]** – 特定のトピックについて詳しく説明し、より深い理解とエンゲージメントのために追加の詳細を提供します。
 
-* **[!UICONTROL 概要]** – 長い情報を使用すると、ページビューアが過負荷になる可能性があります。 AI アシスタントを利用して、重要なポイントを明確で簡潔な要約にまとめ、注目を集め、受信者にさらに詳しく読むよう促します。
+* **[!UICONTROL 概要]** - ページ ビューアーが処理するのが長い情報の場合があります。 このオプションを使用すると、重要なポイントを明確で簡潔な要約にまとめ、受信者にさらに読んでもらうことができます。
 
 * **[!UICONTROL 言い換え]** - メッセージの意味を維持しながら、メッセージを書き換えます。 このオプションを使用すると、コアメッセージを変更せずに、代替表現を生成したり、フローを改善したり、フレーズを調整したりできます。
 
@@ -321,7 +323,7 @@ AI **を使用して画像を生成する** オプションは、デフォルト
 
 _サムズアップ_、_サムズダウン_、または&#x200B;_フラグ_ アイコンをクリックして、生成されたバリエーションに対するフィードバックを提供し、フィードバックを最もよく要約する理由を選択します。
 
-![AI アシスタント – 生成されたバリエーションをプレビュー](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
+![&#x200B; コンテンツを生成 – 生成されたバリエーションをプレビュー](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 
 ### ブランドの整合性を確認する（Beta）
 
@@ -331,4 +333,4 @@ _サムズアップ_、_サムズダウン_、または&#x200B;_フラグ_ ア�
 
 ![&#x200B; ブランド調整スコアリングツールにアクセス &#x200B;](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-詳細については、[_ブランドの整合性スコア_](./content-evaluation.md#brand-alignment-score)&#x200B;を参照してください
+詳細については、[_ブランドの整合性スコア_](./content-evaluation.md#brand-alignment-score)&#x200B;を参照してください。

@@ -8,24 +8,29 @@ autotag-review: '2026-07-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+    internal-label: Personalization
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1077
+source-wordcount: '1067'
 ht-degree: 3%
-
 ---
-
 # Script Builder
 
 _Script Builder_&#x200B;は、[!DNL Adobe Journey Optimizer B2B Edition]電子メールデザインスペースで利用できるAIを活用したアシスタントです。 マーケターやメール開発者がパーソナライゼーションスクリプトをより迅速に作成でき、既存のパーソナライゼーションロジックを手動で書き換えることなく[!DNL Journey Optimizer B2B Edition]に変換することで、[!DNL Marketo Engage]からの移行に役立ちます。
@@ -34,7 +39,7 @@ _Script Builder_&#x200B;は、[!DNL Adobe Journey Optimizer B2B Edition]電子�
 >
 >Script Builderは現在、**_アカウントジャーニーのみ_**&#x200B;のメールに対する限定的なベータ版リリースとしてお客様を選択できます。 個人ジャーニーのサポートは、今後のリリースで予定されています。 アクセスするには、Adobe担当者にお問い合わせください。
 
-ロケールによる言語ブロックの切り替え、地域またはペルソナによるコンテンツの入れ替え、動的なプロファイルまたはカスタムオブジェクト値の挿入など、条件付きメールのパーソナライゼーションを作成するには、_Handlebars_&#x200B;式のオーサリングが必要です。 [!DNL Marketo Engage]から移行する場合、_Velocity_ スクリプトを行ごとに書き換えるという課題が追加されました。 Script Builderは、単一の会話型インターフェイスから両方の課題に対応します。
+言語ブロックの切り替え、コンテンツの入れ替え、動的な値の挿入など、条件付きメールのパーソナライゼーションを作成するには、_Handlebars_&#x200B;式のオーサリングが必要です。 [!DNL Marketo Engage]から移行する場合、_Velocity_ スクリプトを行ごとに書き換えるという課題が追加されました。 Script Builderは、単一の会話型インターフェイスから両方の問題を解決します。
 
 * 平易な言語の説明から新しいHandlebars パーソナライゼーションスクリプトを生成します。
 * [!DNL Marketo Engage] Velocity スクリプトを貼り付け、自動トークンマッピングを使用して同等のHandlebars スクリプトに変換します。
@@ -46,7 +51,7 @@ _Script Builder_&#x200B;は、[!DNL Adobe Journey Optimizer B2B Edition]電子�
 >
 >Script Builderへのユーザーのアクセスは、[!DNL Journey Optimizer B2B Edition]の他の生成AI機能と同じ権限で制御されます。 機能の権限の付与について詳しくは、[AI アシスタントへのアクセスの有効化](../ai-coworker/enable-ai-assistant-access.md)を参照してください。
 
-Script Builderを使用する前に、[!DNL Journey Optimizer B2B Edition]の生成AI機能に適用される[&#x200B; ガイドラインと制限事項](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 AI機能を使用する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。
+Script Builderを使用する前に、[!DNL Journey Optimizer B2B Edition]の生成AI機能に適用される[&#x200B; ガイドラインと制限事項](./generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 AI機能を使用する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。
 
 [!DNL Journey Optimizer B2B Edition]でサポートされている[Handlebars テンプレート言語](https://handlebarsjs.com/guide/){target="_blank"}、[&#x200B; パーソナライゼーション構文](./personalization-syntax.md)、および[&#x200B; ヘルパー関数](./personalization-helper-functions.md)を理解します。 Script Builderは有効なハンドルバーを生成しますが、構文を理解すると、出力を確実にレビューおよび編集できます。
 

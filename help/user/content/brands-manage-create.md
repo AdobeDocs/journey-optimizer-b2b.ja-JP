@@ -8,24 +8,28 @@ level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2070
-ht-degree: 19%
-
+source-wordcount: '2039'
+ht-degree: 15%
 ---
-
 # ブランドの構築と管理 {#brand-library}
 
 ブランドを定義し、視覚的および口頭でのアイデンティティを確立するための詳細なルールと基準を提供します。 これらのガイドラインでは、あらゆるマーケティングプラットフォームとコミュニケーションプラットフォームで一貫したブランド表現を維持するための参考資料を提供します。 明確に定義されたブランドガイドラインを活用することで、あらゆるコンテンツ制作の取り組みが、戦略目標とブランドアイデンティティ全体に沿ったものにすることができます。 この一貫性は、ブランド認知度と信頼性を向上させるだけでなく、あらゆる顧客接点をまたいで、より全体的に一貫性のあるインパクトのある顧客体験を実現するのに役立ちます。
@@ -38,7 +42,7 @@ Journey Optimizer B2B editionでは、ブランド定義やアセットを手動
 >
 ><br>
 >
->Adobe Journey Optimizer B2B editionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer B2B editionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 >
 ><br>
 >
@@ -68,7 +72,7 @@ Adobe Journey Optimizer B2B editionのブランドキットにアクセスする
 
 ### Default brand
 
-コンテンツ作成時にコンテンツを生成し、整列スコアを計算する際に、自動的に適用されるデフォルトのブランドを指定できます。 既定値にできるのは、公開された（_Live_）ブランドのみです。
+コンテンツ作成時にコンテンツを生成し、整列スコアを計算する際に、ブランドを自動的に適用するには、デフォルトのブランドを指定します。 既定値にできるのは、公開された（_Live_）ブランドのみです。
 
 Brands ライブラリでは、デフォルトのブランドカードにフラグが表示されます。
 
@@ -93,7 +97,7 @@ Brands ライブラリでは、デフォルトのブランドカードにフラ�
 
 1. ブランドの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. ファイルをドラッグ＆ドロップまたは選択し、ブランドガイドラインをアップロードして、関連するブランド情報を自動的に抽出します。
+1. ファイルをドラッグ&amp;ドロップまたは選択して、ブランドガイドラインをアップロードし、関連するブランド情報を自動的に抽出します。
 
    ![新しいブランドを定義](./assets/brands-create-new.png){width="500"}
 
@@ -111,7 +115,7 @@ Brands ライブラリでは、デフォルトのブランドカードにフラ�
 
 ### ブランドガイドラインの改善と更新
 
-1. 様々なタブを参照して、必要に応じて詳細情報を調整および定義します。
+1. 必要に応じて、より詳細な情報を調整および定義するには、様々なタブを参照します。
 
    * [!UICONTROL 概要]
 
@@ -163,7 +167,7 @@ Brands ライブラリでは、デフォルトのブランドカードにフラ�
 
 1. すべてを定義したら、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   公開の準備ができたと判断するまで、ドラフトブランドに変更を加え続けることができます。
+   ドラフトブランドに引き続き変更を加えることができます。 公開の準備ができたと判断するまで続行します。
 
 ### ブランドの公開
 
@@ -241,7 +245,7 @@ Brands ライブラリでは、デフォルトのブランドカードにフラ�
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="文体整合性スコア"
->abstract="「文体」セクションで、言語、書式設定、構造の標準を定義することで、明確で一貫性のあるコンテンツを保証します。 整合性スコアは高から低までの評価で、コンテンツがこれらのガイドラインにどのくらい適切に準拠しているかを示し、改善が必要な領域を強調します。"
+>abstract="「書き方」セクションでは、言語、書式設定、構造の標準を定義します。 整合性スコアは、コンテンツがガイドラインにどの程度従っているかを示し、改善すべき点を特定します。"
 
 _[!UICONTROL 書き方]_&#x200B;の定義は、コンテンツを書く際の基準の概要を示し、すべてのマテリアルで明瞭性、一貫性、一貫性を維持するために、言語、書式設定、構造をどのように使用すべきかを詳しく説明します。
 
@@ -285,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="視覚的コンテンツ整合性スコア"
->abstract="視覚的コンテンツ整合性スコアは、コンテンツが設定されたブランドガイドラインにどのくらい適切に準拠しているかを示します。 高から低までの評価により、一目で整合性を評価するのに役立ちます。 異なるカテゴリを調べて、改善するべき領域を識別し、ブランドにそぐわない可能性のある要素を特定します。"
+>abstract="視覚的コンテンツ整合性スコアは、コンテンツが設定されたブランドガイドラインにどのくらい適切に準拠しているかを示します。 整合性を評価し、改善すべき点を特定するのに役立ちます。"
 
 _[!UICONTROL ビジュアルコンテンツ]_&#x200B;の定義では、画像とデザインの基準の概要と、統一された一貫性のあるブランドの外観を維持するために必要な仕様を詳しく説明しています。
 
@@ -326,7 +330,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
    このアクションは、ブランドのドラフトコピーを作成します。
 
-1. 必要に応じてブランド情報を更新するには、様々なタブを参照します。
+1. 様々なタブを参照し、必要に応じてブランド情報を更新してください。
 
    * 概要
 

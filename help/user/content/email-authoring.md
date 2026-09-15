@@ -1,29 +1,34 @@
 ---
 title: メールメッセージの作成
-description: ビジュアルデザインツール、HTMLのインポート、テンプレートを使用して、メールを作成できます。Journey Optimizer B2B editionでは、AI アシスタントによるコンテンツ生成、カスタム CSS、パーソナライゼーションを利用できます。
+description: ビジュアルデザインツール、HTMLのインポート、テンプレートを使用して、Journey Optimizer B2B editionでコンテンツ生成、カスタム CSS、パーソナライゼーションを活用して、メールを作成できます。
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1380
+source-wordcount: '1371'
 ht-degree: 5%
-
 ---
-
 # メールメッセージの作成
 
 ジャーニーアクションノード [&#128279;](./add-email.md)にメールアセットを追加した後、メールメッセージのコンテンツを定義できます。
@@ -44,7 +49,7 @@ ht-degree: 5%
 
 >[!TIP]
 >
->生成AIを活用したAdobe Journey Optimizer B2B editionのAI アシスタントを利用すれば、コンテンツを改善できます。 AI アシスタントを利用すれば、電子メール全体やターゲットを絞ったテキストコンテンツを生成し、オーディエンスの共感を呼ぶ画像に関するレコメンデーションを提供することで、配信の効果を最適化することができます。 [詳細情報](./ai-assistant-emails.md)
+>コンテンツ生成ツールを使用して、コンテンツを改善します。 これらのツールは、電子メール全体やターゲットを絞ったテキストコンテンツを生成し、オーディエンスに関連する画像にレコメンデーションを提供することで、配信の効果を最適化するのに役立ちます。 [詳細情報](./generate-content-emails.md)
 
 ## メールをゼロからデザイン {#design-from-scratch}
 

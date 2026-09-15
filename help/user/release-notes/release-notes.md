@@ -5,25 +5,30 @@ role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d8425054daea287d21419911158908035c1314f6
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 5637
+source-wordcount: '5637'
 ht-degree: 61%
-
 ---
-
 # Journey Optimizer B2B Edition リリースノート
 
 Adobe Journey Optimizer B2B Edition では、新機能、既存機能の強化およびバグ修正が継続的に提供されます。
@@ -137,7 +142,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
 | 機能 | ブランドキット | （Beta） Journey Optimizer B2B editionを使用してブランドを定義し、クリエイティブチームがビジュアルや文章のコンテンツを制作する際に使用する信頼できる唯一の情報源を提供します。 これらのガイドラインをまとめ、ブランドアセットを共有すれば、チームメンバーや共同作業者であれば誰でもブランドに即したコンテンツを制作できます。 [詳細情報](../content/brands-overview.md) |
-| 機能 | メールコンテンツ生成のブランド | ブランドガイドラインを定義し、その情報をもとにメールコンテンツを生成できます。 この機能を利用することで、メールコンテンツは、ブランド固有のコピーライティングガイドライン、スタイル、トーンに沿ったものになります。 [詳細情報](../content/ai-assistant-emails.md) |
+| 機能 | メールコンテンツ生成のブランド | ブランドガイドラインを定義し、その情報をもとにメールコンテンツを生成できます。 この機能を利用することで、メールコンテンツは、ブランド固有のコピーライティングガイドライン、スタイル、トーンに沿ったものになります。 [詳細情報](../content/generate-content-emails.md) |
 | 機能強化 | ジャーニー _Wait_ ノード – 詳細設定 | ジャーニーの&#x200B;_Wait_ ノードの場合、マーケターは離脱の日数と時間を指定し、タイムゾーンを選択できるようになりました。 この機能強化により、ジャーニーオーケストレーションとキャンペーンタイミングをより適切に制御できるようになります。 [詳細情報](../journeys/wait-nodes.md#advanced-wait-settings) |
 | 機能強化 | 購買グループのメンバーのフィルター – 削除 | ユーザー&#x200B;_ノードで_ パスを分割する場合、_[!UICONTROL 購入グループのメンバー]_ フィルターに&#x200B;_削除済み_&#x200B;制約が含まれるようになりました。 選択すると、フィルターに削除された購買グループのメンバーを含めることも、除外することもできます。 Marketo Engage スマートリストでもサポートされており、_[!UICONTROL 購買グループのメンバー]_ フィルターでこの新しい制約を使用できます。 |
 | 機能強化 | メールデザイン – 複数レベルの箇条書き | メールコンテンツデザインスペースのツールで、箇条書き（箇条書きレベル）がサポートされるようになりました。 |

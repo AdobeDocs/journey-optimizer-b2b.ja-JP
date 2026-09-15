@@ -5,16 +5,16 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 autotag-review: 2026-03-27T22:18:45.397Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1163
-ht-degree: 34%
-
+source-wordcount: '1162'
+ht-degree: 30%
 ---
-
 # Adobe Journey Optimizer B2B Edition ドキュメント
 
 [!DNL Adobe Journey Optimizer B2B Edition]は、マーケティング部門と営業部門がカスタマーライフサイクル全体にわたってアカウントベースのエクスペリエンスを調整し、特定製品の購買グループを選定できる初めてのアプリケーションです。 AIを活用して、ターゲットアカウント内の購買グループにエンゲージし、選定を行うことで、より質の高いパイプラインの生成や、より優れた獲得、拡大、維持戦略の策定に役立ちます。 また、営業部門とマーケティング部門のインサイトを共有することもできます。
@@ -185,7 +185,7 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="ジャーニーコンテンツ"><br/>
-      <strong>ジャーニーコンテンツ</strong><br/><a href="./content/add-email.md">メールチャネル</a><br/><a href="./content/ai-assistant-emails.md">メール用 AI アシスタント</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio のメールエクスペリエンス</a><br/><a href="./content/sales-alert-email.md">セールスアラートメール</a><br/><a href="./content/sms-authoring.md">SMS チャネル</a>
+      <strong>ジャーニーコンテンツ </strong><br/><a href="./content/add-email.md"> メールチャネル </a><br/><a href="./content/generate-content-emails.md"> メールコンテンツを生成</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio メールエクスペリエンス </a><br/><a href="./content/sales-alert-email.md"> セールスアラートメール </a><br/><a href="./content/sms-authoring.md">SMS チャネル </a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="コンテンツ管理"><br/>
