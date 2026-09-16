@@ -6,24 +6,28 @@ role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+    internal-label: Journey Actions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2184
+source-wordcount: '2176'
 ht-degree: 3%
-
 ---
-
 # アクションの実行
 
 メールの送信、スコアの変更、購買グループへの割り当てなどのアクションを実行するには、ジャーニーに「_[!UICONTROL アクションを実行]_」ノードを追加します。 通常、アクションは、イベントや以前のアクションなど、何らかのトリガーの結果として発生させたいものです。
@@ -45,7 +49,6 @@ ht-degree: 3%
 | [!UICONTROL 宛先から非アクティブ化] | 既存の仮想オーディエンスを選択<br/>宛先を選択 |
 | [!UICONTROL &#x200B; アカウントをジャーニーから削除] | ライブアカウントジャーニーの選択 |
 | [!UICONTROL &#x200B; アカウントリストから削除] | ライブ静的アカウントリストの選択 |
-| [!UICONTROL 販売アラートを送信] | ソリューションの関心を選択<br/> メールの送信先 |
 | [!UICONTROL &#x200B; アカウントプロファイルの更新] | 属性を選択<br/>新しい値 |
 | [!UICONTROL 購買グループステージの更新] | ソリューションの関心を選択<br/>購買グループのステージを選択 |
 | [!UICONTROL 購買グループの状態を更新] | ソリューションの関心を選択<br/> ステータス （必須、最大50文字） |

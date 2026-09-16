@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 15%
@@ -173,7 +173,7 @@ Brands ライブラリでは、デフォルトのブランドカードにフラ�
 
 ブランドに定義の完全なセットが含まれ、要件を満たしたら、**[!UICONTROL 公開]**&#x200B;をクリックして、ブランドガイドラインをコンテンツの調整と生成に利用できるようにします。
 
-公開されたブランドは、AI [&#x200B; ブランド調整スコア &#x200B;](./content-evaluation.md#brand-alignment-score)および[&#x200B; コンテンツ生成ツール &#x200B;](../ai-coworker/generative-ai-content.md)の&#x200B;**[!UICONTROL ブランド]** オプションからアクセスできます。
+公開されたブランドは、AI [&#x200B; ブランド調整スコア &#x200B;](./content-evaluation.md#brand-alignment-score)および[&#x200B; コンテンツ生成ツール &#x200B;](./generative-ai-content.md)の&#x200B;**[!UICONTROL ブランド]** オプションからアクセスできます。
 
 ![&#x200B; コンテンツのブランドオプション &#x200B;](./assets/brand-menu-content-ai-tools.png){width="300"}
 
