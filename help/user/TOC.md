@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 84%
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 84%
   + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
   + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
   + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
   + ジャーニーノード {#journey-nodes}
     + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
     + [顧客オーディエンス](./journeys/person-audience-nodes.md)
@@ -68,7 +68,6 @@ ht-degree: 84%
     + [GenStudio ワークフロー](./content/genstudio-email-workflow.md)
     + [メールデザインのダークモード](./content/email-dark-mode.md)
     + [管理されたテンプレート](./content/email-authoring-governance.md)
-    + [販売アラートメール](./content/sales-alert-email.md)
     + [メールの重複排除](./content/email-deduplication.md)
     + [メールトラッキング](./content/email-tracking-manage.md)
   + Web チャンネル（Beta） {#web-channel}
@@ -168,7 +167,7 @@ ht-degree: 84%
     + [インテントデータ](./admin/intent-data.md)
     + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
     + [外部アクション](./admin/configure-external-actions.md)
-    + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+    + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
   + チャネル {#channels}
     + [メール設定](./admin/configure-channels-emails.md)
     + [SMS 設定](./admin/configure-channels-sms.md)
