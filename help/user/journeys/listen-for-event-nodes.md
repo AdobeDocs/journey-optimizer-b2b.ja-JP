@@ -1,31 +1,34 @@
 ---
 title: イベントをリッスン
-description: アカウントと人物のトリガーのイベントノードを設定 – Journey Optimizer B2B editionで、購買グループの変更、メールのクリック、フォーム入力、Experience Platformイベントをリッスンします。
+description: アカウントと人物のトリガーのイベントノードを設定する – Journey Optimizer B2B Editionで購買グループの変更、メールのクリック、フォーム入力、Experience Platformイベントをリッスンします。
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: '1783'
 ht-degree: 5%
-
 ---
-
 # イベントのリッスン
 
-イベントが発生したときに[&#x200B; ジャーニー](./journeys-overview.md)の次のステップにオーディエンスを進めるには、_イベントをリッスン_ ノードを追加します。 ジャーニーのタイプに応じて、このノードを使用して、人物イベントまたはアカウントイベントに応じてジャーニーの次のノードをトリガーできます。
+イベントが発生したときに[ ジャーニー](./journeys-overview.md)の次のステップにオーディエンスを進めるには、_イベントをリッスン_ ノードを追加します。 ジャーニーのタイプに応じて、このノードを使用して、人物イベントまたはアカウントイベントに応じてジャーニーの次のノードをトリガーできます。
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -41,84 +44,53 @@ ht-degree: 5%
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL イベントをリッスン]**&#x200B;を選択します。
 
-   ![&#x200B; ジャーニーノードをアカウントジャーニーに追加 – イベントをリッスン &#x200B;](./assets/node-listen-event-account-journey.png){width="400"}
+   ![ ジャーニーノードをアカウントジャーニーに追加 – イベントをリッスン ](./assets/node-listen-event-account-journey.png){width="400"}
 
 1. 右側のノードプロパティで、_イベントタイプ_ セレクターを使用して、**[!UICONTROL アカウント]**&#x200B;と&#x200B;**[!UICONTROL 人物]**&#x200B;のいずれかを選択します。
 
-1. リストからイベントを選択します。
-
-   * イベントの種類&#x200B;_People_&#x200B;の場合は、トリガーに使用する[people event](#people-events)を選択します。
-
-     ![ジャーニーノード – ユーザーのイベントをリッスンします](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
+1. 選択したイベントタイプのイベントトリガーを定義します。
 
    * _Accounts_ イベントタイプに対して、トリガーに使用する[account event](#account-events)を選択します。
 
-     ![ジャーニーノード – アカウント &#x200B;](./assets/node-listen-events-account.png){width="500" zoomable="yes"}のイベントをリッスンします
+     ![ジャーニーノード – アカウント ](./assets/node-listen-events-account.png){width="500" zoomable="yes"}のイベントをリッスンします
 
-1. 「**[!UICONTROL イベントを編集]**」をクリックし、イベントの詳細を定義します。
+     「**[!UICONTROL イベントを編集]**」をクリックし、[ アカウントイベント ](#account-events)の一致条件を定義します。
 
-   選択したイベントタイプとイベントに応じて、イベント一致条件を定義します。
+   * _ユーザー_&#x200B;のイベントタイプの場合は、**[!UICONTROL イベント条件を追加]**&#x200B;をクリックします。
 
-   * [人物イベント](#people-events)
-   * [アカウントイベント](#account-events)
+     ![ジャーニーノード – ユーザーのイベントをリッスンします](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
 
-   イベントに[&#x200B; フィルター](#filters-people-event)を含めることもできます。
+     _イベントを編集_ ダイアログで、1つ以上の[人のイベント ](#people-events)をビルダースペースにドラッグ&amp;ドロップし、それぞれに定義を設定します。 イベントの一致を絞り込むために使用する各制約について、**[!UICONTROL 制約を追加]**&#x200B;をクリックします。
+
+     複数の人物イベントを追加して一致させることができます。 最初の選定イベントは、アカウントをジャーニー内で前進させます。
+
+     ![ アカウントジャーニーノード – イベントをリッスン – 人物イベントタイプ – イベントを編集](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
+
+     （オプション）「**[!UICONTROL フィルター]**」タブを選択して、イベント ](#filters-people-event)のフィルターを[追加します。
 
 1. 「**[!UICONTROL 完了]**」をクリックします。
 
-   イベントとフィルターの定義は、ノードとノードプロパティに表示されます。
+   イベントとフィルターの定義は、ノードプロパティに表示されます。
 
-   ![&#x200B; アカウントジャーニーノード – イベントをリッスン – イベントとフィルター](./assets/node-listen-events-account-complete.png){width="500"}
+   ![ アカウントジャーニーノード – イベントをリッスン – イベントが定義されました](./assets/node-listen-events-account-complete.png){width="500"}
 
 ### アカウントジャーニーの人物イベント {#people-events}
 
-アカウントジャーニーでは、人物アクティビティによってトリガーされたイベントに従って、ジャーニー内でアカウントを前進させたい場合、人物に基づいてイベントをリッスンできます。 また、イベント履歴やユーザー属性に応じてイベントをフィルタリングすることもできます。
+アカウントジャーニーでは、人物（リード）アクティビティによってトリガーされるイベントに従ってジャーニー内でアカウントを前進させたい場合、人物に基づいてイベントをリッスンできます。 また、イベント履歴や人物の属性に応じてイベントをフィルタリングすることもできます。
 
 >[!TIP]
 >
->エクスペリエンスイベントは、ジャーニーに参加する&#x200B;_前_&#x200B;のユーザーに発生する可能性があります（以前のメールのクリックやweb インタラクションなど）。 これらのイベントに基づいてユーザーをルーティングするには、[&#x200B; パスをユーザー](./split-merge-paths-nodes.md#experience-event-history-filtering) ノードで分割する[!UICONTROL &#x200B; イベント履歴] フィルターを使用します。
+>エクスペリエンスイベントは、ジャーニーに参加する&#x200B;_前_&#x200B;のユーザーに発生する可能性があります（以前のメールのクリックやweb インタラクションなど）。 これらのイベントに基づいてユーザーをルーティングするには、[ パスをユーザー](./split-merge-paths-nodes.md#experience-event-history-filtering) ノードで分割する[!UICONTROL  イベント履歴] フィルターを使用します。
+
+Experience Eventsの使用について詳しくは、[Experience Event トリガー](#experience-event-triggers)を参照してください。
 
 #### Journey Optimizer B2B events {#events-account-people}
 
 | イベント | 制約 |
 | ----- | ----------- |
-| [!UICONTROL 購買グループに割り当て] | ソリューションへの関心（必須） <br/><br/>追加の制約（オプション）: <li>役割</li><li>アクティビティの日付</li><br/> タイムアウト （オプション） |
+| [!UICONTROL  リードが購買グループに追加されました] | ソリューションへの関心（必須） <br/><br/>追加の制約（オプション）: <li>役割</li><li>アクティビティの日付</li> |
+| 購買グループから[!UICONTROL  リードが削除されました] | ソリューションの関心（必須） <br/> アクティビティの日付（オプション） |
 | [!UICONTROL 人物プロファイルの変更] | 属性（必須） <br/> アクティビティの日付（オプション） <br/>新しい値（オプション） <br/>前の値（オプション） <br/>理由（オプション） <br/>Source（オプション） |
-| [!UICONTROL 購買グループから削除されました] | ソリューションの関心（必須） <br/> アクティビティの日付（オプション） <br/> タイムアウト（オプション） |
-
-1. イベントに一致する必要な値を設定します。
-
-   必要に応じて、評価の演算子を設定します。
-
-1. イベント一致に含めるオプションの制約ごとに、**[!UICONTROL 制約を追加]**&#x200B;をクリックし、リストから制約を選択します。
-
-   ![&#x200B; アカウントジャーニーのJourney Optimizer B2B人物イベントのイベントダイアログを編集](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
-
-1. （オプション）「**[!UICONTROL フィルター]**」タブを選択して、イベント [&#128279;](#filters-people-event)のフィルターを追加します。
-
-1. 「**[!UICONTROL 完了]**」をクリックします。
-
-#### エクスペリエンスイベント {#experience-events-account-people}
-
->[!PREREQUISITES]
->
->管理者は[Adobe Experience Platform （AEP） Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}を設定します。これにより、マーケターは、イベントにほぼリアルタイムで反応するアカウントと個人のジャーニーを作成できます。
->
->Experience Eventsをジャーニーで利用できるようにするには、製品管理者が最初に[関心のあるイベントタイプとフィールド &#x200B;](../admin/configure-aep-events.md#add-an-event)を[!DNL Journey Optimizer B2B Edition]に追加する必要があります。
-
-1. **[!UICONTROL 制約を追加]**&#x200B;をクリックし、制約に使用するフィールドを選択します。
-
-   使用可能な制約は、イベント設定の管理フィールドとして定義されます。
-
-1. 制約の条件を完了します。
-
-   デフォルトの&#x200B;**[!UICONTROL is]**&#x200B;演算子を使用して、1つ以上のフィールド値を一致させることができます。 または、**[!UICONTROL is not]**&#x200B;演算子を使用して、1つ以上の指定された値を除外してすべての値に一致させることができます。
-
-   ![&#x200B; アカウントジャーニーのエクスペリエンスイベントのイベントダイアログを編集](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
-
-1. （オプション）「**[!UICONTROL フィルター]**」タブを選択して、イベント [&#128279;](#filters-people-event)のフィルターを追加します。
-
-1. 「**[!UICONTROL 完了]**」をクリックします。
 
 ### アカウントイベント {#account-events}
 
@@ -126,18 +98,18 @@ ht-degree: 5%
 
 | イベント | 制約 |
 | ----- | ----------- |
-| [!UICONTROL &#x200B; アカウントに興味深い瞬間がありました] | 種類（電子メール、マイルストーン、またはWeb） <br/>追加の制約（オプション）: <li>説明</li><li>ソース</li><li>アクティビティの日付</li> <br/> タイムアウト （オプション） |
-| [!UICONTROL &#x200B; アカウントデータ値の変更] | 属性<br/>追加の制約（オプション）: <li>新しい値</li><li>前回の値</li><li>アクティビティの日付</li> <br/> タイムアウト （オプション） |
+| [!UICONTROL  アカウントに興味深い瞬間がありました] | 種類（電子メール、マイルストーン、またはWeb） <br/>追加の制約（オプション）: <li>説明</li><li>ソース</li><li>アクティビティの日付</li> <br/> タイムアウト （オプション） |
+| [!UICONTROL  アカウントデータ値の変更] | 属性<br/>追加の制約（オプション）: <li>新しい値</li><li>前回の値</li><li>アクティビティの日付</li> <br/> タイムアウト （オプション） |
 | 購買グループステージの[!UICONTROL 変更] | ソリューションの関心<br/>追加の制約（オプション）: <li>新規ステージ</li><li>前のステージ</li><li>アクティビティの日付</li><br/> タイムアウト （オプション） |
 | [!UICONTROL 購買グループのステータスの変更] | ソリューションの関心<br/>追加の制約（オプション）: <li>新規ステータス</li><li>前のステータス</li><li>アクティビティの日付</li><br/> タイムアウト （オプション） |
 | [!UICONTROL 完全性スコアの変更] | ソリューションの関心<br/>追加の制約（オプション）: <li>新規スコア</li><li>前のスコア</li><li>アクティビティの日付</li><br/> タイムアウト （オプション） |
-| [!UICONTROL &#x200B; エンゲージメントスコアの変更] | ソリューションの関心<br/>追加の制約（オプション）: <li>新規スコア</li><li>前のスコア</li><li>アクティビティの日付</li><br/> タイムアウト （オプション） |
+| [!UICONTROL  エンゲージメントスコアの変更] | ソリューションの関心<br/>追加の制約（オプション）: <li>新規スコア</li><li>前のスコア</li><li>アクティビティの日付</li><br/> タイムアウト （オプション） |
 
-1. イベントに一致する必要な制約を設定します。
+1. イベントに一致させるには、必要な制約を設定します。
 
 1. イベント一致に含めるオプションの制約ごとに、**[!UICONTROL 制約を追加]**&#x200B;をクリックしてフィールドを選択します。
 
-   ![&#x200B; アカウントジャーニー – アカウントイベントをリッスンします](./assets/node-listen-events-account-edit-event.png){width="700" zoomable="yes"}
+   ![ アカウントジャーニー – アカウントイベントをリッスンします](./assets/node-listen-events-account-edit-event.png){width="700" zoomable="yes"}
 
    評価の演算子と値を設定します。
 
@@ -198,7 +170,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL イベントをリッスン]**&#x200B;を選択します。
 
-   ![個人ジャーニーにジャーニーノードを追加 – イベントをリッスン &#x200B;](./assets/node-listen-event-person-journey.png){width="350"}
+   ![個人ジャーニーにジャーニーノードを追加 – イベントをリッスン ](./assets/node-listen-event-person-journey.png){width="350"}
 
 1. 右側のノードプロパティで、**[!UICONTROL イベント条件を追加]**&#x200B;をクリックします。
 
@@ -206,29 +178,49 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. イベントを追加し、トリガーに一致させる制約を設定します。
 
-   [Experience Events](#experience-events-person)および[人物プロファイルの変更](#person-profile-changes)を使用して、イベントトリガーを定義できます。
+   [Experience Events](#experience-event-triggers)および[人物プロファイルの変更](#person-profile-changes)を使用して、イベントトリガーを定義できます。
 
    イベントトリガーをビルダースペースにドラッグ&amp;ドロップして、定義を設定します。 イベントの一致を絞り込むために使用する各制約について、**[!UICONTROL 制約を追加]**&#x200B;をクリックします。
 
    一致するように複数のイベントを追加できます。 最初の適格イベントは、ジャーニー内で人物プロファイルを前進させます。
 
-1. （オプション）「**[!UICONTROL フィルター]**」タブを選択して、イベント [&#128279;](#filters-people-event)のフィルターを追加します。
+1. （オプション）「**[!UICONTROL フィルター]**」タブを選択して、イベント ](#filters-people-event)のフィルターを[追加します。
 
 1. 「**[!UICONTROL 完了]**」をクリックします。
 
-   イベントとフィルターの定義は、ノードとノードプロパティに表示されます。
+   イベントとフィルターの定義は、ノードプロパティに表示されます。
 
    ![ジャーニーノード – イベントをリッスン – イベントとフィルター](./assets/node-listen-events-person-complete.png){width="450"}
 
-### 個人ジャーニーのエクスペリエンスイベント {#experience-events-person}
+### ユーザープロファイルの変更 {#person-profile-changes}
+
+個人ジャーニーの場合は、B2B人物プロファイル属性の変更を使用して、_イベントをリッスン_ ノードをトリガーにできます。
+
+1. **_[!UICONTROL トリガー]_ リストの[!UICONTROL 人物プロファイルの変更]**を、イベントに一致するビルダースペースにドラッグ&amp;ドロップします。
+
+1. 「**[!UICONTROL 制約を追加]**」をクリックし、イベントトリガーに使用する属性変更を選択します。
+
+   一致させる変更に応じてフィールド値を設定します。
+
+   ![人物ジャーニー – 人物プロファイル変更イベントをリッスンします](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
+
+1. （オプション）イベントトリガーとして使用する別の&#x200B;_人物プロファイル変更_&#x200B;属性、または[Experience Event](#experience-event-triggers)を追加します。
+
+   一致する複数のイベントを追加すると、最初の選定イベントがジャーニー内で人物プロファイルを前進させます。
+
+1. （オプション）「**[!UICONTROL フィルター]**」タブを選択して、イベント ](#filters-people-event)のフィルターを[追加します。
+
+1. 「**[!UICONTROL 完了]**」をクリックします。
+
+## エクスペリエンスイベントトリガー {#experience-event-triggers}
+
+エクスペリエンスイベントは、個人のジャーニーまたはアカウントジャーニーで&#x200B;_人_ イベントタイプを使用する場合に使用できます。 _[!UICONTROL イベントを編集]_ ダイアログを使用して、1つ以上のエクスペリエンスイベントを追加し、_イベントのリッスン_ ノードをトリガーします。
 
 >[!PREREQUISITES]
 >
->管理者は[Adobe Experience Platform （AEP） Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}を設定します。これにより、マーケターは、イベントにほぼリアルタイムで反応するアカウントと個人のジャーニーを作成できます。
+>管理者は[Adobe Experience Platform （AEP） Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}を設定します。これにより、マーケターは、イベントにほぼリアルタイムで反応するアカウントと個人のジャーニーを作成できます。
 >
->Experience Eventsをジャーニーで利用できるようにするには、製品管理者が最初に[関心のあるイベントタイプとフィールド &#x200B;](../admin/configure-aep-events.md#add-an-event)を[!DNL Journey Optimizer B2B Edition]に追加する必要があります。
-
-Experience Eventsを使用して、_[!UICONTROL イベントを編集]_ ダイアログで、対面ジャーニーのノードをトリガーできます。
+>Experience Eventsをジャーニーで利用できるようにするには、製品管理者が最初に[関心のあるイベントタイプとフィールド ](../admin/configure-aep-events.md#add-an-event)を[!DNL Journey Optimizer B2B Edition]に追加する必要があります。
 
 1. 左側の&#x200B;_[!UICONTROL トリガー]_ リストで&#x200B;**[!UICONTROL Sapphire AEP イベント]**&#x200B;を展開します。
 
@@ -240,48 +232,32 @@ Experience Eventsを使用して、_[!UICONTROL イベントを編集]_ ダイ�
 
    使用可能な制約は、イベント設定の管理フィールドとして定義されます。
 
-   ![&#x200B; ユーザージャーニーのエクスペリエンスイベントのイベントダイアログを編集](./assets/node-listen-events-person-journey-edit-event-aep-event.png){width="700" zoomable="yes"}
+   ![ ユーザージャーニーのエクスペリエンスイベントのイベントダイアログを編集](./assets/node-listen-events-person-journey-edit-event-aep-event.png){width="700" zoomable="yes"}
 
-1. イベントフィールドに一致する演算子と値を設定します。
+1. イベントフィールドを一致させるには、演算子と値を設定します。
 
-1. （オプション）別のエクスペリエンスイベントまたは[人のプロファイル変更](#person-profile-changes)を追加します。
+1. （オプション）別のイベントを追加します。
 
-   複数のイベントを追加します。 最初の適格イベントは、ジャーニー内で人物プロファイルを前進させます。
+   ノードをトリガーするには、複数のエクスペリエンスイベントを使用できます。
 
-1. （オプション）「**[!UICONTROL フィルター]**」タブを選択して、イベント [&#128279;](#filters-people-event)のフィルターを追加します。
+   個人ジャーニーの場合、[人物プロファイルの変更](#person-profile-changes)を追加することもできます。 アカウントジャーニー（人物イベントタイプ）の場合、[Journey Optimizer B2B イベント ](#events-account-people)を追加することもできます。
 
-1. 「**[!UICONTROL 完了]**」をクリックします。
+   一致する複数のイベントを追加すると、最初の選定イベントがジャーニー内で人物プロファイルを前進させます。
 
-### ユーザープロファイルの変更 {#person-profile-changes}
-
-B2Bの人物プロファイル属性の変更を使用して、_[!UICONTROL イベントを編集]_ ダイアログで、人物ジャーニー内のノードをトリガーできます。
-
-1. **_[!UICONTROL トリガー]_ リストの[!UICONTROL 人物プロファイルの変更]**&#x200B;を、イベントに一致するビルダースペースにドラッグ&amp;ドロップします。
-
-1. 「**[!UICONTROL 制約を追加]**」をクリックし、イベントトリガーに使用する属性変更を選択します。
-
-   一致させる変更に応じてフィールド値を設定します。
-
-   ![人物ジャーニー – 人物プロファイル変更イベントをリッスンします](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
-
-1. （オプション）イベントトリガーとして使用する別の&#x200B;_人物プロファイル変更_&#x200B;属性、または[Experience Event](#experience-events-person)を追加します。
-
-   複数のイベントを追加します。 最初の適格イベントは、ジャーニー内で人物プロファイルを前進させます。
-
-1. （オプション）「**[!UICONTROL フィルター]**」タブを選択して、イベント [&#128279;](#filters-people-event)のフィルターを追加します。
+1. （オプション）「**[!UICONTROL フィルター]**」タブを選択して、イベント ](#filters-people-event)のフィルターを[追加します。
 
 1. 「**[!UICONTROL 完了]**」をクリックします。
 
 ## イベントのフィルター {#filters-people-event}
 
-アカウントジャーニー[&#128279;](#people-events)の[人イベントまたは人物ジャーニー](#person-journeys)の人イベントを定義する場合、フィルタリングを含めて、様々な条件に基づいて一致するイベントトリガーを制限できます。
+アカウントジャーニー](#people-events)の[人イベントまたは人物ジャーニー](#person-journeys)の[人イベントを定義する場合、フィルタリングを含めて、様々な条件に基づいて一致するイベントトリガーを制限できます。
 
 | フィルター | 説明 |
 | ------------ | ----------- |
-| [!UICONTROL &#x200B; イベント履歴] | 管理者によって設定されたエクスペリエンスイベント。 _[エクスペリエンスイベントとフィールドの選択](../admin/configure-aep-events.md)_&#x200B;を参照してください。 |
-| [!UICONTROL 人物の属性] | B2B人物プロファイルの属性（以下を含む）: <li>市区町村 <li>国 <li>生年月日 <li>メールアドレス <li>メール無効 <li>メール中断済み <li>名 <li>推測される都道府県 / 地域<li>役職 <li>姓 <li>携帯電話番号 <li>ユーザーエンゲージメントスコア <li>電話番号 <li>郵便番号 <li>都道府県 <li>配信停止完了 <li>登録解除の理由 |
+| [!UICONTROL  イベント履歴] | 管理者によって設定されたエクスペリエンスイベント。 _[エクスペリエンスイベントとフィールドの選択](../admin/configure-aep-events.md)_&#x200B;を参照してください。 |
+| [!UICONTROL 人物の属性] | B2B人物プロファイルの属性（以下を含む）: <li>市区町村 <li>国 <li>生年月日 <li>メールアドレス <li>メール無効 <li>メール中断済み <li>名 <li>推測される都道府県 / 地域<li>役職 <li>姓 <li>携帯電話番号 <li>ユーザーエンゲージメントスコア <li>電話番号 <li>郵便番号 <li>状態 <li>配信停止完了 <li>登録解除の理由 |
 | [!UICONTROL 人物の属性] | （個人ジャーニーのみ）属性値 |
-| [!UICONTROL 特殊フィルター] > [!UICONTROL 購買グループのメンバー] | 個人が購買グループのメンバーであるか、またはメンバーでない場合は、次の基準の1つ以上に対して評価されます。 <li>ソリューションへの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>が削除されました</li><li>ロール</li> |
+| [!UICONTROL 特殊フィルター] > [!UICONTROL 購買グループのメンバー] | 個人が購買グループのメンバーであるか、またはメンバーでない場合は、次の基準の1つ以上に対して評価されます。 <li>ソリューションへの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>が削除されました</li><li>役割</li> |
 
 <!--
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
@@ -290,7 +266,7 @@ B2Bの人物プロファイル属性の変更を使用して、_[!UICONTROL イ�
 
 1. イベントトリガーを定義したら、_[!UICONTROL イベントを編集]_ ダイアログで「**[!UICONTROL フィルター]**」タブを選択します。
 
-   ![&#x200B; ユーザーによるイベントノードのリッスン – イベントを編集するための「フィルター」タブを選択](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
+   ![ ユーザーによるイベントノードのリッスン – イベントを編集するための「フィルター」タブを選択](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
 1. イベントの一致をフィルタリングするには、1つ以上のフィルター条件を追加します。
 
@@ -302,16 +278,15 @@ B2Bの人物プロファイル属性の変更を使用して、_[!UICONTROL イ�
 
    * 上部の&#x200B;**[!UICONTROL フィルターロジック]**&#x200B;を適用して、フィルタリングを絞り込みます。 すべてのフィルターまたは任意のフィルターを一致させることができます。
 
-     ![&#x200B; イベント定義で使用される人物フィルター](./assets/node-listen-events-filter-logic.png){width="600" zoomable="yes"}
+     ![ イベント定義で使用される人物フィルター](./assets/node-listen-events-filter-logic.png){width="600" zoomable="yes"}
 
 1. イベントとフィルターの定義が完了したら、**[!UICONTROL 完了]**&#x200B;をクリックします。
-
 
 ## イベントノードへのタイムアウトの追加 {#timeouts}
 
 必要に応じて、ジャーニーがイベントを待機する時間を定義します。 タイムアウトパスを定義しない限り、ジャーニーはタイムアウト後に終了します。このパスでは、他のノードを追加できます。
 
-ノードプロパティで「**[!UICONTROL タイムアウト]**」オプションを有効にして、_イベントをリッスン_ ノードのタイムアウトを指定します。
+ノードプロパティで「**[!UICONTROL タイムアウト]**」オプションを有効にして、イベント _ノードの_ リッスンのタイムアウトを指定します。
 
 1. オプションを有効にして、_Type_&#x200B;を選択し、タイムアウトのパラメーターを指定します。
 
@@ -319,21 +294,21 @@ B2Bの人物プロファイル属性の変更を使用して、_[!UICONTROL イ�
 
      ジャーニーがタイムアウトする前にイベントが発生するのを待つ期間を選択します。 分、時間、日、週、または月の数を指定します。
 
-     ![&#x200B; イベントノードのリッスン – タイムアウト時間](./assets/node-listen-events-timeout-duration.png){width="500" zoomable="yes"}
+     ![ イベントノードのリッスン – タイムアウト時間](./assets/node-listen-events-timeout-duration.png){width="500" zoomable="yes"}
 
      期間を特定の曜日に終了する場合は、「**[!UICONTROL 終了日]**」オプションを有効にします。 **[!UICONTROL 任意の日]**&#x200B;がデフォルトで選択され、すべての日が選択されています。 チェックボックスをオフにして、終了日として1日以上を選択します。 次に、**時間**&#x200B;と&#x200B;**[!UICONTROL タイムゾーン]**&#x200B;を選択します。
 
-     ![&#x200B; イベントノードのリッスン – タイムアウト時間 – &#x200B;](./assets/node-listen-events-timeout-duration-must-end-on.png){width="300"}に終了する必要があります
+     ![ イベントノードのリッスン – タイムアウト時間 – ](./assets/node-listen-events-timeout-duration-must-end-on.png){width="300"}に終了する必要があります
 
    * **[!UICONTROL 日付]** – このタイプを使用して、ノードの有効期限を設定します。 指定された日時までにイベントがトリガーしない場合、個人またはアカウントはジャーニーに進みません。
 
      _カレンダー_ アイコンをクリックして、タイムアウトの日時を設定します。
 
-     ![&#x200B; イベントノードをリッスン – タイムアウト日](./assets/node-listen-events-timeout-date.png){width="500" zoomable="yes"}
+     ![ イベントノードをリッスン – タイムアウト日](./assets/node-listen-events-timeout-date.png){width="500" zoomable="yes"}
 
 1. タイムアウトパスを定義します。
 
-   **[!UICONTROL タイムアウトパスの設定]** オプションがデフォルトで選択されています。 このパスを使用して、「イベントをリッスン」ノードがタイムアウトした場合の処理を定義できます。 イベントが発生しない場合に個人プロファイルに適用される代替アクションとイベントを追加できます。
+   デフォルトでは、**[!UICONTROL タイムアウトパスを設定]** オプションが選択されます。 このパスを使用して、_イベントをリッスン_ ノードがタイムアウトした場合の処理を定義できます。 イベントが発生しない場合に個人プロファイルに適用される代替アクションとイベントを追加できます。
 
    ![ジャーニーイベントノード – タイムアウトパスを設定](./assets/node-event-timeout-set-path.png){width="600" zoomable="yes"}
 
@@ -342,5 +317,5 @@ B2Bの人物プロファイル属性の変更を使用して、_[!UICONTROL イ�
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443235/?captions=jpn&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->
