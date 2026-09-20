@@ -62,7 +62,7 @@ web エクスペリエンスをデザインする前に、次の要件を満た�
 >
 >Web エクスペリエンスをデザインする前に、Web ブラウザー用にAdobe Experience Cloud Visual Editing Helper ブラウザー拡張機能がインストールされていることを確認してください。 この拡張機能は、web ページを開き、作成し、Journey Optimizer B2B Edition web エクスペリエンスデザイン空間で確実にプレビューするために必要です。<br/>
 >
->Google ChromeとMicrosoft Edgeは、現在、Journey Optimizer B2B Editionでのweb エクスペリエンスの拡張とオーサリングをサポートする唯一のブラウザーです。 詳しくは、[Visual Editing Helper拡張機能のインストール ](./web-experiences.md#install-the-visual-editing-helper-extension)を参照してください。
+>Google ChromeとMicrosoft Edgeは、現在、Journey Optimizer B2B Editionでのweb エクスペリエンスの拡張とオーサリングをサポートする唯一のブラウザーです。 詳しくは、[Visual Editing Helper拡張機能のインストール &#x200B;](./web-experiences.md#install-the-visual-editing-helper-extension)を参照してください。
 
 ## web エクスペリエンスエディター
 
@@ -70,12 +70,12 @@ Journey Optimizer B2B Editionには、web修正をデザインするための2�
 
 | エディタ | 説明 | 最適な用途 |
 | ------ | ----------- | -------- |
-| [ ビジュアルエディター](#visual-editor) | Web サイトを表示し、要素を直接選択および変更できるWYSIWYG （_What You See Is What You Get_） エディター。 Google ChromeまたはMicrosoft Edge web ブラウザーの[Visual Editing Helper拡張機能](./web-experiences.md#install-the-visual-editing-helper-extension)が必要です。 | テキスト、画像、ボタン、バナーなど、表示されているページ要素を視覚的に変更する。 |
+| [&#x200B; ビジュアルエディター](#visual-editor) | Web サイトを表示し、要素を直接選択および変更できるWYSIWYG （_What You See Is What You Get_） エディター。 Google ChromeまたはMicrosoft Edge web ブラウザーの[Visual Editing Helper拡張機能](./web-experiences.md#install-the-visual-editing-helper-extension)が必要です。 | テキスト、画像、ボタン、バナーなど、表示されているページ要素を視覚的に変更する。 |
 | [非ビジュアルエディター](#non-visual-editor) | ビジュアルエディターでは実行できない修正を適用するためのコードベースのエディター。 | 視覚的に選択しにくい要素をターゲットにしたり、高度なCSSの変更を適用したり、非表示の要素を変更したりすることができます。 |
 
 Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアルエディター]** オプションを使用して、エディターのタイプを決定します。 ビジュアルエディターを使用するオプションを有効にするか、非ビジュアルエディターを使用するオプションを無効にします。
 
-![ ビジュアルエディターオプションが有効になりました](./assets/web-experience-design-visual-editor-option.png){width="400"}
+![&#x200B; ビジュアルエディターオプションが有効になりました](./assets/web-experience-design-visual-editor-option.png){width="400"}
 
 ## ビジュアルエディター {#visual-editor}
 
@@ -100,7 +100,7 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
    >
    >読み込まれたページが、web チャネル設定で定義されたURL パターンと一致していることを確認します。 右上の&#x200B;**[!UICONTROL 設定の詳細を表示]**&#x200B;をクリックして、選択したweb チャネル設定のURLまたはページ一致ルールを表示します。
 
-   ![ ビジュアルエディターでの参照モード ](./assets/web-experience-design-visual-editor-browse.png){width="700" zoomable="yes"}
+   ![&#x200B; ビジュアルエディターでの参照モード &#x200B;](./assets/web-experience-design-visual-editor-browse.png){width="700" zoomable="yes"}
 
    <!-- If the web channel configuration is defined using page matching rules, use the left and right arrows to sequence through the matched pages -- right now these buttons don't do anything -->
 
@@ -108,11 +108,11 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
 1. 表示されるページをWeb エクスペリエンスに合わせて変更する方法を定義するには、次の操作を行います。
 
-   * [新しいコンポーネント ](#insert-new-components) （区切り記号、HTML、画像、見出し、段落またはリンク）をweb エクスペリエンスのページに挿入します。
+   * [新しいコンポーネント &#x200B;](#insert-new-components) （区切り記号、HTML、画像、見出し、段落またはリンク）をweb エクスペリエンスのページに挿入します。
 
    * ページから既存の要素を選択し、web エクスペリエンス用に[変更](#modify-elements)します。
 
-   * [ クリックトラッキング ](#web-click-tracking)を要素に追加して、エンゲージメントを測定し、インサイトを収集します。
+   * [&#x200B; クリックトラッキング &#x200B;](#web-click-tracking)を要素に追加して、エンゲージメントを測定し、インサイトを収集します。
 
 1. 手順2を繰り返して、web エクスペリエンスに含める他のページを読み込みます。 手順3を繰り返して、ページの変更を定義します。
 
@@ -140,7 +140,7 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
 選択した要素の場合、右側のパネルのプロパティが変更され、使用可能なスタイルとアクションが反映されます。 パネルの上部にあるアクションアイコンをクリックして、選択した要素を複製、クリックトラック、削除または非表示にします。
 
-![選択した要素のアクションアイコンをクリック ](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
+![選択した要素のアクションアイコンをクリック &#x200B;](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
 
 +++テキスト要素
 
@@ -148,11 +148,11 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
 1. 新しいテキストコンテンツを入力するか、テキスト文字列を選択して置換テキストを入力します。
 
-1. （オプション）太字、斜体、整列など、[ テキスト書式設定オプション ](./content-components.md#text)を使用します。
+1. （オプション）太字、斜体、整列など、[&#x200B; テキスト書式設定オプション &#x200B;](./content-components.md#text)を使用します。
 
 1. 変更を適用するには、テキスト要素の外側をクリックします。
 
-テキストコンポーネントのテキストスタイル設定オプションについて詳しくは、[ コンテンツコンポーネント ](./content-components.md#text)を参照してください。
+テキストコンポーネントのテキストスタイル設定オプションについて詳しくは、[&#x200B; コンテンツコンポーネント &#x200B;](./content-components.md#text)を参照してください。
 
 +++
 
@@ -164,7 +164,7 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
 1. アセットライブラリから画像を参照して選択します。
 
-1. 必要に応じて、右側のパネルの[画像のスタイル設定オプション ](./content-components.md#image)を使用します。
+1. 必要に応じて、右側のパネルの[画像のスタイル設定オプション &#x200B;](./content-components.md#image)を使用します。
 
 +++
 
@@ -176,7 +176,7 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
    パーソナライゼーション機能を使用すれば、アカウントプロファイルや個人プロファイルのデータを使用して、ボタンテキストを変更できます。
 
-1. 必要に応じて、右側のパネルの[ ボタンのスタイル設定オプション ](./content-components.md#button)を使用します。
+1. 必要に応じて、右側のパネルの[&#x200B; ボタンのスタイル設定オプション &#x200B;](./content-components.md#button)を使用します。
 
 +++
 
@@ -184,7 +184,7 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
 1. ページ上のコンテナ要素を選択します。
 
-1. 必要に応じて、右側のパネルの[ コンテナのスタイル設定オプション ](./content-components.md#container)を使用します。
+1. 必要に応じて、右側のパネルの[&#x200B; コンテナのスタイル設定オプション &#x200B;](./content-components.md#container)を使用します。
 
 +++
 
@@ -195,13 +195,13 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 * **[!UICONTROL Divider]** – このコンポーネントを使用して、分割線を挿入し、メールのレイアウトとコンテンツを整理します。 右側のパネルのプロパティから、線の色、スタイル、高さなどのスタイル属性を調整できます。 詳しくは、_コンテンツコンポーネント_&#x200B;の[Divider](./content-components.md#divider)を参照してください。
 * **[!UICONTROL HTML]** – このコンポーネントを使用して、既存の構造にHTML コードをコピー&amp;ペーストします。 これにより、無料のモジュラー形式のHTML コンポーネントを作成して、一部の外部コンテンツを再利用できます。 詳しくは、_コンテンツコンポーネント_&#x200B;の[HTML](./content-components.md#html)を参照してください。
 * **[!UICONTROL 画像]** – このコンポーネントを使用して、画像ファイルをページに挿入します。 右側のパネルのプロパティから、幅や高さなどのスタイル属性を調整できます。 詳しくは、_コンテンツコンポーネント_&#x200B;の[画像](./content-components.md#image)を参照してください。
-* **[!UICONTROL 見出し]** – このコンポーネントを使用して、見出しクラスのテキストを挿入します。 右側のパネルのプロパティから、テキストカラー、スタイル、フォント、サイズなどのスタイル属性を調整できます。 詳しくは、_コンテンツコンポーネント_&#x200B;の[ テキスト ](./content-components.md#text)を参照してください。
-* **[!UICONTROL 段落]** – 標準のテキスト要素を挿入するには、このコンポーネントを使用します。 右側のパネルのプロパティから、テキストカラー、スタイル、フォント、サイズなどのスタイル属性を調整できます。 詳しくは、_コンテンツコンポーネント_&#x200B;の[ テキスト ](./content-components.md#text)を参照してください。
+* **[!UICONTROL 見出し]** – このコンポーネントを使用して、見出しクラスのテキストを挿入します。 右側のパネルのプロパティから、テキストカラー、スタイル、フォント、サイズなどのスタイル属性を調整できます。 詳しくは、_コンテンツコンポーネント_&#x200B;の[&#x200B; テキスト &#x200B;](./content-components.md#text)を参照してください。
+* **[!UICONTROL 段落]** – 標準のテキスト要素を挿入するには、このコンポーネントを使用します。 右側のパネルのプロパティから、テキストカラー、スタイル、フォント、サイズなどのスタイル属性を調整できます。 詳しくは、_コンテンツコンポーネント_&#x200B;の[&#x200B; テキスト &#x200B;](./content-components.md#text)を参照してください。
 * **[!UICONTROL リンク]** – このコンポーネントを使用して、独立したテキストリンクを指定されたURLに挿入します。 右側のパネルのプロパティからスタイル属性を調整できます。
 
 左側のコンポーネントタイプを選択し、追加する場所に隣接する要素にカーソルを合わせます。
 
-![ ビジュアルエディターインターフェイス – 新しいコンポーネント ](./assets/web-experience-design-visual-editor-insert-component.png){width="800" zoomable="yes"}
+![&#x200B; ビジュアルエディターインターフェイス – 新しいコンポーネント &#x200B;](./assets/web-experience-design-visual-editor-insert-component.png){width="800" zoomable="yes"}
 
 表示されているボタンのいずれかをクリックして、コンポーネントを配置します。
 
@@ -218,7 +218,7 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
    非ビジュアルエディターは、web チャネル設定に基づいてページを読み込みます。
 
-   ![非ビジュアルエディターインターフェイス ](./assets/web-experience-design-non-visual-editor.png){width="800" zoomable="yes"}
+   ![非ビジュアルエディターインターフェイス &#x200B;](./assets/web-experience-design-non-visual-editor.png){width="800" zoomable="yes"}
 
 1. 最初に行う変更を定義します。
 
@@ -229,7 +229,7 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
      | タイプ | 説明 |
      | ---- | ----------- |
      | [**[!UICONTROL CSS セレクター]**](#css-selector-modifications) | CSS セレクター文字列を使用して要素をターゲット化します。 |
-     | [**[!UICONTROL  ページ ]**](#page-modifications) | カスタム HTML、CSS、またはJavaScriptを`<head>`や`<body>`などのページレベルのエレメントに挿入します。 |
+     | [**[!UICONTROL &#x200B; ページ &#x200B;]**](#page-modifications) | カスタム HTML、CSS、またはJavaScriptを`<head>`や`<body>`などのページレベルのエレメントに挿入します。 |
 
    * タイプに応じて変更パラメーターを設定します。
 
@@ -266,7 +266,7 @@ CSS セレクターの変更を使用すると、標準のCSS セレクター構
 
    ![非ビジュアル エディターのCSS セレクターの変更](./assets/web-experience-design-non-visual-editor-modification-css-selector.png){width="800" zoomable="yes"}
 
-1. （オプション）「**[!UICONTROL パーソナライゼーションを追加]**」をクリックし、[ パーソナライゼーションエディター](./personalization.md#personalization-editor)を使用して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成します。
+1. （オプション）「**[!UICONTROL パーソナライゼーションを追加]**」をクリックし、[&#x200B; パーソナライゼーションエディター](./personalization.md#personalization-editor)を使用して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成します。
 
 ### ページ修正
 
@@ -288,7 +288,7 @@ CSS セレクターの変更を使用すると、標準のCSS セレクター構
 
    ![視覚的でないエディターのページヘッドの変更](./assets/web-experience-design-non-visual-editor-modification-page-head.png){width="800" zoomable="yes"}
 
-1. （オプション）「**[!UICONTROL パーソナライゼーションを追加]**」をクリックし、[ パーソナライゼーションエディター](./personalization.md#personalization-editor)を使用して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成します。
+1. （オプション）「**[!UICONTROL パーソナライゼーションを追加]**」をクリックし、[&#x200B; パーソナライゼーションエディター](./personalization.md#personalization-editor)を使用して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成します。
 
 ## 変更の管理 {#manage-modifications}
 
@@ -305,7 +305,7 @@ CSS セレクターの変更を使用すると、標準のCSS セレクター構
 * 変更タイプ（編集、非表示、挿入など）
 * 変更のプレビュー
 
-![変更パネル ](./assets/web-experience-design-modifications-list.png){width="500" zoomable="yes"}
+![変更パネル &#x200B;](./assets/web-experience-design-modifications-list.png){width="500" zoomable="yes"}
 
 ### 修正の編集
 
@@ -343,7 +343,7 @@ Drag and drop modifications in the list to change the order. The preview updates
 * タブレット
 * モバイル
 
-![ プレビューのデバイスサイズを変更](./assets/web-experience-design-device-view.png){width="550" zoomable="yes"}
+![&#x200B; プレビューのデバイスサイズを変更](./assets/web-experience-design-device-view.png){width="550" zoomable="yes"}
 
 プレビューが更新され、各デバイスサイズでの変更のレンダリング方法が表示されます。
 
@@ -355,7 +355,7 @@ URL バーを使用して、web チャネル設定内の様々なページに移
 
 web エクスペリエンスがアクティブ化された場合（ライブ状態）、Adobe Customer Journey Analyticsを使用してレポートを作成することもできます（これには製品サブスクリプションが必要です）。 web エクスペリエンスのモニタリングを改善するには、web サイトの特定の要素のクリック数を追跡することもできます。 トラッキングを使用すると、web レポートでその要素のクリック数を表示できます。
 
-Customer Journey Analyticsとweb レポートの作成について詳しくは、[Customer Journey Analytics ドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing)を参照してください。
+Customer Journey Analyticsとweb レポートの作成について詳しくは、[Customer Journey Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing)を参照してください。
 
 1. Web エクスペリエンスエディターで、画像やリンクなどの要素を選択します。
 
