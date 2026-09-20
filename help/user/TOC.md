@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 84%
+source-wordcount: '443'
+ht-degree: 83%
 ---
 
 # Journey Optimizer B2B Edition ユーザーガイド {#user}
@@ -45,7 +45,7 @@ ht-degree: 84%
   + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
   + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
   + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
   + ジャーニーノード {#journey-nodes}
     + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
     + [顧客オーディエンス](./journeys/person-audience-nodes.md)
@@ -70,7 +70,7 @@ ht-degree: 84%
     + [管理されたテンプレート](./content/email-authoring-governance.md)
     + [メールの重複排除](./content/email-deduplication.md)
     + [メールトラッキング](./content/email-tracking-manage.md)
-  + Web チャンネル（Beta） {#web-channel}
+  + Web チャネル {#web-channel}
     + [概要](./content/web-experiences.md)
     + [Web エクスペリエンスデザイン](./content/web-experience-design.md)
     + [単一ページアプリケーション](./content/web-single-page-applications.md)
@@ -167,11 +167,11 @@ ht-degree: 84%
     + [インテントデータ](./admin/intent-data.md)
     + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
     + [外部アクション](./admin/configure-external-actions.md)
-    + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+    + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
   + チャネル {#channels}
     + [メール設定](./admin/configure-channels-emails.md)
     + [SMS 設定](./admin/configure-channels-sms.md)
     + [WhatsApp設定](./admin/configure-channels-whatsapp.md)
-    + [Web チャネル設定（Beta）](./admin/configure-channels-web.md)
+    + [web チャネル設定](./admin/configure-channels-web.md)
     + [ランディングページ設定](./admin/configure-channels-landing-pages.md)
     + [Forms設定](./admin/configure-channels-forms.md)

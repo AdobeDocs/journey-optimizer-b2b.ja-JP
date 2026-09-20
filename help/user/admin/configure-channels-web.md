@@ -1,43 +1,46 @@
 ---
 title: web チャネル設定
-description: Journey Optimizer B2B editionでweb チャネル設定を設定して、コンテンツ配信のweb プロパティとページマッチングルールを定義する方法について説明します。
+description: Journey Optimizer B2B Editionでweb チャネル設定を設定して、コンテンツ配信のweb プロパティとページマッチングルールを定義する方法について説明します。
 feature: Setup, Channels
 role: Admin
-badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
+badge: label="限定提供" type="Informative"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 1a11805d02adb0084cc7ac377782632c940df584
 workflow-type: tm+mt
-source-wordcount: 1077
+source-wordcount: '1049'
 ht-degree: 6%
-
 ---
-
 # web チャネル設定
 
-Web設定は、コンテンツが配信されるURLによって識別されるweb プロパティです。 1つのページ URLまたは複数のページを一致させることで、web エクスペリエンスが1つまたは複数のweb ページに変更を適用できるようにします。 これらの設定は、マーケターがジャーニー[&#128279;](../content/web-experiences.md#create-a-web-experience)にweb パーソナライゼーションアクションノードを追加し、キャンペーンの[&#x200B; エクスペリエンスの変更](../content/web-experience-design.md)をデザインするために必要です。
+Web設定は、コンテンツが配信されるURLによって識別されるweb プロパティです。 1つのページ URLまたは複数のページを一致させることで、web エクスペリエンスが1つまたは複数のweb ページに変更を適用できるようにします。 これらの設定は、マーケターがジャーニー](../content/web-experiences.md#create-a-web-experience)に[web パーソナライゼーションアクションノードを追加し、キャンペーンの[ エクスペリエンスの変更](../content/web-experience-design.md)をデザインするために必要です。
 
 >[!BEGINSHADEBOX]
 
 **前提条件**
 
-Web チャネルを使用するには、訪問者の特定とコンテンツ配信のために[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されている必要があります。 Adobe Experience Platform Web SDKのバージョンが2.16以降であることを確認します。
+Web チャネルを使用するには、訪問者の特定とコンテンツ配信のために[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されている必要があります。 Adobe Experience Platform Web SDKのバージョンが2.16以降であることを確認します。
 
-Journey Optimizer B2B editionのweb チャネル設定には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
+Journey Optimizer B2B EditionのWeb チャネル設定には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
 
-* _[!UICONTROL チャネル設定]_ > _[!UICONTROL メッセージプリセットの管理]_ - web チャネル設定の作成、更新、削除に必要です。
-* _[!UICONTROL チャネル設定]_ > _[!UICONTROL メッセージプリセットの表示]_ - web チャネル設定の表示に必要です。
+* _[!UICONTROL B2B チャネル設定の管理]_
 
 >[!ENDSHADEBOX]
 
@@ -45,9 +48,9 @@ Journey Optimizer B2B editionのweb チャネル設定には、次の[権限](..
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]** > **[!UICONTROL チャネル]**&#x200B;に移動します。
 
-1. ナビゲーションパネルの&#x200B;_[!UICONTROL Web]_&#x200B;で、**[!UICONTROL チャネル設定]**&#x200B;を選択します。
+1. ナビゲーションパネルの&#x200B;_[!UICONTROL 一般設定]_&#x200B;で、**[!UICONTROL チャネル設定]**&#x200B;を選択します。
 
-   ![Web チャネル設定にアクセス &#x200B;](./assets/config-web-channels.png){width="800" zoomable="yes"}
+   ![Web チャネル設定にアクセス ](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
 1. 右上の「**[!UICONTROL チャネル設定を作成]**」をクリックします。
 
@@ -63,7 +66,7 @@ Journey Optimizer B2B editionのweb チャネル設定には、次の[権限](..
 
      ![単一ページ web チャネル設定のページ URLの選択](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL ページ一致ルール]** – 同じルールに一致する複数のURLをターゲットにするには、[&#x200B; ページ一致ルール &#x200B;](#build-a-rule)を作成し、**[!UICONTROL デフォルトのオーサリングおよびプレビューURL]**&#x200B;を入力します。
+   * **[!UICONTROL ページ一致ルール]** – 同じルールに一致する複数のURLをターゲットにするには、[ ページ一致ルール ](#build-a-rule)を作成し、**[!UICONTROL デフォルトのオーサリングおよびプレビューURL]**&#x200B;を入力します。
 
 1. 「**[!UICONTROL 送信]**」をクリックして変更を保存します。
 
@@ -73,13 +76,13 @@ Web チャネルがジャーニーで使用されるとすぐに、_アクティ
 
 ## ルールに一致するページ {#pages-matching-rule}
 
-Web設定を作成する際に、ルール _に一致する_ ページを作成して、同じルールに一致する複数のURLをターゲットにすることができます。 これらのルールにより、複数のページに同じコンテンツ変更を適用できます。
+Web設定を作成する際に、ルール ]_に一致する_[!UICONTROL  ページを作成して、同じルールに一致する複数のURLをターゲットにすることができます。 これらのルールにより、複数のページに同じコンテンツ変更を適用できます。
 
 例えば、web サイト全体でヒーローバナーに変更を適用したり、すべての製品ページに表示されるトップ画像を追加したりします。
 
 ### ルールの作成
 
-1. Web チャネル設定[&#128279;](#create-a-web-channel-configuration)を作成する場合は、**[!UICONTROL 一致するルール]**&#x200B;のページを選択します。
+1. Web チャネル設定](#create-a-web-channel-configuration)を[作成する場合は、**[!UICONTROL 一致するルール]**&#x200B;のページを選択します。
 
 1. 各セクションの異なる演算子を使用して、**[!UICONTROL ドメイン]**&#x200B;および&#x200B;**[!UICONTROL ページ]** フィールドの条件を定義し、ルールを構築します。
 
@@ -92,7 +95,7 @@ Web設定を作成する際に、ルール _に一致する_ ページを作成�
    | [!UICONTROL 次と等しい] | ドメインの完全一致。 | |
    | [!UICONTROL が]で始まります | 入力した文字列で始まるすべてのドメイン（サブドメインを含む）と一致します。 | `Starts with: dev`は、`dev.example.com`、`dev.products.example.com`、`developer.example.com`など、`dev`で始まるすべてのドメインとサブドメインに一致します |
    | [!UICONTROL が]で終了 | 入力された文字列で終わるすべてのドメイン（サブドメインを含む）と一致します。 | `Ends with: example.com`は、`stage.example.com`、`prod.example.com`、`myexample.com`など、`example.com`で終わるすべてのドメインとサブドメインに一致します |
-   | [!UICONTROL 一致するワイルドカード &#x200B;] | 文字列の中央にワイルドカード一致（`dev.*.example.com`など）を定義できます。 検証ルールでは、演算子が&#x200B;_ワイルドカードに一致する_&#x200B;場合、値に1つだけのワイルドカード（アスタリスク）が含まれている必要があります。 | `Wildcard matching: dev.*.example.com`は、`dev.products.example.com`、`dev.mytest.products.example.com`、`dev.blog.example.com`などのドメインに一致します |
+   | [!UICONTROL 一致するワイルドカード ] | 文字列の中央にワイルドカード一致（`dev.*.example.com`など）を定義できます。 検証ルールでは、演算子が&#x200B;_ワイルドカードに一致する_&#x200B;場合、値に1つだけのワイルドカード（アスタリスク）が含まれている必要があります。 | `Wildcard matching: dev.*.example.com`は、`dev.products.example.com`、`dev.mytest.products.example.com`、`dev.blog.example.com`などのドメインに一致します |
    | [!UICONTROL Any] | すべてのドメインに一致します。 ドメイン間で特定のパスをテストする場合に便利です。 | |
 
    +++
@@ -107,7 +110,7 @@ Web設定を作成する際に、ルール _に一致する_ ページを作成�
    | [!UICONTROL が]で始まります | 文字列で始まるすべてのパス（サブパスを含む）と一致します。 | |
    | [!UICONTROL が]で終了 | 文字列で終わるすべてのパス（サブパスを含む）と一致します。 | |
    | [!UICONTROL Any] | すべてのパスに一致します。 これは、1つまたは複数のドメインのすべてのパスをターゲットにする場合に便利です。 | |
-   | [!UICONTROL 一致するワイルドカード &#x200B;] | パス内の内部ワイルドカード（`/products/*/detail`など）を定義できます。 パスコンポーネント内のワイルドカード文字`*`は、最初の`/`文字までの任意の文字シーケンスと一致します。  `/*/`は、任意の文字シーケンス（サブパスを含む）と一致します。 | `Wildcard matching: /products/*/detail`は、`example.com/products/yoga/detail`、`example.com/products/surf/detail`、`example.com/products/tennis/detail`、`example.com/products/yoga/pants/detail`などのパスに一致します |
+   | [!UICONTROL 一致するワイルドカード ] | パス内の内部ワイルドカード（`/products/*/detail`など）を定義できます。 パスコンポーネント内のワイルドカード文字`*`は、最初の`/`文字までの任意の文字シーケンスと一致します。  `/*/`は、任意の文字シーケンス（サブパスを含む）と一致します。 | `Wildcard matching: /products/*/detail`は、`example.com/products/yoga/detail`、`example.com/products/surf/detail`、`example.com/products/tennis/detail`、`example.com/products/yoga/pants/detail`などのパスに一致します |
    | [!UICONTROL 次を含む] | 値は`*mystring*`などのワイルドカードに変換され、文字シーケンスを含むすべてのパスに一致します。 | `Contains: product`は、`example.com/products`、`example.com/yoga/perfproduct`、`example.com/surf/productdescription`、`example.com/home/product/page`など、文字列`product`を含むすべてのパスに一致します |
 
    +++
@@ -126,7 +129,7 @@ Web設定を作成する際に、ルール _に一致する_ ページを作成�
 
      _[!UICONTROL Exclude]_ [!UICONTROL Exclude]演算子は、定義されたルールに一致するページの1つをターゲットにしない場合に便利です。 例えば、`lumasecure`を含むが、ブログページ（`bodea.com/blogs/lumasecure/latest-release`など）を除外するすべての`bodea.com` ページをターゲットにできます。
 
-   除外![&#128279;](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}のルールに一致する ページ
+   除外](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}のルールに一致する![ ページ
 
 1. **[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を入力します。
 
@@ -138,7 +141,7 @@ Web設定を作成する際に、ルール _に一致する_ ページを作成�
 
 1. _詳細メニュー_ アイコン （**...**）をクリックします バリエーションを選択し、**[!UICONTROL 複製]**&#x200B;を選択します。
 
-   ![追加アイコンをクリックして、既存のweb チャネル設定を複製します](./assets/config-web-channels-more-menu.png){width="450"}
+   ![詳細メニューアイコンをクリックして、既存のweb チャネル設定を複製します](./assets/config-web-channels-more-menu.png){width="350"}
 
    このアクションは、名前に`_Copy_nnn`が追加された重複したweb チャネルを作成します。
 
