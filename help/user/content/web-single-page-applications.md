@@ -1,36 +1,43 @@
 ---
 title: シングルページアプリケーション
-description: シングルページアプリケーション（SPA）向けのweb エクスペリエンスの構築 – Journey Optimizer B2B editionでは、ビュートラッキングの設定、動的コンテンツの処理、クライアントサイドのナビゲーションの管理をおこなうことができます。
+description: シングルページアプリケーション（SPA）向けのweb エクスペリエンスの構築 – Journey Optimizer B2B Editionでは、ビュートラッキングの設定、動的コンテンツの処理、クライアントサイドのナビゲーションの管理をおこなうことができます。
 feature: Channels, Personalization
 role: User
-badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
+badge: label="限定提供" type="Informative"
 exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 846
-ht-degree: 2%
-
+source-wordcount: '838'
+ht-degree: 1%
 ---
-
 # 単一ページアプリケーション
 
-シングルページアプリケーション（SPA）は、ページ全体をリロードすることなくページコンテンツを動的に更新するため、web パーソナライゼーションには独自の課題があります。 Journey Optimizer B2B editionには、SPAのパーソナライゼーションを効果的に処理するための専用ツールが用意されています。
+シングルページアプリケーション（SPA）は、ページ全体をリロードすることなくページコンテンツを動的に更新するため、web パーソナライゼーションには独自の課題があります。 Journey Optimizer B2B Editionには、SPAのパーソナライゼーションを効果的に処理するための専用ツールが用意されています。
 
 ## SPAについて
 
@@ -43,7 +50,7 @@ SPAでは、各ナビゲーショントリガーがページ全体を読み込�
 
 ## SPA サポートの設定
 
-SPAを効果的にパーソナライズするには、Journey Optimizer B2B editionでバーチャルビュー間を移動するタイミングを特定できるように、ビュートラッキングを設定する必要があります。
+SPAを効果的にパーソナライズするには、Journey Optimizer B2B Editionでバーチャルビュー間を移動するタイミングを特定できるように、ビュートラッキングを設定する必要があります。
 
 ### ビュー宣言の設定
 
@@ -121,7 +128,7 @@ Web SDKでは、動的なコンテンツを制作するために、新しい要�
 
 ### SPA フレームワーク
 
-Journey Optimizer B2B editionのweb エクスペリエンスは、人気のあるSPA フレームワークと連携します。
+Journey Optimizer B2B Editionのweb エクスペリエンスは、人気のあるSPA フレームワークと連携します。
 
 | フレームワーク | 注意点 |
 | --------- | -------------- |
@@ -179,27 +186,27 @@ SPA デザインの変更を確認する際には、次の推奨事項を使用�
 
 * **変更が表示されない** – 変更がSPAに表示されない場合：
 
-   1. **ビュートラッキングを確認** - `sendEvent`呼び出しに正しいビュー名が含まれていることを確認します。
+  1. **ビュートラッキングを確認** - `sendEvent`呼び出しに正しいビュー名が含まれていることを確認します。
 
-   1. **要素の存在を確認** – 変更が適用される場合、ターゲット要素がDOM内にあることを確認します。
+  1. **要素の存在を確認** – 変更が適用される場合、ターゲット要素がDOM内にあることを確認します。
 
-   1. **レビューセレクター** - CSS セレクターが実際のDOM構造と一致することを確認します。
+  1. **レビューセレクター** - CSS セレクターが実際のDOM構造と一致することを確認します。
 
-   1. **コンソールを確認** – 変更を妨げる可能性のあるJavaScript エラーを探します。
+  1. **コンソールを確認** – 変更を妨げる可能性のあるJavaScript エラーを探します。
 
 * **変更が簡単に表示され、その後消える** – この問題は通常、SPAが変更された要素を再レンダリングして置き換える場合に発生します。
 
-   1. より特定のCSS セレクターを使用して、レンダリング間で安定した状態を維持します。
+  1. より特定のCSS セレクターを使用して、レンダリング間で安定した状態を維持します。
 
-   1. 突然変異オブザーバを有効にして、要素が再作成されたときに変更を再適用できます。
+  1. 突然変異オブザーバを有効にして、要素が再作成されたときに変更を再適用できます。
 
-   1. 開発チームと協力して、ターゲット要素に安定した属性を追加します。
+  1. 開発チームと協力して、ターゲット要素に安定した属性を追加します。
 
 * **変更の重複** – 変更が複数回表示される場合：
 
-   1. ビュートラッキングイベントがビュー遷移ごとに1回だけ発生することを確認します。
+  1. ビュートラッキングイベントがビュー遷移ごとに1回だけ発生することを確認します。
 
-   1. 変更がグローバルに適用されるのではなく、特定のビューに対して適用されていることを確認します。
+  1. 変更がグローバルに適用されるのではなく、特定のビューに対して適用されていることを確認します。
 
 ## 関連トピック
 

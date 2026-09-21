@@ -1,34 +1,42 @@
 ---
 title: Web エクスペリエンスデザイン
-description: ビジュアルおよび非ビジュアルエディターを使用して、web エクスペリエンスをデザインできます。Journey Optimizer B2B editionでは、変更を追加したり、コンテンツを更新および管理したり、クリックトラッキングを有効にしたり、コンテンツをパーソナライズしたりできます。
+description: ビジュアルおよび非ビジュアルエディターを使用して、web エクスペリエンスをデザインできます。Journey Optimizer B2B Editionで、変更を追加したり、コンテンツを更新および管理したり、クリックトラッキングを有効にしたり、コンテンツをパーソナライズしたりできます。
 feature: Content Design Tools, Channels
 role: User
-badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
+badge: label="限定提供" type="Informative"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 autotag-review: '2026-05-27T16:20:57.090Z'
 TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 2339
-ht-degree: 8%
-
+source-wordcount: '2317'
+ht-degree: 7%
 ---
-
 # Web エクスペリエンスデザイン
 
 Web エクスペリエンスを[作成](./web-experiences.md#create-a-web-experience)した後、コンテンツデザインスペースを使用して、web ページに適用する変更を定義します。
@@ -44,20 +52,21 @@ web エクスペリエンスをデザインする前に、次の要件を満た�
 * Web サイトには、訪問者の特定とコンテンツ配信のために[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されています。 Adobe Experience Platform Web SDK バージョン 2.16以降が必要です。
 
 * ジャーニーでweb エクスペリエンスを作成および管理するために必要な[権限](../admin/user-management.md#b2b-product-permissions)があります。
-   * _[!UICONTROL キャンペーン]_ > _[!UICONTROL キャンペーンを管理]_ - web パーソナライゼーションアクションノードを追加または更新するために必要です。
-   * _[!UICONTROL キャンペーン]_ > _[!UICONTROL キャンペーンを表示]_ - Web パーソナライゼーションアクションノードの詳細を表示するには必須です。
+  * _[!UICONTROL B2B Web エクスペリエンスの作成]_
+  * _[!UICONTROL B2B人物ジャーニーの管理]_
+  * _[!UICONTROL B2B アカウントジャーニーの管理]_
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->Web エクスペリエンスをデザインする前に、Web ブラウザー用のAdobe Experience Cloud Visual Editing Helper ブラウザー拡張機能がインストールされていることを確認します。 この拡張機能は、web ページを開き、作成し、Journey Optimizer B2B edition web エクスペリエンスデザイン空間で確実にプレビューするために必要です。<br/>
+>Web エクスペリエンスをデザインする前に、Web ブラウザー用にAdobe Experience Cloud Visual Editing Helper ブラウザー拡張機能がインストールされていることを確認してください。 この拡張機能は、web ページを開き、作成し、Journey Optimizer B2B Edition web エクスペリエンスデザイン空間で確実にプレビューするために必要です。<br/>
 >
->Google ChromeとMicrosoft Edgeは、現在、Journey Optimizer B2B editionでのweb エクスペリエンスの拡張とオーサリングをサポートする唯一のブラウザーです。 詳しくは、[Visual Editing Helper拡張機能のインストール &#x200B;](./web-experiences.md#install-the-visual-editing-helper-extension)を参照してください。
+>Google ChromeとMicrosoft Edgeは、現在、Journey Optimizer B2B Editionでのweb エクスペリエンスの拡張とオーサリングをサポートする唯一のブラウザーです。 詳しくは、[Visual Editing Helper拡張機能のインストール &#x200B;](./web-experiences.md#install-the-visual-editing-helper-extension)を参照してください。
 
 ## web エクスペリエンスエディター
 
-Journey Optimizer B2B editionには、web修正をデザインするための2種類のエディターが用意されています。
+Journey Optimizer B2B Editionには、web修正をデザインするための2種類のエディターがあります。
 
 | エディタ | 説明 | 最適な用途 |
 | ------ | ----------- | -------- |
@@ -103,7 +112,7 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
    * ページから既存の要素を選択し、web エクスペリエンス用に[変更](#modify-elements)します。
 
-   * [&#x200B; クリックトラッキング &#x200B;](#click-tracking-for-web-experiences)を要素に追加して、エンゲージメントを測定し、インサイトを収集します。
+   * [&#x200B; クリックトラッキング &#x200B;](#web-click-tracking)を要素に追加して、エンゲージメントを測定し、インサイトを収集します。
 
 1. 手順2を繰り返して、web エクスペリエンスに含める他のページを読み込みます。 手順3を繰り返して、ページの変更を定義します。
 
@@ -171,7 +180,7 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
 +++
 
-+++ コンテナ要素
++++コンテナ要素
 
 1. ページ上のコンテナ要素を選択します。
 
@@ -196,8 +205,8 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
 表示されているボタンのいずれかをクリックして、コンポーネントを配置します。
 
-* ***[!UICONTROL 前に挿入]** – 選択した要素の前にコンポーネントを挿入します。
-* ***[!UICONTROL 後に挿入]** – 選択した要素の後にコンポーネントを挿入します。
+* **[!UICONTROL 前に挿入]** – 選択した要素の前にコンポーネントを挿入します。
+* **[!UICONTROL 後に挿入]** – 選択した要素の後にコンポーネントを挿入します。
 
 挿入するコンポーネントタイプの選択を解除するには、ページの上部に表示されているコンテキストブルーのバナーの&#x200B;**[!UICONTROL ESC]**&#x200B;をクリックします。
 
@@ -224,9 +233,9 @@ Web エクスペリエンスプロパティで、**[!UICONTROL ビジュアル�
 
    * タイプに応じて変更パラメーターを設定します。
 
-      * **[!UICONTROL CSS セレクター]** – 特定の要素をターゲットにする有効なCSS セレクターを入力します。
-      * **[!UICONTROL アクションの種類]** – 実行するアクション （編集、非表示、削除、挿入、置換）を選択します。
-      * **[!UICONTROL コンテンツ]** – 適用するコンテンツまたはスタイルを指定します。
+     * **[!UICONTROL CSS セレクター]** – 特定の要素をターゲットにする有効なCSS セレクターを入力します。
+     * **[!UICONTROL アクションの種類]** – 実行するアクション （編集、非表示、削除、挿入、置換）を選択します。
+     * **[!UICONTROL コンテンツ]** – 適用するコンテンツまたはスタイルを指定します。
 
 1. **[!UICONTROL 保存]**&#x200B;をクリックして、変更を適用します。
 
@@ -285,8 +294,8 @@ CSS セレクターの変更を使用すると、標準のCSS セレクター構
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_experience_modifications"
->title="すべての変更を簡単に管理"
->abstract="このパネルを使用すると、web ページに定義したすべての調整とスタイルを確認および管理できます。"
+>title="すべての変更を簡単に管理できます"
+>abstract="このパネルを使用すると、web ページに対して定義したすべての調整や追加内容を移動しながら確認および管理できます。"
 
 作成したすべての変更は追跡され、ビジュアルエディターと非ビジュアルエディターの両方の&#x200B;**[!UICONTROL 変更]** パネルから管理できます。 左側のツールバーの&#x200B;_[!UICONTROL 変更]_ <!-- ( ![Modifications icon](../assets/do-not-localize/icon-web-exp-modifications.svg) ) --> アイコンをクリックして、すべての変更を表示します。
 

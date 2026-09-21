@@ -1,29 +1,33 @@
 ---
 title: web チャネル設定
-description: Journey Optimizer B2B editionでweb チャネル設定を設定して、コンテンツ配信のweb プロパティとページマッチングルールを定義する方法について説明します。
+description: Journey Optimizer B2B Editionでweb チャネル設定を設定して、コンテンツ配信のweb プロパティとページマッチングルールを定義する方法について説明します。
 feature: Setup, Channels
 role: Admin
-badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
+badge: label="限定提供" type="Informative"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 1a11805d02adb0084cc7ac377782632c940df584
 workflow-type: tm+mt
-source-wordcount: 1077
+source-wordcount: '1049'
 ht-degree: 6%
-
 ---
-
 # web チャネル設定
 
 Web設定は、コンテンツが配信されるURLによって識別されるweb プロパティです。 1つのページ URLまたは複数のページを一致させることで、web エクスペリエンスが1つまたは複数のweb ページに変更を適用できるようにします。 これらの設定は、マーケターがジャーニー[&#128279;](../content/web-experiences.md#create-a-web-experience)にweb パーソナライゼーションアクションノードを追加し、キャンペーンの[&#x200B; エクスペリエンスの変更](../content/web-experience-design.md)をデザインするために必要です。
@@ -34,10 +38,9 @@ Web設定は、コンテンツが配信されるURLによって識別されるwe
 
 Web チャネルを使用するには、訪問者の特定とコンテンツ配信のために[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/js-overview) （`alloy.js`）が実装されている必要があります。 Adobe Experience Platform Web SDKのバージョンが2.16以降であることを確認します。
 
-Journey Optimizer B2B editionのweb チャネル設定には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
+Journey Optimizer B2B EditionのWeb チャネル設定には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
 
-* _[!UICONTROL チャネル設定]_ > _[!UICONTROL メッセージプリセットの管理]_ - web チャネル設定の作成、更新、削除に必要です。
-* _[!UICONTROL チャネル設定]_ > _[!UICONTROL メッセージプリセットの表示]_ - web チャネル設定の表示に必要です。
+* _[!UICONTROL B2B チャネル設定の管理]_
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +48,7 @@ Journey Optimizer B2B editionのweb チャネル設定には、次の[権限](..
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]** > **[!UICONTROL チャネル]**&#x200B;に移動します。
 
-1. ナビゲーションパネルの&#x200B;_[!UICONTROL Web]_&#x200B;で、**[!UICONTROL チャネル設定]**&#x200B;を選択します。
+1. ナビゲーションパネルの&#x200B;_[!UICONTROL 一般設定]_&#x200B;で、**[!UICONTROL チャネル設定]**&#x200B;を選択します。
 
    ![Web チャネル設定にアクセス &#x200B;](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
@@ -138,7 +141,7 @@ Web設定を作成する際に、ルール _に一致する_ ページを作成�
 
 1. _詳細メニュー_ アイコン （**...**）をクリックします バリエーションを選択し、**[!UICONTROL 複製]**&#x200B;を選択します。
 
-   ![追加アイコンをクリックして、既存のweb チャネル設定を複製します](./assets/config-web-channels-more-menu.png){width="450"}
+   ![詳細メニューアイコンをクリックして、既存のweb チャネル設定を複製します](./assets/config-web-channels-more-menu.png){width="350"}
 
    このアクションは、名前に`_Copy_nnn`が追加された重複したweb チャネルを作成します。
 
