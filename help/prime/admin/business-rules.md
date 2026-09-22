@@ -6,26 +6,35 @@ autotag-review: '2026-07-15T17:39:19.276Z'
 TQID: 'https://experienceleague.adobe.com/eYmcE-8rD5-KJe-hGlUo3I34JYJsK2Hj4x4alFTTqwQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+    internal-label: Journey Actions
   - id: f09c7f30-c554-44cf-884c-7557ed69d0c6
+    internal-label: Governance
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: 945c02e4edb6f38dbc8a1ec6b6c97f7825ef4af9
 workflow-type: tm+mt
-source-wordcount: 2975
+source-wordcount: '2975'
 ht-degree: 37%
-
 ---
-
 # ビジネスルール {#business-rules}
 
 >[!CONTEXTUALHELP]
@@ -46,7 +55,7 @@ ht-degree: 37%
 
 >[!PREREQUISITES]
 >
->ビジネスルールを操作するには、次のCX エンタープライズ権限が必要です。
+>ビジネスルールを操作するには、次のCX Enterprise権限が必要です。
 >
 >* **[!UICONTROL 頻度ルールを表示]**：ビジネスルールにアクセスして表示します。
 >* **[!UICONTROL 頻度ルールの管理]**：ビジネスルールを作成、編集または削除します。
@@ -55,13 +64,13 @@ ht-degree: 37%
 
 既存のすべてのルールセットにアクセスするには、左側のナビゲーションで&#x200B;**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL ビジネスルール]**&#x200B;を選択します。
 
-![&#x200B; ビジネス ルール リスト ページ &#x200B;](./assets/business-rules-list.png){width="800" zoomable="yes"}
+![ ビジネス ルール リスト ページ ](./assets/business-rules-list.png){width="800" zoomable="yes"}
 
 ### グローバルおよびカスタムのルールセット {#global-custom}
 
 _ルールセット_&#x200B;に初めてアクセスする場合、デフォルトのルールセットが事前に作成され、アクティブになります。**_[!UICONTROL GLOBAL RULE SET]_**。 これは、ユーザーが1つまたは複数のチャネルでメッセージを受信する頻度を制御するために適用できるグローバルルールセットです。 このルールセットで定義されたルールは、選択したすべてのチャネルに適用されます。
 
-![&#x200B; グローバル ルール セットが作成され、既定でアクティブになっています](./assets/business-rules-list-global-default.png){width="700" zoomable="yes"}
+![ グローバル ルール セットが作成され、既定でアクティブになっています](./assets/business-rules-list-global-default.png){width="700" zoomable="yes"}
 
 このデフォルトのルールセットに加えて、独自のカスタムルールセットを作成してジャーニーまたはチャネルノードに適用し、特定のキャッピングルールとサイレントアワーのルールを使用できます。
 
@@ -73,11 +82,11 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
 ### ルールの編集 {#edit-rules}
 
-ルールセット内のドラフトルールの場合は、ルール名の横にある&#x200B;_編集_ （![編集アイコン &#x200B;](../../assets/do-not-localize/icon-edit.svg)）アイコンをクリックして、ルール設定を編集します。 _詳細メニュー_ （**...**）アイコンをクリックして、ルールをアクティブ化または削除することもできます。
+ルールセット内のドラフトルールの場合は、ルール名の横にある&#x200B;_編集_ （![編集アイコン ](../../assets/do-not-localize/icon-edit.svg)）アイコンをクリックして、ルール設定を編集します。 _詳細メニュー_ （**...**）アイコンをクリックして、ルールをアクティブ化または削除することもできます。
 
-![&#x200B; ルールセットリストルールその他のメニューオプション &#x200B;](./assets/business-rules-activate-rule.png){width="500" zoomable="yes"}
+![ ルールセットリストルールその他のメニューオプション ](./assets/business-rules-activate-rule.png){width="500" zoomable="yes"}
 
-ルールを非アクティブ化するには、アクティブなルールの横にある&#x200B;_非アクティブ化_ （![非アクティブ化アイコン &#x200B;](../../assets/do-not-localize/icon-deactivate.svg)）アイコンをクリックします。 確認ダイアログで、**[!UICONTROL 無効化]**&#x200B;をクリックします。 ステータスが&#x200B;**_[!UICONTROL 非アクティブ]_**&#x200B;に変更され、このルールは今後のメッセージ実行には適用されません。 現在実行中のメッセージは影響を受けません。
+ルールを非アクティブ化するには、アクティブなルールの横にある&#x200B;_非アクティブ化_ （![非アクティブ化アイコン ](../../assets/do-not-localize/icon-deactivate.svg)）アイコンをクリックします。 確認ダイアログで、**[!UICONTROL 無効化]**&#x200B;をクリックします。 ステータスが&#x200B;**_[!UICONTROL 非アクティブ]_**&#x200B;に変更され、このルールは今後のメッセージ実行には適用されません。 現在実行中のメッセージは影響を受けません。
 
 >[!NOTE]
 >
@@ -123,7 +132,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
 1. _[!UICONTROL ルールセット]_ リストページで、右上の「**[!UICONTROL ルールセットを作成]**」をクリックします。
 
-   ![&#x200B; ルールセットの作成ダイアログ &#x200B;](./assets/business-rules-create-rule-set-dialog.png){width="400"}
+   ![ ルールセットの作成ダイアログ ](./assets/business-rules-create-rule-set-dialog.png){width="400"}
 
 1. ルールセットに一意の&#x200B;**[!UICONTROL 名前]** （必須）を入力し、**[!UICONTROL 説明]** （オプション）を追加します。
 
@@ -138,7 +147,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![新しいルール セット &#x200B;](./assets/business-rules-new-rule-set.png){width="700" zoomable="yes"}
+   ![新しいルール セット ](./assets/business-rules-new-rule-set.png){width="700" zoomable="yes"}
 
 ### ルールの追加 {#add-rules}
 
@@ -150,7 +159,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
    ルールに使用できるパラメーターは、作成時に選択したルールセットドメインによって異なります。
 
-   ![&#x200B; ジャーニーエントリ キャップ ルールのルール パラメーターを定義](./assets/business-rules-journey-entry-cap.png){width="700" zoomable="yes"}
+   ![ ジャーニーエントリ キャップ ルールのルール パラメーターを定義](./assets/business-rules-journey-entry-cap.png){width="700" zoomable="yes"}
 
    ジャーニールールとチャネルルールの設定について詳しくは、次の節を参照してください。
 
@@ -166,7 +175,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
    作成されたルールは&#x200B;_[!UICONTROL ドラフト]_&#x200B;のステータスを持ち、まだメッセージに影響を与えることはできません。
 
-   ![&#x200B; ルールセット内のドラフトルール &#x200B;](./assets/rule-set-draft-rules.png){width="700" zoomable="yes"}
+   ![ ルールセット内のドラフトルール ](./assets/rule-set-draft-rules.png){width="700" zoomable="yes"}
 
 1. ルール セットのルールをアクティブ化するには、ルール名の横にある&#x200B;_詳細メニュー_ （**...**）アイコンをクリックし、**[!UICONTROL アクティブ化]**&#x200B;を選択します。
 
@@ -180,7 +189,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
 1. 右上の&#x200B;_詳細メニュー_ （**...**）をクリックし、「**[!UICONTROL ルールセットをアクティブ化]**」を選択します。
 
-   ![詳細メニューをクリックしてアクティブ化アクションにアクセス &#x200B;](./assets/business-rules-activate-rule-set.png){width="700" zoomable="yes"}
+   ![詳細メニューをクリックしてアクティブ化アクションにアクセス ](./assets/business-rules-activate-rule-set.png){width="700" zoomable="yes"}
 
 1. 確認ダイアログで、**[!UICONTROL アクティベート]**&#x200B;をクリックします。
 
@@ -200,7 +209,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 >
 >チャネルレベルのキャッピングが正しく機能することを確認するには、ジャーニーの構築中に最も優先度の高い名前空間を選択してください。 名前空間の優先度について詳しくは、[Platform ID サービスガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}を参照してください。
 
-### チャネルのキャップルールの作成 {#create-capping-rule}
+### チャネルのキャップルールを作成 {#create-capping-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
@@ -217,7 +226,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
 1. _[!UICONTROL ルールタイプ]_&#x200B;で、**[!UICONTROL チャネルキャッピング]**&#x200B;を選択します。
 
-   ![&#x200B; チャネルキャッピングがルールタイプ &#x200B;](./assets/business-rules-frequency-capping-rule-type.png){width="700" zoomable="yes"}として選択されました
+   ![ チャネルキャッピングがルールタイプ ](./assets/business-rules-frequency-capping-rule-type.png){width="700" zoomable="yes"}として選択されました
 
 1. 「**[!UICONTROL キャッピングカウント]**」フィールドで、ルールのキャッピング値を設定します。
 
@@ -252,7 +261,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
    * **[!UICONTROL ダイレクトメール]** （現在このBeta リリースではサポートされていません）
    * **[!UICONTROL WhatsApp]** （現在このBeta リリースではサポートされていません）
 
-   ![頻度の上限ルール用に選択されたチャネル &#x200B;](./assets/business-rules-channel-capping.png){width="700" zoomable="yes"}
+   ![頻度の上限ルール用に選択されたチャネル ](./assets/business-rules-channel-capping.png){width="700" zoomable="yes"}
 
    選択したすべてのチャネルに合計数としてキャッピングを適用する場合は、複数のチャネルを選択します。
 
@@ -268,11 +277,11 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
 ### チャネルキャッピングルールセットの適用 {#apply-capping-rule}
 
-1. ジャーニーを作成する際に、ルール用に選択したチャネルの送信[&#x200B; アクションノード &#x200B;](../marketing/action-nodes.md)のいずれかを追加し、メッセージのコンテンツを編集します。
+1. ジャーニーを作成する際に、ルール用に選択したチャネルの送信[ アクションノード ](../marketing/action-nodes.md)のいずれかを追加し、メッセージのコンテンツを編集します。
 
 1. 「_[!UICONTROL アクション]_」タブで、**[!UICONTROL ビジネスルール]** オプションを、頻度の上限ルールが設定されたルールセットに設定します。
 
-   ![&#x200B; アクション タブで設定された頻度キャッピング ルールに設定されたビジネス ルール オプション &#x200B;](./assets/business-rules-frequency-capping-email-actions.png){width="600" zoomable="yes"}
+   ![ アクション タブで設定された頻度キャッピング ルールに設定されたビジネス ルール オプション ](./assets/business-rules-frequency-capping-email-actions.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -297,7 +306,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
 ## クワイエットアワーの設定 {#quiet-hours}
 
-**_サイレントアワー_**&#x200B;を使用すると、電子メール、SMS、プッシュ通知、WhatsApp チャネルの時間ベースの除外を定義できます。 これにより、特定の期間中にメッセージが送信されなくなり、顧客の環境設定やコンプライアンス要件を適用できます。
+**_サイレントアワー_**&#x200B;を使用すると、電子メール、SMS、プッシュ通知、WhatsApp チャネルの時間ベースの除外を定義できます。 これにより、特定の期間中にメッセージが送信されないようにして、顧客の意向やコンプライアンス要件を尊重できます。
 
 >[!NOTE]
 >
@@ -338,7 +347,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
 1. _[!UICONTROL ルールタイプ]_&#x200B;の場合、**[!UICONTROL 静止時間]**&#x200B;を選択します。
 
-   ![&#x200B; ルールの種類](./assets/business-rules-quiet-hours-rule-type.png){width="700" zoomable="yes"}として選択された静止時間
+   ![ ルールの種類](./assets/business-rules-quiet-hours-rule-type.png){width="700" zoomable="yes"}として選択された静止時間
 
 1. 「**[!UICONTROL 日付と時刻]**」セクションで、クワイエットアワーを適用するタイミングを定義します。
 
@@ -356,13 +365,13 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
      * **[!UICONTROL カスタム日付]** - カレンダーの特定の日付と時間スロットを選択します。 また、そのルールを&#x200B;**[!UICONTROL 終日]**&#x200B;適用することもできます。
 
-     ![&#x200B; サイレントアワーの日付と時刻を定義するカレンダーダイアログ &#x200B;](./assets/business-rules-quiet-hours-dates-times-calendar.png){width="450"}
+     ![ サイレントアワーの日付と時刻を定義するカレンダーダイアログ ](./assets/business-rules-quiet-hours-dates-times-calendar.png){width="450"}
 
    * 「**[!UICONTROL さらに日付を追加]**」ボタンをクリックして、最大5つの期間を追加します。
 
 1. 「**[!UICONTROL クワイエットアワー中の処理アクション]**」セクションで、選択した期間中のメッセージの処理方法を選択します。
 
-   ![&#x200B; サイレントアワー中のアクションの処理オプション &#x200B;](./assets/business-rules-quiet-hours-dates-times.png)
+   ![ サイレントアワー中のアクションの処理オプション ](./assets/business-rules-quiet-hours-dates-times.png)
 
    * **[!UICONTROL キューメッセージ]** - 一時停止状態でない限り、メッセージはクワイエットアワーの完了時に送信されます。
 
@@ -388,11 +397,11 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
 ルールが保存され、ルールセットがアクティブ化されたら、ジャーニーのチャネルアクションに適用できます。
 
-1. ジャーニーを作成する際に、ルール用に選択したチャネルの送信[&#x200B; アクションノード &#x200B;](../marketing/action-nodes.md)のいずれかを追加し、メッセージのコンテンツを編集します。
+1. ジャーニーを作成する際に、ルール用に選択したチャネルの送信[ アクションノード ](../marketing/action-nodes.md)のいずれかを追加し、メッセージのコンテンツを編集します。
 
 1. 「_[!UICONTROL アクション]_」タブで、**[!UICONTROL ビジネスルール]** オプションを、サイレントアワー規則で設定されたルールセットに設定します。
 
-   ![&#x200B; ビジネス ルール オプションは、「アクション」タブで設定されたサイレント時間ルールに設定されています](./assets/business-rules-quiet-hours-email-actions.png){width="600" zoomable="yes"}
+   ![ ビジネス ルール オプションは、「アクション」タブで設定されたサイレント時間ルールに設定されています](./assets/business-rules-quiet-hours-email-actions.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
