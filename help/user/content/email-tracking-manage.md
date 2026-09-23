@@ -9,36 +9,43 @@ autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
+    internal-label: Intermediate
+source-git-commit: ec55e33d1db9aa7ecf488e2898564f89df702789
 workflow-type: tm+mt
-source-wordcount: 860
+source-wordcount: '896'
 ht-degree: 0%
-
 ---
-
 # 電子メールの開封トラッキングを管理
 
 個々の電子メールに対して開封トラッキングを無効にしたり、Adobe Experience Platformで各個人のトラッキング環境設定を取得したり、分割パスを使用して、トラッキング対象とトラッキング以外の電子メールのバリエーションにユーザーをルーティングしたりできます。
 
->[!BEGINSHADEBOX &quot;電子メールトラッキングピクセルに関するCNIL ガイダンス&quot;]
+>[!BEGINSHADEBOX  「電子メールトラッキングピクセルに関するガイダンス」 ]
 
-2026年4月14日、*Commission Nationale de l&#39;Informatique et des Libertés* （CNIL）は、メール内でのトラッキングピクセルの使用に関する[の推奨事項](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)を公開しました。 このガイダンスでは、同意が必要なタイミングを明確にし、メールのピクセル追跡における適切な同意管理の重要性を強調しています。 このポリシーは、フランスに拠点を置く購読者にメールを配信するエンティティの送信方法に影響を与える可能性があります。
+2026年4月14日、フランスのデータ保護機関である&#x200B;*Commission nationale de l&#39;informatique et des libertés* （CNIL）は、メール内でのトラッキングピクセルの使用に関する[の推奨事項](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)を公開しました。 その後まもなく、イタリアの独立データ保護機関（「Garante」）が[提供番号を公開しました。 2026年4月17日の284](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10241943) （「Garante規定」）。 各ガイダンスは、法的拘束力はないものの、同意が必要なタイミングを明確にし、メールピクセル追跡における適切な同意管理の重要性を強調しています。 このポリシーは、適用されるEU プライバシー法に基づいて、購読者にメールを配信する企業の送信慣行に影響を与える可能性があります。
 
 電子メールトラッキングピクセルは、電子メールのHTMLに埋め込まれた1x1の透明画像です。 受信者のメールクライアントがその画像を読み込むと、ピクセルはタイムスタンプ、デバイスの種類、メールクライアント、場合によってはIP アドレスなどのデータを記録するサーバーにping送信し、おおよその場所を確認します。 その後、そのログは受信者のレコードに関連付けられ、マーケターはメールが開封されたかどうかを確認できます。
 
-ここで説明する[!UICONTROL Journey Optimizer B2B edition]製品の機能は、適切に設定および操作され、コンプライアンスに準拠した実装をサポートできるビルディングブロックです。 各顧客は、適用法に基づく義務を決定し、遵守する責任があります。
+ここで説明する[!DNL Journey Optimizer B2B Edition]製品の機能は、適切に設定および操作され、顧客コンプライアンスの取り組みをサポートするのに役立つ構成要素です。 お客様は、適用されるガイダンスおよびその他の法律に基づく義務を決定し、遵守することに単独で責任を負います。
 
 >[!ENDSHADEBOX]
 

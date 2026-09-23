@@ -6,26 +6,35 @@ autotag-review: '2026-07-15T17:39:19.276Z'
 TQID: 'https://experienceleague.adobe.com/eYmcE-8rD5-KJe-hGlUo3I34JYJsK2Hj4x4alFTTqwQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+    internal-label: Journey Actions
   - id: f09c7f30-c554-44cf-884c-7557ed69d0c6
+    internal-label: Governance
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: 945c02e4edb6f38dbc8a1ec6b6c97f7825ef4af9
 workflow-type: tm+mt
-source-wordcount: 2975
+source-wordcount: '2975'
 ht-degree: 37%
-
 ---
-
 # ビジネスルール {#business-rules}
 
 >[!CONTEXTUALHELP]
@@ -46,7 +55,7 @@ ht-degree: 37%
 
 >[!PREREQUISITES]
 >
->ビジネスルールを操作するには、次のCX エンタープライズ権限が必要です。
+>ビジネスルールを操作するには、次のCX Enterprise権限が必要です。
 >
 >* **[!UICONTROL 頻度ルールを表示]**：ビジネスルールにアクセスして表示します。
 >* **[!UICONTROL 頻度ルールの管理]**：ビジネスルールを作成、編集または削除します。
@@ -200,7 +209,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 >
 >チャネルレベルのキャッピングが正しく機能することを確認するには、ジャーニーの構築中に最も優先度の高い名前空間を選択してください。 名前空間の優先度について詳しくは、[Platform ID サービスガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}を参照してください。
 
-### チャネルのキャップルールの作成 {#create-capping-rule}
+### チャネルのキャップルールを作成 {#create-capping-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
@@ -297,7 +306,7 @@ _ルールセット_&#x200B;に初めてアクセスする場合、デフォル�
 
 ## クワイエットアワーの設定 {#quiet-hours}
 
-**_サイレントアワー_**&#x200B;を使用すると、電子メール、SMS、プッシュ通知、WhatsApp チャネルの時間ベースの除外を定義できます。 これにより、特定の期間中にメッセージが送信されなくなり、顧客の環境設定やコンプライアンス要件を適用できます。
+**_サイレントアワー_**&#x200B;を使用すると、電子メール、SMS、プッシュ通知、WhatsApp チャネルの時間ベースの除外を定義できます。 これにより、特定の期間中にメッセージが送信されないようにして、顧客の意向やコンプライアンス要件を尊重できます。
 
 >[!NOTE]
 >

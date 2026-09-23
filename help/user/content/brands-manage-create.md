@@ -1,6 +1,6 @@
 ---
 title: コンテンツ生成と一貫性のためにブランドを作成する
-description: ドキュメントからの自動抽出や手作業による入力により、ブランドガイドラインを作成および管理できます。Journey Optimizer B2B editionで、一貫性のあるコンテンツのデフォルトブランドを設定できます。
+description: ドキュメントからの自動抽出や手作業による入力により、ブランドガイドラインを作成および管理できます。Journey Optimizer B2B Editionで一貫性のあるコンテンツを提供するためのデフォルトブランドを設定できます。
 badge: label="ベータ版" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -28,13 +28,13 @@ TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G
 source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
-ht-degree: 15%
+ht-degree: 16%
 ---
 # ブランドの構築と管理 {#brand-library}
 
 ブランドを定義し、視覚的および口頭でのアイデンティティを確立するための詳細なルールと基準を提供します。 これらのガイドラインでは、あらゆるマーケティングプラットフォームとコミュニケーションプラットフォームで一貫したブランド表現を維持するための参考資料を提供します。 明確に定義されたブランドガイドラインを活用することで、あらゆるコンテンツ制作の取り組みが、戦略目標とブランドアイデンティティ全体に沿ったものにすることができます。 この一貫性は、ブランド認知度と信頼性を向上させるだけでなく、あらゆる顧客接点をまたいで、より全体的に一貫性のあるインパクトのある顧客体験を実現するのに役立ちます。
 
-Journey Optimizer B2B editionでは、ブランド定義やアセットを手動で定義して整理したり、ブランドガイドラインドキュメントをアップロードして自動情報やビジュアルアセット抽出を行うことができます。
+Journey Optimizer B2B Editionでは、ブランド定義やアセットを手動で定義して整理したり、ブランドガイドラインドキュメントをアップロードして自動情報やビジュアルアセット抽出を行うことができます。
 
 >[!AVAILABILITY]
 >
@@ -42,7 +42,7 @@ Journey Optimizer B2B editionでは、ブランド定義やアセットを手動
 >
 ><br>
 >
->Adobe Journey Optimizer B2B editionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer B2B EditionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 >
 ><br>
 >
@@ -50,7 +50,7 @@ Journey Optimizer B2B editionでは、ブランド定義やアセットを手動
 
 ## ブランドライブラリへのアクセス
 
-Adobe Journey Optimizer B2B editionのブランドキットにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL ブランド]**&#x200B;をクリックします。 このアクションを実行すると、作成したブランドがカードとして表示されるページが開きます。
+Adobe Journey Optimizer B2B Editionのブランドキットにアクセスするには、左側のナビゲーションで&#x200B;**[!UICONTROL コンテンツ管理]**/**[!UICONTROL ブランド]**&#x200B;をクリックします。 このアクションを実行すると、作成したブランドがカードとして表示されるページが開きます。
 
 ![&#x200B; ブランドライブラリにアクセス &#x200B;](./assets/brands-library.png){width="800" zoomable="yes"}
 
@@ -245,7 +245,7 @@ Brands ライブラリでは、デフォルトのブランドカードにフラ�
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="文体整合性スコア"
->abstract="「書き方」セクションでは、言語、書式設定、構造の標準を定義します。 整合性スコアは、コンテンツがガイドラインにどの程度従っているかを示し、改善すべき点を特定します。"
+>abstract="「文体」セクションで、言語、書式設定、構造の標準を定義することで、明確で一貫性のあるコンテンツを保証します。 整合性スコアは、コンテンツがこれらのガイドラインにどのくらい適切に準拠しているかを示し、改善が必要な領域を強調します。"
 
 _[!UICONTROL 書き方]_&#x200B;の定義は、コンテンツを書く際の基準の概要を示し、すべてのマテリアルで明瞭性、一貫性、一貫性を維持するために、言語、書式設定、構造をどのように使用すべきかを詳しく説明します。
 
