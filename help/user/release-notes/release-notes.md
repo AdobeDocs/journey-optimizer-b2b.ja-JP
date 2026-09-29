@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
+source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
 workflow-type: tm+mt
-source-wordcount: '5645'
+source-wordcount: '5708'
 ht-degree: 61%
 ---
 # Journey Optimizer B2B Edition リリースノート
@@ -37,6 +37,21 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 使用権限、パフォーマンスガードレール、制限事項について詳しくは、[製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}を参照してください。
 
+## 2026.9 リリースノート {#rel-2026-9}
+
+**デプロイメント日**: 2026年9月25日
+
+| タイプ | 項目 | 説明 |
+| ---- | ---- | ----------- |
+| 機能 | ユーザーリスト | デモグラフィック属性やエクスペリエンスイベント履歴など、定義された条件でプロファイルをターゲティングできるように、静的および動的な人物リストを使用できるようになりました。 |
+| 機能 | サービス正常性ダッシュボード | 成功/エラー指標を収集し、ダッシュボードを通じて管理者がサービスパフォーマンスを監視できるようにすることで、外部アクションの運用健全性を追跡します。 |
+| 機能強化 | ジャーニー再入力 – 人物ジャーニー | 個人ジャーニーで、ジャーニーの再入力のサポートが利用可能になりました。 |
+
+>[!NOTE]
+>
+>これらのリリースの変更は、2026年9月25日（PT）にデプロイメントが開始され、各機能と機能強化が段階的に展開されます。 機能および機能強化のリリース日は変更される場合があります。
+
+
 ## 2026.8 リリースノート {#rel-2026-8}
 
 **デプロイメント日**: 2026年8月14日
@@ -44,10 +59,8 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
 | 機能 | 顧客ジャーニー | （以前のBeta、一般公開に向けた早期デプロイメント）Experience Platform Audiencesとデータを使用して、リードベースマーケティングをオーケストレーションするジャーニーを作成できるようになりました。 [詳細情報](../journeys/journeys-overview.md) |
-| 機能 | ユーザーリスト | デモグラフィック属性やエクスペリエンスイベント履歴など、定義された条件でプロファイルをターゲティングできるように、静的および動的な人物リストを使用できるようになりました。 |
 | 機能 | _バリアント分割パス_ ジャーニーノード | （以前のAdobe Betaアカウントジャーニー版）マーケターは、定義された割合に基づいて、アカウントまたは人物を異なるジャーニーパスに割り当てることで、アカウントまたは人物のジャーニー内のバリエーションをテストできるようになりました。 [詳細情報](../journeys/variant-split-paths-nodes.md) |
 | 機能 | C2PA メタデータ | 生成AI ツールで生成または編集された画像は、C2PA メタデータで自動的に署名されるようになりました。これにより、コンテンツの透明性とAI開示要件を満たすことができます。 [詳細情報](../content/c2pa-metadata.md) |
-| 機能強化 | ジャーニー再入力 – 人物ジャーニー | 個人ジャーニーで、ジャーニーの再入力のサポートが利用可能になりました。 |
 | 機能強化 | イベントトリガーとフィルターをリッスンする – アカウントジャーニー | アカウントジャーニーの場合、_People_ イベントタイプを持つ&#x200B;_Listen for an event_ ノードで、複数のトリガーとフィルターをサポートできるようになりました。 [詳細情報](../journeys/listen-for-event-nodes.md) |
 | 機能強化 | 外部分割パスノード – 人物ジャーニー | _外部分割パス_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 [詳細情報](../journeys/external-nodes.md#external-action) |
 | 機能強化 | 外部アクションノード – 人物ジャーニー | _外部アクション_ ノードのサポートが、個人ジャーニーで利用できるようになりました。 [詳細情報](../journeys/external-nodes.md#external-split-paths) |
