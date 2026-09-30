@@ -1,6 +1,6 @@
 ---
 title: 行動を起こす
-description: アカウントと人物のアクションに対するアクションノードの設定 – 電子メールの送信、購買グループの更新、スコアの変更を行い、Journey Optimizer B2B editionのMarketo Engageと統合します。
+description: アカウントと人物のアクションに対するアクションノードの設定 – 電子メールの送信、購買グループの更新、スコアの変更、Journey Optimizer B2B EditionのMarketo Engageとの統合。
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->2025.10 リリースでは、_[!UICONTROL Account Change Data Value]_ アクションは推奨されません。 _[!UICONTROL アカウントプロファイルを更新]_&#x200B;すると、Journey Optimizer B2B editionでこの操作が置き換えられます。<br/>
+>2025.10 リリースでは、_[!UICONTROL Account Change Data Value]_ アクションは推奨されません。 _[!UICONTROL アカウントプロファイルを更新]_&#x200B;すると、Journey Optimizer B2B Editionでこの操作が置き換えられます。<br/>
 >
 >管理者は、_[!UICONTROL XDM設定]_/_[!UICONTROL 標準クラス]_&#x200B;のフィールドを更新することで、XDM ビジネスアカウントで使用可能な属性を設定できます。 詳しくは、[標準スキーマ &#x200B;](../admin/xdm-field-management.md#standard-schemas)を参照してください。
 
@@ -200,7 +200,7 @@ _外部オーディエンスを作成するには&#x200B;:_
 
    >[!NOTE]
    >
-   >Journey Optimizer B2B editionから新しい外部カスタマーオーディエンスを作成すると、ダミーレコード （`test@email.com`）がシードされます。 このレコードは、最初の実際のプロファイルがジャーニーから外部オーディエンスに追加されるとすぐに上書きされます。
+   >Journey Optimizer B2B Editionから新しい外部顧客オーディエンスを作成すると、ダミーレコード （`test@email.com`）がシードされます。 このレコードは、最初の実際のプロファイルがジャーニーから外部オーディエンスに追加されるとすぐに上書きされます。
 
 _既存のオーディエンスを使用するには&#x200B;:_
 
@@ -294,7 +294,7 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 >[!NOTE]
 >
->現在のJourney Optimizer B2B edition リリースの&#x200B;_[!UICONTROL Change Data Value]_ アクションに代わって、_[!UICONTROL 人物プロファイルを更新]_ アクションが実行されます。<br/>
+>現在のJourney Optimizer B2B Edition リリースの&#x200B;_[!UICONTROL Change Data Value]_ アクションに代わって、_[!UICONTROL 人物プロファイルを更新]_ アクションが実行されます。<br/>
 >
 >管理者は、_[!UICONTROL XDM設定]_ > _[!UICONTROL 標準クラス]_&#x200B;のフィールドを更新することで、XDM個人プロファイルで使用可能な属性を設定できます。 詳しくは、[標準スキーマ &#x200B;](../admin/xdm-field-management.md#standard-schemas)を参照してください。
 
@@ -308,7 +308,7 @@ _既存のオーディエンスを使用するには&#x200B;:_
 >
 >Marketo Engage アクションには、1つ以上の外部Marketo Engage インスタンスとの設定済み統合が必要です。 この設定について詳しくは、[_Marketo Engage接続をアクティブ化してアクションをサポートする_](../admin/marketo-actions-connect.md)&#x200B;を参照してください。
 
-たとえば、Journey Optimizer B2B editionの購買グループの一部である人に対して、Marketo Engageでキャンペーンを抑制します。 この場合、ソリューションの関心に特化した静的リストをMarketo Engageで作成できます。 次に、購買グループによる分割パスで、ジャーニーノードから「_Marketo リストに追加_」アクションを使用します。 このアクションは、購買グループのメンバーを、接続されたMarketo Engage インスタンスの特定の静的リストに追加します。 次に、ソリューションの関心度に焦点を当てた静的リストをMarketo Engageのスマートリストフィルターに使用します。
+たとえば、Journey Optimizer B2B Editionの購買グループの一部である人に対して、Marketo Engageでキャンペーンを抑制します。 この場合、ソリューションの関心に特化した静的リストをMarketo Engageで作成できます。 次に、購買グループによる分割パスで、ジャーニーノードから「_Marketo リストに追加_」アクションを使用します。 このアクションは、購買グループのメンバーを、接続されたMarketo Engage インスタンスの特定の静的リストに追加します。 次に、ソリューションの関心度に焦点を当てた静的リストをMarketo Engageのスマートリストフィルターに使用します。
 
 +++[!UICONTROL Marketo リクエストキャンペーンに追加]
 
