@@ -60,7 +60,7 @@ ht-degree: 12%
 
 ## GenStudioのコンテンツ作成機能
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio/performance-marketing.html){target="_blank"}は、マーケティング部門がブランド基準を遵守し、エンタープライズポリシーに準拠した、インパクトのあるパーソナライズされた広告やメールを作成できるようにする、生成AIを活用したアプリケーションです。 Adobe AIのテクノロジーを活用することで、コンテンツ制作と管理の複雑さを簡素化する包括的なツール群を提供し、コンテンツ制作者がイノベーションに集中できるようにします。
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/jp/products/genstudio/performance-marketing.html){target="_blank"}は、マーケティング部門がブランド基準を遵守し、エンタープライズポリシーに準拠した、インパクトのあるパーソナライズされた広告やメールを作成できるようにする、生成AIを活用したアプリケーションです。 Adobe AIのテクノロジーを活用することで、コンテンツ制作と管理の複雑さを簡素化する包括的なツール群を提供し、コンテンツ制作者がイノベーションに集中できるようにします。
 
 ![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; ブランドに即したマーケティングメールの作成](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -98,7 +98,7 @@ GenStudio for Performance Marketingは、読み込まれた電子メール HTML�
 
 HTML ファイルを使用して、GenStudio for Performance Marketingでテンプレートを作成します。
 
-HTML テンプレートのAdobe GenStudio for Performance Marketingへのアップロードについて詳しくは、GenStudio for Performance Marketing ドキュメントの[&#x200B; テンプレートの追加](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template)を参照してください。
+HTML テンプレートのAdobe GenStudio for Performance Marketingへのアップロードについて詳しくは、GenStudio for Performance Marketing ドキュメントの[&#x200B; テンプレートの追加](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template)を参照してください。
 
 書き出されたHTMLをテンプレートとしてアップロードすると、GenStudio for Performance MarketingはHTML ファイルをスキャンして、認識されたフィールドを探します。 プレビューを使用してテンプレート要素を確認し、認識されたフィールド名で正しく識別されていることを確認します。
 
