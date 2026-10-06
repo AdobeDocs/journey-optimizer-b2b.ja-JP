@@ -1,6 +1,6 @@
 ---
 title: フォーム
-description: Journey Optimizer B2B editionなら、ビジネスデータの収集に再利用できるフォームを作成、管理できます。フィールドをデザインし、サンキューページを設定して、公開および使用状況を追跡できます。
+description: Journey Optimizer B2B Editionなら、ビジネスデータ収集に再利用できるフォームを作成、管理できます。フィールドをデザインし、サンキューページを設定して、公開および使用状況を追跡できます。
 feature: Forms, Content
 role: User
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:11:44.937Z'
 TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2504
+source-wordcount: '2504'
 ht-degree: 2%
-
 ---
-
 # フォーム
 
 web ページの訪問者から情報を取得するには、フォームを作成してランディングページに追加します。 フォームとは、訪問者が入力して送信する一連のフィールドのことで、ホワイトペーパー、オンデマンドウェビナー、無料トライアルなど、何らかのコンテンツやオファーを取得するためのものです。
@@ -35,7 +41,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 >
 >マーケティング部門がフォームを作成して使用し、情報を取得する前に、管理者が1つ以上のフォームプリセットを定義する必要があります。 詳しくは、[_Forms設定_](../admin/configure-channels-forms.md)&#x200B;を参照してください。
 >
->Journey Optimizer B2B editionでのフォームの作成には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
+>Journey Optimizer B2B Editionでのフォームの作成には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
 >
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL B2C Forms]_&#x200B;を読む – フォームにアクセスして表示するために必要です。
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL B2C Formsを管理]_ - フォームの作成、更新、削除に必要です。
@@ -43,9 +49,9 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
 ## フォームへのアクセスと管理 {#view-forms}
 
-Journey Optimizer B2B editionのフォームにアクセスするには、左側のナビゲーションで&#x200B;**[!UICONTROL Content Management]**/**[!UICONTROL Forms]**&#x200B;をクリックします。 このアクションは、インスタンスで作成されたすべてのフォームを表示するリストページを開きます。
+Journey Optimizer B2B Editionのフォームにアクセスするには、左側のナビゲーションで&#x200B;**[!UICONTROL コンテンツ管理]**/**[!UICONTROL Forms]**&#x200B;をクリックします。 このアクションは、インスタンスで作成されたすべてのフォームを表示するリストページを開きます。
 
-![&#x200B; フォームライブラリにアクセス &#x200B;](./assets/forms-list.png){width="800" zoomable="yes"}
+![ フォームライブラリにアクセス ](./assets/forms-list.png){width="800" zoomable="yes"}
 
 システムはテーブルを&#x200B;_[!UICONTROL 変更済み]_&#x200B;列で並べ替え、デフォルトで最も最近更新されたフォームを上部に表示します。 列のタイトルをクリックして、昇順と降順を変更します。
 
@@ -59,17 +65,17 @@ Journey Optimizer B2B editionのフォームにアクセスするには、左側
 | 公開日 | フォームを公開すると、ランディングページまたはランディングページテンプレートで使用できるようになります。 公開されたフォームコンテンツは、ビジュアルデザイン空間で変更できません。 使用可能なアクション：<br/><ul><li>名前、説明またはサンキューページの編集<li>ランディングページまたはランディングページテンプレートへの追加<li>ドラフトバージョンを作成<li>複製<li>削除（使用中でない場合）<li>埋め込みコード |
 | 公開済み下書きあり | 公開済みフォームからドラフトを作成しても、公開済みバージョンはランディングページまたはテンプレートで使用できます。 ドラフトコンテンツは、ビジュアルデザインスペースで変更できます。 ドラフトバージョンを公開すると、現在の公開済みバージョンが置き換えられ、コンテンツは使用されているランディングページまたはランディングページテンプレートで更新されます。 使用可能なアクション：<br/><ul><li>名前、説明またはサンキューページの編集<li>ランディングページまたはランディングページテンプレートへの追加<li>ビジュアルデザインスペースでのドラフトバージョンの編集<li>ドラフトバージョンを公開<li>複製<li>削除（使用中でない場合）<li>埋め込みコード |
 
-![&#x200B; フォームの状態ライフサイクル &#x200B;](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+![ フォームの状態ライフサイクル ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### フォームリストのフィルタリング {#filter-list}
 
-名前でフォームを検索するには、検索バーにテキスト文字列を入力して一致を検索します。 _フィルター_ アイコン （![&#x200B; フィルターの表示または非表示アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
+名前でフォームを検索するには、検索バーにテキスト文字列を入力して一致を検索します。 _フィルター_ アイコン （![ フィルターの表示または非表示アイコン ](../assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
 
-![表示されたフォームをフィルタリング &#x200B;](./assets/forms-list-filtered.png){width="700" zoomable="yes"}
+![表示されたフォームをフィルタリング ](./assets/forms-list-filtered.png){width="700" zoomable="yes"}
 
 ### 列表示のカスタマイズ {#column-display}
 
-右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。
+右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![ テーブルをカスタマイズ アイコン ](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。
 
 ダイアログで、表示する列を選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -77,7 +83,7 @@ Journey Optimizer B2B editionのフォームにアクセスするには、左側
 
 ## フォームの作成 {#create-forms}
 
-Journey Optimizer B2B editionで再利用可能なフォームの作成を開始する前に、考慮すべきことがいくつかあります。
+Journey Optimizer B2B Editionで再利用可能なフォームの作成を開始する前に、考慮すべきことがいくつかあります。
 
 * 必要なフォームを見極める。
 
@@ -105,7 +111,7 @@ Journey Optimizer B2B editionで再利用可能なフォームの作成を開始
 >abstract="使用する接続を含む事前定義済みプリセットと、フォームの事前定義済みデータセットを選択します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="フォームプリセットを作成"
 
-Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL Forms]_ リストページの右上にある「**[!UICONTROL フォームを作成]**」をクリックします。
+Journey Optimizer B2B Editionでフォームを作成するには、_[!UICONTROL Forms]_ リストページの右上にある「**[!UICONTROL フォームを作成]**」をクリックします。
 
 1. _[!UICONTROL フォームを作成]_ ダイアログで、便利な&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
@@ -119,9 +125,9 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
    * 予約済みの文字は&#x200B;**_許可されていません_**: `\ / : * ? " < > |`
 
-   ![&#x200B; フォームダイアログの作成](./assets/forms-create-dialog.png){width="400"}
+   ![ フォームダイアログの作成](./assets/forms-create-dialog.png){width="400"}
 
-1. **[!UICONTROL プリセット]**&#x200B;の場合、_データを選択_ （![&#x200B; データアイコンを選択](../assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、設定されたフォームプリセットをフォームにリンクします。
+1. **[!UICONTROL プリセット]**&#x200B;の場合、_データを選択_ （![ データアイコンを選択](../assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、設定されたフォームプリセットをフォームにリンクします。
 
    プリセットによって、フォームの応答の保存場所と反射場所が決まります。 特定のプリセットを検索するためのテキスト文字列を入力するか、リストから選択できます。
 
@@ -129,7 +135,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
    フォームの詳細ページが開き、デフォルトの基本フォーム定義が表示されます。
 
-   ![既定のフォーム コンテンツ &#x200B;](./assets/form-new-default-content.png){width="700" zoomable="yes"}
+   ![既定のフォーム コンテンツ ](./assets/form-new-default-content.png){width="700" zoomable="yes"}
 
 ### デフォルトのフォームデザインの変更 {#design}
 
@@ -149,7 +155,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 * **[!UICONTROL ページを維持]** - フォームの送信時に訪問者を同じページに維持するには、このオプションを選択します。
 
-* **[!UICONTROL ランディングページ]** - フォローアップとして任意のJourney Optimizer B2B edition ランディングページを選択するには、このオプションを選択します。
+* **[!UICONTROL ランディングページ]** - フォローアップとして任意のJourney Optimizer B2B Edition ランディングページを選択するには、このオプションを選択します。
 
 * **[!UICONTROL 外部URL]** – 任意のURLをフォローアップページとして指定するには、このオプションを選択します。 訪問者がフォームを送信すると、ブラウザーは指定されたURLを読み込みます。
 
@@ -161,7 +167,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 ランディングページまたはランディングページテンプレートでフォームを使用できるようにする準備ができたら、**[!UICONTROL 公開]**&#x200B;をクリックします。
 
-![&#x200B; フォームの公開ダイアログ &#x200B;](./assets/form-publish-dialog.png){width="400"}
+![ フォームの公開ダイアログ ](./assets/form-publish-dialog.png){width="400"}
 
 このアクションを実行すると、確認ダイアログが開きます。 公開プロセスを中止するには、**[!UICONTROL キャンセル]**&#x200B;をクリックするか、**[!UICONTROL 公開]**&#x200B;をクリックして確認します。
 
@@ -181,13 +187,13 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 ## 使用されているフォームの参照を表示
 
-右側の&#x200B;_[!UICONTROL 概要]_ パネルで、**[!UICONTROL 使用者]** タブをクリックして、ランディングページとランディングページテンプレートをまたいで、Journey Optimizer B2B edition内でフォームが現在使用されている場所の詳細を表示します。
+右側の&#x200B;_[!UICONTROL 概要]_ パネルで、**[!UICONTROL 使用者]** タブをクリックして、ランディングページとランディングページテンプレートをまたいで、Journey Optimizer B2B Edition内でフォームが現在使用されている場所の詳細を表示します。
 
 >[!IMPORTANT]
 >
 >ランディングページまたはランディングページテンプレートで現在使用されているフォームは削除できません。
 
-![&#x200B; フォームの参照で使用](./assets/form-used-by-published.png){width="600" zoomable="yes"}
+![ フォームの参照で使用](./assets/form-used-by-published.png){width="600" zoomable="yes"}
 
 参照は、カテゴリ _ランディングページ_&#x200B;または&#x200B;_ランディングページテンプレート_&#x200B;に従って表示されます。 リンクをクリックして、フォームが使用されている対応するページまたはテンプレートを開きます。
 
@@ -202,11 +208,11 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 このアクションを実行すると、確認ダイアログが開きます。 「**[!UICONTROL キャンセル]**」をクリックするか、「**[!UICONTROL 削除]**」をクリックして削除を確認することで、プロセスを中止できます。
 
-![&#x200B; フォームダイアログの削除](./assets/form-delete-dialog.png){width="400"}
+![ フォームダイアログの削除](./assets/form-delete-dialog.png){width="400"}
 
 フォームが現在使用中の場合、アクションは情報ダイアログを開き、削除できないことを警告します。 削除アクションを中止する&#x200B;**[!UICONTROL OK]**&#x200B;をクリックします。
 
-![&#x200B; フォームダイアログを削除 – 使用中のフォームを削除できません](./assets/form-delete-dialog-in-use.png){width="400"}
+![ フォームダイアログを削除 – 使用中のフォームを削除できません](./assets/form-delete-dialog-in-use.png){width="400"}
 
 ## フォームの複製 {#duplicate-forms}
 
@@ -217,7 +223,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 * フォームの詳細ページの右上にある「**[!UICONTROL ...」をクリックします。詳細]**&#x200B;を選択し、**[!UICONTROL 複製]**&#x200B;を選択します。
 * _[!UICONTROL Forms]_ リストページから、_詳細_ （**...**）をクリックします フォーム名の横にあるアイコンをクリックし、**[!UICONTROL 複製]**&#x200B;を選択します。
 
-![&#x200B; フォームを複製](./assets/form-list-page-duplicate.png){width="450"}
+![ フォームを複製](./assets/form-list-page-duplicate.png){width="450"}
 
 ダイアログで、便利な名前（一意）と説明を入力します。 「**[!UICONTROL 複製]**」をクリックして、アクションを完了します。
 
@@ -243,7 +249,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 1. 名前や説明などの詳細を変更します。
 
-   ![&#x200B; ドラフトステータスを持つフォームの詳細](./assets/form-details-draft.png){width="600" zoomable="yes"}
+   ![ ドラフトステータスを持つフォームの詳細](./assets/form-details-draft.png){width="600" zoomable="yes"}
 
 1. ビジュアルデザイン空間でフォームに変更を加えるには、**[!UICONTROL フォームを編集]**&#x200B;をクリックします。
 
@@ -269,7 +275,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 1. ダイアログで「**[!UICONTROL ドラフトバージョンを作成]**」をクリックして、ビジュアルデザインスペースでドラフトバージョンを開きます。
 
-   ![下書きバージョンの作成ダイアログ &#x200B;](./assets/form-published-edit-create-draft-dialog.png){width="400"}
+   ![下書きバージョンの作成ダイアログ ](./assets/form-published-edit-create-draft-dialog.png){width="400"}
 
 1. 必要に応じてビジュアルデザインツールを使用して、フォームコンテンツを更新します。
 
@@ -293,7 +299,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
    下書きバージョンのフォームコンテンツのプレビューが表示され、フォームの詳細が右側に表示されます。
 
-   ![&#x200B; フォームドラフトバージョンを編集](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
+   ![ フォームドラフトバージョンを編集](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
 1. 右側の&#x200B;_[!UICONTROL 概要]_ ペインで「**[!UICONTROL フォームを編集]**」をクリックし、必要に応じてビジュアルデザインツールを使用します。
 
@@ -313,7 +319,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 ## ランディングページまたはテンプレートへのフォームの追加 {#insert-forms}
 
-Formsは再利用を目的として設計されており、[&#x200B; ランディングページ &#x200B;](./landing-page-design.md)または[&#x200B; ランディングページテンプレート &#x200B;](./landing-page-templates.md)をデザインするときに挿入できます。
+Formsは再利用を目的として設計されており、[ ランディングページ ](./landing-page-design.md)または[ ランディングページテンプレート ](./landing-page-templates.md)をデザインするときに挿入できます。
 
 {{$include /help/_includes/content-design-add-forms.md}}
 

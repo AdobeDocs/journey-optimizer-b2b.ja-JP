@@ -1,35 +1,46 @@
 ---
 title: アクセシブルなコンテンツのデザイン
-description: Journey Optimizer B2B editionで、メールやランディングページにアクセシブルなコンテンツをデザインする方法を説明します
+description: Journey Optimizer B2B Editionで、メールやランディングページにアクセシブルなコンテンツをデザインする方法を説明します
 feature: Email Authoring, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
+autotag-review: '2026-03-30T22:11:25.228Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-autotag-review: '2026-03-30T22:11:25.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+    internal-label: Accessibility
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1751'
 ht-degree: 48%
-
 ---
-
 # アクセシブルなコンテンツのデザイン {#accessible-content}
 
 [欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}は、加盟国間で異なる国のルールによって生じる障壁を排除することで、アクセス可能な製品およびサービスの内部市場を強化することを目的とした指令です。
@@ -40,36 +51,35 @@ ht-degree: 48%
 
 次の節では、[!DNL Journey Optimizer B2B Edition]でアクセス可能なコンテンツを設計するためのベストプラクティスの概要を説明します。 この情報は、すべての受信者がアクセスできるコンテンツを設計することに重点を置いています。これにより、障害のあるユーザーがメールメッセージやランディングページを読み、理解し、操作できるようになります。
  
-
 ## テキストの読みやすさの確保 {#text-readability}
 
 **[!UICONTROL テキスト]** コンポーネントの「**[!UICONTROL スタイル]**」タブを活用して、適切なカラーコントラストやシンプルなフォントを使用するなど、テキストが読みやすいようにします。 テキストコンポーネントのスタイル設定について詳しくは、[_コンテンツコンポーネント_](content-components.md#text)&#x200B;を参照してください
 
-フォント、サイズ、およびカラーオプションを表示する![&#x200B; テキストコンポーネントスタイル タブ &#x200B;](assets/accessible-text-styles.png){width="700" zoomable="yes"}
+フォント、サイズ、およびカラーオプションを表示する![ テキストコンポーネントスタイル タブ ](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 フォントとテキストについては、次のガイドラインに従います。
 
 ### フォント選択
 
 * Arial、Verdana、Tahoma、Helvetica、Open Sansなどのサンセリフフォントを使用します。
-* 本文コンテンツには、セリフ体、筆記体、装飾体のフォントを回避します。
+* 本文コンテンツでは、セリフ体、筆記体、装飾体のフォントは使用しないでください。
 * 一貫性とフォールバックのために、限定的なフォントセットに固定します（例：`font-family: Arial, Helvetica, sans-serif;`）。
 
 ### フォントサイズ
 
-* 本文のフォントサイズは 16 px 以上を確保します。
+* 本文のフォントサイズは 16 px 以上にしてください。
 * 見出しに適切な階層を使用します。
 
 ### カラーコントラスト
 
 * テキストと背景の間のコントラスト比を 4.5:1 以上に維持します。
 * 大きなテキスト（24 px 以上または太字 18 px）の場合は、3:1 以上のコントラストを確保します。
-* 白い背景では、ライトグレーまたはパステルのテキストは回避します。
+* 白い背景では、ライトグレーやパステルカラーのテキストは使用しないでください。
 * 意味を伝えるのに色だけに依存するのではなく、下線やアイコンなどを使用します。
 
 ### テキストアクセシビリティ
 
-* 画像内のテキストは回避します。
+* 画像内にテキストを配置しないでください。
 * 本文では大文字を使用しないでください。
 * レイアウトを崩すことなく、テキストを最大200%まで拡大できることを確認します。
 
@@ -78,19 +88,19 @@ ht-degree: 48%
 コンテンツに視覚的にアクセスできるようにするには、次のベストプラクティスに従ってください。
 
 * 重要な情報に対しては色のみのインジケーターの使用は回避します。
-* テキストラベルまたはアイコンを使用して、明確さを確保します。
-* ボタンが大きく、適切な間隔が空いていることを確保して、モバイルおよびレスポンシブレイアウト向けにデザインを最適化します。
+* テキストラベルやアイコンを使用して、わかりやすくしてください。
+* モバイルおよびレスポンシブレイアウト向けにデザインを最適化し、ボタンが大きく適切な間隔で配置されるようにしてください。
 * デバイスや画面サイズをまたいで定期的にテストすることで、アクセシビリティを維持します。
 
 [!DNL Journey Optimizer B2B Edition]では、ビジュアルデザインスペース **[!UICONTROL スタイル]** ペインのスタイルパラメーターと属性を使用して、コンテンツ内の様々な要素のサイズと間隔をさらに調整できます。
 
 例えば、背景を更新したり、余白、パディング、整列を変更して、コンテンツの視覚的なアクセシビリティを向上させることができます。
 
-![背景、余白、パディング、整列の設定を含むスタイルペイン &#x200B;](assets/accessible-styles.png){width="700" zoomable="yes"}
+![背景、余白、パディング、整列の設定を含むスタイルペイン ](assets/accessible-styles.png){width="700" zoomable="yes"}
 
 [!DNL Journey Optimizer B2B Edition]のビジュアルデザインツールを使用すると、様々なデバイスと画面サイズに合わせてデザインをプレビューし、最適化できます。 いつでも、**[!UICONTROL ライブビューに切り替える]**&#x200B;して、様々なデバイスサイズでコンテンツがどのようにレンダリングされるかを確認できます。
 
-デスクトップ、タブレット、モバイルのプレビューオプションを表示する![&#x200B; ライブビュー切り替えスイッチ &#x200B;](assets/accessible-live-view.png){width="700" zoomable="yes"}
+デスクトップ、タブレット、モバイルのプレビューオプションを表示する![ ライブビュー切り替えスイッチ ](assets/accessible-live-view.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
@@ -100,7 +110,7 @@ ht-degree: 48%
 
 **[!UICONTROL 画像]**&#x200B;コンポーネントを使用して、画像用の代替テキストを指定します。 画像コンポーネント設定について詳しくは、[_コンテンツコンポーネント_](content-components.md#image)&#x200B;を参照してください
 
-![代替テキストフィールドが強調表示された画像コンポーネント設定パネル &#x200B;](assets/accessible-alt-text.png){width="700" zoomable="yes"}
+![代替テキストフィールドが強調表示された画像コンポーネント設定パネル ](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
 デジタル製品の効果的な代替テキストを作成するには、次のガイドラインに従います。
 
@@ -110,9 +120,9 @@ ht-degree: 48%
 
 ## 読み取り可能な形式の使用 {#readable-format}
 
-ビジュアルデザイン分野では、関連する[構造](structure-components.md)と[&#x200B; コンテンツ &#x200B;](content-components.md) コンポーネントを使用して、すべての人がアクセスできる明確かつ論理的で簡潔な方法でコンテンツを整理します。 構造的継承のベストプラクティスを使用して、**[!UICONTROL スタイル]** ペインでオプションを設定します。
+ビジュアルデザイン分野では、関連する[構造](structure-components.md)と[ コンテンツ ](content-components.md) コンポーネントを使用して、すべての人がアクセスできる明確かつ論理的で簡潔な方法でコンテンツを整理します。 構造的継承のベストプラクティスを使用して、**[!UICONTROL スタイル]** ペインでオプションを設定します。
 
-![構造化レイアウトの構造とコンテンツコンポーネントを表示する電子メールデザインスペース &#x200B;](assets/accessible-components.png){width="700" zoomable="yes"}
+![構造化レイアウトの構造とコンテンツコンポーネントを表示する電子メールデザインスペース ](assets/accessible-components.png){width="700" zoomable="yes"}
 
 * 適切な見出し、段落、リスト、テーブルを含む、構造化されたセマンティック HTML を使用します。
 * コンテンツが左から右、上から下の論理的なフローに従っていることを確認します。
@@ -129,7 +139,7 @@ ht-degree: 48%
 * 能動態を使用して、文の構造をよりシンプルに保持します。
 * 一部の人が理解していないようなスラングや専門用語、地域用語は避けましょう。
 
-コンテンツの読みやすさを評価するには、Microsoft Wordで人気の[&#x200B; フレッシュ読みやすさテスト &#x200B;](https://support.microsoft.com/ja-jp/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}を使用します。 コンテンツの読みやすさを0～100のスケールで計算します。
+コンテンツの読みやすさを評価するには、Microsoft Wordで人気の[ フレッシュ読みやすさテスト ](https://support.microsoft.com/ja-jp/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}を使用します。 コンテンツの読みやすさを0～100のスケールで計算します。
 
 ## コンテンツのテスト {#test}
 
@@ -137,11 +147,11 @@ ht-degree: 48%
 
 * テストプロファイルを使用してコンテンツをプレビューします。
 
-* Litmusを活用した[&#x200B; メールのレンダリング &#x200B;](email-test-rendering.md) オプションを使用して、主要な電子メールクライアント（Apple Mail、Gmail、Outlook）でデザインをシミュレートし、テキスト、色、画像がコンテンツにアクセス可能かどうかを確認します。
+* Litmusを活用した[ メールのレンダリング ](email-test-rendering.md) オプションを使用して、主要な電子メールクライアント（Apple Mail、Gmail、Outlook）でデザインをシミュレートし、テキスト、色、画像がコンテンツにアクセス可能かどうかを確認します。
 
 * 実際のオーディエンスに送信する前に、コンテンツのレンダリングをテストする本配信前確認を送信します。
 
-![&#x200B; テストプロファイルのプレビューオプションを備えたコンテンツシミュレーションインターフェイス &#x200B;](assets/accessible-simulate.png){width="800" zoomable="yes"}
+![ テストプロファイルのプレビューオプションを備えたコンテンツシミュレーションインターフェイス ](assets/accessible-simulate.png){width="800" zoomable="yes"}
 
 より一貫性のある方法でコンテンツに確実にアクセスできるかどうかを確認するには、次のような外部ツールを使用します。
 
@@ -153,7 +163,7 @@ ht-degree: 48%
 
 ダークモードは、光に敏感なユーザーや視覚障害のあるユーザーの視覚的なアクセシビリティを強化し、視聴エクスペリエンスを向上させます。
 
-![&#x200B; ダークモードの設定をデザイン &#x200B;](assets/email-color-mode-dark-text-settings.png){width="700" zoomable="yes"}
+![ ダークモードの設定をデザイン ](assets/email-color-mode-dark-text-settings.png){width="700" zoomable="yes"}
 
 ダークモードのデザインでは、透明なPNG画像またはSVG画像を使用し、適切なメタタグとCSSを設定します。 ダークモードがサポートされていない場合は、アクセスできるフォールバックスタイル設定を指定します。 最後に、すべてのコンテンツとUI要素を明るいモードと暗いモードの両方でテストします。
 
@@ -271,7 +281,7 @@ HTML コンテンツでは、多くの場合、レイアウトにテーブルが
 
 デザインツールを使用して、コンテンツにリンクを追加し、ラベルを編集して、識別しやすく（表示しやすく）、説明的に（目的を明確に）表示します。 _ここ_&#x200B;や&#x200B;_詳細_&#x200B;などの曖昧なラベルは使用しないでください。
 
-![URL フィールドと説明ラベルオプションを表示するリンク設定パネル &#x200B;](assets/accessible-link.png){width="700" zoomable="yes"}
+![URL フィールドと説明ラベルオプションを表示するリンク設定パネル ](assets/accessible-link.png){width="700" zoomable="yes"}
 
 +++例 - 良いリンク（説明的）： 
 
@@ -304,27 +314,27 @@ HTML コンテンツでは、多くの場合、レイアウトにテーブルが
 ランディングページでは、キーボードナビゲーションとフォーカスサポートを提供することで、マウスを使用できないユーザーがコンテンツにアクセスして操作できるようにします。 また、すべてのユーザーに明確で一貫性のある情報移動方法を提供することで、全体的なユーザビリティも向上します。
 
 * キーボード操作とフォーカス
-   * すべてのインタラクティブ要素（ボタン、チェックボックス、リンクなど）に`tabindex="0"`が含まれていることを確認し、これらの要素が自然なタブの順序に含まれます。
-   * タブキーと矢印キー（↑ ↓ ← →）を使用してナビゲーションを許可します。これにより、フォーカスされた要素が明確にハイライトされます。
+  * すべてのインタラクティブ要素（ボタン、チェックボックス、リンクなど）に`tabindex="0"`が含まれていることを確認し、これらの要素が自然なタブの順序に含まれます。
+  * タブキーと矢印キー（↑ ↓ ← →）を使用してナビゲーションを許可します。これにより、フォーカスされた要素が明確にハイライトされます。
 * カスタムフォーカススタイル
-   * 実用的な要素にフォーカスさせるには、明確で識別可能なスタイルを適用します。
-     +++例（CSS）
+  * アクション可能な要素にフォーカスが当たるよう、明確で識別しやすいスタイルを適用します。
+    +++例（CSS）
 
-     ```
-     [tabindex="0"] : focus { 
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     background-color: #20CEFF;   /* Optional background */ 
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    background-color: #20CEFF;   /* Optional background */ 
+    }
+    ```
 
-     +++
+    +++
 
-   * 以下のようなフォーカスインジケーターがWCAG 2.2のフォーカスアピアランス基準を満たしていることを確認します。
-      * 最小領域：2 CSS ピクセルの太さのアウトライン。
-      * コントラスト比：コントラスト比：フォーカス状態と非フォーカス状態の 3:1 以上。
+  * 以下のようなフォーカスインジケーターがWCAG 2.2のフォーカスアピアランス基準を満たしていることを確認します。
+    * 最小領域：2 CSS ピクセルの太さのアウトライン。
+    * コントラスト比：コントラスト比：フォーカス状態と非フォーカス状態の 3:1 以上。
 
 * キーボードアクティブ化サポート
-   * チェックボックスとボタンが Enter キーと Space キーに応答することを確認します。
-   * キーボードのみを使用して操作を検証します。
-      * Enter キーまたは Space キーを押すと、チェックボックスが切り替わります。
-      * Enter キーまたはSpace キーを押してボタンをトリガーします。
+  * チェックボックスとボタンが Enter キーと Space キーに応答することを確認します。
+  * キーボードのみを使用して操作を検証します。
+    * Enter キーまたは Space キーを押すと、チェックボックスが切り替わります。
+    * Enter キーまたはSpace キーを押してボタンをトリガーします。

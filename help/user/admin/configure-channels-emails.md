@@ -1,40 +1,50 @@
 ---
 title: メールチャネル設定
-description: Journey Optimizer B2B editionでの配信品質を最適化するために、メール配信の設定、通信制限、認証プロトコルを設定します。
+description: Adobe Journey Optimizer B2B Edition での配信品質を最適化するために、メール配信の設定、通信制限、認証プロトコルを設定します。
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+autotag-review: 2026-03-27T22:54:31.660Z
+TQID: 'https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:54:31.660Z
-TQID: https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: '1787'
 ht-degree: 97%
-
 ---
-
 # メールチャネル設定
 
-Adobe Journey Optimizer B2B editionは、Marketo Engageのチャネル関数とイベントトラッキングを活用します。 管理者は、マーケターに対してチャネル配信を有効にするために、配信とトラッキングの設定が適切に行われていることを確認する必要があります。 Marketo Engageを介したメール配信およびトラッキングに必要なプロトコルについては、[&#x200B; トラッキングとメール配信のプロトコル &#x200B;](../start/email-protocols.md) を参照してください。
+Adobe Journey Optimizer B2B Edition は、Marketo Engage のチャネル関数とイベントトラッキングを活用します。 管理者は、マーケターに対してチャネル配信を有効にするために、配信とトラッキングの設定が適切に行われていることを確認する必要があります。 Marketo Engageを介したメール配信およびトラッキングに必要なプロトコルについては、[ トラッキングとメール配信のプロトコル ](../start/email-protocols.md) を参照してください。
 
 ## 配信設定
 
 デフォルトのメール設定は、マーケターがアカウントジャーニーでメールを作成する際に使用されます。 メール配信設定を確認するには、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]** に移動します。 ナビゲーションパネルの _[!UICONTROL メール]_ の下にある **[!UICONTROL 配信設定]** を選択します。
 
-![&#x200B; メール配信設定へのアクセス &#x200B;](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
+![ メール配信設定へのアクセス ](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
 
-これらの設定は、Journey Optimizer B2B editionでは読み取り専用です。 右上の **[!UICONTROL 設定を編集]** をクリックして、接続されたMarketo Engage インスタンスの設定オプションにアクセスします。
+これらの設定は、Journey Optimizer B2B Edition では読み取り専用です。 右上の **[!UICONTROL 設定を編集]** をクリックして、接続されたMarketo Engage インスタンスの設定オプションにアクセスします。
 
 >[!NOTE]
 >
@@ -42,9 +52,9 @@ Adobe Journey Optimizer B2B editionは、Marketo Engageのチャネル関数と�
 
 現在の設定をレビューするには、次の各タブを選択します。
 
-### [!UICONTROL &#x200B; メールヘッダーパラメーター &#x200B;] {#email-header}
+### [!UICONTROL  メールヘッダーパラメーター ] {#email-header}
 
-メールヘッダーパラメーターでは、次のデフォルト値を定義します。
+メールヘッダーパラメーターでは、次の項目のデフォルト値が定義されます。
 
 * **[!UICONTROL 送信元メール]** - メールヘッダーの _送信元_ フィールドにリストされているメールアドレス。
 
@@ -58,23 +68,23 @@ Adobe Journey Optimizer B2B editionは、Marketo Engageのチャネル関数と�
 
 * **[!UICONTROL Web ページテキストとして表示]** - _Web ページとして表示_ に使用されるプレーンテキスト。ブラウザーにメールを表示するためのリンクを提供します。
 
-### [!UICONTROL &#x200B; ブランディングドメイン &#x200B;] {#branding-domains}
+### [!UICONTROL  ブランディングドメイン ] {#branding-domains}
 
 ブランディングドメインを確認するには、「**[!UICONTROL ブランディングドメイン]**」タブをクリックします。
 
-![&#x200B; ブランディングドメイン設定へのアクセス &#x200B;](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
+![ ブランディングドメイン設定へのアクセス ](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-この設定は、接続されたMarketo Engage インスタンス内の 1 つ以上のワークスペースのプライマリドメインを定義します。 新しいメールではデフォルトとしてこのドメインが使用されますが、マーケターは [&#x200B; メールごとに上書き &#x200B;](../content/add-email.md#define-the-email-settings) できます。 デフォルトのブランディングドメインの定義について詳しくは、[Marketo Engage ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"} を参照してください。
+この設定は、接続されたMarketo Engage インスタンス内の 1 つ以上のワークスペースのプライマリドメインを定義します。 新しいメールではデフォルトとしてこのドメインが使用されますが、マーケターは [ メールごとに上書き ](../content/add-email.md#define-the-email-settings) できます。 デフォルトのブランディングドメインの定義について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
->複数のブランドをマーケティングし、それぞれに独自のブランドトラッキングリンクを設定する場合は、ブランディングドメインを追加できます。 複数のブランディングドメインの追加について詳しくは、[Marketo Engage ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"} を参照してください。
+>複数のブランドをマーケティングし、それぞれに独自のブランドトラッキングリンクを設定する場合は、ブランディングドメインを追加できます。 複数のブランディングドメインの追加について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"} を参照してください。
 
-### [!UICONTROL &#x200B; カスタムヘッダーオプション &#x200B;] {#custom-header-options}
+### [!UICONTROL  カスタムヘッダーオプション ] {#custom-header-options}
 
 カスタムヘッダーオプションを確認するには、「**[!UICONTROL カスタムヘッダーオプション]**」タブをクリックします。
 
-![&#x200B; カスタムヘッダーオプションへのアクセス &#x200B;](./assets/config-email-delivery-custom-header.png){width="700" zoomable="yes"}
+![ カスタムヘッダーオプションへのアクセス ](./assets/config-email-delivery-custom-header.png){width="700" zoomable="yes"}
 
 _[!UICONTROL Strict Transport Security]_ が有効な場合は、トラッキングリンクが HTTPS 経由で提供されることが保証されます（SSL で保護されたトラッキングリンクを含むサブスクリプションの場合のみ）。
 
@@ -84,11 +94,11 @@ _[!UICONTROL Strict Transport Security]_ が有効な場合は、トラッキン
 
 >[!AVAILABILITY]
 >
->Adobe サポートに問い合わせるか、サポートチケットを開いて、Journey Optimizer B2B editionと 1 つ以上のMarketo Engage インスタンス間の通信制限の共有を有効にします。
+>Adobe サポートに問い合わせるか、サポートチケットを開いて、Journey Optimizer B2B Edition と 1 つ以上の Marketo Engage インスタンス間の通信制限の共有を有効にしてください。
 
 >[!BEGINSHADEBOX]
 
-![AEP権限アイコン &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、割り当てられたユーザーロールに対する次の[権限がExperience Platform](../admin/user-management.md#b2b-product-permissions)で必要です。
+![AEP権限アイコン ](../../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、割り当てられたユーザーロールに対する次の[権限がExperience Platform](../admin/user-management.md#b2b-product-permissions)で必要です。
 
 * **[!UICONTROL B2B チャネル設定]** - `Manage B2B Channels`
 * **[!UICONTROL Journey Optimizer ルール]** - `View Frequency Rules`および`Manage Frequency Rules`
@@ -97,15 +107,15 @@ _[!UICONTROL Strict Transport Security]_ が有効な場合は、トラッキン
 
 例えば、1 日に 5 通のメールという制限を定義した場合、システムは 6 通目のメールを抑制することで、1 人の連絡先が 1 日で 6 通目のメールを受信しないようにしています。 Journey Optimizer B2B editionとMarketo Engageの間で共有される通信制限を使用すると、通信制限ルールが 1 か所で定義されます。 Journey Optimizer B2B editionまたはMarketo Engageからの送信アクションに関係なく、6 番目のメールは抑制されます。
 
-すべてのMarketo Engage実稼動インスタンスには、デフォルトで通信制限が定義されています（詳しくは、[Marketo Engageのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} を参照）。 Journey Optimizer B2B editionと実稼動Marketo Engage インスタンスに対して、別々の通信制限を使用できます。 共有通信制限を使用するには、Journey Optimizer B2B editionでルールを定義し、それらの制限の共有をMarketo Munchkin コードまで拡張します。
+すべてのMarketo Engage実稼動インスタンスには、デフォルトで通信制限が定義されています（詳しくは、[Marketo Engageのドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} を参照）。 Journey Optimizer B2B Edition と本番稼働 Marketo Engage インスタンスに対して、別々の通信制限を使用できます。 共有通信制限を使用するには、Journey Optimizer B2B Edition でルールを定義し、それらの制限の共有を Marketo Munchkin コードまで拡張します。
 
 >[!IMPORTANT]
 >
->通信規則セットをMarketo Munchkin コードに拡張する場合は、Adobe アカウント管理チームにお問い合わせください。 この設定は、通常、オンボーディングプロセスの一部です。
+>コミュニケーションルールセットを Marketo Munchkin コードに拡張する場合は、Adobe アカウント管理チームにお問い合わせください。 この設定は、通常、オンボーディングプロセスの一部です。
 
 通信制限ルールを確認または設定するには、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]** に移動します。 ナビゲーションパネルの&#x200B;_[!UICONTROL 電子メール]_&#x200B;で、**[!UICONTROL 通信制限]**&#x200B;を選択します。
 
-![&#x200B; 通信制限の設定へのアクセス &#x200B;](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
+![ 通信制限の設定へのアクセス ](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
 デフォルトでは、グローバルルールセットがあり、必要に応じて複数のルールを定義、アクティブ化および非アクティブ化できます。 ルールセット名をクリックして、ルールリストを表示します。
 
@@ -113,7 +123,7 @@ _[!UICONTROL Strict Transport Security]_ が有効な場合は、トラッキン
 
 1. 右上の **[!UICONTROL ルールを作成]** をクリックします。
 
-   ![&#x200B; 通信制限の設定へのアクセス &#x200B;](./assets/config-email-communication-limits-create-rule-select.png){width="600" zoomable="yes"}
+   ![ 通信制限の設定へのアクセス ](./assets/config-email-communication-limits-create-rule-select.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL ルール名]** を入力します。
 
@@ -125,7 +135,7 @@ _[!UICONTROL Strict Transport Security]_ が有効な場合は、トラッキン
 
    _[!UICONTROL 時間別]_、_[!UICONTROL 日別]_、_[!UICONTROL 週別]_、_[!UICONTROL 月別]_ から選択できます。
 
-   ![&#x200B; 通信制限の設定へのアクセス &#x200B;](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
+   ![ 通信制限の設定へのアクセス ](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
 
 1. 期間に含める頻度単位の数に応じて、「**[!UICONTROL ごと]** の値を設定します。
 
@@ -139,13 +149,13 @@ _[!UICONTROL Strict Transport Security]_ が有効な場合は、トラッキン
 
 ルールが _ドラフト_ 状態にある限り、定義を編集したり、ルールを削除したりできます。 ルールを適用する場合は、そのルールをアクティブにします。 リストのドラフトルール名の横にある _その他メニュー_ （***...***）アイコンをクリックし、**[!UICONTROL アクティブ化]** を選択します。
 
-![&#x200B; ドラフト通信制限ルールの「詳細」メニューをクリックしてください &#x200B;](./assets/config-email-communication-limits-draft-more-menu.png){width="400" zoomable="yes"}
+![ ドラフト通信制限ルールの「詳細」メニューをクリックしてください ](./assets/config-email-communication-limits-draft-more-menu.png){width="400" zoomable="yes"}
 
 次に、確認ダイアログで **[!UICONTROL アクティブ化]** をクリックします。
 
-アクティブなルールは編集または削除できず、非アクティブ化のみ可能です。 適用された通信制限から削除するアクティブなルールの場合、アクティブなルール名の横にある _非アクティブ化_ （![&#x200B; 非アクティブ化アイコン &#x200B;](../assets/do-not-localize/icon-deactivate.svg)）アイコンをクリックします。
+アクティブなルールは編集または削除できず、非アクティブ化のみ可能です。 適用された通信制限から削除するアクティブなルールの場合、アクティブなルール名の横にある _非アクティブ化_ （![ 非アクティブ化アイコン ](../assets/do-not-localize/icon-deactivate.svg)）アイコンをクリックします。
 
-![&#x200B; アクティブな通信制限ルールの非アクティブ化アイコンをクリックする &#x200B;](./assets/config-email-communication-limits-active-deactivate.png){width="400" zoomable="yes"}
+![ アクティブな通信制限ルールの非アクティブ化アイコンをクリックする ](./assets/config-email-communication-limits-active-deactivate.png){width="400" zoomable="yes"}
 
 次に、確認ダイアログで **[!UICONTROL 非アクティブ化]** をクリックします。
 
@@ -153,13 +163,13 @@ _[!UICONTROL Strict Transport Security]_ が有効な場合は、トラッキン
 
 ## SPF/DKIM
 
-SPF （Sender Policy Framework）とDKIM（Domain Keys Identified Mail）を DNS 設定に組み込むことで、メール配信率を向上させます。 これらのテクノロジーは、メールがスパムではないことを受信者に保証します。 受信者のスパムフィルターがメールを拒否しないようにするには、ドメインに SPF とDKIMが設定されていることを確認します。
+SPF（Sender Policy Framework）と DKIM（Domain Keys Identified Mail）を DNS 設定に組み込んで、メール配信率を向上させましょう。 これらのテクノロジーは、メールがスパムではないことを受信者に保証します。 受信者のスパムフィルターがメールを拒否しないようにするには、ドメインに SPF と DKIM が設定されていることを確認します。
 
 現在の設定を確認するには、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]** に移動します。 ナビゲーションパネルの _[!UICONTROL メール]_ の下で **[!UICONTROL SPF/DKIM]** を選択します。
 
-![SPF/DKIM設定へのアクセス &#x200B;](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
+![SPF/DKIM設定へのアクセス ](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
-これらの設定は、Journey Optimizer B2B editionでは読み取り専用です。 右上の **[!UICONTROL 設定を編集]** をクリックして、接続されたMarketo Engage インスタンスの設定オプションにアクセスします。
+これらの設定は、Journey Optimizer B2B Edition では読み取り専用です。 右上の **[!UICONTROL 設定を編集]** をクリックして、接続されたMarketo Engage インスタンスの設定オプションにアクセスします。
 
 >[!NOTE]
 >
@@ -171,7 +181,7 @@ SPF （Sender Policy Framework）とDKIM（Domain Keys Identified Mail）を DNS
 
 `[domain] IN TXT v=spf1 mx ip4:[corpIP] include:mktomail.com ~all`
 
-このエントリでは、`[domain]` を web サイトのプライマリドメイン（`company.com` など）に、`[corpIP]` を企業のメールサーバーの IP アドレス（`255.255.255.255` など）に置き換えます。 Marketo Engageを通じて複数のドメインからメールを送信する場合、ドメインごとにこのエントリを 1 行に追加します。
+このエントリでは、`[domain]` を web サイトのプライマリドメイン（`company.com` など）に、`[corpIP]` を企業のメールサーバーの IP アドレス（`255.255.255.255` など）に置き換えます。 Marketo Engage を通じて複数のドメインからメールを送信する場合は、各ドメインについて、このエントリを 1 行にまとめて追加します。
 
 DNS エントリに既に SPF レコードが存在する場合は、次を追加します。
 
@@ -183,7 +193,7 @@ DKIMは、メール受信者がメールメッセージの送信者を検証す�
 
 DNS レコードに公開鍵があり、接続されたMarketo Engage インスタンスで送信側ドメインが有効になっている場合は、送信メッセージにカスタムDKIM署名が使用されます。 カスタム DKIM署名には、送信される各メールに暗号化されたデジタル署名が含まれます。 その後、受信者は、送信ドメインの DNS で _公開鍵_ を検索することで、デジタル署名を復号化できます。 メール内のキーが DNS レコード内のキーと一致する場合、受信側のメールサーバーはMarketo Engageを通じて送信されたメールを受け入れる可能性が高くなります。
 
-メール配信用のカスタム DKIM署名の設定について詳しくは、[Marketo Engage ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} を参照してください。
+メール配信用のカスタム DKIM署名の設定について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} を参照してください。
 
 ## ボットアクティビティ
 
@@ -195,12 +205,12 @@ Marketo Engageでは、ボットアクティビティの確認に次の 2 つの
 
 * **近接パターンと一致** - 2 つ以上のアクティビティが同時に（1 秒以内に）発生した場合、それらのアクティビティはボットとして識別されます。 このメソッドでは、比較のために次の属性を考慮します。
 
-   * リード ID（同じであること）
-   * メールアセット（同じであること）
-   * リンククリックまたはメール開封
-   * 時間差（1 秒未満であること）
+  * リード ID（同じであること）
+  * メールアセット（同じであること）
+  * リンククリックまたはメール開封
+  * 時間差（1 秒未満であること）
 
-メールリンクのクリックとメールの開封アクティビティの場合、新しい属性には次の値が入力されます。
+メールのリンククリックアクティビティとメールの開封アクティビティの場合、新しい属性には次の値が入力されます。
 
 * ボットとして識別されたアクティビティには、識別されたパターンやメソッドとして _ボットアクティビティ_ `True`、および _ボットアクティビティパターン_ があります。
 * ボットでないと識別されたアクティビティには、_ボットアクティビティ_ が `False` として、_ボットアクティビティパターン_ が `N/A` として含まれます。
@@ -208,12 +218,12 @@ Marketo Engageでは、ボットアクティビティの確認に次の 2 つの
 
 現在の設定を確認するには、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]** に移動します。 ナビゲーションパネルの _[!UICONTROL メール]_ の下にある **[!UICONTROL ボットアクティビティ]** を選択します。
 
-![&#x200B; メール配信用のボットアクティビティ設定へのアクセス &#x200B;](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
+![ メール配信用のボットアクティビティ設定へのアクセス ](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 
-これらの設定は、Journey Optimizer B2B editionでは読み取り専用です。 右上の **[!UICONTROL 設定を編集]** をクリックして、接続されたMarketo Engage インスタンスの設定オプションにアクセスします。
+これらの設定は、Journey Optimizer B2B Edition では読み取り専用です。 右上の **[!UICONTROL 設定を編集]** をクリックして、接続されたMarketo Engage インスタンスの設定オプションにアクセスします。
 
 >[!NOTE]
 >
 >Adobe Marketo Engageのこれらの設定にアクセスして編集するには、製品管理者権限が必要です。
 
-ボットアクティビティオプションの設定について詳しくは、[Marketo Engage ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"} を参照してください。
+ボットアクティビティオプションの設定について詳しくは、[Marketo Engage ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"} を参照してください。

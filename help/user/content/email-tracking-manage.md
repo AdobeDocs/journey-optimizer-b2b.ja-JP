@@ -19,9 +19,13 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
     internal-label: Email channel
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,7 +34,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ec55e33d1db9aa7ecf488e2898564f89df702789
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%
@@ -63,13 +69,13 @@ ht-degree: 0%
 
 ## トラッキング設定で利用者をセグメンテーション {#segment-people-tracking-preference}
 
-各ユーザーに電子メールの開封率を追跡させるかどうかを指定する場合は、その設定をAdobe Experience Platform（AEP）のユーザー属性として取得します。 このフィールドを[&#x200B; ランディングページフォーム &#x200B;](./forms.md)で使用すると、連絡先がメール開封トラッキングをオプトアウトする機会を得ることができます。 その後、ジャーニーで&#x200B;_パスを分割_ ノードを使用して、トラッキングとトラッキング以外のユーザーを様々なメールバリエーションにルーティングできます。 これにより、すべての人に対してオープンなトラッキングを無効にすることなく、個々のオプトアウトを尊重することができます。
+各ユーザーに電子メールの開封率を追跡させるかどうかを指定する場合は、その設定をAdobe Experience Platform（AEP）のユーザー属性として取得します。 このフィールドを[ ランディングページフォーム ](./forms.md)で使用すると、連絡先がメール開封トラッキングをオプトアウトする機会を得ることができます。 その後、ジャーニーで&#x200B;_パスを分割_ ノードを使用して、トラッキングとトラッキング以外のユーザーを様々なメールバリエーションにルーティングできます。 これにより、すべての人に対してオープンなトラッキングを無効にすることなく、個々のオプトアウトを尊重することができます。
 
 このワークフローは、次の3つの部分で構成されています。
 
 1. [AEPで環境設定をトラッキングするためのカスタムフィールドを追加し](#add-custom-field-tracking-preference)、フォームリンクを使用してオプトアウトコミュニケーションを送信します。
-1. [&#x200B; ジャーニー内のオプトアウト &#x200B;](#add-split-path-tracking)を追跡するための分割パスを追加します。
-1. [各パスに対して、トラッキングとトラッキング以外のメールのバリエーション &#x200B;](#configure-tracking-and-non-tracking-email-variants)を設定します。
+1. [ ジャーニー内のオプトアウト ](#add-split-path-tracking)を追跡するための分割パスを追加します。
+1. [各パスに対して、トラッキングとトラッキング以外のメールのバリエーション ](#configure-tracking-and-non-tracking-email-variants)を設定します。
 
 ### トラッキング環境設定のカスタムフィールドを追加 {#add-custom-field-tracking-preference}
 
@@ -97,29 +103,29 @@ ht-degree: 0%
 
 ### オプトアウトを追跡するための分割パスの追加 {#add-split-path-tracking}
 
-ジャーニーに&#x200B;[_人ごとにパスを分割_ ノード &#x200B;](../journeys/split-merge-paths-nodes.md#split-paths-by-people)し、各トラッキング設定値のパスを定義します。
+ジャーニーに&#x200B;[_人ごとにパスを分割_ ノード ](../journeys/split-merge-paths-nodes.md#split-paths-by-people)し、各トラッキング設定値のパスを定義します。
 
 1. **[!UICONTROL パスを分割]** ノードを追加し、分割に&#x200B;**[!UICONTROL 人]**&#x200B;を選択します。
 
 1. 最初のパスでは、カスタムトラッキング環境設定フィールドを使用して条件を適用し（例：`emailTracking` is `true`）、オープントラッキングを許可するユーザーを特定します。
 
-   ![&#x200B; パスを分割する条件 – メールトラッキングフィールドをtrueとして追加](./assets/email-tracking-condition-true.png){width="700" zoomable="yes"}
+   ![ パスを分割する条件 – メールトラッキングフィールドをtrueとして追加](./assets/email-tracking-condition-true.png){width="700" zoomable="yes"}
 
 1. 2つ目のパスを追加し、トラッキングをオプトアウトしたユーザーを識別するために逆条件（`emailTracking` is `false`）を適用します。
 
    パスの追加、条件の適用、パスの並べ替えについての一般的な手順については、[人物ノードによる分割パスの追加](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node)を参照してください。
 
-   ![&#x200B; パスをユーザー別に分割 – 条件のオンとオフを追跡する電子メール &#x200B;](./assets/email-tracking-split-paths.png){width="500" zoomable="yes"}
+   ![ パスをユーザー別に分割 – 条件のオンとオフを追跡する電子メール ](./assets/email-tracking-split-paths.png){width="500" zoomable="yes"}
 
 ### トラッキングとトラッキング以外のメールのバリエーションを設定する {#configure-tracking-and-non-tracking-email-variants}
 
-各パスに[_[!UICONTROL &#x200B; メール送信&#x200B;]_&#x200B;アクションノード &#x200B;](./add-email.md)を追加して、すべてのユーザーがトラッキング設定に一致するメールバリアントを受信できるようにします。
+各パスに[_[!UICONTROL  メール送信&#x200B;]_アクションノード ](./add-email.md)を追加して、すべてのユーザーがトラッキング設定に一致するメールバリアントを受信できるようにします。
 
 1. トラッキングが有効なパスで、**[!UICONTROL メールを送信]** アクションを追加し、通常どおりメールを選択または作成します。メールのプロパティで&#x200B;**[!UICONTROL 開封トラッキングを無効にする]**&#x200B;がクリアされたままになります。
 
 1. オプトアウトパスで、同じ電子メールまたは重複した電子メールを使用して&#x200B;**[!UICONTROL 電子メールを送信]** アクションを追加し、右側の電子メールプロパティで「**[!UICONTROL 開封トラッキングを無効にする]**」チェックボックスを選択します。
 
-   ![&#x200B; パスをトラッキングするための電子メール – オープン トラッキングを無効にする](./assets/email-tracking-disable.png){width="600" zoomable="yes"}
+   ![ パスをトラッキングするための電子メール – オープン トラッキングを無効にする](./assets/email-tracking-disable.png){width="600" zoomable="yes"}
 
 1. [ジャーニーを公開します](../journeys/create-publish-journey.md#publish-a-journey)。
 

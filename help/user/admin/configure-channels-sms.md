@@ -1,40 +1,48 @@
 ---
 title: SMS チャネル設定
-description: Sinch、Twilio、InfobipなどのSMS プロバイダーにAPI資格情報を接続して、Journey Optimizer B2B editionジャーニーでテキストメッセージを有効にします。
+description: Sinch、Twilio、InfobipなどのSMS プロバイダーとAPI資格情報を接続して、Journey Optimizer B2B Editionジャーニーでテキストメッセージを有効にできます。
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
+autotag-review: 2026-03-27T22:56:54.661Z
+TQID: 'https://experienceleague.adobe.com/JTGUye7nh2sAbpPvqgRNYfkWZtRJCjsvSi3DuOioD-U'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:56:54.661Z
-TQID: https://experienceleague.adobe.com/JTGUye7nh2sAbpPvqgRNYfkWZtRJCjsvSi3DuOioD-U
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 5%
-
 ---
-
 # SMS チャネル設定
 
-Adobe Journey Optimizer B2B editionは、SMS サービスプロバイダー（またはSMS ゲートウェイプロバイダー）を介してテキストメッセージを送信します。 SMS メッセージを作成する前に、_管理者_&#x200B;設定からサービスプロバイダーを設定します。
+Adobe Journey Optimizer B2B Editionは、SMS サービスプロバイダー（またはSMS ゲートウェイプロバイダー）を介してテキストメッセージを送信します。 SMS メッセージを作成する前に、_管理者_&#x200B;設定からサービスプロバイダーを設定します。
 
 ## SMS ゲートウェイサービスプロバイダー
 
-Adobe Journey Optimizer B2B editionは現在、テキストメッセージングサービスを独自に提供するサードパーティプロバイダーと統合されています。 テキストメッセージでサポートされるプロバイダーは、Sinch、Twilio、Infobipです。
+Adobe Journey Optimizer B2B Editionは現在、テキストメッセージングサービスを独自に提供するサードパーティプロバイダーと統合しています。 テキストメッセージでサポートされるプロバイダーは、Sinch、Twilio、Infobipです。
 
-Adobe Journey Optimizer B2B editionでSMS チャネルを設定する前に、API トークンとサービス IDを取得するには、これらのプロバイダーのいずれかを使用してアカウントを作成する必要があります。 これらの資格情報は、Adobe Journey Optimizer B2B editionと該当するプロバイダーとの間の接続を設定するために必要です。
+Adobe Journey Optimizer B2B EditionでSMS チャネルを設定する前に、API トークンとサービス IDを取得するには、これらのプロバイダーのいずれかを使用してアカウントを作成する必要があります。 これらの資格情報は、Adobe Journey Optimizer B2B Editionと該当するプロバイダーとの間の接続を設定するために必要です。
 
 >[!IMPORTANT]
 >
->テキストメッセージサービスを使用した場合、該当するプロバイダーが定める追加の利用条件に同意したとみなされます。 サードパーティソリューションとして、Sinch、Twilio、Infobipは、Adobe Journey Optimizer B2B editionのユーザーが統合を通じて利用できます。 サードパーティ製品について、アドビは一切関係せず、責任も負いません。 テキストメッセージングサービス（SMS）に関連する問題やサポートのリクエストについては、プロバイダーにお問い合わせください。
+>テキストメッセージサービスの利用には、該当するプロバイダーが定める追加の利用条件が適用されます。 サードパーティソリューションとして、Sinch、Twilio、Infobipは、Adobe Journey Optimizer B2B Editionユーザーが統合を通じて利用できます。 サードパーティ製品について、アドビは管理しておらず、責任も負いません。 テキストメッセージングサービス（SMS）に関連する問題やサポートのリクエストについては、プロバイダーにお問い合わせください。
 
 ## 既存のSMS API設定の検証
 
@@ -44,15 +52,15 @@ Adobe Journey Optimizer B2B editionでSMS チャネルを設定する前に、AP
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]** セクションを展開し、**[!UICONTROL チャネル]**&#x200B;をクリックします。
 
-   ![SMS API資格情報の設定にアクセス &#x200B;](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![SMS API資格情報の設定にアクセス ](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
 1. ナビゲーションパネルで、**[!UICONTROL API資格情報]**&#x200B;を選択します。
 
    このページには、インスタンスで使用可能なAPI設定が一覧表示されます。
 
-1. 必要に応じて、_フィルター_ アイコン（![&#x200B; フィルターの表示または非表示アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）をクリックし、オプションを選択して、SMS サービスプロバイダーまたは作成者が設定したAPI資格情報のリストを表示します。
+1. 必要に応じて、_フィルター_ アイコン（![ フィルターの表示または非表示アイコン ](../assets/do-not-localize/icon-filter.svg)）をクリックし、オプションを選択して、SMS サービスプロバイダーまたは作成者が設定したAPI資格情報のリストを表示します。
 
-   ![&#x200B; フィルターアイコンをクリックして、API資格情報のリストを絞り込む](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
+   ![ フィルターアイコンをクリックして、API資格情報のリストを絞り込む](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ## SMS サービスプロバイダーの新しいAPI資格情報の作成
 
@@ -60,7 +68,7 @@ Adobe Journey Optimizer B2B editionでSMS チャネルを設定する前に、AP
 
 >[!TAB  シンチ ]
 
-_Adobe Journey Optimizer B2B editionを使用してSinchをSMS プロバイダーとして設定するには&#x200B;:_
+_Adobe Journey Optimizer B2B Editionを使用してSinchをSMS プロバイダーとして設定するには&#x200B;:_
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理者]** セクションを展開し、**[!UICONTROL 設定]**&#x200B;をクリックします。
 
@@ -76,13 +84,13 @@ _Adobe Journey Optimizer B2B editionを使用してSinchをSMS プロバイダ�
 
    * **[!UICONTROL サービス ID]**&#x200B;および&#x200B;**[!UICONTROL API トークン]** - Sinch アカウントからAPI ページにアクセスします（SMS タブで資格情報を確認できます）。
 
-   Sinch アカウントでこの情報を見つける方法について詳しくは、[Sinch開発者ドキュメント &#x200B;](https://developers.sinch.com/docs/sms/getting-started)を参照してください
+   Sinch アカウントでこの情報を見つける方法について詳しくは、[Sinch開発者ドキュメント ](https://developers.sinch.com/docs/sms/getting-started)を参照してください
 
 1. API資格情報の設定の詳細が完了したら、**[!UICONTROL 送信]**&#x200B;をクリックします。
 
 >[!TAB Twilio]
 
-_Adobe Journey Optimizer B2B editionを使用してTwilioをSMS プロバイダーとして設定するには&#x200B;:_
+_TwilioをAdobe Journey Optimizer B2B Edition :_を使用したSMS プロバイダーとして設定するには
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理者]** セクションを展開し、**[!UICONTROL 設定]**&#x200B;をクリックします。
 
@@ -104,7 +112,7 @@ _Adobe Journey Optimizer B2B editionを使用してTwilioをSMS プロバイダ�
 
 >[!TAB Infobip]
 
-_InfobipをAdobe Journey Optimizer B2B editionを使用したSMS プロバイダーとして設定するには&#x200B;:_
+_InfobipをAdobe Journey Optimizer B2B Edition :_を使用したSMS プロバイダーとして設定するには
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理者]** セクションを展開し、**[!UICONTROL 設定]**&#x200B;をクリックします。
 
@@ -120,7 +128,7 @@ _InfobipをAdobe Journey Optimizer B2B editionを使用したSMS プロバイダ
 
    * **[!UICONTROL API ベース URL]**&#x200B;と&#x200B;**[!UICONTROL API キー]** - Web インターフェイスのホームページまたはInfobip アカウントのAPI キー管理ページにアクセスして、資格情報を検索します。
 
-   お使いのInfobip アカウントでこの情報を見つける方法について詳しくは、[Infobip ドキュメント &#x200B;](https://www.infobip.com/docs/api/_blank)を参照してください。
+   お使いのInfobip アカウントでこの情報を見つける方法について詳しくは、[Infobip ドキュメント ](https://www.infobip.com/docs/api/_blank)を参照してください。
 
 1. API資格情報の設定の詳細が完了したら、ページの右上にある「**[!UICONTROL 送信]**」をクリックします。
 

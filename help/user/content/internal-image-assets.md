@@ -1,33 +1,39 @@
 ---
 title: 社内画像のAssetsの操作
-description: Journey Optimizer B2B edition assetsを参照、管理、使用する – フォルダーを整理し、画像を編集して、アカウントジャーニーのコンテンツを作成します。
+description: Journey Optimizer B2B Edition assetsを参照、管理、使用する – フォルダーを整理し、画像を編集して、アカウントジャーニーのコンテンツを作成します。
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+autotag-review: 2026-03-30T22:14:12.746Z
+TQID: 'https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:14:12.746Z
-TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1765
+source-wordcount: '1765'
 ht-degree: 1%
-
 ---
-
 # 内部画像アセットの操作
 
 デフォルトの画像アセットソースは内部画像アセットリポジトリであり、利用可能なアセットを簡単に管理および使用して、アカウントジャーニーをサポートするコンテンツをデザインできます。
 
-Journey Optimizer B2B editionには、あらゆるアセット管理機能が揃っています。 これらの関数には、次のものが含まれます。
+Journey Optimizer B2B Editionには、あらゆるアセット管理機能が揃っています。 これらの関数には、次のものが含まれます。
 
 * [置換](#replace-assets)
 * [削除](#delete-assets)
@@ -36,7 +42,7 @@ Journey Optimizer B2B editionには、あらゆるアセット管理機能が揃
 
 ## アセットの参照とアクセス
 
-Journey Optimizer B2B editionの内部アセットにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL Content Management]**/**[!UICONTROL Assets]**&#x200B;をクリックします。 このアクションを実行すると、すべてのアセットが一覧表示されたリストページが開きます。
+Journey Optimizer B2B Editionの内部アセットにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL Content Management]**/**[!UICONTROL Assets]**&#x200B;をクリックします。 このアクションを実行すると、すべてのアセットが一覧表示されたリストページが開きます。
 
 ![画像アセットを参照](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -46,7 +52,7 @@ Journey Optimizer B2B editionの内部アセットにアクセスするには、
 
 * 選択したフォルダー内の画像アセットを検索するには、検索バーにテキスト文字列を入力します。
 
-* テーブルに表示される列をカスタマイズするには、右上の「_テーブルをカスタマイズ_」アイコン（![&#x200B; テーブルをカスタマイズ &#x200B;](../assets/do-not-localize/icon-column-settings.svg)）をクリックします。
+* テーブルに表示される列をカスタマイズするには、右上の「_テーブルをカスタマイズ_」アイコン（![ テーブルをカスタマイズ ](../assets/do-not-localize/icon-column-settings.svg)）をクリックします。
 
   リストに表示する列を選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -54,31 +60,31 @@ Journey Optimizer B2B editionの内部アセットにアクセスするには、
 
 任意のアセットの名前をクリックして、アセットの詳細ページを開きます。
 
-![&#x200B; アセットの詳細にアクセス &#x200B;](assets/assets-details.png){width="700" zoomable="yes"}
+![ アセットの詳細にアクセス ](assets/assets-details.png){width="700" zoomable="yes"}
 
 ## 使用済みアセットの参照を表示
 
-アセットの詳細ページで「**[!UICONTROL 使用者]**」タブをクリックして、電子メール、メールテンプレート、フラグメントをまたいで、Journey Optimizer B2B edition内でアセットが現在使用されている場所の詳細を表示します。
+アセットの詳細ページで「**[!UICONTROL 使用者]**」タブをクリックして、電子メール、メールテンプレート、フラグメントをまたいで、Journey Optimizer B2B Edition内でアセットが現在使用されている場所の詳細を表示します。
 
 >[!IMPORTANT]
 >
 >電子メール、電子メールテンプレート、またはフラグメント **のいずれかで現在&#x200B;_IN USE_のアセットを削除することはできません**。
 
-パネルには、カテゴリ別の参照が表示されます。_電子メール_、_電子メールテンプレート_、または&#x200B;_フラグメント_。 Journey Optimizer B2B editionの電子メールは、ジャーニー内に埋め込まれて作成されるため、アセットを使用する電子メールの親ジャーニーが参照として表示されます。
+パネルには、カテゴリ別の参照が表示されます。_電子メール_、_電子メールテンプレート_、または&#x200B;_フラグメント_。 Journey Optimizer B2B Editionの電子メールはジャーニー内に埋め込まれ、作成されるため、アセットを使用する電子メールの親ジャーニーが参照として表示されます。
 
 リンクをクリックすると、アセットが使用されている対応する電子メール、メールテンプレート、またはフラグメントに移動します。
 
-![&#x200B; アセットを使用するコンテンツ項目を表示](assets/assets-used-by.png){width="700" zoomable="yes"}
+![ アセットを使用するコンテンツ項目を表示](assets/assets-used-by.png){width="700" zoomable="yes"}
 
 ## アセットの追加
 
-_Assets_ リストページから、Journey Optimizer B2B edition アセットリポジトリに画像アセットを追加できます。
+_Assets_ リストページから、画像アセットをJourney Optimizer B2B Edition アセットリポジトリに追加できます。
 
 1. 右上の「**[!UICONTROL Assetsを追加]**」をクリックします。
 
 1. _[!UICONTROL アセットを追加]_ ダイアログで、システムから1つ以上のファイルをファイル ボックスにドラッグ&amp;ドロップします。
 
-   ![&#x200B; フォルダーにアセットを追加](./assets/assets-add-dialog.png){width="500"}
+   ![ フォルダーにアセットを追加](./assets/assets-add-dialog.png){width="500"}
 
    「_[!UICONTROL コンピューターからファイルを選択]_」リンクをクリックして、ローカルファイルシステムを使用してファイルを検索および選択することもできます。
 
@@ -100,11 +106,11 @@ _Assets_ リストページから、Journey Optimizer B2B edition アセット�
 
 * アセットの詳細に移動し、**[!UICONTROL をクリックします…右上に]**&#x200B;個を追加し、オプションから&#x200B;**[!UICONTROL 削除]**&#x200B;を選択します。
 
-  アセットの![&#x200B; アクセス アクション &#x200B;](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
+  アセットの![ アクセス アクション ](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
 * _[!UICONTROL Assets]_ リストページで、_詳細_ アイコン （**[!UICONTROL ...]**）をクリックします アセットアイテムの横にあるオプションから&#x200B;**[!UICONTROL 削除]**&#x200B;を選択します。
 
-  アセットの![&#x200B; アクセス アクション &#x200B;](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
+  アセットの![ アクセス アクション ](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
 このアクションを実行すると、確認ダイアログが開きます。 「**[!UICONTROL キャンセル]**」をクリックするか、「**[!UICONTROL 削除]**」をクリックして削除を確認することで、プロセスを中止できます。
 
@@ -112,7 +118,7 @@ _Assets_ リストページから、Journey Optimizer B2B edition アセット�
 
 ## アセットの置き換え
 
-次のいずれかの方法を使用して、_[!UICONTROL Journey Optimizer B2B edition]_ アセットリポジトリにあるアセットを置き換えます。
+次のいずれかの方法を使用して、_[!UICONTROL Journey Optimizer B2B Edition]_ アセットリポジトリにあるアセットを置き換えます。
 
 * アセットの詳細に移動し、**[!UICONTROL をクリックします…右上に]**&#x200B;個を追加し、オプションから&#x200B;**[!UICONTROL 置換]**&#x200B;を選択します。
 
@@ -120,7 +126,7 @@ _Assets_ リストページから、Journey Optimizer B2B edition アセット�
 
 _[!UICONTROL アセットの置換]_ ダイアログで、置換ファイルをシステムからファイルボックスにドラッグ&amp;ドロップします。 「_[!UICONTROL コンピューターからファイルを選択]_」リンクをクリックして、ローカルファイルシステムを使用してファイルを選択することもできます。 （ローカルシステムで複数のファイルを選択した場合、最初に選択したファイルが置換に使用されます）。
 
-![&#x200B; アセットダイアログの置き換え](./assets/assets-replace-dialog.png){width="500"}
+![ アセットダイアログの置き換え](./assets/assets-replace-dialog.png){width="500"}
 
 続行するには、**[!UICONTROL 置換]**&#x200B;をクリックします。 **[!UICONTROL キャンセル]**&#x200B;をクリックすると、プロセスを中止できます。
 
@@ -140,9 +146,9 @@ _[!UICONTROL アセットの置換]_ ダイアログで、置換ファイルを�
 
 リスト ページ（_[!UICONTROL Content Management]_ > _[!UICONTROL Assets]_）から、左側の各チェックボックスを選択して、一度に複数のアセットを選択します。 複数のアセットを選択すると、下部にメッセージバナーが表示されます。
 
-![選択したアセット &#x200B;](./assets/assets-list-selected.png){width="700" zoomable="yes"}
+![選択したアセット ](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Journey Optimizer B2B edition]_ アセットリポジトリにある選択したアセットに対して、次の一括アクションを実行できます。
+_[!UICONTROL Journey Optimizer B2B Edition]_ アセットリポジトリにある選択したアセットに対して、次の一括アクションを実行できます。
 
 +++アセットの移動
 
@@ -180,7 +186,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ アセットリポジトリにあ�
 
    フォルダー名は、最大100文字で一意である必要があり、`;`、`:`、`\`、`|`などの特殊文字を含めることはできません。
 
-   ![&#x200B; フォルダーの作成ダイアログ &#x200B;](./assets/assets-create-folder-dialog.png){width="500"}
+   ![ フォルダーの作成ダイアログ ](./assets/assets-create-folder-dialog.png){width="500"}
 
 1. 「**[!UICONTROL 追加]**」をクリックします。
 
@@ -188,7 +194,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ アセットリポジトリにあ�
 
 アクションは、フォルダーまたはフォルダー内のアセットに適用できます。 _詳細_ アイコン （**...**）をクリックします フォルダーの横に、そのフォルダーに適用できるアクションが表示されます。
 
-![&#x200B; フォルダーまたはフォルダー内のアセットにアクションを適用](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
+![ フォルダーまたはフォルダー内のアセットにアクションを適用](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
 フォルダーレベルでは、次のアクションを実行できます。
 
@@ -266,7 +272,7 @@ _[!UICONTROL Journey Optimizer B2B edition]_ アセットリポジトリにあ�
 
 Assetsは、ビジュアルコンテンツエディターから、チームのメール、メールテンプレート、ビジュアルフラグメントのオーサリングで使用できます。
 
-ビジュアルデザインスペースから、左側のサイドバーにある&#x200B;_Assets_ アイコン（![Assets アイコン &#x200B;](../../assets/do-not-localize/icon-assets-me.svg)）を選択します。
+ビジュアルデザインスペースから、左側のサイドバーにある&#x200B;_Assets_ アイコン（![Assets アイコン ](../../assets/do-not-localize/icon-assets-me.svg)）を選択します。
 
 このアクションは、使用可能なアセットのリストを表示するツールパネルを変更します。 ビジュアルキャンバスに画像アセットを追加するには、複数の方法があります。
 
@@ -274,14 +280,14 @@ Assetsは、ビジュアルコンテンツエディターから、チームの�
 
 * 画像コンポーネントをキャンバスに追加し、コンポーネントの&#x200B;**[!UICONTROL アセットを選択]**&#x200B;をクリックして、_[!UICONTROL アセットを選択]_ ダイアログを開きます。
 
-  ![&#x200B; フィルターと検索フィールドを使用して、必要なアセットを見つけます](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+  ![ フィルターと検索フィールドを使用して、必要なアセットを見つけます](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
   ダイアログから、選択したリポジトリから画像を選択できます。 「**[!UICONTROL 選択]**」をクリックして、アセットを追加します。
 
   必要なアセットを見つけるのに役立つツールがあります。
 
-   * 左上の&#x200B;_フィルター_ アイコンをクリックして、条件に従って表示される項目をフィルタリングします。
+  * 左上の&#x200B;_フィルター_ アイコンをクリックして、条件に従って表示される項目をフィルタリングします。
 
-   * 「_検索_」フィールドにテキストを入力して、アセット名に一致する表示アイテムをフィルタリングします。
+  * 「_検索_」フィールドにテキストを入力して、アセット名に一致する表示アイテムをフィルタリングします。
 
-  ![&#x200B; フィルターと検索フィールドを使用して、必要なアセットを見つけます](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+  ![ フィルターと検索フィールドを使用して、必要なアセットを見つけます](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}

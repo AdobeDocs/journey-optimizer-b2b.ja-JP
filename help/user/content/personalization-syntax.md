@@ -1,6 +1,6 @@
 ---
 title: パーソナライゼーション構文
-description: 式、ヘルパー、リテラルタイプ、フォーマットルールなど、Journey Optimizer B2B editionのHandlebars ベースのパーソナライゼーション構文について説明します。
+description: 式、ヘルパー、リテラルタイプ、書式設定ルールなど、Journey Optimizer B2B EditionのHandlebars ベースのパーソナライゼーション構文について説明します。
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,29 +11,36 @@ autotag-review: '2026-05-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 49%
-
 ---
-
 # パーソナライゼーション構文 {#personalization-syntax}
 
-[!DNL Journey Optimizer B2B Edition] [&#x200B; パーソナライゼーションエディター](./personalization.md#personalization-editor)の式は、_ハンドルバー_&#x200B;のテンプレート構文に基づいています。 テンプレートと入力オブジェクトを使用して、HTML やその他のテキスト形式を生成します。 Handlebars テンプレートは、Handlebars 式が埋め込まれた標準のテキストのように見えます。
+[!DNL Journey Optimizer B2B Edition] [ パーソナライゼーションエディター](./personalization.md#personalization-editor)の式は、_ハンドルバー_&#x200B;のテンプレート構文に基づいています。 テンプレートと入力オブジェクトを使用して、HTML やその他のテキスト形式を生成します。 Handlebars テンプレートは、Handlebars 式が埋め込まれた標準のテキストのように見えます。
 
-Handlebarsとその仕組みについて詳しくは、[HandlebarsJS ドキュメント &#x200B;](https://handlebarsjs.com/){target="_blank"}を参照してください。
+Handlebarsとその仕組みについて詳しくは、[HandlebarsJS ドキュメント ](https://handlebarsjs.com/){target="_blank"}を参照してください。
 
 ## 一般ルール
 
@@ -50,7 +57,7 @@ Handlebarsとその仕組みについて詳しくは、[HandlebarsJS ドキュ�
 
   >[!NOTE]
   >
-  >属性構造は、[Adobe Experience Platform XDM スキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"}で定義されています。
+  >属性構造は、[Adobe Experience Platform XDM スキーマ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"}で定義されています。
 
 * 識別子は、次の場合を除き、任意のUnicode文字にすることができます。
 
@@ -58,7 +65,7 @@ Handlebarsとその仕組みについて詳しくは、[HandlebarsJS ドキュ�
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
   ```
 
-* 構文では大文字と小文字が区別されます。
+* 構文では大文字と小文字を区別します。
 
 * **true**、**false**、**null** および **undefined**&#x200B;という語は、パス式の最初の部分でのみ使用できます。
 
@@ -92,7 +99,7 @@ Handlebars ヘルパー関数は、パラメーターを追加できる簡単な
 Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). 
 -->
 
-これらの関数について詳しくは、[&#x200B; ヘルパー関数](./personalization-helper-functions.md)を参照してください。
+これらの関数について詳しくは、[ ヘルパー関数](./personalization-helper-functions.md)を参照してください。
 
 ## リテラル型 {#literal-types}
 

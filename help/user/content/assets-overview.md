@@ -1,28 +1,34 @@
 ---
 title: アセット
-description: Journey Optimizer B2B editionとAEM Assetsから、電子メール、テンプレート、フラグメント用の画像アセットを管理できます。
+description: Journey Optimizer B2B EditionとAEM Assetsから、電子メール、テンプレート、フラグメント用の画像アセットを管理できます。
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
+autotag-review: 2026-03-30T22:17:01.501Z
+TQID: 'https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:17:01.501Z
-TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: '848'
 ht-degree: 62%
-
 ---
-
 # アセット
 
 [!DNL Adobe Journey Optimizer B2B Edition] では、アセットは通常、アカウントジャーニーをサポートするコンテンツを設計する際に使用される画像です。 これらの画像は、メール、メールテンプレート、アセットセレクターのフラグメント、またはビジュアルデザイン空間でのシンプルなドラッグ&amp;ドロップインターフェイスで使用できます。
@@ -37,7 +43,7 @@ ht-degree: 62%
 
 内部アセットリポジトリは、デフォルトで[!DNL Journey Optimizer B2B Edition] サブスクリプションごとに提供されます。 このリポジトリは、アセットのアップロードやダウンロードする機能を含むローカルアセットライブラリとして使用できます。 また、これらのアセットをジャーニーコンテンツ内で使用することもできます。
 
-Adobe Express[&#128279;](./image-edit-adobe-express.md)を使用してこれらのアセットを編集し、フォルダーに移動して、電子メール、テンプレート、フラグメントで使用できるようにアセットを整理できます。
+Adobe Express](./image-edit-adobe-express.md)を使用してこれらのアセットを[編集し、フォルダーに移動して、電子メール、テンプレート、フラグメントで使用できるようにアセットを整理できます。
 
 サポートされているファイル形式：JPG、JPEG、GIF、PNG、EPS、SVG、RGB
 
@@ -79,13 +85,13 @@ Adobe Express[&#128279;](./image-edit-adobe-express.md)を使用してこれら�
 
 >[!TAB  アセットを選択]
 
-「**[!UICONTROL アセットを選択]**」をクリックしてアセットセレクターを開き、Journey Optimizer B2B edition アセットリポジトリから画像を選択できます。
+「**[!UICONTROL アセットを選択]**」をクリックしてアセットセレクターを開き、Journey Optimizer B2B Edition アセットリポジトリから画像を選択できます。
 
 ![画像アセットを選択](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
 
 検索とフィルターを使用して、目的の画像アセットを見つけることができます。 アセットを選択し、「**[!UICONTROL 選択]**」をクリックして、画像コンポーネントに使用します。
 
-内部画像アセットの使用について詳しくは、[&#x200B; コンテンツでアセットを使用する](./internal-image-assets.md#use-assets-in-your-content)を参照してください。
+内部画像アセットの使用について詳しくは、[ コンテンツでアセットを使用する](./internal-image-assets.md#use-assets-in-your-content)を参照してください。
 
 >[!TAB Experience Manager Assets]
 

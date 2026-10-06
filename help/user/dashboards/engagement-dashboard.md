@@ -1,30 +1,40 @@
 ---
 title: エンゲージメント概要ダッシュボード
-description: Journey Optimizer B2B editionのインタラクティブなチャートとトレンド分析により、アカウント、購買グループ、人物のリアルタイムエンゲージメント指標をモニタリングできます。
+description: Adobe Journey Optimizer B2B Editionのインタラクティブなチャートとトレンド分析により、アカウント、購買グループ、個人のリアルタイムのエンゲージメント指標をモニタリングできます。
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
+autotag-review: 2026-03-30T22:44:41.871Z
+TQID: 'https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T22:44:41.871Z
-TQID: https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0
-source-git-commit: 7b884e313f584252aecc25ee813dfb6c7f5d8f15
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '561'
 ht-degree: 6%
-
 ---
-
 # エンゲージメント概要ダッシュボード
 
 このダッシュボードは、エンゲージメントの包括的なビューを提供し、スナップショットドーナツチャートやトレンドを明らかにする折れ線チャートを通じて、アカウントと個人のインタラクションのリアルタイムの指標を時系列で紹介します。 エンゲージメント施策を効果的に監視し、戦略を策定できます。
@@ -33,19 +43,19 @@ _エンゲージメントダッシュボード_&#x200B;にアクセスするに�
 
 <!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. -->
 
-![&#x200B; エンゲージメントダッシュボード &#x200B;](./assets/engagement-dashboard.png){width="800" zoomable="yes"}
+![ エンゲージメントダッシュボード ](./assets/engagement-dashboard.png){width="800" zoomable="yes"}
 
 ## アカウント別エンゲージメント / 購買グループ / 人物別
 
 円グラフは、アカウント、購買グループ、または個人を、エンゲージ済みカテゴリーと非エンゲージ済みカテゴリーに分けます。 中央の図は、各カテゴリ内の合計数を示しており、全体的なエンゲージメントを一目で把握することができます。
 
-![&#x200B; アカウント別および人物別のエンゲージメント &#x200B;](assets/engagement-accounts.png){width="500"}
+![ アカウント別および人物別のエンゲージメント ](assets/engagement-accounts.png){width="500"}
 
 ## アカウント/購買グループ/長期的なエンゲージメント
 
 この折れ線グラフには、アカウントや個人のエンゲージメントレベルが時間の経過とともに表示されます。 「エンゲージ済み」と「エンゲージなし」の別々の行を、タイムスタンプ付きの横軸と共に視覚化することで、傾向やパターンをピンポイントで特定できます。 行にカーソルを合わせると、任意の日付の正確な指標を表示できます。
 
-![&#x200B; アカウント別およびユーザー別の時間のエンゲージメント &#x200B;](assets/engagement-accounts-over-time.png){width="500"}
+![ アカウント別およびユーザー別の時間のエンゲージメント ](assets/engagement-accounts-over-time.png){width="500"}
 
 ## データのフィルタリング
 
@@ -55,15 +65,15 @@ _エンゲージメントダッシュボード_&#x200B;にアクセスするに�
 
 右上の&#x200B;_[!UICONTROL 日付範囲フィルター]_&#x200B;を使用して、日付範囲に従ってデータをフィルタリングします。
 
-![日付範囲で表示データをフィルタリング &#x200B;](./assets/engagement-date-filter.png){width="380"}
+![日付範囲で表示データをフィルタリング ](./assets/engagement-date-filter.png){width="380"}
 
-**[!UICONTROL カスタム]**&#x200B;範囲の場合は、_カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/do-not-localize/icon-calendar.svg)）アイコンをクリックして、開始日と終了日を指定します。 終了日は、デフォルトで現在の日付になります。
+**[!UICONTROL カスタム]**&#x200B;範囲の場合は、_カレンダー_ （![ カレンダーアイコン ](../assets/do-not-localize/icon-calendar.svg)）アイコンをクリックして、開始日と終了日を指定します。 終了日は、デフォルトで現在の日付になります。
 
-![表示されたデータを属性でフィルタリング &#x200B;](./assets/engagement-date-filter-custom.png){width="380"}
+![表示されたデータを属性でフィルタリング ](./assets/engagement-date-filter-custom.png){width="380"}
 
 ### 属性フィルター
 
-左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、次のいずれかの属性を使用して、表示されたデータをフィルタリングします。
+左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、次のいずれかの属性を使用して、表示されたデータをフィルタリングします。
 
 * ソリューションに対する関心
 * エンゲージメントタイプ
@@ -71,7 +81,7 @@ _エンゲージメントダッシュボード_&#x200B;にアクセスするに�
 * 業界
 * 購買グループメンバーの役割
 
-![表示されたデータを属性でフィルタリング &#x200B;](./assets/engagement-dashboard-filters.png){width="500"}
+![表示されたデータを属性でフィルタリング ](./assets/engagement-dashboard-filters.png){width="500"}
 
 データのフィルタリングに使用する各属性に対して値をいくつでも選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -79,15 +89,15 @@ _エンゲージメントダッシュボード_&#x200B;にアクセスするに�
 
 データを使用するには、各グラフの右上にある&#x200B;**...** メニューを使用します。
 
-![&#x200B; エンゲージメントダッシュボードデータ – アクションメニュー](assets/engagement-action-menu.png){width="300"}
+![ エンゲージメントダッシュボードデータ – アクションメニュー](assets/engagement-action-menu.png){width="300"}
 
 ### ドリルスルー
 
 円グラフの場合、個々のグループエンゲージメントデータを詳細に分析するには、**[!UICONTROL ドリルスルー]**&#x200B;を選択します。
 
-グローバルフィルター（データ範囲と属性）がダッシュボードに適用されます。 左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、[&#x200B; ドリルスルー表示の属性フィルター](#filter-the-data)を変更します。 右上の日付範囲セレクターを使用して、ドリルスルー表示の日付範囲[&#128279;](#date-range-filter)を変更します。
+グローバルフィルター（データ範囲と属性）がダッシュボードに適用されます。 左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、[ ドリルスルー表示の属性フィルター](#filter-the-data)を変更します。 右上の日付範囲セレクターを使用して、ドリルスルー表示の日付範囲](#date-range-filter)を[変更します。
 
-![&#x200B; ドリルスルーしてグラフデータにアクセス &#x200B;](./assets/engagement-buying-groups-drill-through.png){width="700" zoomable="yes"}
+![ ドリルスルーしてグラフデータにアクセス ](./assets/engagement-buying-groups-drill-through.png){width="700" zoomable="yes"}
 
 | アカウント別のエンゲージメント | 購買グループ別のエンゲージメント | 顧客別のエンゲージメント |
 | ---------------------- | --------------------------- | -------------------- |
@@ -99,7 +109,7 @@ _エンゲージメントダッシュボード_&#x200B;にアクセスするに�
 
 拡張データとインサイトについては、**[!UICONTROL 詳細を表示]**&#x200B;を選択してください。
 
-![&#x200B; アカウント別および人物別のエンゲージメント &#x200B;](./assets/engagement-buying-groups-time-view-more.png){width="700" zoomable="yes"}
+![ アカウント別および人物別のエンゲージメント ](./assets/engagement-buying-groups-time-view-more.png){width="700" zoomable="yes"}
 
 グラフに応じて、次の拡張データがあります。
 

@@ -8,27 +8,33 @@ autotag-review: '2026-06-20T00:27:51.436Z'
 TQID: 'https://experienceleague.adobe.com/ctl7dFJmmm1A4HtB-g2nTx37f4-A8GTUfWhLhdIq7DM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 205013add5060318d46a2b048bb347003c167470
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 50%
-
+source-wordcount: '1015'
+ht-degree: 55%
 ---
-
 # パーソナライゼーションエディター
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
 >title="パーソナライゼーションエディターについて"
->abstract="パーソナライゼーションエディターを使用すると、プロファイル属性を選択、配置、カスタマイズ、検証して、パーソナライズされたコンテンツを作成できます。"
+>abstract="パーソナライゼーションエディターでは、プロファイル属性を選択、整理、カスタマイズおよび検証して、パーソナライズされたコンテンツを作成できます。"
 
 パーソナライゼーションエディターは、[!DNL Journey Optimizer B2B Prime]のパーソナライゼーションの中核です。 電子メールやWhatsApp メッセージ、ランディングページ、URL フィールドなど、動的なコンテンツが必要な場所で利用できます。
 
@@ -40,11 +46,11 @@ ht-degree: 50%
 >
 >このBeta リリースのパーソナライゼーションエディターでは、プロファイル属性のみが使用できます。 アカウントレベルのパーソナライゼーションとカスタムオブジェクトデータは使用できません。 [現在の制限](../marketing/email-channel.md#limitations)を参照してください。
 
-_パーソナライズ_ （![&#x200B; パーソナライズ アイコン &#x200B;](../../user/assets/do-not-localize/icon-personalize.svg)）アイコンを使用すると、任意のフィールドにパーソナライゼーションを追加できます。 詳しくは、次の節を展開します。
+_パーソナライズ_ （![ パーソナライズ アイコン ](../../user/assets/do-not-localize/icon-personalize.svg)）アイコンを使用すると、任意のフィールドにパーソナライゼーションを追加できます。 詳しくは、次の節を展開します。
 
 +++メールとWhatsApp メッセージ
 
-[電子メール &#x200B;](./email-authoring.md#personalize-content)と[WhatsApp メッセージ &#x200B;](./whatsapp-authoring.md#personalize-message-content)では、パーソナライゼーションは、電子メールの&#x200B;**[!UICONTROL 件名]** フィールドや、承認済みのWhatsApp テンプレートの動的パラメーターなど、様々な場所に追加できます。
+[電子メール ](./email-authoring.md#personalize-content)と[WhatsApp メッセージ ](./whatsapp-authoring.md#personalize-message-content)では、パーソナライゼーションは、電子メールの&#x200B;**[!UICONTROL 件名]** フィールドや、承認済みのWhatsApp テンプレートの動的パラメーターなど、様々な場所に追加できます。
 
 また、メール本文のテキスト、プリヘッダー、ボタンのURLなど、コンテンツの他のセクションにも追加することができます。
 
@@ -81,7 +87,7 @@ _パーソナライズ_ （![&#x200B; パーソナライズ アイコン &#x200B
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_perso_editor_autocomplete"
 >title="オートコンプリート"
->abstract="このオプションをオンに切り替えると、入力時に候補が自動的に表示され、コードが入力されます。 この機能は、HTMLおよびテキスト形式でのみ使用でき、プロファイル属性をサポートします。 切替スイッチで無効にした場合、エディターでは代わりにネイティブ HTML コードのオートコンプリートが使用できるようになります。"
+>abstract="このオプションをオンに切り替えると、入力時に候補が自動的に表示され、コードが入力されます。 この機能は、HTML およびテキスト形式でのみ使用でき、プロファイル属性をサポートします。 切替スイッチで無効にした場合、エディターでは代わりにネイティブ HTML コードのオートコンプリートが使用できるようになります。"
 
 中央のワークスペースは、パーソナライゼーション構文を作成する場所です。 属性を使用してメッセージをパーソナライズするには、左側のナビゲーションパネルで属性を見つけて、`+` ボタンをクリックして式に追加します。
 
@@ -109,7 +115,7 @@ _パーソナライズ_ （![&#x200B; パーソナライズ アイコン &#x200B
 
 1. **[!UICONTROL 検索]**／**[!UICONTROL 検索と置換]**：式を検索して、コードの一部を自動的に置換します。
 1. **[!UICONTROL 取り消し]**／**[!UICONTROL やり直し]**：最後の操作を取り消し／やり直します。
-1. **[!UICONTROL オートコンプリート]**：入力中にコードを自動的に提案し、完成させます。 この機能は、HTMLおよびテキスト形式でのみ使用でき、プロファイル属性をサポートします。 切替スイッチで無効にした場合、エディターでは代わりにネイティブ HTML コードのオートコンプリートが使用できるようになります。
+1. **[!UICONTROL オートコンプリート]**：入力中にコードを自動的に提案し、完成させます。 この機能は、HTML およびテキスト形式でのみ使用でき、プロファイル属性をサポートします。 切替スイッチで無効にした場合、エディターでは代わりにネイティブ HTML コードのオートコンプリートが使用できるようになります。
 
    <!-- ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"} -->
 
@@ -143,7 +149,7 @@ AI アシスタントは、平易な言語の説明からハンドルバーの�
 
 式の検証は、**[!UICONTROL 確認]**&#x200B;または&#x200B;**[!UICONTROL 挿入]**&#x200B;をクリックしてエディターを閉じると自動的に実行されます。 また、**[!UICONTROL 検証]**&#x200B;をクリックして、パーソナライゼーションの構文を閉じる前に確認することもできます。
 
-ジャーニーのアクティベーションをブロックするコンテンツアラートについては、[&#x200B; メールコンテンツの検証](./email-authoring.md#validation)を参照してください。
+ジャーニーのアクティベーションをブロックするコンテンツアラートについては、[ メールコンテンツの検証](./email-authoring.md#validation)を参照してください。
 
 次の節を展開して、パーソナライゼーションの検証時に発生する可能性のある一般的なエラーを確認します。
 

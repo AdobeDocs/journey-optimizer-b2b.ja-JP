@@ -1,30 +1,37 @@
 ---
 title: アカウントオーディエンスノード
-description: アカウントオーディエンスまたはアカウントリストを使用してアカウントオーディエンスノードを設定し、Journey Optimizer B2B editionでターゲットオーケストレーションのジャーニーエントリポイントを定義します。
+description: アカウントオーディエンスまたはアカウントリストを使用してアカウントオーディエンスノードを設定し、Journey Optimizer B2B Editionでターゲットオーケストレーションのジャーニーエントリポイントを定義します。
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+    internal-label: Audience segmentation
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: '277'
 ht-degree: 4%
-
 ---
-
 
 # アカウントオーディエンスジャーニーノード
 
@@ -39,7 +46,7 @@ ht-degree: 4%
 
 1. 「**[!UICONTROL アカウントオーディエンス]**」ノードをクリックします。 このアクションは、右側のパネルにノードプロパティを表示します。
 
-   ![&#x200B; アカウントオーディエンスジャーニーノード &#x200B;](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
+   ![ アカウントオーディエンスジャーニーノード ](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 
 1. ジャーニーに入力するアカウントの入力タイプを選択します。
 
@@ -49,7 +56,7 @@ ht-degree: 4%
 
      _[!UICONTROL オーディエンスを追加]_ ダイアログで、以前に作成したオーディエンスセグメントを選択します。 次に、**[!UICONTROL オーディエンスを追加]**&#x200B;をクリックします。
 
-     ![&#x200B; ノードのオーディエンスセグメントを選択](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+     ![ ノードのオーディエンスセグメントを選択](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
    * **[!UICONTROL アカウントリスト]**
 
@@ -57,9 +64,9 @@ ht-degree: 4%
 
      _[!UICONTROL ライブアカウントリストを選択]_ ダイアログで、公開されたアカウントリストを選択します。 次に、「**[!UICONTROL 保存]**」をクリックします。
 
-     ![&#x200B; ノードのライブアカウントリストを選択](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
+     ![ ノードのライブアカウントリストを選択](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
 
-     アカウントリストの作成と公開について詳しくは、[&#x200B; アカウントリスト &#x200B;](../accounts/account-lists.md)を参照してください。
+     アカウントリストの作成と公開について詳しくは、[ アカウントリスト ](../accounts/account-lists.md)を参照してください。
 
 ## オーディエンスセグメントの作成
 
@@ -67,6 +74,6 @@ ht-degree: 4%
 
 1. 右上隅の「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 
-   ![&#x200B; オーディエンスセグメントを作成](./assets/audiences-list-create.png){width="800" zoomable="yes"}
+   ![ オーディエンスセグメントを作成](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. [&#x200B; セグメント化サービスガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}の手順に従います。
+1. [ セグメント化サービスガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}の手順に従います。

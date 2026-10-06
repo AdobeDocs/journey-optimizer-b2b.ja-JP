@@ -1,36 +1,44 @@
 ---
 title: ジャーニーの詳細
-description: Journey Optimizer B2B editionなら、完了率、エンゲージメント指標、電子メール/SMS分析、AI インサイトなどを活用して、カスタマージャーニーのパフォーマンスを追跡できます。
+description: Journey Optimizer B2B Editionで、完了率、エンゲージメント指標、電子メール/SMS分析、AI インサイトなどを活用して、カスタマージャーニーのパフォーマンスをモニタリングします。
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
+autotag-review: 2026-03-30T23:21:08.953Z
+TQID: 'https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T23:21:08.953Z
-TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 1%
-
 ---
-
 # ジャーニーの詳細
 
 アクティブなアカウントジャーニーの名前をクリックすると、ジャーニーの詳細が表示されます。 「_[!UICONTROL 概要]_」タブには、生成AIの概要など、ジャーニーに関する有用な情報が表示されます。
 
-このダッシュボードでは、選択したアカウントジャーニーの包括的な概要を把握し、完了、進行中のアクティビティ、長期的な中止を分類および定量化する円グラフと折れ線グラフを使用して、アカウントの進捗状況を詳細に把握できます。 配信とエンゲージメントの主要指標にもとづいて、マーケティング部門がメールとSMS チャネルの効果を評価するのに役立ちます。 すべてのジャーニーで集計されたメール指標については、[&#x200B; メールパフォーマンスレポート &#x200B;](../dashboards/email-performance-dashboard.md)を参照してください。
+このダッシュボードでは、選択したアカウントジャーニーの包括的な概要を把握し、完了、進行中のアクティビティ、長期的な中止を分類および定量化する円グラフと折れ線グラフを使用して、アカウントの進捗状況を詳細に把握できます。 配信とエンゲージメントの主要指標にもとづいて、マーケティング部門がメールとSMS チャネルの効果を評価するのに役立ちます。 すべてのジャーニーで集計されたメール指標については、[ メールパフォーマンスレポート ](../dashboards/email-performance-dashboard.md)を参照してください。
 
 この概要は、公開されたアカウントジャーニーで利用でき、データがチャートとテーブルの入力を開始するのに約4時間かかります。
 
-![&#x200B; アクティブなジャーニーの詳細にアクセス &#x200B;](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+![ アクティブなジャーニーの詳細にアクセス ](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
 
 ## ジャーニー完了
 
@@ -55,7 +63,7 @@ ht-degree: 1%
 
 ## 電子メールとSMSのパフォーマンス
 
-パフォーマンステーブルには、電子メールとSMS チャネルの有効性に関する詳細な情報が表示されます。 各表には、各コミュニケーション接点の影響を評価するのに役立つ配信率やクリックスルー率などの指標が示されています。 以下の表は、このジャーニーに対してのみ、メールとSMSの指標を示しています。 すべてのジャーニーで同じメール指標を使用するには、[&#x200B; メールパフォーマンスレポート &#x200B;](../dashboards/email-performance-dashboard.md)を使用します。
+パフォーマンステーブルには、電子メールとSMS チャネルの有効性に関する詳細な情報が表示されます。 各表には、各コミュニケーション接点の影響を評価するのに役立つ配信率やクリックスルー率などの指標が示されています。 以下の表は、このジャーニーに対してのみ、メールとSMSの指標を示しています。 すべてのジャーニーで同じメール指標を使用するには、[ メールパフォーマンスレポート ](../dashboards/email-performance-dashboard.md)を使用します。
 
 **[!UICONTROL 電子メールパフォーマンス]**&#x200B;のテーブル列：
 
@@ -83,7 +91,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 _[!UICONTROL ジャーニーステータス]_&#x200B;のグラフで、個々のアカウントのステータスを詳細に分析するには、**[!UICONTROL ドリルスルー]**&#x200B;を選択します。
 
-![&#x200B; グラフデータのドリルスルー](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+![ グラフデータのドリルスルー](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
 The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
 -->

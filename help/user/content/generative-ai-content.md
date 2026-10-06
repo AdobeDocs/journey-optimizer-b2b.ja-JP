@@ -25,6 +25,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
@@ -34,7 +36,7 @@ topic_v2:
     internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2430'
 ht-degree: 32%
@@ -72,11 +74,11 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 コンテンツ生成ツールは、次のアセットタイプでサポートされています。
 
 * [メール](./generate-content-emails.md)
-* [!BADGE Beta] [&#x200B; ランディングページ &#x200B;](./generate-content-landing-pages.md)
+* [!BADGE Beta] [ ランディングページ ](./generate-content-landing-pages.md)
 
 ## 一般的なガイドラインと制限事項 {#general-guidelines-and-limitations}
 
-生成AI機能の使用には、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}が適用されます。 メディア作成に生成AI ツールを使用する際の透明性に対するAdobeの取り組みにより、Adobeは、[!DNL Firefly]生成されたアセットがダウンロードまたはエクスポートされたときに含まれるコンテンツまたはプロジェクトに[C2PA メタデータ &#x200B;](./c2pa-metadata.md)を適用します。
+生成AI機能の使用には、[Adobe Experience Cloud生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}が適用されます。 メディア作成に生成AI ツールを使用する際の透明性に対するAdobeの取り組みにより、Adobeは、[!DNL Firefly]生成されたアセットがダウンロードまたはエクスポートされたときに含まれるコンテンツまたはプロジェクトに[C2PA メタデータ ](./c2pa-metadata.md)を適用します。
 
 [!DNL Journey Optimizer B2B Edition]のコンテンツに生成AIを使用する場合は、次の一般的なガイドラインを確認してください。
 
@@ -175,7 +177,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 <li>テキストの書式設定（太字、斜体、フォントサイズ）</li>
 <li>カラーの変更</li>
 <li>レイアウトのスタイル設定（ボーダー、パディング、余白）</li>
-<li>視覚エフェクト（シャドウ）</li>
+<li>視覚効果（シャドウ）</li>
 </ul>
 </td>
 <td>
@@ -195,19 +197,19 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 コンテンツを生成する前に、次の点を確認します。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **目標をクリア**: アクション、製品/サービス、値、およびコンテキストを明確に示します。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **目標をクリア**: アクション、製品/サービス、値、およびコンテキストを明確に示します。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **定義されたターゲットオーディエンス**：デモグラフィック、役割、またはセグメントを指定します。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **定義されたターゲットオーディエンス**：デモグラフィック、役割、またはセグメントを指定します。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **コンテンツの種類の調整**：目的は、選択したチャネルまたは形式と一致します。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **コンテンツの種類の調整**：目的は、選択したチャネルまたは形式と一致します。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **選択を確認**：トーン、戦略、ロケールが選択されています。プロンプトに含めないでください。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **選択を確認**：トーン、戦略、ロケールが選択されています。プロンプトに含めないでください。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **ドキュメントの焦点が指定されています**：参照するコンテンツまたはセクションをハイライト表示します。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **ドキュメントの焦点が指定されています**：参照するコンテンツまたはセクションをハイライト表示します。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **ブランドが適用されました**：適切なブランドガイドラインが選択されています。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **ブランドが適用されました**：適切なブランドガイドラインが選択されています。
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **現実的な範囲**: レイアウトの変更、スタイル設定、構造的な編集のリクエストを避けます。
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} **現実的な範囲**: レイアウトの変更、スタイル設定、構造的な編集のリクエストを避けます。
 
 ### 効果的なマーケティング目標 {#marketing-objectives}
 
@@ -215,19 +217,19 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 **優れた目標の例：**
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「新しいAIを活用した分析ダッシュボードの30日間無料体験版のサインアップを促進する」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「新しいAIを活用した分析ダッシュボードの30日間無料体験版のサインアップを促進する」
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「3月15日に予定されている「クラウドコストを40%削減」に関するB2B ウェビナーのリードを生成する」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「3月15日に予定されている「クラウドコストを40%削減」に関するB2B ウェビナーのリードを生成する」
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「プレミアム購読の期間限定25%割引を12月25日まで宣伝する」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「プレミアム購読の期間限定25%割引を12月25日まで宣伝する」
 
 **回避すべき例：**
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「製品を宣伝する」（曖昧すぎる）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「製品を宣伝する」（曖昧すぎる）
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「人物を契約にサインさせる」 （値が不明確）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「人物を契約にサインさせる」 （値が不明確）
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「新機能に関する電子メール」（目的に欠ける）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「新機能に関する電子メール」（目的に欠ける）
 
 #### 目標の構造化
 
@@ -235,19 +237,19 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 **優れた目標の例：**
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「新しいモバイルアプリをダウンロードして、ユーザーが環境に配慮したパーソナライズされたレコメンデーションを使用して、持続可能な生活習慣を追跡するのに役立ててください」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「新しいモバイルアプリをダウンロードして、ユーザーが環境に配慮したパーソナライズされたレコメンデーションを使用して、持続可能な生活習慣を追跡するのに役立ててください」
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「マーケター向けの高度なデータ視覚化技術に関する専用ワークショップへの登録を促進する」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「マーケター向けの高度なデータ視覚化技術に関する専用ワークショップへの登録を促進する」
 
-![緑のチェックマーク &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} 「週に5時間以上節約できる革新的なAI ライティングアシスタントを紹介する製品発売イベントへの参加を促す」
+![緑のチェックマーク ](../../assets/do-not-localize/check-box-green.svg){width="20"} 「週に5時間以上節約できる革新的なAI ライティングアシスタントを紹介する製品発売イベントへの参加を促す」
 
 **回避すべき例：**
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「新しいアプリを発表」（値の提案とコンテキストが欠落）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「新しいアプリを発表」（値の提案とコンテキストが欠落）
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「ワークショップへの登録を促す」（参加者とメリットに関する具体的な情報が不足している）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「ワークショップへの登録を促す」（参加者とメリットに関する具体的な情報が不足している）
 
-![赤十字アウト &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} 「プロモートイベント」（明確なアクション、値、または緊急性はありません）
+![赤十字アウト ](../../assets/do-not-localize/check-box-red.svg){width="20"} 「プロモートイベント」（明確なアクション、値、または緊急性はありません）
 
 #### チャネルタイプ別プロンプトの例 {#channel-type-practices}
 

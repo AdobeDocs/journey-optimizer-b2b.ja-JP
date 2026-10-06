@@ -1,30 +1,41 @@
 ---
 title: ランディングページの設定
-description: ランディングページのサブドメインとプリセットを設定して、マーケターがJourney Optimizer B2B editionでランディングページを公開できるようにします。
+description: ランディングページのサブドメインとプリセットを設定して、マーケターがJourney Optimizer B2B Editionでランディングページを公開できるようにします。
 feature: Setup, Landing Pages, Content
 role: Admin
-badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
+badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です。"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 autotag-review: '2026-05-27T16:08:42.537Z'
 TQID: 'https://experienceleague.adobe.com/yYJUH3-uiNxk-lT4S6hpuMmntMg267ezc-gbsegu7vI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+    internal-label: Content structure
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: '1034'
 ht-degree: 38%
-
 ---
-
 # ランディングページの設定
 
 管理者は、ランディングページの設定が、これらのページを作成および公開するマーケター向けに適切に設定されていることを確認する必要があります。 ブランドを反映し、エンゲージメントを効果的に追跡するランディングページを作成するには、次のふたつの設定タイプが必要です。
@@ -51,7 +62,7 @@ ht-degree: 38%
 
 設定されたランディングページのサブドメインを確認するには、**[!UICONTROL 管理]** > **[!UICONTROL チャネル]**&#x200B;に移動します。 ナビゲーションパネルの&#x200B;_[!UICONTROL ランディングページ]_&#x200B;で、**[!UICONTROL ランディングページサブドメイン]**&#x200B;を選択します。
 
-![&#x200B; チャネル設定 – ランディングページサブドメイン &#x200B;](./assets/config-channels-landing-pages-subdomains.png){width="800" zoomable="yes"}
+![ チャネル設定 – ランディングページサブドメイン ](./assets/config-channels-landing-pages-subdomains.png){width="800" zoomable="yes"}
 
 **ステータス**&#x200B;列には、サブドメインの作成とデリゲーションのプロセスに関する情報が表示されます。
 
@@ -135,7 +146,7 @@ To use a subdomain that is already delegated to Adobe:
    >
    >* サブドメインでは大文字は使用できません。
 
-   ![&#x200B; ランディングページサブドメインの設定](./assets/config-channels-landing-pages-subdomain-setup.png){width="500" zoomable="yes"}
+   ![ ランディングページサブドメインの設定](./assets/config-channels-landing-pages-subdomain-setup.png){width="500" zoomable="yes"}
 
    無効なサブドメインをアドビにデリゲートすることはできません。 組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
 
@@ -149,7 +160,7 @@ To use a subdomain that is already delegated to Adobe:
 
    すべての設定が正しい場合は、確認チェックボックスを選択し、**[!UICONTROL 送信]**&#x200B;をクリックします。
 
-   ![DNS レコードで設定されたランディングページのサブドメイン &#x200B;](./assets/config-channels-landing-pages-subdomain-setup-dns.png){width="500" zoomable="yes"}
+   ![DNS レコードで設定されたランディングページのサブドメイン ](./assets/config-channels-landing-pages-subdomain-setup-dns.png){width="500" zoomable="yes"}
 
    新しいランディングページサブドメインを設定すると、常に CNAME レコードを指すようになります。
 
@@ -223,13 +234,13 @@ _To add a landing page subdomain:_
 >title="ランディングページプリセットの作成"
 >abstract="ランディングページを構築して Journey Optimizer B2B Edition 全体で利用するには、使用するサブドメインを含むランディングページプリセットを作成する必要があります。"
 
-マーケターが[&#x200B; ランディングページ &#x200B;](../content/landing-pages-create-publish.md#create-landing-page)を作成する場合、ランディングページを作成して[!DNL Journey Optimizer B2B Edition]を通じて活用するには、ランディングページプリセットを選択する必要があります。 プリセットには、ランディングページに使用するサブドメインが含まれています。
+マーケターが[ ランディングページ ](../content/landing-pages-create-publish.md#create-landing-page)を作成する場合、ランディングページを作成して[!DNL Journey Optimizer B2B Edition]を通じて活用するには、ランディングページプリセットを選択する必要があります。 プリセットには、ランディングページに使用するサブドメインが含まれています。
 
 プリセットを設定する前に、_[!UICONTROL 成功]_ ステータスのランディングページサブドメインが少なくとも1つ設定されていることを確認してください。
 
 設定されたランディングページプリセットを確認するには、**[!UICONTROL 管理]** > **[!UICONTROL チャネル]**&#x200B;に移動します。 ナビゲーションパネルの&#x200B;_[!UICONTROL ランディングページ]_&#x200B;で、**[!UICONTROL ランディングページプリセット]**&#x200B;を選択します。
 
-![&#x200B; チャネル設定 – ランディングページプリセット &#x200B;](./assets/config-channels-landing-pages-presets.png){width="800" zoomable="yes"}
+![ チャネル設定 – ランディングページプリセット ](./assets/config-channels-landing-pages-presets.png){width="800" zoomable="yes"}
 
 任意のプリセット名をクリックして、ランディングページプリセットの詳細にアクセスします。
 
@@ -243,7 +254,7 @@ _To add a landing page subdomain:_
 
 1. ランディングページサブドメインを選択します。
 
-   ![名前、説明、サブドメインを含むランディングページプリセット &#x200B;](./assets/config-channels-landing-pages-preset-create.png){width="500" zoomable="yes"}
+   ![名前、説明、サブドメインを含むランディングページプリセット ](./assets/config-channels-landing-pages-preset-create.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -253,7 +264,7 @@ _To add a landing page subdomain:_
 
 1. 「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションを選択すると、**[!UICONTROL トラッキング URL]**&#x200B;のランディングページサブドメインを選択できます。<!-- [Learn more about tracking](../email/message-tracking.md) -->
 
-   ![&#x200B; サブドメイン設定を含むランディングページプリセット &#x200B;](./assets/config-channels-landing-pages-preset-subdomain-settings.png){width="500" zoomable="yes"}
+   ![ サブドメイン設定を含むランディングページプリセット ](./assets/config-channels-landing-pages-preset-subdomain-settings.png){width="500" zoomable="yes"}
 
    例えば、ランディングページ URLが`pages.mail.luma.com`、トラッキング URLが`data.mail.luma.com`の場合、トラッキングサブドメインとして使用する`pages.mail.luma.com`を選択できます。
 
@@ -269,4 +280,4 @@ _To add a landing page subdomain:_
 
    <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   ランディングページプリセットが作成されると、_[!UICONTROL アクティブ]_&#x200B;状態でリストに表示され、[&#x200B; ランディングページの作成](../content/landing-pages-create-publish.md#create-landing-page)に使用する準備が整います。
+   ランディングページプリセットが作成されると、_[!UICONTROL アクティブ]_&#x200B;状態でリストに表示され、[ ランディングページの作成](../content/landing-pages-create-publish.md#create-landing-page)に使用する準備が整います。

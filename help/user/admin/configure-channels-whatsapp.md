@@ -1,33 +1,41 @@
 ---
 title: WhatsApp チャネル設定
-description: Meta Cloud APIを介してWhatsApp Business アカウントを接続し、Journey Optimizer B2B edition アカウントジャーニーでWhatsApp メッセージを有効にします。
+description: Meta Cloud APIを介してWhatsApp Business アカウントを接続し、Journey Optimizer B2B Edition アカウントジャーニーでWhatsApp メッセージを有効にします。
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a7692144-1dc6-426f-b00f-fe187797f61d
+    internal-label: Deliverability
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: eec5558d6065501576a91097182201726020213c
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1515
+source-wordcount: '1515'
 ht-degree: 15%
-
 ---
-
 # WhatsApp チャネル設定
 
-Adobe Journey Optimizer B2B editionは、Meta APIを介してWhatsApp メッセージを送信します。 マーケターがアカウントジャーニー用にWhatsApp メッセージを作成する前に、製品管理者がWhatsApp チャネルを設定する必要があります。
+Adobe Journey Optimizer B2B Editionは、Meta Cloud APIを介してWhatsApp メッセージを送信します。 マーケターがアカウントジャーニー用にWhatsApp メッセージを作成する前に、製品管理者がWhatsApp チャネルを設定する必要があります。
 
-Journey Optimizer B2B editionの![WhatsApp タスク フロー](./assets/whatsapp-flow-diagram.png)
+Journey Optimizer B2B Editionの![WhatsApp タスクのフロー](./assets/whatsapp-flow-diagram.png)
 
 ## 前提条件
 
@@ -40,23 +48,23 @@ WhatsApp チャネルを設定する前に、次のことを確認してくだ�
 
 >[!IMPORTANT]
 >
->WhatsApp メッセージングサービスの使用には、Metaの利用条件が適用されます。 Journey Optimizer B2B editionを通じてWhatsApp メッセージにアクセスすることにより、お客様は[Meta WhatsApp Business ポリシー](https://whatsappbusiness.com/policy/)を確認し、遵守することに同意したものとみなされます。
+>WhatsApp メッセージングサービスの使用には、Metaの利用条件が適用されます。 Journey Optimizer B2B Editionを通じてWhatsApp メッセージにアクセスすることにより、お客様は[Meta WhatsApp Business ポリシー](https://whatsappbusiness.com/policy/)を確認し、遵守することに同意したものとみなされます。
 
 ## 制限事項 {#limitations}
 
 次の制限が WhatsApp チャネルに適用されます。
 
-* Adobe Journey Optimizer B2B editionは&#x200B;**HIPAAに準拠しておらず、HIPAA対応ではありません**。 さらに、サードパーティベンダーは、AdobeのBAAの対象ではありません。 顧客は、独自のコンプライアンスとベンダー検証に責任を負います。
+* Adobe Journey Optimizer B2B Editionは&#x200B;**HIPAAに準拠しておらず、HIPAA対応ではありません**。 さらに、サードパーティベンダーは、AdobeのBAAの対象ではありません。 顧客は、独自のコンプライアンスとベンダー検証に責任を負います。
 
 * 自動応答メッセージまたは事前定義された応答メッセージは、まだサポートされていません。
 
-* 2025年4月以降、Metaは、米国の電話番号（+1のダイヤル コードと米国の市外局番）を使用して、WhatsApp ユーザーへのマーケティングテンプレートメッセージを一時停止しました。 [詳しくは、Meta ドキュメント &#x200B;](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)を参照してください。
+* 2025年4月以降、Metaは、米国の電話番号（+1のダイヤル コードと米国の市外局番）を使用して、WhatsApp ユーザーへのマーケティングテンプレートメッセージを一時停止しました。 [詳しくは、Meta ドキュメント ](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)を参照してください。
 
 * ネイティブ統合機能では、サードパーティのビジネスサービスプロバイダー（BSP）との統合は許可されていません。
 
 ## チャネル設定の完了
 
-WhatsApp メッセージを送信する前に、Journey Optimizer B2B edition環境を設定し、WhatsApp アカウントに接続する必要があります。
+WhatsApp メッセージを送信する前に、Journey Optimizer B2B Edition環境を設定し、WhatsApp アカウントに接続する必要があります。
 
 次のタスクを実行します。
 
@@ -74,15 +82,15 @@ WhatsApp メッセージを送信する前に、Journey Optimizer B2B edition環
 
 1. パネルで、**[!UICONTROL WhatsApp Settings]**&#x200B;を展開し、**[!UICONTROL API Credentials]**&#x200B;を選択します。
 
-   ![管理 / WhatsApp設定が拡張されたチャネル &#x200B;](./assets/config-whatsapp-channels.png){width="800" zoomable="yes"}
+   ![管理 / WhatsApp設定が拡張されたチャネル ](./assets/config-whatsapp-channels.png){width="800" zoomable="yes"}
 
 1. 右上の「**[!UICONTROL 新しいAPI資格情報を作成]**」をクリックします。
 
 1. 以下で説明するように、API 資格情報を設定します。
 
    * **[!UICONTROL 名前]** – 資格情報の一意の名前を入力します
-   * **[!UICONTROL API トークン]** - API トークンを入力します。 詳しくは、[Meta ドキュメント &#x200B;](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)を参照してください。
-   * **[!UICONTROL ビジネス アカウント ID]** - ビジネス ポートフォリオに関連する一意の番号を入力します。 詳しくは、[Meta ドキュメント &#x200B;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)を参照してください。
+   * **[!UICONTROL API トークン]** - API トークンを入力します。 詳しくは、[Meta ドキュメント ](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)を参照してください。
+   * **[!UICONTROL ビジネス アカウント ID]** - ビジネス ポートフォリオに関連する一意の番号を入力します。 詳しくは、[Meta ドキュメント ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)を参照してください。
 
    ![WhatsApp設定API資格情報](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
@@ -121,10 +129,10 @@ WhatsApp API 資格情報の設定時に HTTP 500 エラーが発生した場合
 
 1. ビジネスアカウントフィールドの検証 – すべての必須フィールドが正しいことを確認します。
 
-   * API トークン – 適切な権限[&#128279;](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)を持つ有効なMeta アクセストークンである必要があります。
+   * API トークン – 適切な権限](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)を持つ有効な[Meta アクセストークンである必要があります。
    * Business Account ID - [Meta Business Account ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)と正確に一致する必要があります。
 
-1. 資格情報を外部でテストする – 問題が資格情報またはJourney Optimizer B2B editionの資格情報の処理を伴うかどうかを確認するには、Meta APIを使用して資格情報を確認します。
+1. 資格情報を外部でテストする – 問題が資格情報またはJourney Optimizer B2B Editionの資格情報の処理を伴うかどうかを確認するには、Meta APIを使用して資格情報を確認します。
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -159,7 +167,7 @@ do we have advanced logs? How are they enabled?
 
 >[!BEGINSHADEBOX]
 
-![AEP権限アイコン &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、割り当てられたユーザーロールに対する次の[権限がExperience Platform](./user-management.md#b2b-product-permissions)で必要です。
+![AEP権限アイコン ](../../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、割り当てられたユーザーロールに対する次の[権限がExperience Platform](./user-management.md#b2b-product-permissions)で必要です。
 
 * **[!UICONTROL B2B チャネル設定]** - `Manage B2B Channels`
 * **[!UICONTROL B2B チャネル設定]** - `Manage B2B WhatsApp Settings`
@@ -167,7 +175,7 @@ do we have advanced logs? How are they enabled?
 
 >[!ENDSHADEBOX]
 
-Webhookを使用すると、Journey Optimizer B2B editionは、WhatsApp Business アカウントからインバウンドメッセージ、同意応答、配信通知を受け取ることができます。 Webhookを設定して、適切な同意管理とメッセージ追跡を確保します。
+Webhookを使用すると、Journey Optimizer B2B EditionはWhatsApp Business アカウントからインバウンドメッセージ、同意応答、配信通知を受け取ることができます。 Webhookを設定して、適切な同意管理とメッセージ追跡を確保します。
 
 >[!NOTE]
 >
@@ -212,19 +220,19 @@ WhatsApp API資格情報が正常に作成されたら、webhookを設定でき�
 
 Webhookが送信されたら、トークンとURL値を取得し、Metaに登録できます。
 
-1. **[!UICONTROL WhatsApp Webhook]** リストで、作成したWebhookの編集（![編集アイコン &#x200B;](../assets/do-not-localize/icon-edit.svg)）アイコンをクリックします。
+1. **[!UICONTROL WhatsApp Webhook]** リストで、作成したWebhookの編集（![編集アイコン ](../assets/do-not-localize/icon-edit.svg)）アイコンをクリックします。
 
 1. **[!UICONTROL Verify Token]**&#x200B;と&#x200B;**[!UICONTROL Webhook URL]**&#x200B;の値をコピーします。
 
    ![WhatsApp設定Webhook設定でURLをコピーし、トークンを検証する](./assets/config-whatsapp-channels-webhooks-copy-token-url.png){width="500" zoomable="yes"}
 
-1. [Meta for Developers ポータル &#x200B;](https://developers.facebook.com/)で、WhatsApp アプリケーション設定に移動し、コピーした値を使用してWebhookを設定します。
+1. [Meta for Developers ポータル ](https://developers.facebook.com/)で、WhatsApp アプリケーション設定に移動し、コピーした値を使用してWebhookを設定します。
 
 ### チャネル設定の作成 {#create-channel-configuration}
 
 >[!BEGINSHADEBOX]
 
-![AEP権限アイコン &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、割り当てられたユーザーロールに対する次の[権限がExperience Platform](./user-management.md#b2b-product-permissions)で必要です。
+![AEP権限アイコン ](../../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、割り当てられたユーザーロールに対する次の[権限がExperience Platform](./user-management.md#b2b-product-permissions)で必要です。
 
 * **[!UICONTROL B2B チャネル設定]** - `Manage B2B Channels`
 * **[!UICONTROL B2B チャネル設定]** - `Manage B2B WhatsApp Settings`
@@ -236,7 +244,7 @@ Webhookが送信されたら、トークンとURL値を取得し、Metaに登録
 
 1. ナビゲーションパネルの&#x200B;_[!UICONTROL 一般設定]_&#x200B;で、**[!UICONTROL チャネル設定]**&#x200B;を選択します。
 
-   ![&#x200B; チャネル設定リスト &#x200B;](./assets/config-whatsapp-channels-general.png){width="600" zoomable="yes"}
+   ![ チャネル設定リスト ](./assets/config-whatsapp-channels-general.png){width="600" zoomable="yes"}
 
 1. 右上の「**[!UICONTROL チャネル設定を作成]**」をクリックします。
 
@@ -262,7 +270,7 @@ Webhookが送信されたら、トークンとURL値を取得し、Metaに登録
 
    ![WhatsApp チャネル設定の詳細](./assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. （現在Journey Optimizer B2B editionには適用されません） **[!UICONTROL WhatsApp Execution フィールド]**&#x200B;で、受信者が複数の電話番号を使用できる場合に優先電話番号として使用するプロファイル属性を選択します。
+1. （現在Journey Optimizer B2B Editionには適用されません） **[!UICONTROL WhatsApp Execution フィールド]**&#x200B;で、受信者が複数の電話番号を使用できる場合に優先電話番号として使用するプロファイル属性を選択します。
 
 1. **[!UICONTROL 送信]**&#x200B;をクリックして保存するか、**[!UICONTROL ドラフトとして保存]**&#x200B;をクリックして、後で設定を完了して送信します。
 

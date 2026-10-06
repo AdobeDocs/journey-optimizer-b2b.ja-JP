@@ -1,32 +1,41 @@
 ---
 title: メールテンプレートオーサリング
-description: Journey Optimizer B2B editionなら、ビジュアルデザインツール、カスタム CSS、フラグメント、アカウントジャーニーのパーソナライゼーションを使用して、再利用可能なメールテンプレートを作成できます。
+description: Journey Optimizer B2B Editionでは、ビジュアルデザインツール、カスタム CSS、フラグメント、アカウントジャーニーのパーソナライゼーション機能を備えた、再利用可能なメールテンプレートを作成できます。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
 autotag-review: 2026-03-30T22:30:02.360Z
+TQID: 'https://experienceleague.adobe.com/Z8Qz12J8H5p5QsGz5VI0TeKCvLkvbu9gjDE1xEB9VdQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-TQID: https://experienceleague.adobe.com/Z8Qz12J8H5p5QsGz5VI0TeKCvLkvbu9gjDE1xEB9VdQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: '547'
 ht-degree: 3%
-
 ---
-
 # メールテンプレートオーサリング
 
-[&#x200B; メールテンプレートを作成した後](./email-templates.md#create-an-email-template)、ビジュアルデザインスペースを使用して、メールテンプレート内の構造コンポーネントとコンテンツコンポーネントを作成します。
+[ メールテンプレートを作成した後](./email-templates.md#create-an-email-template)、ビジュアルデザインスペースを使用して、メールテンプレート内の構造コンポーネントとコンテンツコンポーネントを作成します。
 
 ## 構造とコンテンツの追加 {#structure-content}
 
@@ -38,7 +47,7 @@ ht-degree: 3%
 
 キャンバス内に少なくとも1つのコンテンツコンポーネントがある場合は、左側のナビゲーションツリーで&#x200B;**[!UICONTROL Body]** コンポーネントを選択して、カスタム CSS エディターにアクセスします。
 
-![&#x200B; ボディスタイルにアクセス &#x200B;](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+![ ボディスタイルにアクセス ](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
 
 {{$include /help/_includes/content-design-custom-css.md}}
 
@@ -70,11 +79,11 @@ ht-degree: 3%
 
 ### ダークモードのスタイル設定の適用
 
-_ダークモード_&#x200B;を使用して、電子メールクライアントでダークテーマの電子メール表示を確認します。 ダークモードまたはテーマを使用すると、サポートメールクライアントまたはアプリで、テキスト、ボタン、その他のビジュアル要素の背景が暗く、色が明るいメールを表示できます。 デザインキャンバスの右上で、セレクターを&#x200B;_ダークモード_ （![&#x200B; ダークモードアイコン &#x200B;](../assets/do-not-localize/icon-content-dark-mode.svg)）に変更します。 次に、ダークテーマが有効になっている場合に、サポートするメールクライアントが表示に使用する特定のカスタム設定をプレビューして定義します。
+_ダークモード_&#x200B;を使用して、電子メールクライアントでダークテーマの電子メール表示を確認します。 ダークモードまたはテーマを使用すると、サポートメールクライアントまたはアプリで、テキスト、ボタン、その他のビジュアル要素の背景が暗く、色が明るいメールを表示できます。 デザインキャンバスの右上で、セレクターを&#x200B;_ダークモード_ （![ ダークモードアイコン ](../assets/do-not-localize/icon-content-dark-mode.svg)）に変更します。 次に、ダークテーマが有効になっている場合に、サポートするメールクライアントが表示に使用する特定のカスタム設定をプレビューして定義します。
 
-![&#x200B; ダークモードのセレクターと、ダークモードで表示される電子メールコンテンツを示す電子メールデザインキャンバス &#x200B;](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+![ ダークモードのセレクターと、ダークモードで表示される電子メールコンテンツを示す電子メールデザインキャンバス ](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
 
-ダークモードのスタイル設定とベストプラクティスについて詳しくは、[&#x200B; メールコンテンツのダークモード &#x200B;](./email-dark-mode.md)を参照してください。
+ダークモードのスタイル設定とベストプラクティスについて詳しくは、[ メールコンテンツのダークモード ](./email-dark-mode.md)を参照してください。
 
 ## 表示オプション
 
@@ -83,16 +92,16 @@ _ダークモード_&#x200B;を使用して、電子メールクライアント�
 * プリセットのズームオプション全体でコンテンツをズームイン/ズームアウトします。
 
 * デスクトップ、モバイル、またはテキストのみ/プレーンテキストのコンテンツ表示を切り替えます。
-   * デバイス間でコンテンツをプレビューするには、_Eye_ アイコンをクリックします。
-   * すぐに使えるデバイスのいずれかを選択するか、カスタムディメンションを入力してコンテンツをプレビューします。
+  * デバイス間でコンテンツをプレビューするには、_Eye_ アイコンをクリックします。
+  * すぐに使えるデバイスのいずれかを選択するか、カスタムディメンションを入力してコンテンツをプレビューします。
 
 ### 詳細オプション
 
 メールデザインスペースの上部にある&#x200B;_[!UICONTROL その他…]_ メニューから、次の操作を実行できます。
 
-![詳細をクリックしてテンプレートアクションにアクセス &#x200B;](./assets/visual-designer-more-menu.png){width="500"}
+![詳細をクリックしてテンプレートアクションにアクセス ](./assets/visual-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL テンプレートをリセット]** – このオプションをクリックして、デザインキャンバスを空のスレートにクリアし、コンテンツの構築を再開します。
 * **[!UICONTROL フラグメントとして保存]** - テンプレートの全部または一部をフラグメントとして保存し、複数のメールまたはメールテンプレートで再利用できます。 フラグメントの名前と説明を指定し、使用可能なフラグメントのリストに保存します。
-* **[!UICONTROL デザインを変更]** - _メールをデザイン_ ページに戻ります。 そこから、別のテンプレートを選択してデザインプロセスを再起動できます。 また、空白のキャンバス（_クラシックモード_）を使用するか、[&#x200B; ブランドテーマ &#x200B;](./brand-themes.md) （_テーマモード_）を使用して、コンテンツをゼロからデザインすることもできます。
+* **[!UICONTROL デザインを変更]** - _メールをデザイン_ ページに戻ります。 そこから、別のテンプレートを選択してデザインプロセスを再起動できます。 また、空白のキャンバス（_クラシックモード_）を使用するか、[ ブランドテーマ ](./brand-themes.md) （_テーマモード_）を使用して、コンテンツをゼロからデザインすることもできます。
 * **[!UICONTROL HTMLを書き出し]** - ビジュアルキャンバスのコンテンツを、zip ファイルとしてパッケージ化されたHTML形式でローカルシステムにダウンロードします。

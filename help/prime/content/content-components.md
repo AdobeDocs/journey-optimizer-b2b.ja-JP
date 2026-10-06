@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T21:52:30.119Z'
 TQID: 'https://experienceleague.adobe.com/HlZVkbD1SkW94xTSLv-rMoKYWG6E79wBGfIH3oGQTNI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: '2840'
 ht-degree: 7%
-
 ---
-
 # コンテンツコンポーネント {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -45,9 +51,9 @@ ht-degree: 7%
 >title="コンテンツコンポーネントについて"
 >abstract="コンテンツコンポーネントは、テンプレートのデザイン作成に使用できる空のコンテンツプレースホルダーです。"
 
-メール、ランディングページ、テンプレート、ビジュアルフラグメントのコンテンツをデザインする場合は、[!UICONTROL &#x200B; コンテンツコンポーネント &#x200B;]を使用してビジュアルデザイン要素を追加します。
+メール、ランディングページ、テンプレート、ビジュアルフラグメントのコンテンツをデザインする場合は、[!UICONTROL  コンテンツコンポーネント ]を使用してビジュアルデザイン要素を追加します。
 
-レイアウトを定義する1つ以上の[構造コンポーネント &#x200B;](./structure-components.md)内に、必要な数のコンテンツコンポーネントを追加できます。
+レイアウトを定義する1つ以上の[構造コンポーネント ](./structure-components.md)内に、必要な数のコンテンツコンポーネントを追加できます。
 
 ## コンテンツライブラリ
 
@@ -55,20 +61,20 @@ ht-degree: 7%
 
 | アイコン | コンポーネント | 説明 |
 | --------- | ---- | ----------- |
-| ![&#x200B; コンテナアイコン &#x200B;](../../assets/do-not-localize/icon-content-component-container.svg) | [コンテナ](#container) | このコンポーネントをデザインに追加して、コンポーネントをグループ化したり、背景や境界線のスタイルを領域に適用したりするために使用できる長方形のコンテナを含めます。 |
-| ![&#x200B; ボタンアイコン &#x200B;](../../assets/do-not-localize/icon-content-component-button.svg) | [&#x200B; ボタン &#x200B;](#button) | このコンポーネントをデザインに追加して、クリック可能なボタン要素を含めます。 |
-| ![&#x200B; テキストアイコン &#x200B;](../../assets/do-not-localize/icon-content-component-text.svg) | [テキスト](#text) | このコンポーネントをデザインに追加して、テキストの本文を含めます。 |
-| ![&#x200B; ディバイダーアイコン &#x200B;](../../assets/do-not-localize/icon-content-component-divider.svg) | [&#x200B; ディバイダー](#divider) | このコンポーネントをデザインに追加して、コンテンツの個別の領域に水平線を含めます。 |
-| ![HTML アイコン &#x200B;](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | このコンポーネントをデザインに追加して、既存のHTMLの様々な部分をコピー&amp;ペーストします。 このコンポーネントを使用して、一部の外部コンテンツを再利用するための無料のモジュラーHTML ブロックを作成します。 |
-| ![画像アイコン &#x200B;](../../assets/do-not-localize/icon-content-component-image.svg) | [画像](#image) | このコンポーネントをデザインに追加して、画像ファイルを挿入します。 |
-| ![&#x200B; ソーシャルアイコン &#x200B;](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | このコンポーネントをデザインに追加して、ソーシャルメディアページへのリンクを挿入します。 |
-| ![&#x200B; フォームアイコン &#x200B;](../../assets/do-not-localize/icon-content-component-form.svg) | [フォーム](#form) | **_ランディングページでのみ使用できます。_** このコンポーネントをデザインに追加して、作成したフォームを挿入します。 |
+| ![ コンテナアイコン ](../../assets/do-not-localize/icon-content-component-container.svg) | [コンテナ](#container) | このコンポーネントをデザインに追加して、コンポーネントをグループ化したり、背景や境界線のスタイルを領域に適用したりするために使用できる長方形のコンテナを含めます。 |
+| ![ ボタンアイコン ](../../assets/do-not-localize/icon-content-component-button.svg) | [ ボタン ](#button) | このコンポーネントをデザインに追加して、クリック可能なボタン要素を含めます。 |
+| ![ テキストアイコン ](../../assets/do-not-localize/icon-content-component-text.svg) | [テキスト](#text) | このコンポーネントをデザインに追加して、テキストの本文を含めます。 |
+| ![ ディバイダーアイコン ](../../assets/do-not-localize/icon-content-component-divider.svg) | [ ディバイダー](#divider) | このコンポーネントをデザインに追加して、コンテンツの個別の領域に水平線を含めます。 |
+| ![HTML アイコン ](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | このコンポーネントをデザインに追加して、既存のHTMLの様々な部分をコピー&amp;ペーストします。 このコンポーネントを使用して、一部の外部コンテンツを再利用するための無料のモジュラーHTML ブロックを作成します。 |
+| ![画像アイコン ](../../assets/do-not-localize/icon-content-component-image.svg) | [画像](#image) | このコンポーネントをデザインに追加して、画像ファイルを挿入します。 |
+| ![ ソーシャルアイコン ](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | このコンポーネントをデザインに追加して、ソーシャルメディアページへのリンクを挿入します。 |
+| ![ フォームアイコン ](../../assets/do-not-localize/icon-content-component-form.svg) | [フォーム](#form) | **_ランディングページでのみ使用できます。_** このコンポーネントをデザインに追加して、作成したフォームを挿入します。 |
 
 ## コンテンツコンポーネントツールバー
 
 各コンテンツコンポーネントタイプは、キャンバスで選択したときにツールバーを表示します。 使用可能なツールは、コンポーネントタイプによって異なりますが、レンダリングされたコンテンツ内でコンポーネントを直接操作する簡単な方法を提供します。 ツールバーには、コンポーネントタイプに適用できる書式設定機能と機能機能が含まれています。
 
-![&#x200B; コンテンツコンポーネントツールバー](../../user/assets/do-not-localize/toolbar-content.png){width="450"}
+![ コンテンツコンポーネントツールバー](../../user/assets/do-not-localize/toolbar-content.png){width="450"}
 
 ### 書式設定ツール
 
@@ -213,7 +219,7 @@ ht-degree: 7%
 | ツール | 名前 | 使用方法 |
 | ---- | ---- | ----- |
 | ![パーソナライゼーションの追加](../../user/assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | パーソナライゼーションの追加 | パーソナライゼーションエディターを使用して、コンポーネントコンテンツにパーソナライゼーショントークンを挿入します。 [詳細情報](./email-authoring.md#personalize-content) |
-| ![&#x200B; ソースコードを表示](../../user/assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | ソースコードを表示 | コンポーネントのHTML ソースコードを読み取り専用ポップアップで表示します。 <br/>![HTML コードを表示](../../user/content/assets/content-components-show-source-code.png){width="200"} |
+| ![ ソースコードを表示](../../user/assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | ソースコードを表示 | コンポーネントのHTML ソースコードを読み取り専用ポップアップで表示します。 <br/>![HTML コードを表示](../../user/content/assets/content-components-show-source-code.png){width="200"} |
 | ![条件付きコンテンツを有効にする](../../user/assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | 条件付きコンテンツの有効化 | （メールとフラグメント） コンポーネントの条件付きバリアントを有効にします。 |
 | ![複製](../../user/assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | 複製 | コンポーネントのコピーを作成し、以下に直接追加します。 |
 | ![削除](../../user/assets/do-not-localize/toolbar-button-delete.png){width="40"} | 削除 | コンポーネントを削除します。 |
@@ -222,19 +228,19 @@ ht-degree: 7%
 
 1. ビジュアルデザイン空間で、既存のテンプレートを使用するか、必要な構造コンポーネントを空のキャンバスに追加してレイアウトを定義します。
 
-1. **[!UICONTROL コンポーネント]** ライブラリで、選択したコンテンツコンポーネントの&#x200B;_ドラッグハンドル_ ![&#x200B; ドラッグハンドル &#x200B;](../../assets/do-not-localize/icon-drag-handle.svg)を取得し、それを構造コンポーネントにドラッグ&amp;ドロップします。
+1. **[!UICONTROL コンポーネント]** ライブラリで、選択したコンテンツコンポーネントの&#x200B;_ドラッグハンドル_ ![ ドラッグハンドル ](../../assets/do-not-localize/icon-drag-handle.svg)を取得し、それを構造コンポーネントにドラッグ&amp;ドロップします。
 
    単一の構造コンポーネントおよび構造コンポーネントの各列に複数のコンポーネントを追加できます。
 
-   ![&#x200B; コンテンツコンポーネントを構造コンポーネントにドラッグします](../../user/content/assets/content-components-drag.png){width="600" zoomable="yes"}
+   ![ コンテンツコンポーネントを構造コンポーネントにドラッグします](../../user/content/assets/content-components-drag.png){width="600" zoomable="yes"}
 
 1. 右側の&#x200B;**[!UICONTROL 設定]**&#x200B;および&#x200B;**[!UICONTROL スタイル]** タブ、またはキャンバスに表示されるコンテキストツールバーを使用して、コンポーネントの表示を調整します。
 
    例えば、コンポーネントのテキストスタイル、パディング、マージンを変更できます。
 
-   ![&#x200B; コンテンツコンポーネントの設定とスタイルを定義](../../user/content/assets/content-components-settings-styles.png){width="600" zoomable="yes"}
+   ![ コンテンツコンポーネントの設定とスタイルを定義](../../user/content/assets/content-components-settings-styles.png){width="600" zoomable="yes"}
 
-デザインの作業中に、[機能ツール &#x200B;](#functional-tools) セクションの&#x200B;**削除**&#x200B;および&#x200B;**複製** ツールを使用して、コンポーネントを削除または複製することもできます。
+デザインの作業中に、[機能ツール ](#functional-tools) セクションの&#x200B;**削除**&#x200B;および&#x200B;**複製** ツールを使用して、コンポーネントを削除または複製することもできます。
 
 ## コンテンツコンポーネントの設定とスタイル
 
@@ -247,7 +253,7 @@ ht-degree: 7%
 * _[!UICONTROL デスクトップデバイスでのみ表示]_ - コンポーネントをデスクトップデバイスに表示し、モバイルデバイスに対して除外する場合は、この設定を選択します。
 * _[!UICONTROL モバイルデバイスでのみ表示]_ – この設定は、スマートフォンやタブレットなどのモバイルデバイスにコンポーネントを表示し、デスクトップデバイスに対しては除外する場合に選択します。
 
-![&#x200B; コンテンツコンポーネントの表示オプション &#x200B;](../../user/content/assets/content-components-display-options.png){width="400" zoomable="yes"}
+![ コンテンツコンポーネントの表示オプション ](../../user/content/assets/content-components-display-options.png){width="400" zoomable="yes"}
 
 ### コンテナ {#container}
 
@@ -255,7 +261,7 @@ ht-degree: 7%
 
 例えば、_[!UICONTROL コンテナ]_&#x200B;コンポーネントを追加してから、 _[!UICONTROL ボタン]_&#x200B;コンポーネントをそのコンテナ内に追加します。 コンテナに特定のエリアのスタイル設定を使用し、必要に応じてボタンとその背景のスタイルを設定できます。
 
-![&#x200B; コンテナコンテンツコンポーネントスタイル &#x200B;](../../user/content/assets/content-components-container.png){width="600" zoomable="yes"}
+![ コンテナコンテンツコンポーネントスタイル ](../../user/content/assets/content-components-container.png){width="600" zoomable="yes"}
 
 +++背景
 
@@ -289,15 +295,15 @@ ht-degree: 7%
 
 ### ボタン {#button}
 
-[!UICONTROL &#x200B; ボタン &#x200B;] コンポーネントを使用して、1つまたは複数のクリック可能なボタンをコンテンツに挿入します。 ボタンを使用して、ページビューアまたはメール受信者をサポートコンテンツ（公開されたランディングページまたは外部リンク）にリダイレクトします。
+[!UICONTROL  ボタン ] コンポーネントを使用して、1つまたは複数のクリック可能なボタンをコンテンツに挿入します。 ボタンを使用して、ページビューアまたはメール受信者をサポートコンテンツ（公開されたランディングページまたは外部リンク）にリダイレクトします。
 
 #### ボタンのテキストを追加
 
-ボタンコンポーネントがキャンバスに表示されると、ツールバーには、テキスト書式設定のオプションと、パーソナライゼーションおよび条件付きバリアントが含まれます。 エディターツールバーのオプションについて詳しくは、[&#x200B; コンテンツコンポーネントツールバー](#content-component-toolbars)を参照してください。
+ボタンコンポーネントがキャンバスに表示されると、ツールバーには、テキスト書式設定のオプションと、パーソナライゼーションおよび条件付きバリアントが含まれます。 エディターツールバーのオプションについて詳しくは、[ コンテンツコンポーネントツールバー](#content-component-toolbars)を参照してください。
 
 ボタンのラベルテキストを入力して書式を設定すると、コンテンツに合わせてボタンのサイズが変更されます。
 
-![&#x200B; ツールバーに表示されるボタンコンポーネント &#x200B;](../../user/content/assets/content-components-button.png){width="500" zoomable="yes"}
+![ ツールバーに表示されるボタンコンポーネント ](../../user/content/assets/content-components-button.png){width="500" zoomable="yes"}
 
 #### リンクオプションの設定 {#button-set-link-options}
 
@@ -307,15 +313,15 @@ ht-degree: 7%
 
    * **[!UICONTROL 外部リンク]** – 標準URLをリンク先として使用するには、このタイプを選択します。
 
-     **[!UICONTROL Url]**&#x200B;に、リンク先のURLを入力します。 _パーソナライズ_ （![&#x200B; パーソナライズアイコン &#x200B;](../../user/assets/do-not-localize/icon-personalize.svg)）アイコンをクリックして、パーソナライゼーショントークンをURLのパラメーターとして使用します。
+     **[!UICONTROL Url]**&#x200B;に、リンク先のURLを入力します。 _パーソナライズ_ （![ パーソナライズアイコン ](../../user/assets/do-not-localize/icon-personalize.svg)）アイコンをクリックして、パーソナライゼーショントークンをURLのパラメーターとして使用します。
 
-     ![&#x200B; ボタンコンポーネントの外部リンクを定義](../../user/content/assets/component-button-link-options-external.png){width="200"}
+     ![ ボタンコンポーネントの外部リンクを定義](../../user/content/assets/component-button-link-options-external.png){width="200"}
 
    * **ランディングページ** – このタイプを選択すると、接続されているMarketo Engage インスタンス <!-- Journey Optimizer B2B Edition (_Beta_) or -->で公開されたランディングページが選択されます。
 
-     「**[!UICONTROL ランディングページ]**」オプションで、公開されたランディングページを選択します。 _ページを選択_ アイコン （![&#x200B; リンクを表示アイコン &#x200B;](../../user/assets/do-not-localize/icon-landing-page-select.svg)）をクリックし、[公開されたランディングページを選択](./landing-pages.md#link-to-landing-page)。
+     「**[!UICONTROL ランディングページ]**」オプションで、公開されたランディングページを選択します。 _ページを選択_ アイコン （![ リンクを表示アイコン ](../../user/assets/do-not-localize/icon-landing-page-select.svg)）をクリックし、[公開されたランディングページを選択](./landing-pages.md#link-to-landing-page)。
 
-     ![&#x200B; ボタンコンポーネントのランディングページへのリンクを定義](../../user/content/assets/component-button-link-options-landing-page.png){width="200"}
+     ![ ボタンコンポーネントのランディングページへのリンクを定義](../../user/content/assets/component-button-link-options-landing-page.png){width="200"}
 
 1. **[!UICONTROL Label]**&#x200B;に、ボタン内に表示するテキストを入力します。
 
@@ -457,11 +463,11 @@ _Divider_ コンポーネントを追加して、コンテンツのセクショ�
 
 * **[!UICONTROL 幅]** - トグルを使用して、幅をピクセルまたはパーセント単位で設定します。
 
-   * パーセンテージ幅の場合は、スライダーを使用してパーセンテージ値を設定します。 パーセンテージは、含まれるブロックのコンテンツボックスに基づいてエレメントのサイズを決定します。このボックスでは、パディングと境界線は除外されます。 例えば、値が50の場合、要素の幅は、含まれるブロックコンテンツの幅の50%に設定されます。
+  * パーセンテージ幅の場合は、スライダーを使用してパーセンテージ値を設定します。 パーセンテージは、含まれるブロックのコンテンツボックスに基づいてエレメントのサイズを決定します。このボックスでは、パディングと境界線は除外されます。 例えば、値が50の場合、要素の幅は、含まれるブロックコンテンツの幅の50%に設定されます。
 
   ![区切りコンポーネントの行スタイルを定義](../../user/content/assets/component-divider-line-options.png){width="250"}
 
-   * ピクセルベースの幅の場合は、上下の矢印アイコンをクリックして、ピクセル数を増減します。 空の値（Auto）がデフォルトで、要素の幅を内容に応じてサイズ調整します。
+  * ピクセルベースの幅の場合は、上下の矢印アイコンをクリックして、ピクセル数を増減します。 空の値（Auto）がデフォルトで、要素の幅を内容に応じてサイズ調整します。
 
 * **[!UICONTROL スタイル]** - _Solid_、_Dotted_、_Dashed_&#x200B;など、標準CSS `line-style`値のリストから値を選択します。
 
@@ -503,11 +509,11 @@ HTML コンポーネントを使用して、既存のHTMLの一部を追加し�
 
 1. キャンバス上のコンポーネントを選択し、ツールバーの「_ソースコードを表示_」アイコンをクリックします。
 
-   ![&#x200B; コードエディターを開いて、HTML](../../user/content/assets/content-components-html-show-code.png){width="450"}を追加します
+   ![ コードエディターを開いて、HTML](../../user/content/assets/content-components-html-show-code.png){width="450"}を追加します
 
 1. テキストボックスにHTMLを貼り付け、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   ![HTMLを編集ダイアログ &#x200B;](../../user/content/assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
+   ![HTMLを編集ダイアログ ](../../user/content/assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
    HTMLが有効な場合は、カンバス上にエレメントがレンダリングされます。 他のコンテンツコンポーネントのいずれかにマッピングするエレメントの場合は、コンポーネントタイプに応じて右側のパネルの設定とスタイルを変更できます。 そうでない場合は、HTML コンポーネントとして残ります。
 
@@ -559,7 +565,7 @@ HTML コンポーネントの場合、右側のパネルで、HTML コンポー�
 
 [!UICONTROL 画像] コンポーネントを使用して、画像アセットをコンテンツに挿入します。 _画像_ コンポーネントがキャンバスで選択されている場合、表示されている画像アセットファイルを追加または変更できます。
 
-![&#x200B; ツールバーと共に表示される画像コンポーネント &#x200B;](../../user/content/assets/content-components-image.png){width="400" zoomable="yes"}
+![ ツールバーと共に表示される画像コンポーネント ](../../user/content/assets/content-components-image.png){width="400" zoomable="yes"}
 
 #### 画像アセットの追加 {#add-image-asset}
 
@@ -573,9 +579,9 @@ HTML コンポーネントの場合、右側のパネルで、HTML コンポー�
 
   必要なアセットを見つけるのに役立つツールがあります。
 
-   * 左上の&#x200B;_フィルター_ アイコンをクリックして、条件に従って表示される項目をフィルタリングします。
+  * 左上の&#x200B;_フィルター_ アイコンをクリックして、条件に従って表示される項目をフィルタリングします。
 
-   * 「_検索_」フィールドにテキストを入力して、アセット名に一致する表示アイテムをフィルタリングします。
+  * 「_検索_」フィールドにテキストを入力して、アセット名に一致する表示アイテムをフィルタリングします。
 
 * **[!UICONTROL メディアの読み込み]** – このタイプを選択して、システムからファイルを選択し、[!DNL Journey Optimizer B2B Prime] アセットライブラリに読み込みます。
 
@@ -599,13 +605,13 @@ _[!UICONTROL 設定]_ タブで、**[!UICONTROL リンク]** オプションを�
 
    * **[!UICONTROL 外部リンク]** – 標準URLをリンク先として使用するには、このタイプを選択します。
 
-     **[!UICONTROL Url]**&#x200B;に、リンク先のURLを入力します。 _パーソナライズ_ （![&#x200B; パーソナライズアイコン &#x200B;](../../user/assets/do-not-localize/icon-personalize.svg)）アイコンをクリックして、パーソナライゼーショントークンをURLのパラメーターとして使用します。
+     **[!UICONTROL Url]**&#x200B;に、リンク先のURLを入力します。 _パーソナライズ_ （![ パーソナライズアイコン ](../../user/assets/do-not-localize/icon-personalize.svg)）アイコンをクリックして、パーソナライゼーショントークンをURLのパラメーターとして使用します。
 
      ![画像コンポーネントの外部リンクを定義](../../user/content/assets/component-button-link-options-external.png){width="250"}
 
    * **ランディングページ** – このタイプを選択すると、接続されているMarketo Engage インスタンス <!-- Journey Optimizer B2B Edition (_Beta_) or -->で公開されたランディングページが選択されます。
 
-     「**[!UICONTROL ランディングページ]**」オプションで、公開されたランディングページを選択します。 _ページを選択_ アイコン （![&#x200B; リンクを表示アイコン &#x200B;](../../user/assets/do-not-localize/icon-landing-page-select.svg)）をクリックし、[公開されたランディングページを選択](./landing-pages.md#link-to-landing-page)。
+     「**[!UICONTROL ランディングページ]**」オプションで、公開されたランディングページを選択します。 _ページを選択_ アイコン （![ リンクを表示アイコン ](../../user/assets/do-not-localize/icon-landing-page-select.svg)）をクリックし、[公開されたランディングページを選択](./landing-pages.md#link-to-landing-page)。
 
      ![画像コンポーネントのランディングページへのリンクを定義](../../user/content/assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -669,11 +675,11 @@ _[!UICONTROL 設定]_ タブで、**[!UICONTROL リンク]** オプションを�
 
 _ソーシャル_ コンポーネントを使用して、ソーシャルメディアページへのリンクをコンテンツに挿入します。 3つのデフォルトのソーシャルメディアタイプが含まれていますが、ニーズに応じてタイプを追加または削除できます。
 
-![&#x200B; デフォルトタイプを持つ新しいソーシャルコンポーネント &#x200B;](./assets/content-components-social-settings.png){width="600" zoomable="yes"}
+![ デフォルトタイプを持つ新しいソーシャルコンポーネント ](./assets/content-components-social-settings.png){width="600" zoomable="yes"}
 
 * ソーシャルメディアタイプを追加するには、_追加_ （**+**）アイコンをクリックし、追加するソーシャルメディアタイプを選択します。
 
-  ![&#x200B; 「+」をクリックしてソーシャルメディアの種類を追加](./assets/content-components-social-settings-add-type.png){width="250"}
+  ![ 「+」をクリックしてソーシャルメディアの種類を追加](./assets/content-components-social-settings-add-type.png){width="250"}
 
 * ソーシャルメディアの種類を削除するには、ソーシャルメディアアイコンの横にある&#x200B;**X**&#x200B;をクリックします。
 
@@ -753,7 +759,7 @@ _Form_ コンポーネントを使用して、公開したフォームをラン�
      >
      >フォームを使用してファイルをダウンロードする場合は、ホストされているファイルのURLを指定できます。 この設定では、送信ボタンはダウンロードボタンとして機能します。
 
-     ![&#x200B; フォローアップ設定の変更](../../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+     ![ フォローアップ設定の変更](../../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 必要に応じて、右側のパネルで「**[!UICONTROL スタイル]**」タブを選択し、構造コンポーネント内のフォームマージンを設定します。
 

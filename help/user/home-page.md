@@ -4,24 +4,29 @@ description: Journey Optimizer B2B Edition にアクセスし、パーソナラ�
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
+autotag-review: 2026-03-27T22:19:43.813Z
+TQID: 'https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+  - id: c94c7410-5385-5f5d-84b7-99639323828e
+    internal-label: Home Page
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:19:43.813Z
-TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '415'
 ht-degree: 83%
-
 ---
-
 # ログインとホームページ
 
 Adobe Journey Optimizer B2B Edition を使用すると、ビルトインの生成 AI と業界をリードする自動化を使用して、アカウントと購買グループのジャーニーをオーケストレーションし、マーケティング資格のある購買グループを活用して特定のオファーに対する需要を最大化できます。
@@ -39,7 +44,7 @@ Adobe Experience Platform にログインし、Adobe Journey Optimizer B2B Editi
 
 ![Journey Optimizer B2B Edition ホームページ](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition には、_&#x200B;**マーケター**&#x200B;_&#x200B;と&#x200B;_&#x200B;**管理者**&#x200B;_&#x200B;という 2 つの主要なユーザーペルソナがあります。 各ペルソナには、成熟度（新規または高度）に応じた固有のホームページがあります。 ページのコンテンツは、各ペルソナが必要とする情報と次に実行するアクションに基づいています。
+Journey Optimizer B2B Edition には、_**マーケター**_&#x200B;と&#x200B;_**管理者**_&#x200B;という 2 つの主要なユーザーペルソナがあります。 各ペルソナには、成熟度（新規または高度）に応じた固有のホームページがあります。 ページのコンテンツは、各ペルソナが必要とする情報と次に実行するアクションに基づいています。
 
 * **マーケター - 新規ユーザー** - 新規ユーザー向けの&#x200B;_マーケター_&#x200B;ホームページは、Journey Optimizer B2B とその機能に慣れるのに役立ちます。 新しいマーケター向けのガイドを利用して、システムの細かな違いを理解し、B2B マーケティング戦略や施策の開発を効率的に行うことができます。
 * **マーケター - 高度なユーザー** - 高度なマーケター向けの&#x200B;_マーケター_&#x200B;ホームページには、現在のイニシアチブの進行状況、推奨される次のアクションが表示され、関連セクションにクイックアクセスできます。

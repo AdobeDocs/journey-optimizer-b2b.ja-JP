@@ -1,28 +1,34 @@
 ---
 title: ジャーニーノード
-description: Journey Optimizer B2B editionなら、アクション、イベント、オーケストレーションノード（オーディエンス、待機、分割、結合）を利用して、クロスチャネルマーケティング向けのジャーニーを構築できます。
+description: Journey Optimizer B2B Editionのクロスチャネルマーケティング用に、アクションノード、イベントノード、オーケストレーションノード（オーディエンス、待機、分割、結合）でジャーニーを構築できます。
 feature: Account Journeys
 hide: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
+autotag-review: 2026-03-30T23:13:57.315Z
+TQID: 'https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:13:57.315Z
-TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '135'
 ht-degree: 18%
-
 ---
-
 # ジャーニーノード
 
 ジャーニー（アカウントジャーニーまたは個人ジャーニー）を作成した後、オーディエンスを追加し、ノードを使用してジャーニーを構築します。 ジャーニーマップは、マルチステップのB2B マーケティングのユースケースを構築できるキャンバスを提供します。

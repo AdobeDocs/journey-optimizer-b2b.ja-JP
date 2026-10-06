@@ -4,26 +4,35 @@ description: Adobe Journey Optimizerの送信時間最適化（STO）機能に�
 feature: Person Journeys, Channels
 role: User
 exl-id: a0423bdc-f2ad-450b-9dc6-b9f2f7a1ef8c
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+    internal-label: Journey Actions
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '483'
 ht-degree: 0%
-
 ---
-
 # メール送信時間の最適化
 
 送信時間の最適化（STO）機能を使用して、各プロファイルがエンゲージする可能性が最も高いタイミングを予測し、[人のジャーニー](../journeys/journeys-overview.md)のメール配信タイミングをパーソナライズします。 STOは、送信時間を固定するのではなく、過去のメールエンゲージメントシグナルを利用して、各受信者に最適な時間に配信をスケジュールし、エンゲージメント全体を向上させます。
@@ -55,7 +64,7 @@ STOに対して計画されている&#x200B;**_今後の機能強化_**&#x200B;�
 
 ## 設定
 
-[&#x200B; ユーザーのジャーニーに&#x200B;_[!UICONTROL アクションを実行]_ ノード &#x200B;](../journeys/action-nodes.md)を追加すると、送信時間の最適化を設定できます。
+[ ユーザーのジャーニーに&#x200B;_[!UICONTROL アクションを実行]_ ノード ](../journeys/action-nodes.md)を追加すると、送信時間の最適化を設定できます。
 
 1. _[!UICONTROL アクションを選択]_&#x200B;するには、**[!UICONTROL メールを送信]**&#x200B;を選択します。
 
@@ -71,9 +80,9 @@ STOに対して計画されている&#x200B;**_今後の機能強化_**&#x200B;�
    >
    >強力なエンゲージメント履歴を持つプロファイルは、STOの影響を測定するために、コントロールグループとテストグループに均等に分割されます。 統計的に信頼性の高い結果を得るために、STOと非STOの分割は30%から70%の間で制限されています。 これにより、より小さなコホートで結果が歪むことを防ぎ、有意義な比較を実現できます。
 
-   ![&#x200B; メールジャーニーノードの送信 – 送信時間の最適化オプション &#x200B;](./assets/email-node-send-time-optimization.png){width="700" zoomable="no"}
+   ![ メールジャーニーノードの送信 – 送信時間の最適化オプション ](./assets/email-node-send-time-optimization.png){width="700" zoomable="no"}
 
-1. _[!UICONTROL メールを送信]_ ノードの直後に、[様が&#x200B;_待機_ ノード &#x200B;](../journeys/wait-nodes.md)を追加します。
+1. _[!UICONTROL メールを送信]_ ノードの直後に、[様が&#x200B;_待機_ ノード ](../journeys/wait-nodes.md)を追加します。
 
    待機ノードは、STO対応のメールアクションに直ちに従う必要があります。 このノードを追加すると、最適化ウィンドウ全体がクリアされ、すべてのSTO送信が完了するまで、プロファイルがジャーニーに残ります。 このノードを省略すると、システムは設定を無効としてフラグ付けします。
 

@@ -2,20 +2,21 @@
 title: ペルソナマッピング
 description: Journey Optimizer B2B Primeでペルソナマッピングを設定する方法について説明します。 人物の属性をマッピングしてペルソナを定義し、人物リストと人物ジャーニーで派生ペルソナフィルタリングを使用します。
 badge: label="GA" type="informative" tooltip="この機能は、GAになるまで利用できません"
-source-git-commit: d88ebb07186f488541138da23a276429b1f1994b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 1%
-
+ht-degree: 2%
 ---
-
 # ペルソナマッピング
 
 <!-- not available until GA -->
 
 ペルソナは、アカウントベースドマーケティング（ABM）アプローチの重要な側面です。マーケターが、ターゲットアカウント内の個人の特定のニーズ、好み、悩みに合わせて戦略を調整するのに役立ちます。 マーケターは、ペルソナの背景、責任、課題、好みのコミュニケーションチャネルなど、各ペルソナの詳細なプロファイルを作成できます。 これらの定義により、管理者はJourney Optimizer B2B Primeのユーザー属性に従ってペルソナを設定できるため、ユーザーリストとユーザージャーニーで、これらのペルソナをキャプチャする合理化された一貫したフィルタリングを使用できるようになります。
 
-Journey Optimizer B2B Primeでは、ペルソナマッピングにより、ロールテンプレートの条件を超える機能が追加されています。**[!UICONTROL 派生ペルソナ]**&#x200B;をフィルター基準として使用して、[人物リスト &#x200B;](../audiences/people-lists.md)および[人物ジャーニー](../marketing/person-journeys.md)をフィルタリングできます。 _派生ペルソナ_&#x200B;は、設定されたすべてのペルソナ定義に対して属性を評価することで、個人レコードに対して推測されるペルソナです。
+Journey Optimizer B2B Primeでは、ペルソナマッピングにより、ロールテンプレートの条件を超える機能が追加されています。**[!UICONTROL 派生ペルソナ]**&#x200B;をフィルター基準として使用して、[人物リスト ](../audiences/people-lists.md)および[人物ジャーニー](../marketing/person-journeys.md)をフィルタリングできます。 _派生ペルソナ_&#x200B;は、設定されたすべてのペルソナ定義に対して属性を評価することで、個人レコードに対して推測されるペルソナです。
 
 ペルソナの定義と使用に関する制限：
 
@@ -37,13 +38,13 @@ Journey Optimizer B2B Primeでは、ペルソナマッピングにより、ロ�
 
 1. 中間パネルの&#x200B;**[!UICONTROL ペルソナマッピング]**&#x200B;をクリックして、ペルソナのリストを表示します。
 
-   ![設定されたペルソナにアクセス &#x200B;](../../user/admin/assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
+   ![設定されたペルソナにアクセス ](../../user/admin/assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
    このページから、[作成](#create-a-persona)、[編集](#edit-a-persona)、または[削除](#delete-a-persona) ペルソナを作成できます。
 
    ペルソナマッピングリストはテーブルとして整理され、最も最近更新されたペルソナが上部に表示されます（_[!UICONTROL 最後の更新]_&#x200B;で並べ替え）。 右上隅の&#x200B;_列設定_ （![列設定](../../user/assets/do-not-localize/icon-column-settings.svg)）アイコンをクリックして、列のチェックボックスを選択またはクリアすると、表示されるテーブルをカスタマイズできます。
 
-   ![&#x200B; ペルソナマッピングリストに表示する列](../../user/admin/assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![ ペルソナマッピングリストに表示する列](../../user/admin/assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. ペルソナの詳細にアクセスするには、名前をクリックします。
 
@@ -68,7 +69,7 @@ _ペルソナマッピング_ リストには、役職の属性に従って定�
 
 目的のペルソナを見つけるには、検索バーにテキスト文字列を入力して、名前でペルソナを一致させます。
 
-![表示されたペルソナ マッピングをフィルタリング &#x200B;](../../user/admin/assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
+![表示されたペルソナ マッピングをフィルタリング ](../../user/admin/assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## ペルソナの作成 {#create-a-persona}
 
@@ -80,7 +81,7 @@ _ペルソナマッピング_ リストには、役職の属性に従って定�
 
 1. ペルソナの一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![&#x200B; ペルソナマッピングの作成](../../user/admin/assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+   ![ ペルソナマッピングの作成](../../user/admin/assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
 
 1. ペルソナのマッチングに使用する属性を選択します。
 
@@ -90,9 +91,9 @@ _ペルソナマッピング_ リストには、役職の属性に従って定�
 
      右上隅の&#x200B;_列設定_ （![列設定](../../user/assets/do-not-localize/icon-column-settings.svg)）アイコンをクリックすると、表示されるテーブルをカスタマイズできます。
 
-     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../../user/assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されるリストをタイプ別、_標準_&#x200B;または&#x200B;_カスタム_&#x200B;でフィルタリングすることもできます。
+     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../../user/assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されるリストをタイプ別、_標準_&#x200B;または&#x200B;_カスタム_&#x200B;でフィルタリングすることもできます。
 
-     ![&#x200B; ペルソナ属性を選択ダイアログ &#x200B;](../../user/admin/assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+     ![ ペルソナ属性を選択ダイアログ ](../../user/admin/assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
 
    * 「**[!UICONTROL 保存]**」をクリックします。
 

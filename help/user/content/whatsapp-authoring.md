@@ -1,6 +1,6 @@
 ---
 title: WhatsApp オーサリング
-description: Journey Optimizer B2B editionの承認済みMetaテンプレート、パーソナライゼーショントークン、配信設定を使用して、アカウントジャーニー用のWhatsApp メッセージを作成できます。
+description: Journey Optimizer B2B Editionで承認済みのMetaテンプレート、パーソナライゼーショントークン、配信設定を使用して、アカウントジャーニー用のWhatsApp メッセージを作成できます。
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
@@ -8,33 +8,47 @@ autotag-review: '2026-05-27T16:19:44.490Z'
 TQID: 'https://experienceleague.adobe.com/B368ny2Y9BSzsE7CClVIbVr-5Kha5d2pTiNiDGCwML4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 828
-ht-degree: 20%
-
+source-wordcount: '828'
+ht-degree: 22%
 ---
-
 # WhatsApp オーサリング
 
-Adobe Journey Optimizer B2B editionを使用して、モバイルデバイスのアカウントメンバーにWhatsApp メッセージを送信します。 WhatsApp エディターで承認済みのMetaメッセージテンプレートを使用して、メッセージを作成、パーソナライズ、プレビューできます。<!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
+Adobe Journey Optimizer B2B Editionを使用して、モバイルデバイスのアカウントメンバーにWhatsApp メッセージを送信します。 WhatsApp エディターで承認済みのMetaメッセージテンプレートを使用して、メッセージを作成、パーソナライズ、プレビューできます。<!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 アカウントジャーニー用のWhatsApp メッセージを作成する前に、_[!UICONTROL 管理者]_&#x200B;設定で必要な[WhatsApp チャネルが設定](../admin/configure-channels-whatsapp.md)されていることを確認してください。
 
 
 >[!NOTE]
 >
->Journey Optimizer B2B editionでは、_アウトバウンド_&#x200B;のWhatsApp メッセージ要素のみがサポートされています。
+>Journey Optimizer B2B Editionでは、_アウトバウンド_&#x200B;のWhatsApp メッセージ要素のみがサポートされています。
 
 +++ サポートされているメッセージ要素と行動喚起オプション
 
@@ -51,7 +65,7 @@ WhatsApp では、次のメッセージタイプがサポートされていま�
 | 本文 | パラメーターを通じて動的コンテンツをサポートします。 |
 | フッターテキスト | パラメーターを通じて動的コンテンツをサポートします。 |
 
-WhatsApp メッセージでは、次のcall-to-action オプションを使用できます。
+WhatsApp メッセージでは、次のコールトゥアクションオプションを使用できます。
 
 | Call to action | 説明 |
 | - | - |
@@ -67,13 +81,13 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 >
 >**WhatsApp同意管理**: Metaのポリシーと適用可能な規制に従って、すべてのWhatsApp マーケティングメッセージは、メッセージの受信をオプトインした受信者にのみ送信する必要があります。 WhatsAppの受信者は、オプトアウトキーワードを使用して返信することで、いつでもオプトアウトできます。 オプトアウトした応答は自動的に尊重され、対応するプロファイルは今後のマーケティングメッセージのオーディエンスから削除されます。 WhatsAppの同意設定が配信時にどのように評価されるかについて詳しくは、[同意設定](./channels-consent-preferences.md)を参照してください。
 
-[ アクションを実行&#x200B;]_ノード (../journeys/action-nodes.md)を追加し、次の操作を行うと、アカウントジャーニーでWhatsApp メッセージ配信を設定できます。_
+[ アクションを実行&#x200B;]_ノード ](../journeys/action-nodes.md)を追加し、次の操作を行うと、アカウントジャーニーでWhatsApp メッセージ配信を設定できます。_[!UICONTROL 
 
-1. ターゲット _の_ アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
+1. ターゲット ]_の_[!UICONTROL  アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
 
 1. _[!UICONTROL 人に対するアクション]_&#x200B;で、**[!UICONTROL WhatsAppを送信]**&#x200B;を選択します。
 
-   ![&#x200B; アクションを実行 – WhatsAppを送信](./assets/whatsapp-journey-node.png){width="500" zoomable="yes"}
+   ![ アクションを実行 – WhatsAppを送信](./assets/whatsapp-journey-node.png){width="500" zoomable="yes"}
 
 ## WhatsApp メッセージの作成
 
@@ -81,7 +95,7 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 
 1. ダイアログで、WhatsApp メッセージに一意の&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![新しいWhatsApp メッセージの作成ダイアログ &#x200B;](./assets/whatsapp-create-dialog.png){width="400"}
+   ![新しいWhatsApp メッセージの作成ダイアログ ](./assets/whatsapp-create-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -93,13 +107,13 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 
 1. **[!UICONTROL WhatsApp設定]**&#x200B;で、ニーズに合わせてマーケティングアクションとメッセージ配信設定をサポートする[設定](../admin/configure-channels-whatsapp.md#create-channel-configuration)を選択します。
 
-   ![WhatsAppの作成 – アクション タブ &#x200B;](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
+   ![WhatsAppの作成 – アクション タブ ](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL コンテンツを編集]**」をクリックして、メッセージパラメーターとテキストに進みます。
 
 ### メッセージテンプレートの選択
 
-WhatsApp メッセージは、Meta WhatsApp Business アカウントの事前承認済みメッセージテンプレートを使用して送信されます。 Journey Optimizer B2B editionでテンプレートを使用するには、**Meta**&#x200B;によるレビューと承認が必要です。 テンプレートを管理して承認のために送信するには、[!DNL Meta Business Manager] アカウント管理者と協力してください。
+WhatsApp メッセージは、Meta WhatsApp Business アカウントの事前承認済みメッセージテンプレートを使用して送信されます。 Journey Optimizer B2B Editionでテンプレートを使用するには、**Meta**&#x200B;によるレビューと承認が必要です。 テンプレートを管理して承認のために送信するには、[!DNL Meta Business Manager] アカウント管理者と協力してください。
 
 1. **[!UICONTROL テンプレート カテゴリを選択]**&#x200B;するには、次のいずれかを選択します。
 
@@ -111,7 +125,7 @@ WhatsApp メッセージは、Meta WhatsApp Business アカウントの事前承
 
    テンプレートコンテンツがメッセージエディターに読み込まれ、テンプレート構造とパーソナライゼーションに使用できる変数フィールドが表示されます。
 
-   ![&#x200B; プレビューウィンドウにメッセージが読み込まれたWhatsApp メッセージテンプレートを選択](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
+   ![ プレビューウィンドウにメッセージが読み込まれたWhatsApp メッセージテンプレートを選択](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
    このシステムは、カテゴリ （_マーケティング_、_ユーティリティ_、_認証_）およびステータス別にテンプレートを整理します。 選択可能なテンプレートは、**_承認済み_**&#x200B;件のみです。 WhatsApp テンプレートの作成について詳しくは、Meta ドキュメントの「[_WhatsApp Business アカウントのメッセージテンプレートを作成_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)」を参照してください。
 
@@ -123,12 +137,12 @@ WhatsApp メッセージは、Meta WhatsApp Business アカウントの事前承
 
 承認済みのWhatsApp テンプレートには、プロファイルデータまたは動的な値を使用して定義した変数プレースホルダーを含めることができます。
 
-テンプレートに表示されている各変数フィールドについて、フィールドの横にある&#x200B;_パーソナライズ_ アイコン （![&#x200B; パーソナライズ アイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
+テンプレートに表示されている各変数フィールドについて、フィールドの横にある&#x200B;_パーソナライズ_ アイコン （![ パーソナライズ アイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
 
 ![WhatsApp テンプレート内の変数](./assets/whatsapp-create-variables.png){width="700" zoomable="yes"}
 
 このダイアログでは、アカウントトークン、人物トークン、システムトークンにアクセスできます。 標準トークンとカスタムトークンの両方が含まれています。 _検索_ バーを使用して必要なトークンを検索するか、フォルダーツリー内を移動してトークンのいずれかを検索して選択できます。
 
-パーソナライゼーションにトークンを使用する方法について詳しくは、[&#x200B; コンテンツのパーソナライゼーション &#x200B;](./personalization.md)を参照してください。
+パーソナライゼーションにトークンを使用する方法について詳しくは、[ コンテンツのパーソナライゼーション ](./personalization.md)を参照してください。
 
 パーソナライゼーショントークンが定義されたら、**[!UICONTROL 保存]**&#x200B;をクリックして変更を保存し、メインのWhatsApp メッセージワークスペースに戻ります。

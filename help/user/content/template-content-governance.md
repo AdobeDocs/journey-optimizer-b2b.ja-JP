@@ -1,29 +1,38 @@
 ---
 title: テンプレートコンテンツガバナンス
-description: ブランドコンプライアンスに対応したメールテンプレートコンポーネントのロック - Journey Optimizer B2B editionでは、ガバナンスモードを設定し、コンテンツ編集を制御し、アカウントジャーニー作成者の権限を管理できます。
+description: ブランドコンプライアンスに対応したメールテンプレートコンポーネントのロック - Journey Optimizer B2B Editionでは、ガバナンスモードを設定し、コンテンツ編集を制御し、アカウントジャーニー作成者の権限を管理できます。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
+autotag-review: 2026-03-30T22:19:13.043Z
+TQID: 'https://experienceleague.adobe.com/8k34X0qVeMfWmSayzayqkDPmiAyC5V-gFIyVjMFhXO8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-autotag-review: 2026-03-30T22:19:13.043Z
-TQID: https://experienceleague.adobe.com/8k34X0qVeMfWmSayzayqkDPmiAyC5V-gFIyVjMFhXO8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content strategy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: '765'
 ht-degree: 0%
-
 ---
-
 # テンプレートコンテンツガバナンス
 
 多くのマーケティング部門には、メール施策をデザインするコンテンツの専門家がいます。 特定のデザインは、組織全体のカスタムアカウントジャーニーの基盤として使用できます。 承認済みのコンテンツデザインを確実に遵守するために、コンテンツガバナンス機能を使用してテンプレートコンポーネントをロックできます。 メールテンプレートでコンテンツロックを有効にすると、マーケターは許可された要素のみを変更して、コンテンツ戦略との整合性を維持できます。
@@ -32,11 +41,11 @@ ht-degree: 0%
 
 ## テンプレートのコンテンツガバナンスを有効にする
 
-ビジュアルデザインスペースを使用して、メールテンプレートの構造およびコンテンツコンポーネント [&#128279;](./email-template-authoring.md)を オーサリングしたら、ガバナンスを有効にし、必要に応じて特定のコンテンツロックを適用します。
+ビジュアルデザインスペースを使用して、メールテンプレートの構造およびコンテンツコンポーネント ](./email-template-authoring.md)を[ オーサリングしたら、ガバナンスを有効にし、必要に応じて特定のコンテンツロックを適用します。
 
 1. ビジュアルデザイン空間で、_ナビゲーションツリー_&#x200B;を使用して、レイヤー/コンテナおよび要素にアクセスします。
 
-   キャンバスの左側にある&#x200B;_ナビゲーションツリー_ アイコン（![&#x200B; リンクアイコン &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg)）をクリックして、ツリーを表示します。
+   キャンバスの左側にある&#x200B;_ナビゲーションツリー_ アイコン（![ リンクアイコン ](../assets/do-not-localize/icon-navigation-tree.svg)）をクリックして、ツリーを表示します。
 
 1. ツリーで、ルート **[!UICONTROL Body]** コンポーネントを選択します。
 
@@ -46,11 +55,11 @@ ht-degree: 0%
 
    ![電子メールテンプレートのガバナンスを有効にする](./assets/governance-template-enable.png){width="800" zoomable="yes"}
 
-   このオプションを有効にすると、デフォルトの&#x200B;_[!UICONTROL モード]_&#x200B;は&#x200B;**[!UICONTROL 読み取り専用]**&#x200B;になります。 このモードをルートレベルで設定すると、テンプレート内のすべての要素がロックされます。 左側のツリー構造には、ルートとすべての子要素の横に&#x200B;_読み取り専用_ アイコン（![読み取り専用アイコン &#x200B;](../assets/do-not-localize/icon-tree-lock.svg)）が表示されます。
+   このオプションを有効にすると、デフォルトの&#x200B;_[!UICONTROL モード]_&#x200B;は&#x200B;**[!UICONTROL 読み取り専用]**&#x200B;になります。 このモードをルートレベルで設定すると、テンプレート内のすべての要素がロックされます。 左側のツリー構造には、ルートとすべての子要素の横に&#x200B;_読み取り専用_ アイコン（![読み取り専用アイコン ](../assets/do-not-localize/icon-tree-lock.svg)）が表示されます。
 
 1. テンプレート内で特定のコンテンツロックを有効にするには、**[!UICONTROL モード]**&#x200B;を&#x200B;**[!UICONTROL コンテンツロック]**&#x200B;に変更します。
 
-   このモードをルートレベルで設定すると、テンプレート内のすべての要素のロックが解除されます。 左側のツリー構造には、ルート要素の横に&#x200B;_コンテンツロッキング_ アイコン（![&#x200B; コンテンツロッキングアイコン &#x200B;](../assets/do-not-localize/icon-tree-content-lock.svg)）が表示されます。 必要に応じて、コンテンツのロックを含む（構造）および個々のコンテンツコンポーネントに適用します。
+   このモードをルートレベルで設定すると、テンプレート内のすべての要素のロックが解除されます。 左側のツリー構造には、ルート要素の横に&#x200B;_コンテンツロッキング_ アイコン（![ コンテンツロッキングアイコン ](../assets/do-not-localize/icon-tree-content-lock.svg)）が表示されます。 必要に応じて、コンテンツのロックを含む（構造）および個々のコンテンツコンポーネントに適用します。
 
    ジャーニーメール作成者が構造要素またはコンテンツ要素を追加できるようにするには、**[!UICONTROL コンテンツの追加を有効にする]**&#x200B;をオンにします。 許可する追加のタイプを選択します。
 
@@ -58,9 +67,9 @@ ht-degree: 0%
 
    * **[!UICONTROL コンテンツの追加のみを許可]** – 作成者がコンテンツ要素のみを追加できるようにする場合は、このオプションを選択します。
 
-   ![&#x200B; コンテンツ追加を有効にする](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
+   ![ コンテンツ追加を有効にする](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
-   このモードをルートレベルで設定すると、テンプレート内のすべての要素がロックされます。 左側のツリー構造には、ルートとすべての子要素の横に&#x200B;_読み取り専用_ アイコン（![読み取り専用アイコン &#x200B;](../assets/do-not-localize/icon-tree-lock.svg)）が表示されます。
+   このモードをルートレベルで設定すると、テンプレート内のすべての要素がロックされます。 左側のツリー構造には、ルートとすべての子要素の横に&#x200B;_読み取り専用_ アイコン（![読み取り専用アイコン ](../assets/do-not-localize/icon-tree-lock.svg)）が表示されます。
 <!--
 
    
@@ -77,7 +86,7 @@ ht-degree: 0%
 
 構造レベルでロックタイプを適用すると、その子コンポーネントのデフォルト設定が提供されます。 その後、必要に応じて、列レベルまたはコンテンツ要素レベルで特定のロック設定を適用できます。
 
-1. キャンバスの左側にある&#x200B;_ナビゲーションツリー_ アイコン（![&#x200B; リンクアイコン &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg)）をクリックして、ツリーを表示します。
+1. キャンバスの左側にある&#x200B;_ナビゲーションツリー_ アイコン（![ リンクアイコン ](../assets/do-not-localize/icon-navigation-tree.svg)）をクリックして、ツリーを表示します。
 
 1. ツリー内の構造を選択します。
 
@@ -85,7 +94,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL ロックタイプ]**&#x200B;を設定します。
 
-   * **[!UICONTROL ロック]** – この設定では、すべての子コンポーネントがデフォルトでロックされます。 左側のツリー構造には、すべての子コンポーネントの横に&#x200B;_読み取り専用_ アイコン （![読み取り専用アイコン &#x200B;](../assets/do-not-localize/icon-tree-lock.svg)）が表示されます。
+   * **[!UICONTROL ロック]** – この設定では、すべての子コンポーネントがデフォルトでロックされます。 左側のツリー構造には、すべての子コンポーネントの横に&#x200B;_読み取り専用_ アイコン （![読み取り専用アイコン ](../assets/do-not-localize/icon-tree-lock.svg)）が表示されます。
 
    * **[!UICONTROL 編集可能]** – この設定では、すべての子コンポーネントがデフォルトで編集可能です。 左側のツリー構造には、子コンポーネントの横にアイコンが表示されません。
 
@@ -107,4 +116,4 @@ ht-degree: 0%
 
      ロックされたコンポーネントの場合、**[!UICONTROL 削除を許可]** オプションをオンにすることで、電子メールのオーサリング中にコンポーネントの削除を許可できます。
 
-   ![&#x200B; コンテンツロックを子コンポーネントに適用](./assets/governance-template-component-locking.png){width="800" zoomable="yes"}
+   ![ コンテンツロックを子コンポーネントに適用](./assets/governance-template-component-locking.png){width="800" zoomable="yes"}

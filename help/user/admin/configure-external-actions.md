@@ -1,26 +1,34 @@
 ---
 title: 外部アクションの設定
-description: 開発者、管理者、およびマーケターが連携して、ジャーニー内のJourney Optimizer B2B editionと外部サービスを接続する外部アクションを実装、設定、使用する方法について説明します。
+description: 開発者、管理者、およびマーケターが連携して、ジャーニー内のJourney Optimizer B2B Editionと外部サービスを接続する外部アクションを実装、設定、使用する方法について説明します。
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1278
-ht-degree: 1%
-
+source-wordcount: '1278'
+ht-degree: 2%
 ---
-
 # 外部アクションの設定
 
 外部アクションを使用すると、アカウントと個人のジャーニーを[!DNL Journey Optimizer B2B Edition]でジャーニーキャンバスから直接、外部システムと接続できます。 オーディエンスが外部アクションノードに到達すると、システムは、オーディエンス属性データを渡して、設定された外部サービスに対して非同期発信コールを行います。 外部サービスは、データを処理し、コールバックを使用して応答し、ジャーニーの実行を導くために使用できるオーディエンスデータとメタデータを返します。
@@ -37,16 +45,16 @@ ht-degree: 1%
 | | 役割 | タスク |
 | ---- | ---- | ---- |
 | 1 | 開発者 | [外部サービスを実装して公開](#implement-service) |
-| 2 | 管理者 | [Journey Optimizer B2B editionでアクションを設定](#configure-action) |
-| 3 | マーケター | [&#x200B; ジャーニーに外部ノードを追加](#add-journey-node) |
+| 2 | 管理者 | [Journey Optimizer B2B Editionでアクションを設定](#configure-action) |
+| 3 | マーケター | [ ジャーニーに外部ノードを追加](#add-journey-node) |
 
 ## 外部サービスの実装 {#implement-service}
 
-開発者は、[Adobe Journey Optimizer B2B editionの外部アクションサービスプロバイダーインターフェイス &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)に準拠した公開Web サービスを作成して公開する必要があります。
+開発者は、[Adobe Journey Optimizer B2B Edition External Actions Service Provider Interface](https://developer.adobe.com/journey-optimizer-b2b-apis/)に準拠した公開Web サービスを作成して公開する必要があります。
 
 >[!NOTE]
 >
->コールバック関数にはベアラートークンが必要です。 これを取得するには、IMS組織用にAdobe Developer Console[&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)でOAuth サーバー間の資格情報を設定します。
+>コールバック関数にはベアラートークンが必要です。 これを取得するには、IMS組織用にAdobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)で[OAuth サーバー間の資格情報を設定します。
 
 サービスが公開されたら、OpenAPI仕様のURLと認証情報を、アクションの設定を担当する製品管理者に提供します。
 
@@ -64,13 +72,13 @@ ht-degree: 1%
 
 1. 中間パネルで「**[!UICONTROL 外部アクション]**」をクリックします。
 
-   ![外部アクション設定スペースにアクセス &#x200B;](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
+   ![外部アクション設定スペースにアクセス ](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
 1. 右上の「**[!UICONTROL アクションを作成]**」をクリックします。
 
 1. 外部サービスのOpenAPI仕様のURLを入力し、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
-   ![&#x200B; サービス URLを入力](./assets/configuration-external-actions-create-url.png){width="500"}
+   ![ サービス URLを入力](./assets/configuration-external-actions-create-url.png){width="500"}
 
    このステップを成功させるには、外部サービスがライブで到達可能である必要があります。 検証エラーがある場合、ダイアログには、エラーを説明するメッセージと、そのエラーを解決するための提案が表示されます。 詳しくは、[_トラブルシューティング_](#troubleshooting)&#x200B;を参照してください。
 
@@ -104,8 +112,8 @@ ht-degree: 1%
 
    * **[!UICONTROL アクションの種類]** （_静的_） – サポートされているジャーニーノードの種類：
 
-     * [!UICONTROL 外部アクション &#x200B;] （`enableSplitPath` = false）
-     * [!UICONTROL 外部アクション分割パス &#x200B;] （`enableSplitPath` = true）
+     * [!UICONTROL 外部アクション ] （`enableSplitPath` = false）
+     * [!UICONTROL 外部アクション分割パス ] （`enableSplitPath` = true）
 
      アクション設定の作成後にアクションタイプを変更することはできません。
 
@@ -113,17 +121,17 @@ ht-degree: 1%
 
    * **[!UICONTROL ジャーニーコンテキスト]** （_静的_） – リクエストで送信されたオーディエンスデータの範囲（`supportedEntityType`）:
 
-     * [!UICONTROL &#x200B; アカウント &#x200B;] - アカウントのみを送信
+     * [!UICONTROL  アカウント ] - アカウントのみを送信
 
      * [!UICONTROL 人物] – 人物のみを送信
 
-     * [!UICONTROL &#x200B; アカウントのユーザー] - アカウントおよびアカウント関連のユーザーを送信します
+     * [!UICONTROL  アカウントのユーザー] - アカウントおよびアカウント関連のユーザーを送信します
 
-   * **[!UICONTROL 送信フィールド]** - テーブル内の各フィールドを[XDM フィールド &#x200B;](../admin/xdm-field-management.md)にマッピングします。 これらのフィールドは、リクエスト本文で外部サービスに送信されます。 サービス定義プロパティ：`invocationPayloadDef.accountFields`、`invocationPayloadDef.fields`。
+   * **[!UICONTROL 送信フィールド]** - テーブル内の各フィールドを[XDM フィールド ](../admin/xdm-field-management.md)にマッピングします。 これらのフィールドは、リクエスト本文で外部サービスに送信されます。 サービス定義プロパティ：`invocationPayloadDef.accountFields`、`invocationPayloadDef.fields`。
 
-     ![外部アクション送信フィールドのマッピング &#x200B;](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+     ![外部アクション送信フィールドのマッピング ](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 受信フィールド]** - テーブル内の各フィールドを[更新可能なXDM フィールド &#x200B;](../admin/xdm-field-management.md#updatable-fields)にマッピングします。 これらのフィールドは、外部サービス応答から入力されます。 サービス定義プロパティ：`callbackPayloadDef.accountFields`、`callbackPayloadDef.fields`。 作成後に更新可能。
+   * **[!UICONTROL 受信フィールド]** - テーブル内の各フィールドを[更新可能なXDM フィールド ](../admin/xdm-field-management.md#updatable-fields)にマッピングします。 これらのフィールドは、外部サービス応答から入力されます。 サービス定義プロパティ：`callbackPayloadDef.accountFields`、`callbackPayloadDef.fields`。 作成後に更新可能。
 
    * **[!UICONTROL ヘッダーパラメーター]** - リクエストでHTTP ヘッダーとして渡す各行の値を入力します。 サービス定義プロパティ：`invocationPayloadDef.headers`。
 
@@ -141,7 +149,7 @@ ht-degree: 1%
 
 外部サービスのOpenAPI仕様にURLを入力し、**[!UICONTROL Create]**&#x200B;をクリックすると、システムはサービスの検証を実行します。 エラーが発生すると、ダイアログにエラーを説明するメッセージが表示されます。
 
-![外部アクション URL サービス検証エラーメッセージ &#x200B;](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+![外部アクション URL サービス検証エラーメッセージ ](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -149,16 +157,16 @@ ht-degree: 1%
 
 #### 検証エラーの詳細
 
-| 表示されるエラー | なぜそうなったのか | 今後の施策 |
+| 表示されるエラー | なぜそうなったのか | 必要なアクション |
 |---|---|---|
 | `This URL is already used by another external action` | この仕様URLは、既に組織内の別のアクションに登録されています。 | 別の仕様URLを使用するか、既に使用している既存のアクションを削除します。 |
 | `An action with this name already exists` | スペックの`info.title`は、既に存在するアクションと一致します | スペックの`info.title` フィールドのタイトルをユニークなものに変更します。 |
 | `Duplicate operation ID found in the specification` | スペック内の2つ以上の操作が同じ`operationId`を共有しています。 | すべての操作に一意の`operationId`を付与します。 |
 | `Field in the specification exceeds the maximum allowed length` | スペックのテキストフィールド（タイトルや説明など）が長すぎます。 | フラグが設定されているフィールドを短くします。 |
-| `The entity type value is invalid` | エンティティ型のAdobe固有の`x-`拡張機能に認識されない値があります | エンティティの種類をサポートされている値に修正します。 有効なオプションについては、[開発者ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
+| `The entity type value is invalid` | エンティティ型のAdobe固有の`x-`拡張機能に認識されない値があります | エンティティの種類をサポートされている値に修正します。 有効なオプションについては、[開発者ドキュメント ](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
 | `The provided document is not a valid OpenAPI specification` | 仕様は構造的に解析できません。 | OpenAPI 3.0 スキーマに対して仕様を検証し、問題を修正します。 |
 | `Required OpenAPI field is missing` | 標準のOpenAPI必須フィールドがありません（`info`または`paths`など）。 | 見つからないフィールドを追加します。 |
-| `Required endpoint is missing from the specification` | Adobe Journey Optimizer B2B editionに必要なエンドポイントが、仕様で定義されていません。 | 必要なエンドポイントを追加します。 エンドポイントが必要な場合は、[開発者ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
+| `Required endpoint is missing from the specification` | Adobe Journey Optimizer B2B Editionに必要なエンドポイントが仕様で定義されていません。 | 必要なエンドポイントを追加します。 エンドポイントが必要な場合は、[開発者ドキュメント ](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
 | `Required extension field is missing` | 必要なAdobe `x-`拡張機能フィールドがスペックにありません。 | ドキュメントの説明に従って、不足している拡張機能フィールドを追加します。 |
 | `Security schemes are missing from the specification` | 仕様には`components`で定義された`securitySchemes`がありません。 | 少なくとも1つのセキュリティスキームを定義します。 |
 | `Multiple authentication types are not supported` | 仕様で複数の認証スキームが定義されています。 | 1つの認証タイプを使用するようにスペックを更新します。 |
@@ -178,4 +186,4 @@ This error appears below the URL field (not in the alert banner) and means there
 
 ## ジャーニーへの外部ノードの追加 {#add-journey-node}
 
-アクションがアクティブ化されると、マーケターは&#x200B;_[!UICONTROL 外部アクション]_&#x200B;または&#x200B;_[!UICONTROL 外部分割パス]_ ノードを任意のアカウントまたは個人のジャーニーに追加できます。 ジャーニーキャンバスでこれらのノードを追加および使用する方法について詳しくは、[外部ノード &#x200B;](../journeys/external-nodes.md)を参照してください。
+アクションがアクティブ化されると、マーケターは&#x200B;_[!UICONTROL 外部アクション]_&#x200B;または&#x200B;_[!UICONTROL 外部分割パス]_ ノードを任意のアカウントまたは個人のジャーニーに追加できます。 ジャーニーキャンバスでこれらのノードを追加および使用する方法について詳しくは、[外部ノード ](../journeys/external-nodes.md)を参照してください。

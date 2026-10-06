@@ -1,26 +1,33 @@
 ---
 title: ソリューションへの興味
-description: Journey Optimizer B2B editionなら、ターゲット製品に関するソリューションの関心を引き出し、ロールテンプレートを使用して購買グループの作成を自動化し、ステージの進行を管理できます。
+description: Journey Optimizer B2B Editionなら、ターゲット製品に関するソリューションの関心を引き出し、ロールテンプレートを使用して購買グループの作成を自動化し、ステージの進行を管理できます。
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
+autotag-review: 2026-03-30T21:38:19.586Z
+TQID: 'https://experienceleague.adobe.com/X7Tk6XZ3--VpI2DG2GOcF9WZHuXNhdczD-tj4TD0NLA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-autotag-review: 2026-03-30T21:38:19.586Z
-TQID: https://experienceleague.adobe.com/X7Tk6XZ3--VpI2DG2GOcF9WZHuXNhdczD-tj4TD0NLA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 4%
-
 ---
-
 # ソリューションに対する関心
 
 購買グループを作成する前に、何を販売し、誰をターゲットにするかを把握する必要があります。 マーケティング戦略とセールス戦略を連携し、購買グループにソリューションの関心を高める必要があります。
@@ -39,19 +46,19 @@ ht-degree: 4%
 
    リストの上部にある&#x200B;_検索_&#x200B;ツールにテキストを入力して、表示されるリストを名前でフィルタリングします。
 
-   ![&#x200B; ソリューションへの関心タブ &#x200B;](assets/solution-interest-tab.png){width="700" zoomable="yes"}
+   ![ ソリューションへの関心タブ ](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
 ## 購買グループのジョブの表示と削除
 
 _[!UICONTROL ソリューションの関心]_ タブの&#x200B;**[!UICONTROL 購入グループ作成ジョブ]**&#x200B;列には、各ソリューションの関心に対して作成されたジョブの数が表示されます。 番号をクリックして、ソリューションの関心に対して作成されたジョブのリストを表示するダイアログを開きます。
 
-![&#x200B; ソリューションの関心を持つ購買グループのジョブ &#x200B;](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
+![ ソリューションの関心を持つ購買グループのジョブ ](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
 省略記号（。..）をクリックして、購買グループのジョブを削除できます ジョブ名の横にある&#x200B;**[!UICONTROL 削除]**&#x200B;を選択します。
 
 ## ソリューションへの関心の向上
 
-ソリューションの関心を作成する前に、ターゲットにする役割を定義するライブ（公開）役割テンプレートが必要です。 役割テンプレートの作成と役割テンプレートの公開について詳しくは、[購買グループの役割テンプレート &#x200B;](./buying-groups-role-templates.md)を参照してください。
+ソリューションの関心を作成する前に、ターゲットにする役割を定義するライブ（公開）役割テンプレートが必要です。 役割テンプレートの作成と役割テンプレートの公開について詳しくは、[購買グループの役割テンプレート ](./buying-groups-role-templates.md)を参照してください。
 
 1. 「_[!UICONTROL ソリューションの関心]_」タブで、右上の「**[!UICONTROL ソリューションの関心を作成]**」をクリックします。
 
@@ -61,11 +68,11 @@ _[!UICONTROL ソリューションの関心]_ タブの&#x200B;**[!UICONTROL 購
 
    「**[!UICONTROL 役割テンプレートを選択]**」をクリックし、ダイアログのリストからライブ役割テンプレートを選択します。 1つのソリューションの関心に関連付けることができるライブ役割テンプレートは1つだけです。 「**[!UICONTROL 保存]**」をクリックして、選択した役割テンプレートが表示されている&#x200B;_[!UICONTROL ソリューションの関心を作成]_ ページに戻ります。
 
-   ![&#x200B; ソリューションの関心に役割テンプレートを追加](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![ ソリューションの関心に役割テンプレートを追加](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
 1. 購買グループステージの進行を使用するには、**[!UICONTROL 購買グループステージモデル]**&#x200B;を選択します（オプション）。
 
-   アカウントの進行を追跡するための購買グループのステージの使用について詳しくは、[購買グループのステージ &#x200B;](./buying-group-stages.md)を参照してください。
+   アカウントの進行を追跡するための購買グループのステージの使用について詳しくは、[購買グループのステージ ](./buying-group-stages.md)を参照してください。
 
 1. **[!UICONTROL 既存の購買グループを更新]**&#x200B;設定を有効にします（オプション）。
 
@@ -84,7 +91,7 @@ _[!UICONTROL ソリューションの関心]_ タブの&#x200B;**[!UICONTROL 購
    * ソリューションの関心の名前をクリックします。
    * 省略記号（**...**）をクリックします その横にある「**[!UICONTROL 編集]**」を選択します。
 
-   ![&#x200B; ソリューションの興味の詳細メニュー](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
+   ![ ソリューションの興味の詳細メニュー](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. 必要に応じて、ソリューションの興味関心の設定を更新します。
 
@@ -92,7 +99,7 @@ _[!UICONTROL ソリューションの関心]_ タブの&#x200B;**[!UICONTROL 購
 
    * 購買グループステージの進行を追跡するために使用される&#x200B;**[!UICONTROL 購買グループステージモデル]**&#x200B;を選択します。
 
-     購買グループのステージを使用して、セールスに対するジャーニーの進行を追跡する方法について詳しくは、[購買グループのステージ &#x200B;](./buying-group-stages.md)を参照してください。
+     購買グループのステージを使用して、セールスに対するジャーニーの進行を追跡する方法について詳しくは、[購買グループのステージ ](./buying-group-stages.md)を参照してください。
 
    * **[!UICONTROL 既存の購買グループの更新]**&#x200B;設定を変更します。
 
@@ -114,4 +121,4 @@ _[!UICONTROL ソリューションの関心]_ タブの&#x200B;**[!UICONTROL 購
 
 ## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3450114/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

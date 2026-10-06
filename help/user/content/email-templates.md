@@ -1,29 +1,38 @@
 ---
 title: メールテンプレート
-description: ゼロから再利用可能なメールテンプレートの作成、HTMLによるインポート、既存のデザインを活用 – Journey Optimizer B2B editionでアカウントジャーニーのテンプレートを管理できます。
+description: 再利用可能なメールテンプレートを、ゼロから作成することも、HTMLでインポートしたり、既存のデザインから作成することも可能です。Adobe Journey Optimizer B2B Editionでアカウントジャーニーのテンプレートを管理しましょう。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
+autotag-review: 2026-03-30T22:17:40.055Z
+TQID: 'https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:17:40.055Z
-TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: '1522'
 ht-degree: 4%
-
 ---
-
 # メールテンプレート
 
 デザインプロセスを迅速化および改善するには、スタンドアロンのメールテンプレートを作成して、[!DNL Adobe Journey Optimizer B2B Edition]個のアカウントジャーニーでカスタムコンテンツを再利用します。 テンプレートを通じて、コンテンツを重視するチームメンバーは、ジャーニー外でメールコンテンツに取り組むことができます。 マーケティング戦略担当者は、それらのスタンドアロンテンプレートを再利用して、ジャーニーに適合させることができます。 たとえば、あるチームメンバーは、アカウントジャーニーにアクセスすることなく、コンテンツのみを管理しています。 しかし、マーケターがメールコミュニケーションのベースとして選択できるメールテンプレートを作成し、ジャーニーの要件に応じてカスタマイズすることができます。
@@ -40,7 +49,7 @@ ht-degree: 4%
 
 ![電子メールテンプレートライブラリにアクセスし、名前と日付で絞り込む](./assets/templates-list-search-filter.png){width="800" zoomable="yes"}
 
-右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。 表示する列を選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
+右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![ テーブルをカスタマイズ アイコン ](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。 表示する列を選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
 表示されたテンプレートのリストから、次の節で説明するアクションを実行できます。
 
@@ -74,13 +83,13 @@ _[!UICONTROL テンプレートをデザイン]_ ページが開き、テンプ�
 
    * **[!UICONTROL テーマを使用]** – 電子メールテンプレートを&#x200B;_テーマモード_&#x200B;で作成するには、このオプションを選択します。 このモードでは、定義済みのブランドテーマを使用して、コンテンツのオーサリングプロセスを効率化し、定義された標準に合わせてデザインを調整できます。
 
-   ![&#x200B; メールの作成 – テーマの使用](./assets/create-email-use-theme.png){width="450"}
+   ![ メールの作成 – テーマの使用](./assets/create-email-use-theme.png){width="450"}
 
    * **[!UICONTROL 手動スタイル設定]** – 電子メールテンプレートを&#x200B;_手動モード_&#x200B;で作成するには、このオプションを選択します。 このモードでは、空白のカンバスに追加するすべての構造およびコンテンツコンポーネントのスタイル設定を手動で設定します。
 
 1. （_テーマモード_&#x200B;のみ）テーマを適用します。
 
-   メールデザインスペースで、右側の&#x200B;_テーマ_ （![&#x200B; テーマアイコン &#x200B;](../assets/do-not-localize/icon-design-themes.svg)）アイコンをクリックします。
+   メールデザインスペースで、右側の&#x200B;_テーマ_ （![ テーマアイコン ](../assets/do-not-localize/icon-design-themes.svg)）アイコンをクリックします。
 
    ![電子メールデザインスペース – テーマアイコンが選択されました](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
 
@@ -90,13 +99,13 @@ _[!UICONTROL テンプレートをデザイン]_ ページが開き、テンプ�
 
    リストの外側をクリックすると、選択したテーマによってスタイルが適用されます。 カラーバリエーションを切り替えることができます。
 
-1. [構造とコンテンツ &#x200B;](./email-authoring.md#structure-content)をテンプレートに追加します。
+1. [構造とコンテンツ ](./email-authoring.md#structure-content)をテンプレートに追加します。
 
    適用されたテーマがある場合、追加されたコンポーネントは、テーマで定義されたスタイルを自動的に継承します。
 
 ### HTML の読み込み
 
-Adobe Journey Optimizer B2B editionを使用すると、既存のHTML コンテンツを読み込んで、メールテンプレートをデザインできます。
+Adobe Journey Optimizer B2B Editionを使用すると、既存のHTML コンテンツを読み込んで、メールテンプレートをデザインできます。
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -134,7 +143,7 @@ Adobe Journey Optimizer B2B editionを使用すると、既存のHTML コンテ�
 
 ![使用するタブをクリックして、テンプレートの使用状況を確認します](./assets/template-details-used-by.png){width="400"}
 
-Journey Optimizer B2B editionの電子メールは、ジャーニー内に埋め込まれて作成されるため、テンプレートを使用する電子メールの親ジャーニーが参照として表示されます。
+Journey Optimizer B2B Editionの電子メールはジャーニー内に埋め込まれ、作成されるため、テンプレートを使用する電子メールの親ジャーニーが参照として表示されます。
 
 * リンクをクリックすると、メールテンプレートが使用されている対応するジャーニーメールに移動します。
 
@@ -155,7 +164,7 @@ Journey Optimizer B2B editionの電子メールは、ジャーニー内に埋め
 
 * 右側のメールテンプレートの詳細から、**[!UICONTROL 詳細]**&#x200B;を展開し、**[!UICONTROL 複製]**&#x200B;をクリックします。
 
-  ![詳細をクリックして削除および重複アクションにアクセス &#x200B;](./assets/template-details-more-menu.png){width="400"}
+  ![詳細をクリックして削除および重複アクションにアクセス ](./assets/template-details-more-menu.png){width="400"}
 
 * _[!UICONTROL メールテンプレート]_&#x200B;のリストページで、省略記号（。..）をクリックします。 テンプレートの横にある「**[!UICONTROL 複製]**」を選択します。
 
@@ -170,7 +179,7 @@ Journey Optimizer B2B editionの電子メールは、ジャーニー内に埋め
 * 右側のテンプレートの詳細から、**[!UICONTROL 詳細]**&#x200B;を展開し、**[!UICONTROL 削除]**&#x200B;をクリックします。
 * _[!UICONTROL メールテンプレート]_&#x200B;のリストページで、省略記号（。..）をクリックします。 テンプレートの横にある「**[!UICONTROL 削除]**」を選択します。
 
-  ![&#x200B; クリック ...をクリックして、アクションの複製と削除にアクセスします](./assets/templates-list-more-menu.png){width="500"}
+  ![ クリック ...をクリックして、アクションの複製と削除にアクセスします](./assets/templates-list-more-menu.png){width="500"}
 
 このアクションを実行すると、確認ダイアログが開きます。 「**[!UICONTROL キャンセル]**」をクリックするか、「**[!UICONTROL 削除]**」をクリックして削除を確認することで、プロセスを中止できます。
 
@@ -178,7 +187,7 @@ Journey Optimizer B2B editionの電子メールは、ジャーニー内に埋め
 
 メールテンプレートのリストページで、左側のチェックボックスを選択して、一度に複数のテンプレートを選択します。 複数のテンプレートを選択すると、下部にバナーが表示されます。
 
-![選択したテンプレートの数と削除アイコン &#x200B;](./assets/templates-multi-select-banner.png){width="600"}がバナーに表示されます
+![選択したテンプレートの数と削除アイコン ](./assets/templates-multi-select-banner.png){width="600"}がバナーに表示されます
 
 **[!UICONTROL 削除]** – 一度に最大20個のテンプレートを削除できます。 確認ダイアログでは、アクションを中止したり、テンプレートの削除を確認したりできます。
 

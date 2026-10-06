@@ -1,28 +1,35 @@
 ---
 title: ガバナンスとプライバシー機能
-description: Journey Optimizer B2B editionで現在利用可能なガバナンス機能について説明します。
+description: Journey Optimizer B2B Editionで現在利用可能なガバナンス機能について説明します。
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
+autotag-review: 2026-03-27T23:18:44.352Z
+TQID: 'https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: 2026-03-27T23:18:44.352Z
-TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 6af5c69aac417f557472bdb80df9de7460e65f16
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '692'
 ht-degree: 2%
-
 ---
-
 # ガバナンスとプライバシー機能
 
 [!DNL Journey Optimizer B2B Edition]は統合Adobe Experience Platform アプリです。 企業慣行、法的義務、開発プロセスに準拠して、収集したエクスペリエンスデータを管理するためのツールとサービスをいくつか導入しています。 以下の節では、これらの各ガバナンス機能の概要を説明します。
@@ -33,7 +40,7 @@ EU、カリフォルニア、タイ、ブラジル、ニュージーランドな
 
 ### GDPR
 
-一般データ保護規則（GDPR）とは、EU加盟国の[&#x200B; データ保護要件](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"}を調整および近代化する欧州連合（EU）のプライバシー法です。
+一般データ保護規則（GDPR）とは、EU加盟国の[ データ保護要件](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"}を調整および近代化する欧州連合（EU）のプライバシー法です。
 
 [!DNL Journey Optimizer B2B Edition]は、Privacy Serviceが提供する既存のExperience Platform GDPR ガバナンス機能を使用しています。 アクセス要求と削除要求の送信と管理について詳しくは、[_プライバシー管理_](./privacy-management.md)&#x200B;を参照してください。
 
@@ -49,17 +56,17 @@ CNILやその他の規制当局がピクセルのトラッキングや関連す�
 
 ## 役割ベースのアクセス制御（RBAC）
 
-Journey Optimizer B2B editionとAdobe Admin Consoleへのアクセスを使用すると、管理者はエンティティタイプ（view-segments、manage-segments、manage-journeysなど）に対するユーザー権限を付与できます。 この機能は、すべてのAdobe Experience Platformのお客様が自社の役割と権限を定義および管理できるようにする統合権限フレームワーク（UPF）の一部です。
+Journey Optimizer B2B EditionとAdobe Admin Consoleへのアクセスを使用すると、管理者はエンティティタイプ（view-segments、manage-segments、manage-journeysなど）に対するユーザー権限を付与できます。 この機能は、すべてのAdobe Experience Platformのお客様が自社の役割と権限を定義および管理できるようにする統合権限フレームワーク（UPF）の一部です。
 
 ## データ暗号化
 
-**_保存中のデータの暗号化_** — Adobe Experience PlatformからJourney Optimizer B2B editionに転送されるすべてのアカウントおよび人物プロファイルデータは、Experience Platformの既存のコンプライアンスを維持するために暗号化されます。 ジャーニーや購買グループなど、Journey Optimizer B2B editionを起源とするすべてのエンティティも暗号化されています。
+**_保存中のデータの暗号化_** — Adobe Experience PlatformからJourney Optimizer B2B Editionに転送されるすべてのアカウントおよび人物プロファイルデータは、Experience Platformの既存のコンプライアンスを維持するために暗号化されます。 ジャーニーや購買グループなど、Journey Optimizer B2B Editionを起源とするすべてのエンティティも暗号化されています。
 
-**_転送中のデータの暗号化_** （パブリックネットワーク経由） – すべてのJourney Optimizer B2B edition APIとエンティティは、TLS 1.2を使用して転送中に暗号化されます。
+**_転送中のデータの暗号化_** （パブリックネットワーク経由） – すべてのJourney Optimizer B2B Edition APIとエンティティは、TLS 1.2を使用して転送中に暗号化されます。
 
 ## 同意オプトイン/オプトアウト
 
-Journey Optimizer B2B editionは、Adobe Experience Platform XDM プロファイルに保存されている個人ごとの同意設定を読み取り、メール、SMS、WhatsApp チャネルのメッセージ配信時に適用します。 チャネルをオプトアウトしたユーザーは、コンテンツがチャネルまたは下流のメッセージプロバイダーから送信される前に、配信から除外されます。
+Journey Optimizer B2B Editionでは、Adobe Experience Platform XDM プロファイルに保存されている1人あたりの同意設定を読み取り、メール、SMS、WhatsApp チャネルのメッセージ配信時に適用します。 チャネルをオプトアウトしたユーザーは、コンテンツがチャネルまたは下流のメッセージプロバイダーから送信される前に、配信から除外されます。
 
 同意は、プロファイル同意フィールドグループのXDM フィールドを使用して配信時に評価されます。 デフォルトの同意行動はチャネルによって異なります。デフォルトでは、メールは環境設定が設定されていない場合にオプトインされ、SMSとWhatsAppはデフォルトでオプトアウトされます。
 
@@ -67,7 +74,7 @@ Journey Optimizer B2B editionは、Adobe Experience Platform XDM プロファイ
 
 ## サンドボックスのリセット
 
-サンドボックスリセットは&#x200B;**現在Adobe Journey Optimizer B2B editionではサポートされていません**。 [!DNL Journey Optimizer B2B Edition]にマッピングされたサンドボックスをリセットまたは削除すると、永続的なデータ損失が発生し、新しいインスタンスのプロビジョニングが必要になる可能性があります。
+サンドボックスリセットは&#x200B;**現在Adobe Journey Optimizer B2B Editionではサポートされていません**。 [!DNL Journey Optimizer B2B Edition]にマッピングされたサンドボックスをリセットまたは削除すると、永続的なデータ損失が発生し、新しいインスタンスのプロビジョニングが必要になる可能性があります。
 
 ## まだ利用できません
 

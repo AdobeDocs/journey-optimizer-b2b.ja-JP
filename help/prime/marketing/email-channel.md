@@ -8,29 +8,38 @@ autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 7%
-
+source-wordcount: '1060'
+ht-degree: 20%
 ---
-
 # ジャーニーへのメールの追加
 
 [!DNL Adobe Journey Optimizer B2B Prime]では、最新のエンタープライズ向けメール作成および配信エクスペリエンスをB2B マーケターに提供しています。
 
 >[!NOTE]
 >
->初めて電子メールを送信する場合は、[電子メールの配信品質](../start/email-deliverability.md)と必要な[電子メールチャネル &#x200B;](../admin/email-channel-configuration.md)が設定されていることを確認してください。
+>初めて電子メールを送信する場合は、[電子メールの配信品質](../start/email-deliverability.md)と必要な[電子メールチャネル ](../admin/email-channel-configuration.md)が設定されていることを確認してください。
 
 <!-- 
 * **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
@@ -65,13 +74,13 @@ ht-degree: 7%
 
 ## ジャーニーからのメールの追加
 
-ジャーニーから電子メールを送信するには、[&#x200B; アクションを実行&#x200B;_ノード_&#x200B;を追加し、電子メールを送信するように設定します](action-nodes.md#add-an-action-node)。
+ジャーニーから電子メールを送信するには、[ アクションを実行&#x200B;_ノード_&#x200B;を追加し、電子メールを送信するように設定します](action-nodes.md#add-an-action-node)。
 
 1. ジャーニーキャンバスで、**+** アイコンをクリックし、**[!UICONTROL アクションを実行]**&#x200B;を選択します。
 
 1. 右側のノードプロパティで、アクションを&#x200B;**[!UICONTROL メールを送信]**&#x200B;に設定します。
 
-   ![&#x200B; アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="500"}
+   ![ アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="500"}
 
 1. メールのソースを選択：
 
@@ -109,19 +118,19 @@ ht-degree: 7%
 
    * **[!UICONTROL アクションの追跡]** – 電子メールで追跡するアクションのチェックボックスをオンにします。
 
-   ![電子メールチャネル – 「アクション」タブ &#x200B;](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
+   ![電子メールチャネル – 「アクション」タブ ](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL コンテンツを編集]**」をクリックするか、「**[!UICONTROL コンテンツ]**」タブを選択します。
 
 1. 電子メールの件名フィールドに表示する&#x200B;**[!UICONTROL 件名]** テキストを入力します。
 
-   _パーソナライズ_ アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../../user/assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。
+   _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../../user/assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。
 
 1. （オプション）公開プロセス中にメール HTMLのサイズを小さくするには、「**[!UICONTROL HTML サイズを最適化]**」チェックボックスをオンにします。
 
    これにより、100 KB を超えるメッセージを切り捨てる Gmail などのクライアントでのメールクリッピングを防ぐことができます。 詳しくは、[_電子メールのHTML サイズの最適化_](#optimize-html-size)&#x200B;を参照してください。
 
-1. **[!UICONTROL メール本文を編集]**&#x200B;をクリックしてビジュアルデザインツールにアクセスし、[&#x200B; コンテンツの作成を開始](../content/email-authoring.md)します。
+1. **[!UICONTROL メール本文を編集]**&#x200B;をクリックしてビジュアルデザインツールにアクセスし、[ コンテンツの作成を開始](../content/email-authoring.md)します。
 
    または、**[!UICONTROL コードエディター]**&#x200B;をクリックして、プレーンHTMLで独自のコンテンツをコーディングすることもできます。 既存のHTMLをメールデザインに再利用する場合は、それをコピーしてエディターに貼り付けることができます。
 
@@ -149,11 +158,11 @@ ht-degree: 7%
 >title="HTML サイズを削減"
 >abstract="このオプションを有効にすると、公開時に不要な空白、インデントおよび必須ではないコメントが削除され、メールの HTML が圧縮されます。 これにより、100 KB を超えるメッセージを切り捨てる Gmail などのクライアントでのメールクリッピングを防ぐことができます。"
 
-[!DNL Journey Optimizer B2B Prime]を使用すると、不要な空白、インデント、必須ではないコメントを削除して、公開プロセス中にメール HTMLのバージョンを圧縮できます。 HTMLのサイズを小さくすると、次のことが可能になります。
+[!DNL Journey Optimizer B2B Prime] を使用すると、公開プロセス中に不要な空白、インデント、必須ではないコメントが削除され、メール の HTML バージョンが圧縮されます。 HTML サイズを小さくすると、次の操作を実行できます。
 
-* **電子メールクリッピング**&#x200B;を避けます。Gmailなどの一部のクライアントでは、100 KBを超えるメッセージが切り捨てられ、受信者が完全なコンテンツを表示できなくなります。
-* 受信者の受信トレイに&#x200B;**メールの読み込み時間**&#x200B;を短縮します。
-* **配信品質**&#x200B;を向上させ、帯域幅の使用を減らします。
+* **メールクリッピング**&#x200B;を回避する - Gmail などの一部のメールクライアントでは、100 KB を超えるメッセージが切り捨てられ、受信者が完全なコンテンツを表示できなくなります。
+* 受信者のインボックスでの&#x200B;**メールの読み込み時間**&#x200B;を改善する。
+* **配信品質**&#x200B;を向上させ、帯域幅の使用を削減する。
 
 この最適化は自動的に適用されません。_[!UICONTROL コンテンツ]_ タブで有効にする必要があります。
 
@@ -161,16 +170,16 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
-> HTML サイズの縮小は、公開時にのみ適用されます。
+> HTML サイズの削減は、公開時にのみ適用されます。
 
-最適化はメールクライアントセーフです。
+この最適化は、メールクライアントに対して安全です。
 
-* MSO/Outlookの条件付きコメントが保持されます。
-* 実際のコンテンツ、画像、動画に変更を加えることはありません。
+* MSO／Outlook の条件付きコメントが保持されます。
+* 実際のコンテンツ、画像、ビデオは変更されません。
 
 >[!NOTE]
 >
->メールサイズの削減は、メールの元のHTML構造によって異なります。 コンテンツが既にコンパクトになっている場合や、メールペイロードが非常に大きい場合、削減は最小限に抑えられ、すべての場合でクリッピングが完全に妨げられないことがあります。
+>メールサイズの削減は、メールの元の HTML 構造によって異なります。 コンテンツが既にコンパクトである場合や、メールペイロードが非常に大きい場合、削減は最小限に抑えられ、すべてのケースでクリッピングを完全に防ぐことはできないことがあります。
 
 <!-- 
 Proof and simulate workflows are not available in this release. See [Current limitations](#limitations).
