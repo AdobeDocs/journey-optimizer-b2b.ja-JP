@@ -52,15 +52,15 @@ Adobe Journey Optimizer B2B EditionでSMS チャネルを設定する前に、AP
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]** セクションを展開し、**[!UICONTROL チャネル]**&#x200B;をクリックします。
 
-   ![SMS API資格情報の設定にアクセス ](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![SMS API資格情報の設定にアクセス &#x200B;](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
 1. ナビゲーションパネルで、**[!UICONTROL API資格情報]**&#x200B;を選択します。
 
    このページには、インスタンスで使用可能なAPI設定が一覧表示されます。
 
-1. 必要に応じて、_フィルター_ アイコン（![ フィルターの表示または非表示アイコン ](../assets/do-not-localize/icon-filter.svg)）をクリックし、オプションを選択して、SMS サービスプロバイダーまたは作成者が設定したAPI資格情報のリストを表示します。
+1. 必要に応じて、_フィルター_ アイコン（![&#x200B; フィルターの表示または非表示アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）をクリックし、オプションを選択して、SMS サービスプロバイダーまたは作成者が設定したAPI資格情報のリストを表示します。
 
-   ![ フィルターアイコンをクリックして、API資格情報のリストを絞り込む](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
+   ![&#x200B; フィルターアイコンをクリックして、API資格情報のリストを絞り込む](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ## SMS サービスプロバイダーの新しいAPI資格情報の作成
 
@@ -84,7 +84,7 @@ _Adobe Journey Optimizer B2B Editionを使用してSinchをSMS プロバイダ�
 
    * **[!UICONTROL サービス ID]**&#x200B;および&#x200B;**[!UICONTROL API トークン]** - Sinch アカウントからAPI ページにアクセスします（SMS タブで資格情報を確認できます）。
 
-   Sinch アカウントでこの情報を見つける方法について詳しくは、[Sinch開発者ドキュメント ](https://developers.sinch.com/docs/sms/getting-started)を参照してください
+   Sinch アカウントでこの情報を見つける方法について詳しくは、[Sinch開発者ドキュメント &#x200B;](https://developers.sinch.com/docs/sms/getting-started)を参照してください
 
 1. API資格情報の設定の詳細が完了したら、**[!UICONTROL 送信]**&#x200B;をクリックします。
 
@@ -128,7 +128,7 @@ _InfobipをAdobe Journey Optimizer B2B Edition :_を使用したSMS プロバイ
 
    * **[!UICONTROL API ベース URL]**&#x200B;と&#x200B;**[!UICONTROL API キー]** - Web インターフェイスのホームページまたはInfobip アカウントのAPI キー管理ページにアクセスして、資格情報を検索します。
 
-   お使いのInfobip アカウントでこの情報を見つける方法について詳しくは、[Infobip ドキュメント ](https://www.infobip.com/docs/api/_blank)を参照してください。
+   お使いのInfobip アカウントでこの情報を見つける方法について詳しくは、[Infobip ドキュメント &#x200B;](https://www.infobip.com/docs/api/_blank)を参照してください。
 
 1. API資格情報の設定の詳細が完了したら、ページの右上にある「**[!UICONTROL 送信]**」をクリックします。
 

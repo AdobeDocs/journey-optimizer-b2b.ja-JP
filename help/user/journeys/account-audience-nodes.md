@@ -46,7 +46,7 @@ ht-degree: 4%
 
 1. 「**[!UICONTROL アカウントオーディエンス]**」ノードをクリックします。 このアクションは、右側のパネルにノードプロパティを表示します。
 
-   ![ アカウントオーディエンスジャーニーノード ](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
+   ![&#x200B; アカウントオーディエンスジャーニーノード &#x200B;](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 
 1. ジャーニーに入力するアカウントの入力タイプを選択します。
 
@@ -56,7 +56,7 @@ ht-degree: 4%
 
      _[!UICONTROL オーディエンスを追加]_ ダイアログで、以前に作成したオーディエンスセグメントを選択します。 次に、**[!UICONTROL オーディエンスを追加]**&#x200B;をクリックします。
 
-     ![ ノードのオーディエンスセグメントを選択](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+     ![&#x200B; ノードのオーディエンスセグメントを選択](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
    * **[!UICONTROL アカウントリスト]**
 
@@ -64,9 +64,9 @@ ht-degree: 4%
 
      _[!UICONTROL ライブアカウントリストを選択]_ ダイアログで、公開されたアカウントリストを選択します。 次に、「**[!UICONTROL 保存]**」をクリックします。
 
-     ![ ノードのライブアカウントリストを選択](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
+     ![&#x200B; ノードのライブアカウントリストを選択](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
 
-     アカウントリストの作成と公開について詳しくは、[ アカウントリスト ](../accounts/account-lists.md)を参照してください。
+     アカウントリストの作成と公開について詳しくは、[&#x200B; アカウントリスト &#x200B;](../accounts/account-lists.md)を参照してください。
 
 ## オーディエンスセグメントの作成
 
@@ -74,6 +74,6 @@ ht-degree: 4%
 
 1. 右上隅の「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 
-   ![ オーディエンスセグメントを作成](./assets/audiences-list-create.png){width="800" zoomable="yes"}
+   ![&#x200B; オーディエンスセグメントを作成](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. [ セグメント化サービスガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}の手順に従います。
+1. [&#x200B; セグメント化サービスガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}の手順に従います。

@@ -42,13 +42,13 @@ ht-degree: 2%
 ---
 # チャネルメッセージにおける同意
 
-Adobe Journey Optimizer B2B Editionは、Adobe Experience Platform XDM プロファイルに保存されている1人あたりの同意設定を読み取り、アプリの[ ガバナンスコントロール ](../admin/governance.md)の一部として、メッセージ配信時に適用します。 チャネルをオプトアウトしたユーザーは、コンテンツがチャネルまたは下流のメッセージプロバイダーから送信される前に、配信から除外されます。
+Adobe Journey Optimizer B2B Editionは、Adobe Experience Platform XDM プロファイルに保存されている1人あたりの同意設定を読み取り、アプリの[&#x200B; ガバナンスコントロール &#x200B;](../admin/governance.md)の一部として、メッセージ配信時に適用します。 チャネルをオプトアウトしたユーザーは、コンテンツがチャネルまたは下流のメッセージプロバイダーから送信される前に、配信から除外されます。
 
 次の節では、サポートされている各チャネルについて、Journey Optimizer B2B Editionがメッセージ送信時の同意をどのように評価するかを説明します。
 
 ## メール {#email}
 
-Journey Optimizer B2B Editionは、[ メールチャネル ](../admin/configure-channels-emails.md)でメッセージを送信する際に、メール同意に対して次のXDM属性を評価します。
+Journey Optimizer B2B Editionは、[&#x200B; メールチャネル &#x200B;](../admin/configure-channels-emails.md)でメッセージを送信する際に、メール同意に対して次のXDM属性を評価します。
 
 | XDM 属性 | `y` | `n` | 値なし |
 | --- | --- | --- | --- |
@@ -59,11 +59,11 @@ Journey Optimizer B2B Editionは、[ メールチャネル ](../admin/configure-
 * メールを世界中からオプトアウトした人は、業務用とマークされたメールを受け取ることができます。
 * サブスクリプションレベルの環境設定はサポートされていません。
 
-送信された電子メールの購読解除アクティビティを確認するには、[電子メールパフォーマンスレポート ](../dashboards/email-performance-dashboard.md)を参照してください。
+送信された電子メールの購読解除アクティビティを確認するには、[電子メールパフォーマンスレポート &#x200B;](../dashboards/email-performance-dashboard.md)を参照してください。
 
 ## SMS {#sms}
 
-Journey Optimizer B2B Editionは、[SMS チャネル ](../admin/configure-channels-sms.md)を介してメッセージを送信する際に、SMS同意に対して次のXDM属性を評価します。
+Journey Optimizer B2B Editionは、[SMS チャネル &#x200B;](../admin/configure-channels-sms.md)を介してメッセージを送信する際に、SMS同意に対して次のXDM属性を評価します。
 
 | XDM 属性 | `y` | `n` | 値なし |
 | --- | --- | --- | --- |
@@ -80,7 +80,7 @@ SMS同意については、次の点を考慮してください。
 
 ## WhatsApp {#whatsapp}
 
-Journey Optimizer B2B Editionは、設定された[WhatsApp チャネル ](../admin/configure-channels-whatsapp.md)を通じてメッセージを送信する際に、WhatsApp同意に対して次のXDM属性を評価します。
+Journey Optimizer B2B Editionは、設定された[WhatsApp チャネル &#x200B;](../admin/configure-channels-whatsapp.md)を通じてメッセージを送信する際に、WhatsApp同意に対して次のXDM属性を評価します。
 
 | XDM 属性 | `y` | `n` | 値なし |
 | --- | --- | --- | --- |

@@ -37,7 +37,7 @@ ht-degree: 2%
 
 Adobe Journey Optimizer B2B Editionを利用すれば、営業部門とアカウント部門のメンバーは、SalesforceやMicrosoft DynamicsなどのCRM （顧客関係管理）ツールから、アカウントと購買グループの情報に関する詳細なページに直接アクセスできます。 この連携機能により、営業担当者は、エンゲージメント履歴、インテントシグナル、AIが生成したレコメンデーションなど、リアルタイムのアカウントおよび購買グループのインサイトにすばやくアクセスできます。 この能力により、セールス部門は、より迅速なアウトリーチ、スマートな優先順位付け、マーケティング部門との連携を強化できます。
 
-営業部門とアカウント部門のメンバーが、CRMからJourney Optimizer B2B Editionの[ アカウントの詳細](account-details.md)および[人物の詳細](person-details.md) ページを表示できるようにするには、SalesforceまたはDynamics管理者が、アカウント、取引先責任者、またはリード表示からリンクを追加します。
+営業部門とアカウント部門のメンバーが、CRMからJourney Optimizer B2B Editionの[&#x200B; アカウントの詳細](account-details.md)および[人物の詳細](person-details.md) ページを表示できるようにするには、SalesforceまたはDynamics管理者が、アカウント、取引先責任者、またはリード表示からリンクを追加します。
 
 営業部門のメンバーがCRM インスタンスからのリンクを使用する場合、サンドボックスは&#x200B;_製品_&#x200B;である必要があり、IMS組織は次の順序付きロジックに従って決定されます。
 
@@ -51,9 +51,9 @@ _アプリケーションをカスタマイズ_&#x200B;権限を持つSalesforce
 
 Salesforceで、カスタムリンクをボタン、ハイパーリンク、またはリンクされたアイコンとして追加し、チームの環境設定に従ってカスタマイズします。
 
-![Salesforceのカスタムリンク ](./assets/crm-linking-sfdc-account-examples.png){width="800" zoomable="yes"}
+![Salesforceのカスタムリンク &#x200B;](./assets/crm-linking-sfdc-account-examples.png){width="800" zoomable="yes"}
 
-Salesforceでのカスタムリンクの追加について詳しくは、Salesforce ドキュメントの[ カスタムボタンとリンクの定義](https://help.salesforce.com/s/articleView?id=platform.defining_custom_links.htm&type=5)を参照してください。
+Salesforceでのカスタムリンクの追加について詳しくは、Salesforce ドキュメントの[&#x200B; カスタムボタンとリンクの定義](https://help.salesforce.com/s/articleView?id=platform.defining_custom_links.htm&type=5)を参照してください。
 
 リンクのターゲット URLを定義する場合、アカウント、取引先責任者、またはリードレイアウトを使用して、Journey Optimizer B2B Editionの対応する詳細ページにリンクできます。
 
@@ -132,7 +132,7 @@ Salesforceでのカスタムリンクの追加について詳しくは、Salesfo
 
 1. **[!UICONTROL Mobile &amp; Lightning Actions]**&#x200B;からボタンをドラッグし、レイアウトの&#x200B;**[!UICONTROL Salesforce Mobile and Lightning Experience Actions]** セクションにドロップします。
 
-   ![ レイアウトにボタンを追加](./assets/crm-linking-sfdc-detail-page-button-layout.png){width="800" zoomable="yes"}
+   ![&#x200B; レイアウトにボタンを追加](./assets/crm-linking-sfdc-detail-page-button-layout.png){width="800" zoomable="yes"}
 
 +++
 
@@ -144,7 +144,7 @@ Dynamics開発者は、アカウント、取引先責任者、またはリード
 
 ![Dynamics](./assets/crm-linking-dynamics-account-examples.png){width="800" zoomable="yes"}のカスタムリンク
 
-Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モデル駆動型アプリケーションをカスタマイズします。 Power Appsを使用してDynamicsでカスタムリンクを追加する方法について詳しくは、[PowerApps ドキュメント ](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-web-resources)を参照してください。
+Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モデル駆動型アプリケーションをカスタマイズします。 Power Appsを使用してDynamicsでカスタムリンクを追加する方法について詳しくは、[PowerApps ドキュメント &#x200B;](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-web-resources)を参照してください。
 
 リンクのターゲット URLを定義する場合、アカウント、取引先責任者、またはリードビューを使用して、Journey Optimizer B2B Editionの対応する詳細ページにリンクできます。
 
@@ -166,7 +166,7 @@ Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モ
 1. **[!UICONTROL エンティティ]** > **[!UICONTROL アカウント]**/**[!UICONTROL 連絡先]**/**[!UICONTROL リード]** > **[!UICONTROL フィールド]**&#x200B;を選択します。
 1. 「**[!UICONTROL 新規]**」をクリックし、新しいフィールドを設定します。
 
-   ![連絡先エンティティ ](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}の新しいフィールド
+   ![連絡先エンティティ &#x200B;](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}の新しいフィールド
 
 1. フィールド設定を保存します。
 1. 「_[!UICONTROL ソリューション]_」タブから、「**[!UICONTROL Web リソース]**」を選択します。
@@ -207,7 +207,7 @@ Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モ
 
 1. _概要_ セクションのフィールドをダブルクリックし、そのプロパティを設定します。
 
-   ![ フィールドのプロパティを設定](./assets/crm-linking-dynamics-url-field-properties.png){width="800" zoomable="yes"}
+   ![&#x200B; フィールドのプロパティを設定](./assets/crm-linking-dynamics-url-field-properties.png){width="800" zoomable="yes"}
 
    プロパティの設定が完了したら、**[!UICONTROL OK]**&#x200B;をクリックします。
 
@@ -218,7 +218,7 @@ Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モ
 1. 上部の「_[!UICONTROL ホーム]_」タブで、「**[!UICONTROL フォームプロパティ]**」をクリックします。
 1. 「**[!UICONTROL 追加]**」をクリックします。
 
-   ![ フォームプロパティを追加](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"}
+   ![&#x200B; フォームプロパティを追加](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"}
 
 1. リソースを見つけて選択し、**[!UICONTROL 追加]**&#x200B;をクリックします。
 
@@ -228,7 +228,7 @@ Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モ
 1. `setViewInAjoB2b`関数を&#x200B;**[!UICONTROL イベントハンドラー]**&#x200B;に追加します。
 1. _[!UICONTROL イベントハンドラー]_ リストで関数を選択した状態で、**[!UICONTROL コントロール]**&#x200B;を`Form`に、**[!UICONTROL イベント]**&#x200B;を`OnLoad`に設定します。
 
-   ![ ハンドラーを追加](./assets/crm-linking-dynamics-url-handler-properties.png){width="500" zoomable="yes"}
+   ![&#x200B; ハンドラーを追加](./assets/crm-linking-dynamics-url-handler-properties.png){width="500" zoomable="yes"}
 
 1. 「**[!UICONTROL OK]**」をクリックします。
 
@@ -238,7 +238,7 @@ Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モ
 
 リンクを確認するには、Dynamicsのアカウント、取引先責任者、またはリード ビューを確認します。
 
-![ フォームプロパティを追加](./assets/crm-linking-dynamics-url-field-displayed.png){width="500" zoomable="yes"}
+![&#x200B; フォームプロパティを追加](./assets/crm-linking-dynamics-url-field-displayed.png){width="500" zoomable="yes"}
 
 リンクが表示されない場合は、Dynamics ホームページの&#x200B;**[!UICONTROL 顧客]**&#x200B;の下にあるアカウント、取引先責任者、またはリードに移動してみてください。 特定のアカウント、取引先責任者、またはリードのビューに戻ります。 ログアウトして、再度ログインすることもできます。
 
@@ -323,7 +323,7 @@ Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モ
 1. `getFormContext`関数を&#x200B;**[!UICONTROL イベントハンドラー]**&#x200B;に追加します。
 1. _[!UICONTROL イベントハンドラー]_ リストで関数を選択した状態で、**[!UICONTROL コントロール]**&#x200B;を`Form`に、**[!UICONTROL イベント]**&#x200B;を`OnLoad`に設定します。
 
-   ![ ハンドラーを追加](./assets/crm-linking-dynamics-web-resources-handler-properties.png){width="500" zoomable="yes"}
+   ![&#x200B; ハンドラーを追加](./assets/crm-linking-dynamics-web-resources-handler-properties.png){width="500" zoomable="yes"}
 
 1. 「**[!UICONTROL OK]**」をクリックします。
 
@@ -333,15 +333,15 @@ Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モ
 
 1. アカウント、取引先責任者、またはリードフォームの「**[!UICONTROL HOME]**」タブで、**[!UICONTROL Body]** （_概要_ セクションでリンクされたリソースを作成する）または&#x200B;**[!UICONTROL ヘッダー]** （ヘッダーメニューで作成する）を選択します。
 
-   ![ フォーム領域を選択](./assets/crm-linking-dynamics-web-resource-form-select.png){width="500" zoomable="yes"}
+   ![&#x200B; フォーム領域を選択](./assets/crm-linking-dynamics-web-resource-form-select.png){width="500" zoomable="yes"}
 
 1. 上部の「**[!UICONTROL INSERT]**」タブを選択し、「**[!UICONTROL Web リソース]**」をクリックします。
 
 1. 作成したweb リソースを挿入し、プロパティを設定します。
 
-   ![Web リソース ](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
+   ![Web リソース &#x200B;](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   Web リソースのプロパティと書式設定について詳しくは、[Power Apps ドキュメント ](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy)を参照してください。
+   Web リソースのプロパティと書式設定について詳しくは、[Power Apps ドキュメント &#x200B;](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy)を参照してください。
 
 1. 「**[!UICONTROL OK]**」をクリックします。
 
@@ -355,7 +355,7 @@ Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モ
 
 リンクを確認するには、Dynamicsのアカウント、取引先責任者、またはリード ビューを確認します。
 
-![ フォームプロパティを追加](./assets/crm-linking-dynamics-web-resource-displayed.png){width="500" zoomable="yes"}
+![&#x200B; フォームプロパティを追加](./assets/crm-linking-dynamics-web-resource-displayed.png){width="500" zoomable="yes"}
 
 リンクが表示されない場合は、Dynamics ホームページの&#x200B;**[!UICONTROL 顧客]**&#x200B;の下にあるアカウント、取引先責任者、またはリードに移動してみてください。 特定のアカウント、取引先責任者、またはリードのビューに戻ります。 ログアウトして、再度ログインすることもできます。
 

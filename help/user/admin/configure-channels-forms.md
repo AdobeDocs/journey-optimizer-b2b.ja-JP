@@ -42,7 +42,7 @@ ht-degree: 19%
 
 ## 前提条件
 
-Web フォームを使用するには、Adobe Experience Platformで1つ以上の&#x200B;_**HTTP API ストリーミング接続**_&#x200B;を定義する必要があります。 使用する各接続が次の要件を満たしていることを確認します。
+Web フォームを使用するには、Adobe Experience Platformで1つ以上の&#x200B;_&#x200B;**HTTP API ストリーミング接続**&#x200B;_&#x200B;を定義する必要があります。 使用する各接続が次の要件を満たしていることを確認します。
 
 * データ型はXDMに設定する必要があります（Raw データではありません）
 * 認証は無効にする必要があります（認証されていない接続）
@@ -77,7 +77,7 @@ Journey Optimizer B2B EditionのForms チャネル設定には、次の[権限](
 
 1. ナビゲーションパネルの&#x200B;_[!UICONTROL フォーム設定]_&#x200B;で、**[!UICONTROL フォームプリセット]**&#x200B;を選択します。
 
-   ![ フォーム設定にアクセス ](./assets/config-channels-forms.png){width="800" zoomable="yes"}
+   ![&#x200B; フォーム設定にアクセス &#x200B;](./assets/config-channels-forms.png){width="800" zoomable="yes"}
 
 1. 「**[!UICONTROL フォームプリセットを作成]**」をクリックします。
 
@@ -91,15 +91,15 @@ Journey Optimizer B2B EditionのForms チャネル設定には、次の[権限](
 
    この接続は、web ビューアがフォームを送信するときにデータを送信するために使用されるストリーミングエンドポイントです。 必要なストリーミング接続がリストに表示されない場合は、要件が満たされていることを確認します。
 
-1. _データセットを選択_ （![ データセットを選択アイコン ](../assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、データセットをフォームにリンクします。
+1. _データセットを選択_ （![&#x200B; データセットを選択アイコン &#x200B;](../assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、データセットをフォームにリンクします。
 
    データセットは、フォームの応答が保存され、反映される場所です。 特定のデータセットを検索するためのテキスト文字列を入力するか、リストから選択できます。
 
-   ![ データセットを選択ダイアログ ](./assets/config-channel-forms-select-datasets.png){width="500" zoomable="yes"}
+   ![&#x200B; データセットを選択ダイアログ &#x200B;](./assets/config-channel-forms-select-datasets.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
-   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に 1 つのデータセットを選択できます。 フォームデータの保存にシステムデータセットは使用できません。
+   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に 1 つのデータセットを選択できます。 フォームデータの保存にシステムデータセットは使用できません。
 
    データセットのチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 

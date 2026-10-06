@@ -43,7 +43,7 @@ ht-degree: 62%
 
 内部アセットリポジトリは、デフォルトで[!DNL Journey Optimizer B2B Edition] サブスクリプションごとに提供されます。 このリポジトリは、アセットのアップロードやダウンロードする機能を含むローカルアセットライブラリとして使用できます。 また、これらのアセットをジャーニーコンテンツ内で使用することもできます。
 
-Adobe Express](./image-edit-adobe-express.md)を使用してこれらのアセットを[編集し、フォルダーに移動して、電子メール、テンプレート、フラグメントで使用できるようにアセットを整理できます。
+Adobe Express[&#128279;](./image-edit-adobe-express.md)を使用してこれらのアセットを編集し、フォルダーに移動して、電子メール、テンプレート、フラグメントで使用できるようにアセットを整理できます。
 
 サポートされているファイル形式：JPG、JPEG、GIF、PNG、EPS、SVG、RGB
 
@@ -91,7 +91,7 @@ Adobe Express](./image-edit-adobe-express.md)を使用してこれらのアセ�
 
 検索とフィルターを使用して、目的の画像アセットを見つけることができます。 アセットを選択し、「**[!UICONTROL 選択]**」をクリックして、画像コンポーネントに使用します。
 
-内部画像アセットの使用について詳しくは、[ コンテンツでアセットを使用する](./internal-image-assets.md#use-assets-in-your-content)を参照してください。
+内部画像アセットの使用について詳しくは、[&#x200B; コンテンツでアセットを使用する](./internal-image-assets.md#use-assets-in-your-content)を参照してください。
 
 >[!TAB Experience Manager Assets]
 

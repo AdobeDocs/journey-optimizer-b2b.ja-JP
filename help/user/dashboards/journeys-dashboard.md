@@ -35,7 +35,7 @@ ht-degree: 2%
 ---
 # ジャーニー概要ダッシュボード
 
-[ アカウントまたは個人のジャーニー](../journeys/journeys-overview.md)の概要ダッシュボードには、アクティブなジャーニーの包括的なスナップショットが表示されます。 円グラフと棒グラフは、入力とエンゲージメントのアクティビティを分類および定量化することで、主要な配信とエンゲージメント指標を通じてメールとSMS チャネルの効果を評価することができます。 電子メール固有の配信およびエンゲージメントデータのクロスジャーニー表示については、[電子メールパフォーマンスレポート ](email-performance-dashboard.md)を参照してください。
+[&#x200B; アカウントまたは個人のジャーニー](../journeys/journeys-overview.md)の概要ダッシュボードには、アクティブなジャーニーの包括的なスナップショットが表示されます。 円グラフと棒グラフは、入力とエンゲージメントのアクティビティを分類および定量化することで、主要な配信とエンゲージメント指標を通じてメールとSMS チャネルの効果を評価することができます。 電子メール固有の配信およびエンゲージメントデータのクロスジャーニー表示については、[電子メールパフォーマンスレポート &#x200B;](email-performance-dashboard.md)を参照してください。
 
 この概要は公開されたジャーニーで利用でき、データがチャートとテーブルの入力を開始するのに約4時間かかります。
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 左側のナビゲーションで、**[!UICONTROL ジャーニー管理]**&#x200B;を展開し、**[!UICONTROL アカウントジャーニー]**&#x200B;をクリックします。 デフォルトで表示されない場合は、**[!UICONTROL 概要]** タブを選択します。
 
-![ アカウントジャーニーの概要](./assets/journey-overview-account.png){width="800" zoomable="yes"}
+![&#x200B; アカウントジャーニーの概要](./assets/journey-overview-account.png){width="800" zoomable="yes"}
 
 >[!TAB  ユーザージャーニー]
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 左側のナビゲーションで、**[!UICONTROL ジャーニー管理]**&#x200B;を展開し、**[!UICONTROL 人物ジャーニー]**&#x200B;をクリックします。 デフォルトで表示されない場合は、**[!UICONTROL 概要]** タブを選択します。
 
-![ ユーザージャーニーの概要](./assets/journey-overview-person.png){width="800" zoomable="yes"}
+![&#x200B; ユーザージャーニーの概要](./assets/journey-overview-person.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -77,11 +77,11 @@ ht-degree: 2%
 
 データを使用するには、各グラフの右上にある&#x200B;**...** メニューを使用します。
 
-### [!UICONTROL  ドリルスルー] {#drill-through}
+### [!UICONTROL &#x200B; ドリルスルー] {#drill-through}
 
 円グラフで、データの詳細な分析を行うには、**[!UICONTROL ドリルスルー]**&#x200B;を選択します。
 
-![ グラフデータにアクセスするには、「ドリルスルー」を選択します](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
+![&#x200B; グラフデータにアクセスするには、「ドリルスルー」を選択します](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
 _詳細_ （**...**）をクリックできます 右上のメニューで、**[!UICONTROL 詳細を表示]**&#x200B;から[拡張データを表示](#view-more)を選択します。
 

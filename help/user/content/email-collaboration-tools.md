@@ -31,7 +31,7 @@ ht-degree: 4%
 ---
 # メール共同作業ツール
 
-[電子メールデザインスペース ](./email-authoring.md)には、コメントと解決のためのコラボレーションツールが含まれており、マーケティング部門は[!DNL Journey Optimizer B2B Edition]内で電子メールアセットをシームレスにレビュー、議論、最終決定できます。 ユーザは、外部ツール（チャット、メールスレッド、スプレッドシートなど）でドラフトを共有する代わりに、メールデザインスペース内でコメントしたり、編集を提案したり、フィードバックに対応して解消したりできます。 次のツールを使用して、ワークフローを合理化し、エラーを減らし、アカウントジャーニー内でメールキャンペーンを開始する前に、関係者の足並みを揃えることができます。
+[電子メールデザインスペース &#x200B;](./email-authoring.md)には、コメントと解決のためのコラボレーションツールが含まれており、マーケティング部門は[!DNL Journey Optimizer B2B Edition]内で電子メールアセットをシームレスにレビュー、議論、最終決定できます。 ユーザは、外部ツール（チャット、メールスレッド、スプレッドシートなど）でドラフトを共有する代わりに、メールデザインスペース内でコメントしたり、編集を提案したり、フィードバックに対応して解消したりできます。 次のツールを使用して、ワークフローを合理化し、エラーを減らし、アカウントジャーニー内でメールキャンペーンを開始する前に、関係者の足並みを揃えることができます。
 
 * **_フィードバックの一元管理_** – すべてのフィードバックを1か所で収集および追跡します。
 
@@ -73,7 +73,7 @@ Display visual indicators (badges) for elements with associated comments
 
    * ユーザー名と電子メールアドレスを入力するか、リストから既存のユーザーを選択します。
 
-     ユーザーがまだ作成されていない場合は、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}を参照してください。
+     ユーザーがまだ作成されていない場合は、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}を参照してください。
 
    * **[!UICONTROL 保存]**&#x200B;をクリックして変更を適用します。
 
@@ -83,18 +83,18 @@ Display visual indicators (badges) for elements with associated comments
 
 メールデザイン領域でコンテンツを作成、編集、またはレビューする際に、_Collaboration_ パネルにアクセスして、メールコンテンツのコメントを追加または管理できます。
 
-右側のナビゲーションで「_Collaboration_」（![Collaborationアイコン ](../assets/do-not-localize/icon-comments.svg)）アイコンをクリックします。
+右側のナビゲーションで「_Collaboration_」（![Collaborationアイコン &#x200B;](../assets/do-not-localize/icon-comments.svg)）アイコンをクリックします。
 
-メールデザインの右ナビゲーションの![Collaboration パネルアイコン ](./assets/email-comments-right-nav-icon.png){width="700" zoomable="yes"}
+メールデザインの右ナビゲーションの![Collaboration パネルアイコン &#x200B;](./assets/email-comments-right-nav-icon.png){width="700" zoomable="yes"}
 
 ## Collaboration workflow
 
 コラボレーションツールを使用して、標準的なコンテンツワークフローに従うことができます。
 
 1. [共同作業者とレビュー担当者を](#invite-collaborators-and-reviewers)招待してください。
-1. レビュー担当者[ コメントを追加](#add-comments)。
+1. レビュー担当者[&#x200B; コメントを追加](#add-comments)。
 1. コメントを読み、[返信を追加](#reply-to-a-comment)してフィードバックについて話し合い、必要な編集をおこないます。
-1. レビュー担当者または作成者[ コメントを解決](#resolve-comments)。
+1. レビュー担当者または作成者[&#x200B; コメントを解決](#resolve-comments)。
 
 >[!BEGINSHADEBOX]
 
@@ -114,7 +114,7 @@ Display visual indicators (badges) for elements with associated comments
 
 1. メールの本文を選択します。
 
-1. 右側のナビゲーションで「_Collaboration_」（![Collaborationアイコン ](../assets/do-not-localize/icon-comments.svg)）アイコンをクリックします。
+1. 右側のナビゲーションで「_Collaboration_」（![Collaborationアイコン &#x200B;](../assets/do-not-localize/icon-comments.svg)）アイコンをクリックします。
 
 1. 右側のパネルの上部に、ユーザーが共同作業を行ってフィードバックを提供するための招待テキストを入力します。
 
@@ -122,13 +122,13 @@ Display visual indicators (badges) for elements with associated comments
 
    シンボルの後に名前の最初の数文字を入力すると、一致するユーザー名がポップアップリストに表示されます。 名前にさらに文字を入力すると、結果を改善できます。
 
-   ![電子メールのフィードバックや通知にコメントを追加する際に、タグ付きのユーザーを表示するポップアップリスト ](./assets/email-comments-tag-users.png){width="550"}
+   ![電子メールのフィードバックや通知にコメントを追加する際に、タグ付きのユーザーを表示するポップアップリスト &#x200B;](./assets/email-comments-tag-users.png){width="550"}
 
    通知用に追加する名前を選択します。
 
    招待に含める共同作業者またはレビュー担当者を何人追加してください。
 
-   ![ レビュー担当者の追加とフィードバックの送信を行うための共同作業招待メールのインターフェイス ](./assets/email-comments-invite.png){width="700" zoomable="yes"}
+   ![&#x200B; レビュー担当者の追加とフィードバックの送信を行うための共同作業招待メールのインターフェイス &#x200B;](./assets/email-comments-invite.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
@@ -142,7 +142,7 @@ Display visual indicators (badges) for elements with associated comments
 
 _Collaboration_ パネルで、上部のテキストフィールドを使用して、メールコンテンツに関する一般的なコメントを入力します。 `@`記号を使用して、ユーザーにアドレスを指定し、ユーザーに通知します。
 
-![電子メールのフィードバックとユーザーのタグ付けのCollaboration パネルの一般コメントフィールド ](./assets/email-comments-general.png){width="400"}
+![電子メールのフィードバックとユーザーのタグ付けのCollaboration パネルの一般コメントフィールド &#x200B;](./assets/email-comments-general.png){width="400"}
 
 「**[!UICONTROL 送信]**」をクリックしてコメントを記録し、タグ付けされたユーザーに通知を送信します。
 
@@ -152,7 +152,7 @@ _Collaboration_ パネルで、上部のテキストフィールドを使用し�
 
 1. ツールバーで、_Collaboration_ ツールをクリックします。
 
-   ![ コンポーネント固有のコメントを追加するためのメールエディターツールバーのCollaboration ツールアイコン ](./assets/email-comments-canvas-toolbar.png){width="600"}
+   ![&#x200B; コンポーネント固有のコメントを追加するためのメールエディターツールバーのCollaboration ツールアイコン &#x200B;](./assets/email-comments-canvas-toolbar.png){width="600"}
 
 1. テキストフィールドにコメントを入力します。
 
@@ -160,7 +160,7 @@ _Collaboration_ パネルで、上部のテキストフィールドを使用し�
 
 共同作業者は、電子メールキャンバスの番号付きピンのアイコンをクリックして、コメントを表示できます。
 
-![ エディターで共同作業とフィードバック用の番号付きコメントピンを表示する電子メールキャンバス ](./assets/email-comments-canvas-display.png){width="450"}
+![&#x200B; エディターで共同作業とフィードバック用の番号付きコメントピンを表示する電子メールキャンバス &#x200B;](./assets/email-comments-canvas-display.png){width="450"}
 
 #### コメントへの返信
 
@@ -168,13 +168,13 @@ _Collaboration_ パネルで、上部のテキストフィールドを使用し�
 
 コメントの下部にある「**[!UICONTROL 返信]**」をクリックし、返信するテキストを入力します。 現在のコメントの引用を返信に含めるには、_詳細メニュー_ （**...**）アイコンをクリックし、**[!UICONTROL 見積返信]**&#x200B;を選択します。
 
-![電子メールコメントスレッドでの返信と見積もり返信のメニューオプション ](./assets/email-comments-reply-more-menu.png){width="350"}
+![電子メールコメントスレッドでの返信と見積もり返信のメニューオプション &#x200B;](./assets/email-comments-reply-more-menu.png){width="350"}
 
 ### コメントを解決
 
 作成者またはデザイナーは、レビュー担当者からのフィードバックを評価し、変更したい点を決定します。 変更が完了し、リクエストが満たされたら、_詳細メニュー_ （**...**）アイコンをクリックし、**[!UICONTROL 解決]**&#x200B;を選択します。
 
-![電子メールの共同作業スレッドでコメントを解決するためのその他のメニューオプション ](./assets/email-comments-resolve-more-menu.png){width="350"}
+![電子メールの共同作業スレッドでコメントを解決するためのその他のメニューオプション &#x200B;](./assets/email-comments-resolve-more-menu.png){width="350"}
 
 確認ダイアログで、**[!UICONTROL 解決]**&#x200B;をクリックします。
 
@@ -192,7 +192,7 @@ _Collaboration_ パネルで、上部のテキストフィールドを使用し�
 
 コメントを削除して削除することで、コメントのログをクリーンアップできます。 _詳細メニュー_ （**...**）アイコンをクリックし、**[!UICONTROL コメントの削除]**&#x200B;または&#x200B;**[!UICONTROL 削除]**&#x200B;を選択します。
 
-![電子メールコラボレーションパネルでコメントを削除または削除する他のメニューオプション ](./assets/email-comments-remove-delete-more-menu.png){width="350"}
+![電子メールコラボレーションパネルでコメントを削除または削除する他のメニューオプション &#x200B;](./assets/email-comments-remove-delete-more-menu.png){width="350"}
 
 * コメントを削除すると、アクションはコメントをデザイン要素（コメントの作成時に選択）から切り離します。 このコメントは、電子メールのコメントレコードの一部です。
 
@@ -200,10 +200,10 @@ _Collaboration_ パネルで、上部のテキストフィールドを使用し�
 
 ### 解決されたコメント
 
-デフォルトでは、解決されたコメントは&#x200B;_Collaboration_ パネルに表示されません。 フィルターをクリアすると、解決されたコメントをいつでも表示できます。 _フィルター_ （![ フィルターで解決されたコメント アイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、**[!UICONTROL 解決されたコメントを非表示]** チェックボックスをオフにします。
+デフォルトでは、解決されたコメントは&#x200B;_Collaboration_ パネルに表示されません。 フィルターをクリアすると、解決されたコメントをいつでも表示できます。 _フィルター_ （![&#x200B; フィルターで解決されたコメント アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックし、**[!UICONTROL 解決されたコメントを非表示]** チェックボックスをオフにします。
 
-解決された電子メールコメントを表示するフィルターを表示する![Collaboration パネル ](./assets/email-comments-filter-resolved.png){width="350"}
+解決された電子メールコメントを表示するフィルターを表示する![Collaboration パネル &#x200B;](./assets/email-comments-filter-resolved.png){width="350"}
 
-解決されたコメントには、_未解決_ （![未解決コメントスレッドアイコン ](../assets/do-not-localize/icon-comments-unresolve.svg)）アイコンが含まれます。 コメント/スレッドが解決されず、さらに変更が必要であると判断した場合は、アイコンをクリックして、_[!UICONTROL 解決済み]_&#x200B;の指定を削除します。
+解決されたコメントには、_未解決_ （![未解決コメントスレッドアイコン &#x200B;](../assets/do-not-localize/icon-comments-unresolve.svg)）アイコンが含まれます。 コメント/スレッドが解決されず、さらに変更が必要であると判断した場合は、アイコンをクリックして、_[!UICONTROL 解決済み]_&#x200B;の指定を削除します。
 
-![未解決アイコンを使用して、電子メールコメントフィルターでコメントまたはスレッドを未解決としてマーク ](./assets/email-comments-filter-unresolve.png){width="300"}
+![未解決アイコンを使用して、電子メールコメントフィルターでコメントまたはスレッドを未解決としてマーク &#x200B;](./assets/email-comments-filter-unresolve.png){width="300"}

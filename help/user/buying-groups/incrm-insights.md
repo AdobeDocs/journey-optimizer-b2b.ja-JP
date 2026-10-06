@@ -52,8 +52,8 @@ ht-degree: 2%
 
 ユーザーを[!DNL In-CRM Insights]のみに制限する場合：
 
-1. [ カスタム役割](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)を作成し、**セールスインサイト：セールスインサイトの表示**&#x200B;権限を割り当てます。
-1. 新しい[ ユーザーグループ ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)を作成します。
+1. [&#x200B; カスタム役割](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role)を作成し、**セールスインサイト：セールスインサイトの表示**&#x200B;権限を割り当てます。
+1. 新しい[&#x200B; ユーザーグループ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group)を作成します。
 1. グループにExperience Platform製品プロファイルを追加します。
 
 ### パッケージのインストール
@@ -62,11 +62,11 @@ In-CRM Insights パッケージをインストールするには、Salesforceま
 
 #### Salesforce
 
-1. [In-CRM Insights インストーラーパッケージ ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce)をダウンロードします。
+1. [In-CRM Insights インストーラーパッケージ &#x200B;](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce)をダウンロードします。
 1. ログイン後、パッケージのインストールページにリダイレクトされます。
 1. 「**[!UICONTROL すべてのユーザーにインストール]**」オプションを選択し、**[!UICONTROL インストール]**&#x200B;をクリックします。
 
-   ![CRM内インサイトパッケージのインストール ](assets/incrm-install-sf.png){width=500}
+   ![CRM内インサイトパッケージのインストール &#x200B;](assets/incrm-install-sf.png){width=500}
 
 1. ダイアログでサードパーティのアクセスを承認し、**[!UICONTROL 続行]**&#x200B;をクリックします。
 1. インストールが完了したら、**[!UICONTROL 完了]**&#x200B;をクリックします。
@@ -77,8 +77,8 @@ In-CRM Insights パッケージをインストールするには、Salesforceま
 
 #### MS Dynamics
 
-1. [In-CRM Insights インストーラーパッケージ ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics)をダウンロードします。
-1. [Power Apps ポータル ](https://make.powerapps.com/){target=_blank}に移動します。
+1. [In-CRM Insights インストーラーパッケージ &#x200B;](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics)をダウンロードします。
+1. [Power Apps ポータル &#x200B;](https://make.powerapps.com/){target=_blank}に移動します。
 1. ログイン後、パッケージの環境を選択し、左側のメニューから&#x200B;**[!UICONTROL Solutions]**&#x200B;に移動します。
 1. 「**[!UICONTROL ソリューションの読み込み]**」をクリックします。
 1. インストーラーパッケージを参照してアップロードし、**[!UICONTROL 次へ]**&#x200B;をクリックします。
@@ -92,4 +92,4 @@ In-CRM Insights パッケージをインストールするには、Salesforceま
 
 画面の指示に従って、Adobe アカウントにログインします。 購買グループが読み込まれ、表示できます。
 
-購買グループを選択した後、[ グループの詳細](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)を参照できます。 これは、Journey Optimizer B2B Editionに表示されるデータとインサイトと同じですが、データは[!DNL In-CRM Insights]を通じて読み取り専用です。
+購買グループを選択した後、[&#x200B; グループの詳細](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)を参照できます。 これは、Journey Optimizer B2B Editionに表示されるデータとインサイトと同じですが、データは[!DNL In-CRM Insights]を通じて読み取り専用です。

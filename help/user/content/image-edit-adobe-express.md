@@ -74,7 +74,7 @@ _画像を変更するには&#x200B;:_
 
    >[!TIP]
    >
-   >画像の詳細で「_[!UICONTROL 使用ユーザー]_」タブ ](./internal-image-assets.md#view-asset-used-by-references)を選択し、画像ファイルの編集を続行する前に、画像が現在使用されているコンテンツを確認することをお勧めします。[
+   >画像の詳細で「_[!UICONTROL 使用ユーザー]_」タブ [&#128279;](./internal-image-assets.md#view-asset-used-by-references)を選択し、画像ファイルの編集を続行する前に、画像が現在使用されているコンテンツを確認することをお勧めします。
 
 1. 右側の画像&#x200B;_[!UICONTROL Details]_&#x200B;で、**[!UICONTROL Adobe Expressで編集]**&#x200B;をクリックします。
 
@@ -82,7 +82,7 @@ _画像を変更するには&#x200B;:_
 
    画像が使用中の場合は、変更がそのコンテンツに影響を与えることを通知する警告ダイアログが表示されます。 「**[!UICONTROL 続行]**」をクリックして、Adobe Express エディターに進みます。
 
-   ![ アラートは、画像の使用状況に関する情報を提供します](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
+   ![&#x200B; アラートは、画像の使用状況に関する情報を提供します](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
 ## Adobe Express エンタープライズ版ライセンス
 
@@ -90,11 +90,11 @@ Adobe Expressのエンタープライズライセンスをお持ちの場合は�
 
 >[!NOTE]
 >
->Journey Optimizer B2B Editionのエディター機能をすべて利用するには、同じIMS組織でAdobe Express Enterprise ライセンスを購入する必要があります。 IMS組織の個々のメンバーとして、Adobe Express インスタンスで割り当てられたライセンスが必要です。 それ以外の場合、Adobe Expressへのアクセスは、Journey Optimizer B2B EditionからAdobe Express](#quick-actions-in-adobe-express)の[ クイックアクションに制限されます。
+>Journey Optimizer B2B Editionのエディター機能をすべて利用するには、同じIMS組織でAdobe Express Enterprise ライセンスを購入する必要があります。 IMS組織の個々のメンバーとして、Adobe Express インスタンスで割り当てられたライセンスが必要です。 それ以外の場合、Adobe Expressへのアクセスは、Journey Optimizer B2B EditionからAdobe Express[&#128279;](#quick-actions-in-adobe-express)の クイックアクションに制限されます。
 
 ![Adobe Express エンタープライズ版エディターで画像を開く](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-使用可能な編集機能について詳しくは、[Adobe Express ユーザーガイド ](https://helpx.adobe.com/jp/express/web.html){target="_blank"}を参照してください。
+使用可能な編集機能について詳しくは、[Adobe Express ユーザーガイド &#x200B;](https://helpx.adobe.com/jp/express/web.html){target="_blank"}を参照してください。
 
 ## Adobe Expressのクイックアクション
 

@@ -39,13 +39,13 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->この統合は、Litmus Enterprise アカウントを持つJourney Optimizer B2B Edition ユーザーのみが使用できます。 詳しくは、Litmus web サイト ](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}の[解決策ページを参照してください。
+>この統合は、Litmus Enterprise アカウントを持つJourney Optimizer B2B Edition ユーザーのみが使用できます。 詳しくは、Litmus web サイト [&#128279;](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}の解決策ページを参照してください。
 
 1. 電子メールデザインが完了し、テストの準備ができたら、電子メールデザインスペースの「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
 
 1. 右上の「**[!UICONTROL メールをレンダリング]**」をクリックします。
 
-   ![電子メールボタンをレンダリング ](./assets/email-simulate-render-button.png){width="700" zoomable="yes"}
+   ![電子メールボタンをレンダリング &#x200B;](./assets/email-simulate-render-button.png){width="700" zoomable="yes"}
 
    Journey Optimizer B2B EditionからLitmus アカウントにまだ接続していない場合、表示されたページには、体験版アカウントを開始するか、既存のアカウントに接続するためのオプションが表示されます。
 
@@ -69,8 +69,8 @@ ht-degree: 5%
 
    表示されたサムネールをクリックして、レンダリングされたクライアントテストの詳細を表示します。
 
-   ![ リトマス電子メールのプレビュー](./assets/email-simulate-render-litmus-previews.png){width="700" zoomable="yes"}
+   ![&#x200B; リトマス電子メールのプレビュー](./assets/email-simulate-render-litmus-previews.png){width="700" zoomable="yes"}
 
-1. レビューが完了したら、左上の戻る矢印（![ フィルターを表示または非表示にするアイコン ](../../assets/do-not-localize/icon_back-arrow.svg)）をクリックして、コンテンツシミュレーションページに戻ります。
+1. レビューが完了したら、左上の戻る矢印（![&#x200B; フィルターを表示または非表示にするアイコン &#x200B;](../../assets/do-not-localize/icon_back-arrow.svg)）をクリックして、コンテンツシミュレーションページに戻ります。
 
    別のプロファイルを選択して別のレンダリングテストを行うか、メールデザインスペースに戻ってレビューに基づいて必要な調整を行うことができます。

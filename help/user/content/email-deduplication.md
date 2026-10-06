@@ -65,7 +65,7 @@ ht-degree: 1%
 
 1. ダイアログで、「**[!UICONTROL 電子メールの重複排除]**」チェックボックスを選択します。
 
-   ![切り替えが有効になっているメール重複排除ダイアログ ](./assets/email-deduplication-dialog.png){width="400"}
+   ![切り替えが有効になっているメール重複排除ダイアログ &#x200B;](./assets/email-deduplication-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

@@ -38,17 +38,17 @@ ht-degree: 9%
 ---
 # JOURNEY OPTIMIZER B2B EDITIONのAI機能
 
-Adobe Journey Optimizer B2B Editionのチャットインターフェイスは、[Adobe Experience PlatformのAI アシスタント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}と同じテクノロジー基盤を利用しています。 Journey Optimizer B2B Editionのワークフローをスピードアップするための会話体験です。 チャットインターフェイスを利用すれば、製品の能力に関する理解を深め、問題をトラブルシューティングし、情報を検索して、Journey Optimizer B2B Editionの運用に関するインサイトを得ることができます。 このインターフェイスを使用して、[Journey Agent](../agents/journey-agent.md)および[Audience Agent](../agents/audience-agent-b2b.md)を呼び出すこともできます。
+Adobe Journey Optimizer B2B Editionのチャットインターフェイスは、[Adobe Experience PlatformのAI アシスタント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}と同じテクノロジー基盤を利用しています。 Journey Optimizer B2B Editionのワークフローをスピードアップするための会話体験です。 チャットインターフェイスを利用すれば、製品の能力に関する理解を深め、問題をトラブルシューティングし、情報を検索して、Journey Optimizer B2B Editionの運用に関するインサイトを得ることができます。 このインターフェイスを使用して、[Journey Agent](../agents/journey-agent.md)および[Audience Agent](../agents/audience-agent-b2b.md)を呼び出すこともできます。
 
 >[!IMPORTANT]
 >
->Journey Optimizer B2B EditionでAI アシスタントを使用するには、[ ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意が必要です。 この契約書には、公開ベータ版の契約書も含まれているため、追加のAI アシスタント機能をロールアウト時に使用できます。
+>Journey Optimizer B2B EditionでAI アシスタントを使用するには、[&#x200B; ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意が必要です。 この契約書には、公開ベータ版の契約書も含まれているため、追加のAI アシスタント機能をロールアウト時に使用できます。
 
 +++ユーザー契約書インターフェイスの表示
 
-![ ユーザー契約書の最初のページ。](./assets/user-agreement-1.png)
+![&#x200B; ユーザー契約書の最初のページ。](./assets/user-agreement-1.png)
 
-![ ユーザー契約書の最後のページ。](./assets/user-agreement-2.png)
+![&#x200B; ユーザー契約書の最後のページ。](./assets/user-agreement-2.png)
 
 +++
 
@@ -58,13 +58,13 @@ Adobe Journey Optimizer B2B Editionのチャットインターフェイスは、
 
 Sales Qualifierは、Journey Optimizer B2B EditionのAIを利用したアプリケーションです。 Account Qualification Agentを実装し、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 Sales Qualifierは、見込み顧客の絞り込み、アウトリーチ、バイヤーへのエンゲージメントワークフローをチャネルをまたいで自動化します。 B2B企業は、手作業のBDR負荷を軽減し、パイプラインを高速化することで、パイプラインを高速化できます。
 
-詳しくは、[Sales Qualifier ドキュメント ](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"}を参照してください。
+詳しくは、[Sales Qualifier ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 ## JOURNEY OPTIMIZER B2B EDITIONのAI アシスタント機能
 
-送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読みやすい回答に変換します。 この応答は、基礎となるデータ _**ナレッジグラフ**_&#x200B;の内部表現であり、特定の回答に対する概念、データ、メタデータの包括的なコレクションを提供します。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
+送信された質問に対する回答を作成するために、AI アシスタントはデータベースにクエリを実行し、データベースのデータを人間が読みやすい回答に変換します。 この応答は、基礎となるデータ _&#x200B;**ナレッジグラフ**&#x200B;_&#x200B;の内部表現であり、特定の回答に対する概念、データ、メタデータの包括的なコレクションを提供します。 ナレッジグラフは、クエリが送信されるたびに参照されるサブグラフで構成されます。
 
 * このトピックに関するAdobe Experience Leagueの。
 * スキーマ、フィールド、オーディエンス、ジャーニーなどの運用上のアーティファクト。

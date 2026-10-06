@@ -34,9 +34,9 @@ ht-degree: 7%
 
 Journey Optimizer B2B Editionの任意の場所から人物名をクリックすると、人物詳細ページが表示されます。 このページには、アカウントまたは購買グループに関連付けられた人物に関する有用な情報が含まれ、ハイライトデータとインテントデータ（設定されている場合）の生成AI概要が含まれます。<!-- There are also [actions](#person-actions) that you can execute for the person. -->
 
-![人物の詳細ページ ](./assets/person-details-page.png){width="800" zoomable="yes"}
+![人物の詳細ページ &#x200B;](./assets/person-details-page.png){width="800" zoomable="yes"}
 
-このページにアクセスするには、[ インテリジェントダッシュボード ](../dashboards/intelligent-dashboard.md)、[購買グループの詳細ページ ](../buying-groups/buying-group-details.md)、[ アカウントの詳細ページ ](./account-details.md)に表示されている名前をクリックします。
+このページにアクセスするには、[&#x200B; インテリジェントダッシュボード &#x200B;](../dashboards/intelligent-dashboard.md)、[購買グループの詳細ページ &#x200B;](../buying-groups/buying-group-details.md)、[&#x200B; アカウントの詳細ページ &#x200B;](./account-details.md)に表示されている名前をクリックします。
 
 人物の詳細ページは、次の4つのセクションで構成されています。
 
@@ -57,7 +57,7 @@ Journey Optimizer B2B Editionの任意の場所から人物名をクリックす
 
 このセクションには、最新のメール、web、フォーム入力、および人物に関連する注目のアクション（最大20）のリストが表示されます。 項目は、日時を含むアクティビティタイプとしてリストされます。
 
-![ アクティビティ – 人物の詳細](./assets/person-details-activities.png){width="700" zoomable="yes"}
+![&#x200B; アクティビティ – 人物の詳細](./assets/person-details-activities.png){width="700" zoomable="yes"}
 
 ## エンゲージメントスコアにもとづく購買グループ
 
@@ -69,7 +69,7 @@ Journey Optimizer B2B Editionの任意の場所から人物名をクリックす
 * Stage
 * メンバー
 
-![ エンゲージメントに基づく購買グループ – 人物の詳細](./assets/person-details-buying-groups-engagement.png){width="700" zoomable="yes"}
+![&#x200B; エンゲージメントに基づく購買グループ – 人物の詳細](./assets/person-details-buying-groups-engagement.png){width="700" zoomable="yes"}
 
 ## インテントデータ
 
@@ -77,7 +77,7 @@ Journey Optimizer B2B Editionでは、インテント検出モデルは、個人
 
 {{intent-data-note}}
 
-![ インテントデータ – 人物の詳細](./assets/intent-data-panel.png){width="700" zoomable="yes"}
+![&#x200B; インテントデータ – 人物の詳細](./assets/intent-data-panel.png){width="700" zoomable="yes"}
 
 * 意図のレベル
 * インテントシグナルの種類 – キーワード、製品、ソリューション

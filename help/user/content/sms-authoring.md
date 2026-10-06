@@ -57,11 +57,11 @@ Adobe Journey Optimizer B2B Editionを使用して、モバイルデバイスで
 
 _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を行うと、アカウントジャーニーでテキストメッセージ配信を設定できます。
 
-1. ターゲット ]_の_[!UICONTROL  アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
+1. ターゲット _の_ アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
 
 1. _[!UICONTROL 人物に対するアクション]_&#x200B;で、**[!UICONTROL SMSを送信]**&#x200B;を選択します。
 
-   ![ アクションを実行 – SMSを送信](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
+   ![&#x200B; アクションを実行 – SMSを送信](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
 1. _[!UICONTROL アクションを実行]_ パネルの下部にある「**[!UICONTROL SMSを作成]**」をクリックします。
 
@@ -85,7 +85,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. パーソナライゼーショントークンを追加するメッセージ内の場所にカーソルを置きます。
 
-1. テキストメッセージボックスの右側にある「_パーソナライズ_」アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
+1. テキストメッセージボックスの右側にある「_パーソナライズ_」アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
 
    このダイアログでは、アカウントトークン、人物トークン、システムトークンにアクセスできます。 標準トークンとカスタムトークンの両方が含まれています。 _検索_ バーを使用して必要なトークンを検索するか、フォルダーツリー内を移動してトークンのいずれかを検索して選択できます。
 
@@ -97,7 +97,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. _[!UICONTROL フォールバック値を入力]_ ダイアログで、フォールバックとして表示されるテキストを入力し、**[!UICONTROL 追加]**&#x200B;をクリックします。
 
-   ![ トークンのフォールバックテキストを入力](./assets/sms-message-personalize-fallback-text.png){width="450"}
+   ![&#x200B; トークンのフォールバックテキストを入力](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. パーソナライゼーショントークンを配置したら、**[!UICONTROL 保存]**&#x200B;をクリックして変更を保存し、メインのSMS オーサリングワークスペースに戻ります。
 
@@ -105,7 +105,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 #### テキストメッセージへのリンク（URL）の追加 {#add-links}
 
-1. メッセージテキストを入力したら、テキストメッセージボックスの右側にある&#x200B;_リンク_ アイコン（![ リンクアイコン ](../assets/do-not-localize/icon-link.svg)）をクリックします。
+1. メッセージテキストを入力したら、テキストメッセージボックスの右側にある&#x200B;_リンク_ アイコン（![&#x200B; リンクアイコン &#x200B;](../assets/do-not-localize/icon-link.svg)）をクリックします。
 
 1. ダイアログで、リンクするURLのタイプを選択します。
 
@@ -113,7 +113,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
    * **[!UICONTROL 外部URL]** – 外部URLをリンクするには、このオプションを選択します。 リンクの&#x200B;**[!UICONTROL URL]**&#x200B;を入力してください。
 
-     ![SMS メッセージのリンクを追加ダイアログ ](./assets/sms-add-link-dialog.png){width="470"}
+     ![SMS メッセージのリンクを追加ダイアログ &#x200B;](./assets/sms-add-link-dialog.png){width="470"}
 
 1. （オプション）トラッキングオプションを設定します。
 
@@ -148,7 +148,7 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 1. 通信に使用する&#x200B;**[!UICONTROL 送信者番号]**&#x200B;を入力します。
 
-   ![SMS メッセージのプロパティ ](./assets/sms-properties.png){width="500" zoomable="yes"}
+   ![SMS メッセージのプロパティ &#x200B;](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    受信者番号は、常にExperience Platformの`profile.mobilePhone.number` フィールドにマッピングされます。
 

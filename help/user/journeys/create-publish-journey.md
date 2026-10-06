@@ -50,7 +50,7 @@ _新しいジャーニーを追加するには&#x200B;:_
 
 1. ダイアログで、一意の&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![ アカウントジャーニーの作成ダイアログ ](./assets/account-journey-create-dialog.png){width="400"}
+   ![&#x200B; アカウントジャーニーの作成ダイアログ &#x200B;](./assets/account-journey-create-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -62,7 +62,7 @@ _新しいジャーニーを追加するには&#x200B;:_
 
 1. ダイアログで、一意の&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![ジャーニーを作成ダイアログ ](./assets/person-journey-create-dialog.png){width="400"}
+   ![ジャーニーを作成ダイアログ &#x200B;](./assets/person-journey-create-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -105,7 +105,7 @@ _ジャーニーマップ_&#x200B;は、ジャーニーワークスペースの�
 
 1. ジャーニーマップに移動します。
 
-1. 右側のノードプロパティで、_削除_ （![削除アイコン ](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックします。
+1. 右側のノードプロパティで、_削除_ （![削除アイコン &#x200B;](../assets/do-not-localize/icon-delete.svg)）アイコンをクリックします。
 
 1. 確認ダイアログで、「**[!UICONTROL 削除]**」をクリックします。
 
@@ -113,7 +113,7 @@ _ジャーニーマップ_&#x200B;は、ジャーニーワークスペースの�
 
 1. ジャーニーマップに移動します。
 
-1. パスのプラス（**+**）アイコンをクリックし、[ パスを分割ノード ](./split-merge-paths-nodes.md#split-paths)を追加します。
+1. パスのプラス（**+**）アイコンをクリックし、[&#x200B; パスを分割ノード &#x200B;](./split-merge-paths-nodes.md#split-paths)を追加します。
 
 1. 右側のノードプロパティで、**[!UICONTROL アカウント]**&#x200B;を選択します。
 
@@ -123,7 +123,7 @@ _ジャーニーマップ_&#x200B;は、ジャーニーワークスペースの�
 
 1. ジャーニー内のいずれかのパスに移動し、プラスアイコンを使用してこの[action](./action-nodes.md)または[event](./listen-for-event-nodes.md) ノードをこのパスに追加します。
 
-1. [ パスを分割](./split-merge-paths-nodes.md) ノードを選択して、右側のプロパティを開きます。
+1. [&#x200B; パスを分割](./split-merge-paths-nodes.md) ノードを選択して、右側のプロパティを開きます。
 
    ノードが存在するパスは削除できません。
 
@@ -145,7 +145,7 @@ _ジャーニーマップ_&#x200B;は、ジャーニーワークスペースの�
 
      将来の日付でジャーニーをアクティブにするには、**[!UICONTROL 特定の日付]**&#x200B;を選択し、_カレンダー_ アイコンをクリックして日付を選択します。
 
-     ![ジャーニー設定ダイアログ ](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
+     ![ジャーニー設定ダイアログ &#x200B;](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
 
    * ジャーニーの&#x200B;**[!UICONTROL 終了日]**&#x200B;を指定します。 開始日から最大3年までです（このフィールドは公開するために必要です）。
 
@@ -175,7 +175,7 @@ _ジャーニーマップ_&#x200B;は、ジャーニーワークスペースの�
 
 1. 必要に応じて、ジャーニーの&#x200B;**[!UICONTROL 終了日]**&#x200B;を指定します。
 
-   ![ジャーニー設定ダイアログ ](./assets/journey-publish-dialog.png){width="400" zoomable="no"}
+   ![ジャーニー設定ダイアログ &#x200B;](./assets/journey-publish-dialog.png){width="400" zoomable="no"}
 
    開始日から最大3年までです（このフィールドは公開するために必要です）。
 

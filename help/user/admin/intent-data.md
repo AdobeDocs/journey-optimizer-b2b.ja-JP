@@ -44,7 +44,7 @@ ht-degree: 1%
 
 インテントスコアの計算について詳しくは、[_インテントスコア_](../ai-coworker/intent-scores.md)&#x200B;を参照してください。
 
-インテントデータは、[_インテリジェントダッシュボード_](../dashboards/intelligent-dashboard.md)、[_アカウントの詳細_ ページ ](../accounts/account-details.md)、[_購買グループの詳細_ ページ ](../buying-groups/buying-group-details.md)および&#x200B;[_人物の詳細_ ページ ](../accounts/person-details.md)で使用されます。
+インテントデータは、[_インテリジェントダッシュボード_](../dashboards/intelligent-dashboard.md)、[_アカウントの詳細_ ページ &#x200B;](../accounts/account-details.md)、[_購買グループの詳細_ ページ &#x200B;](../buying-groups/buying-group-details.md)および&#x200B;[_人物の詳細_ ページ &#x200B;](../accounts/person-details.md)で使用されます。
 
 ## インテントマッピングデータの準備
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 1. ダイアログで、**[!UICONTROL ファイルテンプレートをダウンロード]** リンクをクリックします。
 
-   ![ インテント データのダウンロード テンプレート ファイル ](./assets/intent-data-upload-files.png){width="500"}
+   ![&#x200B; インテント データのダウンロード テンプレート ファイル &#x200B;](./assets/intent-data-upload-files.png){width="500"}
 
 1. 「**[!UICONTROL キャンセル]**」をクリックします。
 
@@ -76,7 +76,7 @@ ht-degree: 1%
    * _Journey Optimizer B2B_、_Marketo Engage_、_Experience Manager_&#x200B;など、製品名に従って各タブの名前を変更します。
    * _B2B Marketing_、_ブランド認知度_、_リードエンゲージメント_&#x200B;など、各タブの製品キーワードを追加します。
 
-   ![ カテゴリースプレッドシート ](./assets/intent-category-spreadsheet.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリースプレッドシート &#x200B;](./assets/intent-category-spreadsheet.png){width="600" zoomable="yes"}
 
 ## カテゴリファイルのアップロード
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
    前処理を実行して類似のキーワードをクラスタリングすることで、意図の検出を向上させ、キーワードの希薄化を回避します。 この前処理が完了するとすぐにパルス通知が表示されます（データに応じて最大15分）。
 
-   ![ パルス通知](./assets/intent-data-upload-files-pre-process.png){width="500"}
+   ![&#x200B; パルス通知](./assets/intent-data-upload-files-pre-process.png){width="500"}
 
    結果は、_インテント マッピング_ ページに表示されます。
 

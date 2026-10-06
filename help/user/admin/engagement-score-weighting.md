@@ -34,7 +34,7 @@ ht-degree: 0%
 ---
 # カスタムエンゲージメントスコアの重み付けを設定
 
-[購買グループのエンゲージメントスコア ](../buying-groups/engagement-scores.md)は、購買グループのメンバーに対して記録されたさまざまなアクティビティを評価することで、エンゲージメントのレベルを反映します。 カスタムスコアの重み付けを利用すれば、マーケティングオペレーションチームはアクティビティの重み付けのために独自のモデルを柔軟に定義できます。 カスタムスコアリングモデルでは、セールスプロセスにおける購買意欲を最も正確に示す行動を優先することで、パイプラインをより正確に反映します。
+[購買グループのエンゲージメントスコア &#x200B;](../buying-groups/engagement-scores.md)は、購買グループのメンバーに対して記録されたさまざまなアクティビティを評価することで、エンゲージメントのレベルを反映します。 カスタムスコアの重み付けを利用すれば、マーケティングオペレーションチームはアクティビティの重み付けのために独自のモデルを柔軟に定義できます。 カスタムスコアリングモデルでは、セールスプロセスにおける購買意欲を最も正確に示す行動を優先することで、パイプラインをより正確に反映します。
 
 管理者は、組織に対して複数のエンゲージメントスコアモデルを定義できますが、一度にアクティブにできるモデルは1つだけです。 各エンゲージメントスコアリングアクティビティに適用される重みに応じて、スコアモデルを定義します。
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 1. 中間パネルの&#x200B;**[!UICONTROL エンゲージメントスコアの重み付け]**&#x200B;をクリックして、スコアリングモデルのリストを表示します。
 
-   このページから、[ エンゲージメントスコアモデルを作成（複製） ](#create-a-custom-engagement-scoring-model)、[ アクティブ化](#activate-a-score-model)、[編集](#change-the-engagement-weighting-settings)できます。
+   このページから、[&#x200B; エンゲージメントスコアモデルを作成（複製） &#x200B;](#create-a-custom-engagement-scoring-model)、[&#x200B; アクティブ化](#activate-a-score-model)、[編集](#change-the-engagement-weighting-settings)できます。
 
-   ![定義済みのエンゲージメントスコアモデルにアクセス ](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![定義済みのエンゲージメントスコアモデルにアクセス &#x200B;](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
    リストには、最近更新されたモデルが上部に表示され（_[!UICONTROL 最終更新日]_&#x200B;で並べ替え）、_[!UICONTROL 名前]_&#x200B;で検索する機能が含まれています。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 _アクティビティの重み付けモデル 1_&#x200B;という名前の初期エンゲージメントスコアモデルが作成されます。 エンゲージメントアクティビティは、標準およびカスタムのExperience Platform イベントに基づいています。 すべてのアクティビティの重みは、デフォルトでは0です。
 
-![Experience Platform イベントのデフォルトのエンゲージメントスコアの重み付けモデル ](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
+![Experience Platform イベントのデフォルトのエンゲージメントスコアの重み付けモデル &#x200B;](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
 カスタムモデルをアクティブ化すると、アクティブなモデルは&#x200B;_アーカイブ_ ステータスに変わります。 デフォルトのエンゲージメントスコアモデルに戻す場合は、元のデフォルトモデルを複製してからアクティブにするか、別のカスタムモデルの出発点として使用します。
 
@@ -74,7 +74,7 @@ _アクティビティの重み付けモデル 1_&#x200B;という名前の初�
 
 今後アクティブ化しない場合は、ドラフトエンゲージメントスコアモデルを削除できます。 リスト内のドラフトスコアモデル名の横にある&#x200B;_詳細メニュー_ （***...***）アイコンをクリックし、**[!UICONTROL 削除]**&#x200B;を選択します。
 
-![ ドラフトスコアモデルを削除](./assets/configuration-engagement-scoring-model-more-delete.png){width="350"}
+![&#x200B; ドラフトスコアモデルを削除](./assets/configuration-engagement-scoring-model-more-delete.png){width="350"}
 
 確認ダイアログで、「**[!UICONTROL 削除]**」をクリックします。
 
@@ -84,7 +84,7 @@ _アクティビティの重み付けモデル 1_&#x200B;という名前の初�
 
 1. モデル名をクリックしてモデルの詳細ページを開き、右上の「**[!UICONTROL 複製]**」をクリックします。
 
-   ![ アクティブなモデルを複製](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
+   ![&#x200B; アクティブなモデルを複製](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
 
    リスト内のスコアモデル名の横にある&#x200B;_詳細メニュー_ （***...***）アイコンをクリックして、**[!UICONTROL 重複]**&#x200B;を選択することもできます。
 
@@ -92,7 +92,7 @@ _アクティビティの重み付けモデル 1_&#x200B;という名前の初�
 
 1. _複製_ ダイアログで、複製されたモデルの一意の名前を入力し、**[!UICONTROL 複製]**&#x200B;をクリックします。
 
-   ![ スコアモデルを複製することを確認](./assets/configuration-engagement-scoring-model-duplicate-dialog.png){width="500"}
+   ![&#x200B; スコアモデルを複製することを確認](./assets/configuration-engagement-scoring-model-duplicate-dialog.png){width="500"}
 
    複製されたモデルは、_ドラフト_&#x200B;のステータスでリストに表示されます。 名前をクリックしてスコアモデルの詳細を開き、変更を加えます。
 
@@ -102,14 +102,14 @@ _アクティビティの重み付けモデル 1_&#x200B;という名前の初�
 
 1. スコアモデルの詳細ページで、上部の「**[!UICONTROL エンゲージメントの重み設定]**」をクリックします。
 
-   ![ エンゲージメントの重み設定にアクセス ](./assets/configuration-engagement-scoring-model-weight-settings-button.png){width="600" zoomable="yes"}
+   ![&#x200B; エンゲージメントの重み設定にアクセス &#x200B;](./assets/configuration-engagement-scoring-model-weight-settings-button.png){width="600" zoomable="yes"}
 
 1. それぞれのウェイト バンドについて、必要に応じて名前または値を調整します。
 
    * 「_[!UICONTROL 重み付けバンド]_」フィールドの名前を変更します。
-   * 新しい値を入力します。 **&amp;plus;**&#x200B;または&#x200B;**−**&#x200B;をクリックして、値を増減することもできます。
+   * 新しい値を入力します。 **&plus;**&#x200B;または&#x200B;**−**&#x200B;をクリックして、値を増減することもできます。
 
-   ![ エンゲージメントの重み設定](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
+   ![&#x200B; エンゲージメントの重み設定](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
 1. 必要に応じて、別の重み付けバンドを追加します。
 
@@ -117,7 +117,7 @@ _アクティビティの重み付けモデル 1_&#x200B;という名前の初�
 
    名前を入力し、バンドの値を設定します。 一意の名前と値を使用するようにしてください。
 
-1. 重み付けバンドを削除するには、重み付けバンド行の&#x200B;_削除_ （![削除アイコン ](../assets/do-not-localize/icon-delete-outline.svg)）アイコンをクリックします。
+1. 重み付けバンドを削除するには、重み付けバンド行の&#x200B;_削除_ （![削除アイコン &#x200B;](../assets/do-not-localize/icon-delete-outline.svg)）アイコンをクリックします。
 
 1. 変更が完了したら、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
@@ -148,7 +148,7 @@ Experience Platform イベントのデフォルトモデルには、Experience P
 
 リスト内の各アクティビティについて、各アクティビティ オカレンスに割り当てる値を設定します。 「**[!UICONTROL 重み付け]**」フィールドの下向き矢印をクリックし、エンゲージメントの重み付け設定で定義されている重み付けバンドを選択します。
 
-![ アクティビティの重み付けを設定](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="600" zoomable="yes"}
+![&#x200B; アクティビティの重み付けを設定](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="600" zoomable="yes"}
 
 エンゲージメントスコアの計算でアクティビティを使用しない場合は、重み付けをゼロ（0）値に設定します。
 
@@ -164,4 +164,4 @@ Experience Platform イベントのデフォルトモデルには、Experience P
 
 1. 確認ダイアログで、**[!UICONTROL アクティベート]**&#x200B;をクリックします。
 
-   ![ エンゲージメントスコア重み付け確認ダイアログをアクティブ化](./assets/configuration-engagement-scoring-activate-dialog.png){width="400"}
+   ![&#x200B; エンゲージメントスコア重み付け確認ダイアログをアクティブ化](./assets/configuration-engagement-scoring-activate-dialog.png){width="400"}

@@ -40,7 +40,7 @@ EU、カリフォルニア、タイ、ブラジル、ニュージーランドな
 
 ### GDPR
 
-一般データ保護規則（GDPR）とは、EU加盟国の[ データ保護要件](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"}を調整および近代化する欧州連合（EU）のプライバシー法です。
+一般データ保護規則（GDPR）とは、EU加盟国の[&#x200B; データ保護要件](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"}を調整および近代化する欧州連合（EU）のプライバシー法です。
 
 [!DNL Journey Optimizer B2B Edition]は、Privacy Serviceが提供する既存のExperience Platform GDPR ガバナンス機能を使用しています。 アクセス要求と削除要求の送信と管理について詳しくは、[_プライバシー管理_](./privacy-management.md)&#x200B;を参照してください。
 

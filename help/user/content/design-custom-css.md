@@ -82,7 +82,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->カスタム CSSは、選択したコンポーネントの&#x200B;_[!UICONTROL スタイル]_ パネルで反映または検証されません。 これは完全に独立しており、Body コンポーネントレベルの[!UICONTROL  カスタム CSS]を追加オプションでのみ変更できます。
+>カスタム CSSは、選択したコンポーネントの&#x200B;_[!UICONTROL スタイル]_ パネルで反映または検証されません。 これは完全に独立しており、Body コンポーネントレベルの[!UICONTROL &#x200B; カスタム CSS]を追加オプションでのみ変更できます。
 
 ## カスタム CSSの追加
 
@@ -90,7 +90,7 @@ ht-degree: 9%
 
 1. 右側の「_スタイル_」タブを選択し、**[!UICONTROL カスタム CSSを追加]**&#x200B;をクリックします。
 
-   ![ ボディスタイルにアクセス ](./assets/email-body-styles.png){width="800" zoomable="yes"}
+   ![&#x200B; ボディスタイルにアクセス &#x200B;](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -102,13 +102,13 @@ ht-degree: 9%
 
    カスタム CSSが有効であり、適切な構文に従っていることを確認します。 入力したCSSが無効な場合は、エラーメッセージが表示され、CSSを保存できません。 詳しくは、[CSS validity](#css-validity)を参照してください。
 
-   ![ エディターにカスタム CSSを入力](./assets/content-design-add-custom-css.png){width="450"}
+   ![&#x200B; エディターにカスタム CSSを入力](./assets/content-design-add-custom-css.png){width="450"}
 
 1. 「**[!UICONTROL 保存]**」をクリックして、カスタム CSSを保存します。
 
-   カスタムスタイルシートが既存のコンテンツに適用されます。 必要に応じてカスタム CSSが適用されていることを確認できます。 スタイルシート アプリケーションを変更および調整する方法について詳しくは、[ トラブルシューティング ](#troubleshooting)を参照してください。
+   カスタムスタイルシートが既存のコンテンツに適用されます。 必要に応じてカスタム CSSが適用されていることを確認できます。 スタイルシート アプリケーションを変更および調整する方法について詳しくは、[&#x200B; トラブルシューティング &#x200B;](#troubleshooting)を参照してください。
 
-   ![ コンテンツに適用されたカスタム CSS](assets/email-body-custom-css-applied.png){width="600" zoomable="yes"}
+   ![&#x200B; コンテンツに適用されたカスタム CSS](assets/email-body-custom-css-applied.png){width="600" zoomable="yes"}
 
 ## CSSの有効性
 
@@ -216,9 +216,9 @@ body {
 
 メールやランディングページのデザイン空間にコンテンツを読み込んでカスタム CSSを使用する場合は、次の点を考慮してください。
 
-* CSSを含む外部HTML コンテンツを読み込む場合、<!-- unless converting that content, -->互換性モード ]に入力され、[!UICONTROL CSS スタイル ] セクションは使用できません。[!UICONTROL 
+* CSSを含む外部HTML コンテンツを読み込む場合、<!-- unless converting that content, -->互換性モード に入力され、[!UICONTROL CSS スタイル &#x200B;] セクションは使用できません。
 
-* [!UICONTROL  カスタム CSS]を追加オプションを使用して、最初に電子メールまたはランディングページのデザインスペースで作成されたコンテンツを読み込む場合、適用されたCSSは同じオプションから表示され、編集可能になります。
+* [!UICONTROL &#x200B; カスタム CSS]を追加オプションを使用して、最初に電子メールまたはランディングページのデザインスペースで作成されたコンテンツを読み込む場合、適用されたCSSは同じオプションから表示され、編集可能になります。
 
 ## トラブルシューティング
 

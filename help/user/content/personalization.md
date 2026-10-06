@@ -65,17 +65,17 @@ _パーソナライゼーションエディター_&#x200B;を使用すると、�
 
 * **システムトークン** – これらのトークンは、_日付_、_時間_、_配信停止リンク_&#x200B;などのシステムフィールド値に基づいています。
 
-* **マイトークン** （ジャーニー用に定義されている場合） – メールが存在するジャーニー](./personalization-my-tokens.md)に対して定義された[ カスタムトークン。
+* **マイトークン** （ジャーニー用に定義されている場合） – メールが存在するジャーニー[&#128279;](./personalization-my-tokens.md)に対して定義された カスタムトークン。
 
 >[!NOTE]
 >
->XDM スキーマについて詳しくは、[Adobe Experience Platform Data Model （XDM） ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"}を参照してください。
+>XDM スキーマについて詳しくは、[Adobe Experience Platform Data Model （XDM） ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"}を参照してください。
 
 ## パーソナライゼーションエディター
 
 パーソナライゼーションエディターは、メールコンテンツでパーソナライゼーションを定義する必要があるあらゆるコンテキストで利用できます。 エディターでは、すべてのデータを選択、配置、カスタマイズ、検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。
 
-_パーソナライゼーションを追加_ （![ パーソナライゼーションを追加アイコン ](../../assets/do-not-localize/icon-personalization-field.svg)）アイコンをクリックして、任意のフィールドまたはコンテンツコンポーネントにパーソナライゼーションを追加します。
+_パーソナライゼーションを追加_ （![&#x200B; パーソナライゼーションを追加アイコン &#x200B;](../../assets/do-not-localize/icon-personalization-field.svg)）アイコンをクリックして、任意のフィールドまたはコンテンツコンポーネントにパーソナライゼーションを追加します。
 
 ![Personalization エディター](./assets/personalization-editor.png){width="800" zoomable="yes"}
 
@@ -105,11 +105,11 @@ _詳細メニュー_ （**...**）アイコン（_追加_ （**+**）の横）�
 
 [!BADGE Beta]{type=Informative tooltip="Betaの機能"}
 
-リレーショナルスキーマを使用して、メールをパーソナライズできます。 カスタムオブジェクトは&#x200B;_リレーショナルスキーマ_&#x200B;内で定義されており、製品管理者は[ リレーショナルスキーマフィールド ](../admin/xdm-field-management.md#relational-schemas)を[!DNL Journey Optimizer B2B Edition]で設定できます。 これらのフィールドには、パーソナライゼーションエディターでアクセスできます。 人物またはアカウントと1対多（1:M）の関係を持つカスタムオブジェクトのみが使用できます。
+リレーショナルスキーマを使用して、メールをパーソナライズできます。 カスタムオブジェクトは&#x200B;_リレーショナルスキーマ_&#x200B;内で定義されており、製品管理者は[&#x200B; リレーショナルスキーマフィールド &#x200B;](../admin/xdm-field-management.md#relational-schemas)を[!DNL Journey Optimizer B2B Edition]で設定できます。 これらのフィールドには、パーソナライゼーションエディターでアクセスできます。 人物またはアカウントと1対多（1:M）の関係を持つカスタムオブジェクトのみが使用できます。
 
 >[!IMPORTANT]
 >
->スクリプトによるパーソナライゼーションにカスタムオブジェクトを使用する前に、[Handlebars テンプレート言語](https://handlebarsjs.com/guide/)、[ パーソナライゼーション構文](./personalization-syntax.md)、および組み込みの[ ヘルパー関数](./personalization-helper-functions.md)を確認し、理解していることを確認してください。
+>スクリプトによるパーソナライゼーションにカスタムオブジェクトを使用する前に、[Handlebars テンプレート言語](https://handlebarsjs.com/guide/)、[&#x200B; パーソナライゼーション構文](./personalization-syntax.md)、および組み込みの[&#x200B; ヘルパー関数](./personalization-helper-functions.md)を確認し、理解していることを確認してください。
 
 カスタムオブジェクトを使用してパーソナライゼーションを定義すると、**[!UICONTROL Personalization トークン]** （個人/リード、アカウント、システム、およびマイトークン）と&#x200B;**[!UICONTROL カスタムオブジェクト]** （リレーショナルスキーマ）のスクリプトでアクセス可能なすべてのオブジェクトの変数にアクセスできます。 カスタムオブジェクトを選択した場合は、カスタムオブジェクトフォルダーをクリックしてフィールドを表示できます。 式に追加する各フィールドの&#x200B;**+**&#x200B;をクリックします。
 

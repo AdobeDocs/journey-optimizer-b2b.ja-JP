@@ -43,19 +43,19 @@ _エンゲージメントダッシュボード_&#x200B;にアクセスするに�
 
 <!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. -->
 
-![ エンゲージメントダッシュボード ](./assets/engagement-dashboard.png){width="800" zoomable="yes"}
+![&#x200B; エンゲージメントダッシュボード &#x200B;](./assets/engagement-dashboard.png){width="800" zoomable="yes"}
 
 ## アカウント別エンゲージメント / 購買グループ / 人物別
 
 円グラフは、アカウント、購買グループ、または個人を、エンゲージ済みカテゴリーと非エンゲージ済みカテゴリーに分けます。 中央の図は、各カテゴリ内の合計数を示しており、全体的なエンゲージメントを一目で把握することができます。
 
-![ アカウント別および人物別のエンゲージメント ](assets/engagement-accounts.png){width="500"}
+![&#x200B; アカウント別および人物別のエンゲージメント &#x200B;](assets/engagement-accounts.png){width="500"}
 
 ## アカウント/購買グループ/長期的なエンゲージメント
 
 この折れ線グラフには、アカウントや個人のエンゲージメントレベルが時間の経過とともに表示されます。 「エンゲージ済み」と「エンゲージなし」の別々の行を、タイムスタンプ付きの横軸と共に視覚化することで、傾向やパターンをピンポイントで特定できます。 行にカーソルを合わせると、任意の日付の正確な指標を表示できます。
 
-![ アカウント別およびユーザー別の時間のエンゲージメント ](assets/engagement-accounts-over-time.png){width="500"}
+![&#x200B; アカウント別およびユーザー別の時間のエンゲージメント &#x200B;](assets/engagement-accounts-over-time.png){width="500"}
 
 ## データのフィルタリング
 
@@ -65,15 +65,15 @@ _エンゲージメントダッシュボード_&#x200B;にアクセスするに�
 
 右上の&#x200B;_[!UICONTROL 日付範囲フィルター]_&#x200B;を使用して、日付範囲に従ってデータをフィルタリングします。
 
-![日付範囲で表示データをフィルタリング ](./assets/engagement-date-filter.png){width="380"}
+![日付範囲で表示データをフィルタリング &#x200B;](./assets/engagement-date-filter.png){width="380"}
 
-**[!UICONTROL カスタム]**&#x200B;範囲の場合は、_カレンダー_ （![ カレンダーアイコン ](../assets/do-not-localize/icon-calendar.svg)）アイコンをクリックして、開始日と終了日を指定します。 終了日は、デフォルトで現在の日付になります。
+**[!UICONTROL カスタム]**&#x200B;範囲の場合は、_カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/do-not-localize/icon-calendar.svg)）アイコンをクリックして、開始日と終了日を指定します。 終了日は、デフォルトで現在の日付になります。
 
-![表示されたデータを属性でフィルタリング ](./assets/engagement-date-filter-custom.png){width="380"}
+![表示されたデータを属性でフィルタリング &#x200B;](./assets/engagement-date-filter-custom.png){width="380"}
 
 ### 属性フィルター
 
-左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、次のいずれかの属性を使用して、表示されたデータをフィルタリングします。
+左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、次のいずれかの属性を使用して、表示されたデータをフィルタリングします。
 
 * ソリューションに対する関心
 * エンゲージメントタイプ
@@ -81,7 +81,7 @@ _エンゲージメントダッシュボード_&#x200B;にアクセスするに�
 * 業界
 * 購買グループメンバーの役割
 
-![表示されたデータを属性でフィルタリング ](./assets/engagement-dashboard-filters.png){width="500"}
+![表示されたデータを属性でフィルタリング &#x200B;](./assets/engagement-dashboard-filters.png){width="500"}
 
 データのフィルタリングに使用する各属性に対して値をいくつでも選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -89,15 +89,15 @@ _エンゲージメントダッシュボード_&#x200B;にアクセスするに�
 
 データを使用するには、各グラフの右上にある&#x200B;**...** メニューを使用します。
 
-![ エンゲージメントダッシュボードデータ – アクションメニュー](assets/engagement-action-menu.png){width="300"}
+![&#x200B; エンゲージメントダッシュボードデータ – アクションメニュー](assets/engagement-action-menu.png){width="300"}
 
 ### ドリルスルー
 
 円グラフの場合、個々のグループエンゲージメントデータを詳細に分析するには、**[!UICONTROL ドリルスルー]**&#x200B;を選択します。
 
-グローバルフィルター（データ範囲と属性）がダッシュボードに適用されます。 左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、[ ドリルスルー表示の属性フィルター](#filter-the-data)を変更します。 右上の日付範囲セレクターを使用して、ドリルスルー表示の日付範囲](#date-range-filter)を[変更します。
+グローバルフィルター（データ範囲と属性）がダッシュボードに適用されます。 左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、[&#x200B; ドリルスルー表示の属性フィルター](#filter-the-data)を変更します。 右上の日付範囲セレクターを使用して、ドリルスルー表示の日付範囲[&#128279;](#date-range-filter)を変更します。
 
-![ ドリルスルーしてグラフデータにアクセス ](./assets/engagement-buying-groups-drill-through.png){width="700" zoomable="yes"}
+![&#x200B; ドリルスルーしてグラフデータにアクセス &#x200B;](./assets/engagement-buying-groups-drill-through.png){width="700" zoomable="yes"}
 
 | アカウント別のエンゲージメント | 購買グループ別のエンゲージメント | 顧客別のエンゲージメント |
 | ---------------------- | --------------------------- | -------------------- |
@@ -109,7 +109,7 @@ _エンゲージメントダッシュボード_&#x200B;にアクセスするに�
 
 拡張データとインサイトについては、**[!UICONTROL 詳細を表示]**&#x200B;を選択してください。
 
-![ アカウント別および人物別のエンゲージメント ](./assets/engagement-buying-groups-time-view-more.png){width="700" zoomable="yes"}
+![&#x200B; アカウント別および人物別のエンゲージメント &#x200B;](./assets/engagement-buying-groups-time-view-more.png){width="700" zoomable="yes"}
 
 グラフに応じて、次の拡張データがあります。
 

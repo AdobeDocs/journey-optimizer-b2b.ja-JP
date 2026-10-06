@@ -42,17 +42,17 @@ Web エンゲージメントダッシュボードでは、web訪問者が主要�
 
 _Web エンゲージメントダッシュボード_&#x200B;にアクセスするには、左側のナビゲーションで&#x200B;**[!UICONTROL ダッシュボード]**&#x200B;項目を選択します。 次に、ページ上部の「**[!UICONTROL Web エンゲージメント]**」タブを選択します。
 
-![Web エンゲージメントダッシュボード ](./assets/web-engagement-dashboard.png){width="700" zoomable="yes"}
+![Web エンゲージメントダッシュボード &#x200B;](./assets/web-engagement-dashboard.png){width="700" zoomable="yes"}
 
 ## データのフィルタリング
 
-左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されたデータを次のいずれかの属性を使用してフィルタリングします。
+左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されたデータを次のいずれかの属性を使用してフィルタリングします。
 
 * **[!UICONTROL アカウント領域]** - アカウントに関連付けられている1つ以上の選択された地域でデータをフィルタリングします。
 * **[!UICONTROL アカウント業界]** - アカウントに関連付けられている1つ以上の選択された業界分類でデータをフィルタリングします。
 * **[!UICONTROL 日付範囲]** – 選択した日付範囲でデータをフィルタリングします。 デフォルトの範囲は現在の日付です。
 
-![表示されたデータを属性でフィルタリング ](./assets/web-engagement-dashboard-filters-dialog.png){width="500"}
+![表示されたデータを属性でフィルタリング &#x200B;](./assets/web-engagement-dashboard-filters-dialog.png){width="500"}
 
 データのフィルタリングに使用する各属性に対して値をいくつでも選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -72,7 +72,7 @@ _Web エンゲージメントダッシュボード_&#x200B;にアクセスする
 | 既知の訪問者（%） | 既知の（特定された）訪問者に起因するページビューの割合。 |
 | 未知の訪問者（%） | 未知（匿名）の訪問者に起因するページビューの割合。 |
 
-![ トップページビューテーブル ](./assets/web-engagement-dashboard-top-page-views.png){width="650" zoomable="yes"}
+![&#x200B; トップページビューテーブル &#x200B;](./assets/web-engagement-dashboard-top-page-views.png){width="650" zoomable="yes"}
 
 ## [!UICONTROL アカウント地域別ページビュー] {#page-views-by-region}
 
@@ -110,4 +110,4 @@ _Web エンゲージメントダッシュボード_&#x200B;にアクセスする
 
 データをダウンロードするには、データテーブルの右上にある「**[!UICONTROL CSVをダウンロード]**」をクリックします。
 
-![ トップページビューテーブル詳細ポップアップを表示 – 「CSVをダウンロード」をクリック ](./assets/web-engagement-dashboard-top-page-views-view-more.png){width="700" zoomable="yes"}
+![&#x200B; トップページビューテーブル詳細ポップアップを表示 – 「CSVをダウンロード」をクリック &#x200B;](./assets/web-engagement-dashboard-top-page-views-view-more.png){width="700" zoomable="yes"}

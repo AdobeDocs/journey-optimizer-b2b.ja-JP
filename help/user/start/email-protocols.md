@@ -234,7 +234,7 @@ DMARC の整列には、次の 2 つのタイプがあります。
 
 **専用IPをJourney Optimizer B2B Editionに移行しています**
 
-専用 IP がある場合は、新しい Journey Optimizer B2B Edition インスタンスを、既存の Marketo Engage インスタンスと同じ地域に作成する必要があります。 新しいインスタンスが別の地域にある場合、既存の IP を共有することはできません。 リージョンが一致する場合は、[Adobe サポート ](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support){target="_blank"}でチケットを開き、既存のIP グループとバインディング グループを新しいインスタンスと共有するようにリクエストします。 Marketo Engage の接頭辞（Munchkin ID）と、新しい Journey Optimizer B2B Edition の接頭辞（Munchkin ID）を指定します。
+専用 IP がある場合は、新しい Journey Optimizer B2B Edition インスタンスを、既存の Marketo Engage インスタンスと同じ地域に作成する必要があります。 新しいインスタンスが別の地域にある場合、既存の IP を共有することはできません。 リージョンが一致する場合は、[Adobe サポート &#x200B;](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support){target="_blank"}でチケットを開き、既存のIP グループとバインディング グループを新しいインスタンスと共有するようにリクエストします。 Marketo Engage の接頭辞（Munchkin ID）と、新しい Journey Optimizer B2B Edition の接頭辞（Munchkin ID）を指定します。
 
 このリクエストを行うと、Adobe は、既存の Marketo Engage インスタンスと同じ IP、バインディンググループ、および設定済みの Return-Path ドメインをレプリケートします。 Marketo Engage インスタンスとJourney Optimizer B2B Edition インスタンス間でIPが共有されている場合、両方のインスタンスが同時に使用されます。
 

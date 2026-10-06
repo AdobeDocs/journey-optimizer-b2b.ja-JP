@@ -62,9 +62,9 @@ ht-degree: 12%
 
 [Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio/performance-marketing.html){target="_blank"}は、マーケティング部門がブランド基準を遵守し、エンタープライズポリシーに準拠した、インパクトのあるパーソナライズされた広告やメールを作成できるようにする、生成AIを活用したアプリケーションです。 Adobe AIのテクノロジーを活用することで、コンテンツ制作と管理の複雑さを簡素化する包括的なツール群を提供し、コンテンツ制作者がイノベーションに集中できるようにします。
 
-![ ビデオ ](../../assets/do-not-localize/icon-video.svg){width="30"} [ ブランドに即したマーケティングメールの作成](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
+![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; ブランドに即したマーケティングメールの作成](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
-GenStudio for Performance Marketing機能について詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}を参照してください
+GenStudio for Performance Marketing機能について詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}を参照してください
 
 >[!ENDSHADEBOX]
 
@@ -98,7 +98,7 @@ GenStudio for Performance Marketingは、読み込まれた電子メール HTML�
 
 HTML ファイルを使用して、GenStudio for Performance Marketingでテンプレートを作成します。
 
-HTML テンプレートのAdobe GenStudio for Performance Marketingへのアップロードについて詳しくは、GenStudio for Performance Marketing ドキュメントの[ テンプレートの追加](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template)を参照してください。
+HTML テンプレートのAdobe GenStudio for Performance Marketingへのアップロードについて詳しくは、GenStudio for Performance Marketing ドキュメントの[&#x200B; テンプレートの追加](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template)を参照してください。
 
 書き出されたHTMLをテンプレートとしてアップロードすると、GenStudio for Performance MarketingはHTML ファイルをスキャンして、認識されたフィールドを探します。 プレビューを使用してテンプレート要素を確認し、認識されたフィールド名で正しく識別されていることを確認します。
 
@@ -106,7 +106,7 @@ HTML テンプレートのAdobe GenStudio for Performance Marketingへのアッ�
 
 GenStudio for Performance Marketingでは、テンプレートを使用して、複数のメールエクスペリエンスのバリエーションを作成し、保存します。
 
-ブランドのメールエクスペリエンスの作成について詳しくは、GenStudio for Performance Marketing ドキュメントの[ メールエクスペリエンスの作成](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)を参照してください。
+ブランドのメールエクスペリエンスの作成について詳しくは、GenStudio for Performance Marketing ドキュメントの[&#x200B; メールエクスペリエンスの作成](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience)を参照してください。
 
 ## 生成されたメールエクスペリエンスをJourney Optimizer B2B Editionに追加する
 
@@ -116,13 +116,13 @@ GenStudio for Performance Marketingでは、テンプレートを使用して、
 
 書き出されたJourney Optimizer B2B Edition メールのGenStudio ファイルから作成されたHTML メールのバリエーションを使用するには、次の手順に従います。
 
-1. Journey Optimizer B2B Editionでは、_[!UICONTROL アクションを実行]_ ノードを使用して、電子メール ](./add-email.md)をアカウントジャーニーに[追加します。
+1. Journey Optimizer B2B Editionでは、_[!UICONTROL アクションを実行]_ ノードを使用して、電子メール [&#128279;](./add-email.md)をアカウントジャーニーに追加します。
 
-   * ターゲット ]_の_[!UICONTROL  アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
+   * ターゲット _の_ アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
 
-   * ユーザー&#x200B;]_に対する_[!UICONTROL  アクションの場合は、**[!UICONTROL メールを送信]**&#x200B;を選択します。
+   * ユーザー&#x200B;_に対する_ アクションの場合は、**[!UICONTROL メールを送信]**&#x200B;を選択します。
 
-     ![ アクションを実行 – メールを送信](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
+     ![&#x200B; アクションを実行 – メールを送信](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
    * _[!UICONTROL メールソース]_&#x200B;で、**[!UICONTROL 新しいメールを作成]**&#x200B;を選択して、Journey Optimizer B2B Editionで電子メールをネイティブに作成します。
 
@@ -144,6 +144,6 @@ GenStudio for Performance Marketingでは、テンプレートを使用して、
    >
    >Journey Optimizer B2B EditionやMarketo Engageのテンプレートから作成されたGenStudioエクスペリエンスは、電子メールデザイン空間に直接読み込まれます。 Journey Optimizer B2B Edition テンプレートを使用せずに作成されたエクスペリエンスは、互換モードに読み込まれます。
 
-1. [電子メールコンテンツとパーソナライゼーションツール ](./email-authoring.md)を使用して、必要に応じて電子メールを編集し、保存します。
+1. [電子メールコンテンツとパーソナライゼーションツール &#x200B;](./email-authoring.md)を使用して、必要に応じて電子メールを編集し、保存します。
 
    ![GenStudio for Performance MarketingからのHTMLの読み込み](./assets/email-imported-experience.png){width="800" zoomable="yes"}

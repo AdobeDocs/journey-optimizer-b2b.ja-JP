@@ -84,7 +84,7 @@ web エクスペリエンスを作成する前に、次の要件を満たして�
 
    [!DNL Microsoft Edge]を使用している場合は、上部バナーの他のストアから&#x200B;_拡張機能_&#x200B;を許可を選択します。 このオプションを有効にすると、拡張機能を[!DNL Chrome Web Store]から[!DNL Microsoft Edge]に追加できます。
 
-1. 検索して、_[!DNL Adobe Experience Cloud Visual Editing Helper]_ブラウザー拡張機能に移動します。
+1. 検索して、_[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;ブラウザー拡張機能に移動します。
 
    ![Google Chrome用Adobe Experience Cloud Visual Editing Helper拡張機能](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -94,7 +94,7 @@ web エクスペリエンスを作成する前に、次の要件を満たして�
 
 1. ブラウザーのツールバーで[!DNL Visual Editing Helper] ブラウザー拡張機能が正しく有効になっていることを確認してください。
 
-   ![Google Chrome ツールバーのAdobe Experience Cloud Visual Editing Helper拡張機能アイコン ](./assets/web-experience-google-chrome-adobe-visual-editing-extension-icon.png){width="450"}
+   ![Google Chrome ツールバーのAdobe Experience Cloud Visual Editing Helper拡張機能アイコン &#x200B;](./assets/web-experience-google-chrome-adobe-visual-editing-extension-icon.png){width="450"}
 
 Web エクスペリエンス用Journey Optimizer B2B Edition ビジュアルエディターでweb サイトを開くと、[!DNL Adobe Experience Cloud Visual Editing Helper]が自動的に有効になります。 この拡張機能には条件付きの設定はなく、SameSite cookie の設定を含むすべての設定を自動処理します。
 
@@ -108,13 +108,13 @@ Web エクスペリエンス用Journey Optimizer B2B Edition ビジュアルエ�
 
 ## web エクスペリエンスの作成
 
-ジャーニーでweb エクスペリエンスを設定するには、_[!UICONTROL アクションを実行]_ ノード ](../journeys/action-nodes.md)を[追加し、次の操作を行います。
+ジャーニーでweb エクスペリエンスを設定するには、_[!UICONTROL アクションを実行]_ ノード [&#128279;](../journeys/action-nodes.md)を追加し、次の操作を行います。
 
-1. ターゲット ]_の_[!UICONTROL  アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
+1. ターゲット _の_ アクションで、**[!UICONTROL 人物]**&#x200B;を選択します。
 
 1. _[!UICONTROL 人物に対するアクション]_&#x200B;で、**[!UICONTROL Web エクスペリエンスのパーソナライズ]**&#x200B;を選択します。
 
-   ![ アクションを実行 – web エクスペリエンスをパーソナライズ ](./assets/web-experience-add-journey-node.png){width="500"}
+   ![&#x200B; アクションを実行 – web エクスペリエンスをパーソナライズ &#x200B;](./assets/web-experience-add-journey-node.png){width="500"}
 
 1. 「**[!UICONTROL Web エクスペリエンスを作成]**」をクリックします。
 
@@ -140,16 +140,16 @@ Web エクスペリエンス用Journey Optimizer B2B Edition ビジュアルエ�
 
 1. Webの変更を定義するには、**[!UICONTROL コンテンツを編集]**&#x200B;をクリックします。
 
-   エディターが「_[!UICONTROL コンテンツ]_」タブで開き、web エクスペリエンスの変更を定義できます。 デザインツールを使用してweb エクスペリエンスコンテンツの変更を追加する方法について詳しくは、[Web エクスペリエンスデザイン ](./web-experience-design.md)を参照してください。
+   エディターが「_[!UICONTROL コンテンツ]_」タブで開き、web エクスペリエンスの変更を定義できます。 デザインツールを使用してweb エクスペリエンスコンテンツの変更を追加する方法について詳しくは、[Web エクスペリエンスデザイン &#x200B;](./web-experience-design.md)を参照してください。
 
 1. 右側のパネルで、web エクスペリエンスの定義および管理方法に応じてweb エクスペリエンスのプロパティを設定します。
 
-   * **[!UICONTROL ビジュアルエディター]** - web エクスペリエンスの変更デザインの[ ビジュアルエディターと非ビジュアルエディター](./web-experience-design.md#web-experience-editors)を切り替えます。
+   * **[!UICONTROL ビジュアルエディター]** - web エクスペリエンスの変更デザインの[&#x200B; ビジュアルエディターと非ビジュアルエディター](./web-experience-design.md#web-experience-editors)を切り替えます。
    * **[!UICONTROL 訪問者のリダイレクト]** – このオプションを有効にすると、「コンテンツ」タブで新しいバリエーションをオーサリングするのではなく、[訪問者を別の既存のURL](#redirect-to-url)にリダイレクトできます。
 
-   ![ ビジュアルエディターとリダイレクト URLのプロパティを切り替え](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
+   ![&#x200B; ビジュアルエディターとリダイレクト URLのプロパティを切り替え](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
 
-1. 「**[!UICONTROL Web ページを編集]**」をクリックして、[web修正をデザイン ](./web-experience-design.md)します。
+1. 「**[!UICONTROL Web ページを編集]**」をクリックして、[web修正をデザイン &#x200B;](./web-experience-design.md)します。
 
 1. 変更が完了したら、エディターの上にある左矢印をクリックして、「コンテンツ」タブとパーソナライズされたweb エクスペリエンスノードのプロパティに戻ります。
 
@@ -168,7 +168,7 @@ Web エクスペリエンス用Journey Optimizer B2B Edition ビジュアルエ�
    * _ビジュアルエディター_ – 「**[!UICONTROL コンテンツを編集]**」をクリックします。
    * _非ビジュアルエディター_ - **[!UICONTROL 変更を追加]**&#x200B;をクリックします。
 
-   詳しくは、[Web エクスペリエンスデザイン ](./web-experience-design.md)を参照してください。
+   詳しくは、[Web エクスペリエンスデザイン &#x200B;](./web-experience-design.md)を参照してください。
 
 1. 変更定義が完了したら、エディターの上にある左矢印をクリックして、「コンテンツ」タブとweb エクスペリエンスのプロパティに戻ります。
 
@@ -230,4 +230,4 @@ Web エクスペリエンス配信を有効にするには、次の設定を定�
 
 Adobe Experience Platform Assurance内のEdge Delivery ビューを使用して、Journey Optimizer B2B Edition Web エクスペリエンスの配信に関するトラブルシューティングを行うことができます。 このプラグインを使用すると、リクエスト呼び出しを詳細に調べ、期待されるエッジコールを検証し、プロファイルデータを調べることができます。 このプロファイルデータには、ID マップ、セグメントメンバーシップ、同意設定が含まれます。 また、リクエストの適格アクティビティと非適格アクティビティを確認することもできます。
 
-AssuranceのEdge Delivery ビューについて詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)を参照してください。
+AssuranceのEdge Delivery ビューについて詳しくは、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)を参照してください。

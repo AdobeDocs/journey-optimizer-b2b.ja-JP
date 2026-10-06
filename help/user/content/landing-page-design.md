@@ -39,7 +39,7 @@ ht-degree: 3%
 ---
 # ランディングページのデザイン
 
-[ ランディングページを作成した後](./landing-pages-create-publish.md#create-landing-page)、ビジュアルデザインスペースを使用して、ページ内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。
+[&#x200B; ランディングページを作成した後](./landing-pages-create-publish.md#create-landing-page)、ビジュアルデザインスペースを使用して、ページ内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#structure-content-landing-page}
 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 キャンバス内に少なくとも1つのコンテンツコンポーネントがある場合は、左側のナビゲーションツリーで&#x200B;**[!UICONTROL Body]** コンポーネントを選択して、カスタム CSS エディターにアクセスします。
 
-![ ボディスタイルにアクセス ](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+![&#x200B; ボディスタイルにアクセス &#x200B;](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
 {{$include /help/_includes/content-design-custom-css.md}}
 
@@ -75,7 +75,7 @@ ht-degree: 3%
 
 {{$include /help/_includes/content-design-links.md}}
 
-![編集アイコンをクリックしてリンク追跡にアクセス ](./assets/landing-page-link-tracking.png){width="400"}
+![編集アイコンをクリックしてリンク追跡にアクセス &#x200B;](./assets/landing-page-link-tracking.png){width="400"}
 
 **[!UICONTROL トラッキングタイプ]**&#x200B;を使用して、リンクのトラッキングを制御します。
 
@@ -107,7 +107,7 @@ ht-degree: 3%
 
 ビジュアルデザインスペースの上部にある「_[!UICONTROL その他…]_」メニューから、次の操作を実行できます。
 
-![詳細をクリックしてランディングページのアクションにアクセス ](./assets/landing-page-designer-more-menu.png){width="500"}
+![詳細をクリックしてランディングページのアクションにアクセス &#x200B;](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL ランディングページをリセット]** – このオプションをクリックすると、ビジュアルデザインキャンバスが空白のスレートに消去され、ページコンテンツの作成が再開されます。
 * **[!UICONTROL デザインを変更]** - _[!UICONTROL メインのランディングページの作成]_&#x200B;のホームページに戻ります。 そこから、別のテンプレートを選択してデザインプロセスを再開するか、空白のキャンバスでページをゼロからデザインするかを選択できます。

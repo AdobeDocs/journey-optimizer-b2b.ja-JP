@@ -63,13 +63,13 @@ Then based on what agent informed, users can create a template with those person
 
 1. 中間パネルの&#x200B;**[!UICONTROL ペルソナマッピング]**&#x200B;をクリックして、ペルソナのリストを表示します。
 
-   ![設定されたペルソナにアクセス ](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
+   ![設定されたペルソナにアクセス &#x200B;](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
    このページから、[作成](#create-a-persona)、[編集](#edit-a-persona)、または[削除](#delete-a-persona) ペルソナを作成できます。
 
    ペルソナマッピングリストはテーブルとして整理され、最も最近更新されたペルソナが上部に表示されます（_[!UICONTROL 最後の更新]_&#x200B;で並べ替え）。 右上隅の&#x200B;_列設定_ （![列設定](../assets/do-not-localize/icon-column-settings.svg)）アイコンをクリックして、列のチェックボックスを選択またはクリアすると、表示されるテーブルをカスタマイズできます。
 
-   ![ ペルソナマッピングリストに表示する列](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![&#x200B; ペルソナマッピングリストに表示する列](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. ペルソナの詳細にアクセスするには、名前をクリックします。
 
@@ -94,7 +94,7 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
 目的のペルソナを見つけるには、検索バーにテキスト文字列を入力して、名前，
 
-![表示されたペルソナ マッピングをフィルタリング ](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
+![表示されたペルソナ マッピングをフィルタリング &#x200B;](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## ペルソナの作成
 
@@ -106,7 +106,7 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
 1. ペルソナの一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![ ペルソナマッピングの作成](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+   ![&#x200B; ペルソナマッピングの作成](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
 
 1. ペルソナのマッチングに使用する属性を選択します。
 
@@ -116,9 +116,9 @@ _ペルソナマッピング_ リストには、ジョブタイトル属性に�
 
      右上隅の&#x200B;_列設定_ （![列設定](../assets/do-not-localize/icon-column-settings.svg)）アイコンをクリックすると、表示されるテーブルをカスタマイズできます。
 
-     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されるリストをタイプ別、_標準_&#x200B;または&#x200B;_カスタム_&#x200B;でフィルタリングすることもできます。
+     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されるリストをタイプ別、_標準_&#x200B;または&#x200B;_カスタム_&#x200B;でフィルタリングすることもできます。
 
-     ![ ペルソナ属性を選択ダイアログ ](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+     ![&#x200B; ペルソナ属性を選択ダイアログ &#x200B;](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
 
    * 「**[!UICONTROL 保存]**」をクリックします。
 
