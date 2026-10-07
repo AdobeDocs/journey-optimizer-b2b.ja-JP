@@ -1,29 +1,38 @@
 ---
 title: 役割インサイトダッシュボード
-description: Journey Optimizer B2B editionで、購買グループ全体で役割の獲得とエンゲージメントを追跡する役割インサイトダッシュボードについてご確認ください。
+description: Adobe Journey Optimizer B2B Editionで購買グループ全体で役割の獲得とエンゲージメントを追跡するRole Insights ダッシュボードについてご確認ください。
 feature: Buying Groups, Dashboards, Engagement
 role: User
 exl-id: 045a217f-a905-4286-804b-2717bb1d5e5d
+autotag-review: 2026-03-30T21:42:19.942Z
+TQID: 'https://experienceleague.adobe.com/xRMS6mwKZiighUHay7kxg5-m6o9Fr8Ohuk94weyLrmI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T21:42:19.942Z
-TQID: https://experienceleague.adobe.com/xRMS6mwKZiighUHay7kxg5-m6o9Fr8Ohuk94weyLrmI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '622'
 ht-degree: 1%
-
 ---
-
 # 役割インサイトダッシュボード
 
 役割インサイトダッシュボードでは、購買グループの役割が時間の経過とともにどのように進化し、エンゲージするかを可視化できます。 マーケターは、役割の獲得トレンド、エンゲージメントパターン、購買グループ内のさまざまな役割における、最近のキャンペーンがエンゲージメントをどのように促進しているのかを把握できます。

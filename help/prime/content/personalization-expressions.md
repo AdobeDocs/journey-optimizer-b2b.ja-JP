@@ -8,27 +8,33 @@ autotag-review: '2026-06-20T00:27:51.436Z'
 TQID: 'https://experienceleague.adobe.com/ctl7dFJmmm1A4HtB-g2nTx37f4-A8GTUfWhLhdIq7DM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 205013add5060318d46a2b048bb347003c167470
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 50%
-
+source-wordcount: '1015'
+ht-degree: 55%
 ---
-
 # パーソナライゼーションエディター
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
 >title="パーソナライゼーションエディターについて"
->abstract="パーソナライゼーションエディターを使用すると、プロファイル属性を選択、配置、カスタマイズ、検証して、パーソナライズされたコンテンツを作成できます。"
+>abstract="パーソナライゼーションエディターでは、プロファイル属性を選択、整理、カスタマイズおよび検証して、パーソナライズされたコンテンツを作成できます。"
 
 パーソナライゼーションエディターは、[!DNL Journey Optimizer B2B Prime]のパーソナライゼーションの中核です。 電子メールやWhatsApp メッセージ、ランディングページ、URL フィールドなど、動的なコンテンツが必要な場所で利用できます。
 
@@ -81,7 +87,7 @@ _パーソナライズ_ （![&#x200B; パーソナライズ アイコン &#x200B
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_perso_editor_autocomplete"
 >title="オートコンプリート"
->abstract="このオプションをオンに切り替えると、入力時に候補が自動的に表示され、コードが入力されます。 この機能は、HTMLおよびテキスト形式でのみ使用でき、プロファイル属性をサポートします。 切替スイッチで無効にした場合、エディターでは代わりにネイティブ HTML コードのオートコンプリートが使用できるようになります。"
+>abstract="このオプションをオンに切り替えると、入力時に候補が自動的に表示され、コードが入力されます。 この機能は、HTML およびテキスト形式でのみ使用でき、プロファイル属性をサポートします。 切替スイッチで無効にした場合、エディターでは代わりにネイティブ HTML コードのオートコンプリートが使用できるようになります。"
 
 中央のワークスペースは、パーソナライゼーション構文を作成する場所です。 属性を使用してメッセージをパーソナライズするには、左側のナビゲーションパネルで属性を見つけて、`+` ボタンをクリックして式に追加します。
 
@@ -109,7 +115,7 @@ _パーソナライズ_ （![&#x200B; パーソナライズ アイコン &#x200B
 
 1. **[!UICONTROL 検索]**／**[!UICONTROL 検索と置換]**：式を検索して、コードの一部を自動的に置換します。
 1. **[!UICONTROL 取り消し]**／**[!UICONTROL やり直し]**：最後の操作を取り消し／やり直します。
-1. **[!UICONTROL オートコンプリート]**：入力中にコードを自動的に提案し、完成させます。 この機能は、HTMLおよびテキスト形式でのみ使用でき、プロファイル属性をサポートします。 切替スイッチで無効にした場合、エディターでは代わりにネイティブ HTML コードのオートコンプリートが使用できるようになります。
+1. **[!UICONTROL オートコンプリート]**：入力中にコードを自動的に提案し、完成させます。 この機能は、HTML およびテキスト形式でのみ使用でき、プロファイル属性をサポートします。 切替スイッチで無効にした場合、エディターでは代わりにネイティブ HTML コードのオートコンプリートが使用できるようになります。
 
    <!-- ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"} -->
 

@@ -1,33 +1,39 @@
 ---
 title: 社内画像のAssetsの操作
-description: Journey Optimizer B2B edition assetsを参照、管理、使用する – フォルダーを整理し、画像を編集して、アカウントジャーニーのコンテンツを作成します。
+description: Journey Optimizer B2B Edition assetsを参照、管理、使用する – フォルダーを整理し、画像を編集して、アカウントジャーニーのコンテンツを作成します。
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+autotag-review: 2026-03-30T22:14:12.746Z
+TQID: 'https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:14:12.746Z
-TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1765
+source-wordcount: '1765'
 ht-degree: 1%
-
 ---
-
 # 内部画像アセットの操作
 
 デフォルトの画像アセットソースは内部画像アセットリポジトリであり、利用可能なアセットを簡単に管理および使用して、アカウントジャーニーをサポートするコンテンツをデザインできます。
 
-Journey Optimizer B2B editionには、あらゆるアセット管理機能が揃っています。 これらの関数には、次のものが含まれます。
+Journey Optimizer B2B Editionには、あらゆるアセット管理機能が揃っています。 これらの関数には、次のものが含まれます。
 
 * [置換](#replace-assets)
 * [削除](#delete-assets)
@@ -36,7 +42,7 @@ Journey Optimizer B2B editionには、あらゆるアセット管理機能が揃
 
 ## アセットの参照とアクセス
 
-Journey Optimizer B2B editionの内部アセットにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL Content Management]**/**[!UICONTROL Assets]**&#x200B;をクリックします。 このアクションを実行すると、すべてのアセットが一覧表示されたリストページが開きます。
+Journey Optimizer B2B Editionの内部アセットにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL Content Management]**/**[!UICONTROL Assets]**&#x200B;をクリックします。 このアクションを実行すると、すべてのアセットが一覧表示されたリストページが開きます。
 
 ![画像アセットを参照](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -58,13 +64,13 @@ Journey Optimizer B2B editionの内部アセットにアクセスするには、
 
 ## 使用済みアセットの参照を表示
 
-アセットの詳細ページで「**[!UICONTROL 使用者]**」タブをクリックして、電子メール、メールテンプレート、フラグメントをまたいで、Journey Optimizer B2B edition内でアセットが現在使用されている場所の詳細を表示します。
+アセットの詳細ページで「**[!UICONTROL 使用者]**」タブをクリックして、電子メール、メールテンプレート、フラグメントをまたいで、Journey Optimizer B2B Edition内でアセットが現在使用されている場所の詳細を表示します。
 
 >[!IMPORTANT]
 >
 >電子メール、電子メールテンプレート、またはフラグメント **のいずれかで現在&#x200B;_IN USE_のアセットを削除することはできません**。
 
-パネルには、カテゴリ別の参照が表示されます。_電子メール_、_電子メールテンプレート_、または&#x200B;_フラグメント_。 Journey Optimizer B2B editionの電子メールは、ジャーニー内に埋め込まれて作成されるため、アセットを使用する電子メールの親ジャーニーが参照として表示されます。
+パネルには、カテゴリ別の参照が表示されます。_電子メール_、_電子メールテンプレート_、または&#x200B;_フラグメント_。 Journey Optimizer B2B Editionの電子メールはジャーニー内に埋め込まれ、作成されるため、アセットを使用する電子メールの親ジャーニーが参照として表示されます。
 
 リンクをクリックすると、アセットが使用されている対応する電子メール、メールテンプレート、またはフラグメントに移動します。
 
@@ -72,7 +78,7 @@ Journey Optimizer B2B editionの内部アセットにアクセスするには、
 
 ## アセットの追加
 
-_Assets_ リストページから、Journey Optimizer B2B edition アセットリポジトリに画像アセットを追加できます。
+_Assets_ リストページから、画像アセットをJourney Optimizer B2B Edition アセットリポジトリに追加できます。
 
 1. 右上の「**[!UICONTROL Assetsを追加]**」をクリックします。
 
@@ -112,7 +118,7 @@ _Assets_ リストページから、Journey Optimizer B2B edition アセット�
 
 ## アセットの置き換え
 
-次のいずれかの方法を使用して、_[!UICONTROL Journey Optimizer B2B edition]_ アセットリポジトリにあるアセットを置き換えます。
+次のいずれかの方法を使用して、_[!UICONTROL Journey Optimizer B2B Edition]_ アセットリポジトリにあるアセットを置き換えます。
 
 * アセットの詳細に移動し、**[!UICONTROL をクリックします…右上に]**&#x200B;個を追加し、オプションから&#x200B;**[!UICONTROL 置換]**&#x200B;を選択します。
 
@@ -142,7 +148,7 @@ _[!UICONTROL アセットの置換]_ ダイアログで、置換ファイルを�
 
 ![選択したアセット &#x200B;](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Journey Optimizer B2B edition]_ アセットリポジトリにある選択したアセットに対して、次の一括アクションを実行できます。
+_[!UICONTROL Journey Optimizer B2B Edition]_ アセットリポジトリにある選択したアセットに対して、次の一括アクションを実行できます。
 
 +++アセットの移動
 
@@ -280,8 +286,8 @@ Assetsは、ビジュアルコンテンツエディターから、チームの�
 
   必要なアセットを見つけるのに役立つツールがあります。
 
-   * 左上の&#x200B;_フィルター_ アイコンをクリックして、条件に従って表示される項目をフィルタリングします。
+  * 左上の&#x200B;_フィルター_ アイコンをクリックして、条件に従って表示される項目をフィルタリングします。
 
-   * 「_検索_」フィールドにテキストを入力して、アセット名に一致する表示アイテムをフィルタリングします。
+  * 「_検索_」フィールドにテキストを入力して、アセット名に一致する表示アイテムをフィルタリングします。
 
   ![&#x200B; フィルターと検索フィールドを使用して、必要なアセットを見つけます](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}

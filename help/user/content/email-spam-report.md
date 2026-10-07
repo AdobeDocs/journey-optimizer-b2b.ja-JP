@@ -1,34 +1,41 @@
 ---
 title: スパムレポートを確認
-description: SpamAssassin スコアリングを利用してスパムレポートを生成することで、電子メールがスパムフィルターをトリガーしているかどうかを確認し、Journey Optimizer B2B editionの配信品質を向上できます。
+description: SpamAssassin スコアリングを使用してスパムレポートを生成することで、電子メールがスパムフィルターをトリガーしているかどうかを確認し、Journey Optimizer B2B Editionの配信品質を向上できます。
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+autotag-review: 2026-03-30T22:30:57.478Z
+TQID: 'https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-autotag-review: 2026-03-30T22:30:57.478Z
-TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+    internal-label: Email marketing
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: '378'
 ht-degree: 2%
-
 ---
-
 # スパムレポートの検証
 
-多くの電子メール受信箱プロバイダーと、多くの企業のシステムは、スパムフィルタリングのプロセスを採用しています。 これらのフィルターをトリガーした電子メールを送信すると、配信品質に大きな影響を与える可能性があります。 Journey Optimizer B2B editionでは、迷惑メールレポートを作成して、メールコンテンツの迷惑メールのスコアを確認できます。 このレポートでは、[[!DNL SpamAssassin]](https://spamassassin.apache.org/)を使用して電子メールをテストし、迷惑メール対策ツールでメッセージを迷惑メールと見なすかどうかを判断するのに役立ちます。 レポートの情報を使用して、メールコンテンツのスコアと配信品質を向上させるアクションを実行できます。 コンテンツを調整した後、[電子メールパフォーマンスレポート &#x200B;](../dashboards/email-performance-dashboard.md)で直帰率と配信を追跡します。
+多くの電子メール受信箱プロバイダーと、多くの企業のシステムは、スパムフィルタリングのプロセスを採用しています。 これらのフィルターをトリガーした電子メールを送信すると、配信品質に大きな影響を与える可能性があります。 Journey Optimizer B2B Editionでは、迷惑メールレポートを作成して、メールコンテンツの迷惑メールのスコアを確認できます。 このレポートでは、[[!DNL SpamAssassin]](https://spamassassin.apache.org/)を使用して電子メールをテストし、迷惑メール対策ツールでメッセージを迷惑メールと見なすかどうかを判断するのに役立ちます。 レポートの情報を使用して、メールコンテンツのスコアと配信品質を向上させるアクションを実行できます。 コンテンツを調整した後、[電子メールパフォーマンスレポート &#x200B;](../dashboards/email-performance-dashboard.md)で直帰率と配信を追跡します。
 
 メール設定を確認するか、内容を編集する際に、_[!UICONTROL Simulate]_ ページを開き、_スパムレポート_&#x200B;を生成して、スパム対策フィルタリングをトリガーできるスコアリングとフラグ付き要素を確認します。
 

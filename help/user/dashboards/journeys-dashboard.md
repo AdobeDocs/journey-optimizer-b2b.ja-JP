@@ -1,6 +1,6 @@
 ---
 title: ジャーニー概要ダッシュボード
-description: Journey Optimizer B2B editionなら、完了率、エンゲージメント指標、チャネルの有効性を分析し、アカウントと個人のジャーニーのパフォーマンスを追跡できます。
+description: Journey Optimizer B2B Editionの完了率、エンゲージメント指標、チャネル効果分析を利用して、アカウントと個人のジャーニーのパフォーマンスを追跡できます。
 feature: Dashboards, Account Journeys, Person Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
@@ -8,24 +8,31 @@ autotag-review: '2026-05-21T21:07:43.367Z'
 TQID: 'https://experienceleague.adobe.com/u-zKjTHRErQFQCHxuft-gJiiiE5a1oJUIZfziasvcHs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Reporting
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: '448'
 ht-degree: 2%
-
 ---
-
 # ジャーニー概要ダッシュボード
 
 [&#x200B; アカウントまたは個人のジャーニー](../journeys/journeys-overview.md)の概要ダッシュボードには、アクティブなジャーニーの包括的なスナップショットが表示されます。 円グラフと棒グラフは、入力とエンゲージメントのアクティビティを分類および定量化することで、主要な配信とエンゲージメント指標を通じてメールとSMS チャネルの効果を評価することができます。 電子メール固有の配信およびエンゲージメントデータのクロスジャーニー表示については、[電子メールパフォーマンスレポート &#x200B;](email-performance-dashboard.md)を参照してください。

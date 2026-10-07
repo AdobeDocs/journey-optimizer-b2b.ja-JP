@@ -1,6 +1,6 @@
 ---
 title: SMS オーサリング
-description: パーソナライゼーション、リンク、同意管理を使用して、アカウントジャーニー用のSMS メッセージを作成する – Journey Optimizer B2B editionでコンテンツをプレビューし、配信設定を行います。
+description: パーソナライゼーション、リンク、同意管理を使用して、アカウントジャーニー用のSMS メッセージを作成します。Journey Optimizer B2B Editionでコンテンツをプレビューし、配信設定を行います。
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
@@ -8,30 +8,42 @@ autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d66b6f77-1150-58cd-81d8-2a1924d54baa
+    internal-label: SMS Authoring
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+    internal-label: Cross channel delivery
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1251
+source-wordcount: '1251'
 ht-degree: 4%
-
 ---
-
 # SMS オーサリング
 
-Adobe Journey Optimizer B2B editionを使用すると、モバイルデバイスを使用しているお客様にテキストメッセージ（SMS）を送信できます。 SMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
+Adobe Journey Optimizer B2B Editionを使用して、モバイルデバイスで顧客にテキストメッセージ（SMS）を送信します。 SMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
 
 アカウントジャーニーのSMS メッセージを作成する前に、_[!UICONTROL 管理者]_&#x200B;設定から[SMS サービスプロバイダー](../admin/configure-channels-sms.md)が設定されていることを確認してください。
 
@@ -183,8 +195,8 @@ _[!UICONTROL アクションを実行]_ ノードを追加し、次の操作を�
 
 このオプションを指定すると、SMS受信者はオプトインキーワードとオプトアウトキーワードで返信できます。 標準のオプトインキーワードとオプトアウトキーワードはすべて、SMS サービスプロバイダーで設定されているカスタムキーワードと同様に、サポートおよび尊重されます。 購読解除すると、プロファイルは今後のマーケティングメッセージのオーディエンスから自動的に削除されます。
 
-Journey Optimizer B2B editionでは、次のロジックを使用してSMS メッセージのオプトアウトを管理できます。
+Journey Optimizer B2B Editionでは、次のロジックを使用してSMS メッセージのオプトアウトを管理できます。
 
 * デフォルトでは、リードが自社からのコミュニケーションの受信をオプトアウトした場合、対応するプロファイルは後続のSMS配信から除外されます
 
-* このリードの同意は、様々なソース（AEPやSMS サービスプロバイダーなど）から取得され、Journey Optimizer B2B editionに同期されます。 現在、インスタンスレベルでは、リードごとに1つの同意状態のみがサポートされています（リード「John Doe」は、インスタンス内のすべてのプロモーション SMSに購読または購読解除されています）。 現在、ブランドレベル/個人サブスクリプションリストレベルの同意に対するダブルオプトインはサポートしていません。
+* このリードの同意は、様々なソース（AEPやSMS サービスプロバイダーなど）から取得され、Journey Optimizer B2B Editionに同期されます。 現在、インスタンスレベルでは、リードごとに1つの同意状態のみがサポートされています（リード「John Doe」は、インスタンス内のすべてのプロモーション SMSに購読または購読解除されています）。 現在、ブランドレベル/個人サブスクリプションリストレベルの同意に対するダブルオプトインはサポートしていません。

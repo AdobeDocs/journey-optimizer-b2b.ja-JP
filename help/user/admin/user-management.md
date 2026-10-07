@@ -1,38 +1,49 @@
 ---
 title: ユーザーのアクセスと権限
-description: Adobe Admin Consoleでユーザーアクセスを管理する：Journey Optimizer B2B editionでユーザーグループを作成し、製品プロファイルを割り当て、ロールベースの権限を設定します。
+description: Adobe Admin Consoleでユーザーアクセスを管理する：ユーザーグループを作成し、製品プロファイルを割り当て、Journey Optimizer B2B Editionのロールベースの権限を設定します。
 feature: Setup, Permissions
 roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
+autotag-review: 2026-03-27T22:47:43.575Z
+TQID: 'https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:47:43.575Z
-TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 171518509dc161d236663cde399b3fcc02408f18
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2348
+source-wordcount: '2348'
 ht-degree: 77%
-
 ---
-
 # ユーザーのアクセスと権限
 
-プロビジョニングが完了し、サンドボックスがバインドされたら、次の手順を使用して、チームとユーザーにAdobe Journey Optimizer B2B editionへのアクセス権を付与します。
+プロビジョニングが完了し、サンドボックスがバインドされたら、次の手順を使用して、チームとユーザーにAdobe Journey Optimizer B2B Editionへのアクセス権を付与します。
 
 1. Admin Consoleで [Marketo Engage製品プロファイルを作成 &#x200B;](#marketo-engage-profile) （新しいMarketo Engage インスタンスのみ）。
 1. Admin Consoleで [&#x200B; ユーザーグループを追加 &#x200B;](#add-user-group) します。
 1. Journey Optimizer B2B editionの権限を使用して、[&#x200B; 組み込みの役割を編集 &#x200B;](#edit-roles-for-product-permissions) または [&#x200B; カスタムの役割を作成 &#x200B;](#create-a-custom-role) します。
 1. 役割への [&#x200B; ユーザー &#x200B;](#add-users) または [&#x200B; グループ &#x200B;](#add-user-groups-to-a-role) の追加
 
-管理者は、Adobeの製品ライセンスとユーザーを一元的に管理する場所であるAdobe Admin Consoleで、これらのタスクを実行できます。 Admin Consoleでは、様々な個別のソリューション内ではなく、1 か所でユーザーを作成および管理できます。 その機能と機能について詳しくは、[Admin Consoleの概要](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) ページを参照してください。
+管理者は、Adobeの製品ライセンスとユーザーを一元的に管理する場所であるAdobe Admin Consoleで、これらのタスクを実行できます。 Admin Console では、様々な個別のソリューション内ではなく、1 か所でユーザーを作成および管理できます。 その機能と機能について詳しくは、[Admin Consoleの概要](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) ページを参照してください。
 
 ## Admin Console へのアクセス
 
@@ -98,7 +109,7 @@ Marketo Engage内のこれらの権限の管理について詳しくは、Market
 
 >[!TIP]
 >
->既存のJourney Optimizer B2B edition ユーザーをMarketo Engageに追加する場合は、ユーザーグループの作成をスキップし、Marketo Engage製品プロファイルを既存のユーザーグループに追加できます。
+>既存のJourney Optimizer B2B Edition ユーザーをMarketo Engageに追加する場合は、ユーザーグループの作成をスキップし、Marketo Engage製品プロファイルを既存のユーザーグループに追加できます。
 
 ユーザーグループを使用して権限を管理する方法について詳しくは、Admin Console ドキュメントの [&#x200B; ユーザーグループの管理 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target="_blank"} を参照してください。
 
@@ -163,7 +174,7 @@ Marketo Engage内のこれらの権限の管理について詳しくは、Market
 
 ## 製品権限用のロールを編集 {#edit-roles-for-product-permissions}
 
-権限は、製品プロファイルに割り当てる許可を定義できる単一の権利です。 各権限は、Journey Optimizer B2B editionの機能を表す、ジャーニーや購買グループなどの機能の下にグループ化されます。
+権限は、製品プロファイルに割り当てる許可を定義できる単一の権利です。 各権限は、Journey Optimizer B2B Editionの機能を表す、ジャーニーや購買グループなどの機能の下にグループ化されます。
 
 Adobe Experience Platformの _権限_ 領域では、管理者は、ユーザーの役割とアクセスポリシーを定義して、製品アプリケーション内の機能とオブジェクトのアクセス権限を管理できます。 このアプリでは、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたサンドボックスとユーザーを管理することもできます。
 
@@ -335,4 +346,4 @@ Journey Optimizer B2B Edition の機能へのアクセスには、次の権限�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-カスタムロールが設定され、割り当てられたグループのユーザーは、選択したJourney Optimizer B2B edition機能にアクセスできるようになりました。
+カスタムロールが設定され、割り当てられたグループのユーザーは、選択したJourney Optimizer B2B Edition機能にアクセスできるようになりました。

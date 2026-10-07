@@ -1,36 +1,49 @@
 ---
 title: チェックリストを設定
-description: Journey Optimizer B2B editionを設定します。 XDM スキーマ、メール/SMS チャネル、Marketo Engage ジャーニーのアクション、ユーザーを設定します。
+description: Journey Optimizer B2B Editionを設定します。 XDM スキーマ、メール/SMS チャネル、Marketo Engage ジャーニーのアクション、ユーザーを設定します。
 feature: Setup, Administration
 role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
+autotag-review: '2026-03-27T22:15:07.682Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 847
+source-wordcount: '847'
 ht-degree: 73%
-
 ---
-
 # チェックリストを設定
 
-Adobe Journey Optimizer B2B editionは、Adobe Experience Platform上に構築されています。 この実装では、Journey Optimizer B2B editionとMarketo Engageは同じシステムまたは同じデータストア上にありません。 Journey Optimizer B2B editionは、Experience Platformからデータを受け取ります。 ただし、システムのプロビジョニングと設定には、Marketo Engageの使用権限と、メール配信などのバックエンド機能が引き続き使用されます。
+Adobe Journey Optimizer B2B Editionは、Adobe Experience Platform上に構築されています。 この実装では、Journey Optimizer B2B EditionとMarketo Engageは同じシステムまたは同じデータストア上にありません。 Journey Optimizer B2B Editionは、Experience Platformからデータを受け取ります。 ただし、システムのプロビジョニングと設定には、Adobe Marketo Engage の使用権限と、メール配信などのバックエンド機能に引き続き依存します。
 
 <!-- 
 >>[!NOTE]
@@ -38,7 +51,7 @@ Adobe Journey Optimizer B2B editionは、Adobe Experience Platform上に構築�
 >Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
 -->
 
-この実装は、Journey Optimizer B2B editionの機能を可能にする基盤です。
+この実装は、Journey Optimizer B2B Editionの機能を可能にする基盤です。
 
 * **データの統合と拡張：** システムは、カスタムオブジェクト、購買グループ、アカウントイベントなどの複雑なデータモデルをサポートしています。
 
@@ -50,7 +63,7 @@ Adobe Journey Optimizer B2B editionは、Adobe Experience Platform上に構築�
 
 設定には、次のガイドラインを使用します。
 
-Journey Optimizer B2B editionの設定を完了するには、このチェックリストを使用します。
+Journey Optimizer B2B Editionの設定を完了するには、このチェックリストを使用します。
 
 ## &#x200B;1. B2B 名前空間とスキーマの生成
 
@@ -109,12 +122,12 @@ Journey Optimizer B2B editionの設定を完了するには、このチェック
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
-<td>ジャーニー、購入グループおよびメールのパーソナライゼーション用に公開する管理フィールドを選択します。</td>
+<td>ジャーニー、バイインググループ、およびメールのパーソナライゼーションで公開する管理フィールドを選択します。</td>
 <td><a href="./admin/xdm-field-management.md#standard-classes">詳細情報</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
-<td>スキーマの更新可能なフィールドを編集します。</td>
+<td>スキーマの更新可能フィールドを編集します。</td>
 <td><a href="./admin/xdm-field-management.md#updatable-fields">詳細情報</a></td>
 </tr>
 <tr>
@@ -132,13 +145,13 @@ Journey Optimizer B2B editionの設定を完了するには、このチェック
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
-<td>ジャーニー決定/分割パスでサポートされるフィールドを含んだExperience Platform イベントタイプを設定します。</td>
+<td>ジャーニー決定／分割パスでサポートされるフィールドを含む各 Adobe Experience Platform イベントタイプを設定します。</td>
 <td><a href="./admin/configure-aep-events.md">詳細情報</a></td>
 </tr>
 </tbody>
 </table>
 
-## &#x200B;3. トラッキングと E メール配信の設定
+## &#x200B;3. トラッキングとメール配信品質の設定
 
 [!DNL Journey Optimizer B2B Edition]からメールを送信するには、添付の[!DNL Marketo Engage]実稼動インスタンスと[!DNL Journey Optimizer B2B Edition] アプリでメールの追跡と配信品質を設定します。
 
@@ -161,12 +174,12 @@ Journey Optimizer B2B editionの設定を完了するには、このチェック
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
-<td>接続されたMarketo Engage インスタンスのブランディングドメインの設定</td>
+<td>接続されている Marketo Engage インスタンスのブランディングドメインの設定</td>
 <td><a href="./start/branding-domains.md">詳細情報</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
-<td>接続されたMarketo Engage インスタンスへのDKIMと SPF の設定</td>
+<td>接続されている Marketo Engage インスタンスへの DKIM と SPF の設定</td>
 <td><a href="./start/email-protocols.md#set-up-spf-and-dkim">詳細情報</a></td>
 </tr>
 <tr>
@@ -181,7 +194,7 @@ Journey Optimizer B2B editionの設定を完了するには、このチェック
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
-<td>許可リストに加えるへの送信 IP アドレスの追加</td>
+<td>送信 IP アドレスを許可リストに追加</td>
 <td><a href="./start/email-protocols.md#outbound-ip-addresses">詳細情報</a></td>
 </tr>
 <tr>
@@ -282,12 +295,12 @@ Journey Optimizer B2B editionの設定を完了するには、このチェック
 <td><a href="./admin/configure-channels-sms.md">詳細情報</a></td>
 </tr>
 <tr>
-<td colspan="2">Journey Optimizer B2B editionの<strong> ランディングページ </strong> チャネル設定。</td>
+<td colspan="2">Journey Optimizer B2B Editionの<strong> ランディングページ </strong> チャネル設定。</td>
 <td></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
-<td>ランディングページの設定を完了して、これらのページを作成および公開するマーケターをサポートします</td>
+<td>ランディングページの設定を完了し、これらのページを作成および公開するマーケターをサポートします。</td>
 <td><a href="./admin/configure-channels-landing-pages.md">詳細情報</a></td>
 </tr>
 <tr>
@@ -296,7 +309,7 @@ Journey Optimizer B2B editionの設定を完了するには、このチェック
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
-<td>Adobe Experience Platform Web SDKをサポートするようにビジネス web サイトを設定します。</td>
+<td>Adobe Experience Platform web SDK をサポートするようにビジネス web サイトを設定します。</td>
 <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/js-overview">詳細情報</a></td>
 </tr>
 <tr>
@@ -314,7 +327,7 @@ Journey Optimizer B2B editionの設定を完了するには、このチェック
 
 ## &#x200B;5. ジャーニーアクションをサポートするMarketo Engage インスタンスの接続（オプション）
 
-Marketo EngageのキャンペーンやプログラムでJourney Optimizer B2B editionの機能を補完する予定がある場合は、Marketo Engage アクションのサポートを設定します。 これらのアクションにより、マーケティング部門は、Journey Optimizer B2B editionでの&#x200B;_アカウントベース_&#x200B;のマーケティングと、Marketo Engageでの&#x200B;_リードベース_&#x200B;のマーケティング活動を調整できます。
+Marketo Engage のキャンペーンやプログラムで Journey Optimizer B2B Edition の機能を補完する予定がある場合は、Marketo Engage アクションのサポートを設定します。 これらのアクションにより、マーケティング部門は、Journey Optimizer B2B Editionでの&#x200B;_アカウントベース_&#x200B;のマーケティングと、Marketo Engageでの&#x200B;_リードベース_&#x200B;のマーケティング活動を調整できます。
 
 <table>
 <thead>
@@ -343,7 +356,7 @@ Marketo EngageのキャンペーンやプログラムでJourney Optimizer B2B ed
 
 ## &#x200B;6. ユーザーアクセスを有効にする
 
-プロビジョニングが完了すると、サンドボックスがバインドされ、初期設定タスクが完了します。チームとユーザーに対して、Journey Optimizer B2B editionとMarketo Engageのアクセスを設定します。
+プロビジョニングが完了し、サンドボックスがバインドされ、初期設定タスクが完了したら、チームとユーザに対して Journey Optimizer B2B Edition と Marketo Engage のアクセスを設定します。
 
 <table>
 <thead>
@@ -359,12 +372,12 @@ Marketo EngageのキャンペーンやプログラムでJourney Optimizer B2B ed
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
-<td>Adobe Admin ConsoleでMarketo Engage製品プロファイルを作成する（新しいMarketo Engage インスタンスのみ）</td>
+<td>Adobe Admin Console で Marketo Engage 製品プロファイルを作成（新しい Marketo Engage インスタンスのみ）</td>
 <td><a href="./admin/user-management.md#marketo-engage-profile">詳細情報</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="チェックボックス"/></td>
-<td>プロファイル用のユーザーグループの追加</td>
+<td>プロファイル用のユーザーグループを追加</td>
 <td><a href="./admin/user-management.md#add-user-group">詳細情報</a></td>
 </tr>
 <tr>

@@ -1,29 +1,36 @@
 ---
 title: 購買グループのエンゲージメントスコア
-description: Journey Optimizer B2B editionの重み付けアクティビティ、ロールベースの計算、30日間のスコアリングウィンドウを使用して、購買グループと個人のエンゲージメントスコアを計算できます。
+description: Journey Optimizer B2B Editionの重み付けアクティビティ、ロールベースの計算、30日間のスコアリングウィンドウを使用して、購買グループと個人のエンゲージメントスコアを計算できます。
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+autotag-review: 2026-03-30T21:43:47.624Z
+TQID: 'https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T21:43:47.624Z
-TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1229
+source-wordcount: '1229'
 ht-degree: 29%
-
 ---
-
 # エンゲージメントスコア {#engagement-scores}
 
 >[!CONTEXTUALHELP]
@@ -31,7 +38,7 @@ ht-degree: 29%
 >title="エンゲージメントスコア"
 >abstract="エンゲージメントスコアは、購買グループメンバーのエンゲージメントレベルを決定します。"
 
-エンゲージメントスコアは、購買グループのメンバーのエンゲージメントのレベルを示す数値です。 これらのスコアは、購買グループメンバーの活動、加重アクション、および加重された役割に基づいています。 結果のスコアはテナント（インスタンス）内で正規化され、一貫性のある比較を可能にし、実用的なインサイトを可能にします。 スコアの計算は、購買グループを作成するとすぐに開始されます。 Journey Optimizer B2B edition データハブシステムは、毎日スコアを計算し、取り込みサービスを使用してマルチレベルマーケティング（MLM） MySQL システムにアップロードします。
+エンゲージメントスコアは、購買グループのメンバーのエンゲージメントのレベルを示す数値です。 これらのスコアは、購買グループメンバーの活動、加重アクション、および加重された役割に基づいています。 結果のスコアはテナント（インスタンス）内で正規化され、一貫性のある比較を可能にし、実用的なインサイトを可能にします。 スコアの計算は、購買グループを作成するとすぐに開始されます。 Journey Optimizer B2B Edition データハブシステムは、毎日スコアを計算し、取り込みサービスを使用してマルチレベルマーケティング（MLM） MySQL システムにアップロードします。
 
 エンゲージメントスコアには、次の2種類があります。
 

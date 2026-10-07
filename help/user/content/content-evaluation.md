@@ -1,34 +1,40 @@
 ---
 title: コンテンツの評価とスコアリング
-description: ブランドの整合性スコアリングでメールコンテンツを評価する – Journey Optimizer B2B editionで、ブランドガイドラインに照らし合わせて色、フォント、ロゴ、文章を検証します。
+description: ブランドの整合性スコアリングでメールコンテンツを評価する – Journey Optimizer B2B Editionで、ブランドガイドラインに照らし合わせて色、フォント、ロゴ、文章を検証します。
 badge: label="ベータ版" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 16%
-
 ---
-
 # コンテンツの評価とスコアリング {#content-scoring}
 
 コンテンツの評価とスコアリングは、選択したブランド [&#128279;](./brands-manage-create.md#brand-definitions)および一般的な品質基準で定義されているガイドライン に準拠するコンテンツを作成、レビュー、管理するのに役立ちます。 評価を実施することで、メール施策のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保し、コンテンツを公開する前に品質チェックを行うことができます。
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer B2B editionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer B2B EditionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 >
 >製品管理者がこれらの機能を有効にする方法について詳しくは、[&#x200B; ブランド関連の権限](./brands-overview.md#brand-related-permissions)を参照してください。
 
@@ -60,7 +66,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="ブランド整合性スコア"
->abstract="ブランド一致スコアは、コンテンツがブランドのガイドラインにどの程度準拠しているかを測定し、色、フォント、ロゴ、画像、文体の一貫性を確保します。"
+>abstract="ブランド一致スコアは、コンテンツがブランドガイドラインにどの程度準拠しているかを測定し、色、フォント、ロゴ、画像、文体の一貫性を確保します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"

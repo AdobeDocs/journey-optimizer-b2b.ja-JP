@@ -1,29 +1,36 @@
 ---
 title: 購買グループのステージ
-description: Adobe Journey Optimizer B2B editionで、商談、成約、離脱のステージを使用してカスタム購買グループステージモデルを構築し、進行とトリガーアカウントのジャーニーへのアクションを追跡できます。
+description: 入口、成功、失敗のステージを使用して、カスタム購買グループステージモデルを構築し、Journey Optimizer B2B Editionで進行とトリガーのアカウントジャーニーのアクションを追跡できます。
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+autotag-review: 2026-03-30T21:47:43.205Z
+TQID: 'https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
-autotag-review: 2026-03-30T21:47:43.205Z
-TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Automated decisioning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2326
+source-wordcount: '2326'
 ht-degree: 2%
-
 ---
-
 # 購買グループステージ
 
 購買グループのステージは、商談を顧客にコンバージョンする過程における購買グループの進捗状況を追跡するように設計されています。 この機能を使用して、購買グループの進捗状況を追跡し、購買グループメンバーに対する次善のアクションを特定します。
@@ -42,7 +49,7 @@ ht-degree: 2%
 * トランジションフローの定義
 * 入口と目的地の段階の指定
 
-1つのモデルのみがサポートされています。最適なモデルを計画するには、Journey Optimizer B2B editionでモデルを作成して公開する前に、マーケティング部門および営業部門と協力してください。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+1つのモデルのみがサポートされています。最適なモデルを計画するには、Journey Optimizer B2B Editionでモデルを作成して公開する前に、マーケティング部門および営業部門と協力してください。<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 購買グループのステージモデルを作成すると、自動的に&#x200B;_ドラフト_ ステータスになり、削除または名前の変更はできません。 ステージを定義し、ステージ間の移行フローを設定すると、このステータスのままになります。 モデルが公開済み（_ライブ_）状態の場合、変更できません。
 

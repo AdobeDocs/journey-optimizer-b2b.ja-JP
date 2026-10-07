@@ -1,35 +1,47 @@
 ---
 title: インテントスコア
-description: Journey Optimizer B2B editionが、人物のエンゲージメントとコンテンツの関連性からインテントスコアを計算する方法と、スコアがアカウントにどのように集計されるかを理解します。
+description: Journey Optimizer B2B Editionで、人物のエンゲージメントとコンテンツの関連性からインテントスコアを計算する方法と、スコアがアカウントにどのように集計されるかを理解します。
 feature: Dashboards, Intent, Intelligent Insights
 role: User
 autotag-review: '2026-09-11T14:56:32.307Z'
 TQID: 'https://experienceleague.adobe.com/ajtUdNKafSoE1BC08imOpyflpDeAsXaQ3tdlbeYT6NU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
 subfeature_v2:
   - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
+    internal-label: Person insights
+  - id: e8c5d7c8-2857-453e-9943-8237af218e97
+    internal-label: Intent data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
+    internal-label: Machine learning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 
 # インテントスコア {#intent-scores}
 
-インテントスコアは、キーワード、製品、製品のカテゴリーに、ある人物やアカウントがどの程度関心を持っているのかを測定します。 Adobe Journey Optimizer B2B editionは、マシンラーニングを利用してスコアを計算し、手作業によるルールや固定小数点法ではなく、意味の類似性を測定します。 各スコアは0から1に正規化され、スコアが高いほどインテントが強いことを示します。
+インテントスコアは、キーワード、製品、製品のカテゴリーに、ある人物やアカウントがどの程度関心を持っているのかを測定します。 Adobe Journey Optimizer B2B Editionでは、マシンラーニングを利用してスコアを計算し、手作業によるルールや固定小数点法ではなく、意味の類似性を測定します。 各スコアは0から1に正規化され、スコアが高いほどインテントが強いことを示します。
 
 コンテンツの関連性は約12時間ごとに更新され、インテントスコアは毎日再計算されます。 スコアは、キーワードから商品、人物からアカウントまでを集計します。 インテントスコアは、[&#x200B; インテリジェントダッシュボード &#x200B;](../dashboards/intelligent-dashboard.md)、および[&#x200B; アカウントの詳細](../accounts/account-details.md)、[_購買グループの詳細_ ページ &#x200B;](../buying-groups/buying-group-details.md)、および[人物の詳細](../accounts/person-details.md) ページ全体に表示されます。
 
@@ -55,7 +67,7 @@ ht-degree: 0%
 
 ### コンテンツの適切さ {#content-relevance}
 
-Journey Optimizer B2B editionでは、コンテンツと分類法を意味の数学的表現に変換し、類似性モデルを使用してデータの整合性を測定します。 キーワードや商品と一致するコンテンツは、関連性スコアが高くなります。 無関係なコンテンツはスコアが低くなります。
+Journey Optimizer B2B Editionでは、コンテンツと分類法を意味の数学的表現に変換し、類似性モデルを使用してデータの整合性を測定します。 キーワードや商品と一致するコンテンツは、関連性スコアが高くなります。 無関係なコンテンツはスコアが低くなります。
 
 類似性モデルは一般的な言語で事前トレーニングされているため、開始するために顧客固有のトレーニングは必要ありません。
 
@@ -75,7 +87,7 @@ Journey Optimizer B2B editionでは、コンテンツと分類法を意味の数
 
 ### コンテンツ抽出 {#content-extraction}
 
-コンテンツをスコア付けして関連性を評価する前に、Journey Optimizer B2B editionはテキストを抽出して読み取ります。
+コンテンツをスコア付けして関連性を評価する前に、Journey Optimizer B2B Editionはテキストを抽出して読み取ります。
 
 * 基礎となるテキストが、web ページであろうと電子メールであろうと、新しいコンテンツごとに抽出されます。
 * フォーム入力などの一部のアクティビティタイプでは、既に独自の記述的なコンテンツが含まれており、このステップはスキップされます。

@@ -1,31 +1,40 @@
 ---
-title: Experience Manager Assets の操作
-description: コンテンツ編集でAEM Assetsの画像にアクセスして利用 – Journey Optimizer B2B editionで変更内容をドラッグ&ドロップ、検索、フィルタリング、同期できます。
+title: Experience Manager Assets の利用
+description: コンテンツ編集でAEM Assetsの画像にアクセスして利用 – Journey Optimizer B2B Editionで変更内容をドラッグ&ドロップ、検索、フィルタリング、同期できます。
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
+autotag-review: 2026-03-30T22:38:14.175Z
+TQID: 'https://experienceleague.adobe.com/xcGhfHeUuvmdsUws17Kpb7w3HmM7LaB3C633HiicmJ0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:38:14.175Z
-TQID: https://experienceleague.adobe.com/xcGhfHeUuvmdsUws17Kpb7w3HmM7LaB3C633HiicmJ0
-source-git-commit: dd3d59696cbef03ac7b69ef32cdd0c2d6dc0fb6e
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 592
+source-wordcount: '592'
 ht-degree: 2%
-
 ---
-
 # Experience Manager アセットの操作
 
 [!DNL Adobe Experience Manager Assets as a Cloud Service]が[!DNL Adobe Journey Optimizer B2B Edition]と統合されている場合、マーケティングコンテンツで使用するデジタルアセットを簡単に見つけてアクセスできます。 コンテンツを作成すると、左側のナビゲーションの&#x200B;_[!UICONTROL Experience Manager Assets]_&#x200B;項目からアセットにアクセスでき、アカウントジャーニーのメールコンテンツをオーサリングする場合にもアクセスできます。

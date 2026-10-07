@@ -1,29 +1,38 @@
 ---
 title: メールテンプレート
-description: ゼロから再利用可能なメールテンプレートの作成、HTMLによるインポート、既存のデザインを活用 – Journey Optimizer B2B editionでアカウントジャーニーのテンプレートを管理できます。
+description: 再利用可能なメールテンプレートを、ゼロから作成することも、HTMLでインポートしたり、既存のデザインから作成することも可能です。Adobe Journey Optimizer B2B Editionでアカウントジャーニーのテンプレートを管理しましょう。
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
+autotag-review: 2026-03-30T22:17:40.055Z
+TQID: 'https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:17:40.055Z
-TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: '1522'
 ht-degree: 4%
-
 ---
-
 # メールテンプレート
 
 デザインプロセスを迅速化および改善するには、スタンドアロンのメールテンプレートを作成して、[!DNL Adobe Journey Optimizer B2B Edition]個のアカウントジャーニーでカスタムコンテンツを再利用します。 テンプレートを通じて、コンテンツを重視するチームメンバーは、ジャーニー外でメールコンテンツに取り組むことができます。 マーケティング戦略担当者は、それらのスタンドアロンテンプレートを再利用して、ジャーニーに適合させることができます。 たとえば、あるチームメンバーは、アカウントジャーニーにアクセスすることなく、コンテンツのみを管理しています。 しかし、マーケターがメールコミュニケーションのベースとして選択できるメールテンプレートを作成し、ジャーニーの要件に応じてカスタマイズすることができます。
@@ -96,7 +105,7 @@ _[!UICONTROL テンプレートをデザイン]_ ページが開き、テンプ�
 
 ### HTML の読み込み
 
-Adobe Journey Optimizer B2B editionを使用すると、既存のHTML コンテンツを読み込んで、メールテンプレートをデザインできます。
+Adobe Journey Optimizer B2B Editionを使用すると、既存のHTML コンテンツを読み込んで、メールテンプレートをデザインできます。
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -134,7 +143,7 @@ Adobe Journey Optimizer B2B editionを使用すると、既存のHTML コンテ�
 
 ![使用するタブをクリックして、テンプレートの使用状況を確認します](./assets/template-details-used-by.png){width="400"}
 
-Journey Optimizer B2B editionの電子メールは、ジャーニー内に埋め込まれて作成されるため、テンプレートを使用する電子メールの親ジャーニーが参照として表示されます。
+Journey Optimizer B2B Editionの電子メールはジャーニー内に埋め込まれ、作成されるため、テンプレートを使用する電子メールの親ジャーニーが参照として表示されます。
 
 * リンクをクリックすると、メールテンプレートが使用されている対応するジャーニーメールに移動します。
 

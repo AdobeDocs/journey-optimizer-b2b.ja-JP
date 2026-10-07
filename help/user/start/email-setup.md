@@ -4,31 +4,42 @@ description: デフォルト、登録解除、web ビュー、ベロシティオ
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: '1321'
 ht-degree: 70%
-
 ---
-
 # E メール設定
 
 添付されたMarketo Engage インスタンスが提供するメール配信インフラストラクチャをサポートするには、次のメールオプションを設定します。 Marketo Engage製品管理者は、Marketo Engage インスタンスの **[!UICONTROL 管理者]** エリアに移動して **[!UICONTROL メール]** を選択することで、これらの設定を行うことができます。
@@ -43,7 +54,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->変更内容は、自分が作成したメールにのみ適用され、他のMarketo EngageまたはJourney Optimizer B2B edition ユーザーには適用されません。
+>変更内容は、自分が作成したメールにのみ適用され、他の Marketo Engage または Journey Optimizer B2B Edition のユーザには適用されません。
 
 1. 添付されたMarketo Engage インスタンスの **[!UICONTROL 管理者]** エリアに移動して、**[!UICONTROL メール]** を選択します。
 
@@ -55,7 +66,7 @@ ht-degree: 70%
 
 ### メッセージの登録解除
 
-運用以外のマーケティングメールの場合は、登録解除テキストとリンクが下部に追加されます。 製品管理者は、マーケターがメールを運用中としてマークしない場合に入力されるデフォルトのHTMLとテキストを設定します。
+非運用のマーケティングメールの場合は、購読解除テキストとリンクが下部に追加されます。 製品管理者は、マーケターがメールを運用中としてマークしない場合に入力されるデフォルトのHTMLとテキストを設定します。
 
 1. 添付されたMarketo Engage インスタンスの **[!UICONTROL 管理者]** エリアに移動して、**[!UICONTROL メール]** を選択します。
 
@@ -107,7 +118,7 @@ ht-degree: 70%
    >
    >以下は避けるようにします。
    >
-   >* いずれかの HTML ボックスに付加的な URL を追加する
+   >* いずれかの HTML ボックスに URL を追加する
    >* テキストバージョンに HTML コードを配置する
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
@@ -122,7 +133,7 @@ ht-degree: 70%
 
 +++
 
-+++ システムの既定の Web ページ テキスト
++++ システムのデフォルト web ページのテキスト
 
 ```
 To view this email as a web page, go to the following address:
@@ -131,13 +142,13 @@ To view this email as a web page, go to the following address:
 
 +++
 
-## カスタム オブジェクトの取得の制限
+## カスタムオブジェクトの取得制限
 
 [!DNL Velocity Script] を使用してメールにカスタムオブジェクトデータを表示する場合は、親のカスタムオブジェクトの取得制限を調整します。 デフォルトでは、この制限により、Velocity スクリプトから 10 個の親カスタムオブジェクトへのアクセスが許可されます。 必要に応じて、この制限を増やすことができます。
 
 [[!DNL Apache Velocity]](https://velocity.apache.org/) は [!DNL Java] に基づいて構築された言語で、HTML コンテンツのテンプレート化とスクリプト化を目的として設計されています。 Marketo Engageのメールインフラストラクチャでは、カスタムオブジェクトに保存されたデータにアクセスできるスクリプトトークンを使用して、メールのコンテキストでの使用をサポートしています。
 
-リードまたは連絡先に直接接続されているが、第 3 レベルのカスタムオブジェクトに接続されていない親および子のカスタムオブジェクトを参照できます。 各カスタムオブジェクトでは、ユーザー/連絡先ごとに最近更新された 10 件のレコードが実行時に使用可能で、最近更新されたレコード（`0`）から最も古い更新レコード（`9`）へと並べられます。
+リードまたは取引先責任者に直接接続されている親および子のカスタムオブジェクトを参照できますが、第 3 レベルのカスタムオブジェクトは参照できません。 各カスタムオブジェクトでは、ユーザー/連絡先ごとに最近更新された 10 件のレコードが実行時に使用可能で、最近更新されたレコード（`0`）から最も古い更新レコード（`9`）へと並べられます。
 
 制限を変更するには（_T） :_
 
@@ -178,9 +189,9 @@ To view this email as a web page, go to the following address:
 
 * _&#x200B;**[!UICONTROL IAB ボットリストとの一致]**&#x200B;_ - [&#x200B; インタラクティブ Advertising ビューロボットリスト &#x200B;](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} 内の任意のものと一致するアクティビティ（ユーザーエージェント/IP アドレス）はボットとしてマークされます。
 * _&#x200B;**[!UICONTROL 近接パターンと一致]**&#x200B;_ – 同時に（1 秒未満で）発生する 2 つ以上のアクティビティがボットとして識別されます。 比較時に考慮される属性は以下のとおりです。
-   * リード ID（同じであること）
-   * メールアセット（同じであること）
-   * リンククリックまたはメール開封
+  * リード ID（同一であること）
+  * メールアセット（同じであること）
+  * リンククリックまたはメール開封
 
 メールのリンククリックとメールの開封アクティビティの場合、属性には次の値が入力されています。
 
@@ -197,7 +208,7 @@ To view this email as a web page, go to the following address:
 
    ボットアクティビティ識別パネルには、ボットアクティビティを識別するために使用できる 2 つのスライダーが表示されます。
 
-1. スライダーを切り替えて、一方または両方を有効にします。
+1. 切替スイッチを操作して、一方または両方を有効にします。
 
    有効にする各メソッドに対して、「ボットアクティビティをログに記録 _[!UICONTROL または]_ ボットアクティビティをフィルター _[!UICONTROL を選択]_ ます。
 

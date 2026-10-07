@@ -1,9 +1,11 @@
 ---
 title: メールメッセージの作成
-description: ビジュアルデザインツール、HTMLのインポート、テンプレートを使用して、Journey Optimizer B2B editionでコンテンツ生成、カスタム CSS、パーソナライゼーションを活用して、メールを作成できます。
+description: ビジュアルデザインツール、HTMLのインポート、テンプレートを使用して、Journey Optimizer B2B Editionでコンテンツ生成、カスタム CSS、パーソナライズされたメールを作成できます。
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
+autotag-review: 2026-03-30T22:32:53.691Z
+TQID: 'https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -12,6 +14,10 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,9 +28,7 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-autotag-review: 2026-03-30T22:32:53.691Z
-TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 5%

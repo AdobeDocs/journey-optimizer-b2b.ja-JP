@@ -1,6 +1,6 @@
 ---
 title: フォーム
-description: Journey Optimizer B2B editionなら、ビジネスデータの収集に再利用できるフォームを作成、管理できます。フィールドをデザインし、サンキューページを設定して、公開および使用状況を追跡できます。
+description: Journey Optimizer B2B Editionなら、ビジネスデータ収集に再利用できるフォームを作成、管理できます。フィールドをデザインし、サンキューページを設定して、公開および使用状況を追跡できます。
 feature: Forms, Content
 role: User
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:11:44.937Z'
 TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2504
+source-wordcount: '2504'
 ht-degree: 2%
-
 ---
-
 # フォーム
 
 web ページの訪問者から情報を取得するには、フォームを作成してランディングページに追加します。 フォームとは、訪問者が入力して送信する一連のフィールドのことで、ホワイトペーパー、オンデマンドウェビナー、無料トライアルなど、何らかのコンテンツやオファーを取得するためのものです。
@@ -35,7 +41,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 >
 >マーケティング部門がフォームを作成して使用し、情報を取得する前に、管理者が1つ以上のフォームプリセットを定義する必要があります。 詳しくは、[_Forms設定_](../admin/configure-channels-forms.md)&#x200B;を参照してください。
 >
->Journey Optimizer B2B editionでのフォームの作成には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
+>Journey Optimizer B2B Editionでのフォームの作成には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
 >
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL B2C Forms]_&#x200B;を読む – フォームにアクセスして表示するために必要です。
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL B2C Formsを管理]_ - フォームの作成、更新、削除に必要です。
@@ -43,7 +49,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
 ## フォームへのアクセスと管理 {#view-forms}
 
-Journey Optimizer B2B editionのフォームにアクセスするには、左側のナビゲーションで&#x200B;**[!UICONTROL Content Management]**/**[!UICONTROL Forms]**&#x200B;をクリックします。 このアクションは、インスタンスで作成されたすべてのフォームを表示するリストページを開きます。
+Journey Optimizer B2B Editionのフォームにアクセスするには、左側のナビゲーションで&#x200B;**[!UICONTROL コンテンツ管理]**/**[!UICONTROL Forms]**&#x200B;をクリックします。 このアクションは、インスタンスで作成されたすべてのフォームを表示するリストページを開きます。
 
 ![&#x200B; フォームライブラリにアクセス &#x200B;](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -77,7 +83,7 @@ Journey Optimizer B2B editionのフォームにアクセスするには、左側
 
 ## フォームの作成 {#create-forms}
 
-Journey Optimizer B2B editionで再利用可能なフォームの作成を開始する前に、考慮すべきことがいくつかあります。
+Journey Optimizer B2B Editionで再利用可能なフォームの作成を開始する前に、考慮すべきことがいくつかあります。
 
 * 必要なフォームを見極める。
 
@@ -105,7 +111,7 @@ Journey Optimizer B2B editionで再利用可能なフォームの作成を開始
 >abstract="使用する接続を含む事前定義済みプリセットと、フォームの事前定義済みデータセットを選択します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="フォームプリセットを作成"
 
-Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL Forms]_ リストページの右上にある「**[!UICONTROL フォームを作成]**」をクリックします。
+Journey Optimizer B2B Editionでフォームを作成するには、_[!UICONTROL Forms]_ リストページの右上にある「**[!UICONTROL フォームを作成]**」をクリックします。
 
 1. _[!UICONTROL フォームを作成]_ ダイアログで、便利な&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
@@ -149,7 +155,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 * **[!UICONTROL ページを維持]** - フォームの送信時に訪問者を同じページに維持するには、このオプションを選択します。
 
-* **[!UICONTROL ランディングページ]** - フォローアップとして任意のJourney Optimizer B2B edition ランディングページを選択するには、このオプションを選択します。
+* **[!UICONTROL ランディングページ]** - フォローアップとして任意のJourney Optimizer B2B Edition ランディングページを選択するには、このオプションを選択します。
 
 * **[!UICONTROL 外部URL]** – 任意のURLをフォローアップページとして指定するには、このオプションを選択します。 訪問者がフォームを送信すると、ブラウザーは指定されたURLを読み込みます。
 
@@ -181,7 +187,7 @@ Journey Optimizer B2B editionでフォームを作成するには、_[!UICONTROL
 
 ## 使用されているフォームの参照を表示
 
-右側の&#x200B;_[!UICONTROL 概要]_ パネルで、**[!UICONTROL 使用者]** タブをクリックして、ランディングページとランディングページテンプレートをまたいで、Journey Optimizer B2B edition内でフォームが現在使用されている場所の詳細を表示します。
+右側の&#x200B;_[!UICONTROL 概要]_ パネルで、**[!UICONTROL 使用者]** タブをクリックして、ランディングページとランディングページテンプレートをまたいで、Journey Optimizer B2B Edition内でフォームが現在使用されている場所の詳細を表示します。
 
 >[!IMPORTANT]
 >

@@ -5,27 +5,32 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+autotag-review: 2026-03-27T22:58:08.848Z
+TQID: 'https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:58:08.848Z
-TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1632
+source-wordcount: '1632'
 ht-degree: 12%
-
 ---
-
 # エクスペリエンスイベントとフィールドの選択
 
 管理者は、Experience Event結合スキーマ内の特定のAdobe Experience Platform（AEP） [Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}とその関連フィールドを選択できます。 選択後、ユーザーはそれらのエクスペリエンスイベントをリッスンするように決定ルールを設定して、ほぼリアルタイムのイベントデータにもとづいて、動的かつターゲットを絞ったキャンペーンアクションを有効にできます。
@@ -34,11 +39,11 @@ ht-degree: 12%
 
 >[!PREREQUISITES]
 >
->Journey Optimizer B2B editionでExperience Eventsとフィールドを使用するには、プロファイル対応のExperience Event スキーマが必要です。 詳しくは、Experience Platform チュートリアルの「[&#x200B; リアルタイム顧客プロファイルを有効にする](https://experienceleague.adobe.com/ja/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}」を参照してください。
+>Journey Optimizer B2B EditionでExperience Eventsとフィールドを使用するには、プロファイル対応のExperience Event スキーマが必要です。 詳しくは、Experience Platform チュートリアルの「[&#x200B; リアルタイム顧客プロファイルを有効にする](https://experienceleague.adobe.com/ja/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}」を参照してください。
 
 ジャーニーでAEP Experience Eventsを使用するには、次の2つの手順を実行します。
 
-1. 管理者[は、Journey Optimizer B2B edition設定にAEP Experience Eventsとフィールド &#x200B;](#add-an-event)を追加します。
+1. 管理者[は、Journey Optimizer B2B Edition設定にAEP Experience Eventsとフィールド &#x200B;](#add-an-event)を追加します。
 
 1. ジャーニーでは、マーケターは設定されたイベントを2つの方法のいずれかで使用します。
 
@@ -55,7 +60,7 @@ ht-degree: 12%
 
 * ジャーニーは、Web SDKやHTTP APIなどのExperience Platform ストリーミング機能を使用して取り込まれたエクスペリエンスイベントをリッスンできます。
 
-* 過去のエクスペリエンスイベントのデータは、Journey Optimizer B2B edition データベースにイベントが存在する場合に、個人に対して蓄積されます。 イベントタイプが最初に設定されたときに既に存在するユーザーの場合、バックフィルは設定時に開始されます。 新しい人の場合、蓄積は最初にその人が追加されたときに始まります（以前の履歴は過去にさかのぼって利用できません）。
+* 過去のエクスペリエンスイベントのデータは、Journey Optimizer B2B Edition データベースにイベントが存在する場合に、個人に対して蓄積されます。 イベントタイプが最初に設定されたときに既に存在するユーザーの場合、バックフィルは設定時に開始されます。 新しい人の場合、蓄積は最初にその人が追加されたときに始まります（以前の履歴は過去にさかのぼって利用できません）。
 
 * 現在、蓄積されたイベント履歴に対する削除メカニズムはありません。 長期的なリテンション方針は変更される可能性があります。
 
@@ -153,7 +158,7 @@ _[!UICONTROL 検索]_ フィールドにテキストを入力して、イベン�
 
 ## イベントとフィールド {#events-and-fields}
 
-[!DNL Journey Optimizer B2B Edition]の場合、特定の人物レベルのアクティビティは[!DNL Experience Platform]個のエクスペリエンスイベントとしてキャプチャされます。 これらのイベントは、XDM Experience Event スキーマを使用し、ジャーニー固有のフィールドグループを含むシステムデータセットに保存されます。 これらのイベントは、[!UICONTROL Journey Optimizer B2B edition]で他のエクスペリエンスイベントと同様に使用できます。
+[!DNL Journey Optimizer B2B Edition]の場合、特定の人物レベルのアクティビティは[!DNL Experience Platform]個のエクスペリエンスイベントとしてキャプチャされます。 これらのイベントは、XDM Experience Event スキーマを使用し、ジャーニー固有のフィールドグループを含むシステムデータセットに保存されます。 これらのイベントは、[!UICONTROL Journey Optimizer B2B Edition]で他のエクスペリエンスイベントと同様に使用できます。
 
 各イベントは、ジャーニー&#x200B;_イベントのリッスン_ ノード（イベントに基づく決定）で使用できる、定義されたフィールドセットを公開します。 これらのジャーニーノードで使用するイベントとフィールドを決定するには、使用可能なイベントタイプとそのフィールドを確認します。
 

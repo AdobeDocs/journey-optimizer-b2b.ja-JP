@@ -1,35 +1,46 @@
 ---
 title: アクセシブルなコンテンツのデザイン
-description: Journey Optimizer B2B editionで、メールやランディングページにアクセシブルなコンテンツをデザインする方法を説明します
+description: Journey Optimizer B2B Editionで、メールやランディングページにアクセシブルなコンテンツをデザインする方法を説明します
 feature: Email Authoring, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
+autotag-review: '2026-03-30T22:11:25.228Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-autotag-review: '2026-03-30T22:11:25.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+    internal-label: Accessibility
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1751'
 ht-degree: 48%
-
 ---
-
 # アクセシブルなコンテンツのデザイン {#accessible-content}
 
 [欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}は、加盟国間で異なる国のルールによって生じる障壁を排除することで、アクセス可能な製品およびサービスの内部市場を強化することを目的とした指令です。
@@ -52,24 +63,24 @@ ht-degree: 48%
 ### フォント選択
 
 * Arial、Verdana、Tahoma、Helvetica、Open Sansなどのサンセリフフォントを使用します。
-* 本文コンテンツには、セリフ体、筆記体、装飾体のフォントを回避します。
+* 本文コンテンツでは、セリフ体、筆記体、装飾体のフォントは使用しないでください。
 * 一貫性とフォールバックのために、限定的なフォントセットに固定します（例：`font-family: Arial, Helvetica, sans-serif;`）。
 
 ### フォントサイズ
 
-* 本文のフォントサイズは 16 px 以上を確保します。
+* 本文のフォントサイズは 16 px 以上にしてください。
 * 見出しに適切な階層を使用します。
 
 ### カラーコントラスト
 
 * テキストと背景の間のコントラスト比を 4.5:1 以上に維持します。
 * 大きなテキスト（24 px 以上または太字 18 px）の場合は、3:1 以上のコントラストを確保します。
-* 白い背景では、ライトグレーまたはパステルのテキストは回避します。
+* 白い背景では、ライトグレーやパステルカラーのテキストは使用しないでください。
 * 意味を伝えるのに色だけに依存するのではなく、下線やアイコンなどを使用します。
 
 ### テキストアクセシビリティ
 
-* 画像内のテキストは回避します。
+* 画像内にテキストを配置しないでください。
 * 本文では大文字を使用しないでください。
 * レイアウトを崩すことなく、テキストを最大200%まで拡大できることを確認します。
 
@@ -78,8 +89,8 @@ ht-degree: 48%
 コンテンツに視覚的にアクセスできるようにするには、次のベストプラクティスに従ってください。
 
 * 重要な情報に対しては色のみのインジケーターの使用は回避します。
-* テキストラベルまたはアイコンを使用して、明確さを確保します。
-* ボタンが大きく、適切な間隔が空いていることを確保して、モバイルおよびレスポンシブレイアウト向けにデザインを最適化します。
+* テキストラベルやアイコンを使用して、わかりやすくしてください。
+* モバイルおよびレスポンシブレイアウト向けにデザインを最適化し、ボタンが大きく適切な間隔で配置されるようにしてください。
 * デバイスや画面サイズをまたいで定期的にテストすることで、アクセシビリティを維持します。
 
 [!DNL Journey Optimizer B2B Edition]では、ビジュアルデザインスペース **[!UICONTROL スタイル]** ペインのスタイルパラメーターと属性を使用して、コンテンツ内の様々な要素のサイズと間隔をさらに調整できます。
@@ -304,27 +315,27 @@ HTML コンテンツでは、多くの場合、レイアウトにテーブルが
 ランディングページでは、キーボードナビゲーションとフォーカスサポートを提供することで、マウスを使用できないユーザーがコンテンツにアクセスして操作できるようにします。 また、すべてのユーザーに明確で一貫性のある情報移動方法を提供することで、全体的なユーザビリティも向上します。
 
 * キーボード操作とフォーカス
-   * すべてのインタラクティブ要素（ボタン、チェックボックス、リンクなど）に`tabindex="0"`が含まれていることを確認し、これらの要素が自然なタブの順序に含まれます。
-   * タブキーと矢印キー（↑ ↓ ← →）を使用してナビゲーションを許可します。これにより、フォーカスされた要素が明確にハイライトされます。
+  * すべてのインタラクティブ要素（ボタン、チェックボックス、リンクなど）に`tabindex="0"`が含まれていることを確認し、これらの要素が自然なタブの順序に含まれます。
+  * タブキーと矢印キー（↑ ↓ ← →）を使用してナビゲーションを許可します。これにより、フォーカスされた要素が明確にハイライトされます。
 * カスタムフォーカススタイル
-   * 実用的な要素にフォーカスさせるには、明確で識別可能なスタイルを適用します。
-     +++例（CSS）
+  * アクション可能な要素にフォーカスが当たるよう、明確で識別しやすいスタイルを適用します。
+    +++例（CSS）
 
-     ```
-     [tabindex="0"] : focus { 
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     background-color: #20CEFF;   /* Optional background */ 
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    background-color: #20CEFF;   /* Optional background */ 
+    }
+    ```
 
-     +++
+    +++
 
-   * 以下のようなフォーカスインジケーターがWCAG 2.2のフォーカスアピアランス基準を満たしていることを確認します。
-      * 最小領域：2 CSS ピクセルの太さのアウトライン。
-      * コントラスト比：コントラスト比：フォーカス状態と非フォーカス状態の 3:1 以上。
+  * 以下のようなフォーカスインジケーターがWCAG 2.2のフォーカスアピアランス基準を満たしていることを確認します。
+    * 最小領域：2 CSS ピクセルの太さのアウトライン。
+    * コントラスト比：コントラスト比：フォーカス状態と非フォーカス状態の 3:1 以上。
 
 * キーボードアクティブ化サポート
-   * チェックボックスとボタンが Enter キーと Space キーに応答することを確認します。
-   * キーボードのみを使用して操作を検証します。
-      * Enter キーまたは Space キーを押すと、チェックボックスが切り替わります。
-      * Enter キーまたはSpace キーを押してボタンをトリガーします。
+  * チェックボックスとボタンが Enter キーと Space キーに応答することを確認します。
+  * キーボードのみを使用して操作を検証します。
+    * Enter キーまたは Space キーを押すと、チェックボックスが切り替わります。
+    * Enter キーまたはSpace キーを押してボタンをトリガーします。

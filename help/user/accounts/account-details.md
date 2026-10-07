@@ -1,30 +1,38 @@
 ---
 title: アカウントの詳細
-description: Journey Optimizer B2B editionは、AIによる要約の生成、意図の検出、連絡先のカバー範囲の分析、メールコミュニケーションにより、アカウントのインサイトを表示します。
+description: AIが生成した概要、意図の検出、連絡先のカバー範囲の分析、Adobe Journey Optimizer B2B Editionのメールコミュニケーションにより、アカウントのインサイトを確認できます。
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+autotag-review: 2026-03-27T22:20:55.565Z
+TQID: 'https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:20:55.565Z
-TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 640
+source-wordcount: '640'
 ht-degree: 7%
-
 ---
-
 # アカウントの詳細
 
-Journey Optimizer B2B editionの任意の場所からアカウント名をクリックすると、_アカウントの詳細_ ページが表示されます。 このページでは、生成AIの概要など、アカウントに関する情報を提供します。 アカウントに関連付けられた連絡先に対して実行できる[&#x200B; アクション &#x200B;](#send-email)もあります。
+Journey Optimizer B2B Editionの任意の場所からアカウント名をクリックすると、_アカウントの詳細_ ページが表示されます。 このページでは、生成AIの概要など、アカウントに関する情報を提供します。 アカウントに関連付けられた連絡先に対して実行できる[&#x200B; アクション &#x200B;](#send-email)もあります。
 
 ![&#x200B; アカウントの詳細にアクセス &#x200B;](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -49,7 +57,7 @@ Journey Optimizer B2B editionの任意の場所からアカウント名をクリ
 
 ### インテントデータ
 
-Journey Optimizer B2B editionでは、インテント検出モデルは、アカウントの連絡先アクティビティに基づいて、関心のあるソリューション/製品を十分に高い信頼性で予測します。 アカウントコンタクトの意図は、製品に関心を持つ可能性と解釈できます。
+Journey Optimizer B2B Editionでは、インテント検出モデルは、アカウントの連絡先アクティビティに基づいて、十分な信頼性を持つ関心のあるソリューション/製品を予測します。 アカウントコンタクトの意図は、製品に関心を持つ可能性と解釈できます。
 
 {{intent-data-note}}
 

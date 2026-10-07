@@ -8,21 +8,31 @@ autotag-review: '2026-06-19T22:00:56.704Z'
 TQID: 'https://experienceleague.adobe.com/z0vACEVhY2WZcSgeO3Kbx7ceSNsf4Se3DZut36xnN4E'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 68ce728130c78df150ba3041859dcb593a9a709b
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 9%
-
 ---
-
 # コンテンツにカスタム CSSを追加する
 
 電子メールやランディングページのデザインスペース内に、独自のカスタム CSSを直接追加できます。 カスタム CSSを使用して、高度で特定のスタイルを適用し、コンテンツの外観をより柔軟に制御できます。

@@ -1,6 +1,6 @@
 ---
 title: フォームデザイン
-description: Journey Optimizer B2B editionでは、ビジネスデータ収集用のフィールドタイプ、検証、スタイル設定、XDM スキーマ属性を使用してフォームをデザインできます。
+description: Journey Optimizer B2B Editionでビジネスデータを収集するためのフィールドタイプ、検証、スタイル設定、XDM スキーマ属性を使用して、フォームをデザインします。
 feature: Forms, Content Design Tools
 role: User
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
@@ -8,25 +8,35 @@ autotag-review: '2026-05-27T16:10:55.800Z'
 TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Web experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2190'
 ht-degree: 2%
-
 ---
-
 # フォームのデザイン
 
 [&#x200B; フォームを作成](./forms.md#create-forms)すると、ビジュアルデザインスペースでドラフトが開き、デフォルトの基本フォーム定義が表示されます。 右側の&#x200B;_[!UICONTROL 概要]_ パネルで、**[!UICONTROL フォームを編集]**&#x200B;をクリックし、ビジュアルデザインスペースを使用して、フォームのスタイルとフィールドコンポーネントを定義します。
@@ -75,7 +85,7 @@ _&#x200B;**送信**&#x200B;_ ボタン （フッターフィールド）はデ�
    | ---------- | ----- |
    | **[!UICONTROL チェックボックス]** | このタイプを使用すると、訪問者は&#x200B;_true_ （チェック済み）または&#x200B;_false_ （チェックなし）の値を選択できます。 |
    | **[!UICONTROL チェックボックスグループ]** | このタイプを使用すると、訪問者は複数の項目に対して&#x200B;_true_ （オン）または&#x200B;_false_ （オフ）の値を選択できます。 |
-   | **[!UICONTROL 通貨]** | このタイプを使用すると、Journey Optimizer B2B edition インスタンスで選択されたデフォルトの通貨タイプを表す浮動小数点フィールドを許可できます。 |
+   | **[!UICONTROL 通貨]** | このタイプを使用すると、Journey Optimizer B2B Edition インスタンスで選択されたデフォルトの通貨タイプを表す浮動小数点フィールドを許可できます。 |
    | **[!UICONTROL 日付]** | このタイプを使用して、入力を日付形式に制限し、フィールドにカレンダーセレクターを指定します。 |
    | **[!UICONTROL 倍精度浮動小数点]** | 倍精度浮動小数点数（Double-precision floating-point）変数は、IEEE 64 ビット（8 バイト）浮動小数点数として格納されます。 |
    | **[!UICONTROL メール]** | このタイプを使用して、入力を電子メールアドレス形式に制限します。 |

@@ -5,31 +5,39 @@ feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+autotag-review: 2026-03-27T22:24:19.286Z
+TQID: 'https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: addf009e-030a-4310-8534-776a3e62ed48
-autotag-review: 2026-03-27T22:24:19.286Z
-TQID: https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Customer lifecycle
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1470'
 ht-degree: 2%
-
 ---
-
 # CRM 内から詳細ページへのアクセス
 
-Adobe Journey Optimizer B2B editionを利用すれば、営業部門とアカウント部門のメンバーは、SalesforceやMicrosoft DynamicsなどのCRM （顧客関係管理）ツールから、アカウントと購買グループの情報に関する詳細なページに直接アクセスできます。 この連携機能により、営業担当者は、エンゲージメント履歴、インテントシグナル、AIが生成したレコメンデーションなど、リアルタイムのアカウントおよび購買グループのインサイトにすばやくアクセスできます。 この能力により、セールス部門は、より迅速なアウトリーチ、スマートな優先順位付け、マーケティング部門との連携を強化できます。
+Adobe Journey Optimizer B2B Editionを利用すれば、営業部門とアカウント部門のメンバーは、SalesforceやMicrosoft DynamicsなどのCRM （顧客関係管理）ツールから、アカウントと購買グループの情報に関する詳細なページに直接アクセスできます。 この連携機能により、営業担当者は、エンゲージメント履歴、インテントシグナル、AIが生成したレコメンデーションなど、リアルタイムのアカウントおよび購買グループのインサイトにすばやくアクセスできます。 この能力により、セールス部門は、より迅速なアウトリーチ、スマートな優先順位付け、マーケティング部門との連携を強化できます。
 
-Journey Optimizer B2B editionの[&#x200B; アカウントの詳細](account-details.md)および[人物の詳細](person-details.md) ページをCRMから表示できるように、SalesforceまたはDynamics管理者は、アカウント、取引先責任者、またはリード表示からリンクを追加できます。
+営業部門とアカウント部門のメンバーが、CRMからJourney Optimizer B2B Editionの[&#x200B; アカウントの詳細](account-details.md)および[人物の詳細](person-details.md) ページを表示できるようにするには、SalesforceまたはDynamics管理者が、アカウント、取引先責任者、またはリード表示からリンクを追加します。
 
 営業部門のメンバーがCRM インスタンスからのリンクを使用する場合、サンドボックスは&#x200B;_製品_&#x200B;である必要があり、IMS組織は次の順序付きロジックに従って決定されます。
 
@@ -39,7 +47,7 @@ Journey Optimizer B2B editionの[&#x200B; アカウントの詳細](account-deta
 
 ## Salesforce リンク
 
-_アプリケーションをカスタマイズ_&#x200B;権限を持つSalesforce管理者は、アカウント、取引先責任者、またはリードのレイアウトでリンクを設定できます。 設定されたリンク セールスユーザーは、Adobe Journey Optimizer B2B editionの対応するアカウントの詳細または人物の詳細ページにアクセスできます。
+_アプリケーションをカスタマイズ_&#x200B;権限を持つSalesforce管理者は、アカウント、取引先責任者、またはリードのレイアウトでリンクを設定できます。 設定されたリンクにより、セールスユーザーはAdobe Journey Optimizer B2B Editionの対応するアカウントの詳細または人物の詳細ページにアクセスできます。
 
 Salesforceで、カスタムリンクをボタン、ハイパーリンク、またはリンクされたアイコンとして追加し、チームの環境設定に従ってカスタマイズします。
 
@@ -47,7 +55,7 @@ Salesforceで、カスタムリンクをボタン、ハイパーリンク、ま�
 
 Salesforceでのカスタムリンクの追加について詳しくは、Salesforce ドキュメントの[&#x200B; カスタムボタンとリンクの定義](https://help.salesforce.com/s/articleView?id=platform.defining_custom_links.htm&type=5)を参照してください。
 
-リンクのターゲット URLを定義する場合、アカウント、取引先責任者、またはリードレイアウトを使用して、Journey Optimizer B2B editionの対応する詳細ページにリンクできます。
+リンクのターゲット URLを定義する場合、アカウント、取引先責任者、またはリードレイアウトを使用して、Journey Optimizer B2B Editionの対応する詳細ページにリンクできます。
 
 * **アカウント** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[18-character ID of account]`
 
@@ -130,7 +138,7 @@ Salesforceでのカスタムリンクの追加について詳しくは、Salesfo
 
 ## Microsoft Dynamics リンク
 
-Dynamics開発者は、アカウント、取引先責任者、またはリード エンティティを拡張して、リンクフィールドを追加できます。 設定されたリンク セールスユーザーは、Adobe Journey Optimizer B2B editionの対応するアカウントの詳細または人物の詳細ページにアクセスできます。
+Dynamics開発者は、アカウント、取引先責任者、またはリード エンティティを拡張して、リンクフィールドを追加できます。 設定されたリンクにより、セールスユーザーはAdobe Journey Optimizer B2B Editionの対応するアカウントの詳細または人物の詳細ページにアクセスできます。
 
 カスタムリンクをボタン、ハイパーリンク、またはリンクされたアイコンリンクとして追加し、チームの好みに応じてカスタマイズします。
 
@@ -138,7 +146,7 @@ Dynamics開発者は、アカウント、取引先責任者、またはリード
 
 Power Appsを使用して、Dynamics コンポーネントなどのMicrosoft モデル駆動型アプリケーションをカスタマイズします。 Power Appsを使用してDynamicsでカスタムリンクを追加する方法について詳しくは、[PowerApps ドキュメント &#x200B;](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-web-resources)を参照してください。
 
-リンクのターゲット URLを定義する場合、アカウント、取引先責任者、またはリードビューを使用して、Journey Optimizer B2B editionの対応する詳細ページにリンクできます。
+リンクのターゲット URLを定義する場合、アカウント、取引先責任者、またはリードビューを使用して、Journey Optimizer B2B Editionの対応する詳細ページにリンクできます。
 
 * **アカウント** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[Account ID]`
 

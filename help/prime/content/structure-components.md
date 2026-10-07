@@ -8,27 +8,33 @@ autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1634
-ht-degree: 5%
-
+source-wordcount: '1657'
+ht-degree: 6%
 ---
-
 # 構造コンポーネント {#structure-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_email"
 >title="構造コンポーネントについて"
->abstract="コンテンツコンポーネントは、メールの構造のデザイン作成に使用できる空のコンテンツプレースホルダーです。"
+>abstract="構造コンポーネントは、メールの構造をデザインするために使用できるレイアウト要素です。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_landing_page"
@@ -38,7 +44,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_fragment"
 >title="構造コンポーネントについて"
->abstract="構造コンポーネントは、フラグメントの構造をデザインするために使用できるレイアウト要素です。"
+>abstract="構造コンポーネントは、フラグメントの構造のデザイン作成に使用できるレイアウト要素です。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_template"
@@ -58,9 +64,9 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 | ![1:3列アイコン &#x200B;](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3列左] | 1:3の比率を使用してスペースの幅を埋める2列のコンテナ。 第1の（左）列は幅の4分の1を占め、第2の（右）列は残りの3分の4を占める。 |
 | ![2:1列アイコン &#x200B;](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1列右] | 2:1の比率を使用してスペースの幅を埋める2列のコンテナ。 最初の（左）列は幅の3分の2を占め、2番目の（右）列は残りの3分の1を占めます。 |
 | ![2:2列アイコン &#x200B;](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2列] | 2:2の比率を使用してスペースの幅を埋める2列のコンテナ。 左右の列の幅は同じです。 |
-| ![3:1列アイコン &#x200B;](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1列右] | スペースの幅を埋めるために3:1の比率を使用する2列のコンテナ。 最初の（左）列は幅の4分の3 （75%）を占め、2番目の（右）列は残りの4分の1 （25%）を占めます。 |
-| ![3:3列アイコン &#x200B;](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3列] | 3:3の比率を使用してスペースの幅を埋める3列のコンテナ。 3つの列はすべて幅が同じです。 |
-| ![4:4列アイコン &#x200B;](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4列] | 4:4の比率を使用してスペースの幅を埋める4列のコンテナ。 4つの列はすべて幅が同じです。 |
+| ![3:1列アイコン &#x200B;](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1列右] | 3:1の比率を使用してスペースの幅を埋める2列のコンテナ。 最初の（左）列は幅の4分の3 （75%）を占め、2番目の（右）列は残りの4分の1 （25%）を占めます。 |
+| ![3:3列アイコン &#x200B;](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3列] | 3:3の比率を使用してスペースの幅を埋める3列コンテナ。 3つの列はすべて幅が同じです。 |
+| ![4:4列アイコン &#x200B;](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4列] | スペースの幅を埋めるために4:4の比率を使用する4列のコンテナ。 4つの列はすべて幅が同じです。 |
 | ![n:n列アイコン &#x200B;](../../user/assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n列] | 定義した列に従ってスペースを埋める、カスタマイズ可能な列構造。 列数（2から10の間）を設定し、各列の幅を個別に設定します。 [詳細情報](#change-nn-columns) |
 
 ## 構造コンポーネントを追加 {#add-structure-components}

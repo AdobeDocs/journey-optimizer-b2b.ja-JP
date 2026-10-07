@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
     internal-label: Email channel
@@ -36,7 +38,7 @@ topic_v2:
     internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '3509'
 ht-degree: 1%
@@ -49,7 +51,7 @@ ht-degree: 1%
 
 >[!PREREQUISITES]
 >
->Adobe Journey Optimizer B2B editionでこれらの機能にアクセスするには、_[!UICONTROL AI アシスタント]_ > _[!UICONTROL コンテンツを生成]_&#x200B;権限が必要です。 製品管理者が機能の権限を付与する方法について詳しくは、[製品権限の役割を編集](../admin/user-management.md#edit-roles-for-product-permissions)を参照してください。
+>Adobe Journey Optimizer B2B Editionでこれらの機能にアクセスするには、_[!UICONTROL AI アシスタント]_ > _[!UICONTROL コンテンツを生成]_&#x200B;権限が必要です。 製品管理者が機能の権限を付与する方法について詳しくは、[製品権限の役割を編集](../admin/user-management.md#edit-roles-for-product-permissions)を参照してください。
 
 ## ガイドラインと制限事項
 

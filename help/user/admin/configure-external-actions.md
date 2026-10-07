@@ -1,26 +1,34 @@
 ---
 title: 外部アクションの設定
-description: 開発者、管理者、およびマーケターが連携して、ジャーニー内のJourney Optimizer B2B editionと外部サービスを接続する外部アクションを実装、設定、使用する方法について説明します。
+description: 開発者、管理者、およびマーケターが連携して、ジャーニー内のJourney Optimizer B2B Editionと外部サービスを接続する外部アクションを実装、設定、使用する方法について説明します。
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1278
-ht-degree: 1%
-
+source-wordcount: '1278'
+ht-degree: 2%
 ---
-
 # 外部アクションの設定
 
 外部アクションを使用すると、アカウントと個人のジャーニーを[!DNL Journey Optimizer B2B Edition]でジャーニーキャンバスから直接、外部システムと接続できます。 オーディエンスが外部アクションノードに到達すると、システムは、オーディエンス属性データを渡して、設定された外部サービスに対して非同期発信コールを行います。 外部サービスは、データを処理し、コールバックを使用して応答し、ジャーニーの実行を導くために使用できるオーディエンスデータとメタデータを返します。
@@ -37,12 +45,12 @@ ht-degree: 1%
 | | 役割 | タスク |
 | ---- | ---- | ---- |
 | 1 | 開発者 | [外部サービスを実装して公開](#implement-service) |
-| 2 | 管理者 | [Journey Optimizer B2B editionでアクションを設定](#configure-action) |
+| 2 | 管理者 | [Journey Optimizer B2B Editionでアクションを設定](#configure-action) |
 | 3 | マーケター | [&#x200B; ジャーニーに外部ノードを追加](#add-journey-node) |
 
 ## 外部サービスの実装 {#implement-service}
 
-開発者は、[Adobe Journey Optimizer B2B editionの外部アクションサービスプロバイダーインターフェイス &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)に準拠した公開Web サービスを作成して公開する必要があります。
+開発者は、[Adobe Journey Optimizer B2B Edition External Actions Service Provider Interface](https://developer.adobe.com/journey-optimizer-b2b-apis/)に準拠した公開Web サービスを作成して公開する必要があります。
 
 >[!NOTE]
 >
@@ -149,7 +157,7 @@ ht-degree: 1%
 
 #### 検証エラーの詳細
 
-| 表示されるエラー | なぜそうなったのか | 今後の施策 |
+| 表示されるエラー | なぜそうなったのか | 必要なアクション |
 |---|---|---|
 | `This URL is already used by another external action` | この仕様URLは、既に組織内の別のアクションに登録されています。 | 別の仕様URLを使用するか、既に使用している既存のアクションを削除します。 |
 | `An action with this name already exists` | スペックの`info.title`は、既に存在するアクションと一致します | スペックの`info.title` フィールドのタイトルをユニークなものに変更します。 |
@@ -158,7 +166,7 @@ ht-degree: 1%
 | `The entity type value is invalid` | エンティティ型のAdobe固有の`x-`拡張機能に認識されない値があります | エンティティの種類をサポートされている値に修正します。 有効なオプションについては、[開発者ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
 | `The provided document is not a valid OpenAPI specification` | 仕様は構造的に解析できません。 | OpenAPI 3.0 スキーマに対して仕様を検証し、問題を修正します。 |
 | `Required OpenAPI field is missing` | 標準のOpenAPI必須フィールドがありません（`info`または`paths`など）。 | 見つからないフィールドを追加します。 |
-| `Required endpoint is missing from the specification` | Adobe Journey Optimizer B2B editionに必要なエンドポイントが、仕様で定義されていません。 | 必要なエンドポイントを追加します。 エンドポイントが必要な場合は、[開発者ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
+| `Required endpoint is missing from the specification` | Adobe Journey Optimizer B2B Editionに必要なエンドポイントが仕様で定義されていません。 | 必要なエンドポイントを追加します。 エンドポイントが必要な場合は、[開発者ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
 | `Required extension field is missing` | 必要なAdobe `x-`拡張機能フィールドがスペックにありません。 | ドキュメントの説明に従って、不足している拡張機能フィールドを追加します。 |
 | `Security schemes are missing from the specification` | 仕様には`components`で定義された`securitySchemes`がありません。 | 少なくとも1つのセキュリティスキームを定義します。 |
 | `Multiple authentication types are not supported` | 仕様で複数の認証スキームが定義されています。 | 1つの認証タイプを使用するようにスペックを更新します。 |

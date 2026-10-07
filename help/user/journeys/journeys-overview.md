@@ -1,33 +1,39 @@
 ---
 title: ジャーニー管理
-description: Journey Optimizer B2B editionを利用すれば、電子メール、SMS、イベントをまたいで購買グループのエンゲージメントを構築、公開、管理し、ジャーニーをまたいで需要創出を合理化できます。
+description: Adobe Journey Optimizer B2B Editionを利用すれば、電子メール、SMS、イベントをまたいで購買グループのエンゲージメントを構築、公開、管理し、ジャーニーをまたいで需要創出を合理化できます。
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
+autotag-review: 2026-03-30T23:09:32.398Z
+TQID: 'https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:09:32.398Z
-TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 46%
-
 ---
-
 # ジャーニー管理
 
-Journey Optimizer B2B editionでは、ジャーニーを自動化し、マルチステップのアカウントベースおよびリードベースのマーケティングプランを利用して、エンゲージメント、ビジネスイベント、スケジュール型のキャンペーンに応じて、チャネルをまたいでパーソナライズされたエクスペリエンスを連携できます。 電子メールやSMSなどを含むセールス主導のエンゲージメントを定義し、インバウンドマーケティングと各購買グループメンバーのアウトバウンドセールス活動を連携させます。
+Journey Optimizer B2B Editionでは、ジャーニーを自動化し、マルチステップのアカウントベースおよびリードベースのマーケティングプランで、エンゲージメント、ビジネスイベント、スケジュールされたキャンペーンに応じて、チャネルをまたいでパーソナライズされたエクスペリエンスを編成します。 電子メールやSMSなどを含むセールス主導のエンゲージメントを定義し、インバウンドマーケティングと各購買グループメンバーのアウトバウンドセールス活動を連携させます。
 
-Journey Optimizer B2B editionでは、次の2種類のジャーニーをサポートしています。
+Journey Optimizer B2B Editionでは、次の2種類のジャーニーをサポートしています。
 
 * **アカウントジャーニー** – 需要創出と購買グループの選定を合理化し、獲得、アップセル/クロスセル、および維持プログラムに対するより適格な需要を促進します。 メール、SMS、イベントなどを通じて自動化されたエンゲージメントを使用して、各購買グループと、購買グループのメンバーに合わせてジャーニーを調整します。
 
@@ -116,7 +122,7 @@ Journey Optimizer B2B editionでは、次の2種類のジャーニーをサポ�
 
 ## ジャーニーアクション
 
-ジャーニーリストページには、Journey Optimizer B2B edition インスタンス内のすべてのアカウントまたは人物のジャーニーが含まれます。 リストページから、ジャーニーに複数のアクションを適用できます。
+ジャーニーリストページには、Journey Optimizer B2B Edition インスタンス内のすべてのアカウントまたは人物のジャーニーが含まれます。 リストページから、ジャーニーに複数のアクションを適用できます。
 
 ### ジャーニーを中止
 

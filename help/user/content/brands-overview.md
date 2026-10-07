@@ -1,36 +1,44 @@
 ---
 title: コンテンツの生成と一貫性にブランドを活用
-description: 一貫性のあるコンテンツ制作のためのブランドガイドラインを定義します。Journey Optimizer B2B editionなら、ビジュアルアイデンティティ、メッセージの整合性、ブランドボイスを維持できます。
+description: 一貫性のあるコンテンツ制作のためのブランドガイドラインを策定する – Journey Optimizer B2B Editionでビジュアルアイデンティティ、メッセージの整合性、ブランドボイスを維持します。
 badge: label="ベータ版" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+autotag-review: 2026-03-30T21:50:39.165Z
+TQID: 'https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-autotag-review: 2026-03-30T21:50:39.165Z
-TQID: https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content strategy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '868'
 ht-degree: 12%
-
 ---
-
-# コンテンツの生成と一貫性に対するブランドの使用 {#brands}
+# ブランドをコンテンツ生成と一貫性の維持に活用する {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
->title="ブランドの基本を学ぶ"
+>title="ブランドの使用を開始する"
 >abstract="自分のブランドを作成およびカスタマイズして、独自の視覚的および言語的アイデンティティを定義すると同時に、ブランドスタイルやブランドボイスに一致するコンテンツを簡単に生成できるようにします。"
 
 >[!CONTEXTUALHELP]
@@ -60,9 +68,9 @@ ht-degree: 12%
 >
 >この機能は現在、パブリックベータ版として利用可能です。
 >
->Adobe Journey Optimizer B2B editionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer B2B EditionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 
-定義されたブランドは、クリエイティブチームがビジュアルまたは書面のコンテンツを作成する際に使用する&#x200B;_信頼できる唯一の情報源_&#x200B;を提供します。 これらのガイドラインをまとめ、ブランドアセットを共有すれば、チームメンバーや共同作業者であれば誰でもブランドに即したコンテンツを制作できます。 Journey Optimizer B2B editionでブランドに即したコンテンツ制作を可能にするには、次のタスクを実行します。
+定義されたブランドは、クリエイティブチームがビジュアルまたは書面のコンテンツを作成する際に使用する&#x200B;_信頼できる唯一の情報源_&#x200B;を提供します。 これらのガイドラインをまとめ、ブランドアセットを共有すれば、チームメンバーや共同作業者であれば誰でもブランドに即したコンテンツを制作できます。 Journey Optimizer B2B Editionでブランドに即したコンテンツ制作を可能にするには、次のタスクを実行します。
 
 1. ブランド定義の準備。
 
@@ -72,7 +80,7 @@ ht-degree: 12%
 
 1. この情報を1つ以上のPDF ファイルにアセンブリします。
 
-1. PDF ファイルを使用して、Journey Optimizer B2B editionで[&#x200B; ブランド &#x200B;](./brands-manage-create.md#create-and-define-a-brand)を作成します。
+1. PDF ファイルを使用して、Journey Optimizer B2B Editionで[&#x200B; ブランド &#x200B;](./brands-manage-create.md#create-and-define-a-brand)を作成します。
 
 1. 使用する準備ができたら、[&#x200B; ブランドを公開します](./brands-manage-create.md#publish-the-brand)。
 
@@ -85,7 +93,7 @@ ht-degree: 12%
 
 ## ブランド関連の権限
 
-製品管理者は、Adobe Experience Cloudの&#x200B;_権限_ UIを通じて&#x200B;**[!UICONTROL ブランドキットの管理]**&#x200B;または&#x200B;**[!UICONTROL AI アシスタントの有効化]**&#x200B;のリソース権限を割り当てることで、ブランド管理およびブランド調整機能へのアクセスを有効にできます。
+製品管理者は、Adobe Experience Cloudの&#x200B;_権限_ UIを通じて、**[!UICONTROL ブランドキットの管理]**&#x200B;または&#x200B;**[!UICONTROL AI アシスタントの有効化]**&#x200B;のリソース権限を割り当てることで、ブランド管理およびブランド調整機能へのアクセスを有効にできます。
 
 1. 権限アプリで、「**[!UICONTROL 役割]**」タブに移動し、目的の[役割](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}を選択します。
 

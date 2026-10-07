@@ -1,6 +1,6 @@
 ---
 title: ヘルパー関数
-description: Journey Optimizer B2B editionのパーソナライゼーションヘルパー関数のリファレンスガイド。 文字列、日付、計算などの構文と例が含まれています。
+description: Journey Optimizer B2B Editionのパーソナライゼーションヘルパー関数のリファレンスガイド。 文字列、日付、計算などの構文と例が含まれています。
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,26 +11,35 @@ autotag-review: '2026-05-27T16:17:26.324Z'
 TQID: 'https://experienceleague.adobe.com/T4rBlUSxIJylMD4PGmAFG3qXJRVBBLEtzPE5WCWx8NA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 4937
-ht-degree: 47%
-
+source-wordcount: '4937'
+ht-degree: 49%
 ---
-
 # ヘルパー関数
 
 パーソナライゼーションエディター内のヘルパー関数を使用して、データの操作、計算の実行、コンテンツのフォーマットなどをおこない、パーソナライズされたコンテンツエクスペリエンスを正確かつ効率的に定義します。 これらの機能、オペレーター、ヘルパーがどのように連携するかを探索して実験し、カスタマイズされたデータドリブン型のジャーニーを構築するのに役立つかをご確認ください。
@@ -39,7 +48,7 @@ ht-degree: 47%
 
 集計関数を使用して複数の値をグループ化し、単一の概要値を形成します。 また、配列関数とリスト関数を使用して、配列、リスト、文字列の操作を簡単に定義することもできます。
 
-### 平均 {#average}
+### average {#average}
 
 `average`関数を使用して、配列内で選択したすべての値の算術平均を返します。
 
@@ -393,7 +402,7 @@ ht-degree: 47%
 
 +++
 
-### 含む {#includes}
+### includes {#includes}
 
 `includes`関数を使用して、配列またはリストに特定の項目が含まれているかどうかを判断します。
 
@@ -413,7 +422,7 @@ ht-degree: 47%
 
 +++
 
-### 積集合 {#intersects}
+### intersects {#intersects}
 
 `intersects` 関数は、2つの配列またはリストに、共通メンバーが 1 つ以上あるかどうかを判断するために使用されます。
 
@@ -524,7 +533,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 +++
 
-### スーパーセットの {#superset}
+### supersetOf {#superset}
 
 `supersetOf`関数を使用して、特定の配列（配列A）が別の配列（配列B）のスーパーセットであるかどうかを判断します。 つまり、配列 A には配列 B のすべての要素が含まれているということです。
 
@@ -684,7 +693,7 @@ The following operation gets the value of the identity map for the key `example@
 
 **例**
 
-currentDate = 2025-01-07T12:17:10.720122+05:30 （アジア/コルカタ）
+currentDate = 2025-01-07T12:17:10.720122+05:30（アジア／コルカタ）
 
 * 入力：`{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * 出力：`5`
@@ -703,7 +712,7 @@ currentDate = 2025-01-07T12:17:10.720122+05:30 （アジア/コルカタ）
 
 **例**
 
-currentDate = 2025-01-07T12:22:46.993748+05:30 （Asia/Kolkata）
+currentDate = 2025-01-07T12:22:46.993748+05:30（アジア／コルカタ）
 
 * 入力：`{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * 出力：`12`
@@ -1597,7 +1606,7 @@ Some edu specific content
 
 **例**
 
-ユーザが買い物かごに入れた商品のリストをレンダリングします。
+ユーザーが買い物かごに入れた商品のリストをレンダリングします。
 
 ```sql
 {{#each profile.products as |product|}}
@@ -1751,7 +1760,7 @@ Some edu specific content
 
 +++
 
-### キー {#keys}
+### keys {#keys}
 
 `keys`関数を使用して、特定のマップのすべてのキーを取得します。
 
@@ -1771,7 +1780,7 @@ Some edu specific content
 
 +++
 
-### 値 {#values}
+### values {#values}
 
 `values` 関数は、特定のマップのすべての値を取得するために使用されます。
 
@@ -1795,7 +1804,7 @@ Some edu specific content
 
 パーソナライゼーションエディターで数学関数を使用する方法を説明します。
 
-### 絶対 {#absolute}
+### absolute {#absolute}
 
 `absolute`関数を使用して、数値を絶対値に変換します。
 
@@ -2479,7 +2488,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 +++
 
-### いいね！ {#like}
+### like {#like}
 
 文字列が指定されたパターンと一致するかどうかを判断するには、`like`関数を使用します。
 
@@ -2544,7 +2553,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 +++
 
-### マスク {#mask}
+### mask {#mask}
 
 `mask`関数を使用して、文字列の一部を「X」文字に置き換えます。
 

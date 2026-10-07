@@ -15,6 +15,10 @@ feature_v2:
     internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
     internal-label: Web channel
@@ -33,7 +37,7 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 6%

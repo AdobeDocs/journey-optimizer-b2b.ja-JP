@@ -1,29 +1,37 @@
 ---
 title: CRM 内インサイト
-description: CRMから直接、Journey Optimizer B2B editionの購買グループにアクセスできます。 営業部門のメンバーは、エンゲージメントデータを確認し、CRM内のインサイトから販売機会を特定することができます。
+description: CRMから直接Journey Optimizer B2B Editionの購買グループにアクセスできます。 営業部門のメンバーは、エンゲージメントデータを確認し、CRM内のインサイトから販売機会を特定することができます。
 feature: Sales Insights, Buying Groups
 role: User
 exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
+autotag-review: 2026-03-30T21:40:22.011Z
+TQID: 'https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T21:40:22.011Z
-TQID: https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '483'
 ht-degree: 2%
-
 ---
-
 # CRM 内インサイト
 
 [!DNL In-CRM Insights]は、SalesforceとMicrosoft Dynamics 365に統合されたweb ベースのアプリケーションで、CRM内で[!DNL Journey Optimizer B2B Edition]個の購買グループに直接アクセスできます。 営業データソースをつなぎ合わせることで、エンゲージメントを高め、売上を伸ばす機会を容易に特定することができます。
@@ -63,7 +71,7 @@ In-CRM Insights パッケージをインストールするには、Salesforceま
 1. ダイアログでサードパーティのアクセスを承認し、**[!UICONTROL 続行]**&#x200B;をクリックします。
 1. インストールが完了したら、**[!UICONTROL 完了]**&#x200B;をクリックします。
 
-   **インストール済みパッケージ** ページに表示され、**Journey Optimizer B2B edition**&#x200B;がアプリランチャーに表示されるようになりました。
+   これで&#x200B;**インストール済みパッケージ** ページに表示され、**Journey Optimizer B2B Edition**&#x200B;がアプリランチャーに表示されます。
 
    ![Salesforce内でCRM内インサイトを設定](assets/in-crm-install-sf-done.png){width=800 zoomable="yes"}
 
@@ -76,7 +84,7 @@ In-CRM Insights パッケージをインストールするには、Salesforceま
 1. インストーラーパッケージを参照してアップロードし、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 1. パッケージの詳細を確認し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 1. _環境変数_&#x200B;で、値が`prod`に設定されていることを確認し（値を変更しないでください）、**[!UICONTROL 読み込み]**&#x200B;をクリックします。
-1. インストールが完了すると、左側のナビゲーションバーに&#x200B;**[!UICONTROL Journey Optimizer B2B edition]** > **[!UICONTROL 購買グループ]**&#x200B;が表示されます。
+1. インストールが完了すると、左側のナビゲーションバーに&#x200B;**[!UICONTROL Journey Optimizer B2B Edition]** > **[!UICONTROL 購買グループ]**&#x200B;が表示されます。
 
    Microsoft Dynamicsで![In-CRM インサイトを利用できます](assets/incrm-ms-install-done.png){width=800 zoomable="yes"}
 
@@ -84,4 +92,4 @@ In-CRM Insights パッケージをインストールするには、Salesforceま
 
 画面の指示に従って、Adobe アカウントにログインします。 購買グループが読み込まれ、表示できます。
 
-購買グループを選択した後、[&#x200B; グループの詳細](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)を参照できます。 これは、Journey Optimizer B2B editionに表示されるデータとインサイトと同じですが、データは[!DNL In-CRM Insights]を通じて読み取り専用です。
+購買グループを選択した後、[&#x200B; グループの詳細](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#)を参照できます。 これは、Journey Optimizer B2B Editionに表示されるデータとインサイトと同じですが、データは[!DNL In-CRM Insights]を通じて読み取り専用です。

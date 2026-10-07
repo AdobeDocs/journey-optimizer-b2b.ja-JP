@@ -2,13 +2,14 @@
 title: ペルソナマッピング
 description: Journey Optimizer B2B Primeでペルソナマッピングを設定する方法について説明します。 人物の属性をマッピングしてペルソナを定義し、人物リストと人物ジャーニーで派生ペルソナフィルタリングを使用します。
 badge: label="GA" type="informative" tooltip="この機能は、GAになるまで利用できません"
-source-git-commit: d88ebb07186f488541138da23a276429b1f1994b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 1%
-
+ht-degree: 2%
 ---
-
 # ペルソナマッピング
 
 <!-- not available until GA -->

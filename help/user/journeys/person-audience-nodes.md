@@ -1,31 +1,35 @@
 ---
 title: 人物オーディエンスノード
-description: セグメントベースまたはイベントベースのオーディエンスで人物オーディエンスノードを設定し、Journey Optimizer B2B editionでターゲットを絞ったオーケストレーションを行うための人物ジャーニーエントリーポイントを定義します。
+description: セグメントベースまたはイベントベースのオーディエンスで人物オーディエンスノードを設定し、Journey Optimizer B2B Editionでターゲットを絞ったオーケストレーションを行うための人物ジャーニーエントリーポイントを定義します。
 feature: Audiences
 role: User
-badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 5e05bba998a9c322487bd68b41e0539074a7000d
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 1%
-
+source-wordcount: '641'
+ht-degree: 0%
 ---
-
 # 人物オーディエンスジャーニーノード
 
 _人物オーディエンス_ ノードは、ジャーニーにエントリする人物プロファイルを指定します。 ユーザーのジャーニー[を作成する場合、ジャーニーは常に、入力を定義するユーザーのオーディエンスノードから始まります。 &#x200B;](./create-publish-journey.md#create-a-journey)個人オーディエンスノードには、CDP セグメントまたはイベントベースのメンバーシップという2つのオーディエンス入力タイプのいずれかを設定できます。 セグメントおよびイベントベースのオーディエンス定義は組み合わせることはできません。
@@ -36,13 +40,9 @@ _人物オーディエンス_ ノードは、ジャーニーにエントリす�
 
 * **イベントオーディエンス** – 選定イベントを使用してオーディエンスを定義します。 これらのイベントはノード設定で定義され、管理設定[&#128279;](../admin/configure-aep-events.md)で設定されたXDM イベントを使用する必要があります。 イベントベースのオーディエンスメンバーシップでは、最大10個のイベントがサポートされます。 プロファイルは、プロファイルが取る最初のマッチングイベントの直後にジャーニーの対象となります。
 
-  >[!NOTE]
-  >
-  >イベントをプロファイル属性と組み合わせて、オーディエンス定義を絞り込むことはできません。 この制限に対処するための改善は、今後のリリースで計画されています。
-
 ## プロファイル取り込み
 
-Journey Optimizer B2B editionでは、夜間のオーディエンス取り込みタスクにより、プロファイルがExperience Platformと同期されます。 イベントベースの個人ジャーニーでは、Journey Optimizer B2B editionが使用するオーディエンス内にないプロファイルを対象にすることができますが、これらのプロファイルは、個人ジャーニー、アカウントジャーニー、購買グループが使用するオーディエンスに参加しない限り、陳腐化したままです。 プロファイルが取り込まれ、後でオーディエンスに追加された場合、プロファイルのステッチが実行され、プロファイルはExperience Platformと同期されたままになります。 このプロファイルデータ同期の改善は、今後のリリースで計画されています。
+Journey Optimizer B2B Editionでは、夜間のオーディエンス取り込みタスクにより、プロファイルがExperience Platformと同期されます。 イベントベースの人物ジャーニーは、Journey Optimizer B2B Editionで使用されるオーディエンス内ではないプロファイルを選定できますが、これらのプロファイルは、人物ジャーニー、アカウントジャーニー、購買グループで使用されるオーディエンスに参加しない限り、古い状態のままです。 プロファイルが取り込まれ、後でオーディエンスに追加された場合、プロファイルのステッチが実行され、プロファイルはExperience Platformと同期されたままになります。 このプロファイルデータ同期の改善は、今後のリリースで計画されています。
 
 イベントベースの人物ジャーニーによって取り込まれた新しく作成されたプロファイルは、取り込み時に更新されたプロファイル情報を欠いている可能性があります。 例えば、フォーム入力イベントを通じてプロファイルが作成された場合、ジャーニーが取り込むときに送信されたデータがプロファイルに同期されない可能性があります。 その結果、パーソナライゼーション用のデータ（メールコンテンツなど）が不完全になる可能性があります。 このプロファイルイベントデータ同期の改善は、今後のリリースで計画されています。
 
@@ -50,7 +50,7 @@ Journey Optimizer B2B editionでは、夜間のオーディエンス取り込み
 
 >[!IMPORTANT]
 >
->現在のベータプログラムでは、個人ジャーニーの理想的な使い方は、アカウントジャーニーと購買グループの定義でターゲットにしているプロファイルのみを選定することです。 この使用により、Experience Platformと常に同期された完全なプロファイルが確保されます。
+>個人ジャーニーの理想的な用途は、アカウントジャーニーと購買グループの定義でターゲットにしているプロファイルのみを選定することです。 この使用により、Experience Platformと常に同期された完全なプロファイルが確保されます。
 
 ## 個人オーディエンスノードのオーディエンスの設定
 

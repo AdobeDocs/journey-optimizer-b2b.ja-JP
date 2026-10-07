@@ -1,45 +1,57 @@
 ---
 title: コンテンツのパーソナライゼーション
-description: Journey Optimizer B2B editionのアカウントトークン、人物トークン、システムトークンを使用して、B2B メールをパーソナライズします。 パーソナライゼーションエディターと構文の使用方法を説明します。
+description: Journey Optimizer B2B Editionのアカウントトークン、個人トークン、システムトークンを使用して、B2B メールをパーソナライズします。 パーソナライゼーションエディターと構文の使用方法を説明します。
 feature: Personalization, Content Design Tools, Email Authoring
 topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
+autotag-review: 2026-03-30T21:59:25.221Z
+TQID: 'https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: 2026-03-30T21:59:25.221Z
-TQID: https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: '751'
 ht-degree: 9%
-
 ---
-
 # コンテンツのパーソナライゼーション {#add-personalization}
 
 >[!CONTEXTUALHELP]
 >id="aj-b2b_personalization"
 >title="コンテンツエクスペリエンスのパーソナライズ"
->abstract="**Adobe Journey Optimizer B2B Edition** では、受信者に関するデータや情報（名前、業界、役職など）を活用することにより、 特定の受信者に合わせてメッセージを作成できます。"
+>abstract="**Adobe Journey Optimizer B2B Edition** では、受信者に関するデータや情報（名前、業界、役職など）を活用することにより、 例えば、名、業種、役職などの情報です。"
 
-[!DNL Adobe Journey Optimizer B2B Edition]のパーソナライゼーション機能を使用すると、電子メール メッセージを特定の受信者ごとに、自分が持っているデータと情報を活用して調整できます。 特定の受信者に合わせてメッセージを作成できます。
+[!DNL Adobe Journey Optimizer B2B Edition]のパーソナライゼーション機能を使用すると、電子メール メッセージを特定の受信者ごとに、自分が持っているデータと情報を活用して調整できます。 例えば、名、業種、役職などの情報です。
 
 _パーソナライゼーションエディター_&#x200B;を使用すると、すべてのデータを選択、配置、カスタマイズ、検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。 ヘルパー関数など、さまざまなツールを使用してメッセージを調整します。 エディターは、_Handlebars_&#x200B;に基づくインラインパーソナライゼーション構文を使用します。この構文では、式はコンテンツを二重中括弧`{{}}`で囲んで構築されます。
 
-メッセージを処理する場合、Journey Optimizer B2B editionは、式をAdobe Experience Platform データセットおよびローカルシステムの値に含まれるデータに置き換えます。 例えば、`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` は動的に `Hello John Doe` になります。
+メッセージを処理する際、Journey Optimizer B2B Editionはエクスプレッションを、Adobe Experience Platform データセットおよびローカルシステムの値に含まれるデータに置き換えます。 例えば、`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` は動的に `Hello John Doe` になります。
 
 この構文を使用すると、電子メールの件名、メッセージ本文、送信者情報など、複数のフィールドをまたいでメッセージをパーソナライズできます。
 

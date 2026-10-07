@@ -7,22 +7,31 @@ autotag-review: '2026-05-27T16:06:59.553Z'
 TQID: 'https://experienceleague.adobe.com/GFW5SZ5Z-phoEIE6jTVD7EgwcT1Vx647mjoLXJejbFg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 542
-ht-degree: 16%
-
+source-wordcount: '542'
+ht-degree: 19%
 ---
-
 # Forms設定
 
 マーケターがランディングページで使用するフォームを[作成して公開する](../content/forms.md)前に、製品管理者が1つ以上の専用プリセットを作成する必要があります。 各プリセットは、フォーム送信データの送信に使用される接続エンドポイントと、キャプチャしたデータの保存に使用されるデータセットを定義します。
@@ -40,7 +49,7 @@ Web フォームを使用するには、Adobe Experience Platformで1つ以上�
 
 ストリーミングソース接続の作成について詳しくは、[_Experience Platform ドキュメント_](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http)を参照してください。
 
-Journey Optimizer B2B editionのForms チャネル設定には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
+Journey Optimizer B2B EditionのForms チャネル設定には、次の[権限](../admin/user-management.md#b2b-product-permissions)が必要です。
 
 * _[!UICONTROL B2B チャネル設定]_ > _[!UICONTROL Forms プリセットの表示]_ - フォーム プリセット設定の表示に必要です。
 * _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Forms プリセットの管理]_ - フォームプリセット設定の作成、更新、削除に必要です。
@@ -58,9 +67,9 @@ Journey Optimizer B2B editionのForms チャネル設定には、次の[権限](
 
 * 各ストリーミング接続は、次のようなリソースを自動的に生成します。
 
-   * _ソース接続_ - データの発生元。
-   * _ターゲット接続_ - データが保存または使用される場所。
-   * _Source フロー_ - ソース接続からExperience Platformにデータを移動するパイプライン。 マッピング、変換、検証を処理します。
+  * _ソース接続_ - データの発生元。
+  * _ターゲット接続_ - データが保存または使用される場所。
+  * _Source フロー_ - ソース接続からExperience Platformにデータを移動するパイプライン。 マッピング、変換、検証を処理します。
 
 ## フォームプリセットを作成
 
@@ -76,7 +85,7 @@ Journey Optimizer B2B editionのForms チャネル設定には、次の[権限](
 
    >[!NOTE]
    >
-   >名前は文字（A ～ Z）で始める必要があり、英数字のみを含めることができます。 アンダースコア `_`、ドット `.`、ハイフン `-`文字も使用できます。
+   >名前は文字（A ～ Z）で始める必要があり、英数字のみを含めることができます。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
 1. **[!UICONTROL ストリーミング接続]**&#x200B;を選択します。
 
@@ -90,7 +99,7 @@ Journey Optimizer B2B editionのForms チャネル設定には、次の[権限](
 
    >[!NOTE]
    >
-   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に 1 つのデータセットを選択できます。 フォームデータの保存にシステムデータセットを使用することはできません。
+   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に 1 つのデータセットを選択できます。 フォームデータの保存にシステムデータセットは使用できません。
 
    データセットのチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 

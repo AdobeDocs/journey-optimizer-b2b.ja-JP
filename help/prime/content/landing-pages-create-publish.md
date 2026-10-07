@@ -8,21 +8,27 @@ autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1562
-ht-degree: 16%
-
+source-wordcount: '1562'
+ht-degree: 19%
 ---
-
 # ランディングページの作成と公開
 
 マーケターは、ジャーニーに組み込むページを定義して公開できます。 新しいランディングページを追加する場合、プライマリページとサブページを設定し、コンテンツをデザインしてテストし、公開します。
@@ -52,7 +58,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->最初のランディングページを作成する前に、ランディングページの設定を完了します。 これには、ランディングページをホストするサブドメインを設定したり、サブドメインやその他のチャネル設定を指定する少なくとも1つのプリセットを定義したりすることが含まれます。 ランディングページの作成時にプリセットを選択します。 管理者の設定については、[&#x200B; ランディングページ設定](../admin/configuration-presets-landing-pages.md)を参照してください。
+>最初のランディングページを作成する前に、ランディングページの設定を完了します。 これには、ランディングページをホストするサブドメインを設定したり、サブドメインやその他のチャネル設定を指定する 1 つ以上のプリセットを定義したりすることが含まれます。 ランディングページの作成時にプリセットを選択します。 管理者の設定については、[&#x200B; ランディングページ設定](../admin/configuration-presets-landing-pages.md)を参照してください。
 >
 >データキャプチャのユースケースの場合は、ランディングページに埋め込む前に[&#x200B; フォーム &#x200B;](./forms.md)を作成します。
 
@@ -171,7 +177,7 @@ _プライマリページ設定を定義するには&#x200B;:_
 
   >[!NOTE]
   >
-  >.zip ファイル構造に制限はありません。 ただし、.zip フォルダーのツリー構造に合わせて、相対参照を指定する必要があります。 画像は常に[&#x200B; アセットリポジトリ &#x200B;](./digital-asset-management.md)にアップロードされます。
+  >.zip ファイル構造に制約はありません。&#x200B; ただし、.zip フォルダーのツリー構造に合わせて、相対参照を指定する必要があります。 画像は常に[&#x200B; アセットリポジトリ &#x200B;](./digital-asset-management.md)にアップロードされます。
 
 _HTML コンテンツを含むファイルを読み込むには&#x200B;:_
 
@@ -199,15 +205,15 @@ _HTML コンテンツを含むファイルを読み込むには&#x200B;:_
 
 * 推奨事項とベストプラクティスに関する&#x200B;**_警告_**&#x200B;は、次のとおりです。
 
-   * `Placeholder links are present in the landing page body`: プレースホルダーを有効なリンクに置き換えることを忘れないでください。
+  * `Placeholder links are present in the landing page body`: プレースホルダーを有効なリンクに置き換えることを忘れないでください。
 
-   * `Text version of HTML is empty`: HTML コンテンツを表示できない場合に使用する、ページ本文のテキスト版を定義することを忘れないでください。
+  * `Text version of HTML is empty`: HTML コンテンツを表示できない場合に使用する、ページ本文のテキスト版を定義することを忘れないでください。
 
-   * `Empty link is present in page body`: ページ内のすべてのリンクが正しいことを確認してください。
+  * `Empty link is present in page body`: ページ内のすべてのリンクが正しいことを確認してください。
 
 * 解決されない限り、ジャーニーのテストやアクティブ化を妨げる&#x200B;**_エラー_**&#x200B;が発生します。例えば、次のようになります。
 
-   * `The landing page content is empty`: ページコンテンツは必須です。
+  * `The landing page content is empty`: ページコンテンツは必須です。
 
 ## ランディングページのテスト {#test-landing-page}
 

@@ -1,6 +1,6 @@
 ---
 title: メールPersonalizationのカスタムトークン
-description: 動的なメールパーソナライゼーション用のカスタムマイトークンを作成および管理する – Journey Optimizer B2B editionでアカウントジャーニーのテキスト変数と数変数を定義します。
+description: 動的なメールパーソナライゼーション用のカスタムマイトークンを作成および管理 – Journey Optimizer B2B Editionでアカウントジャーニーのテキスト変数と数変数を定義します。
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:17:44.938Z'
 TQID: 'https://experienceleague.adobe.com/Jhx5DqeSOi5oTIyBNXw04RagSUFiNx-OPig-vTdFWfU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: '606'
 ht-degree: 2%
-
 ---
-
 # メールパーソナライゼーション用のカスタムトークン
 
 コンテンツパーソナライゼーションでは、コンテンツアーティファクトが生成されたときに入力されるプレースホルダーまたは変数としてトークンを使用します。 標準のパーソナライズトークンは、メール、ランディングページ、フラグメント、テンプレートで利用できます。 また、アカウントジャーニーに固有の値を持つカスタムトークンのセットを定義することもできます。 この一連のカスタムトークンは&#x200B;_マイトークン_&#x200B;と呼ばれ、[&#x200B; ジャーニーメールのオーサリング &#x200B;](./email-authoring.md#personalize-content)時に、これらのカスタムトークンのいずれかをパーソナライゼーションに使用できます。

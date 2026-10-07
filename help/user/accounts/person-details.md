@@ -1,30 +1,38 @@
 ---
 title: 顧客の詳細
-description: Journey Optimizer B2B editionでは、AIが生成した概要、エンゲージメントスコア、アクティビティの追跡、購買グループメンバーの意図の検出により、人物のインサイトを表示できます。
+description: Journey Optimizer B2B Editionで購買グループメンバーのAIが生成した概要、エンゲージメントスコア、アクティビティトラッキング、インテント検出により、人物インサイトを表示します。
 feature: Account Insights
 role: User
 exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+autotag-review: 2026-03-27T22:21:27.328Z
+TQID: 'https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:21:27.328Z
-TQID: https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 7%
-
 ---
-
 # 顧客の詳細
 
-Journey Optimizer B2B editionの任意の場所から人物名をクリックすると、人物詳細ページが表示されます。 このページには、アカウントまたは購買グループに関連付けられた人物に関する有用な情報が含まれ、ハイライトデータとインテントデータ（設定されている場合）の生成AI概要が含まれます。<!-- There are also [actions](#person-actions) that you can execute for the person. -->
+Journey Optimizer B2B Editionの任意の場所から人物名をクリックすると、人物詳細ページが表示されます。 このページには、アカウントまたは購買グループに関連付けられた人物に関する有用な情報が含まれ、ハイライトデータとインテントデータ（設定されている場合）の生成AI概要が含まれます。<!-- There are also [actions](#person-actions) that you can execute for the person. -->
 
 ![人物の詳細ページ &#x200B;](./assets/person-details-page.png){width="800" zoomable="yes"}
 
@@ -65,7 +73,7 @@ Journey Optimizer B2B editionの任意の場所から人物名をクリックす
 
 ## インテントデータ
 
-Journey Optimizer B2B editionでは、インテント検出モデルは、個人のアクティビティに基づいて、十分な信頼性で関心のあるソリューション/製品を予測します。 また、タグ付けされたコンテンツとともに、他のアカウントの共同メンバーのアクティビティも活用します。 人の意図は、製品に興味を持つ可能性として解釈できます。
+Journey Optimizer B2B Editionでは、インテント検出モデルは、個人のアクティビティに基づいて、十分な信頼性で関心のあるソリューション/製品を予測します。 また、タグ付けされたコンテンツとともに、他のアカウントの共同メンバーのアクティビティも活用します。 人の意図は、製品に興味を持つ可能性として解釈できます。
 
 {{intent-data-note}}
 

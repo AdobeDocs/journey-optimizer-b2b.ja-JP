@@ -1,33 +1,40 @@
 ---
 title: メールパフォーマンスレポート
-description: Journey Optimizer B2B editionの電子メールパフォーマンスレポートを使用すると、あらゆるジャーニーをまたいで、メールの送信、配信、エンゲージメント、オプトアウトの指標を1つの統合されたビューでモニタリングできます。
+description: Journey Optimizer B2B Editionのメールパフォーマンスレポートを使用すると、あらゆるジャーニーをまたいで、メールの送信、配信、エンゲージメント、オプトアウトの指標を1つの統合されたビューでモニタリングできます。
 feature: Dashboards, Reporting
 role: User
 autotag-review: '2026-05-21T15:04:51.176Z'
 TQID: 'https://experienceleague.adobe.com/hA63o9-2-atw0kRNFeEu6H449WmZ59CjL3uiVS7nEcA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+    internal-label: Reporting
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 833
+source-wordcount: '833'
 ht-degree: 5%
-
 ---
-
 # メールパフォーマンスレポート
 
-**電子メールパフォーマンス** レポートでは、Adobe Journey Optimizer B2B editionのすべてのジャーニーに関する電子メールアクティビティの統一されたビューをマーケターに提供します。 送信、配信、エンゲージメント、オプトアウトの指標を集約できます。 生数と計算率の両方を明らかにすることで、キャンペーンの成果を監視し、メールのパフォーマンスを比較し、配信品質やエンゲージメントの問題を一目で特定することができます。 電子メールとSMS チャネルのジャーニーレベルの指標については、[&#x200B; アカウントジャーニーダッシュボード &#x200B;](./journeys-dashboard.md)を参照してください。
+**電子メールパフォーマンス** レポートでは、Adobe Journey Optimizer B2B Editionのすべてのジャーニーにおける電子メールアクティビティの統一されたビューがマーケターに提供されます。 送信、配信、エンゲージメント、オプトアウトの指標を集約できます。 生数と計算率の両方を明らかにすることで、キャンペーンの成果を監視し、メールのパフォーマンスを比較し、配信品質やエンゲージメントの問題を一目で特定することができます。 電子メールとSMS チャネルのジャーニーレベルの指標については、[&#x200B; アカウントジャーニーダッシュボード &#x200B;](./journeys-dashboard.md)を参照してください。
 
 ## レポートを読む
 

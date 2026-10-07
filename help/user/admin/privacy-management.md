@@ -1,27 +1,34 @@
 ---
 title: プライバシー管理
-description: Journey Optimizer B2B editionでGDPRやCCPAなどのプライバシー規制に準拠し、Adobe Privacy Serviceを使用してリクエストを送信する方法をご紹介します。
+description: Journey Optimizer B2B EditionでGDPRやCCPAなどのプライバシー規制に準拠し、Adobe Privacy Serviceを使用してリクエストを送信する方法をご紹介します。
 feature: Setup, Permissions
 role: Admin
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: '634'
 ht-degree: 2%
-
 ---
-
 
 # プライバシーの管理 {#privacy-management}
 
-[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/home){target="_blank"}には、お客様のデータリクエストの管理に役立つRESTful APIとユーザーインターフェイスが用意されています。 [!DNL Adobe Privacy Service]を使用すると、Adobe CX Enterprise アプリケーションから個人のお客様データにアクセスして削除するリクエストを送信でき、法的および組織のプライバシー規制への自動コンプライアンスが容易になります。
+[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/home){target="_blank"}には、お客様のデータリクエストの管理に役立つRESTful APIとユーザーインターフェイスが用意されています。 [!DNL Adobe Privacy Service]を使用すると、Adobe CX Enterprise アプリケーションから個人のお客様データにアクセスして削除するリクエストを送信でき、法的および組織のプライバシー規制への自動コンプライアンスが促進されます。
 
 [!DNL Adobe Journey Optimizer B2B Edition]には、グローバルなデータ保護要件を満たすことができるように、これらのプライバシーツールが用意されています。 [!DNL Privacy Service]を使用して、[!DNL Journey Optimizer B2B Edition]が収集および保存するデータのアクセス要求と削除要求を送信および管理します。
 
@@ -85,7 +92,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL 製品]**&#x200B;の場合、**[!UICONTROL Marketo]**&#x200B;を選択します。
 
-   ![Marketo EngageおよびJourney Optimizer B2B editionに対するGDPR アクセスのプライバシーリクエストを作成](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
+   ![Marketo EngageおよびJourney Optimizer B2B Editionに対するGDPR アクセスのプライバシーリクエストを作成](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
 
    この選択には、[!DNL Journey Optimizer B2B Edition]と[!DNL Marketo Engage] インスタンスの両方のデータが含まれます。
 

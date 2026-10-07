@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T21:52:30.119Z'
 TQID: 'https://experienceleague.adobe.com/HlZVkbD1SkW94xTSLv-rMoKYWG6E79wBGfIH3oGQTNI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: '2840'
 ht-degree: 7%
-
 ---
-
 # コンテンツコンポーネント {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -457,11 +463,11 @@ _Divider_ コンポーネントを追加して、コンテンツのセクショ�
 
 * **[!UICONTROL 幅]** - トグルを使用して、幅をピクセルまたはパーセント単位で設定します。
 
-   * パーセンテージ幅の場合は、スライダーを使用してパーセンテージ値を設定します。 パーセンテージは、含まれるブロックのコンテンツボックスに基づいてエレメントのサイズを決定します。このボックスでは、パディングと境界線は除外されます。 例えば、値が50の場合、要素の幅は、含まれるブロックコンテンツの幅の50%に設定されます。
+  * パーセンテージ幅の場合は、スライダーを使用してパーセンテージ値を設定します。 パーセンテージは、含まれるブロックのコンテンツボックスに基づいてエレメントのサイズを決定します。このボックスでは、パディングと境界線は除外されます。 例えば、値が50の場合、要素の幅は、含まれるブロックコンテンツの幅の50%に設定されます。
 
   ![区切りコンポーネントの行スタイルを定義](../../user/content/assets/component-divider-line-options.png){width="250"}
 
-   * ピクセルベースの幅の場合は、上下の矢印アイコンをクリックして、ピクセル数を増減します。 空の値（Auto）がデフォルトで、要素の幅を内容に応じてサイズ調整します。
+  * ピクセルベースの幅の場合は、上下の矢印アイコンをクリックして、ピクセル数を増減します。 空の値（Auto）がデフォルトで、要素の幅を内容に応じてサイズ調整します。
 
 * **[!UICONTROL スタイル]** - _Solid_、_Dotted_、_Dashed_&#x200B;など、標準CSS `line-style`値のリストから値を選択します。
 
@@ -573,9 +579,9 @@ HTML コンポーネントの場合、右側のパネルで、HTML コンポー�
 
   必要なアセットを見つけるのに役立つツールがあります。
 
-   * 左上の&#x200B;_フィルター_ アイコンをクリックして、条件に従って表示される項目をフィルタリングします。
+  * 左上の&#x200B;_フィルター_ アイコンをクリックして、条件に従って表示される項目をフィルタリングします。
 
-   * 「_検索_」フィールドにテキストを入力して、アセット名に一致する表示アイテムをフィルタリングします。
+  * 「_検索_」フィールドにテキストを入力して、アセット名に一致する表示アイテムをフィルタリングします。
 
 * **[!UICONTROL メディアの読み込み]** – このタイプを選択して、システムからファイルを選択し、[!DNL Journey Optimizer B2B Prime] アセットライブラリに読み込みます。
 
