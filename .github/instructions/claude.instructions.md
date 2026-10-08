@@ -745,7 +745,7 @@ UI要素を色や画面の位置で説明しないでください。 色覚に�
 - ローカライズできない画像は、`do-not-localize/` サブフォルダーに移動します。
 - 目次ファイル （`TOC.md`）は、左ナビゲーション構造を定義します。 ページを追加または削除する際に更新します。
 - このリポジトリ内のドキュメント間の相互参照には、ルート相対リンク （`/help/...`）を使用します。
-- このリポジトリ以外のドキュメントへのリンクには、絶対`https://experienceleague.adobe.com/...` URLを使用します。
+- このリポジトリ以外のドキュメントへのリンクには、絶対`https://experienceleague.adobe.com/ja...` URLを使用します。
 - ブランチの名前：ユーザー名のプレフィックスがありません。 Jira チケット番号とタイトル付きのスラグ（例：`PLAT-12345-Update-Guardrail-Limits`）を使用します。 ブランチとPR タイトルの両方に同じ形式を使用して名前を付けます。
 - 個別のコンポーネント（見出し、フェンス付きコードブロック、リスト）は、空白行で囲む必要があります。
 - ドキュメントごとに1つのH1 （`#`）のみです。 前面物質の後の最初の行はH1でなければなりません。
@@ -832,7 +832,7 @@ UI要素を色や画面の位置で説明しないでください。 色覚に�
 - **ローカライゼーションタグ参照**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Experience League Markdown構文**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Markdown チートシート**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **リリースノートのスタイル参照**: https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
+- **リリースノートのスタイル参照**: https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/latest
 
 **ローカルクローン：**
 - **オーサリングガイド リポジトリ：** Adobe Experience League オーサリングガイドまたはその公開ドキュメントの利用可能なチェックアウトを使用します。
