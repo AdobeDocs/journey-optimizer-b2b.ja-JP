@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: e8e17689063cb0c279fca63afbd9c6e865d23772
+source-git-commit: f48abc33799fdcd310b3479d32301795c82a32d0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 83%
+source-wordcount: '451'
+ht-degree: 82%
 ---
 
 # Journey Optimizer B2B Edition ユーザーガイド {#user}
@@ -25,6 +25,9 @@ ht-degree: 83%
     + [ユーザー管理](./admin/user-management.md)
   + [ユーザーのオンボーディング](./start/get-started.md)
   + [ログインとホームページ](home-page.md)
++ データ {#data}
+  + [データの可用性と同期のタイミング](./data/data-availability-timing.md)
+  + [書き出されたデータセット](./data/aep-exported-datasets.md)
 + AI機能 {#ai-assistant}
   + [概要](./ai-coworker/ai-assistant-overview.md)
   + [AI アシスタントへのアクセスを有効にする](./ai-coworker/enable-ai-assistant-access.md)
@@ -45,7 +48,7 @@ ht-degree: 83%
   + [アカウントおよび人物のジャーニー](./journeys/journeys-overview.md)
   + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
   + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
   + ジャーニーノード {#journey-nodes}
     + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
     + [顧客オーディエンス](./journeys/person-audience-nodes.md)
@@ -82,8 +85,6 @@ ht-degree: 83%
   + [LinkedIn アカウントでマッチしたオーディエンス](./data/linkedin-account-matched-audiences.md)
   + [デフォルトの XDM フィールド](./admin/field-mapping.md)
   + [プロファイルのテスト](./audiences/test-profiles.md)
-+ データ {#data}
-  + [書き出されたデータセット](./data/aep-exported-datasets.md)
 + アカウント {#accounts}
   + 購買グループ {#buying-groups}
     + [概要](./buying-groups/buying-groups-overview.md)
@@ -169,7 +170,7 @@ ht-degree: 83%
     + [インテントデータ](./admin/intent-data.md)
     + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
     + [外部アクション](./admin/configure-external-actions.md)
-    + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+    + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
   + チャネル {#channels}
     + [メール設定](./admin/configure-channels-emails.md)
     + [SMS 設定](./admin/configure-channels-sms.md)
