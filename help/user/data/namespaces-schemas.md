@@ -42,17 +42,17 @@ Journey Optimizer B2B Editionの設定には、B2B ソースで使用されるEx
 >
 >- B2B スキーマを[Real-Time Customer Profile](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home){target="_blank"}で選定するには、[Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}にアクセスする必要があります。
 >
->- Experience Platform B2B エンティティは、[B2B 名前空間およびスキーマガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"} に概説されている標準的な関係を使用する必要があります。
+>- Experience Platform B2B エンティティは、[B2B 名前空間およびスキーマガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"} に概説されている標準的な関係を使用する必要があります。
 
 B2B ソースで使用するネームスペースとスキーマの基礎となる設定について、次の情報を確認します。 また、B2B名前空間とスキーマを生成するために必要なPostman自動化ユーティリティの設定の詳細も説明します。
 
-書き出されたすべてのデータセットと、キーデータセットのフィールドレベルの詳細の概要については、[Adobe Journey Optimizer B2B Edition Adobe Experience Platform書き出しデータセット ](./aep-exported-datasets.md)を参照してください。
+書き出されたすべてのデータセットと、キーデータセットのフィールドレベルの詳細の概要については、[Adobe Journey Optimizer B2B Edition Adobe Experience Platform書き出しデータセット &#x200B;](./aep-exported-datasets.md)を参照してください。
 
 ## 自動生成ユーティリティの設定
 
 前提条件については、次のリソースを参照してください。また、B2B 名前空間とスキーマ自動生成ユーティリティをサポートする [!DNL Postman] 環境の設定方法に関する詳細情報も参照してください。
 
-- 名前空間およびスキーマ自動生成ユーティリティのコレクションと環境を [GitHub リポジトリ ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"} からダウンロードします。
+- 名前空間およびスキーマ自動生成ユーティリティのコレクションと環境を [GitHub リポジトリ &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"} からダウンロードします。
 - 必要なヘッダーの値の収集やサンプル API 呼び出しの読み取りの詳細など、Experience Platform API の使用については、[_Adobe Experience Platform API の概要_](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"} を参照してください。
 - Experience Platform API の資格情報の生成について詳しくは、[_Experience Platform API の認証とアクセス_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} を参照してください。
 - Experience Platform API の [!DNL Postman] の設定について詳しくは、Adobe Experience Platformの [_[!DNL Postman] を参照してください _](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman){target="_blank"}
@@ -81,7 +81,7 @@ Experience Platform Developer Console をセットアップす [!DNL Postman] �
 
 環境の値を設定したら、[!DNL Postman] インターフェイスを使用して、名前空間とスキーマを作成するためのスクリプトを実行します。 自動ジェネレーターユーティリティのルート フォルダーを選択し、上部のヘッダーで「**[!DNL Run]**」を選択します。
 
-![Postman UI の名前空間およびスキーマジェネレーターのルートフォルダー ](./assets/namespaces-schemas-postman-root-folder.png){width="500" zoomable="yes"}
+![Postman UI の名前空間およびスキーマジェネレーターのルートフォルダー &#x200B;](./assets/namespaces-schemas-postman-root-folder.png){width="500" zoomable="yes"}
 
 [!DNL Runner] インターフェイスが表示されます。 ここから、すべてのチェックボックスが選択されていることを確認してから選択し **[!DNL Run Namespaces and Schemas Autogeneration Utility]** す。
 
@@ -91,7 +91,7 @@ Experience Platform Developer Console をセットアップす [!DNL Postman] �
 
 ## B2B 名前空間
 
-ID 名前空間は、ID のコンテキストを区別するのに役立つExperience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home){target="_blank"} のコンポーネントです。 完全修飾 ID には、ID 値と名前空間が含まれます。 詳しくは、[ 名前空間の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces){target="_blank"} を参照してください。
+ID 名前空間は、ID のコンテキストを区別するのに役立つExperience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home){target="_blank"} のコンポーネントです。 完全修飾 ID には、ID 値と名前空間が含まれます。 詳しくは、[&#x200B; 名前空間の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces){target="_blank"} を参照してください。
 
 B2B 名前空間は、エンティティのプライマリ ID で使用されます。
 
