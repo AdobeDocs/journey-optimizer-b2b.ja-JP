@@ -39,7 +39,7 @@ ht-degree: 7%
 
 ここでは、`<entity>`は、`person`、`account_relational`、`person_event`などの情報について説明します。 `<datasetVersion>`は、データセットのフィールド定義のバージョンを識別します。 セクションの見出しに文書化された名前が表示されます。[!DNL Experience Platform]環境に古いバージョンが含まれている場合もあります。
 
-これらの書き出しをサポートする名前空間とスキーマの設定については、[B2B名前空間とスキーマ &#x200B;](./namespaces-schemas.md)を参照してください。
+これらの書き出しをサポートする名前空間とスキーマの設定については、[B2B名前空間とスキーマ ](./namespaces-schemas.md)を参照してください。
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ ht-degree: 7%
 
 +++エンティティ関係図
 
-[!DNL Adobe Experience Platform]![&#128279;](./assets/ajo-b2b-data-model.svg)に書き出されたデータセットの エンティティ関係ダイアグラム
+[!DNL Adobe Experience Platform]](./assets/ajo-b2b-data-model.svg)に書き出されたデータセットの![ エンティティ関係ダイアグラム
 
 +++
 
@@ -107,7 +107,7 @@ ht-degree: 7%
 >
 >組織には、ここに記載されている以外の追加の個人フィールドがある場合があります。
 
-組織が独自に設定されたアカウントまたは人物のデータセットを使用する場合、これらのレコードには`isDeleted`も含めることができます。 [顧客所有データセット &#x200B;](#customer-owned-datasets)を参照してください。
+組織が独自に設定されたアカウントまたは人物のデータセットを使用する場合、これらのレコードには`isDeleted`も含めることができます。 [顧客所有データセット ](#customer-owned-datasets)を参照してください。
 
 ## `AJOB2B-1_5_4-account_member`
 
