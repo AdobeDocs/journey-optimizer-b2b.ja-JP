@@ -6,47 +6,56 @@ role: Admin
 exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
+    internal-label: Real-Time Customer Data Platform B2B Edition
 feature_v2:
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
 workflow-type: tm+mt
-source-wordcount: 1003
-ht-degree: 87%
-
+source-wordcount: '1029'
+ht-degree: 84%
 ---
-
 # B2B 名前空間とスキーマ
 
-Journey Optimizer B2B editionの設定には、B2B ソースで使用されるExperience Platform名前空間とスキーマの設定が含まれています。 B2B 名前空間とスキーマを生成するには、Postman自動処理ユーティリティが必要です。
+Journey Optimizer B2B Editionの設定には、B2B ソースで使用されるExperience Platform名前空間とスキーマの設定が含まれます。 B2B 名前空間とスキーマを生成するには、Postman 自動処理ユーティリティが必要です。
 
 >[!AVAILABILITY]
 >
->- B2B スキーマを[Real-Time Customer Profile](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home){target="_blank"}で選定するには、[Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}にアクセスする必要があります。
+>- B2B スキーマを[Real-Time Customer Profile](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home){target="_blank"}で選定するには、[Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}にアクセスする必要があります。
 >
->- Experience Platform B2B エンティティは、[B2B 名前空間およびスキーマガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"} に概説されている標準的な関係を使用する必要があります。
+>- Experience Platform B2B エンティティは、[B2B 名前空間およびスキーマガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"} に概説されている標準的な関係を使用する必要があります。
 
 B2B ソースで使用するネームスペースとスキーマの基礎となる設定について、次の情報を確認します。 また、B2B名前空間とスキーマを生成するために必要なPostman自動化ユーティリティの設定の詳細も説明します。
+
+書き出されたすべてのデータセットと、キーデータセットのフィールドレベルの詳細の概要については、[Adobe Journey Optimizer B2B Edition Adobe Experience Platform書き出しデータセット ](./aep-exported-datasets.md)を参照してください。
 
 ## 自動生成ユーティリティの設定
 
 前提条件については、次のリソースを参照してください。また、B2B 名前空間とスキーマ自動生成ユーティリティをサポートする [!DNL Postman] 環境の設定方法に関する詳細情報も参照してください。
 
-- 名前空間およびスキーマ自動生成ユーティリティのコレクションと環境を [GitHub リポジトリ &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"} からダウンロードします。
+- 名前空間およびスキーマ自動生成ユーティリティのコレクションと環境を [GitHub リポジトリ ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"} からダウンロードします。
 - 必要なヘッダーの値の収集やサンプル API 呼び出しの読み取りの詳細など、Experience Platform API の使用については、[_Adobe Experience Platform API の概要_](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"} を参照してください。
-- Experience Platform API の資格情報の生成について詳しくは、[_Experience Platform API の認証とアクセス_](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} を参照してください。
-- Experience Platform API の [!DNL Postman] の設定について詳しくは、Adobe Experience Platformの [_[!DNL Postman] を参照してください _](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/postman){target="_blank"}
+- Experience Platform API の資格情報の生成について詳しくは、[_Experience Platform API の認証とアクセス_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} を参照してください。
+- Experience Platform API の [!DNL Postman] の設定について詳しくは、Adobe Experience Platformの [_[!DNL Postman] を参照してください _](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman){target="_blank"}
 
 ### 環境値
 
@@ -55,12 +64,12 @@ Experience Platform Developer Console をセットアップす [!DNL Postman] �
 | 変数 | 説明 | 例 |
 | --- | --- | --- |
 | `CLIENT_SECRET` | `{ACCESS_TOKEN}` ータの生成に使用される一意の ID。 | `{CLIENT_SECRET}` |
-| `API_KEY` | Experience Platform API への呼び出しの認証に使用される一意の ID。 | `c8d9a2f5c1e03789bd22e8efdd1bdc1b` |
+| `API_KEY` | Adobe Experience Platform API への呼び出しの認証に使用される一意の ID。 | `c8d9a2f5c1e03789bd22e8efdd1bdc1b` |
 | `ACCESS_TOKEN` | Experience Platform API を呼び出すために必要な認証トークン。 | `Bearer {ACCESS_TOKEN}` |
 | `META_SCOPE` | [!DNL Journey Optimizer B2B] および [!DNL Marketo Engage] に関しては、この値は固定で、常に `ent_dataservices_sdk` に設定されます。 | `ent_dataservices_sdk` |
 | `CONTAINER_ID` | `global` コンテナには、標準のAdobeおよびExperience Platform パートナー提供のすべてのクラス、スキーマフィールドグループ、データタイプおよびスキーマが含まれます。 [!DNL Marketo] に関しては、この値は固定で、常に `global` に設定されます。 | `global` |
 | `TECHNICAL_ACCOUNT_ID` | Adobe I/Oへの統合に使用する資格情報。 | `D42AEVJZTTJC6LZADUBVPA15@techacct.adobe.com` |
-| `IMS` | Identity Management System （IMS）は、Adobe サービスに対して認証を行うためのフレームワークを提供します。 [!DNL Journey Optimizer B2B] および [!DNL Marketo Engage] に関しては、この値は固定で、常に `ims-na1.adobelogin.com` に設定されます。 | `ims-na1.adobelogin.com` |
+| `IMS` | ID 管理システム（IMS）は、Adobe サービスに対して認証を行うためのフレームワークを提供します。 [!DNL Journey Optimizer B2B] および [!DNL Marketo Engage] に関しては、この値は固定で、常に `ims-na1.adobelogin.com` に設定されます。 | `ims-na1.adobelogin.com` |
 | `IMS_ORG` | 製品およびサービスを所有またはライセンスし、そのメンバーへのアクセスを許可できる法人組織。 | `ABCEH0D9KX6A7WA7ATQE0TE@adobeOrg` |
 | `SANDBOX_NAME` | 使用している仮想サンドボックスパーティションの名前。 | `prod` |
 | `TENANT_ID` | 作成するリソースの名前空間が適切に設定され、組織内に含まれていることを確認するために使用される ID。 | `b2bcdpproductiontest` |
@@ -72,7 +81,7 @@ Experience Platform Developer Console をセットアップす [!DNL Postman] �
 
 環境の値を設定したら、[!DNL Postman] インターフェイスを使用して、名前空間とスキーマを作成するためのスクリプトを実行します。 自動ジェネレーターユーティリティのルート フォルダーを選択し、上部のヘッダーで「**[!DNL Run]**」を選択します。
 
-![Postman UI の名前空間およびスキーマジェネレーターのルートフォルダー &#x200B;](./assets/namespaces-schemas-postman-root-folder.png){width="500" zoomable="yes"}
+![Postman UI の名前空間およびスキーマジェネレーターのルートフォルダー ](./assets/namespaces-schemas-postman-root-folder.png){width="500" zoomable="yes"}
 
 [!DNL Runner] インターフェイスが表示されます。 ここから、すべてのチェックボックスが選択されていることを確認してから選択し **[!DNL Run Namespaces and Schemas Autogeneration Utility]** す。
 
@@ -82,7 +91,7 @@ Experience Platform Developer Console をセットアップす [!DNL Postman] �
 
 ## B2B 名前空間
 
-ID 名前空間は、ID のコンテキストを区別するのに役立つExperience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home){target="_blank"} のコンポーネントです。 完全修飾 ID には、ID 値と名前空間が含まれます。 詳しくは、[&#x200B; 名前空間の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces){target="_blank"} を参照してください。
+ID 名前空間は、ID のコンテキストを区別するのに役立つExperience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home){target="_blank"} のコンポーネントです。 完全修飾 ID には、ID 値と名前空間が含まれます。 詳しくは、[ 名前空間の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces){target="_blank"} を参照してください。
 
 B2B 名前空間は、エンティティのプライマリ ID で使用されます。
 
@@ -91,7 +100,7 @@ B2B 名前空間は、エンティティのプライマリ ID で使用されま
 | B2B ユーザー | `b2b_person` | `CROSS_DEVICE` |
 | B2B アカウント | `b2b_account` | `B2B_ACCOUNT` |
 | B2B オポチュニティ | `b2b_opportunity` | `B2B_OPPORTUNITY` |
-| B2B オポチュニティ人物関係 | `b2b_opportunity_person_relation` | `B2B_OPPORTUNITY_PERSON` |
+| B2B 商談人物関係 | `b2b_opportunity_person_relation` | `B2B_OPPORTUNITY_PERSON` |
 | B2B キャンペーン | `b2b_campaign` | `B2B_CAMPAIGN` |
 | B2B キャンペーンメンバー | `b2b_campaign_member` | `B2B_CAMPAIGN_MEMBER` |
 | B2B マーケティングリスト | `b2b_marketing_list` | `B2B_MARKETING_LIST` |
@@ -113,7 +122,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
 <table>
     <tr>
         <td style="width: 30%;">基本クラス</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM ビジネスアカウント</a></td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM ビジネスアカウント</a></td>
     </tr>
     <tr>
         <td>フィールドグループ</td>
@@ -152,11 +161,11 @@ Experience Platformがデータを取り込む前に、データの構造を説�
 <table>
     <tr>
         <td style="width: 30%;">基本クラス</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/individual-profile">XDM 個人プロファイル </a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile">XDM 個人プロファイル </a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>フィールドグループ</td>
-        <td><ul><li>XDM ビジネスパーソンの詳細</li><li>XDM ビジネスパーソンのコンポーネント</li><li>identityMap</li><li>同意と環境設定の詳細</li></ul> </td>
+        <td><ul><li>XDM ビジネスパーソンの詳細</li><li>XDM ビジネス人物コンポーネント</li><li>identityMap</li><li>同意と優先設定の詳細</li></ul> </td>
     </tr>
     <tr>
         <td>[!DNL Profile] スキーマ内</td>
@@ -164,7 +173,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
     </tr>
     <tr>
         <td>プライマリ ID</td>
-        <td><code>b2b.personKey.sourceKey</code> XDM ビジネス人物の詳細フィールドグループ</td>
+        <td><code>b2b.personKey.sourceKey</code> XDM ビジネス人物詳細フィールドグループ内で</td>
     </tr>
     <tr>
         <td>プライマリ ID 名前空間</td>
@@ -172,7 +181,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
     </tr>
     <tr>
         <td>セカンダリID</td>
-        <td><ol><li><code>extSourceSystemAudit.externalKey.sourceKey</code> XDM ビジネス人物の詳細フィールドグループの</li><li><code>workEmail.address</code> XDM ビジネス人物の詳細フィールドグループの</li></ol></td>
+        <td><ol><li><code>extSourceSystemAudit.externalKey.sourceKey</code> XDM ビジネス人物詳細フィールドグループの</li><li><code>workEmail.address</code> XDM ビジネス人物詳細フィールドグループの</li></ol></td>
     </tr>
     <tr>
         <td>セカンダリid 名前空間</td>
@@ -180,7 +189,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
     </tr>
     <tr>
         <td>関係</td>
-        <td><ul><li><code>personComponents.sourceAccountKey.sourceKey</code> XDM ビジネスユーザーコンポーネントフィールドグループの</li><li>タイプ：多対 1</li><li>参照スキーマ：B2B アカウント</li><li>名前空間：B2B アカウント</li><li>宛先プロパティ：accountKey.sourceKey</li><li>現在のスキーマからの関係名：アカウント</li><li>参照スキーマからの関係名：人物</li></ul> </td>
+        <td><ul><li><code>personComponents.sourceAccountKey.sourceKey</code> XDM ビジネス人物コンポーネントフィールドグループの</li><li>タイプ：多対 1</li><li>参照スキーマ：B2B アカウント</li><li>名前空間：B2B アカウント</li><li>宛先プロパティ：accountKey.sourceKey</li><li>現在のスキーマからの関係名：アカウント</li><li>参照スキーマからの関係名：人物</li></ul> </td>
     </tr>
 </table>
 
@@ -193,7 +202,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -233,7 +242,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -274,7 +283,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -314,7 +323,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -352,7 +361,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -396,7 +405,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -440,7 +449,7 @@ Experience Platformがデータを取り込む前に、データの構造を説�
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
