@@ -55,13 +55,13 @@ ht-degree: 0%
 
 | データタイプ | 一般的な可用性 |
 | --- | --- |
-| [ オーディエンスメンバーシップ ](#daily-refresh) | 最大24時間（1日サイクル） |
-| [ アカウントと人物の関係の変更](#daily-refresh) | 最大24時間（1日サイクル） |
-| [ データ： [!DNL Experience Platform] から [!DNL Journey Optimizer B2B Edition]](#platform-sync) | 最大30分（ほぼリアルタイム） |
-| [ データ： [!DNL Journey Optimizer B2B Edition] から [!DNL Experience Platform]](#platform-sync) | 最大4時間（マイクロバッチ） |
-| [ クリック数や開封数などのアクティビティイベント ](#activity-and-actions) | 最大4時間 |
+| [&#x200B; オーディエンスメンバーシップ &#x200B;](#daily-refresh) | 最大24時間（1日サイクル） |
+| [&#x200B; アカウントと人物の関係の変更](#daily-refresh) | 最大24時間（1日サイクル） |
+| [&#x200B; データ： [!DNL Experience Platform] から [!DNL Journey Optimizer B2B Edition]](#platform-sync) | 最大30分（ほぼリアルタイム） |
+| [&#x200B; データ： [!DNL Journey Optimizer B2B Edition] から [!DNL Experience Platform]](#platform-sync) | 最大4時間（マイクロバッチ） |
+| [&#x200B; クリック数や開封数などのアクティビティイベント &#x200B;](#activity-and-actions) | 最大4時間 |
 | [[!DNL Marketo Engage]  リストの追加または削除](#activity-and-actions) | 30分以内（ほぼリアルタイム） |
-| [Journey Optimizer B2B Editionによって生成されたイベント ](#activity-and-actions) | バッチオーディエンスでのみ使用できます |
+| [Journey Optimizer B2B Editionによって生成されたイベント &#x200B;](#activity-and-actions) | バッチオーディエンスでのみ使用できます |
 | [LinkedIn オーディエンス母集団](#linkedin-timing) | 同日から36～40時間（最悪の場合） |
 
 ## オーディエンスおよび関係データ {#daily-refresh}
@@ -75,11 +75,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->オーディエンスメンバーシップは、リアルタイムではなく日々更新されることを理解して、ジャーニーを設計できます。 ほぼリアルタイムの回答が必要な場合は、オーディエンスベースのエントリの代わりに[ イベントベースのトリガー](../journeys/listen-for-event-nodes.md)を使用します。
+>オーディエンスメンバーシップは、リアルタイムではなく日々更新されることを理解して、ジャーニーを設計できます。 ほぼリアルタイムの回答が必要な場合は、オーディエンスベースのエントリの代わりに[&#x200B; イベントベースのトリガー](../journeys/listen-for-event-nodes.md)を使用します。
 
 ## [!DNL Experience Platform]とデータを同期 {#platform-sync}
 
-[!DNL Experience Platform]はアカウント、人物、商談の主要なデータストアであり、[!DNL Journey Optimizer B2B Edition]はジャーニー、購買グループ、購買グループの役割を所有しています。 [ アーキテクチャの詳細](../about-journey-optimizer-b2b-edition.md#high-level-architecture)。
+[!DNL Experience Platform]はアカウント、人物、商談の主要なデータストアであり、[!DNL Journey Optimizer B2B Edition]はジャーニー、購買グループ、購買グループの役割を所有しています。 [&#x200B; アーキテクチャの詳細](../about-journey-optimizer-b2b-edition.md#high-level-architecture)。
 
 データは、2つのシステム間で各方向に異なるペースで移動します。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 アクティビティデータとジャーニーアクションのタイミングは、システム間でデータがどのように移動するかによって異なります。
 
 * **アクティビティデータ** – 電子メールの開封、リンクのクリック、フォーム入力などの個人のアクティビティレコードは、[!DNL Journey Optimizer B2B Edition]に表示されるまでに約4時間かかります。 このタイミングは、バッチアクティビティデータに適用されます。[!DNL Experience Platform] Experience Event トリガーはストリーミングデータを使用し、ほぼリアルタイムで対応できます。
-* **[!DNL Marketo Engage]アクション** - [!DNL Marketo Engage]を呼び出すジャーニーアクションは、API呼び出しであるため、ほぼリアルタイムです。 例えば、ジャーニーの手順で[!DNL Marketo] リストからユーザーを追加または削除すると、通常、アクションは30分以内に完了します。 [ ジャーニーアクションの詳細](../journeys/action-nodes.md)。
+* **[!DNL Marketo Engage]アクション** - [!DNL Marketo Engage]を呼び出すジャーニーアクションは、API呼び出しであるため、ほぼリアルタイムです。 例えば、ジャーニーの手順で[!DNL Marketo] リストからユーザーを追加または削除すると、通常、アクションは30分以内に完了します。 [&#x200B; ジャーニーアクションの詳細](../journeys/action-nodes.md)。
 * **[!DNL Experience Platform]**&#x200B;を通過するアクション - [!DNL Experience Platform]に最初に戻るすべてのアクションはバッチ処理されるので、ほぼリアルタイムのタイミングではなくバッチ処理のタイミングが適用されます。
 * **によって生成されたイベント - [!DNL Journey Optimizer B2B Edition]が[!DNL Experience Platform]で生成したイベントは、バッチオーディエンスでのみ使用できます。[!DNL Journey Optimizer B2B Edition]**
 

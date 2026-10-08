@@ -40,7 +40,7 @@ Adobe Journey Optimizer B2B Editionは、Real-Time CDP B2Bを含むAdobe Experie
 
 ジャーニーアクションをサポートするために、実稼動インスタンスを含む既存の1つ以上のMarketo Engage インスタンスを接続することもできます。 マーケターは、ジャーニーの行動により、Journey Optimizer B2B Editionのアカウントベースのジャーニーを、Marketo Engageのリードベースのキャンペーン（リストへの人物の追加やリクエストキャンペーンなど）と連携させることができます。 [Marketo Engage インスタンスの接続に関する詳細情報](./admin/marketo-actions-connect.md)。
 
-![ アカウントおよび個人オーディエンスの信頼できる唯一の情報源としてAdobe Experience Platformに接続されたJourney Optimizer B2B Edition、使用権限とバックエンドサービスを提供する専用のMarketo Engage インスタンス、およびジャーニーアクションの実行に使用されるオプションの実稼動Marketo Engage インスタンスを示す高レベルのデータアーキテクチャ。](./assets/high-level-data-architecture.png){zoomable="yes"}
+![&#x200B; アカウントおよび個人オーディエンスの信頼できる唯一の情報源としてAdobe Experience Platformに接続されたJourney Optimizer B2B Edition、使用権限とバックエンドサービスを提供する専用のMarketo Engage インスタンス、およびジャーニーアクションの実行に使用されるオプションの実稼動Marketo Engage インスタンスを示す高レベルのデータアーキテクチャ。](./assets/high-level-data-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Adobe Journey Optimizer B2B Editionは、Real-Time CDP B2Bを含むAdobe Experie
 
 ### サブスクリプションモデル
 
-Experience Platform サンドボックスと専用のMarketo Engage インスタンスを組み合わせると、Journey Optimizer B2B Edition サブスクリプションが定義されます。 この専用インスタンスは、実稼動のMarketo Engage インスタンスとは別のもので、アカウントジャーニーデータを保存するのではなく、使用権限とバックエンドサービスをサポートするために存在します。 [ セットアップの詳細](./setup-ultimate.md)を見る。
+Experience Platform サンドボックスと専用のMarketo Engage インスタンスを組み合わせると、Journey Optimizer B2B Edition サブスクリプションが定義されます。 この専用インスタンスは、実稼動のMarketo Engage インスタンスとは別のもので、アカウントジャーニーデータを保存するのではなく、使用権限とバックエンドサービスをサポートするために存在します。 [&#x200B; セットアップの詳細](./setup-ultimate.md)を見る。
 
 Experience Platformでは、接続されたMarketo EngageインスタンスとCRM システムからのデータを一元的に把握できます。 統合データを活用してジャーニーを構築、実行します。
 
@@ -58,7 +58,7 @@ Journey Optimizer B2B Editionは、アカウントジャーニーを作成、保
 
 カスタマージャーニーは常に、リードやアカウント、カスタマージャーニーに関する関係者を絞り込むオーディエンスから始まります。 Experience Platformの標準オーディエンスセレクターを使用して、このオーディエンスを選択します。 マーケターは、アカウントの基準、人物の基準、購買グループの基準などを使用してパスを分割し、ジャーニーを実装します。 各パスで、アクションはコミュニケーションを送信したり、イベントが発生するのを待ったりします。
 
-アカウントジャーニーを作成したら、それを公開してジャーニーを公開します。 適格アカウントは、24時間以内に公開済みジャーニーにエントリします。 [ データの可用性と同期タイミングについて詳しく見る](./data/data-availability-timing.md)。
+アカウントジャーニーを作成したら、それを公開してジャーニーを公開します。 適格アカウントは、24時間以内に公開済みジャーニーにエントリします。 [&#x200B; データの可用性と同期タイミングについて詳しく見る](./data/data-availability-timing.md)。
 
 ### データフロー
 
