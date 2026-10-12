@@ -54,13 +54,13 @@ ht-degree: 1%
 
 1. 右上の&#x200B;**[!UICONTROL その他…]** メニューをクリックし、**[!UICONTROL 再エントリ]**&#x200B;を選択します。
 
-   ![ アカウントジャーニーの右上にある「詳細」をクリックします](./assets/account-journey-draft-more-menu.png){width="450"}
+   ![&#x200B; アカウントジャーニーの右上にある「詳細」をクリックします](./assets/account-journey-draft-more-menu.png){width="450"}
 
 1. _[!UICONTROL ジャーニーの再エントリ]_ ダイアログで、**[!UICONTROL 再エントリを有効にする]** オプションを切り替えます。
 
    この機能を有効にすると、タイミング、遅延、制限のオプションが表示されます。
 
-   有効な機能を持つアカウントジャーニーの![ジャーニー再入力ダイアログ ](./assets/journey-re-entry-dialog-enabled.png){width="450"}
+   有効な機能を持つアカウントジャーニーの![ジャーニー再入力ダイアログ &#x200B;](./assets/journey-re-entry-dialog-enabled.png){width="450"}
 
 1. **[!UICONTROL 再エントリのタイミング]**&#x200B;で、待機の計算方法を選択します。
 
@@ -86,13 +86,13 @@ ht-degree: 1%
 
 1. 右上の&#x200B;**[!UICONTROL その他…]** メニューをクリックし、**[!UICONTROL 再入力設定]**&#x200B;を選択します。
 
-   ![ ユーザージャーニーの右上にある「詳細」をクリック ](./assets/person-journey-draft-more-menu.png){width="450"}
+   ![&#x200B; ユーザージャーニーの右上にある「詳細」をクリック &#x200B;](./assets/person-journey-draft-more-menu.png){width="450"}
 
 1. _[!UICONTROL ジャーニーの再エントリ]_ ダイアログで、**[!UICONTROL 再エントリを有効にする]** オプションを切り替えます。
 
    この機能を有効にすると、タイミング、遅延、制限のオプションが表示されます。
 
-   有効な機能を持つユーザーのジャーニーの![ジャーニー再入力ダイアログ ](./assets/person-journey-re-entry-dialog.png){width="450"}
+   有効な機能を持つユーザーのジャーニーの![ジャーニー再入力ダイアログ &#x200B;](./assets/person-journey-re-entry-dialog.png){width="450"}
 
 1. **[!UICONTROL 再エントリのタイミング]**&#x200B;で、待機の計算方法を選択します。
 
