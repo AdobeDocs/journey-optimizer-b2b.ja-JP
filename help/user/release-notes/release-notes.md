@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
+source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5717'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition リリースノート
@@ -43,15 +43,18 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
-| 機能 | ユーザーリスト | デモグラフィック属性やエクスペリエンスイベント履歴など、定義された条件でプロファイルをターゲティングできるように、静的および動的な人物リストを使用できるようになりました。 |
 | 機能 | サービス正常性ダッシュボード | 成功/エラー指標を収集し、ダッシュボードを通じて管理者がサービスパフォーマンスを監視できるようにすることで、外部アクションの運用健全性を追跡します。 |
+| 機能強化 | ジャーニー再入力 – 人物ジャーニー | 個人ジャーニーで、ジャーニーの再入力のサポートが利用可能になりました。 [詳細情報](../journeys/journey-re-entry.md) |
 | 機能強化 | プロファイルオーディエンスフィルターのメンバー | このフィルターは、個人ジャーニーの分割パス条件、アカウントジャーニーの個人の分割パス条件、およびオーディエンスメンバーシップに基づいてプロファイルを含めるか除外する人物リストで使用できるようになりました。 |
-| 機能強化 | ジャーニー再入力 – 人物ジャーニー | 個人ジャーニーで、ジャーニーの再入力のサポートが利用可能になりました。 |
 
 >[!NOTE]
 >
 >これらのリリースの変更は、2026年9月25日（PT）にデプロイメントが開始され、各機能と機能強化が段階的に展開されます。 機能および機能強化のリリース日は変更される場合があります。
 
+<!--
+Delayed to Oct
+| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+-->
 
 ## 2026.8 リリースノート {#rel-2026-8}
 
