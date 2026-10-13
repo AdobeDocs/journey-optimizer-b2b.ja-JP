@@ -1,8 +1,8 @@
 ---
 applyTo: "**/*.md"
-source-git-commit: 0f90b37c1ed8e4da0840f64179a0e99e0fe786d7
+source-git-commit: d36cfd513df3d363a7bd74b5e09b774426e50b9b
 workflow-type: tm+mt
-source-wordcount: '5174'
+source-wordcount: '5166'
 ht-degree: 1%
 ---
 
@@ -411,12 +411,12 @@ GitHub.comで編集しているユーザーにはコメントが表示されま�
 - コードブロックまたは頭字語
 - アイコンの説明： 使用可能な場合は、アイコンのホバー/ツールチップ名を使用します。「鉛筆アイコン」などの一般的な説明にはタグを付けないでください
 
-### `[!DONOTLOCALIZE]`: セクション全体を除外
+### `[!DNL]`: セクション全体を除外
 
 すべてのロケールで英語のままにする必要があるコンテンツをラップします。
 
 ```markdown
->[!DONOTLOCALIZE]
+>[!DNL]
 >
 >Content that must not be translated.
 ```
@@ -529,9 +529,8 @@ hide: yes
 | リアルタイム顧客プロファイル | リアルタイムの顧客プロファイル、統合プロファイル |
 | Adobe Journey Optimizer | AJO |
 | Adobe Journey Optimizer B2B Edition | AJO B2B |
-| Adobe Journey Optimizer B2B Prime | AJO B2B Prime |
 | Adobe Marketo Optimizer | AMO |
-| Adobe Marketo Engage | Marketo（形容詞として使用できます） |
+| Adobe Marketo Engage | Marketo（形容詞としては使用できません） |
 | Adobe Customer Journey Analytics | CJA |
 | Customer Journey Analytics （セカンダリ） | — |
 | Adobe Real-Time CDP Collaboration | Collaboration、RTCDP研究室、研究室 |

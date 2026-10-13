@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: f48abc33799fdcd310b3479d32301795c82a32d0
+source-git-commit: b5c0608e413594e8669006d2aed901f772a605fa
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 82%
+source-wordcount: '450'
+ht-degree: 83%
 ---
 
 # Journey Optimizer B2B Edition ユーザーガイド {#user}
@@ -55,7 +55,7 @@ ht-degree: 82%
     + [アクションの実行](./journeys/action-nodes.md)
     + [イベントのリッスン](./journeys/listen-for-event-nodes.md)
     + [パスの分割と結合](./journeys/split-merge-paths-nodes.md)
-    + [バリアント分割パス（Beta）](./journeys/variant-split-paths-nodes.md)
+    + [バリアント分割パス](./journeys/variant-split-paths-nodes.md)
     + [次に最適なパス](./journeys/next-best-path-node.md)
     + [待機](./journeys/wait-nodes.md)
     + [外部ノード](./journeys/external-nodes.md)
