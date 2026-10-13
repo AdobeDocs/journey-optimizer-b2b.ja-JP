@@ -27,13 +27,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer B2B Edition]が[!DNL Adobe Experience Platform]に書き出すアカウント、人物、購買グループ、ジャーニーのデータを分析するためにすぐに使用できるSQL クエリの例を見つけます。 アカウント、購買グループ、メールエンゲージメント、ジャーニーアクティビティをレポートするには、[!DNL Query Service]でクエリを実行します。
 
-これらのクエリで使用されるデータセットとフィールドについて詳しくは、[書き出されたデータセット ](./aep-exported-datasets.md)を参照してください。
+これらのクエリで使用されるデータセットとフィールドについて詳しくは、[書き出されたデータセット &#x200B;](./aep-exported-datasets.md)を参照してください。
 
 ## 前提条件 {#prerequisites}
 
 このページでクエリを実行する前に、次のことを確認してください。
 
-* **[!DNL Query Service]へのアクセス：**&#x200B;あなたは[!DNL Experience Platform] サンドボックス内の[ クエリサービス ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}にアクセスする必要があります。
+* **[!DNL Query Service]へのアクセス：**&#x200B;あなたは[!DNL Experience Platform] サンドボックス内の[&#x200B; クエリサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}にアクセスする必要があります。
 * **使用可能なデータセット：** クエリは、書き出された[!DNL Journey Optimizer B2B Edition] データセットをターゲットにします。 サンドボックスで、**[!UICONTROL データセット]**&#x200B;に移動し、データセットが存在し、データが含まれていることを確認します。
 * **スキーマフィールド値：** クエリのフィールドに、対応するスキーマの値が含まれていることを確認してください。 空のフィールドは結果を返さず、エラーは発生しません。
 
@@ -57,18 +57,18 @@ ht-degree: 1%
 
 | 次に実行したい | 移動先 |
 |---|---|
-| アカウント名、業種、場所の確認 | [ アカウントの詳細を確認](#account-details) |
+| アカウント名、業種、場所の確認 | [&#x200B; アカウントの詳細を確認](#account-details) |
 | 購買グループのエンゲージメント別比較 | [購買グループのエンゲージメントの比較](#buying-group-engagement) |
-| アカウントに関連付けられている人物を検索 | [ アカウント内のユーザーを検索](#account-people) |
+| アカウントに関連付けられている人物を検索 | [&#x200B; アカウント内のユーザーを検索](#account-people) |
 | 購買グループのステータスの変更の追跡 | [購買グループのステータスの変更を確認](#buying-group-status-changes) |
 | メールをクリックした人物の検索 | [電子メールをクリックしたユーザーを検索](#email-clicks) |
 | タイプ別の最近のアクティビティの比較 | [最近のユーザー活動を比較](#person-activity) |
-| サイズ別のアカウントジャーニーの比較 | [ ジャーニー別にアカウント数を比較](#account-journey-counts) |
-| ジャーニーのアカウントのリスト | [ ジャーニーのアカウントのリスト ](#journey-accounts) |
+| サイズ別のアカウントジャーニーの比較 | [&#x200B; ジャーニー別にアカウント数を比較](#account-journey-counts) |
+| ジャーニーのアカウントのリスト | [&#x200B; ジャーニーのアカウントのリスト &#x200B;](#journey-accounts) |
 | 日々のアカウントジャーニー活動の追跡 | [毎日のアカウントアクティビティを追跡](#account-daily-activity) |
-| ジャーニーのアカウント履歴の調査 | [ アカウントジャーニーのタイムラインを確認](#account-timeline) |
-| サイズとステータス別の個人ジャーニーの比較 | [ ユーザー数をジャーニー別に比較](#person-journey-counts) |
-| ジャーニーの人物のリスト | [ ジャーニー内のユーザーを一覧表示](#journey-people) |
+| ジャーニーのアカウント履歴の調査 | [&#x200B; アカウントジャーニーのタイムラインを確認](#account-timeline) |
+| サイズとステータス別の個人ジャーニーの比較 | [&#x200B; ユーザー数をジャーニー別に比較](#person-journey-counts) |
+| ジャーニーの人物のリスト | [&#x200B; ジャーニー内のユーザーを一覧表示](#journey-people) |
 | ジャーニーのどの段階にいるのかを把握する | [手順](#person-step-counts)による人数数の比較 |
 | 最近の個人ジャーニー活動の追跡 | [最近のジャーニーアクティビティを追跡](#person-journey-activity) |
 | ジャーニーにおける人物の履歴の調査 | [個人ジャーニーのタイムラインを確認](#person-timeline) |
