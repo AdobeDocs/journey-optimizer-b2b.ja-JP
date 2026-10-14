@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: b5c0608e413594e8669006d2aed901f772a605fa
+source-git-commit: fd7fb29f361005d38b01070700082a1dfc3c86d9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 83%
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 83%
 + データ {#data}
   + [データの可用性と同期のタイミング](./data/data-availability-timing.md)
   + [書き出されたデータセット](./data/aep-exported-datasets.md)
+  + [データセットクエリ](./data/aep-query-examples.md)
 + AI機能 {#ai-assistant}
   + [概要](./ai-coworker/ai-assistant-overview.md)
   + [AI アシスタントへのアクセスを有効にする](./ai-coworker/enable-ai-assistant-access.md)
