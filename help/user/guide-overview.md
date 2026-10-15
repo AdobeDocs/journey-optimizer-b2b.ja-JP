@@ -81,7 +81,7 @@ ht-degree: 30%
 
 最新のリリースノート
 
-Adobe Journey Optimizer B2B editionの最新のリリースノート、新機能、改善点を常に把握できます。
+Adobe Journey Optimizer B2B Editionの最新のリリースノート、新機能、改善点を常に把握できます。
 
 [リリースノートを見る](./release-notes/release-notes.md)
 :::
@@ -91,7 +91,7 @@ Adobe Journey Optimizer B2B editionの最新のリリースノート、新機能
 
 基本を学ぶ
 
-Journey Optimizer B2B editionのオンボーディングガイダンス（管理者およびマーケター向け）をご確認ください。
+Journey Optimizer B2B Editionのオンボーディングガイダンス（管理者およびマーケター向け）をご確認ください。
 
 [管理者](./setup-ultimate.md)
 [&#x200B; ユーザー](./start/get-started.md)
@@ -102,7 +102,7 @@ Journey Optimizer B2B editionのオンボーディングガイダンス（管理
 
 XDM フィールドの設定
 
-Adobe Journey Optimizer B2B editionで使用するXDM スキーマとフィールドをアクティブ化するためのシステム設定を実装します。
+Adobe Journey Optimizer B2B Editionで使用するXDM スキーマとフィールドをアクティブ化するためのシステム設定を実装します。
 
 [XDM フィールド管理の表示](./admin/xdm-field-management.md)
 :::
@@ -202,7 +202,7 @@ Learn how to author and manage content for personalized customer experiences orc
 ## その他のリソース
 
 <table style="table-layout:fixed">
-<tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
+<tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> ビデオとチュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品の説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
