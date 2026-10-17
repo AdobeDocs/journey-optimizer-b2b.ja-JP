@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
+source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
 workflow-type: tm+mt
-source-wordcount: '5717'
+source-wordcount: '5781'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition リリースノート
@@ -44,8 +44,9 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | タイプ | 項目 | 説明 |
 | ---- | ---- | ----------- |
 | 機能 | サービス正常性ダッシュボード | 成功/エラー指標を収集し、ダッシュボードを通じて管理者がサービスパフォーマンスを監視できるようにすることで、外部アクションの運用健全性を追跡します。 |
-| 機能強化 | ジャーニー再入力 – 人物ジャーニー | 個人ジャーニーで、ジャーニーの再入力のサポートが利用可能になりました。 [詳細情報](../journeys/journey-re-entry.md) |
-| 機能強化 | プロファイルオーディエンスフィルターのメンバー | このフィルターは、個人ジャーニーの分割パス条件、アカウントジャーニーの個人の分割パス条件、およびオーディエンスメンバーシップに基づいてプロファイルを含めるか除外する人物リストで使用できるようになりました。 |
+| 機能強化 | プロファイルオーディエンスフィルターのメンバー | このフィルターは、個人ジャーニーの分割パス条件、アカウントジャーニーの個人の分割パス条件、および&#x200B;_イベントをリッスン_&#x200B;するノードフィルターで使用できるようになりました。これらのフィルターは、オーディエンスメンバーシップに基づいてプロファイルを含めたり除外したりできます。 [詳細情報](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| 機能強化 | 購買グループのメンバーのフィルター – デフォルトで削除されます | _人ごとにパスを分割_&#x200B;条件と&#x200B;_イベントをリッスン_ ノードフィルターでは、_[!UICONTROL 削除済み]_&#x200B;制約がデフォルトで選択され、_[!UICONTROL 購買グループのメンバー]_ フィルターを追加すると`false`に設定されるようになりました。 フィルターは、制約を変更または削除しない限り、現在の購買グループのメンバーのみを返します。 [詳細情報](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| 機能強化 | ジャーニー再入力 – 人物ジャーニー | 個人ジャーニーで、ジャーニーの再入力のサポートが利用可能になりました。 |
 
 >[!NOTE]
 >
