@@ -320,4 +320,4 @@ _[!UICONTROL Profile Audience]_&#x200B;制約を使用して、1つ以上のオ�
 
 ## 概要動画 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443257/?captions=jpn&learn=on)
