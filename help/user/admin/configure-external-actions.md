@@ -1,6 +1,6 @@
 ---
 title: 外部アクションの設定
-description: 開発者、管理者、およびマーケターが連携して、ジャーニー内のJourney Optimizer B2B Editionと外部サービスを接続する外部アクションを実装、設定、使用する方法について説明します。
+description: 開発者、管理者、およびマーケターが連携して、ジャーニー内のJourney Optimizer B2B Editionと外部サービスを結び付ける外部アクションを実装、設定、使用する方法と、管理者がアクションの正常性を監視する方法について説明します。
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: dd796abfc909ef2c60877ccf977f4b6e5755693c
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1615'
 ht-degree: 2%
 ---
 # 外部アクションの設定
@@ -45,8 +45,8 @@ ht-degree: 2%
 | | 役割 | タスク |
 | ---- | ---- | ---- |
 | 1 | 開発者 | [外部サービスを実装して公開](#implement-service) |
-| 2 | 管理者 | [Journey Optimizer B2B Editionでアクションを設定](#configure-action) |
-| 3 | マーケター | [&#x200B; ジャーニーに外部ノードを追加](#add-journey-node) |
+| 2 | 管理者 | [Journey Optimizer B2B Edition](#configure-action)でアクションを設定し、[外部アクションの正常性を監視](#monitor-external-action-health)します |
+| 3 | マーケター | [ ジャーニーに外部ノードを追加](#add-journey-node) |
 
 ## 外部サービスの実装 {#implement-service}
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->コールバック関数にはベアラートークンが必要です。 これを取得するには、IMS組織用にAdobe Developer Console[&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)でOAuth サーバー間の資格情報を設定します。
+>コールバック関数にはベアラートークンが必要です。 これを取得するには、IMS組織用にAdobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)で[OAuth サーバー間の資格情報を設定します。
 
 サービスが公開されたら、OpenAPI仕様のURLと認証情報を、アクションの設定を担当する製品管理者に提供します。
 
@@ -72,13 +72,15 @@ ht-degree: 2%
 
 1. 中間パネルで「**[!UICONTROL 外部アクション]**」をクリックします。
 
-   ![外部アクション設定スペースにアクセス &#x200B;](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
+1. 「**[!UICONTROL 参照]**」タブを選択します。
+
+   ![外部アクション設定スペースにアクセス ](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
 1. 右上の「**[!UICONTROL アクションを作成]**」をクリックします。
 
 1. 外部サービスのOpenAPI仕様のURLを入力し、**[!UICONTROL 作成]**&#x200B;をクリックします。
 
-   ![&#x200B; サービス URLを入力](./assets/configuration-external-actions-create-url.png){width="500"}
+   ![ サービス URLを入力](./assets/configuration-external-actions-create-url.png){width="500"}
 
    このステップを成功させるには、外部サービスがライブで到達可能である必要があります。 検証エラーがある場合、ダイアログには、エラーを説明するメッセージと、そのエラーを解決するための提案が表示されます。 詳しくは、[_トラブルシューティング_](#troubleshooting)&#x200B;を参照してください。
 
@@ -112,8 +114,8 @@ ht-degree: 2%
 
    * **[!UICONTROL アクションの種類]** （_静的_） – サポートされているジャーニーノードの種類：
 
-     * [!UICONTROL 外部アクション &#x200B;] （`enableSplitPath` = false）
-     * [!UICONTROL 外部アクション分割パス &#x200B;] （`enableSplitPath` = true）
+     * [!UICONTROL 外部アクション ] （`enableSplitPath` = false）
+     * [!UICONTROL 外部アクション分割パス ] （`enableSplitPath` = true）
 
      アクション設定の作成後にアクションタイプを変更することはできません。
 
@@ -121,17 +123,17 @@ ht-degree: 2%
 
    * **[!UICONTROL ジャーニーコンテキスト]** （_静的_） – リクエストで送信されたオーディエンスデータの範囲（`supportedEntityType`）:
 
-     * [!UICONTROL &#x200B; アカウント &#x200B;] - アカウントのみを送信
+     * [!UICONTROL  アカウント ] - アカウントのみを送信
 
      * [!UICONTROL 人物] – 人物のみを送信
 
-     * [!UICONTROL &#x200B; アカウントのユーザー] - アカウントおよびアカウント関連のユーザーを送信します
+     * [!UICONTROL  アカウントのユーザー] - アカウントおよびアカウント関連のユーザーを送信します
 
-   * **[!UICONTROL 送信フィールド]** - テーブル内の各フィールドを[XDM フィールド &#x200B;](../admin/xdm-field-management.md)にマッピングします。 これらのフィールドは、リクエスト本文で外部サービスに送信されます。 サービス定義プロパティ：`invocationPayloadDef.accountFields`、`invocationPayloadDef.fields`。
+   * **[!UICONTROL 送信フィールド]** - テーブル内の各フィールドを[XDM フィールド ](../admin/xdm-field-management.md)にマッピングします。 これらのフィールドは、リクエスト本文で外部サービスに送信されます。 サービス定義プロパティ：`invocationPayloadDef.accountFields`、`invocationPayloadDef.fields`。
 
-     ![外部アクション送信フィールドのマッピング &#x200B;](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+     ![外部アクション送信フィールドのマッピング ](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL 受信フィールド]** - テーブル内の各フィールドを[更新可能なXDM フィールド &#x200B;](../admin/xdm-field-management.md#updatable-fields)にマッピングします。 これらのフィールドは、外部サービス応答から入力されます。 サービス定義プロパティ：`callbackPayloadDef.accountFields`、`callbackPayloadDef.fields`。 作成後に更新可能。
+   * **[!UICONTROL 受信フィールド]** - テーブル内の各フィールドを[更新可能なXDM フィールド ](../admin/xdm-field-management.md#updatable-fields)にマッピングします。 これらのフィールドは、外部サービス応答から入力されます。 サービス定義プロパティ：`callbackPayloadDef.accountFields`、`callbackPayloadDef.fields`。 作成後に更新可能。
 
    * **[!UICONTROL ヘッダーパラメーター]** - リクエストでHTTP ヘッダーとして渡す各行の値を入力します。 サービス定義プロパティ：`invocationPayloadDef.headers`。
 
@@ -149,7 +151,7 @@ ht-degree: 2%
 
 外部サービスのOpenAPI仕様にURLを入力し、**[!UICONTROL Create]**&#x200B;をクリックすると、システムはサービスの検証を実行します。 エラーが発生すると、ダイアログにエラーを説明するメッセージが表示されます。
 
-![外部アクション URL サービス検証エラーメッセージ &#x200B;](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+![外部アクション URL サービス検証エラーメッセージ ](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -163,10 +165,10 @@ ht-degree: 2%
 | `An action with this name already exists` | スペックの`info.title`は、既に存在するアクションと一致します | スペックの`info.title` フィールドのタイトルをユニークなものに変更します。 |
 | `Duplicate operation ID found in the specification` | スペック内の2つ以上の操作が同じ`operationId`を共有しています。 | すべての操作に一意の`operationId`を付与します。 |
 | `Field in the specification exceeds the maximum allowed length` | スペックのテキストフィールド（タイトルや説明など）が長すぎます。 | フラグが設定されているフィールドを短くします。 |
-| `The entity type value is invalid` | エンティティ型のAdobe固有の`x-`拡張機能に認識されない値があります | エンティティの種類をサポートされている値に修正します。 有効なオプションについては、[開発者ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
+| `The entity type value is invalid` | エンティティ型のAdobe固有の`x-`拡張機能に認識されない値があります | エンティティの種類をサポートされている値に修正します。 有効なオプションについては、[開発者ドキュメント ](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
 | `The provided document is not a valid OpenAPI specification` | 仕様は構造的に解析できません。 | OpenAPI 3.0 スキーマに対して仕様を検証し、問題を修正します。 |
 | `Required OpenAPI field is missing` | 標準のOpenAPI必須フィールドがありません（`info`または`paths`など）。 | 見つからないフィールドを追加します。 |
-| `Required endpoint is missing from the specification` | Adobe Journey Optimizer B2B Editionに必要なエンドポイントが仕様で定義されていません。 | 必要なエンドポイントを追加します。 エンドポイントが必要な場合は、[開発者ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
+| `Required endpoint is missing from the specification` | Adobe Journey Optimizer B2B Editionに必要なエンドポイントが仕様で定義されていません。 | 必要なエンドポイントを追加します。 エンドポイントが必要な場合は、[開発者ドキュメント ](https://developer.adobe.com/journey-optimizer-b2b-apis/)を参照してください。 |
 | `Required extension field is missing` | 必要なAdobe `x-`拡張機能フィールドがスペックにありません。 | ドキュメントの説明に従って、不足している拡張機能フィールドを追加します。 |
 | `Security schemes are missing from the specification` | 仕様には`components`で定義された`securitySchemes`がありません。 | 少なくとも1つのセキュリティスキームを定義します。 |
 | `Multiple authentication types are not supported` | 仕様で複数の認証スキームが定義されています。 | 1つの認証タイプを使用するようにスペックを更新します。 |
@@ -184,6 +186,50 @@ This error appears below the URL field (not in the alert banner) and means there
 | `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
 -->
 
+## 外部アクションの正常性の監視 {#monitor-health}
+
+マーケターがジャーニーで外部アクションの使用を開始したら、外部アクションページの「_概要_」タブから各アクションのパフォーマンスを追跡できます。 これを使用すると、各アクションが受け取るリクエストの数、失敗したリクエストの数、エラー率が最も高いアクションを確認できます。
+
+ダッシュボードを表示するには：
+
+1. **[!UICONTROL 管理]**／**[!UICONTROL 設定]**&#x200B;に移動します。
+
+1. 中間パネルで「**[!UICONTROL 外部アクション]**」をクリックします。
+
+   過去7日間の外部アクションデータを含む&#x200B;**[!UICONTROL 概要]** タブがデフォルトで表示されます。
+
+1. 日付範囲メニューからレビューする期間を選択するか、日付フィールドに開始日と終了日を入力します。 デフォルトの範囲は過去30日間です。
+
+   ![外部アクション正常性ダッシュボードには、日付範囲フィルター、リクエストの合計、エラー、エラー率、アクションのパフォーマンスが表示されます。](./assets/config-external-action-health.png){width="700" zoomable="yes"}
+
+   指標とテーブルが更新され、選択した期間のアクティビティのみが表示されます。
+
+### 指標 {#metrics}
+
+_概要_ セクションは、選択した期間のすべての外部アクションのパフォーマンスを要約します。
+
+| 指標 | 説明 |
+| ---- | ---- |
+| [!UICONTROL 合計アクション ] | レポートに含まれる外部アクションの数。 |
+| [!UICONTROL  リクエストの合計数] | すべてのアクションで外部サービスに対して行われたリクエストの合計数。 |
+| [!UICONTROL 合計エラー] | エラーが発生したリクエストの合計数です。 |
+| [!UICONTROL  エラー率] | エラーが発生したリクエストの割合。 |
+
+### アクションのパフォーマンス {#actions}
+
+_アクションのパフォーマンス_ テーブルには、選択した期間の各外部アクションとそのアクティビティが一覧表示されます。
+
+| 列 | 説明 |
+| ---- | ---- |
+| [!UICONTROL 名前] | 外部アクションの名前。 |
+| [!UICONTROL  リクエスト数] | アクションの外部サービスに対して行われたリクエストの数。 |
+| [!UICONTROL  エラー数] | エラーが発生したリクエストの数。 |
+| [!UICONTROL  エラー率] | エラーが発生したリクエストの割合。 |
+
+表を使用してアクションを比較し、注意が必要なアクションを見つけます。 例えば、エラー率が高いアクションは、外部サービス、その認証情報、またはその設定に関する問題を示します。 サービスを実装した開発者と協力して、原因を調査します。
+
 ## ジャーニーへの外部ノードの追加 {#add-journey-node}
 
-アクションがアクティブ化されると、マーケターは&#x200B;_[!UICONTROL 外部アクション]_&#x200B;または&#x200B;_[!UICONTROL 外部分割パス]_ ノードを任意のアカウントまたは個人のジャーニーに追加できます。 ジャーニーキャンバスでこれらのノードを追加および使用する方法について詳しくは、[外部ノード &#x200B;](../journeys/external-nodes.md)を参照してください。
+アクションがアクティブ化されると、マーケターは&#x200B;_[!UICONTROL 外部アクション]_&#x200B;または&#x200B;_[!UICONTROL 外部分割パス]_ ノードを任意のアカウントまたは個人のジャーニーに追加できます。 ジャーニーキャンバスでこれらのノードを追加および使用する方法について詳しくは、[外部ノード ](../journeys/external-nodes.md)を参照してください。
+
+![外部アクションノード – 外部サービスを選択](../journeys/assets/node-external-action-service-name.png){width="600" zoomable="yes"}
