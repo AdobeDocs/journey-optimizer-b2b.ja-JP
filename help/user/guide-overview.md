@@ -86,7 +86,7 @@ ht-degree: 27%
 管理者とマーケター向けの[!DNL Journey Optimizer B2B Edition] オンボーディングガイダンスを確認します。
 
 [管理者](./setup-ultimate.md)
-[ ユーザー](./start/get-started.md)
+[&#x200B; ユーザー](./start/get-started.md)
 :::
 
 :::
@@ -98,8 +98,8 @@ ht-degree: 27%
 
 [XDM フィールドの管理を表示](./admin/xdm-field-management.md)
 [書き出されたデータセット](./data/aep-exported-datasets.md)
-[ データセットクエリ](./data/aep-query-examples.md)
-[ データの可用性と同期のタイミング ](./data/data-availability-timing.md)
+[&#x200B; データセットクエリ](./data/aep-query-examples.md)
+[&#x200B; データの可用性と同期のタイミング &#x200B;](./data/data-availability-timing.md)
 :::
 
 :::
