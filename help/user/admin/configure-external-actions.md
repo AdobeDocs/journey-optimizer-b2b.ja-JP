@@ -1,6 +1,6 @@
 ---
 title: 外部アクションの設定
-description: 開発者、管理者、およびマーケターが連携して、ジャーニー内のJourney Optimizer B2B Editionと外部サービスを接続する外部アクションを実装、設定、使用する方法について説明します。
+description: 開発者、管理者、およびマーケターが連携して、ジャーニー内のJourney Optimizer B2B Editionと外部サービスを結び付ける外部アクションを実装、設定、使用する方法と、管理者がアクションの正常性を監視する方法について説明します。
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: dd796abfc909ef2c60877ccf977f4b6e5755693c
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1615'
 ht-degree: 2%
 ---
 # 外部アクションの設定
@@ -45,7 +45,7 @@ ht-degree: 2%
 | | 役割 | タスク |
 | ---- | ---- | ---- |
 | 1 | 開発者 | [外部サービスを実装して公開](#implement-service) |
-| 2 | 管理者 | [Journey Optimizer B2B Editionでアクションを設定](#configure-action) |
+| 2 | 管理者 | [Journey Optimizer B2B Edition](#configure-action)でアクションを設定し、[外部アクションの正常性を監視](#monitor-external-action-health)します |
 | 3 | マーケター | [&#x200B; ジャーニーに外部ノードを追加](#add-journey-node) |
 
 ## 外部サービスの実装 {#implement-service}
@@ -71,6 +71,8 @@ ht-degree: 2%
 1. **[!UICONTROL 管理]**／**[!UICONTROL 設定]**&#x200B;に移動します。
 
 1. 中間パネルで「**[!UICONTROL 外部アクション]**」をクリックします。
+
+1. 「**[!UICONTROL 参照]**」タブを選択します。
 
    ![外部アクション設定スペースにアクセス &#x200B;](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
@@ -184,6 +186,50 @@ This error appears below the URL field (not in the alert banner) and means there
 | `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
 -->
 
+## 外部アクションの正常性の監視 {#monitor-health}
+
+マーケターがジャーニーで外部アクションの使用を開始したら、外部アクションページの「_概要_」タブから各アクションのパフォーマンスを追跡できます。 これを使用すると、各アクションが受け取るリクエストの数、失敗したリクエストの数、エラー率が最も高いアクションを確認できます。
+
+ダッシュボードを表示するには：
+
+1. **[!UICONTROL 管理]**／**[!UICONTROL 設定]**&#x200B;に移動します。
+
+1. 中間パネルで「**[!UICONTROL 外部アクション]**」をクリックします。
+
+   過去7日間の外部アクションデータを含む&#x200B;**[!UICONTROL 概要]** タブがデフォルトで表示されます。
+
+1. 日付範囲メニューからレビューする期間を選択するか、日付フィールドに開始日と終了日を入力します。 デフォルトの範囲は過去30日間です。
+
+   ![外部アクション正常性ダッシュボードには、日付範囲フィルター、リクエストの合計、エラー、エラー率、アクションのパフォーマンスが表示されます。](./assets/config-external-action-health.png){width="700" zoomable="yes"}
+
+   指標とテーブルが更新され、選択した期間のアクティビティのみが表示されます。
+
+### 指標 {#metrics}
+
+_概要_ セクションは、選択した期間のすべての外部アクションのパフォーマンスを要約します。
+
+| 指標 | 説明 |
+| ---- | ---- |
+| [!UICONTROL 合計アクション &#x200B;] | レポートに含まれる外部アクションの数。 |
+| [!UICONTROL &#x200B; リクエストの合計数] | すべてのアクションで外部サービスに対して行われたリクエストの合計数。 |
+| [!UICONTROL 合計エラー] | エラーが発生したリクエストの合計数です。 |
+| [!UICONTROL &#x200B; エラー率] | エラーが発生したリクエストの割合。 |
+
+### アクションのパフォーマンス {#actions}
+
+_アクションのパフォーマンス_ テーブルには、選択した期間の各外部アクションとそのアクティビティが一覧表示されます。
+
+| 列 | 説明 |
+| ---- | ---- |
+| [!UICONTROL 名前] | 外部アクションの名前。 |
+| [!UICONTROL &#x200B; リクエスト数] | アクションの外部サービスに対して行われたリクエストの数。 |
+| [!UICONTROL &#x200B; エラー数] | エラーが発生したリクエストの数。 |
+| [!UICONTROL &#x200B; エラー率] | エラーが発生したリクエストの割合。 |
+
+表を使用してアクションを比較し、注意が必要なアクションを見つけます。 例えば、エラー率が高いアクションは、外部サービス、その認証情報、またはその設定に関する問題を示します。 サービスを実装した開発者と協力して、原因を調査します。
+
 ## ジャーニーへの外部ノードの追加 {#add-journey-node}
 
 アクションがアクティブ化されると、マーケターは&#x200B;_[!UICONTROL 外部アクション]_&#x200B;または&#x200B;_[!UICONTROL 外部分割パス]_ ノードを任意のアカウントまたは個人のジャーニーに追加できます。 ジャーニーキャンバスでこれらのノードを追加および使用する方法について詳しくは、[外部ノード &#x200B;](../journeys/external-nodes.md)を参照してください。
+
+![外部アクションノード – 外部サービスを選択](../journeys/assets/node-external-action-service-name.png){width="600" zoomable="yes"}

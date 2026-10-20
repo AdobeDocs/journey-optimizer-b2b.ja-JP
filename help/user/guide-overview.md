@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 87bce853d68d03eabceccf02ba80a8077dce206d
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 30%
+source-wordcount: '1057'
+ht-degree: 27%
 ---
 # Adobe Journey Optimizer B2B Edition ドキュメント
 
@@ -27,13 +27,17 @@ ht-degree: 30%
 
 >[!BEGINTABS]
 
->[!TAB AI エージェント]
+>[!TAB  ユーザージャーニー]
 
-[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}では、AI アシスタントのインターフェイスにより、専門の担当者が自動的に呼び出され、適切な回答とインサイトを入手できます。 Agent Orchestratorは、会話履歴を記憶するため、コンテキストを繰り返すことなく自然に以前の質問を作成でき、複数の担当者からのインサイトを組み合わせて、明確で統一された回答を提供します。 [!DNL Journey Optimizer B2B Edition]のコンテキストでは、特定のB2B タスクとドメイン用に構築された3つのエージェントがあります。
+[!DNL Adobe Experience Platform]人のオーディエンスとデータを使用して個々の人物を惹きつける人物ジャーニーを使用して、リードベースのマーケティングをオーケストレーションします。 ユーザーのジャーニーで、_イベントのリッスン_、外部アクション、外部分割パスノード、ジャーニーの再エントリがサポートされるようになりました。 アカウントジャーニーおよび購買グループと組み合わせて使用することで、購買ジャーニー全体のオーケストレーションが可能になります。
 
-* [Audience Agent B2B](./agents/audience-agent-b2b.md)
-* [Journey Agent B2B](./agents/journey-agent.md)
-* [Account Qualification Agent](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"}
+[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/journeys-overview.md" tooltip="カスタマージャーニーについて詳しく見る"}
+
+>[!TAB  バリアント分割パス ]
+
+定義した割合にもとづいて、アカウントや人物を異なるジャーニーパスに割り当てることで、アカウントや人物のジャーニー内のバリエーションをテストできます。 対面ジャーニーでは、割り当てが決定論的であるため、各メンバーは常に同じパスに従い、管理された実験をサポートします。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="バリアント分割パスについて説明します"}
 
 >[!TAB WhatsApp チャネル ]
 
@@ -55,21 +59,9 @@ ht-degree: 30%
 
 >[!TAB ジャーニー再入力]
 
-アカウントジャーニーワークフローを通じて、アカウント/人物を複数回送信できるようになりました。 再入力は、クオリフィケーション基準の再評価や再利用可能なナーチャリングワークフローなど、複数のシナリオに対応します。 再入力設定を使用して基準、制限、待機時間を設定し、アカウントが管理された方法でジャーニーに再評価されるようにします。
+アカウントまたは個人のジャーニーを通じて、アカウントまたは人物を複数回送信できるようになりました。 再入力は、クオリフィケーション基準の再評価や再利用可能なナーチャリングワークフローなど、複数のシナリオに対応します。 再エントリ設定を使用して基準、制限、待機時間を設定し、アカウントまたはユーザーが管理された方法でジャーニーの再評価を行えるようにします。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="ジャーニーの再入力について詳しく見る"}
-
->[!TAB  ブランドのテーマ ]
-
-技術的な知識がなくても、特定のブランドやスタイルに合わせて、再利用可能なメールコンテンツのデザインガイドラインを作成できます。 マーケターは、テーマを活用することで、視覚的に魅力的でブランドに即した電子メールをより早く、より少ない労力で利用し、独自のデザインニーズに合わせた高度なカスタマイズオプションを利用できます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/brand-themes.md" tooltip="ブランドのテーマについて詳しく見る"}
-
->[!TAB  ペルソナマッピング ]
-
-マーケターは、背景、責任、課題、好みのコミュニケーションチャネルなど、詳細なプロファイルを定義できます。 これらの定義を使用すると、管理者は[!DNL Journey Optimizer B2B Edition]のユーザー属性に従ってペルソナを設定できるため、ロールテンプレートはこれらのペルソナをキャプチャする合理化された一貫したロール条件を使用できます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="ペルソナマッピングについて詳しく見る"}
 
 >[!ENDTABS]
 
@@ -81,7 +73,7 @@ ht-degree: 30%
 
 最新のリリースノート
 
-Adobe Journey Optimizer B2B Editionの最新のリリースノート、新機能、改善点を常に把握できます。
+[!DNL Adobe Journey Optimizer B2B Edition]の最新のリリースノート、新機能、および機能強化を常に確認してください。
 
 [リリースノートを見る](./release-notes/release-notes.md)
 :::
@@ -91,7 +83,7 @@ Adobe Journey Optimizer B2B Editionの最新のリリースノート、新機能
 
 基本を学ぶ
 
-Journey Optimizer B2B Editionのオンボーディングガイダンス（管理者およびマーケター向け）をご確認ください。
+管理者とマーケター向けの[!DNL Journey Optimizer B2B Edition] オンボーディングガイダンスを確認します。
 
 [管理者](./setup-ultimate.md)
 [&#x200B; ユーザー](./start/get-started.md)
@@ -100,11 +92,14 @@ Journey Optimizer B2B Editionのオンボーディングガイダンス（管理
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
-XDM フィールドの設定
+データの管理
 
-Adobe Journey Optimizer B2B Editionで使用するXDM スキーマとフィールドをアクティブ化するためのシステム設定を実装します。
+[!DNL Adobe Journey Optimizer B2B Edition]で使用するXDM スキーマとフィールドをアクティブ化し、そのデータが[!DNL Adobe Experience Platform]でどのように機能するかを学習します。
 
-[XDM フィールド管理の表示](./admin/xdm-field-management.md)
+[XDM フィールドの管理を表示](./admin/xdm-field-management.md)
+[書き出されたデータセット](./data/aep-exported-datasets.md)
+[&#x200B; データセットクエリ](./data/aep-query-examples.md)
+[&#x200B; データの可用性と同期のタイミング &#x200B;](./data/data-availability-timing.md)
 :::
 
 :::
@@ -124,7 +119,7 @@ Adobe Journey Optimizer B2B Editionで使用するXDM スキーマとフィー�
 
 ジャーニーの作成
 
-パーソナライズされたジャーニーを設計、編成、管理、最適化。
+パーソナライズされたアカウントと人物のジャーニーを設計、編成、管理、最適化できます。
 
 [ジャーニーを探索](./journeys/journeys-overview.md)
 :::
@@ -165,14 +160,8 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="基本を学ぶ"><br/>
-      <strong>基本を学ぶ</strong><br/><a href="home-page.md">ログインとホームページ</a><br/><a href="./start/get-started.md">オンボーディングガイダンス</a><br/><a href="./ai-coworker/ai-assistant-overview.md">AI アシスタント</a>
+      <strong>基本を学ぶ</strong><br/><a href="home-page.md"> ログインとホームページ </a><br/><a href="./start/get-started.md"> オンボーディングガイダンス </a> <br/><a href="./ai-coworker/ai-assistant-overview.md">AI機能</a>
     </td>
-    <!--
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
-    </td>
-    -->
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="購買グループ"><br/>
       <strong>購買グループ</strong><br/><a href="./buying-groups/buying-groups-overview.md">購買グループの概要</a><br/><a href="./buying-groups/buying-groups-role-templates.md">役割テンプレート</a><br/><a href="./buying-groups/solution-interests.md">ソリューションに対する関心</a><br/><a href="./buying-groups/buying-groups-create.md">購買グループの作成</a>
