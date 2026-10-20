@@ -68,7 +68,7 @@ ht-degree: 12%
 >
 >この機能は現在、パブリックベータ版として利用可能です。
 >
->Adobe Journey Optimizer B2B EditionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer B2B EditionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 
 定義されたブランドは、クリエイティブチームがビジュアルまたは書面のコンテンツを作成する際に使用する&#x200B;_信頼できる唯一の情報源_&#x200B;を提供します。 これらのガイドラインをまとめ、ブランドアセットを共有すれば、チームメンバーや共同作業者であれば誰でもブランドに即したコンテンツを制作できます。 Journey Optimizer B2B Editionでブランドに即したコンテンツ制作を可能にするには、次のタスクを実行します。
 
