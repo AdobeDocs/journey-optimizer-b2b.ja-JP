@@ -386,7 +386,7 @@ GitHub.comで編集しているユーザーにはコメントが表示されま�
 - 頭字語（自動的に英語に留まる）
 - 翻訳しないデータベースに既に含まれている用語
 
-**リンクテキスト内：** レンダリングの問題を防ぐため、タグブラケットを削除します。 `[[!DNL Adobe]](https://www.adobe.com)`ではなく`[Adobe](https://www.adobe.com)`を使用してください。
+**リンクテキスト内：** レンダリングの問題を防ぐため、タグブラケットを削除します。 `[[!DNL Adobe]](https://www.adobe.com/jp)`ではなく`[Adobe](https://www.adobe.com/jp)`を使用してください。
 
 ### `[!UICONTROL Label]`: UI コントロール
 

@@ -34,7 +34,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer B2B EditionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer B2B EditionでAIを活用した機能を使用するには、事前に[使用許諾契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 >
 >製品管理者がこれらの機能を有効にする方法について詳しくは、[&#x200B; ブランド関連の権限](./brands-overview.md#brand-related-permissions)を参照してください。
 
