@@ -1,34 +1,40 @@
 ---
 title: 顧客リスト
-description: Journey Optimizer B2B editionでは、ターゲットジャーニーのオーケストレーションやアカウントベースドマーケティングのためのカスタムフィルターを使用して、静的および動的なアカウントリストを作成できます。
+description: Journey Optimizer B2B Editionでターゲットジャーニーオーケストレーションとアカウントベースドマーケティングのためのカスタムフィルターを使用して、静的および動的なアカウントリストを作成します。
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
 source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: '1262'
 ht-degree: 2%
-
 ---
-
 # アカウントリスト
 
-Journey Optimizer B2B editionでは、アカウントリストは、マーケターがターゲットジャーニーオーケストレーションに使用できる名前付きアカウントのコレクションです。 アカウントリストでは、業界、所在地、企業規模などの定義された基準にもとづいて、名前付きアカウントをターゲティングできます。 アカウントリストには、次の2種類があります。
+Journey Optimizer B2B Editionでは、アカウントリストとは、マーケターがターゲットジャーニーオーケストレーションに使用できる、名前付きアカウントのコレクションのことです。 アカウントリストでは、業界、所在地、企業規模などの定義された基準にもとづいて、名前付きアカウントをターゲティングできます。 アカウントリストには、次の2種類があります。
 
 * **静的** – 静的なアカウントリストでは、アカウントを追加するとリストが変更されます。 現在のアカウントデータに基づいてリストに入力するフィルターセットを適用するか、アカウントジャーニーを通じてアカウントを追加および削除することで、アカウントを手動で追加できます。
 * **動的** – 動的アカウントリストを使用すると、リストを自動的にキュレートするためのフィルターセットを定義できます。 このフィルターセットを使用して、アカウント情報の変更に応じてアカウントを追加および削除します。 このリスト管理は、Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}での オーディエンスセグメンテーションに似ています。
