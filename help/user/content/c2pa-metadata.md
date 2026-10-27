@@ -1,6 +1,6 @@
 ---
 title: C2PA メタデータ
-description: Adobe Journey Optimizer B2B editionが、生成AI ツールで生成または編集された画像にC2PA メタデータを自動的に適用する仕組みと、これがコンテンツにもたらす意味をご紹介します。
+description: Adobe Journey Optimizer B2B Editionが、生成AI ツールによって生成または編集された画像にC2PA メタデータを自動的に適用する仕組みと、これがコンテンツにもたらす意味をご紹介します。
 feature: Assets, Content
 hide: true
 role: User
@@ -8,21 +8,25 @@ autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14e960aa56ce951f3606ffe35e0481c659021ad6
+    internal-label: User
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 952
-ht-degree: 0%
-
+source-wordcount: '952'
+ht-degree: 4%
 ---
-
 # C2PA メタデータ
 
 マーケティング部門は、コンテンツの透明性、AIによる情報開示、アセットの改ざん防止にこれまで以上に懸念しています。 AdobeのContent Authenticity Initiative（CAI）は、[Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) （C2PA）技術標準に準拠したツールを構築しています。 _C2PA メタデータ_&#x200B;は暗号化され、改ざんされやすい情報で、視聴者がコンテンツの系統を理解し、ブランドアセットの整合性を確保するのに役立ちます。 こうした情報には、次のものが含まれます。
@@ -35,11 +39,11 @@ ht-degree: 0%
 * AI ツールの使用 – 生成AIを使用してアセットを編集または作成した場合、使用するモデルの名前が含まれる場合があります。
 * その他の関連情報 – アセットの履歴に関するより多くのコンテキストを提供するために、追加のデータも含まれる場合があります。
 
-アセット履歴の詳細については、Adobe Content Authenticity [&#x200B; インスペクションツール &#x200B;](https://contentauthenticity.adobe.com/inspect)を使用してください。
+アセット履歴の詳細については、Adobe Content Authenticity [ インスペクションツール ](https://contentauthenticity.adobe.com/inspect)を使用してください。
 
 C2PA メタデータは画像ファイルに保持されます。 生成AIで生成または編集された画像が[!DNL Adobe Journey Optimizer B2B Edition]にアップロードされるか、またはから書き出されると、そのC2PA メタデータが保持されます。
 
-Adobe CX Enterprise アプリケーション全体でC2PA メタデータを自動的に添付する方法について詳しくは、CX Enterprise ガイドのAI ガイドの&#x200B;[_生成AI コンテンツの透明性_](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}を参照してください。
+Adobe CX Enterprise アプリケーション間でのC2PA メタデータの自動添付について詳しくは、CX EnterpriseのAI ガイドの&#x200B;[_生成AI コンテンツの透明性_](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -60,7 +64,7 @@ Adobe CX Enterprise アプリケーション全体でC2PA メタデータを自�
 
 >[!INFO]
 >
->生成AIの透明性に関する新たな法律が制定されつつあり、Adobeでは、さまざまな地域で適用される要件を満たすために取り組んでいます。 C2PA メタデータは、Adobeがこれらの法律の要件を満たすために使用する来歴ツールです。
+>生成 AI の透明性に関する新しい法律が制定されつつあり、アドビでは管轄区域をまたいｄ適用される要件への対応に取り組んでいます。 C2PA メタデータは、Adobeがこれらの法律の要件を満たすために使用する来歴ツールです。
 
 [!DNL Journey Optimizer B2B Edition]で生成AI ツールを使用して画像を生成または編集すると、C2PA メタデータが自動的にその画像に添付され、ユーザー側での操作は必要ありません。
 
@@ -77,13 +81,13 @@ Adobe CX Enterprise アプリケーション全体でC2PA メタデータを自�
 * 生成されたバナー画像をweb ページに合わせて切り抜きます。 C2PA メタデータは、切り抜きを通じて保持されます。
 * アップロードしたストック写真をメールの背景として使用し、画面に合わせて切り抜きます。 ストック写真に生成AI情報が含まれていない場合、C2PA メタデータは作成されません。
 
-要求されたサイズに切り抜くなど、画像ファイルに調整を加えた場合、ソースイメージに既に含まれている場合にのみ、C2PA メタデータが保持されます。 切り抜きでは、画像ピクセルが再作成され、通常はC2PA メタデータが削除されるので、AI アシスタントは切り抜く前にソース画像から画像を読み取り、切り抜いた結果に再作成して再添付します。 切り抜き自体は、新しい生成AI アクションを追加するものではなく、既存の生成AI アクションを保持します。
+要求されたサイズに切り抜くなど、画像ファイルに調整を加えた場合、ソースイメージに既に含まれている場合にのみ、C2PA メタデータが保持されます。 切り抜きでは、画像ピクセルが再作成され、通常はC2PA メタデータが削除されるので、生成AI ツールは切り抜く前にソース画像から画像を読み取り、切り抜いた結果に再作成して再接続します。 切り抜き自体は、新しい生成AI アクションを追加するものではなく、既存の生成AI アクションを保持します。
 
 ### テキストオーバーレイの追加
 
 **_Example:_** ランディングページ用に生成された背景画像のテキストオーバーレイとして、プロモーション用の見出しを作成します。 背景画像のC2PA メタデータは保持されます。
 
-生成されたテキストを背景画像の上にレンダリングする場合、背景画像に既にC2PA メタデータが含まれている場合にのみ、結果の画像にC2PA メタデータが添付されます。 オーバーレイをレンダリングすると新しい画像が生成されるため、画像編集ツールは背景からC2PA メタデータを読み取り、それを結果に再添付します。 オーバーレイ手順では、新しい生成AI アクションは追加されません。
+生成されたテキストを背景画像の上にレンダリングする場合、背景画像に既にC2PA メタデータが含まれている場合にのみ、結果の画像にC2PA メタデータが添付されます。 オーバーレイをレンダリングすると新しい画像が生成されるため、画像編集ツールは背景からC2PA メタデータを読み取り、それを結果に再添付します。 オーバーレイ手順では、新しい生成 AI アクションは追加されません。
 
 ### 画像のオーバーレイ
 

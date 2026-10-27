@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 87bce853d68d03eabceccf02ba80a8077dce206d
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 27%
+source-wordcount: '1123'
+ht-degree: 26%
 ---
 # Adobe Journey Optimizer B2B Edition ドキュメント
 
@@ -69,7 +69,7 @@ ht-degree: 27%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新のリリースノート
 
@@ -79,18 +79,18 @@ ht-degree: 27%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
 管理者とマーケター向けの[!DNL Journey Optimizer B2B Edition] オンボーディングガイダンスを確認します。
 
 [管理者](./setup-ultimate.md)
-[&#x200B; ユーザー](./start/get-started.md)
+[ ユーザー](./start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 データの管理
 
@@ -98,12 +98,12 @@ ht-degree: 27%
 
 [XDM フィールドの管理を表示](./admin/xdm-field-management.md)
 [書き出されたデータセット](./data/aep-exported-datasets.md)
-[&#x200B; データセットクエリ](./data/aep-query-examples.md)
-[&#x200B; データの可用性と同期のタイミング &#x200B;](./data/data-availability-timing.md)
+[ データセットクエリ](./data/aep-query-examples.md)
+[ データの可用性と同期のタイミング ](./data/data-availability-timing.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信チャネル
 
@@ -115,7 +115,7 @@ ht-degree: 27%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ジャーニーの作成
 
@@ -125,7 +125,7 @@ ht-degree: 27%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 購買グループについて
 
@@ -138,7 +138,7 @@ ht-degree: 27%
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -160,7 +160,7 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="基本を学ぶ"><br/>
-      <strong>基本を学ぶ</strong><br/><a href="home-page.md"> ログインとホームページ </a><br/><a href="./start/get-started.md"> オンボーディングガイダンス </a> <br/><a href="./ai-coworker/ai-assistant-overview.md">AI機能</a>
+      <strong>基本を学ぶ</strong><br/><a href="home-page.md"> ログインとホームページ </a><br/><a href="./start/get-started.md"> オンボーディングガイダンス </a> <br/><a href="./ai-coworker/ai-overview.md">AI機能</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="購買グループ"><br/>
@@ -188,11 +188,21 @@ Learn how to author and manage content for personalized customer experiences orc
 </tr>
 </table>
 
+>[!BEGINSHADEBOX]
+
+## [!DNL Marketo Qualifier]
+
+[!DNL Adobe Marketo Qualifier]は、[!DNL Journey Optimizer B2B Edition]と一緒に使用できるAI駆動型アプリケーションです。 これは、アカウントクオリフィケーションスキルを実装し、ビジネス開発担当者（BDR）のワークフローを合理化するように設計されています。 [!DNL Marketo Qualifier]は、見込み顧客の選定、アウトリーチ、バイヤーのエンゲージメントワークフローをチャネルをまたいで自動化します。 B2B企業は、手作業のBDR負荷を軽減し、パイプラインを高速化することで、パイプラインを高速化できます。
+
+詳しくは、[Marketo Qualifier ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"}を参照してください。
+
+>[!ENDSHADEBOX]
+
 ## その他のリソース
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> ビデオとチュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品の説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> ビデオとチュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">製品の説明</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank"> ドキュメント </a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者リソース </a>
@@ -203,4 +213,3 @@ Learn how to author and manage content for personalized customer experiences orc
 <a href="https://experienceleague.adobe.com/ja/docs/marketo/using/home" target="_blank"> ユーザードキュメント </a> - <a href="https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/home" target="_blank">開発者ドキュメント </a>
 </td>
 </tr></table>
-

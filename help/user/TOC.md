@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: 4bf162645af8589b8e36bb36be1ac6594b7bdeab
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 82%
+source-wordcount: '457'
+ht-degree: 79%
 ---
 
 # Journey Optimizer B2B Edition ユーザーガイド {#user}
@@ -29,15 +29,14 @@ ht-degree: 82%
   + [データの可用性と同期のタイミング](./data/data-availability-timing.md)
   + [書き出されたデータセット](./data/aep-exported-datasets.md)
   + [データセットクエリ](./data/aep-query-examples.md)
-+ AI機能 {#ai-assistant}
-  + [概要](./ai-coworker/ai-assistant-overview.md)
-  + [AI アシスタントへのアクセスを有効にする](./ai-coworker/enable-ai-assistant-access.md)
++ AI機能 {#ai-capabilities}
+  + [概要](./ai-coworker/ai-overview.md)
+  + [アクセスを有効にする](./ai-coworker/enable-ai-access.md)
   + [質問ガイダンス](./ai-coworker/question-guidance.md)
-  + [チャットインターフェイス](./ai-coworker/use-ai-assistant.md)
   + [インテントスコア](./ai-coworker/intent-scores.md)
-  + エージェント {#ai-agents}
-    + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-    + [Journey Agent B2B](./agents/journey-agent.md)
+  + 共同作業者のスキル {#coworker-skills}
+    + [B2B アカウントと人物向けのオーディエンススキル](./agents/audience-agent-b2b.md)
+    + [B2Bジャーニーのスキル](./agents/journey-agent.md)
 + インテリジェントダッシュボード {#dashboards}
   + [Insights ダッシュボード](./dashboards/intelligent-dashboard.md)
   + [エンゲージメントダッシュボード](./dashboards/engagement-dashboard.md)
@@ -50,7 +49,7 @@ ht-degree: 82%
   + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
   + {hide-from-toc}[ジャーニートラフィック制御](./journeys/journey-traffic-control.md)
   + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
   + ジャーニーノード {#journey-nodes}
     + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
     + [顧客オーディエンス](./journeys/person-audience-nodes.md)
@@ -172,7 +171,7 @@ ht-degree: 82%
     + [インテントデータ](./admin/intent-data.md)
     + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
     + [外部アクション](./admin/configure-external-actions.md)
-    + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+    + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
   + チャネル {#channels}
     + [メール設定](./admin/configure-channels-emails.md)
     + [SMS 設定](./admin/configure-channels-sms.md)

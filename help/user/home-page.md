@@ -1,6 +1,6 @@
 ---
 title: ログインとホームページ
-description: Journey Optimizer B2B Edition にアクセスし、パーソナライズされたホームページを操作します。マーケターと管理者向けに、クイックアクセスと AI アシスタントを備えた異なるビューが用意されています。
+description: Journey Optimizer B2B Editionにアクセスし、パーソナライズされたホームページに移動する – クイックアクセスと[!DNL Coworker] チャットを使用して、マーケターと管理者向けの様々なビューを表示します。
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 83%
+source-wordcount: '414'
+ht-degree: 72%
 ---
 # ログインとホームページ
 
@@ -44,7 +44,7 @@ Adobe Experience Platform にログインし、Adobe Journey Optimizer B2B Editi
 
 ![Journey Optimizer B2B Edition ホームページ](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition には、_&#x200B;**マーケター**&#x200B;_&#x200B;と&#x200B;_&#x200B;**管理者**&#x200B;_&#x200B;という 2 つの主要なユーザーペルソナがあります。 各ペルソナには、成熟度（新規または高度）に応じた固有のホームページがあります。 ページのコンテンツは、各ペルソナが必要とする情報と次に実行するアクションに基づいています。
+Journey Optimizer B2B Edition には、_**マーケター**_&#x200B;と&#x200B;_**管理者**_&#x200B;という 2 つの主要なユーザーペルソナがあります。 各ペルソナには、成熟度（新規または高度）に応じた固有のホームページがあります。 ページのコンテンツは、各ペルソナが必要とする情報と次に実行するアクションに基づいています。
 
 * **マーケター - 新規ユーザー** - 新規ユーザー向けの&#x200B;_マーケター_&#x200B;ホームページは、Journey Optimizer B2B とその機能に慣れるのに役立ちます。 新しいマーケター向けのガイドを利用して、システムの細かな違いを理解し、B2B マーケティング戦略や施策の開発を効率的に行うことができます。
 * **マーケター - 高度なユーザー** - 高度なマーケター向けの&#x200B;_マーケター_&#x200B;ホームページには、現在のイニシアチブの進行状況、推奨される次のアクションが表示され、関連セクションにクイックアクセスできます。
@@ -53,7 +53,7 @@ Journey Optimizer B2B Edition には、_&#x200B;**マーケター**&#x200B;_&#x2
 
 「_[!UICONTROL 最近アクセス済み]_」セクションには、マーケターや管理者に対して最近アクセス済みのアセットのリストが表示されます。 このリストを使用すると、一連のアセットページを移動して検索することなく、最近作業済みのアセットに直接移動できます。
 
-また、このページには [AI アシスタント](./ai-coworker/ai-assistant-overview.md)へのアクセスも含まれ、これを使用すると、ユーザーは、必要な特定の質問やトピックに関する情報をすばやく入手できます。<!-- and to obtain specific recommendations for their challenges or objectives-->
+このページには、[同僚チャット ](./ai-coworker/ai-overview.md)へのアクセスも含まれており、ユーザーが必要な特定の質問やトピックに関する情報をすばやく入手するのに役立ちます。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 
