@@ -177,7 +177,7 @@ Journey Optimizer B2B Editionでは、チャットインターフェイス内で
 | ----- | ------ | ----------- |
 | Journey Build Agent | 新規および更新済み | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。 [詳細情報](../agents/journey-agent.md) |
 | Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。 これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。 [詳細情報](../agents/audience-agent-b2b.md) |
-| [!DNL Marketo Qualifier] | 新規 | [!DNL Adobe Marketo Qualifier]は、[!DNL Journey Optimizer B2B Edition]と統合するAI ドリブン アプリケーションです。 Account Qualification Agentを実装し、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客のクオリフィケーション、アウトリーチ、バイヤーのエンゲージメントワークフローを自動化できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"} |
+| [!DNL Marketo Qualifier] | 新規 | [!DNL Adobe Marketo Qualifier]は、[!DNL Journey Optimizer B2B Edition]と統合するAI ドリブン アプリケーションです。 Account Qualification Agentを実装し、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客のクオリフィケーション、アウトリーチ、バイヤーのエンゲージメントワークフローを自動化できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 リリースノート {#rel-2025-10}
 

@@ -56,7 +56,7 @@ ht-degree: 8%
 
 コンテンツの生成以外のすべてのチャットワークフローに[!DNL CX Enterprise Coworker] アプリのインターフェイスを使用します。 製品に関する質問をしたり、業務上のインサイトを確認したり、B2B アカウントとユーザー向けに[&#x200B; ジャーニースキル &#x200B;](../agents/journey-agent.md)と[&#x200B; オーディエンススキル &#x200B;](../agents/audience-agent-b2b.md)を活用したりできます。 コンテンツの生成は、[!DNL Journey Optimizer B2B Edition]内で引き続き利用できます。
 
-アプリを開く、会話を開始する、チャット機能を使用する方法については、[CX Coworker インターフェイスガイド &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
+アプリを開く、会話を開始する、チャット機能を使用する方法については、[CX Coworker インターフェイスガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
 
 [!DNL Coworker]件のチャットクエリを送信する前に、必要な問い合わせタイプを検討してください。
 
@@ -115,4 +115,4 @@ _運用上のインサイト_&#x200B;とは、[!DNL Coworker]がメタデータ�
 
 * [AI機能へのアクセスを有効にする](./enable-ai-access.md)
 * [質問ガイダンス](./question-guidance.md)
-* [CX Coworker インターフェイスガイド](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [CX Coworker インターフェイスガイド](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/ui-guide){target="_blank"}
