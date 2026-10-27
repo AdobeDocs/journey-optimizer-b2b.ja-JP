@@ -73,7 +73,7 @@ ht-degree: 0%
 
 「B2B ジャーニーを構築し、意思決定者を、新しいパイプラインを開く可能性が最も高いエンゲージメントの高いアカウントのロードショーに招待する」。
 
-[!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}のB2B プロンプトのジャーニー作成スキル：![
+[!DNL CX Coworker]![&#128279;](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}のB2B プロンプトのジャーニー作成スキル：
 
 より詳細な情報を提供すれば、より的確な回答を得られます。 イベントや製品などを説明する既存のマーケティング資料がある場合は、それをプロンプトに貼り付けて、[!DNL Coworker]が目標をより深く理解できるようにします。
 

@@ -84,4 +84,4 @@ ht-degree: 1%
 
 ## 次の手順
 
-[!DNL CX Coworker] アプリでチャット機能を使用する方法については、[CX Coworker インターフェイス ガイド ](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
+[!DNL CX Coworker] アプリでチャット機能を使用する方法については、[CX Coworker インターフェイス ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。

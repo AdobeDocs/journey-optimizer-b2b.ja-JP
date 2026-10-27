@@ -52,12 +52,12 @@ ht-degree: 1%
 >
 >B2B アカウントと人物にオーディエンススキルを使用する前に、次のデータ定義とマッピングを設定します。
 >
->* [ インテント データの分類とマッピング ](../admin/intent-data.md)
->* [XDM フィールドマッピング ](#xdm-data-prerequisites)
+>* [&#x200B; インテント データの分類とマッピング &#x200B;](../admin/intent-data.md)
+>* [XDM フィールドマッピング &#x200B;](#xdm-data-prerequisites)
 
 アプリケーションの上部にある「_[!DNL Coworker]_&#x200B;に質問（![[!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg)に質問）」アイコンをクリックして、[!DNL Coworker] アプリケーションを開きます。 チャットインターフェイスに自然言語プロンプトを入力します。
 
-[!DNL CX Coworker]](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}の![ オーディエンスプロンプト
+[!DNL CX Coworker]![&#128279;](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}の オーディエンスプロンプト
 
 ## オーディエンススキルの注目分野
 
@@ -491,7 +491,7 @@ ht-degree: 1%
 1. ラベル付きアセット（イベントデータ）を訪問者行動（訪問したページ数）と組み合わせて、キーワード、製品、製品カテゴリーレベル、インテント計算で訪問者の意図→判断します
 1. 訪問者プロファイルレベルのインテントスコアは、アカウントレベルで集計され、特定のキーワード、製品および製品カテゴリにおけるアカウントの意図を判断します> インテントアカウント集計
 
-インテント分類法](../admin/intent-data.md)の設定[に加えて、次のフィールドが必要です。
+インテント分類法[&#128279;](../admin/intent-data.md)の設定に加えて、次のフィールドが必要です。
 
 <table>
   <tbody>

@@ -86,7 +86,7 @@ ht-degree: 26%
 管理者とマーケター向けの[!DNL Journey Optimizer B2B Edition] オンボーディングガイダンスを確認します。
 
 [管理者](./setup-ultimate.md)
-[ ユーザー](./start/get-started.md)
+[&#x200B; ユーザー](./start/get-started.md)
 :::
 
 :::
@@ -98,8 +98,8 @@ ht-degree: 26%
 
 [XDM フィールドの管理を表示](./admin/xdm-field-management.md)
 [書き出されたデータセット](./data/aep-exported-datasets.md)
-[ データセットクエリ](./data/aep-query-examples.md)
-[ データの可用性と同期のタイミング ](./data/data-availability-timing.md)
+[&#x200B; データセットクエリ](./data/aep-query-examples.md)
+[&#x200B; データの可用性と同期のタイミング &#x200B;](./data/data-availability-timing.md)
 :::
 
 :::
@@ -194,7 +194,7 @@ Learn how to author and manage content for personalized customer experiences orc
 
 [!DNL Adobe Marketo Qualifier]は、[!DNL Journey Optimizer B2B Edition]と一緒に使用できるAI駆動型アプリケーションです。 これは、アカウントクオリフィケーションスキルを実装し、ビジネス開発担当者（BDR）のワークフローを合理化するように設計されています。 [!DNL Marketo Qualifier]は、見込み顧客の選定、アウトリーチ、バイヤーのエンゲージメントワークフローをチャネルをまたいで自動化します。 B2B企業は、手作業のBDR負荷を軽減し、パイプラインを高速化することで、パイプラインを高速化できます。
 
-詳しくは、[Marketo Qualifier ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"}を参照してください。
+詳しくは、[Marketo Qualifier ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

@@ -56,8 +56,8 @@ ht-degree: 5%
 
 ![AI機能権限の割り当て](./assets/coworker-permissions.png){width="800" zoomable="yes"}
 
-権限UIを使用して、[!DNL Adobe Journey Optimizer B2B Edition]で[!DNL Coworker] チャットを使用する権限を付与します。 [!DNL Adobe Experience Platform]およびその他の[!DNL Adobe Experience Cloud] アプリケーションの[!DNL CX Coworker]へのアクセスについて詳しくは、[CX Enterprise Coworker ドキュメント ](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}を参照してください。
+権限UIを使用して、[!DNL Adobe Journey Optimizer B2B Edition]で[!DNL Coworker] チャットを使用する権限を付与します。 [!DNL Adobe Experience Platform]およびその他の[!DNL Adobe Experience Cloud] アプリケーションの[!DNL CX Coworker]へのアクセスについて詳しくは、[CX Enterprise Coworker ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}を参照してください。
 
 ユーザーが必要な権限を持っている場合は、アプリケーションの上部ヘッダーにある「_[!DNL Coworker]chat_」アイコンを選択して、[!DNL Coworker] チャットにアクセスできます。
 
-アプリケーションヘッダーの![[!DNL Coworker] チャットアイコン ](./assets/coworker-icon-header.png){width="800" zoomable="yes"}
+アプリケーションヘッダーの![[!DNL Coworker] チャットアイコン &#x200B;](./assets/coworker-icon-header.png){width="800" zoomable="yes"}
