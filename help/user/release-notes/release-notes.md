@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 585e34d466ff17723a4049a0050a79d23783f2ce
+source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
 workflow-type: tm+mt
-source-wordcount: '5784'
+source-wordcount: '5774'
 ht-degree: 60%
 ---
 # Journey Optimizer B2B Edition リリースノート
@@ -177,7 +177,7 @@ Journey Optimizer B2B Editionでは、チャットインターフェイス内で
 | ----- | ------ | ----------- |
 | Journey Build Agent | 新規および更新済み | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。 [詳細情報](../agents/journey-agent.md) |
 | Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。 これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。 [詳細情報](../agents/audience-agent-b2b.md) |
-| 販売修飾子 | 新規 | Sales Qualifierは、Account Qualification Agentを含むAdobe Journey Optimizer B2B EditionへのAI駆動型アドオンアプリケーションで、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客のクオリフィケーション、アウトリーチ、バイヤーのエンゲージメントワークフローを自動化できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"} |
+| [!DNL Marketo Qualifier] | 新規 | [!DNL Adobe Marketo Qualifier]は、[!DNL Journey Optimizer B2B Edition]と統合するAI ドリブン アプリケーションです。 Account Qualification Agentを実装し、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客のクオリフィケーション、アウトリーチ、バイヤーのエンゲージメントワークフローを自動化できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 リリースノート {#rel-2025-10}
 

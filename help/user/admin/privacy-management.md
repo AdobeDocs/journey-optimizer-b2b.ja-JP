@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 2%
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
      * [!DNL Marketo Engage]に関連付けられているリード。
      * [!DNL Journey Optimizer B2B Edition]に作成された個人レコードとアカウントレコード。
-     * AI アシスタントの会話履歴：人物の個人情報を参照します。
+     * 個人の個人情報を参照する[!DNL Coworker]件のチャット会話履歴。
 
 1. **[!UICONTROL 製品]**&#x200B;の場合、**[!UICONTROL Marketo]**&#x200B;を選択します。
 

@@ -1,6 +1,6 @@
 ---
 title: ログインとホームページ
-description: Journey Optimizer B2B Edition にアクセスし、パーソナライズされたホームページを操作します。マーケターと管理者向けに、クイックアクセスと AI アシスタントを備えた異なるビューが用意されています。
+description: Journey Optimizer B2B Editionにアクセスし、パーソナライズされたホームページに移動する – クイックアクセスと[!DNL Coworker] チャットを使用して、マーケターと管理者向けの様々なビューを表示します。
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 83%
+source-wordcount: '414'
+ht-degree: 72%
 ---
 # ログインとホームページ
 
@@ -53,7 +53,7 @@ Journey Optimizer B2B Edition には、_&#x200B;**マーケター**&#x200B;_&#x2
 
 「_[!UICONTROL 最近アクセス済み]_」セクションには、マーケターや管理者に対して最近アクセス済みのアセットのリストが表示されます。 このリストを使用すると、一連のアセットページを移動して検索することなく、最近作業済みのアセットに直接移動できます。
 
-また、このページには [AI アシスタント](./ai-coworker/ai-assistant-overview.md)へのアクセスも含まれ、これを使用すると、ユーザーは、必要な特定の質問やトピックに関する情報をすばやく入手できます。<!-- and to obtain specific recommendations for their challenges or objectives-->
+このページには、[同僚チャット &#x200B;](./ai-coworker/ai-overview.md)へのアクセスも含まれており、ユーザーが必要な特定の質問やトピックに関する情報をすばやく入手するのに役立ちます。<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

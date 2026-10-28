@@ -1,6 +1,6 @@
 ---
 title: Script Builder
-description: 電子メールデザイン分野でのAI アシスタントであるScript Builderを使用して、Journey Optimizer B2B editionでHandlebars パーソナライゼーションスクリプトを生成し、Marketo Engage Velocity スクリプトを変換します。
+description: 電子メールデザイン分野でのAI アシスタントであるScript Builderを使用して、Handlebars パーソナライゼーションスクリプトを生成し、Journey Optimizer B2B EditionでMarketo Engage Velocity スクリプトを変換します。
 feature: AI Assistant, Generative AI, Personalization, Email Authoring
 role: User, Developer
 badgeBeta: label="ベータ版" type="informative" tooltip="この機能は、現在、限定ベータ版リリース中です"
@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 3%
@@ -49,7 +49,7 @@ _Script Builder_&#x200B;は、[!DNL Adobe Journey Optimizer B2B Edition]電子�
 
 >[!IMPORTANT]
 >
->Script Builderへのユーザーのアクセスは、[!DNL Journey Optimizer B2B Edition]の他の生成AI機能と同じ権限で制御されます。 機能の権限の付与について詳しくは、[AI アシスタントへのアクセスの有効化](../ai-coworker/enable-ai-assistant-access.md)を参照してください。
+>Script Builderへのユーザーのアクセスは、[!DNL Journey Optimizer B2B Edition]の他の生成AI機能と同じ権限で制御されます。 機能の権限の付与について詳しくは、[AI機能へのアクセスの有効化](../ai-coworker/enable-ai-access.md)を参照してください。
 
 Script Builderを使用する前に、[!DNL Journey Optimizer B2B Edition]の生成AI機能に適用される[&#x200B; ガイドラインと制限事項](./generative-ai-content.md#general-guidelines-and-limitations)を確認してください。 AI機能を使用する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意も必要です。
 

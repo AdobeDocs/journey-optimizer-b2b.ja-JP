@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 8d51e62165a40322efc45af87bbdfcd56e8eefb9
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1911'
 ht-degree: 0%
 ---
 # 次善のパスノード
@@ -331,4 +331,4 @@ _会計四半期の過去30日間に評価段階のアクティビティが急�
 * 各パス割り当ての信頼性スコア
 * パスレベルおよびプロファイルレベルの推論。個々のプロファイルの詳細を拡張できます
 
-ライブ結果は、ジャーニーコンソールおよびAI ハブの[ジャーニーオブザーバビリティ スキル &#x200B;](../agents/journey-agent.md#journey-observability-skill)からも確認できます。
+ライブ結果は、ジャーニーコンソールと[!DNL Coworker] チャットの[ジャーニーオブザーバビリティ スキル &#x200B;](../agents/journey-agent.md#journey-observability-skills)でも利用できます。

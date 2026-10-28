@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 87bce853d68d03eabceccf02ba80a8077dce206d
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 27%
+source-wordcount: '1123'
+ht-degree: 26%
 ---
 # Adobe Journey Optimizer B2B Edition ドキュメント
 
@@ -160,7 +160,7 @@ Learn how to author and manage content for personalized customer experiences orc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="基本を学ぶ"><br/>
-      <strong>基本を学ぶ</strong><br/><a href="home-page.md"> ログインとホームページ </a><br/><a href="./start/get-started.md"> オンボーディングガイダンス </a> <br/><a href="./ai-coworker/ai-assistant-overview.md">AI機能</a>
+      <strong>基本を学ぶ</strong><br/><a href="home-page.md"> ログインとホームページ </a><br/><a href="./start/get-started.md"> オンボーディングガイダンス </a> <br/><a href="./ai-coworker/ai-overview.md">AI機能</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="購買グループ"><br/>
@@ -188,6 +188,16 @@ Learn how to author and manage content for personalized customer experiences orc
 </tr>
 </table>
 
+>[!BEGINSHADEBOX]
+
+## [!DNL Marketo Qualifier]
+
+[!DNL Adobe Marketo Qualifier]は、[!DNL Journey Optimizer B2B Edition]と一緒に使用できるAI駆動型アプリケーションです。 これは、アカウントクオリフィケーションスキルを実装し、ビジネス開発担当者（BDR）のワークフローを合理化するように設計されています。 [!DNL Marketo Qualifier]は、見込み顧客の選定、アウトリーチ、バイヤーのエンゲージメントワークフローをチャネルをまたいで自動化します。 B2B企業は、手作業のBDR負荷を軽減し、パイプラインを高速化することで、パイプラインを高速化できます。
+
+詳しくは、[Marketo Qualifier ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-qualifier/using/home){target="_blank"}を参照してください。
+
+>[!ENDSHADEBOX]
+
 ## その他のリソース
 
 <table style="table-layout:fixed">
@@ -203,4 +213,3 @@ Learn how to author and manage content for personalized customer experiences orc
 <a href="https://experienceleague.adobe.com/ja/docs/marketo/using/home" target="_blank"> ユーザードキュメント </a> - <a href="https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/home" target="_blank">開発者ドキュメント </a>
 </td>
 </tr></table>
-

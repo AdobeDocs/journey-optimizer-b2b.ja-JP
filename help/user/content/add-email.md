@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -96,12 +96,12 @@ Adobe Journey Optimizer B2B Editionを使用して、アカウントジャーニ
 | [!UICONTROL 送信者名] | メールヘッダーで使用される送信者名。 受信者に表示する送信者の名前を入力します。 _パーソナライズ_ アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。 |
 | [!UICONTROL 電子メールから] | メールヘッダーで使用される送信者アドレス。 デフォルト値は、[&#x200B; メールチャネル配信設定](../admin/configure-channels-emails.md#delivery-settings)から入力されます。 _パーソナライズ_ アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。 |
 | [!UICONTROL 返信先アドレス &#x200B;] | メールヘッダーで使用される送信者アドレス。 デフォルト値は、[&#x200B; メールチャネル配信設定](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL &#x200B; ラベルから]）から入力されます。 受信者が返信機能を使用する場合に入力する電子メールアドレスを入力します（送信者アドレスと異なるか、同じである可能性があります）。 _パーソナライズ_ アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。 |
-| [!UICONTROL 件名] | メールの件名フィールドに表示されるテキスト。 デフォルト値は、_[!UICONTROL 新規電子メールを作成]_ ダイアログで入力したテキストから入力されます。 必要に応じてテキストを変更できます。 _パーソナライズ_ アイコン （![&#x200B; パーソナライズ アイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーション トークンを使用します。<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
+| [!UICONTROL 件名] | メールの件名フィールドに表示されるテキスト。 デフォルト値は、_[!UICONTROL 新規電子メールを作成]_ ダイアログで入力したテキストから入力されます。 必要に応じてテキストを変更できます。 _パーソナライズ_ アイコン （![&#x200B; パーソナライズ アイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーション トークンを使用します。<!-- Click the Generative AI button ( ![Generative AI icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL &#x200B; ブランディングドメイン &#x200B;] | システムで複数の[&#x200B; ブランドドメイン &#x200B;](../admin/configure-channels-emails.md#branding-domains)が定義されている場合は、メールの送信に使用するブランドドメインを選択します。 特定のブランドドメインを使用し、企業全体ではなく自社から配信されたと思われるメールを送信します。 これにより、企業との信頼関係を構築し、メール体験をパーソナライズして、開封率と応答率を向上させることができます。 |
 | [!UICONTROL 運用電子メール &#x200B;] | 電子メールを運用中に指定する場合は、チェックボックスをオンにします。 運用メールは、オプトアウト/登録解除リスト、およびコミュニケーション制限から除外されます。 受信者が電子メールメッセージを迷惑メール（SPAM）と見なせない場合にのみ、このオプションを選択します。 |
 | [!UICONTROL Web ページとしてビューを含める] | チェックボックスを選択して、メールメッセージのコンテンツから生成されるweb ページへのリンクを含めます。 メールメッセージの機能は、web ページよりも限定的であるため、JavaScript、拡張CSS、フォームで役立ちます。 リンクの生成に使用するテキストは、[電子メールチャネル配信設定](../admin/configure-channels-emails.md#delivery-settings) （[!UICONTROL web ページとして表示HTML]、および[!UICONTROL web ページとして表示]）で設定されています。 |
 | [!UICONTROL 開封トラッキングを無効にする] | 電子メールの開封状況を追跡しない場合は、チェックボックスをオンにします。 この機能を無効にすると、電子メールの開封数は、一意のユーザーが電子メールを開いたときにのみ増加します。 メール本文コンテンツをデザインする際に、[&#x200B; メールコンテンツリンクトラッキングを管理](./email-authoring.md#edit-linked-url-tracking)できます。 |
-| [!UICONTROL &#x200B; プリヘッダー] | プリヘッダーを含めるには、このチェックボックスをオンにします。 プリヘッダーは、一部のメールクライアントで件名の後に表示される短い要約テキストです。 通常は、メールの短い要約を提供し、通常は1文です。 フィールド <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->に概要テキストを入力します。 |
+| [!UICONTROL &#x200B; プリヘッダー] | プリヘッダーを含めるには、このチェックボックスをオンにします。 プリヘッダーは、一部のメールクライアントで件名の後に表示される短い要約テキストです。 通常は、メールの短い要約を提供し、通常は1文です。 フィールド <!-- , or click the Generative AI button ( ![Generative AI icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->に概要テキストを入力します。 |
 
 <!-- 
 Removed, but may reappear elsewhere
