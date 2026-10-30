@@ -494,4 +494,4 @@ Web SDKがリンクのクリックを自動的に記録したことを示すイ�
 
 ## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448684/?captions=jpn&learn=on)
