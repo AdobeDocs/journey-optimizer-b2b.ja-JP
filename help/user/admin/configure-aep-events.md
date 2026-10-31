@@ -26,17 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 12%
+source-wordcount: '1639'
+ht-degree: 13%
 ---
 # エクスペリエンスイベントとフィールドの選択
 
 管理者は、Experience Event結合スキーマ内の特定のAdobe Experience Platform（AEP） [Experience Events](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}とその関連フィールドを選択できます。 選択後、ユーザーはそれらのエクスペリエンスイベントをリッスンするように決定ルールを設定して、ほぼリアルタイムのイベントデータにもとづいて、動的かつターゲットを絞ったキャンペーンアクションを有効にできます。
 
-<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
-
+![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30"} [概要ビデオを視聴](#overview-video)
 >[!PREREQUISITES]
 >
 >Journey Optimizer B2B EditionでExperience Eventsとフィールドを使用するには、プロファイル対応のExperience Event スキーマが必要です。 詳しくは、Experience Platform チュートリアルの「[&#x200B; リアルタイム顧客プロファイルを有効にする](https://experienceleague.adobe.com/ja/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"}」を参照してください。
@@ -493,8 +492,6 @@ Web SDKがリンクのクリックを自動的に記録したことを示すイ�
 
 +++
 
-<!--
- ## Overview video
+## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3448684/?captions=jpn&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3448684/?captions=jpn&learn=on)

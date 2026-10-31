@@ -24,18 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2156'
 ht-degree: 4%
 ---
 # イベントのリッスン
 
 イベントが発生したときに[&#x200B; ジャーニー](./journeys-overview.md)の次のステップにオーディエンスを進めるには、_イベントをリッスン_ ノードを追加します。 ジャーニーのタイプに応じて、このノードを使用して、人物イベントまたはアカウントイベントに応じてジャーニーの次のノードをトリガーできます。
 
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
--->
+![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [概要動画を見る](#overview-video)
 
 ## アカウントジャーニー {#account-journeys}
 
@@ -363,8 +361,6 @@ _[!UICONTROL Profile Audience]_&#x200B;制約を使用して、1つ以上のオ�
 
    パスを定義しない場合は、「_[!UICONTROL タイムアウトパスを設定]_」チェックボックスをオフにします。
 
-<!--
- ## Overview video
+## 概要動画
 
->[!VIDEO](https://video.tv.adobe.com/v/3443235/?captions=jpn&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3443235/?captions=jpn&learn=on)
