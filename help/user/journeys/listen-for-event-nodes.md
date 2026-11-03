@@ -24,16 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
+source-git-commit: 15097380d19f8e3748f49fee18aec2fcf43d0af3
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2151'
 ht-degree: 4%
 ---
 # イベントのリッスン
 
 イベントが発生したときに[&#x200B; ジャーニー](./journeys-overview.md)の次のステップにオーディエンスを進めるには、_イベントをリッスン_ ノードを追加します。 ジャーニーのタイプに応じて、このノードを使用して、人物イベントまたはアカウントイベントに応じてジャーニーの次のノードをトリガーできます。
 
-![&#x200B; ビデオ &#x200B;](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [概要動画を見る](#overview-video)
+![ビデオ](../../assets/do-not-localize/icon-video.svg){width="30" vertical-align="middle"} [概要ビデオを視聴](#overview-video)
 
 ## アカウントジャーニー {#account-journeys}
 
