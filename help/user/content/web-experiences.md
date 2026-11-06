@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0d7af9ad43f2fce159de48c01d7e1c6c6ae234af
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1414'
 ht-degree: 6%
 ---
 # web エクスペリエンス
@@ -192,17 +192,19 @@ web エクスペリエンスを作成する場合、コンテンツエディタ�
 
 web キャンペーンが開始されたら、Journey Optimizer B2B Editionで定義したweb エクスペリエンスのパフォーマンスを、別のページへのリダイレクトを使用するweb エクスペリエンスに対して追跡できます。
 
-## Web エクスペリエンスのテスト
+<!--
+## Test the web experience
 
-Web エクスペリエンスのコンテンツデザインが完了したら、_コンテンツをシミュレート_&#x200B;機能を使用して、web ページの変更をプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、テストプロファイルデータを使用して、コンテンツのレンダリング方法を確認できます。 シミュレーションツールは、web エクスペリエンスの「_[!UICONTROL コンテンツ]_」タブまたはコンテンツビジュアルデザインエディターから使用できます。
+After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
 
-1. 右上の「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
+1. Click **[!UICONTROL Simulate content]** at the top right.
 
-1. テストプロファイルを選択します。
+1. Select a test profile.
 
-1. テストプロファイルデータを使用してweb ページを確認するには、テストプロファイルを追加します。
+1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## web エクスペリエンスのアクティベーション
 
