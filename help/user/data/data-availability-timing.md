@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 827c313f032d482ac2b0a5fa8f41d6506e67b9cb
+source-git-commit: 25cbdfb352740385181a68f96b0b2e6ebc3313e7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '730'
 ht-degree: 0%
 ---
 # データの可用性と同期のタイミング {#data-availability}
@@ -55,13 +55,13 @@ ht-degree: 0%
 
 | データタイプ | 一般的な可用性 |
 | --- | --- |
-| [&#x200B; オーディエンスメンバーシップ &#x200B;](#daily-refresh) | 最大24時間（1日サイクル） |
-| [&#x200B; アカウントと人物の関係の変更](#daily-refresh) | 最大24時間（1日サイクル） |
-| [&#x200B; データ： [!DNL Experience Platform] から [!DNL Journey Optimizer B2B Edition]](#platform-sync) | 最大30分（ほぼリアルタイム） |
-| [&#x200B; データ： [!DNL Journey Optimizer B2B Edition] から [!DNL Experience Platform]](#platform-sync) | 最大4時間（マイクロバッチ） |
-| [&#x200B; クリック数や開封数などのアクティビティイベント &#x200B;](#activity-and-actions) | 最大4時間 |
+| [ オーディエンスメンバーシップ ](#daily-refresh) | 最大24時間（1日サイクル） |
+| [ アカウントと人物の関係の変更](#daily-refresh) | 最大24時間（1日サイクル） |
+| [ データ： [!DNL Experience Platform] から [!DNL Journey Optimizer B2B Edition]](#platform-sync) | 最大30分（ほぼリアルタイム） |
+| [ データ： [!DNL Journey Optimizer B2B Edition] から [!DNL Experience Platform]](#platform-sync) | 最大4時間（マイクロバッチ） |
+| [ クリック数や開封数などのアクティビティイベント ](#activity-and-actions) | 最大4時間 |
 | [[!DNL Marketo Engage]  リストの追加または削除](#activity-and-actions) | 30分以内（ほぼリアルタイム） |
-| [Journey Optimizer B2B Editionによって生成されたイベント &#x200B;](#activity-and-actions) | バッチオーディエンスでのみ使用できます |
+| [Journey Optimizer B2B Editionによって生成されたイベント ](#activity-and-actions) | バッチオーディエンスでのみ使用できます |
 | [LinkedIn オーディエンス母集団](#linkedin-timing) | 同日から36～40時間（最悪の場合） |
 
 ## オーディエンスおよび関係データ {#daily-refresh}
@@ -75,23 +75,31 @@ ht-degree: 0%
 
 >[!TIP]
 >
->オーディエンスメンバーシップは、リアルタイムではなく日々更新されることを理解して、ジャーニーを設計できます。 ほぼリアルタイムの回答が必要な場合は、オーディエンスベースのエントリの代わりに[&#x200B; イベントベースのトリガー](../journeys/listen-for-event-nodes.md)を使用します。
+>オーディエンスメンバーシップは、リアルタイムではなく日々更新されることを理解して、ジャーニーを設計できます。 ほぼリアルタイムの回答が必要な場合は、オーディエンスベースのエントリの代わりに[ イベントベースのトリガー](../journeys/listen-for-event-nodes.md)を使用します。
 
 ## [!DNL Experience Platform]とデータを同期 {#platform-sync}
 
-[!DNL Experience Platform]はアカウント、人物、商談の主要なデータストアであり、[!DNL Journey Optimizer B2B Edition]はジャーニー、購買グループ、購買グループの役割を所有しています。 [&#x200B; アーキテクチャの詳細](../about-journey-optimizer-b2b-edition.md#high-level-architecture)。
+[!DNL Experience Platform]はアカウント、人物、商談の主要なデータストアであり、[!DNL Journey Optimizer B2B Edition]はジャーニー、購買グループ、購買グループの役割を所有しています。 [ アーキテクチャの詳細](../about-journey-optimizer-b2b-edition.md#high-level-architecture)。
 
 データは、2つのシステム間で各方向に異なるペースで移動します。
 
 * **[!DNL Experience Platform]～[!DNL Journey Optimizer B2B Edition]** - データはほぼリアルタイムで同期され、最大で30分かかる場合があります。
 * **[!DNL Journey Optimizer B2B Edition]から[!DNL Experience Platform]** - データはマイクロバッチで同期され、最大4時間かかる場合があります。
 
+## プロファイル IDの変更 {#profile-identity-changes}
+
+[!DNL Adobe Experience Platform]のプロファイルの`identityMap`に対する変更は、[!DNL Journey Optimizer B2B Edition]の既存の人物レコードとの関連付けを解除する可能性があります。 前の人物レコードは削除済みとしてマークされ、ジャーニーや購買グループの処理を進めなくなります。
+
+プロファイルは、[!DNL Journey Optimizer B2B Edition]にアクティブ化されたオーディエンスに対して再度選定され、再度取り込まれる必要があります。 取り込まれたレコードに別のユーザーIDがある場合、そのレコードは新しいユーザーとして扱われます。 そのユーザーがジャーニーにエントリした場合、前のレコードの進行状況を再開するのではなく、最初から開始します。
+
+過去のジャーニーのステータス数には、削除された人物レコードが含まれます。 ただし、**[!UICONTROL ドリルスルー]**&#x200B;は削除されたレコードを除外するため、レコード数はグラフ数よりも少ない可能性があります。 詳しくは、[人のジャーニー完了レポート ](../journeys/journey-details.md#person-journey-completion)を確認してください。
+
 ## アクティビティイベントとジャーニーアクション {#activity-and-actions}
 
 アクティビティデータとジャーニーアクションのタイミングは、システム間でデータがどのように移動するかによって異なります。
 
 * **アクティビティデータ** – 電子メールの開封、リンクのクリック、フォーム入力などの個人のアクティビティレコードは、[!DNL Journey Optimizer B2B Edition]に表示されるまでに約4時間かかります。 このタイミングは、バッチアクティビティデータに適用されます。[!DNL Experience Platform] Experience Event トリガーはストリーミングデータを使用し、ほぼリアルタイムで対応できます。
-* **[!DNL Marketo Engage]アクション** - [!DNL Marketo Engage]を呼び出すジャーニーアクションは、API呼び出しであるため、ほぼリアルタイムです。 例えば、ジャーニーの手順で[!DNL Marketo] リストからユーザーを追加または削除すると、通常、アクションは30分以内に完了します。 [&#x200B; ジャーニーアクションの詳細](../journeys/action-nodes.md)。
+* **[!DNL Marketo Engage]アクション** - [!DNL Marketo Engage]を呼び出すジャーニーアクションは、API呼び出しであるため、ほぼリアルタイムです。 例えば、ジャーニーの手順で[!DNL Marketo] リストからユーザーを追加または削除すると、通常、アクションは30分以内に完了します。 [ ジャーニーアクションの詳細](../journeys/action-nodes.md)。
 * **[!DNL Experience Platform]**&#x200B;を通過するアクション - [!DNL Experience Platform]に最初に戻るすべてのアクションはバッチ処理されるので、ほぼリアルタイムのタイミングではなくバッチ処理のタイミングが適用されます。
 * **によって生成されたイベント - [!DNL Journey Optimizer B2B Edition]が[!DNL Experience Platform]で生成したイベントは、バッチオーディエンスでのみ使用できます。[!DNL Journey Optimizer B2B Edition]**
 
