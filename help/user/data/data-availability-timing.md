@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 827c313f032d482ac2b0a5fa8f41d6506e67b9cb
+source-git-commit: 25cbdfb352740385181a68f96b0b2e6ebc3313e7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '730'
 ht-degree: 0%
 ---
 # データの可用性と同期のタイミング {#data-availability}
@@ -85,6 +85,14 @@ ht-degree: 0%
 
 * **[!DNL Experience Platform]～[!DNL Journey Optimizer B2B Edition]** - データはほぼリアルタイムで同期され、最大で30分かかる場合があります。
 * **[!DNL Journey Optimizer B2B Edition]から[!DNL Experience Platform]** - データはマイクロバッチで同期され、最大4時間かかる場合があります。
+
+## プロファイル IDの変更 {#profile-identity-changes}
+
+[!DNL Adobe Experience Platform]のプロファイルの`identityMap`に対する変更は、[!DNL Journey Optimizer B2B Edition]の既存の人物レコードとの関連付けを解除する可能性があります。 前の人物レコードは削除済みとしてマークされ、ジャーニーや購買グループの処理を進めなくなります。
+
+プロファイルは、[!DNL Journey Optimizer B2B Edition]にアクティブ化されたオーディエンスに対して再度選定され、再度取り込まれる必要があります。 取り込まれたレコードに別のユーザーIDがある場合、そのレコードは新しいユーザーとして扱われます。 そのユーザーがジャーニーにエントリした場合、前のレコードの進行状況を再開するのではなく、最初から開始します。
+
+過去のジャーニーのステータス数には、削除された人物レコードが含まれます。 ただし、**[!UICONTROL ドリルスルー]**&#x200B;は削除されたレコードを除外するため、レコード数はグラフ数よりも少ない可能性があります。 詳しくは、[人のジャーニー完了レポート &#x200B;](../journeys/journey-details.md#person-journey-completion)を確認してください。
 
 ## アクティビティイベントとジャーニーアクション {#activity-and-actions}
 
