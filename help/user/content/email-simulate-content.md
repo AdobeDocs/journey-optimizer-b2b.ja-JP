@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 78d7701e30628aad4b732b2d0858953ba09e26f5
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 8%
@@ -84,7 +84,7 @@ _コンテンツをシミュレート_&#x200B;機能を使用して、メール�
 
 1. 右上の「**[!UICONTROL プルーフを送信]**」をクリックします。
 
-   ![&#x200B; プルーフを送信をクリック &#x200B;](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![&#x200B; プルーフを送信をクリック &#x200B;](assets/email-simulate-content-preview-send-proof.png){width="600"}
 
 1. _プルーフを送信_ ページで、最初の受信者の電子メールアドレスを入力します。
 
