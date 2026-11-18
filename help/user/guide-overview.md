@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 262e06bce2cf9698731eda2cb0a3436c5080fddf
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 26%
+source-wordcount: '1103'
+ht-degree: 23%
 ---
 # Adobe Journey Optimizer B2B Edition ドキュメント
 
@@ -27,6 +27,18 @@ ht-degree: 26%
 
 >[!BEGINTABS]
 
+>[!TAB  ユーザーリスト ]
+
+デモグラフィック属性とエクスペリエンスイベント履歴を使用して、ターゲットプロファイルに再利用可能な静的および動的な人物リストを作成します。 リストメンバーシップを使用して、アカウントと個人のジャーニーを通じて人物をルーティングします。 ジャーニーアクションを使用して、静的リストにユーザーを追加または削除します。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/audiences/people-lists.md" tooltip="ユーザーリストについて詳しく見る"}
+
+>[!TAB ジャーニーノードラベル ]
+
+アカウントジャーニーと個人ジャーニーのノードに表示ラベルを追加することで、類似したステップを区別し、ジャーニーキャンバスでの目的を明確にできます。
+
+[!BADGE 詳細情報]{type=Informative url="/help/user/journeys/create-publish-journey.md#label-a-node" tooltip="ジャーニーノードラベルについて詳しく見る"}
+
 >[!TAB  ユーザージャーニー]
 
 [!DNL Adobe Experience Platform]人のオーディエンスとデータを使用して個々の人物を惹きつける人物ジャーニーを使用して、リードベースのマーケティングをオーケストレーションします。 ユーザーのジャーニーで、_イベントのリッスン_、外部アクション、外部分割パスノード、ジャーニーの再エントリがサポートされるようになりました。 アカウントジャーニーおよび購買グループと組み合わせて使用することで、購買ジャーニー全体のオーケストレーションが可能になります。
@@ -38,18 +50,6 @@ ht-degree: 26%
 定義した割合にもとづいて、アカウントや人物を異なるジャーニーパスに割り当てることで、アカウントや人物のジャーニー内のバリエーションをテストできます。 対面ジャーニーでは、割り当てが決定論的であるため、各メンバーは常に同じパスに従い、管理された実験をサポートします。
 
 [!BADGE 詳細情報]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="バリアント分割パスについて説明します"}
-
->[!TAB WhatsApp チャネル ]
-
-開発者や製品管理者がMeta Business Manager アカウントとの統合を設定する場合、マーケターはMeta APIを使用して、アカウントジャーニーにWhatsApp メッセージをコンテンツチャネルとして含めることができます。 WhatsAppは、アカウントメンバーにジャーニーコンテンツを直接配信するための利用可能なチャネルとして、メールとSMSを統合しています。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="WhatsApp チャネルについて説明します"}
-
->[!TAB 生成AI モデル ]
-
-メールデザイナーは、メールコンテンツ用の画像を生成する際に、標準[!DNL Firefly] モデル、ブランド固有のアセットでトレーニングされたカスタム [!DNL Firefly] モデル、承認済みのサードパーティ画像モデルから選択できるようになりました。 この選択範囲により、一般的なコンテンツのニーズから、ブランド化されたユースケースや特殊なユースケースまで、特定のデザインシナリオに適合するモデルをコントロールすることができます。
-
-[!BADGE 詳細情報]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="生成AI モデルの選択方法について詳しく見る"}
 
 >[!TAB 送信時間の最適化]
 
@@ -85,8 +85,9 @@ ht-degree: 26%
 
 管理者とマーケター向けの[!DNL Journey Optimizer B2B Edition] オンボーディングガイダンスを確認します。
 
-[管理者](./setup-ultimate.md)
-[&#x200B; ユーザー](./start/get-started.md)
+[管理者のチェックリスト](./setup-ultimate.md)
+
+[利用者向けオンボーディング](./start/get-started.md)
 :::
 
 :::
@@ -121,7 +122,9 @@ ht-degree: 26%
 
 パーソナライズされたアカウントと人物のジャーニーを設計、編成、管理、最適化できます。
 
-[ジャーニーを探索](./journeys/journeys-overview.md)
+[ジャーニーを見る](./journeys/journeys-overview.md)
+[&#x200B; ジャーニーでのアカウントリストの使用](./accounts/account-lists-journeys.md)
+[&#x200B; ジャーニーでユーザーリストを使用](./audiences/people-lists-journeys.md)
 :::
 
 :::
@@ -131,7 +134,8 @@ ht-degree: 26%
 
 効果的なターゲティングのための購買グループの作成、管理、最適化に関する詳細なガイダンス。
 
-[購買グループについてさらに詳しく](./buying-groups/buying-groups-overview.md)
+[購買グループについて](./buying-groups/buying-groups-overview.md)
+[購買グループの作成](./buying-groups/buying-groups-create.md)
 :::
 
 ::::
@@ -167,8 +171,8 @@ Learn how to author and manage content for personalized customer experiences orc
       <strong>購買グループ</strong><br/><a href="./buying-groups/buying-groups-overview.md">購買グループの概要</a><br/><a href="./buying-groups/buying-groups-role-templates.md">役割テンプレート</a><br/><a href="./buying-groups/solution-interests.md">ソリューションに対する関心</a><br/><a href="./buying-groups/buying-groups-create.md">購買グループの作成</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="アカウントジャーニー"><br/>
-      <strong>アカウントジャーニー</strong><br/><a href="./journeys/journeys-overview.md">ジャーニーの概要</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">アカウントジャーニーの作成</a><br/><a href="./journeys/journey-nodes.md">ジャーニーノード</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="ジャーニー"><br/>
+      <strong>ジャーニー</strong><br/><a href="./journeys/journeys-overview.md">ジャーニーの概要</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey"> アカウントまたは個人のジャーニーを作成</a><br/><a href="./journeys/journey-nodes.md">ジャーニーノード </a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -184,8 +188,7 @@ Learn how to author and manage content for personalized customer experiences orc
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="インサイトとダッシュボード"><br/>
       <strong> インサイト </strong><br/><a href="./dashboards/intelligent-dashboard.md"> インテリジェントダッシュボード </a><br/><a href="./dashboards/engagement-dashboard.md"> エンゲージメントダッシュボード </a><br/><a href="./dashboards/buying-groups-dashboard.md">購買グループダッシュボード </a><br/><a href="./dashboards/journeys-dashboard.md">ジャーニーダッシュボード </a><br/><a href="./buying-groups/incrm-insights.md">CRM内インサイト </a>
     </td>
-
-</tr>
+   </tr>
 </table>
 
 >[!BEGINSHADEBOX]
