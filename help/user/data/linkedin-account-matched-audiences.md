@@ -40,7 +40,7 @@ ht-degree: 14%
 
 この機能は、Experience Platform Destinations を活用して、統合のいくつかの側面を管理します。 最大10個のデータフローがあります。
 
-Journey Optimizer B2B Editionからデータフローを開始する前に、Experience Platform アプリケーションでLinkedIn Campaign Manager アカウントが設定された[&#x200B; （Companies） LinkedIn Matched Audience宛先コネクタ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}の少なくとも1つのインスタンスが必要です。
+Journey Optimizer B2B Editionからデータフローを開始する前に、Experience Platform アプリケーションでLinkedIn Campaign Manager アカウントが設定された[&#x200B; （Companies） LinkedIn Matched Audience宛先コネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}の少なくとも1つのインスタンスが必要です。
 
 ## 新しい LinkedIn アカウントの接続を設定する {#linkedin-destination-setup}
 
