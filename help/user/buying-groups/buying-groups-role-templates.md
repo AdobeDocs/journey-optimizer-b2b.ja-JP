@@ -18,12 +18,12 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1454'
 ht-degree: 5%
 ---
-# 購買グループのロールテンプレート
+# 購買グループのロールテンプレート&#x200B;
 
 B2B市場では、通常、複数の個人が購入決定を行います。 これらのメンバーは、組織内での役割に応じて、意思決定プロセスに参加します。 製品オファーのタイプやアカウントのユースケースごとに、役割の定義のグループを含む購買グループの役割テンプレートを作成できます。
 
@@ -102,8 +102,8 @@ B2B アカウントと人物[&#128279;](../agents/audience-agent-b2b.md)の オ�
 | ---- | --------- |
 | [!UICONTROL 人物の属性] | [人物プロファイル &#x200B;](../admin/field-mapping.md#xdm-business-person-attributes)の属性（以下を含む）: <li>市区町村 <li>国 <li>メールアドレス <li>メール無効 <li>メール中断済み <li>名 <li>推測される都道府県 / 地域 <li>役職 <li>姓 <li>携帯電話番号 <li>ユーザーエンゲージメントスコア <li>電話番号 <li>郵便番号 <li>状態 |
 | [!UICONTROL &#x200B; カスタムオブジェクト &#x200B;] >に`<custom object>`があります | [!BADGE Beta]{type=Informative tooltip="Betaの機能"} アカウントまたは人物には、リレーショナルスキーマレコードがないか、またはいません。 また、[XDM リレーショナルスキーマ &#x200B;](../admin/xdm-field-management.md#relational-schemas)で設定されているように、選択したカスタムオブジェクトの条件に対して評価することもできます。 |
-| 特殊なフィルター | <li>リストのメンバー（非推奨） <li>プログラムのメンバー（非推奨） |
 | インテントデータ | <li>カテゴリの意図 <li>製品インテント <li>キーワードインテント <br/> （[_インテントデータ_](../admin/intent-data.md)&#x200B;を参照） |
+| 特殊なフィルター | <li>[!UICONTROL にはアカウント関係]があります <li>[!UICONTROL 購買グループのメンバー] <li>[!UICONTROL &#x200B; リストのメンバー] （非推奨） <li>[!UICONTROL &#x200B; プロファイルオーディエンスのメンバー] <li>[!UICONTROL People Dynamic Listの人物メンバー] <li>[!UICONTROL 人物の静的リスト &#x200B;]のメンバー |
 
 #### 役割プロパティの定義
 

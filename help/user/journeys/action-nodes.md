@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2358'
 ht-degree: 3%
 ---
 # アクションの実行
@@ -129,10 +129,13 @@ _宛先ノードにアクティブ化を追加するには&#x200B;:_
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL &#x200B; ユーザーを（他の）ジャーニーに追加] | <li>アカウントジャーニー（人物に対するアクション） <li>ユーザージャーニー | <li>ライブ顧客ジャーニーを選択 |
 | | [!UICONTROL 外部顧客オーディエンスに追加] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>外部の顧客オーディエンスを選択 |
+| | [!UICONTROL &#x200B; ユーザーリストに追加] | <li>アカウントジャーニー（人物に対するアクション） <li>ユーザージャーニー | <li>静的な人物リストを選択 |
 | | [!UICONTROL 購買グループに割り当て] | <li>アカウントジャーニー | <li>ソリューションに対する関心を選択 <li>役割を選択 |
 | | [!UICONTROL 興味深い瞬間] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>タイプ <li>説明 |
 | | [!UICONTROL web エクスペリエンスのパーソナライズ &#x200B;] （Beta） | <li>アカウントジャーニー | <li>web エクスペリエンスの作成/編集 |
 | | [!UICONTROL 購買グループから削除] | <li>アカウントジャーニー | <li>ソリューションに対する関心を選択 |
+| | [!UICONTROL &#x200B; ユーザーリストから削除] | <li>アカウントジャーニー（人物に対するアクション） <li>ユーザージャーニー | <li>静的な人物リストを選択 |
+| | [!UICONTROL ジャーニーからユーザーを削除] | <li>ユーザージャーニー | <li>顧客ジャーニーを選択 |
 | | [!UICONTROL 電子メールを送信] | <li>アカウントジャーニー <li>ユーザージャーニー | <li>メールを作成 <li>配信時間の最適化（オプション、個人ジャーニーのみ） |
 | | [!UICONTROL SMSを送信] | <li>アカウントジャーニー | <li>SMS を作成 |
 | | [!UICONTROL WhatsAppを送信] | <li>アカウントジャーニー | <li>WhatsApp メッセージの作成 |
@@ -216,6 +219,16 @@ _既存のオーディエンスを使用するには&#x200B;:_
 
 +++
 
++++[!UICONTROL &#x200B; ユーザーリストに追加]
+
+このアクションを使用して、静的な[&#x200B; ユーザーリスト &#x200B;](../audiences/people-lists.md)にユーザーを追加します。 ユーザーがアクションノードに到達すると、選択したリストのメンバーとして追加されます。 人物が既にメンバーである場合、アクションは無視されます。
+
+**[!UICONTROL 選択]**&#x200B;をクリックして静的な人物リストを選択するか、**[!UICONTROL 作成]**&#x200B;をクリックして新しい静的な人物リストを作成します。 詳しくは、「[&#x200B; ジャーニーでユーザーリストを使用する](../audiences/people-lists-journeys.md)」を参照してください。
+
+![&#x200B; アクションを実行 – ユーザーリストに追加](./assets/node-action-add-to-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL 購買グループに割り当て]
 
 このアクションを使用して、選択したソリューションの関心と役割に基づいて[購買グループ &#x200B;](../buying-groups/buying-groups-overview.md)に人物プロファイルを追加します。
@@ -245,6 +258,16 @@ _既存のオーディエンスを使用するには&#x200B;:_
 このアクションを使用して、選択したソリューションの関心に基づいて[購買グループ &#x200B;](../buying-groups/buying-groups-overview.md)から人物プロファイルを削除します。
 
 ![&#x200B; アクションを実行 – 購買グループから削除](./assets/node-action-remove-from-buying-group.png){width="300"}
+
++++
+
++++[!UICONTROL &#x200B; ユーザーリストから削除]
+
+このアクションを使用して、静的な[&#x200B; ユーザーリスト &#x200B;](../audiences/people-lists.md)からユーザーを削除します。 ユーザーがアクションノードに到達すると、選択したリストからユーザーが削除されます。 ユーザーがメンバーでない場合、アクションは無視されます。
+
+「**[!UICONTROL 選択]**」をクリックして、静的な人物リストを選択します。 詳しくは、「[&#x200B; ジャーニーでユーザーリストを使用する](../audiences/people-lists-journeys.md)」を参照してください。
+
+![&#x200B; アクションを実行 – 人物リストから削除](./assets/node-action-remove-from-people-list.png){width="300"}
 
 +++
 

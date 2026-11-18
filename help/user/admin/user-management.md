@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
+source-git-commit: 734966636b6d2addf014905431fa755f6fe92ee6
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 76%
+source-wordcount: '2420'
+ht-degree: 75%
 ---
 # ユーザーのアクセスと権限
 
@@ -193,6 +193,7 @@ Journey Optimizer B2B Edition の機能へのアクセスには、次の権限�
 | B2B チャネル設定 | B2B チャネル設定の権限を設定、管理、表示します。 これらの権限には、通信制限、API 資格情報、セキュリティ設定の設定が含まれます。 | <li>B2B チャネル設定の管理 <li>B2B メール設定の表示 <li>B2B メール設定の管理 <li>B2B WhatsApp プリセットの管理 <li>B2B ランディングページ設定の管理 <li>B2B Formsプリセットの表示 <li>B2B Forms プリセットの管理 <li>B2B Forms プリセットの公開 <li>B2B Web エクスペリエンスの構築 <li>B2B WhatsApp設定の管理 |
 | B2B ダッシュボード | B2B ダッシュボードの権限の設定と表示。 これらの権限には、アカウントエンゲージメント、購買グループステージ、急増中のアカウント、取引先責任者の対象範囲が含まれます。 | <li>B2B エンゲージメントダッシュボードの表示 |
 | B2B ジャーニー | B2B ジャーニーの権限を設定、管理、表示、公開します。 これらの権限には、アカウントと人物のアクション、イベントリスナー、分割パスが含まれます。 | <li>B2B アカウントジャーニーの管理 <li>B2B人物ジャーニーの管理 <li>B2B人物のジャーニーの表示 <li>B2B人物ジャーニーの公開 |
+| B2B人物リスト | B2B人物リストの権限を管理および表示します。 これらの権限には、静的および動的な人物リストの作成、編集、削除、および静的リストからの人物の追加と削除が含まれます。 | <li>B2B人物リストの管理 <li>B2B人物リストの表示 |
 | Journey Optimizer ルール | 頻度ルール（通信制限）へのアクセスと設定。 これらの権限は、製品管理者に限定する必要があります。 | <li>頻度ルールの表示 <li>頻度ルールの管理 |
 
 >[!NOTE]

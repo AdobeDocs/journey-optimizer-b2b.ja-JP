@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 4%
+source-wordcount: '3118'
+ht-degree: 3%
 ---
 # パスの分割と結合 {#split-paths}
 
@@ -65,10 +65,11 @@ _&#x200B;**アカウントノードによるパスの分割の仕組み**&#x200B
 | パス条件 | 説明 |
 | --------------- | ----------- |
 | [!UICONTROL &#x200B; アカウント属性] | アカウントプロファイルの属性（以下を含む）: <li>年間売上高 <li>市区町村 <li>国 <li>従業員数 <li>業界 <li>名前 <li>SIC コード <li>状態 |
-| [!UICONTROL &#x200B; カスタムオブジェクト &#x200B;] >に`<custom object>`があります | [!BADGE Beta]{type=Informative tooltip="Betaの機能"} アカウントにリレーショナルスキーマレコードがないか、またはリレーショナルスキーマレコードがありません。 また、[XDM リレーショナルスキーマ &#x200B;](../admin/xdm-field-management.md#relational-schemas)で設定されているように、選択したカスタムオブジェクトの条件に対して評価することもできます。 （[&#x200B; カスタムデータフィルタリング &#x200B;](#custom-data-filtering)を参照）。 |
+| [!UICONTROL &#x200B; カスタムオブジェクト &#x200B;] >に`<custom object>`があります | [!BADGE Beta]{type=Informative tooltip="Betaの機能"} アカウントにリレーショナルスキーマレコードがないか、またはリレーショナルスキーマレコードがありません。 また、[XDM リレーショナルスキーマ &#x200B;](../admin/xdm-field-management.md#relational-schemas)で設定されているように、選択したカスタムオブジェクトの条件に対して評価することもできます。 （[_カスタムデータフィルタリング_](#custom-data-filtering)&#x200B;を参照）。 |
 | [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; アカウントが購買グループ &#x200B;]と一致しました | アカウントが1つ以上の購買グループと一致しています。 マッチングされた購買グループに対して、次の1つ以上の制約に対して評価できます。 <li>ソリューションへの関心 <li>購買グループステージ <li>購買グループのステータス <li>エンゲージメントスコア <li>完全性スコア <li> 購買グループのロールに属する人数 |
+| [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; アカウントリストのアカウントメンバー] | アカウントは、選択した1つ以上のアカウントリストのメンバーであるか、またはメンバーではありません。 （[_パスの分割ノード – アカウントリストのアカウントメンバー_](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)&#x200B;を参照） |
 
-### アカウントノードによる分割パスの追加
+### アカウントノードによる分割パスの追加 {#add-a-split-path-by-account-node}
 
 1. ジャーニーマップに移動します。
 
@@ -136,6 +137,12 @@ _&#x200B;**アカウントノードによるパスの分割の仕組み**&#x200B
 
 特定されたアカウントの購買グループまたはステージのステータスを更新するには、パスにアクションノードを追加します。
 
+### アカウントリストのフィルタリング {#account-list-filtering}
+
+_[!UICONTROL 特殊フィルター]_ > _[!UICONTROL アカウントリストのアカウントメンバー]_ フィルターを使用して、[&#x200B; アカウントリスト &#x200B;](../accounts/account-lists.md)のメンバーシップに基づいてアカウントのパスを定義します。 リストにアカウントを含めるには&#x200B;_true_&#x200B;に、除外するには&#x200B;_false_&#x200B;にメンバーシップを設定し、1つ以上のアカウントリストを選択します。 例えば、パスからアカウントを除外するには、フィルターを追加し、メンバーシップを&#x200B;_false_&#x200B;に設定して、ブロックリストを選択します。
+
+手順については、[&#x200B; パスの分割ノード – アカウントリストのアカウントメンバー](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)を参照してください。
+
 ## パスを人物で分割
 
 _（アカウントとユーザーのジャーニー）_
@@ -159,8 +166,12 @@ _&#x200B;**ユーザー別の分割パスの仕組み**&#x200B;_
 | [!UICONTROL &#x200B; カスタムオブジェクト &#x200B;] >に`<custom object>`があります | [!BADGE Beta]{type=Informative tooltip="Betaの機能"}この人物には、リレーショナルスキーマレコードがないか、またはリレーショナルスキーマレコードがありません。 また、[XDM リレーショナルスキーマ &#x200B;](../admin/xdm-field-management.md#relational-schemas)で設定されているように、選択したカスタムオブジェクトの条件に対して評価することもできます。 （[&#x200B; カスタムデータフィルタリング &#x200B;](#custom-data-filtering)を参照） |
 | [!UICONTROL &#x200B; イベント履歴] | ジャーニーのエントリ前に発生したエクスペリエンスイベントに基づいて人物を分割します。 フォルダーを展開して、[管理者 / XDM イベント設定](../admin/configure-aep-events.md)で設定されたすべてのイベントタイプを表示し、フィルターとして追加するイベントタイプを1つ選択します。 制約には、選択したイベントのフィールド、オーディエンスがジャーニーにエントリした時点から遡ったルックバックタイムウィンドウ、オプションの最小回数などが含まれます。 |
 | [!UICONTROL 人物の属性] | [人物プロファイル &#x200B;](../admin/field-mapping.md#xdm-business-person-attributes)の属性（以下を含む）: <li>市区町村 <li>国 <li>メールアドレス <li>メール無効 <li>メール中断済み <li>名 <li>推測される都道府県 / 地域 <li>役職 <li>姓 <li>携帯電話番号 <li>ユーザーエンゲージメントスコア <li>電話番号 <li>郵便番号 <li>都道府県 |
-| [!UICONTROL 特殊フィルター] > [!UICONTROL 購買グループのメンバー] | 個人が購買グループのメンバーであるか、またはメンバーでない場合は、次の基準の1つ以上に対して評価されます。 <li>ソリューションへの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>が削除されました（デフォルト：`false`）</li><li>役割</li> （[&#x200B; メンバーシップフィルタリング &#x200B;](#membership-filtering)を参照） |
-| [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; プロファイルオーディエンスのメンバー] | ユーザーは、1つ以上の[!DNL Adobe Experience Platform] プロファイル オーディエンスのメンバーであるか、メンバーではありません。 （[&#x200B; メンバーシップフィルタリング &#x200B;](#membership-filtering)を参照） |
+| [!UICONTROL 特殊フィルター] > [!UICONTROL 購買グループのメンバー] | 個人が購買グループのメンバーであるか、またはメンバーでない場合は、次の基準の1つ以上に対して評価されます。 <li>ソリューションへの関心</li><li>購買グループのステータス</li><li>完全性スコア</li><li>エンゲージメントスコア</li><li>が削除されました（デフォルト：`false`）</li><li>役割</li> （[_メンバーシップフィルタリング_](#membership-filtering)&#x200B;を参照） |
+| [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; プロファイルオーディエンスのメンバー] | ユーザーは、1つ以上の[!DNL Adobe Experience Platform] プロファイル オーディエンスのメンバーであるか、メンバーではありません。 （[_メンバーシップフィルタリング_](#membership-filtering)&#x200B;を参照） |
+| [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; アカウント動的リストの人物] | （個人ジャーニーのみ）個人のアカウントが1つ以上の動的アカウントリストのメンバーであるか、またはメンバーでない。 （[_アカウントリストの人物_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)&#x200B;を参照） |
+| [!UICONTROL 特殊フィルター] > [!UICONTROL &#x200B; アカウント静的リストの人物] | （個人ジャーニーのみ）個人のアカウントは、1つ以上の静的アカウントリストのメンバーであるか、またはメンバーではありません。 （[_アカウントリストの人物_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)&#x200B;を参照） |
+| [!UICONTROL 特殊フィルター] > [!UICONTROL 人物の動的リスト &#x200B;] | ユーザーは、1つ以上の動的な人物リストのメンバーであるか、またはメンバーではありません。 （[_メンバーシップフィルタリング_](#membership-filtering)&#x200B;を参照） |
+| [!UICONTROL 特殊フィルター] > [!UICONTROL 人物の静的リスト &#x200B;] | ユーザーは、1つ以上の静的な人物リストのメンバーであるか、メンバーではありません。 （[_メンバーシップフィルタリング_](#membership-filtering)&#x200B;を参照） |
 
 ### アカウントと個人のパスの条件
 
@@ -251,10 +262,14 @@ _[!UICONTROL 特殊フィルター]_ セクション内で、次のフィルタ�
 
 * _[!UICONTROL 購買グループのメンバー]_ – その人物が購買グループのメンバーであるかどうかを評価します。
 * _[!UICONTROL プロファイルオーディエンスのメンバー]_ – その人物が[!DNL Adobe Experience Platform] プロファイルオーディエンスのメンバーであるかどうかを評価します。
+* _[!UICONTROL アカウント動的リストのユーザーのメンバー]_ - （ユーザーのジャーニーのみ）ユーザーのアカウントが動的アカウントリストのメンバーであるかどうかを評価します。 （[&#x200B; ジャーニーでのアカウントリストの使用](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)を参照）
+* _[!UICONTROL アカウント静的リストのユーザーのメンバー]_ - （ユーザージャーニーのみ）そのユーザーのアカウントが静的アカウントリストのメンバーであるかどうかを評価します。 （[&#x200B; ジャーニーでのアカウントリストの使用](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)を参照）
+* _[!UICONTROL 人物の動的リストのメンバー]_ – その人物が動的な人物リストのメンバーであるかどうかを評価します。
+* _[!UICONTROL 人物の静的リストのメンバー]_ – その人物が静的な人物リストのメンバーであるかどうかを評価します。
 
-メンバーシップフィルターを追加するには、_[!UICONTROL 特殊フィルター]_ フォルダーから条件ワークスペースにドラッグし、メンバーシップを&#x200B;_true_&#x200B;に設定してメンバーを含めるか、_false_&#x200B;に設定してメンバーを除外します。 同じパス条件の両方のフィルターを組み合わせて、**[!UICONTROL フィルターロジック]**&#x200B;を使用して、どちらか一方またはすべてを一致させることができます。
+メンバーシップフィルターを追加するには、_[!UICONTROL 特殊フィルター]_ フォルダーから条件ワークスペースにメンバーシップフィルターをドラッグし、一致の定義を完了してメンバーを含めるか除外します。 フィルターに応じて、_true_&#x200B;または&#x200B;_false_&#x200B;を選択するか、_is_&#x200B;または&#x200B;_is not_&#x200B;を選択します。 これらのフィルターを同じパス条件で組み合わせ、**[!UICONTROL フィルターロジック]**&#x200B;を使用して、一部またはすべてを一致させることができます。
 
-これらのフィルターは、_イベントをリッスン_ ノードで[&#x200B; イベント &#x200B;](./listen-for-event-nodes.md#membership-filtering)のフィルターを追加する場合にも使用できます。
+_[!UICONTROL 購買グループのメンバー]_&#x200B;と&#x200B;_[!UICONTROL プロファイルオーディエンスのメンバー]_&#x200B;のフィルターは、_イベントをリッスン_ ノードで[&#x200B; イベントのフィルターを追加](./listen-for-event-nodes.md#membership-filtering)する場合にも使用できます。
 
 ![購買グループとプロファイルオーディエンスメンバーシップの人物条件でパスを分割](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
 
@@ -289,6 +304,20 @@ _[!UICONTROL Profile Audience]_&#x200B;制約を使用して、1つ以上のオ�
 >[!NOTE]
 >
 >フィルターは、オーディエンスメンバーシップをリアルタイムで計算しません。 最後のバッチオーディエンス取り込みの時点で、選択したオーディエンスのメンバーシップに基づいて人物を選定します。 [!DNL Journey Optimizer B2B Edition]に取り込まれたオーディエンスのみが評価できます。
+
+**アカウントリストのメンバー**
+
+_（ユーザージャーニーのみ）_
+
+アカウント静的リストの&#x200B;_[!UICONTROL 人物メンバー]_&#x200B;とアカウント動的リストの&#x200B;_[!UICONTROL 人物メンバー]_ フィルターを使用して、そのアカウントが[&#x200B; アカウントリストのメンバーであるかどうかに基づいて人物をルーティングします](../accounts/account-lists.md)。 リストにアカウントがあるユーザーまたは&#x200B;_が_&#x200B;ではないユーザーを含めるように演算子を&#x200B;_is_&#x200B;に設定し、1つ以上のアカウントリストを選択します。 例えば、ブロックリストに加える済みのアカウント内の人物をナーチャリングパスから除外するには、_[!UICONTROL Person Member of Account Static List]_ フィルターを追加し、演算子を&#x200B;_is not_&#x200B;に設定して、自分のアカウントのブロックリストを選択します。
+
+手順については、[&#x200B; パスの分割ノード – アカウントリストの人物メンバー](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)を参照してください。
+
+**人物リストのメンバー**
+
+_[!UICONTROL 人物メンバーの人物の静的リスト]_&#x200B;と&#x200B;_[!UICONTROL 人物メンバーの人物の動的リスト]_ フィルターを使用して、[人物リスト &#x200B;](../audiences/people-lists.md)のメンバーシップに基づいて人物をルーティングします。 リスト メンバーを含めるには&#x200B;_is_&#x200B;に、除外するには&#x200B;_is not_&#x200B;に演算子を設定し、1つ以上のリストを選択します。 例えば、従業員とパートナーをナーチャリングパスから除外するには、_[!UICONTROL Person Member of People Static List]_ フィルターを追加し、演算子を&#x200B;_is not_&#x200B;に設定して、除外リストを選択します。
+
+手順については、「[&#x200B; パスをユーザーリストのメンバーシップごとに分割する](../audiences/people-lists-journeys.md#split-paths-by-list-membership)」を参照してください。
 
 ## カスタムデータフィルタリング {#custom-data-filtering}
 

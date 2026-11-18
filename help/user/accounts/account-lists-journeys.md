@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '914'
 ht-degree: 0%
 ---
 # ジャーニーでのアカウントリストの使用
@@ -89,3 +89,70 @@ ht-degree: 0%
 1. **[!UICONTROL ライブ静的アカウントリストを選択]**&#x200B;するには、アカウントを削除するアカウントリストを選択します。
 
    ![&#x200B; アカウントリストから削除を選択](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
+
+## パスの分割ノード – アカウントリストのアカウントメンバー {#split-paths-account-member-of-account-list}
+
+**_アカウントジャーニーのみ_**
+
+アカウント別に分割される&#x200B;[_パス_ ノード &#x200B;](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node)の&#x200B;_[!UICONTROL アカウントリストのアカウントメンバー]_ フィルターを使用します。 アカウントは、選択した1つ以上のアカウントリストのメンバーであるか、またはメンバーではありません。 リストにアカウントを含めるには、メンバーシップを`true`に設定するか、アカウントを除外するために`false`に設定します。
+
+アカウントを除外するには、_[!UICONTROL Account Member of Account List]_ フィルターを追加し、メンバーシップを`false`に設定して、リストを選択します。
+
+1. ジャーニーマップに移動します。
+
+1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL パスを分割]**」を選択します。
+
+1. 右側のノードプロパティで、分割に「**[!UICONTROL アカウント]**」を選択します。
+
+1. _[!UICONTROL パス 1]_&#x200B;の条件を定義するには、「**[!UICONTROL 条件を適用]**」をクリックします。
+
+1. アカウントリストフィルターを定義します。
+
+   * 条件エディターで、_[!UICONTROL 特殊フィルター]_ フォルダーを展開し、**[!UICONTROL アカウントリストのアカウントメンバー]** フィルターを条件ワークスペースにドラッグします。
+
+   * リストにアカウントを含めるには、メンバーシップを`true`に設定するか、アカウントを除外するために`false`に設定します。
+
+   * 1つ以上のアカウントリストを選択します。
+
+   ![&#x200B; アカウントリストのアカウントメンバーを含むパス条件エディターの分割フィルター](./assets/account-lists-journeys-split-path-account-filter.png){width="700" zoomable="yes"}
+
+   アカウントリストのメンバーシップフィルターを他のアカウントフィルターと組み合わせて、すべての条件または任意の条件に一致するように選択できます。 上部の&#x200B;**[!UICONTROL フィルターロジック]**&#x200B;を適用して、条件を絞り込みます。
+
+1. 「**[!UICONTROL 完了]**」をクリックします。
+
+「[&#x200B; アカウントノードごとに分割パスを追加](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node)」の説明に従って、分割パスノードの設定を続行します。
+
+## パスの分割ノード – アカウントリストの人物メンバー {#split-paths-member-of-account-list}
+
+**_ユーザージャーニーのみ_**
+
+ユーザージャーニーの&#x200B;[_分割パス_ ノード &#x200B;](../journeys/split-merge-paths-nodes.md)のアカウントリストメンバーシップフィルターを使用して、アカウントがアカウントリストのメンバーであるかどうかに基づいてユーザーをルーティングします。 次の2つのフィルターを使用できます。
+
+| フィルター | 説明 |
+| ------ | ----------- |
+| [!UICONTROL &#x200B; アカウント動的リストの人物] | ユーザーのアカウントは、1つ以上の動的アカウントリストのメンバーであるか、またはメンバーではありません。 |
+| [!UICONTROL &#x200B; アカウント静的リストの人物メンバー] | ユーザーのアカウントが1つ以上の静的アカウントリストのメンバーであるか、メンバーでないか。 |
+
+Nurture パスからブロックリストに加えるアカウントのユーザーを除外するには、_[!UICONTROL Person Member of Account Static List]_ フィルターを追加し、演算子を`is not`に設定してリストを選択します。
+
+1. ジャーニーマップに移動します。
+
+1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL パスを分割]**」を選択します。
+
+1. _[!UICONTROL パス 1]_&#x200B;の条件を定義するには、「**[!UICONTROL 条件を適用]**」をクリックします。
+
+1. アカウントリストフィルターの定義
+
+   * 条件エディターで、_[!UICONTROL 特殊フィルター]_ フォルダーを展開し、**[!UICONTROL アカウント動的リストの人物]**&#x200B;または&#x200B;**[!UICONTROL アカウント静的リストの人物メンバー]** フィルターを条件ワークスペースにドラッグします。
+
+   * アカウントがリストに含まれているユーザーを含めるには、演算子を`is`に設定するか、`is not`に設定して除外します。
+
+   * 1つ以上のアカウントリストを選択します。
+
+     ![&#x200B; アカウント リスト フィルターのユーザーのメンバーを含むパス条件エディターの分割](./assets/account-lists-journeys-split-path-person-member-account-filter.png){width="700" zoomable="yes"}
+
+   アカウントリストメンバーシップフィルターを他の人物フィルターと組み合わせて、すべての条件または任意の条件に一致するように選択できます。 上部の&#x200B;**[!UICONTROL フィルターロジック]**&#x200B;を適用して、条件を絞り込みます。
+
+1. 「**[!UICONTROL 完了]**」をクリックします。
+
+[人物ノードによる分割パスの追加](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node)の説明に従って、分割パスノードの設定を続行します。
