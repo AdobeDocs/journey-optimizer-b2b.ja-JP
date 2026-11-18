@@ -349,4 +349,4 @@ _[!UICONTROL 人物メンバーの人物の静的リスト]_&#x200B;と&#x200B;_
 
 ## 概要動画 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443257/?captions=jpn&learn=on)

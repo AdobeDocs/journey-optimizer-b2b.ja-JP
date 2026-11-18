@@ -225,4 +225,4 @@ B2B アカウントと人物[&#128279;](../agents/audience-agent-b2b.md)の オ�
 
 ## 概要動画 {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453298/?captions=jpn&learn=on)
