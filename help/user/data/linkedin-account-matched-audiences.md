@@ -29,18 +29,18 @@ level_v2:
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # LinkedIn アカウントマッチドオーディエンス
 
-[!DNL Journey Optimizer B2B Edition]は、アカウントに一致するオーディエンスを通じてLinkedIn広告オーディエンスを生成する機能を提供しており、購買グループの空の役割を埋めるのに役立つように設計されています。 購買グループフィルターのセットを定義することで、LinkedIn のマッチドオーディエンスを維持し、購買グループのパラメーターに一致する見込み客をターゲットにすることができます。 _アクションを実行_ ノードからアカウントジャーニーからオーディエンスをアクティブ化することもできます。
+[!DNL Journey Optimizer B2B Edition]は、アカウントに一致するオーディエンスを通じてLinkedIn広告オーディエンスを生成する機能を提供しており、購買グループの空の役割を埋めるのに役立つように設計されています。 購買グループフィルターのセットを定義することで、LinkedIn のマッチドオーディエンスを維持し、購買グループのパラメーターに一致する見込み客をターゲットにすることができます。 [_アクションを実行_ ノード ](../journeys/action-nodes.md)からアカウントジャーニーからオーディエンスをアクティブ化することもできます。
 
 この機能は、Experience Platform Destinations を活用して、統合のいくつかの側面を管理します。 最大10個のデータフローがあります。
 
-Journey Optimizer B2B Editionからデータフローを開始する前に、Experience Platform アプリケーションでLinkedIn Campaign Manager アカウントが設定された[&#x200B; （Companies） LinkedIn Matched Audience宛先コネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}の少なくとも1つのインスタンスが必要です。
+Journey Optimizer B2B Editionからデータフローを開始する前に、Experience Platform アプリケーションでLinkedIn Campaign Manager アカウントが設定された[ （Companies） LinkedIn Matched Audience宛先コネクタ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}の少なくとも1つのインスタンスが必要です。
 
 ## 新しい LinkedIn アカウントの接続を設定する {#linkedin-destination-setup}
 
@@ -59,7 +59,7 @@ Journey Optimizer B2B Editionからデータフローを開始する前に、Exp
 
 1. コネクタカードで、_詳細_ （**...**）をクリックします アイコンをクリックし、**[!UICONTROL 新しい宛先を設定]**&#x200B;を選択します。
 
-   ![LinkedIn Matched Audience コネクタに（企業）アクセス &#x200B;](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![LinkedIn Matched Audience コネクタに（企業）アクセス ](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
 1. **[!UICONTROL 新しいアカウント]**&#x200B;を選択し、**[!UICONTROL 宛先に接続]**&#x200B;をクリックします。
 
@@ -69,11 +69,11 @@ Journey Optimizer B2B Editionからデータフローを開始する前に、Exp
 
    認証後、LinkedIn アカウントはExperience Platformの宛先として接続されます。
 
-   ![&#x200B; アカウント接続の確認が表示されます](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+   ![ アカウント接続の確認が表示されます](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
 
    >[!IMPORTANT]
    >
-   >この時点で、**は&#x200B;_[!UICONTROL 宛先の詳細]_&#x200B;を入力しません**。 接続だけが必要です。
+   >この時点で、**は&#x200B;_[!UICONTROL 宛先の詳細]_を入力しません**。 接続だけが必要です。
 
 ## アカウント詳細の更新
 
@@ -91,7 +91,7 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B Editionの
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## 購買グループのアカウントをアクティブ化
+## 購買グループのアカウントのアクティブ化（#activate-buying-group）
 
 >[!NOTE]
 >
@@ -109,11 +109,11 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B Editionの
 
    データフローを保存すると、データフローに指定した名前の先頭に&#x200B;_AJOB2B_&#x200B;が付き、Experience Platformでのデータフローの識別に役立ちます。
 
-1. LinkedIn Campaign Manager アカウント [&#128279;](https://www.linkedin.com/help/lms/answer/a424270)の アカウント IDを入力します。
+1. LinkedIn Campaign Manager アカウント ](https://www.linkedin.com/help/lms/answer/a424270)の[ アカウント IDを入力します。
 
    アカウント IDは、Campaign Manager UIのアカウント名で確認できます。
 
-   ![&#x200B; データフローの詳細を追加](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
+   ![ データフローの詳細を追加](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 購買グループフィルターを選択]**」をクリックし、アカウントオーディエンスのパラメーターを定義します。
 
@@ -149,7 +149,7 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B Editionの
 
 1. 右側のノードプロパティから、宛先を選択します。
 
-   * 1つ以上の宛先が作成されている場合は、**[!UICONTROL 宛先を選択]**&#x200B;をクリックして、既存の宛先を選択できます。
+   * 1つ以上の宛先が作成されている場合は、**[!UICONTROL 宛先を選択]**&#x200B;をクリックして、既存の宛先を選択します。
 
    * 既存の宛先がない場合、または新しい宛先を作成する場合は、**[!UICONTROL 宛先の設定]**&#x200B;をクリックします。
 
@@ -161,7 +161,7 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B Editionの
 
 1. ダイアログで、設定したLinkedInの宛先を選択し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   ![ジャーニーノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 – 宛先を選択ダイアログ &#x200B;](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+   ![ジャーニーノード – アカウントに対してアクションを実行 – 宛先に対してアクティブ化 – 宛先を選択ダイアログ ](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
 1. 宛先でアクティブ化されたオーディエンスを識別するために使用される&#x200B;**[!UICONTROL オーディエンス名]**&#x200B;を入力します。
 
@@ -171,4 +171,4 @@ LinkedIn アカウントの名前と説明は、Journey Optimizer B2B Editionの
 
 LinkedIn広告オーディエンスなどの有料メディアチャネルを通じてアカウントメンバーとエンゲージし、獲得、育成をおこない、セールスにつなげることができます。 アカウントジャーニーで&#x200B;_アクション_ ノードを使用して、様々なアカウントメンバーに最適な外部チャネルを通じて、アカウントの主要メンバーとのエンゲージメントを自動化します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448673/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
