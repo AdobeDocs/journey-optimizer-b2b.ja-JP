@@ -8,11 +8,11 @@ ht-degree: 0%
 ---
 # コンテンツオーサリング – モジュール
 
-[ コンテンツモジュール ](../user/content/content-modules.md)を使用して、ヘッダー、バナー、カード、フッターなどの準備されたセクションからデザインを構築します。 各モジュールには、構造、スタイル、デフォルトコンテンツが含まれており、カスタマイズできます。
+[&#x200B; コンテンツモジュール &#x200B;](../user/content/content-modules.md)を使用して、ヘッダー、バナー、カード、フッターなどの準備されたセクションからデザインを構築します。 各モジュールには、構造、スタイル、デフォルトコンテンツが含まれており、カスタマイズできます。
 
 1. ビジュアルデザインスペースで、「**[!UICONTROL モジュール]**」タブが表示されていない場合は、そのタブを選択します。
 
-   ビジュアルデザインスペースに表示される![ モジュールカテゴリ ](../assets/content-design-shared/content-design-modules-left-panel.png){width="500" zoomable="yes"}
+   ビジュアルデザインスペースに表示される![&#x200B; モジュールカテゴリ &#x200B;](../assets/content-design-shared/content-design-modules-left-panel.png){width="500" zoomable="yes"}
 
 1. カテゴリを参照するか、検索フィールドを使用して名前でモジュールを検索します。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. モジュールのバリエーションをカンバスにドラッグします。
 
-   ![ ヘッダーモジュールが表示され、キャンバスにドラッグされました](../assets/content-design-shared/content-design-modules-drag-canvas.png){width="650" zoomable="yes"}
+   ![&#x200B; ヘッダーモジュールが表示され、キャンバスにドラッグされました](../assets/content-design-shared/content-design-modules-drag-canvas.png){width="650" zoomable="yes"}
 
 1. モジュール内の要素を選択して、デフォルトのテキスト、画像、リンクを独自のコンテンツに置き換えます。
 
