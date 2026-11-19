@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 5%
 ---
 # メールメッセージの作成
@@ -102,6 +102,10 @@ ht-degree: 5%
 >[!NOTE]
 >
 > 保存したテンプレートには、1つ以上のコンポーネントにガバナンス（コンテンツロック）設定を適用することができます。 ビジュアルデザインスペースでは、管理されたテンプレートから電子メールを[作成](./email-authoring-governance.md)する際に、ロックされたコンポーネントに関するガイドラインが表示されます。
+
+## モジュールを追加
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 構造とコンテンツの追加 {#structure-content}
 

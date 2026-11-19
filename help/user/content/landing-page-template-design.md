@@ -31,14 +31,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 7%
 ---
 # ランディングページテンプレートのデザイン
 
-[&#x200B; ランディングページテンプレートを作成した後](./landing-page-templates.md#create-a-landing-page-template)、ビジュアルデザインスペースを使用して、ページテンプレート内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。
+[&#x200B; ランディングページテンプレートを作成した後](./landing-page-templates.md#create-a-landing-page-template)、ビジュアルデザインスペースを使用して、ページテンプレートのレイアウトとコンテンツを定義します。
+
+## モジュールを追加
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 構造とコンテンツの追加 {#structure-content-landing-page}
 

@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 3%
 ---
 # メールテンプレートオーサリング
 
-[&#x200B; メールテンプレートを作成した後](./email-templates.md#create-an-email-template)、ビジュアルデザインスペースを使用して、メールテンプレート内の構造コンポーネントとコンテンツコンポーネントを作成します。
+[&#x200B; メールテンプレートを作成した後](./email-templates.md#create-an-email-template)、ビジュアルデザインスペースを使用して、メールテンプレートのレイアウトとコンテンツを定義します。
+
+## モジュールを追加
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 構造とコンテンツの追加 {#structure-content}
 
