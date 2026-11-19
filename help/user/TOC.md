@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B エディションのドキュメント
 user-guide-description: Adobe Journey Optimizer B2B Edition の概要と、ビルトインの生成 AI と業界最先端の自動化機能を使用して、アカウントと購買グループのジャーニーを調整する方法について説明します。
-source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '471'
 ht-degree: 78%
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 78%
   + [ジャーニーの作成と公開](./journeys/create-publish-journey.md)
   + {hide-from-toc}[ジャーニートラフィック制御](./journeys/journey-traffic-control.md)
   + [ジャーニーの再入場](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[ジャーニーノード &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[ジャーニーノード ](./journeys/journey-nodes.md)
   + ジャーニーノード {#journey-nodes}
     + [アカウントオーディエンス](./journeys/account-audience-nodes.md)
     + [顧客オーディエンス](./journeys/person-audience-nodes.md)
@@ -150,6 +150,7 @@ ht-degree: 78%
     + [ランディングページのデザイン](./content/landing-page-design.md)
     + [ランディングページコンテンツの生成](./content/generate-content-landing-pages.md)
   + コンテンツデザインツール {#content-design}
+    + [コンテンツモジュール](./content/content-modules.md)
     + [構造コンポーネント](./content/structure-components.md)
     + [コンテンツコンポーネント](./content/content-components.md)
     + [カスタム CSS](./content/design-custom-css.md)
@@ -176,7 +177,7 @@ ht-degree: 78%
     + [インテントデータ](./admin/intent-data.md)
     + [エンゲージメントスコアの重み付け](./admin/engagement-score-weighting.md)
     + [外部アクション](./admin/configure-external-actions.md)
-    + {hide-from-toc}[&#x200B; イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
+    + {hide-from-toc}[ イベント収集用のデータストリームの設定](./data/aep-event-collection.md)
   + チャネル {#channels}
     + [メール設定](./admin/configure-channels-emails.md)
     + [SMS 設定](./admin/configure-channels-sms.md)
