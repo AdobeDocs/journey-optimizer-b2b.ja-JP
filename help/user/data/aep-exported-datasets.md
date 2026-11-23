@@ -23,9 +23,9 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
 autotag-review: '2026-09-29T00:00:00.000Z'
-source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
+source-git-commit: ddeb4c1a777efa3449470a32784065a14eb6e7d1
 workflow-type: tm+mt
-source-wordcount: '4845'
+source-wordcount: '4862'
 ht-degree: 7%
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 ここでは、`<entity>`は、`person`、`account_relational`、`person_event`などの情報について説明します。 `<datasetVersion>`は、データセットのフィールド定義のバージョンを識別します。 セクションの見出しに文書化された名前が表示されます。[!DNL Experience Platform]環境に古いバージョンが含まれている場合もあります。
 
-これらの書き出しをサポートする名前空間とスキーマの設定については、[B2B名前空間とスキーマ &#x200B;](./namespaces-schemas.md)を参照してください。
+これらの書き出しをサポートする名前空間とスキーマの設定については、[B2B名前空間とスキーマ ](./namespaces-schemas.md)を参照してください。
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ ht-degree: 7%
 
 +++エンティティ関係図
 
-[!DNL Adobe Experience Platform]![&#128279;](./assets/ajo-b2b-data-model.svg)に書き出されたデータセットの エンティティ関係ダイアグラム
+[!DNL Adobe Experience Platform]](./assets/ajo-b2b-data-model.svg)に書き出されたデータセットの![ エンティティ関係ダイアグラム
 
 +++
 
@@ -107,7 +107,7 @@ ht-degree: 7%
 >
 >組織には、ここに記載されている以外の追加の個人フィールドがある場合があります。
 
-組織が独自に設定されたアカウントまたは人物のデータセットを使用する場合、これらのレコードには`isDeleted`も含めることができます。 [顧客所有データセット &#x200B;](#customer-owned-datasets)を参照してください。
+組織が独自に設定されたアカウントまたは人物のデータセットを使用する場合、これらのレコードには`isDeleted`も含めることができます。 [顧客所有データセット ](#customer-owned-datasets)を参照してください。
 
 ## `AJOB2B-1_5_4-account_member`
 
@@ -388,6 +388,12 @@ ht-degree: 7%
 
 ### メールの購読解除（`directMarketing.emailUnsubscribed`）
 
+メールの登録解除イベントは[!DNL Adobe Marketo Engage]から発生し、[!DNL Journey Optimizer B2B Edition]にインポートされます。
+
+>[!NOTE]
+>
+>このイベントでは、`_experience.journeyOrchestration.stepEvents.journeyID`と`_experience.journeyOrchestration.stepEvents.nodeID`は常に空です。
+
 | フィールド名 | 関係 | データの意味 |
 |------------|-------------|-------------|
 | `_id` | レコード ID | アクティビティ ID: |
@@ -404,8 +410,8 @@ ht-degree: 7%
 | `directMarketing.mailingKey.sourceKey` |  | メールコンテンツの完全なID。 |
 | `directMarketing.mailingName` |  | 郵送先名。 |
 | `directMarketing.email` |  | メールアドレス： |
-| `_experience.journeyOrchestration.stepEvents.journeyID` | `AJOB2B-1_5_4-person_journey`に一致します（`_id`） | ジャーニーid （帰属する場合）。 |
-| `_experience.journeyOrchestration.stepEvents.nodeID` | `AJOB2B-1_5_4-person_journey_node`に一致します（`_id`） | ジャーニーノード id （帰属する場合）。 |
+| `_experience.journeyOrchestration.stepEvents.journeyID` |  | メール登録解除イベントの場合は常に空です。 |
+| `_experience.journeyOrchestration.stepEvents.nodeID` |  | メール登録解除イベントの場合は常に空です。 |
 
 ### 開封された電子メール （`directMarketing.emailOpened`）
 
