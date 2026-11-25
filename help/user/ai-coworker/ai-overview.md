@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '895'
 ht-degree: 8%
 ---
 # JOURNEY OPTIMIZER B2B EDITIONのAI機能
@@ -42,21 +42,23 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->[!DNL Journey Optimizer B2B Edition]でAI機能を使用するには、[&#x200B; ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意が必要です。 この契約書には、公開ベータ版の契約書も含まれているため、追加のAI対応機能をロールアウト時に使用できます。
+>[!DNL Journey Optimizer B2B Edition]でAI機能を使用するには、[ ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}への同意が必要です。 この契約書には、公開ベータ版の契約書も含まれているため、追加のAI対応機能をロールアウト時に使用できます。
 
 +++ユーザー契約書インターフェイスの表示
 
-![&#x200B; ユーザー契約書の最初のページ。](./assets/user-agreement-1.png)
+![ ユーザー契約書の最初のページ。](./assets/user-agreement-1.png)
 
-![&#x200B; ユーザー契約書の最後のページ。](./assets/user-agreement-2.png)
+![ ユーザー契約書の最後のページ。](./assets/user-agreement-2.png)
 
 +++
 
 ## [!DNL Coworker] アプリを使用 {#coworker-app}
 
-コンテンツの生成以外のすべてのチャットワークフローに[!DNL CX Enterprise Coworker] アプリのインターフェイスを使用します。 製品に関する質問をしたり、業務上のインサイトを確認したり、B2B アカウントとユーザー向けに[&#x200B; ジャーニースキル &#x200B;](../agents/journey-agent.md)と[&#x200B; オーディエンススキル &#x200B;](../agents/audience-agent-b2b.md)を活用したりできます。 コンテンツの生成は、[!DNL Journey Optimizer B2B Edition]内で引き続き利用できます。
+コンテンツの生成以外のすべてのチャットワークフローに[!DNL CX Enterprise Coworker] アプリのインターフェイスを使用します。 製品に関する質問をしたり、業務上のインサイトを確認したり、B2B アカウントとユーザー向けに[ ジャーニースキル ](../agents/journey-skills.md)と[ オーディエンススキル ](../agents/audience-skills-b2b.md)を活用したりできます。 コンテンツの生成は、[!DNL Journey Optimizer B2B Edition]内で引き続き利用できます。
 
-アプリを開く、会話を開始する、チャット機能を使用する方法については、[CX Coworker インターフェイスガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
+サポートされているジャーニータスク、承認要件、およびワークフローの例については、[Adobe Journey Optimizer B2B Editionの共同作業者](../agents/coworker-overview.md)を参照してください。
+
+アプリを開く、会話を開始する、チャット機能を使用する方法については、[CX Coworker インターフェイスガイド ](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
 
 [!DNL Coworker]件のチャットクエリを送信する前に、必要な問い合わせタイプを検討してください。
 
@@ -78,7 +80,7 @@ _運用上のインサイト_&#x200B;とは、[!DNL Coworker]がメタデータ�
 * これまでジャーニーで使用されていないアカウントオーディエンスの数？
 * ソリューションの関心&#x200B;_x_&#x200B;を使用するアクティブなジャーニーはどれですか？
 
-次のドメインで、運用上のインサイトについて[!DNL Coworker]件の質問を行うことができます。
+次の表は、すべての[!DNL Coworker]機能ではなく、運用上のインサイトに関する質問を示しています。 ジャーニーの作成と変更は、[ ジャーニースキルワークフロー](../agents/coworker-overview.md#skills)ごとに個別に行います。 これらのワークフローは、保存されたドラフトに変更が適用されるアカウントと個人のジャーニーをサポートします。
 
 | ドメイン | サポートされているメタデータ | サポートされていないメタデータ |
 | --- | --- | --- |
@@ -115,4 +117,4 @@ _運用上のインサイト_&#x200B;とは、[!DNL Coworker]がメタデータ�
 
 * [AI機能へのアクセスを有効にする](./enable-ai-access.md)
 * [質問ガイダンス](./question-guidance.md)
-* [CX Coworker インターフェイスガイド](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [CX Coworker インターフェイスガイド](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}

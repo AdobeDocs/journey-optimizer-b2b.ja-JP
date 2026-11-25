@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
-source-wordcount: '5924'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Journey Optimizer B2B Edition リリースノート
@@ -112,7 +112,7 @@ Journey Optimizer B2B Edition は、[!DNL Adobe Experience Platform] 上にネ�
 | 機能 | エクスペリエンスイベント履歴のフィルタリング | この機能により、B2B ジャーニーオーケストレーションでは、過去のエンゲージメントを利用して、オーディエンスメンバーの行動に基づく意思決定を促進することができます。 [詳細情報](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | 機能 | 次の最適なパスのジャーニーノード | 個人ジャーニーの分割パス決定を最適化し、ジャーニーをアクティブ化する前や実行時に、パスをまたいでオーディエンスをルーティングする方法を調整できます。 [詳細情報](../journeys/next-best-path-node.md) |
 | 機能 | メールパフォーマンスダッシュボード | メールパフォーマンスダッシュボードでは、マーケターはAdobe Journey Optimizer B2B Editionのあらゆるジャーニーをまたいで、メール活動の統一されたビューを利用できます。 [詳細情報](../dashboards/email-performance-dashboard.md) |
-| 機能強化 | Audience AgentのB2B スキル | AIを活用した購買グループテンプレートの作成など、Audience AgentのB2B スキルが更新されます。 ファーストパーティのインテントとペルソナのマッピングを使用して、購買グループのテンプレートを生成し、AIが推奨する役割とペルソナのマッピングを確認し、公開する前に自然言語でテンプレートを改善します。 [詳細情報](../agents/audience-agent-b2b.md) |
+| 機能強化 | Audience AgentのB2B スキル | AIを活用した購買グループテンプレートの作成など、Audience AgentのB2B スキルが更新されます。 ファーストパーティのインテントとペルソナのマッピングを使用して、購買グループのテンプレートを生成し、AIが推奨する役割とペルソナのマッピングを確認し、公開する前に自然言語でテンプレートを改善します。 [詳細情報](../agents/audience-skills-b2b.md) |
 | 機能強化 | ジャーニー概要ダッシュボード – 人物ジャーニー | 個人ジャーニー（Beta）に、_[!UICONTROL 概要]_ タブが追加され、ジャーニー完了率の分布、エンゲージメントタイプ別のジャーニー、ドリルスルーおよび書き出しアクションなど、アカウントジャーニーと同じ分析が使用できるようになりました。 [詳細情報](../dashboards/journeys-dashboard.md) |
 | 機能強化 | AEP リレーショナルデータセットのサポート | 新しいリレーショナルデータセットが、既存のデータセットとともにAEP サンドボックスに表示されるようになりました。 |
 
@@ -177,8 +177,8 @@ Journey Optimizer B2B Editionでは、チャットインターフェイス内で
 
 | エージェント | 更新 | 説明 |
 | ----- | ------ | ----------- |
-| Journey Build Agent | 新規および更新済み | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。 [詳細情報](../agents/journey-agent.md) |
-| Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。 これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。 [詳細情報](../agents/audience-agent-b2b.md) |
+| Journey Build Agent | 新規および更新済み | Journey Build Agent は、ジャーニーの分析、考案、共同作成をリアルタイムで行うので、マーケターはより迅速にジャーニーを開始し、エンゲージメントを向上させ、コンバージョン率を高めることができます。 [詳細情報](../agents/journey-skills.md) |
+| Audience Agent | 新規 | Audience Agent は、構造化データと非構造化データを使用して、購買グループを自動的に特定および作成します。 これは、マーケターが適切な人物をより迅速かつ正確にターゲットにするのに役立ちます。 [詳細情報](../agents/audience-skills-b2b.md) |
 | [!DNL Marketo Qualifier] | 新規 | [!DNL Adobe Marketo Qualifier]は、[!DNL Journey Optimizer B2B Edition]と統合するAI ドリブン アプリケーションです。 Account Qualification Agentを実装し、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 チャネルをまたいで、見込み客のクオリフィケーション、アウトリーチ、バイヤーのエンゲージメントワークフローを自動化できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## 2025.10 リリースノート {#rel-2025-10}
@@ -220,7 +220,7 @@ Journey Optimizer B2B Editionでは、チャットインターフェイス内で
 
 >[!NOTE]
 >
->設定ガイダンスについては、[設定チェックリスト &#x200B;](../setup-ultimate.md)を参照してください。
+>設定ガイダンスについては、[設定チェックリスト ](../setup-ultimate.md)を参照してください。
 
 更新されたアーキテクチャを使用した2025.10 リリースでは、次の新機能と機能強化が利用可能です。
 
@@ -321,7 +321,7 @@ Journey Optimizer B2B Editionでは、チャットインターフェイス内で
 | 機能 | アカウントジャーニーを複製 | アカウントジャーニーで複製アクションが使用できるようになりました。 アカウントジャーニーの詳細を複製するか、フローとパス構造のシンプルなスケルトンのみを複製できます。 <a href="../journeys/journeys-overview.md#duplicate-journey">詳細情報</a> |
 | 機能 | アカウントジャーニーのマイトークン | アカウントジャーニーに固有の値を持つカスタムトークンのセットを定義できるようになりました。 このカスタムトークンのセットは&#x200B;_マイトークン_&#x200B;と呼ばれ、これらのカスタムトークンはすべて、ジャーニーメールのオーサリング時にパーソナライゼーション用に使用されます。 <a href="../content/personalization-my-tokens.md">詳細情報</a> |
 | 機能 | 購買グループのステージを削除 | 購買グループステージモデルは、ドラフト状態または公開済みの状態の場合に削除できます。 公開済み（ライブ）の場合は、ソリューションインタレストに関連付けられていない場合にのみ削除できます。 <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">詳細情報</a> |
-| 機能強化 | ジャーニーノードの数 | ノードレベルでの公開済みジャーニーメンバーシップの数に対する表示が向上しました。 _ジャーニーマップ_&#x200B;では、ノードに&#x200B;_[!UICONTROL 入力済み合計アカウント数]_&#x200B;が表示されます。 マーケターがアクションノードを選択すると、右側の詳細には、_に対してまだアクションを実行していない_ アカウントも含まれます。 _イベントをリッスン_&#x200B;ノードの詳細には、_[!UICONTROL このステップのアカウント]_&#x200B;が含まれます。 この情報は、ライブジャーニー、完了ジャーニー、中断ジャーニーのアカウントの進行状況を検証するのに役立ちます。 |
+| 機能強化 | ジャーニーノードの数 | ノードレベルでの公開済みジャーニーメンバーシップの数に対する表示が向上しました。 _ジャーニーマップ_&#x200B;では、ノードに&#x200B;_[!UICONTROL 入力済み合計アカウント数]_&#x200B;が表示されます。 マーケターがアクションノードを選択すると、右側の詳細には、]_に対してまだアクションを実行していない_[!UICONTROL  アカウントも含まれます。 _イベントをリッスン_&#x200B;ノードの詳細には、_[!UICONTROL このステップのアカウント]_&#x200B;が含まれます。 この情報は、ライブジャーニー、完了ジャーニー、中断ジャーニーのアカウントの進行状況を検証するのに役立ちます。 |
 
 ## 2025.2 リリースノート {#rel-2025-2}
 

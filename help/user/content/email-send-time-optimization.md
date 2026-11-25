@@ -28,7 +28,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 876251dd1b69fc768c790daf0b9b1482015d69af
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -64,7 +64,7 @@ STOに対して計画されている&#x200B;**_今後の機能強化_**&#x200B;�
 
 ## 設定
 
-[&#x200B; ユーザーのジャーニーに&#x200B;_[!UICONTROL アクションを実行]_ ノード &#x200B;](../journeys/action-nodes.md)を追加すると、送信時間の最適化を設定できます。
+[ ユーザーのジャーニーに&#x200B;_[!UICONTROL アクションを実行]_ ノード ](../journeys/action-nodes.md)を追加すると、送信時間の最適化を設定できます。
 
 1. _[!UICONTROL アクションを選択]_&#x200B;するには、**[!UICONTROL メールを送信]**&#x200B;を選択します。
 
@@ -80,9 +80,9 @@ STOに対して計画されている&#x200B;**_今後の機能強化_**&#x200B;�
    >
    >強力なエンゲージメント履歴を持つプロファイルは、STOの影響を測定するために、コントロールグループとテストグループに均等に分割されます。 統計的に信頼性の高い結果を得るために、STOと非STOの分割は30%から70%の間で制限されています。 これにより、より小さなコホートで結果が歪むことを防ぎ、有意義な比較を実現できます。
 
-   ![&#x200B; メールジャーニーノードの送信 – 送信時間の最適化オプション &#x200B;](./assets/email-node-send-time-optimization.png){width="700" zoomable="no"}
+   ![ メールジャーニーノードの送信 – 送信時間の最適化オプション ](./assets/email-node-send-time-optimization.png){width="700" zoomable="no"}
 
-1. _[!UICONTROL メールを送信]_ ノードの直後に、[様が&#x200B;_待機_ ノード &#x200B;](../journeys/wait-nodes.md)を追加します。
+1. _[!UICONTROL メールを送信]_ ノードの直後に、[様が&#x200B;_待機_ ノード ](../journeys/wait-nodes.md)を追加します。
 
    待機ノードは、STO対応のメールアクションに直ちに従う必要があります。 このノードを追加すると、最適化ウィンドウ全体がクリアされ、すべてのSTO送信が完了するまで、プロファイルがジャーニーに残ります。 このノードを省略すると、システムは設定を無効としてフラグ付けします。
 
@@ -90,4 +90,4 @@ STOに対して計画されている&#x200B;**_今後の機能強化_**&#x200B;�
 
 ## STO インサイト
 
-STO インサイトは、[_ジャーニーの観測可能性スキル_](../agents/journey-agent.md#journey-observability-skills)&#x200B;を使用して、_[!DNL Coworker]チャット_&#x200B;を通じて提供されます。 使用状況、エンゲージメント指標、テスト/制御結果、ノードのパフォーマンス、ジャーニー全体の影響などのクエリを実行できます。
+STO インサイトは、[_ジャーニーの観測可能性スキル_](../agents/journey-skills.md#journey-observability-skills)&#x200B;を使用して、_[!DNL Coworker]チャット_&#x200B;を通じて提供されます。 使用状況、エンゲージメント指標、テスト/制御結果、ノードのパフォーマンス、ジャーニー全体の影響などのクエリを実行できます。
