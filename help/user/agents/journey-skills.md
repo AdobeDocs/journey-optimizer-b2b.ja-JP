@@ -50,7 +50,7 @@ ht-degree: 0%
 * [ジャーニー作成ガイダンス &#x200B;](#journey-creation-skills)：概要を作成し、作成する前にドラフトを確認します。
 * [ジャーニーの可観測性に関するガイダンス &#x200B;](#journey-observability-skills)：アカウントとユーザーがアクティブなジャーニーをどのように移動するかについて質問します。
 
-アプリを開いて会話を開始する方法については、[同僚インターフェイスガイド &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
+アプリを開いて会話を開始する方法については、[同僚インターフェイスガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
 
 ## ジャーニー制作のスキル {#journey-creation-skills}
 

@@ -43,7 +43,7 @@ ht-degree: 2%
 
 [!DNL Coworker]は、組織の既存の[製品権限](../admin/user-management.md#b2b-product-permissions)を尊重します。 既に実行が許可されているアクションのみを実行できます。 書き込みアクセス権を持つ場合は、管理者が制御します。 アクセス要件については、[AI アクセスの有効化](../ai-coworker/enable-ai-access.md)を参照してください。
 
-[!DNL Coworker]は、[!DNL Journey Optimizer B2B Edition]だけでなく、Adobe エコシステム全体で機能します。 その広範な機能については、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}を参照してください。 アプリを開いて会話を開始する方法については、[同僚インターフェイスガイド &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
+[!DNL Coworker]は、[!DNL Journey Optimizer B2B Edition]だけでなく、Adobe エコシステム全体で機能します。 その広範な機能については、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/overview){target="_blank"}を参照してください。 アプリを開いて会話を開始する方法については、[同僚インターフェイスガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
 
 ## ジャーニー能力 {#skills}
 
