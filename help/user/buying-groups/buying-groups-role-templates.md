@@ -18,7 +18,7 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 5%
@@ -33,7 +33,7 @@ B2B市場では、通常、複数の個人が購入決定を行います。 こ�
 
 ## オーディエンスのスキル
 
-B2B アカウントと人物[&#128279;](../agents/audience-agent-b2b.md)の オーディエンススキルを使用して、ファーストパーティのインテント検出とペルソナマッピングから購買グループの役割テンプレートを生成します。 ガイド付きのフローでは、製品にリンクされたペルソナを特定し、AIが推奨する役割とペルソナのマッピングを確認し、公開する前に自然言語でテンプレートを絞り込むことができます。
+B2B アカウントと人物[&#128279;](../agents/audience-skills-b2b.md)の オーディエンススキルを使用して、ファーストパーティのインテント検出とペルソナマッピングから購買グループの役割テンプレートを生成します。 ガイド付きのフローでは、製品にリンクされたペルソナを特定し、AIが推奨する役割とペルソナのマッピングを確認し、公開する前に自然言語でテンプレートを絞り込むことができます。
 
 **次の操作を試すプロンプト：**
 
