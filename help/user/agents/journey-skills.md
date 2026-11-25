@@ -45,12 +45,12 @@ ht-degree: 0%
 
 [!DNL Adobe CX Enterprise Coworker] チャットを使用して、[!DNL Adobe Journey Optimizer B2B Edition]でジャーニーを検索、作成、設定します。 概要から検証済みのドラフトを作成し、保存されたドラフトグラフと再入力設定を変更し、未設定のノードを設定します。 ジャーニーの変更は、アクティブなジャーニーではなく、保存されたドラフトに適用されます。
 
-ルックアップ、作成、ルールのスキル識別子と、それらがサポートするアクションについては、[同僚ジャーニースキルリファレンス ](./coworker-overview.md#skills)を参照してください。 この記事では、準備に関する簡単なガイダンスとジャーニーの観測可能性の例を提供します。
+ルックアップ、作成、ルールのスキル識別子と、それらがサポートするアクションについては、[同僚ジャーニースキルリファレンス &#x200B;](./coworker-overview.md#skills)を参照してください。 この記事では、準備に関する簡単なガイダンスとジャーニーの観測可能性の例を提供します。
 
-* [ジャーニー作成ガイダンス ](#journey-creation-skills)：概要を作成し、作成する前にドラフトを確認します。
-* [ジャーニーの可観測性に関するガイダンス ](#journey-observability-skills)：アカウントとユーザーがアクティブなジャーニーをどのように移動するかについて質問します。
+* [ジャーニー作成ガイダンス &#x200B;](#journey-creation-skills)：概要を作成し、作成する前にドラフトを確認します。
+* [ジャーニーの可観測性に関するガイダンス &#x200B;](#journey-observability-skills)：アカウントとユーザーがアクティブなジャーニーをどのように移動するかについて質問します。
 
-アプリを開いて会話を開始する方法については、[同僚インターフェイスガイド ](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
+アプリを開いて会話を開始する方法については、[同僚インターフェイスガイド &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
 
 ## ジャーニー制作のスキル {#journey-creation-skills}
 
@@ -75,9 +75,9 @@ ht-degree: 0%
 
 検証済みのプレビューで、ジャーニーのタイプ、解決済みのオーディエンス、ノード、パスを確認します。 作成は、グラフがブリーフと一致する場合にのみ承認されます。
 
-承認後、[!DNL Coworker]はドラフトを作成し、そのリンクを返します。 フォローアップリクエストを使用して、ルールスキルを使用して未設定のノードを設定します。 メッセージのコピーをアプリケーションに追加し、[ ジャーニーのレビューと公開手順](../journeys/create-publish-journey.md)を完了します。
+承認後、[!DNL Coworker]はドラフトを作成し、そのリンクを返します。 フォローアップリクエストを使用して、ルールスキルを使用して未設定のノードを設定します。 メッセージのコピーをアプリケーションに追加し、[&#x200B; ジャーニーのレビューと公開手順](../journeys/create-publish-journey.md)を完了します。
 
-完全な例については、[ アカウントジャーニーの構築](./coworker-overview.md#build-account-journey)を参照してください。
+完全な例については、[&#x200B; アカウントジャーニーの構築](./coworker-overview.md#build-account-journey)を参照してください。
 
 ### 多段階のジャーニー
 

@@ -43,7 +43,7 @@ ht-degree: 2%
 
 [!DNL Coworker]は、組織の既存の[製品権限](../admin/user-management.md#b2b-product-permissions)を尊重します。 既に実行が許可されているアクションのみを実行できます。 書き込みアクセス権を持つ場合は、管理者が制御します。 アクセス要件については、[AI アクセスの有効化](../ai-coworker/enable-ai-access.md)を参照してください。
 
-[!DNL Coworker]は、[!DNL Journey Optimizer B2B Edition]だけでなく、Adobe エコシステム全体で機能します。 その広範な機能については、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}を参照してください。 アプリを開いて会話を開始する方法については、[同僚インターフェイスガイド ](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
+[!DNL Coworker]は、[!DNL Journey Optimizer B2B Edition]だけでなく、Adobe エコシステム全体で機能します。 その広範な機能については、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}を参照してください。 アプリを開いて会話を開始する方法については、[同僚インターフェイスガイド &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}を参照してください。
 
 ## ジャーニー能力 {#skills}
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 | `journey-creation-ajob2b` | ブリーフをジャーニーに変換。 ジャーニータイプを選択し、オーディエンスを[!DNL Adobe Experience Platform]のオーディエンス IDに解決し、グラフを検証してプレビューします。 明示的な承認後にドラフトを作成します。 保存したドラフトのグラフと再入力設定を編集します。 | 既存のジャーニーの検索、ルールの設定、メッセージのコピーの作成、購買グループテンプレートの管理、オーディエンスの発見、公開、削除を実行できます。 |
 | `journey-rules-ajob2b` | 保存済みジャーニーの未設定ノードで、分割された条件、アクション、イベント、動的リストオーディエンスを設定します。 | グラフの変更、ジャーニーの検索、電子メールやSMSのコピーの作成、オーディエンスの発見、公開を行うことができます。 |
 
-プロンプトガイダンスについて詳しくは、「[B2B向けジャーニースキル ](./journey-skills.md)」を参照してください。 アカウントと個人のオーディエンスを操作するには、[B2B アカウントとユーザーのオーディエンススキル ](./audience-skills-b2b.md)を参照してください。
+プロンプトガイダンスについて詳しくは、「[B2B向けジャーニースキル &#x200B;](./journey-skills.md)」を参照してください。 アカウントと個人のオーディエンスを操作するには、[B2B アカウントとユーザーのオーディエンススキル &#x200B;](./audience-skills-b2b.md)を参照してください。
 
 ## ユースケースの例 {#use-cases}
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 1. ドラフトの未設定のノードを設定するように[!DNL Coworker]に依頼します。
 1. [!DNL Journey Optimizer B2B Edition]でドラフトを開いて、メッセージのコピーを追加し、ジャーニーを確認します。
 
-その結果は、公開されたジャーニーではなく、ドラフトジャーニーです。 アプリケーションで[ ジャーニーのレビューと公開手順](../journeys/create-publish-journey.md)を完了します。
+その結果は、公開されたジャーニーではなく、ドラフトジャーニーです。 アプリケーションで[&#x200B; ジャーニーのレビューと公開手順](../journeys/create-publish-journey.md)を完了します。
 
 ### ジャーニーの調査と更新 {#inspect-update-journeys}
 
@@ -87,7 +87,7 @@ ht-degree: 2%
 1. [!DNL Coworker]に分割条件の設定を依頼します。 例：_下書きジャーニーの14252ークフローの場合、高いインテントのブランチに価格ページへの訪問が必要になります。_
 1. 再エントリの変更をリクエストします。 例：_下書きジャーニーの14252ークフローの場合、アカウントが30日間再入力されるのを防ぎます。_
 
-変更は保存されたドラフトに適用されます。 公開は別のステップです。 設定の詳細については、[ パスの分割と結合](../journeys/split-merge-paths-nodes.md)および[ジャーニーの再エントリ ](../journeys/journey-re-entry.md)を参照してください。
+変更は保存されたドラフトに適用されます。 公開は別のステップです。 設定の詳細については、[&#x200B; パスの分割と結合](../journeys/split-merge-paths-nodes.md)および[ジャーニーの再エントリ &#x200B;](../journeys/journey-re-entry.md)を参照してください。
 
 ## MCP ツール {#mcp-tools}
 
